@@ -1,0 +1,5 @@
+* text=auto !eol
+/apertium-fra.fra.acx -text
+/apertium-fra.fra.metadix -text
+/fra.prob -text svneol=unset#unset
+texts/codein/comedie_musicale1.tagged.charlesw.txt -text
