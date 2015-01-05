@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary>
+  <alphabet/>
+  <pardefs>
+    <pardef n="caracter_general">
+      <e><i>;</i></e>
+      <e><i>#</i></e>
+      <e><i>)</i></e>
+      <e><i>:</i></e>
+      <e><i>(</i></e>
+      <e><i>[</i></e>
+      <e><i>]</i></e>
+      <e><i>"</i></e>
+      <e><i>'</i></e>
+      <e><i>~</i></e>
+      <e><i>*</i></e>
+      <e><i>@</i></e>
+      <e><i>«</i></e>
+      <e><i>-</i></e>
+      <e><i>,</i></e>
+      <e><i>?</i></e>
+      <e><i>/</i></e>
+      <e><i>`</i></e>
+      <e><i>±</i></e>
+      <e><i>­</i></e>
+      <e><i>$</i></e>
+      <e><i>)</i></e>
+      <e><i>:</i></e>
+      <e><i>.</i></e>
+      <e><i><b/></i></e>
+    </pardef>
+
+    <pardef n="article_complet">
+      <e><i>hache</i></e>
+      <e><i>haie</i></e>
+      <e><i>haine</i></e>
+      <e><i>haïr</i></e>
+      <e><i>haleter</i></e>
+      <e><i>hall</i></e>
+      <e><i>halle</i></e>
+      <e><i>halot</i></e>
+      <e><i>halte</i></e>
+      <e><i>hamac</i></e>
+      <e><i>hameau</i></e>
+      <e><i>hampe</i></e>
+      <e><i>hamster</i></e>
+      <e><i>hanche</i></e>
+      <e><i>handicap</i></e>
+      <e><i>hangar</i></e>
+      <e><i>hanneton</i></e>
+      <e><i>hanter</i></e>
+      <e><i>harceler</i></e>
+      <e><i>hardi</i></e>
+      <e><i>harem</i></e>
+      <e><i>hareng</i></e>
+      <e><i>hargne</i></e>
+      <e><i>haricot</i></e>
+      <e><i>harnais</i></e>
+      <e><i>harpe</i></e>
+      <e><i>harpon</i></e>
+      <e><i>hasard</i></e>
+      <e><i>hâte</i></e>
+      <e><i>hauban</i></e>
+      <e><i>hausse</i></e>
+      <e><i>haut</i></e>
+      <e><i>hautain</i></e>
+      <e><i>hautbois</i></e>
+      <e><i>Havane</i></e>
+      <e><i>havre</i></e>
+      <e><i>hère</i></e>
+      <e><i>hérisson</i></e>
+      <e><i>héron</i></e>
+      <e><i>héros</i></e>
+      <e><i>herse</i></e>
+      <e><i>hibou</i></e>
+      <e><i>hiéroglyphe</i></e>
+      <e><i>hochet</i></e>
+      <e><i>hockey</i></e>
+      <e><i>Hollande</i></e>
+      <e><i>homard</i></e>
+      <e><i>Hongrie</i></e>
+      <e><i>honte</i></e>
+      <e><i>hoquet</i></e>
+      <e><i>horde</i></e>
+      <e><i>houblon</i></e>
+      <e><i>housse</i></e>
+      <e><i>hublot</i></e>
+      <e><i>huisclos</i></e>
+      <e><i>huit</i></e>
+      <e><i>hure</i></e>
+      <e><i>hurler</i></e>
+      <e><i>hussard</i></e>
+      <e><i>hutte</i></e>
+    </pardef>
+
+    <pardef n="vocals">
+      <e><i>a</i></e>
+      <e><p><l><a/>e</l><r>e</r></p></e>
+      <e><i>e</i></e>
+      <e><i>i</i></e>
+      <e><i>o</i></e>
+      <e><i>u</i></e>
+      <e><i>è</i></e>
+      <e><i>á</i></e>
+      <e><i>é</i></e>
+      <e><i>í</i></e>
+      <e><i>ó</i></e>
+      <e><i>ú</i></e>
+      <e><i>â</i></e>
+      <e><i>ê</i></e>
+      <e><i>î</i></e>
+      <e><i>ô</i></e>
+      <e><i>h</i></e>
+      <e><i>y</i></e>
+    </pardef>
+
+    <pardef n="consonants">
+      <e><i>b</i></e>
+      <e><i>c</i></e>
+      <e><i>d</i></e>
+      <e><i>f</i></e>
+      <e><i>g</i></e>
+      <e><i>j</i></e>
+      <e><i>k</i></e>
+      <e><i>l</i></e>
+      <e><i>m</i></e>
+      <e><i>n</i></e>
+      <e><i>p</i></e>
+      <e><i>q</i></e>
+      <e><i>r</i></e>
+      <e><i>s</i></e>
+      <e><i>t</i></e>
+      <e><i>v</i></e>
+      <e><i>w</i></e>
+      <e><i>x</i></e>
+      <e><i>z</i></e>
+      <e><i>ç</i></e>
+    </pardef>
+
+    <pardef n="de">
+      <e><p><l><b/><a/>les</l><r>es</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>le<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/></l><r>u<b/></r></p><par n="consonants"/></e>
+      <e><p><l><b/><a/>le</l><r>u</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>la<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="consonants"/></e>
+      <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="caracter_general"/></e>
+      <e><p><l><b/></l><r>'</r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>ma<b/></l><r>e<b/>mon<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>ta<b/></l><r>e<b/>ton<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>sa<b/></l><r>e<b/>son<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/></l><r>e<b/></r></p><par n="consonants"/></e>
+      <e><p><l><b/>lequel</l><r>uquel</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/>lesquels</l><r>esquels</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/>lesquelles</l><r>esquelles</r></p><par n="caracter_general"/></e>
+    </pardef>
+
+    <pardef n="se_le">
+      <e><p><l><a/>se<b/><a/>les<b/></l><r>les<b/>leur<b/></r></p></e>
+      <e><p><l><a/>se<b/><a/>le<b/></l><r>le<b/>lui<b/></r></p></e>
+      <e><p><l><a/>se<b/><a/>la<b/></l><r>la<b/>lui<b/></r></p></e>
+    </pardef>
+
+    <pardef n="le">
+      <e><p><l><a/>les</l><r>e<b/>les</r></p><par n="caracter_general"/></e>
+      <e><p><l><a/>le<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+    </pardef>
+
+    <pardef n="à">
+      <e><p><l><b/><a/>les</l><r>aux</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>le<b/></l><r>à<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/></l><r>au<b/></r></p><par n="consonants"/></e>
+      <e><p><l><b/><a/>la<b/></l><r>à<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="consonants"/></e>
+      <e><p><l><b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>le</l><r>au</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>de</l><r>à<b/>d</r></p><par n="de"/></e>
+      <e><p><l><b/><a/>ma<b/></l><r>à<b/>mon<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>ta<b/></l><r>à<b/>ton<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>sa<b/></l><r>à<b/>son<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/></l><r>à<b/></r></p><par n="consonants"/></e>
+      <e><p><l><b/></l><r>à<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/>lequel</l><r>auquel</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/>lesquels</l><r>auxquels</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/>lesquelles</l><r>auxquelles</r></p><par n="caracter_general"/></e>
+    </pardef>
+
+    <pardef n="je">
+      <e><p><l><a/>ne<b/></l><r>e<b/>n'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>me<b/></l><r>e<b/>m'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>te<b/></l><r>e<b/>t'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>le<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l></l><r>e<b/></r></p><par n="se_le"/></e>
+      <e><p><l><a/>se<b/></l><r>e<b/>s'</r></p><par n="vocals"/></e>
+      <e><p><l></l><r>'</r></p><par n="vocals"/></e>
+      <e><p><l></l><r>e<b/></r></p><par n="consonants"/></e>
+    </pardef>
+  </pardefs>
+
+  <section id="main" type="standard">
+      <e><p><l><a/>à</l><r/></p><par n="à"/></e>
+      <e><p><l><a/>plus<b/><a/>de<b/><a/>les</l><r>plus<b/>d</r></p><par n="de"/></e>
+      <e><p><l><a/>moins<b/><a/>de<b/><a/>les</l><r>moins<b/>d</r></p><par n="de"/></e>
+      <e><p><l><a/>de</l><r>d</r></p><par n="de"/></e>
+      <e><p><l><a/>ne<b/></l><r>n'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>ne<b/><a/>le<b/></l><r>ne<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>ne<b/><a/>la<b/></l><r>ne<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>le<b/></l><r>le<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>le<b/></l><r>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>la<b/></l><r>la<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>la<b/></l><r>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>me<b/></l><r>m'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>ne<b/><a/>me<b/></l><r>ne<b/>m'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>me<b/></l><r>m</r></p><par n="le"/></e>
+      <e><p><l><a/>te<b/></l><r>t'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>ne<b/><a/>te<b/></l><r>ne<b/>t'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>te<b/></l><r>t</r></p><par n="le"/></e>
+      <e><par n="se_le"/></e>
+      <e><p><l><a/>se<b/></l><r>s</r></p><par n="le"/></e>
+      <e><p><l><a/>ne<b/><a/>se<b/></l><r>ne<b/>s'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>je<b/></l><r>j</r></p><par n="je"/></e>
+      <e><p><l><a/>se<b/></l><r>s'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>de<b/><a/>ce<b/></l><r>de<b/>cet<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>ce<b/></l><r>cet<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>ce<b/>est</l><r>c'est</r></p></e>
+      <e><p><l><a/>ce<b/>était</l><r>c'était</r></p></e>
+      <e><p><l><a/>ce<b/>étais</l><r>c'étais</r></p></e>
+      <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
+      <e><p><l><a/>lorsque<b/></l><r>lorsqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>puisque<b/></l><r>puisqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>quoique<b/></l><r>quoiqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>celui<b/>qui<b/>il<b/></l><r>celui<b/>qui<b/></r></p></e>
+      <e><p><l><a/>qui<b/>il<b/></l><r>qui<b/></r></p></e>
+      <e><p><l><a/>ma<b/></l><r>mon<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>ta<b/></l><r>ton<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>sa<b/></l><r>son<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>nouveau<b/></l><r>nouvel<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>le<b/><a/>nouveau<b/></l><r>le<b/>nouvel<b/></r></p><par n="vocals"/></e>
+
+<!-- para cambiar la preposición "en" por "dans"; ahora se hace en el transfer
+      <e><p><l><a/>en<b/><a/>le<b/></l><r>dans<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>en<b/><a/>les<b/></l><r>dans<b/>les<b/></r></p></e>
+      <e><p><l><a/>en<b/><a/>la<b/></l><r>dans<b/>l'</r></p> <par n="vocals"/></e>
+      <e><p><l><a/>en<b/><a/>la<b/></l><r>dans<b/>la<b/></r></p> <par n="consonants"/></e>
+-->
+      <e><p><l><a/>de<b/><a/>les<b/>beaucoup</l><r>beaucoup</r></p></e>
+
+  <!-- amb punt
+
+      <e><p><l><a/>.<b/><a/>à</l><r>.<b/></r></p><par n="à"/></e>
+      <e><p><l><a/>.<b/><a/>de</l><r>.<b/>D</r></p><par n="de"/></e>
+      <e><p><l><a/>.<b/><a/>ne<b/></l><r>.<b/>N'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>le<b/></l><r>.<b/>L'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>la<b/></l><r>.<b/>L'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>me<b/></l><r>.<b/>M'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>me<b/></l><r>.<b/>M</r></p><par n="le"/></e>
+      <e><p><l><a/>.<b/><a/>te<b/></l><r>.<b/>T'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>te<b/></l><r>.<b/>T</r></p><par n="le"/></e>
+      <e><p><l><a/>.<b/><a/>se<b/></l><r>.<b/>S</r></p><par n="le"/></e>
+      <e><p><l><a/>.<b/><a/>se<b/></l><r>.<b/>S'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>ce<b/>est</l><r>.<b/>C'est</r></p></e>
+      <e><p><l><a/>.<b/><a/>ce<b/>était</l><r>.<b/>C'était</r></p></e>
+      <e><p><l><a/>.<b/><a/>ce<b/>étais</l><r>.<b/>C'étais</r></p></e>
+      <e><p><l><a/>.<b/><a/>ma<b/></l><r>.<b/>Mon<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>ta<b/></l><r>.<b/>Ton<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>sa<b/></l><r>.<b/>Son<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>que<b/></l><r>.<b/>Qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>lorsque<b/></l><r>.<b/>Lorsqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>puisque<b/></l><r>.<b/>Puisqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>quoique<b/></l><r>.<b/>quoiqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>ce<b/></l><r>.<b/>Cet<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>je<b/></l><r>.<b/>J</r></p><par n="je"/></e>
+      <e><p><l><a/>.<b/>tu<b/></l><r>.<b/>Tu<b/></r></p></e>
+      <e><p><l><a/>.<b/>il<b/></l><r>.<b/>Il<b/></r></p></e>
+      <e><p><l><a/>.<b/>ils<b/></l><r>.<b/>Ils<b/></r></p></e>
+      <e><p><l><a/>.<b/>elle<b/></l><r>.<b/>Elle<b/></r></p></e>
+      <e><p><l><a/>.<b/>elles<b/></l><r>.<b/>Elles<b/></r></p></e>
+      <e><p><l><a/>.<b/>nous<b/></l><r>.<b/>Nous<b/></r></p></e>
+      <e><p><l><a/>.<b/>vous<b/></l><r>.<b/>Vous<b/></r></p></e>
+      <e><p><l><a/>.<b/></l><r>.<b/></r></p></e>
+      <e><p><l><a/>.<a/>.</l><r>..</r></p></e>
+      <e> <p><l><a/>.<b/><a/>nouveau<b/></l> <r>.<b/>Nouvel<b/></r> </p><par n="vocals"/></e>
+      <e><p><l><a/>.<b/><a/>le<b/><a/>nouveau<b/></l><r>.<b/>Le<b/>nouvel<b/></r></p><par n="vocals"/></e> -->
+
+  </section>
+
+</dictionary>

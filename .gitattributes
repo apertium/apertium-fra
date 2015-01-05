@@ -1,7 +1,21 @@
 * text=auto !eol
+/AUTHORS -text
+/COPYING -text
+/ChangeLog -text
+/Makefile.am -text
+/NEWS -text
+/README -text
 /apertium-fra.fra.acx -text
 /apertium-fra.fra.metadix -text
+/apertium-fra.fra.rlx -text
+/apertium-fra.pc.in -text
+/apertium-fra.post-fra.dix -text svneol=unset#application/xml
+/autogen.sh -text
+/buscaPar.xsl -text svneol=unset#text/plain
+/configure.ac -text
 /fra.prob -text svneol=unset#unset
+/modes.xml -text svneol=unset#application/xml
+/principal.xsl -text svneol=unset#text/plain
 texts/codein/comedie_musicale1.analysed.txt -text
 texts/codein/comedie_musicale1.tagged.charlesw.txt -text
 texts/codein/informatique1.analysed.txt -text

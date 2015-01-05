@@ -1,0 +1,10 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+libdir=@libdir@
+dir=@libdir@/apertium/apertium-fra
+srcdir=@datarootdir@/apertium/apertium-fra
+
+Name: apertium-fra
+Description: Finite-state morphological transducer and constraint grammar for French 
+Version: @VERSION@
+
