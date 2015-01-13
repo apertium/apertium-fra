@@ -3718,8 +3718,6 @@
       <e r="LR"><p><l>ux</l><r>illir<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
     </pardef>
 
-
-
     <pardef n="fa/lloir__vbmod">
       <e><p><l>ille</l><r>lloir<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>illent</l><r>lloir<s n="vbmod"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
@@ -10117,6 +10115,7 @@
       <e lm="Besòs"><i>Besòs</i><par n="Andorre__np"/></e>
       <e lm="Besson" a="webform"><i>Besson</i><par n="Abraham__np"/></e>
       <e lm="bestialité" a="webform"><i>bestialité</i><par n="abeille__n"/></e>
+      <e lm="zoophilie" a="andrei"><i>zoophilie</i><par n="abeille__n"/></e>
       <e lm="best-seller" a="prompsit2cdl"><i>best-seller</i><par n="livre__n"/></e>
       <e lm="bêtabloquant" a="eleka"><i>bêtabloquant</i><par n="abaissant__adj"/></e>
       <e lm="bêtabloquant" a="eleka"><i>bêtabloquant</i><par n="livre__n"/></e>
@@ -10212,6 +10211,10 @@
       <e lm="biologie"><i>biologie</i><par n="abeille__n"/></e>
       <e lm="biologique" a="webform"><i>biologique</i><par n="académique__adj"/></e>
       <e lm="biologiste" a="eleka"><i>biologiste</i><par n="artiste__n"/></e>
+
+      <e lm="ophtalmologiste" a="andrei"><i>ophtalmologiste</i><par n="artiste__n"/></e>
+      <e lm="dermatologiste" a="andrei"><i>dermatologiste</i><par n="artiste__n"/></e>
+
       <e lm="biomasse" a="eleka"><i>biomasse</i><par n="abeille__n"/></e>
       <e lm="biomédecine" a="eleka"><i>biomédecine</i><par n="abeille__n"/></e>
       <e lm="biomédical" a="eleka"><i>biomédica</i><par n="amica/l__adj"/></e>
@@ -10428,7 +10431,7 @@
       <e lm="bourg" a="webform" r="LR"><i>bourg</i><par n="livre__n"/></e>
       <e lm="bourgade" a="webform"><i>bourgade</i><par n="abeille__n"/></e>
       <e lm="Bourg-en-Bresse" a="eleka"><i>Bourg-en-Bresse</i><par n="Andorre__np"/></e>
-      <e lm="bourgeois" a="webform"><i>bourgeois</i><par n="anglais__adj"/></e>
+      <e lm="bourgeois"><i>bourgeois</i><par n="livre__n"/></e>
       <e lm="bourgeoisie"><i>bourgeoisie</i><par n="abeille__n"/></e>
       <e lm="Bourges" a="eleka"><i>Bourges</i><par n="Andorre__np"/></e>
       <e lm="Bourges" a="webform"><i>Bourges</i><par n="Andorre__np"/></e>
@@ -10835,6 +10838,7 @@
       <e lm="cantinier" a="eleka"><i>cantini</i><par n="bouch/er__n"/></e>
       <e lm="Canton" a="eleka"><i>Canton</i><par n="Andorre__np"/></e>
       <e lm="canton" r="LR"><i>canton</i><par n="livre__n"/></e>
+      <e lm="menton"><i>menton</i><par n="livre__n"/></e>
       <e lm="caoutchouc"><i>caoutchouc</i><par n="livre__n"/></e>
       <e lm="cap" a="webform"><i>cap</i><par n="livre__n"/></e>
       <e lm="capable"><i>capable</i><par n="académique__adj"/></e>
@@ -12022,6 +12026,8 @@
       <e lm="condition requise" a="webform"><p><l>conditions<b/>requises</l><r>condition<b/>requise</r></p><par n="vacances__n"/></e>
       <e lm="Condoleezza" a="webform"><i>Condoleezza</i><par n="Abraham__np"/></e>
       <e lm="conducteur"><i>conduct</i><par n="administrat/eur__n"/></e>
+<e lm="adaptateur"><i>adaptat</i><par n="administrat/eur__n"/></e>
+<e lm="adorateur"><i>adorat</i><par n="administrat/eur__n"/></e>
       <e lm="conducteur"><i>conduct</i><par n="conduct/eur__adj"/></e>
       <e lm="conductivité" a="webform"><i>conductivité</i><par n="abeille__n"/></e>
       <e lm="conduire"><i>condui</i><par n="condui/re__vblex"/></e>
@@ -12393,7 +12399,7 @@
       <e lm="Coromina" a="eleka"><i>Coromina</i><par n="Abraham__np"/></e>
       <e lm="Corominas"><i>Corominas</i><par n="Abraham__np"/></e>
       <e lm="Corporate" a="eleka"><i>Corporate</i><par n="Carrefour__np"/></e>
-      <e lm="corporatif" a="webform"><i>corporati</i><par n="affirmati/f__adj"/></e>
+      <e lm="corporatif"><i>corporati</i><par n="affirmati/f__adj"/></e>
       <e lm="corporation"><i>corporation</i><par n="abeille__n"/></e>
       <e lm="corps"><i>corps</i><par n="mois__n"/></e>
       <e lm="corps"><i>corps</i><par n="mois__n"/><p><l><b/>de<b/>métier</l><r><g><b/>de<b/>métier</g></r></p></e>
@@ -13511,6 +13517,8 @@
       <e lm="Dhombres" a="eleka"><i>Dhombres</i><par n="Abraham__np"/></e>
       <e lm="diable"><i>diable</i><par n="buffle__n"/></e>
       <e lm="diablerie" a="eleka"><i>diablerie</i><par n="abeille__n"/></e>
+      <e lm="ferronnerie" a="andrei"><i>ferronnerie</i><par n="abeille__n"/></e>
+      <e lm="calvitie" a="andrei"><i>calvitie</i><par n="abeille__n"/></e>
       <e lm="diabolisation" a="webform"><i>diabolisation</i><par n="abeille__n"/></e>
       <e lm="diagnostic" a="webform"><i>diagnostic</i><par n="livre__n"/></e>
       <e lm="diagnostiquer" a="webform"><i>diagnostiqu</i><par n="abaiss/er__vblex"/></e>
@@ -15995,6 +16003,7 @@
       <e lm="Ferrero"><i>Ferrero</i><par n="Abraham__np"/></e>
       <e lm="Ferrol" a="eleka"><i>Ferrol</i><par n="Andorre__np"/></e>
       <e lm="ferroviaire" a="webform"><i>ferroviaire</i><par n="académique__adj"/></e>
+      <e lm="bestialité" a="andrei"><i>bestialité</i><par n="académique__adj"/></e>
       <e lm="fertilisation" a="webform"><i>fertilisation</i><par n="abeille__n"/></e>
       <e lm="fertilité" a="webform"><i>fertilité</i><par n="abeille__n"/></e>
       <e lm="Fès" a="eleka"><i>Fès</i><par n="Andorre__np"/></e>
@@ -16134,6 +16143,7 @@
       <e lm="flash d'information" a="eleka"><p><l>flash<b/>d'information</l><r>flash<b/>d'information<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
       <e lm="flash d'information" a="eleka"><p><l>flashes<b/>d'informations</l><r>flash<b/>d'information<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
       <e lm="flatterie" a="webform"><i>flatterie</i><par n="abeille__n"/></e>
+      <e lm="confiserie" a="andrei"><i>confiserie</i><par n="abeille__n"/></e>
       <e lm="Flaviobriga" a="eleka"><i>Flaviobriga</i><par n="Andorre__np"/></e>
       <e lm="flèche"><i>flèche</i><par n="abeille__n"/></e>
       <e lm="flécher"><i>fl</i><par n="accél/é[R]er__vblex" prm="ch"/></e>
@@ -16235,6 +16245,7 @@
       <e lm="Ford"><i>Ford</i><par n="Carrefour__np"/></e>
       <e lm="Forest" a="webform"><i>Forest</i><par n="Abraham__np"/></e>
       <e lm="forestier" a="webform"><i>foresti</i><par n="ch/er__adj"/></e>
+<e lm="contrebandier" a="andrei"><i>contrebandi</i><par n="ch/er__adj"/></e>
       <e lm="forêt" a="eleka"><i>forêt</i><par n="abeille__n"/></e>
       <e lm="forêt"><i>forêt</i><par n="abeille__n"/></e>
       <e lm="Forética" a="eleka"><i>Forética</i><par n="Carrefour__np"/></e>
@@ -16438,6 +16449,7 @@
       <e lm="fromage" a="webform"><i>fromage</i><par n="livre__n"/></e>
       <e lm="fromage de brebis" a="eleka"><i>fromage</i><par n="livre__n"/><p><l><b/>de<b/>brebis</l><r><g><b/>de<b/>brebis</g></r></p></e>
       <e lm="fromagerie" a="eleka"><i>fromagerie</i><par n="abeille__n"/></e>
+      <e lm="pâtisserie" a="andrei"><i>pâtisserie</i><par n="abeille__n"/></e>
       <e lm="froment"><i>froment</i><par n="livre__n"/></e>
       <e lm="froncer"><i>fron</i><par n="annon/cer__vblex"/></e>
       <e lm="front"><i>front</i><par n="livre__n"/></e>
@@ -16694,6 +16706,7 @@
       <e lm="généraliser" a="eleka"><i>généralis</i><par n="abaiss/er__vblex"/></e>
       <e lm="généraliste" a="eleka"><i>généraliste</i><par n="académique__adj"/></e>
       <e lm="généraliste" a="eleka"><i>généraliste</i><par n="artiste__n"/></e>
+      <e lm="fleuriste" a="andrei"><i>fleuriste</i><par n="artiste__n"/></e>
       <e lm="Generalitat"><i>Generalitat</i><par n="Carrefour__np"/></e>
       <e lm="généralité" a="webform"><i>généralité</i><par n="abeille__n"/></e>
       <e lm="General Motors"><i>General<b/>Motors</i><par n="Carrefour__np"/></e>
@@ -17158,7 +17171,9 @@
       <e lm="Guipuscoa" a="eleka" r="LR"><i>Guipuscoa</i><par n="Andorre__np"/></e>
       <e lm="Guipúzcoa"><i>Guipúzcoa</i><par n="Andorre__np"/></e>
       <e lm="guipuzcoain" a="eleka"><i>guipuzcoain</i><par n="abaissant__adj"/></e>
-      <e lm="guitare"><i>guitare</i><par n="abeille__n"/></e>
+      <e lm="nécrophile" a="andrei"><i>nécrophile</i><par n="abaissant__adj"/></e>
+      <e lm="pédophile" a="eleka"><i>pédophile</i><par n="abaissant__adj"/></e>
+      <e lm="guitare"><i>guitaandrei</i><par n="abeille__n"/></e>
       <e lm="guitariste" a="eleka"><i>guitariste</i><par n="artiste__n"/></e>
       <e lm="Guizhou" a="eleka"><i>Guizhou</i><par n="Andorre__np"/></e>
       <e lm="Günter" a="webform"><i>Günter</i><par n="Abraham__np"/></e>
@@ -17235,7 +17250,9 @@
       <e lm="Hallyday" a="webform"><i>Hallyday</i><par n="Abraham__np"/></e>
       <e lm="halte" a="eleka"><i>halte</i><par n="abeille__n"/></e>
       <e lm="haltérophilie" a="eleka"><i>haltérophilie</i><par n="abeille__n"/></e>
-      <e lm="Hamar" a="eleka"><i>Hamar</i><par n="Andorre__np"/></e>
+      <e lm="pédophilie" a="andrei"><i>pédophilie</i><par n="abeille__n"/></e>
+      <e lm="nécrophilie" a="eleka"><i>nécrophilie</i><par n="abeille__n"/></e>
+      <e lm="Hamar" a="elandrei"><i>Hamar</i><par n="Andorre__np"/></e>
       <e lm="Hamar" a="eleka"><i>Hamar</i><par n="Carrefour__np"/></e>
       <e lm="Hamas" a="webform"><i>Hamas</i><par n="Carrefour__np"/></e>
       <e lm="Hambourg" a="eleka"><i>Hambourg</i><par n="Andorre__np"/></e>
@@ -21600,6 +21617,7 @@
       <e lm="nettoyer" a="eleka"><i>netto</i><par n="bala/yer__vblex"/></e>
       <e lm="nettoyer"><i>netto</i><par n="bala/yer__vblex"/></e>
       <e lm="nettoyeur" a="webform"><i>nettoyeu</i><par n="causeu/r__n"/></e>
+      <e lm="fossoyeur" a="andrei"><i>fossoyeu</i><par n="causeu/r__n"/></e>
       <e lm="neuf"><i>neuf</i><par n="cinq__num"/></e>
       <e lm="neuf" r="LR"><i>neu</i><par n="affirmati/f__adj"/></e>
       <e lm="neuf cents"><i>neuf<b/>cents</i><par n="cinq__num"/></e>
@@ -22640,7 +22658,13 @@
       <e lm="paternité" a="webform"><i>paternité</i><par n="abeille__n"/></e>
       <e lm="pathétisme" a="eleka"><i>pathétisme</i><par n="livre__n"/></e>
       <e lm="pathologie" a="webform"><i>pathologie</i><par n="abeille__n"/></e>
-      <e lm="pathologique" a="webform"><i>pathologique</i><par n="académique__adj"/></e>
+
+      <e lm="pathologie" a="andrei"><i>pathologie</i><par n="abeille__n"/></e>
+      <e lm="ophtalmologie" a="webform"><i>ophtalmologie</i><par n="abeille__n"/></e>
+      <e lm="dermatologiandrei" a="webform"><i>dermatologie</i><par n="abeille__n"/></e>
+      <e lm="archéolandrei" a="webform"><i>archéologie</i><par n="abeille__n"/></e>
+
+      <e lm="pathoandrei" a="webform"><i>pathologique</i><par n="académique__adj"/></e>
       <e lm="patiemment"><i>patiemment</i><par n="hier__adv"/></e>
       <e lm="patience"><i>patience</i><par n="abeille__n"/></e>
       <e lm="patient" a="webform"><i>patient</i><par n="abaissant__adj"/></e>
@@ -22733,7 +22757,16 @@
       <e lm="pêcheur"><i>pêcheu</i><par n="causeu/r__n"/></e>
       <e lm="pédagogie" a="webform"><i>pédagogie</i><par n="abeille__n"/></e>
       <e lm="pédagogue" a="eleka"><i>pédagogue</i><par n="livre__n"/></e>
-      <e lm="pédalage" a="webform"><i>pédalage</i><par n="livre__n"/></e>
+
+      <e lm="urologue" a="andrei"><i>urologue</i><par n="livre__n"/></e>
+      <e lm="archéologue" a="eleka"><i>archéologue</i><par n="livre__n"/></e>
+      <e lm="criminologue" a="andrei"><i>criminologue</i><par n="livre__n"/></e>
+      <e lm="allerandrei" a="eleka"><i>allergologue</i><par n="livre__n"/></e>
+      <e lm="météorandrei" a="eleka"><i>météorologue</i><par n="livre__n"/></e>
+      <e lm="terminandrei" a="eleka"><i>terminologue</i><par n="livre__n"/></e>
+      <e lm="démagoandrei" a="eleka"><i>démagogue</i><par n="livre__n"/></e>
+
+      <e lm="pédalandrei" a="webform"><i>pédalage</i><par n="livre__n"/></e>
       <e lm="pédale" a="webform"><i>pédale</i><par n="livre__n"/></e>
       <e lm="pédéraste" a="eleka"><i>pédéraste</i><par n="livre__n"/></e>
       <e lm="pédiatre" a="webform"><i>pédiatre</i><par n="artiste__n"/></e>
@@ -24485,7 +24518,10 @@
       <e lm="réalisation"><i>réalisation</i><par n="abeille__n"/></e>
       <e lm="réaliser"><i>réalis</i><par n="abaiss/er__vblex"/></e>
       <e lm="réalisme"><i>réalisme</i><par n="livre__n"/></e>
+      <e lm="idéalisme"><i>idéalisme</i><par n="livre__n"/></e>
+      <e lm="contrebandisme"><i>contrebandisme</i><par n="livre__n"/></e>
       <e lm="réaliste"><i>réaliste</i><par n="académique__adj"/></e>
+      <e lm="idéaliste"><i>idéaliste</i><par n="académique__adj"/></e>
       <e lm="réalité"><i>réalité</i><par n="abeille__n"/></e>
       <e lm="Real Madrid" a="eleka"><i>Real<b/>Madrid</i><par n="Carrefour__np"/></e>
       <e lm="Real Sociedad" a="eleka"><i>Real<b/>Sociedad</i><par n="Carrefour__np"/></e>
