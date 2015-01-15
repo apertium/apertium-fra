@@ -10116,6 +10116,49 @@
       <e lm="Besson" a="webform"><i>Besson</i><par n="Abraham__np"/></e>
       <e lm="bestialité" a="webform"><i>bestialité</i><par n="abeille__n"/></e>
       <e lm="zoophilie" a="andrei"><i>zoophilie</i><par n="abeille__n"/></e>
+
+<e lm="numérologie"><i>numérologie</i><par n="abeille__n"/></e>
+<e lm="radiologie"><i>radiologie</i><par n="abeille__n"/></e>
+<e lm="rhumatologie"><i>rhumatologie</i><par n="abeille__n"/></e>
+<e lm="théologie"><i>théologie</i><par n="abeille__n"/></e>
+<e lm="lobotomie"><i>lobotomie</i><par n="abeille__n"/></e>
+<e lm="philologie"><i>philologie</i><par n="abeille__n"/></e>
+<e lm="microscopie"><i>microscopie</i><par n="abeille__n"/></e>
+<e lm="microbiologie"><i>microbiologie</i><par n="abeille__n"/></e>
+<e lm="microsociologie"><i>microsociologie</i><par n="abeille__n"/></e>
+<e lm="macrosociologie"><i>macrosociologie</i><par n="abeille__n"/></e>
+<e lm="minerologie"><i>minerologie</i><par n="abeille__n"/></e>
+<e lm="anthropologie"><i>anthropologie</i><par n="abeille__n"/></e>
+<e lm="spéléologie"><i>spéléologie</i><par n="abeille__n"/></e>
+<e lm="parapsychologie"><i>parapsychologie</i><par n="abeille__n"/></e>
+<e lm="étymologie"><i>étymologie</i><par n="abeille__n"/></e>
+<e lm="géologie"><i>géologie</i><par n="abeille__n"/></e>
+<e lm="épistémologie"><i>épistémologie</i><par n="abeille__n"/></e>
+<e lm="septicémie"><i>septicémie</i><par n="abeille__n"/></e>
+<e lm="leucémie"><i>leucémie</i><par n="abeille__n"/></e>
+<e lm="astrologie"><i>astrologie</i><par n="abeille__n"/></e>
+<e lm="néonatologie"><i>néonatologie</i><par n="abeille__n"/></e>
+<e lm="microchirurgie"><i>microchirurgie</i><par n="abeille__n"/></e>
+<e lm="chirurgie"><i>chirurgie</i><par n="abeille__n"/></e>
+<e lm="pathologie"><i>pathologie</i><par n="abeille__n"/></e>
+<e lm="pathologique"><i>pathologique</i><par n="abeille__n"/></e>
+<e lm="paléontologie"><i>paléontologie</i><par n="abeille__n"/></e>
+<e lm="parasitologie"><i>parasitologie</i><par n="abeille__n"/></e>
+<e lm="ergonomie"><i>ergonomie</i><par n="abeille__n"/></e>
+<e lm="métronome"><i>métronome</i><par n="abeille__n"/></e>
+<e lm="cartographie"><i>cartographie</i><par n="abeille__n"/></e>
+<e lm="gynécologie"><i>gynécologie</i><par n="abeille__n"/></e>
+<e lm="pharmacologie"><i>pharmacologie</i><par n="abeille__n"/></e>
+<e lm="anthologie"><i>anthologie</i><par n="abeille__n"/></e>
+<e lm="axiologie"><i>axiologie</i><par n="abeille__n"/></e>
+<e lm="élégie"><i>élégie</i><par n="abeille__n"/></e>
+<e lm="phénoménologie"><i>phénoménologie</i><par n="abeille__n"/></e>
+<e lm="futurologie"><i>futurologie</i><par n="abeille__n"/></e>
+<e lm="léthargie"><i>léthargie</i><par n="abeille__n"/></e>
+<e lm="scatologie"><i>scatologie</i><par n="abeille__n"/></e>
+<e lm="tautologie"><i>tautologie</i><par n="abeille__n"/></e>
+<e lm="traumatologie"><i>traumatologie</i><par n="abeille__n"/></e>
+
       <e lm="best-seller" a="prompsit2cdl"><i>best-seller</i><par n="livre__n"/></e>
       <e lm="bêtabloquant" a="eleka"><i>bêtabloquant</i><par n="abaissant__adj"/></e>
       <e lm="bêtabloquant" a="eleka"><i>bêtabloquant</i><par n="livre__n"/></e>
@@ -22661,16 +22704,35 @@
 
       <e lm="pathologie" a="andrei"><i>pathologie</i><par n="abeille__n"/></e>
       <e lm="ophtalmologie" a="webform"><i>ophtalmologie</i><par n="abeille__n"/></e>
-      <e lm="dermatologiandrei" a="webform"><i>dermatologie</i><par n="abeille__n"/></e>
-      <e lm="archéolandrei" a="webform"><i>archéologie</i><par n="abeille__n"/></e>
+      <e lm="calligraphie" a="andrei"><i>calligraphie</i><par n="abeille__n"/></e>
+      <e lm="dermatologie" a="andrei"><i>dermatologie</i><par n="abeille__n"/></e>
+      <e lm="archéologie" a="andrei"><i>archéologie</i><par n="abeille__n"/></e>
+      <e lm="comitologie" a="andrei"><i>comitologie</i><par n="abeille__n"/></e>
+      <e lm="monographie" a="andrei"><i>monographie</i><par n="abeille__n"/></e>
+      <e lm="micromonograph" a="andrei"><i>micromonograph</i><par n="abeille__n"/></e>
+      <e lm="franc-maçonnerie" a="andrei"><i>franc-maçonnerie</i><par n="abeille__n"/></e>
+      <e lm="urologie" a="andrei"><i>urologie</i><par n="abeille__n"/></e>
+      <e lm="histologie" a="andrei"><i>histologie</i><par n="abeille__n"/></e>
+      <e lm="immunologie" a="andrei"><i>immunologie</i><par n="abeille__n"/></e>
+      <e lm="hématologie" a="andrei"><i>hématologie</i><par n="abeille__n"/></e>
+      <e lm="musicothérapie" a="andrei"><i>musicothérapie</i><par n="abeille__n"/></e>
+      <e lm="mécanothérapie" a="andrei"><i>mécanothérapie</i><par n="abeille__n"/></e>
+      <e lm="hemoterapie" a="andrei"><i>hemoterapie</i><par n="abeille__n"/></e>
+      <e lm="héliothérapie" a="andrei"><i>héliothérapie</i><par n="abeille__n"/></e>
+      <e lm="ergothérapie" a="andrei"><i>ergothérapie</i><par n="abeille__n"/></e>
+      <e lm="électrothérapie" a="andrei"><i>électrothérapie</i><par n="abeille__n"/></e>
+      <e lm="radiothérapie" a="andrei"><i>radiothérapie</i><par n="abeille__n"/></e>
+      <e lm="encéphalopathie" a="andrei"><i>encéphalopathie</i><par n="abeille__n"/></e>
 
-      <e lm="pathoandrei" a="webform"><i>pathologique</i><par n="académique__adj"/></e>
+      <e lm="pathologique" a="andrei"><i>pathologique</i><par n="académique__adj"/></e>
       <e lm="patiemment"><i>patiemment</i><par n="hier__adv"/></e>
       <e lm="patience"><i>patience</i><par n="abeille__n"/></e>
+      <e lm="sapience"><i>sapience</i><par n="abeille__n"/></e>
       <e lm="patient" a="webform"><i>patient</i><par n="abaissant__adj"/></e>
       <e lm="patient" a="webform"><i>patient</i><par n="affecté__n"/></e>
       <e lm="patin" a="webform"><i>patin</i><par n="livre__n"/></e>
       <e lm="patinage" a="webform"><i>patinage</i><par n="personnel__n"/></e>
+      <e lm="esclavage" a="andrei"><i>esclavage</i><par n="personnel__n"/></e>
       <e lm="patiner"><i>patin</i><par n="abaiss/er__vblex"/></e>
       <e lm="patriarche" a="webform"><i>patriarche</i><par n="livre__n"/></e>
       <e lm="Patrice" a="webform"><i>Patrice</i><par n="Abraham__np"/></e>
