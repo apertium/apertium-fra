@@ -921,11 +921,17 @@
     </pardef>
 
     <pardef n="ce/lui_que__rel">
-      <e><p><l>lle<b/>que</l>       <r>lui<b/>que<s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>lles<b/>que</l>      <r>lui<b/>que<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>lui<b/>que</l>       <r>lui<b/>que<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>ux<b/>que</l>        <r>lui<b/>que<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l><b/>que</l>          <r>lui<b/>que<s n="rel"/><s n="nt"/></r></p></e>
+      <e r="LR"><p><l>lle<b/>que</l>       <r>lui<b/>que<s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>lles<b/>que</l>      <r>lui<b/>que<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>lui<b/>que</l>       <r>lui<b/>que<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ux<b/>que</l>        <r>lui<b/>que<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l><b/>que</l>          <r>lui<b/>que<s n="rel"/><s n="nt"/></r></p></e>
+
+      <e r="RL"><p><l>lle<b/><a/>que</l>       <r>lui<b/>que<s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>lles<b/><a/>que</l>      <r>lui<b/>que<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>lui<b/><a/>que</l>       <r>lui<b/>que<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>ux<b/><a/>que</l>        <r>lui<b/>que<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l><b/><a/>que</l>          <r>lui<b/>que<s n="rel"/><s n="nt"/></r></p></e>
     </pardef>
 
     <pardef n="ce/lui_qui__rel">
@@ -6921,6 +6927,8 @@
     <e lm="australien" a="webform">         <i>australien</i><par n="ancien__adj" /></e>
     <e lm="au sujet de" a="gema">           <i>au<b/>sujet<b/></i><par n="contde__pr"/></e>
     <e lm="autant">                         <i>autant</i><par n="hier__adv"/></e>
+    <e lm="d'autant plus que" r="LR">       <p><l>d'autant<b/>plus<b/>que</l><r>d'autant<b/>plus<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="d'autant plus que" r="RL">       <p><l>d'autant<b/>plus<b/><a/>que</l><r>d'autant<b/>plus<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="autant que" r="LR">              <i>autant<b/>que</i><par n="hier__adv"/></e>
     <e lm="autant que" r="RL">              <p><l>autant<b/><a/>que</l><r>autant<b/>que</r></p><par n="hier__adv"/></e>
     <e lm="autel">                          <i>autel</i><par n="livre__n"/></e>
@@ -7660,7 +7668,7 @@
     <e lm="celui">                          <i>ce</i><par n="ce/lui__prn"/></e>
     <e lm="celui-ci">                       <i>ce</i><par n="ce/lui-ci__prn"/></e>
     <e lm="celui-là" r="LR">                <i>ce</i><par n="ce/lui-là__prn"/></e>
-    <e lm="celui que" r="LR">               <i>ce</i><par n="ce/lui_que__rel"/></e>
+    <e lm="celui que">                      <i>ce</i><par n="ce/lui_que__rel"/></e>
     <e lm="celui qui" r="LR">               <i>ce</i><par n="ce/lui_qui__rel"/></e>
     <e lm="celui qui" r="RL">               <p><l><a/>ce</l><r>ce</r></p><par n="ce/lui_qui__rel"/></e>
     <e lm="cendrier">                       <i>cendrier</i><par n="livre__n"/></e>
@@ -9675,6 +9683,7 @@
     <e lm="espérer" r="LR">                 <i>esp</i><par n="accél/é[R]er__vblex" prm="r"/></e>
     <e lm="Espino">                         <i>Espino</i><par n="Andorre__np"/></e>
     <e lm="Espinosa">                       <i>Espinosa</i><par n="Andorre__np"/></e>
+    <e lm="Espinosa">                       <i>Espinosa</i><par n="Abraham__np"/></e>
     <e lm="espion">                         <i>espion</i><par n="ancien__n"/></e>
     <e lm="Esplá">                          <i>Esplá</i><par n="Carrefour__np"/></e>
     <e lm="Esplugues">                      <i>Esplugues</i><par n="Andorre__np"/></e>
@@ -11918,6 +11927,7 @@
     <e lm="Mariano">                        <i>Mariano</i><par n="Abraham__np"/></e>
     <e lm="Maribel">                        <i>Maribel</i><par n="Abraham__np"/></e>
     <e lm="Marie">                          <i>Marie</i><par n="Abraham__np"/></e>
+    <e lm="María">                          <i>María</i><par n="Abraham__np"/></e>
     <e lm="marier">                         <i>mari</i><par n="abaiss/er__vblex"/></e>
     <e lm="Marina" a="gema">                <i>Marina</i><par n="Abraham__np"/></e>
     <e lm="marin">                          <i>marin</i><par n="abaissant__adj" /></e>
@@ -11957,6 +11967,7 @@
     <e lm="marxiste" a="webform">           <i>marxiste</i><par n="académique__adj" /></e>
     <e lm="Mary" a="gema">                  <i>Mary</i><par n="Abraham__np"/></e>
     <e lm="Mas">                            <i>Mas</i><par n="Carrefour__np"/></e>
+    <e lm="Mas">                            <i>Mas</i><par n="Abraham__np"/></e>
     <e lm="masculin" a="eleka">             <i>masculin</i><par n="abaissant__adj" /></e>
     <e lm="masculin" a="webform">           <i>masculin</i><par n="abaissant__adj" /></e>
     <e lm="masquer">                        <i>masqu</i><par n="abaiss/er__vblex"/></e>
@@ -12969,6 +12980,7 @@
     <e lm="patte">                          <i>patte</i><par n="abeille__n"/></e>
     <e lm="Patxi">                          <i>Patxi</i><par n="Abraham__np"/></e>
     <e lm="Pau">                            <i>Pau</i><par n="Abraham__np"/></e>
+    <e lm="Pau">                            <i>Pau</i><par n="Andorre__np"/></e>
     <e lm="Paula">                          <i>Paula</i><par n="Abraham__np"/></e>
     <e lm="Paul">                           <i>Paul</i><par n="Abraham__np"/></e>
     <e lm="pauvre" a="gema">                <i>pauvre</i><par n="académique__adj"/></e>
@@ -14746,6 +14758,7 @@
     <e lm="sortie">                         <i>sortie</i><par n="abeille__n"/></e>
     <e lm="sortir">                         <i>sor</i><par n="consen/tir__vblex"/></e>
     <e lm="Soto">                           <i>Soto</i><par n="Andorre__np"/></e>
+    <e lm="Soto">                      <i>Soto</i><par n="Abraham__np"/></e>
     <e lm="Sotomayor">                      <i>Sotomayor</i><par n="Abraham__np"/></e>
     <e lm="sottise">                        <i>sottise</i><par n="abeille__n"/></e>
     <e lm="souche">                         <i>souche</i><par n="abeille__n"/></e>
@@ -16051,7 +16064,7 @@
       <e lm="archiprêtre" a="eleka"><i>archiprêtre</i><par n="livre__n"/></e>
       <e lm="arc"><i>arc</i><par n="livre__n"/></e>
       <e lm="argent"><i>argent</i><par n="argent__n"/></e>
-      <e lm="argumentation" r="LR" a="webform"><i>argumentation</i><par n="abeille__n"/></e>
+      <e lm="argumentation" a="webform"><i>argumentation</i><par n="abeille__n"/></e>
       <e lm="arithmétique" a="eleka"><i>arithmétique</i><par n="abeille__n"/></e>
       <e lm="armistice" a="eleka"><i>armistice</i><par n="livre__n"/></e>
       <e lm="arnaque" a="eleka"><i>arnaque</i><par n="abeille__n"/></e>
@@ -16233,7 +16246,7 @@
       <e lm="cave" a="webform"><i>cave</i><par n="abeille__n"/></e>
       <e lm="cavité" a="webform"><i>cavité</i><par n="abeille__n"/></e>
       <e lm="cédule" a="eleka"><i>cédule</i><par n="abeille__n"/></e>
-      <e lm="celebration" r="LR" a="webform"><i>celebration</i><par n="abeille__n"/></e>
+      <e lm="celebration" a="webform"><i>celebration</i><par n="abeille__n"/></e>
       <e lm="célébrité" a="webform"><i>célébrité</i><par n="abeille__n"/></e>
       <e lm="célérité" a="webform"><i>célérité</i><par n="abeille__n"/></e>
       <e lm="célibat" a="webform"><i>célibat</i><par n="livre__n"/></e>
@@ -16298,7 +16311,7 @@
       <e lm="collier" a="eleka"><i>collier</i><par n="livre__n"/></e>
       <e lm="collision" a="eleka"><i>collision</i><par n="abeille__n"/></e>
       <e lm="colloque" a="webform"><i>colloque</i><par n="livre__n"/></e>
-      <e lm="colocation" r="LR" a="webform"><i>colocation</i><par n="abeille__n"/></e>
+      <e lm="colocation" a="webform"><i>colocation</i><par n="abeille__n"/></e>
       <e lm="coloration" a="webform"><i>coloration</i><par n="abeille__n"/></e>
       <e lm="coma" a="bech"><i>coma</i><par n="livre__n"/></e>
       <e lm="combativité" a="webform"><i>combativité</i><par n="abeille__n"/></e>
@@ -16322,7 +16335,7 @@
       <e lm="compatriote" a="eleka"><i>compatriote</i><par n="artiste__n"/></e>
       <e lm="compensation" a="webform"><i>compensation</i><par n="abeille__n"/></e>
       <e lm="compétiteur" a="webform" r="LR"><i>compétit</i><par n="administrat/eur__n"/></e>
-      <e lm="competition" r="LR" a="webform"><i>competition</i><par n="abeille__n"/></e>
+      <e lm="competition" a="webform"><i>competition</i><par n="abeille__n"/></e>
       <e lm="compétitivité" a="webform"><i>compétitivité</i><par n="abeille__n"/></e>
       <e lm="compilateur"><i>compilateur</i><par n="livre__n"/></e>
       <e lm="complainte" a="eleka"><i>complainte</i><par n="abeille__n"/></e>
@@ -16333,7 +16346,7 @@
       <e lm="comptabilité" a="webform"><i>comptabilité</i><par n="abeille__n"/></e>
       <e lm="comptable" a="eleka"><i>comptable</i><par n="artiste__n"/></e>
       <e lm="compte"><i>compte</i><par n="livre__n"/></e>
-      <e lm="comunication" r="LR" a="webform"><i>comunication</i><par n="abeille__n"/></e>
+      <e lm="comunication" a="webform"><i>comunication</i><par n="abeille__n"/></e>
       <e lm="concept" a="webform"><i>concept</i><par n="livre__n"/></e>
       <e lm="concertation" a="webform"><i>concertation</i><par n="abeille__n"/></e>
       <e lm="concession" a="webform"><i>concession</i><par n="abeille__n"/></e>
@@ -16396,7 +16409,7 @@
       <e lm="contestation" a="webform"><i>contestation</i><par n="abeille__n"/></e>
       <e lm="contingence" a="eleka"><i>contingence</i><par n="abeille__n"/></e>
       <e lm="contingent" a="eleka"><i>contingent</i><par n="livre__n"/></e>
-      <e lm="continuation" r="LR" a="webform"><i>continuation</i><par n="abeille__n"/></e>
+      <e lm="continuation" a="webform"><i>continuation</i><par n="abeille__n"/></e>
       <e lm="contraception" a="eleka"><i>contraception</i><par n="abeille__n"/></e>
       <e lm="contraception" a="webform"><i>contraception</i><par n="abeille__n"/></e>
       <e lm="contracture" a="eleka"><i>contracture</i><par n="abeille__n"/></e>
@@ -16412,7 +16425,7 @@
       <e lm="convoi" a="eleka"><i>convoi</i><par n="livre__n"/></e>
       <e lm="convulsion" a="webform"><i>convulsion</i><par n="abeille__n"/></e>
       <e lm="coopérateur" a="eleka"><i>coopérat</i><par n="administrat/eur__n"/></e>
-      <e lm="cooperation" r="LR" a="webform"><i>cooperation</i><par n="abeille__n"/></e>
+      <e lm="cooperation" a="webform"><i>cooperation</i><par n="abeille__n"/></e>
       <e lm="coordinateur" a="webform"><i>coordinat</i><par n="administrat/eur__n"/></e>
       <e lm="coordination" a="webform"><i>coordination</i><par n="abeille__n"/></e>
       <e lm="coproduction" a="webform"><i>coproduction</i><par n="abeille__n"/></e>
@@ -16476,12 +16489,12 @@
       <e lm="décantation" a="webform"><i>décantation</i><par n="abeille__n"/></e>
       <e lm="décapitation" a="webform"><i>décapitation</i><par n="abeille__n"/></e>
       <e lm="déc." a="prompsit2cdl"><i>déc.</i><par n="personnel__n"/></e>
-      <e lm="décélération" r="LR" a="webform"><i>décélération</i><par n="abeille__n"/></e>
-      <e lm="deception" r="LR" a="webform"><i>deception</i><par n="abeille__n"/></e>
+      <e lm="décélération" a="webform"><i>décélération</i><par n="abeille__n"/></e>
+      <e lm="deception" a="webform"><i>deception</i><par n="abeille__n"/></e>
       <e lm="déchaînement" a="eleka"><i>déchaînement</i><par n="livre__n"/></e>
       <e lm="déclamation" a="webform"><i>déclamation</i><par n="abeille__n"/></e>
       <e lm="déclaration"><i>déclaration</i><par n="abeille__n"/></e>
-      <e lm="declaration" r="LR" a="webform"><i>declaration</i><par n="abeille__n"/></e>
+      <e lm="declaration" a="webform"><i>declaration</i><par n="abeille__n"/></e>
       <e lm="déclassification" a="webform"><i>déclassification</i><par n="abeille__n"/></e>
       <e lm="déclinaison" a="eleka"><i>déclinaison</i><par n="abeille__n"/></e>
       <e lm="déclin" a="webform"><i>déclin</i><par n="livre__n"/></e>
@@ -16491,7 +16504,7 @@
       <e lm="découpage" a="webform"><i>découpage</i><par n="livre__n"/></e>
       <e lm="découvert" a="eleka"><i>découvert</i><par n="livre__n"/></e>
       <e lm="dédain" a="webform"><i>dédain</i><par n="livre__n"/></e>
-      <e lm="déduction" r="LR" a="webform"><i>déduction</i><par n="abeille__n"/></e>
+      <e lm="déduction" a="webform"><i>déduction</i><par n="abeille__n"/></e>
       <e lm="déficience" a="eleka"><i>déficience</i><par n="abeille__n"/></e>
       <e lm="déflagration" a="webform"><i>déflagration</i><par n="abeille__n"/></e>
       <e lm="déformation" a="webform"><i>déformation</i><par n="abeille__n"/></e>
@@ -16555,7 +16568,7 @@
       <e lm="désynchronisation" a="webform"><i>désynchronisation</i><par n="abeille__n"/></e>
       <e lm="détecteur" a="eleka"><i>détect</i><par n="administrat/eur__n"/></e>
       <e lm="détection" a="webform"><i>détection</i><par n="abeille__n"/></e>
-      <e lm="detention" r="LR" a="webform"><i>detention</i><par n="abeille__n"/></e>
+      <e lm="detention" a="webform"><i>detention</i><par n="abeille__n"/></e>
       <e lm="détournement" a="eleka"><i>détournement</i><par n="livre__n"/></e>
       <e lm="deuil" a="webform" r="LR"><i>deuil</i><par n="livre__n"/></e>
       <e lm="deuil" a="webform" r="RL"><i>deuil</i><par n="livre__n"/></e>
@@ -16581,7 +16594,6 @@
       <e lm="dinosaure" a="eleka"><i>dinosaure</i><par n="livre__n"/></e>
       <e lm="diplômé" a="webform"><i>diplômé</i><par n="affecté__n"/></e>
       <e lm="diplôme" a="webform"><i>diplôme</i><par n="livre__n"/></e>
-      <e lm="diplôme" a="webform" r="RL"><i>diplôme</i><par n="livre__n"/></e>
       <e lm="directive" a="eleka"><i>directive</i><par n="abeille__n"/></e>
       <e lm="directoire" a="webform"><i>directoire</i><par n="livre__n"/></e>
       <e lm="dirigeant"><i>dirigeant</i><par n="affecté__n"/></e>
@@ -16668,7 +16680,7 @@
       <e lm="éjaculation" a="webform"><i>éjaculation</i><par n="abeille__n"/></e>
       <e lm="élan" a="webform"><i>élan</i><par n="livre__n"/></e>
       <e lm="élan"><i>élan</i><par n="livre__n"/></e>
-      <e lm="election" r="LR" a="webform"><i>election</i><par n="abeille__n"/></e>
+      <e lm="election" a="webform"><i>election</i><par n="abeille__n"/></e>
       <e lm="électrification" a="webform"><i>électrification</i><par n="abeille__n"/></e>
       <e lm="électrocution" a="webform"><i>électrocution</i><par n="abeille__n"/></e>
       <e lm="électroménager" a="eleka"><i>électroménager</i><par n="livre__n"/></e>
@@ -16789,7 +16801,7 @@
       <e lm="expatriation" a="webform"><i>expatriation</i><par n="abeille__n"/></e>
       <e lm="expectative" a="eleka"><i>expectative</i><par n="abeille__n"/></e>
       <e lm="expéditeur" a="eleka"><i>expédit</i><par n="administrat/eur__n"/></e>
-      <e lm="expedition" r="LR" a="webform"><i>expedition</i><par n="abeille__n"/></e>
+      <e lm="expedition" a="webform"><i>expedition</i><par n="abeille__n"/></e>
       <e lm="expérimentation" a="webform"><i>expérimentation</i><par n="abeille__n"/></e>
       <e lm="expert"><i>expert</i><par n="affecté__n"/></e>
       <e lm="expertise" a="webform" r="LR"><i>expertise</i><par n="abeille__n"/></e>
@@ -16802,7 +16814,7 @@
       <e lm="expressionnisme" a="webform"><i>expressionnisme</i><par n="livre__n"/></e>
       <e lm="expressivité" a="webform"><i>expressivité</i><par n="abeille__n"/></e>
       <e lm="expropriation" a="webform"><i>expropriation</i><par n="abeille__n"/></e>
-      <e lm="extinction" r="LR" a="webform"><i>extinction</i><par n="abeille__n"/></e>
+      <e lm="extinction" a="webform"><i>extinction</i><par n="abeille__n"/></e>
       <e lm="extraction" a="webform"><i>extraction</i><par n="abeille__n"/></e>
       <e lm="facette" a="webform"><i>facette</i><par n="abeille__n"/></e>
       <e lm="facilitation" a="webform"><i>facilitation</i><par n="abeille__n"/></e>
@@ -16826,7 +16838,7 @@
       <e lm="fax" a="eleka"><i>fax</i><par n="mois__n"/></e>
       <e lm="fécondation" a="webform"><i>fécondation</i><par n="abeille__n"/></e>
       <e lm="fédéralisme" a="eleka"><i>fédéralisme</i><par n="livre__n"/></e>
-      <e lm="federation" r="LR" a="webform"><i>federation</i><par n="abeille__n"/></e>
+      <e lm="federation" a="webform"><i>federation</i><par n="abeille__n"/></e>
       <e lm="feed-back" a="eleka"><i>feed-back</i><par n="mois__n"/></e>
       <e lm="féminisation" a="webform"><i>féminisation</i><par n="abeille__n"/></e>
       <e lm="féminité" a="webform"><i>féminité</i><par n="abeille__n"/></e>
@@ -16850,7 +16862,7 @@
       <e lm="fil" a="webform" c="esborrar entrada unidireccional"><i>fil</i><par n="livre__n"/></e>
       <e lm="fil de fer" a="eleka"><i>fil</i><par n="livre__n"/><p><l><b/>de<b/>fer</l><r><g><b/>de<b/>fer</g></r></p></e>      <e lm="débordement de joie" a="eleka"><i>débordement</i><par n="livre__n"/><p><l><b/>de<b/>joie</l><r><g><b/>de<b/>joie</g></r></p></e>      <e lm="fréquentation" a="eleka"><i>fréquentation</i><par n="abeille__n"/></e>
       <e lm="filiation" a="eleka"><i>filiation</i><par n="abeille__n"/></e>
-      <e lm="filiation" r="LR" a="webform"><i>filiation</i><par n="abeille__n"/></e>
+      <e lm="filiation" a="webform"><i>filiation</i><par n="abeille__n"/></e>
       <e lm="film" a="eleka"><i>film</i><par n="livre__n"/></e>
       <e lm="filmage" a="webform" r="LR"><i>filmage</i><par n="abeille__n"/></e>
       <e lm="film"><i>film</i><par n="livre__n"/></e>
@@ -16920,7 +16932,7 @@
       <e lm="généraliste" a="eleka"><i>généraliste</i><par n="artiste__n"/></e>
       <e lm="généralité" a="webform"><i>généralité</i><par n="abeille__n"/></e>
       <e lm="générateur" a="eleka"><i>générateur</i><par n="livre__n"/></e>
-      <e lm="generation" r="LR" a="webform"><i>generation</i><par n="abeille__n"/></e>
+      <e lm="generation" a="webform"><i>generation</i><par n="abeille__n"/></e>
       <e lm="gentilhomme" a="webform"><i>gentilhomme</i><par n="livre__n"/></e>
       <e lm="gentillesse" a="webform"><i>gentillesse</i><par n="abeille__n"/></e>
       <e lm="gérance" a="webform"><i>gérance</i><par n="abeille__n"/></e>
@@ -17039,7 +17051,7 @@
       <e lm="illumination" a="webform"><i>illumination</i><par n="abeille__n"/></e>
       <e lm="illustration" a="webform"><i>illustration</i><par n="abeille__n"/></e>
       <e lm="imbrication" a="webform"><i>imbrication</i><par n="abeille__n"/></e>
-      <e lm="immatriculation" r="LR" a="webform"><i>immatriculation</i><par n="abeille__n"/></e>
+      <e lm="immatriculation" a="webform"><i>immatriculation</i><par n="abeille__n"/></e>
       <e lm="immersion" a="webform"><i>immersion</i><par n="abeille__n"/></e>
       <e lm="immeuble" a="webform"><i>immeuble</i><par n="livre__n"/></e>
       <e lm="immobilité" a="webform"><i>immobilité</i><par n="abeille__n"/></e>
@@ -17215,7 +17227,7 @@
       <e lm="jeune"><i>jeune</i><par n="artiste__n"/></e>
       <e lm="joaillier" a="eleka"><i>joailli</i><par n="bouch/er__n"/></e>
       <e lm="journal"><i>journa</i><par n="anima/l__n"/></e>
-      <e lm="jubilation" r="LR" a="webform"><i>jubilation</i><par n="abeille__n"/></e>
+      <e lm="jubilation" a="webform"><i>jubilation</i><par n="abeille__n"/></e>
       <e lm="juge-arbitre" a="eleka"><i>juge-arbitre</i><par n="artiste__n"/></e>
       <e lm="juil." a="prompsit2cdl"><i>juil.</i><par n="personnel__n"/></e>
       <e lm="jumeau" a="eleka"><i>jumeau</i><par n="lieu__n"/></e>
@@ -17363,7 +17375,7 @@
       <e lm="masque" a="webform"><i>masque</i><par n="livre__n"/></e>
       <e lm="massage" a="webform"><i>massage</i><par n="livre__n"/></e>
       <e lm="massification" a="webform"><i>massification</i><par n="abeille__n"/></e>
-      <e lm="massification" r="LR" a="webform"><i>massification</i><par n="abeille__n"/></e>
+      <e lm="massification" a="webform"><i>massification</i><par n="abeille__n"/></e>
       <e lm="master" a="eleka"><i>master</i><par n="livre__n"/></e>
       <e lm="masturbation" a="webform"><i>masturbation</i><par n="abeille__n"/></e>
       <e lm="match" a="eleka" r="LR"><i>match</i><par n="livre__n"/></e>
@@ -17536,18 +17548,18 @@
       <e lm="omission" a="eleka"><i>omission</i><par n="abeille__n"/></e>
       <e lm="OPA" a="webform"><i>OPA</i><par n="OPA__n"/></e>
       <e lm="opacité" a="webform"><i>opacité</i><par n="abeille__n"/></e>
-      <e lm="operation" r="LR" a="webform"><i>operation</i><par n="abeille__n"/></e>
+      <e lm="operation" a="webform"><i>operation</i><par n="abeille__n"/></e>
       <e lm="opportuniste" a="webform"><i>opportuniste</i><par n="artiste__n"/></e>
       <e lm="opportunité" a="webform" r="LR"><i>opportunité</i><par n="abeille__n"/></e>
       <e lm="optimisation" a="webform"><i>optimisation</i><par n="abeille__n"/></e>
       <e lm="oralité" a="eleka"><i>oralité</i><par n="abeille__n"/></e>
       <e lm="ordinateur" a="eleka"><i>ordinateur</i><par n="livre__n"/></e>
-      <e lm="ordination" r="LR" a="webform"><i>ordination</i><par n="abeille__n"/></e>
+      <e lm="ordination" a="webform"><i>ordination</i><par n="abeille__n"/></e>
       <e lm="ordonnance" a="webform"><i>ordonnance</i><par n="abeille__n"/></e>
       <e lm="orfèvre" a="webform"><i>orfèvre</i><par n="artiste__n"/></e>
       <e lm="organisateur" a="eleka" r="RL"><i>organisateu</i><par n="administrat/eur__n"/></e>
       <e lm="organisateur" a="webform"><i>organisat</i><par n="administrat/eur__n"/></e>
-      <e lm="organization" r="LR" a="webform"><i>organization</i><par n="abeille__n"/></e>
+      <e lm="organization" a="webform"><i>organization</i><par n="abeille__n"/></e>
       <e lm="orgasme" a="webform"><i>orgasme</i><par n="livre__n"/></e>
       <e lm="orgueil" a="webform"><i>orgueil</i><par n="livre__n"/></e>
       <e lm="ornementation" a="webform"><i>ornementation</i><par n="abeille__n"/></e>
@@ -17561,7 +17573,6 @@
       <e lm="ostentation" a="webform"><i>ostentation</i><par n="abeille__n"/></e>
       <e lm="otorrinolaryngologie" a="webform"><i>otorrinolaryngologie</i><par n="abeille__n"/></e>
       <e lm="oubli" a="webform"><i>oubli</i><par n="livre__n"/></e>
-      <e lm="oubli" a="webform" r="RL"><i>oubli</i><par n="livre__n"/></e>
       <e lm="ours-brun" a="eleka"><i>ours-brun</i><par n="livre__n"/></e>
       <e lm="outrage" a="webform"><i>outrage</i><par n="livre__n"/></e>
       <e lm="outrage" a="webform" r="RL"><i>outrage</i><par n="livre__n"/></e>
@@ -17637,7 +17648,7 @@
       <e lm="pelle" a="webform"><i>pelle</i><par n="abeille__n"/></e>
       <e lm="peloton" a="eleka"><i>peloton</i><par n="livre__n"/></e>
       <e lm="pelouse" a="webform"><i>pelouse</i><par n="abeille__n"/></e>
-      <e lm="pénalisation" r="LR" a="webform"><i>pénalisation</i><par n="abeille__n"/></e>
+      <e lm="pénalisation" a="webform"><i>pénalisation</i><par n="abeille__n"/></e>
       <e lm="pénalité" a="webform"><i>pénalité</i><par n="abeille__n"/></e>
       <e lm="penalty" a="eleka"><i>penalty</i><par n="livre__n"/></e>
       <e lm="penalty" a="webform"><i>penalty</i><par n="livre__n"/></e>
@@ -17650,9 +17661,9 @@
       <e lm="pension"><i>pension</i><par n="abeille__n"/></e>
       <e lm="pensionnaire" a="webform"><i>pensionnaire</i><par n="artiste__n"/></e>
       <e lm="percepteur" a="eleka"><i>percept</i><par n="administrat/eur__n"/></e>
-      <e lm="perception" r="LR" a="webform"><i>perception</i><par n="abeille__n"/></e>
+      <e lm="perception" a="webform"><i>perception</i><par n="abeille__n"/></e>
       <e lm="perdition" a="webform"><i>perdition</i><par n="abeille__n"/></e>
-      <e lm="pérégrination" r="LR" a="webform"><i>pérégrination</i><par n="abeille__n"/></e>
+      <e lm="pérégrination" a="webform"><i>pérégrination</i><par n="abeille__n"/></e>
       <e lm="pérennité" a="webform"><i>pérennité</i><par n="abeille__n"/></e>
       <e lm="perforation" a="webform"><i>perforation</i><par n="abeille__n"/></e>
       <e lm="performance" a="webform" r="LR"><i>performance</i><par n="abeille__n"/></e>
@@ -17787,7 +17798,7 @@
       <e lm="prédisposition" a="webform"><i>prédisposition</i><par n="abeille__n"/></e>
       <e lm="préhistoire" a="webform"><i>préhistoire</i><par n="abeille__n"/></e>
       <e lm="pré-inscription" a="webform"><i>pré-inscription</i><par n="abeille__n"/></e>
-      <e lm="préinscription" r="LR" a="webform"><i>préinscription</i><par n="abeille__n"/></e>
+      <e lm="préinscription" a="webform"><i>préinscription</i><par n="abeille__n"/></e>
       <e lm="préjugé" a="webform"><i>préjugé</i><par n="livre__n"/></e>
       <e lm="prélude" a="webform"><i>prélude</i><par n="livre__n"/></e>
       <e lm="préméditation" a="webform"><i>préméditation</i><par n="abeille__n"/></e>
@@ -17931,7 +17942,7 @@
       <e lm="récital" a="webform"><i>récital</i><par n="livre__n"/></e>
       <e lm="réclusion" a="webform"><i>réclusion</i><par n="abeille__n"/></e>
       <e lm="recomposition" a="webform"><i>recomposition</i><par n="abeille__n"/></e>
-      <e lm="reconciliation" r="LR" a="webform"><i>reconciliation</i><par n="abeille__n"/></e>
+      <e lm="reconciliation" a="webform"><i>reconciliation</i><par n="abeille__n"/></e>
       <e lm="reconduction" a="webform"><i>reconduction</i><par n="abeille__n"/></e>
       <e lm="reconnaissance" a="eleka"><i>reconnaissance</i><par n="abeille__n"/></e>
       <e lm="reconnaissance" a="webform"><i>reconnaissance</i><par n="abeille__n"/></e>
@@ -17941,7 +17952,7 @@
       <e lm="reconversion" a="webform"><i>reconversion</i><par n="abeille__n"/></e>
       <e lm="récréation" a="webform"><i>récréation</i><par n="abeille__n"/></e>
       <e lm="récréation" a="webform" r="RL"><i>récréation</i><par n="abeille__n"/></e>
-      <e lm="recréation" r="LR" a="webform"><i>recréation</i><par n="abeille__n"/></e>
+      <e lm="recréation" a="webform"><i>recréation</i><par n="abeille__n"/></e>
       <e lm="récrimination" a="webform"><i>récrimination</i><par n="abeille__n"/></e>
       <e lm="recrutement" a="webform"><i>recrutement</i><par n="livre__n"/></e>
       <e lm="recteur" a="webform"><i>rect</i><par n="administrat/eur__n"/></e>
@@ -17954,12 +17965,12 @@
       <e lm="recyclage" a="eleka"><i>recyclage</i><par n="livre__n"/></e>
       <e lm="recyclage" a="webform"><i>recyclage</i><par n="livre__n"/></e>
       <e lm="rédacteur" a="webform"><i>rédact</i><par n="administrat/eur__n"/></e>
-      <e lm="redaction" r="LR" a="webform"><i>redaction</i><par n="abeille__n"/></e>
+      <e lm="redaction" a="webform"><i>redaction</i><par n="abeille__n"/></e>
       <e lm="redéfinition" a="webform"><i>redéfinition</i><par n="abeille__n"/></e>
       <e lm="rédemption" a="webform"><i>rédemption</i><par n="abeille__n"/></e>
       <e lm="redistribution" a="webform"><i>redistribution</i><par n="abeille__n"/></e>
       <e lm="redondance" a="webform"><i>redondance</i><par n="abeille__n"/></e>
-      <e lm="reduction" r="LR" a="webform"><i>reduction</i><par n="abeille__n"/></e>
+      <e lm="reduction" a="webform"><i>reduction</i><par n="abeille__n"/></e>
       <e lm="réédition" a="webform"><i>réédition</i><par n="abeille__n"/></e>
       <e lm="rééducation" a="webform"><i>rééducation</i><par n="abeille__n"/></e>
       <e lm="réélection" a="webform"><i>réélection</i><par n="abeille__n"/></e>
@@ -17978,9 +17989,9 @@
       <e lm="regroupement" a="eleka"><i>regroupement</i><par n="livre__n"/></e>
       <e lm="regroupement" a="webform"><i>regroupement</i><par n="livre__n"/></e>
       <e lm="régularisation" a="webform"><i>régularisation</i><par n="abeille__n"/></e>
-      <e lm="regulation" r="LR" a="webform"><i>regulation</i><par n="abeille__n"/></e>
+      <e lm="regulation" a="webform"><i>regulation</i><par n="abeille__n"/></e>
       <e lm="réhabilitation" a="webform"><i>réhabilitation</i><par n="abeille__n"/></e>
-      <e lm="rehabilitation" r="LR" a="webform"><i>rehabilitation</i><par n="abeille__n"/></e>
+      <e lm="rehabilitation" a="webform"><i>rehabilitation</i><par n="abeille__n"/></e>
       <e lm="réincarnation" a="webform"><i>réincarnation</i><par n="abeille__n"/></e>
       <e lm="réinsertion" a="webform"><i>réinsertion</i><par n="abeille__n"/></e>
       <e lm="réinstallation" a="webform"><i>réinstallation</i><par n="abeille__n"/></e>
@@ -18009,10 +18020,10 @@
       <e lm="renfort" a="webform"><i>renfort</i><par n="livre__n"/></e>
       <e lm="renom" a="webform"><i>renom</i><par n="livre__n"/></e>
       <e lm="réorganisation" a="webform"><i>réorganisation</i><par n="abeille__n"/></e>
-      <e lm="reorganization" r="LR" a="webform"><i>reorganization</i><par n="abeille__n"/></e>
+      <e lm="reorganization" a="webform"><i>reorganization</i><par n="abeille__n"/></e>
       <e lm="réorientation" a="webform"><i>réorientation</i><par n="abeille__n"/></e>
       <e lm="réouverture" a="webform"><i>réouverture</i><par n="abeille__n"/></e>
-      <e lm="reparution" r="LR" a="webform"><i>reparution</i><par n="abeille__n"/></e>
+      <e lm="reparution" a="webform"><i>reparution</i><par n="abeille__n"/></e>
       <e lm="répéteur" a="eleka"><i>répéteur</i><par n="livre__n"/></e>
       <e lm="repli" a="webform"><i>repli</i><par n="livre__n"/></e>
       <e lm="report" a="prompsit" r="LR"><i>report</i><par n="livre__n"/></e>
@@ -18033,7 +18044,7 @@
       <e lm="ressentiment" a="webform"><i>ressentiment</i><par n="livre__n"/></e>
       <e lm="restitution" a="webform"><i>restitution</i><par n="abeille__n"/></e>
       <e lm="restriction" a="webform" r="LR"><i>restriction</i><par n="abeille__n"/></e>
-      <e lm="restriction" r="LR" a="webform"><i>restriction</i><par n="abeille__n"/></e>
+      <e lm="restriction" a="webform"><i>restriction</i><par n="abeille__n"/></e>
       <e lm="retable" a="webform"><i>retable</i><par n="livre__n"/></e>
       <e lm="rétention" a="webform"><i>rétention</i><par n="abeille__n"/></e>
       <e lm="réticulocyte" a="eleka"><i>réticulocyte</i><par n="livre__n"/></e>
@@ -18048,7 +18059,7 @@
       <e lm="réussite"><i>réussite</i><par n="abeille__n"/></e>
       <e lm="revalorisation" a="webform"><i>revalorisation</i><par n="abeille__n"/></e>
       <e lm="révocation" a="webform"><i>révocation</i><par n="abeille__n"/></e>
-      <e lm="revolution" r="LR" a="webform"><i>revolution</i><par n="abeille__n"/></e>
+      <e lm="revolution" a="webform"><i>revolution</i><par n="abeille__n"/></e>
       <e lm="rhétorique" a="webform"><i>rhétorique</i><par n="abeille__n"/></e>
       <e lm="rhinoplastie" a="eleka"><i>rhinoplastie</i><par n="abeille__n"/></e>
       <e lm="rhumb" a="eleka"><i>rhumb</i><par n="livre__n"/></e>
@@ -18069,7 +18080,7 @@
       <e lm="romarin" a="webform"><i>romarin</i><par n="livre__n"/></e>
       <e lm="rosaire" a="webform"><i>rosaire</i><par n="livre__n"/></e>
       <e lm="rossignol" a="webform"><i>rossignol</i><par n="livre__n"/></e>
-      <e lm="rotation" r="LR" a="webform"><i>rotation</i><par n="abeille__n"/></e>
+      <e lm="rotation" a="webform"><i>rotation</i><par n="abeille__n"/></e>
       <e lm="rotonde" a="webform"><i>rotonde</i><par n="abeille__n"/></e>
       <e lm="rotondité" a="webform"><i>rotondité</i><par n="abeille__n"/></e>
       <e lm="rouge" a="webform"><i>rouge</i><par n="livre__n"/></e>
@@ -18192,7 +18203,7 @@
       <e lm="soulèvement" a="eleka"><i>soulèvement</i><par n="livre__n"/></e>
       <e lm="soupir" a="webform"><i>soupir</i><par n="livre__n"/></e>
       <e lm="souricière" a="webform"><i>souricière</i><par n="abeille__n"/></e>
-      <e lm="souscription" r="LR" a="webform"><i>souscription</i><par n="abeille__n"/></e>
+      <e lm="souscription" a="webform"><i>souscription</i><par n="abeille__n"/></e>
       <e lm="sous-directeur" a="webform"><i>sous-direct</i><par n="administrat/eur__n"/></e>
       <e lm="sous-gouverneur" a="eleka"><i>sous-gouverneur</i><par n="livre__n"/></e>
       <e lm="sous-marin" a="webform"><i>sous-marin</i><par n="livre__n"/></e>
@@ -18206,7 +18217,7 @@
       <e lm="spécialité" a="webform"><i>spécialité</i><par n="abeille__n"/></e>
       <e lm="spécification" a="webform"><i>spécification</i><par n="abeille__n"/></e>
       <e lm="spécificité" a="webform"><i>spécificité</i><par n="abeille__n"/></e>
-      <e lm="speculation" r="LR" a="webform"><i>speculation</i><par n="abeille__n"/></e>
+      <e lm="speculation" a="webform"><i>speculation</i><par n="abeille__n"/></e>
       <e lm="spoliation" a="eleka"><i>spoliation</i><par n="abeille__n"/></e>
       <e lm="spoliation" a="webform"><i>spoliation</i><par n="abeille__n"/></e>
       <e lm="spontanéité" a="webform"><i>spontanéité</i><par n="abeille__n"/></e>
@@ -18241,7 +18252,7 @@
       <e lm="suggestion" a="webform"><i>suggestion</i><par n="abeille__n"/></e>
       <e lm="suicide" a="webform"><i>suicide</i><par n="livre__n"/></e>
       <e lm="suivi" a="webform"><i>suivi</i><par n="livre__n"/></e>
-      <e lm="sujétion" r="LR" a="webform"><i>sujétion</i><par n="abeille__n"/></e>
+      <e lm="sujétion" a="webform"><i>sujétion</i><par n="abeille__n"/></e>
       <e lm="sunnite" a="eleka"><i>sunnite</i><par n="artiste__n"/></e>
       <e lm="supermarché" a="webform"><i>supermarché</i><par n="livre__n"/></e>
       <e lm="superposition" a="webform"><i>superposition</i><par n="abeille__n"/></e>
@@ -18615,6 +18626,8 @@
       <e lm="adjuger"><i>adjug</i><par n="allong/er__vblex"/></e>
       <e lm="grimper"><i>grimp</i><par n="abaiss/er__vblex"/></e>
 
+      <e lm="danse"><i>danse</i><par n="abeille__n"/></e>
+
  
  </section>
 
@@ -18630,6 +18643,7 @@
     <e lm="n'" r="LR">                      <p><l>n'</l><r>ne<s n="adv"/></r></p></e>
         <!-- interrogatives-->
     <e lm="autant que" r="LR">              <p><l>autant<b/>qu'</l><r>autant<b/>que</r></p><par n="hier__adv"/></e>
+    <e lm="d'autant plus que" r="LR">       <p><l>d'autant<b/>plus<b/>qu'</l><r>d'autant<b/>plus<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e r="LR">                              <p><l>c'</l><r>ce<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e r="LR">                              <p><l>qu'</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e r="LR">                              <p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -18670,6 +18684,14 @@
     <e lm="à propos de" r="LR">             <p><l>à<b/>propos<b/>d'</l><r>à<b/>propos<b/>de<s n="pr"/></r></p></e>
     <e lm="en cas de" r="LR">               <p><l>en<b/>cas<b/>d'</l><r>en<b/>cas<b/>de<s n="pr"/></r></p></e>
     <e r="LR" lm="être le porte-drapeau d'" a="eleka"><i></i><par n="/être__vblex" /> <p><l><b/>le<b/>porte-drapeau<b/>d'</l><r><g><b/>le<b/>porte-drapeau<b/>de</g></r></p></e>
+
+      <e r="LR"><p><l>celle<b/>qu'</l>       <r>celui<b/>que<s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>celles<b/>qu'</l>      <r>celui<b/>que<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>celui<b/>qu'</l>       <r>celui<b/>que<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="LR"><p><l>ceux<b/>qu'</l>        <r>celui<b/>que<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="LR"><p><l>ce<b/>qu'</l>          <r>celui<b/>que<s n="rel"/><s n="nt"/></r></p></e>
+
+
   </section>
 
   <section id="final" type="inconditional">

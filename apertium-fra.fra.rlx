@@ -1,50 +1,76 @@
-DELIMITERS = "<.>" "<!>" "<?>" "<...>" "<¶>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
+OPTIONS += no-inline-sets no-inline-templates ;
 
 SETS
 
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
-LIST N = n ; 
-LIST V = vblex vaux ;
-LIST V-FIN = ind subj imp ;
-LIST V-INF = inf (past ple);
-LIST DET = det ;
+LIST V = vblex ;
+LIST Haver = vbhaver ;
+LIST Cm = cm ;
+LIST Subj = subj ;
+LIST Prop = np ;
+LIST Adv = adv ;
 LIST Prs = prs ;
-LIST PRO-PERS = (prn pers) ;
-LIST SUBJ = (n) (prn pers nom) ;
-LIST F = f mf ;
-LIST M = m mf ;
-LIST DISJ = disj ;
-LIST REFL = refl ;
-LIST PERSONS = (p1 sg) (p1 pl) (p2 sg) (p2 pl) (p3 sg) (p3 pl) ;
-LIST PERSON3 = n (p3 sg) ;
-LIST DAT = dat ;
-LIST COMA = cm ; 
-LIST APOS = apos ;
-LIST Que = "que" ;
+LIST Pro = pro ;
+LIST Imper = imp ;
+LIST Pri = pri ;
+LIST N = n ;
 
-List Prop = np ;
+LIST Interr = itg ;
+LIST Rel = rel ;
+
+LIST Fin = pri prs pii ifi pis cni imp ;
+LIST Inf = inf ;
+LIST PrfPrc = pp ;
+
+LIST Que = "que" ;
+LIST Qui = "qui" ;
+LIST Avoir = "avoir" ; 
+LIST Le = "le" ;
+LIST Fait = "<fait>"i ;
+LIST Est = "<est>"i ;
+LIST Il = "il" ;
+LIST Pas = "pas" ; 
+LIST Ne = "ne" ; 
+LIST Devoir = "devoir" ;
+LIST Être = "être" ;
+
 LIST Title = "<[A-Z][a-z]\+>"r ;
 
-SET CLB = SUBJ | COMA;
+SET QUI-QUE = Que | Qui ;
+
+SET CLB = Subj | Cm ;
 
 SECTION
 
-#REMOVE PRO-PERS IF (0 DET) (NOT 1 V-FIN) (1 N) ; 
-#REMOVE M IF (NOT 1 M) ;
-#REMOVE DISJ IF (1 V-FIN) ;
-#REMOVE DISJ IF (2 V-FIN) (1 REFL) ;
-#REMOVE V-FIN + $$PERSONS IF (NOT -1 PRO-PERS + $$PERSONS) ;
-#SELECT V-FIN + (p3 sg) IF (-1C PERSON3) ;
-#SELECT V-FIN IF (-1C PRO-PERS) ;
-#REMOVE REFL + $$PERSONS IF (NOT -1 PRO-PERS + $$PERSONS) ;
-#REMOVE DAT IF (NOT 1 SUBJ) ;
-#REMOVE PRO-PERS IF (1 N ) ;
-#REMOVE PRO-PERS IF (1 APOS ) (2 N) ;
-#REMOVE Prs IF (NOT -1* Que);
-#
-
 SELECT Prop IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
+
+REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB); 
+
+REMOVE Pro IF (0 Le) (NOT 1 V) ;
+  ## Le chien aime jouer avec les deux enfants.
+
+REMOVE N IF (0 Fait) (-1 Il) ;
+  ## Il fait beau aujourd'hui, il fait très chaud.
+
+REMOVE N IF (0 Est) (-1 Interr OR Rel) ;
+  ## Où est Jean ?
+
+SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
+  ## Ils n'ont pas pu jouer dehors.
+
+REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
+  ## Marie pense qu'elle a vu où Jean est allé :
+
+SELECT Inf IF (0 Être) (-1 Devoir) ;
+  ## Ce doit être Jean ! 
+
+SELECT Haver IF (0 Avoir) (1 PrfPrc) ;
+  ## Est-ce que tu as vu Jean ?
+
+SELECT Haver IF (0 Avoir) (2 PrfPrc) ;
+  ## As-tu vu Jean ?

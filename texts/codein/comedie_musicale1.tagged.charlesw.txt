@@ -1,7 +1,7 @@
 ^La/Le<det><def><f><sg>$
 ^comédie/comédie<n><f><sg>$
 ^musicale/musical<adj><f><sg>$
-^être/être<vbser><pri><p3><sg>$
+^est/être<vbser><pri><p3><sg>$
 ^un/un<det><ind><m><sg>$
 ^genre/genre<n><m><sg>$
 ^théâtral/théâtral<adj><m><sg>$
