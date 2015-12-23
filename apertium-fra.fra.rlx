@@ -3,6 +3,9 @@ SOFT-DELIMITERS = "<,>" ;
 
 SETS
 
+LIST BOS = (>>>) ;
+LIST EOS = (<<<) ;
+
 LIST N = n ; 
 LIST V = vblex vaux ;
 LIST V-FIN = ind subj imp ;
@@ -22,6 +25,9 @@ LIST COMA = cm ;
 LIST APOS = apos ;
 LIST Que = "que" ;
 
+List Prop = np ;
+LIST Title = "<[A-Z][a-z]\+>"r ;
+
 SET CLB = SUBJ | COMA;
 
 SECTION
@@ -40,6 +46,5 @@ SECTION
 #REMOVE Prs IF (NOT -1* Que);
 #
 
-SELECT (abc);
-
-  ## 
+SELECT Prop IF (NOT -1 BOS) (0 Title) ;
+  ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
