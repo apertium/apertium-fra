@@ -18538,6 +18538,83 @@
       <e r="LR" lm="étudiant"><p><l>Etudiant</l><r>étudiant</r></p><par n="affecté__n"/></e>
       <e r="LR" lm="évangile" a="webform"><p><l>Evangile</l><r>évangile</r></p><par n="livre__n"/></e>
       <e r="LR" lm="plafonnement"><i>plafonnement</i><par n="livre__n"/></e>
+
+      <e lm="abonder" a="eleka"><i>abond</i><par n="abaiss/er__vblex"/></e>
+      <e lm="aboyer" a="bech"><i>abo</i><par n="côto/yer__vblex"/></e>
+      <e lm="accoler" a="bech"><i>accol</i><par n="abaiss/er__vblex"/></e>
+      <e lm="alimenter" a="webform"><i>aliment</i><par n="abaiss/er__vblex"/></e>
+      <e lm="appuyer" a="eleka"><i>appu</i><par n="bala/yer__vblex"/></e>
+      <e lm="assainir" a="eleka"><i>assain</i><par n="about/[]ir__vblex" prm=""/></e>
+      <e lm="assiéger" a="eleka"><i>assi</i><par n="abr/é[G]er__vblex" prm="g"/></e>
+      <e lm="baller"><i>ball</i><par n="abaiss/er__vblex"/></e>
+      <e lm="budgéter" a="eleka"><i>budgét</i><par n="abaiss/er__vblex"/></e>
+      <e lm="centraliser" a="bech"><i>centralis</i><par n="abaiss/er__vblex"/></e>
+      <e lm="chevaucher" a="bech"><i>chevauch</i><par n="abaiss/er__vblex"/></e>
+      <e lm="chuter" a="webform"><i>chut</i><par n="abaiss/er__vblex"/></e>
+      <e lm="cogner" a="eleka"><i>cogn</i><par n="abaiss/er__vblex"/></e>
+      <e lm="collecter" a="eleka"><i>collect</i><par n="abaiss/er__vblex"/></e>
+      <e lm="compiler" a="bech"><i>compil</i><par n="abaiss/er__vblex"/></e>
+      <e lm="conjuguer" a="bech"><i>conjugu</i><par n="abaiss/er__vblex"/></e>
+      <e lm="convertir"><i>convert</i><par n="about/[]ir__vblex" prm=""/></e>
+      <e lm="décaler" a="bech"><i>décal</i><par n="abaiss/er__vblex"/></e>
+      <e lm="décoller" a="eleka"><i>décoll</i><par n="abaiss/er__vblex"/></e>
+      <e lm="décompresser" a="bech"><i>décompress</i><par n="abaiss/er__vblex"/></e>
+      <e lm="défier" a="eleka"><i>défi</i><par n="abaiss/er__vblex"/></e>
+      <e lm="déloger" a="eleka"><i>délog</i><par n="allong/er__vblex"/></e>
+      <e lm="dénigrer" a="prompsit"><i>dénigr</i><par n="abaiss/er__vblex"/></e>
+      <e lm="déplorer" a="webform"><i>déplor</i><par n="abaiss/er__vblex"/></e>
+      <e lm="diversifier" a="eleka"><i>diversifi</i><par n="abaiss/er__vblex"/></e>
+      <e lm="effondrer" a="eleka"><i>effondr</i><par n="abaiss/er__vblex"/></e>
+      <e lm="enfuir" a="eleka"><i>enfu</i><par n="fu/ir__vblex"/></e>
+      <e lm="enterrer" a="eleka"><i>enterr</i><par n="abaiss/er__vblex"/></e>
+      <e lm="étoiler" a="eleka"><i>étoil</i><par n="abaiss/er__vblex"/></e>
+      <e lm="examiner à part" a="eleka"><i>examin</i><par n="abaiss/er__vblex"/><p><l><b/>à<b/>part</l><r><g><b/>à<b/>part</g></r></p></e>
+      <e lm="exhaler" a="eleka"><i>exhal</i><par n="abaiss/er__vblex"/></e>
+      <e lm="faire la sourde oreille" a="eleka"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>la<b/>sourde<b/>oreille</l><r><g><b/>la<b/>sourde<b/>oreille</g></r></p></e>
+      <e lm="fomenter" a="eleka"><i>foment</i><par n="abaiss/er__vblex"/></e>
+      <e lm="fusiller" a="bech"><i>fusill</i><par n="abaiss/er__vblex"/></e>
+      <e lm="guérir" a="webform"><p><l>guér</l><r>guér</r></p><par n="about/[]ir__vblex" prm=""/></e>
+      <e lm="harceler" a="webform"><i>harcel</i><par n="abaiss/er__vblex"/></e>
+      <e lm="incarcérer" a="eleka"><i>incarc</i><par n="accél/é[R]er__vblex" prm="r"/></e>
+      <e lm="incrémenter" a="bech"><i>incrément</i><par n="abaiss/er__vblex"/></e>
+      <e lm="indexer" a="eleka"><i>index</i><par n="abaiss/er__vblex"/></e>
+      <e lm="infliger une amende" a="eleka"><i>inflig</i><par n="allong/er__vblex"/><p><l><b/>une<b/>amende</l><r><g><b/>une<b/>amende</g></r></p></e>
+      <e lm="jumeler" a="eleka"><i>jumel</i><par n="appel/er__vblex"/></e>
+      <e lm="kidnapper" a="eleka"><i>kidnapp</i><par n="abaiss/er__vblex"/></e>
+      <e lm="léser" a="eleka"><i>l</i><par n="accél/é[R]er__vblex" prm="s"/></e>
+      <e lm="marquer un panier" a="eleka"><i>marqu</i><par n="abaiss/er__vblex"/><p><l><b/>un<b/>panier</l><r><g><b/>un<b/>panier</g></r></p></e>
+      <e lm="maximiser" a="eleka"><i>maximis</i><par n="abaiss/er__vblex"/></e>
+      <e lm="miauler" a="bech"><i>miaul</i><par n="abaiss/er__vblex"/></e>
+      <e lm="octroyer" a="eleka"><i>octro</i><par n="bala/yer__vblex"/></e>
+      <e lm="opiner" a="eleka"><i>opin</i><par n="abaiss/er__vblex"/></e>
+      <e lm="payer des impôts" a="eleka"><i>pa</i><par n="bala/yer__vblex"/><p><l><b/>des<b/>impôts</l><r><g><b/>des<b/>impôts</g></r></p></e>
+      <e lm="perdurer" a="eleka"><i>perdur</i><par n="abaiss/er__vblex"/></e>
+      <e lm="persuader"><i>persuad</i><par n="abaiss/er__vblex"/></e>
+      <e lm="pétrir" a="eleka"><i>pétr</i><par n="about/[]ir__vblex" prm=""/></e>
+      <e lm="prôner" a="webform"><i>prôn</i><par n="abaiss/er__vblex"/></e>
+      <e lm="quadriller" a="eleka"><i>quadrill</i><par n="abaiss/er__vblex"/></e>
+      <e lm="rattraper" a="prompsit"><i>rattrap</i><par n="abaiss/er__vblex"/></e>
+      <e lm="refuser" a="webform"><i>refus</i><par n="abaiss/er__vblex"/></e>
+      <e lm="réjouir" a="eleka"><i>réjou</i><par n="about/[]ir__vblex" prm=""/></e>
+      <e lm="renégocier"><i>renégoci</i><par n="abaiss/er__vblex"/></e>
+      <e lm="repasser"><i>repass</i><par n="abaiss/er__vblex"/></e>
+      <e lm="retoucher" a="bech"><i>retouch</i><par n="abaiss/er__vblex"/></e>
+      <e lm="rythmer"><i>rythm</i><par n="abaiss/er__vblex"/></e>
+      <e lm="saliver" a="eleka"><i>saliv</i><par n="abaiss/er__vblex"/></e>
+      <e lm="scinder"><i>scind</i><par n="abaiss/er__vblex"/></e>
+      <e lm="soutirer" a="eleka"><i>soutir</i><par n="abaiss/er__vblex"/></e>
+      <e lm="spécifier" a="bech"><i>spécifi</i><par n="abaiss/er__vblex"/></e>
+      <e lm="synchroniser" a="bech"><i>synchronis</i><par n="abaiss/er__vblex"/></e>
+      <e lm="tapir" a="eleka"><i>tap</i><par n="about/[]ir__vblex" prm=""/></e>
+      <e lm="téléphoner" a="eleka"><i>téléphon</i><par n="abaiss/er__vblex"/></e>
+      <e lm="tomber sur" a="eleka"><i>tomb</i><par n="abaiss/er__vblex"/><p><l><b/>sur</l><r><g><b/>sur</g></r></p></e>
+      <e lm="transporter"><i>transport</i><par n="abaiss/er__vblex"/></e>
+      <e lm="tronquer" a="bech"><i>tronqu</i><par n="abaiss/er__vblex"/></e>
+      <e lm="troquer" a="webform"><i>troqu</i><par n="abaiss/er__vblex"/></e>
+      <e lm="verser" a="eleka"><i>vers</i><par n="abaiss/er__vblex"/></e>
+      <e lm="adjuger"><i>adjug</i><par n="allong/er__vblex"/></e>
+      <e lm="grimper"><i>grimp</i><par n="abaiss/er__vblex"/></e>
+
  
  </section>
 
