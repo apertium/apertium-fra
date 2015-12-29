@@ -17,6 +17,7 @@ LIST Prs = prs ;
 LIST Pro = pro ;
 LIST Imper = imp ;
 LIST Pri = pri ;
+LIST Prn = prn ;
 LIST N = n ;
 
 LIST Interr = itg ;
@@ -74,3 +75,5 @@ SELECT Haver IF (0 Avoir) (1 PrfPrc) ;
 
 SELECT Haver IF (0 Avoir) (2 PrfPrc) ;
   ## As-tu vu Jean ?
+  
+REMOVE Imper IF (-1 Prn) ;
