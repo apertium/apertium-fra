@@ -7935,6 +7935,7 @@
     <e lm="clocher">                        <i>clocher</i><par n="livre__n"/></e>
     <e lm="clocher">                        <i>cloch</i><par n="abaiss/er__vblex"/></e>
     <e lm="clochette">                      <i>clochette</i><par n="abeille__n"/></e>
+    <e lm="cloquer">                        <i>clouqu</i><par n="abaiss/er__vblex"/></e>
     <e lm="Clos">                           <i>Clos</i><par n="Abraham__np"/></e>
     <e lm="clos">                           <i>clos</i><par n="mois__n"/></e>
     <e lm="clôture">                        <i>clôture</i><par n="abeille__n"/></e>
@@ -13701,6 +13702,7 @@
     <e lm="Quesada">                        <i>Quesada</i><par n="Carrefour__np"/></e>
     <e lm="question">                       <i>question</i><par n="abeille__n"/></e>
     <e lm="questionnaire">                  <i>questionnaire</i><par n="livre__n"/></e>
+    <e lm="questionner">                    <i>questionn</i><par n="abaiss/er__vblex"/></e>
     <e lm="queue">                          <i>queue</i><par n="abeille__n"/></e>
     <e lm="Quevedo">                        <i>Quevedo</i><par n="Abraham__np"/></e>
     <e lm="qui">                            <i>qui</i><par n="que__prn"/></e>
@@ -13913,6 +13915,7 @@
     <e lm="reformuler" a="eleka">           <i>reformul</i><par n="abaiss/er__vblex" /></e>
     <e lm="réfractaire" r="LR">             <i>réfractaire</i><par n="académique__adj"/></e>
     <e lm="réfrigérateur">                  <i>réfrigérateur</i><par n="livre__n"/></e>
+    <e lm="refréner" a="eleka">             <i>refrén</i><par n="abaiss/er__vblex"/></e>
     <e lm="refroidir">                      <i>refroid</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="refuge">                         <i>refuge</i><par n="livre__n"/></e>
     <e lm="réfugié" a="gema">               <i>réfugié</i><par n="abaissant__adj"/></e>
@@ -16905,6 +16908,7 @@
       <e lm="fraternité" a="webform"><i>fraternité</i><par n="abeille__n"/></e>
       <e lm="fraternité" a="webform" r="RL"><i>fraternité</i><par n="abeille__n"/></e>
       <e lm="fraude" a="webform"><i>fraude</i><par n="abeille__n"/></e>
+      <e lm="frauder"><i>fraud</i><par n="abaiss/er__vblex"/></e>
       <e lm="fréquentation" a="webform"><i>fréquentation</i><par n="abeille__n"/></e>
       <e lm="friction" a="webform"><i>friction</i><par n="abeille__n"/></e>
       <e lm="frigidaire" a="webform"><i>frigidaire</i><par n="livre__n"/></e>
@@ -18097,6 +18101,7 @@
       <e lm="sac" a="webform" r="RL"><i>sac</i><par n="livre__n"/></e>
       <e lm="sacrement" a="webform"><i>sacrement</i><par n="livre__n"/></e>
       <e lm="sagacité" a="webform"><i>sagacité</i><par n="abeille__n"/></e>
+      <e lm="saigner"><i>saign</i><par n="abaiss/er__vblex"/></e>
       <e lm="Saint-Sylvestre" a="eleka"><i>Saint-Sylvestre</i><par n="abeille__n"/></e>
       <e lm="salinité" a="webform"><i>salinité</i><par n="abeille__n"/></e>
       <e lm="salive" a="webform"><i>salive</i><par n="abeille__n"/></e>
@@ -18587,6 +18592,7 @@
       <e lm="incarcérer" a="eleka"><i>incarc</i><par n="accél/é[R]er__vblex" prm="r"/></e>
       <e lm="incrémenter" a="bech"><i>incrément</i><par n="abaiss/er__vblex"/></e>
       <e lm="indexer" a="eleka"><i>index</i><par n="abaiss/er__vblex"/></e>
+      <e lm="infliger" a="eleka"><i>inflig</i><par n="abaiss/er__vblex"/></e>
       <e lm="infliger une amende" a="eleka"><i>inflig</i><par n="allong/er__vblex"/><p><l><b/>une<b/>amende</l><r><g><b/>une<b/>amende</g></r></p></e>
       <e lm="jumeler" a="eleka"><i>jumel</i><par n="appel/er__vblex"/></e>
       <e lm="kidnapper" a="eleka"><i>kidnapp</i><par n="abaiss/er__vblex"/></e>
@@ -18625,6 +18631,18 @@
       <e lm="grimper"><i>grimp</i><par n="abaiss/er__vblex"/></e>
 
       <e lm="danse"><i>danse</i><par n="abeille__n"/></e>
+
+        <e lm="carboniser"><i>carbonis</i><par n="abaiss/er__vblex"/></e>
+        <e lm="repousser"><i>repouss</i><par n="abaiss/er__vblex"/></e>
+        <e lm="sélecter"><i>sélect</i><par n="abaiss/er__vblex"/></e>
+        <e lm="stigmatiser"><i>stigmatis</i><par n="abaiss/er__vblex"/></e>
+        <e lm="surmonter"><i>surmont</i><par n="abaiss/er__vblex"/></e>
+        <e lm="tranquilliser"><i>tranquillis</i><par n="abaiss/er__vblex"/></e>
+        <e lm="engendrer"><i>engendr</i><par n="abaiss/er__vblex"/></e>
+        <e lm="transvaser"><i>transvas</i><par n="abaiss/er__vblex"/></e>
+        <e lm="trompetter"><i>trompett</i><par n="abaiss/er__vblex"/></e>
+        <e lm="cloquer"><i>cloqu</i><par n="abaiss/er__vblex"/></e>
+        <e lm="vociférer"><i>vocifér</i><par n="abaiss/er__vblex"/></e>
 
  
  </section>
