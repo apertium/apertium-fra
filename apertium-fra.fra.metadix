@@ -11072,7 +11072,7 @@
     <e lm="information">                    <i>information</i><par n="abeille__n"/></e>
     <e lm="informatique">                   <i>informatique</i><par n="abeille__n"/></e>
     <e lm="informel" a="webform">           <i>informel</i><par n="annuel__adj" /></e>
-    <e lm="informer" r="LR">                <i>inform</i><par n="abaiss/er__vblex"/></e>
+    <e lm="informer">                        <i>inform</i><par n="abaiss/er__vblex"/></e>
     <e lm="infrarouge" a="ariel">           <i>infrarouge</i><par n="académique__adj"/></e>
     <e lm="infrastructure">                 <i>infrastructure</i><par n="abeille__n"/></e>
     <e lm="ingénieur">                      <i>ingénieur</i><par n="artiste__n"/></e>
