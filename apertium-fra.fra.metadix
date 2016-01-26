@@ -7119,6 +7119,7 @@
     <e lm="battre">                         <i>bat</i><par n="abat/tre__vblex"/></e>
     <e lm="Bautista">                       <i>Bautista</i><par n="Abraham__np"/></e>
     <e lm="bavard" a="eleka">               <i>bavard</i><par n="abaissant__adj" /></e>
+    <e lm="bavarder">                       <i>bavard</i><par n="abaiss/er__vblex"/></e>
     <e lm="Bayrou" a="gema">                <i>Bayrou</i><par n="Abraham__np"/></e>
     <e lm="bazar">                          <i>bazar</i><par n="livre__n"/></e>
     <e lm="Bea">                            <i>Bea</i><par n="Abraham__np"/></e>
@@ -9285,6 +9286,7 @@
     <e lm="émailler">                       <i>émaill</i><par n="abaiss/er__vblex"/></e>
     <e lm="émancipation">                   <i>émancipation</i><par n="abeille__n"/></e>
     <e lm="émaner" a="ariel">               <i>éman</i><par n="abaiss/er__vblex"/></e>
+    <e lm="emballer">                       <i>emball</i><par n="abaiss/er__vblex"/></e>
     <e lm="emballage">                      <i>emballage</i><par n="livre__n"/></e>
     <e lm="embarcation">                    <i>embarcation</i><par n="abeille__n"/></e>
     <e lm="embarquer">                      <i>embarqu</i><par n="abaiss/er__vblex"/></e>
@@ -9352,6 +9354,7 @@
     <e lm="en cas de">                      <i>en<b/>cas<b/></i><par n="contde__pr"/></e>
     <e lm="en ce qui concerne" a="gema" r="LR"><i>en<b/>ce<b/>qui<b/>concerne</i><par n="attendu__pr"/></e>
     <e lm="encercler" a="eleka">            <i>encercl</i><par n="abaiss/er__vblex" /></e>
+    <e lm="enchaîner">                      <i>enchaîn</i><par n="abaiss/er__vblex"/></e>
     <e lm="enchanté">                       <i>enchanté</i><par n="abaissant__adj"/></e>
     <e lm="enchanter">                      <i>enchant</i><par n="abaiss/er__vblex"/></e>
     <e lm="enchérir" a="eleka">             <i>enchér</i><par n="about/[]ir__vblex" prm="" /></e>
@@ -10324,6 +10327,7 @@
     <e lm="fusil">                          <i>fusil</i><par n="livre__n"/></e>
     <e lm="fusion">                         <i>fusion</i><par n="abeille__n"/></e>
     <e lm="fusionner" a="gema">             <i>fusionn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="mendier"><i>mendi</i><par n="abaiss/er__vblex"/></e>
     <e lm="Fuster">                         <i>Fuster</i><par n="Carrefour__np"/></e>
     <e lm="futur">                          <i>futur</i><par n="abaissant__adj"/></e>
     <e lm="futur">                          <i>futur</i><par n="livre__n"/></e>
@@ -14410,6 +14414,7 @@
     <e lm="Salgado">                        <i>Salgado</i><par n="Carrefour__np"/></e>
     <e lm="salin" a="eleka">                <i>salin</i><par n="abaissant__adj" /></e>
     <e lm="Salinas">                        <i>Salinas</i><par n="Andorre__np"/></e>
+    <e lm="salir">                          <i>sal</i><par n="accour/ir__vblex"/></e>
     <e lm="salle">                          <i>salle</i><par n="abeille__n"/></e>
     <e lm="salon">                          <i>salon</i><par n="livre__n"/></e>
     <e lm="salubrité">                      <i>salubrité</i><par n="abeille__n"/></e>
@@ -17066,6 +17071,7 @@
       <e lm="implant" a="webform"><i>implant</i><par n="livre__n"/></e>
       <e lm="implémentation" a="eleka"><i>implémentation</i><par n="abeille__n"/></e>
       <e lm="implication" a="webform"><i>implication</i><par n="abeille__n"/></e>
+      <e lm="implorer"><i>implor</i><par n="abaiss/er__vblex"/></e>
       <e lm="impopularité" a="webform"><i>impopularité</i><par n="abeille__n"/></e>
       <e lm="importation" a="webform"><i>importation</i><par n="abeille__n"/></e>
       <e lm="imposeur" a="eleka"><i>imposeu</i><par n="causeu/r__n"/></e>
@@ -17379,6 +17385,7 @@
       <e lm="massification" a="webform"><i>massification</i><par n="abeille__n"/></e>
       <e lm="massification" a="webform"><i>massification</i><par n="abeille__n"/></e>
       <e lm="master" a="eleka"><i>master</i><par n="livre__n"/></e>
+      <e lm="mastiquer"><i>mastiqu</i><par n="abaiss/er__vblex"/></e>
       <e lm="masturbation" a="webform"><i>masturbation</i><par n="abeille__n"/></e>
       <e lm="match" a="eleka" r="LR"><i>match</i><par n="livre__n"/></e>
       <e lm="match"><i>match</i><par n="match__n"/></e>
@@ -17405,6 +17412,7 @@
       <e lm="mémorial" a="eleka"><i>mémoria</i><par n="anima/l__n"/></e>
       <e lm="mémorisation" a="webform"><i>mémorisation</i><par n="abeille__n"/></e>
       <e lm="mendicité" a="webform"><i>mendicité</i><par n="abeille__n"/></e>
+      <e lm="mendier"><i>mendi</i><par n="abaiss/er__vblex"/></e>
       <e lm="menstruation" a="webform"><i>menstruation</i><par n="abeille__n"/></e>
       <e lm="mensualité" a="webform"><i>mensualité</i><par n="abeille__n"/></e>
       <e lm="mentalité" a="webform"><i>mentalité</i><par n="abeille__n"/></e>
@@ -18644,7 +18652,37 @@
         <e lm="cloquer"><i>cloqu</i><par n="abaiss/er__vblex"/></e>
         <e lm="vociférer"><i>vocifér</i><par n="abaiss/er__vblex"/></e>
 
- 
+         <e lm="frictionner"><i>frictionn</i><par n="abaiss/er__vblex"/></e>
+        <e lm="parsemer"><i>parsem</i><par n="abaiss/er__vblex"/></e>
+        <e lm="désorienter"><i>désorient</i><par n="abaiss/er__vblex"/></e>
+        <e lm="défigurer"><i>défigur</i><par n="abaiss/er__vblex"/></e>
+        <e lm="dévaster"><i>dévast</i><par n="abaiss/er__vblex"/></e>
+        <e lm="roter"><i>rot</i><par n="abaiss/er__vblex"/></e>
+        <e lm="arder"><i>ard</i><par n="abaiss/er__vblex"/></e>
+        <e lm="hérisser"><i>hériss</i><par n="abaiss/er__vblex"/></e>
+        <e lm="jaser"><i>jas</i><par n="abaiss/er__vblex"/></e>
+        <e lm="coaguler"><i>coagul</i><par n="abaiss/er__vblex"/></e>
+        <e lm="clarifier"><i>clarifi</i><par n="abaiss/er__vblex"/></e>
+        <e lm="blasphémer"><i>blasphém</i><par n="abaiss/er__vblex"/></e>
+        <e lm="bluffer"><i>bluff</i><par n="abaiss/er__vblex"/></e>
+        <e lm="canceller"><i>cancell</i><par n="abaiss/er__vblex"/></e>
+        <e lm="amalgamer"><i>amalgam</i><par n="abaiss/er__vblex"/></e>
+        <e lm="retrancher"><i>retranch</i><par n="abaiss/er__vblex"/></e>
+        <e lm="aliéner"><i>alién</i><par n="abaiss/er__vblex"/></e>
+        <e lm="bâtonner"><i>bâtonn</i><par n="abaiss/er__vblex"/></e>
+        <e lm="éduquer"><i>éduqu</i><par n="abaiss/er__vblex"/></e>
+        <e lm="classifier"><i>classifi</i><par n="abaiss/er__vblex"/></e>
+        <e lm="compatir"><i>compat</i><par n="about/[]ir__vblex" prm=""/></e>
+        <e lm="castrer"><i>castr</i><par n="abaiss/er__vblex"/></e>
+        <e lm="courber"><i>courb</i><par n="abaiss/er__vblex"/></e>
+        <e lm="appâter"><i>appât</i><par n="abaiss/er__vblex"/></e>
+        <e lm="creuser"><i>creus</i><par n="abaiss/er__vblex"/></e>
+        <e lm="fustiger"><i>fustig</i><par n="allong/er__vblex"/></e>
+        <e lm="aveugler"><i>aveugl</i><par n="abaiss/er__vblex"/></e>
+        <e lm="bander"><i>band</i><par n="abaiss/er__vblex"/></e>
+        <e lm="ambler"><i>ambl</i><par n="abaiss/er__vblex"/></e>
+
+
  </section>
 
   <section id="apostrophes" type="postblank">
