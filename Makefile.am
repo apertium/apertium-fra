@@ -2,8 +2,8 @@
 ## Makefile for apertium-fra
 ###############################################################################
 
-RELEASE=0.1
-VERSION=0.1.0
+RELEASE=1.0
+VERSION=1.0.0
 LANG1=fra
 BASENAME=apertium-$(LANG1)
 
@@ -59,6 +59,8 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix \
 		$(BASENAME).$(LANG1).rlx \
 		$(BASENAME).post-$(LANG1).dix \
 		$(LANG1).prob \
+		buscaPar.xsl \
+		principal.xsl \
 		modes.xml
 
 ###############################################################################
