@@ -10,6 +10,8 @@ LIST EOS = (<<<) ;
 LIST V = vblex ;
 LIST Haver = vbhaver ;
 LIST Cm = cm ;
+LIST Det = det ;
+LIST Prep = pr ;
 LIST Subj = subj ;
 LIST Prop = np ;
 LIST Adv = adv ;
@@ -77,3 +79,6 @@ SELECT Haver IF (0 Avoir) (2 PrfPrc) ;
   ## As-tu vu Jean ?
   
 REMOVE Imper IF (-1 Prn) ;
+
+SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) ;
+  ## Les poules du couvent couvent
