@@ -14,6 +14,7 @@ LIST Det = det ;
 LIST Prep = pr ;
 LIST Subj = subj ;
 LIST Prop = np ;
+LIST A = adj ;
 LIST Adv = adv ;
 LIST Prs = prs ;
 LIST Pro = pro ;
@@ -24,6 +25,8 @@ LIST N = n ;
 
 LIST Interr = itg ;
 LIST Rel = rel ;
+
+LIST Sg = sg ;
 
 LIST Fin = pri prs pii ifi pis cni imp ;
 LIST Inf = inf ;
@@ -40,6 +43,8 @@ LIST Pas = "pas" ;
 LIST Ne = "ne" ; 
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
+LIST Fil = "fil" ;
+LIST Fils = "fils" ;
 
 LIST Title = "<[A-Z][a-z]\+>"r ;
 
@@ -80,5 +85,8 @@ SELECT Haver IF (0 Avoir) (2 PrfPrc) ;
   
 REMOVE Imper IF (-1 Prn) ;
 
-SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) ;
+SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT 1 N OR A) ;
   ## Les poules du couvent couvent
+
+SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
+  ## Avec lequel elle aura un fils.
