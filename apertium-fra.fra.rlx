@@ -43,8 +43,12 @@ LIST Pas = "pas" ;
 LIST Ne = "ne" ; 
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
+
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
+LIST Foi = "foi" ;
+LIST Fois = "fois" ;
+
 
 LIST Title = "<[A-Z][a-z]\+>"r ;
 
@@ -90,3 +94,6 @@ SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT 1 N OR A) ;
 
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
+
+SELECT Fois IF (0C Foi OR Fois) (-1 Sg) ;
+  ## 
