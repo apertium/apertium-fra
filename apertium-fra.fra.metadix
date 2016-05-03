@@ -12934,6 +12934,16 @@
     <e lm="particulier" a="gema">           <i>particuli</i><par n="bouch/er__n"/></e>
     <e lm="particulier" a="gema">           <i>particuli</i><par n="ch/er__adj"/></e>
     <e lm="particulièrement">               <i>particulièrement</i><par n="hier__adv"/></e>
+    <e lm="particulièrement">               <i>particulièrement</i><par n="hier__adv"/></e>
+
+    <e lm="injustement"><i>injustement</i><par n="hier__adv"/></e>
+    <e lm="sauvagement"><i>sauvagement</i><par n="hier__adv"/></e>
+    <e lm="longuement"><i>longuement</i><par n="hier__adv"/></e>
+    <e lm="par ailleurs"><i>par<b/>ailleurs</i><par n="hier__adv"/></e>
+    <e lm="physiquement"><i>physiquement</i><par n="hier__adv"/></e>
+    <e lm="commercialement"><i>commercialement</i><par n="hier__adv"/></e>
+
+
     <e lm="partie">                         <i>partie</i><par n="abeille__n"/></e>
     <e lm="partiel" a="webform">            <i>partiel</i><par n="annuel__adj" /></e>
     <e lm="partir">                         <i>par</i><par n="consen/tir__vblex"/></e>
