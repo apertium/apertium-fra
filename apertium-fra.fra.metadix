@@ -7546,6 +7546,7 @@
     <e lm="carbone" a="ariel">              <i>carbone</i><par n="livre__n"/></e>
     <e lm="Carbonell">                      <i>Carbonell</i><par n="Abraham__np"/></e>
     <e lm="carbonique" a="ariel">           <i>carbonique</i><par n="académique__adj"/></e>
+    <e lm="téléphonique" a="">           <i>téléphonique</i><par n="académique__adj"/></e>
     <e lm="carburant" a="ariel">            <i>carburant</i><par n="livre__n"/></e>
     <e lm="carcasse">                       <i>carcasse</i><par n="abeille__n"/></e>
     <e lm="Cárcer">                         <i>Cárcer</i><par n="Andorre__np"/></e>
@@ -7753,6 +7754,7 @@
     <e lm="charger">                        <i>charg</i><par n="allong/er__vblex" /></e>
     <e lm="charger">                        <i>charg</i><par n="allong/er__vblex"/></e>
     <e lm="charité">                        <i>charité</i><par n="abeille__n"/></e>
+    <e lm="authenticité">                        <i>authenticité</i><par n="abeille__n"/></e>
     <e lm="Charles" a="gema">               <i>Charles</i><par n="Abraham__np"/></e>
     <e lm="Charlotte" a="gema">             <i>Charlotte</i><par n="Abraham__np"/></e>
     <e lm="charme">                         <i>charme</i><par n="livre__n"/></e>
@@ -8101,6 +8103,7 @@
     <e lm="compter" a="gema">               <i>compt</i><par n="abaiss/er__vblex"/></e>
     <e lm="compte rendu" a="gema">          <i>compte</i><par n="compte/_rendu__n"/></e>
     <e lm="comptitivité" a="ariel">         <i>competitivité</i><par n="abeille__n"/></e>
+    <e lm="compétitivité" a="ariel">         <i>compétitivité</i><par n="abeille__n"/></e>
     <e lm="comptoir">                       <i>comptoir</i><par n="livre__n"/></e>
     <e lm="comté">                          <i>comté</i><par n="livre__n"/></e>
     <e lm="concentration">                  <i>concentration</i><par n="abeille__n"/></e>
@@ -8673,6 +8676,7 @@
     <e lm="démocratie">                     <i>démocratie</i><par n="abeille__n"/></e>
     <e lm="démocratique" a="gema">          <i>démocratique</i><par n="académique__adj"/></e>
     <e lm="démographie">                    <i>démographie</i><par n="abeille__n"/></e>
+    <e lm="filmographie">                    <i>filmographie</i><par n="abeille__n"/></e>
     <e lm="biographie">                    <i>biographie</i><par n="abeille__n"/></e>
     <e lm="demoiselle">                     <i>demoiselle</i><par n="abeille__n"/></e>
     <e lm="démolition">                     <i>démolition</i><par n="abeille__n"/></e>
@@ -17861,6 +17865,7 @@
       <e lm="prolétariat" a="webform"><i>prolétariat</i><par n="livre__n"/></e>
       <e lm="prolétarisation" a="webform"><i>prolétarisation</i><par n="abeille__n"/></e>
       <e lm="prologue" a="eleka"><i>prologue</i><par n="livre__n"/></e>
+      <e lm="sociologue" a="eleka"><i>sociologue</i><par n="livre__n"/></e>
       <e lm="prolongation" a="webform"><i>prolongation</i><par n="abeille__n"/></e>
       <e lm="prolongement" a="webform"><i>prolongement</i><par n="livre__n"/></e>
       <e lm="promiscuité" a="webform"><i>promiscuité</i><par n="abeille__n"/></e>
