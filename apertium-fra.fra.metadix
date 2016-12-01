@@ -10,7 +10,7 @@
     <sdef n="pro"/>
     <sdef n="tn"/>
     <sdef n="acr"/>
-    <sdef n="loc"/>
+    <sdef n="top"/>
     <sdef n="ant"/>
     <sdef n="al"/>
     <sdef n="n"/>
@@ -854,7 +854,7 @@
     </pardef>
 
     <pardef n="Andorre__np">
-      <e><p><l/>                    <r><s n="np"/><s n="loc"/></r></p></e>
+      <e><p><l/>                    <r><s n="np"/><s n="top"/></r></p></e>
     </pardef>
 
     <pardef n="cent__num">
