@@ -72,7 +72,6 @@
     <sdef n="lpar"/>
     <sdef n="rpar"/>
     <sdef n="lquest"/>
-    <sdef n="web" />
     <sdef n="ND" />
     <sdef n="ppres" />
   </sdefs>
@@ -104,11 +103,11 @@
     </pardef>
 
     <pardef n="emails">
-      <e><re>[a-z.]+@[a-z.]+</re><p><l/><r><s n="web"/></r></p></e>
+      <e><re>[a-z.]+@[a-z.]+</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
 
     <pardef n="urls">
-      <e><re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re><p><l/><r><s n="web"/></r></p></e>
+      <e><re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re><p><l/><r><s n="num"/></r></p></e>
     </pardef>
 
     <pardef n="S__enc1">
