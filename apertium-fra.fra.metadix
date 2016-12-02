@@ -857,6 +857,30 @@
       <e><p><l/>                    <r><s n="np"/><s n="top"/></r></p></e>
     </pardef>
 
+    <pardef n="Bulgarie__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Bahamas__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="Californie__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="ind"/><s n="f"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="Iran__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
+    <pardef n="États-Unis__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="Madagascar__np">
+      <e><p><l></l><r><s n="np"/><s n="top"/><s n="ind"/><s n="m"/><s n="sg"/></r></p></e>
+    </pardef>
+
     <pardef n="cent__num">
       <e><p><l>s</l>                <r><s n="num"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l/>                    <r><s n="num"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -15295,6 +15319,7 @@
     <e lm="étouffer" r="LR"><p><l>Etouff</l><r>étouff</r></p><par n="abaiss/er__vblex"/></e>
     <e lm="étourdir"><i>étourd</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="étourdir" r="LR"><p><l>Etourd</l><r>étourd</r></p><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="être"><par n="/être__vbser"/></e>
     <e lm="être à couteaux tirés"><par n="/être__vblex"/><p><l><b/>à<b/>couteaux<b/>tirés</l><r><g><b/>à<b/>couteaux<b/>tirés</g></r></p></e>
     <e lm="être bavard comme une pie"><par n="/être__vblex"/><p><l><b/>bavard<b/>comme<b/>une<b/>pie</l><r><g><b/>bavard<b/>comme<b/>une<b/>pie</g></r></p></e>
     <e lm="être comme le jour et la nuit"><par n="/être__vblex"/><p><l><b/>comme<b/>le<b/>jour<b/>et<b/>la<b/>nuit</l><r><g><b/>comme<b/>le<b/>jour<b/>et<b/>la<b/>nuit</g></r></p></e>
@@ -15380,9 +15405,10 @@
     <e lm="facturer"><i>factur</i><par n="abaiss/er__vblex"/></e>
     <e lm="faiblir"><i>faibl</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="faillir"><i>fa</i><par n="fa/illir__vblex"/></e>
+    <e lm="faire abstraction"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>abstraction</l><r><g><b/>abstraction</g></r></p></e>
     <e lm="faire abstraction de" r="LR"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>abstraction<b/>de</l><r><g><b/>abstraction<b/>de</g></r></p></e>
     <e lm="faire abstraction de" r="RL"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>abstraction<b/><a/>de</l><r><g><b/>abstraction<b/>de</g></r></p></e>
-    <e lm="faire abstraction"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>abstraction</l><r><g><b/>abstraction</g></r></p></e>
+    <e lm="faire abstraction de" r="LR"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>abstraction<b/>d'</l><r><g><b/>abstraction<b/>de</g></r></p></e>
     <e lm="faire allusion à" r="LR"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>allusion<b/>à</l><r><g><b/>allusion<b/>à</g></r></p></e>
     <e lm="faire allusion à" r="RL"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>allusion<b/><a/>à</l><r><g><b/>allusion<b/>à</g></r></p></e>
     <e lm="faire appel"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>appel</l><r><g><b/>appel</g></r></p></e>
@@ -15419,6 +15445,7 @@
     <e lm="faire scandale"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>scandale</l><r><g><b/>scandale</g></r></p></e>
     <e lm="faire semblant de" r="LR"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>semblant<b/>de</l><r><g><b/>semblant<b/>de</g></r></p></e>
     <e lm="faire semblant de" r="RL"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>semblant<b/><a/>de</l><r><g><b/>semblant<b/>de</g></r></p></e>
+    <e lm="faire semblant de" r="LR"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>semblant<b/>d'</l><r><g><b/>semblant<b/>de</g></r></p></e>
     <e lm="faire taire"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>taire</l><r><g><b/>taire</g></r></p></e>
     <e lm="faire un bras de fer"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>bras<b/>de<b/>fer</l><r><g><b/>un<b/>bras<b/>de<b/>fer</g></r></p></e>
     <e lm="faire un coup de filet"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>coup<b/>de<b/>filet</l><r><g><b/>un<b/>coup<b/>de<b/>filet</g></r></p></e>
@@ -15426,6 +15453,7 @@
     <e lm="faire une peur bleue"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>une<b/>peur<b/>bleue</l><r><g><b/>une<b/>peur<b/>bleue</g></r></p></e>
     <e lm="faire un remboursement"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>remboursement</l><r><g><b/>un<b/>remboursement</g></r></p></e>
     <e lm="faire un tour"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>tour</l><r><g><b/>un<b/>tour</g></r></p></e>
+    <e lm="falloir"><i>fa</i><par n="fa/lloir__vbmod"/></e>
     <e lm="familiariser"><i>familiaris</i><par n="abaiss/er__vblex"/></e>
     <e lm="faner"><i>fan</i><par n="abaiss/er__vblex"/></e>
     <e lm="farcir"><i>farc</i><par n="about/[]ir__vblex" prm=""/></e>
@@ -20812,10 +20840,11 @@
     <e lm="Afallah"><i>Afallah</i><par n="Abraham__np"/></e>
     <e lm="Afek"><i>Afek</i><par n="Abraham__np"/></e>
     <e lm="Affadas"><i>Affadas</i><par n="Abraham__np"/></e>
-    <e lm="Afghanistan"><i>Afghanistan</i><par n="Andorre__np"/></e>
+    <e lm="Afghanistan"><i>Afghanistan</i><par n="Iran__np"/></e>
     <e lm="Afinsa"><i>Afinsa</i><par n="Carrefour__np"/></e>
     <e lm="Afolabi"><i>Afolabi</i><par n="Abraham__np"/></e>
     <e lm="Afrique australe"><i>Afrique<b/>australe</i><par n="Andorre__np"/></e>
+    <e lm="Afrique du Sud"><i>Afrique<b/>du<b/>Sud</i><par n="Bulgarie__np"/></e>
     <e lm="Afrique-Équatoriale Française"><i>Afrique-Équatoriale<b/>Française</i><par n="Andorre__np"/></e>
     <e lm="Afrique"><i>Afrique</i><par n="Andorre__np"/></e>
     <e lm="Afrique Noire"><i>Afrique<b/>Noire</i><par n="Andorre__np"/></e>
@@ -20990,7 +21019,7 @@
     <e lm="Akrotiri et Dhekelia"><i>Akrotiri<b/>et<b/>Dhekelia</i><par n="Andorre__np"/></e>
     <e lm="Aksa"><i>Aksa</i><par n="Carrefour__np"/></e>
     <e lm="Akud Arnolds"><i>Akud<b/>Arnolds</i><par n="Carrefour__np"/></e>
-    <e lm="Alabama"><i>Alabama</i><par n="Andorre__np"/></e>
+    <e lm="Alabama"><i>Alabama</i><par n="Madagascar__np"/></e>
     <e lm="Alabana"><i>Alabana</i><par n="Abraham__np"/></e>
     <e lm="Alabana"><i>Alabana</i><par n="Andorre__np"/></e>
     <e lm="Aladin"><i>Aladin</i><par n="Abraham__np"/></e>
@@ -21014,7 +21043,7 @@
     <e lm="Alarcia"><i>Alarcia</i><par n="Andorre__np"/></e>
     <e lm="Alarcón"><i>Alarcón</i><par n="Abraham__np"/></e>
     <e lm="Alasdair"><i>Alasdair</i><par n="Abraham__np"/></e>
-    <e lm="Alaska"><i>Alaska</i><par n="Andorre__np"/></e>
+    <e lm="Alaska"><i>Alaska</i><par n="Madagascar__np"/></e>
     <e lm="Alastruey"><i>Alastruey</i><par n="Abraham__np"/></e>
     <e lm="Alatriste"><i>Alatriste</i><par n="Carrefour__np"/></e>
     <e lm="Álava"><i>Álava</i><par n="Andorre__np"/></e>
@@ -21027,7 +21056,7 @@
     <e lm="Albadalejo"><i>Albadalejo</i><par n="Andorre__np"/></e>
     <e lm="Albaida"><i>Albaida</i><par n="Andorre__np"/></e>
     <e lm="Alban"><i>Alban</i><par n="Andorre__np"/></e>
-    <e lm="Albanie"><i>Albanie</i><par n="Andorre__np"/></e>
+    <e lm="Albanie"><i>Albanie</i><par n="Bulgarie__np"/></e>
     <e lm="Albardias"><i>Albardias</i><par n="Abraham__np"/></e>
     <e lm="Albasini"><i>Albasini</i><par n="Abraham__np"/></e>
     <e lm="Albatera"><i>Albatera</i><par n="Andorre__np"/></e>
@@ -21038,6 +21067,7 @@
     <e lm="Alberdi"><i>Alberdi</i><par n="Abraham__np"/></e>
     <e lm="Albero"><i>Albero</i><par n="Abraham__np"/></e>
     <e lm="Albers"><i>Albers</i><par n="Abraham__np"/></e>
+    <e lm="Alberta"><i>Alberta</i><par n="Californie__np"/></e>
     <e lm="Albert"><i>Albert</i><par n="Abraham__np"/></e>
     <e lm="Albert Ier de Monaco"><i>Albert<b/>Ier<b/>de<b/>Monaco</i><par n="Abraham__np"/></e>
     <e lm="Albertini"><i>Albertini</i><par n="Abraham__np"/></e>
@@ -21196,6 +21226,7 @@
     <e lm="Algarra"><i>Algarra</i><par n="Abraham__np"/></e>
     <e lm="Algarve"><i>Algarve</i><par n="Andorre__np"/></e>
     <e lm="Algeciras"><i>Algeciras</i><par n="Andorre__np"/></e>
+    <e lm="Algérie"><i>Algérie</i><par n="Bulgarie__np"/></e>
     <e lm="Al Gore"><i>Al<b/>Gore</i><par n="Abraham__np"/></e>
     <e lm="Algorri"><i>Algorri</i><par n="Abraham__np"/></e>
     <e lm="Algorta"><i>Algorta</i><par n="Andorre__np"/></e>
@@ -21241,7 +21272,7 @@
     <e lm="Allegrini"><i>Allegrini</i><par n="Abraham__np"/></e>
     <e lm="Allekema"><i>Allekema</i><par n="Abraham__np"/></e>
     <e lm="Alleluia"><i>Alleluia</i><par n="Carrefour__np"/></e>
-    <e lm="Allemagne"><i>Allemagne</i><par n="Andorre__np"/></e>
+    <e lm="Allemagne"><i>Allemagne</i><par n="Bulgarie__np"/></e>
     <e lm="Allen"><i>Allen</i><par n="Abraham__np"/></e>
     <e lm="Aller"><i>Aller</i><par n="Andorre__np"/></e>
     <e lm="Alleyhoop"><i>Alleyhoop</i><par n="Carrefour__np"/></e>
@@ -21539,6 +21570,7 @@
     <e lm="Andoni"><i>Andoni</i><par n="Abraham__np"/></e>
     <e lm="Andonios"><i>Andonios</i><par n="Carrefour__np"/></e>
     <e lm="Andorinho"><i>Andorinho</i><par n="Abraham__np"/></e>
+    <e lm="Andorre"><i>Andorre</i><par n="Bulgarie__np"/></e>
     <e lm="Andorre-la-Vielle"><i>Andorre-la-Vielle</i><par n="Andorre__np"/></e>
     <e lm="Andosilla"><i>Andosilla</i><par n="Andorre__np"/></e>
     <e lm="Andrada"><i>Andrada</i><par n="Abraham__np"/></e>
@@ -21607,7 +21639,7 @@
     <e lm="Angleterre"><i>Angleterre</i><par n="Andorre__np"/></e>
     <e lm="Anglet"><i>Anglet</i><par n="Andorre__np"/></e>
     <e lm="Angoitia"><i>Angoitia</i><par n="Abraham__np"/></e>
-    <e lm="Angola"><i>Angola</i><par n="Andorre__np"/></e>
+    <e lm="Angola"><i>Angola</i><par n="Iran__np"/></e>
     <e lm="Angoulême"><i>Angoulême</i><par n="Andorre__np"/></e>
     <e lm="Anguilla"><i>Anguilla</i><par n="Andorre__np"/></e>
     <e lm="Anguita"><i>Anguita</i><par n="Abraham__np"/></e>
@@ -21673,7 +21705,7 @@
     <e lm="Antía"><i>Antía</i><par n="Abraham__np"/></e>
     <e lm="Antichrist"><i>Antichrist</i><par n="Abraham__np"/></e>
     <e lm="Antigone"><i>Antigone</i><par n="Abraham__np"/></e>
-    <e lm="Antigua-et-Barbuda"><i>Antigua-et-Barbuda</i><par n="Andorre__np"/></e>
+    <e lm="Antigua-et-Barbuda"><i>Antigua-et-Barbuda</i><par n="Bulgarie__np"/></e>
     <e lm="Antigua"><i>Antigua</i><par n="Andorre__np"/></e>
     <e lm="Antilles françaises"><i>Antilles<b/>françaises</i><par n="Andorre__np"/></e>
     <e lm="Antilles hollandaises"><i>Antilles<b/>hollandaises</i><par n="Andorre__np"/></e>
@@ -21755,7 +21787,7 @@
     <e lm="Araba"><i>Araba</i><par n="Andorre__np"/></e>
     <e lm="Arabia"><i>Arabia</i><par n="Andorre__np"/></e>
     <e lm="Arabie"><i>Arabie</i><par n="Andorre__np"/></e>
-    <e lm="Arabie Saoudite"><i>Arabie<b/>Saoudite</i><par n="Andorre__np"/></e>
+    <e lm="Arabie saoudite"><i>Arabie<b/>saoudite</i><par n="Bulgarie__np"/></e>
     <e lm="Arabsat"><i>Arabsat</i><par n="Carrefour__np"/></e>
     <e lm="Araceli"><i>Araceli</i><par n="Abraham__np"/></e>
     <e lm="Aracena"><i>Aracena</i><par n="Andorre__np"/></e>
@@ -21892,6 +21924,7 @@
     <e lm="Arganda"><i>Arganda</i><par n="Andorre__np"/></e>
     <e lm="Argemi"><i>Argemi</i><par n="Carrefour__np"/></e>
     <e lm="Argentaria"><i>Argentaria</i><par n="Carrefour__np"/></e>
+    <e lm="Argentine"><i>Argentine</i><par n="Bulgarie__np"/></e>
     <e lm="Argia"><i>Argia</i><par n="Carrefour__np"/></e>
     <e lm="Argiñano" c="es un apellido"><i>Argiñano</i><par n="Abraham__np"/></e>
     <e lm="Argira"><i>Argira</i><par n="Carrefour__np"/></e>
@@ -21916,10 +21949,10 @@
     <e lm="Aristote Onassis"><i>Aristote<b/>Onassis</i><par n="Abraham__np"/></e>
     <e lm="Aritz"><i>Aritz</i><par n="Abraham__np"/></e>
     <e lm="Arizmendiarrieta"><i>Arizmendiarrieta</i><par n="Abraham__np"/></e>
-    <e lm="Arizona"><i>Arizona</i><par n="Andorre__np"/></e>
+    <e lm="Arizona"><i>Arizona</i><par n="Madagascar__np"/></e>
     <e lm="Arjona"><i>Arjona</i><par n="Abraham__np"/></e>
     <e lm="Arkaitz"><i>Arkaitz</i><par n="Abraham__np"/></e>
-    <e lm="Arkansas"><i>Arkansas</i><par n="Andorre__np"/></e>
+    <e lm="Arkansas"><i>Arkansas</i><par n="Madagascar__np"/></e>
     <e lm="Arkhangelsk"><i>Arkhangelsk</i><par n="Andorre__np"/></e>
     <e lm="Arkote"><i>Arkote</i><par n="Carrefour__np"/></e>
     <e lm="Arlanza"><i>Arlanza</i><par n="Andorre__np"/></e>
@@ -21931,6 +21964,7 @@
     <e lm="Armee Blanche"><i>Armee<b/>Blanche</i><par n="Carrefour__np"/></e>
     <e lm="Armée Rouge"><i>Armée<b/>Rouge</i><par n="Carrefour__np"/></e>
     <e lm="Armenia"><i>Armenia</i><par n="Andorre__np"/></e>
+    <e lm="Arménie"><i>Arménie</i><par n="Bulgarie__np"/></e>
     <e lm="Armstrong"><i>Armstrong</i><par n="Abraham__np"/></e>
     <e lm="Army Wives"><i>Army<b/>Wives</i><par n="Abraham__np"/></e>
     <e lm="Arnaldo"><i>Arnaldo</i><par n="Abraham__np"/></e>
@@ -22056,9 +22090,11 @@
     <e lm="Auschwitz"><i>Auschwitz</i><par n="Andorre__np"/></e>
     <e lm="Austin"><i>Austin</i><par n="Andorre__np"/></e>
     <e lm="Australasie"><i>Australasie</i><par n="Andorre__np"/></e>
+    <e lm="Australie"><i>Australie</i><par n="Bulgarie__np"/></e>
     <e lm="Australie Méridionale"><i>Australie<b/>Méridionale</i><par n="Andorre__np"/></e>
     <e lm="Austrasie"><i>Austrasie</i><par n="Andorre__np"/></e>
     <e lm="AutricheEmpire Austro-Hongrois"><i>AutricheEmpire<b/>Austro-Hongrois</i><par n="Andorre__np"/></e>
+    <e lm="Autriche"><i>Autriche</i><par n="Bulgarie__np"/></e>
     <e lm="Autzagane"><i>Autzagane</i><par n="Andorre__np"/></e>
     <e lm="Auxerre"><i>Auxerre</i><par n="Andorre__np"/></e>
     <e lm="Auxiliadora"><i>Auxiliadora</i><par n="Abraham__np"/></e>
@@ -22083,7 +22119,7 @@
     <e lm="Ayman Al-Zawahiri"><i>Ayman<b/>Al-Zawahiri</i><par n="Abraham__np"/></e>
     <e lm="Ayuda"><i>Ayuda</i><par n="Andorre__np"/></e>
     <e lm="Azbine"><i>Azbine</i><par n="Andorre__np"/></e>
-    <e lm="Azerbaïdjan"><i>Azerbaïdjan</i><par n="Andorre__np"/></e>
+    <e lm="Azerbaïdjan"><i>Azerbaïdjan</i><par n="Iran__np"/></e>
     <e lm="Azkarate"><i>Azkarate</i><par n="Abraham__np"/></e>
     <e lm="Azkarraga"><i>Azkarraga</i><par n="Abraham__np"/></e>
     <e lm="Azkoitia"><i>Azkoitia</i><par n="Andorre__np"/></e>
@@ -22114,11 +22150,11 @@
     <e lm="Baeza"><i>Baeza</i><par n="Abraham__np"/></e>
     <e lm="Bages"><i>Bages</i><par n="Andorre__np"/></e>
     <e lm="Baglieto"><i>Baglieto</i><par n="Abraham__np"/></e>
-    <e lm="Bahamas"><i>Bahamas</i><par n="Andorre__np"/></e>
+    <e lm="Bahamas"><i>Bahamas</i><par n="Bahamas__np"/></e>
     <e lm="Bahía Blanca"><i>Bahía<b/>Blanca</i><par n="Andorre__np"/></e>
     <e lm="Bahia"><i>Bahia</i><par n="Andorre__np"/></e>
-    <e lm="Bahrein"><i>Bahrein</i><par n="Andorre__np"/></e>
-    <e lm="Bahreïn"><i>Bahreïn</i><par n="Andorre__np"/></e>
+    <e lm="Bahrein"><i>Bahrein</i><par n="Iran__np"/></e>
+    <e lm="Bahreïn"><i>Bahreïn</i><par n="Iran__np"/></e>
     <e lm="Baïkal"><i>Baïkal</i><par n="Andorre__np"/></e>
     <e lm="Baione"><i>Baione</i><par n="Andorre__np"/></e>
     <e lm="Bairiki"><i>Bairiki</i><par n="Andorre__np"/></e>
@@ -22150,6 +22186,7 @@
     <e lm="Banderas"><i>Banderas</i><par n="Abraham__np"/></e>
     <e lm="Bandundu"><i>Bandundu</i><par n="Andorre__np"/></e>
     <e lm="Banesto"><i>Banesto</i><par n="Carrefour__np"/></e>
+    <e lm="Bangladesh"><i>Bangladesh</i><par n="Iran__np"/></e>
     <e lm="Bangui"><i>Bangui</i><par n="Andorre__np"/></e>
     <e lm="Banjul"><i>Banjul</i><par n="Andorre__np"/></e>
     <e lm="Ban Ki-moon"><i>Ban<b/>Ki-moon</i><par n="Abraham__np"/></e>
@@ -22161,6 +22198,7 @@
     <e lm="Barakaldo"><i>Barakaldo</i><par n="Andorre__np"/></e>
     <e lm="Barandiarán"><i>Barandiarán</i><par n="Abraham__np"/></e>
     <e lm="Baranowski"><i>Baranowski</i><par n="Abraham__np"/></e>
+    <e lm="Barbade"><i>Barbade</i><par n="Bulgarie__np"/></e>
     <e lm="Barbanza"><i>Barbanza</i><par n="Andorre__np"/></e>
     <e lm="Barberá"><i>Barberá</i><par n="Abraham__np"/></e>
     <e lm="Barbera"><i>Barbera</i><par n="Carrefour__np"/></e>
@@ -22237,12 +22275,14 @@
     <e lm="Beitia"><i>Beitia</i><par n="Abraham__np"/></e>
     <e lm="Beitialarrangoitia"><i>Beitialarrangoitia</i><par n="Abraham__np"/></e>
     <e lm="Belang"><i>Belang</i><par n="Abraham__np"/></e>
+    <e lm="Belau"><i>Belau</i><par n="Madagascar__np"/></e>
     <e lm="Belda"><i>Belda</i><par n="Abraham__np"/></e>
     <e lm="Belenguer"><i>Belenguer</i><par n="Abraham__np"/></e>
     <e lm="Belfast"><i>Belfast</i><par n="Andorre__np"/></e>
     <e lm="Belfort"><i>Belfort</i><par n="Andorre__np"/></e>
+    <e lm="Belgique"><i>Belgique</i><par n="Bulgarie__np"/></e>
     <e lm="Belinchón"><i>Belinchón</i><par n="Abraham__np"/></e>
-    <e lm="Belize"><i>Belize</i><par n="Andorre__np"/></e>
+    <e lm="Belize"><i>Belize</i><par n="Iran__np"/></e>
     <e lm="Bella"><i>Bella</i><par n="Abraham__np"/></e>
     <e lm="Belle Epoque"><i>Belle<b/>Epoque</i><par n="Carrefour__np"/></e>
     <e lm="Bellido"><i>Bellido</i><par n="Abraham__np"/></e>
@@ -22268,7 +22308,7 @@
     <e lm="Bengoetxea"><i>Bengoetxea</i><par n="Abraham__np"/></e>
     <e lm="Benicasim"><i>Benicasim</i><par n="Andorre__np"/></e>
     <e lm="Benigno"><i>Benigno</i><par n="Abraham__np"/></e>
-    <e lm="Bénin"><i>Bénin</i><par n="Andorre__np"/></e>
+    <e lm="Bénin"><i>Bénin</i><par n="Iran__np"/></e>
     <e lm="Benítez"><i>Benítez</i><par n="Abraham__np"/></e>
     <e lm="Benito"><i>Benito</i><par n="Abraham__np"/></e>
     <e lm="Benjamin"><i>Benjamin</i><par n="Abraham__np"/></e>
@@ -22329,7 +22369,7 @@
     <e lm="Betty"><i>Betty</i><par n="Abraham__np"/></e>
     <e lm="Bezat"><i>Bezat</i><par n="Abraham__np"/></e>
     <e lm="Bharrat Jagdeo"><i>Bharrat<b/>Jagdeo</i><par n="Abraham__np"/></e>
-    <e lm="Bhoutan"><i>Bhoutan</i><par n="Andorre__np"/></e>
+    <e lm="Bhoutan"><i>Bhoutan</i><par n="Iran__np"/></e>
     <e lm="Bhutto"><i>Bhutto</i><par n="Abraham__np"/></e>
     <e lm="Bianchi"><i>Bianchi</i><par n="Abraham__np"/></e>
     <e lm="Bianco"><i>Bianco</i><par n="Abraham__np"/></e>
@@ -22342,6 +22382,7 @@
     <e lm="Bidassoa"><i>Bidassoa</i><par n="Andorre__np"/></e>
     <e lm="Bidouze"><i>Bidouze</i><par n="Andorre__np"/></e>
     <e lm="Biel"><i>Biel</i><par n="Abraham__np"/></e>
+    <e lm="Biélorussie"><i>Biélorussie</i><par n="Bulgarie__np"/></e>
     <e lm="Big Picture"><i>Big<b/>Picture</i><par n="Carrefour__np"/></e>
     <e lm="Biharko"><i>Biharko</i><par n="Carrefour__np"/></e>
     <e lm="Bilbao Basket"><i>Bilbao<b/>Basket</i><par n="Carrefour__np"/></e>
@@ -22351,7 +22392,7 @@
     <e lm="Billabong"><i>Billabong</i><par n="Carrefour__np"/></e>
     <e lm="Bill"><i>Bill</i><par n="Abraham__np"/></e>
     <e lm="Biriatou"><i>Biriatou</i><par n="Andorre__np"/></e>
-    <e lm="Birmanie"><i>Birmanie</i><par n="Andorre__np"/></e>
+    <e lm="Birmanie"><i>Birmanie</i><par n="Bulgarie__np"/></e>
     <e lm="Birmingham"><i>Birmingham</i><par n="Andorre__np"/></e>
     <e lm="Bisbal"><i>Bisbal</i><par n="Andorre__np"/></e>
     <e lm="Bissau"><i>Bissau</i><par n="Andorre__np"/></e>
@@ -22393,6 +22434,7 @@
     <e lm="Boiro"><i>Boiro</i><par n="Andorre__np"/></e>
     <e lm="Bolado"><i>Bolado</i><par n="Abraham__np"/></e>
     <e lm="Bolena"><i>Bolena</i><par n="Abraham__np"/></e>
+    <e lm="Bolivie"><i>Bolivie</i><par n="Bulgarie__np"/></e>
     <e lm="Bollé"><i>Bollé</i><par n="Carrefour__np"/></e>
     <e lm="Bollywood"><i>Bollywood</i><par n="Carrefour__np"/></e>
     <e lm="bolsainter"><i>bolsainter</i><par n="Carrefour__np"/></e>
@@ -22415,13 +22457,13 @@
     <e lm="Bortolo"><i>Bortolo</i><par n="Carrefour__np"/></e>
     <e lm="Bosch"><i>Bosch</i><par n="Abraham__np"/></e>
     <e lm="Bosco"><i>Bosco</i><par n="Abraham__np"/></e>
-    <e lm="Bosnie-Herzégovine"><i>Bosnie-Herzégovine</i><par n="Andorre__np"/></e>
+    <e lm="Bosnie-Herzégovine"><i>Bosnie-Herzégovine</i><par n="Bulgarie__np"/></e>
     <e lm="Bosnie"><i>Bosnie</i><par n="Andorre__np"/></e>
     <e lm="Bosphore"><i>Bosphore</i><par n="Andorre__np"/></e>
     <e lm="Boss"><i>Boss</i><par n="Abraham__np"/></e>
     <e lm="Boston"><i>Boston</i><par n="Andorre__np"/></e>
     <e lm="Botero"><i>Botero</i><par n="Abraham__np"/></e>
-    <e lm="Botswana"><i>Botswana</i><par n="Andorre__np"/></e>
+    <e lm="Botswana"><i>Botswana</i><par n="Iran__np"/></e>
     <e lm="Bouddha"><i>Bouddha</i><par n="Abraham__np"/></e>
     <e lm="Boukhara"><i>Boukhara</i><par n="Andorre__np"/></e>
     <e lm="Boulevard"><i>Boulevard</i><par n="Andorre__np"/></e>
@@ -22457,6 +22499,7 @@
     <e lm="Brechet"><i>Brechet</i><par n="Abraham__np"/></e>
     <e lm="Brême"><i>Brême</i><par n="Andorre__np"/></e>
     <e lm="Brent"><i>Brent</i><par n="Carrefour__np"/></e>
+    <e lm="Brésil"><i>Brésil</i><par n="Iran__np"/></e>
     <e lm="Brest"><i>Brest</i><par n="Andorre__np"/></e>
     <e lm="Bretagne"><i>Bretagne</i><par n="Andorre__np"/></e>
     <e lm="Breton"><i>Breton</i><par n="Abraham__np"/></e>
@@ -22484,7 +22527,7 @@
     <e lm="Bruges"><i>Bruges</i><par n="Andorre__np"/></e>
     <e lm="Bruguera"><i>Bruguera</i><par n="Abraham__np"/></e>
     <e lm="Bruguière"><i>Bruguière</i><par n="Abraham__np"/></e>
-    <e lm="Brunéi"><i>Brunéi</i><par n="Andorre__np"/></e>
+    <e lm="Brunéi"><i>Brunéi</i><par n="Iran__np"/></e>
     <e lm="Bruni"><i>Bruni</i><par n="Abraham__np"/></e>
     <e lm="Bruno"><i>Bruno</i><par n="Abraham__np"/></e>
     <e lm="Bruseghin"><i>Bruseghin</i><par n="Abraham__np"/></e>
@@ -22504,6 +22547,7 @@
     <e lm="Buffet"><i>Buffet</i><par n="Abraham__np"/></e>
     <e lm="Bugs"><i>Bugs</i><par n="Abraham__np"/></e>
     <e lm="Bujumbura"><i>Bujumbura</i><par n="Andorre__np"/></e>
+    <e lm="Bulgarie"><i>Bulgarie</i><par n="Bulgarie__np"/></e>
     <e lm="Bullock"><i>Bullock</i><par n="Abraham__np"/></e>
     <e lm="Bunny"><i>Bunny</i><par n="Abraham__np"/></e>
     <e lm="Burgaña"><i>Burgaña</i><par n="Abraham__np"/></e>
@@ -22514,9 +22558,10 @@
     <e lm="Burguete"><i>Burguete</i><par n="Andorre__np"/></e>
     <e lm="Burjassot"><i>Burjassot</i><par n="Andorre__np"/></e>
     <e lm="Burkina Faso"><i>Burkina<b/>Faso</i><par n="Andorre__np"/></e>
+    <e lm="Burkina"><i>Burkina</i><par n="Iran__np"/></e>
     <e lm="Burlada"><i>Burlada</i><par n="Andorre__np"/></e>
     <e lm="Bursa"><i>Bursa</i><par n="Andorre__np"/></e>
-    <e lm="Burundi"><i>Burundi</i><par n="Andorre__np"/></e>
+    <e lm="Burundi"><i>Burundi</i><par n="Iran__np"/></e>
     <e lm="Bush"><i>Bush</i><par n="Abraham__np"/></e>
     <e lm="Bustamante"><i>Bustamante</i><par n="Abraham__np"/></e>
     <e lm="Bustintxulo"><i>Bustintxulo</i><par n="Carrefour__np"/></e>
@@ -22552,6 +22597,7 @@
     <e lm="Calderón"><i>Calderón</i><par n="Carrefour__np"/></e>
     <e lm="Calédonie"><i>Calédonie</i><par n="Andorre__np"/></e>
     <e lm="Calero"><i>Calero</i><par n="Abraham__np"/></e>
+    <e lm="Californie"><i>Californie</i><par n="Californie__np"/></e>
     <e lm="Calin Popescu-Tariceanu"><i>Calin<b/>Popescu-Tariceanu</i><par n="Abraham__np"/></e>
     <e lm="Calleja"><i>Calleja</i><par n="Abraham__np"/></e>
     <e lm="call"><i>call</i><par n="Carrefour__np"/></e>
@@ -22563,9 +22609,11 @@
     <e lm="Calvin"><i>Calvin</i><par n="Abraham__np"/></e>
     <e lm="Camacho"><i>Camacho</i><par n="Abraham__np"/></e>
     <e lm="Camargue"><i>Camargue</i><par n="Andorre__np"/></e>
+    <e lm="Cambodge"><i>Cambodge</i><par n="Iran__np"/></e>
     <e lm="Cambogde"><i>Cambogde</i><par n="Andorre__np"/></e>
     <e lm="Cambyse II"><i>Cambyse<b/>II</i><par n="Abraham__np"/></e>
     <e lm="Cameron"><i>Cameron</i><par n="Abraham__np"/></e>
+    <e lm="Cameroun"><i>Cameroun</i><par n="Iran__np"/></e>
     <e lm="Camilo"><i>Camilo</i><par n="Abraham__np"/></e>
     <e lm="Campbell"><i>Campbell</i><par n="Abraham__np"/></e>
     <e lm="Camp"><i>Camp</i><par n="Andorre__np"/></e>
@@ -22576,6 +22624,7 @@
     <e lm="Camps"><i>Camps</i><par n="Abraham__np"/></e>
     <e lm="Camus"><i>Camus</i><par n="Abraham__np"/></e>
     <e lm="Canaan"><i>Canaan</i><par n="Andorre__np"/></e>
+    <e lm="Canada"><i>Canada</i><par n="Iran__np"/></e>
     <e lm="Canal de Bristol"><i>Canal<b/>de<b/>Bristol</i><par n="Andorre__np"/></e>
     <e lm="Canal de Saint Georges"><i>Canal<b/>de<b/>Saint<b/>Georges</i><par n="Andorre__np"/></e>
     <e lm="Canal du Midi"><i>Canal<b/>du<b/>Midi</i><par n="Andorre__np"/></e>
@@ -22610,7 +22659,8 @@
     <e lm="Capricorne"><i>Capricorne</i><par n="Andorre__np"/></e>
     <e lm="Capricorne"><i>Capricorne</i><par n="Carrefour__np"/></e>
     <e lm="Cap Saint Vincent"><i>Cap<b/>Saint<b/>Vincent</i><par n="Andorre__np"/></e>
-    <e lm="Cap Vert"><i>Cap<b/>Vert</i><par n="Andorre__np"/></e>
+    <e lm="Cap Vert"><i>Cap<b/>Vert</i><par n="Iran__np"/></e>
+    <e lm="Cap-Vert"><i>Cap-Vert</i><par n="Iran__np"/></e>
     <e lm="Caracas"><i>Caracas</i><par n="Andorre__np"/></e>
     <e lm="Caraïbe"><i>Caraïbe</i><par n="Andorre__np"/></e>
     <e lm="Carballo"><i>Carballo</i><par n="Abraham__np"/></e>
@@ -22637,8 +22687,8 @@
     <e lm="Carola"><i>Carola</i><par n="Abraham__np"/></e>
     <e lm="Carole"><i>Carole</i><par n="Abraham__np"/></e>
     <e lm="Carolina"><i>Carolina</i><par n="Abraham__np"/></e>
-    <e lm="Caroline du Nord"><i>Caroline<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
-    <e lm="Caroline du Sud"><i>Caroline<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
+    <e lm="Caroline du Nord"><i>Caroline<b/>du<b/>Nord</i><par n="Californie__np"/></e>
+    <e lm="Caroline du Sud"><i>Caroline<b/>du<b/>Sud</i><par n="Californie__np"/></e>
     <e lm="Carolines"><i>Carolines</i><par n="Andorre__np"/></e>
     <e lm="Carolis"><i>Carolis</i><par n="Abraham__np"/></e>
     <e lm="Carolyn"><i>Carolyn</i><par n="Abraham__np"/></e>
@@ -22782,8 +22832,10 @@
     <e lm="Cher"><i>Cher</i><par n="Andorre__np"/></e>
     <e lm="Cheste"><i>Cheste</i><par n="Andorre__np"/></e>
     <e lm="Chicago"><i>Chicago</i><par n="Andorre__np"/></e>
+    <e lm="Chili"><i>Chili</i><par n="Iran__np"/></e>
     <e lm="Chillida"><i>Chillida</i><par n="Abraham__np"/></e>
     <e lm="Chimère"><i>Chimère</i><par n="Abraham__np"/></e>
+    <e lm="Chine"><i>Chine</i><par n="Bulgarie__np"/></e>
     <e lm="Chirac"><i>Chirac</i><par n="Abraham__np"/></e>
     <e lm="Chiraz"><i>Chiraz</i><par n="Andorre__np"/></e>
     <e lm="Chirivella"><i>Chirivella</i><par n="Andorre__np"/></e>
@@ -22798,6 +22850,7 @@
     <e lm="Chueca"><i>Chueca</i><par n="Andorre__np"/></e>
     <e lm="Churchill"><i>Churchill</i><par n="Abraham__np"/></e>
     <e lm="Chutes du Niagara"><i>Chutes<b/>du<b/>Niagara</i><par n="Andorre__np"/></e>
+    <e lm="Chypre"><i>Chypre</i><par n="Californie__np"/></e>
     <e lm="Cicéron"><i>Cicéron</i><par n="Abraham__np"/></e>
     <e lm="Cidade"><i>Cidade</i><par n="Carrefour__np"/></e>
     <e lm="Cid"><i>Cid</i><par n="Abraham__np"/></e>
@@ -22874,6 +22927,8 @@
     <e lm="Colmar"><i>Colmar</i><par n="Andorre__np"/></e>
     <e lm="Colmenar"><i>Colmenar</i><par n="Andorre__np"/></e>
     <e lm="Coloma"><i>Coloma</i><par n="Abraham__np"/></e>
+    <e lm="Colombie britannique"><i>Colombie<b/>britannique</i><par n="Californie__np"/></e>
+    <e lm="Colombie"><i>Colombie</i><par n="Bulgarie__np"/></e>
     <e lm="Colombo"><i>Colombo</i><par n="Abraham__np"/></e>
     <e lm="Colombo"><i>Colombo</i><par n="Andorre__np"/></e>
     <e lm="Colomer"><i>Colomer</i><par n="Abraham__np"/></e>
@@ -22881,6 +22936,7 @@
     <e lm="Colón"><i>Colón</i><par n="Abraham__np"/></e>
     <e lm="Colonna"><i>Colonna</i><par n="Abraham__np"/></e>
     <e lm="Colonnes d'Hercule"><i>Colonnes<b/>d'Hercule</i><par n="Carrefour__np"/></e>
+    <e lm="Colorado"><i>Colorado</i><par n="Madagascar__np"/></e>
     <e lm="Columbia"><i>Columbia</i><par n="Andorre__np"/></e>
     <e lm="Comando"><i>Comando</i><par n="Carrefour__np"/></e>
     <e lm="Combaud"><i>Combaud</i><par n="Abraham__np"/></e>
@@ -22894,7 +22950,7 @@
     <e lm="Communauté de Valence"><i>Communauté<b/>de<b/>Valence</i><par n="Andorre__np"/></e>
     <e lm="Communauté Economique Européenne"><i>Communauté<b/>Economique<b/>Européenne</i><par n="Carrefour__np"/></e>
     <e lm="Commune de Paris"><i>Commune<b/>de<b/>Paris</i><par n="Carrefour__np"/></e>
-    <e lm="Comores"><i>Comores</i><par n="Andorre__np"/></e>
+    <e lm="Comores"><i>Comores</i><par n="Bahamas__np"/></e>
     <e lm="Compiègne"><i>Compiègne</i><par n="Andorre__np"/></e>
     <e lm="Complejo Ática"><i>Complejo<b/>Ática</i><par n="Andorre__np"/></e>
     <e lm="Compostellane"><i>Compostellane</i><par n="Carrefour__np"/></e>
@@ -22909,7 +22965,9 @@
     <e lm="Confebask"><i>Confebask</i><par n="Carrefour__np"/></e>
     <e lm="conférence de Genève"><i>conférence<b/>de<b/>Genève</i><par n="Carrefour__np"/></e>
     <e lm="Confucius"><i>Confucius</i><par n="Abraham__np"/></e>
+    <e lm="Congo"><i>Congo</i><par n="Iran__np"/></e>
     <e lm="Conley"><i>Conley</i><par n="Carrefour__np"/></e>
+    <e lm="Connecticut"><i>Connecticut</i><par n="Madagascar__np"/></e>
     <e lm="Conseil de sécurité des Nations unies"><i>Conseil<b/>de<b/>sécurité<b/>des<b/>Nations<b/>unies</i><par n="Carrefour__np"/></e>
     <e lm="Conseil Européen"><i>Conseil<b/>Européen</i><par n="Carrefour__np"/></e>
     <e lm="Consell"><i>Consell</i><par n="Andorre__np"/></e>
@@ -22933,8 +22991,8 @@
     <e lm="Cordillère Cantabrique" r="LR"><i>Cordillère<b/>Cantabrique</i><par n="Andorre__np"/></e>
     <e lm="Cordillère des Andes"><i>Cordillère<b/>des<b/>Andes</i><par n="Andorre__np"/></e>
     <e lm="Cordillères Bétiques"><i>Cordillères<b/>Bétiques</i><par n="Andorre__np"/></e>
-    <e lm="Corée du Nord"><i>Corée<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
-    <e lm="Corée du Sud"><i>Corée<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
+    <e lm="Corée du Nord"><i>Corée<b/>du<b/>Nord</i><par n="Bulgarie__np"/></e>
+    <e lm="Corée du Sud"><i>Corée<b/>du<b/>Sud</i><par n="Bulgarie__np"/></e>
     <e lm="Corella"><i>Corella</i><par n="Abraham__np"/></e>
     <e lm="Corfou"><i>Corfou</i><par n="Andorre__np"/></e>
     <e lm="Coria"><i>Coria</i><par n="Andorre__np"/></e>
@@ -22963,12 +23021,12 @@
     <e lm="Costa Brava"><i>Costa<b/>Brava</i><par n="Andorre__np"/></e>
     <e lm="Costa del Azahar"><i>Costa<b/>del<b/>Azahar</i><par n="Andorre__np"/></e>
     <e lm="Costa del Sol"><i>Costa<b/>del<b/>Sol</i><par n="Andorre__np"/></e>
-    <e lm="Costa Rica"><i>Costa<b/>Rica</i><par n="Andorre__np"/></e>
+    <e lm="Costa Rica"><i>Costa<b/>Rica</i><par n="Iran__np"/></e>
     <e lm="Cosworth"><i>Cosworth</i><par n="Carrefour__np"/></e>
     <e lm="Cotado"><i>Cotado</i><par n="Abraham__np"/></e>
     <e lm="Côte d'Azur"><i>Côte<b/>d'Azur</i><par n="Andorre__np"/></e>
     <e lm="côte des Esclaves"><i>côte<b/>des<b/>Esclaves</i><par n="Andorre__np"/></e>
-    <e lm="Côte d'Ivoire"><i>Côte<b/>d'Ivoire</i><par n="Andorre__np"/></e>
+    <e lm="Côte d'Ivoire"><i>Côte<b/>d'Ivoire</i><par n="Bulgarie__np"/></e>
     <e lm="Côte-d'Or"><i>Côte-d'Or</i><par n="Andorre__np"/></e>
     <e lm="Coti"><i>Coti</i><par n="Abraham__np"/></e>
     <e lm="Coupe Libertadores"><i>Coupe<b/>Libertadores</i><par n="Carrefour__np"/></e>
@@ -22993,6 +23051,7 @@
     <e lm="Crimée"><i>Crimée</i><par n="Andorre__np"/></e>
     <e lm="Cristian"><i>Cristian</i><par n="Abraham__np"/></e>
     <e lm="Cristóbal"><i>Cristóbal</i><par n="Abraham__np"/></e>
+    <e lm="Croatie"><i>Croatie</i><par n="Bulgarie__np"/></e>
     <e lm="Croix-Rouge"><i>Croix-Rouge</i><par n="Carrefour__np"/></e>
     <e lm="Cronenbery"><i>Cronenbery</i><par n="Abraham__np"/></e>
     <e lm="Cross"><i>Cross</i><par n="Carrefour__np"/></e>
@@ -23002,6 +23061,7 @@
     <e lm="Cruise"><i>Cruise</i><par n="Abraham__np"/></e>
     <e lm="Cruz"><i>Cruz</i><par n="Abraham__np"/></e>
     <e lm="Cuapio"><i>Cuapio</i><par n="Abraham__np"/></e>
+    <e lm="Cuba"><i>Cuba</i><par n="Madagascar__np"/></e>
     <e lm="Cudeyo"><i>Cudeyo</i><par n="Andorre__np"/></e>
     <e lm="Cuenca"><i>Cuenca</i><par n="Andorre__np"/></e>
     <e lm="Cuevas"><i>Cuevas</i><par n="Andorre__np"/></e>
@@ -23028,8 +23088,8 @@
     <e lm="Dailymotion"><i>Dailymotion</i><par n="Carrefour__np"/></e>
     <e lm="Daimler"><i>Daimler</i><par n="Carrefour__np"/></e>
     <e lm="Dakar"><i>Dakar</i><par n="Andorre__np"/></e>
-    <e lm="Dakota du Nord"><i>Dakota<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
-    <e lm="Dakota du Sud"><i>Dakota<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
+    <e lm="Dakota du Nord"><i>Dakota<b/>du<b/>Nord</i><par n="Madagascar__np"/></e>
+    <e lm="Dakota du Sud"><i>Dakota<b/>du<b/>Sud</i><par n="Madagascar__np"/></e>
     <e lm="Dalaï lama"><i>Dalaï<b/>lama</i><par n="Carrefour__np"/></e>
     <e lm="dalaï-lama"><i>dalaï-lama</i><par n="Abraham__np"/></e>
     <e lm="Dalap-Uliga-Darrit"><i>Dalap-Uliga-Darrit</i><par n="Andorre__np"/></e>
@@ -23041,6 +23101,7 @@
     <e lm="Damiano"><i>Damiano</i><par n="Abraham__np"/></e>
     <e lm="Damien"><i>Damien</i><par n="Abraham__np"/></e>
     <e lm="Damoclès"><i>Damoclès</i><par n="Abraham__np"/></e>
+    <e lm="Danemark"><i>Danemark</i><par n="Iran__np"/></e>
     <e lm="Dan"><i>Dan</i><par n="Abraham__np"/></e>
     <e lm="Daniele"><i>Daniele</i><par n="Abraham__np"/></e>
     <e lm="Danièle"><i>Danièle</i><par n="Abraham__np"/></e>
@@ -23088,6 +23149,7 @@
     <e lm="De la Rua"><i>De<b/>la<b/>Rua</i><par n="Abraham__np"/></e>
     <e lm="Delarue"><i>Delarue</i><par n="Abraham__np"/></e>
     <e lm="Delatte"><i>Delatte</i><par n="Abraham__np"/></e>
+    <e lm="Delaware"><i>Delaware</i><par n="Madagascar__np"/></e>
     <e lm="Delens"><i>Delens</i><par n="Abraham__np"/></e>
     <e lm="Delgado"><i>Delgado</i><par n="Abraham__np"/></e>
     <e lm="Delhi"><i>Delhi</i><par n="Andorre__np"/></e>
@@ -23151,6 +23213,7 @@
     <e lm="Dix Ans"><i>Dix<b/>Ans</i><par n="Carrefour__np"/></e>
     <e lm="Djakarta"><i>Djakarta</i><par n="Andorre__np"/></e>
     <e lm="Djalalabad"><i>Djalalabad</i><par n="Andorre__np"/></e>
+    <e lm="Djibouti"><i>Djibouti</i><par n="Iran__np"/></e>
     <e lm="Djihad"><i>Djihad</i><par n="Carrefour__np"/></e>
     <e lm="Dmitriy"><i>Dmitriy</i><par n="Abraham__np"/></e>
     <e lm="Dmitry"><i>Dmitry</i><par n="Abraham__np"/></e>
@@ -23166,7 +23229,7 @@
     <e lm="Doménech"><i>Doménech</i><par n="Abraham__np"/></e>
     <e lm="Domenico"><i>Domenico</i><par n="Abraham__np"/></e>
     <e lm="Domínguez"><i>Domínguez</i><par n="Abraham__np"/></e>
-    <e lm="Dominique"><i>Dominique</i><par n="Andorre__np"/></e>
+    <e lm="Dominique"><i>Dominique</i><par n="Bulgarie__np"/></e>
     <e lm="Donald"><i>Donald</i><par n="Abraham__np"/></e>
     <e lm="Doñana"><i>Doñana</i><par n="Carrefour__np"/></e>
     <e lm="Donatello"><i>Donatello</i><par n="Abraham__np"/></e>
@@ -23241,6 +23304,7 @@
     <e lm="ECO"><i>ECO</i><par n="Carrefour__np"/></e>
     <e lm="Écôle de Fontainebleau"><i>Écôle<b/>de<b/>Fontainebleau</i><par n="Carrefour__np"/></e>
     <e lm="Ecolmare"><i>Ecolmare</i><par n="Carrefour__np"/></e>
+    <e lm="Écosse"><i>Écosse</i><par n="Bulgarie__np"/></e>
     <e lm="Écosse" r="LR"><p><l>Ecosse</l><r>Écosse</r></p><par n="Andorre__np"/></e>
     <e lm="Éden"><i>Éden</i><par n="Abraham__np"/></e>
     <e lm="Édesse"><i>Édesse</i><par n="Andorre__np"/></e>
@@ -23267,6 +23331,7 @@
     <e lm="Egoi"><i>Egoi</i><par n="Abraham__np"/></e>
     <e lm="Eguisa"><i>Eguisa</i><par n="Carrefour__np"/></e>
     <e lm="Egunkaria"><i>Egunkaria</i><par n="Carrefour__np"/></e>
+    <e lm="Égypte"><i>Égypte</i><par n="Bulgarie__np"/></e>
     <e lm="Ehoud"><i>Ehoud</i><par n="Abraham__np"/></e>
     <e lm="Ehoud Olmert"><i>Ehoud<b/>Olmert</i><par n="Abraham__np"/></e>
     <e lm="E.H. Sukarra"><i>E.H.<b/>Sukarra</i><par n="Carrefour__np"/></e>
@@ -23353,7 +23418,7 @@
     <e lm="Emilie Romagne"><i>Emilie<b/>Romagne</i><par n="Andorre__np"/></e>
     <e lm="Emilio"><i>Emilio</i><par n="Abraham__np"/></e>
     <e lm="Emily"><i>Emily</i><par n="Abraham__np"/></e>
-    <e lm="Émirats  Arabes Unis"><i>Émirats<b/><b/>Arabes<b/>Unis</i><par n="Andorre__np"/></e>
+    <e lm="Émirats arabes unis"><i>Émirats<b/>arabes<b/>unis</i><par n="États-Unis__np"/></e>
     <e lm="Emma"><i>Emma</i><par n="Abraham__np"/></e>
     <e lm="Emmanuelli"><i>Emmanuelli</i><par n="Abraham__np"/></e>
     <e lm="Emmaüs"><i>Emmaüs</i><par n="Abraham__np"/></e>
@@ -23388,6 +23453,7 @@
     <e lm="Épire"><i>Épire</i><par n="Andorre__np"/></e>
     <e lm="Episkopi"><i>Episkopi</i><par n="Andorre__np"/></e>
     <e lm="Epsilon"><i>Epsilon</i><par n="Carrefour__np"/></e>
+    <e lm="Équateur"><i>Équateur</i><par n="Iran__np"/></e>
     <e lm="Equis"><i>Equis</i><par n="Carrefour__np"/></e>
     <e lm="Érasme"><i>Érasme</i><par n="Abraham__np"/></e>
     <e lm="Ératosthène"><i>Ératosthène</i><par n="Abraham__np"/></e>
@@ -23413,7 +23479,7 @@
     <e lm="Errent"><i>Errent</i><par n="Carrefour__np"/></e>
     <e lm="Erro"><i>Erro</i><par n="Andorre__np"/></e>
     <e lm="Ertzaintza"><i>Ertzaintza</i><par n="Carrefour__np"/></e>
-    <e lm="Erythrée"><i>Erythrée</i><par n="Andorre__np"/></e>
+    <e lm="Érythrée"><i>Érythrée</i><par n="Bulgarie__np"/></e>
     <e lm="Esain"><i>Esain</i><par n="Abraham__np"/></e>
     <e lm="Escaut"><i>Escaut</i><par n="Andorre__np"/></e>
     <e lm="Eschyle"><i>Eschyle</i><par n="Abraham__np"/></e>
@@ -23424,6 +23490,7 @@
     <e lm="Esmeralda"><i>Esmeralda</i><par n="Abraham__np"/></e>
     <e lm="Esnal"><i>Esnal</i><par n="Abraham__np"/></e>
     <e lm="Ésope"><i>Ésope</i><par n="Abraham__np"/></e>
+    <e lm="Espagne"><i>Espagne</i><par n="Bulgarie__np"/></e>
     <e lm="Espanyol"><i>Espanyol</i><par n="Carrefour__np"/></e>
     <e lm="Espasa Calpe"><i>Espasa<b/>Calpe</i><par n="Carrefour__np"/></e>
     <e lm="Espasa"><i>Espasa</i><par n="Carrefour__np"/></e>
@@ -23448,6 +23515,7 @@
     <e lm="Estévez"><i>Estévez</i><par n="Abraham__np"/></e>
     <e lm="Esther"><i>Esther</i><par n="Abraham__np"/></e>
     <e lm="Estíbaliz"><i>Estíbaliz</i><par n="Abraham__np"/></e>
+    <e lm="Estonie"><i>Estonie</i><par n="Bulgarie__np"/></e>
     <e lm="Estrada"><i>Estrada</i><par n="Andorre__np"/></e>
     <e lm="Estrosi"><i>Estrosi</i><par n="Abraham__np"/></e>
     <e lm="eta"><i>eta</i><par n="Carrefour__np"/></e>
@@ -23456,12 +23524,12 @@
     <e lm="États fédérés de Micronésie"><i>États<b/>fédérés<b/>de<b/>Micronésie</i><par n="Andorre__np"/></e>
     <e lm="États généraux"><i>États<b/>généraux</i><par n="Andorre__np"/></e>
     <e lm="États pontificaux"><i>États<b/>pontificaux</i><par n="Andorre__np"/></e>
-    <e lm="États-Unis"><i>États-Unis</i><par n="Andorre__np"/></e>
-    <e lm="Etats-Unis" r="LR"><i>Etats-Unis</i><par n="Andorre__np"/></e>
+    <e lm="États-Unis"><i>États-Unis</i><par n="États-Unis__np"/></e>
+    <e lm="Etats-Unis" r="LR"><p><l>Etats-Unis</l><r>États-Unis</r></p><par n="États-Unis__np"/></e>
     <e lm="ETB1"><i>ETB1</i><par n="Carrefour__np"/></e>
     <e lm="ETB2"><i>ETB2</i><par n="Carrefour__np"/></e>
     <e lm="ETBSAT"><i>ETBSAT</i><par n="Carrefour__np"/></e>
-    <e lm="Éthiopie"><i>Éthiopie</i><par n="Andorre__np"/></e>
+    <e lm="Éthiopie"><i>Éthiopie</i><par n="Bulgarie__np"/></e>
     <e lm="Ethoré"><i>Ethoré</i><par n="Abraham__np"/></e>
     <e lm="Étienne"><i>Étienne</i><par n="Abraham__np"/></e>
     <e lm="Étoile polaire"><i>Étoile<b/>polaire</i><par n="Andorre__np"/></e>
@@ -23497,6 +23565,7 @@
     <e lm="Euro"><i>Euro</i><par n="Carrefour__np"/></e>
     <e lm="Euroligue"><i>Euroligue</i><par n="Carrefour__np"/></e>
     <e lm="Euronext"><i>Euronext</i><par n="Carrefour__np"/></e>
+    <e lm="Europe"><i>Europe</i><par n="Bulgarie__np"/></e>
     <e lm="Europe de l'Ouest"><i>Europe<b/>de<b/>l'Ouest</i><par n="Andorre__np"/></e>
     <e lm="Europistas"><i>Europistas</i><par n="Carrefour__np"/></e>
     <e lm="eurostoxx"><i>eurostoxx</i><par n="Carrefour__np"/></e>
@@ -23612,7 +23681,7 @@
     <e lm="Fidel Castro"><i>Fidel<b/>Castro</i><par n="Abraham__np"/></e>
     <e lm="Fidel"><i>Fidel</i><par n="Abraham__np"/></e>
     <e lm="Fideliza"><i>Fideliza</i><par n="Carrefour__np"/></e>
-    <e lm="Fidji"><i>Fidji</i><par n="Andorre__np"/></e>
+    <e lm="Fidji"><i>Fidji</i><par n="Bahamas__np"/></e>
     <e lm="Figaro"><i>Figaro</i><par n="Abraham__np"/></e>
     <e lm="Figueras"><i>Figueras</i><par n="Andorre__np"/></e>
     <e lm="Figueroa"><i>Figueroa</i><par n="Abraham__np"/></e>
@@ -23622,6 +23691,7 @@
     <e lm="Fillon"><i>Fillon</i><par n="Abraham__np"/></e>
     <e lm="Finarbi"><i>Finarbi</i><par n="Carrefour__np"/></e>
     <e lm="Finar"><i>Finar</i><par n="Carrefour__np"/></e>
+    <e lm="Finlande"><i>Finlande</i><par n="Bulgarie__np"/></e>
     <e lm="Finul"><i>Finul</i><par n="Carrefour__np"/></e>
     <e lm="Firefox"><i>Firefox</i><par n="Carrefour__np"/></e>
     <e lm="Fito"><i>Fito</i><par n="Abraham__np"/></e>
@@ -23637,6 +23707,7 @@
     <e lm="Florentino"><i>Florentino</i><par n="Abraham__np"/></e>
     <e lm="Florès"><i>Florès</i><par n="Andorre__np"/></e>
     <e lm="Florian"><i>Florian</i><par n="Abraham__np"/></e>
+    <e lm="Floride"><i>Floride</i><par n="Californie__np"/></e>
     <e lm="FMI"><i>FMI</i><par n="Carrefour__np"/></e>
     <e lm="Fnac"><i>Fnac</i><par n="Carrefour__np"/></e>
     <e lm="Focus"><i>Focus</i><par n="Carrefour__np"/></e>
@@ -23678,6 +23749,7 @@
     <e lm="Fox"><i>Fox</i><par n="Carrefour__np"/></e>
     <e lm="FP"><i>FP</i><par n="Carrefour__np"/></e>
     <e lm="France 3"><i>France<b/>3</i><par n="Carrefour__np"/></e>
+    <e lm="France"><i>France</i><par n="Bulgarie__np"/></e>
     <e lm="Francesc Antich Oliver"><i>Francesc<b/>Antich<b/>Oliver</i><par n="Andorre__np"/></e>
     <e lm="Francesc"><i>Francesc</i><par n="Abraham__np"/></e>
     <e lm="Francesco"><i>Francesco</i><par n="Abraham__np"/></e>
@@ -23728,7 +23800,7 @@
     <e lm="Gabilondo"><i>Gabilondo</i><par n="Abraham__np"/></e>
     <e lm="Gabini"><i>Gabini</i><par n="Abraham__np"/></e>
     <e lm="Gabino"><i>Gabino</i><par n="Abraham__np"/></e>
-    <e lm="Gabon"><i>Gabon</i><par n="Andorre__np"/></e>
+    <e lm="Gabon"><i>Gabon</i><par n="Iran__np"/></e>
     <e lm="Gaborone"><i>Gaborone</i><par n="Andorre__np"/></e>
     <e lm="Gabriela"><i>Gabriela</i><par n="Abraham__np"/></e>
     <e lm="Gabriele Falloppio"><i>Gabriele<b/>Falloppio</i><par n="Abraham__np"/></e>
@@ -23766,7 +23838,7 @@
     <e lm="Gamarra"><i>Gamarra</i><par n="Andorre__np"/></e>
     <e lm="Gambari"><i>Gambari</i><par n="Abraham__np"/></e>
     <e lm="Gambetta"><i>Gambetta</i><par n="Abraham__np"/></e>
-    <e lm="Gambie"><i>Gambie</i><par n="Andorre__np"/></e>
+    <e lm="Gambie"><i>Gambie</i><par n="Bulgarie__np"/></e>
     <e lm="Gamble"><i>Gamble</i><par n="Carrefour__np"/></e>
     <e lm="Gamesa"><i>Gamesa</i><par n="Carrefour__np"/></e>
     <e lm="Gamiz"><i>Gamiz</i><par n="Abraham__np"/></e>
@@ -23848,7 +23920,7 @@
     <e lm="Georgetown"><i>Georgetown</i><par n="Andorre__np"/></e>
     <e lm="George W. Bush"><i>George<b/>W.<b/>Bush</i><par n="Abraham__np"/></e>
     <e lm="Georgie du Sud-et-les-Îles Sandwich du Sud"><i>Georgie<b/>du<b/>Sud-et-les<b/>Îles<b/>Sandwich<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
-    <e lm="Géorgie"><i>Géorgie</i><par n="Andorre__np"/></e>
+    <e lm="Géorgie"><i>Géorgie</i><par n="Bulgarie__np"/></e>
     <e lm="Gérald"><i>Gérald</i><par n="Abraham__np"/></e>
     <e lm="Géraldine"><i>Géraldine</i><par n="Abraham__np"/></e>
     <e lm="Gerard"><i>Gerard</i><par n="Abraham__np"/></e>
@@ -23876,7 +23948,7 @@
     <e lm="Gezala"><i>Gezala</i><par n="Abraham__np"/></e>
     <e lm="Gezuraga"><i>Gezuraga</i><par n="Abraham__np"/></e>
     <e lm="Ghadamès"><i>Ghadamès</i><par n="Andorre__np"/></e>
-    <e lm="Ghana"><i>Ghana</i><par n="Andorre__np"/></e>
+    <e lm="Ghana"><i>Ghana</i><par n="Iran__np"/></e>
     <e lm="Ghazil"><i>Ghazil</i><par n="Andorre__np"/></e>
     <e lm="Giafar"><i>Giafar</i><par n="Abraham__np"/></e>
     <e lm="Giampaolo"><i>Giampaolo</i><par n="Abraham__np"/></e>
@@ -23983,10 +24055,12 @@
     <e lm="Grau"><i>Grau</i><par n="Andorre__np"/></e>
     <e lm="Greater London"><i>Greater<b/>London</i><par n="Andorre__np"/></e>
     <e lm="Greater Manchester"><i>Greater<b/>Manchester</i><par n="Andorre__np"/></e>
+    <e lm="Grèce"><i>Grèce</i><par n="Bulgarie__np"/></e>
     <e lm="Greenpeace"><i>Greenpeace</i><par n="Carrefour__np"/></e>
     <e lm="Gregal"><i>Gregal</i><par n="Carrefour__np"/></e>
     <e lm="Gregorio"><i>Gregorio</i><par n="Abraham__np"/></e>
     <e lm="Gregory"><i>Gregory</i><par n="Abraham__np"/></e>
+    <e lm="Grenade"><i>Grenade</i><par n="Bulgarie__np"/></e>
     <e lm="Grenadines"><i>Grenadines</i><par n="Andorre__np"/></e>
     <e lm="Grigori Iefimovitch"><i>Grigori<b/>Iefimovitch</i><par n="Abraham__np"/></e>
     <e lm="Grigori Ievseïevitch Radomylski"><i>Grigori<b/>Ievseïevitch<b/>Radomylski</i><par n="Abraham__np"/></e>
@@ -24008,7 +24082,7 @@
     <e lm="Guantánamo"><i>Guantánamo</i><par n="Andorre__np"/></e>
     <e lm="Guardamar"><i>Guardamar</i><par n="Andorre__np"/></e>
     <e lm="Guarnizo"><i>Guarnizo</i><par n="Andorre__np"/></e>
-    <e lm="Guatemala"><i>Guatemala</i><par n="Andorre__np"/></e>
+    <e lm="Guatemala"><i>Guatemala</i><par n="Iran__np"/></e>
     <e lm="Gucci"><i>Gucci</i><par n="Carrefour__np"/></e>
     <e lm="Guéant"><i>Guéant</i><par n="Abraham__np"/></e>
     <e lm="Gueorgui Parvanov"><i>Gueorgui<b/>Parvanov</i><par n="Abraham__np"/></e>
@@ -24043,8 +24117,11 @@
     <e lm="Guillermo"><i>Guillermo</i><par n="Abraham__np"/></e>
     <e lm="Guimet"><i>Guimet</i><par n="Abraham__np"/></e>
     <e lm="Guinea"><i>Guinea</i><par n="Andorre__np"/></e>
-    <e lm="Guinée-Bissau"><i>Guinée-Bissau</i><par n="Andorre__np"/></e>
-    <e lm="Guinée-Équatorale"><i>Guinée-Équatorale</i><par n="Andorre__np"/></e>
+    <e lm="Guinée-Bissao"><i>Guinée-Bissao</i><par n="Bulgarie__np"/></e>
+    <e lm="Guinée-Bissau"><i>Guinée-Bissau</i><par n="Bulgarie__np"/></e>
+    <e lm="Guinée-Équatorale"><i>Guinée-Équatorale</i><par n="Bulgarie__np"/></e>
+    <e lm="Guinée équatoriale"><i>Guinée<b/>équatoriale</i><par n="Bulgarie__np"/></e>
+    <e lm="Guinée"><i>Guinée</i><par n="Bulgarie__np"/></e>
     <e lm="Guingamp"><i>Guingamp</i><par n="Andorre__np"/></e>
     <e lm="Guipuscoa"><i>Guipuscoa</i><par n="Andorre__np"/></e>
     <e lm="Guipúzcoa"><i>Guipúzcoa</i><par n="Andorre__np"/></e>
@@ -24063,7 +24140,7 @@
     <e lm="Gutarrak"><i>Gutarrak</i><par n="Carrefour__np"/></e>
     <e lm="Gutierrez"><i>Gutierrez</i><par n="Abraham__np"/></e>
     <e lm="Gutiérrez"><i>Gutiérrez</i><par n="Abraham__np"/></e>
-    <e lm="Guyana"><i>Guyana</i><par n="Andorre__np"/></e>
+    <e lm="Guyana"><i>Guyana</i><par n="Bulgarie__np"/></e>
     <e lm="Guyane Française"><i>Guyane<b/>Française</i><par n="Andorre__np"/></e>
     <e lm="Guyane"><i>Guyane</i><par n="Andorre__np"/></e>
     <e lm="Guydansk"><i>Guydansk</i><par n="Andorre__np"/></e>
@@ -24081,6 +24158,7 @@
     <e lm="Haimar"><i>Haimar</i><par n="Abraham__np"/></e>
     <e lm="Haïm"><i>Haïm</i><par n="Abraham__np"/></e>
     <e lm="Hainaut"><i>Hainaut</i><par n="Andorre__np"/></e>
+    <e lm="Haïti"><i>Haïti</i><par n="Madagascar__np"/></e>
     <e lm="Haley"><i>Haley</i><par n="Carrefour__np"/></e>
     <e lm="Halgand"><i>Halgand</i><par n="Abraham__np"/></e>
     <e lm="Halicarnasse"><i>Halicarnasse</i><par n="Andorre__np"/></e>
@@ -24122,7 +24200,8 @@
     <e lm="Haute-Vienne"><i>Haute-Vienne</i><par n="Andorre__np"/></e>
     <e lm="Haute vitesse espagnole"><i>Haute<b/>vitesse<b/>espagnole</i><par n="Carrefour__np"/></e>
     <e lm="Haut-Rhin"><i>Haut-Rhin</i><par n="Andorre__np"/></e>
-    <e lm="Hawaii"><i>Hawaii</i><par n="Andorre__np"/></e>
+    <e lm="Hawaï"><i>Hawaï</i><par n="Madagascar__np"/></e>
+    <e lm="Hawaii"><i>Hawaii</i><par n="Madagascar__np"/></e>
     <e lm="Hayley"><i>Hayley</i><par n="Carrefour__np"/></e>
     <e lm="Head"><i>Head</i><par n="Carrefour__np"/></e>
     <e lm="Heard"><i>Heard</i><par n="Andorre__np"/></e>
@@ -24209,9 +24288,9 @@
     <e lm="Homer"><i>Homer</i><par n="Abraham__np"/></e>
     <e lm="Honchar"><i>Honchar</i><par n="Abraham__np"/></e>
     <e lm="Hondarribia"><i>Hondarribia</i><par n="Andorre__np"/></e>
-    <e lm="Honduras"><i>Honduras</i><par n="Andorre__np"/></e>
+    <e lm="Honduras"><i>Honduras</i><par n="Iran__np"/></e>
     <e lm="Hong Kong"><i>Hong<b/>Kong</i><par n="Andorre__np"/></e>
-    <e lm="Hongrie"><i>Hongrie</i><par n="Andorre__np"/></e>
+    <e lm="Hongrie"><i>Hongrie</i><par n="Bulgarie__np"/></e>
     <e lm="Honiara"><i>Honiara</i><par n="Andorre__np"/></e>
     <e lm="Horace"><i>Horace</i><par n="Abraham__np"/></e>
     <e lm="Horatius"><i>Horatius</i><par n="Abraham__np"/></e>
@@ -24274,6 +24353,7 @@
     <e lm="Ibon"><i>Ibon</i><par n="Abraham__np"/></e>
     <e lm="Ibrahim"><i>Ibrahim</i><par n="Abraham__np"/></e>
     <e lm="Icare"><i>Icare</i><par n="Abraham__np"/></e>
+    <e lm="Idaho"><i>Idaho</i><par n="Madagascar__np"/></e>
     <e lm="Idigoras"><i>Idigoras</i><par n="Abraham__np"/></e>
     <e lm="Idoiaga"><i>Idoiaga</i><par n="Abraham__np"/></e>
     <e lm="Idoia"><i>Idoia</i><par n="Abraham__np"/></e>
@@ -24302,8 +24382,10 @@
     <e lm="Île de Man"><i>Île<b/>de<b/>Man</i><par n="Andorre__np"/></e>
     <e lm="Île de Pâques"><i>Île<b/>de<b/>Pâques</i><par n="Andorre__np"/></e>
     <e lm="Île du Nord"><i>Île<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
+    <e lm="île du Prince-Édouard"><i>île<b/>du<b/>Prince-Édouard</i><par n="Bulgarie__np"/></e>
     <e lm="Île du Prince"><i>Île<b/>du<b/>Prince</i><par n="Andorre__np"/></e>
     <e lm="Île du Sud"><i>Île<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
+    <e lm="Île Maurice"><i>Île<b/>Maurice</i><par n="Californie__np"/></e>
     <e lm="Île Norfolk"><i>Île<b/>Norfolk</i><par n="Andorre__np"/></e>
     <e lm="Îles Aléoutiennes"><i>Îles<b/>Aléoutiennes</i><par n="Andorre__np"/></e>
     <e lm="Îles Andaman"><i>Îles<b/>Andaman</i><par n="Andorre__np"/></e>
@@ -24315,7 +24397,7 @@
     <e lm="Îles Canaries"><i>Îles<b/>Canaries</i><par n="Andorre__np"/></e>
     <e lm="Îles Carolines"><i>Îles<b/>Carolines</i><par n="Andorre__np"/></e>
     <e lm="Îles Cocos"><i>Îles<b/>Cocos</i><par n="Andorre__np"/></e>
-    <e lm="Îles Cook"><i>Îles<b/>Cook</i><par n="Andorre__np"/></e>
+    <e lm="Îles Cook"><i>Îles<b/>Cook</i><par n="Bahamas__np"/></e>
     <e lm="Îles de la Madeleine"><i>Îles<b/>de<b/>la<b/>Madeleine</i><par n="Andorre__np"/></e>
     <e lm="Îles de la mer de Corail"><i>Îles<b/>de<b/>la<b/>mer<b/>de<b/>Corail</i><par n="Andorre__np"/></e>
     <e lm="Ìles des Amis"><i>Ìles<b/>des<b/>Amis</i><par n="Andorre__np"/></e>
@@ -24330,9 +24412,10 @@
     <e lm="Îles Mariannes du Nord"><i>Îles<b/>Mariannes<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
     <e lm="Îles Mariannes"><i>Îles<b/>Mariannes</i><par n="Andorre__np"/></e>
     <e lm="Îles Marquises"><i>Îles<b/>Marquises</i><par n="Andorre__np"/></e>
+    <e lm="Îles Marshall"><i>Îles<b/>Marshall</i><par n="Bahamas__np"/></e>
     <e lm="Îles Moluques"><i>Îles<b/>Moluques</i><par n="Andorre__np"/></e>
     <e lm="Îles Pitcairn"><i>Îles<b/>Pitcairn</i><par n="Andorre__np"/></e>
-    <e lm="Îles Salomon"><i>Îles<b/>Salomon</i><par n="Andorre__np"/></e>
+    <e lm="Îles Salomon"><i>Îles<b/>Salomon</i><par n="Bahamas__np"/></e>
     <e lm="Îles sous le Vent"><i>Îles<b/>sous<b/>le<b/>Vent</i><par n="Andorre__np"/></e>
     <e lm="Îles Tchagos"><i>Îles<b/>Tchagos</i><par n="Andorre__np"/></e>
     <e lm="Îles Turques-et-Caïques"><i>Îles<b/>Turques-et-Caïques</i><par n="Andorre__np"/></e>
@@ -24344,6 +24427,7 @@
     <e lm="Illarramendi"><i>Illarramendi</i><par n="Abraham__np"/></e>
     <e lm="Ille-et-Vilaine"><i>Ille-et-Vilaine</i><par n="Andorre__np"/></e>
     <e lm="Illiano"><i>Illiano</i><par n="Abraham__np"/></e>
+    <e lm="Illinois"><i>Illinois</i><par n="Madagascar__np"/></e>
     <e lm="Illyrie"><i>Illyrie</i><par n="Andorre__np"/></e>
     <e lm="il Tintoretto" r="LR"><i>il<b/>Tintoretto</i><par n="Abraham__np"/></e>
     <e lm="Imagenio"><i>Imagenio</i><par n="Carrefour__np"/></e>
@@ -24364,9 +24448,11 @@
     <e lm="Inbiomed"><i>Inbiomed</i><par n="Carrefour__np"/></e>
     <e lm="Indar"><i>Indar</i><par n="Carrefour__np"/></e>
     <e lm="Indaux"><i>Indaux</i><par n="Carrefour__np"/></e>
+    <e lm="Inde"><i>Inde</i><par n="Bulgarie__np"/></e>
     <e lm="Indiana"><i>Indiana</i><par n="Abraham__np"/></e>
+    <e lm="Indiana"><i>Indiana</i><par n="Madagascar__np"/></e>
     <e lm="Indochine"><i>Indochine</i><par n="Andorre__np"/></e>
-    <e lm="Indonésie"><i>Indonésie</i><par n="Andorre__np"/></e>
+    <e lm="Indonésie"><i>Indonésie</i><par n="Bulgarie__np"/></e>
     <e lm="Indre-et-Loire"><i>Indre-et-Loire</i><par n="Andorre__np"/></e>
     <e lm="Indre"><i>Indre</i><par n="Andorre__np"/></e>
     <e lm="Indurain"><i>Indurain</i><par n="Abraham__np"/></e>
@@ -24401,18 +24487,21 @@
     <e lm="Ion"><i>Ion</i><par n="Abraham__np"/></e>
     <e lm="Iouchtchenko"><i>Iouchtchenko</i><par n="Abraham__np"/></e>
     <e lm="Iouri Alexeïevitch"><i>Iouri<b/>Alexeïevitch</i><par n="Abraham__np"/></e>
-    <e lm="Iowa"><i>Iowa</i><par n="Andorre__np"/></e>
+    <e lm="Iowa"><i>Iowa</i><par n="Madagascar__np"/></e>
     <e lm="Ipargroupe"><i>Ipargroupe</i><par n="Carrefour__np"/></e>
     <e lm="Iphigénie"><i>Iphigénie</i><par n="Abraham__np"/></e>
     <e lm="iPhone"><i>iPhone</i><par n="Carrefour__np"/></e>
     <e lm="IPSOS"><i>IPSOS</i><par n="Carrefour__np"/></e>
     <e lm="Ipurua"><i>Ipurua</i><par n="Andorre__np"/></e>
     <e lm="Iraizoz"><i>Iraizoz</i><par n="Abraham__np"/></e>
+    <e lm="Irak"><i>Irak</i><par n="Iran__np"/></e>
     <e lm="Irakoitz"><i>Irakoitz</i><par n="Abraham__np"/></e>
+    <e lm="Iran"><i>Iran</i><par n="Iran__np"/></e>
     <e lm="Iraola"><i>Iraola</i><par n="Abraham__np"/></e>
-    <e lm="Iraq"><i>Iraq</i><par n="Andorre__np"/></e>
+    <e lm="Iraq"><i>Iraq</i><par n="Iran__np"/></e>
     <e lm="Irastorza"><i>Irastorza</i><par n="Abraham__np"/></e>
     <e lm="Irazusta"><i>Irazusta</i><par n="Abraham__np"/></e>
+    <e lm="Irelande du Nord"><i>Irelande<b/>du<b/>Nord</i><par n="Bulgarie__np"/></e>
     <e lm="Irene"><i>Irene</i><par n="Abraham__np"/></e>
     <e lm="Iriarte"><i>Iriarte</i><par n="Abraham__np"/></e>
     <e lm="Iribar"><i>Iribar</i><par n="Abraham__np"/></e>
@@ -24421,6 +24510,7 @@
     <e lm="Iris"><i>Iris</i><par n="Abraham__np"/></e>
     <e lm="Irkoutsk"><i>Irkoutsk</i><par n="Andorre__np"/></e>
     <e lm="Irlande du Nord"><i>Irlande<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
+    <e lm="Irlande"><i>Irlande</i><par n="Bulgarie__np"/></e>
     <e lm="Iron Maiden"><i>Iron<b/>Maiden</i><par n="Carrefour__np"/></e>
     <e lm="Ironman"><i>Ironman</i><par n="Abraham__np"/></e>
     <e lm="Irons"><i>Irons</i><par n="Abraham__np"/></e>
@@ -24435,12 +24525,15 @@
     <e lm="Isidoro"><i>Isidoro</i><par n="Abraham__np"/></e>
     <e lm="Isidro"><i>Isidro</i><par n="Abraham__np"/></e>
     <e lm="Islamabad"><i>Islamabad</i><par n="Andorre__np"/></e>
+    <e lm="Islande"><i>Islande</i><par n="Bulgarie__np"/></e>
     <e lm="Ismael"><i>Ismael</i><par n="Abraham__np"/></e>
     <e lm="Isocrate"><i>Isocrate</i><par n="Abraham__np"/></e>
+    <e lm="Israël"><i>Israël</i><par n="Madagascar__np"/></e>
     <e lm="Issey"><i>Issey</i><par n="Abraham__np"/></e>
     <e lm="Istrie"><i>Istrie</i><par n="Andorre__np"/></e>
     <e lm="Isuntza"><i>Isuntza</i><par n="Andorre__np"/></e>
     <e lm="Itaipu"><i>Itaipu</i><par n="Andorre__np"/></e>
+    <e lm="Italie"><i>Italie</i><par n="Bulgarie__np"/></e>
     <e lm="ITER"><i>ITER</i><par n="Carrefour__np"/></e>
     <e lm="Ithaque"><i>Ithaque</i><par n="Andorre__np"/></e>
     <e lm="Itoiz"><i>Itoiz</i><par n="Andorre__np"/></e>
@@ -24484,6 +24577,7 @@
     <e lm="Jakarta" r="LR"><i>Jakarta</i><par n="Andorre__np"/></e>
     <e lm="Jalgi"><i>Jalgi</i><par n="Carrefour__np"/></e>
     <e lm="Jalón"><i>Jalón</i><par n="Andorre__np"/></e>
+    <e lm="Jamaïque"><i>Jamaïque</i><par n="Bulgarie__np"/></e>
     <e lm="Jameos del Agua"><i>Jameos<b/>del<b/>Agua</i><par n="Andorre__np"/></e>
     <e lm="Jamestown"><i>Jamestown</i><par n="Andorre__np"/></e>
     <e lm="Jane"><i>Jane</i><par n="Abraham__np"/></e>
@@ -24494,6 +24588,7 @@
     <e lm="Jan Pieter Balkenende"><i>Jan<b/>Pieter<b/>Balkenende</i><par n="Abraham__np"/></e>
     <e lm="Janubio"><i>Janubio</i><par n="Andorre__np"/></e>
     <e lm="Janus"><i>Janus</i><par n="Abraham__np"/></e>
+    <e lm="Japon"><i>Japon</i><par n="Iran__np"/></e>
     <e lm="Jaque"><i>Jaque</i><par n="Abraham__np"/></e>
     <e lm="Jaques"><i>Jaques</i><par n="Abraham__np"/></e>
     <e lm="Jarag"><i>Jarag</i><par n="Carrefour__np"/></e>
@@ -24591,6 +24686,7 @@
     <e lm="Jong-il"><i>Jong-il</i><par n="Abraham__np"/></e>
     <e lm="Jon"><i>Jon</i><par n="Abraham__np"/></e>
     <e lm="Jordana"><i>Jordana</i><par n="Abraham__np"/></e>
+    <e lm="Jordanie"><i>Jordanie</i><par n="Bulgarie__np"/></e>
     <e lm="Jordan"><i>Jordan</i><par n="Abraham__np"/></e>
     <e lm="Jordi"><i>Jordi</i><par n="Abraham__np"/></e>
     <e lm="Jorge Del Castillo"><i>Jorge<b/>Del<b/>Castillo</i><par n="Abraham__np"/></e>
@@ -24676,6 +24772,7 @@
     <e lm="Kandahar"><i>Kandahar</i><par n="Abraham__np"/></e>
     <e lm="Kandahar"><i>Kandahar</i><par n="Andorre__np"/></e>
     <e lm="Kanmen"><i>Kanmen</i><par n="Abraham__np"/></e>
+    <e lm="Kansas"><i>Kansas</i><par n="Madagascar__np"/></e>
     <e lm="Karakoroum"><i>Karakoroum</i><par n="Andorre__np"/></e>
     <e lm="Karanka"><i>Karanka</i><par n="Abraham__np"/></e>
     <e lm="Karen"><i>Karen</i><par n="Abraham__np"/></e>
@@ -24697,14 +24794,15 @@
     <e lm="Katsav"><i>Katsav</i><par n="Abraham__np"/></e>
     <e lm="Katxo"><i>Katxo</i><par n="Abraham__np"/></e>
     <e lm="Kauta"><i>Kauta</i><par n="Carrefour__np"/></e>
-    <e lm="Kazakhstan"><i>Kazakhstan</i><par n="Andorre__np"/></e>
+    <e lm="Kazakhstan"><i>Kazakhstan</i><par n="Iran__np"/></e>
     <e lm="Kb"><i>Kb</i><par n="Carrefour__np"/></e>
     <e lm="Keillor"><i>Keillor</i><par n="Abraham__np"/></e>
     <e lm="Keith"><i>Keith</i><par n="Abraham__np"/></e>
     <e lm="Kelly"><i>Kelly</i><par n="Abraham__np"/></e>
     <e lm="Kennedy"><i>Kennedy</i><par n="Abraham__np"/></e>
     <e lm="Kenneth"><i>Kenneth</i><par n="Abraham__np"/></e>
-    <e lm="Kenya"><i>Kenya</i><par n="Andorre__np"/></e>
+    <e lm="Kentucky"><i>Kentucky</i><par n="Madagascar__np"/></e>
+    <e lm="Kenya"><i>Kenya</i><par n="Iran__np"/></e>
     <e lm="Kepa"><i>Kepa</i><par n="Abraham__np"/></e>
     <e lm="Kerejeta"><i>Kerejeta</i><par n="Abraham__np"/></e>
     <e lm="Kessler"><i>Kessler</i><par n="Abraham__np"/></e>
@@ -24734,8 +24832,8 @@
     <e lm="Kingstown"><i>Kingstown</i><par n="Andorre__np"/></e>
     <e lm="Kinshasa"><i>Kinshasa</i><par n="Andorre__np"/></e>
     <e lm="Kirchner"><i>Kirchner</i><par n="Abraham__np"/></e>
-    <e lm="Kirghizistan"><i>Kirghizistan</i><par n="Andorre__np"/></e>
-    <e lm="Kiribati"><i>Kiribati</i><par n="Andorre__np"/></e>
+    <e lm="Kirghizstan"><i>Kirghizstan</i><par n="Iran__np"/></e>
+    <e lm="Kiribati"><i>Kiribati</i><par n="Californie__np"/></e>
     <e lm="Klarsfeld"><i>Klarsfeld</i><par n="Abraham__np"/></e>
     <e lm="Klaus"><i>Klaus</i><par n="Abraham__np"/></e>
     <e lm="Klein"><i>Klein</i><par n="Abraham__np"/></e>
@@ -24764,7 +24862,7 @@
     <e lm="Kourgan"><i>Kourgan</i><par n="Andorre__np"/></e>
     <e lm="Koursk"><i>Koursk</i><par n="Andorre__np"/></e>
     <e lm="Kovacevic"><i>Kovacevic</i><par n="Abraham__np"/></e>
-    <e lm="Koweït"><i>Koweït</i><par n="Andorre__np"/></e>
+    <e lm="Koweït"><i>Koweït</i><par n="Iran__np"/></e>
     <e lm="Koxtape"><i>Koxtape</i><par n="Carrefour__np"/></e>
     <e lm="Krakatau"><i>Krakatau</i><par n="Andorre__np"/></e>
     <e lm="Krauss"><i>Krauss</i><par n="Abraham__np"/></e>
@@ -24857,7 +24955,7 @@
     <e lm="Lanoue"><i>Lanoue</i><par n="Abraham__np"/></e>
     <e lm="Laocoon"><i>Laocoon</i><par n="Abraham__np"/></e>
     <e lm="Laon"><i>Laon</i><par n="Andorre__np"/></e>
-    <e lm="Laos"><i>Laos</i><par n="Andorre__np"/></e>
+    <e lm="Laos"><i>Laos</i><par n="Iran__np"/></e>
     <e lm="La Palma"><i>La<b/>Palma</i><par n="Andorre__np"/></e>
     <e lm="La Paz"><i>La<b/>Paz</i><par n="Andorre__np"/></e>
     <e lm="La Polaire" r="LR"><i>La<b/>Polaire</i><par n="Andorre__np"/></e>
@@ -24989,13 +25087,13 @@
     <e lm="les Mariannes"><i>les<b/>Mariannes</i><par n="Andorre__np"/></e>
     <e lm="Lesnes"><i>Lesnes</i><par n="Andorre__np"/></e>
     <e lm="Le Soir"><i>Le<b/>Soir</i><par n="Carrefour__np"/></e>
-    <e lm="Lesotho"><i>Lesotho</i><par n="Andorre__np"/></e>
+    <e lm="Lesotho"><i>Lesotho</i><par n="Iran__np"/></e>
     <e lm="Les Peters"><i>Les<b/>Peters</i><par n="Carrefour__np"/></e>
     <e lm="les temps chauds"><i>les<b/>temps<b/>chauds</i><par n="Carrefour__np"/></e>
     <e lm="Les Vosges"><i>Les<b/>Vosges</i><par n="Andorre__np"/></e>
     <e lm="Lete"><i>Lete</i><par n="Abraham__np"/></e>
     <e lm="Letizia Ortiz Rocasolano"><i>Letizia<b/>Ortiz<b/>Rocasolano</i><par n="Abraham__np"/></e>
-    <e lm="Lettonie"><i>Lettonie</i><par n="Andorre__np"/></e>
+    <e lm="Lettonie"><i>Lettonie</i><par n="Bulgarie__np"/></e>
     <e lm="Leucippe"><i>Leucippe</i><par n="Abraham__np"/></e>
     <e lm="Leukemans"><i>Leukemans</i><par n="Abraham__np"/></e>
     <e lm="Leunda"><i>Leunda</i><par n="Abraham__np"/></e>
@@ -25011,15 +25109,17 @@
     <e lm="L'Hospitalet de Llobregat"><i>L'Hospitalet<b/>de<b/>Llobregat</i><par n="Andorre__np"/></e>
     <e lm="Liane"><i>Liane</i><par n="Abraham__np"/></e>
     <e lm="Liaño"><i>Liaño</i><par n="Andorre__np"/></e>
-    <e lm="Libéria"><i>Libéria</i><par n="Andorre__np"/></e>
+    <e lm="Liban"><i>Liban</i><par n="Iran__np"/></e>
+    <e lm="Libéria"><i>Libéria</i><par n="Iran__np"/></e>
     <e lm="Liberty"><i>Liberty</i><par n="Carrefour__np"/></e>
     <e lm="Libie"><i>Libie</i><par n="Andorre__np"/></e>
     <e lm="Libreville"><i>Libreville</i><par n="Andorre__np"/></e>
+    <e lm="Libye"><i>Libye</i><par n="Bulgarie__np"/></e>
     <e lm="Licasa"><i>Licasa</i><par n="Carrefour__np"/></e>
     <e lm="Lico"><i>Lico</i><par n="Carrefour__np"/></e>
     <e lm="Liébana"><i>Liébana</i><par n="Andorre__np"/></e>
     <e lm="Lieberman"><i>Lieberman</i><par n="Abraham__np"/></e>
-    <e lm="Liechtenstein"><i>Liechtenstein</i><par n="Andorre__np"/></e>
+    <e lm="Liechtenstein"><i>Liechtenstein</i><par n="Iran__np"/></e>
     <e lm="Liège"><i>Liège</i><par n="Andorre__np"/></e>
     <e lm="Ligue Régulier"><i>Ligue<b/>Régulier</i><par n="Carrefour__np"/></e>
     <e lm="Ligurie"><i>Ligurie</i><par n="Andorre__np"/></e>
@@ -25043,6 +25143,7 @@
     <e lm="Lisboa"><i>Lisboa</i><par n="Andorre__np"/></e>
     <e lm="Littell"><i>Littell</i><par n="Abraham__np"/></e>
     <e lm="Little"><i>Little</i><par n="Abraham__np"/></e>
+    <e lm="Lituanie"><i>Lituanie</i><par n="Bulgarie__np"/></e>
     <e lm="Litvinenko"><i>Litvinenko</i><par n="Abraham__np"/></e>
     <e lm="Liverpool"><i>Liverpool</i><par n="Andorre__np"/></e>
     <e lm="Liv"><i>Liv</i><par n="Abraham__np"/></e>
@@ -25106,7 +25207,7 @@
     <e lm="Louhossoa"><i>Louhossoa</i><par n="Andorre__np"/></e>
     <e lm="Lou"><i>Lou</i><par n="Abraham__np"/></e>
     <e lm="Louis-Dreyfus"><i>Louis-Dreyfus</i><par n="Abraham__np"/></e>
-    <e lm="Louisiane"><i>Louisiane</i><par n="Andorre__np"/></e>
+    <e lm="Louisiane"><i>Louisiane</i><par n="Californie__np"/></e>
     <e lm="Louis"><i>Louis</i><par n="Abraham__np"/></e>
     <e lm="Louksor"><i>Louksor</i><par n="Andorre__np"/></e>
     <e lm="Lourdes"><i>Lourdes</i><par n="Abraham__np"/></e>
@@ -25150,6 +25251,7 @@
     <e lm="Lusitanie"><i>Lusitanie</i><par n="Andorre__np"/></e>
     <e lm="Lutèce"><i>Lutèce</i><par n="Andorre__np"/></e>
     <e lm="Luttenberger"><i>Luttenberger</i><par n="Abraham__np"/></e>
+    <e lm="Luxembourg"><i>Luxembourg</i><par n="Iran__np"/></e>
     <e lm="Luzaro"><i>Luzaro</i><par n="Carrefour__np"/></e>
     <e lm="Lydie"><i>Lydie</i><par n="Andorre__np"/></e>
     <e lm="Lynch"><i>Lynch</i><par n="Abraham__np"/></e>
@@ -25160,7 +25262,7 @@
     <e lm="Mabel"><i>Mabel</i><par n="Abraham__np"/></e>
     <e lm="Macao"><i>Macao</i><par n="Andorre__np"/></e>
     <e lm="Maccabi"><i>Maccabi</i><par n="Carrefour__np"/></e>
-    <e lm="Macédoine"><i>Macédoine</i><par n="Andorre__np"/></e>
+    <e lm="Macédoine"><i>Macédoine</i><par n="Bulgarie__np"/></e>
     <e lm="MacGyver"><i>MacGyver</i><par n="Abraham__np"/></e>
     <e lm="Machiavel"><i>Machiavel</i><par n="Abraham__np"/></e>
     <e lm="Machin"><i>Machin</i><par n="Abraham__np"/></e>
@@ -25171,7 +25273,7 @@
     <e lm="Mackenzie"><i>Mackenzie</i><par n="Andorre__np"/></e>
     <e lm="Mâcon"><i>Mâcon</i><par n="Andorre__np"/></e>
     <e lm="Macua"><i>Macua</i><par n="Carrefour__np"/></e>
-    <e lm="Madagascar"><i>Madagascar</i><par n="Andorre__np"/></e>
+    <e lm="Madagascar"><i>Madagascar</i><par n="Madagascar__np"/></e>
     <e lm="Maddie"><i>Maddie</i><par n="Abraham__np"/></e>
     <e lm="Madère"><i>Madère</i><par n="Andorre__np"/></e>
     <e lm="Madonna"><i>Madonna</i><par n="Abraham__np"/></e>
@@ -25193,6 +25295,7 @@
     <e lm="Maillard"><i>Maillard</i><par n="Abraham__np"/></e>
     <e lm="Maimonide"><i>Maimonide</i><par n="Abraham__np"/></e>
     <e lm="Maine-et-Loire"><i>Maine-et-Loire</i><par n="Andorre__np"/></e>
+    <e lm="Maine"><i>Maine</i><par n="Madagascar__np"/></e>
     <e lm="Maiorga"><i>Maiorga</i><par n="Abraham__np"/></e>
     <e lm="Maison Blanche"><i>Maison<b/>Blanche</i><par n="Carrefour__np"/></e>
     <e lm="Maite"><i>Maite</i><par n="Abraham__np"/></e>
@@ -25200,18 +25303,20 @@
     <e lm="Majuro"><i>Majuro</i><par n="Andorre__np"/></e>
     <e lm="Malabo"><i>Malabo</i><par n="Andorre__np"/></e>
     <e lm="Malacca"><i>Malacca</i><par n="Andorre__np"/></e>
-    <e lm="Malawi"><i>Malawi</i><par n="Andorre__np"/></e>
-    <e lm="Maldives"><i>Maldives</i><par n="Andorre__np"/></e>
+    <e lm="Malaisie"><i>Malaisie</i><par n="Bulgarie__np"/></e>
+    <e lm="Malawi"><i>Malawi</i><par n="Iran__np"/></e>
+    <e lm="Maldives"><i>Maldives</i><par n="Bahamas__np"/></e>
     <e lm="Maldonado"><i>Maldonado</i><par n="Andorre__np"/></e>
     <e lm="Malé"><i>Malé</i><par n="Andorre__np"/></e>
     <e lm="Malia"><i>Malia</i><par n="Abraham__np"/></e>
-    <e lm="Mali"><i>Mali</i><par n="Andorre__np"/></e>
+    <e lm="Mali"><i>Mali</i><par n="Iran__np"/></e>
     <e lm="Malik"><i>Malik</i><par n="Abraham__np"/></e>
     <e lm="Malines"><i>Malines</i><par n="Andorre__np"/></e>
     <e lm="Malla"><i>Malla</i><par n="Andorre__np"/></e>
     <e lm="Mallote"><i>Mallote</i><par n="Abraham__np"/></e>
     <e lm="Malou"><i>Malou</i><par n="Abraham__np"/></e>
     <e lm="Malouines"><i>Malouines</i><par n="Andorre__np"/></e>
+    <e lm="Malte"><i>Malte</i><par n="Californie__np"/></e>
     <e lm="Maluenda"><i>Maluenda</i><par n="Abraham__np"/></e>
     <e lm="Mamés"><i>Mamés</i><par n="Abraham__np"/></e>
     <e lm="Mamoudzou"><i>Mamoudzou</i><par n="Andorre__np"/></e>
@@ -25227,6 +25332,7 @@
     <e lm="Manero"><i>Manero</i><par n="Abraham__np"/></e>
     <e lm="Manhattan"><i>Manhattan</i><par n="Andorre__np"/></e>
     <e lm="Manille"><i>Manille</i><par n="Andorre__np"/></e>
+    <e lm="Manitoba"><i>Manitoba</i><par n="Madagascar__np"/></e>
     <e lm="Manny Mori"><i>Manny<b/>Mori</i><par n="Abraham__np"/></e>
     <e lm="Manolo"><i>Manolo</i><par n="Abraham__np"/></e>
     <e lm="Manresa"><i>Manresa</i><par n="Andorre__np"/></e>
@@ -25297,6 +25403,7 @@
     <e lm="Markus"><i>Markus</i><par n="Abraham__np"/></e>
     <e lm="Marlene"><i>Marlene</i><par n="Abraham__np"/></e>
     <e lm="Marne"><i>Marne</i><par n="Andorre__np"/></e>
+    <e lm="Maroc"><i>Maroc</i><par n="Iran__np"/></e>
     <e lm="Maroto"><i>Maroto</i><par n="Carrefour__np"/></e>
     <e lm="Márquez"><i>Márquez</i><par n="Abraham__np"/></e>
     <e lm="Marquina"><i>Marquina</i><par n="Andorre__np"/></e>
@@ -25321,6 +25428,7 @@
     <e lm="Martutene"><i>Martutene</i><par n="Andorre__np"/></e>
     <e lm="Martxelo"><i>Martxelo</i><par n="Abraham__np"/></e>
     <e lm="Marx"><i>Marx</i><par n="Abraham__np"/></e>
+    <e lm="Maryland"><i>Maryland</i><par n="Madagascar__np"/></e>
     <e lm="Mary McAleese"><i>Mary<b/>McAleese</i><par n="Abraham__np"/></e>
     <e lm="Marzio"><i>Marzio</i><par n="Abraham__np"/></e>
     <e lm="Mascate"><i>Mascate</i><par n="Andorre__np"/></e>
@@ -25328,8 +25436,8 @@
     <e lm="Mas"><i>Mas</i><par n="Abraham__np"/></e>
     <e lm="Mas"><i>Mas</i><par n="Carrefour__np"/></e>
     <e lm="maspensión"><i>maspensión</i><par n="Carrefour__np"/></e>
-    <e lm="Massachusetts"><i>Massachusetts</i><par n="Andorre__np"/></e>
-    <e lm="Massachussets"><i>Massachussets</i><par n="Andorre__np"/></e>
+    <e lm="Massachusetts"><i>Massachusetts</i><par n="Madagascar__np"/></e>
+    <e lm="Massachussets"><i>Massachussets</i><par n="Madagascar__np"/></e>
     <e lm="Massa"><i>Massa</i><par n="Abraham__np"/></e>
     <e lm="Massif Central"><i>Massif<b/>Central</i><par n="Andorre__np"/></e>
     <e lm="Massif des Vosges"><i>Massif<b/>des<b/>Vosges</i><par n="Andorre__np"/></e>
@@ -25356,7 +25464,7 @@
     <e lm="Mauléon"><i>Mauléon</i><par n="Andorre__np"/></e>
     <e lm="Mauresmo"><i>Mauresmo</i><par n="Abraham__np"/></e>
     <e lm="Maurice"><i>Maurice</i><par n="Abraham__np"/></e>
-    <e lm="Mauritanie"><i>Mauritanie</i><par n="Andorre__np"/></e>
+    <e lm="Mauritanie"><i>Mauritanie</i><par n="Bulgarie__np"/></e>
     <e lm="Maxi"><i>Maxi</i><par n="Carrefour__np"/></e>
     <e lm="Maximo"><i>Maximo</i><par n="Abraham__np"/></e>
     <e lm="Maya"><i>Maya</i><par n="Abraham__np"/></e>
@@ -25499,6 +25607,7 @@
     <e lm="Meurthe-et-Moselle"><i>Meurthe-et-Moselle</i><par n="Andorre__np"/></e>
     <e lm="Meuse"><i>Meuse</i><par n="Andorre__np"/></e>
     <e lm="Mevel"><i>Mevel</i><par n="Abraham__np"/></e>
+    <e lm="Mexique"><i>Mexique</i><par n="Iran__np"/></e>
     <e lm="Miami"><i>Miami</i><par n="Andorre__np"/></e>
     <e lm="Micaela"><i>Micaela</i><par n="Abraham__np"/></e>
     <e lm="Michael"><i>Michael</i><par n="Abraham__np"/></e>
@@ -25512,10 +25621,10 @@
     <e lm="Michelin"><i>Michelin</i><par n="Abraham__np"/></e>
     <e lm="Michelle Bachelet Jeria"><i>Michelle<b/>Bachelet<b/>Jeria</i><par n="Abraham__np"/></e>
     <e lm="Michelle"><i>Michelle</i><par n="Abraham__np"/></e>
-    <e lm="Michigan"><i>Michigan</i><par n="Andorre__np"/></e>
+    <e lm="Michigan"><i>Michigan</i><par n="Madagascar__np"/></e>
     <e lm="Mickey"><i>Mickey</i><par n="Abraham__np"/></e>
     <e lm="Micra"><i>Micra</i><par n="Carrefour__np"/></e>
-    <e lm="Micronésie"><i>Micronésie</i><par n="Andorre__np"/></e>
+    <e lm="Micronésie"><i>Micronésie</i><par n="Bulgarie__np"/></e>
     <e lm="Microsoft"><i>Microsoft</i><par n="Carrefour__np"/></e>
     <e lm="Midi-Pyrénées"><i>Midi-Pyrénées</i><par n="Andorre__np"/></e>
     <e lm="Midland"><i>Midland</i><par n="Carrefour__np"/></e>
@@ -25556,7 +25665,7 @@
     <e lm="Minho"><i>Minho</i><par n="Andorre__np"/></e>
     <e lm="Mini"><i>Mini</i><par n="Carrefour__np"/></e>
     <e lm="Minneapolis"><i>Minneapolis</i><par n="Andorre__np"/></e>
-    <e lm="Minnesota"><i>Minnesota</i><par n="Andorre__np"/></e>
+    <e lm="Minnesota"><i>Minnesota</i><par n="Madagascar__np"/></e>
     <e lm="Minsk"><i>Minsk</i><par n="Andorre__np"/></e>
     <e lm="Mintzola"><i>Mintzola</i><par n="Carrefour__np"/></e>
     <e lm="Miossic"><i>Miossic</i><par n="Abraham__np"/></e>
@@ -25576,7 +25685,8 @@
     <e lm="Mirko"><i>Mirko</i><par n="Abraham__np"/></e>
     <e lm="Mishima"><i>Mishima</i><par n="Abraham__np"/></e>
     <e lm="Mislata"><i>Mislata</i><par n="Andorre__np"/></e>
-    <e lm="Mississippi"><i>Mississippi</i><par n="Andorre__np"/></e>
+    <e lm="Mississippi"><i>Mississippi</i><par n="Madagascar__np"/></e>
+    <e lm="Missouri"><i>Missouri</i><par n="Madagascar__np"/></e>
     <e lm="Mitchell"><i>Mitchell</i><par n="Abraham__np"/></e>
     <e lm="Mitrofán"><i>Mitrofán</i><par n="Abraham__np"/></e>
     <e lm="Mitsubishi"><i>Mitsubishi</i><par n="Carrefour__np"/></e>
@@ -25596,7 +25706,7 @@
     <e lm="Moises"><i>Moises</i><par n="Abraham__np"/></e>
     <e lm="Moisés"><i>Moisés</i><par n="Abraham__np"/></e>
     <e lm="Mojave"><i>Mojave</i><par n="Andorre__np"/></e>
-    <e lm="Moldavie"><i>Moldavie</i><par n="Andorre__np"/></e>
+    <e lm="Moldavie"><i>Moldavie</i><par n="Bulgarie__np"/></e>
     <e lm="Moletta"><i>Moletta</i><par n="Abraham__np"/></e>
     <e lm="Molina"><i>Molina</i><par n="Andorre__np"/></e>
     <e lm="Moliner"><i>Moliner</i><par n="Carrefour__np"/></e>
@@ -25606,6 +25716,7 @@
     <e lm="Moll"><i>Moll</i><par n="Carrefour__np"/></e>
     <e lm="Molotov"><i>Molotov</i><par n="Abraham__np"/></e>
     <e lm="Moluques"><i>Moluques</i><par n="Andorre__np"/></e>
+    <e lm="Monaco"><i>Monaco</i><par n="Iran__np"/></e>
     <e lm="Moncada"><i>Moncada</i><par n="Andorre__np"/></e>
     <e lm="Moncase"><i>Moncase</i><par n="Carrefour__np"/></e>
     <e lm="Moncloa"><i>Moncloa</i><par n="Andorre__np"/></e>
@@ -25613,7 +25724,7 @@
     <e lm="Mondragón"><i>Mondragón</i><par n="Abraham__np"/></e>
     <e lm="Monet"><i>Monet</i><par n="Abraham__np"/></e>
     <e lm="Monge"><i>Monge</i><par n="Carrefour__np"/></e>
-    <e lm="Mongolie"><i>Mongolie</i><par n="Andorre__np"/></e>
+    <e lm="Mongolie"><i>Mongolie</i><par n="Bulgarie__np"/></e>
     <e lm="Mónica"><i>Mónica</i><par n="Abraham__np"/></e>
     <e lm="Monique"><i>Monique</i><par n="Abraham__np"/></e>
     <e lm="Monnerais"><i>Monnerais</i><par n="Abraham__np"/></e>
@@ -25622,6 +25733,7 @@
     <e lm="Montagnes Rocheuses"><i>Montagnes<b/>Rocheuses</i><par n="Andorre__np"/></e>
     <e lm="Montaigne"><i>Montaigne</i><par n="Abraham__np"/></e>
     <e lm="Montalbán"><i>Montalbán</i><par n="Andorre__np"/></e>
+    <e lm="Montana"><i>Montana</i><par n="Madagascar__np"/></e>
     <e lm="Montañana"><i>Montañana</i><par n="Andorre__np"/></e>
     <e lm="Mont Athos"><i>Mont<b/>Athos</i><par n="Andorre__np"/></e>
     <e lm="Montauban"><i>Montauban</i><par n="Andorre__np"/></e>
@@ -25631,7 +25743,7 @@
     <e lm="mont des Oliviers"><i>mont<b/>des<b/>Oliviers</i><par n="Andorre__np"/></e>
     <e lm="Montebourg"><i>Montebourg</i><par n="Abraham__np"/></e>
     <e lm="Monte-Carlo"><i>Monte-Carlo</i><par n="Andorre__np"/></e>
-    <e lm="Monténégro"><i>Monténégro</i><par n="Andorre__np"/></e>
+    <e lm="Monténégro"><i>Monténégro</i><par n="Iran__np"/></e>
     <e lm="Montero"><i>Montero</i><par n="Carrefour__np"/></e>
     <e lm="Montes"><i>Montes</i><par n="Carrefour__np"/></e>
     <e lm="Montesinos"><i>Montesinos</i><par n="Andorre__np"/></e>
@@ -25694,7 +25806,7 @@
     <e lm="Moyá"><i>Moyá</i><par n="Abraham__np"/></e>
     <e lm="Moyano"><i>Moyano</i><par n="Abraham__np"/></e>
     <e lm="Moyen-Orient"><i>Moyen-Orient</i><par n="Andorre__np"/></e>
-    <e lm="Mozambique"><i>Mozambique</i><par n="Andorre__np"/></e>
+    <e lm="Mozambique"><i>Mozambique</i><par n="Iran__np"/></e>
     <e lm="Mozart"><i>Mozart</i><par n="Abraham__np"/></e>
     <e lm="MP3"><i>MP3</i><par n="Carrefour__np"/></e>
     <e lm="MP4"><i>MP4</i><par n="Carrefour__np"/></e>
@@ -25757,7 +25869,7 @@
     <e lm="Nahavand"><i>Nahavand</i><par n="Andorre__np"/></e>
     <e lm="Nairobi"><i>Nairobi</i><par n="Andorre__np"/></e>
     <e lm="Nambaryn Enkhbayar"><i>Nambaryn<b/>Enkhbayar</i><par n="Abraham__np"/></e>
-    <e lm="Namibie"><i>Namibie</i><par n="Andorre__np"/></e>
+    <e lm="Namibie"><i>Namibie</i><par n="Bulgarie__np"/></e>
     <e lm="Nanclares"><i>Nanclares</i><par n="Andorre__np"/></e>
     <e lm="Nancy"><i>Nancy</i><par n="Abraham__np"/></e>
     <e lm="Nancy"><i>Nancy</i><par n="Andorre__np"/></e>
@@ -25783,7 +25895,7 @@
     <e lm="Natra"><i>Natra</i><par n="Carrefour__np"/></e>
     <e lm="Naturalia"><i>Naturalia</i><par n="Carrefour__np"/></e>
     <e lm="Nature"><i>Nature</i><par n="Carrefour__np"/></e>
-    <e lm="Nauru"><i>Nauru</i><par n="Andorre__np"/></e>
+    <e lm="Nauru"><i>Nauru</i><par n="Bulgarie__np"/></e>
     <e lm="Nautilus"><i>Nautilus</i><par n="Carrefour__np"/></e>
     <e lm="Navalón"><i>Navalón</i><par n="Andorre__np"/></e>
     <e lm="Navarro"><i>Navarro</i><par n="Abraham__np"/></e>
@@ -25793,6 +25905,7 @@
     <e lm="N'Djamena"><i>N'Djamena</i><par n="Abraham__np"/></e>
     <e lm="Ndjamena"><i>Ndjamena</i><par n="Andorre__np"/></e>
     <e lm="Nebot"><i>Nebot</i><par n="Abraham__np"/></e>
+    <e lm="Nebraska"><i>Nebraska</i><par n="Madagascar__np"/></e>
     <e lm="Nece"><i>Nece</i><par n="Carrefour__np"/></e>
     <e lm="Néfertari"><i>Néfertari</i><par n="Abraham__np"/></e>
     <e lm="Néfertiti"><i>Néfertiti</i><par n="Abraham__np"/></e>
@@ -25806,7 +25919,8 @@
     <e lm="Nelson"><i>Nelson</i><par n="Abraham__np"/></e>
     <e lm="Nelson O. Oduber"><i>Nelson<b/>O.<b/>Oduber</i><par n="Abraham__np"/></e>
     <e lm="Nené"><i>Nené</i><par n="Abraham__np"/></e>
-    <e lm="Nepal"><i>Nepal</i><par n="Andorre__np"/></e>
+    <e lm="Népal"><i>Népal</i><par n="Iran__np"/></e>
+    <e lm="Népal" r="LR"><p><l>Nepal</l><r>Népal</r></p><par n="Iran__np"/></e>
     <e lm="Neptune"><i>Neptune</i><par n="Andorre__np"/></e>
     <e lm="Nerea"><i>Nerea</i><par n="Abraham__np"/></e>
     <e lm="Nervión"><i>Nervión</i><par n="Andorre__np"/></e>
@@ -25815,19 +25929,22 @@
     <e lm="Netanyahou"><i>Netanyahou</i><par n="Abraham__np"/></e>
     <e lm="Netscape"><i>Netscape</i><par n="Carrefour__np"/></e>
     <e lm="Neuilly"><i>Neuilly</i><par n="Andorre__np"/></e>
+    <e lm="Nevada"><i>Nevada</i><par n="Madagascar__np"/></e>
     <e lm="Nevers"><i>Nevers</i><par n="Andorre__np"/></e>
     <e lm="Newark"><i>Newark</i><par n="Carrefour__np"/></e>
     <e lm="New Delhi"><i>New<b/>Delhi</i><par n="Andorre__np"/></e>
-    <e lm="New Jersey"><i>New<b/>Jersey</i><par n="Andorre__np"/></e>
+    <e lm="New Hampshire"><i>New<b/>Hampshire</i><par n="Madagascar__np"/></e>
+    <e lm="New Jersey"><i>New<b/>Jersey</i><par n="Madagascar__np"/></e>
     <e lm="Newsletter"><i>Newsletter</i><par n="Carrefour__np"/></e>
     <e lm="New Yorker"><i>New<b/>Yorker</i><par n="Carrefour__np"/></e>
+    <e lm="New York"><i>New<b/>York</i><par n="Madagascar__np"/></e>
     <e lm="Nexity"><i>Nexity</i><par n="Carrefour__np"/></e>
     <e lm="NH"><i>NH</i><par n="Carrefour__np"/></e>
     <e lm="Niagara"><i>Niagara</i><par n="Andorre__np"/></e>
     <e lm="Niamey"><i>Niamey</i><par n="Andorre__np"/></e>
     <e lm="Nicanor Duarte Frutos"><i>Nicanor<b/>Duarte<b/>Frutos</i><par n="Abraham__np"/></e>
     <e lm="Nicanor"><i>Nicanor</i><par n="Abraham__np"/></e>
-    <e lm="Nicaragua"><i>Nicaragua</i><par n="Andorre__np"/></e>
+    <e lm="Nicaragua"><i>Nicaragua</i><par n="Iran__np"/></e>
     <e lm="Nicée"><i>Nicée</i><par n="Andorre__np"/></e>
     <e lm="Nicholas Liverpool"><i>Nicholas<b/>Liverpool</i><par n="Abraham__np"/></e>
     <e lm="Nicholson"><i>Nicholson</i><par n="Abraham__np"/></e>
@@ -25840,8 +25957,9 @@
     <e lm="Nicosie"><i>Nicosie</i><par n="Andorre__np"/></e>
     <e lm="Niermann"><i>Niermann</i><par n="Abraham__np"/></e>
     <e lm="Nièvre"><i>Nièvre</i><par n="Andorre__np"/></e>
-    <e lm="Nigeria"><i>Nigeria</i><par n="Andorre__np"/></e>
-    <e lm="Niger"><i>Niger</i><par n="Andorre__np"/></e>
+    <e lm="Nigéria"><i>Nigéria</i><par n="Iran__np"/></e>
+    <e lm="Nigéria" r="LR"><p><l>Nigeria</l><r>Nigéria</r></p><par n="Iran__np"/></e>
+    <e lm="Niger"><i>Niger</i><par n="Iran__np"/></e>
     <e lm="Nihat"><i>Nihat</i><par n="Abraham__np"/></e>
     <e lm="Nihous"><i>Nihous</i><par n="Abraham__np"/></e>
     <e lm="Nijni-Novgorod"><i>Nijni-Novgorod</i><par n="Andorre__np"/></e>
@@ -25853,6 +25971,7 @@
     <e lm="Nina"><i>Nina</i><par n="Abraham__np"/></e>
     <e lm="Nintendo"><i>Nintendo</i><par n="Carrefour__np"/></e>
     <e lm="Niort"><i>Niort</i><par n="Andorre__np"/></e>
+    <e lm="Nioué"><i>Nioué</i><par n="Madagascar__np"/></e>
     <e lm="Nissan"><i>Nissan</i><par n="Carrefour__np"/></e>
     <e lm="Niué"><i>Niué</i><par n="Andorre__np"/></e>
     <e lm="Nocedal"><i>Nocedal</i><par n="Abraham__np"/></e>
@@ -25876,16 +25995,18 @@
     <e lm="Normandie"><i>Normandie</i><par n="Carrefour__np"/></e>
     <e lm="Norsk"><i>Norsk</i><par n="Carrefour__np"/></e>
     <e lm="Northumbrie"><i>Northumbrie</i><par n="Andorre__np"/></e>
+    <e lm="Norvège"><i>Norvège</i><par n="Bulgarie__np"/></e>
     <e lm="Nostra"><i>Nostra</i><par n="Carrefour__np"/></e>
     <e lm="Notre-Dame"><i>Notre-Dame</i><par n="Andorre__np"/></e>
     <e lm="Nouakchott"><i>Nouakchott</i><par n="Andorre__np"/></e>
     <e lm="Nouri al-Maliki"><i>Nouri<b/>al-Maliki</i><par n="Abraham__np"/></e>
-    <e lm="Nouveau-Brunswick"><i>Nouveau-Brunswick</i><par n="Andorre__np"/></e>
-    <e lm="Nouveau-Mexique"><i>Nouveau-Mexique</i><par n="Andorre__np"/></e>
+    <e lm="Nouveau-Brunswick"><i>Nouveau-Brunswick</i><par n="Madagascar__np"/></e>
+    <e lm="Nouveau-Mexique"><i>Nouveau-Mexique</i><par n="Madagascar__np"/></e>
     <e lm="Nouvel"><i>Nouvel</i><par n="Carrefour__np"/></e>
     <e lm="Nouvelle-Angleterre"><i>Nouvelle-Angleterre</i><par n="Andorre__np"/></e>
     <e lm="Nouvelle-Bretagne"><i>Nouvelle-Bretagne</i><par n="Andorre__np"/></e>
     <e lm="Nouvelle-Castille"><i>Nouvelle-Castille</i><par n="Andorre__np"/></e>
+    <e lm="Nouvelle-Écosse"><i>Nouvelle-Écosse</i><par n="Californie__np"/></e>
     <e lm="Nouvelle-Espagne"><i>Nouvelle-Espagne</i><par n="Andorre__np"/></e>
     <e lm="Nouvelle France"><i>Nouvelle<b/>France</i><par n="Andorre__np"/></e>
     <e lm="Nouvelle Galles du Sud"><i>Nouvelle<b/>Galles<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
@@ -25895,7 +26016,7 @@
     <e lm="Nouvelle-Irlande"><i>Nouvelle-Irlande</i><par n="Andorre__np"/></e>
     <e lm="Nouvelles-Hébrides"><i>Nouvelles-Hébrides</i><par n="Andorre__np"/></e>
     <e lm="Nouvelle-Sibérie"><i>Nouvelle-Sibérie</i><par n="Andorre__np"/></e>
-    <e lm="Nouvelle-Zélande"><i>Nouvelle-Zélande</i><par n="Andorre__np"/></e>
+    <e lm="Nouvelle-Zélande"><i>Nouvelle-Zélande</i><par n="Bulgarie__np"/></e>
     <e lm="Nouvelle-Zemble"><i>Nouvelle-Zemble</i><par n="Andorre__np"/></e>
     <e lm="Nouvel Observateur"><i>Nouvel<b/>Observateur</i><par n="Carrefour__np"/></e>
     <e lm="Nouvelobs"><i>Nouvelobs</i><par n="Carrefour__np"/></e>
@@ -25908,6 +26029,7 @@
     <e lm="Numancia"><i>Numancia</i><par n="Andorre__np"/></e>
     <e lm="Numea"><i>Numea</i><par n="Andorre__np"/></e>
     <e lm="Numidie"><i>Numidie</i><par n="Andorre__np"/></e>
+    <e lm="Nunavut"><i>Nunavut</i><par n="Madagascar__np"/></e>
     <e lm="Núñez"><i>Núñez</i><par n="Abraham__np"/></e>
     <e lm="Nuria"><i>Nuria</i><par n="Abraham__np"/></e>
     <e lm="Núria"><i>Núria</i><par n="Abraham__np"/></e>
@@ -25939,6 +26061,7 @@
     <e lm="Ofis ar Brezhoneg"><i>Ofis<b/>ar<b/>Brezhoneg</i><par n="Carrefour__np"/></e>
     <e lm="O Grove"><i>O<b/>Grove</i><par n="Andorre__np"/></e>
     <e lm="Ogrove"><i>Ogrove</i><par n="Andorre__np"/></e>
+    <e lm="Ohio"><i>Ohio</i><par n="Madagascar__np"/></e>
     <e lm="Oiartzabal"><i>Oiartzabal</i><par n="Abraham__np"/></e>
     <e lm="Oiartzun"><i>Oiartzun</i><par n="Andorre__np"/></e>
     <e lm="Oier"><i>Oier</i><par n="Abraham__np"/></e>
@@ -25946,6 +26069,7 @@
     <e lm="Oinatz"><i>Oinatz</i><par n="Abraham__np"/></e>
     <e lm="Oise"><i>Oise</i><par n="Andorre__np"/></e>
     <e lm="Okhotsk"><i>Okhotsk</i><par n="Andorre__np"/></e>
+    <e lm="Oklahoma"><i>Oklahoma</i><par n="Madagascar__np"/></e>
     <e lm="Olaberria"><i>Olaberria</i><par n="Abraham__np"/></e>
     <e lm="Ólafur Ragnar Grímsson"><i>Ólafur<b/>Ragnar<b/>Grímsson</i><par n="Abraham__np"/></e>
     <e lm="Olaizola"><i>Olaizola</i><par n="Abraham__np"/></e>
@@ -25968,7 +26092,7 @@
     <e lm="Olmos"><i>Olmos</i><par n="Carrefour__np"/></e>
     <e lm="Olusegun Obasanjo"><i>Olusegun<b/>Obasanjo</i><par n="Abraham__np"/></e>
     <e lm="Olympie"><i>Olympie</i><par n="Andorre__np"/></e>
-    <e lm="Oman"><i>Oman</i><par n="Andorre__np"/></e>
+    <e lm="Oman"><i>Oman</i><par n="Iran__np"/></e>
     <e lm="Omar Al-Bachir"><i>Omar<b/>Al-Bachir</i><par n="Abraham__np"/></e>
     <e lm="Ombrie"><i>Ombrie</i><par n="Andorre__np"/></e>
     <e lm="Onassis"><i>Onassis</i><par n="Andorre__np"/></e>
@@ -25977,6 +26101,7 @@
     <e lm="Ondarroa"><i>Ondarroa</i><par n="Andorre__np"/></e>
     <e lm="Ongarato"><i>Ongarato</i><par n="Abraham__np"/></e>
     <e lm="ONG"><i>ONG</i><par n="Carrefour__np"/></e>
+    <e lm="Ontario"><i>Ontario</i><par n="Madagascar__np"/></e>
     <e lm="Onu"><i>Onu</i><par n="Carrefour__np"/></e>
     <e lm="Opel"><i>Opel</i><par n="Carrefour__np"/></e>
     <e lm="Open Office"><i>Open<b/>Office</i><par n="Carrefour__np"/></e>
@@ -25990,6 +26115,7 @@
     <e lm="Orcades"><i>Orcades</i><par n="Andorre__np"/></e>
     <e lm="Ordizia"><i>Ordizia</i><par n="Andorre__np"/></e>
     <e lm="Ordóñez"><i>Ordóñez</i><par n="Abraham__np"/></e>
+    <e lm="Oregon"><i>Oregon</i><par n="Madagascar__np"/></e>
     <e lm="Oreka"><i>Oreka</i><par n="Carrefour__np"/></e>
     <e lm="Orense"><i>Orense</i><par n="Andorre__np"/></e>
     <e lm="Organisation des Nations unies"><i>Organisation<b/>des<b/>Nations<b/>unies</i><par n="Carrefour__np"/></e>
@@ -26040,6 +26166,7 @@
     <e lm="Otxoa"><i>Otxoa</i><par n="Abraham__np"/></e>
     <e lm="Ouagadougou"><i>Ouagadougou</i><par n="Andorre__np"/></e>
     <e lm="Oudmourtia"><i>Oudmourtia</i><par n="Andorre__np"/></e>
+    <e lm="Ouganda"><i>Ouganda</i><par n="Iran__np"/></e>
     <e lm="Oulan-Bator"><i>Oulan-Bator</i><par n="Andorre__np"/></e>
     <e lm="Oural"><i>Oural</i><par n="Andorre__np"/></e>
     <e lm="Ourense"><i>Ourense</i><par n="Andorre__np"/></e>
@@ -26050,7 +26177,7 @@
     <e lm="Oustacha"><i>Oustacha</i><par n="Carrefour__np"/></e>
     <e lm="Outeda"><i>Outeda</i><par n="Abraham__np"/></e>
     <e lm="Outón"><i>Outón</i><par n="Carrefour__np"/></e>
-    <e lm="Ouzbékistan"><i>Ouzbékistan</i><par n="Andorre__np"/></e>
+    <e lm="Ouzbékistan"><i>Ouzbékistan</i><par n="Iran__np"/></e>
     <e lm="Owen Arthur"><i>Owen<b/>Arthur</i><par n="Abraham__np"/></e>
     <e lm="Oxfam"><i>Oxfam</i><par n="Carrefour__np"/></e>
     <e lm="Oyarbide"><i>Oyarbide</i><par n="Abraham__np"/></e>
@@ -26064,7 +26191,7 @@
     <e lm="PagoAmigo"><i>PagoAmigo</i><par n="Carrefour__np"/></e>
     <e lm="Paisley"><i>Paisley</i><par n="Abraham__np"/></e>
     <e lm="Pakea"><i>Pakea</i><par n="Carrefour__np"/></e>
-    <e lm="Pakistan"><i>Pakistan</i><par n="Andorre__np"/></e>
+    <e lm="Pakistan"><i>Pakistan</i><par n="Iran__np"/></e>
     <e lm="palais de la Moncloa"><i>palais<b/>de<b/>la<b/>Moncloa</i><par n="Andorre__np"/></e>
     <e lm="palais des Tuileries"><i>palais<b/>des<b/>Tuileries</i><par n="Carrefour__np"/></e>
     <e lm="Palais Euskalduna"><i>Palais<b/>Euskalduna</i><par n="Carrefour__np"/></e>
@@ -26083,7 +26210,8 @@
     <e lm="Palomares"><i>Palomares</i><par n="Andorre__np"/></e>
     <e lm="Palop"><i>Palop</i><par n="Carrefour__np"/></e>
     <e lm="Pamesa"><i>Pamesa</i><par n="Carrefour__np"/></e>
-    <e lm="Panamá"><i>Panamá</i><par n="Andorre__np"/></e>
+    <e lm="Panamá"><i>Panamá</i><par n="Iran__np"/></e>
+    <e lm="Panamá" r="LR"><p><l>Panama</l><r>Panamá</r></p><par n="Iran__np"/></e>
     <e lm="Panathinaïkós"><i>Panathinaïkós</i><par n="Carrefour__np"/></e>
     <e lm="Pandiani"><i>Pandiani</i><par n="Abraham__np"/></e>
     <e lm="Pangma"><i>Pangma</i><par n="Andorre__np"/></e>
@@ -26098,9 +26226,9 @@
     <e lm="Papendal"><i>Papendal</i><par n="Carrefour__np"/></e>
     <e lm="Papito"><i>Papito</i><par n="Carrefour__np"/></e>
     <e lm="Papon"><i>Papon</i><par n="Abraham__np"/></e>
-    <e lm="Papouasie-Nouvelle-Guinée"><i>Papouasie-Nouvelle-Guinée</i><par n="Andorre__np"/></e>
+    <e lm="Papouasie-Nouvelle-Guinée"><i>Papouasie-Nouvelle-Guinée</i><par n="Bulgarie__np"/></e>
     <e lm="Pâques"><i>Pâques</i><par n="Carrefour__np"/></e>
-    <e lm="Paraguay"><i>Paraguay</i><par n="Andorre__np"/></e>
+    <e lm="Paraguay"><i>Paraguay</i><par n="Iran__np"/></e>
     <e lm="Paramaribo"><i>Paramaribo</i><par n="Andorre__np"/></e>
     <e lm="Paramount"><i>Paramount</i><par n="Carrefour__np"/></e>
     <e lm="Parana"><i>Parana</i><par n="Andorre__np"/></e>
@@ -26147,10 +26275,11 @@
     <e lm="Paulo"><i>Paulo</i><par n="Abraham__np"/></e>
     <e lm="Pavie"><i>Pavie</i><par n="Andorre__np"/></e>
     <e lm="Pavlov"><i>Pavlov</i><par n="Abraham__np"/></e>
-    <e lm="Pays-Bas"><i>Pays-Bas</i><par n="Andorre__np"/></e>
+    <e lm="Pays-Bas"><i>Pays-Bas</i><par n="Bahamas__np"/></e>
     <e lm="Pays-Basque du nord"><i>Pays-Basque<b/>du<b/>nord</i><par n="Andorre__np"/></e>
     <e lm="Pays Basque français"><i>Pays<b/>Basque<b/>français</i><par n="Andorre__np"/></e>
     <e lm="Pays Basque"><i>Pays<b/>Basque</i><par n="Andorre__np"/></e>
+    <e lm="pays de Galles"><i>pays<b/>de<b/>Galles</i><par n="Iran__np"/></e>
     <e lm="Pays-de-la-Loire"><i>Pays-de-la-Loire</i><par n="Andorre__np"/></e>
     <e lm="Pays de Loire"><i>Pays<b/>de<b/>Loire</i><par n="Andorre__np"/></e>
     <e lm="PDA"><i>PDA</i><par n="Carrefour__np"/></e>
@@ -26187,7 +26316,7 @@
     <e lm="Péninsule ibérique"><i>Péninsule<b/>ibérique</i><par n="Andorre__np"/></e>
     <e lm="Pennines"><i>Pennines</i><par n="Andorre__np"/></e>
     <e lm="Penn"><i>Penn</i><par n="Abraham__np"/></e>
-    <e lm="Pennsylvanie"><i>Pennsylvanie</i><par n="Andorre__np"/></e>
+    <e lm="Pennsylvanie"><i>Pennsylvanie</i><par n="Californie__np"/></e>
     <e lm="Pentagone"><i>Pentagone</i><par n="Carrefour__np"/></e>
     <e lm="People"><i>People</i><par n="Carrefour__np"/></e>
     <e lm="Pepe"><i>Pepe</i><par n="Abraham__np"/></e>
@@ -26212,6 +26341,7 @@
     <e lm="Pernambouc"><i>Pernambouc</i><par n="Andorre__np"/></e>
     <e lm="Pernando"><i>Pernando</i><par n="Abraham__np"/></e>
     <e lm="Perón"><i>Perón</i><par n="Abraham__np"/></e>
+    <e lm="Pérou"><i>Pérou</i><par n="Iran__np"/></e>
     <e lm="Perouse"><i>Perouse</i><par n="Andorre__np"/></e>
     <e lm="Perpetuum"><i>Perpetuum</i><par n="Carrefour__np"/></e>
     <e lm="Perrault"><i>Perrault</i><par n="Abraham__np"/></e>
@@ -26253,6 +26383,7 @@
     <e lm="Philippes"><i>Philippes</i><par n="Andorre__np"/></e>
     <e lm="Philippe VI de Valois"><i>Philippe<b/>VI<b/>de<b/>Valois</i><par n="Abraham__np"/></e>
     <e lm="Philippe V le Long"><i>Philippe<b/>V<b/>le<b/>Long</i><par n="Abraham__np"/></e>
+    <e lm="Philippines"><i>Philippines</i><par n="Bahamas__np"/></e>
     <e lm="Philips"><i>Philips</i><par n="Carrefour__np"/></e>
     <e lm="Philomène"><i>Philomène</i><par n="Abraham__np"/></e>
     <e lm="Phnom Penh"><i>Phnom<b/>Penh</i><par n="Andorre__np"/></e>
@@ -26321,7 +26452,8 @@
     <e lm="Politique Agricole Commune"><i>Politique<b/>Agricole<b/>Commune</i><par n="Carrefour__np"/></e>
     <e lm="Politkovskaïa"><i>Politkovskaïa</i><par n="Abraham__np"/></e>
     <e lm="Pollux"><i>Pollux</i><par n="Abraham__np"/></e>
-    <e lm="Polynésie française"><i>Polynésie<b/>française</i><par n="Andorre__np"/></e>
+    <e lm="Pologne"><i>Pologne</i><par n="Bulgarie__np"/></e>
+    <e lm="Polynésie française"><i>Polynésie<b/>française</i><par n="Bulgarie__np"/></e>
     <e lm="Polynésie"><i>Polynésie</i><par n="Andorre__np"/></e>
     <e lm="Pomares"><i>Pomares</i><par n="Abraham__np"/></e>
     <e lm="Pombo"><i>Pombo</i><par n="Abraham__np"/></e>
@@ -26357,6 +26489,7 @@
     <e lm="Port Stanley"><i>Port<b/>Stanley</i><par n="Andorre__np"/></e>
     <e lm="Portuetxe"><i>Portuetxe</i><par n="Andorre__np"/></e>
     <e lm="Portugalete"><i>Portugalete</i><par n="Andorre__np"/></e>
+    <e lm="Portugal"><i>Portugal</i><par n="Iran__np"/></e>
     <e lm="Port-Vila"><i>Port-Vila</i><par n="Andorre__np"/></e>
     <e lm="Postigo"><i>Postigo</i><par n="Abraham__np"/></e>
     <e lm="Postiguet"><i>Postiguet</i><par n="Andorre__np"/></e>
@@ -26428,9 +26561,10 @@
     <e lm="Pyrénées Atlantiques"><i>Pyrénées<b/>Atlantiques</i><par n="Andorre__np"/></e>
     <e lm="Pyrénées-Orientales"><i>Pyrénées-Orientales</i><par n="Andorre__np"/></e>
     <e lm="Pythagore"><i>Pythagore</i><par n="Abraham__np"/></e>
-    <e lm="Qatar"><i>Qatar</i><par n="Andorre__np"/></e>
+    <e lm="Qatar"><i>Qatar</i><par n="Iran__np"/></e>
     <e lm="Qualification Philae"><i>Qualification<b/>Philae</i><par n="Carrefour__np"/></e>
     <e lm="Quart"><i>Quart</i><par n="Andorre__np"/></e>
+    <e lm="Québec"><i>Québec</i><par n="Madagascar__np"/></e>
     <e lm="Querol"><i>Querol</i><par n="Andorre__np"/></e>
     <e lm="Quesada"><i>Quesada</i><par n="Carrefour__np"/></e>
     <e lm="Quevedo"><i>Quevedo</i><par n="Abraham__np"/></e>
@@ -26545,17 +26679,17 @@
     <e lm="REpower"><i>REpower</i><par n="Carrefour__np"/></e>
     <e lm="Repsol"><i>Repsol</i><par n="Carrefour__np"/></e>
     <e lm="République Arabe Unie"><i>République<b/>Arabe<b/>Unie</i><par n="Andorre__np"/></e>
-    <e lm="Republique Centrafricaine"><i>Republique<b/>Centrafricaine</i><par n="Andorre__np"/></e>
+    <e lm="République centrafricaine"><i>République<b/>centrafricaine</i><par n="Bulgarie__np"/></e>
     <e lm="République Démocratique Allemande"><i>République<b/>Démocratique<b/>Allemande</i><par n="Andorre__np"/></e>
     <e lm="République Démocratique du Congo"><i>République<b/>Démocratique<b/>du<b/>Congo</i><par n="Andorre__np"/></e>
     <e lm="Republique de Salo"><i>Republique<b/>de<b/>Salo</i><par n="Andorre__np"/></e>
-    <e lm="République Dominicaine"><i>République<b/>Dominicaine</i><par n="Andorre__np"/></e>
+    <e lm="République dominicaine"><i>République<b/>dominicaine</i><par n="Bulgarie__np"/></e>
     <e lm="République du Congo"><i>République<b/>du<b/>Congo</i><par n="Andorre__np"/></e>
     <e lm="République Française"><i>République<b/>Française</i><par n="Andorre__np"/></e>
     <e lm="République moldave de Transnistrie"><i>République<b/>moldave<b/>de<b/>Transnistrie</i><par n="Andorre__np"/></e>
     <e lm="République sociale italienne"><i>République<b/>sociale<b/>italienne</i><par n="Andorre__np"/></e>
     <e lm="République sudafricaine"><i>République<b/>sudafricaine</i><par n="Andorre__np"/></e>
-    <e lm="République tchèque"><i>République<b/>tchèque</i><par n="Andorre__np"/></e>
+    <e lm="République tchèque"><i>République<b/>tchèque</i><par n="Bulgarie__np"/></e>
     <e lm="République turque de Chypre du nord"><i>République<b/>turque<b/>de<b/>Chypre<b/>du<b/>nord</i><par n="Andorre__np"/></e>
     <e lm="Requena"><i>Requena</i><par n="Andorre__np"/></e>
     <e lm="réservoir d'Alloz"><i>réservoir<b/>d'Alloz</i><par n="Andorre__np"/></e>
@@ -26579,6 +26713,7 @@
     <e lm="Rhénanie Nord-Westphalie"><i>Rhénanie<b/>Nord-Westphalie</i><par n="Andorre__np"/></e>
     <e lm="Rhétie"><i>Rhétie</i><par n="Andorre__np"/></e>
     <e lm="Rhin"><i>Rhin</i><par n="Andorre__np"/></e>
+    <e lm="Rhode Island"><i>Rhode<b/>Island</i><par n="Madagascar__np"/></e>
     <e lm="Rhodes"><i>Rhodes</i><par n="Andorre__np"/></e>
     <e lm="Rianxeira"><i>Rianxeira</i><par n="Carrefour__np"/></e>
     <e lm="Ribavellosa"><i>Ribavellosa</i><par n="Andorre__np"/></e>
@@ -26684,6 +26819,7 @@
     <e lm="Roubaix"><i>Roubaix</i><par n="Andorre__np"/></e>
     <e lm="Roub al Khali"><i>Roub<b/>al<b/>Khali</i><par n="Andorre__np"/></e>
     <e lm="Rouillan"><i>Rouillan</i><par n="Abraham__np"/></e>
+    <e lm="Roumanie"><i>Roumanie</i><par n="Bulgarie__np"/></e>
     <e lm="Rousillon"><i>Rousillon</i><par n="Andorre__np"/></e>
     <e lm="Rousset"><i>Rousset</i><par n="Abraham__np"/></e>
     <e lm="route de la soie"><i>route<b/>de<b/>la<b/>soie</i><par n="Carrefour__np"/></e>
@@ -26695,7 +26831,7 @@
     <e lm="royaume des Deux-Roses"><i>royaume<b/>des<b/>Deux-Roses</i><par n="Carrefour__np"/></e>
     <e lm="Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"><i>Royaume-Uni<b/>de<b/>Grande-Bretagne<b/>et<b/>d'Irlande<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
     <e lm="Royaume-Uni de Grande-Bretagne et d'Irlande"><i>Royaume-Uni<b/>de<b/>Grande-Bretagne<b/>et<b/>d'Irlande</i><par n="Andorre__np"/></e>
-    <e lm="Royaume-Uni"><i>Royaume-Uni</i><par n="Andorre__np"/></e>
+    <e lm="Royaume-Uni"><i>Royaume-Uni</i><par n="Iran__np"/></e>
     <e lm="Roy"><i>Roy</i><par n="Abraham__np"/></e>
     <e lm="Royo"><i>Royo</i><par n="Carrefour__np"/></e>
     <e lm="RSA"><i>RSA</i><par n="Carrefour__np"/></e>
@@ -26716,10 +26852,11 @@
     <e lm="Ruslan"><i>Ruslan</i><par n="Abraham__np"/></e>
     <e lm="Russel"><i>Russel</i><par n="Abraham__np"/></e>
     <e lm="Russell"><i>Russell</i><par n="Abraham__np"/></e>
+    <e lm="Russie"><i>Russie</i><par n="Bulgarie__np"/></e>
     <e lm="Russo"><i>Russo</i><par n="Abraham__np"/></e>
     <e lm="Ruth"><i>Ruth</i><par n="Abraham__np"/></e>
     <e lm="Ruymbeke"><i>Ruymbeke</i><par n="Abraham__np"/></e>
-    <e lm="Rwanda"><i>Rwanda</i><par n="Andorre__np"/></e>
+    <e lm="Rwanda"><i>Rwanda</i><par n="Iran__np"/></e>
     <e lm="Rwen Ogien"><i>Rwen<b/>Ogien</i><par n="Abraham__np"/></e>
     <e lm="Ryanair"><i>Ryanair</i><par n="Carrefour__np"/></e>
     <e lm="Ryan"><i>Ryan</i><par n="Abraham__np"/></e>
@@ -26758,11 +26895,11 @@
     <e lm="Saint-Antoine"><i>Saint-Antoine</i><par n="Abraham__np"/></e>
     <e lm="Saint-Barthélemy"><i>Saint-Barthélemy</i><par n="Andorre__np"/></e>
     <e lm="Saint-Brieuc"><i>Saint-Brieuc</i><par n="Andorre__np"/></e>
-    <e lm="Saint-Christophe-et-Niévès"><i>Saint-Christophe-et-Niévès</i><par n="Andorre__np"/></e>
+    <e lm="Saint-Christophe-et-Niévès"><i>Saint-Christophe-et-Niévès</i><par n="Madagascar__np"/></e>
     <e lm="Saint-Denis"><i>Saint-Denis</i><par n="Andorre__np"/></e>
     <e lm="Saint-Domingue"><i>Saint-Domingue</i><par n="Andorre__np"/></e>
     <e lm="Sainte-Hélène"><i>Sainte-Hélène</i><par n="Andorre__np"/></e>
-    <e lm="Sainte-Lucie"><i>Sainte-Lucie</i><par n="Andorre__np"/></e>
+    <e lm="Sainte-Lucie"><i>Sainte-Lucie</i><par n="Californie__np"/></e>
     <e lm="Saint Empire" r="LR"><i>Saint<b/>Empire</i><par n="Andorre__np"/></e>
     <e lm="Saint Empire romain germanique"><i>Saint<b/>Empire<b/>romain<b/>germanique</i><par n="Andorre__np"/></e>
     <e lm="sainte Thérèse d'Avila"><i>sainte<b/>Thérèse<b/>d'Avila</i><par n="Abraham__np"/></e>
@@ -26781,7 +26918,7 @@
     <e lm="Saint-Louis"><i>Saint-Louis</i><par n="Andorre__np"/></e>
     <e lm="Saint-Loup"><i>Saint-Loup</i><par n="Andorre__np"/></e>
     <e lm="Saint-Malo"><i>Saint-Malo</i><par n="Andorre__np"/></e>
-    <e lm="Saint-Marin"><i>Saint-Marin</i><par n="Andorre__np"/></e>
+    <e lm="Saint-Marin"><i>Saint-Marin</i><par n="Madagascar__np"/></e>
     <e lm="Saint-Martin"><i>Saint-Martin</i><par n="Andorre__np"/></e>
     <e lm="Saint-Michel"><i>Saint-Michel</i><par n="Andorre__np"/></e>
     <e lm="Saint-Pétersbourg"><i>Saint-Pétersbourg</i><par n="Andorre__np"/></e>
@@ -26789,7 +26926,8 @@
     <e lm="Saint-Pierre-Port"><i>Saint-Pierre-Port</i><par n="Andorre__np"/></e>
     <e lm="Saint Thomas d'Aquin"><i>Saint<b/>Thomas<b/>d'Aquin</i><par n="Abraham__np"/></e>
     <e lm="Saint-Tropez"><i>Saint-Tropez</i><par n="Andorre__np"/></e>
-    <e lm="Saint-Vincent-et-les Grenadines"><i>Saint-Vincent-et-les<b/>Grenadines</i><par n="Andorre__np"/></e>
+    <e lm="Saint-Vincent-et-les-Grenadines"><i>Saint-Vincent-et-les-Grenadines</i><par n="Madagascar__np"/></e>
+    <e lm="Saint-Vincent-et-les-Grenadines" r="LR"><p><l>Saint-Vincent-et-les<b/>Grenadines</l><r>Saint-Vincent-et-les-Grenadines</r></p><par n="Madagascar__np"/></e>
     <e lm="Sáinz"><i>Sáinz</i><par n="Abraham__np"/></e>
     <e lm="Sainz"><i>Sainz</i><par n="Carrefour__np"/></e>
     <e lm="Saipan"><i>Saipan</i><par n="Andorre__np"/></e>
@@ -26813,7 +26951,7 @@
     <e lm="Salto del Ángel"><i>Salto<b/>del<b/>Ángel</i><par n="Andorre__np"/></e>
     <e lm="Salustiano"><i>Salustiano</i><par n="Abraham__np"/></e>
     <e lm="Salvador"><i>Salvador</i><par n="Abraham__np"/></e>
-    <e lm="Salvador"><i>Salvador</i><par n="Andorre__np"/></e>
+    <e lm="Salvador"><i>Salvador</i><par n="Iran__np"/></e>
     <e lm="Salva"><i>Salva</i><par n="Abraham__np"/></e>
     <e lm="Salzbourg"><i>Salzbourg</i><par n="Andorre__np"/></e>
     <e lm="Samarkand"><i>Samarkand</i><par n="Andorre__np"/></e>
@@ -26821,7 +26959,8 @@
     <e lm="Sam Hinds"><i>Sam<b/>Hinds</i><par n="Abraham__np"/></e>
     <e lm="Sam"><i>Sam</i><par n="Abraham__np"/></e>
     <e lm="Samoa américaines"><i>Samoa<b/>américaines</i><par n="Andorre__np"/></e>
-    <e lm="Samoa"><i>Samoa</i><par n="Andorre__np"/></e>
+    <e lm="Samoa"><i>Samoa</i><par n="Iran__np"/></e>
+    <e lm="Samoa occidentales"><i>Samoa<b/>occidentales</i><par n="États-Unis__np"/></e>
     <e lm="Samothrace"><i>Samothrace</i><par n="Andorre__np"/></e>
     <e lm="Samper"><i>Samper</i><par n="Carrefour__np"/></e>
     <e lm="Sampras"><i>Sampras</i><par n="Abraham__np"/></e>
@@ -26868,6 +27007,7 @@
     <e lm="Sanzol"><i>Sanzol</i><par n="Abraham__np"/></e>
     <e lm="Saône"><i>Saône</i><par n="Andorre__np"/></e>
     <e lm="Sao Paulo"><i>Sao<b/>Paulo</i><par n="Andorre__np"/></e>
+    <e lm="Sao Tomé et Principe"><i>Sao<b/>Tomé<b/>et<b/>Principe</i><par n="Madagascar__np"/></e>
     <e lm="São Tomé-et-Principe"><i>São<b/>Tomé-et-Principe</i><par n="Andorre__np"/></e>
     <e lm="Sao Tomé"><i>Sao<b/>Tomé</i><par n="Andorre__np"/></e>
     <e lm="Sapho"><i>Sapho</i><par n="Abraham__np"/></e>
@@ -26887,6 +27027,7 @@
     <e lm="Sarthe"><i>Sarthe</i><par n="Andorre__np"/></e>
     <e lm="Sartre"><i>Sartre</i><par n="Abraham__np"/></e>
     <e lm="Sascha"><i>Sascha</i><par n="Abraham__np"/></e>
+    <e lm="Saskatchewan"><i>Saskatchewan</i><par n="Madagascar__np"/></e>
     <e lm="Satan"><i>Satan</i><par n="Abraham__np"/></e>
     <e lm="Saturne"><i>Saturne</i><par n="Carrefour__np"/></e>
     <e lm="Saunier"><i>Saunier</i><par n="Andorre__np"/></e>
@@ -26953,9 +27094,11 @@
     <e lm="Sellapan Rama Nathan"><i>Sellapan<b/>Rama<b/>Nathan</i><par n="Abraham__np"/></e>
     <e lm="Sellés"><i>Sellés</i><par n="Abraham__np"/></e>
     <e lm="Sendogi"><i>Sendogi</i><par n="Carrefour__np"/></e>
+    <e lm="Sénégal"><i>Sénégal</i><par n="Iran__np"/></e>
     <e lm="Sénégambie"><i>Sénégambie</i><par n="Andorre__np"/></e>
     <e lm="Sener"><i>Sener</i><par n="Carrefour__np"/></e>
     <e lm="Sentjens"><i>Sentjens</i><par n="Abraham__np"/></e>
+    <e lm="Serbie"><i>Serbie</i><par n="Bulgarie__np"/></e>
     <e lm="Serco"><i>Serco</i><par n="Carrefour__np"/></e>
     <e lm="Serge Gainsbourg"><i>Serge<b/>Gainsbourg</i><par n="Abraham__np"/></e>
     <e lm="Sergi"><i>Sergi</i><par n="Abraham__np"/></e>
@@ -26983,7 +27126,7 @@
     <e lm="Sestao"><i>Sestao</i><par n="Andorre__np"/></e>
     <e lm="Sestao River"><i>Sestao<b/>River</i><par n="Carrefour__np"/></e>
     <e lm="Severiano"><i>Severiano</i><par n="Abraham__np"/></e>
-    <e lm="Seychelles"><i>Seychelles</i><par n="Andorre__np"/></e>
+    <e lm="Seychelles"><i>Seychelles</i><par n="Bahamas__np"/></e>
     <e lm="Sgrena"><i>Sgrena</i><par n="Abraham__np"/></e>
     <e lm="Shakespeare"><i>Shakespeare</i><par n="Abraham__np"/></e>
     <e lm="Shanghai"><i>Shanghai</i><par n="Andorre__np"/></e>
@@ -27004,7 +27147,7 @@
     <e lm="Sicile"><i>Sicile</i><par n="Andorre__np"/></e>
     <e lm="siècle des Lumières"><i>siècle<b/>des<b/>Lumières</i><par n="Carrefour__np"/></e>
     <e lm="Siemens"><i>Siemens</i><par n="Carrefour__np"/></e>
-    <e lm="Sierra Leone"><i>Sierra<b/>Leone</i><par n="Andorre__np"/></e>
+    <e lm="Sierra Leone"><i>Sierra<b/>Leone</i><par n="Bulgarie__np"/></e>
     <e lm="Sierra Morena"><i>Sierra<b/>Morena</i><par n="Andorre__np"/></e>
     <e lm="Silésie"><i>Silésie</i><par n="Andorre__np"/></e>
     <e lm="Silva"><i>Silva</i><par n="Abraham__np"/></e>
@@ -27040,8 +27183,8 @@
     <e lm="Skype"><i>Skype</i><par n="Carrefour__np"/></e>
     <e lm="Slater"><i>Slater</i><par n="Abraham__np"/></e>
     <e lm="Slavonie"><i>Slavonie</i><par n="Andorre__np"/></e>
-    <e lm="Slovaquie"><i>Slovaquie</i><par n="Andorre__np"/></e>
-    <e lm="Slovénie"><i>Slovénie</i><par n="Andorre__np"/></e>
+    <e lm="Slovaquie"><i>Slovaquie</i><par n="Bulgarie__np"/></e>
+    <e lm="Slovénie"><i>Slovénie</i><par n="Bulgarie__np"/></e>
     <e lm="Smart"><i>Smart</i><par n="Carrefour__np"/></e>
     <e lm="Smithies"><i>Smithies</i><par n="Abraham__np"/></e>
     <e lm="Smith"><i>Smith</i><par n="Abraham__np"/></e>
@@ -27067,7 +27210,7 @@
     <e lm="Solidays"><i>Solidays</i><par n="Carrefour__np"/></e>
     <e lm="Solovki"><i>Solovki</i><par n="Abraham__np"/></e>
     <e lm="Solynova"><i>Solynova</i><par n="Carrefour__np"/></e>
-    <e lm="Somalie"><i>Somalie</i><par n="Andorre__np"/></e>
+    <e lm="Somalie"><i>Somalie</i><par n="Bulgarie__np"/></e>
     <e lm="Somaliland"><i>Somaliland</i><par n="Andorre__np"/></e>
     <e lm="Somme"><i>Somme</i><par n="Andorre__np"/></e>
     <e lm="Sonia"><i>Sonia</i><par n="Abraham__np"/></e>
@@ -27087,6 +27230,7 @@
     <e lm="Soto"><i>Soto</i><par n="Andorre__np"/></e>
     <e lm="Sotomayor"><i>Sotomayor</i><par n="Abraham__np"/></e>
     <e lm="Souabe"><i>Souabe</i><par n="Andorre__np"/></e>
+    <e lm="Soudan"><i>Soudan</i><par n="Iran__np"/></e>
     <e lm="Soukhoumi"><i>Soukhoumi</i><par n="Andorre__np"/></e>
     <e lm="SourceForge"><i>SourceForge</i><par n="Carrefour__np"/></e>
     <e lm="Sous-continent Indien"><i>Sous-continent<b/>Indien</i><par n="Andorre__np"/></e>
@@ -27105,7 +27249,7 @@
     <e lm="sportmusikfesta"><i>sportmusikfesta</i><par n="Carrefour__np"/></e>
     <e lm="Springsteen"><i>Springsteen</i><par n="Abraham__np"/></e>
     <e lm="Sputnik"><i>Sputnik</i><par n="Carrefour__np"/></e>
-    <e lm="Sri Lanka"><i>Sri<b/>Lanka</i><par n="Andorre__np"/></e>
+    <e lm="Sri Lanka"><i>Sri<b/>Lanka</i><par n="Iran__np"/></e>
     <e lm="Stalinabad" r="LR"><i>Stalinabad</i><par n="Andorre__np"/></e>
     <e lm="Staline"><i>Staline</i><par n="Abraham__np"/></e>
     <e lm="Staline"><i>Staline</i><par n="Andorre__np"/></e>
@@ -27150,15 +27294,17 @@
     <e lm="Subirats"><i>Subirats</i><par n="Andorre__np"/></e>
     <e lm="Sudètes"><i>Sudètes</i><par n="Andorre__np"/></e>
     <e lm="Sud-Ouest africain"><i>Sud-Ouest<b/>africain</i><par n="Andorre__np"/></e>
+    <e lm="Suède"><i>Suède</i><par n="Bulgarie__np"/></e>
     <e lm="Suez-GDF"><i>Suez-GDF</i><par n="Carrefour__np"/></e>
     <e lm="Suez"><i>Suez</i><par n="Andorre__np"/></e>
+    <e lm="Suisse"><i>Suisse</i><par n="Bulgarie__np"/></e>
     <e lm="Suleiman"><i>Suleiman</i><par n="Abraham__np"/></e>
     <e lm="Sultà"><i>Sultà</i><par n="Abraham__np"/></e>
     <e lm="Supercopa"><i>Supercopa</i><par n="Carrefour__np"/></e>
     <e lm="Supérieur"><i>Supérieur</i><par n="Andorre__np"/></e>
     <e lm="Superman"><i>Superman</i><par n="Abraham__np"/></e>
     <e lm="Super Mardi"><i>Super<b/>Mardi</i><par n="Carrefour__np"/></e>
-    <e lm="Surinam"><i>Surinam</i><par n="Andorre__np"/></e>
+    <e lm="Surinam"><i>Surinam</i><par n="Iran__np"/></e>
     <e lm="Susaeta"><i>Susaeta</i><par n="Abraham__np"/></e>
     <e lm="Susana"><i>Susana</i><par n="Abraham__np"/></e>
     <e lm="Susan"><i>Susan</i><par n="Abraham__np"/></e>
@@ -27171,13 +27317,14 @@
     <e lm="Suzuki"><i>Suzuki</i><par n="Carrefour__np"/></e>
     <e lm="Svalbard"><i>Svalbard</i><par n="Andorre__np"/></e>
     <e lm="Sven"><i>Sven</i><par n="Abraham__np"/></e>
-    <e lm="Swaziland"><i>Swaziland</i><par n="Andorre__np"/></e>
+    <e lm="Swaziland"><i>Swaziland</i><par n="Iran__np"/></e>
     <e lm="Sydney"><i>Sydney</i><par n="Andorre__np"/></e>
     <e lm="Sylvain"><i>Sylvain</i><par n="Abraham__np"/></e>
     <e lm="Sylvester Stallone"><i>Sylvester<b/>Stallone</i><par n="Abraham__np"/></e>
     <e lm="Sylwester Szmyd"><i>Sylwester<b/>Szmyd</i><par n="Abraham__np"/></e>
     <e lm="syndicat espagnol proche du parti socialiste"><i>syndicat<b/>espagnol<b/>proche<b/>du<b/>parti<b/>socialiste</i><par n="Carrefour__np"/></e>
     <e lm="Syracuse"><i>Syracuse</i><par n="Andorre__np"/></e>
+    <e lm="Syrie"><i>Syrie</i><par n="Bulgarie__np"/></e>
     <e lm="Sysmo"><i>Sysmo</i><par n="Carrefour__np"/></e>
     <e lm="Système Central"><i>Système<b/>Central</i><par n="Andorre__np"/></e>
     <e lm="Système ibérique"><i>Système<b/>ibérique</i><par n="Andorre__np"/></e>
@@ -27186,7 +27333,7 @@
     <e lm="Tables des trois rois"><i>Table<b/>des<b/>trois<b/>rois</i><par n="Andorre__np"/></e>
     <e lm="Tachkent"><i>Tachkent</i><par n="Andorre__np"/></e>
     <e lm="Tadej"><i>Tadej</i><par n="Abraham__np"/></e>
-    <e lm="Tadjikistan"><i>Tadjikistan</i><par n="Andorre__np"/></e>
+    <e lm="Tadjikistan"><i>Tadjikistan</i><par n="Iran__np"/></e>
     <e lm="Tage"><i>Tage</i><par n="Andorre__np"/></e>
     <e lm="Tahiti"><i>Tahiti</i><par n="Andorre__np"/></e>
     <e lm="Taïlande"><i>Taïlande</i><par n="Andorre__np"/></e>
@@ -27207,7 +27354,7 @@
     <e lm="Tanger"><i>Tanger</i><par n="Andorre__np"/></e>
     <e lm="Tania"><i>Tania</i><par n="Abraham__np"/></e>
     <e lm="Tantale"><i>Tantale</i><par n="Abraham__np"/></e>
-    <e lm="Tanzanie"><i>Tanzanie</i><par n="Andorre__np"/></e>
+    <e lm="Tanzanie"><i>Tanzanie</i><par n="Bulgarie__np"/></e>
     <e lm="Taoufik"><i>Taoufik</i><par n="Abraham__np"/></e>
     <e lm="Tapiador"><i>Tapiador</i><par n="Abraham__np"/></e>
     <e lm="Tapie"><i>Tapie</i><par n="Abraham__np"/></e>
@@ -27234,6 +27381,7 @@
     <e lm="Tauler"><i>Tauler</i><par n="Abraham__np"/></e>
     <e lm="Taureau"><i>Taureau</i><par n="Andorre__np"/></e>
     <e lm="Tayyip"><i>Tayyip</i><par n="Abraham__np"/></e>
+    <e lm="Tchad"><i>Tchad</i><par n="Iran__np"/></e>
     <e lm="Tchaikovski"><i>Tchaikovski</i><par n="Andorre__np"/></e>
     <e lm="Tchang Kaï-Chek"><i>Tchang<b/>Kaï-Chek</i><par n="Abraham__np"/></e>
     <e lm="Tchao Mong-Fou"><i>Tchao<b/>Mong-Fou</i><par n="Abraham__np"/></e>
@@ -27270,6 +27418,7 @@
     <e lm="Tena"><i>Tena</i><par n="Carrefour__np"/></e>
     <e lm="Tenerife"><i>Tenerife</i><par n="Andorre__np"/></e>
     <e lm="Ténérife"><i>Tenerife</i><par n="Andorre__np"/></e>
+    <e lm="Tennessee"><i>Tennessee</i><par n="Madagascar__np"/></e>
     <e lm="Tenorio"><i>Tenorio</i><par n="Abraham__np"/></e>
     <e lm="Teodoro"><i>Teodoro</i><par n="Abraham__np"/></e>
     <e lm="Tere"><i>Tere</i><par n="Abraham__np"/></e>
@@ -27279,19 +27428,24 @@
     <e lm="Terras"><i>Terras</i><par n="Carrefour__np"/></e>
     <e lm="Terrassa"><i>Terrassa</i><par n="Carrefour__np"/></e>
     <e lm="Terre de Feu"><i>Terre<b/>de<b/>Feu</i><par n="Andorre__np"/></e>
+    <e lm="Terre-Neuve et Labrador"><i>Terre-Neuve<b/>et<b/>Labrador</i><par n="Californie__np"/></e>
     <e lm="Terre-Neuve"><i>Terre-Neuve</i><par n="Andorre__np"/></e>
     <e lm="Terres australes et antarctiques françaises"><i>Terres<b/>australes<b/>et<b/>antarctiques<b/>françaises</i><par n="Andorre__np"/></e>
     <e lm="Terri"><i>Terri</i><par n="Abraham__np"/></e>
     <e lm="Territoire britannique de l'océan Indien"><i>Territoire<b/>britannique<b/>de<b/>l'océan<b/>Indien</i><par n="Andorre__np"/></e>
     <e lm="Territoire de Belfort"><i>Territoire<b/>de<b/>Belfort</i><par n="Andorre__np"/></e>
+    <e lm="territoire du Yukon"><i>territoire<b/>du<b/>Yukon</i><par n="Madagascar__np"/></e>
+    <e lm="territoires du Nord-Ouest"><i>territoires<b/>du<b/>Nord-Ouest</i><par n="Madagascar__np"/></e>
     <e lm="Territoires palestiniens"><i>Territoires<b/>palestiniens</i><par n="Andorre__np"/></e>
     <e lm="Terry"><i>Terry</i><par n="Abraham__np"/></e>
     <e lm="Teruel"><i>Teruel</i><par n="Abraham__np"/></e>
     <e lm="Teruel"><i>Teruel</i><par n="Andorre__np"/></e>
     <e lm="Tessa"><i>Tessa</i><par n="Abraham__np"/></e>
     <e lm="Tétouan"><i>Tétouan</i><par n="Andorre__np"/></e>
+    <e lm="Texas"><i>Texas</i><par n="Madagascar__np"/></e>
     <e lm="Textiline"><i>Textiline</i><par n="Carrefour__np"/></e>
     <e lm="TF1"><i>TF1</i><par n="Carrefour__np"/></e>
+    <e lm="Thaïlande"><i>Thaïlande</i><par n="Bulgarie__np"/></e>
     <e lm="Thaksin"><i>Thaksin</i><par n="Abraham__np"/></e>
     <e lm="Thalès"><i>Thalès</i><par n="Abraham__np"/></e>
     <e lm="Thames"><i>Thames</i><par n="Andorre__np"/></e>
@@ -27351,14 +27505,14 @@
     <e lm="Tiziano Vecellio"><i>Tiziano<b/>Vecellio</i><par n="Abraham__np"/></e>
     <e lm="TNS-Sofres"><i>TNS-Sofres</i><par n="Carrefour__np"/></e>
     <e lm="Tobrouk"><i>Tobrouk</i><par n="Andorre__np"/></e>
-    <e lm="Togo"><i>Togo</i><par n="Andorre__np"/></e>
+    <e lm="Togo"><i>Togo</i><par n="Iran__np"/></e>
     <e lm="Tokelau"><i>Tokelau</i><par n="Andorre__np"/></e>
     <e lm="Tolosa"><i>Tolosa</i><par n="Andorre__np"/></e>
     <e lm="Tomás"><i>Tomás</i><par n="Abraham__np"/></e>
     <e lm="Tombouctou"><i>Tombouctou</i><par n="Andorre__np"/></e>
     <e lm="Tom"><i>Tom</i><par n="Abraham__np"/></e>
     <e lm="Tommaso Albinoni"><i>Tommaso<b/>Albinoni</i><par n="Abraham__np"/></e>
-    <e lm="Tonga"><i>Tonga</i><par n="Andorre__np"/></e>
+    <e lm="Tonga"><i>Tonga</i><par n="Bahamas__np"/></e>
     <e lm="Toni"><i>Toni</i><par n="Abraham__np"/></e>
     <e lm="Tonti"><i>Tonti</i><par n="Abraham__np"/></e>
     <e lm="Tontxu"><i>Tontxu</i><par n="Abraham__np"/></e>
@@ -27422,7 +27576,7 @@
     <e lm="Trias"><i>Trias</i><par n="Abraham__np"/></e>
     <e lm="Tricastin"><i>Tricastin</i><par n="Carrefour__np"/></e>
     <e lm="Trichet"><i>Trichet</i><par n="Abraham__np"/></e>
-    <e lm="Trinité-et-Tobago"><i>Trinité-et-Tobago</i><par n="Andorre__np"/></e>
+    <e lm="Trinité-et-Tobago"><i>Trinité-et-Tobago</i><par n="Bulgarie__np"/></e>
     <e lm="Trinité"><i>Trinité</i><par n="Andorre__np"/></e>
     <e lm="Trintxerpe"><i>Trintxerpe</i><par n="Andorre__np"/></e>
     <e lm="Tripoli"><i>Tripoli</i><par n="Andorre__np"/></e>
@@ -27448,14 +27602,14 @@
     <e lm="Tuileries"><i>Tuileries</i><par n="Carrefour__np"/></e>
     <e lm="Tulle"><i>Tulle</i><par n="Andorre__np"/></e>
     <e lm="Tunick"><i>Tunick</i><par n="Abraham__np"/></e>
-    <e lm="Tunisie"><i>Tunisie</i><par n="Andorre__np"/></e>
+    <e lm="Tunisie"><i>Tunisie</i><par n="Bulgarie__np"/></e>
     <e lm="Turin"><i>Turin</i><par n="Andorre__np"/></e>
-    <e lm="Turkménistan"><i>Turkménistan</i><par n="Andorre__np"/></e>
+    <e lm="Turkménistan"><i>Turkménistan</i><par n="Iran__np"/></e>
     <e lm="Turner"><i>Turner</i><par n="Abraham__np"/></e>
-    <e lm="Turquie"><i>Turquie</i><par n="Andorre__np"/></e>
+    <e lm="Turquie"><i>Turquie</i><par n="Bulgarie__np"/></e>
     <e lm="Tusk"><i>Tusk</i><par n="Carrefour__np"/></e>
     <e lm="Tutundjian"><i>Tutundjian</i><par n="Abraham__np"/></e>
-    <e lm="Tuvalu"><i>Tuvalu</i><par n="Andorre__np"/></e>
+    <e lm="Tuvalu"><i>Tuvalu</i><par n="Iran__np"/></e>
     <e lm="TV1"><i>TV1</i><par n="Carrefour__np"/></e>
     <e lm="TV2"><i>TV2</i><par n="Carrefour__np"/></e>
     <e lm="TVE"><i>TVE</i><par n="Carrefour__np"/></e>
@@ -27479,7 +27633,8 @@
     <e lm="Ufesa"><i>Ufesa</i><par n="Carrefour__np"/></e>
     <e lm="Uharte-Arakil"><i>Uharte-Arakil</i><par n="Andorre__np"/></e>
     <e lm="Ukan"><i>Ukan</i><par n="Carrefour__np"/></e>
-    <e lm="Ukraine subcarpatique"><i>Ukraine<b/>subcarpatique</i><par n="Andorre__np"/></e>
+    <e lm="Ukraine"><i>Ukraine</i><par n="Bulgarie__np"/></e>
+    <e lm="Ukraine subcarpatique"><i>Ukraine<b/>subcarpatique</i><par n="Bulgarie__np"/></e>
     <e lm="Ullman"><i>Ullman</i><par n="Abraham__np"/></e>
     <e lm="UMD"><i>UMD</i><par n="Carrefour__np"/></e>
     <e lm="UMP"><i>UMP</i><par n="Carrefour__np"/></e>
@@ -27534,13 +27689,14 @@
     <e lm="Urt"><i>Urt</i><par n="Andorre__np"/></e>
     <e lm="Urtxegi"><i>Urtxegi</i><par n="Abraham__np"/></e>
     <e lm="Urtzi"><i>Urtzi</i><par n="Abraham__np"/></e>
-    <e lm="Uruguay"><i>Uruguay</i><par n="Andorre__np"/></e>
+    <e lm="Uruguay"><i>Uruguay</i><par n="Iran__np"/></e>
     <e lm="Urumea"><i>Urumea</i><par n="Andorre__np"/></e>
     <e lm="Urweider"><i>Urweider</i><par n="Abraham__np"/></e>
     <e lm="Urzaiz"><i>Urzaiz</i><par n="Abraham__np"/></e>
     <e lm="Urzúa"><i>Urzúa</i><par n="Abraham__np"/></e>
     <e lm="Usabiaga"><i>Usabiaga</i><par n="Abraham__np"/></e>
     <e lm="USB"><i>USB</i><par n="Carrefour__np"/></e>
+    <e lm="Utah"><i>Utah</i><par n="Madagascar__np"/></e>
     <e lm="UTESE"><i>UTESE</i><par n="Carrefour__np"/></e>
     <e lm="Václav Klaus"><i>Václav<b/>Klaus</i><par n="Abraham__np"/></e>
     <e lm="Vaduz"><i>Vaduz</i><par n="Andorre__np"/></e>
@@ -27574,7 +27730,7 @@
     <e lm="Van"><i>Van</i><par n="Abraham__np"/></e>
     <e lm="Vannes"><i>Vannes</i><par n="Andorre__np"/></e>
     <e lm="Vanotti"><i>Vanotti</i><par n="Abraham__np"/></e>
-    <e lm="Vanuatu"><i>Vanuatu</i><par n="Andorre__np"/></e>
+    <e lm="Vanuatu"><i>Vanuatu</i><par n="Iran__np"/></e>
     <e lm="Varela"><i>Varela</i><par n="Abraham__np"/></e>
     <e lm="Varga"><i>Varga</i><par n="Abraham__np"/></e>
     <e lm="Vargas"><i>Vargas</i><par n="Abraham__np"/></e>
@@ -27582,6 +27738,7 @@
     <e lm="Vasallo"><i>Vasallo</i><par n="Abraham__np"/></e>
     <e lm="Vasco da Gama"><i>Vasco<b/>da<b/>Gama</i><par n="Abraham__np"/></e>
     <e lm="Vasseur"><i>Vasseur</i><par n="Abraham__np"/></e>
+    <e lm="Vatican"><i>Vatican</i><par n="Iran__np"/></e>
     <e lm="Vaucluse"><i>Vaucluse</i><par n="Andorre__np"/></e>
     <e lm="Vaya Semanita"><i>Vaya<b/>Semanita</i><par n="Carrefour__np"/></e>
     <e lm="Vázquez"><i>Vázquez</i><par n="Abraham__np"/></e>
@@ -27595,7 +27752,7 @@
     <e lm="Venancio"><i>Venancio</i><par n="Abraham__np"/></e>
     <e lm="Vendée"><i>Vendée</i><par n="Andorre__np"/></e>
     <e lm="Vénétie"><i>Vénétie</i><par n="Andorre__np"/></e>
-    <e lm="Venezuela"><i>Venezuela</i><par n="Andorre__np"/></e>
+    <e lm="Venezuela"><i>Venezuela</i><par n="Iran__np"/></e>
     <e lm="Venus"><i>Venus</i><par n="Carrefour__np"/></e>
     <e lm="Veolia"><i>Veolia</i><par n="Carrefour__np"/></e>
     <e lm="Verdini"><i>Verdini</i><par n="Abraham__np"/></e>
@@ -27605,6 +27762,7 @@
     <e lm="VeriSign"><i>VeriSign</i><par n="Carrefour__np"/></e>
     <e lm="Verkhoïansk"><i>Verkhoïansk</i><par n="Andorre__np"/></e>
     <e lm="Vermeulen"><i>Vermeulen</i><par n="Abraham__np"/></e>
+    <e lm="Vermont"><i>Vermont</i><par n="Madagascar__np"/></e>
     <e lm="Verone"><i>Verone</i><par n="Andorre__np"/></e>
     <e lm="Véronèse"><i>Véronèse</i><par n="Abraham__np"/></e>
     <e lm="Verónica"><i>Verónica</i><par n="Abraham__np"/></e>
@@ -27635,8 +27793,9 @@
     <e lm="Vieille-Castille"><i>Vieille-Castille</i><par n="Andorre__np"/></e>
     <e lm="Vientiane"><i>Vientiane</i><par n="Andorre__np"/></e>
     <e lm="Vierge"><i>Vierge</i><par n="Andorre__np"/></e>
-    <e lm="Viêt nam"><i>Viêt<b/>nam</i><par n="Andorre__np"/></e>
-    <e lm="Viêtnam"><i>Viêtnam</i><par n="Andorre__np"/></e>
+    <e lm="Viêtnam"><i>Viêtnam</i><par n="Iran__np"/></e>
+    <e lm="Viêtnam" r="LR"><p><l>Viêt<b/>nam</l><r>Viêtnam</r></p><par n="Iran__np"/></e>
+    <e lm="Viêtnam" r="LR"><p><l>Viêt-Nam</l><r>Viêtnam</r></p><par n="Iran__np"/></e>
     <e lm="Viktor Iouchtchenko"><i>Viktor<b/>Iouchtchenko</i><par n="Abraham__np"/></e>
     <e lm="Viktor"><i>Viktor</i><par n="Abraham__np"/></e>
     <e lm="Viladecans"><i>Viladecans</i><par n="Andorre__np"/></e>
@@ -27667,6 +27826,8 @@
     <e lm="Violeta"><i>Violeta</i><par n="Abraham__np"/></e>
     <e lm="Virgile"><i>Virgile</i><par n="Abraham__np"/></e>
     <e lm="Virginia"><i>Virginia</i><par n="Abraham__np"/></e>
+    <e lm="Virginie"><i>Virginie</i><par n="Californie__np"/></e>
+    <e lm="Virginie-Occidentale"><i>Virginie-Occidentale</i><par n="Californie__np"/></e>
     <e lm="Viriathe"><i>Viriathe</i><par n="Abraham__np"/></e>
     <e lm="Visesa"><i>Visesa</i><par n="Carrefour__np"/></e>
     <e lm="Visio"><i>Visio</i><par n="Carrefour__np"/></e>
@@ -27709,7 +27870,7 @@
     <e lm="Warhol"><i>Warhol</i><par n="Abraham__np"/></e>
     <e lm="Warner"><i>Warner</i><par n="Carrefour__np"/></e>
     <e lm="Warren"><i>Warren</i><par n="Abraham__np"/></e>
-    <e lm="Washington"><i>Washington</i><par n="Andorre__np"/></e>
+    <e lm="Washington"><i>Washington</i><par n="Madagascar__np"/></e>
     <e lm="Waterboys"><i>Waterboys</i><par n="Carrefour__np"/></e>
     <e lm="Waveqche"><i>Waveqche</i><par n="Abraham__np"/></e>
     <e lm="Weber"><i>Weber</i><par n="Abraham__np"/></e>
@@ -27741,7 +27902,7 @@
     <e lm="Windhoek"><i>Windhoek</i><par n="Andorre__np"/></e>
     <e lm="Windows"><i>Windows</i><par n="Carrefour__np"/></e>
     <e lm="Windsor"><i>Windsor</i><par n="Andorre__np"/></e>
-    <e lm="Wisconsin"><i>Wisconsin</i><par n="Andorre__np"/></e>
+    <e lm="Wisconsin"><i>Wisconsin</i><par n="Madagascar__np"/></e>
     <e lm="Wolfgang"><i>Wolfgang</i><par n="Abraham__np"/></e>
     <e lm="Wong"><i>Wong</i><par n="Abraham__np"/></e>
     <e lm="Woodworth"><i>Woodworth</i><par n="Abraham__np"/></e>
@@ -27749,6 +27910,7 @@
     <e lm="World Trade Center"><i>World<b/>Trade<b/>Center</i><par n="Carrefour__np"/></e>
     <e lm="Wou Tchen"><i>Wou<b/>Tchen</i><par n="Abraham__np"/></e>
     <e lm="Wu Zhen"><i>Wu<b/>Zhen</i><par n="Abraham__np"/></e>
+    <e lm="Wyoming"><i>Wyoming</i><par n="Madagascar__np"/></e>
     <e lm="Xabier"><i>Xabier</i><par n="Abraham__np"/></e>
     <e lm="Xabi"><i>Xabi</i><par n="Abraham__np"/></e>
     <e lm="Xavier"><i>Xavier</i><par n="Abraham__np"/></e>
@@ -27781,7 +27943,7 @@
     <e lm="Yarmouk"><i>Yarmouk</i><par n="Andorre__np"/></e>
     <e lm="Yasmine"><i>Yasmine</i><par n="Abraham__np"/></e>
     <e lm="Yébenes"><i>Yébenes</i><par n="Andorre__np"/></e>
-    <e lm="Yémen"><i>Yémen</i><par n="Andorre__np"/></e>
+    <e lm="Yémen"><i>Yémen</i><par n="Iran__np"/></e>
     <e lm="Yeste"><i>Yeste</i><par n="Abraham__np"/></e>
     <e lm="Yliane"><i>Yliane</i><par n="Abraham__np"/></e>
     <e lm="Yoda"><i>Yoda</i><par n="Abraham__np"/></e>
@@ -27789,6 +27951,7 @@
     <e lm="Yonium"><i>Yonium</i><par n="Abraham__np"/></e>
     <e lm="Yonne"><i>Yonne</i><par n="Andorre__np"/></e>
     <e lm="York"><i>York</i><par n="Andorre__np"/></e>
+    <e lm="Yougoslavie"><i>Yougoslavie</i><par n="Bulgarie__np"/></e>
     <e lm="Young"><i>Young</i><par n="Abraham__np"/></e>
     <e lm="Youssouf"><i>Youssouf</i><par n="Abraham__np"/></e>
     <e lm="Youtube"><i>Youtube</i><par n="Carrefour__np"/></e>
@@ -27803,10 +27966,10 @@
     <e lm="Zabel"><i>Zabel</i><par n="Abraham__np"/></e>
     <e lm="Zabriskie"><i>Zabriskie</i><par n="Abraham__np"/></e>
     <e lm="Zagreb"><i>Zagreb</i><par n="Andorre__np"/></e>
-    <e lm="Zaïre"><i>Zaïre</i><par n="Andorre__np"/></e>
+    <e lm="Zaïre"><i>Zaïre</i><par n="Iran__np"/></e>
     <e lm="Zaisa"><i>Zaisa</i><par n="Carrefour__np"/></e>
     <e lm="Zalgiris"><i>Zalgiris</i><par n="Abraham__np"/></e>
-    <e lm="Zambie"><i>Zambie</i><par n="Andorre__np"/></e>
+    <e lm="Zambie"><i>Zambie</i><par n="Bulgarie__np"/></e>
     <e lm="Zamorano"><i>Zamorano</i><par n="Abraham__np"/></e>
     <e lm="Zampieri"><i>Zampieri</i><par n="Abraham__np"/></e>
     <e lm="Zanini"><i>Zanini</i><par n="Abraham__np"/></e>
@@ -27838,7 +28001,7 @@
     <e lm="Zientzia"><i>Zientzia</i><par n="Carrefour__np"/></e>
     <e lm="Ziganda"><i>Ziganda</i><par n="Abraham__np"/></e>
     <e lm="Zihurko"><i>Zihurko</i><par n="Carrefour__np"/></e>
-    <e lm="Zimbabwe"><i>Zimbabwe</i><par n="Andorre__np"/></e>
+    <e lm="Zimbabwe"><i>Zimbabwe</i><par n="Iran__np"/></e>
     <e lm="Zinedine"><i>Zinedine</i><par n="Abraham__np"/></e>
     <e lm="Zinoviev"><i>Zinoviev</i><par n="Abraham__np"/></e>
     <e lm="Zizurkil"><i>Zizurkil</i><par n="Andorre__np"/></e>
@@ -27866,119 +28029,256 @@
 
     <!-- MISCELLANEOUS: BEGIN -->
     <!-- pronouns, interjections, etc. -->
+    <!-- TODO: "prpers" needs serious work! -->
 
     <e lm="ah"><i>ah</i><par n="ah__ij"/></e>
+    <e lm="au revoir"><i>au<b/>revoir</i><par n="ah__ij"/></e>
+    <e lm="bah"><i>bah</i><par n="ah__ij"/></e>
+    <e lm="bon"><i>bon</i><par n="ah__ij"/></e>
+    <e lm="d'accord"><i>d'accord</i><par n="ah__ij"/></e>
+    <e lm="échec au roi"><i>échec<b/>au<b/>roi</i><par n="ah__ij"/></e>
+    <e lm="échec au roi" r="LR"><p><l>Echec<b/>au<b/>roi</l><r>échec<b/>au<b/>roi</r></p><par n="ah__ij"/></e>
+    <e lm="échec et mat"><i>échec<b/>et<b/>mat</i><par n="ah__ij"/></e>
+    <e lm="échec et mat" r="LR"><p><l>Echec<b/>et<b/>mat</l><r>échec<b/>et<b/>mat</r></p><par n="ah__ij"/></e>
+    <e lm="eh"><i>eh</i><par n="ah__ij"/></e>
+    <e lm="et voilà"><i>et<b/>voilà</i><par n="ah__ij"/></e>
+    <e lm="et voilà que"><i>et<b/>voilà<b/>que</i><par n="ah__ij"/></e>
+    <e lm="merci beaucoup"><i>merci<b/>beaucoup</i><par n="ah__ij"/></e>
+    <e lm="merci"><i>merci</i><par n="ah__ij"/></e>
+    <e lm="oh"><i>oh</i><par n="ah__ij"/></e>
+    <e lm="salut"><i>salut</i><par n="ah__ij"/></e>
+    <e lm="voilà"><i>voilà</i><par n="ah__ij"/></e>
+    <e lm="voilà tout"><i>voilà<b/>tout</i><par n="ah__ij"/></e>
+
+
+    <e lm="à cause que" r="LR"><p><l>à<b/>cause<b/><a/>qu'</l><r>à<b/>cause<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="accorder à la demande de" r="LR"><i>accord</i><par n="abaiss/er__vblex"/><p><l><b/>à<b/>la<b/>demande<b/>d'</l><r><g><b/>à<b/>la<b/>demande<b/>de</g></r></p></e>
+    <e lm="à condition que" r="LR"><p><l>à<b/>condition<b/><a/>qu'</l><r>à<b/>condition<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="afin d'" r="LR"><p><l>afin<b/>d'</l><r>afin<b/>de<s n="pr"/></r></p></e>
+    <e lm="afin qu'" r="LR"><p><l>afin<b/>qu'</l><r>afin<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="agir de" r="LR"><i>ag</i><par n="about/[]ir__vblex__"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+    <e lm="ainsi qu'" r="LR"><p><l>ainsi<b/>qu'</l><r>ainsi<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="à l'égard de" r="LR"><p><l>à<b/>l'égard<b/>d'</l><r>à<b/>l'égard<b/>de<s n="pr"/></r></p></e>
+    <e lm="à l'encontre de" a="webform" r="LR"><p><l>à<b/>l'encontre<b/>d'</l><r>à<b/>l'encontre<b/>de<s n="pr"/></r></p></e>
+    <e lm="à l'exception de" a="webform" r="LR"><p><l>à<b/>l'exception<b/>d'</l><r>à<b/>l'exception<b/>de<s n="pr"/></r></p></e>
+    <e lm="à l'instar de" a="webform" r="LR"><p><l>à<b/>l'instar<b/>d'</l><r>à<b/>l'instar<b/>de<s n="pr"/></r></p></e>
+    <e lm="à l'occasion de" a="webform" r="LR"><p><l>à<b/>l'occasion<b/>d'</l><r>à<b/>l'occasion<b/>de<s n="pr"/></r></p></e>
+    <e lm="alors que" r="LR"><p><l>alors<b/>qu'</l><r>alors<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="à mesure que" r="LR"><p><l>à<b/>mesure<b/><a/>qu'</l><r>à<b/>mesure<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="à moins que" r="LR"><p><l>à<b/>moins<b/><a/>qu'</l><r>à<b/>moins<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="à présent que" r="LR"><p><l>à<b/>présent<b/>qu'</l><r>à<b/>présent<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="à présent que" r="LR"><p><l>à<b/>présent<b/><a/>qu'</l><r>à<b/>présent<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="après que" r="LR"><p><l>après<b/><a/>qu'</l><r>après<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="à propos de" r="LR"><p><l>à<b/>propos<b/>d'</l><r>à<b/>propos<b/>de<s n="pr"/></r></p></e>
+    <e lm="à proximité de" r="LR"><p><l>à<b/>proximité<b/>d'</l><r>à<b/>proximité<b/>de<s n="pr"/></r></p></e>
+    <e lm="à quoi est-ce que" r="LR"><i>à<b/>quoi<b/>est-ce<b/>que</i><par n="que__prn"/></e>
+    <e lm="à quoi est-ce que" r="LR"><p><l>à<b/>quoi<b/>est-ce<b/>qu'</l><r>à<b/>quoi<b/>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="à quoi est-ce que" r="RL"><p><l>à<b/>quoi<b/>est-ce<b/><a/>qu'</l><r>à<b/>quoi<b/>est-ce<b/>que</r></p><par n="que__prn"/></e>
+    <e lm="à quoi"><p><l>à<b/>quoi</l><r>à<b/>quoi<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="à supposer que" r="LR"><p><l>à<b/>supposer<b/><a/>qu'</l><r>à<b/>supposer<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="à tel point que" r="LR"><p><l>à<b/>tel<b/>point<b/>que<a/></l><r>à<b/>tel<b/>point<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au bout de" a="webform" r="LR"><p><l>au<b/>bout<b/>d'</l><r>au<b/>bout<b/>de<s n="pr"/></r></p></e>
+    <e lm="au cas que" r="LR"><p><l>au<b/>cas<b/><a/>qu'</l><r>au<b/>cas<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au cours de" a="webform" r="LR"><p><l>au<b/>cours<b/>d'</l><r>au<b/>cours<b/>de<s n="pr"/></r></p></e>
     <e lm="aucun"><i>aucun</i><par n="aucun__prn"/></e>
     <e lm="aucun"><i>aucun</i><par n="certain__det"/></e>
+    <e lm="au delà de" r="LR"><p><l>au<b/>delà<b/>d'</l><r>au<b/>delà<b/>de<s n="pr"/></r></p></e>
+    <e lm="au-delà de" r="LR"><p><l>au-delà<b/>d'</l><r>au-delà<b/>de<s n="pr"/></r></p></e>
+    <e lm="au dire de" a="webform" r="LR"><p><l>au<b/>dire<b/>d'</l><r>au<b/>dire<b/>de<s n="pr"/></r></p></e>
+    <e lm="au fur et à mesure que" r="LR"><p><l>au<b/>fur<b/>et<b/>à<b/>mesure<b/><a/>qu'</l><r>au<b/>fur<b/>et<b/>à<b/>mesure<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au gré de" a="webform" r="LR"><p><l>au<b/>gré<b/>d'</l><r>au<b/>gré<b/>de<s n="pr"/></r></p></e>
+    <e lm="au lieu que" r="LR"><p><l>au<b/>lieu<b/><a/>qu'</l><r>au<b/>lieu<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au même titre que" r="LR"><p><l>au<b/>même<b/>titre<b/><a/>qu'</l><r>au<b/>même<b/>titre<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au milieu de" a="webform" r="LR"><p><l>au<b/>milieu<b/>d'</l><r>au<b/>milieu<b/>de<s n="pr"/></r></p></e>
+    <e lm="au moment que" r="LR"><p><l>au<b/>moment<b/><a/>qu'</l><r>au<b/>moment<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au point que" r="LR"><p><l>au<b/>point<b/><a/>qu'</l><r>au<b/>point<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au prétexte de" a="webform" r="LR"><p><l>au<b/>prétexte<b/>d'</l><r>au<b/>prétexte<b/>de<s n="pr"/></r></p></e>
+    <e lm="au profit de" r="LR"><p><l>au<b/>profit<b/>d'</l><r>au<b/>profit<b/>de<s n="pr"/></r></p></e>
     <e lm="auquel"><par n="/auquel__rel"/></e>
-    <e lm="au revoir"><i>au<b/>revoir</i><par n="ah__ij"/></e>
+    <e lm="aussi bien que" a="webform" r="LR"><p><l>aussi<b/>bien<b/>qu'</l><r>aussi<b/>bien<b/>que<s n="cnjadv"/></r></p></e> 
+    <e lm="aussi bien que" r="LR"><p><l>aussi<b/>bien<b/><a/>qu'</l><r>aussi<b/>bien<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="aussi longtemps que" r="LR"><p><l>aussi<b/>longtemps<b/><a/>qu'</l><r>aussi<b/>longtemps<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="aussitôt que" r="LR"><p><l>aussitôt<b/><a/>qu'</l><r>aussitôt<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="au sujet de" r="LR"><p><l>au<b/>sujet<b/>d'</l><r>au<b/>sujet<b/>de<s n="pr"/></r></p></e>
     <e lm="autrui"><i>autrui</i><par n="personne__prn"/></e>
+    <e lm="avant que" r="LR"><p><l>avant<b/><a/>qu'</l><r>avant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="avec moi"><i>avec<b/>moi</i><par n="je__prn"/></e>
+    <e lm="avec soi"><i>avec<b/>soi</i><par n="soi__prn"/></e>
+    <e lm="avec toi"><i>avec<b/>toi</i><par n="toi__prn"/></e>
     <e lm="avoir"><par n="/avoir__vbhaver"/></e>
-    <e lm="bah"><i>bah</i><par n="ah__ij"/></e>
+    <e lm="avoir pour but de" r="LR"><par n="/avoir__vblex"/><p><l><b/>pour<b/>but<b/>de</l><r><g><b/>pour<b/>objectif<b/>de</g></r></p></e>
+    <e lm="avoir pour objectif de" r="LR"><par n="/avoir__vblex"/><p><l><b/>pour<b/>objectif<b/>de</l><r><g><b/>pour<b/>objectif<b/>de</g></r></p></e>
+    <e lm="avoir pour objet de" r="LR"><par n="/avoir__vblex"/><p><l><b/>pour<b/>objet<b/>de</l><r><g><b/>pour<b/>objectif<b/>de</g></r></p></e>
+    <e lm="avoir pour seul but de" r="LR"><par n="/avoir__vblex"/><p><l><b/>pour<b/>seul<b/>but<b/>de</l><r><g><b/>pour<b/>objectif<b/>de</g></r></p></e>
+    <e lm="avoir l'habitude de" r="LR"><par n="/avoir__vblex"/><p><l><b/>l'habitude<b/>d'</l><r><g><b/>l'habitude<b/>de</g></r></p></e>
+    <e lm="avoir envie de" r="LR"><par n="/avoir__vblex"/><p><l>envie<b/>d'</l><r><g><b/>envie<b/>de</g></r></p></e>
+    <e lm="baisser le prix de" r="LR"><i>baiss</i><par n="abaiss/er__vblex"/><p><l><b/>le<b/>prix<b/>d'</l><r><g><b/>le<b/>prix<b/>de</g></r></p></e>
+    <e lm="beaucoup de" r="LR"><p><l>beaucoup<b/>d'</l><r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
     <e lm="bien"><i>bien</i><par n="très__preadv"/></e>
-    <e lm="bon"><i>bon</i><par n="ah__ij"/></e>
-    <e lm="bouche bée"><p><l>bouche<b/>bée</l><r>bouche<b/>bée<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e lm="bien que" r="LR"><p><l>bien<b/>qu'</l><r>bien<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="bouche bée"><p><l>bouche<b/>bée</l><r>bouche<b/>bée<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="ça"><i>ça</i><par n="ceci__prn"/></e>
-    <e lm="ceci"><i>ceci</i><par n="ceci__prn"/></e>
     <e lm="ceci" r="LR"><i>ceci</i><par n="ceci__prn"/></e>
+    <e lm="ceci" r="RL"><p><l><a/>ceci</l><r>ceci</r></p><par n="ceci__prn"/></e>
     <e lm="cela"><i>cela</i><par n="ceci__prn"/></e>
-    <e lm="celui-ci"><i>ce</i><par n="ce/lui-ci__prn"/></e>
+    <e lm="celle qu'" r="LR"><p><l>celle<b/>qu'</l><r>celui<b/>que<s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="celles qu'" r="LR"><p><l>celles<b/>qu'</l><r>celui<b/>que<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="celui"><i>ce</i><par n="ce/lui__prn"/></e>
+    <e lm="celui-ci"><i>ce</i><par n="ce/lui-ci__prn"/></e>
     <e lm="celui-là"><i>ce</i><par n="ce/lui-là__prn"/></e>
-    <e lm="celui-là" r="LR"><i>ce</i><par n="ce/lui-là__prn"/></e>
     <e lm="celui que"><i>ce</i><par n="ce/lui_que__rel"/></e>
+    <e lm="celui que" r="LR"><p><l>celui<b/>qu'</l><r>celui<b/>que<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="celui qui" r="LR"><i>ce</i><par n="ce/lui_qui__rel"/></e>
     <e lm="celui qui" r="RL"><p><l><a/>ce</l><r>ce</r></p><par n="ce/lui_qui__rel"/></e>
+    <e lm="ce qu'" r="LR"><p><l>ce<b/>qu'</l><r>celui<b/>que<s n="rel"/><s n="nt"/></r></p></e>
     <e lm="ce" r="LR"><i>ce</i><par n="ceci__prn"/></e>
     <e lm="ce" r="LR"><i>ce</i><par n="ce__det"/></e>
     <e lm="ce" r="RL"><p><l><a/>ce</l><r>ce</r></p><par n="ceci__prn"/></e>
     <e lm="ce" r="RL"><p><l><a/>ce</l><r>ce</r></p><par n="ce__det"/></e>
     <e lm="certain"><i>certain</i><par n="certain__det"/></e>
     <e lm="certains"><i>certain</i><par n="certain/s__prn"/></e>
+    <e lm="c'est ainsi que" r="LR"><p><l>c'est<b/>ainsi<b/><a/>qu'</l><r>c'est<b/>ainsi<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="c'est pour cela que" r="LR"><p><l>c'est<b/>pour<b/>cela<b/><a/>qu'</l><r>c'est<b/>pour<b/>cela<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="ceux que" r="LR"><p><l>ceux<b/>qu'</l><r>celui<b/>que<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
     <e lm="chacun"><i>chacun</i><par n="un__prn"/></e>
     <e lm="chacun" r="RL"><i>chacun</i><par n="personne__prn"/></e>
+    <e lm="chaque fois que" r="LR"><p><l>chaque<b/>fois<b/><a/>qu'</l><r>chaque<b/>fois<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="chaque"><i>chaque</i><par n="chaque__det"/></e>
     <e lm="combien"><i>combien</i><par n="combien__prn"/></e>
     <e lm="combien"><i>combien</i><par n="combien__rel"/></e>
     <e lm="comme"><i>comme</i><par n="combien__rel"/></e>
-    <e lm="d'accord"><i>d'accord</i><par n="ah__ij"/></e>
+    <e lm="convenir verbalement de" r="LR"><i>conv</i><par n="appart/enir__vblex"/><p><l><b/>verbalement<b/>d'</l><r><g><b/>verbalement<b/>de</g></r></p></e>
+    <e lm="c'" r="LR"><p><l>c'</l><r>ce<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e lm="dans bien de" a="webform" r="LR"><p><l>dans<b/>bien<b/>d'</l><r>dans<b/>bien<b/>de<s n="pr"/></r></p></e>
+    <e lm="dans le cadre de" r="LR"><p><l>dans<b/>le<b/>cadre<b/>d'</l><r>dans<b/>le<b/>cadre<b/>de<s n="pr"/></r></p></e>
     <e lm="dans lequel" r="RL"><i>dans<b/>l</i><par n="l/equel__rel"/></e>
+    <e lm="dans le temps que" r="LR"><p><l>dans<b/>le<b/>temps<b/><a/>qu'</l><r>dans<b/>le<b/>temps<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="d'aussi loin que" r="LR"><p><l>d'aussi<b/>loin<b/><a/>qu'</l><r>d'aussi<b/>loin<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="d'autant plus que" r="LR"><p><l>d'autant<b/>plus<b/><a/>qu'</l><r>d'autant<b/>plus<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="d'autant que" r="LR"><p><l>d'autant<b/><a/>qu'</l><r>d'autant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de crainte que" r="LR"><p><l>de<b/>crainte<b/><a/>qu'</l><r>de<b/>crainte<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de façon que" r="LR"><p><l>de<b/>façon<b/><a/>qu'</l><r>de<b/>façon<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de manière que" r="LR"><p><l>de<b/>manière<b/><a/>qu'</l><r>de<b/>manière<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de même que" r="LR"><p><l>de<b/>même<b/><a/>qu'</l><r>de<b/>même<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de peur que" r="LR"><p><l>de<b/>peur<b/><a/>qu'</l><r>de<b/>peur<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="depuis qu'" r="LR"><p><l>depuis<b/>qu'</l><r>depuis<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="de quoi est-ce que" r="LR"><i>de<b/>quoi<b/>est-ce<b/>que</i><par n="que__prn"/></e>
+    <e lm="de quoi est-ce que" r="LR"><p><l>de<b/>quoi<b/>est-ce<b/>qu'</l><r>de<b/>quoi<b/>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="de quoi est-ce que" r="RL"><p><l>de<b/>quoi<b/>est-ce<b/><a/>que</l><r>de<b/>quoi<b/>est-ce<b/>que</r></p><par n="que__prn"/></e>
+    <e lm="dès lors que" r="LR"><p><l>dès<b/>lors<b/><a/>qu'</l><r>dès<b/>lors<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de sorte que" r="LR"><p><l>de<b/>sorte<b/>qu'</l><r>de<b/>sorte<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="dès que" r="LR"><p><l>dès<b/><a/>qu'</l><r>dès<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de telle façon que" r="LR"><p><l>de<b/>telle<b/>façon<b/><a/>qu'</l><r>de<b/>telle<b/>façon<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="de telle sorte que" r="LR"><p><l>de<b/>telle<b/>sorte<b/><a/>qu'</l><r>de<b/>telle<b/>sorte<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="devoir"><i>d</i><par n="d/evoir__vbmod"/></e>
+    <e lm="d'ici que" r="LR"><p><l>d'ici<b/><a/>qu'</l><r>d'ici<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="divers"><i>diver</i><par n="diver/s__det"/></e>
     <e lm="dont"><i>dont</i><par n="dont__rel"/></e>
+    <e lm="d'" r="LR"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
+    <e lm="du fait que" r="LR"><p><l>du<b/>fait<b/><a/>qu'</l><r>du<b/>fait<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="du plus loin que" r="LR"><p><l>du<b/>plus<b/>loin<b/><a/>qu'</l><r>du<b/>plus<b/>loin<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="duquel"><i>d</i><par n="d/uquel__rel"/></e>
-    <e lm="échec au roi"><i>échec<b/>au<b/>roi</i><par n="ah__ij"/></e>
-    <e lm="échec au roi" r="LR"><p><l>Echec<b/>au<b/>roi</l><r>échec<b/>au<b/>roi</r></p><par n="ah__ij"/></e>
-    <e lm="échec et mat"><i>échec<b/>et<b/>mat</i><par n="ah__ij"/></e>
-    <e lm="échec et mat" r="LR"><p><l>Echec<b/>et<b/>mat</l><r>échec<b/>et<b/>mat</r></p><par n="ah__ij"/></e>
-    <e lm="eh"><i>eh</i><par n="ah__ij"/></e>
+    <e lm="en admettant que" r="LR"><p><l>en<b/>admettant<b/><a/>qu'</l><r>en<b/>admettant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="en attendant que" r="LR"><p><l>en<b/>attendant<b/><a/>qu'</l><r>en<b/>attendant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="en cas de" r="LR"><p><l>en<b/>cas<b/>d'</l><r>en<b/>cas<b/>de<s n="pr"/></r></p></e>
+    <e lm="en cas que" r="LR"><p><l>en<b/>cas<b/><a/>qu'</l><r>en<b/>cas<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="encore heureux que" r="LR"><p><l>encore<b/>heureux<b/><a/>qu'</l><r>encore<b/>heureux<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="encore que" r="LR"><p><l>encore<b/><a/>qu'</l><r>encore<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="en échange de" a="webform" r="LR"><p><l>en<b/>échange<b/>d'</l><r>en<b/>échange<b/>de<s n="pr"/></r></p></e>
+    <e lm="en même temps que" r="LR"><p><l>en<b/>même<b/>temps<b/><a/>qu'</l><r>en<b/>même<b/>temps<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="en raison de" a="webform" r="LR"><p><l>en<b/>raison<b/>d'</l><r>en<b/>raison<b/>de<s n="pr"/></r></p></e>
     <e lm="en" r="LR"><i>en</i><par n="en__prn"/></e>
     <e lm="en" r="RL"><p><l><a/>en</l><r>en</r></p><par n="en__prn"/></e>
+    <e lm="en supposant que" r="LR"><p><l>en<b/>supposant<b/><a/>qu'</l><r>en<b/>supposant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="en tant que" r="LR"><p><l>en<b/>tant<b/><a/>qu'</l><r>en<b/>tant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="en vigueur"><p><l>en<b/>vigueur</l><r>en<b/>vigueur<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="est-ce que" r="LR"><i>est-ce<b/>que</i><par n="que__prn"/></e>
+    <e lm="est-ce que" r="LR"><p><l>est-ce<b/>qu'</l><r>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="est-ce que" r="RL"><p><l>est-ce<b/><a/>que</l><r>est-ce<b/>que</r></p><par n="que__prn"/></e>
+    <e lm="étant donné que" r="LR"><p><l>étant<b/>donné<b/><a/>qu'</l><r>étant<b/>donné<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="étant donné que" r="LR"><p><l>étant<b/>donné<b/>qu'</l><r>étant<b/>donné<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="et"><i>et</i><par n="et__cnjcoo"/></e>
-    <e lm="être"><par n="/être__vbser"/></e>
-    <e lm="et voilà"><i>et<b/>voilà</i><par n="ah__ij"/></e>
-    <e lm="et voilà que"><i>et<b/>voilà<b/>que</i><par n="ah__ij"/></e>
+    <e lm="être le porte-drapeau de" r="LR"><i></i><par n="/être__vblex"/><p><l><b/>le<b/>porte-drapeau<b/>d'</l><r><g><b/>le<b/>porte-drapeau<b/>de</g></r></p></e>
     <e lm="eux"><i>eux</i><par n="eux__prn"/></e>
-    <e lm="falloir"><i>fa</i><par n="fa/lloir__vbmod"/></e>
     <e lm="guère" r="LR"><i>guère</i><par n="très__preadv"/></e>
+    <e lm="heureusement que" r="LR"><p><l>heureusement<b/><a/>qu'</l><r>heureusement<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="il"><par n="/il__prn"/></e>
     <e lm="il y a"><p><l>il<b/>y<b/>a</l><r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-
-    <!-- TODO: "prpers" needs serious work! -->
     <e lm="je" r="LR"><i>je</i><par n="je__prn"/></e>
     <e lm="je" r="LR"><p><l>je</l><r>prpers</r></p><par n="je__prn"/></e>
     <e lm="je" r="RL"><p><l><a/>je</l><r>je</r></p><par n="je__prn"/></e>
     <e lm="je" r="RL"><p><l><a/>je</l><r>prpers</r></p><par n="je__prn"/></e>
+    <e lm="j'" r="LR"><p><l>j'</l><r>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="j'" r="LR"><p><l>j'</l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="jusqu'à ce que" r="LR"><p><l>jusqu'à<b/>ce<b/><a/>qu'</l><r>jusqu'à<b/>ce<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="jusqu'" r="LR"><p><l>jusqu'</l><r>jusque<s n="pr"/></r></p></e>
+    <e lm="le"><i>l</i><par n="l/e__prn"/></e>
+    <e lm="le mien"><i>l</i><par n="l/e_mien__prn"/></e>
+    <e lm="le nôtre"><i>l</i><par n="l/e_nôtre__prn"/></e>
+    <e lm="lequel"><i>l</i><par n="l/equel__rel"/></e>
+    <e lm="le" r="LR"><i>l</i><par n="l/e__det"/></e>
+    <e lm="le" r="RL"><p><l><a/>l</l><r>le</r></p><par n="~l__prn"/></e>
+    <e lm="le" r="RL"><p><l><a/>l</l><r>l</r></p><par n="l/e__det"/></e>
+    <e lm="le sien"><i>l</i><par n="l/e_sien__prn"/></e>
+    <e lm="le tien"><i>l</i><par n="l/e_tien__prn"/></e>
+    <e lm="leur"><i>leur</i><par n="leur__det"/></e>
+    <e lm="leur"><i>leur</i><par n="leur__prn"/></e>
+    <e lm="le vôtre"><i>l</i><par n="l/e_vôtre__prn"/></e>
+    <e lm="lors de" r="LR"><p><l>lors<b/>d'</l><r>lors<b/>de<s n="pr"/></r></p></e>
+    <e lm="lors même que" a="webform" r="LR"><p><l>lors<b/>même<b/>qu'</l><r>lors<b/>même<b/>que<s n="cnjadv"/></r></p></e>           
+    <e lm="lorsqu'" r="LR"><p><l>lorsqu'</l><r>lorsque<s n="cnjadv"/></r></p></e>
+    <!-- <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="detnt"/></r></p></e> -->
+    <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="lu et approuvé"><p><l>lu<b/>et<b/>approuvé</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+    <e lm="lu et approuvé"><p><l>lue<b/>et<b/>approuvée</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+    <e lm="lu et approuvé"><p><l>lues<b/>et<b/>approuvées</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="lu et approuvé"><p><l>lus<b/>et<b/>approuvés</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
     <e lm="lui"><i>lui</i><par n="lui__prn"/></e>
+    <e lm="maintenant que" r="LR"><p><l>maintenant<b/><a/>qu'</l><r>maintenant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="mais"><i>mais</i><par n="et__cnjcoo"/></e>
+    <e lm="malgré le fait que" r="LR"><p><l>malgré<b/>le<b/>fait<b/><a/>qu'</l><r>malgré<b/>le<b/>fait<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="malgré que" r="LR"><p><l>malgré<b/>qu'</l><r>malgré<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="mal"><i>mal</i><par n="très__preadv"/></e>
     <e lm="me" r="LR"><i>me</i><par n="me__prn"/></e>
     <e lm="me" r="RL"><p><l><a/>me</l><r>me</r></p><par n="me__prn"/></e>
     <e lm="moi"><i>moi</i><par n="je__prn"/></e>
     <e lm="mon" r="LR"><i>m</i><par n="m/on__det"/></e>
     <e lm="mon" r="RL"><p><l><a/>m</l><r>m</r></p><par n="m/on__det"/></e>
-    <e lm="notre"><i>no</i><par n="no/tre__det"/></e>
-    <e lm="nous"><i>nous</i><par n="nous__prn"/></e>
-    <e lm="nous"><p><l>nous</l><r>prpers</r></p><par n="nous__prn"/></e>
-    <e lm="on"><i>on</i><par n="on__prn"/></e>
-    <e lm="on" r="LR"><p><l>l'on</l><r>on</r></p><par n="on__prn"/></e>
-    <e lm="avec moi"><i>avec<b/>moi</i><par n="je__prn"/></e>
-    <e lm="avec soi"><i>avec<b/>soi</i><par n="soi__prn"/></e>
-    <e lm="avec toi"><i>avec<b/>toi</i><par n="toi__prn"/></e>
-
-    <e lm="le"><i>l</i><par n="l/e__prn"/></e>
-    <e lm="le_mien"><i>l</i><par n="l/e_mien__prn"/></e>
-    <e lm="le_nôtre"><i>l</i><par n="l/e_nôtre__prn"/></e>
-    <e lm="lequel"><i>l</i><par n="l/equel__rel"/></e>
-    <e lm="le" r="LR"><i>l</i><par n="l/e__det"/></e>
-    <e lm="le" r="RL"><p><l><a/>l</l><r>le</r></p><par n="~l__prn"/></e>
-    <e lm="le" r="RL"><p><l><a/>l</l><r>l</r></p><par n="l/e__det"/></e>
-    <e lm="le_sien"><i>l</i><par n="l/e_sien__prn"/></e>
-    <e lm="le_tien"><i>l</i><par n="l/e_tien__prn"/></e>
-    <e lm="leur"><i>leur</i><par n="leur__det"/></e>
-    <e lm="leur"><i>leur</i><par n="leur__prn"/></e>
-    <e lm="le_vôtre"><i>l</i><par n="l/e_vôtre__prn"/></e>
-    <e lm="lu et approuvé"><p><l>lu<b/>et<b/>approuvé</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-    <e lm="lu et approuvé"><p><l>lue<b/>et<b/>approuvée</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-    <e lm="lu et approuvé"><p><l>lues<b/>et<b/>approuvées</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-    <e lm="lu et approuvé"><p><l>lus<b/>et<b/>approuvés</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-    <e lm="mais"><i>mais</i><par n="et__cnjcoo"/></e>
-    <e lm="mal"><i>mal</i><par n="très__preadv"/></e>
-    <e lm="merci beaucoup"><i>merci<b/>beaucoup</i><par n="ah__ij"/></e>
-    <e lm="merci"><i>merci</i><par n="ah__ij"/></e>
+    <e lm="m'" r="LR"><p><l>m'</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="ne" r="RL"><p><l><a/>ne</l><r>ne</r></p><par n="en__prn"/></e>
     <e lm="ni"><i>ni</i><par n="et__cnjcoo"/></e>
     <e lm="n'importe quel"><i>n'importe<b/>quel</i><par n="n'importe_quel__det"/></e>
     <e lm="n'importe qui"><i>n'importe<b/>qui</i><par n="n'importe_qui__prn"/></e>
     <e lm="n'importe quoi"><i>n'importe<b/>quoi</i><par n="ceci__prn"/></e>
+    <e lm="non que" r="LR"><p><l>non<b/><a/>qu'</l><r>non<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="notre"><i>no</i><par n="no/tre__det"/></e>
+    <e lm="nous"><i>nous</i><par n="nous__prn"/></e>
+    <e lm="nous"><p><l>nous</l><r>prpers</r></p><par n="nous__prn"/></e>
+    <e lm="n'" r="LR"><p><l>n'</l><r>ne<s n="adv"/></r></p></e>
     <e lm="nul" r="LR"><i>nul</i><par n="nul__det"/></e>
-    <e lm="oh"><i>oh</i><par n="ah__ij"/></e>
+    <e lm="on"><i>on</i><par n="on__prn"/></e>
+    <e lm="on" r="LR"><p><l>l'on</l><r>on</r></p><par n="on__prn"/></e>
     <e lm="où"><i>où</i><par n="combien__rel"/></e>
     <e lm="ou"><i>ou</i><par n="et__cnjcoo"/></e>
+    <e lm="parce que" r="LR"><p><l>parce<b/>qu'</l><r>parce<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="par l'intermédiaire de" a="webform" r="LR"><p><l>par<b/>l'intermédiaire<b/>d'</l><r>par<b/>l'intermédiaire<b/>de<s n="pr"/></r></p></e>
+    <e lm="pendant que" r="LR"><p><l>pendant<b/><a/>qu'</l><r>pendant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="permettre de" r="LR"><i>perm</i><par n="adm/ettre__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
     <e lm="personne"><i>personne</i><par n="personne__prn"/></e>
     <e lm="plusieurs"><i>plusieur</i><par n="plusieur/s__det"/></e>
+    <e lm="plutôt que" r="LR"><p><l>plutôt<b/><a/>qu'</l><r>plutôt<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="pour ce qui est de" r="LR"><p><l>pour<b/>ce<b/>qui<b/>est<b/>d'</l><r>pour<b/>ce<b/>qui<b/>est<b/>de<s n="pr"/></r></p></e>
+    <e lm="pour peu que" r="LR"><p><l>pour<b/>peu<b/><a/>qu'</l><r>pour<b/>peu<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="pour que" r="LR"><p><l>pour<b/>qu'</l><r>pour<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="pourvu que" r="LR"><p><l>pourvu<b/>qu'</l><r>pourvu<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="pouvoir"><i>p</i><par n="p/ouvoir__vbmod"/></e>
+    <e lm="prendre la relève de" r="LR"><i>pr</i><par n="appr/endre__vblex"/><p><l><b/>la<b/>relève<b/>d'</l><r><g><b/>la<b/>relève<b/>de</g></r></p></e>
     <e lm="presque"><i>presque</i><par n="très__preadv"/></e>
+    <e lm="profiter de" r="LR"><i>profit</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+    <e lm="prolonger de" r="LR"><i>prolong</i><par n="allong/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+    <e lm="puisqu'" r="LR"><p><l>puisqu'</l><r>puisque<s n="cnjadv"/></r></p></e>
     <e lm="quand"><i>quand</i><par n="combien__rel"/></e>
     <e lm="quasi" r="LR"><i>quasi</i><par n="très__preadv"/></e>
     <e lm="quel"><i>quel</i><par n="quel__prn"/></e>
@@ -27986,31 +28286,56 @@
     <e lm="quelque"><i>quelque</i><par n="quelque__det"/></e>
     <e lm="quelqu'un"><i>quelqu'un</i><par n="personne__prn"/></e>
     <e lm="quelqu'un"><i>quelqu'un</i><par n="un__prn"/></e>
-
-    <!-- TODO: looks fishy, review these later -->
     <e lm="que" r="LR"><i>que</i><par n="que__cnjsub"/></e>
+    <e lm="que" r="LR"><i>que</i><par n="que__prn"/></e>
     <e lm="que" r="LR"><i>que</i><par n="que__rel"/></e>
+    <e lm="que" r="LR"><p><l>que</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e lm="que" r="RL"><p><l><a/>que</l><r>que<s n="cnjsub"/></r></p></e>
     <e lm="que" r="RL"><p><l><a/>que</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="que" r="RL"><p><l><a/>que</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
-
+    <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+    <e lm="qu'est-ce que"><p><l>qu'est-ce<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="qu'est-ce que" r="LR"><i>qu'est-ce<b/>que</i><par n="que__prn"/></e>
+    <e lm="qu'est-ce que" r="LR"><p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="qu'est-ce que" r="LR"><p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="qu'est-ce que" r="RL"><p><l>qu'est-ce<b/><a/>que</l><r>qu'est-ce<b/>que</r></p><par n="que__prn"/></e>
+    <e lm="qui est-ce qui"><i>qui<b/>est-ce<b/>qui</i><par n="que__prn"/></e>
     <e lm="qui" r="LR"><i>qui</i><par n="que__prn"/></e>
     <e lm="qui" r="LR"><i>qui</i><par n="qui__rel"/></e>
     <e lm="qui" r="RL"><p><l><a/>qui</l><r>qui</r></p><par n="que__prn"/></e>
     <e lm="qui" r="RL"><p><l><a/>qui</l><r>qui</r></p><par n="qui__rel"/></e>
-
-    <e lm="qui est-ce qui"><i>qui<b/>est-ce<b/>qui</i><par n="que__prn"/></e>
-
+    <e lm="quoique" r="LR"><p><l>quoiqu'</l><r>quoique<s n="cnjadv"/></r></p></e>
+    <e lm="quoi" r="LR"><p><l>quoi</l><r>quoi<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="qu'" r="LR"><p><l>qu'</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="qu'" r="LR"><p><l>qu'</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="qu'" r="LR"><p><l>qu'</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="refuser de" r="LR"><i>refus</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+    <e lm="réjouir de" r="LR"><i>réjou</i><par n="about/[]ir__vblex__"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
     <e lm="rien"><i>rien</i><par n="ceci__prn"/></e>
-    <e lm="salut"><i>salut</i><par n="ah__ij"/></e>
+    <e lm="sacrifier sur l'autel de" r="LR"><i>sacrifi</i><par n="abaiss/er__vblex"/><p><l><b/>sur<b/>l'autel<b/>d'</l><r><g><b/>sur<b/>l'autel<b/>de</g></r></p></e>
+    <e lm="sauf que" r="LR"><p><l>sauf<b/>qu'</l><r>sauf<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="selon que" r="LR"><p><l>selon<b/><a/>qu'</l><r>selon<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="se" r="LR"><i>se</i><par n="on__prn"/></e>
     <e lm="se" r="RL"><p><l><a/>se</l><r>se</r></p><par n="on__prn"/></e>
+    <e lm="si bien que" r="LR"><p><l>si<b/>bien<b/><a/>qu'</l><r>si<b/>bien<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="s'il arrivait que" r="LR"><p><l>s'il<b/>arrivait<b/><a/>qu'</l><r>s'il<b/>arrivait<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <!-- TODO: really? "s"? -->
     <!-- <e lm="s"><i>s</i><par n="mois__n"/></e> -->
+    <e lm="si tant est que" r="LR"><p><l>si<b/>tant<b/>est<b/><a/>qu'</l><r>si<b/>tant<b/>est<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="soi"><i>soi</i><par n="soi__prn"/></e>
     <e lm="son" r="LR"><i>s</i><par n="m/on__det"/></e>
     <e lm="son" r="RL"><p><l><a/>s</l><r>s</r></p><par n="m/on__det"/></e>
+    <e lm="sous prétexte que" r="LR"><p><l>sous<b/>prétexte<b/><a/>qu'</l><r>sous<b/>prétexte<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="s'" r="LR"><p><l>s'</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="suivant que" r="LR"><p><l>suivant<b/><a/>qu'</l><r>suivant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="sur la rêquete d'" a="webform" r="LR"><p><l>sur<b/>la<b/>rêquete<b/>d'</l><r>sur<b/>la<b/>rêquete<b/>de<s n="pr"/></r></p></e>
+    <e lm="surtout que" r="LR"><p><l>surtout<b/><a/>qu'</l><r>surtout<b/>que</r></p><par n="afin_que__cnjadv"/></e>
+    <e lm="tandis que" r="LR"><p><l>tandis<b/>qu'</l><r>tandis<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="tant que" r="LR"><p><l>tant<b/><a/>qu'</l><r>tant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="tellement"><i>tellement</i><par n="très__preadv"/></e>
+    <e lm="tel que" r="LR"><p><l>tel<b/><a/>qu'</l><r>tel<b/>que</r></p><par n="afin_que__cnjadv"/></e> 
     <e lm="te" r="LR"><i>te</i><par n="te__prn"/></e>
     <e lm="te" r="RL"><p><l><a/>te</l><r>te</r></p><par n="te__prn"/></e>
     <e lm="tête basse"><p><l>tête<b/>basse</l><r>tête<b/>basse<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -28022,97 +28347,22 @@
     <e lm="tout"><i>tou</i><par n="tou/t__prn"/></e>
     <e lm="tout le monde"><i>tout<b/>le<b/>monde</i><par n="tout_le_monde__prn"/></e>
     <e lm="très"><i>très</i><par n="très__preadv"/></e>
+    <e lm="t'" r="LR"><p><l>t'</l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="t'" r="LR"><p><l>t'</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="tu"><i>tu</i><par n="toi__prn"/></e>
     <e lm="tu"><p><l>tu</l><r>prpers</r></p><par n="toi__prn"/></e>
     <e lm="un autre"><i/><par n="/un_autre__det"/></e>
     <e lm="un_autre"><par n="/un_autre__det"/></e>
     <e lm="un"><i>un</i><par n="un__prn"/></e>
     <e lm="un"><par n="/un__det"/></e>
-    <e lm="voilà"><i>voilà</i><par n="ah__ij"/></e>
-    <e lm="voilà tout"><i>voilà<b/>tout</i><par n="ah__ij"/></e>
     <e lm="votre"><i>vo</i><par n="no/tre__det"/></e>
     <e lm="vouloir"><i>v</i><par n="v/ouloir__vbmod"/></e>
     <e lm="vous"><i>vous</i><par n="vous__prn"/></e>
     <e lm="vous"><p><l>vous</l><r>prpers</r></p><par n="vous__prn"/></e>
+    <e lm="vu que" r="LR"><p><l>vu<b/>qu'</l><r>vu<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="y"><i>y</i><par n="en__prn"/></e>
-    <e><p><l>à<b/>quoi</l><r>à<b/>quoi<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e><p><l>qu'est-ce<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e r="LR"><i>à<b/>quoi<b/>est-ce<b/>que</i><par n="que__prn"/></e>
-    <e r="LR"><i>de<b/>quoi<b/>est-ce<b/>que</i><par n="que__prn"/></e>
-    <e r="LR"><i>est-ce<b/>que</i><par n="que__prn"/></e>
-    <e r="LR"><i>que</i><par n="que__prn"/></e>
-    <e r="LR"><i>qu'est-ce<b/>que</i><par n="que__prn"/></e>
-    <e r="LR"><i>qui</i><par n="que__prn"/></e>
-    <e r="LR"><p><l>est-ce<b/>que</l><r>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e r="LR"><p><l>que</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>quoi</l><r>quoi<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e r="RL"><p><l>à<b/>quoi<b/>est-ce<b/><a/>que</l><r>à<b/>quoi<b/>est-ce<b/>que</r></p><par n="que__prn"/></e>
-    <e r="RL"><p><l><a/>ceci</l><r>ceci</r></p><par n="ceci__prn"/></e>
-    <e r="RL"><p><l><a/>ce</l><r>ce</r></p><par n="ceci__prn"/></e>
-    <e r="RL"><p><l>de<b/>quoi<b/>est-ce<b/><a/>que</l><r>de<b/>quoi<b/>est-ce<b/>que</r></p><par n="que__prn"/></e>
-    <e r="RL"><p><l>est-ce<b/><a/>que</l><r>est-ce<b/>que</r></p><par n="que__prn"/></e>
-    <e r="RL"><p><l>qu'est-ce<b/><a/>que</l><r>qu'est-ce<b/>que</r></p><par n="que__prn"/></e>
 
     <!-- MISCELLANEOUS: END -->
-  </section>
-
-  <section id="apostrophes" type="postblank">
-    <e lm="l'" r="LR">                      <p><l>l'</l><r>le<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="l'" r="LR">                      <p><l>l'</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-    <e lm="l'" r="LR">                      <p><l>l'</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-    <e lm="j'" r="LR">                      <p><l>j'</l><r>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="d'" r="LR">                      <p><l>d'</l><r>de<s n="pr"/></r></p></e>
-    <e lm="m'" r="LR">                      <p><l>m'</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="t'" r="LR">                      <p><l>t'</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="s'" r="LR">                      <p><l>s'</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e lm="n'" r="LR">                      <p><l>n'</l><r>ne<s n="adv"/></r></p></e>
-    <!-- interrogatives-->
-    <e r="LR">                              <p><l>c'</l><r>ce<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
-    <e r="LR">                              <p><l>qu'</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR">                              <p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR">                              <p><l>est-ce<b/>qu'</l><r>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR">                              <p><l>à<b/>quoi<b/>est-ce<b/>qu'</l><r>à<b/>quoi<b/>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR">                              <p><l>de<b/>quoi<b/>est-ce<b/>qu'</l><r>de<b/>quoi<b/>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e r="LR">                              <p><l>qu'est-ce<b/>que<b/>c'est<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <!-- interrogatives-->
-    <e lm="afin d'" r="LR">                 <p><l>afin<b/>d'</l><r>afin<b/>de<s n="pr"/></r></p></e>
-    <e lm="dans le cadre d'" r="LR">        <p><l>dans<b/>le<b/>cadre<b/>d'</l><r>dans<b/>le<b/>cadre<b/>de<s n="pr"/></r></p></e>
-    <e lm="pour ce qui est de" a="gema" r="LR"><p><l>pour<b/>ce<b/>qui<b/>est<b/>d'</l><r>pour<b/>ce<b/>qui<b/>est<b/>de<s n="pr"/></r></p></e>
-    <e lm="à l'egard d'" r="LR">            <p><l>à<b/>l'egard<b/>d'</l><r>à<b/>l'egard<b/>de<s n="pr"/></r></p></e>
-    <e lm="au sujet d'" r="LR">             <p><l>au<b/>sujet<b/>d'</l><r>au<b/>sujet<b/>de<s n="pr"/></r></p></e>
-    <e lm="au profit d'" r="LR">            <p><l>au<b/>profit<b/>d'</l><r>au<b/>profit<b/>de<s n="pr"/></r></p></e>
-    <e lm="au delà d'" r="LR">              <p><l>au<b/>delà<b/>d'</l><r>au<b/>delà<b/>de<s n="pr"/></r></p></e>
-    <e lm="au-delà d'" r="LR">              <p><l>au-delà<b/>d'</l><r>au-delà<b/>de<s n="pr"/></r></p></e>
-    <e lm="à proximité d'" r="LR">          <p><l>à<b/>proximité<b/>d'</l><r>à<b/>proximité<b/>de<s n="pr"/></r></p></e>
-    <e lm="lors d'" r="LR">                 <p><l>lors<b/>d'</l><r>lors<b/>de<s n="pr"/></r></p></e>
-    <e lm="qu'" r="LR">                     <p><l>qu'</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e lm="jusqu'" r="LR">                  <p><l>jusqu'</l><r>jusque<s n="pr"/></r></p></e>
-    <e lm="afin qu'" r="LR">                <p><l>afin<b/>qu'</l><r>afin<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="alors qu'" r="LR">               <p><l>alors<b/>qu'</l><r>alors<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="bien qu'" r="LR">                <p><l>bien<b/>qu'</l><r>bien<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="de sorte qu'" r="LR">            <p><l>de<b/>sorte<b/>qu'</l><r>de<b/>sorte<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="depuis qu'" r="LR">              <p><l>depuis<b/>qu'</l><r>depuis<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="lorsqu'" r="LR">                 <p><l>lorsqu'</l><r>lorsque<s n="cnjadv"/></r></p></e>
-    <e lm="malgré qu'" r="LR">              <p><l>malgré<b/>qu'</l><r>malgré<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="ainsi qu'" r="LR">               <p><l>ainsi<b/>qu'</l><r>ainsi<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="parce qu'" r="LR">               <p><l>parce<b/>qu'</l><r>parce<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="pour qu'">                       <p><l>pour<b/>qu'</l><r>pour<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="pourvu qu'" r="LR">              <p><l>pourvu<b/>qu'</l><r>pourvu<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="puisqu'" r="LR">                 <p><l>puisqu'</l><r>puisque<s n="cnjadv"/></r></p></e>
-    <e lm="quoiqu'" r="LR">                 <p><l>quoiqu'</l><r>quoique<s n="cnjadv"/></r></p></e>
-    <e lm="sauf qu'" r="LR">                <p><l>sauf<b/>qu'</l><r>sauf<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="vu qu'" r="LR">                  <p><l>vu<b/>qu'</l><r>vu<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="étant donné qu'" r="LR">         <p><l>étant<b/>donné<b/>qu'</l><r>étant<b/>donné<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="à propos de" r="LR">             <p><l>à<b/>propos<b/>d'</l><r>à<b/>propos<b/>de<s n="pr"/></r></p></e>
-    <e lm="en cas de" r="LR">               <p><l>en<b/>cas<b/>d'</l><r>en<b/>cas<b/>de<s n="pr"/></r></p></e>
-
-    <e r="LR"><p><l>celle<b/>qu'</l>       <r>celui<b/>que<s n="rel"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>celles<b/>qu'</l>      <r>celui<b/>que<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>celui<b/>qu'</l>       <r>celui<b/>que<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
-    <e r="LR"><p><l>ceux<b/>qu'</l>        <r>celui<b/>que<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
-    <e r="LR"><p><l>ce<b/>qu'</l>          <r>celui<b/>que<s n="rel"/><s n="nt"/></r></p></e>
   </section>
 
   <section id="final" type="inconditional">
