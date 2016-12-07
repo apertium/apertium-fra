@@ -62,14 +62,14 @@
 ^./.<sent>$
 ^Elle/Il<prn><tn><p3><f><sg>$
 ^s'/se<prn><pro><ref><p3><mf><sp>$
-^est/être<vbser><pp>$
+^est/être<vbser><pri><p3><sg>$
 ^particulièrement/particulièrement<adv>$
 ^développée/développer<vblex><pp><f><sg>$
 ^aux/à<pr>+le<det><def><mf><pl>$
-^États-Unis/États-Unis<np><loc>$
+^États-Unis/États-Unis<np><top><m><pl>$
 ^,/,<cm>$
 ^se/se<prn><pro><ref><p3><mf><sp>$
-^dissociant/dissociant<vblex><pprs>$
+^dissociant/dissociant<vblex><ppres>$
 ^à/à<pr>$
 ^partir/partir<vblex><inf>$
 ^des/de<pr>+le<det><def><mf><pl>$
@@ -96,11 +96,12 @@
 ^évoque/évoquer<vblex><pri><p3><sg>$
 ^de nos jours/de nos jours<adv>$
 ^principalement/principalement<adv>$
-^les États-Unis/les États-Unis<np><loc>$
+^les/le<det><def><mf><pl>$
+^États-Unis/États-Unis<np><top><m><pl>$
 ^et/et<cnjcoo>$
 ^plus/plus<adv>$
 ^spécialement/spécialement<adv>$
-^Broadway/Broadway<np><loc>$
+^Broadway/Broadway<np><top><m><sg>$
 ^./.<sent>$
 ¶
 ^Comme/Comme<pr>$
@@ -264,7 +265,7 @@
 ^1992/1992<num>$
 ^,/,<cm>$
 ^Mary/Mary<np><ant>$
-^Poppins/Poppins<np><cog>$
+^Poppins/Poppins<np><ant>$
 ^(/(<lpar>$
 ^1964/1964<num>$
 ^)/)<rpar>$
@@ -292,7 +293,7 @@
 ^animation/animation<n><f><sg>$
 ^des/de<pr>+le<det><def><mf><pl>$
 ^studios/studios<n><m><pl>$
-^Disney/Disney<np><cog>$
+^Disney/Disney<np><ant>$
 ^,/,<cm>$
 ^La/Le<det><def><f><sg>$
 ^Belle/Bel<n><f><sg>$
@@ -326,7 +327,7 @@
 ^adaptations/adaptation<n><f><pl>$
 ^comme/comme<pr>$
 ^Billy/Billy<np><ant>$
-^Elliot/Elliot<np><cog>$
+^Elliot/Elliot<np><ant>$
 ^(/(<lpar>$
 ^2000/2000<num>$
 ^)/)<rpar>$

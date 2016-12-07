@@ -8,6 +8,7 @@
 /apertium-fra.fra.acx -text
 /apertium-fra.fra.metadix -text
 /apertium-fra.fra.rlx -text
+/apertium-fra.fra.tsx -text
 /apertium-fra.pc.in -text
 /apertium-fra.post-fra.dix -text svneol=unset#text/plain
 /autogen.sh -text

@@ -87,7 +87,7 @@
 ^implantation/implantation<n><f><sg>$
 ^et/et<cnjcoo>$
 ^de/de<pr>$
-^mise en œuvre/mise en œuvre<n><f><sg>
+^mise en œuvre/mise<n><f><sg># en œuvre$
 ^sur/sur<pr>$
 ^le/le<det><def><m><sg>$
 ^terrain/terrain<n><m><sg>$
@@ -96,7 +96,7 @@
 ^domaines/domaine<n><m><pl>$
 ^de/de<pr>$
 ^l'/le<det><def><mf><sg>$
-^informatique/informatique<adj><mf><sg>$
+^informatique/informatique<n><f><sg>$
 ^peuvent/pouvoir<vbmod><pri><p3><pl>$
 ^être/être<vbser><inf>$
 ^très/très<preadv>$
@@ -161,7 +161,7 @@
 ^Le/Le<det><def><m><sg>$
 ^terme/terme<n><m><sg>$
 ^«/«<lpar>$
-^informatique/informatique<adj><mf><sg>$
+^informatique/informatique<n><f><sg>$
 ^»/»<rpar>$
 ^résulte/résulter<vblex><pri><p3><sg>$
 ^de/de<pr>$
@@ -252,7 +252,7 @@
 ^extension/extension<n><f><sg>$
 ^,/,<cm>$
 ^la/le<det><def><f><sg>$
-^mise en application/mise en application<n><f><sg>
+^mise en application/mise<n><f><sg># en application$
 ^de/de<pr>$
 ^méthodes/méthode<n><m><pl>$
 ^informatiques/informatique<adj><mf><pl>$
@@ -301,19 +301,19 @@
 ^./.<sent>$
 ^»/»<rpar>$
 ^Hal/Hal<np><ant>$
-^Abelson/Abelson<np><cog>$
+^Abelson/Abelson<np><ant>$
 ^Par/Par<pr>$
 ^ses/son<det><pos><mf><pl>$
 ^applications/application<n><f><pl>$
 ^,/,<cm>$
 ^la/le<det><def><f><sg>$
-^mise en pratique/mise en pratique<n><f><sg>
+^mise en pratique/mise<n><f><sg># en pratique$
 ^de/de<pr>$
 ^méthodes/méthode<n><m><pl>$
 ^issues/issu<adj><f><pl>$
 ^de/de<pr>$
 ^l'/le<det><def><mf><sg>$
-^informatique/informatique<adj><mf><sg>$
+^informatique/informatique<n><f><sg>$
 ^a/avoir<vbhaver><pri><p3><sg>$
 ^donné/donner<vblex><pp><m><sg>$
 ^naissance/naissance<n><f><sg>$
@@ -353,7 +353,7 @@
 ^ingénieur/ingénieur<n><mf><sg>$
 ^allemand/allemand<adj><m><sg>$
 ^Karl/Karl<np><ant>$
-^Steinbuch/Steinbuch<np><cog>$
+^Steinbuch/Steinbuch<np><ant>$
 ^dans/dans<pr>$
 ^son/son<det><pos><m><sg>$
 ^essai/essai<n><m><sg>$
@@ -365,14 +365,14 @@
 ^Informationsverarbeitung/*Informationsverarbeitung$
 ^»/»<rpar>$
 ^,/,<cm>$
-^pouvant/pouvoir<vbmod><ppres><p3><ND>$
+^pouvant/pouvoir<vbmod><ger>$
 ^être/être<vbser><inf>$
 ^rendu/rendre<vblex><pp><m><sg>$
 ^en/en<pr>$
 ^français/français<adj><m><sp>$
 ^par/par<pr>$
 ^«/«<lpar>$
-^Informatique/Informatique<adj><mf><sg>$
+^Informatique/Informatique<n><f><sg>$
 ^:/:<sent>$
 ^traitement/traitement<n><m><sg>$
 ^automatique/automatique<adj><mf><sg>$
@@ -388,18 +388,18 @@
 ^le/le<prn><pro><p3><nt>$
 ^terme/terme<n><m><sg>$
 ^«/«<lpar>$
-^Informatique/Informatique<adj><mf><sg>$
+^Informatique/Informatique<n><f><sg>$
 ^»/»<rpar>$
 ^est/être<vbser><pri><p3><sg>$
 ^utilisé/utiliser<vblex><pp><m><sg>$
 ^pour la première fois/pour la première fois<adv>$
 ^,/,<cm>$
 ^en/en<pr>$
-^France/France<np><loc>$
+^France/France<np><top><f><sg>$
 ^,/,<cm>$
 ^par/par<pr>$
 ^Philippe/Philippe<np><ant>$
-^Dreyfus/Dreyfus<np><cog>$
+^Dreyfus/Dreyfus<np><ant>$
 ^,/,<cm>$
 ^ancien/ancien<adj><m><sg>$
 ^directeur/directeur<n><m><sg>$
@@ -410,14 +410,14 @@
 ^calcul/calcul<n><m><sg>$
 ^électronique/électronique<adj><mf><sg>$
 ^de/de<pr>$
-^Bull/Bull<np><org>$
+^Bull/Bull<np><al>$
 ^,/,<cm>$
 ^pour/pour<pr>$
 ^son/son<det><pos><m><sg>$
 ^entreprise/entreprise<n><f><sg>$
 ^Société/Société<n><f><sg>$
 ^d'/de<pr>$
-^Informatique/Informatique<adj><mf><sg>$
+^Informatique/Informatique<n><f><sg>$
 ^Appliquée/Appliquer<vblex><pp><f><sg>$
 ^(/(<lpar>$
 ^SIA/*SIA$
@@ -460,7 +460,7 @@
 ^mois/mois<n><m><sp>$
 ^,/,<cm>$
 ^Walter/Walter<np><ant>$
-^Bauer/Bauer<np><cog>$
+^Bauer/Bauer<np><ant>$
 ^inaugure/inaugurer<vblex><pri><p3><sg>$
 ^la/le<det><def><f><sg>$
 ^société/société<n><f><sg>$
@@ -510,10 +510,10 @@
 ^praticiens/praticien<n><m><pl>$
 ^de/de<pr>$
 ^l'/le<det><def><mf><sg>$
-^informatique/informatique<adj><mf><sg>$
+^informatique/informatique<n><f><sg>$
 ^plutôt que/plutôt que<cnjadv>$
 ^des/de<pr>+le<det><def><mf><pl>$
-^scientifiques/scientifique<n><mf><pl>$
+^scientifiques/scientifique<adj><mf><pl>$
 ^au/à<pr>+le<det><def><m><sg>$
 ^sens/sens<n><m><sp>$
 ^propre/propre<adj><mf><sg>$
@@ -577,7 +577,7 @@
 ^1966/1966<num>$
 ^,/,<cm>$
 ^en/en<pr>$
-^France/France<np><loc>$
+^France/France<np><top><f><sg>$
 ^,/,<cm>$
 ^l'/le<det><def><mf><sg>$
 ^usage/usage<n><m><sg>$
