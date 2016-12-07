@@ -14281,10 +14281,12 @@
     <!-- VERBS: BEGIN -->
 
     <e lm="abaisser"><i>abaiss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="abasourdir"><i>abasourd</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="abandonner"><i>abandonn</i><par n="abaiss/er__vblex"/></e>
     <e lm="abattre"><i>abat</i><par n="abat/tre__vblex"/></e>
     <e lm="abdiquer"><i>abdiqu</i><par n="abaiss/er__vblex"/></e>
     <e lm="abîmer"><i>abîm</i><par n="abaiss/er__vblex"/></e>
+    <e lm="abolir"><i>abol</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="abonder"><i>abond</i><par n="abaiss/er__vblex"/></e>
     <e lm="abonner"><i>abonn</i><par n="abaiss/er__vblex"/></e>
     <e lm="aborder"><i>abord</i><par n="abaiss/er__vblex"/></e>
@@ -14298,7 +14300,7 @@
     <e lm="abstenir"><i>abst</i><par n="appart/enir__vblex"/></e>
     <e lm="abuser"><i>abus</i><par n="abaiss/er__vblex"/></e>
     <e lm="accabler"><i>accabl</i><par n="abaiss/er__vblex"/></e>
-    <e lm="accalmir" r="LR"><i>accalm</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="accalmir"><i>accalm</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="accaparer"><i>accapar</i><par n="abaiss/er__vblex"/></e>
     <e lm="accéder"><i>acc</i><par n="accél/é[R]er__vblex" prm="d"/></e>
     <e lm="accélérer"><i>accél</i><par n="accél/é[R]er__vblex" prm="r"/></e>
@@ -14357,10 +14359,10 @@
     <e lm="affliger"><i>afflig</i><par n="allong/er__vblex"/></e>
     <e lm="affluer"><i>afflu</i><par n="abaiss/er__vblex"/></e>
     <e lm="affoler"><i>affol</i><par n="abaiss/er__vblex"/></e>
-    <e lm="affréter" r="LR"><i>affr</i><par n="accél/é[R]er__vblex" prm="t"/></e>
+    <e lm="affréter"><i>affr</i><par n="accél/é[R]er__vblex" prm="t"/></e>
     <e lm="affrioler"><i>affriol</i><par n="abaiss/er__vblex"/></e>
     <e lm="affronter"><i>affront</i><par n="abaiss/er__vblex"/></e>
-    <e lm="affubler" r="LR"><i>affubl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="affubler" ><i>affubl</i><par n="abaiss/er__vblex"/></e>
     <e lm="agglutiner"><i>agglutin</i><par n="abaiss/er__vblex"/></e>
     <e lm="aggraver"><i>aggrav</i><par n="abaiss/er__vblex"/></e>
     <e lm="agir de mèche avec" r="LR"><p><l>ag</l><r>ag</r></p><par n="about/[]ir__vblex" prm=""/><p><l><b/>de<b/>mèche<b/>avec</l><r><g><b/>de<b/>mèche<b/>avec</g></r></p></e>
@@ -14375,7 +14377,7 @@
     <e lm="agrémenter" r="LR"><i>agrément</i><par n="abaiss/er__vblex"/></e>
     <e lm="agresser"><i>agress</i><par n="abaiss/er__vblex"/></e>
     <e lm="aider"><i>aid</i><par n="abaiss/er__vblex"/></e>
-    <e lm="aiguiller" r="LR"><i>aiguill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aiguiller"><i>aiguill</i><par n="abaiss/er__vblex"/></e>
     <e lm="aiguiser"><i>aiguis</i><par n="abaiss/er__vblex"/></e>
     <e lm="ailler"><i>aill</i><par n="abaiss/er__vblex"/></e>
     <e lm="aimer bien" r="LR"><i>aim</i><par n="abaiss/er__vblex"/><p><l><b/>bien</l><r><g><b/>bien</g></r></p></e>
@@ -14413,7 +14415,7 @@
     <e lm="aménager"><i>aménag</i><par n="allong/er__vblex"/></e>
     <e lm="amender"><i>amend</i><par n="abaiss/er__vblex"/></e>
     <e lm="amener"><i>am</i><par n="ach/e[T]er__vblex" prm="n"/></e>
-    <e lm="amenuiser" r="LR"><i>amenuis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="amenuiser"><i>amenuis</i><par n="abaiss/er__vblex"/></e>
     <e lm="ameuter"><i>ameut</i><par n="abaiss/er__vblex"/></e>
     <e lm="amnistier"><i>amnisti</i><par n="abaiss/er__vblex"/></e>
     <e lm="amortir"><i>amort</i><par n="about/[]ir__vblex" prm=""/></e>
@@ -14501,9 +14503,9 @@
     <e lm="assurer"><i>assur</i><par n="abaiss/er__vblex"/></e>
     <e lm="attacher"><i>attach</i><par n="abaiss/er__vblex"/></e>
     <e lm="attaquer"><i>attaqu</i><par n="abaiss/er__vblex"/></e>
-    <e lm="attarder" r="LR"><i>attard</i><par n="abaiss/er__vblex"/></e>
+    <e lm="attarder"><i>attard</i><par n="abaiss/er__vblex"/></e>
     <e lm="atteindre"><i>attei</i><par n="cei/ndre__vblex"/></e>
-    <e lm="atteler" r="LR"><i>attel</i><par n="appel/er__vblex"/></e>
+    <e lm="atteler"><i>attel</i><par n="appel/er__vblex"/></e>
     <e lm="attendre"><i>attend</i><par n="attend/re__vblex"/></e>
     <e lm="attenter"><i>attent</i><par n="abaiss/er__vblex"/></e>
     <e lm="atténuer"><i>atténu</i><par n="abaiss/er__vblex"/></e>
@@ -14556,8 +14558,8 @@
     <e lm="avoir un os"><par n="/avoir__vblex"/><p><l><b/>un<b/>os</l><r><g><b/>un<b/>os</g></r></p></e>
     <e lm="avorter"><i>avort</i><par n="abaiss/er__vblex"/></e>
     <e lm="avouer"><i>avou</i><par n="abaiss/er__vblex"/></e>
-    <e lm="axer" r="LR"><i>ax</i><par n="abaiss/er__vblex"/></e>
-    <e lm="bagarrer" r="LR"><i>bagarr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="axer"><i>ax</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bagarrer"><i>bagarr</i><par n="abaiss/er__vblex"/></e>
     <e lm="baguer"><i>bagu</i><par n="abaiss/er__vblex"/></e>
     <e lm="baigner"><i>baign</i><par n="abaiss/er__vblex"/></e>
     <e lm="bâiller à s'en décrocher la mâchoire"><i>bâill</i><par n="abaiss/er__vblex"/><p><l><b/>à<b/>s'en<b/>décrocher<b/>la<b/>mâchoire</l><r><g><b/>à<b/>s'en<b/>décrocher<b/>la<b/>mâchoire</g></r></p></e>
@@ -14605,7 +14607,7 @@
     <e lm="boucher"><i>bouch</i><par n="abaiss/er__vblex"/></e>
     <e lm="boucler" r="LR"><i>boucl</i><par n="abaiss/er__vblex"/></e>
     <e lm="bouffer"><i>bouff</i><par n="abaiss/er__vblex"/></e>
-    <e lm="bouger" r="LR"><i>boug</i><par n="allong/er__vblex"/></e>
+    <e lm="bouger"><i>boug</i><par n="allong/er__vblex"/></e>
     <e lm="bouillir"><i>bou</i><par n="bou/illir__vblex"/></e>
     <e lm="bouler" r="LR"><i>boul</i><par n="abaiss/er__vblex"/></e>
     <e lm="bouleverser"><i>boulevers</i><par n="abaiss/er__vblex"/></e>
@@ -14649,14 +14651,14 @@
     <e lm="carboniser"><i>carbonis</i><par n="abaiss/er__vblex"/></e>
     <e lm="caresser"><i>caress</i><par n="abaiss/er__vblex"/></e>
     <e lm="caricaturer"><i>caricatur</i><par n="abaiss/er__vblex"/></e>
-    <e lm="carrer" r="LR"><i>carr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="carrer"><i>carr</i><par n="abaiss/er__vblex"/></e>
     <e lm="caser"><i>cas</i><par n="abaiss/er__vblex"/></e>
     <e lm="caserner"><i>casern</i><par n="abaiss/er__vblex"/></e>
     <e lm="casser"><i>cass</i><par n="abaiss/er__vblex"/></e>
     <e lm="casser sa pipe"><i>cass</i><par n="abaiss/er__vblex"/><p><l><b/>sa<b/>pipe</l><r><g><b/>sa<b/>pipe</g></r></p></e>
     <e lm="castrer"><i>castr</i><par n="abaiss/er__vblex"/></e>
     <e lm="cataloguer"><i>catalogu</i><par n="abaiss/er__vblex"/></e>
-    <e lm="catastropher" r="LR"><i>catastroph</i><par n="abaiss/er__vblex"/></e>
+    <e lm="catastropher"><i>catastroph</i><par n="abaiss/er__vblex"/></e>
     <e lm="causer"><i>caus</i><par n="abaiss/er__vblex"/></e>
     <e lm="cautionner"><i>cautionn</i><par n="abaiss/er__vblex"/></e>
     <e lm="caver"><i>cav</i><par n="abaiss/er__vblex"/></e>
@@ -14668,7 +14670,7 @@
     <e lm="censurer"><i>censur</i><par n="abaiss/er__vblex"/></e>
     <e lm="centraliser"><i>centralis</i><par n="abaiss/er__vblex"/></e>
     <e lm="centrer"><i>centr</i><par n="abaiss/er__vblex"/></e>
-    <e lm="cercler" r="LR"><i>cercl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="cercler"><i>cercl</i><par n="abaiss/er__vblex"/></e>
     <e lm="certifier"><i>certifi</i><par n="abaiss/er__vblex"/></e>
     <e lm="cesser"><i>cess</i><par n="abaiss/er__vblex"/></e>
     <e lm="chamarrer"><i>chamarr</i><par n="abaiss/er__vblex"/></e>
@@ -14678,20 +14680,20 @@
     <e lm="chanter"><i>chant</i><par n="abaiss/er__vblex"/></e>
     <e lm="chapitrer"><i>chapitr</i><par n="abaiss/er__vblex"/></e>
     <e lm="charger"><i>charg</i><par n="allong/er__vblex"/></e>
-    <e lm="charmer" r="LR"><i>charm</i><par n="abaiss/er__vblex"/></e>
+    <e lm="charmer"><i>charm</i><par n="abaiss/er__vblex"/></e>
     <e lm="chasser"><i>chass</i><par n="abaiss/er__vblex"/></e>
     <e lm="chauffer"><i>chauff</i><par n="abaiss/er__vblex"/></e>
     <e lm="chausser"><i>chauss</i><par n="abaiss/er__vblex"/></e>
     <e lm="chavirer"><i>chavir</i><par n="abaiss/er__vblex"/></e>
-    <e lm="cheminer" r="LR"><i>chemin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="cheminer"><i>chemin</i><par n="abaiss/er__vblex"/></e>
     <e lm="chemiser" r="LR"><i>chemis</i><par n="abaiss/er__vblex"/></e>
     <e lm="chercher"><i>cherch</i><par n="abaiss/er__vblex"/></e>
     <e lm="chercher à"><i>cherch</i><par n="abaiss/er__vblex"/><p><l><b/>à</l><r><g><b/>à</g></r></p></e>
     <e lm="chevaucher"><i>chevauch</i><par n="abaiss/er__vblex"/></e>
     <e lm="chier"><i>chi</i><par n="abaiss/er__vblex"/></e>
     <e lm="chiffrer"><i>chiffr</i><par n="abaiss/er__vblex"/></e>
-    <e lm="chiner" r="LR"><i>chin</i><par n="abaiss/er__vblex"/></e>
-    <e lm="choir" r="LR"><i>ch</i><par n="ch/oir__vblex"/></e>
+    <e lm="chiner"><i>chin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="choir"><i>ch</i><par n="ch/oir__vblex"/></e>
     <e lm="choisir"><i>chois</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="choquer"><i>choqu</i><par n="abaiss/er__vblex"/></e>
     <e lm="chorégraphier"><i>chorégraphi</i><par n="abaiss/er__vblex"/></e>
@@ -14795,7 +14797,7 @@
     <e lm="consommer"><i>consomm</i><par n="abaiss/er__vblex"/></e>
     <e lm="constater"><i>constat</i><par n="abaiss/er__vblex"/></e>
     <e lm="constituer"><i>constitu</i><par n="abaiss/er__vblex"/></e>
-    <e lm="construire" r="LR"><i>construi</i><par n="condui/re__vblex"/></e>
+    <e lm="construire"><i>construi</i><par n="condui/re__vblex"/></e>
     <e lm="consulter"><i>consult</i><par n="abaiss/er__vblex"/></e>
     <e lm="consumer"><i>consum</i><par n="abaiss/er__vblex"/></e>
     <e lm="contacter"><i>contact</i><par n="abaiss/er__vblex"/></e>
@@ -14803,12 +14805,12 @@
     <e lm="contempler"><i>contempl</i><par n="abaiss/er__vblex"/></e>
     <e lm="contenir"><i>cont</i><par n="appart/enir__vblex"/></e>
     <e lm="contenter"><i>content</i><par n="abaiss/er__vblex"/></e>
-    <e lm="conter" r="LR"><i>cont</i><par n="abaiss/er__vblex"/></e>
+    <e lm="conter"><i>cont</i><par n="abaiss/er__vblex"/></e>
     <e lm="contester" r="LR"><i>contest</i><par n="abaiss/er__vblex"/></e>
     <e lm="continuer"><i>continu</i><par n="abaiss/er__vblex"/></e>
     <e lm="contourner" r="LR"><i>contourn</i><par n="abaiss/er__vblex"/></e>
     <e lm="contracter"><i>contract</i><par n="abaiss/er__vblex"/></e>
-    <e lm="contraindre" r="LR"><i>contrai</i><par n="cei/ndre__vblex"/></e>
+    <e lm="contraindre"><i>contrai</i><par n="cei/ndre__vblex"/></e>
     <e lm="contrarier"><i>contrari</i><par n="abaiss/er__vblex"/></e>
     <e lm="contraster"><i>contrast</i><par n="abaiss/er__vblex"/></e>
     <e lm="contredire"><i>contred</i><par n="contred/i[]re__vblex" prm=""/></e>
@@ -15289,7 +15291,7 @@
     <e lm="escompter"><i>escompt</i><par n="abaiss/er__vblex"/></e>
     <e lm="escorter"><i>escort</i><par n="abaiss/er__vblex"/></e>
     <e lm="espacer"><i>espa</i><par n="annon/cer__vblex"/></e>
-    <e lm="espérer" r="LR"><i>esp</i><par n="accél/é[R]er__vblex" prm="r"/></e>
+    <e lm="espérer"><i>esp</i><par n="accél/é[R]er__vblex" prm="r"/></e>
     <e lm="essayer"><i>essa</i><par n="bala/yer__vblex"/></e>
     <e lm="essouffler" r="LR"><i>essouffl</i><par n="abaiss/er__vblex"/></e>
     <e lm="estimer"><i>estim</i><par n="abaiss/er__vblex"/></e>
@@ -16101,7 +16103,7 @@
     <e lm="proposer"><i>propos</i><par n="abaiss/er__vblex"/></e>
     <e lm="protéger"><i>prot</i><par n="abr/é[G]er__vblex" prm="g"/></e>
     <e lm="protester"><i>protest</i><par n="abaiss/er__vblex"/></e>
-    <e lm="prouver" r="LR"><i>prouv</i><par n="abaiss/er__vblex"/></e>
+    <e lm="prouver"><i>prouv</i><par n="abaiss/er__vblex"/></e>
     <e lm="provenir"><i>prov</i><par n="appart/enir__vblex"/></e>
     <e lm="provoquer"><i>provoqu</i><par n="abaiss/er__vblex"/></e>
     <e lm="publier"><i>publi</i><par n="abaiss/er__vblex"/></e>
@@ -16152,7 +16154,7 @@
     <e lm="rattacher"><i>rattach</i><par n="abaiss/er__vblex"/></e>
     <e lm="rattraper"><i>rattrap</i><par n="abaiss/er__vblex"/></e>
     <e lm="ravager"><i>ravag</i><par n="allong/er__vblex"/></e>
-    <e lm="ravir" r="LR"><i>rav</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="ravir"><i>rav</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="rayer"><i>ra</i><par n="bala/yer__vblex"/></e>
     <e lm="rayonner"><i>rayonn</i><par n="abaiss/er__vblex"/></e>
     <e lm="réactiver"><i>réactiv</i><par n="abaiss/er__vblex"/></e>
@@ -16681,6 +16683,48 @@
     <e lm="vouloir"><i>v</i><par n="v/ouloir__vblex"/></e>
     <e lm="vouloir sa part du gâteau"><i>v</i><par n="v/ouloir__vblex"/><p><l><b/>sa<b/>part<b/>du<b/>gâteau</l><r><g><b/>sa<b/>part<b/>du<b/>gâteau</g></r></p></e>
     <e lm="voyager"><i>voyag</i><par n="allong/er__vblex"/></e>
+      
+    <e lm="abasourdir"><i>abasourd</i><par n="about/[]ir__vblex" prm=""/></e>
+      <e lm="abolir"><i>abol</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="adjoindre"><i>adjoi</i><par n="cei/ndre__vblex"/></e>
+    <e lm="advenir"><i>adv</i><par n="appart/enir__vblex"/></e>
+    <e lm="agacer"><i>aga</i><par n="annon/cer__vblex"/></e>
+    <e lm="bêler"><i>bêl</i><par n="abaiss/er__vblex"/></e>
+      <e lm="bénir"><i>bêl</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="blaguer"><i>blagu</i><par n="abaiss/er__vblex"/></e>
+      <e lm="blanchir"><i>blanch</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="brosser"><i>bross</i><par n="abaiss/er__vblex"/></e>
+    <e lm="casser"><i>cass</i><par n="abaiss/er__vblex"/></e>
+      <e lm="chérir"><i>chér</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="chuchoter"><i>chuchot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="absoudre"><i>abso</i><par n="réso/udre__vblex" prm=""/></e>
+    <e lm="abasourdir"><i>abasourd</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="enduire"><i>endui</i><par n="condui/re__vblex"/></e>
+    <e lm="enjoindre"><i>enjoi</i><par n="cei/ndre__vblex"/></e>
+    <e lm="essuyer"><i>essu</i><par n="bala/yer__vblex"/></e>
+    <e lm="explorer"><i>explor</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fendre"><i>f</i><par n="appr/endre__vblex"/></e>
+    <e lm="fier"><i>fi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="gronder"><i>grond</i><par n="abaiss/er__vblex"/></e>
+      <e lm="maigrir"><i>maigr</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="moquer"><i>moqu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="mordre"><i>mor</i><par n="mou/dre__vblex"/></e>
+    <e lm="ficheler"><i>fich</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+
+    <e lm="oindre"><i>oi</i><par n="cei/ndre__vblex"/></e>
+    <e lm="omettre"><i>om</i><par n="adm/ettre__vblex"/></e>
+    <e lm="oser"><i>os</i><par n="abaiss/er__vblex"/></e>
+    <e lm="peigner"><i>peign</i><par n="abaiss/er__vblex"/></e>
+    <e lm="plaisanter"><i>plaisant</i><par n="abaiss/er__vblex"/></e>
+    <e lm="plier"><i>pli</i><par n="abaiss/er__vblex"/></e>
+    <e lm="proscrire"><i>proscri</i><par n="condui/re__vblex"/></e>
+    <e lm="puer"><i>pu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="sucer"><i>su</i><par n="annon/cer__vblex"/></e>
+    <e lm="tondre"><i>to</i><par n="cei/ndre__vblex"/></e>
+    <e lm="souiller"><i>souill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tousser"><i>touss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tonner"><i>tonn</i><par n="abaiss/er__vblex"/></e>
+
 
     <!-- VERBS: END -->
 
