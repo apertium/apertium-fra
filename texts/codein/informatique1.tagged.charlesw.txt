@@ -91,7 +91,7 @@
 ^sur/sur<pr>$
 ^le/le<det><def><m><sg>$
 ^terrain/terrain<n><m><sg>$
-^./.<sent>$ 
+^./.<sent>$
 ^Certains/Certain<det><ind><m><pl>$
 ^domaines/domaine<n><m><pl>$
 ^de/de<pr>$
@@ -117,7 +117,7 @@
 ^un/un<det><ind><m><sg>$
 ^public/public<n><m><sg>$
 ^profane/profane<adj><m><sg>$
-^./.<sent>$ 
+^./.<sent>$
 ^Ainsi/Ainsi<adv>$
 ^,/,<cm>$
 ^la/le<det><def><f><sg>$
@@ -210,7 +210,7 @@
 ^traiter/traiter<vblex><inf>$
 ^des/de<pr>+le<det><def><mf><pl>$
 ^informations/information<n><f><pl>$
-^./.<sent>$ 
+^./.<sent>$
 ^Dans/Dans<pr>$
 ^le/le<det><def><m><sg>$
 ^vocabulaire/vocabulaire<n><m><sg>$
@@ -218,14 +218,14 @@
 ^américain/américain<adj><m><sg>$
 ^,/,<cm>$
 ^il/il<prn><tn><p3><m><sg>$
-^désigne/désigner<vblex><pri><p3><sg>$ 
+^désigne/désigner<vblex><pri><p3><sg>$
 ^surtout/surtout<adv>$
 ^l'/le<det><def><mf><sg>$
 ^informatique/informatique<adj><mf><sg>$
 ^théorique/théorique<adj><mf><sg>$
 ^:/:<sent>$
 ^un/un<det><ind><m><sg>$
-^ensemble/ensemble<adv>/ensemble<n><m><sg>$
+^ensemble/ensemble<n><m><sg>$
 ^de/de<pr>$
 ^sciences/science<n><f><pl>$
 ^formelles/formel<adj><f><pl>$
@@ -247,7 +247,7 @@
 ^,/,<cm>$
 ^l'/le<det><def><mf><sg>$
 ^algorithmique/algorithmique<adj><mf><sg>$
-^./.<sent>$ 
+^./.<sent>$
 ^Par/Par<pr>$
 ^extension/extension<n><f><sg>$
 ^,/,<cm>$
@@ -284,7 +284,7 @@
 ^informatique/informatique<adj><mf><sg>$
 ^n'/ne<adv>$
 ^est/être<vbser><pri><p3><sg>$
-^pas/pas<adv>/pas<n><m><sp>$
+^pas/pas<adv>$
 ^plus/plus<adv>$
 ^la/le<det><def><f><sg>$
 ^science/science<n><f><sg>$
@@ -338,7 +338,7 @@
 ^communication/communication<n><f><sg>$
 ^./.<sent>$
 ¶
-^En/En<pr>/En<prn><pro><adv>$
+^En/En<pr>$
 ^1957/1957<num>$
 ^,/,<cm>$
 ^le/le<det><def><m><sg>$
@@ -422,7 +422,7 @@
 ^(/(<lpar>$
 ^SIA/*SIA$
 ^)/)<rpar>$
-^./.<sent>$ 
+^./.<sent>$
 ^Ce/Ce<prn><tn><nt><sg>$
 ^néologisme/néologisme<n><m><sg>$
 ^est/être<vbser><pri><p3><sg>$
@@ -517,7 +517,7 @@
 ^au/à<pr>+le<det><def><m><sg>$
 ^sens/sens<n><m><sp>$
 ^propre/propre<adj><mf><sg>$
-^./.<sent>$ 
+^./.<sent>$
 ^L’/Le<det><def><mf><sg>$
 ^Association/Association<n><f><sg>$
 ^for/*for$
@@ -556,7 +556,7 @@
 ^décline/décliner<vblex><pri><p3><sg>$
 ^la/le<det><def><f><sg>$
 ^proposition/proposition<n><f><sg>$
-^./.<sent>$ 
+^./.<sent>$
 ^La/Le<det><def><f><sg>$
 ^société/société<n><f><sg>$
 ^Informatics/*Informatics$
