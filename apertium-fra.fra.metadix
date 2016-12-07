@@ -16680,22 +16680,17 @@
     <e lm="vouloir"><i>v</i><par n="v/ouloir__vblex"/></e>
     <e lm="vouloir sa part du gâteau"><i>v</i><par n="v/ouloir__vblex"/><p><l><b/>sa<b/>part<b/>du<b/>gâteau</l><r><g><b/>sa<b/>part<b/>du<b/>gâteau</g></r></p></e>
     <e lm="voyager"><i>voyag</i><par n="allong/er__vblex"/></e>
-      
-    <e lm="abasourdir"><i>abasourd</i><par n="about/[]ir__vblex" prm=""/></e>
-      <e lm="abolir"><i>abol</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="adjoindre"><i>adjoi</i><par n="cei/ndre__vblex"/></e>
     <e lm="advenir"><i>adv</i><par n="appart/enir__vblex"/></e>
     <e lm="agacer"><i>aga</i><par n="annon/cer__vblex"/></e>
     <e lm="bêler"><i>bêl</i><par n="abaiss/er__vblex"/></e>
-      <e lm="bénir"><i>bêl</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="bénir"><i>bêl</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="blaguer"><i>blagu</i><par n="abaiss/er__vblex"/></e>
-      <e lm="blanchir"><i>blanch</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="blanchir"><i>blanch</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="brosser"><i>bross</i><par n="abaiss/er__vblex"/></e>
-    <e lm="casser"><i>cass</i><par n="abaiss/er__vblex"/></e>
-      <e lm="chérir"><i>chér</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="chérir"><i>chér</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="chuchoter"><i>chuchot</i><par n="abaiss/er__vblex"/></e>
     <e lm="absoudre"><i>abso</i><par n="réso/udre__vblex" prm=""/></e>
-    <e lm="abasourdir"><i>abasourd</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="enduire"><i>endui</i><par n="condui/re__vblex"/></e>
     <e lm="enjoindre"><i>enjoi</i><par n="cei/ndre__vblex"/></e>
     <e lm="essuyer"><i>essu</i><par n="bala/yer__vblex"/></e>
@@ -16703,11 +16698,10 @@
     <e lm="fendre"><i>f</i><par n="appr/endre__vblex"/></e>
     <e lm="fier"><i>fi</i><par n="abaiss/er__vblex"/></e>
     <e lm="gronder"><i>grond</i><par n="abaiss/er__vblex"/></e>
-      <e lm="maigrir"><i>maigr</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="maigrir"><i>maigr</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="moquer"><i>moqu</i><par n="abaiss/er__vblex"/></e>
     <e lm="mordre"><i>mor</i><par n="mou/dre__vblex"/></e>
     <e lm="ficheler"><i>fich</i><par n="ach/e[T]er__vblex" prm="l"/></e>
-
     <e lm="oindre"><i>oi</i><par n="cei/ndre__vblex"/></e>
     <e lm="omettre"><i>om</i><par n="adm/ettre__vblex"/></e>
     <e lm="oser"><i>os</i><par n="abaiss/er__vblex"/></e>
@@ -28299,7 +28293,7 @@
     <e lm="au point que" r="LR"><p><l>au<b/>point<b/><a/>qu'</l><r>au<b/>point<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="au prétexte de" a="webform" r="LR"><p><l>au<b/>prétexte<b/>d'</l><r>au<b/>prétexte<b/>de<s n="pr"/></r></p></e>
     <e lm="au profit de" r="LR"><p><l>au<b/>profit<b/>d'</l><r>au<b/>profit<b/>de<s n="pr"/></r></p></e>
-    <e lm="aussi bien que" a="webform" r="LR"><p><l>aussi<b/>bien<b/>qu'</l><r>aussi<b/>bien<b/>que<s n="cnjadv"/></r></p></e> 
+    <e lm="aussi bien que" a="webform" r="LR"><p><l>aussi<b/>bien<b/>qu'</l><r>aussi<b/>bien<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="aussi bien que" r="LR"><p><l>aussi<b/>bien<b/><a/>qu'</l><r>aussi<b/>bien<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="aussi longtemps que" r="LR"><p><l>aussi<b/>longtemps<b/><a/>qu'</l><r>aussi<b/>longtemps<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="aussitôt que" r="LR"><p><l>aussitôt<b/><a/>qu'</l><r>aussitôt<b/>que</r></p><par n="afin_que__cnjadv"/></e>
@@ -28362,7 +28356,7 @@
     <e lm="jusqu'à ce que" r="LR"><p><l>jusqu'à<b/>ce<b/><a/>qu'</l><r>jusqu'à<b/>ce<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="jusque" r="LR"><p><l>jusqu'</l><r>jusque<s n="pr"/></r></p></e>
     <e lm="lors de" r="LR"><p><l>lors<b/>d'</l><r>lors<b/>de<s n="pr"/></r></p></e>
-    <e lm="lors même que" a="webform" r="LR"><p><l>lors<b/>même<b/>qu'</l><r>lors<b/>même<b/>que<s n="cnjadv"/></r></p></e>           
+    <e lm="lors même que" a="webform" r="LR"><p><l>lors<b/>même<b/>qu'</l><r>lors<b/>même<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="lorsque" r="LR"><p><l>lorsqu'</l><r>lorsque<s n="cnjadv"/></r></p></e>
     <e lm="maintenant que" r="LR"><p><l>maintenant<b/><a/>qu'</l><r>maintenant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="malgré le fait que" r="LR"><p><l>malgré<b/>le<b/>fait<b/><a/>qu'</l><r>malgré<b/>le<b/>fait<b/>que</r></p><par n="afin_que__cnjadv"/></e>
@@ -28403,7 +28397,7 @@
     <e lm="sous prétexte que" r="LR"><p><l>sous<b/>prétexte<b/><a/>qu'</l><r>sous<b/>prétexte<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="suivant que" r="LR"><p><l>suivant<b/><a/>qu'</l><r>suivant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="sur la rêquete de" a="webform" r="LR"><p><l>sur<b/>la<b/>rêquete<b/>d'</l><r>sur<b/>la<b/>rêquete<b/>de<s n="pr"/></r></p></e>
-    <e lm="tel que" r="LR"><p><l>tel<b/><a/>qu'</l><r>tel<b/>que</r></p><par n="afin_que__cnjadv"/></e> 
+    <e lm="tel que" r="LR"><p><l>tel<b/><a/>qu'</l><r>tel<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="tandis que" r="LR"><p><l>tandis<b/>qu'</l><r>tandis<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="tant que" r="LR"><p><l>tant<b/><a/>qu'</l><r>tant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="vu que" r="LR"><p><l>vu<b/>qu'</l><r>vu<b/>que<s n="cnjadv"/></r></p></e>
