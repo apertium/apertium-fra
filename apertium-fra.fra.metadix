@@ -10580,7 +10580,7 @@
     <e lm="maure"><i>maure</i><par n="artiste__n"/></e>
     <e lm="mausolée"><i>mausolée</i><par n="livre__n"/></e>
     <e lm="mauvais traitement"><i>mauvais<b/>traitement</i><par n="livre__n"/></e>
-    <e lm="mauvais traitements"><i>mauvais<b/>traitements</i><par n="abords__n"/></e>
+    <e lm="mauvais traitement"><i>mauvais<b/>traitements</i><par n="abords__n"/></e>
     <e lm="maximum"><i>maximum</i><par n="livre__n"/></e>
     <e lm="MDA"><i>MDA</i><par n="BBVA__n"/></e>
     <e lm="méandre"><i>méandre</i><par n="abeille__n"/></e>
@@ -11327,9 +11327,9 @@
     <e lm="pas"><i>pas</i><par n="mois__n"/></e>
     <e lm="passage"><i>passage</i><par n="livre__n"/></e>
     <e lm="passager clandestin"><i>passager<b/>clandestin</i><par n="personnel__n"/></e>
-    <e lm="passager clandestin"><p><l>passagère<b/>clandestine</l><r>passager<b/>clandestin</r></p><par n="soif__n"/></e>
-    <e lm="passager clandestin"><p><l>passagères<b/>clandestines</l><r>passager<b/>clandestin</r></p><par n="vacances__n"/></e>
     <e lm="passager clandestin"><p><l>passagers<b/>clandestins</l><r>passager<b/>clandestin</r></p><par n="abords__n"/></e>
+    <e lm="passager clandestin"><p><l>passagère<b/>clandestine</l><r>passagère<b/>clandestine</r></p><par n="soif__n"/></e>
+    <e lm="passager clandestin"><p><l>passagères<b/>clandestines</l><r>passagère<b/>clandestine</r></p><par n="vacances__n"/></e>
     <e lm="passant"><i>passant</i><par n="affecté__n"/></e>
     <e lm="passation"><i>passation</i><par n="livre__n"/></e>
     <e lm="passé"><i>passé</i><par n="livre__n"/></e>
