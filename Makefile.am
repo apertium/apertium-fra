@@ -102,7 +102,13 @@ $(TAGGERDIR)/$(LANG1).crp.txt:
 	touch $(TAGGERDIR)/$(LANG1).crp.txt
 
 $(TAGGERDIR)/$(LANG1).tagged:
-	cat texts/**/*tagged* > $@
+	for f in $$(cat texts/TRAINING); do \
+		if [ -e "$$f" ]; then \
+			cat "$$f" >> $@; \
+		else \
+			cat "$$f" > $@; \
+		fi \
+	done
 
 $(TAGGERDIR)/$(LANG1).tagged.txt: $(TAGGERDIR)/$(LANG1).tagged
 	cat $< | cut -f2 -d'^' | cut -f1 -d'/' > $@
