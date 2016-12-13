@@ -75,6 +75,7 @@
     <sdef n="ND" />
     <sdef n="ppres" />
     <sdef n="un" c="No gender"/><!-- temporal stub for the words with NOT YET defined gender -->
+    <sdef n="org"/>
   </sdefs>
 
   <pardefs>
@@ -376,13 +377,6 @@
       <e><p><l>le</l>               <r><s n="adj"/><s n="itg"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>s</l>                <r><s n="adj"/><s n="itg"/><s n="m"/><s n="pl"/></r></p></e>
       <e><p><l/>                    <r><s n="adj"/><s n="itg"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
-
-    <pardef n="pèlerin__adj">
-      <e><p><l>es</l>               <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>e</l>                <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l>                <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l/>                    <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="académique__adj">
@@ -872,6 +866,10 @@
 
     <pardef n="États-Unis__np">
       <e><p><l></l><r><s n="np"/><s n="top"/><s n="m"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="Agence__np">
+      <e><p><l></l><r><s n="np"/><s n="org"/><s n="f"/></r></p></e>
     </pardef>
 
     <pardef n="cent__num">
@@ -9114,6 +9112,7 @@
     <e lm="fauve"><i>fauve</i><par n="livre__n"/></e>
     <e lm="faux billet"><i>faux<b/>billet</i><par n="livre__n"/></e>
     <e lm="faux-départ"><i>faux-départ</i><par n="livre__n"/></e>
+    <e lm="faux pas"><i>faux<b/>pas</i><par n="mois__n"/></e>
     <e lm="faveur"><i>faveur</i><par n="abeille__n"/></e>
     <e lm="fax"><i>fax</i><par n="mois__n"/></e>
     <e lm="FBI"><i>FBI</i><par n="BBVA__n"/></e>
@@ -17845,7 +17844,7 @@
     <e lm="gestuel"><i>gestuel</i><par n="annuel__adj"/></e>
     <e lm="gigantesque"><i>gigantesque</i><par n="académique__adj"/></e>
     <e lm="glissant"><i>glissant</i><par n="abaissant__adj"/></e>
-    <e lm="globale"><i>globale</i><par n="académique__adj"/></e>
+    <e lm="global"><i>global</i><par n="abaissant__adj"/></e>
     <e lm="glorieux"><i>glorieu</i><par n="affectueu/x__adj"/></e>
     <e lm="gothique"><i>gothique</i><par n="académique__adj"/></e>
     <e lm="gourmand"><i>gourmand</i><par n="abaissant__adj"/></e>
@@ -18533,7 +18532,7 @@
     <e lm="payeur"><i>payeu</i><par n="causeu/r__adj"/></e>
     <e lm="pêcheur"><i>pêcheu</i><par n="causeu/r__adj"/></e>
     <e lm="pécuniaire"><i>pécuniaire</i><par n="académique__adj"/></e>
-    <e lm="pèlerin"><i>pèlerin</i><par n="pèlerin__adj"/></e>
+    <e lm="pèlerin"><i>pèlerin</i><par n="abaissant__adj"/></e>
     <e lm="pénale"><i>pénale</i><par n="académique__adj"/></e>
     <e lm="pénal"><i>pénal</i><par n="abaissant__adj"/></e>
     <e lm="pendant"><i>pendant</i><par n="abaissant__adj"/></e>
