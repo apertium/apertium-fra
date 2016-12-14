@@ -61,6 +61,9 @@
   <def-label name="TOPONIM">
     <tags-item tags="np.top.*"/><!-- gender must be specified for French toponyms! -->
   </def-label>
+  <def-label name="ORGANISATION">
+    <tags-item tags="np.org.*"/><!-- gender must be specified for French organisations! -->
+  </def-label>
   <def-label name="NPALTRES">
     <tags-item tags="np.al"/>
   </def-label>
@@ -73,6 +76,11 @@
   </def-label>
   <def-label name="PREP" closed="true">
     <tags-item tags="pr"/>
+  </def-label>
+  <def-label name="PRN" closed="true">
+    <tags-item tags="prn.p1.*"/>
+    <tags-item tags="prn.p2.*"/>
+    <tags-item tags="prn.p3.*"/>
   </def-label>
   <def-label name="PRNTNNT" closed="true">
     <tags-item tags="prn.tn.nt"/>
