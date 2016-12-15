@@ -17,6 +17,7 @@
 /fra.prob -text svneol=unset#unset
 /modes.xml -text svneol=unset#text/plain
 /principal.xsl -text svneol=unset#text/plain
+/tagger.make -text
 texts/TRAINING -text
 texts/codein/comedie_musicale1.analysed.txt -text
 texts/codein/comedie_musicale1.tagged.charlesw.txt -text
