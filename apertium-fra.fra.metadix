@@ -8687,7 +8687,7 @@
     <e lm="éloignement" r="LR"><p><l>Eloignement</l><r>éloignement</r></p><par n="livre__n"/></e>
     <e lm="élucidation"><i>élucidation</i><par n="abeille__n"/></e>
     <e lm="e-mail"><i>e-mail</i><par n="livre__n"/></e>
-    <e lm="email"><i>email</i><par n="livre__n"/></e>
+    <e lm="email" r="LR"><p><l>email</l><r>e-mail</r></p><par n="livre__n"/></e>
     <e lm="émanation"><i>émanation</i><par n="abeille__n"/></e>
     <e lm="émancipation"><i>émancipation</i><par n="abeille__n"/></e>
     <e lm="emballage"><i>emballage</i><par n="livre__n"/></e>
