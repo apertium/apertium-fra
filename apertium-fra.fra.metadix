@@ -869,7 +869,7 @@
     </pardef>
 
     <pardef n="Agence__np">
-      <e><p><l></l><r><s n="np"/><s n="org"/><s n="f"/></r></p></e>
+      <e><p><l></l><r><s n="np"/><s n="org"/><s n="f"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="cent__num">
