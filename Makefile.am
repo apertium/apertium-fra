@@ -27,11 +27,11 @@ $(LANG1).xsl: $(BASENAME).$(LANG1).metadix buscaPar.xsl
 	xsltproc $< $(BASENAME).$(LANG1).metadix > $@.tmp
 	mv $@.tmp $@
 
-$(LANG1).autogen.bin: .deps/$(LANG1).dix
+$(LANG1).autogen.bin: .deps/$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
 	lt-comp rl $< $@ $(BASENAME).$(LANG1).acx
 
-$(LANG1).automorf.bin: .deps/$(LANG1).dix
+$(LANG1).automorf.bin: .deps/$(LANG1).dix $(BASENAME).$(LANG1).acx
 	apertium-validate-dictionary $<
 	lt-comp lr $< $@ $(BASENAME).$(LANG1).acx
 
