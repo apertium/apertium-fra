@@ -6662,6 +6662,7 @@
     <e lm="artificier"><i>artificier</i><par n="livre__n"/></e>
     <e lm="artisan"><i>artisan</i><par n="affecté__n"/></e>
     <e lm="artiste"><i>artiste</i><par n="artiste__n"/></e>
+     <e lm="ascenseur" a="joan"><i>ascenseur</i><par n="livre__n"/></e>
     <e lm="ascension"><i>ascension</i><par n="abeille__n"/></e>
     <e lm="as"><i>as</i><par n="mois__n"/></e>
     <e lm="aspect"><i>aspect</i><par n="livre__n"/></e>
@@ -7421,6 +7422,7 @@
     <e lm="chercheur"><i>chercheu</i><par n="causeu/r__n"/></e>
     <e lm="chevalet"><i>chevalet</i><par n="livre__n"/></e>
     <e lm="cheval"><i>cheva</i><par n="anima/l__n"/></e>
+    <e lm="chevalier" a="joan"><i>chevalier</i><par n="livre__n"/></e>
     <e lm="chevelure"><i>chevelure</i><par n="abeille__n"/></e>
     <e lm="cheveu"><i>cheveu</i><par n="lieu__n"/></e>
     <e lm="cheville"><i>cheville</i><par n="abeille__n"/></e>
@@ -8064,6 +8066,8 @@
     <e lm="cycliste"><i>cycliste</i><par n="artiste__n"/></e>
     <e lm="cyclo-cross"><i>cyclo-cross</i><par n="mois__n"/></e>
     <e lm="cyclone"><i>cyclone</i><par n="livre__n"/></e>
+    <e lm="cygne" a="joan"><i>cigne</i><par n="livre__n"/></e>
+    <e lm="cylindre" a="joan"><i>cylindre</i><par n="livre__n"/></e>
     <e lm="cyprès" c="cipreses"><i>cyprès</i><par n="mois__n"/></e>
     <e lm="CZE"><i>CZE</i><par n="BBC__n"/></e>
     <e lm="daim"><i>daim</i><par n="livre__n"/></e>
@@ -8350,6 +8354,7 @@
     <e lm="dialecte"><i>dialecte</i><par n="livre__n"/></e>
     <e lm="dialogue"><i>dialogue</i><par n="livre__n"/></e>
     <e lm="diamant"><i>diamant</i><par n="livre__n"/></e>
+    <e lm="diamétralement" a="joan"><i>diamétralement</i><par n="hier__adv"/></e>
     <e lm="diamètre"><i>diamètre</i><par n="livre__n"/></e>
     <e lm="diarrhée"><i>diarrhée</i><par n="abeille__n"/></e>
     <e lm="diaspora"><i>diaspora</i><par n="abeille__n"/></e>
@@ -8576,6 +8581,7 @@
     <e lm="écolier" r="LR"><p><l>Ecoli</l><r>écoli</r></p><par n="bouch/er__n"/></e>
     <e lm="écologie"><i>écologie</i><par n="abeille__n"/></e>
     <e lm="écologie" r="LR"><p><l>Ecologie</l><r>écologie</r></p><par n="abeille__n"/></e>
+    <e lm="écologisme" a="joan"><i>écologisme</i><par n="livre__n"/></e>
     <e lm="écologiste"><i>écologiste</i><par n="artiste__n"/></e>
     <e lm="économie"><i>économie</i><par n="abeille__n"/></e>
     <e lm="économie" r="LR"><p><l>Economie</l><r>économie</r></p><par n="abeille__n"/></e>
@@ -8875,6 +8881,7 @@
     <e lm="érection"><i>érection</i><par n="abeille__n"/></e>
     <e lm="ère"><i>ère</i><par n="abeille__n"/></e>
     <e lm="ermite"><i>ermite</i><par n="livre__n"/></e>
+    <e lm="érotisme" a="joan"><i>érotisme</i><par n="livre__n"/></e>
     <e lm="erreur"><i>erreur</i><par n="abeille__n"/></e>
     <e lm="ertzaina"><i>ertzaina</i><par n="livre__n"/></e>
     <e lm="érudition"><i>érudition</i><par n="abeille__n"/></e>
@@ -8923,6 +8930,7 @@
     <e lm="étalage" r="LR"><p><l>Etalage</l><r>étalage</r></p><par n="livre__n"/></e>
     <e lm="étambot"><i>étambot</i><par n="livre__n"/></e>
     <e lm="étanchéité"><i>étanchéité</i><par n="abeille__n"/></e>
+    <e lm="étang" a="joan"><i>étang</i><par n="livre__n"/></e> 
     <e lm="étape"><i>étape</i><par n="abeille__n"/></e>
     <e lm="étape" r="LR"><p><l>Etape</l><r>étape</r></p><par n="abeille__n"/></e>
     <e lm="état"><i>état</i><par n="livre__n"/></e>
@@ -9182,6 +9190,7 @@
     <e lm="festival"><i>festival</i><par n="livre__n"/></e>
     <e lm="festivité"><i>festivité</i><par n="abeille__n"/></e>
     <e lm="fête"><i>fête</i><par n="abeille__n"/></e>
+    <e lm="fétiche" a="joan"><i>fétiche</i><par n="livre__n"/></e>
     <e lm="feu"><i>feu</i><par n="lieu__n"/></e>
     <e lm="feuille de paie"><i>feuille</i><par n="abeille__n"/><p><l><b/>de<b/>paie</l><r><g><b/>de<b/>paie</g></r></p></e>
     <e lm="feuille de remboursement"><i>feuille</i><par n="abeille__n"/><p><l><b/>de<b/>remboursement</l><r><g><b/>de<b/>remboursement</g></r></p></e>
@@ -9629,6 +9638,7 @@
     <e lm="hauteur"><i>hauteur</i><par n="abeille__n"/></e>
     <e lm="haut"><i>haut</i><par n="livre__n"/></e>
     <e lm="haut-parleur"><i>haut-parleur</i><par n="livre__n"/></e>
+     <e lm="havre" a="joan"><i>havre</i><par n="livre__n"/></e>
     <e lm="hébergement"><i>hébergement</i><par n="livre__n"/></e>
     <e lm="hécatombe"><i>hécatombe</i><par n="abeille__n"/></e>
     <e lm="hectare"><i>hectare</i><par n="abeille__n"/></e>
@@ -10435,6 +10445,7 @@
     <e lm="luzerne"><i>luzerne</i><par n="abeille__n"/></e>
     <e lm="LVMH"><i>LVMH</i><par n="BBVA__n"/></e>
     <e lm="lycée"><i>lycée</i><par n="livre__n"/></e>
+    <e lm="lynchage" a="joan"><i>lynchage</i><par n="livre__n"/></e>
     <e lm="lynx"><i>lynx</i><par n="mois__n"/></e>
     <e lm="lyre"><i>lyre</i><par n="abeille__n"/></e>
     <e lm="machination"><i>machination</i><par n="abeille__n"/></e>
@@ -12968,6 +12979,7 @@
     <e lm="substance"><i>substance</i><par n="abeille__n"/></e>
     <e lm="substantif"><i>substantif</i><par n="livre__n"/></e>
     <e lm="substitution"><i>substitution</i><par n="abeille__n"/></e>
+    <e lm="subterfuge" a="joan"><i>subterfuge</i><par n="livre__n"/></e>
     <e lm="subtilité"><i>subtilité</i><par n="abeille__n"/></e>
     <e lm="subvention"><i>subvention</i><par n="abeille__n"/></e>
     <e lm="succès"><i>succès</i><par n="mois__n"/></e>
@@ -13160,6 +13172,7 @@
     <e lm="tendresse"><i>tendresse</i><par n="abeille__n"/></e>
     <e lm="ténèbre"><i>ténèbre</i><par n="abeille__n"/></e>
     <e lm="tennis"><i>tennis</i><par n="mois__n"/></e>
+    <e lm="ténor" a="joan"><i>ténor</i><par n="livre__n"/></e>
     <e lm="tension"><i>tension</i><par n="abeille__n"/></e>
     <e lm="tentation"><i>tentation</i><par n="abeille__n"/></e>
     <e lm="tentative"><i>tentative</i><par n="abeille__n"/></e>
@@ -19523,7 +19536,8 @@
     <e lm="bonnement"><i>bonnement</i><par n="hier__adv"/></e>
     <e lm="bravement"><i>bravement</i><par n="hier__adv"/></e>
     <e lm="bref"><i>bref</i><par n="hier__adv"/></e>
-    <e lm="brillamment"><i>brillamment</i><par n="hier__adv"/></e>
+   <e lm="brièvement" a="joan"><i>brièvement</i><par n="hier__adv"/></e>
+   <e lm="brillamment"><i>brillamment</i><par n="hier__adv"/></e>
     <e lm="brusquement"><i>brusquement</i><par n="hier__adv"/></e>
     <e lm="brutalement"><i>brutalement</i><par n="hier__adv"/></e>
     <e lm="bruyamment"><i>bruyamment</i><par n="hier__adv"/></e>
@@ -19636,6 +19650,7 @@
     <e lm="dernièrement"><i>dernièrement</i><par n="hier__adv"/></e>
     <e lm="derrière"><i>derrière</i><par n="hier__adv"/></e>
     <e lm="désagréablement"><i>désagréablement</i><par n="hier__adv"/></e>
+    <e lm="désespérément" a="joan"><i>désespérément</i><par n="hier__adv"/></e>
     <e lm="dès à présent"><i>dès<b/>à<b/>présent</i><par n="hier__adv"/></e>
     <e lm="dès lors"><i>dès<b/>lors</i><par n="hier__adv"/></e>
     <e lm="de son plein gré"><i>de<b/>son<b/>plein<b/>gré</i><par n="hier__adv"/></e>
@@ -19681,7 +19696,8 @@
     <e lm="également"><i>également</i><par n="hier__adv"/></e>
     <e lm="également" r="LR"><p><l>Egalement</l><r>également</r></p><par n="hier__adv"/></e>
     <e lm="élégamment"><i>élégamment</i><par n="hier__adv"/></e>
-    <e lm="émotivement"><i>émotivement</i><par n="hier__adv"/></e>
+    <e lm="émotionnellement" a="joan"><i>émotionnellement</i><par n="hier__adv"/></e>
+     <e lm="émotivement"><i>émotivement</i><par n="hier__adv"/></e>
     <e lm="émotivement" r="LR"><p><l>Emotivement</l><r>émotivement</r></p><par n="hier__adv"/></e>
     <e lm="en activité"><i>en<b/>activité</i><par n="hier__adv"/></e>
     <e lm="en attendant"><i>en<b/>attendant</i><par n="hier__adv"/></e>
@@ -19779,7 +19795,8 @@
     <e lm="et encore"><i>et<b/>encore</i><par n="hier__adv"/></e>
     <e lm="éternellement"><i>éternellement</i><par n="hier__adv"/></e>
     <e lm="éternellement" r="LR"><p><l>Eternellement</l><r>éternellement</r></p><par n="hier__adv"/></e>
-    <e lm="et pour cause"><i>et<b/>pour<b/>cause</i><par n="hier__adv"/></e>
+     <e lm="étonnamment" a="joan"><i>étonnamment</i><par n="hier__adv"/></e>
+     <e lm="et pour cause"><i>et<b/>pour<b/>cause</i><par n="hier__adv"/></e>
     <e lm="et puis"><i>et<b/>puis</i><par n="hier__adv"/></e>
     <e lm="étroitement"><i>étroitement</i><par n="hier__adv"/></e>
     <e lm="étroitement" r="LR"><p><l>Etroitement</l><r>étroitement</r></p><par n="hier__adv"/></e>
@@ -19822,6 +19839,7 @@
     <e lm="globalement"><i>globalement</i><par n="hier__adv"/></e>
     <e lm="gracieusement"><i>gracieusement</i><par n="hier__adv"/></e>
     <e lm="graduellement"><i>graduellement</i><par n="hier__adv"/></e>
+    <e lm="grassement" a="joan"><i>grassement</i><par n="hier__adv"/></e>
     <e lm="gratis"><i>gratis</i><par n="hier__adv"/></e>
     <e lm="gratuitement"><i>gratuitement</i><par n="hier__adv"/></e>
     <e lm="gravement"><i>gravement</i><par n="hier__adv"/></e>
@@ -19954,6 +19972,7 @@
     <e lm="méthodiquement"><i>méthodiquement</i><par n="hier__adv"/></e>
     <e lm="mieux"><i>mieux</i><par n="hier__adv"/></e>
     <e lm="minuit"><i>minuit</i><par n="hier__adv"/></e>
+    <e lm="miraculeusement" a="joan"><i>miraculeusement</i><par n="hier__adv"/></e>
     <e lm="moi aussi"><i>moi<b/>aussi</i><par n="hier__adv"/></e>
     <e lm="moins"><i>moins</i><par n="hier__adv"/></e>
     <e lm="moins" r="LR"><i>moins</i><par n="hier__adv"/></e>
@@ -19970,6 +19989,7 @@
     <e lm="néanmoins" r="LR"><i>néanmoins</i><par n="hier__adv"/></e>
     <e lm="nécessairement"><i>nécessairement</i><par n="hier__adv"/></e>
     <e lm="négativement"><i>négativement</i><par n="hier__adv"/></e>
+   <e lm="négligemment" a="joan"><i>négligemment</i><par n="hier__adv"/></e>
     <e lm="ne" r="LR"><i>ne</i><par n="hier__adv"/></e>
     <e lm="ne" r="RL"><p><l><a/>ne</l><r>ne</r></p><par n="hier__adv"/></e>
     <e lm="nettement" r="LR"><i>nettement</i><par n="hier__adv"/></e>
@@ -20119,6 +20139,7 @@
     <e lm="selon ce qui est prévu"><i>selon<b/>ce<b/>qui<b/>est<b/>prévu</i><par n="hier__adv"/></e>
     <e lm="semestriellement"><i>semestriellement</i><par n="hier__adv"/></e>
     <e lm="sensiblement"><i>sensiblement</i><par n="hier__adv"/></e>
+    <e lm="seréinement" a="joan"><i>séreinement</i><par n="hier__adv"/></e>
     <e lm="sérieusement"><i>sérieusement</i><par n="hier__adv"/></e>
     <e lm="seulement"><i>seulement</i><par n="hier__adv"/></e>
     <e lm="sévèrement"><i>sévèrement</i><par n="hier__adv"/></e>
@@ -20168,6 +20189,7 @@
     <e lm="tardivement"><i>tardivement</i><par n="hier__adv"/></e>
     <e lm="techniquement"><i>techniquement</i><par n="hier__adv"/></e>
     <e lm="téléphoniquement"><i>téléphoniquement</i><par n="hier__adv"/></e>
+    <e lm="temporairement" a="joan"><i>temporairement</i><par n="hier__adv"/></e>
     <e lm="temporellement"><i>temporellement</i><par n="hier__adv"/></e>
     <e lm="terriblement"><i>terriblement</i><par n="hier__adv"/></e>
     <e lm="théoriquement"><i>théoriquement</i><par n="hier__adv"/></e>
