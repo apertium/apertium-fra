@@ -11,11 +11,13 @@ LIST V = vblex ;
 LIST Haver = vbhaver ;
 LIST Cm = cm ;
 LIST Det = det ;
+LIST Def = def ;
 LIST Prep = pr ;
 LIST Subj = subj ;
 LIST Prop = np ;
 LIST A = adj ;
 LIST Adv = adv ;
+LIST Num = num ;
 LIST Prs = prs ;
 LIST Pro = pro ;
 LIST Imper = imp ;
@@ -27,6 +29,7 @@ LIST Interr = itg ;
 LIST Rel = rel ;
 
 LIST Sg = sg ;
+LIST Pl = pl ;
 
 LIST Fin = pri prs pii ifi pis cni imp ;
 LIST Inf = inf ;
@@ -48,6 +51,8 @@ LIST Fil = "fil" ;
 LIST Fils = "fils" ;
 LIST Foi = "foi" ;
 LIST Fois = "fois" ;
+
+LIST À = "à" ;
 
 
 LIST Title = "<[A-Z][a-z]\+>"r ;
@@ -95,5 +100,7 @@ SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT 1 N OR A) ;
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
 
-SELECT Fois IF (0C Foi OR Fois) (-1 Sg) ;
-  ## 
+SELECT Fois IF (0C Foi OR Fois) (-1 Num) ;
+SELECT Fois IF (0C Foi OR Fois) (-1 Pl) ;
+SELECT Foi IF (0C Foi OR Fois) (NOT -2 À) (-1 Def) (-1 Sg);
+SELECT Fois IF (0C Foi OR Fois) ;
