@@ -1129,14 +1129,10 @@
     </pardef>
 
     <pardef n="/il__prn">
-      <e><p><l>elles</l>            <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>elle</l>             <r>prpers<s n="prn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ils</l>              <r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>il</l>               <r>prpers<s n="prn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>elles</l>            <r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>elle</l>             <r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>ils</l>              <r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>il</l>               <r>prpers<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>elles</l>            <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+      <e><p><l>elle</l>             <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>ils</l>              <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>il</l>               <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="dont__rel">
@@ -28231,7 +28227,10 @@
 
     <!-- MISCELLANEOUS: BEGIN -->
     <!-- pronouns, interjections, etc. -->
-    <!-- TODO: "prpers" needs serious work! -->
+    <!--
+	TODO: consider abstracting pronouns to "prpers" as other languages do (eng, deu)
+	Influenced language pairs in trunk: fra-cat.
+    -->
 
     <e lm="ah"><i>ah</i><par n="ah__ij"/></e>
     <e lm="au revoir"><i>au<b/>revoir</i><par n="ah__ij"/></e>
@@ -28301,12 +28300,12 @@
     <e lm="est-ce que" r="LR"><i>est-ce<b/>que</i><par n="que__prn"/></e>
     <e lm="est-ce que" r="RL"><p><l>est-ce<b/><a/>que</l><r>est-ce<b/>que</r></p><par n="que__prn"/></e>
     <e lm="et"><i>et</i><par n="et__cnjcoo"/></e>
-    <e lm="eux"><p><l>eux</l><r>prpers</r></p><par n="eux__prn"/></e>
+    <e lm="eux"><i>eux</i><par n="eux__prn"/></e>
     <e lm="guère" r="LR"><i>guère</i><par n="très__preadv"/></e>
     <e lm="il"><par n="/il__prn"/></e>
     <e lm="il y a"><p><l>il<b/>y<b/>a</l><r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="je" r="LR"><p><l>je</l><r>prpers</r></p><par n="je__prn"/></e>
-    <e lm="je" r="RL"><p><l><a/>je</l><r>prpers</r></p><par n="je__prn"/></e>
+    <e lm="je" r="LR"><p><l>je</l><r>je</r></p><par n="je__prn"/></e>
+    <e lm="je" r="RL"><p><l><a/>je</l><r>je</r></p><par n="je__prn"/></e>
     <e lm="le"><i>l</i><par n="l/e__prn"/></e>
     <e lm="le mien"><i>l</i><par n="l/e_mien__prn"/></e>
     <e lm="le nôtre"><i>l</i><par n="l/e_nôtre__prn"/></e>
@@ -28323,12 +28322,12 @@
     <e lm="lu et approuvé"><p><l>lue<b/>et<b/>approuvée</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="lu et approuvé"><p><l>lues<b/>et<b/>approuvées</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="lu et approuvé"><p><l>lus<b/>et<b/>approuvés</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-    <e lm="lui"><p><l>lui</l><r>prpers</r></p><par n="lui__prn"/></e>
+    <e lm="lui"><p><l>lui</l><r>lui</r></p><par n="lui__prn"/></e>
     <e lm="mais"><i>mais</i><par n="et__cnjcoo"/></e>
     <e lm="mal"><i>mal</i><par n="très__preadv"/></e>
     <e lm="me" r="LR"><i>me</i><par n="me__prn"/></e>
     <e lm="me" r="RL"><p><l><a/>me</l><r>me</r></p><par n="me__prn"/></e>
-    <e lm="moi"><p><l>moi</l><r>prpers</r></p><par n="moi__prn"/></e>
+    <e lm="moi"><p><l>moi</l><r>moi</r></p><par n="moi__prn"/></e>
     <e lm="mon" r="LR"><i>m</i><par n="m/on__det"/></e>
     <e lm="mon" r="RL"><p><l><a/>m</l><r>m</r></p><par n="m/on__det"/></e>
     <e lm="ne" r="RL"><p><l><a/>ne</l><r>ne</r></p><par n="en__prn"/></e>
@@ -28337,7 +28336,7 @@
     <e lm="n'importe qui"><i>n'importe<b/>qui</i><par n="n'importe_qui__prn"/></e>
     <e lm="n'importe quoi"><i>n'importe<b/>quoi</i><par n="ceci__prn"/></e>
     <e lm="notre"><i>no</i><par n="no/tre__det"/></e>
-    <e lm="nous"><p><l>nous</l><r>prpers</r></p><par n="nous__prn"/></e>
+    <e lm="nous"><p><l>nous</l><r>nous</r></p><par n="nous__prn"/></e>
     <e lm="nul" r="LR"><i>nul</i><par n="nul__det"/></e>
     <e lm="on"><i>on</i><par n="on__prn"/></e>
     <e lm="on" r="LR"><p><l>l'on</l><r>on</r></p><par n="on__prn"/></e>
@@ -28374,7 +28373,7 @@
     <e lm="rien"><i>rien</i><par n="ceci__prn"/></e>
     <e lm="se" r="LR"><i>se</i><par n="on__prn"/></e>
     <e lm="se" r="RL"><p><l><a/>se</l><r>se</r></p><par n="on__prn"/></e>
-    <e lm="soi"><p><l>soi</l><r>prpers</r></p><par n="soi__prn"/></e>
+    <e lm="soi"><p><l>soi</l><r>soi</r></p><par n="soi__prn"/></e>
     <e lm="son" r="LR"><i>s</i><par n="m/on__det"/></e>
     <e lm="son" r="RL"><p><l><a/>s</l><r>s</r></p><par n="m/on__det"/></e>
     <e lm="tellement"><i>tellement</i><par n="très__preadv"/></e>
@@ -28382,22 +28381,22 @@
     <e lm="te" r="RL"><p><l><a/>te</l><r>te</r></p><par n="te__prn"/></e>
     <e lm="tête basse"><p><l>tête<b/>basse</l><r>tête<b/>basse<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="tête basse"><p><l>têtes<b/>basses</l><r>tête<b/>basse<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
-    <e lm="toi"><p><l>toi</l><r>prpers</r></p><par n="toi__prn"/></e>
+    <e lm="toi"><p><l>toi</l><r>toi</r></p><par n="toi__prn"/></e>
     <e lm="ton" r="LR"><i>t</i><par n="m/on__det"/></e>
     <e lm="ton" r="RL"><p><l><a/>t</l><r>t</r></p><par n="m/on__det"/></e>
     <e lm="tout"><i>tou</i><par n="tou/t__predet"/></e>
     <e lm="tout"><i>tou</i><par n="tou/t__prn"/></e>
     <e lm="tout le monde"><i>tout<b/>le<b/>monde</i><par n="tout_le_monde__prn"/></e>
     <e lm="très"><i>très</i><par n="très__preadv"/></e>
-    <e lm="tu" r="LR"><p><l>tu</l><r>prpers</r></p><par n="tu__prn"/></e>
-    <e lm="tu" r="RL"><p><l><a/>tu</l><r>prpers</r></p><par n="tu__prn"/></e>
+    <e lm="tu" r="LR"><p><l>tu</l><r>tu</r></p><par n="tu__prn"/></e>
+    <e lm="tu" r="RL"><p><l><a/>tu</l><r>tu</r></p><par n="tu__prn"/></e>
     <e lm="un autre"><i/><par n="/un_autre__det"/></e>
     <e lm="un_autre"><par n="/un_autre__det"/></e>
     <e lm="un"><i>un</i><par n="un__prn"/></e>
     <e lm="un"><par n="/un__det"/></e>
     <e lm="votre"><i>vo</i><par n="no/tre__det"/></e>
     <e lm="vouloir"><i>v</i><par n="v/ouloir__vbmod"/></e>
-    <e lm="vous"><p><l>vous</l><r>prpers</r></p><par n="vous__prn"/></e>
+    <e lm="vous"><p><l>vous</l><r>vous</r></p><par n="vous__prn"/></e>
     <e lm="y"><i>y</i><par n="en__prn"/></e>
 
     <!-- MISCELLANEOUS: END -->
@@ -28405,8 +28404,6 @@
 
   <section id="apostrophes" type="postblank">
     <e lm="j'" r="LR"><p><l>j'</l><r>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="j'" r="LR"><p><l>j'</l><r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="t'" r="LR"><p><l>t'</l><r>prpers<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="t'" r="LR"><p><l>t'</l><r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="s'" r="LR"><p><l>s'</l><r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     <!-- <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="detnt"/></r></p></e> -->
