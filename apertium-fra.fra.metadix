@@ -20690,6 +20690,8 @@
     <e lm="à proximité de" r="LR"><i>à<b/>proximité<b/></i><par n="contde__pr"/></e>
     <e lm="à ras de"><i>à<b/>ras<b/></i><par n="contde__pr"/></e>
     <e lm="à" r="LR"><i>à</i><par n="attendu__pr"/></e>
+    <e lm="à" r="LR"><i>à</i><par n="attendu__pr"/></e>
+    <e lm="à" r="LR"><p><l>A</l><r>à<s n="pr"/></r></p></e>
     <e lm="à" r="RL"><p><l><a/>à</l><r>à</r></p><par n="attendu__pr"/></e>
     <e lm="à titre de"><i>à<b/>titre<b/></i><par n="contde__pr"/></e>
     <e lm="à travers"><i>à<b/>travers</i><par n="attendu__pr"/></e>
