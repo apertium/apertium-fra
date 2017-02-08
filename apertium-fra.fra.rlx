@@ -7,6 +7,7 @@ SETS
 LIST BOS = (>>>) ;
 LIST EOS = (<<<) ;
 
+LIST Verb = vblex vbser vbhaver vbmod ;
 LIST V = vblex ;
 LIST Haver = vbhaver ;
 LIST Cm = cm ;
@@ -20,6 +21,7 @@ LIST Adv = adv ;
 LIST Num = num ;
 LIST Prs = prs ;
 LIST Pro = pro ;
+LIST Tn = tn ;
 LIST Imper = imp ;
 LIST Pri = pri ;
 LIST Prn = prn ;
@@ -31,6 +33,18 @@ LIST Rel = rel ;
 LIST Sg = sg ;
 LIST Pl = pl ;
 
+LIST P1 = p1 ;
+LIST P2 = p2 ;
+LIST P3 = p3 ;
+LIST Sg1 = (p1 sg) ;
+LIST Sg2 = (p2 sg) ;
+LIST VSg1 = (vblex p1 sg) (vbser p1 sg) (vbhaver p1 sg) (vbmod p1 sg);
+LIST VSg2 = (vblex p2 sg) (vbser p2 sg) (vbhaver p2 sg) (vbmod p2 sg);
+LIST VSg3 = (vblex p3 sg) (vbser p3 sg) (vbhaver p3 sg) (vbmod p3 sg);
+LIST VPl1 = (vblex p1 pl) (vbser p1 pl) (vbhaver p1 pl) (vbmod p1 pl);
+LIST VPl2 = (vblex p2 pl) (vbser p2 pl) (vbhaver p2 pl) (vbmod p2 pl);
+LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
+
 LIST Fin = pri prs pii ifi pis cni imp ;
 LIST Inf = inf ;
 LIST PrfPrc = pp ;
@@ -41,9 +55,18 @@ LIST Avoir = "avoir" ;
 LIST Le = "le" ;
 LIST Fait = "<fait>"i ;
 LIST Est = "<est>"i ;
+LIST Je = "je" ;
+LIST Tu = "tu" ;
 LIST Il = "il" ;
+LIST Nous = "nous" ;
+LIST Vous = "vous" ;
+LIST Lui = "lui" ;
+LIST Nous = "nous" ;
+LIST Vous = "vous" ;
 LIST Pas = "pas" ; 
 LIST Ne = "ne" ; 
+LIST Aussi = "aussi" ; 
+LIST Même = "même" ; 
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
 
@@ -53,6 +76,8 @@ LIST Foi = "foi" ;
 LIST Fois = "fois" ;
 
 LIST À = "à" ;
+
+LIST Excl = "!" ;
 
 
 LIST Title = "<[A-Z][a-z]\+>"r ;
@@ -92,6 +117,7 @@ SELECT Haver IF (0 Avoir) (1 PrfPrc) ;
 SELECT Haver IF (0 Avoir) (2 PrfPrc) ;
   ## As-tu vu Jean ?
   
+REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Prn) ;
 
 SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT 1 N OR A) ;
@@ -101,3 +127,116 @@ SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
 
 SELECT Fois IF (0C Foi OR Fois) ;
+
+SELECT Tn IF (0 Lui) (1 Aussi);
+SELECT Tn IF (0 Nous) (1 Aussi);
+SELECT Tn IF (0 Vous) (1 Aussi);
+SELECT Tn IF (0 Lui) (1 Même);
+SELECT Tn IF (0 Nous) (1 Même) (1 Pl);
+SELECT Tn IF (0 Vous) (1 Même) (1 Pl);
+SELECT Tn IF (0 Lui) (-1C Prep) (NOT 1 Inf);
+SELECT Tn IF (0 Nous) (-1C Prep) (NOT 1 Inf);
+SELECT Tn IF (0 Vous) (-1C Prep) (NOT 1 Inf);
+SELECT Pro IF (0 Lui) (-1C Prep) (1 Inf);
+SELECT Pro IF (0 Nous) (-1C Prep) (1 Inf);
+SELECT Pro IF (0 Vous) (-1C Prep) (1 Inf);
+
+SELECT Tn IF (0 Tu) (1 VSg2);
+  ## Tu veux
+SELECT Tn IF (0 Tu) (1 Ne) (2 VSg2);
+  ## Tu ne veux pas
+SELECT Tn IF (0 Tu) (1 Pro) (2 VSg2);
+  ## Tu lui veux
+SELECT Tn IF (0 Tu) (1 Pro) (2 Pro) (3 VSg2);
+  ## Tu lui en veux
+SELECT Tn IF (0 Tu) (1 Ne) (2 Pro) (3 Pro) (4 VSg2);
+  ## Tu ne lui veux pas
+SELECT Tn IF (0 Tu) (1 Ne) (2 Pro) (3 VSg2);
+  ## Tu ne lui veux pas
+
+SELECT Pro IF (-1 Je) (0 Pro) (1 VSg1);
+  ## Je vous parle
+SELECT Pro IF (-2 Je) (-1 Ne) (0 Pro) (1 VSg1);
+  ## Je ne vous parle pas
+SELECT Pro IF (-1 Je) (0 Pro) (1 Pro) (2 VSg1);
+  ## Je vous en parle
+SELECT Pro IF (-2 Je) (-1 Ne) (0 Pro) (1 Pro) (2 VSg1);
+  ## Je ne vous en parle pas
+SELECT Pro IF (-1 Tu) (0 Pro) (1 VSg2);
+  ## Tu nous parles
+SELECT Pro IF (-2 Tu) (-1 Ne) (0 Pro) (1 VSg2);
+  ## Tu ne nous parles pas
+SELECT Pro IF (-1 Tu) (0 Pro) (1 Pro) (2 VSg2);
+  ## Tu nous en parles
+SELECT Pro IF (-2 Tu) (-1 Ne) (0 Pro) (1 Pro) (2 VSg2);
+  ## Tu ne nous en parles pas
+SELECT Pro IF (-1 Il + Sg) (0 Pro) (1 VSg3);
+  ## Elle vous parle
+SELECT Pro IF (-2 Il + Sg) (-1 Ne) (0 Pro) (1 VSg3);
+  ## Elle ne vous parle pas
+SELECT Pro IF (-1 Il + Sg) (0 Pro) (1 Pro) (2 VSg3);
+  ## Elle vous en parle
+SELECT Pro IF (-2 Il + Sg) (-1 Ne) (0 Pro) (1 Pro) (2 VSg3);
+  ## Elle ne vous en parle pas
+SELECT Pro IF (-1 Nous) (0 Pro) (1 VPl1);
+  ## Nous vous parlons
+SELECT Pro IF (-2 Nous) (-1 Ne) (0 Pro) (1 VPl1);
+  ## Nous ne vous parlons pas
+SELECT Pro IF (-1 Nous) (0 Pro) (1 Pro) (2 VPl1);
+  ## Nous vous en parlons
+SELECT Pro IF (-2 Nous) (-1 Ne) (0 Pro) (1 Pro) (2 VPl1);
+  ## Nous ne vous en parlons pas
+SELECT Pro IF (-1 Vous) (0 Pro) (1 VPl2);
+  ## Vous nous parlez
+SELECT Pro IF (-2 Vous) (-1 Ne) (0 Pro) (1 VPl2);
+  ## Vous ne nous parlez pas
+SELECT Pro IF (-1 Vous) (0 Pro) (1 Pro) (2 VPl2);
+  ## Vous nous en parlez
+SELECT Pro IF (-2 Vous) (-1 Ne) (0 Pro) (1 Pro) (2 VPl2);
+  ## Vous ne nous en parlez pas
+SELECT Pro IF (-1 Il + Pl) (0 Pro) (1 VPl3);
+  ## Elles vous parlent
+SELECT Pro IF (-2 Il + Pl) (-1 Ne) (0 Pro) (1 VPl3);
+  ## Elles ne vous parlent pas
+SELECT Pro IF (-1 Il + Pl) (0 Pro) (1 Pro) (2 VPl3);
+  ## Elles vous en parlent
+SELECT Pro IF (-2 Il + Pl) (-1 Ne) (0 Pro) (1 Pro) (2 VPl3);
+  ## Elles ne vous en parlent pas
+
+
+SELECT P1 IF (-1 Je) (0 VSg1);
+  ## Je veux
+SELECT P1 IF (-2 Je) (-1 Ne) (0 VSg1);
+  ## Je ne veux pas
+SELECT P1 IF (-2 Je) (-1 Pro) (0 VSg1);
+  ## Je lui veux
+SELECT P1 IF (-3 Je) (-2 Ne) (-1 Pro) (0 VSg1);
+  ## Je ne lui veux pas
+SELECT P1 IF (-3 Je) (-2 Pro) (-1 Pro) (0 VSg1);
+  ## Je lui en veux
+SELECT P1 IF (-4 Je) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg1);
+  ## Je ne lui en veux pas
+SELECT P2 IF (-1 Tu) (0 VSg2);
+  ## Tu veux
+SELECT P2 IF (-2 Tu) (-1 Ne) (0 VSg2);
+  ## Tu ne veux pas
+SELECT P2 IF (-2 Tu) (-1 Pro) (0 VSg2);
+  ## Tu lui veux
+SELECT P2 IF (-3 Tu) (-2 Ne) (-1 Pro) (0 VSg2);
+  ## Tu ne lui veux pas
+SELECT P2 IF (-3 Tu) (-2 Pro) (-1 Pro) (0 VSg2);
+  ## Tu lui en veux
+SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);
+  ## Tu ne lui en veux pas
+SELECT P3 IF (-1 Il + Sg) (0 VSg3);
+  ## Elle parle
+SELECT P3 IF (-2 Il + Sg) (-1 Ne) (0 VSg3);
+  ## Elle ne parle pas
+SELECT P3 IF (-2 Il + Sg) (-1 Pro) (0 VSg3);
+  ## Elle lui parle
+SELECT P3 IF (-3 Il + Sg) (-2 Ne) (-1 Pro) (0 VSg3);
+  ## Elle ne lui parle pas
+SELECT P3 IF (-3 Il + Sg) (-2 Pro) (-1 Pro) (0 VSg3);
+  ## Elle lui en parle
+SELECT P3 IF (-4 Il + Sg) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
+  ## Elle ne lui en parle pas
