@@ -983,7 +983,6 @@
     </pardef>
 
     <pardef n="nous__prn">
-      <e><p><l/>                    <r><s n="prn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l/>                    <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l/>                    <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
@@ -993,7 +992,6 @@
     </pardef>
 
     <pardef n="vous__prn">
-      <e><p><l/>                    <r><s n="prn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l/>                    <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l/>                    <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
@@ -1028,11 +1026,11 @@
     </pardef>
 
     <pardef n="je__prn">
-      <e><p><l/>                    <r><s n="prn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l/>                    <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="tu__prn">
-      <e><p><l/>                    <r><s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e><p><l/>                    <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
     </pardef>
 
     <pardef n="moi__prn">
@@ -28253,15 +28251,11 @@
 
 
     <e lm="à quoi est-ce que" r="LR"><i>à<b/>quoi<b/>est-ce<b/>que</i><par n="que__prn"/></e>
-    <e lm="à quoi"><p><l>à<b/>quoi</l><r>à<b/>quoi<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e lm="à tel point que" r="LR"><p><l>à<b/>tel<b/>point<b/>que<a/></l><r>à<b/>tel<b/>point<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="aucun"><i>aucun</i><par n="aucun__prn"/></e>
     <e lm="aucun"><i>aucun</i><par n="certain__det"/></e>
     <e lm="auquel"><par n="/auquel__rel"/></e>
     <e lm="autrui"><i>autrui</i><par n="personne__prn"/></e>
-    <e lm="avec moi"><i>avec<b/>moi</i><par n="moi__prn"/></e>
-    <e lm="avec soi"><i>avec<b/>soi</i><par n="soi__prn"/></e>
-    <e lm="avec toi"><i>avec<b/>toi</i><par n="toi__prn"/></e>
     <e lm="avoir"><par n="/avoir__vbhaver"/></e>
     <e lm="bien"><i>bien</i><par n="très__preadv"/></e>
     <e lm="bouche bée"><p><l>bouche<b/>bée</l><r>bouche<b/>bée<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -28356,12 +28350,10 @@
     <e lm="que" r="LR"><i>que</i><par n="que__cnjsub"/></e>
     <e lm="que" r="LR"><i>que</i><par n="que__prn"/></e>
     <e lm="que" r="LR"><i>que</i><par n="que__rel"/></e>
-    <e lm="que" r="LR"><p><l>que</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e lm="que" r="RL"><p><l><a/>que</l><r>que<s n="cnjsub"/></r></p></e>
     <e lm="que" r="RL"><p><l><a/>que</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="que" r="RL"><p><l><a/>que</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="qu'est-ce que"><p><l>qu'est-ce<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
+    <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>que</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="qu'est-ce que" r="LR"><i>qu'est-ce<b/>que</i><par n="que__prn"/></e>
     <e lm="qu'est-ce que" r="RL"><p><l>qu'est-ce<b/><a/>que</l><r>qu'est-ce<b/>que</r></p><par n="que__prn"/></e>
     <e lm="qui est-ce qui"><i>qui<b/>est-ce<b/>qui</i><par n="que__prn"/></e>
@@ -28412,7 +28404,7 @@
     <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="m'" r="LR"><p><l>m'</l><r>me<s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="n'" r="LR"><p><l>n'</l><r>ne<s n="adv"/></r></p></e>
-    <e lm="c'" r="LR"><p><l>c'</l><r>ce<s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
+    <e lm="c'" r="LR"><p><l>c'</l><r>ce<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
     <e lm="d'" r="LR"><p><l>d'</l><r>de<s n="pr"/></r></p></e>
 
     <e lm="afin de" r="LR"><p><l>afin<b/>d'</l><r>afin<b/>de<s n="pr"/></r></p></e>
