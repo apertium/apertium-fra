@@ -135,8 +135,8 @@ SELECT Tn IF (0 Lui) (1 Aussi);
 SELECT Tn IF (0 Nous) (1 Aussi);
 SELECT Tn IF (0 Vous) (1 Aussi);
 SELECT Tn IF (0 Lui) (1 Même);
-SELECT Tn IF (0 Nous) (1 Même) (1 Pl);
-SELECT Tn IF (0 Vous) (1 Même) (1 Pl);
+SELECT Tn IF (0 Nous) (1 Même + Pl);
+SELECT Tn IF (0 Vous) (1 Même + Pl);
 SELECT Tn IF (0 Lui) (-1C Prep) (NOT 1 Inf);
 SELECT Tn IF (0 Nous) (-1C Prep) (NOT 1 Inf);
 SELECT Tn IF (0 Vous) (-1C Prep) (NOT 1 Inf);
@@ -243,3 +243,8 @@ SELECT P3 IF (-3 Il + Sg) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle lui en parle
 SELECT P3 IF (-4 Il + Sg) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle ne lui en parle pas
+
+SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);
+  ## parce que nous parlons
+SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);
+  ## parce que vous parlez
