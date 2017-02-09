@@ -248,3 +248,20 @@ SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);
   ## parce que nous parlons
 SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);
   ## parce que vous parlez
+
+SELECT PrfPrc IF (-1 Haver) (0 PrfPrc)
+  ## Vous avez dit
+SELECT Sg IF (-1 Haver) (0 PrfPrc + Sg OR Pl)
+  ## Vous avez pris
+SELECT PrfPrc IF (-3 Ne) (-2 Haver) (0 PrfPrc)
+  ## Vous n'avez pas dit
+SELECT Sg IF (-3 Ne) (-2 Haver) (0 PrfPrc + Sg OR Pl)
+  ## Vous n'avez pas pris
+SELECT PrfPrc IF (-4 Ne) (-3 Pro) (-2 Haver) (0 PrfPrc)
+  ## Vous ne lui avez pas dit
+SELECT Sg IF (-4 Ne) (-3 Pro) (-2 Haver) (0 PrfPrc + Sg OR Pl)
+  ## Vous ne lui avez pas pris
+SELECT PrfPrc IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PrfPrc)
+  ## Vous ne le lui avez pas dit
+SELECT Sg IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PrfPrc + Sg OR Pl)
+  ## Vous ne le lui avez pas pris

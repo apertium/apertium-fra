@@ -6897,6 +6897,7 @@
     <e lm="bas-fond"><i>bas-fond</i><par n="livre__n"/></e>
     <e lm="basilic"><i>basilic</i><par n="livre__n"/></e>
     <e lm="basilique"><i>basilique</i><par n="abeille__n"/></e>
+    <e lm="basket"><i>basket</i><par n="personnel__n"/></e>
     <e lm="basket-ball"><i>basket-ball</i><par n="personnel__n"/></e>
     <e lm="basque"><i>basque</i><par n="artiste__n"/></e>
     <e lm="basque"><i>basque</i><par n="livre__n"/></e>
@@ -13603,6 +13604,7 @@
     <e lm="vingtaine"><i>vingtaine</i><par n="abeille__n"/></e>
     <e lm="vin"><i>vin</i><par n="livre__n"/></e>
     <e lm="vinyle"><i>vinyle</i><par n="livre__n"/></e>
+    <e lm="viol"><i>viol</i><par n="livre__n"/></e>
     <e lm="violateur"><i>violat</i><par n="administrat/eur__n"/></e>
     <e lm="violation"><i>violation</i><par n="abeille__n"/></e>
     <e lm="violence de rue"><i>violence</i><par n="abeille__n"/><p><l><b/>de<b/>rue</l><r><g><b/>de<b/>rue</g></r></p></e>
@@ -13661,6 +13663,7 @@
     <e lm="voleur"><i>voleu</i><par n="causeu/r__n"/></e>
     <e lm="volier"><i>voilier</i><par n="livre__n"/></e>
     <e lm="vol"><i>vol</i><par n="livre__n"/></e>
+    <e lm="volley"><i>volley</i><par n="personnel__n"/></e>
     <e lm="volley-ball"><i>volley-ball</i><par n="personnel__n"/></e>
     <e lm="volontaire"><i>volontaire</i><par n="artiste__n"/></e>
     <e lm="volontariat"><i>volontariat</i><par n="livre__n"/></e>
