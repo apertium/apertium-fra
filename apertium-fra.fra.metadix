@@ -13773,7 +13773,6 @@
     <e lm="adénopathie"><i>adénopathie</i><par n="abeille__n"/></e>
     <e lm="adorateur"><i>adorateur</i><par n="livre__n"/></e>
     <e lm="aérobic"><i>aérobic</i><par n="livre__n"/></e>
-    <e lm="aérodrome"><i>aérodrome</i><par n="livre__n"/></e>
     <e lm="aérodynamique"><i>aérodynamique</i><par n="abeille__n"/></e>
     <e lm="aérographie"><i>aérographie</i><par n="abeille__n"/></e>
     <e lm="affidavit"><i>affidavit</i><par n="livre__n"/></e>
@@ -13803,7 +13802,6 @@
     <e lm="algie"><i>algie</i><par n="abeille__n"/></e>
     <e lm="amirauté"><i>amirauté</i><par n="abeille__n"/></e>
     <e lm="amphigouri"><i>amphigouri</i><par n="livre__n"/></e>
-    <e lm="appui"><i>appui</i><par n="livre__n"/></e>
     <e lm="arcboutant"><i>arcboutant</i><par n="livre__n"/></e>
     <e lm="arrière-goût"><i>arrière-goût</i><par n="livre__n"/></e>
     <e lm="aulne"><i>aulne</i><par n="livre__n"/></e>
@@ -20689,7 +20687,6 @@
     <e lm="à propos de"><i>à<b/>propos<b/></i><par n="contde__pr"/></e>
     <e lm="à proximité de" r="LR"><i>à<b/>proximité<b/></i><par n="contde__pr"/></e>
     <e lm="à ras de"><i>à<b/>ras<b/></i><par n="contde__pr"/></e>
-    <e lm="à" r="LR"><i>à</i><par n="attendu__pr"/></e>
     <e lm="à" r="LR"><i>à</i><par n="attendu__pr"/></e>
     <e lm="à" r="LR"><p><l>A</l><r>à<s n="pr"/></r></p></e>
     <e lm="à" r="RL"><p><l><a/>à</l><r>à</r></p><par n="attendu__pr"/></e>
