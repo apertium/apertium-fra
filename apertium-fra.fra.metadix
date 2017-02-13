@@ -11896,7 +11896,6 @@
     <e lm="prix d'achat"><i>prix</i><par n="livre__n"/><p><l><b/>d'achat</l><r><g><b/>d'achat</g></r></p></e>
     <e lm="prix de vente au public"><i>prix</i><par n="livre__n"/><p><l><b/>de<b/>vente<b/>au<b/>public</l><r><g><b/>de<b/>vente<b/>au<b/>public</g></r></p></e>
     <e lm="prix de vente"><i>prix</i><par n="livre__n"/><p><l><b/>de<b/>vente</l><r><g><b/>de<b/>vente</g></r></p></e>
-    <e lm="prix"><i>prix</i><par n="fois__n"/></e>
     <e lm="prix"><i>prix</i><par n="mois__n"/></e>
     <e lm="proactivité"><i>proactivité</i><par n="abeille__n"/></e>
     <e lm="probabilité"><i>probabilité</i><par n="abeille__n"/></e>
