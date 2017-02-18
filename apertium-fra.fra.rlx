@@ -63,6 +63,7 @@ LIST Vous = "vous" ;
 LIST Lui = "lui" ;
 LIST Nous = "nous" ;
 LIST Vous = "vous" ;
+LIST En = "en" ; 
 LIST Pas = "pas" ; 
 LIST Ne = "ne" ; 
 LIST Aussi = "aussi" ; 
@@ -265,3 +266,5 @@ SELECT PrfPrc IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PrfPrc)
   ## Vous ne le lui avez pas dit
 SELECT Sg IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PrfPrc + Sg OR Pl)
   ## Vous ne le lui avez pas pris
+
+SELECT Prep IF (0 En) (1C N OR A);
