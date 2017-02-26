@@ -10132,6 +10132,7 @@
     <e lm="israélien"><i>israélien</i><par n="ancien__n"/></e>
     <e lm="issue"><i>issue</i><par n="abeille__n"/></e>
     <e lm="italien"><i>italien</i><par n="ancien__n"/></e>
+    <e lm="prussien"><i>prussien</i><par n="ancien__n"/></e>
     <e lm="itinéraire"><i>itinéraire</i><par n="livre__n"/></e>
     <e lm="IU"><i>IU</i><par n="BBC__n"/></e>
     <e lm="ivoire"><i>ivoire</i><par n="abeille__n"/></e>
@@ -18308,6 +18309,7 @@
     <e lm="israélien"><i>israélien</i><par n="ancien__adj"/></e>
     <e lm="issu"><i>issu</i><par n="abaissant__adj"/></e>
     <e lm="italien"><i>italien</i><par n="ancien__adj"/></e>
+    <e lm="prussien"><i>prussien</i><par n="ancien__adj"/></e>
     <e lm="italique"><i>italique</i><par n="académique__adj"/></e>
     <e lm="IV"><i>IVème</i><par n="arrière__adj"/></e>
     <e lm="ivre"><i>ivre</i><par n="académique__adj"/></e>
@@ -18606,6 +18608,7 @@
     <e lm="officiel"><i>officiel</i><par n="annuel__adj"/></e>
     <e lm="off"><i>off</i><par n="arrière__adj"/></e>
     <e lm="olympique"><i>olympique</i><par n="académique__adj"/></e>
+    <e lm="francophone"><i>francophone</i><par n="académique__adj"/></e>
     <e lm="ombilical"><i>ombilica</i><par n="amica/l__adj"/></e>
     <e lm="omniprésent"><i>omniprésent</i><par n="abaissant__adj"/></e>
     <e lm="oncologique"><i>oncologique</i><par n="académique__adj"/></e>
@@ -18867,6 +18870,7 @@
     <e lm="quatorzième"><i>quatorzième</i><par n="académique__adj"/></e>
     <e lm="quatrième"><i>quatrième</i><par n="académique__adj"/></e>
     <e lm="québécois"><i>québécois</i><par n="anglais__adj"/></e>
+    <e lm="québécois"><i>québécois</i><par n="admis__n"/></e>
     <e lm="quel"><i>quel</i><par n="quel__adj"/></e>
     <e lm="qui analyse"><p><l>qui<b/>analyse</l><r>qui<b/>analyse</r></p><par n="arrière__adj"/></e>
     <e lm="quinquennal"><i>quinquenna</i><par n="amica/l__adj"/></e>
@@ -23138,6 +23142,16 @@
     <e lm="Colonnes d'Hercule"><i>Colonnes<b/>d'Hercule</i><par n="Carrefour__np"/></e>
     <e lm="Colorado"><i>Colorado</i><par n="Iran__np"/></e>
     <e lm="Columbia"><i>Columbia</i><par n="Andorre__np"/></e>
+    <e lm="Toulouse"><i>Toulouse</i><par n="Andorre__np"/></e>
+    <e lm="Perpignan"><i>Perpignan</i><par n="Andorre__np"/></e>
+    <e lm="Lausanne"><i>Lausanne</i><par n="Andorre__np"/></e>
+    <e lm="Anvers"><i>Anvers</i><par n="Andorre__np"/></e>
+    <e lm="Bruxelles"><i>Bruxelles</i><par n="Andorre__np"/></e>
+    <e lm="Montréal"><i>Montréal</i><par n="Andorre__np"/></e>
+    <e lm="Genève"><i>Genève</i><par n="Andorre__np"/></e>
+    <e lm="Paris"><i>Paris</i><par n="Andorre__np"/></e>
+    <e lm="Barcelone"><i>Barcelone</i><par n="Andorre__np"/></e>
+    <e lm="Strasbourg"><i>Strasbourg</i><par n="Andorre__np"/></e>
     <e lm="Comando"><i>Comando</i><par n="Carrefour__np"/></e>
     <e lm="Combaud"><i>Combaud</i><par n="Abraham__np"/></e>
     <e lm="Comédie-Française"><i>Comédie-Française</i><par n="Carrefour__np"/></e>
@@ -23950,6 +23964,7 @@
     <e lm="FP"><i>FP</i><par n="Carrefour__np"/></e>
     <e lm="France 3"><i>France<b/>3</i><par n="Carrefour__np"/></e>
     <e lm="France"><i>France</i><par n="Bulgarie__np"/></e>
+    <e lm="Francophonie"><i>Francophonie</i><par n="Bulgarie__np"/></e>
     <e lm="Francesc Antich Oliver"><i>Francesc<b/>Antich<b/>Oliver</i><par n="Andorre__np"/></e>
     <e lm="Francesc"><i>Francesc</i><par n="Abraham__np"/></e>
     <e lm="Francesco"><i>Francesco</i><par n="Abraham__np"/></e>
@@ -26735,15 +26750,16 @@
     <e lm="Prost"><i>Prost</i><par n="Abraham__np"/></e>
     <e lm="Proust"><i>Proust</i><par n="Abraham__np"/></e>
     <e lm="Provence-Alpes-Côte d'Azur"><i>Provence-Alpes-Côte<b/>d'Azur</i><par n="Andorre__np"/></e>
-    <e lm="Provence"><i>Provence</i><par n="Andorre__np"/></e>
+    <e lm="Provence"><i>Provence</i><par n="Bulgarie__np"/></e>
     <e lm="Province du Cap"><i>Province<b/>du<b/>Cap</i><par n="Andorre__np"/></e>
     <e lm="Provinces Illyriennes"><i>Provinces<b/>Illyriennes</i><par n="Andorre__np"/></e>
     <e lm="Provinces-Unies du Rio de la Plata"><i>Provinces-Unies<b/>du<b/>Rio<b/>de<b/>la<b/>Plata</i><par n="Carrefour__np"/></e>
     <e lm="Provinces-Unies"><i>Provinces-Unies</i><par n="Andorre__np"/></e>
     <e lm="Prozac"><i>Prozac</i><par n="Carrefour__np"/></e>
-    <e lm="Prusse"><i>Prusse</i><par n="Andorre__np"/></e>
-    <e lm="Prusse Occidentale"><i>Prusse<b/>Occidentale</i><par n="Andorre__np"/></e>
-    <e lm="Prusse-Orientale"><i>Prusse-Orientale</i><par n="Andorre__np"/></e>
+    <e lm="Prusse"><i>Prusse</i><par n="Bulgarie__np"/></e>
+    <e lm="Prusse Occidentale"><i>Prusse<b/>Occidentale</i><par n="Bulgarie__np"/></e>
+    <e lm="Prusse Orientale"><i>Prusse<b/>Orientale</i><par n="Bulgarie__np"/></e>
+    <e lm="Prusse-Orientale"><i>Prusse-Orientale</i><par n="Bulgarie__np"/></e>
     <e lm="Ptolémée"><i>Ptolémée</i><par n="Abraham__np"/></e>
     <e lm="Public Sénat"><i>Public<b/>Sénat</i><par n="Carrefour__np"/></e>
     <e lm="Pucela"><i>Pucela</i><par n="Andorre__np"/></e>
@@ -27235,7 +27251,8 @@
     <e lm="Saturne"><i>Saturne</i><par n="Carrefour__np"/></e>
     <e lm="Saunier"><i>Saunier</i><par n="Andorre__np"/></e>
     <e lm="Saura"><i>Saura</i><par n="Abraham__np"/></e>
-    <e lm="Savoie"><i>Savoie</i><par n="Andorre__np"/></e>
+    <e lm="Savoie"><i>Savoie</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Savoie"><i>Haute-Savoie</i><par n="Bulgarie__np"/></e>
     <e lm="Savoldelli"><i>Savoldelli</i><par n="Abraham__np"/></e>
     <e lm="Savorgnan de Brazza"><i>Savorgnan<b/>de<b/>Brazza</i><par n="Abraham__np"/></e>
     <e lm="Savovic"><i>Savovic</i><par n="Abraham__np"/></e>
