@@ -22756,7 +22756,8 @@
     <e lm="Burgos"><i>Burgos</i><par n="Andorre__np"/></e>
     <e lm="Burguete"><i>Burguete</i><par n="Andorre__np"/></e>
     <e lm="Burjassot"><i>Burjassot</i><par n="Andorre__np"/></e>
-    <e lm="Burkina Faso"><i>Burkina<b/>Faso</i><par n="Andorre__np"/></e>
+    <e lm="Burkina Faso"><i>Burkina<b/>Faso</i><par n="Iran__np"/></e>
+    <e lm="Burkina-Faso" r="LR"><p><l>Burkina-Faso</l><r>Burkina<b/>Faso</r></p><par n="Iran__np"/></e>
     <e lm="Burkina"><i>Burkina</i><par n="Iran__np"/></e>
     <e lm="Burlada"><i>Burlada</i><par n="Andorre__np"/></e>
     <e lm="Bursa"><i>Bursa</i><par n="Andorre__np"/></e>
@@ -23223,7 +23224,7 @@
     <e lm="Costa Rica"><i>Costa<b/>Rica</i><par n="Iran__np"/></e>
     <e lm="Cosworth"><i>Cosworth</i><par n="Carrefour__np"/></e>
     <e lm="Cotado"><i>Cotado</i><par n="Abraham__np"/></e>
-    <e lm="Côte d'Azur"><i>Côte<b/>d'Azur</i><par n="Andorre__np"/></e>
+    <e lm="Côte d'Azur"><i>Côte<b/>d'Azur</i><par n="Bulgarie__np"/></e>
     <e lm="côte des Esclaves"><i>côte<b/>des<b/>Esclaves</i><par n="Andorre__np"/></e>
     <e lm="Côte d'Ivoire"><i>Côte<b/>d'Ivoire</i><par n="Bulgarie__np"/></e>
     <e lm="Côte-d'Or"><i>Côte-d'Or</i><par n="Andorre__np"/></e>
@@ -23955,7 +23956,7 @@
     <e lm="Francesco Mazzola"><i>Francesco<b/>Mazzola</i><par n="Abraham__np"/></e>
     <e lm="France Télévisions"><i>France<b/>Télévisions</i><par n="Carrefour__np"/></e>
     <e lm="Francfort"><i>Francfort</i><par n="Andorre__np"/></e>
-    <e lm="Franche-Comté"><i>Franche-Comté</i><par n="Andorre__np"/></e>
+    <e lm="Franche-Comté"><i>Franche-Comté</i><par n="Iran__np"/></e>
     <e lm="Francine"><i>Francine</i><par n="Abraham__np"/></e>
     <e lm="Francis Bacon"><i>Francis<b/>Bacon</i><par n="Abraham__np"/></e>
     <e lm="Francisca"><i>Francisca</i><par n="Abraham__np"/></e>
@@ -25399,7 +25400,8 @@
     <e lm="Lorenzo"><i>Lorenzo</i><par n="Abraham__np"/></e>
     <e lm="Lorraine"><i>Lorraine</i><par n="Abraham__np"/></e>
     <e lm="Lorraine"><i>Lorraine</i><par n="Bulgarie__np"/></e>
-    <e lm="Alsace"><i>Alsace</i><par n="Andorre__np"/></e>
+    <e lm="Bourgogne"><i>Bourgogne</i><par n="Bulgarie__np"/></e>
+    <e lm="Alsace"><i>Alsace</i><par n="Iran__np"/></e>
     <e lm="Lot-et-Garonne"><i>Lot-et-Garonne</i><par n="Andorre__np"/></e>
     <e lm="Lothaire"><i>Lothaire</i><par n="Abraham__np"/></e>
     <e lm="Lotharingie"><i>Lotharingie</i><par n="Andorre__np"/></e>
@@ -25995,6 +25997,7 @@
     <e lm="Mostra"><i>Mostra</i><par n="Carrefour__np"/></e>
     <e lm="Mouammar Kadhafi"><i>Mouammar<b/>Kadhafi</i><par n="Abraham__np"/></e>
     <e lm="Moubarak"><i>Moubarak</i><par n="Abraham__np"/></e>
+    <e lm="Moulin"><i>Moulin</i><par n="Abraham__np"/></e>
     <e lm="Moulinex"><i>Moulinex</i><par n="Carrefour__np"/></e>
     <e lm="Moulins"><i>Moulins</i><par n="Andorre__np"/></e>
     <e lm="Moulouya"><i>Moulouya</i><par n="Andorre__np"/></e>
