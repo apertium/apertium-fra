@@ -8887,6 +8887,7 @@
     <e lm="esclave"><i>esclave</i><par n="artiste__n"/></e>
     <e lm="escorte"><i>escorte</i><par n="abeille__n"/></e>
     <e lm="escroc"><i>escroc</i><par n="livre__n"/></e>
+    <e lm="maréchal"><i>maréchal</i><par n="livre__n"/></e>
     <e lm="escroquerie"><i>escroquerie</i><par n="abeille__n"/></e>
     <e lm="ESK" r="LR"><i>ESK</i><par n="BBC__n"/></e>
     <e lm="espace"><i>espace</i><par n="livre__n"/></e>
@@ -11261,7 +11262,6 @@
     <e lm="pain"><i>pain</i><par n="livre__n"/></e>
     <e lm="paire"><i>paire</i><par n="abeille__n"/></e>
     <e lm="paix"><i>paix</i><par n="fois__n"/></e>
-    <e lm="pakistanais"><i>pakistanais</i><par n="admis__n"/></e>
     <e lm="pakistanais"><i>pakistanais</i><par n="pakistanais__n"/></e>
     <e lm="palace"><i>palace</i><par n="livre__n"/></e>
     <e lm="palais"><i>palais</i><par n="mois__n"/></e>
@@ -11404,7 +11404,8 @@
     <e lm="pavillon"><i>pavillon</i><par n="livre__n"/></e>
     <e lm="payement"><i>payement</i><par n="livre__n"/></e>
     <e lm="paysage"><i>paysage</i><par n="livre__n"/></e>
-    <e lm="paysan"><i>paysan</i><par n="affecté__n"/></e>
+    <e lm="paysan"><i>paysan</i><par n="ancien__n"/></e>
+    <e lm="paysan"><i>paysan</i><par n="ancien__adj"/></e>
     <e lm="paysannerie"><i>paysannerie</i><par n="abeille__n"/></e>
     <e lm="pays"><i>pays</i><par n="mois__n"/></e>
     <e lm="PCF"><i>PCF</i><par n="BBVA__n"/></e>
@@ -18642,6 +18643,7 @@
     <e lm="pacifique"><i>pacifique</i><par n="académique__adj"/></e>
     <e lm="pacifiste"><i>pacifiste</i><par n="académique__adj"/></e>
     <e lm="païen"><i>païen</i><par n="ancien__adj"/></e>
+    <e lm="païen"><i>païen</i><par n="ancien__n"/></e>
     <e lm="pair"><i>pair</i><par n="abaissant__adj"/></e>
     <e lm="paisible"><i>paisible</i><par n="académique__adj"/></e>
     <e lm="pakistanais"><i>pakistanais</i><par n="anglais__adj"/></e>
@@ -25396,7 +25398,8 @@
     <e lm="Lorenzetto"><i>Lorenzetto</i><par n="Abraham__np"/></e>
     <e lm="Lorenzo"><i>Lorenzo</i><par n="Abraham__np"/></e>
     <e lm="Lorraine"><i>Lorraine</i><par n="Abraham__np"/></e>
-    <e lm="Lorraine"><i>Lorraine</i><par n="Andorre__np"/></e>
+    <e lm="Lorraine"><i>Lorraine</i><par n="Bulgarie__np"/></e>
+    <e lm="Alsace"><i>Alsace</i><par n="Andorre__np"/></e>
     <e lm="Lot-et-Garonne"><i>Lot-et-Garonne</i><par n="Andorre__np"/></e>
     <e lm="Lothaire"><i>Lothaire</i><par n="Abraham__np"/></e>
     <e lm="Lotharingie"><i>Lotharingie</i><par n="Andorre__np"/></e>
@@ -28222,6 +28225,11 @@
     <e lm="Zurita"><i>Zurita</i><par n="Abraham__np"/></e>
     <e lm="Zurutuza"><i>Zurutuza</i><par n="Abraham__np"/></e>
 
+    <e lm="Maréchal"><i>Maréchal</i><par n="Abraham__np"/></e>
+    <e lm="Mélenchon"><i>Mélenchon</i><par n="Abraham__np"/></e>
+    <e lm="Le Pen"><i>Le<b/>Pen</i><par n="Abraham__np"/></e>
+    <e lm="Macron"><i>Macron</i><par n="Abraham__np"/></e>
+    <e lm="Hamon"><i>Hamon</i><par n="Abraham__np"/></e>
     <!-- PROPER NOUNS: END -->
 
     <!-- MISCELLANEOUS: BEGIN -->
