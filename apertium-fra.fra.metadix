@@ -10629,6 +10629,10 @@
     <e lm="médaillé"><i>médaillé</i><par n="affecté__n"/></e>
     <e lm="médecine"><i>médecine</i><par n="abeille__n"/></e>
     <e lm="médecin"><i>médecin</i><par n="artiste__n"/></e>
+    <e lm="medecin de garde"><i>médecin</i><par n="artiste__n"/><p><l><b/>de<b/>garde</l><r><g><b/>de<b/>garde</g></r></p></e>
+    <e lm="medecin de famille"><i>médecin</i><par n="artiste__n"/><p><l><b/>de<b/>famille</l><r><g><b/>de<b/>famille</g></r></p></e>
+    <e lm="corse"><i>corse</i><par n="artiste__n"/></e>
+    <e lm="corse"><i>corse</i><par n="académique__adj"/></e>
     <e lm="média"><i>média</i><par n="abords__n"/></e>
     <e lm="média"><i>média</i><par n="livre__n"/></e>
     <e lm="médias" r="LR"><i>médias</i><par n="abords__n"/></e>
@@ -17222,6 +17226,7 @@
     <e lm="beaucoup de" r="RL"><p><l>beaucoup<b/><a/>de</l><r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
     <e lm="beau"><i>be</i><par n="be/au__adj"/></e>
     <e lm="belge"><i>belge</i><par n="académique__adj"/></e>
+    <e lm="belge"><i>belge</i><par n="artiste__n"/></e>
     <e lm="bel"><i>be</i><par n="be/l__adj"/></e>
     <e lm="bénéficiaire"><i>bénéficiaire</i><par n="académique__adj"/></e>
     <e lm="bénéfique"><i>bénéfique</i><par n="académique__adj"/></e>
@@ -17286,6 +17291,7 @@
     <e lm="calme"><i>calme</i><par n="académique__adj"/></e>
     <e lm="calme"><i>calme</i><par n="arrière__adj"/></e>
     <e lm="canadien"><i>canadien</i><par n="ancien__adj"/></e>
+    <e lm="canadien"><i>canadien</i><par n="ancien__n"/></e>
     <e lm="canarien"><i>canarien</i><par n="ancien__adj"/></e>
     <e lm="cancéreux"><i>cancéreu</i><par n="affectueu/x__adj"/></e>
     <e lm="cannabinoïde"><i>cannabinoïde</i><par n="académique__adj"/></e>
@@ -18054,6 +18060,7 @@
     <e lm="homologue"><i>homologue</i><par n="académique__adj"/></e>
     <e lm="homonyme"><i>homonyme</i><par n="académique__adj"/></e>
     <e lm="hongrois"><i>hongrois</i><par n="anglais__adj"/></e>
+    <e lm="hongrois"><i>hongrois</i><par n="admis__n"/></e>
     <e lm="honnête"><i>honnête</i><par n="académique__adj"/></e>
     <e lm="honorable"><i>honorable</i><par n="académique__adj"/></e>
     <e lm="honoraire"><i>honoraire</i><par n="académique__adj"/></e>
@@ -18289,6 +18296,7 @@
     <e lm="ionique"><i>ionique</i><par n="académique__adj"/></e>
     <e lm="iranien"><i>iranien</i><par n="ancien__adj"/></e>
     <e lm="irlandais"><i>irlandais</i><par n="anglais__adj"/></e>
+    <e lm="irlandais"><i>irlandais</i><par n="admis__n"/></e>
     <e lm="ironique"><i>ironique</i><par n="académique__adj"/></e>
     <e lm="irréel"><i>irréel</i><par n="annuel__adj"/></e>
     <e lm="irréfutable"><i>irréfutable</i><par n="académique__adj"/></e>
@@ -18305,6 +18313,7 @@
     <e lm="islamique"><i>islamique</i><par n="académique__adj"/></e>
     <e lm="islamiste" r="LR"><i>islamiste</i><par n="académique__adj"/></e>
     <e lm="islandais"><i>islandais</i><par n="anglais__adj"/></e>
+    <e lm="islandais"><i>islandais</i><par n="admis__n"/></e>
     <e lm="isolationniste"><i>isolationniste</i><par n="académique__adj"/></e>
     <e lm="isolé"><i>isolé</i><par n="abaissant__adj"/></e>
     <e lm="israélien"><i>israélien</i><par n="abaissant__adj"/></e>
@@ -22094,7 +22103,7 @@
     <e lm="Ardatza" c="es un apellido"><i>Ardatza</i><par n="Abraham__np"/></e>
     <e lm="Ardèche"><i>Ardèche</i><par n="Andorre__np"/></e>
     <e lm="Ardela"><i>Ardela</i><par n="Abraham__np"/></e>
-    <e lm="Ardennes" r="LR"><i>Ardennes</i><par n="Andorre__np"/></e>
+    <e lm="Ardennes"><i>Ardennes</i><par n="Bahamas__np"/></e>
     <e lm="Ardiden"><i>Ardiden</i><par n="Andorre__np"/></e>
     <e lm="Ardila"><i>Ardila</i><par n="Abraham__np"/></e>
     <e lm="Arditurri"><i>Arditurri</i><par n="Andorre__np"/></e>
@@ -23000,6 +23009,7 @@
     <e lm="Chamizo"><i>Chamizo</i><par n="Abraham__np"/></e>
     <e lm="Chamonix"><i>Chamonix</i><par n="Andorre__np"/></e>
     <e lm="Chamorro"><i>Chamorro</i><par n="Abraham__np"/></e>
+    <e lm="Champagne"><i>Champagne</i><par n="Bulgarie__np"/></e>
     <e lm="Champagne-Ardennes"><i>Champagne-Ardennes</i><par n="Andorre__np"/></e>
     <e lm="Champ-de-Mars"><i>Champ-de-Mars</i><par n="Andorre__np"/></e>
     <e lm="Champs Élysées"><i>Champs<b/>Élysées</i><par n="Andorre__np"/></e>
@@ -23146,6 +23156,7 @@
     <e lm="Colorado"><i>Colorado</i><par n="Iran__np"/></e>
     <e lm="Columbia"><i>Columbia</i><par n="Andorre__np"/></e>
     <e lm="Toulouse"><i>Toulouse</i><par n="Andorre__np"/></e>
+    <e lm="Marseille"><i>Marseille</i><par n="Andorre__np"/></e>
     <e lm="Perpignan"><i>Perpignan</i><par n="Andorre__np"/></e>
     <e lm="Lausanne"><i>Lausanne</i><par n="Andorre__np"/></e>
     <e lm="Anvers"><i>Anvers</i><par n="Andorre__np"/></e>
@@ -23250,9 +23261,10 @@
     <e lm="Cosworth"><i>Cosworth</i><par n="Carrefour__np"/></e>
     <e lm="Cotado"><i>Cotado</i><par n="Abraham__np"/></e>
     <e lm="Côte d'Azur"><i>Côte<b/>d'Azur</i><par n="Bulgarie__np"/></e>
-    <e lm="côte des Esclaves"><i>côte<b/>des<b/>Esclaves</i><par n="Andorre__np"/></e>
+    <e lm="Côte-d'Azur"><i>Côte-d'Azur</i><par n="Bulgarie__np"/></e>
+    <e lm="côte des Esclaves"><i>côte<b/>des<b/>Esclaves</i><par n="Bulgarie__np"/></e>
     <e lm="Côte d'Ivoire"><i>Côte<b/>d'Ivoire</i><par n="Bulgarie__np"/></e>
-    <e lm="Côte-d'Or"><i>Côte-d'Or</i><par n="Andorre__np"/></e>
+    <e lm="Côte-d'Or"><i>Côte-d'Or</i><par n="Bulgarie__np"/></e>
     <e lm="Coti"><i>Coti</i><par n="Abraham__np"/></e>
     <e lm="Coupe Libertadores"><i>Coupe<b/>Libertadores</i><par n="Carrefour__np"/></e>
     <e lm="Courant du Golfe"><i>Courant<b/>du<b/>Golfe</i><par n="Andorre__np"/></e>
@@ -26898,6 +26910,8 @@
     <e lm="Renault-Nissan"><i>Renault-Nissan</i><par n="Carrefour__np"/></e>
     <e lm="Renbourn"><i>Renbourn</i><par n="Abraham__np"/></e>
     <e lm="René Garcia Préval"><i>René<b/>Garcia<b/>Préval</i><par n="Abraham__np"/></e>
+    <e lm="René"><i>René</i><par n="Abraham__np"/></e>
+    <e lm="Renée"><i>René</i><par n="Abraham__np"/></e>
     <e lm="Rene"><i>Rene</i><par n="Abraham__np"/></e>
     <e lm="Renfe"><i>Renfe</i><par n="Carrefour__np"/></e>
     <e lm="Renier"><i>Renier</i><par n="Abraham__np"/></e>
