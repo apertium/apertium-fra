@@ -23010,7 +23010,7 @@
     <e lm="Chamizo"><i>Chamizo</i><par n="Abraham__np"/></e>
     <e lm="Chamonix"><i>Chamonix</i><par n="Andorre__np"/></e>
     <e lm="Chamorro"><i>Chamorro</i><par n="Abraham__np"/></e>
-    <e lm="Champagne"><i>Champagne</i><par n="Andorre__np"/></e>
+    <e lm="Champagne"><i>Champagne</i><par n="Bulgarie__np"/></e>
     <e lm="Champagne-Ardennes"><i>Champagne-Ardennes</i><par n="Andorre__np"/></e>
     <e lm="Champ-de-Mars"><i>Champ-de-Mars</i><par n="Andorre__np"/></e>
     <e lm="Champs Élysées"><i>Champs<b/>Élysées</i><par n="Andorre__np"/></e>
@@ -23468,6 +23468,7 @@
     <e lm="Domenico"><i>Domenico</i><par n="Abraham__np"/></e>
     <e lm="Domínguez"><i>Domínguez</i><par n="Abraham__np"/></e>
     <e lm="Dominique"><i>Dominique</i><par n="Bulgarie__np"/></e>
+    <e lm="Dominique"><i>Dominique</i><par n="Abraham__np"/></e>
     <e lm="Donald"><i>Donald</i><par n="Abraham__np"/></e>
     <e lm="Doñana"><i>Doñana</i><par n="Carrefour__np"/></e>
     <e lm="Donatello"><i>Donatello</i><par n="Abraham__np"/></e>
@@ -28109,7 +28110,8 @@
     <e lm="Vulcain"><i>Vulcain</i><par n="Abraham__np"/></e>
     <e lm="Wake"><i>Wake</i><par n="Andorre__np"/></e>
     <e lm="Wallis et Futuna"><i>Wallis<b/>et<b/>Futuna</i><par n="Andorre__np"/></e>
-    <e lm="Wallonie"><i>Wallonie</i><par n="Andorre__np"/></e>
+    <e lm="Wallonie"><i>Wallonie</i><par n="Bulgarie__np"/></e>
+    <e lm="Flandre"><i>Flandre</i><par n="Bulgarie__np"/></e>
     <e lm="Wall Street"><i>Wall<b/>Street</i><par n="Carrefour__np"/></e>
     <e lm="Walter"><i>Walter</i><par n="Abraham__np"/></e>
     <e lm="Walt"><i>Walt</i><par n="Abraham__np"/></e>
