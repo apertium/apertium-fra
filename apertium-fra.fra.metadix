@@ -11035,7 +11035,7 @@
     <e lm="normale"><i>normale</i><par n="abeille__n"/></e>
     <e lm="normalisation" r="LR"><i>normalisation</i><par n="abeille__n"/></e>
     <e lm="normalité"><i>normalité</i><par n="abeille__n"/></e>
-    <e lm="normand"><i>normand</i><par n="artiste__n"/></e>
+    <e lm="normand"><i>normand</i><par n="affecté__n"/></e>
     <e lm="normativité"><i>normativité</i><par n="abeille__n"/></e>
     <e lm="norme"><i>norme</i><par n="abeille__n"/></e>
     <e lm="nostalgie"><i>nostalgie</i><par n="abeille__n"/></e>
@@ -17703,6 +17703,8 @@
     <e lm="égal" r="LR"><p><l>Ega</l><r>éga</r></p><par n="amica/l__adj"/></e>
     <e lm="égoïste"><i>égoïste</i><par n="académique__adj"/></e>
     <e lm="égoïste" r="LR"><p><l>Egoïste</l><r>égoïste</r></p><par n="académique__adj"/></e>
+    <e lm="égyptien"><i>égyptien</i><par n="ancien__n"/></e>
+    <e lm="égyptien" r="LR"><p><l>Egyptien</l><r>égyptien</r></p><par n="ancien__n"/></e>
     <e lm="égyptien"><i>égyptien</i><par n="ancien__adj"/></e>
     <e lm="égyptien" r="LR"><p><l>Egyptien</l><r>égyptien</r></p><par n="ancien__adj"/></e>
     <e lm="électeur"><i>élect</i><par n="conduct/eur__adj"/></e>
@@ -21532,12 +21534,12 @@
     <e lm="Alpe d'Huez"><i>Alpe<b/>d'Huez</i><par n="Andorre__np"/></e>
     <e lm="Alpendurada"><i>Alpendurada</i><par n="Andorre__np"/></e>
     <e lm="Alperi"><i>Alperi</i><par n="Abraham__np"/></e>
-    <e lm="Alpes Australiennes"><i>Alpes<b/>Australiennes</i><par n="Andorre__np"/></e>
-    <e lm="Alpes-de-Haute-Provence"><i>Alpes-de-Haute-Provence</i><par n="Andorre__np"/></e>
-    <e lm="Alpes"><i>Alpes</i><par n="Andorre__np"/></e>
-    <e lm="Alpes-Maritimes"><i>Alpes-Maritimes</i><par n="Andorre__np"/></e>
-    <e lm="Alpes Néo-Zélandaises"><i>Alpes<b/>Néo-Zélandaises</i><par n="Andorre__np"/></e>
-    <e lm="Alpes Scandinaves"><i>Alpes<b/>Scandinaves</i><par n="Andorre__np"/></e>
+    <e lm="Alpes Australiennes"><i>Alpes<b/>Australiennes</i><par n="Bahamas__np"/></e>
+    <e lm="Alpes-de-Haute-Provence"><i>Alpes-de-Haute-Provence</i><par n="Bahamas__np"/></e>
+    <e lm="Alpes"><i>Alpes</i><par n="Bahamas__np"/></e>
+    <e lm="Alpes-Maritimes"><i>Alpes-Maritimes</i><par n="Bahamas__np"/></e>
+    <e lm="Alpes Néo-Zélandaises"><i>Alpes<b/>Néo-Zélandaises</i><par n="Bahamas__np"/></e>
+    <e lm="Alpes Scandinaves"><i>Alpes<b/>Scandinaves</i><par n="Bahamas__np"/></e>
     <e lm="Alpha"><i>Alpha</i><par n="Carrefour__np"/></e>
     <e lm="Alphand"><i>Alphand</i><par n="Abraham__np"/></e>
     <e lm="Alpharetta"><i>Alpharetta</i><par n="Andorre__np"/></e>
@@ -22434,11 +22436,11 @@
     <e lm="Basiléo"><i>Basiléo</i><par n="Abraham__np"/></e>
     <e lm="Basilio"><i>Basilio</i><par n="Abraham__np"/></e>
     <e lm="Baskonia"><i>Baskonia</i><par n="Carrefour__np"/></e>
-    <e lm="Bas-Rhin"><i>Bas-Rhin</i><par n="Andorre__np"/></e>
+    <e lm="Bas-Rhin"><i>Bas-Rhin</i><par n="Iran__np"/></e>
     <e lm="Basse Autriche"><i>Basse<b/>Autriche</i><par n="Andorre__np"/></e>
     <e lm="Basse Californie"><i>Basse<b/>Californie</i><par n="Andorre__np"/></e>
-    <e lm="Basse-Égypte"><i>Basse-Égypte</i><par n="Andorre__np"/></e>
-    <e lm="Basse-Normandie"><i>Basse-Normandie</i><par n="Andorre__np"/></e>
+    <e lm="Basse-Égypte"><i>Basse-Égypte</i><par n="Bulgarie__np"/></e>
+    <e lm="Basse-Normandie"><i>Basse-Normandie</i><par n="Bulgarie__np"/></e>
     <e lm="Basseterre"><i>Basseterre</i><par n="Andorre__np"/></e>
     <e lm="Basse-Terre"><i>Basse-Terre</i><par n="Andorre__np"/></e>
     <e lm="Bassin d'Arcachon"><i>Bassin<b/>d'Arcachon</i><par n="Andorre__np"/></e>
@@ -22704,7 +22706,8 @@
     <e lm="Brent"><i>Brent</i><par n="Carrefour__np"/></e>
     <e lm="Brésil"><i>Brésil</i><par n="Iran__np"/></e>
     <e lm="Brest"><i>Brest</i><par n="Andorre__np"/></e>
-    <e lm="Bretagne"><i>Bretagne</i><par n="Andorre__np"/></e>
+    <e lm="Bretagne"><i>Bretagne</i><par n="Bulgarie__np"/></e>
+    <e lm="Grande-Bretagne"><i>Grande-Bretagne</i><par n="Bulgarie__np"/></e>
     <e lm="Breton"><i>Breton</i><par n="Abraham__np"/></e>
     <e lm="Bretos"><i>Bretos</i><par n="Abraham__np"/></e>
     <e lm="Brett"><i>Brett</i><par n="Abraham__np"/></e>
@@ -23152,6 +23155,14 @@
     <e lm="Paris"><i>Paris</i><par n="Andorre__np"/></e>
     <e lm="Barcelone"><i>Barcelone</i><par n="Andorre__np"/></e>
     <e lm="Strasbourg"><i>Strasbourg</i><par n="Andorre__np"/></e>
+    <e lm="Seine"><i>Seine</i><par n="Bulgarie__np"/></e>
+    <e lm="Loire"><i>Loire</i><par n="Bulgarie__np"/></e>
+    <e lm="Garonne"><i>Garonne</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Garonne"><i>Haute-Garonne</i><par n="Bulgarie__np"/></e>
+    <e lm="Saône"><i>Saône</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Saône"><i>Haute-Saône</i><par n="Bulgarie__np"/></e>
+    <e lm="Rhône"><i>Rhône</i><par n="Iran__np"/></e>
+    <e lm="Auvergne"><i>Auvergne</i><par n="Bulgarie__np"/></e>
     <e lm="Comando"><i>Comando</i><par n="Carrefour__np"/></e>
     <e lm="Combaud"><i>Combaud</i><par n="Abraham__np"/></e>
     <e lm="Comédie-Française"><i>Comédie-Française</i><par n="Carrefour__np"/></e>
@@ -24091,7 +24102,6 @@
     <e lm="Garitano"><i>Garitano</i><par n="Abraham__np"/></e>
     <e lm="Garmendia"><i>Garmendia</i><par n="Abraham__np"/></e>
     <e lm="Garnier"><i>Garnier</i><par n="Abraham__np"/></e>
-    <e lm="Garonne"><i>Garonne</i><par n="Andorre__np"/></e>
     <e lm="Garrido"><i>Garrido</i><par n="Carrefour__np"/></e>
     <e lm="Garrigós"><i>Garrigós</i><par n="Carrefour__np"/></e>
     <e lm="Garrigues"><i>Garrigues</i><par n="Andorre__np"/></e>
@@ -24401,20 +24411,20 @@
     <e lm="Harry"><i>Harry</i><par n="Abraham__np"/></e>
     <e lm="Harvard"><i>Harvard</i><par n="Andorre__np"/></e>
     <e lm="Hatem Ben Arfa"><i>Hatem<b/>Ben<b/>Arfa</i><par n="Abraham__np"/></e>
-    <e lm="Haut Atlas"><i>Haut<b/>Atlas</i><par n="Andorre__np"/></e>
-    <e lm="Haute Autriche"><i>Haute<b/>Autriche</i><par n="Andorre__np"/></e>
-    <e lm="Haute-Corse"><i>Haute-Corse</i><par n="Andorre__np"/></e>
-    <e lm="Haute-Égypte"><i>Haute-Égypte</i><par n="Andorre__np"/></e>
-    <e lm="Haute-Loire"><i>Haute-Loire</i><par n="Andorre__np"/></e>
-    <e lm="Haute-Marne"><i>Haute-Marne</i><par n="Andorre__np"/></e>
-    <e lm="Haute Normandie"><i>Haute<b/>Normandie</i><par n="Andorre__np"/></e>
-    <e lm="Haute-Normandie"><i>Haute-Normandie</i><par n="Andorre__np"/></e>
-    <e lm="Hautes-Alpes"><i>Hautes-Alpes</i><par n="Andorre__np"/></e>
-    <e lm="Haute-Saône"><i>Haute-Saône</i><par n="Andorre__np"/></e>
-    <e lm="Hautes-Pyrénées"><i>Hautes-Pyrénées</i><par n="Andorre__np"/></e>
-    <e lm="Haute-Vienne"><i>Haute-Vienne</i><par n="Andorre__np"/></e>
+    <e lm="Haut Atlas"><i>Haut<b/>Atlas</i><par n="Iran__np"/></e>
+    <e lm="Haute Autriche"><i>Haute<b/>Autriche</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Corse"><i>Haute-Corse</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Égypte"><i>Haute-Égypte</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Loire"><i>Haute-Loire</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Marne"><i>Haute-Marne</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute Normandie"><i>Haute<b/>Normandie</i><par n="Bulgarie__np"/></e>
+    <e lm="Haute-Normandie"><i>Haute-Normandie</i><par n="Bulgarie__np"/></e>
+    <e lm="Hautes-Alpes"><i>Hautes-Alpes</i><par n="Bahamas__np"/></e>
+    <e lm="Haute-Saône"><i>Haute-Saône</i><par n="Bulgarie__np"/></e>
+    <e lm="Hautes-Pyrénées"><i>Hautes-Pyrénées</i><par n="Bahamas__np"/></e>
+    <e lm="Haute-Vienne"><i>Haute-Vienne</i><par n="Bulgarie__np"/></e>
     <e lm="Haute vitesse espagnole"><i>Haute<b/>vitesse<b/>espagnole</i><par n="Carrefour__np"/></e>
-    <e lm="Haut-Rhin"><i>Haut-Rhin</i><par n="Andorre__np"/></e>
+    <e lm="Haut-Rhin"><i>Haut-Rhin</i><par n="Iran__np"/></e>
     <e lm="Hawaï"><i>Hawaï</i><par n="Iran__np"/></e>
     <e lm="Hawaii"><i>Hawaii</i><par n="Iran__np"/></e>
     <e lm="Hayley"><i>Hayley</i><par n="Carrefour__np"/></e>
@@ -26210,7 +26220,7 @@
     <e lm="Nord-Pas de Calais"><i>Nord-Pas<b/>de<b/>Calais</i><par n="Andorre__np"/></e>
     <e lm="Noriega"><i>Noriega</i><par n="Abraham__np"/></e>
     <e lm="Norique"><i>Norique</i><par n="Andorre__np"/></e>
-    <e lm="Normandie"><i>Normandie</i><par n="Carrefour__np"/></e>
+    <e lm="Normandie"><i>Normandie</i><par n="Bulgarie__np"/></e>
     <e lm="Norsk"><i>Norsk</i><par n="Carrefour__np"/></e>
     <e lm="Northumbrie"><i>Northumbrie</i><par n="Andorre__np"/></e>
     <e lm="Norvège"><i>Norvège</i><par n="Bulgarie__np"/></e>
@@ -26777,8 +26787,9 @@
     <e lm="Puy-de-Dôme"><i>Puy-de-Dôme</i><par n="Andorre__np"/></e>
     <e lm="Pyongyang"><i>Pyongyang</i><par n="Andorre__np"/></e>
     <e lm="pyramide Carstensz"><i>pyramide<b/>Carstensz</i><par n="Andorre__np"/></e>
-    <e lm="Pyrénées Atlantiques"><i>Pyrénées<b/>Atlantiques</i><par n="Andorre__np"/></e>
-    <e lm="Pyrénées-Orientales"><i>Pyrénées-Orientales</i><par n="Andorre__np"/></e>
+    <e lm="Pyrénées Atlantiques"><i>Pyrénées<b/>Atlantiques</i><par n="Bahamas__np"/></e>
+    <e lm="Pyrénées-Orientales"><i>Pyrénées-Orientales</i><par n="Bahamas__np"/></e>
+    <e lm="Pyrénées"><i>Pyrénées</i><par n="Bahamas__np"/></e>
     <e lm="Pythagore"><i>Pythagore</i><par n="Abraham__np"/></e>
     <e lm="Qatar"><i>Qatar</i><par n="Iran__np"/></e>
     <e lm="Qualification Philae"><i>Qualification<b/>Philae</i><par n="Carrefour__np"/></e>
@@ -26931,7 +26942,7 @@
     <e lm="Rhénanie"><i>Rhénanie</i><par n="Andorre__np"/></e>
     <e lm="Rhénanie Nord-Westphalie"><i>Rhénanie<b/>Nord-Westphalie</i><par n="Andorre__np"/></e>
     <e lm="Rhétie"><i>Rhétie</i><par n="Andorre__np"/></e>
-    <e lm="Rhin"><i>Rhin</i><par n="Andorre__np"/></e>
+    <e lm="Rhin"><i>Rhin</i><par n="Iran__np"/></e>
     <e lm="Rhode Island"><i>Rhode<b/>Island</i><par n="Iran__np"/></e>
     <e lm="Rhodes"><i>Rhodes</i><par n="Andorre__np"/></e>
     <e lm="Rianxeira"><i>Rianxeira</i><par n="Carrefour__np"/></e>
@@ -27048,8 +27059,8 @@
     <e lm="Rovira"><i>Rovira</i><par n="Carrefour__np"/></e>
     <e lm="Royal Sporting Club Anderlecht"><i>Royal<b/>Sporting<b/>Club<b/>Anderlecht</i><par n="Carrefour__np"/></e>
     <e lm="royaume des Deux-Roses"><i>royaume<b/>des<b/>Deux-Roses</i><par n="Carrefour__np"/></e>
-    <e lm="Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"><i>Royaume-Uni<b/>de<b/>Grande-Bretagne<b/>et<b/>d'Irlande<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
-    <e lm="Royaume-Uni de Grande-Bretagne et d'Irlande"><i>Royaume-Uni<b/>de<b/>Grande-Bretagne<b/>et<b/>d'Irlande</i><par n="Andorre__np"/></e>
+    <e lm="Royaume-Uni de Grande-Bretagne et d'Irlande du Nord"><i>Royaume-Uni<b/>de<b/>Grande-Bretagne<b/>et<b/>d'Irlande<b/>du<b/>Nord</i><par n="Iran__np"/></e>
+    <e lm="Royaume-Uni de Grande-Bretagne et d'Irlande"><i>Royaume-Uni<b/>de<b/>Grande-Bretagne<b/>et<b/>d'Irlande</i><par n="Iran__np"/></e>
     <e lm="Royaume-Uni"><i>Royaume-Uni</i><par n="Iran__np"/></e>
     <e lm="Roy"><i>Roy</i><par n="Abraham__np"/></e>
     <e lm="Royo"><i>Royo</i><par n="Carrefour__np"/></e>
@@ -27305,10 +27316,10 @@
     <e lm="Séguin"><i>Séguin</i><par n="Abraham__np"/></e>
     <e lm="Segura"><i>Segura</i><par n="Andorre__np"/></e>
     <e lm="Seinca"><i>Seinca</i><par n="Carrefour__np"/></e>
-    <e lm="Seine et Marne"><i>Seine<b/>et<b/>Marne</i><par n="Andorre__np"/></e>
-    <e lm="Seine-et-Marne"><i>Seine-et-Marne</i><par n="Andorre__np"/></e>
-    <e lm="Seine Maritime"><i>Seine<b/>Maritime</i><par n="Andorre__np"/></e>
-    <e lm="Seine-Maritime"><i>Seine-Maritime</i><par n="Andorre__np"/></e>
+    <e lm="Seine et Marne"><i>Seine<b/>et<b/>Marne</i><par n="Bulgarie__np"/></e>
+    <e lm="Seine-et-Marne"><i>Seine-et-Marne</i><par n="Bulgarie__np"/></e>
+    <e lm="Seine Maritime"><i>Seine<b/>Maritime</i><par n="Bulgarie__np"/></e>
+    <e lm="Seine-Maritime"><i>Seine-Maritime</i><par n="Bulgarie__np"/></e>
     <e lm="Seine-Saint Denis"><i>Seine-Saint<b/>Denis</i><par n="Andorre__np"/></e>
     <e lm="Sellal"><i>Sellal</i><par n="Abraham__np"/></e>
     <e lm="Sellapan Rama Nathan"><i>Sellapan<b/>Rama<b/>Nathan</i><par n="Abraham__np"/></e>
