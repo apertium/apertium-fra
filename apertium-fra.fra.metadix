@@ -17001,6 +17001,7 @@
     <e lm="alphabétique"><i>alphabétique</i><par n="académique__adj"/></e>
     <e lm="alpin"><i>alpin</i><par n="abaissant__adj"/></e>
     <e lm="alsacien"><i>alsacien</i><par n="ancien__adj"/></e>
+    <e lm="alsacien"><i>alsacien</i><par n="ancien__n"/></e>
     <e lm="alternatif"><i>alternati</i><par n="affirmati/f__adj"/></e>
     <e lm="alterné"><i>alterné</i><par n="abaissant__adj"/></e>
     <e lm="alterne"><i>alterne</i><par n="académique__adj"/></e>
@@ -23009,7 +23010,7 @@
     <e lm="Chamizo"><i>Chamizo</i><par n="Abraham__np"/></e>
     <e lm="Chamonix"><i>Chamonix</i><par n="Andorre__np"/></e>
     <e lm="Chamorro"><i>Chamorro</i><par n="Abraham__np"/></e>
-    <e lm="Champagne"><i>Champagne</i><par n="Bulgarie__np"/></e>
+    <e lm="Champagne"><i>Champagne</i><par n="Andorre__np"/></e>
     <e lm="Champagne-Ardennes"><i>Champagne-Ardennes</i><par n="Andorre__np"/></e>
     <e lm="Champ-de-Mars"><i>Champ-de-Mars</i><par n="Andorre__np"/></e>
     <e lm="Champs Élysées"><i>Champs<b/>Élysées</i><par n="Andorre__np"/></e>
@@ -27630,13 +27631,14 @@
     <e lm="Tchaikovski"><i>Tchaikovski</i><par n="Andorre__np"/></e>
     <e lm="Tchang Kaï-Chek"><i>Tchang<b/>Kaï-Chek</i><par n="Abraham__np"/></e>
     <e lm="Tchao Mong-Fou"><i>Tchao<b/>Mong-Fou</i><par n="Abraham__np"/></e>
-    <e lm="Tchéchénie"><i>Tchéchénie</i><par n="Andorre__np"/></e>
-    <e lm="Tchécoslovaquie"><i>Tchécoslovaquie</i><par n="Andorre__np"/></e>
+    <e lm="Tchéchénie"><i>Tchéchénie</i><par n="Bulgarie__np"/></e>
+    <e lm="Tchécoslovaquie"><i>Tchécoslovaquie</i><par n="Bulgarie__np"/></e>
     <e lm="Tcheliouskine"><i>Tcheliouskine</i><par n="Andorre__np"/></e>
+    <e lm="Tchéquie"><i>Tchéquie</i><par n="Bulgarie__np"/></e>
     <e lm="Tchernenko"><i>Tchernenko</i><par n="Abraham__np"/></e>
-    <e lm="Tcherski"><i>Tcherski</i><par n="Andorre__np"/></e>
-    <e lm="Tchétchénie"><i>Tchétchénie</i><par n="Andorre__np"/></e>
-    <e lm="Tchouvachia"><i>Tchouvachia</i><par n="Andorre__np"/></e>
+    <e lm="Tcherski"><i>Tcherski</i><par n="Bulgarie__np"/></e>
+    <e lm="Tchétchénie"><i>Tchétchénie</i><par n="Bulgarie__np"/></e>
+    <e lm="Tchouvachie"><i>Tchouvachie</i><par n="Bulgarie__np"/></e>
     <e lm="Team"><i>Team</i><par n="Carrefour__np"/></e>
     <e lm="Tecnalia"><i>Tecnalia</i><par n="Carrefour__np"/></e>
     <e lm="Tegucigalpa"><i>Tegucigalpa</i><par n="Andorre__np"/></e>
