@@ -8893,6 +8893,8 @@
     <e lm="espace"><i>espace</i><par n="livre__n"/></e>
     <e lm="espadrille"><i>espadrille</i><par n="abeille__n"/></e>
     <e lm="espagnol"><i>espagnol</i><par n="affecté__n"/></e>
+    <e lm="flamand"><i>flamand</i><par n="affecté__n"/></e>
+    <e lm="savoyard"><i>savoyard</i><par n="affecté__n"/></e>
     <e lm="espèce"><i>espèce</i><par n="abeille__n"/></e>
     <e lm="espèces"><i>espèces</i><par n="vacances__n"/></e>
     <e lm="espérance"><i>espérance</i><par n="abeille__n"/></e>
@@ -17929,6 +17931,9 @@
     <e lm="fixe"><i>fixe</i><par n="académique__adj"/></e>
     <e lm="flagrant"><i>flagrant</i><par n="abaissant__adj"/></e>
     <e lm="flamand"><i>flamand</i><par n="abaissant__adj"/></e>
+    <e lm="savoyard"><i>savoyard</i><par n="abaissant__adj"/></e>
+    <e lm="wallon"><i>wallon</i><par n="ancien__adj"/></e>
+    <e lm="wallon"><i>wallon</i><par n="ancien__n"/></e>
     <e lm="flemmard"><i>flemmard</i><par n="abaissant__adj"/></e>
     <e lm="florissant"><i>florissant</i><par n="abaissant__adj"/></e>
     <e lm="flottant"><i>flottant</i><par n="abaissant__adj"/></e>
@@ -21642,7 +21647,7 @@
     <e lm="Amaury"><i>Amaury</i><par n="Abraham__np"/></e>
     <e lm="Amavisca" c="es un apellido"><i>Amavisca</i><par n="Abraham__np"/></e>
     <e lm="Amaya"><i>Amaya</i><par n="Abraham__np"/></e>
-    <e lm="Amazone"><i>Amazone</i><par n="Andorre__np"/></e>
+    <e lm="Amazone"><i>Amazone</i><par n="Iran__np"/></e>
     <e lm="Amazonie"><i>Amazonie</i><par n="Andorre__np"/></e>
     <e lm="Amboise"><i>Amboise</i><par n="Andorre__np"/></e>
     <e lm="Ambriz"><i>Ambriz</i><par n="Abraham__np"/></e>
@@ -21770,7 +21775,7 @@
     <e lm="Anders"><i>Anders</i><par n="Abraham__np"/></e>
     <e lm="Anderson"><i>Anderson</i><par n="Abraham__np"/></e>
     <e lm="Andersson"><i>Andersson</i><par n="Abraham__np"/></e>
-    <e lm="Andes"><i>Andes</i><par n="Andorre__np"/></e>
+    <e lm="Andes"><i>Andes</i><par n="Bahamas__np"/></e>
     <e lm="Andhra Pradesh"><i>Andhra<b/>Pradesh</i><par n="Andorre__np"/></e>
     <e lm="Andía"><i>Andía</i><par n="Abraham__np"/></e>
     <e lm="Andia"><i>Andia</i><par n="Carrefour__np"/></e>
@@ -25413,7 +25418,7 @@
     <e lm="Logoroño"><i>Logoroño</i><par n="Andorre__np"/></e>
     <e lm="Logroño"><i>Logroño</i><par n="Andorre__np"/></e>
     <e lm="Loiola"><i>Loiola</i><par n="Andorre__np"/></e>
-    <e lm="Loire-Atlantique"><i>Loire-Atlantique</i><par n="Andorre__np"/></e>
+    <e lm="Loire-Atlantique"><i>Loire-Atlantique</i><par n="Bulgarie__np"/></e>
     <e lm="Loir-et-Cher"><i>Loir-et-Cher</i><par n="Andorre__np"/></e>
     <e lm="Loiret"><i>Loiret</i><par n="Andorre__np"/></e>
     <e lm="Loiu"><i>Loiu</i><par n="Andorre__np"/></e>
@@ -26206,9 +26211,10 @@
     <e lm="Nihous"><i>Nihous</i><par n="Abraham__np"/></e>
     <e lm="Nijni-Novgorod"><i>Nijni-Novgorod</i><par n="Andorre__np"/></e>
     <e lm="Nikkei"><i>Nikkei</i><par n="Abraham__np"/></e>
+    <e lm="Nil"><i>Nil</i><par n="Iran__np"/></e>
     <e lm="Nila"><i>Nila</i><par n="Abraham__np"/></e>
-    <e lm="Nil Blanc"><i>Nil<b/>Blanc</i><par n="Andorre__np"/></e>
-    <e lm="Nil Bleu"><i>Nil<b/>Bleu</i><par n="Andorre__np"/></e>
+    <e lm="Nil Blanc"><i>Nil<b/>Blanc</i><par n="Iran__np"/></e>
+    <e lm="Nil Bleu"><i>Nil<b/>Bleu</i><par n="Iran__np"/></e>
     <e lm="Nimègue"><i>Nimègue</i><par n="Andorre__np"/></e>
     <e lm="Nina"><i>Nina</i><par n="Abraham__np"/></e>
     <e lm="Nintendo"><i>Nintendo</i><par n="Carrefour__np"/></e>
@@ -26522,8 +26528,8 @@
     <e lm="Pays Basque français"><i>Pays<b/>Basque<b/>français</i><par n="Andorre__np"/></e>
     <e lm="Pays Basque"><i>Pays<b/>Basque</i><par n="Andorre__np"/></e>
     <e lm="pays de Galles"><i>pays<b/>de<b/>Galles</i><par n="Iran__np"/></e>
-    <e lm="Pays-de-la-Loire"><i>Pays-de-la-Loire</i><par n="Andorre__np"/></e>
-    <e lm="Pays de Loire"><i>Pays<b/>de<b/>Loire</i><par n="Andorre__np"/></e>
+    <e lm="Pays-de-la-Loire"><i>Pays-de-la-Loire</i><par n="Iran__np"/></e>
+    <e lm="Pays de Loire"><i>Pays<b/>de<b/>Loire</i><par n="Iran__np"/></e>
     <e lm="PDA"><i>PDA</i><par n="Carrefour__np"/></e>
     <e lm="pdf"><i>pdf</i><par n="Carrefour__np"/></e>
     <e lm="Pedraza"><i>Pedraza</i><par n="Andorre__np"/></e>
@@ -28112,6 +28118,7 @@
     <e lm="Wallis et Futuna"><i>Wallis<b/>et<b/>Futuna</i><par n="Andorre__np"/></e>
     <e lm="Wallonie"><i>Wallonie</i><par n="Bulgarie__np"/></e>
     <e lm="Flandre"><i>Flandre</i><par n="Bulgarie__np"/></e>
+    <e lm="Flandres"><i>Flandres</i><par n="Bahamas__np"/></e>
     <e lm="Wall Street"><i>Wall<b/>Street</i><par n="Carrefour__np"/></e>
     <e lm="Walter"><i>Walter</i><par n="Abraham__np"/></e>
     <e lm="Walt"><i>Walt</i><par n="Abraham__np"/></e>
@@ -28279,6 +28286,21 @@
     <e lm="Le Pen"><i>Le<b/>Pen</i><par n="Abraham__np"/></e>
     <e lm="Macron"><i>Macron</i><par n="Abraham__np"/></e>
     <e lm="Hamon"><i>Hamon</i><par n="Abraham__np"/></e>
+
+    <e lm="Danube"><i>Danube</i><par n="Iran__np"/></e>
+    <e lm="Limpopo"><i>Limpopo</i><par n="Iran__np"/></e>
+    <e lm="Orénoque"><i>Orénoque</i><par n="Iran__np"/></e>
+    <e lm="Volga"><i>Volga</i><par n="Bulgarie__np"/></e>
+    <e lm="Don"><i>Don</i><par n="Iran__np"/></e>
+    <e lm="Mississipi"><i>Mississipi</i><par n="Iran__np"/></e>
+    <e lm="Missouri"><i>Missouri</i><par n="Iran__np"/></e>
+    <e lm="Hudson"><i>Hudson</i><par n="Iran__np"/></e>
+    <e lm="Colorado"><i>Colorado</i><par n="Iran__np"/></e>
+    <e lm="Marne"><i>Marne</i><par n="Bulgarie__np"/></e>
+    <e lm="Saint-Laurent"><i>Saint-Laurent</i><par n="Iran__np"/></e>
+    <e lm="Suriname"><i>Suriname</i><par n="Iran__np"/></e>
+    <e lm="Congo"><i>Congo</i><par n="Iran__np"/></e>
+
     <!-- PROPER NOUNS: END -->
 
     <!-- MISCELLANEOUS: BEGIN -->
