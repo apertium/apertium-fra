@@ -1015,6 +1015,7 @@
 
     <pardef n="lui__prn">
       <e><p><l/>                    <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/>             <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e> <!-- avec lui (comme: avec moi, toi, etc.) -->
     </pardef>
 
     <pardef n="en__prn">
@@ -20410,7 +20411,6 @@
     <e lm="aux effets pertinents"><i>aux<b/>effets<b/>pertinents</i><par n="afin_que__cnjadv"/></e>
     <e lm="avant que" r="LR"><i>avant<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e lm="avant que" r="RL"><p><l>avant<b/><a/>que</l><r>avant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
-    <e lm="bien que"><p><l>bien<b/>que</l><r>bien<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="bien que" r="LR"><i>bien<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e lm="bien que" r="RL"><p><l>bien<b/><a/>que</l><r>bien<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="car"><i>car</i><par n="afin_que__cnjadv"/></e>
@@ -25071,7 +25071,8 @@
     <e lm="Jupiter"><i>Jupiter</i><par n="Andorre__np"/></e>
     <e lm="Júpiter"><i>Júpiter</i><par n="Andorre__np"/></e>
     <e lm="Juquin"><i>Juquin</i><par n="Abraham__np"/></e>
-    <e lm="Jura"><i>Jura</i><par n="Andorre__np"/></e>
+    <e lm="Jura"><i>Jura</i><par n="Iran__np"/></e>
+    <e lm="Marroc"><i>Marroc</i><par n="Iran__np"/></e>
     <e lm="Just"><i>Just</i><par n="Abraham__np"/></e>
     <e lm="Jutland"><i>Jutland</i><par n="Andorre__np"/></e>
     <e lm="Juventud"><i>Juventud</i><par n="Carrefour__np"/></e>
@@ -25402,15 +25403,15 @@
     <e lm="les Champs-Élysées"><i>les<b/>Champs-Élysées</i><par n="Andorre__np"/></e>
     <e lm="les gouvernements"><i>les<b/>gouvernements</i><par n="Carrefour__np"/></e>
     <e lm="Les Huguenots"><i>Les<b/>Huguenots</i><par n="Carrefour__np"/></e>
-    <e lm="Les Landes"><i>Les<b/>Landes</i><par n="Andorre__np"/></e>
+    <e lm="Les Landes"><i>Les<b/>Landes</i><par n="Bahamas__np"/></e>
     <e lm="Les Lumières"><i>Les<b/>Lumières</i><par n="Carrefour__np"/></e>
-    <e lm="les Mariannes"><i>les<b/>Mariannes</i><par n="Andorre__np"/></e>
+    <e lm="les Mariannes"><i>les<b/>Mariannes</i><par n="Bahamas__np"/></e>
     <e lm="Lesnes"><i>Lesnes</i><par n="Andorre__np"/></e>
     <e lm="Le Soir"><i>Le<b/>Soir</i><par n="Carrefour__np"/></e>
     <e lm="Lesotho"><i>Lesotho</i><par n="Iran__np"/></e>
     <e lm="Les Peters"><i>Les<b/>Peters</i><par n="Carrefour__np"/></e>
     <e lm="les temps chauds"><i>les<b/>temps<b/>chauds</i><par n="Carrefour__np"/></e>
-    <e lm="Les Vosges"><i>Les<b/>Vosges</i><par n="Andorre__np"/></e>
+    <e lm="Les Vosges"><i>Les<b/>Vosges</i><par n="Bahamas__np"/></e>
     <e lm="Lete"><i>Lete</i><par n="Abraham__np"/></e>
     <e lm="Letizia Ortiz Rocasolano"><i>Letizia<b/>Ortiz<b/>Rocasolano</i><par n="Abraham__np"/></e>
     <e lm="Lettonie"><i>Lettonie</i><par n="Bulgarie__np"/></e>
@@ -25724,7 +25725,7 @@
     <e lm="Markina"><i>Markina</i><par n="Andorre__np"/></e>
     <e lm="Markus"><i>Markus</i><par n="Abraham__np"/></e>
     <e lm="Marlene"><i>Marlene</i><par n="Abraham__np"/></e>
-    <e lm="Marne"><i>Marne</i><par n="Andorre__np"/></e>
+    <e lm="Marne"><i>Marne</i><par n="Bulgarie__np"/></e>
     <e lm="Maroc"><i>Maroc</i><par n="Iran__np"/></e>
     <e lm="Maroto"><i>Maroto</i><par n="Carrefour__np"/></e>
     <e lm="Márquez"><i>Márquez</i><par n="Abraham__np"/></e>
@@ -26108,8 +26109,8 @@
     <e lm="Moroni"><i>Moroni</i><par n="Andorre__np"/></e>
     <e lm="Morphée"><i>Morphée</i><par n="Abraham__np"/></e>
     <e lm="Morpion"><i>Morpion</i><par n="Abraham__np"/></e>
-    <e lm="Moscovie"><i>Moscovie</i><par n="Andorre__np"/></e>
-    <e lm="Moselle"><i>Moselle</i><par n="Andorre__np"/></e>
+    <e lm="Moscovie"><i>Moscovie</i><par n="Bulgarie__np"/></e>
+    <e lm="Moselle"><i>Moselle</i><par n="Bulgarie__np"/></e>
     <e lm="Moshe"><i>Moshe</i><par n="Abraham__np"/></e>
     <e lm="Moshé"><i>Moshé</i><par n="Abraham__np"/></e>
     <e lm="Mosso"><i>Mosso</i><par n="Carrefour__np"/></e>
@@ -28372,7 +28373,6 @@
     <e lm="Missouri"><i>Missouri</i><par n="Iran__np"/></e>
     <e lm="Hudson"><i>Hudson</i><par n="Iran__np"/></e>
     <e lm="Colorado"><i>Colorado</i><par n="Iran__np"/></e>
-    <e lm="Marne"><i>Marne</i><par n="Bulgarie__np"/></e>
     <e lm="Saint-Laurent"><i>Saint-Laurent</i><par n="Iran__np"/></e>
     <e lm="Suriname"><i>Suriname</i><par n="Iran__np"/></e>
     <e lm="Congo"><i>Congo</i><par n="Iran__np"/></e>
