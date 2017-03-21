@@ -21625,6 +21625,19 @@
     <e lm="Alpe d'Huez"><i>Alpe<b/>d'Huez</i><par n="Andorre__np"/></e>
     <e lm="Alpendurada"><i>Alpendurada</i><par n="Andorre__np"/></e>
     <e lm="Alperi"><i>Alperi</i><par n="Abraham__np"/></e>
+    <e lm="les Alpes Australiennes"><i>les<b/>Alpes<b/>Australiennes</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes-de-Haute-Provence"><i>les<b/>Alpes-de-Haute-Provence</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes"><i>les<b/>Alpes</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes-Maritimes"><i>les<b/>Alpes-Maritimes</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes Néo-Zélandaises"><i>les<b/>Alpes<b/>Néo-Zélandaises</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes Scandinaves"><i>les<b/>Alpes<b/>Scandinaves</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes autrichiennes"><i>les<b/>Alpes<b/>autrichiennes</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes suisses"><i>les<b/>Alpes<b/>suisses</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes savoyardes"><i>les<b/>Alpes<b/>savoyardes</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes italiennes"><i>les<b/>Alpes<b/>italiennes</i><par n="Bahamas__np"/></e>
+    <e lm="les Alpes slovènes"><i>les<b/>Alpes<b/>slovènes</i><par n="Bahamas__np"/></e>
+    <e lm="des Alpes" r="LR"><p><l>des<b/>Alpes</l><r>de<s n="pr"/><j/>les<b/>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="aux Alpes" r="LR"><p><l>aux<b/>Alpes</l><r>à<s n="pr"/><j/>les<b/>Alpes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="Alpes Australiennes"><i>Alpes<b/>Australiennes</i><par n="Bahamas__np"/></e>
     <e lm="Alpes-de-Haute-Provence"><i>Alpes-de-Haute-Provence</i><par n="Bahamas__np"/></e>
     <e lm="Alpes"><i>Alpes</i><par n="Bahamas__np"/></e>
@@ -21852,6 +21865,9 @@
     <e lm="Anderson"><i>Anderson</i><par n="Abraham__np"/></e>
     <e lm="Andersson"><i>Andersson</i><par n="Abraham__np"/></e>
     <e lm="Andes"><i>Andes</i><par n="Bahamas__np"/></e>
+    <e lm="les Andes"><i>les<b/>Andes</i><par n="Bahamas__np"/></e>
+    <e lm="des Andes" r="LR"><p><l>des<b/>Andes</l><r>de<s n="pr"/><j/>les<b/>Andes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="aux Andes" r="LR"><p><l>aux<b/>Andes</l><r>à<s n="pr"/><j/>les<b/>Andes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="Andhra Pradesh"><i>Andhra<b/>Pradesh</i><par n="Andorre__np"/></e>
     <e lm="Andía"><i>Andía</i><par n="Abraham__np"/></e>
     <e lm="Andia"><i>Andia</i><par n="Carrefour__np"/></e>
@@ -22186,6 +22202,9 @@
     <e lm="Ardèche"><i>Ardèche</i><par n="Andorre__np"/></e>
     <e lm="Ardela"><i>Ardela</i><par n="Abraham__np"/></e>
     <e lm="Ardennes"><i>Ardennes</i><par n="Bahamas__np"/></e>
+    <e lm="les Ardennes"><i>les<b/>Ardennes</i><par n="Bahamas__np"/></e>
+    <e lm="des Ardennes" r="LR"><p><l>des<b/>Ardennes</l><r>de<s n="pr"/><j/>les<b/>Ardennes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="aux Ardennes" r="LR"><p><l>aux<b/>Ardennes</l><r>à<s n="pr"/><j/>les<b/>Ardennes<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="Ardiden"><i>Ardiden</i><par n="Andorre__np"/></e>
     <e lm="Ardila"><i>Ardila</i><par n="Abraham__np"/></e>
     <e lm="Arditurri"><i>Arditurri</i><par n="Andorre__np"/></e>
@@ -24511,12 +24530,15 @@
     <e lm="Haute-Corse"><i>Haute-Corse</i><par n="Bulgarie__np"/></e>
     <e lm="Haute-Égypte"><i>Haute-Égypte</i><par n="Bulgarie__np"/></e>
     <e lm="Haute-Loire"><i>Haute-Loire</i><par n="Bulgarie__np"/></e>
+    <e lm="la Haute-Loire"><i>la<b/>Haute-Loire</i><par n="Bulgarie__np"/></e>
     <e lm="Haute-Marne"><i>Haute-Marne</i><par n="Bulgarie__np"/></e>
+    <e lm="la Haute-Marne"><i>la<b/>Haute-Marne</i><par n="Bulgarie__np"/></e>
     <e lm="Haute Normandie"><i>Haute<b/>Normandie</i><par n="Bulgarie__np"/></e>
     <e lm="Haute-Normandie"><i>Haute-Normandie</i><par n="Bulgarie__np"/></e>
     <e lm="Hautes-Alpes"><i>Hautes-Alpes</i><par n="Bahamas__np"/></e>
     <e lm="Haute-Saône"><i>Haute-Saône</i><par n="Bulgarie__np"/></e>
     <e lm="Hautes-Pyrénées"><i>Hautes-Pyrénées</i><par n="Bahamas__np"/></e>
+    <e lm="les Hautes-Pyrénées"><i>les<b/>Hautes-Pyrénées</i><par n="Bahamas__np"/></e>
     <e lm="Haute-Vienne"><i>Haute-Vienne</i><par n="Bulgarie__np"/></e>
     <e lm="Haute vitesse espagnole"><i>Haute<b/>vitesse<b/>espagnole</i><par n="Carrefour__np"/></e>
     <e lm="Haut-Rhin"><i>Haut-Rhin</i><par n="Iran__np"/></e>
@@ -25411,7 +25433,9 @@
     <e lm="Lesotho"><i>Lesotho</i><par n="Iran__np"/></e>
     <e lm="Les Peters"><i>Les<b/>Peters</i><par n="Carrefour__np"/></e>
     <e lm="les temps chauds"><i>les<b/>temps<b/>chauds</i><par n="Carrefour__np"/></e>
-    <e lm="Les Vosges"><i>Les<b/>Vosges</i><par n="Bahamas__np"/></e>
+    <e lm="les Vosges"><i>les<b/>Vosges</i><par n="Bahamas__np"/></e>
+    <e lm="des Vosges" r="LR"><p><l>des<b/>Vosges</l><r>de<s n="pr"/><j/>les<b/>Vosges<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="aux Vosges" r="LR"><p><l>aux<b/>Vosges</l><r>à<s n="pr"/><j/>les<b/>Vosges<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
     <e lm="Lete"><i>Lete</i><par n="Abraham__np"/></e>
     <e lm="Letizia Ortiz Rocasolano"><i>Letizia<b/>Ortiz<b/>Rocasolano</i><par n="Abraham__np"/></e>
     <e lm="Lettonie"><i>Lettonie</i><par n="Bulgarie__np"/></e>
@@ -25496,6 +25520,7 @@
     <e lm="Logroño"><i>Logroño</i><par n="Andorre__np"/></e>
     <e lm="Loiola"><i>Loiola</i><par n="Andorre__np"/></e>
     <e lm="Loire-Atlantique"><i>Loire-Atlantique</i><par n="Bulgarie__np"/></e>
+    <e lm="la Loire-Atlantique"><i>la<b/>Loire-Atlantique</i><par n="Bulgarie__np"/></e>
     <e lm="Loir-et-Cher"><i>Loir-et-Cher</i><par n="Andorre__np"/></e>
     <e lm="Loiret"><i>Loiret</i><par n="Andorre__np"/></e>
     <e lm="Loiu"><i>Loiu</i><par n="Andorre__np"/></e>
@@ -25726,6 +25751,7 @@
     <e lm="Markus"><i>Markus</i><par n="Abraham__np"/></e>
     <e lm="Marlene"><i>Marlene</i><par n="Abraham__np"/></e>
     <e lm="Marne"><i>Marne</i><par n="Bulgarie__np"/></e>
+    <e lm="la Marne"><i>la<b/>Marne</i><par n="Bulgarie__np"/></e>
     <e lm="Maroc"><i>Maroc</i><par n="Iran__np"/></e>
     <e lm="Maroto"><i>Maroto</i><par n="Carrefour__np"/></e>
     <e lm="Márquez"><i>Márquez</i><par n="Abraham__np"/></e>
@@ -26884,6 +26910,19 @@
     <e lm="Puy-de-Dôme"><i>Puy-de-Dôme</i><par n="Andorre__np"/></e>
     <e lm="Pyongyang"><i>Pyongyang</i><par n="Andorre__np"/></e>
     <e lm="pyramide Carstensz"><i>pyramide<b/>Carstensz</i><par n="Andorre__np"/></e>
+    <e lm="les Pyrénées Atlantiques"><i>les<b/>Pyrénées<b/>Atlantiques</i><par n="Bahamas__np"/></e>
+    <e lm="les Pyrénées-Orientales"><i>les<b/>Pyrénées-Orientales</i><par n="Bahamas__np"/></e>
+    <e lm="des Pyrénées" r="LR"><p><l>des<b/>Pyrénées</l><r>de<s n="pr"/><j/>les<b/>Pyrénées<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="des Pyrénées Atlantiques" r="LR"><p><l>des<b/>Pyrénées<b/>Atlantiques</l><r>de<s n="pr"/><j/>les<b/>Pyrénées<b/>Atlantiques<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="des Pyrénées-Orientales" r="LR"><p><l>des<b/>Pyrénées-Orientales</l><r>de<s n="pr"/><j/>les<b/>Pyrénées-Orientales<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="aux Pyrénées" r="LR"><p><l>aux<b/>Pyrénées</l><r>à<s n="pr"/><j/>les<b/>Pyrénées<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="aux Pyrénées Atlantiques" r="LR"><p><l>aux<b/>Pyrénées<b/>Atlantiques</l><r>à<s n="pr"/><j/>les<b/>Pyrénées<b/>Atlantiques<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="aux Pyrénées-Orientales" r="LR"><p><l>aux<b/>Pyrénées-Orientales</l><r>à<s n="pr"/><j/>les<b/>Pyrénées-Orientales<s n="np"/><s n="top"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="les Pyrénées espagnoles"><i>les<b/>Pyrénées<b/>espagnoles</i><par n="Bahamas__np"/></e>
+    <e lm="les Pyrénées françaises"><i>les<b/>Pyrénées<b/>françaises</i><par n="Bahamas__np"/></e>
+    <e lm="les Pyrénées aragonaises"><i>les<b/>Pyrénées<b/>aragonaises</i><par n="Bahamas__np"/></e>
+    <e lm="les Pyrénées catalanes"><i>les<b/>Pyrénées<b/>catalanes</i><par n="Bahamas__np"/></e>
+    <e lm="les Pyrénées"><i>les<b/>Pyrénées</i><par n="Bahamas__np"/></e>
     <e lm="Pyrénées Atlantiques"><i>Pyrénées<b/>Atlantiques</i><par n="Bahamas__np"/></e>
     <e lm="Pyrénées-Orientales"><i>Pyrénées-Orientales</i><par n="Bahamas__np"/></e>
     <e lm="Pyrénées"><i>Pyrénées</i><par n="Bahamas__np"/></e>
@@ -28187,7 +28226,7 @@
     <e lm="Volodymyr"><i>Volodymyr</i><par n="Abraham__np"/></e>
     <e lm="Volskwagen"><i>Volskwagen</i><par n="Carrefour__np"/></e>
     <e lm="Voltaire"><i>Voltaire</i><par n="Abraham__np"/></e>
-    <e lm="Vosges"><i>Vosges</i><par n="Andorre__np"/></e>
+    <e lm="Vosges"><i>Vosges</i><par n="Bahamas__np"/></e>
     <e lm="Vueling"><i>Vueling</i><par n="Carrefour__np"/></e>
     <e lm="Vuitton"><i>Vuitton</i><par n="Abraham__np"/></e>
     <e lm="Vulcain"><i>Vulcain</i><par n="Abraham__np"/></e>
@@ -28368,6 +28407,7 @@
     <e lm="Limpopo"><i>Limpopo</i><par n="Iran__np"/></e>
     <e lm="Orénoque"><i>Orénoque</i><par n="Iran__np"/></e>
     <e lm="Volga"><i>Volga</i><par n="Bulgarie__np"/></e>
+    <e lm="la Volga"><i>la<b/>Volga</i><par n="Bulgarie__np"/></e>
     <e lm="Don"><i>Don</i><par n="Iran__np"/></e>
     <e lm="Mississipi"><i>Mississipi</i><par n="Iran__np"/></e>
     <e lm="Missouri"><i>Missouri</i><par n="Iran__np"/></e>
