@@ -1123,6 +1123,12 @@
       <e><p><l>es<b/>vôtres</l>     <r>e<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="l/e_leur__prn">
+      <e><p><l>a<b/>leur</l>        <r>e<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>e<b/>leur</l>        <r>e<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>es<b/>leurs</l>      <r>e<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="soi__prn">
       <e><p><l/>                    <r><s n="prn"/><s n="tn"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
@@ -28508,6 +28514,7 @@
     <e lm="leur"><i>leur</i><par n="leur__det"/></e>
     <e lm="leur"><i>leur</i><par n="leur__prn"/></e>
     <e lm="le vôtre"><i>l</i><par n="l/e_vôtre__prn"/></e>
+    <e lm="le leur"><i>l</i><par n="l/e_leur__prn"/></e>
     <e lm="lu et approuvé"><p><l>lu<b/>et<b/>approuvé</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
     <e lm="lu et approuvé"><p><l>lue<b/>et<b/>approuvée</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="lu et approuvé"><p><l>lues<b/>et<b/>approuvées</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
