@@ -269,11 +269,11 @@
       <e><p><l/>                    <r><s n="adj"/><s n="pos"/><s n="mf"/><s n="sp"/></r></p></e>
     </pardef>
 
-    <pardef n="à_il__adj">
-      <e><p><l>il</l>               <r>il<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-      <e><p><l>eux</l>              <r>il<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l>elle</l>             <r>il<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>elles</l>            <r>il<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+    <pardef n="à/_lui__adj">
+      <e><p><l>lui</l>              <r>lui<s n="adj"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+      <e><p><l>eux</l>              <r>lui<s n="adj"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>elle</l>             <r>lui<s n="adj"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+      <e><p><l>elles</l>            <r>lui<s n="adj"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="publi/c__adj">
@@ -10291,6 +10291,7 @@
     <e lm="KAZ"><i>KAZ</i><par n="BBVA__n"/></e>
     <e lm="kéfir"><i>kéfir</i><par n="personnel__n"/></e>
     <e lm="kg"><i>kg</i><par n="mois__n"/></e>
+    <e lm="F"><i>F</i><par n="mois__n"/></e>
     <e lm="kidnappeur" r="LR"><i>kidnappeu</i><par n="causeu/r__n"/></e>
     <e lm="kilogramme"><i>kilogramme</i><par n="livre__n"/></e>
     <e lm="kilo"><i>kilo</i><par n="livre__n"/></e>
@@ -17094,7 +17095,7 @@
     <e lm="aigre"><i>aigre</i><par n="académique__adj"/></e>
     <e lm="aigu"><i>aigu</i><par n="abaissant__adj"/></e>
     <e lm="aiguisé"><i>aiguisé</i><par n="abaissant__adj"/></e>
-    <e lm="à il"><i>à<b/></i><par n="à_il__adj"/></e>
+    <e lm="à lui"><i>à<b/></i><par n="à/_lui__adj"/></e>
     <e lm="aimable"><i>aimable</i><par n="académique__adj"/></e>
     <e lm="aimant" r="LR"><i>aimant</i><par n="abaissant__adj"/></e>
     <e lm="aisé"><i>aisé</i><par n="abaissant__adj"/></e>
@@ -19311,6 +19312,7 @@
     <e lm="susdit"><i>susdit</i><par n="abaissant__adj"/></e>
     <e lm="suspect"><i>suspect</i><par n="abaissant__adj"/></e>
     <e lm="suspendu"><i>suspendu</i><par n="abaissant__adj"/></e>
+    <e lm="syllabique"><i>syllabique</i><par n="académique__adj"/></e>
     <e lm="symbolique"><i>symbolique</i><par n="académique__adj"/></e>
     <e lm="symétrique"><i>symétrique</i><par n="académique__adj"/></e>
     <e lm="sympa" r="LR"><i>sympa</i><par n="arrière__adj"/></e>
@@ -20334,6 +20336,7 @@
     <e lm="surtout"><i>surtout</i><par n="hier__adv"/></e>
     <e lm="symboliquement"><i>symboliquement</i><par n="hier__adv"/></e>
     <e lm="symétriquement"><i>symétriquement</i><par n="hier__adv"/></e>
+    <e lm="synthétiquement"><i>synthétiquement</i><par n="hier__adv"/></e>
     <e lm="systématiquement"><i>systématiquement</i><par n="hier__adv"/></e>
     <e lm="tantôt" r="LR"><i>tantôt</i><par n="hier__adv"/></e>
     <e lm="tant" r="LR"><i>tant</i><par n="hier__adv"/></e>
