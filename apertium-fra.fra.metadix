@@ -6233,6 +6233,7 @@
     <e lm="ADR"><i>ADR</i><par n="BBVA__n"/></e>
     <e lm="ADSL"><i>ADSL</i><par n="BBVA__n"/></e>
     <e lm="adulte"><i>adulte</i><par n="artiste__n"/></e>
+    <e lm="adulte"><i>adulte</i><par n="académique__adj"/></e>
     <e lm="adultère"><i>adultère</i><par n="livre__n"/></e>
     <e lm="advection"><i>advection</i><par n="abeille__n"/></e>
     <e lm="adverbe"><i>adverbe</i><par n="livre__n"/></e>
@@ -6455,7 +6456,7 @@
     <e lm="amende"><i>amende</i><par n="abeille__n"/></e>
     <e lm="amendement"><i>amendement</i><par n="livre__n"/></e>
     <e lm="amen"><i>amen</i><par n="livre__n"/></e>
-    <e lm="américain"><i>américain</i><par n="affecté__n"/></e>
+    <e lm="Américain"><i>Américain</i><par n="affecté__n"/></e>
     <e lm="américanisation"><i>américanisation</i><par n="abeille__n"/></e>
     <e lm="américanité"><i>américanité</i><par n="abeille__n"/></e>
     <e lm="améro"><i>améro</i><par n="livre__n"/></e>
@@ -6522,6 +6523,7 @@
     <e lm="angélus"><i>angélus</i><par n="mois__n"/></e>
     <e lm="angine"><i>angine</i><par n="abeille__n"/></e>
     <e lm="anglais"><i>anglais</i><par n="admis__n"/></e>
+    <e lm="danois"><i>danois</i><par n="admis__n"/></e>
     <e lm="angle"><i>angle</i><par n="livre__n"/></e>
     <e lm="angoisse"><i>angoisse</i><par n="abeille__n"/></e>
     <e lm="angulation"><i>angulation</i><par n="abeille__n"/></e>
@@ -6708,7 +6710,6 @@
     <e lm="arrosage"><i>arrosage</i><par n="livre__n"/></e>
     <e lm="arsenal"><i>arsena</i><par n="anima/l__n"/></e>
     <e lm="artère"><i>artère</i><par n="abeille__n"/></e>
-    <e lm="art"><i>art</i><par n="artiste__n"/></e>
     <e lm="art"><i>art</i><par n="livre__n"/></e>
     <e lm="artichaut"><i>artichaut</i><par n="livre__n"/></e>
     <e lm="article"><i>article</i><par n="livre__n"/></e>
@@ -6717,7 +6718,7 @@
     <e lm="artificier"><i>artificier</i><par n="livre__n"/></e>
     <e lm="artisan"><i>artisan</i><par n="affecté__n"/></e>
     <e lm="artiste"><i>artiste</i><par n="artiste__n"/></e>
-     <e lm="ascenseur" a="joan"><i>ascenseur</i><par n="livre__n"/></e>
+    <e lm="ascenseur" a="joan"><i>ascenseur</i><par n="livre__n"/></e>
     <e lm="ascension"><i>ascension</i><par n="abeille__n"/></e>
     <e lm="as"><i>as</i><par n="mois__n"/></e>
     <e lm="aspect"><i>aspect</i><par n="livre__n"/></e>
@@ -10206,7 +10207,7 @@
     <e lm="israélien"><i>israélien</i><par n="ancien__n"/></e>
     <e lm="issue"><i>issue</i><par n="abeille__n"/></e>
     <e lm="italien"><i>italien</i><par n="ancien__n"/></e>
-    <e lm="prussien"><i>prussien</i><par n="ancien__n"/></e>
+    <e lm="Prussien"><i>Prussien</i><par n="ancien__n"/></e>
     <e lm="itinéraire"><i>itinéraire</i><par n="livre__n"/></e>
     <e lm="IU"><i>IU</i><par n="BBC__n"/></e>
     <e lm="ivoire"><i>ivoire</i><par n="abeille__n"/></e>
@@ -10647,7 +10648,7 @@
     <e lm="marketing"><i>marketing</i><par n="livre__n"/></e>
     <e lm="marmelade"><i>marmelade</i><par n="abeille__n"/></e>
     <e lm="marmite"><i>marmite</i><par n="abeille__n"/></e>
-    <e lm="marocain"><i>marocain</i><par n="affecté__n"/></e>
+    <e lm="Marocain"><i>Marocain</i><par n="affecté__n"/></e>
     <e lm="marque"><i>marque</i><par n="abeille__n"/></e>
     <e lm="marqueur"><i>marqueur</i><par n="livre__n"/></e>
     <e lm="marquis" r="LR"><i>marquis</i><par n="admis__n"/></e>
@@ -10708,7 +10709,7 @@
     <e lm="médecin"><i>médecin</i><par n="artiste__n"/></e>
     <e lm="medecin de garde"><i>médecin</i><par n="artiste__n"/><p><l><b/>de<b/>garde</l><r><g><b/>de<b/>garde</g></r></p></e>
     <e lm="medecin de famille"><i>médecin</i><par n="artiste__n"/><p><l><b/>de<b/>famille</l><r><g><b/>de<b/>famille</g></r></p></e>
-    <e lm="corse"><i>corse</i><par n="artiste__n"/></e>
+    <e lm="Corse"><i>Corse</i><par n="artiste__n"/></e>
     <e lm="corse"><i>corse</i><par n="académique__adj"/></e>
     <e lm="média"><i>média</i><par n="abords__n"/></e>
     <e lm="média"><i>média</i><par n="livre__n"/></e>
@@ -11090,7 +11091,10 @@
     <e lm="nicotine"><i>nicotine</i><par n="abeille__n"/></e>
     <e lm="nid"><i>nid</i><par n="livre__n"/></e>
     <e lm="nièce"><i>nièce</i><par n="abeille__n"/></e>
-    <e lm="nigérien"><i>nigérien</i><par n="ancien__n"/></e>
+    <e lm="Nigérien"><i>Nigérien</i><par n="ancien__n"/></e>
+    <e lm="Algérien"><i>Algérien</i><par n="ancien__n"/></e>
+    <e lm="Tunisien"><i>Tunisien</i><par n="ancien__n"/></e>
+    <e lm="tunisien"><i>tunisien</i><par n="ancien__adj"/></e>
     <e lm="nitrogène"><i>nitrogène</i><par n="livre__n"/></e>
     <e lm="niveau de liquidité"><i>niveau</i><par n="lieu__n"/><p><l><b/>de<b/>liquidité</l><r><g><b/>de<b/>liquidité</g></r></p></e>
     <e lm="niveau"><i>niveau</i><par n="lieu__n"/></e>
@@ -11641,6 +11645,7 @@
     <e lm="photon"><i>photon</i><par n="artiste__n"/></e>
     <e lm="photonouvelle" r="LR"><i>photonouvelle</i><par n="abeille__n"/></e>
     <e lm="phrase"><i>phrase</i><par n="abeille__n"/></e>
+    <e lm="philosophe"><i>philosophe</i><par n="livre__n"/></e>
     <e lm="physicien"><i>physicien</i><par n="ancien__n"/></e>
     <e lm="physionomie"><i>physionomie</i><par n="abeille__n"/></e>
     <e lm="physiothérapeute"><i>physiothérapeute</i><par n="artiste__n"/></e>
@@ -13084,7 +13089,7 @@
     <e lm="suicide"><i>suicide</i><par n="livre__n"/></e>
     <e lm="SUI"><i>SUI</i><par n="ATS__n"/></e>
     <e lm="SUI"><i>SUI</i><par n="BBVA__n"/></e>
-    <e lm="suisse"><i>suisse</i><par n="artiste__n"/></e>
+    <e lm="Suisse"><i>Suisse</i><par n="artiste__n"/></e>
     <e lm="suite"><i>suite</i><par n="abeille__n"/></e>
     <e lm="suivi"><i>suivi</i><par n="livre__n"/></e>
     <e lm="sujet à la une"><i>sujet</i><par n="livre__n"/><p><l><b/>à<b/>la<b/>une</l><r><g><b/>à<b/>la<b/>une</g></r></p></e>
@@ -16127,6 +16132,9 @@
     <e lm="naître"><i>n</i><par n="n/aître__vblex"/></e>
     <e lm="napper"><i>napp</i><par n="abaiss/er__vblex"/></e>
     <e lm="narrer"><i>narr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="internationaliser"><i>internationalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="nationaliser"><i>nationalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="naturaliser"><i>naturalis</i><par n="abaiss/er__vblex"/></e>
     <e lm="naufrager"><i>naufrag</i><par n="allong/er__vblex"/></e>
     <e lm="naviguer"><i>navigu</i><par n="abaiss/er__vblex"/></e>
     <e lm="nécessiter" r="LR"><i>nécessit</i><par n="abaiss/er__vblex"/></e>
@@ -17095,7 +17103,7 @@
     <e lm="aigre"><i>aigre</i><par n="académique__adj"/></e>
     <e lm="aigu"><i>aigu</i><par n="abaissant__adj"/></e>
     <e lm="aiguisé"><i>aiguisé</i><par n="abaissant__adj"/></e>
-    <e lm="à lui"><i>à<b/></i><par n="à/_lui__adj"/></e>
+    <!-- <e lm="à lui"><i>à<b/></i><par n="à/_lui__adj"/></e> analògament a à moi, à toi, à nous, à vous, però és pitjor el remei que l'enfermetat -->
     <e lm="aimable"><i>aimable</i><par n="académique__adj"/></e>
     <e lm="aimant" r="LR"><i>aimant</i><par n="abaissant__adj"/></e>
     <e lm="aisé"><i>aisé</i><par n="abaissant__adj"/></e>
@@ -17108,6 +17116,7 @@
     <e lm="alcoolisé"><i>alcoolisé</i><par n="abaissant__adj"/></e>
     <e lm="aléatoire"><i>aléatoire</i><par n="académique__adj"/></e>
     <e lm="algérien"><i>algérien</i><par n="ancien__adj"/></e>
+    <e lm="nigérien"><i>nigérien</i><par n="ancien__adj"/></e>
     <e lm="alimentaire"><i>alimentaire</i><par n="académique__adj"/></e>
     <e lm="alizés"><i>alizés</i><par n="arrière__adj"/></e>
     <e lm="allant"><i>allant</i><par n="abaissant__adj"/></e>
@@ -17128,6 +17137,7 @@
     <e lm="amène"><i>amène</i><par n="académique__adj"/></e>
     <e lm="amer"><i>am</i><par n="ch/er__adj"/></e>
     <e lm="américain"><i>américain</i><par n="abaissant__adj"/></e>
+    <e lm="afro-américain"><i>afro-américain</i><par n="abaissant__adj"/></e>
     <e lm="amical"><i>amica</i><par n="amica/l__adj"/></e>
     <e lm="ami"><i>ami</i><par n="abaissant__adj"/></e>
     <e lm="amnésique"><i>amnésique</i><par n="académique__adj"/></e>
@@ -17342,7 +17352,7 @@
     <e lm="beaucoup de" r="RL"><p><l>beaucoup<b/><a/>de</l><r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
     <e lm="beau"><i>be</i><par n="be/au__adj"/></e>
     <e lm="belge"><i>belge</i><par n="académique__adj"/></e>
-    <e lm="belge"><i>belge</i><par n="artiste__n"/></e>
+    <e lm="Belge"><i>Belge</i><par n="artiste__n"/></e>
     <e lm="bel"><i>be</i><par n="be/l__adj"/></e>
     <e lm="bénéficiaire"><i>bénéficiaire</i><par n="académique__adj"/></e>
     <e lm="bénéfique"><i>bénéfique</i><par n="académique__adj"/></e>
@@ -17380,6 +17390,7 @@
     <e lm="botanique"><i>botanique</i><par n="académique__adj"/></e>
     <e lm="bouddhiste"><i>bouddhiste</i><par n="académique__adj"/></e>
     <e lm="bourgeois"><i>bourgeois</i><par n="anglais__adj"/></e>
+    <e lm="bourgeois"><i>bourgeois</i><par n="admis__n"/></e>
     <e lm="boursier"><i>boursi</i><par n="ch/er__adj"/></e>
     <e lm="bovin"><i>bovin</i><par n="abaissant__adj"/></e>
     <e lm="braillard"><i>braillard</i><par n="abaissant__adj"/></e>
@@ -17403,12 +17414,14 @@
     <e lm="calculateur"><i>calculat</i><par n="conduct/eur__adj"/></e>
     <e lm="califonien" r="LR"><i>califonien</i><par n="ancien__adj"/></e>
     <e lm="californien"><i>californien</i><par n="ancien__adj"/></e>
+    <e lm="Californien"><i>Californien</i><par n="ancien__n"/></e>
     <e lm="calmé"><i>calmé</i><par n="abaissant__adj"/></e>
     <e lm="calme"><i>calme</i><par n="académique__adj"/></e>
     <e lm="calme"><i>calme</i><par n="arrière__adj"/></e>
     <e lm="canadien"><i>canadien</i><par n="ancien__adj"/></e>
-    <e lm="canadien"><i>canadien</i><par n="ancien__n"/></e>
+    <e lm="Canadien"><i>Canadien</i><par n="ancien__n"/></e>
     <e lm="canarien"><i>canarien</i><par n="ancien__adj"/></e>
+    <e lm="Canarien"><i>Canarien</i><par n="ancien__adj"/></e>
     <e lm="cancéreux"><i>cancéreu</i><par n="affectueu/x__adj"/></e>
     <e lm="cannabinoïde"><i>cannabinoïde</i><par n="académique__adj"/></e>
     <e lm="cannois"><i>cannois</i><par n="anglais__adj"/></e>
@@ -18426,6 +18439,7 @@
     <e lm="invraisemblable"><i>invraisemblable</i><par n="académique__adj"/></e>
     <e lm="ionique"><i>ionique</i><par n="académique__adj"/></e>
     <e lm="iranien"><i>iranien</i><par n="ancien__adj"/></e>
+    <e lm="Iranien"><i>Iranien</i><par n="ancien__n"/></e>
     <e lm="irlandais"><i>irlandais</i><par n="anglais__adj"/></e>
     <e lm="irlandais"><i>irlandais</i><par n="admis__n"/></e>
     <e lm="ironique"><i>ironique</i><par n="académique__adj"/></e>
@@ -18561,6 +18575,7 @@
     <e lm="manuel"><i>manuel</i><par n="annuel__adj"/></e>
     <e lm="manuscrit"><i>manuscrit</i><par n="abaissant__adj"/></e>
     <e lm="marginal"><i>margina</i><par n="amica/l__adj"/></e>
+    <e lm="martial"><i>martia</i><par n="amica/l__adj"/></e>
     <e lm="marin"><i>marin</i><par n="abaissant__adj"/></e>
     <e lm="maritime"><i>maritime</i><par n="académique__adj"/></e>
     <e lm="marocain"><i>marocain</i><par n="abaissant__adj"/></e>
@@ -19019,7 +19034,7 @@
     <e lm="quatorzième"><i>quatorzième</i><par n="académique__adj"/></e>
     <e lm="quatrième"><i>quatrième</i><par n="académique__adj"/></e>
     <e lm="québécois"><i>québécois</i><par n="anglais__adj"/></e>
-    <e lm="québécois"><i>québécois</i><par n="admis__n"/></e>
+    <e lm="Québécois"><i>Québécois</i><par n="admis__n"/></e>
     <e lm="quel"><i>quel</i><par n="quel__adj"/></e>
     <e lm="qui analyse"><p><l>qui<b/>analyse</l><r>qui<b/>analyse</r></p><par n="arrière__adj"/></e>
     <e lm="quinquennal"><i>quinquenna</i><par n="amica/l__adj"/></e>
@@ -19192,8 +19207,7 @@
     <e lm="septième"><i>septième</i><par n="académique__adj"/></e>
     <e lm="serbe"><i>serbe</i><par n="académique__adj"/></e>
     <e lm="serein"><i>serein</i><par n="abaissant__adj"/></e>
-    <e lm="serieux"><i>serieu</i><par n="affectueu/x__adj"/></e>
-    <e lm="sérieux" r="LR"><i>sérieu</i><par n="affectueu/x__adj"/></e>
+    <e lm="sérieux"><i>sérieu</i><par n="affectueu/x__adj"/></e>
     <e lm="serré"><i>serré</i><par n="abaissant__adj"/></e>
     <e lm="serviable"><i>serviable</i><par n="académique__adj"/></e>
     <e lm="seul"><i>seul</i><par n="abaissant__adj"/></e>
@@ -19947,14 +19961,16 @@
     <e lm="et encore"><i>et<b/>encore</i><par n="hier__adv"/></e>
     <e lm="éternellement"><i>éternellement</i><par n="hier__adv"/></e>
     <e lm="éternellement" r="LR"><p><l>Eternellement</l><r>éternellement</r></p><par n="hier__adv"/></e>
-     <e lm="étonnamment" a="joan"><i>étonnamment</i><par n="hier__adv"/></e>
-     <e lm="et pour cause"><i>et<b/>pour<b/>cause</i><par n="hier__adv"/></e>
+    <e lm="étonnamment" a="joan"><i>étonnamment</i><par n="hier__adv"/></e>
+    <e lm="étonnamment" r="LR"><p><l>Etonnamment</l><r>étonnamment</r></p><par n="hier__adv"/></e>
+    <e lm="et pour cause"><i>et<b/>pour<b/>cause</i><par n="hier__adv"/></e>
     <e lm="et puis"><i>et<b/>puis</i><par n="hier__adv"/></e>
     <e lm="étroitement"><i>étroitement</i><par n="hier__adv"/></e>
     <e lm="étroitement" r="LR"><p><l>Etroitement</l><r>étroitement</r></p><par n="hier__adv"/></e>
     <e lm="éventuellement"><i>éventuellement</i><par n="hier__adv"/></e>
     <e lm="éventuellement" r="LR"><p><l>Eventuellement</l><r>éventuellement</r></p><par n="hier__adv"/></e>
     <e lm="évidemment"><i>évidemment</i><par n="hier__adv"/></e>
+    <e lm="évidemment" r="LR"><p><l>Evidemment</l><r>évidemment</r></p><par n="hier__adv"/></e>
     <e lm="exactement"><i>exactement</i><par n="hier__adv"/></e>
     <e lm="excellemment"><i>excellemment</i><par n="hier__adv"/></e>
     <e lm="exceptionnellement"><i>exceptionnellement</i><par n="hier__adv"/></e>
@@ -20200,6 +20216,7 @@
     <e lm="peut-être"><i>peut-être</i><par n="hier__adv"/></e>
     <e lm="philosophiquement"><i>philosophiquement</i><par n="hier__adv"/></e>
     <e lm="physiquement"><i>physiquement</i><par n="hier__adv"/></e>
+    <e lm="chimiquement"><i>chimiquement</i><par n="hier__adv"/></e>
     <e lm="plaisamment"><i>plaisamment</i><par n="hier__adv"/></e>
     <e lm="pleinement"><i>pleinement</i><par n="hier__adv"/></e>
     <e lm="plus" r="LR"><i>plus</i><par n="hier__adv"/></e>
@@ -20403,6 +20420,9 @@
     <e lm="vraiment"><i>vraiment</i><par n="hier__adv"/></e>
     <e lm="vraiment" r="LR"><i>vraiment</i><par n="hier__adv"/></e>
     <e lm="vraisemblablement"><i>vraisemblablement</i><par n="hier__adv"/></e>
+    <e lm="marginalement"><i>marginalement</i><par n="hier__adv"/></e>
+    <e lm="martialement"><i>martialement</i><par n="hier__adv"/></e>
+    <e lm="matrimonialement"><i>matrimonialement</i><par n="hier__adv"/></e>
     <e r="RL"><i>bien<b/>entendu</i><par n="hier__adv"/></e>
     <e r="RL"><i>de<b/>mon<b/>temps</i><par n="hier__adv"/></e>
     <e r="RL"><i>d'un<b/>bout<b/>à<b/>l'autre</i><par n="hier__adv"/></e>
@@ -27277,7 +27297,6 @@
     <e lm="Rufino"><i>Rufino</i><par n="Abraham__np"/></e>
     <e lm="Ruiz"><i>Ruiz</i><par n="Abraham__np"/></e>
     <e lm="Rujano"><i>Rujano</i><par n="Abraham__np"/></e>
-    <e lm="Rumanie"><i>Rumanie</i><par n="Andorre__np"/></e>
     <e lm="Rupert"><i>Rupert</i><par n="Abraham__np"/></e>
     <e lm="Ruquier"><i>Ruquier</i><par n="Abraham__np"/></e>
     <e lm="Ruslan"><i>Ruslan</i><par n="Abraham__np"/></e>
