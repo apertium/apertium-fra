@@ -18296,7 +18296,6 @@
     <e lm="imposant"><i>imposant</i><par n="abaissant__adj"/></e>
     <e lm="impossible"><i>impossible</i><par n="académique__adj"/></e>
     <e lm="impraticable"><i>impraticable</i><par n="académique__adj"/></e>
-    <e lm="imprécis"><i>imprécis</i><par n="abaissant__adj"/></e>
     <e lm="impressionant"><i>impressionant</i><par n="abaissant__adj"/></e>
     <e lm="imprévisible"><i>imprévisible</i><par n="académique__adj"/></e>
     <e lm="imprimé"><i>imprimé</i><par n="abaissant__adj"/></e>
@@ -18980,6 +18979,7 @@
     <e lm="précieux"><i>précieu</i><par n="affectueu/x__adj"/></e>
     <e lm="précipité"><i>précipité</i><par n="abaissant__adj"/></e>
     <e lm="précis"><i>précis</i><par n="anglais__adj"/></e>
+    <e lm="imprécis"><i>imprécis</i><par n="anglais__adj"/></e>
     <e lm="précoce"><i>précoce</i><par n="académique__adj"/></e>
     <e lm="prédateur"><i>prédat</i><par n="conduct/eur__adj"/></e>
     <e lm="prédisposé"><i>prédisposé</i><par n="abaissant__adj"/></e>
