@@ -182,6 +182,8 @@
       <e><p><l>es</l>               <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>e</l>                <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l/>                    <r><s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l/>             <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l/>             <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="blanc__adj">
@@ -314,6 +316,8 @@
       <e><p><l>ses</l>              <r>x<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>se</l>               <r>x<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
       <e><p><l>x</l>                <r>x<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="nouve/au__adj">
@@ -27020,7 +27024,7 @@
     <e lm="Pristina"><i>Pristina</i><par n="Andorre__np"/></e>
     <e lm="Privas"><i>Privas</i><par n="Andorre__np"/></e>
     <e lm="Probigur"><i>Probigur</i><par n="Carrefour__np"/></e>
-    <e lm="Proche-Orient" r="RL"><i>Proche-Orient</i><par n="Andorre__np"/></e>
+    <e lm="Proche-Orient" r="RL"><i>Proche-Orient</i><par n="Iran__np"/></e>
     <e lm="Procter"><i>Procter</i><par n="Abraham__np"/></e>
     <e lm="Prodi"><i>Prodi</i><par n="Abraham__np"/></e>
     <e lm="Profundi"><i>Profundi</i><par n="Carrefour__np"/></e>
