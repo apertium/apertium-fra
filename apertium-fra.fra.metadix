@@ -18160,6 +18160,7 @@
     <e lm="généreux"><i>généreu</i><par n="affectueu/x__adj"/></e>
     <e lm="générique"><i>générique</i><par n="académique__adj"/></e>
     <e lm="génétique"><i>génétique</i><par n="académique__adj"/></e>
+    <e lm="génétiquement"><i>génétiquement</i><par n="hier__adv"/></e>
     <e lm="génial"><i>génia</i><par n="amica/l__adj"/></e>
     <e lm="génital"><i>génita</i><par n="amica/l__adj"/></e>
     <e lm="gentil"><i>gentil</i><par n="annuel__adj"/></e>
@@ -21878,9 +21879,10 @@
     <e lm="Amenabar" c="es un apellido"><i>Amenabar</i><par n="Abraham__np"/></e>
     <e lm="Amenábar"><i>Amenábar</i><par n="Abraham__np"/></e>
     <e lm="Améric Vespuce"><i>Améric<b/>Vespuce</i><par n="Andorre__np"/></e>
-    <e lm="Amérique du Nord"><i>Amérique<b/>du<b/>Nord</i><par n="Andorre__np"/></e>
-    <e lm="Amérique du Sud"><i>Amérique<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
-    <e lm="Amérique latine"><i>Amérique<b/>latine</i><par n="Andorre__np"/></e>
+    <e lm="Amérique du Nord"><i>Amérique<b/>du<b/>Nord</i><par n="Bulgarie__np"/></e>
+    <e lm="Amérique du Sud"><i>Amérique<b/>du<b/>Sud</i><par n="Bulgarie__np"/></e>
+    <e lm="Amérique latine"><i>Amérique<b/>latine</i><par n="Bulgarie__np"/></e>
+    <e lm="Amérique"><i>Amérique</i><par n="Bulgarie__np"/></e>
     <e lm="Amériques"><i>Amériques</i><par n="Andorre__np"/></e>
     <e lm="Amersham"><i>Amersham</i><par n="Carrefour__np"/></e>
     <e lm="Améscoa"><i>Améscoa</i><par n="Andorre__np"/></e>
@@ -25072,6 +25074,7 @@
     <e lm="JavaME"><i>JavaME</i><par n="Carrefour__np"/></e>
     <e lm="Jávea"><i>Jávea</i><par n="Andorre__np"/></e>
     <e lm="Javi"><i>Javi</i><par n="Abraham__np"/></e>
+    <e lm="Isaac"><i>Isaac</i><par n="Abraham__np"/></e>
     <e lm="Jean-Baptiste"><i>Jean-Baptiste</i><par n="Abraham__np"/></e>
     <e lm="Jean-Bernard"><i>Jean-Bernard</i><par n="Abraham__np"/></e>
     <e lm="Jean Boccace" r="LR"><i>Jean<b/>Boccace</i><par n="Abraham__np"/></e>
