@@ -121,6 +121,9 @@ SELECT Haver IF (0 Avoir) (1 PrfPrc) ;
 SELECT Haver IF (0 Avoir) (2 PrfPrc) ;
   ## As-tu vu Jean ?
   
+SELECT V IF (0 Avoir) (1C Prep) ;
+  ## ayant pour ami
+
 SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
   
