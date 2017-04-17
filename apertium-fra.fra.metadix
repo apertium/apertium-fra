@@ -10396,7 +10396,7 @@
     <e lm="lexique"><i>lexique</i><par n="livre__n"/></e>
     <e lm="LGT"><i>LGT</i><par n="BBC__n"/></e>
     <e lm="liaison" r="LR"><i>liaison</i><par n="abeille__n"/></e>
-    <e lm="libanais"><i>libanais</i><par n="admis__n"/></e>
+    <e lm="Libanais"><i>Libanais</i><par n="admis__n"/></e>
     <e lm="libéral"><i>libéra</i><par n="commercia/l__n"/></e>
     <e lm="libéralisation"><i>libéralisation</i><par n="abeille__n"/></e>
     <e lm="libéralisme"><i>libéralisme</i><par n="livre__n"/></e>
@@ -18519,7 +18519,7 @@
     <e lm="joueur"><i>joueu</i><par n="causeu/r__adj"/></e>
     <e lm="jouissif"><i>jouissi</i><par n="affirmati/f__adj"/></e>
     <e lm="journalistique"><i>journalistique</i><par n="académique__adj"/></e>
-    <e lm="joyeux" r="LR"><i>joyeu</i><par n="affectueu/x__adj"/></e>
+    <e lm="joyeux"><i>joyeu</i><par n="affectueu/x__adj"/></e>
     <e lm="juariste"><i>juariste</i><par n="académique__adj"/></e>
     <e lm="judiciaire"><i>judiciaire</i><par n="académique__adj"/></e>
     <e lm="juif"><i>jui</i><par n="affirmati/f__adj"/></e>

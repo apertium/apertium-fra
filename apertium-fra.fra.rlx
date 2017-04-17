@@ -78,6 +78,7 @@ LIST Fils = "fils" ;
 LIST Foi = "foi" ;
 LIST Fois = "fois" ;
 LIST Somme = "somme" ;
+LIST Peu = "peu de" ;
 
 LIST À = "à" ;
 
@@ -273,10 +274,14 @@ SELECT PrfPrc IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PrfPrc) ;
 SELECT Sg IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PrfPrc + Sg OR Pl) ;
   ## Vous ne le lui avez pas pris
 
-SELECT PrfPrc IF (-1 Ser) (0 PrfPrc) (OC Verb);
+SELECT PrfPrc IF (-1 Ser) (0 PrfPrc) (OC Verb) ;
   ## sont investis
 
-REMOVE N IF (-1 Nous) (0 Somme OR Ser)
+REMOVE N IF (-1 Nous) (0 Somme OR Ser) ;
   ## nous sommes assaillis
 
-SELECT Prep IF (0 En) (1C N OR A);
+SELECT Prep IF (0 En) (1C N OR A) ;
+
+SELECT N IF (O N OR A) (-1C Peu) (1 EOS) ;
+	  ## peu de joueurs.
+SELECT A IF (O N OR A) (-1C Peu) (1C N) ;
