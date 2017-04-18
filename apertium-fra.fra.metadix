@@ -8425,8 +8425,11 @@
     <e lm="diabolisation"><i>diabolisation</i><par n="abeille__n"/></e>
     <e lm="diagnostic"><i>diagnostic</i><par n="livre__n"/></e>
     <e lm="dialecte"><i>dialecte</i><par n="livre__n"/></e>
+    <e lm="dialectal"><i>dialecta</i><par n="amica/l__adj"/></e>
+    <e lm="dialectalement"><i>dialectalement</i><par n="hier__adv"/></e>
     <e lm="dialogue"><i>dialogue</i><par n="livre__n"/></e>
     <e lm="diamant"><i>diamant</i><par n="livre__n"/></e>
+    <e lm="diamétral"><i>diamétra</i><par n="amica/l__adj"/></e>
     <e lm="diamétralement" a="joan"><i>diamétralement</i><par n="hier__adv"/></e>
     <e lm="diamètre"><i>diamètre</i><par n="livre__n"/></e>
     <e lm="diarrhée"><i>diarrhée</i><par n="abeille__n"/></e>
@@ -9026,9 +9029,11 @@
     <e lm="éternité"><i>éternité</i><par n="abeille__n"/></e>
     <e lm="éternité" r="LR"><p><l>Eternité</l><r>éternité</r></p><par n="abeille__n"/></e>
     <e lm="éthanol"><i>éthanol</i><par n="livre__n"/></e>
-    <e lm="ethiopien"><i>ethiopien</i><par n="ancien__n"/></e>
+    <e lm="Ethiopien"><i>Ethiopien</i><par n="ancien__n"/></e>
+    <e lm="ethiopien"><i>ethiopien</i><par n="ancien__adj"/></e>
     <e lm="éthique"><i>éthique</i><par n="abeille__n"/></e>
-    <e lm="ethnique"><i>ethnique</i><par n="abeille__n"/></e>
+    <e lm="ethnnographe"><i>ethnnographe</i><par n="artiste__n"/></e>
+    <e lm="ethnnographie"><i>ethnnographie</i><par n="abeille__n"/></e>
     <e lm="étincelle"><i>étincelle</i><par n="abeille__n"/></e>
     <e lm="étincelle" r="LR"><p><l>Etincelle</l><r>étincelle</r></p><par n="abeille__n"/></e>
     <e lm="étiquette"><i>étiquette</i><par n="abeille__n"/></e>
@@ -9557,7 +9562,7 @@
     <e lm="gens"><i>gens</i><par n="abords__n"/></e>
     <e lm="gentilhomme"><i>gentilhomme</i><par n="livre__n"/></e>
     <e lm="gentillesse"><i>gentillesse</i><par n="abeille__n"/></e>
-    <e lm="géographe"><i>géographe</i><par n="livre__n"/></e>
+    <e lm="géographe"><i>géographe</i><par n="artiste__n"/></e>
     <e lm="géographie"><i>géographie</i><par n="abeille__n"/></e>
     <e lm="gérance"><i>gérance</i><par n="abeille__n"/></e>
     <e lm="géranium"><i>géranium</i><par n="livre__n"/></e>
@@ -17987,6 +17992,7 @@
     <e lm="éthique"><i>éthique</i><par n="académique__adj"/></e>
     <e lm="éthique" r="LR"><p><l>Ethique</l><r>éthique</r></p><par n="académique__adj"/></e>
     <e lm="ethnique"><i>ethnique</i><par n="académique__adj"/></e>
+    <e lm="ethnographique"><i>ethnographique</i><par n="académique__adj"/></e>
     <e lm="étonnant"><i>étonnant</i><par n="abaissant__adj"/></e>
     <e lm="étonnant" r="LR"><p><l>Etonnant</l><r>étonnant</r></p><par n="abaissant__adj"/></e>
     <e lm="étouffant" a="joan"><i>étoufant</i><par n="abaissant__adj"/></e>
