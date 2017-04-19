@@ -12,6 +12,7 @@ LIST V = vblex ;
 LIST Pron = prn ;
 LIST Haver = vbhaver ;
 LIST Ser = vbser ;
+LIST Vbmod = vbmod ;
 LIST Cm = cm ;
 LIST Det = det ;
 LIST Def = def ;
@@ -31,6 +32,7 @@ LIST N = n ;
 
 LIST Interr = itg ;
 LIST Rel = rel ;
+LIST Interj = ij ;
 
 LIST Sg = sg ;
 LIST Pl = pl ;
@@ -79,6 +81,7 @@ LIST Foi = "foi" ;
 LIST Fois = "fois" ;
 LIST Somme = "somme" ;
 LIST Peu = "peu de" ;
+LIST Helas = "hélas" ;
 
 LIST À = "à" ;
 
@@ -113,8 +116,12 @@ SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
 REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
   ## Marie pense qu'elle a vu où Jean est allé :
 
-SELECT Inf IF (0 Être) (-1 Devoir) ;
+
+SELECT Inf IF (0 Être) (-1 Vbmod) ;
   ## Ce doit être Jean ! 
+
+SELECT Inf IF (0 Être) (-1 Pro) (-2 Vbmod) ;
+  ## Le spécialiste lorrain du 10 kilomètres peut l'être.
 
 SELECT Haver IF (0 Avoir) (1 PrfPrc) ;
   ## Est-ce que tu as vu Jean ?
@@ -285,3 +292,6 @@ SELECT Prep IF (0 En) (1C N OR A) ;
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
 SELECT A IF (0 N OR A) (-1C Peu) (1C N) ;
+
+SELECT Interj IF (0 Helas) ;
+  ## triem ser hélas com a interjecció

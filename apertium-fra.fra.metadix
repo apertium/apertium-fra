@@ -6508,6 +6508,7 @@
     <e lm="ancêtre"><i>ancêtre</i><par n="livre__n"/></e>
     <e lm="anchois"><i>anchois</i><par n="mois__n"/></e>
     <e lm="ancien"><i>ancien</i><par n="ancien__n"/></e>
+    <e lm="académicien"><i>académicien</i><par n="ancien__n"/></e>
     <e lm="ancienneté"><i>ancienneté</i><par n="abeille__n"/></e>
     <e lm="ancrage"><i>ancrage</i><par n="livre__n"/></e>
     <e lm="ancre"><i>ancre</i><par n="abeille__n"/></e>
@@ -6529,6 +6530,7 @@
     <e lm="angine"><i>angine</i><par n="abeille__n"/></e>
     <e lm="anglais"><i>anglais</i><par n="admis__n"/></e>
     <e lm="danois"><i>danois</i><par n="admis__n"/></e>
+    <e lm="finnois"><i>finnois</i><par n="admis__n"/></e>
     <e lm="angle"><i>angle</i><par n="livre__n"/></e>
     <e lm="angoisse"><i>angoisse</i><par n="abeille__n"/></e>
     <e lm="angulation"><i>angulation</i><par n="abeille__n"/></e>
@@ -6775,6 +6777,7 @@
     <e lm="attaché"><i>attaché</i><par n="affecté__n"/></e>
     <e lm="attachement"><i>attachement</i><par n="livre__n"/></e>
     <e lm="attaque"><i>attaque</i><par n="abeille__n"/></e>
+    <e lm="attaquant"><i>attaquant</i><par n="affecté__n"/></e>
     <e lm="attentat"><i>attentat</i><par n="livre__n"/></e>
     <e lm="attente"><i>attente</i><par n="abeille__n"/></e>
     <e lm="attention"><i>attention</i><par n="abeille__n"/></e>
@@ -17683,6 +17686,7 @@
     <e lm="d'Almería"><p><l>d'Almería</l><r>d'almería</r></p><par n="arrière__adj"/></e>
     <e lm="dangereux"><i>dangereu</i><par n="affectueu/x__adj"/></e>
     <e lm="danois"><i>danois</i><par n="anglais__adj"/></e>
+    <e lm="finnois"><i>finnois</i><par n="anglais__adj"/></e>
     <e lm="d'assistance"><p><l>d'assistance</l><r>d'assistance</r></p><par n="arrière__adj"/></e>
     <e lm="d'autre"><i>d'autre</i><par n="même__adj"/></e>
     <e lm="d'autrui"><i>d'autrui</i><par n="arrière__adj"/></e>
@@ -18106,6 +18110,7 @@
     <e lm="financier"><i>financi</i><par n="ch/er__adj"/></e>
     <e lm="fin"><i>fin</i><par n="abaissant__adj"/></e>
     <e lm="finlandais"><i>finlandais</i><par n="anglais__adj"/></e>
+    <e lm="finlandais"><i>finlandais</i><par n="admis__n"/></e>
     <e lm="fiscal"><i>fisca</i><par n="amica/l__adj"/></e>
     <e lm="fixe"><i>fixe</i><par n="académique__adj"/></e>
     <e lm="flagrant"><i>flagrant</i><par n="abaissant__adj"/></e>
@@ -20942,6 +20947,7 @@
     <e lm="à" r="RL"><p><l><a/>à</l><r>à</r></p><par n="attendu__pr"/></e>
     <e lm="à titre de"><i>à<b/>titre<b/></i><par n="contde__pr"/></e>
     <e lm="à travers"><i>à<b/>travers</i><par n="attendu__pr"/></e>
+    <e lm="au travers de"><i>au<b/>travers<b/></i><par n="contde__pr"/></e>
     <e lm="attendu"><i>attendu</i><par n="attendu__pr"/></e>
     <e lm="au bout de"><i>au<b/>bout<b/></i><par n="contde__pr"/></e>
     <e lm="au cours de"><i>au<b/>cours<b/></i><par n="contde__pr"/></e>
@@ -28594,6 +28600,7 @@
     <e lm="eh"><i>eh</i><par n="ah__ij"/></e>
     <e lm="et voilà"><i>et<b/>voilà</i><par n="ah__ij"/></e>
     <e lm="et voilà que"><i>et<b/>voilà<b/>que</i><par n="ah__ij"/></e>
+    <e lm="hélas"><i>hélas</i><par n="ah__ij"/></e>
     <e lm="merci beaucoup"><i>merci<b/>beaucoup</i><par n="ah__ij"/></e>
     <e lm="merci"><i>merci</i><par n="ah__ij"/></e>
     <e lm="oh"><i>oh</i><par n="ah__ij"/></e>
