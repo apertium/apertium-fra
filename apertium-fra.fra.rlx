@@ -37,6 +37,9 @@ LIST Interj = ij ;
 LIST Sg = sg ;
 LIST Pl = pl ;
 
+LIST Masc = m ;
+LIST Fem = f ;
+
 LIST P1 = p1 ;
 LIST P2 = p2 ;
 LIST P3 = p3 ;
@@ -65,8 +68,7 @@ LIST Il = "il" ;
 LIST Nous = "nous" ;
 LIST Vous = "vous" ;
 LIST Lui = "lui" ;
-LIST Nous = "nous" ;
-LIST Vous = "vous" ;
+LIST Eux = "eux" ;
 LIST En = "en" ; 
 LIST Pas = "pas" ; 
 LIST Ne = "ne" ; 
@@ -82,6 +84,8 @@ LIST Fois = "fois" ;
 LIST Somme = "somme" ;
 LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
+LIST Des = "dès" ;
+LIST Entre = "entre" ;
 
 LIST À = "à" ;
 
@@ -295,3 +299,12 @@ SELECT A IF (0 N OR A) (-1C Peu) (1C N) ;
 
 SELECT Interj IF (0 Helas) ;
   ## triem ser hélas com a interjecció
+
+SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
+  ## dès maintenant
+
+SELECT Prep IF (0 Entre) (1 Nous OR Vous OR Eux);
+  ## entre nous, vous, eux, elles
+
+SELECT Prep IF (0 Entre) (1 Il + Pl + Fem)
+  ## entre elles
