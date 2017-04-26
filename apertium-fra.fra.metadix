@@ -9790,6 +9790,7 @@
     <e lm="hexagone"><i>hexagone</i><par n="livre__n"/></e>
     <e lm="hibernation"><i>hibernation</i><par n="abeille__n"/></e>
     <e lm="hiérarchie"><i>hiérarchie</i><par n="abeille__n"/></e>
+    <e lm="hiérarchiser"><i>hiérarchis</i><par n="abaiss/er__vblex"/></e>
     <e lm="hiérarchisation"><i>hiérarchisation</i><par n="abeille__n"/></e>
     <e lm="h"><i>h</i><par n="mois__n"/></e>
     <e lm="hilarité"><i>hilarité</i><par n="abeille__n"/></e>
@@ -17377,7 +17378,7 @@
     <e lm="asturien"><i>asturien</i><par n="ancien__adj"/></e>
     <e lm="à succès"><i>à<b/>succès</i><par n="arrière__adj"/></e>
     <e lm="asymétrique"><i>asymétrique</i><par n="académique__adj"/></e>
-    <e lm="athlète"><i>athlète</i><par n="académique__adj"/></e>
+    <e lm="athlétique"><i>athlétique</i><par n="académique__adj"/></e>
     <e lm="atlantique"><i>atlantique</i><par n="académique__adj"/></e>
     <e lm="atmosphérique"><i>atmosphérique</i><par n="académique__adj"/></e>
     <e lm="à toi"><i>à<b/>toi</i><par n="à_moi__adj"/></e>
@@ -17928,8 +17929,10 @@
     <e lm="égal" r="LR"><p><l>Ega</l><r>éga</r></p><par n="amica/l__adj"/></e>
     <e lm="égoïste"><i>égoïste</i><par n="académique__adj"/></e>
     <e lm="égoïste" r="LR"><p><l>Egoïste</l><r>égoïste</r></p><par n="académique__adj"/></e>
+    <e lm="sicilien"><i>sicilien</i><par n="ancien__n"/></e>
     <e lm="égyptien"><i>égyptien</i><par n="ancien__n"/></e>
     <e lm="égyptien" r="LR"><p><l>Egyptien</l><r>égyptien</r></p><par n="ancien__n"/></e>
+    <e lm="sicilien"><i>sicilien</i><par n="ancien__adj"/></e>
     <e lm="égyptien"><i>égyptien</i><par n="ancien__adj"/></e>
     <e lm="égyptien" r="LR"><p><l>Egyptien</l><r>égyptien</r></p><par n="ancien__adj"/></e>
     <e lm="électeur"><i>élect</i><par n="conduct/eur__adj"/></e>
@@ -18288,6 +18291,7 @@
     <e lm="hippique"><i>hippique</i><par n="académique__adj"/></e>
     <e lm="hispanique"><i>hispanique</i><par n="académique__adj"/></e>
     <e lm="historique"><i>historique</i><par n="académique__adj"/></e>
+    <e lm="préhistorique"><i>préhistorique</i><par n="académique__adj"/></e>
     <e lm="hollandais"><i>hollandais</i><par n="anglais__adj"/></e>
     <e lm="homicide" a="joan"><i>homicide</i><par n="académique__adj"/></e>
     <e lm="homologue"><i>homologue</i><par n="académique__adj"/></e>
@@ -18674,6 +18678,9 @@
     <e lm="manipulateur"><i>manipulat</i><par n="conduct/eur__adj"/></e>
     <e lm="manquant"><i>manquant</i><par n="abaissant__adj"/></e>
     <e lm="manuel"><i>manuel</i><par n="annuel__adj"/></e>
+    <e lm="structurel"><i>structurel</i><par n="annuel__adj"/></e>
+    <e lm="manuellement"><i>manuellement</i><par n="annuel__adj"/></e>
+    <e lm="structurellement"><i>structurellement</i><par n="annuel__adj"/></e>
     <e lm="manuscrit"><i>manuscrit</i><par n="abaissant__adj"/></e>
     <e lm="marginal"><i>margina</i><par n="amica/l__adj"/></e>
     <e lm="martial"><i>martia</i><par n="amica/l__adj"/></e>
@@ -19813,8 +19820,8 @@
     <e lm="bonnement"><i>bonnement</i><par n="hier__adv"/></e>
     <e lm="bravement"><i>bravement</i><par n="hier__adv"/></e>
     <e lm="bref"><i>bref</i><par n="hier__adv"/></e>
-   <e lm="brièvement" a="joan"><i>brièvement</i><par n="hier__adv"/></e>
-   <e lm="brillamment"><i>brillamment</i><par n="hier__adv"/></e>
+    <e lm="brièvement" a="joan"><i>brièvement</i><par n="hier__adv"/></e>
+    <e lm="brillamment"><i>brillamment</i><par n="hier__adv"/></e>
     <e lm="brusquement"><i>brusquement</i><par n="hier__adv"/></e>
     <e lm="brutalement"><i>brutalement</i><par n="hier__adv"/></e>
     <e lm="bruyamment"><i>bruyamment</i><par n="hier__adv"/></e>
@@ -27739,7 +27746,7 @@
     <e lm="Shore"><i>Shore</i><par n="Abraham__np"/></e>
     <e lm="Sibérie"><i>Sibérie</i><par n="Andorre__np"/></e>
     <e lm="Sichuan"><i>Sichuan</i><par n="Andorre__np"/></e>
-    <e lm="Sicile"><i>Sicile</i><par n="Andorre__np"/></e>
+    <e lm="Sicile"><i>Sicile</i><par n="Bulgarie__np"/></e>
     <e lm="siècle des Lumières"><i>siècle<b/>des<b/>Lumières</i><par n="Carrefour__np"/></e>
     <e lm="Siemens"><i>Siemens</i><par n="Carrefour__np"/></e>
     <e lm="Sierra Leone"><i>Sierra<b/>Leone</i><par n="Bulgarie__np"/></e>
