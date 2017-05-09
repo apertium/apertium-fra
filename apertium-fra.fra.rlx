@@ -320,5 +320,5 @@ SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
 SELECT Prep IF (0 Entre) (1 Nous OR Vous OR Eux);
   ## entre nous, vous, eux, elles
 
-SELECT Prep IF (0 Entre) (1 Il + Pl + Fem)
+SELECT Prep IF (0 Entre) (1 Il + Pl + Fem);
   ## entre elles
