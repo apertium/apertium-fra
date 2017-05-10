@@ -6200,7 +6200,6 @@
     <e lm="acte d'achat et vente"><i>acte</i><par n="livre__n"/><p><l><b/>d'achat<b/>et<b/>vente</l><r><g><b/>d'achat<b/>et<b/>vente</g></r></p></e>
     <e lm="acte de naissance"><i>acte</i><par n="abeille__n"/><p><l><b/>de<b/>naissance</l><r><g><b/>de<b/>naissance</g></r></p></e>
     <e lm="acte"><i>acte</i><par n="livre__n"/></e>
-    <e lm="acteur"><i>acteur</i><par n="livre__n"/></e>
     <e lm="acteur"><i>act</i><par n="administrat/eur__n"/></e>
     <e lm="ACT"><i>ACT</i><par n="BBC__n"/></e>
     <e lm="actif"><i>actif</i><par n="livre__n"/></e>
@@ -6692,7 +6691,7 @@
     <e lm="arc-en-ciel"><i>arc</i><par n="livre__n"/><p><l><b/>-en-ciel</l><r><g><b/>-en-ciel</g></r></p></e>
     <e lm="archange"><i>archange</i><par n="livre__n"/></e>
     <e lm="arche"><i>arche</i><par n="abeille__n"/></e>
-    <e lm="archéologe"><i>archéologe</i><par n="artiste__n"/></e>
+    <e lm="archéologue"><i>archéologue</i><par n="artiste__n"/></e>
     <e lm="archéologie"><i>archéologie</i><par n="abeille__n"/></e>
     <e lm="archétype"><i>archétype</i><par n="livre__n"/></e>
     <e lm="archevêché"><i>archevêché</i><par n="livre__n"/></e>
@@ -6722,8 +6721,11 @@
     <e lm="argumentation"><i>argumentation</i><par n="abeille__n"/></e>
     <e lm="argument"><i>argument</i><par n="livre__n"/></e>
     <e lm="aridification"><i>aridification</i><par n="abeille__n"/></e>
-    <e lm="artistocratie" a="joan"><i>artistocratie</i><par n="abeille__n"/></e>
+    <e lm="aristocratie" a="joan"><i>aristocratie</i><par n="abeille__n"/></e>
+    <e lm="aristocrate"><i>aristocrate</i><par n="artiste__n"/></e>
+    <e lm="aristocratique"><i>aristocratique</i><par n="académique__adj"/></e>
     <e lm="arithmétique"><i>arithmétique</i><par n="abeille__n"/></e>
+    <e lm="arithmétique"><i>arithmétique</i><par n="académique__adj"/></e>
     <e lm="armateur"><i>armat</i><par n="administrat/eur__n"/></e>
     <e lm="armature"><i>armature</i><par n="abeille__n"/></e>
     <e lm="armée"><i>armée</i><par n="abeille__n"/></e>
@@ -8111,7 +8113,7 @@
     <e lm="crapaud"><i>crapaud</i><par n="livre__n"/></e>
     <e lm="cravate"><i>cravate</i><par n="abeille__n"/></e>
     <e lm="crayon" c="lápices"><i>crayon</i><par n="livre__n"/></e>
-    <e lm="créateur"><i>créateur</i><par n="artiste__n"/></e>
+    <e lm="créateur"><i>créat</i><par n="administrat/eur__n"/></e>
     <e lm="création de services"><i>création</i><par n="abeille__n"/><p><l><b/>de<b/>services</l><r><g><b/>de<b/>services</g></r></p></e>
     <e lm="création"><i>création</i><par n="abeille__n"/></e>
     <e lm="créativité"><i>créativité</i><par n="abeille__n"/></e>
@@ -11007,6 +11009,8 @@
     <e lm="momie"><i>momie</i><par n="abeille__n"/></e>
     <e lm="monarchie"><i>monarchie</i><par n="abeille__n"/></e>
     <e lm="monarque"><i>monarque</i><par n="artiste__n"/></e>
+    <e lm="monarchique"><i>monarchique</i><par n="académique__adj"/></e>
+    <e lm="monarchiste"><i>monarchiste</i><par n="artiste__n"/></e>
     <e lm="monastère"><i>monastère</i><par n="livre__n"/></e>
     <e lm="monceau"><i>monceau</i><par n="lieu__n"/></e>
     <e lm="monde"><i>monde</i><par n="livre__n"/></e>
@@ -11662,6 +11666,7 @@
     <e lm="père"><i>père</i><par n="livre__n"/></e>
     <e lm="pérennité"><i>pérennité</i><par n="abeille__n"/></e>
     <e lm="perfection"><i>perfection</i><par n="abeille__n"/></e>
+    <e lm="perfectionnement"><i>perfectionnement</i><par n="livre__n"/></e>
     <e lm="perfluorocarbure"><i>perfluorocarbure</i><par n="livre__n"/></e>
     <e lm="perforation"><i>perforation</i><par n="abeille__n"/></e>
     <e lm="performance"><i>performance</i><par n="abeille__n"/></e>
@@ -12722,6 +12727,7 @@
     <e lm="route à quatre voies"><i>route</i><par n="abeille__n"/><p><l><b/>à<b/>quatre<b/>voies</l><r><g><b/>à<b/>quatre<b/>voies</g></r></p></e>
     <e lm="route"><i>route</i><par n="abeille__n"/></e>
     <e lm="routine"><i>routine</i><par n="abeille__n"/></e>
+    <e lm="routinier"><i>routini</i><par n="ch/er__adj"/></e>
     <e lm="rouvraie" r="LR"><i>rouvraie</i><par n="abeille__n"/></e>
     <e lm="rouvre" r="LR"><i>rouvre</i><par n="livre__n"/></e>
     <e lm="royaume"><i>royaume</i><par n="livre__n"/></e>
@@ -13722,7 +13728,7 @@
     <e lm="velours"><i>velours</i><par n="mois__n"/></e>
     <e lm="vendeur"><i>vende</i><par n="vende/ur__n"/></e>
     <e lm="vendredi"><i>vendredi</i><par n="livre__n"/></e>
-    <e lm="vénézuélien"><i>vénézuélien</i><par n="ancien__n"/></e>
+    <e lm="Vénézuélien"><i>Vénézuélien</i><par n="ancien__n"/></e>
     <e lm="vengeance"><i>vengeance</i><par n="abeille__n"/></e>
     <e lm="vent arrière"><i>vent</i><par n="livre__n"/><p><l><b/>arrière</l><r><g><b/>arrière</g></r></p></e>
     <e lm="vent contre"><i>vent</i><par n="livre__n"/><p><l><b/>contre</l><r><g><b/>contre</g></r></p></e>
@@ -14050,7 +14056,8 @@
 <e lm="dormeur" a="ester"><i>dormeu</i><par n="causeu/r__adj"/></e>
 <e lm="boxeur" a="ester"><i>boxeu</i><par n="causeu/r__adj"/></e>
 <e lm="tueur" a="ester"><i>tueu</i><par n="causeu/r__adj"/></e>
-<e lm="funérailles" a="ester"><i>funérailles</i><par n="fois__n"/></e>
+<e lm="tueur" a="hector"><i>tueu</i><par n="causeu/r__n"/></e>
+<e lm="funérailles" a="ester"><i>vacances__n</i><par n="fois__n"/></e>
 <e lm="caveau" a="ester"><i>caveau</i><par n="lieu__n"/></e>
 <e lm="étau" a="ester"><i>étau</i><par n="lieu__n"/></e>
 <e lm="matériau" a="ester"><i>matériau</i><par n="lieu__n"/></e>
@@ -17949,6 +17956,7 @@
     <e lm="détestable"><i>détestable</i><par n="académique__adj"/></e>
     <e lm="détonant"><i>détonant</i><par n="abaissant__adj"/></e>
     <e lm="détracteur"><i>détract</i><par n="conduct/eur__adj"/></e>
+    <e lm="détracteur"><i>détract</i><par n="administrat/eur__n"/></e>
     <e lm="de travail"><i>de<b/>travail</i><par n="arrière__adj"/></e>
     <e lm="deuxième"><i>deuxième</i><par n="académique__adj"/></e>
     <e lm="de valeur"><p><l>de<b/>valeur</l><r>de<b/>valeur</r></p><par n="arrière__adj"/></e>
@@ -18069,6 +18077,7 @@
     <e lm="électromagnétique"><i>électromagnétique</i><par n="académique__adj"/></e>
     <e lm="électromagnétique" r="LR"><p><l>Electromagnétique</l><r>électromagnétique</r></p><par n="académique__adj"/></e>
     <e lm="électronique"><i>électronique</i><par n="académique__adj"/></e>
+    <e lm="électronique"><i>électronique</i><par n="abeille__n"/></e>
     <e lm="électronique" r="LR"><p><l>Electronique</l><r>électronique</r></p><par n="académique__adj"/></e>
     <e lm="élégant"><i>élégant</i><par n="abaissant__adj"/></e>
     <e lm="élégant" r="LR"><p><l>Elégant</l><r>élégant</r></p><par n="abaissant__adj"/></e>
@@ -18422,6 +18431,11 @@
     <e lm="homicide" a="joan"><i>homicide</i><par n="académique__adj"/></e>
     <e lm="homologue"><i>homologue</i><par n="académique__adj"/></e>
     <e lm="homonyme"><i>homonyme</i><par n="académique__adj"/></e>
+    <e lm="synonyme"><i>synonyme</i><par n="académique__adj"/></e>
+    <e lm="antonyme"><i>antonyme</i><par n="académique__adj"/></e>
+    <e lm="homonyme"><i>homonyme</i><par n="livre__n"/></e>
+    <e lm="synonyme"><i>synonyme</i><par n="livre__n"/></e>
+    <e lm="antonyme"><i>antonyme</i><par n="livre__n"/></e>
     <e lm="hongrois"><i>hongrois</i><par n="anglais__adj"/></e>
     <e lm="hongrois"><i>hongrois</i><par n="admis__n"/></e>
     <e lm="honnête"><i>honnête</i><par n="académique__adj"/></e>
@@ -19021,6 +19035,7 @@
     <e lm="optimal"><i>optima</i><par n="amica/l__adj"/></e>
     <e lm="optimiste"><i>optimiste</i><par n="académique__adj"/></e>
     <e lm="optionnel"><i>optionnel</i><par n="annuel__adj"/></e>
+    <e lm="optique"><i>optique</i><par n="abeille__n"/></e>
     <e lm="optique"><i>optique</i><par n="académique__adj"/></e>
     <e lm="oral"><i>ora</i><par n="amica/l__adj"/></e>
     <e lm="ordinaire"><i>ordinaire</i><par n="académique__adj"/></e>
@@ -20199,7 +20214,6 @@
     <e lm="ensemble"><i>ensemble</i><par n="hier__adv"/></e>
     <e lm="en somme"><i>en<b/>somme</i><par n="hier__adv"/></e>
     <e lm="ensuite"><i>ensuite</i><par n="hier__adv"/></e>
-    <e lm="ensuite" r="LR"><i>ensuite</i><par n="hier__adv"/></e>
     <e lm="en temps et lieu"><i>en<b/>temps<b/>et<b/>lieu</i><par n="hier__adv"/></e>
     <e lm="en temps utile"><i>en<b/>temps<b/>utile</i><par n="hier__adv"/></e>
     <e lm="en temps voulu"><i>en<b/>temps<b/>voulu</i><par n="hier__adv"/></e>
@@ -22205,7 +22219,7 @@
     <e lm="Anastasie"><i>Anastasie</i><par n="Abraham__np"/></e>
     <e lm="Anastasio"><i>Anastasio</i><par n="Abraham__np"/></e>
     <e lm="Anatolie"><i>Anatolie</i><par n="Abraham__np"/></e>
-    <e lm="Anatolie"><i>Anatolie</i><par n="Andorre__np"/></e>
+    <e lm="Anatolie"><i>Anatolie</i><par n="Bulgarie__np"/></e>
     <e lm="Anatoly"><i>Anatoly</i><par n="Abraham__np"/></e>
     <e lm="Anaya"><i>Anaya</i><par n="Carrefour__np"/></e>
     <e lm="Anbar"><i>Anbar</i><par n="Andorre__np"/></e>
@@ -24638,6 +24652,7 @@
     <e lm="George Town"><i>George<b/>Town</i><par n="Andorre__np"/></e>
     <e lm="Georgetown"><i>Georgetown</i><par n="Andorre__np"/></e>
     <e lm="George W. Bush"><i>George<b/>W.<b/>Bush</i><par n="Abraham__np"/></e>
+    <e lm="Georges"><i>Georges</i><par n="Abraham__np"/></e>
     <e lm="Georgie du Sud-et-les-Îles Sandwich du Sud"><i>Georgie<b/>du<b/>Sud-et-les<b/>Îles<b/>Sandwich<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
     <e lm="Géorgie"><i>Géorgie</i><par n="Bulgarie__np"/></e>
     <e lm="Gérald"><i>Gérald</i><par n="Abraham__np"/></e>
@@ -26063,7 +26078,7 @@
     <e lm="Manama"><i>Manama</i><par n="Andorre__np"/></e>
     <e lm="Manáus"><i>Manáus</i><par n="Andorre__np"/></e>
     <e lm="Manche"><i>Manche</i><par n="Andorre__np"/></e>
-    <e lm="Mandchourie"><i>Mandchourie</i><par n="Andorre__np"/></e>
+    <e lm="Mandchourie"><i>Mandchourie</i><par n="Bulgarie__np"/></e>
     <e lm="Mandela"><i>Mandela</i><par n="Abraham__np"/></e>
     <e lm="Mandiola"><i>Mandiola</i><par n="Abraham__np"/></e>
     <e lm="Manel"><i>Manel</i><par n="Abraham__np"/></e>
@@ -26099,6 +26114,7 @@
     <e lm="March"><i>March</i><par n="Abraham__np"/></e>
     <e lm="Marcial"><i>Marcial</i><par n="Abraham__np"/></e>
     <e lm="Marc"><i>Marc</i><par n="Abraham__np"/></e>
+    <e lm="Marcel"><i>Marcel</i><par n="Abraham__np"/></e>
     <e lm="Marcotegui"><i>Marcotegui</i><par n="Abraham__np"/></e>
     <e lm="Marcoussis"><i>Marcoussis</i><par n="Andorre__np"/></e>
     <e lm="Marcus"><i>Marcus</i><par n="Abraham__np"/></e>
@@ -29202,6 +29218,14 @@
     <e lm="malgache"><i>malgache</i><par n="artiste__n"/></e>
     <e lm="Saragosse"><i>Saragosse</i><par n="Bulgarie__np"/></e>
     <e lm="annexion"><i>annexion</i><par n="abeille__n"/></e>
+    <e lm="minorisation"><i>minorisation</i><par n="abeille__n"/></e>
+    <e lm="minoriser"><i>minoris</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fouet"><i>fouet</i><par n="livre__n"/></e>
+    <e lm="fouetter"><i>fouett</i><par n="abaiss/er__vblex"/></e>
+    <e lm="reporter"><i>reporter</i><par n="livre__n"/></e>
+    <e lm="reporteur"><i>report</i><par n="administrat/eur__n"/></e>
+    <e lm="décathlon"><i>décathlon</i><par n="livre__n"/></e>
+    <e lm="heptathlon"><i>heptathlon</i><par n="livre__n"/></e>
       
   </section>
 
