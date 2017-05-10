@@ -206,13 +206,6 @@
       <e><p><l>ux</l>               <r>ux<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
     </pardef>
 
-    <pardef n="tel__adj">
-      <e><p><l>les</l>              <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-      <e><p><l>le</l>               <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-      <e><p><l>s</l>                <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-      <e><p><l/>                    <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-    </pardef>
-
     <pardef n="même__adj">
       <e><p><l>s</l>                <r><s n="adj"/><s n="ind"/><s n="mf"/><s n="pl"/></r></p></e>
       <e><p><l/>                    <r><s n="adj"/><s n="ind"/><s n="mf"/><s n="sg"/></r></p></e>
@@ -8354,6 +8347,7 @@
     <e lm="dépassement"><i>dépassement</i><par n="livre__n"/></e>
     <e lm="dépêche"><i>dépêche</i><par n="abeille__n"/></e>
     <e lm="dépendance"><i>dépendance</i><par n="abeille__n"/></e>
+    <e lm="interdépendance"><i>interdépendance</i><par n="abeille__n"/></e>
     <e lm="dépense"><i>dépense</i><par n="abeille__n"/></e>
     <e lm="dép"><i>dép</i><par n="mois__n"/></e>
     <e lm="dépistage"><i>dépistage</i><par n="livre__n"/></e>
@@ -11388,7 +11382,6 @@
     <e lm="organisme de prêt"><i>organisme</i><par n="livre__n"/><p><l><b/>de<b/>prêt</l><r><g><b/>de<b/>prêt</g></r></p></e>
     <e lm="organisme"><i>organisme</i><par n="livre__n"/></e>
     <e lm="organisme officiel de crédit"><i>organisme<b/>officiel<b/>de<b/>crédit</i><par n="BBC__n"/></e>
-    <e lm="organization"><i>organization</i><par n="abeille__n"/></e>
     <e lm="orgasme"><i>orgasme</i><par n="livre__n"/></e>
     <e lm="orgeat"><i>orgeat</i><par n="livre__n"/></e>
     <e lm="orge"><i>orge</i><par n="abeille__n"/></e>
@@ -12545,7 +12538,6 @@
     <e lm="renunciation"><i>renunciation</i><par n="abeille__n"/></e>
     <e lm="renvoi"><i>renvoi</i><par n="livre__n"/></e>
     <e lm="réorganisation"><i>réorganisation</i><par n="abeille__n"/></e>
-    <e lm="reorganization"><i>reorganization</i><par n="abeille__n"/></e>
     <e lm="réorientation"><i>réorientation</i><par n="abeille__n"/></e>
     <e lm="réouverture"><i>réouverture</i><par n="abeille__n"/></e>
     <e lm="repaire" a="joan"><i>repaire</i><par n="livre__n"/></e>
@@ -17830,7 +17822,7 @@
     <e lm="crédible"><i>crédible</i><par n="académique__adj"/></e>
     <e lm="créditeur"><i>crédit</i><par n="conduct/eur__adj"/></e>
     <e lm="criant"><i>criant</i><par n="abaissant__adj"/></e>
-    <e lm="criminel"><i>criminel</i><par n="tel__adj"/></e>
+    <e lm="criminel"><i>criminel</i><par n="annuel__adj"/></e>
     <e lm="critique"><i>critique</i><par n="académique__adj"/></e>
     <e lm="croate"><i>croate</i><par n="académique__adj"/></e>
     <e lm="serbocroate"><i>serbocroate</i><par n="académique__adj"/></e>
@@ -17924,6 +17916,7 @@
     <e lm="départamentale"><i>départamentale</i><par n="académique__adj"/></e>
     <e lm="de Pasaia"><p><l>de<b/>Pasaia</l><r>de<b/>pasaia</r></p><par n="arrière__adj"/></e>
     <e lm="dépendant"><i>dépendant</i><par n="abaissant__adj"/></e>
+    <e lm="interdépendant"><i>interdépendant</i><par n="abaissant__adj"/></e>
     <e lm="dépensier"><i>dépensi</i><par n="ch/er__adj"/></e>
     <e lm="déplacé"><i>déplacé</i><par n="abaissant__adj"/></e>
     <e lm="déplorable"><i>déplorable</i><par n="académique__adj"/></e>
@@ -18635,7 +18628,7 @@
     <e lm="intact"><i>intact</i><par n="abaissant__adj"/></e>
     <e lm="intégral" r="LR"><i>intégra</i><par n="amica/l__adj"/></e>
     <e lm="intègre"><i>intègre</i><par n="académique__adj"/></e>
-    <e lm="intellectuel"><i>intellectuel</i><par n="tel__adj"/></e>
+    <e lm="intellectuel"><i>intellectuel</i><par n="annuel__adj"/></e>
     <e lm="intelligent"><i>intelligent</i><par n="abaissant__adj"/></e>
     <e lm="intelligible"><i>intelligible</i><par n="académique__adj"/></e>
     <e lm="intemporel"><i>intemporel</i><par n="annuel__adj"/></e>
@@ -18832,6 +18825,7 @@
     <e lm="marron"><i>marron</i><par n="arrière__adj"/></e>
     <e lm="marron" r="RL"><i>marron</i><par n="ancien__adj"/></e>
     <e lm="marxiste"><i>marxiste</i><par n="académique__adj"/></e>
+    <e lm="marxiste"><i>marxiste</i><par n="artiste__n"/></e>
     <e lm="masculin"><i>masculin</i><par n="abaissant__adj"/></e>
     <e lm="massif"><i>massi</i><par n="affirmati/f__adj"/></e>
     <e lm="mathématicien" a="joan"><i>mathématicien</i><par n="ancien__adj"/></e>
@@ -19612,7 +19606,7 @@
     <e lm="télégraphique"><i>télégraphique</i><par n="académique__adj"/></e>
     <e lm="téléphonique"><i>téléphonique</i><par n="académique__adj"/></e>
     <e lm="télévisuel"><i>télévisuel</i><par n="annuel__adj"/></e>
-    <e lm="tel"><i>tel</i><par n="tel__adj"/></e>
+    <e lm="tel"><i>tel</i><par n="annuel__adj"/></e>
     <e lm="tellement de"><i>tellement<b/>de</i><par n="arrière__adj"/></e>
     <e lm="tellement"><i>tellement</i><par n="arrière__adj"/></e>
     <e lm="tellurique"><i>tellurique</i><par n="académique__adj"/></e>
@@ -20227,7 +20221,7 @@
     <e lm="en tout point"><i>en<b/>tout<b/>point</i><par n="hier__adv"/></e>
     <e lm="en tout temps"><i>en<b/>tout<b/>temps</i><par n="hier__adv"/></e>
     <e lm="entre l'épée et le mur"><i>entre<b/>l'épée<b/>et<b/>le<b/>mur</i><par n="hier__adv"/></e>
-    <e lm="entre-temps" r="LR"><i>entre-temps</i><par n="hier__adv"/></e>
+    <e lm="entre-temps"><i>entre-temps</i><par n="hier__adv"/></e>
     <e lm="environ"><i>environ</i><par n="hier__adv"/></e>
     <e lm="environnementalement"><i>environnementalement</i><par n="hier__adv"/></e>
     <e lm="environ" r="LR"><i>environ</i><par n="hier__adv"/></e>
@@ -21195,7 +21189,7 @@
     <e lm="avec"><i>avec</i><par n="attendu__pr"/></e>
     <e lm="chargé de"><i>chargé<b/></i><par n="contde__pr"/></e>
     <e lm="chez"><i>chez</i><par n="attendu__pr"/></e>
-      <e lm="comme"><i>comme</i><par n="attendu__pr"/></e>
+    <e lm="comme"><i>comme</i><par n="attendu__pr"/></e>
     <e lm="compte tenu de"><i>compte<b/>tenu<b/></i><par n="contde__pr"/></e>
     <e lm="concernant"><i>concernant</i><par n="attendu__pr"/></e>
     <e lm="conformément à"><i>conformément<b/></i><par n="conta__pr"/></e>
@@ -21207,6 +21201,7 @@
     <e lm="dans le cadre de"><i>dans<b/>le<b/>cadre<b/></i><par n="contde__pr"/></e>
     <e lm="dans le cours de"><i>dans<b/>le<b/>cours<b/></i><par n="contde__pr"/></e>
     <e lm="dans l'entourage de"><i>dans<b/>l'entourage<b/></i><par n="contde__pr"/></e>
+    <e lm="d'après"><i>d'après</i><par n="attendu__pr"/></e>
     <e lm="de"><par n="contde__pr"/></e>
     <e lm="depuis"><i>depuis</i><par n="attendu__pr"/></e>
     <e lm="derrière"><i>derrière</i><par n="attendu__pr"/></e>
@@ -29226,6 +29221,21 @@
     <e lm="reporteur"><i>report</i><par n="administrat/eur__n"/></e>
     <e lm="décathlon"><i>décathlon</i><par n="livre__n"/></e>
     <e lm="heptathlon"><i>heptathlon</i><par n="livre__n"/></e>
+    <e lm="Brown"><i>Brown</i><par n="Abraham__np"/></e>
+    <e lm="William"><i>William</i><par n="Abraham__np"/></e>
+    <e lm="magnétisme"><i>magnétisme</i><par n="livre__n"/></e>
+    <e lm="électromagnétisme"><i>électromagnétisme</i><par n="livre__n"/></e>
+    <e lm="électromagnétisme" r="LR"><p><l>Electromagnétisme</l><r>électromagnétisme</r></p><par n="livre__n"/></e>
+    <e lm="nul"><i>nul</i><par n="annuel__adj"/></e>
+    <e lm="renaissance"><i>renaissance</i><par n="abeille__n"/></e>
+    <e lm="léninisme"><i>léninisme</i><par n="livre__n"/></e>
+    <e lm="léniniste"><i>léniniste</i><par n="artiste__n"/></e>
+    <e lm="léniniste"><i>léniniste</i><par n="académique__adj"/></e>
+    <e lm="maoisme"><i>maoisme</i><par n="livre__n"/></e>
+    <e lm="maoiste"><i>maoiste</i><par n="artiste__n"/></e>
+    <e lm="maoiste"><i>maoiste</i><par n="académique__adj"/></e>
+    <e lm="Madrid"><i>Madrid</i><par n="Andorre__np"/></e>
+    <e lm="chimpanzé"><i>chimpanzé</i><par n="livre__n"/></e>
       
   </section>
 
