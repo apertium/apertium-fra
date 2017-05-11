@@ -23644,6 +23644,8 @@
     <e lm="Columbia"><i>Columbia</i><par n="Andorre__np"/></e>
     <e lm="Toulouse"><i>Toulouse</i><par n="Andorre__np"/></e>
     <e lm="Marseille"><i>Marseille</i><par n="Andorre__np"/></e>
+    <e lm="Bordeaux"><i>Bordeaux</i><par n="Andorre__np"/></e>
+    <e lm="Montpellier"><i>Montpellier</i><par n="Andorre__np"/></e>
     <e lm="Perpignan"><i>Perpignan</i><par n="Andorre__np"/></e>
     <e lm="Lausanne"><i>Lausanne</i><par n="Andorre__np"/></e>
     <e lm="Anvers"><i>Anvers</i><par n="Andorre__np"/></e>
@@ -29226,6 +29228,8 @@
     <e lm="William"><i>William</i><par n="Abraham__np"/></e>
     <e lm="James"><i>James</i><par n="Abraham__np"/></e>
     <e lm="José"><i>José</i><par n="Abraham__np"/></e>
+    <e lm="Antonio"><i>Antonio</i><par n="Abraham__np"/></e>
+    <e lm="López"><i>López</i><par n="Abraham__np"/></e>
     <e lm="magnétisme"><i>magnétisme</i><par n="livre__n"/></e>
     <e lm="électromagnétisme"><i>électromagnétisme</i><par n="livre__n"/></e>
     <e lm="électromagnétisme" r="LR"><p><l>Electromagnétisme</l><r>électromagnétisme</r></p><par n="livre__n"/></e>
@@ -29244,6 +29248,8 @@
     <e lm="irréparablement"><i>irréparablement</i><par n="hier__adv"/></e>
     <e lm="chemin de fer"><i>chemin</i><par n="livre__n"/><p><l><b/>de<b/>fer</l><r><g><b/>de<b/>fer</g></r></p></e>
     <e lm="les deux" r="RL" a="hector"><p><l>les<b/>deux</l><r>les<b/>deux<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
+    <e lm="comtesse"><i>comtesse</i><par n="abeille__n"/></e>
+    <e lm="comte"><i>comte</i><par n="livre__n"/></e>
       
   </section>
 
