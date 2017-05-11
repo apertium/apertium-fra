@@ -18978,6 +18978,7 @@
     <e lm="non confessionnel" r="RL"><i>non<b/>confessionnel</i><par n="annuel__adj"/></e>
     <e lm="non fondé"><i>non<b/>fondé</i><par n="abaissant__adj"/></e>
     <e lm="nord-américain"><i>nord-américain</i><par n="abaissant__adj"/></e>
+    <e lm="Nord-américain"><i>Nord-américain</i><par n="affecté__n"/></e>
     <e lm="nord-coréen"><i>nord-coréen</i><par n="ancien__adj"/></e>
     <e lm="nordique"><i>nordique</i><par n="académique__adj"/></e>
     <e lm="normal"><i>norma</i><par n="amica/l__adj"/></e>
@@ -21228,6 +21229,7 @@
     <e lm="en vigueur à partir de"><i>en<b/>vigueur<b/>à<b/>partir<b/>de</i><par n="attendu__pr"/></e>
     <e lm="en vue de"><i>en<b/>vue<b/></i><par n="contde__pr"/></e>
     <e lm="face à"><i>face<b/></i><par n="conta__pr"/></e>
+    <e lm="en face de"><i>en<b/>face<b/></i><par n="contde__pr"/></e>
     <e lm="faute de"><i>faute<b/></i><par n="contde__pr"/></e>
     <e lm="grâce à"><i>grâce<b/></i><par n="conta__pr"/></e>
     <e lm="hors"><i>hors</i><par n="attendu__pr"/></e>
@@ -21240,7 +21242,6 @@
     <e lm="long de"><i>long<b/></i><par n="contde__pr"/></e>
     <e lm="lors de"><i>lors<b/></i><par n="contde__pr"/></e>
     <e lm="lors de" r="LR"><i>lors<b/></i><par n="contde__pr"/></e>
-    <e lm="lui-même" a="joan"><i>lui<b/>même<b/></i><par n="contde__pr"/></e>
     <e lm="malgré"><i>malgré</i><par n="attendu__pr"/></e>
     <e lm="merci de"><i>merci<b/></i><par n="contde__pr"/></e>
     <e lm="moyennant"><i>moyennant</i><par n="attendu__pr"/></e>
@@ -29223,6 +29224,8 @@
     <e lm="heptathlon"><i>heptathlon</i><par n="livre__n"/></e>
     <e lm="Brown"><i>Brown</i><par n="Abraham__np"/></e>
     <e lm="William"><i>William</i><par n="Abraham__np"/></e>
+    <e lm="James"><i>James</i><par n="Abraham__np"/></e>
+    <e lm="José"><i>José</i><par n="Abraham__np"/></e>
     <e lm="magnétisme"><i>magnétisme</i><par n="livre__n"/></e>
     <e lm="électromagnétisme"><i>électromagnétisme</i><par n="livre__n"/></e>
     <e lm="électromagnétisme" r="LR"><p><l>Electromagnétisme</l><r>électromagnétisme</r></p><par n="livre__n"/></e>
@@ -29236,6 +29239,11 @@
     <e lm="maoiste"><i>maoiste</i><par n="académique__adj"/></e>
     <e lm="Madrid"><i>Madrid</i><par n="Andorre__np"/></e>
     <e lm="chimpanzé"><i>chimpanzé</i><par n="livre__n"/></e>
+    <e lm="Naples"><i>Naples</i><par n="États-Unis__np"/></e>
+    <e lm="boxeur"><i>box</i><par n="administrat/eur__n"/></e>
+    <e lm="irréparablement"><i>irréparablement</i><par n="hier__adv"/></e>
+    <e lm="chemin de fer"><i>chemin</i><par n="livre__n"/><p><l><b/>de<b/>fer</l><r><g><b/>de<b/>fer</g></r></p></e>
+    <e lm="les deux" r="RL" a="hector"><p><l>les<b/>deux</l><r>les<b/>deux<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
       
   </section>
 
