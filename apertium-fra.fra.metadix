@@ -9034,6 +9034,9 @@
     <e lm="espèce"><i>espèce</i><par n="abeille__n"/></e>
     <e lm="espèces"><i>espèces</i><par n="vacances__n"/></e>
     <e lm="espérance"><i>espérance</i><par n="abeille__n"/></e>
+    <e lm="espéranto"><i>espéranto</i><par n="livre__n"/></e>
+    <e lm="espérantiste"><i>espérantiste</i><par n="artiste__n"/></e>
+    <e lm="espérantiste"><i>espérantiste</i><par n="académique__adj"/></e>
     <e lm="espion"><i>espion</i><par n="ancien__n"/></e>
     <e lm="espionnage"><i>espionnage</i><par n="livre__n"/></e>
     <e lm="espoir"><i>espoir</i><par n="livre__n"/></e>
@@ -10801,7 +10804,7 @@
     <e lm="médecin"><i>médecin</i><par n="artiste__n"/></e>
     <e lm="medecin de garde"><i>médecin</i><par n="artiste__n"/><p><l><b/>de<b/>garde</l><r><g><b/>de<b/>garde</g></r></p></e>
     <e lm="medecin de famille"><i>médecin</i><par n="artiste__n"/><p><l><b/>de<b/>famille</l><r><g><b/>de<b/>famille</g></r></p></e>
-    <e lm="Corse"><i>Corse</i><par n="artiste__n"/></e>
+    <e lm="corse"><i>corse</i><par n="artiste__n"/></e>
     <e lm="corse"><i>corse</i><par n="académique__adj"/></e>
     <e lm="média"><i>média</i><par n="livre__n"/></e>
     <e lm="média" r="LR"><p><l>média</l><r>média<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -16588,6 +16591,7 @@
     <e lm="raire"><i>ra</i><par n="distra/ire__vblex"/></e>
     <e lm="raisonner comme un pied"><i>raisonn</i><par n="abaiss/er__vblex"/><p><l><b/>comme<b/>un<b/>pied</l><r><g><b/>comme<b/>un<b/>pied</g></r></p></e>
     <e lm="raisonner"><i>raisonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rajeunir"><i>rajeun</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="ralentir"><i>ralent</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="râler"><i>râl</i><par n="abaiss/er__vblex"/></e>
     <e lm="rallier"><i>ralli</i><par n="abaiss/er__vblex"/></e>
@@ -17522,6 +17526,7 @@
     <e lm="autre" r="RL"><i>autre</i><par n="académique__adj"/></e>
     <e lm="autres"><i>autres</i><par n="arrière__adj"/></e>
     <e lm="autrichien"><i>autrichien</i><par n="ancien__adj"/></e>
+    <e lm="Autrichien"><i>Autrichien</i><par n="ancien__n"/></e>
     <e lm="auxiliaire"><i>auxiliaire</i><par n="académique__adj"/></e>
     <e lm="avantageux"><i>avantageu</i><par n="affectueu/x__adj"/></e>
     <e lm="avant-dernier"><i>avant-derni</i><par n="ch/er__adj"/></e>
@@ -18297,7 +18302,6 @@
     <e lm="folk"><i>folk</i><par n="arrière__adj"/></e>
     <e lm="fonctionnel"><i>fonctionnel</i><par n="annuel__adj"/></e>
     <e lm="fondamental"><i>fondamenta</i><par n="amica/l__adj"/></e>
-    <e lm="fondamental"><i>fondamental</i><par n="abaissant__adj"/></e>
     <e lm="foral"><i>fora</i><par n="amica/l__adj"/></e>
     <e lm="forcé"><i>forcé</i><par n="abaissant__adj"/></e>
     <e lm="forestier"><i>foresti</i><par n="ch/er__adj"/></e>
@@ -19215,6 +19219,7 @@
     <e lm="préjudiciable" r="LR"><i>préjudiciable</i><par n="académique__adj"/></e>
     <e lm="préliminaire"><i>préliminaire</i><par n="académique__adj"/></e>
     <e lm="premier"><i>premi</i><par n="ch/er__adj"/></e>
+    <e lm="1"><i>1</i><par n="ch/er__adj"/></e>
     <e lm="préoccupant"><i>préoccupant</i><par n="abaissant__adj"/></e>
     <e lm="préparatoire"><i>préparatoire</i><par n="académique__adj"/></e>
     <e lm="prépondérant"><i>prépondérant</i><par n="abaissant__adj"/></e>
@@ -19401,6 +19406,7 @@
     <e lm="rouge-blanc"><i>rouge-blan</i><par n="fran/c__adj"/></e>
     <e lm="rouge"><i>rouge</i><par n="académique__adj"/></e>
     <e lm="roumain"><i>roumain</i><par n="abaissant__adj"/></e>
+    <e lm="roumain"><i>roumain</i><par n="affecté__n"/></e>
     <e lm="routier"><i>routi</i><par n="ch/er__adj"/></e>
     <e lm="royal"><i>roya</i><par n="amica/l__adj"/></e>
     <e lm="royaliste"><i>royaliste</i><par n="académique__adj"/></e>
@@ -21259,6 +21265,7 @@
     <e lm="pour ce qui est de" r="LR"><i>pour<b/>ce<b/>qui<b/>est<b/></i><par n="contde__pr"/></e>
     <e lm="pour"><i>pour</i><par n="attendu__pr"/></e>
     <e lm="près"><i>près</i><par n="attendu__pr"/></e>
+    <e lm="près de"><i>près<b/></i><par n="contde__pr"/></e>
     <e lm="quant à"><i>quant<b/></i><par n="conta__pr"/></e>
     <e lm="quitte à"><i>quitte<b/></i><par n="conta__pr"/></e>
     <e lm="remontant à"><i>remontant<b/></i><par n="conta__pr"/></e>
@@ -22736,7 +22743,7 @@
     <e lm="Astrakhan"><i>Astrakhan</i><par n="Andorre__np"/></e>
     <e lm="Astudillo"><i>Astudillo</i><par n="Andorre__np"/></e>
     <e lm="Astur"><i>Astur</i><par n="Carrefour__np"/></e>
-    <e lm="Asturies"><i>Asturies</i><par n="Andorre__np"/></e>
+    <e lm="Asturies"><i>Asturies</i><par n="Bahamas__np"/></e>
     <e lm="Asua"><i>Asua</i><par n="Andorre__np"/></e>
     <e lm="Asunción"><i>Asunción</i><par n="Andorre__np"/></e>
     <e lm="Atacama"><i>Atacama</i><par n="Andorre__np"/></e>
@@ -23651,9 +23658,18 @@
     <e lm="Anvers"><i>Anvers</i><par n="Andorre__np"/></e>
     <e lm="Bruxelles"><i>Bruxelles</i><par n="Andorre__np"/></e>
     <e lm="Montréal"><i>Montréal</i><par n="Andorre__np"/></e>
-    <e lm="Genève"><i>Genève</i><par n="Andorre__np"/></e>
+    <e lm="Genève"><i>Genève</i><par n="Bulgarie__np"/></e>
     <e lm="Paris"><i>Paris</i><par n="Andorre__np"/></e>
     <e lm="Barcelone"><i>Barcelone</i><par n="Bulgarie__np"/></e>
+    <e lm="Cordoue"><i>Cordoue</i><par n="Bulgarie__np"/></e>
+    <e lm="Seville"><i>Seville</i><par n="Bulgarie__np"/></e>
+    <e lm="Ceuta"><i>Ceuta</i><par n="Bulgarie__np"/></e>
+    <e lm="Melilla"><i>Melilla</i><par n="Bulgarie__np"/></e>
+    <e lm="Ciutadella"><i>Ciutadella</i><par n="Bulgarie__np"/></e>
+    <e lm="Nice"><i>Nice</i><par n="Bulgarie__np"/></e>
+    <e lm="Salamanque"><i>Salamanque</i><par n="Bulgarie__np"/></e>
+    <e lm="Tolède"><i>Tolède</i><par n="Bulgarie__np"/></e>
+    <e lm="Tokyo"><i>Tokyo</i><par n="Iran__np"/></e>
     <e lm="Strasbourg"><i>Strasbourg</i><par n="Andorre__np"/></e>
     <e lm="Seine"><i>Seine</i><par n="Bulgarie__np"/></e>
     <e lm="Loire"><i>Loire</i><par n="Bulgarie__np"/></e>
@@ -23741,8 +23757,8 @@
     <e lm="Corredoira"><i>Corredoira</i><par n="Abraham__np"/></e>
     <e lm="Corrèze"><i>Corrèze</i><par n="Andorre__np"/></e>
     <e lm="Corsa"><i>Corsa</i><par n="Carrefour__np"/></e>
-    <e lm="Corse-du-Sud"><i>Corse-du-Sud</i><par n="Andorre__np"/></e>
-    <e lm="Corse"><i>Corse</i><par n="Andorre__np"/></e>
+    <e lm="Corse-du-Sud"><i>Corse-du-Sud</i><par n="Bulgarie__np"/></e>
+    <e lm="Corse"><i>Corse</i><par n="Bulgarie__np"/></e>
     <e lm="Corsica"><i>Corsica</i><par n="Andorre__np"/></e>
     <e lm="Costa Blanca"><i>Costa<b/>Blanca</i><par n="Andorre__np"/></e>
     <e lm="Costa Brava"><i>Costa<b/>Brava</i><par n="Andorre__np"/></e>
@@ -27596,7 +27612,7 @@
     <e lm="Roub al Khali"><i>Roub<b/>al<b/>Khali</i><par n="Andorre__np"/></e>
     <e lm="Rouillan"><i>Rouillan</i><par n="Abraham__np"/></e>
     <e lm="Roumanie"><i>Roumanie</i><par n="Bulgarie__np"/></e>
-    <e lm="Rousillon"><i>Rousillon</i><par n="Andorre__np"/></e>
+    <e lm="Rousillon"><i>Rousillon</i><par n="Iran__np"/></e>
     <e lm="Rousset"><i>Rousset</i><par n="Abraham__np"/></e>
     <e lm="route de la soie"><i>route<b/>de<b/>la<b/>soie</i><par n="Carrefour__np"/></e>
     <e lm="Route Panamericaine"><i>Route<b/>Panamericaine</i><par n="Carrefour__np"/></e>
@@ -29230,6 +29246,11 @@
     <e lm="José"><i>José</i><par n="Abraham__np"/></e>
     <e lm="Antonio"><i>Antonio</i><par n="Abraham__np"/></e>
     <e lm="López"><i>López</i><par n="Abraham__np"/></e>
+    <e lm="Claude"><i>Claude</i><par n="Abraham__np"/></e>
+    <e lm="Simone"><i>Simone</i><par n="Abraham__np"/></e>
+    <e lm="Gustave"><i>Gustave</i><par n="Abraham__np"/></e>
+    <e lm="Guillaume"><i>Guillaume</i><par n="Abraham__np"/></e>
+    <e lm="Arnaud"><i>Arnaud</i><par n="Abraham__np"/></e>
     <e lm="magnétisme"><i>magnétisme</i><par n="livre__n"/></e>
     <e lm="électromagnétisme"><i>électromagnétisme</i><par n="livre__n"/></e>
     <e lm="électromagnétisme" r="LR"><p><l>Electromagnétisme</l><r>électromagnétisme</r></p><par n="livre__n"/></e>
@@ -29250,6 +29271,66 @@
     <e lm="les deux" r="RL" a="hector"><p><l>les<b/>deux</l><r>les<b/>deux<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
     <e lm="comtesse"><i>comtesse</i><par n="abeille__n"/></e>
     <e lm="comte"><i>comte</i><par n="livre__n"/></e>
+    <e lm="citadelle"><i>citadelle</i><par n="abeille__n"/></e>
+    <e lm="èquivalence"><i>èquivalence</i><par n="abeille__n"/></e>
+
+
+<e lm="2nd" a="hector"><p><l>2nd</l><r>2nd<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="2e" a="hector"><p><l>2e</l><r>2nd<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="3ème" a="hector"><p><l>3ème</l><r>3ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="3e" a="hector" r="LR"><p><l>3e</l><r>3ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="4ème" a="hector"><p><l>4ème</l><r>4ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="4e" a="hector" r="LR"><p><l>4e</l><r>4ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="5ème" a="hector"><p><l>5ème</l><r>5ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="5e" a="hector" r="LR"><p><l>5e</l><r>5ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="6ème" a="hector"><p><l>6ème</l><r>6ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="6e" a="hector" r="LR"><p><l>6e</l><r>6ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="7ème" a="hector"><p><l>7ème</l><r>7ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="7e" a="hector" r="LR"><p><l>7e</l><r>7ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="8ème" a="hector"><p><l>8ème</l><r>8ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="8e" a="hector" r="LR"><p><l>8e</l><r>8ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="9ème" a="hector"><p><l>9ème</l><r>9ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="9e" a="hector" r="LR"><p><l>9e</l><r>9ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="10ème" a="hector"><p><l>10ème</l><r>10ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="10e" a="hector" r="LR"><p><l>10e</l><r>10ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="11ème" a="hector"><p><l>11ème</l><r>11ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="11e" a="hector" r="LR"><p><l>11e</l><r>11ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="12ème" a="hector"><p><l>12ème</l><r>12ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="12e" a="hector" r="LR"><p><l>12e</l><r>12ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="13ème" a="hector"><p><l>13ème</l><r>13ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="13e" a="hector" r="LR"><p><l>13e</l><r>13ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="14ème" a="hector"><p><l>14ème</l><r>14ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="14e" a="hector" r="LR"><p><l>14e</l><r>14ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="15ème" a="hector"><p><l>15ème</l><r>15ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="15e" a="hector" r="LR"><p><l>15e</l><r>15ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="16ème" a="hector"><p><l>16ème</l><r>16ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="16e" a="hector" r="LR"><p><l>16e</l><r>16ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="17ème" a="hector"><p><l>17ème</l><r>17ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="17e" a="hector" r="LR"><p><l>17e</l><r>17ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="18ème" a="hector"><p><l>18ème</l><r>18ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="18e" a="hector" r="LR"><p><l>18e</l><r>18ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="19ème" a="hector"><p><l>19ème</l><r>19ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="19e" a="hector" r="LR"><p><l>19e</l><r>19ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="20ème" a="hector"><p><l>20ème</l><r>20ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="20e" a="hector" r="LR"><p><l>20e</l><r>20ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+    <e lm="mongol"><i>mongol</i><par n="affecté__n"/></e>
+    <e lm="mongol"><i>mongol</i><par n="abaissant__adj"/></e>
+    <e lm="Baléares"><i>Baléares</i><par n="Bahamas__np"/></e>
+    <e lm="phénicien"><i>phénicien</i><par n="ancien__adj"/></e>
+    <e lm="phénicien"><i>phénicien</i><par n="ancien__n"/></e>
+    <e lm="germanique"><i>germanique</i><par n="académique__adj"/></e>
+    <e lm="sémitique"><i>sémitique</i><par n="académique__adj"/></e>
+    <e lm="phonétique"><i>phonétique</i><par n="académique__adj"/></e>
+    <e lm="phonétique"><i>phonétique</i><par n="abeille__n"/></e>
+    <e lm="consonne"><i>consonne</i><par n="abeille__n"/></e>
+    <e lm="voyelle"><i>voyelle</i><par n="abeille__n"/></e>
+    <e lm="locuteur"><i>locut</i><par n="administrat/eur__n"/></e>
+    <e lm="codifier"><i>codifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="etymologique"><i>etymologique</i><par n="académique__adj"/></e>
+    <e lm="etymologie"><i>etymologie</i><par n="abeille__n"/></e>
+    <e lm="vivant"><i>vivant</i><par n="abaissant__adj"/></e>
+    <e lm="minéral"><i>minéral</i><par n="livre__n"/></e>
+
       
   </section>
 
