@@ -1106,6 +1106,11 @@
       <e><p><l/>                    <r><s n="prn"/><s n="tn"/><s n="nt"/><s n="sg"/></r></p></e>
     </pardef>
 
+    <pardef n="quelques_un/s__prn">
+      <e><p><l>s</l>                <r>s<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
+      <e><p><l>es</l>               <r>s<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="l/e_mien__prn">
       <e><p><l>es<b/>miennes</l>    <r>e<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>a<b/>mienne</l>      <r>e<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
@@ -28979,6 +28984,7 @@
     <e lm="quasi" r="LR"><i>quasi</i><par n="très__preadv"/></e>
     <e lm="quel"><i>quel</i><par n="quel__prn"/></e>
     <e lm="quelque chose"><i>quelque<b/>chose</i><par n="quelque_chose__prn"/></e>
+    <e lm="quelques un/s"><i>quelques<b/>un</i><par n="quelques_un/s__prn"/></e>
     <e lm="quelque"><i>quelque</i><par n="quelque__det"/></e>
     <e lm="quelqu'un"><i>quelqu'un</i><par n="personne__prn"/></e>
     <e lm="quelqu'un"><i>quelqu'un</i><par n="un__prn"/></e>
