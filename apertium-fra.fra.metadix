@@ -6791,6 +6791,7 @@
     <e lm="astéroïde"><i>astéroïde</i><par n="livre__n"/></e>
     <e lm="asthme"><i>asthme</i><par n="livre__n"/></e>
     <e lm="astre"><i>astre</i><par n="livre__n"/></e>
+    <e lm="astrologie"><i>astrologie</i><par n="abeille__n"/></e>
     <e lm="astrologue"><i>astrologue</i><par n="artiste__n"/></e>
     <e lm="astronaute"><i>astronaute</i><par n="artiste__n"/></e>
     <e lm="astronome"><i>astronome</i><par n="artiste__n"/></e>
@@ -6882,7 +6883,8 @@
     <e lm="avance"><i>avance</i><par n="abeille__n"/></e>
     <e lm="avantage"><i>avantage</i><par n="livre__n"/></e>
     <e lm="avant-bras"><i>avant-bras</i><par n="mois__n"/></e>
-    <e lm="avant-garde"><i>avant-garde</i><par n="livre__n"/></e>
+    <e lm="avant-garde"><i>avant-garde</i><par n="abeille__n"/></e>
+    <e lm="arrière-garde"><i>arrière-garde</i><par n="abeille__n"/></e>
     <e lm="avant"><i>avant</i><par n="livre__n"/></e>
     <e lm="avant-projet"><i>avant-projet</i><par n="livre__n"/></e>
     <e lm="avant-saison"><i>avant-saison</i><par n="abeille__n"/></e>
@@ -7448,6 +7450,7 @@
     <e lm="certitude"><i>certitude</i><par n="abeille__n"/></e>
     <e lm="cerveau"><i>cerveau</i><par n="lieu__n"/></e>
     <e lm="cervelle"><i>cervelle</i><par n="abeille__n"/></e>
+    <e lm="césar"><i>césar</i><par n="livre__n"/></e>
     <e lm="césarienne"><i>césarienne</i><par n="abeille__n"/></e>
     <e lm="cessation"><i>cessation</i><par n="abeille__n"/></e>
     <e lm="cessez-le-feu"><i>cessez-le-feu</i><par n="mois__n"/></e>
@@ -8188,7 +8191,7 @@
     <e lm="cycliste"><i>cycliste</i><par n="artiste__n"/></e>
     <e lm="cyclo-cross"><i>cyclo-cross</i><par n="mois__n"/></e>
     <e lm="cyclone"><i>cyclone</i><par n="livre__n"/></e>
-    <e lm="cygne" a="joan"><i>cigne</i><par n="livre__n"/></e>
+    <e lm="cygne" a="joan"><i>cygne</i><par n="livre__n"/></e>
     <e lm="cylindre" a="joan"><i>cylindre</i><par n="livre__n"/></e>
     <e lm="cyprès" c="cipreses"><i>cyprès</i><par n="mois__n"/></e>
     <e lm="CZE"><i>CZE</i><par n="BBC__n"/></e>
@@ -9966,7 +9969,6 @@
     <e lm="immunisation"><i>immunisation</i><par n="abeille__n"/></e>
     <e lm="immunité"><i>immunité</i><par n="abeille__n"/></e>
     <e lm="impact"><i>impact</i><par n="livre__n"/></e>
-    <e lm="impair"><i>impair</i><par n="affecté__n"/></e>
     <e lm="impartialité"><i>impartialité</i><par n="abeille__n"/></e>
     <e lm="impasse"><i>impasse</i><par n="abeille__n"/></e>
     <e lm="impasse" r="LR"><i>impasse</i><par n="livre__n"/></e>
@@ -12464,6 +12466,10 @@
     <e lm="régiment"><i>régiment</i><par n="livre__n"/></e>
     <e lm="régionalisation"><i>régionalisation</i><par n="abeille__n"/></e>
     <e lm="régionaliste"><i>régionaliste</i><par n="artiste__n"/></e>
+    <e lm="régionalisme"><i>régionalisme</i><par n="livre__n"/></e>
+    <e lm="régionalisation"><i>régionalisation</i><par n="abeille__n"/></e>
+    <e lm="régionaliser"><i>régionalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="régionaliste"><i>régionaliste</i><par n="académique__adj"/></e>
     <e lm="région de contrôle"><i>région</i><par n="abeille__n"/><p><l><b/>de<b/>contrôle</l><r><g><b/>de<b/>contrôle</g></r></p></e>
     <e lm="région"><i>région</i><par n="abeille__n"/></e>
     <e lm="registre"><i>registre</i><par n="livre__n"/></e>
@@ -17705,6 +17711,7 @@
     <e lm="classificatoire"><i>classificatoire</i><par n="académique__adj"/></e>
     <e lm="classique"><i>classique</i><par n="académique__adj"/></e>
     <e lm="claudicant" a="joan"><i>claudicant</i><par n="abaissant__adj"/></e>
+    <e lm="claudicant" a="joan"><i>claudicant</i><par n="affecté__n"/></e>
     <e lm="clef"><i>clef</i><par n="académique__adj"/></e>
     <e lm="climatique"><i>climatique</i><par n="académique__adj"/></e>
     <e lm="climatologique"><i>climatologique</i><par n="académique__adj"/></e>
@@ -18581,6 +18588,7 @@
     <e lm="inépuisable"><i>inépuisable</i><par n="académique__adj"/></e>
     <e lm="inéquitable"><i>inéquitable</i><par n="académique__adj"/></e>
     <e lm="inévitable"><i>inévitable</i><par n="académique__adj"/></e>
+    <e lm="évitable"><i>évitable</i><par n="académique__adj"/></e>
     <e lm="inexistant"><i>inexistant</i><par n="abaissant__adj"/></e>
     <e lm="infaillible"><i>infaillible</i><par n="académique__adj"/></e>
     <e lm="infantile" r="LR"><i>infantile</i><par n="académique__adj"/></e>
@@ -19070,6 +19078,7 @@
     <e lm="païen"><i>païen</i><par n="ancien__adj"/></e>
     <e lm="païen"><i>païen</i><par n="ancien__n"/></e>
     <e lm="pair"><i>pair</i><par n="abaissant__adj"/></e>
+    <e lm="impair"><i>impair</i><par n="abaissant__adj"/></e>
     <e lm="paisible"><i>paisible</i><par n="académique__adj"/></e>
     <e lm="pakistanais"><i>pakistanais</i><par n="anglais__adj"/></e>
     <e lm="pâle"><i>pâle</i><par n="académique__adj"/></e>
@@ -19112,8 +19121,7 @@
     <e lm="pêcheur"><i>pêcheu</i><par n="causeu/r__adj"/></e>
     <e lm="pécuniaire"><i>pécuniaire</i><par n="académique__adj"/></e>
     <e lm="pèlerin"><i>pèlerin</i><par n="abaissant__adj"/></e>
-    <e lm="pénale"><i>pénale</i><par n="académique__adj"/></e>
-    <e lm="pénal"><i>pénal</i><par n="abaissant__adj"/></e>
+    <e lm="pénal"><i>péna</i><par n="amica/l__adj"/></e>
     <e lm="pendant"><i>pendant</i><par n="abaissant__adj"/></e>
     <e lm="pénétrant"><i>pénétrant</i><par n="abaissant__adj"/></e>
     <e lm="pénible" a="joan"><i>pénible</i><par n="académique__adj"/></e>
@@ -21991,7 +21999,7 @@
     <e lm="Almendralejo"><i>Almendralejo</i><par n="Andorre__np"/></e>
     <e lm="Almera"><i>Almera</i><par n="Carrefour__np"/></e>
     <e lm="Almería"><i>Almería</i><par n="Abraham__np"/></e>
-    <e lm="Almerie"><i>Almería</i><par n="Andorre__np"/></e>
+    <e lm="Almerie"><i>Almería</i><par n="Bulgarie__np"/></e>
     <e lm="Almeyda"><i>Almeyda</i><par n="Abraham__np"/></e>
     <e lm="ALM"><i>ALM</i><par n="Carrefour__np"/></e>
     <e lm="Almodovar"><i>Almodovar</i><par n="Abraham__np"/></e>
@@ -22480,7 +22488,7 @@
     <e lm="Apolo"><i>Apolo</i><par n="Carrefour__np"/></e>
     <e lm="Apotzaga"><i>Apotzaga</i><par n="Andorre__np"/></e>
     <e lm="Appathurai"><i>Appathurai</i><par n="Abraham__np"/></e>
-    <e lm="Apple"><i>Apple</i><par n="Abraham__np"/></e>
+    <e lm="Apple"><i>Apple</i><par n="Carrefour__np"/></e>
     <e lm="Aprilia"><i>Aprilia</i><par n="Carrefour__np"/></e>
     <e lm="Aqaba"><i>Aqaba</i><par n="Andorre__np"/></e>
     <e lm="Aqualung"><i>Aqualung</i><par n="Carrefour__np"/></e>
@@ -23670,6 +23678,7 @@
     <e lm="Genève"><i>Genève</i><par n="Bulgarie__np"/></e>
     <e lm="Paris"><i>Paris</i><par n="Andorre__np"/></e>
     <e lm="Barcelone"><i>Barcelone</i><par n="Bulgarie__np"/></e>
+    <e lm="Bologne"><i>Bologne</i><par n="Bulgarie__np"/></e>
     <e lm="Cordoue"><i>Cordoue</i><par n="Bulgarie__np"/></e>
     <e lm="La Corogne"><i>La<b/>Corogne</i><par n="Bulgarie__np"/></e>
     <e lm="Seville"><i>Seville</i><par n="Bulgarie__np"/></e>
@@ -23682,7 +23691,9 @@
     <e lm="Tokyo"><i>Tokyo</i><par n="Iran__np"/></e>
     <e lm="Strasbourg"><i>Strasbourg</i><par n="Andorre__np"/></e>
     <e lm="Seine"><i>Seine</i><par n="Bulgarie__np"/></e>
+    <e lm="la Seine"><i>la<b/>Seine</i><par n="Bulgarie__np"/></e>
     <e lm="Loire"><i>Loire</i><par n="Bulgarie__np"/></e>
+    <e lm="la Loire"><i>la<b/>Loire</i><par n="Bulgarie__np"/></e>
     <e lm="Gérone"><i>Gérone</i><par n="Bulgarie__np"/></e>
     <e lm="Garonne"><i>Garonne</i><par n="Bulgarie__np"/></e>
     <e lm="Haute-Garonne"><i>Haute-Garonne</i><par n="Bulgarie__np"/></e>
@@ -24000,7 +24011,7 @@
     <e lm="Douchambe"><i>Douchambe</i><par n="Andorre__np"/></e>
     <e lm="Douchanbé"><i>Douchanbé</i><par n="Andorre__np"/></e>
     <e lm="Doug"><i>Doug</i><par n="Abraham__np"/></e>
-    <e lm="Douglas"><i>Douglas</i><par n="Andorre__np"/></e>
+    <e lm="Douglas"><i>Douglas</i><par n="Abraham__np"/></e>
     <e lm="Dourgâ"><i>Dourgâ</i><par n="Carrefour__np"/></e>
     <e lm="Douro"><i>Douro</i><par n="Andorre__np"/></e>
     <e lm="Douste-Blazy"><i>Douste-Blazy</i><par n="Abraham__np"/></e>
@@ -24834,7 +24845,7 @@
     <e lm="Guadalquivir"><i>Guadalquivir</i><par n="Andorre__np"/></e>
     <e lm="Guadalupe"><i>Guadalupe</i><par n="Abraham__np"/></e>
     <e lm="Guadalupe" r="LR"><i>Guadalupe</i><par n="Andorre__np"/></e>
-    <e lm="Guadeloupe"><i>Guadeloupe</i><par n="Andorre__np"/></e>
+    <e lm="Guadeloupe"><i>Guadeloupe</i><par n="Bulgarie__np"/></e>
     <e lm="Guadiana"><i>Guadiana</i><par n="Andorre__np"/></e>
     <e lm="Guam"><i>Guam</i><par n="Andorre__np"/></e>
     <e lm="Guantánamo"><i>Guantánamo</i><par n="Andorre__np"/></e>
@@ -27591,7 +27602,7 @@
     <e lm="Romano"><i>Romano</i><par n="Abraham__np"/></e>
     <e lm="Romano Prodi"><i>Romano<b/>Prodi</i><par n="Abraham__np"/></e>
     <e lm="Romareda"><i>Romareda</i><par n="Andorre__np"/></e>
-    <e lm="Rome"><i>Rome</i><par n="Andorre__np"/></e>
+    <e lm="Rome"><i>Rome</i><par n="Bulgarie__np"/></e>
     <e lm="Romeo"><i>Romeo</i><par n="Abraham__np"/></e>
     <e lm="Romeu"><i>Romeu</i><par n="Abraham__np"/></e>
     <e lm="Roms"><i>Roms</i><par n="Abraham__np"/></e>
@@ -27890,6 +27901,7 @@
     <e lm="Seine-et-Marne"><i>Seine-et-Marne</i><par n="Bulgarie__np"/></e>
     <e lm="Seine Maritime"><i>Seine<b/>Maritime</i><par n="Bulgarie__np"/></e>
     <e lm="Seine-Maritime"><i>Seine-Maritime</i><par n="Bulgarie__np"/></e>
+    <e lm="la Seine-Maritime"><i>la<b/>Seine-Maritime</i><par n="Bulgarie__np"/></e>
     <e lm="Seine-Saint Denis"><i>Seine-Saint<b/>Denis</i><par n="Andorre__np"/></e>
     <e lm="Sellal"><i>Sellal</i><par n="Abraham__np"/></e>
     <e lm="Sellapan Rama Nathan"><i>Sellapan<b/>Rama<b/>Nathan</i><par n="Abraham__np"/></e>
@@ -28630,7 +28642,9 @@
     <e lm="Violeta"><i>Violeta</i><par n="Abraham__np"/></e>
     <e lm="Virgile"><i>Virgile</i><par n="Abraham__np"/></e>
     <e lm="Virginia"><i>Virginia</i><par n="Abraham__np"/></e>
-    <e lm="Virginie"><i>Virginie</i><par n="Bulgarie__np"/></e>
+    <e lm="Virginia"><i>Virginia</i><par n="Abraham__np"/></e>
+    <e lm="Virginie"><i>Virginie</i><par n="Abraham__np"/></e>
+    <e lm="Virgínia"><i>Virgínia</i><par n="Bulgarie__np"/></e>
     <e lm="Virginie-Occidentale"><i>Virginie-Occidentale</i><par n="Bulgarie__np"/></e>
     <e lm="Viriathe"><i>Viriathe</i><par n="Abraham__np"/></e>
     <e lm="Visesa"><i>Visesa</i><par n="Carrefour__np"/></e>
@@ -29342,7 +29356,17 @@
     <e lm="minéral"><i>minéral</i><par n="livre__n"/></e>
     <e lm="macédonien"><i>macédonien</i><par n="ancien__n"/></e>
     <e lm="macédonien"><i>macédonien</i><par n="ancien__adj"/></e>
-
+    <e lm="escargot"><i>escargot</i><par n="livre__n"/></e>
+    <e lm="diagonale"><i>diagonal</i><par n="amica/l__adj"/></e>
+    <e lm="diagonale"><i>diagonale</i><par n="abeille__n"/></e>
+    <e lm="dissidence"><i>dissidence</i><par n="abeille__n"/></e>
+    <e lm="chaudière"><i>chaudière</i><par n="abeille__n"/></e>
+    <e lm="girafe"><i>girafe</i><par n="abeille__n"/></e>
+    <e lm="hippopotame"><i>hippopotame</i><par n="livre__n"/></e>
+    <e lm="équivalence"><i>équivalence</i><par n="abeille__n"/></e>
+    <e lm="sémantique"><i>sémantique</i><par n="abeille__n"/></e>
+    <e lm="sémantique"><i>sémantique</i><par n="académique__adj"/></e>
+    <e lm="préférentiellement"><i>préférentiellement</i><par n="hier__adv"/></e>
       
   </section>
 
