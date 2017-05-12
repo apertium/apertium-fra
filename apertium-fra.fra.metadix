@@ -9599,7 +9599,8 @@
     <e lm="gâteau"><i>gâteau</i><par n="lieu__n"/></e>
     <e lm="GATT"><i>GATT</i><par n="BBVA__n"/></e>
     <e lm="gauche"><i>gauche</i><par n="abeille__n"/></e>
-    <e lm="gaulois" r="LR"><i>gaulois</i><par n="admis__n"/></e>
+    <e lm="gaulois"><i>gaulois</i><par n="admis__n"/></e>
+    <e lm="galois"><i>galois</i><par n="admis__n"/></e>
     <e lm="gaze"><i>gaze</i><par n="abeille__n"/></e>
     <e lm="gazette"><i>gazette</i><par n="abeille__n"/></e>
     <e lm="gaz"><i>gaz</i><par n="mois__n"/></e>
@@ -12830,7 +12831,6 @@
     <e lm="scène"><i>scène</i><par n="abeille__n"/></e>
     <e lm="scepticisme"><i>scepticisme</i><par n="livre__n"/></e>
     <e lm="sceptre" a="joan"><i>sceptre</i><par n="livre__n"/></e>
-    <e lm="schéma"><i>schéma</i><par n="abeille__n"/></e>
     <e lm="schéma"><i>schéma</i><par n="livre__n"/></e>
     <e lm="scie"><i>scie</i><par n="abeille__n"/></e>
     <e lm="science"><i>science</i><par n="abeille__n"/></e>
@@ -18355,7 +18355,8 @@
     <e lm="gaspilleur"><i>gaspilleu</i><par n="causeu/r__adj"/></e>
     <e lm="gastronomique"><i>gastronomique</i><par n="académique__adj"/></e>
     <e lm="gauche"><i>gauche</i><par n="académique__adj"/></e>
-    <e lm="gaulois" r="LR"><i>gaulois</i><par n="anglais__adj"/></e>
+    <e lm="gaulois"><i>gaulois</i><par n="anglais__adj"/></e>
+    <e lm="galois"><i>galois</i><par n="anglais__adj"/></e>
     <e lm="géant"><i>géant</i><par n="abaissant__adj"/></e>
     <e lm="gênant"><i>gênant</i><par n="abaissant__adj"/></e>
     <e lm="général"><i>généra</i><par n="amica/l__adj"/></e>
@@ -19602,6 +19603,7 @@
     <e lm="métrique"><i>métrique</i><par n="académique__adj"/></e>
     <e lm="sympa" r="LR"><i>sympa</i><par n="arrière__adj"/></e>
     <e lm="sympathique"><i>sympathique</i><par n="académique__adj"/></e>
+    <e lm="antipathique"><i>antipathique</i><par n="académique__adj"/></e>
     <e lm="symphonique"><i>symphonique</i><par n="académique__adj"/></e>
     <e lm="syndical"><i>syndica</i><par n="amica/l__adj"/></e>
     <e lm="syntaxique"><i>syntaxique</i><par n="académique__adj"/></e>
@@ -20155,6 +20157,8 @@
     <e lm="en attente"><i>en<b/>attente</i><par n="hier__adv"/></e>
     <e lm="en aucun cas"><i>en<b/>aucun<b/>cas</i><par n="hier__adv"/></e>
     <e lm="en avance"><i>en<b/>avance</i><par n="hier__adv"/></e>
+    <e lm="en avant"><i>en<b/>avant</i><par n="hier__adv"/></e>
+    <e lm="en arrière"><i>en<b/>arrière</i><par n="hier__adv"/></e>
     <e lm="en bas"><i>en<b/>bas</i><par n="hier__adv"/></e>
     <e lm="en bas" r="LR"><i>en<b/>bas</i><par n="hier__adv"/></e>
     <e lm="en bon lieu"><i>en<b/>bon<b/>lieu</i><par n="hier__adv"/></e>
@@ -23667,6 +23671,7 @@
     <e lm="Paris"><i>Paris</i><par n="Andorre__np"/></e>
     <e lm="Barcelone"><i>Barcelone</i><par n="Bulgarie__np"/></e>
     <e lm="Cordoue"><i>Cordoue</i><par n="Bulgarie__np"/></e>
+    <e lm="La Corogne"><i>La<b/>Corogne</i><par n="Bulgarie__np"/></e>
     <e lm="Seville"><i>Seville</i><par n="Bulgarie__np"/></e>
     <e lm="Ceuta"><i>Ceuta</i><par n="Bulgarie__np"/></e>
     <e lm="Melilla"><i>Melilla</i><par n="Bulgarie__np"/></e>
@@ -24646,7 +24651,7 @@
     <e lm="Gates"><i>Gates</i><par n="Abraham__np"/></e>
     <e lm="Gatz"><i>Gatz</i><par n="Abraham__np"/></e>
     <e lm="Gaudí"><i>Gaudí</i><par n="Abraham__np"/></e>
-    <e lm="Gaule"><i>Gaule</i><par n="Andorre__np"/></e>
+    <e lm="Gaule"><i>Gaule</i><par n="Bulgarie__np"/></e>
     <e lm="Gaultier"><i>Gaultier</i><par n="Abraham__np"/></e>
     <e lm="Gaumont"><i>Gaumont</i><par n="Abraham__np"/></e>
     <e lm="Gavà"><i>Gavà</i><par n="Andorre__np"/></e>
@@ -25260,7 +25265,6 @@
     <e lm="Iraq"><i>Iraq</i><par n="Iran__np"/></e>
     <e lm="Irastorza"><i>Irastorza</i><par n="Abraham__np"/></e>
     <e lm="Irazusta"><i>Irazusta</i><par n="Abraham__np"/></e>
-    <e lm="Irelande du Nord"><i>Irelande<b/>du<b/>Nord</i><par n="Bulgarie__np"/></e>
     <e lm="Irene"><i>Irene</i><par n="Abraham__np"/></e>
     <e lm="Iriarte"><i>Iriarte</i><par n="Abraham__np"/></e>
     <e lm="Iribar"><i>Iribar</i><par n="Abraham__np"/></e>
@@ -28902,7 +28906,7 @@
     <e lm="ce" r="RL"><p><l><a/>ce</l><r>ce</r></p><par n="ce__det"/></e>
     <e lm="certain"><i>certain</i><par n="certain__det"/></e>
     <e lm="certains"><i>certain</i><par n="certain/s__prn"/></e>
-    <e lm="chacun"><i>chacun</i><par n="un__prn"/></e>
+    <e lm="chacun"><i>chacun</i><par n="aucun__prn"/></e>
     <e lm="chacun" r="RL"><i>chacun</i><par n="personne__prn"/></e>
     <e lm="chaque"><i>chaque</i><par n="chaque__det"/></e>
     <e lm="combien"><i>combien</i><par n="combien__prn"/></e>
@@ -29336,6 +29340,8 @@
     <e lm="etymologie"><i>etymologie</i><par n="abeille__n"/></e>
     <e lm="vivant"><i>vivant</i><par n="abaissant__adj"/></e>
     <e lm="minéral"><i>minéral</i><par n="livre__n"/></e>
+    <e lm="macédonien"><i>macédonien</i><par n="ancien__n"/></e>
+    <e lm="macédonien"><i>macédonien</i><par n="ancien__adj"/></e>
 
       
   </section>
