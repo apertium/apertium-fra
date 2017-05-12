@@ -11894,7 +11894,7 @@
     <e lm="police d'assurance"><i>police</i><par n="abeille__n"/><p><l><b/>d'assurance</l><r><g><b/>d'assurance</g></r></p></e>
     <e lm="police"><i>police</i><par n="abeille__n"/></e>
     <e lm="polichinelle"><i>polichinelle</i><par n="livre__n"/></e>
-    <e lm="policier" r="LR"><i>polici</i><par n="bouch/er__n"/></e>
+    <e lm="policier"><i>polici</i><par n="bouch/er__n"/></e>
     <e lm="POL"><i>POL</i><par n="ATS__n"/></e>
     <e lm="politesse"><i>politesse</i><par n="abeille__n"/></e>
     <e lm="politicien"><i>politicien</i><par n="ancien__n"/></e>
