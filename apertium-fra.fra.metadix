@@ -1286,6 +1286,10 @@
       <e><p><l>eussent</l>          <r>avoir<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
       <e><p><l>eût</l>              <r>avoir<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
       <e><p><l>eu</l>               <r>avoir<s n="vbhaver"/><s n="pp"/><s n="mf"/><s n="sp"/></r></p></e>
+      <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+      <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+      <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
       <e><p><l>avons</l>            <r>avoir<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ai</l>               <r>avoir<s n="vbhaver"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>avez</l>             <r>avoir<s n="vbhaver"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -15165,7 +15169,7 @@
     <e lm="combattre"><i>combat</i><par n="abat/tre__vblex"/></e>
     <e lm="combiner"><i>combin</i><par n="abaiss/er__vblex"/></e>
     <e lm="commander"><i>command</i><par n="abaiss/er__vblex"/></e>
-    <e lm="commencer à faire jour"><i>commen</i><par n="commen/cer_def__vblex"/><p><l><b/>à<b/>faire<b/>jour</l><r><g><b/>à<b/>faire<b/>jour</g></r></p></e>
+    <e lm="commencer à faire jour"><i>commen</i><par n="annon/cer__vblex"/><p><l><b/>à<b/>faire<b/>jour</l><r><g><b/>à<b/>faire<b/>jour</g></r></p></e>
     <e lm="commencer à faire nuit"><i>commen</i><par n="annon/cer__vblex"/><p><l><b/>à<b/>faire<b/>nuit</l><r><g><b/>à<b/>faire<b/>nuit</g></r></p></e>
     <e lm="commencer"><i>commen</i><par n="annon/cer__vblex"/></e>
     <e lm="commenter"><i>comment</i><par n="abaiss/er__vblex"/></e>
@@ -18846,7 +18850,7 @@
     <e lm="marxiste"><i>marxiste</i><par n="artiste__n"/></e>
     <e lm="masculin"><i>masculin</i><par n="abaissant__adj"/></e>
     <e lm="massif"><i>massi</i><par n="affirmati/f__adj"/></e>
-    <e lm="mathématicien" a="joan"><i>mathématicien</i><par n="ancien__adj"/></e>
+    <e lm="mathématicien" a="joan"><i>mathématicien</i><par n="ancien__n"/></e>
     <e lm="matériel"><i>matériel</i><par n="annuel__adj"/></e>
     <e lm="maternel"><i>maternel</i><par n="annuel__adj"/></e>
     <e lm="mathématique"><i>mathématique</i><par n="académique__adj"/></e>
@@ -23780,6 +23784,7 @@
     <e lm="Corsa"><i>Corsa</i><par n="Carrefour__np"/></e>
     <e lm="Corse-du-Sud"><i>Corse-du-Sud</i><par n="Bulgarie__np"/></e>
     <e lm="Corse"><i>Corse</i><par n="Bulgarie__np"/></e>
+    <e lm="Sardeigne"><i>Sardeigne</i><par n="Bulgarie__np"/></e>
     <e lm="Corsica"><i>Corsica</i><par n="Andorre__np"/></e>
     <e lm="Costa Blanca"><i>Costa<b/>Blanca</i><par n="Andorre__np"/></e>
     <e lm="Costa Brava"><i>Costa<b/>Brava</i><par n="Andorre__np"/></e>
@@ -29564,6 +29569,106 @@
     <e lm="sémantique"><i>sémantique</i><par n="académique__adj"/></e>
     <e lm="préférentiellement"><i>préférentiellement</i><par n="hier__adv"/></e>
     <e lm="Roussillon"><i>Roussillon</i><par n="Iran__np"/></e>
+    <e lm="visionner"><i>visionn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="authentifier"><i>authentifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="traumatiser"><i>traumatis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="lâcher"><i>lâch</i><par n="abaiss/er__vblex"/></e>
+
+<e lm="aberrantement"><i>aberrantement</i><par n="hier__adv"/></e>
+<e lm="agréablemment"><i>agréablemment</i><par n="hier__adv"/></e>
+<e lm="au beau milieu"><i>au<b/>beau<b/>milieu</i><par n="hier__adv"/></e>
+<e lm="ancestralement"><i>ancestralement</i><par n="hier__adv"/></e>
+<e lm="anormalement"><i>anormalement</i><par n="hier__adv"/></e>
+<e lm="artisanalement"><i>artisanalement</i><par n="hier__adv"/></e>
+<e lm="banalement"><i>banalement</i><par n="hier__adv"/></e>
+<e lm="bilatéralement"><i>bilatéralement</i><par n="hier__adv"/></e>
+<e lm="centralement"><i>centralement</i><par n="hier__adv"/></e>
+<e lm="cérébralement"><i>cérébralement</i><par n="hier__adv"/></e>
+<e lm="circonstanciellement"><i>circonstanciellement</i><par n="hier__adv"/></e>
+<e lm="colonialement"><i>colonialement</i><par n="hier__adv"/></e>
+<e lm="conjugalement"><i>conjugalement</i><par n="hier__adv"/></e>
+<e lm="consciemement"><i>consciemement</i><par n="hier__adv"/></e>
+<e lm="consécutivement"><i>consécutivement</i><par n="hier__adv"/></e>
+<e lm="consensuellement"><i>consensuellement</i><par n="hier__adv"/></e>
+<e lm="constitutivement"><i>constitutivement</i><par n="hier__adv"/></e>
+<e lm="contractuellement"><i>contractuellement</i><par n="hier__adv"/></e>
+<e lm="contradictoirement"><i>contradictoirement</i><par n="hier__adv"/></e>
+<e lm="conventionnellement"><i>conventionnellement</i><par n="hier__adv"/></e>
+<e lm="corporativement"><i>corporativement</i><par n="hier__adv"/></e>
+<e lm="criminellement"><i>criminellement</i><par n="hier__adv"/></e>
+<e lm="crucialement"><i>crucialement</i><par n="hier__adv"/></e>
+<e lm="cruellement"><i>cruellement</i><par n="hier__adv"/></e>
+<e lm="comiquement"><i>comiquement</i><par n="hier__adv"/></e>
+<e lm="défensivement"><i>défensivement</i><par n="hier__adv"/></e>
+<e lm="déloyalement"><i>déloyalement</i><par n="hier__adv"/></e>
+<e lm="digitalement"><i>digitalement</i><par n="hier__adv"/></e>
+<e lm="dorsalement"><i>dorsalement</i><par n="hier__adv"/></e>
+<e lm="performantement"><i>performantement</i><par n="hier__adv"/></e>
+<e lm="électoralement"><i>électoralement</i><par n="hier__adv"/></e>
+<e lm="énormement"><i>énormement</i><par n="hier__adv"/></e>
+<e lm="spatialement"><i>spatialement</i><par n="hier__adv"/></e>
+<e lm="spirituellement"><i>spirituellement</i><par n="hier__adv"/></e>
+<e lm="structuralement"><i>structuralement</i><par n="hier__adv"/></e>
+<e lm="existentiellement"><i>existentiellement</i><par n="hier__adv"/></e>
+<e lm="exotiquement"><i>exotiquement</i><par n="hier__adv"/></e>
+<e lm="fanatiquement"><i>fanatiquement</i><par n="hier__adv"/></e>
+<e lm="filialement"><i>filialement</i><par n="hier__adv"/></e>
+<e lm="génialement"><i>génialement</i><par n="hier__adv"/></e>
+<e lm="grammaticalement"><i>grammaticalement</i><par n="hier__adv"/></e>
+<e lm="graphiquemment"><i>graphiquemment</i><par n="hier__adv"/></e>
+<e lm="horizontalement"><i>horizontalement</i><par n="hier__adv"/></e>
+<e lm="impatiemment"><i>impatiemment</i><par n="hier__adv"/></e>
+<e lm="impulsivement"><i>impulsivement</i><par n="hier__adv"/></e>
+<e lm="liberalement"><i>liberalement</i><par n="hier__adv"/></e>
+<e lm="manuellement"><i>manuellement</i><par n="hier__adv"/></e>
+<e lm="maternellement"><i>maternellement</i><par n="hier__adv"/></e>
+<e lm="mécaniquement"><i>mécaniquement</i><par n="hier__adv"/></e>
+<e lm="monumentalement"><i>monumentalement</i><par n="hier__adv"/></e>
+<e lm="multiculturellement"><i>multiculturellement</i><par n="hier__adv"/></e>
+<e lm="notarialement"><i>notarialement</i><par n="hier__adv"/></e>
+<e lm="optionnellement"><i>optionnellement</i><par n="hier__adv"/></e>
+<e lm="oralement"><i>oralement</i><par n="hier__adv"/></e>
+<e lm="pastoralement"><i>pastoralement</i><par n="hier__adv"/></e>
+<e lm="paternellement"><i>paternellement</i><par n="hier__adv"/></e>
+<e lm="patrimonialement"><i>patrimonialement</i><par n="hier__adv"/></e>
+<e lm="patronalement"><i>patronalement</i><par n="hier__adv"/></e>
+<e lm="perpétuellement"><i>perpétuellement</i><par n="hier__adv"/></e>
+<e lm="pluriellement"><i>pluriellement</i><par n="hier__adv"/></e>
+<e lm="pluriannuellement"><i>pluriannuellement</i><par n="hier__adv"/></e>
+<e lm="pluvialement"><i>pluvialement</i><par n="hier__adv"/></e>
+<e lm="polyvalentement"><i>polyvalentement</i><par n="hier__adv"/></e>
+<e lm="possiblement"><i>possiblement</i><par n="hier__adv"/></e>
+<e lm="postalement"><i>postalement</i><par n="hier__adv"/></e>
+<e lm="préférentiellement"><i>préférentiellement</i><par n="hier__adv"/></e>
+<e lm="promotionnellement"><i>promotionnellement</i><par n="hier__adv"/></e>
+<e lm="provincialement"><i>provincialement</i><par n="hier__adv"/></e>
+<e lm="ponctuellement"><i>ponctuellement</i><par n="hier__adv"/></e>
+<e lm="racialement"><i>racialement</i><par n="hier__adv"/></e>
+<e lm="résiduellement"><i>résiduellement</i><par n="hier__adv"/></e>
+<e lm="rituellement"><i>rituellement</i><par n="hier__adv"/></e>
+<e lm="ruralement"><i>ruralement</i><par n="hier__adv"/></e>
+<e lm="sectoriellement"><i>sectoriellement</i><par n="hier__adv"/></e>
+<e lm="séculairement"><i>séculairement</i><par n="hier__adv"/></e>
+<e lm="sédentairement"><i>sédentairement</i><par n="hier__adv"/></e>
+<e lm="sélectivement"><i>sélectivement</i><par n="hier__adv"/></e>
+<e lm="sensoriellement"><i>sensoriellement</i><par n="hier__adv"/></e>
+<e lm="sensuellement"><i>sensuellement</i><par n="hier__adv"/></e>
+<e lm="sentimentalement"><i>sentimentalement</i><par n="hier__adv"/></e>
+<e lm="syndicalement"><i>syndicalement</i><par n="hier__adv"/></e>
+<e lm="solennelement"><i>solennelement</i><par n="hier__adv"/></e>
+<e lm="subtilement"><i>subtilement</i><par n="hier__adv"/></e>
+<e lm="superficiellement"><i>superficiellement</i><par n="hier__adv"/></e>
+<e lm="théâtralement"><i>théâtralement</i><par n="hier__adv"/></e>
+<e lm="tendrement"><i>tendrement</i><par n="hier__adv"/></e>
+<e lm="terminalement"><i>terminalement</i><par n="hier__adv"/></e>
+<e lm="textuellement"><i>textuellement</i><par n="hier__adv"/></e>
+<e lm="triomphalement"><i>triomphalement</i><par n="hier__adv"/></e>
+<e lm="trivialement"><i>trivialement</i><par n="hier__adv"/></e>
+<e lm="unidirectionellement"><i>unidirectionellement</i><par n="hier__adv"/></e>
+<e lm="viralement"><i>viralement</i><par n="hier__adv"/></e>
+<e lm="viscéralement"><i>viscéralement</i><par n="hier__adv"/></e>
+<e lm="ethniquement"><i>ethniquement</i><par n="hier__adv"/></e>
+
       
   </section>
 
