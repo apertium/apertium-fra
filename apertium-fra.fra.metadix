@@ -16184,7 +16184,7 @@
     <e lm="jouer avec le feu"><i>jou</i><par n="abaiss/er__vblex"/><p><l><b/>avec<b/>le<b/>feu</l><r><g><b/>avec<b/>le<b/>feu</g></r></p></e>
     <e lm="jouer"><i>jou</i><par n="abaiss/er__vblex"/></e>
     <e lm="jouer le rôle principal"><i>jou</i><par n="abaiss/er__vblex"/><p><l><b/>le<b/>rôle<b/>principal</l><r><g><b/>le<b/>rôle<b/>principal</g></r></p></e>
-    <e lm="jouir"><i>jou</i><par n="accueill/ir__vblex"/></e>
+    <e lm="jouir"><i>jou</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="juger"><i>jug</i><par n="allong/er__vblex"/></e>
     <e lm="juguler"><i>jugul</i><par n="abaiss/er__vblex"/></e>
     <e lm="jumeler"><i>jumel</i><par n="appel/er__vblex"/></e>
@@ -20969,10 +20969,8 @@
     <e lm="pour plus de renseignements"><i>pour<b/>plus<b/>de<b/>renseignements</i><par n="afin_que__cnjadv"/></e>
     <e lm="pour plus d'informations"><i>pour<b/>plus<b/>d'informations</i><par n="afin_que__cnjadv"/></e>
     <e lm="pour que ce soit valide"><i>pour<b/>que<b/>ce<b/>soit<b/>valide</i><par n="afin_que__cnjadv"/></e>
-    <e lm="pour que"><i>pour<b/>que</i><par n="afin_que__cnjadv"/></e>
-    <e lm="pour que"><p><l>pour<b/><a/>que</l><r>pour<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="pour que" r="LR"><p><l>pour<b/>que</l><r>pour<b/>que<s n="cnjadv"/></r></p></e>
-    <e lm="pour que" r="RL"><p><l>pour<b/><a/>que</l><r>pour<b/>que<s n="cnjadv"/></r></p></e>
+    <e lm="pour que" r="LR"><i>pour<b/>que</i><par n="afin_que__cnjadv"/></e>
+    <e lm="pour que" r="RL"><p><l>pour<b/><a/>que</l><r>pour<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e lm="pour sa démarche"><i>pour<b/>sa<b/>démarche</i><par n="afin_que__cnjadv"/></e>
     <e lm="pour sa nouvelle démarche"><i>pour<b/>sa<b/>nouvelle<b/>démarche</i><par n="afin_que__cnjadv"/></e>
     <e lm="pour sa vérification"><i>pour<b/>sa<b/>vérification</i><par n="afin_que__cnjadv"/></e>
@@ -29624,6 +29622,7 @@
     <e lm="présidentiellement" a="hector"><i>présidentiellement</i><par n="hier__adv"/></e>
     <e lm="principauté" a="hector"><i>principauté</i><par n="abeille__n"/></e>
     <e lm="opticien" a="hector"><i>opticien</i><par n="ancien__n"/></e>
+    <e lm="mécanique" a="hector"><i>mécanique</i><par n="académique__adj"/></e>
 <!-- xxx -->
 
 <e lm="aberrantement" a="hector"><i>aberrantement</i><par n="hier__adv"/></e>
