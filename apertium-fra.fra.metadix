@@ -9611,7 +9611,7 @@
     <e lm="GATT"><i>GATT</i><par n="BBVA__n"/></e>
     <e lm="gauche"><i>gauche</i><par n="abeille__n"/></e>
     <e lm="gaulois"><i>gaulois</i><par n="admis__n"/></e>
-    <e lm="galois"><i>galois</i><par n="admis__n"/></e>
+    <e lm="gallois"><i>gallois</i><par n="admis__n"/></e>
     <e lm="gaze"><i>gaze</i><par n="abeille__n"/></e>
     <e lm="gazette"><i>gazette</i><par n="abeille__n"/></e>
     <e lm="gaz"><i>gaz</i><par n="mois__n"/></e>
@@ -18376,7 +18376,7 @@
     <e lm="gastronomique"><i>gastronomique</i><par n="académique__adj"/></e>
     <e lm="gauche"><i>gauche</i><par n="académique__adj"/></e>
     <e lm="gaulois"><i>gaulois</i><par n="anglais__adj"/></e>
-    <e lm="galois"><i>galois</i><par n="anglais__adj"/></e>
+    <e lm="gallois"><i>gallois</i><par n="anglais__adj"/></e>
     <e lm="géant"><i>géant</i><par n="abaissant__adj"/></e>
     <e lm="gênant"><i>gênant</i><par n="abaissant__adj"/></e>
     <e lm="général"><i>généra</i><par n="amica/l__adj"/></e>
