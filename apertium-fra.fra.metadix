@@ -10008,6 +10008,8 @@
     <e lm="imprégnation"><i>imprégnation</i><par n="abeille__n"/></e>
     <e lm="impression"><i>impression</i><par n="abeille__n"/></e>
     <e lm="impressionniste"><i>impressionniste</i><par n="artiste__n"/></e>
+    <e lm="impressionniste"><i>impressionniste</i><par n="académique__adj"/></e>
+    <e lm="impressionnisme"><i>impressionnisme</i><par n="livre__n"/></e>
     <e lm="imprévu"><i>imprévu</i><par n="livre__n"/></e>
     <e lm="imprimante"><i>imprimante</i><par n="abeille__n"/></e>
     <e lm="imprimé"><i>imprimé</i><par n="livre__n"/></e>
@@ -18528,7 +18530,7 @@
     <e lm="imposant"><i>imposant</i><par n="abaissant__adj"/></e>
     <e lm="impossible"><i>impossible</i><par n="académique__adj"/></e>
     <e lm="impraticable"><i>impraticable</i><par n="académique__adj"/></e>
-    <e lm="impressionant"><i>impressionant</i><par n="abaissant__adj"/></e>
+    <e lm="impressionnant"><i>impressionnant</i><par n="abaissant__adj"/></e>
     <e lm="imprévisible"><i>imprévisible</i><par n="académique__adj"/></e>
     <e lm="imprévisiblement"><i>imprévisiblement</i><par n="hier__adv"/></e>
     <e lm="imprimé"><i>imprimé</i><par n="abaissant__adj"/></e>
@@ -27091,6 +27093,7 @@
     <e lm="Patricia"><i>Patricia</i><par n="Abraham__np"/></e>
     <e lm="Patxi"><i>Patxi</i><par n="Abraham__np"/></e>
     <e lm="Pau"><i>Pau</i><par n="Abraham__np"/></e>
+    <e lm="Pau"><i>Pau</i><par n="Andorre__np"/></e>
     <e lm="Paul"><i>Paul</i><par n="Abraham__np"/></e>
     <e lm="Paula"><i>Paula</i><par n="Abraham__np"/></e>
     <e lm="Paulino"><i>Paulino</i><par n="Abraham__np"/></e>
@@ -29413,7 +29416,6 @@
     <e lm="puisque" r="LR"><p><l>puisqu'</l><r>puisque<s n="cnjadv"/></r></p></e>
     <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="qu'est-ce que" r="LR"><p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="qu'est-ce que" r="LR"><p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e lm="quoique" r="LR"><p><l>quoiqu'</l><r>quoique<s n="cnjadv"/></r></p></e>
     <e lm="que" r="LR"><p><l>qu'</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="que" r="LR"><p><l>qu'</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -29623,6 +29625,7 @@
     <e lm="principauté" a="hector"><i>principauté</i><par n="abeille__n"/></e>
     <e lm="opticien" a="hector"><i>opticien</i><par n="ancien__n"/></e>
     <e lm="mécanique" a="hector"><i>mécanique</i><par n="académique__adj"/></e>
+    <e lm="Ávila"><i>Ávila</i><par n="Andorre__np"/></e>
 <!-- xxx -->
 
 <e lm="aberrantement" a="hector"><i>aberrantement</i><par n="hier__adv"/></e>
