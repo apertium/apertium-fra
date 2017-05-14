@@ -7683,6 +7683,8 @@
     <e lm="coefficient"><i>coefficient</i><par n="livre__n"/></e>
     <e lm="coeur"><i>coeur</i><par n="livre__n"/></e>
     <e lm="coeur" r="LR"><p><l>cœur</l><r>coeur</r></p><par n="livre__n"/></e>
+    <e lm="choeur"><i>choeur</i><par n="livre__n"/></e>
+    <e lm="choeur" r="LR"><p><l>chœur</l><r>choeur</r></p><par n="livre__n"/></e>
     <e lm="coexistence"><i>coexistence</i><par n="abeille__n"/></e>
     <e lm="coffre-fort"><i>coffre-fort</i><par n="livre__n"/></e>
     <e lm="coffre"><i>coffre</i><par n="livre__n"/></e>
@@ -9594,7 +9596,6 @@
     <e lm="garçon"><i>garçon</i><par n="livre__n"/></e>
     <e lm="garde des sceaux"><i>garde</i><par n="artiste__n"/><p><l><b/>des<b/>sceaux</l><r><g><b/>des<b/>sceaux</g></r></p></e>
     <e lm="garde du corps"><i>garde</i><par n="artiste__n"/><p><l><b/>du<b/>corps</l><r><g><b/>du<b/>corps</g></r></p></e>
-    <e lm="garde"><i>garde</i><par n="abeille__n"/></e>
     <e lm="garde"><i>garde</i><par n="artiste__n"/></e>
     <e lm="garde-manger"><i>garde-manger</i><par n="livre__n"/></e>
     <e lm="garderie"><i>garderie</i><par n="abeille__n"/></e>
@@ -21818,8 +21819,9 @@
     <e lm="Alcaes"><i>Alcaes</i><par n="Abraham__np"/></e>
     <e lm="Alcaine"><i>Alcaine</i><par n="Andorre__np"/></e>
     <e lm="Alcain"><i>Alcain</i><par n="Abraham__np"/></e>
+    <e lm="Alcalá"><i>Alcalá</i><par n="Andorre__np"/></e>
     <e lm="Alcalá de Henares"><i>Alcalá<b/>de<b/>Henares</i><par n="Andorre__np"/></e>
-    <e lm="Alcala Meco"><i>Alcala<b/>Meco</i><par n="Andorre__np"/></e>
+    <e lm="Alcalá Meco"><i>Alcalá<b/>Meco</i><par n="Andorre__np"/></e>
     <e lm="Alcamène"><i>Alcamène</i><par n="Abraham__np"/></e>
     <e lm="Alcampo"><i>Alcampo</i><par n="Carrefour__np"/></e>
     <e lm="Alcanar"><i>Alcanar</i><par n="Andorre__np"/></e>
@@ -29412,12 +29414,10 @@
     <e lm="prolonger de" r="LR"><i>prolong</i><par n="allong/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
     <e lm="puisque" r="LR"><p><l>puisqu'</l><r>puisque<s n="cnjadv"/></r></p></e>
     <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-    <e lm="qu'est-ce que c'est que" r="LR"><p><l>qu'est-ce<b/>que<b/>c'est<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
     <e lm="qu'est-ce que" r="LR"><p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="qu'est-ce que" r="LR"><p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e lm="quoique" r="LR"><p><l>quoiqu'</l><r>quoique<s n="cnjadv"/></r></p></e>
     <e lm="que" r="LR"><p><l>qu'</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
-    <e lm="que" r="LR"><p><l>qu'</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e lm="que" r="LR"><p><l>qu'</l><r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
     <e lm="refuser de" r="LR"><i>refus</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
     <e lm="réjouir de" r="LR"><i>réjou</i><par n="about/[]ir__vblex__"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
@@ -29591,8 +29591,6 @@
     <e lm="girafe" a="hector"><i>girafe</i><par n="abeille__n"/></e>
     <e lm="hippopotame" a="hector"><i>hippopotame</i><par n="livre__n"/></e>
     <e lm="équivalence" a="hector"><i>équivalence</i><par n="abeille__n"/></e>
-    <e lm="sémantique" a="hector"><i>sémantique</i><par n="abeille__n"/></e>
-    <e lm="sémantique" a="hector"><i>sémantique</i><par n="académique__adj"/></e>
     <e lm="préférentiellement" a="hector"><i>préférentiellement</i><par n="hier__adv"/></e>
     <e lm="Roussillon" a="hector"><i>Roussillon</i><par n="Iran__np"/></e>
     <e lm="visionner" a="hector"><i>visionn</i><par n="abaiss/er__vblex"/></e>
@@ -29606,7 +29604,6 @@
     <e lm="exotique" a="hector"><i>exotique</i><par n="académique__adj"/></e>
     <e lm="photographique" a="hector"><i>photographique</i><par n="académique__adj"/></e>
     <e lm="patriotique" a="hector"><i>patriotique</i><par n="académique__adj"/></e>
-    <e lm="sémantique" a="hector"><i>sémantique</i><par n="académique__adj"/></e>
     <e lm="sucré" a="hector"><i>sucré</i><par n="abaissant__adj"/></e>
     <e lm="danseur" a="hector"><i>danseu</i><par n="causeu/r__n"/></e>
     <e lm="biologue" a="hector"><i>biologue</i><par n="artiste__n"/></e>
@@ -29616,13 +29613,17 @@
     <e lm="email" a="hector"><i>email</i><par n="livre__n"/></e>
     <e lm="phalangisme" a="hector"><i>phalangisme</i><par n="livre__n"/></e>
     <e lm="phalangiste" a="hector"><i>phalangiste</i><par n="artiste__n"/></e>
-    <e lm="impréssioniste" a="hector"><i>impréssioniste</i><par n="livre__n"/></e>
+    <e lm="impréssionisme" a="hector"><i>impréssionisme</i><par n="livre__n"/></e>
+    <e lm="impréssioniste" a="hector"><i>impréssioniste</i><par n="artiste__n"/></e>
+    <e lm="impréssioniste" a="hector"><i>impréssioniste</i><par n="académique__adj"/></e>
     <e lm="léopard" a="hector"><i>léopard</i><par n="livre__n"/></e>
     <e lm="parachutiste" a="hector"><i>parachutiste</i><par n="artiste__n"/></e>
     <e lm="patriote" a="hector"><i>patriote</i><par n="artiste__n"/></e>
     <e lm="réorganisation" a="hector"><i>réorganisation</i><par n="abeille__n"/></e>
     <e lm="verticale" a="hector"><i>verticale</i><par n="abeille__n"/></e>
     <e lm="présidentiellement" a="hector"><i>présidentiellement</i><par n="hier__adv"/></e>
+    <e lm="principauté" a="hector"><i>principauté</i><par n="abeille__n"/></e>
+    <e lm="opticien" a="hector"><i>opticien</i><par n="ancien__n"/></e>
 <!-- xxx -->
 
 <e lm="aberrantement" a="hector"><i>aberrantement</i><par n="hier__adv"/></e>
@@ -29804,6 +29805,11 @@
 <e lm="Vigo"><i>Vigo</i><par n="Andorre__np"/></e>
 <e lm="Virginie"><i>Virginie</i><par n="Bulgarie__np"/></e>
 <e lm="Zamora"><i>Zamora</i><par n="Andorre__np"/></e>
+<e lm="Bethléem"><i>Bethléem</i><par n="Andorre__np"/></e>
+<e lm="Bassorah"><i>Bassorah</i><par n="Andorre__np"/></e>
+<e lm="Hospitalet"><i>Hospitalet</i><par n="Andorre__np"/></e>
+<e lm="Milan"><i>Milan</i><par n="Andorre__np"/></e>
+<e lm="Soria"><i>Soria</i><par n="Andorre__np"/></e>
       
   </section>
 
