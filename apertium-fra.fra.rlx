@@ -21,6 +21,7 @@ LIST Subj = subj ;
 LIST Prop = np ;
 LIST A = adj ;
 LIST Adv = adv ;
+LIST Preadv = preadv ;
 LIST Num = num ;
 LIST Prs = prs ;
 LIST Pro = pro ;
@@ -89,6 +90,7 @@ LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
 LIST Des = "dès" ;
 LIST Entre = "entre" ;
+LIST Si = "si" ;
 
 LIST À = "à" ;
 
@@ -322,3 +324,9 @@ SELECT Prep IF (0 Entre) (1 Nous OR Vous OR Eux);
 
 SELECT Prep IF (0 Entre) (1 Il + Pl + Fem);
   ## entre elles
+
+SELECT Preadv IF (0 Si) (1 Adv OR Preadv);
+  ## si bien / si mal
+
+SELECT Adv IF (-1 Si) (0 Adv OR Preadv);
+  ## si bien / si mal

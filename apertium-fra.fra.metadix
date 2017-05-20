@@ -14983,6 +14983,9 @@
     <e lm="avoir envie de"><par n="/avoir__vblex"/><p><l><b/>envie<b/>de</l><r><g><b/>envie<b/>de</g></r></p></e>
     <e lm="avoir envie de" r="LR"><par n="/avoir__vblex"/><p><l><b/>envie<b/>d'</l><r><g><b/>envie<b/>de</g></r></p></e>
     <e lm="avoir la chair de poule"><par n="/avoir__vblex"/><p><l><b/>la<b/>chair<b/>de<b/>poule</l><r><g><b/>la<b/>chair<b/>de<b/>poule</g></r></p></e>
+    <e lm="avoir l'air"><par n="/avoir__vblex"/><p><l><b/>l'air</l><r><g><b/>l'air</g></r></p></e>
+    <e lm="avoir l'air de" r="LR"><par n="/avoir__vblex"/><p><l><b/>l'air<b/>de</l><r><g><b/>l'air<b/>de</g></r></p></e>
+    <e lm="avoir l'air de" r="RL"><par n="/avoir__vblex"/><p><l><b/>l'air<b/><a/>de</l><r><g><b/>l'air<b/>de</g></r></p></e>
     <e lm="avoir l'habitude de" r="LR"><par n="/avoir__vblex"/><p><l><b/>l'habitude<b/>de</l><r><g><b/>l'habitude<b/>de</g></r></p></e>
     <e lm="avoir l'habitude de" r="RL"><par n="/avoir__vblex"/><p><l><b/>l'habitude<b/><a/>de</l><r><g><b/>l'habitude<b/>de</g></r></p></e>
     <e lm="avoir par-dessus la tête"><par n="/avoir__vblex"/><p><l><b/>par-dessus<b/>la<b/>tête</l><r><g><b/>par-dessus<b/>la<b/>tête</g></r></p></e>
@@ -20648,6 +20651,7 @@
     <e lm="sincèrement"><i>sincèrement</i><par n="hier__adv"/></e>
     <e lm="singulièrement"><i>singulièrement</i><par n="hier__adv"/></e>
     <e lm="si" r="LR"><i>si</i><par n="hier__adv"/></e>
+    <e lm="si"><i>si</i><par n="très__preadv"/></e>
     <e lm="socialement"><i>socialement</i><par n="hier__adv"/></e>
     <e lm="soi-disant"><i>soi-disant</i><par n="hier__adv"/></e>
     <e lm="soigneusement"><i>soigneusement</i><par n="hier__adv"/></e>
@@ -29812,6 +29816,8 @@
 <e lm="Hospitalet"><i>Hospitalet</i><par n="Andorre__np"/></e>
 <e lm="Milan"><i>Milan</i><par n="Andorre__np"/></e>
 <e lm="Soria"><i>Soria</i><par n="Andorre__np"/></e>
+
+<e lm="tiers monde" a="hector"><i>tiers<b/>monde</i><par n="personnel__n"/></e>
       
   </section>
 
