@@ -385,7 +385,7 @@
 ^mars/mars<n><m><sp>$
 ^1962/1962<num>$
 ^,/,<cm>$
-^le/le<prn><pro><p3><nt>$
+^le/le<det><def><mf><sg>$
 ^terme/terme<n><m><sg>$
 ^«/«<lpar>$
 ^Informatique/Informatique<n><f><sg>$
