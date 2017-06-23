@@ -10467,6 +10467,7 @@
     <e lm="legs"><i>legs</i><par n="mois__n"/></e>
     <e lm="légume"><i>légume</i><par n="livre__n"/></e>
     <e lm="lemmatisation"><i>lemmatisation</i><par n="abeille__n"/></e>
+    <e lm="lemme"><i>lemme</i><par n="livre__n"/></e>
     <e lm="lendemain"><i>lendemain</i><par n="personnel__n"/></e>
     <e lm="le lendemain"><i>le<b/>lendemain</i><par n="hier__adv"/></e>
     <e lm="lente"><i>lente</i><par n="abeille__n"/></e>
