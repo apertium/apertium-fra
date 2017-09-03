@@ -12513,7 +12513,7 @@
     <e lm="ré"><i>ré</i><par n="mois__n"/></e>
     <e lm="rejet"><i>rejet</i><par n="livre__n"/></e>
     <e lm="rejeton"><i>rejeton</i><par n="livre__n"/></e>
-    <e lm="reœchement" r="LR"><i>relâchement</i><par n="livre__n"/></e>
+    <e lm="relâchement" r="LR"><i>relâchement</i><par n="livre__n"/></e>
     <e lm="relais"><i>relais</i><par n="mois__n"/></e>
     <e lm="relance"><i>relance</i><par n="abeille__n"/></e>
     <e lm="relation"><i>relation</i><par n="abeille__n"/></e>
@@ -13882,6 +13882,7 @@
     <e lm="vocifération"><i>vocifération</i><par n="abeille__n"/></e>
     <e lm="vodka"><i>vodka</i><par n="abeille__n"/></e>
     <e lm="voeu"><i>voeu</i><par n="lieu__n"/></e>
+    <e lm="voeu" r="LR"><p><l>vœu</l><r>voeu</r></p><par n="lieu__n"/></e>
     <e lm="voie"><i>voie</i><par n="abeille__n"/></e>
     <e lm="voile"><i>voile</i><par n="abeille__n"/></e>
     <e lm="voile"><i>voile</i><par n="livre__n"/></e>
