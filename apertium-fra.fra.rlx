@@ -22,6 +22,7 @@ LIST Prop = np ;
 LIST A = adj ;
 LIST Adv = adv ;
 LIST Preadv = preadv ;
+LIST Cnjadv = cnjadv ;
 LIST Num = num ;
 LIST Prs = prs ;
 LIST Pro = pro ;
@@ -78,7 +79,6 @@ LIST Aussi = "aussi" ;
 LIST Même = "même" ; 
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
-LIST S = "<s'>"i ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -92,6 +92,7 @@ LIST Helas = "hélas" ;
 LIST Des = "dès" ;
 LIST Entre = "entre" ;
 LIST Si = "si" ;
+LIST S = "<s'>"i ;
 
 LIST À = "à" ;
 
@@ -332,8 +333,6 @@ SELECT Preadv IF (0 Si) (1 Adv OR Preadv);
 SELECT Adv IF (-1 Si) (0 Adv OR Preadv);
   ## si bien / si mal
 
-SELECT Prn IF (0 S) (1 Verb) ;
-#SELECT Prn IF (0 ("<s'>")) (1 Verb) ;
-# SELECT PP IF (0 ("<passada>")) (1 Det + FemSg) (2 N + FemSg) ;
-
+SELECT Prn IF (0 S) (NOT 1 Il) ;
+SELECT Cnjadv IF (0 S) (1 Il) ;
   ## s'affirme

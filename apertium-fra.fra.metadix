@@ -19872,6 +19872,7 @@
     <e lm="agréablement"><i>agréablement</i><par n="hier__adv"/></e>
     <e lm="à huis clos"><i>à<b/>huis<b/>clos</i><par n="hier__adv"/></e>
     <e lm="ailleurs"><i>ailleurs</i><par n="hier__adv"/></e>
+    <e lm="d'ailleurs"><i>d'ailleurs</i><par n="hier__adv"/></e>
     <e lm="aimablement"><i>aimablement</i><par n="hier__adv"/></e>
     <e lm="ainsi de suite"><i>ainsi<b/>de<b/>suite</i><par n="hier__adv"/></e>
     <e lm="ainsi"><i>ainsi</i><par n="hier__adv"/></e>
@@ -20917,8 +20918,8 @@
     <e lm="maintenant que"><i>maintenant<b/></i><par n="afin_/que__cnjadv"/></e>
     <e lm="malgré le fait que"><i>malgré<b/>le<b/>fait<b/></i><par n="afin_/que__cnjadv"/></e>
     <e lm="malgré que"><i>malgré<b/></i><par n="afin_/que__cnjadv"/></e>
-    <e lm="même si"><i>même<b/>si</i><par n="alors__cnjadv"/></e>
     <e lm="même si" r="LR"><i>même<b/>si</i><par n="alors__cnjadv"/></e>
+    <e lm="même si" r="RL"><p><l>même<b/><a/>si</l><r>même<b/>si<s n="cnjadv"/></r></p></e>
     <e lm="néanmoins"><i>néanmoins</i><par n="alors__cnjadv"/></e>
     <e lm="nonobstant"><i>nonobstant</i><par n="alors__cnjadv"/></e>
     <e lm="non que"><i>non<b/></i><par n="afin_/que__cnjadv"/></e>
@@ -29603,6 +29604,7 @@
 
 <e lm="tiers monde" a="hector"><i>tiers<b/>monde</i><par n="personnel__n"/></e>
 <e lm="varié"  a="hector"><i>varié</i><par n="abaissant__adj"/></e>
+<e lm="élu" a="hector"><i>élu</i><par n="affecté__n"/></e>
       
   </section>
 
@@ -29721,6 +29723,7 @@
     <e lm="lors de" r="LR"><p><l>lors<b/>d'</l><r>lors<b/>de<s n="pr"/></r></p></e>
     <e lm="lors même que" a="webform" r="LR"><p><l>lors<b/>même<b/>qu'</l><r>lors<b/>même<b/>que<s n="cnjadv"/></r></p></e>
     <e lm="lorsque" r="LR"><p><l>lorsqu'</l><r>lorsque<s n="cnjadv"/></r></p></e>
+    <e lm="même si" r="LR"><p><l>même<b/>s'</l><r>même<b/>si<s n="cnjadv"/></r></p></e>
     <e lm="maintenant que" r="LR"><p><l>maintenant<b/>qu'</l><r>maintenant<b/>que</r></p><par n="alors__cnjadv"/></e>
     <e lm="malgré le fait que" r="LR"><p><l>malgré<b/>le<b/>fait<b/>qu'</l><r>malgré<b/>le<b/>fait<b/>que</r></p><par n="alors__cnjadv"/></e>
     <e lm="malgré que" r="LR"><p><l>malgré<b/>qu'</l><r>malgré<b/>que<s n="cnjadv"/></r></p></e>
