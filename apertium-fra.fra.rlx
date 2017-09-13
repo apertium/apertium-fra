@@ -78,6 +78,7 @@ LIST Aussi = "aussi" ;
 LIST Même = "même" ; 
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
+LIST S = "<s'>"i ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -330,3 +331,9 @@ SELECT Preadv IF (0 Si) (1 Adv OR Preadv);
 
 SELECT Adv IF (-1 Si) (0 Adv OR Preadv);
   ## si bien / si mal
+
+SELECT Prn IF (0 S) (1 Verb) ;
+#SELECT Prn IF (0 ("<s'>")) (1 Verb) ;
+# SELECT PP IF (0 ("<passada>")) (1 Det + FemSg) (2 N + FemSg) ;
+
+  ## s'affirme
