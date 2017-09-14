@@ -336,3 +336,6 @@ SELECT Adv IF (-1 Si) (0 Adv OR Preadv);
 SELECT Prn IF (0 S) (NOT 1 Il) ;
 SELECT Cnjadv IF (0 S) (1 Il) ;
   ## s'affirme
+
+SELECT Adv IF (-1 BOS) (0 Adv OR A) (1C Prep) ;
+  ## Même sur le terrain

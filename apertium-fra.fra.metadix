@@ -21132,6 +21132,9 @@
 
     <!-- PREPOSITIONS: BEGIN -->
 
+    <e lm="un peu de"><i>un<b/>peu<b/></i><par n="contde__pr"/></e>
+    <e lm="un peu plus de"><i>un<b/>peu<b/>plus<b/></i><par n="contde__pr"/></e>
+    <e lm="un peu moins de"><i>un<b/>peu<b/>moins<b/></i><par n="contde__pr"/></e>
     <e lm="à cause de"><i>à<b/>cause<b/></i><par n="contde__pr"/></e>
     <e lm="à cause de" r="LR"><p><l>A<b/>cause<b/></l><r>à<b/>cause<b/></r></p><par n="contde__pr"/></e>
     <e lm="à coups de"><i>à<b/>coups<b/></i><par n="contde__pr"/></e>
@@ -29512,6 +29515,11 @@
 <e lm="viscéralement" a="hector"><i>viscéralement</i><par n="hier__adv"/></e>
 <e lm="ethniquement" a="hector"><i>ethniquement</i><par n="hier__adv"/></e>
 
+<e lm="un peu" a="hector"><i>un<b/>peu</i><par n="hier__adv"/></e>
+<e lm="un peu plus" a="hector"><i>un<b/>peu<b/>plus</i><par n="hier__adv"/></e>
+<e lm="un peu moins" a="hector"><i>un<b/>peu<b/>moins</i><par n="hier__adv"/></e>
+
+
 <e lm="Alicante"><i>Alicante</i><par n="Andorre__np"/></e>
 <e lm="Albacete"><i>Albacete</i><par n="Andorre__np"/></e>
 <e lm="Alexandrie"><i>Alexandrie</i><par n="Andorre__np"/></e>
@@ -29605,6 +29613,7 @@
 <e lm="tiers monde" a="hector"><i>tiers<b/>monde</i><par n="personnel__n"/></e>
 <e lm="varié"  a="hector"><i>varié</i><par n="abaissant__adj"/></e>
 <e lm="élu" a="hector"><i>élu</i><par n="affecté__n"/></e>
+<e lm="usager" a="hector"><i>usag</i><par n="bouch/er__n"/></e>
       
   </section>
 

@@ -25,6 +25,9 @@
       <program name="cg-proc -w">
         <file name="fra.rlx.bin"/>
       </program>
+      <program name="apertium-tagger -g">
+        <file name="fra.prob"/>
+      </program>     
     </pipeline>
   </mode>
 

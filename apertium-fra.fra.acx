@@ -9,10 +9,12 @@
   <char value="&#183;">
     <equiv-char value="."/>
   </char>
+<!-- genera massa errors
   <char value="Ù">
     <equiv-char value="U"/>
   </char>
   <char value="ù">
     <equiv-char value="u"/>
   </char>
+-->
 </analysis-chars>
