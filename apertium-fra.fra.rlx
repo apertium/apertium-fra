@@ -137,8 +137,10 @@ SELECT Inf IF (0 Être) (-1 Pro) (-2 Vbmod) ;
 SELECT Haver IF (0 Avoir) (1 PrfPrc) ;
   ## Est-ce que tu as vu Jean ?
 
-SELECT Haver IF (0 Avoir) (2 PrfPrc) ;
+SELECT Haver IF (0 Avoir) (1 Tn) (2 PrfPrc) ;
   ## As-tu vu Jean ?
+SELECT Haver IF (0 Avoir) (1 Adv) (2 PrfPrc) ;
+  ## n'ont pas vu, n'ont jamais vu
   
 SELECT V IF (0 Avoir) (1C Prep) ;
   ## ayant pour ami
