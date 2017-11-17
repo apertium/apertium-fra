@@ -1,6 +1,8 @@
+#
 DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
-OPTIONS += no-inline-sets no-inline-templates ;
+#OPTIONS += no-inline-sets no-inline-templates ;
+OPTIONS += no-inline-templates ;
 
 SETS
 
@@ -31,6 +33,7 @@ LIST Imper = imp ;
 LIST Pri = pri ;
 LIST Prn = prn ;
 LIST N = n ;
+LIST NP = np ;
 
 LIST Interr = itg ;
 LIST Rel = rel ;
@@ -101,11 +104,34 @@ LIST Excl = "!" ;
 
 LIST Title = "<[A-Z][a-z]\+>"r ;
 
+SET Ant = (np ant) ;
+SET Cog = (np cog) ;
+SET Ant_Cog = Ant OR Cog ;
+
+SET DetDef = (det def) ;
+SET DetInd = (det ind) ;
+
 SET QUI-QUE = Que | Qui ;
 
 SET CLB = Subj | Cm ;
 
 SECTION
+
+REMOVE Cog IF (-1 DetDef) (0 Cog) ;
+REMOVE Cog IF (-1 DetInd) (0 Cog) ;
+REMOVE Ant IF (-1 DetDef) (0 Ant) ;
+REMOVE Ant IF (-1 DetInd) (0 Ant) ;
+
+SELECT Ant IF (0 Ant) (1C Ant) ;
+	# Jean-René
+
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Parlement")) ;
+	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+SELECT NP IF (0 NP) (0 N OR A OR PrfPrc) (-1 BOS) (1C Verb) ;		# René vient
+SELECT NP IF (0 NP) (0 N OR A OR PrfPrc) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
+SELECT Cog IF (0 Cog) (0 Ant) (-1C Ant) ;
+
+
 
 SELECT Prop IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
