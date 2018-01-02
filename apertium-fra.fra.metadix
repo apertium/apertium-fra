@@ -321,6 +321,11 @@
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="hébreu__adj">
+  <e>       <p><l>x</l>         <r><s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="nouve/au__adj">
   <e>       <p><l>lles</l>      <r>au<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>lle</l>       <r>au<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -732,6 +737,11 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="hébreu__n">
+  <e>       <p><l>x</l>         <r><s n="n"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="bouch/er__n">
   <e>       <p><l>ères</l>      <r>er<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ère</l>       <r>er<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -1058,6 +1068,13 @@
 <pardef n="lui__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e> <!-- avec lui (comme: avec moi, toi, etc.) -->
+</pardef>
+
+<pardef n="/lui-même__prn">
+  <e>       <p><l>lui-même</l>  <r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>elle-même</l> <r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eux-mêmes</l> <r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>elles-mêmes</l><r>lui-même<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="en__prn">
@@ -31765,11 +31782,14 @@
 <e r="LR" lm="on">       <p><l>l'on</l>      <r>on</r></p><par n="on__prn"/></e>
 <e lm="leur">            <i>leur</i><par n="leur__prn"/></e>
 <e lm="lui">             <p><l>lui</l>       <r>lui</r></p><par n="lui__prn"/></e>
+<e lm="lui-même">        <i></i><par n="/lui-même__prn"/></e>
 <e r="LR" lm="me">       <i>me</i><par n="me__prn"/></e>
 <e lm="moi">             <p><l>moi</l>       <r>moi</r></p><par n="moi__prn"/></e>
+<e lm="moi-même">        <p><l>moi-même</l>  <r>moi-même</r></p><par n="moi__prn"/></e>
 <e lm="n'importe qui">   <i>n'importe<b/>qui</i><par n="n'importe_qui__prn"/></e>
 <e lm="n'importe quoi">  <i>n'importe<b/>quoi</i><par n="ceci__prn"/></e>
 <e lm="nous">            <p><l>nous</l>      <r>nous</r></p><par n="nous__prn"/></e>
+<e lm="nous-mêmes">      <p><l>nous-mêmes</l><r>nous-mêmes</r></p><par n="nous__prn"/></e>
 <e lm="on">              <i>on</i><par n="on__prn"/></e>
 <e lm="personne">        <i>personne</i><par n="personne__prn"/></e>
 <e r="RL" lm="qu'est-ce que"><p><l>qu'est-ce<b/><a/>que</l><r>qu'est-ce<b/>que</r></p><par n="que__prn"/></e>
@@ -31785,13 +31805,16 @@
 <e lm="rien">            <i>rien</i><par n="ceci__prn"/></e>
 <e r="LR" lm="se">       <i>se</i><par n="on__prn"/></e>
 <e lm="soi">             <p><l>soi</l>       <r>soi</r></p><par n="soi__prn"/></e>
+<e lm="soi-même">        <p><l>soi-même</l>  <r>soi-même</r></p><par n="soi__prn"/></e>
 <e r="LR" lm="te">       <i>te</i><par n="te__prn"/></e>
 <e lm="toi">             <p><l>toi</l>       <r>toi</r></p><par n="toi__prn"/></e>
+<e lm="toi-même">        <p><l>toi-même</l>  <r>toi-même</r></p><par n="toi__prn"/></e>
 <e lm="tout">            <i>tou</i><par n="tou/t__prn"/></e>
 <e lm="tout le monde">   <i>tout<b/>le<b/>monde</i><par n="tout_le_monde__prn"/></e>
 <e r="LR" lm="tu">       <p><l>tu</l>        <r>tu</r></p><par n="tu__prn"/></e>
 <e lm="un">              <i>un</i><par n="un__prn"/></e>
 <e lm="vous">            <p><l>vous</l>      <r>vous</r></p><par n="vous__prn"/></e>
+<e lm="vous-mêmes">      <p><l>vous-mêmes</l><r>vous-mêmes</r></p><par n="vous__prn"/></e>
 <e lm="y">               <i>y</i><par n="en__prn"/></e>
 
 
@@ -34886,7 +34909,11 @@
 <e lm="victorieux" a="jaumeortola"><i>victorieu</i><par n="affectueu/x__adj"/></e>
 
 <e lm="plus"><i>plus</i><par n="arrière__adj"/></e>
-<e lm="de l'environnement"><i>de<b/>l'environnement</i><par n="arrière__adj"/></e>
+<e lm="hébreu"><i>hébreu</i><par n="hébreu__adj"/></e>
+<e lm="hébreu"><i>hébreu</i><par n="hébreu__n"/></e>
+
+<e lm="de la renaissance"><i>de<b/>la<b/>renaissance</i><par n="arrière__adj"/></e>
+<e lm="en vigueur"><i>en<b/>vigueur><par n="arrière__adj"/></e>
 
   </section>
   <section id="apostrophes" type="postblank">
