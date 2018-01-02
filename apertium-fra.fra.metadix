@@ -6867,7 +6867,7 @@
 <e lm="d'évaluation">    <p><l>d'évaluation</l><r>d'évaluation</r></p><par n="arrière__adj"/></e>
 <e lm="dangereux">       <i>dangereu</i><par n="affectueu/x__adj"/></e>
 <e lm="danois">          <i>danois</i><par n="anglais__adj"/></e>
-<e lm="de l'environnement"><i>de l'environnement</i><par n="arrière__adj"/></e>
+<e lm="de l'environnement"><i>de<b/>l'environnement</i><par n="arrière__adj"/></e>
 <e lm="de Baskonia">     <p><l>de<b/>Baskonia</l><r>de<b/>baskonia</r></p><par n="arrière__adj"/></e>
 <e lm="de Bidasoa">      <p><l>de<b/>Bidasoa</l><r>de<b/>bidasoa</r></p><par n="arrière__adj"/></e>
 <e lm="de Bilbao">       <p><l>de<b/>Bilbao</l><r>de<b/>bilbao</r></p><par n="arrière__adj"/></e>
@@ -8681,6 +8681,9 @@
 <e lm="à toucher">       <i>à<b/>toucher</i><par n="arrière__adj"/></e>
 <e lm="à vous">          <i>à<b/>vous</i><par n="à_moi__adj"/></e>
 <e lm="à vue">           <i>à<b/>vue</i><par n="arrière__adj"/></e>
+<e lm="à lui">           <i>à<b/>lui</i><par n="à_moi__adj"/></e>
+<e lm="à elle">          <i>à<b/>elle</i><par n="à_moi__adj"/></e>
+<e lm="à eux">           <i>à<b/>eux</i><par n="à_moi__adj"/></e>
 <e lm="âgé">             <i>âgé</i><par n="abaissant__adj"/></e>
 <e lm="âpre">            <i>âpre</i><par n="académique__adj"/></e>
 <e lm="éblouissant">     <i>éblouissant</i><par n="abaissant__adj"/></e>
@@ -10842,7 +10845,7 @@
 <e lm="affluent">        <i>affluent</i><par n="livre__n"/></e>
 <e lm="afforestation">   <i>afforestation</i><par n="abeille__n"/></e>
 <e lm="affrontement">    <i>affrontement</i><par n="livre__n"/></e>
-<e lm="afghan">          <i>afghan</i><par n="affecté__n"/></e>
+<e lm="Afghan">          <i>Afghan</i><par n="affecté__n"/></e>
 <e lm="africain">        <i>africain</i><par n="affecté__n"/></e>
 <e lm="africaniste">     <i>africaniste</i><par n="artiste__n"/></e>
 <e lm="afrikaans">       <i>afrikaans</i><par n="livre__n"/></e>
@@ -10855,8 +10858,8 @@
 <e lm="agent de change"> <i>agent</i><par n="artiste__n"/><p><l><b/>de<b/>change</l><r><g><b/>de<b/>change</g></r></p></e>
 <e lm="agent de change"> <i>agent</i><par n="livre__n"/><p><l><b/>de<b/>change</l><r><g><b/>de<b/>change</g></r></p></e>
 <e lm="agent">           <i>agent</i><par n="artiste__n"/></e>
-<e lm="agent de securité privé"><i>agent<b/>de<b/>securité<b/>privé</i><par n="ex__n"/></e>
-<e lm="agents de securité privé"><i>agents<b/>de<b/>securité<b/>privé</i><par n="ex__n"/></e>
+<e lm="agent de securité privée"><i>agent<b/>de<b/>securité<b/>privée</i><par n="ex__n"/></e>
+<e lm="agents de securité privée"><i>agents<b/>de<b/>securité<b/>privée</i><par n="ex__n"/></e>
 <e lm="agglomération">   <i>agglomération</i><par n="abeille__n"/></e>
 <e lm="aggloméré">       <i>aggloméré</i><par n="affecté__n"/></e>
 <e lm="agglutination">   <i>agglutination</i><par n="abeille__n"/></e>
@@ -24594,6 +24597,8 @@
 <e lm="Outeda">          <i>Outeda</i><par n="Abraham__np"/></e>
 <e lm="Outón">           <i>Outón</i><par n="Carrefour__np"/></e>
 <e lm="Ouzbékistan">     <i>Ouzbékistan</i><par n="Iran__np"/></e>
+<e lm="Kazakhstan">      <i>Kazakhstan</i><par n="Iran__np"/></e>
+<e lm="Kirghizistan">    <i>Kirghizistan</i><par n="Iran__np"/></e>
 <e lm="Oviedo">          <i>Oviedo</i><par n="Bulgarie__np"/></e>
 <e lm="Owen Arthur">     <i>Owen<b/>Arthur</i><par n="Abraham__np"/></e>
 <e lm="Oxfam">           <i>Oxfam</i><par n="Carrefour__np"/></e>
@@ -27720,7 +27725,7 @@
 <e lm="Cope"><i>Cope</i><par n="Saussure__np"/></e>
 <e lm="Copeland"><i>Copeland</i><par n="Saussure__np"/></e>
 <e lm="Coppola"><i>Coppola</i><par n="Saussure__np"/></e>
-<e lm="Copèrnic"><i>Copèrnic</i><par n="Saussure__np"/></e>
+<e lm="Copernic"><i>Copernic</i><par n="Saussure__np"/></e>
 <e lm="Corbacho"><i>Corbacho</i><par n="Saussure__np"/></e>
 <e lm="Corbett"><i>Corbett</i><par n="Saussure__np"/></e>
 <e lm="Corbí"><i>Corbí</i><par n="Saussure__np"/></e>
@@ -34879,6 +34884,9 @@
 <e lm="vénitien" a="jaumeortola"><i>vénitien</i><par n="ancien__adj"/></e>
 <e lm="versant" a="jaumeortola"><i>versant</i><par n="abaissant__adj"/></e>
 <e lm="victorieux" a="jaumeortola"><i>victorieu</i><par n="affectueu/x__adj"/></e>
+
+<e lm="plus"><i>plus</i><par n="arrière__adj"/></e>
+<e lm="de l'environnement"><i>de<b/>l'environnement</i><par n="arrière__adj"/></e>
 
   </section>
   <section id="apostrophes" type="postblank">

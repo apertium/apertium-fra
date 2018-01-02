@@ -1,4 +1,3 @@
-#
 DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 #OPTIONS += no-inline-sets no-inline-templates ;
@@ -65,6 +64,8 @@ LIST PrfPrc = pp ;
 LIST Que = "que" ;
 LIST Qui = "qui" ;
 LIST Avoir = "avoir" ; 
+LIST Savoir = "savoir" ; 
+LIST Saurer = "saurer" ; 
 LIST Le = "le" ;
 LIST Fait = "<fait>"i ;
 LIST Est = "<est>"i ;
@@ -194,6 +195,9 @@ SELECT Fois IF (0C Foi OR Fois) ;
 
 SELECT Mil IF (0C Mil OR Mille) (1 N OR A) (1 Pl OR Sp) ;
   ## mille adhérents
+
+SELECT Savoir IF (0C Savoir OR Saurer) ;
+  ## ce problème ne saurait tout expliquer à lui seul
 
 
 SELECT Tn IF (0 Lui) (1 Aussi);
