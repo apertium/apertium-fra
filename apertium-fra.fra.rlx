@@ -132,7 +132,8 @@ SELECT NP IF (0 NP) (0 N OR A OR PrfPrc) (-1 BOS) (1C Verb) ;		# René vient
 SELECT NP IF (0 NP) (0 N OR A OR PrfPrc) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 SELECT Cog IF (0 Cog) (0 Ant) (-1C Ant) ;
 
-
+REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
+	# avec beaucoup de peine (!!)
 
 SELECT Prop IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
@@ -199,6 +200,8 @@ SELECT Mil IF (0C Mil OR Mille) (1 N OR A) (1 Pl OR Sp) ;
 SELECT Savoir IF (0C Savoir OR Saurer) ;
   ## ce problème ne saurait tout expliquer à lui seul
 
+SELECT N IF (-1 Num) (0C N OR V) ;
+  ## 9 combats
 
 SELECT Tn IF (0 Lui) (1 Aussi);
 SELECT Tn IF (0 Nous) (1 Aussi);
