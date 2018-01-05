@@ -860,6 +860,11 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="stimul/us__n">
+  <e>       <p><l>us</l>        <r>us<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>i</l>         <r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!-- orthographe pré-1990 -->
+</pardef>
+
 <pardef n="record/man__n">
   <e>       <p><l>man</l>       <r>man<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>men</l>       <r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -7197,6 +7202,7 @@
 <e lm="extrajudiciaire"> <i>extrajudiciaire</i><par n="académique__adj"/></e>
 <e lm="extraordinaire">  <i>extraordinaire</i><par n="académique__adj"/></e>
 <e lm="extraterrestre">  <i>extraterrestre</i><par n="académique__adj"/></e>
+<e lm="extraterrestrial"><i>extraterrestria</i><par n="amica/l__adj"/></e>
 <e lm="extravagant">     <i>extravagant</i><par n="abaissant__adj"/></e>
 <e lm="extrémiste">      <i>extrémiste</i><par n="académique__adj"/></e>
 <e lm="extrême">         <i>extrême</i><par n="académique__adj"/></e>
@@ -10689,7 +10695,10 @@
 <e lm="UDF">             <i>UDF</i><par n="BBC__n"/></e>
 <e lm="UE">              <i>UE</i><par n="BBC__n"/></e>
 <e lm="UEFA">            <i>UEFA</i><par n="BBVA__n"/></e>
+<e lm="PCE">             <i>PCE</i><par n="BBVA__n"/></e>
 <e lm="FIFA">            <i>FIFA</i><par n="BBC__n"/></e>
+<e lm="ERC">             <i>ERC</i><par n="BBC__n"/></e>
+<e lm="RAF">             <i>RAF</i><par n="BBC__n"/></e>
 <e lm="NASA">            <i>NASA</i><par n="BBC__n"/></e>
 <e lm="UGT">             <i>UGT</i><par n="BBC__n"/></e>
 <e lm="UME">             <i>UME</i><par n="BBC__n"/></e>
@@ -15127,6 +15136,7 @@
 <e lm="minimum">         <i>minimum</i><par n="livre__n"/></e>
 <e lm="ministre de la justice"><i>ministre</i><par n="artiste__n"/><p><l><b/>de<b/>la<b/>justice</l><r><g><b/>de<b/>la<b/>justice</g></r></p></e>
 <e lm="ministre des affaires étrangères"><i>ministre</i><par n="artiste__n"/><p><l><b/>des<b/>affaires<b/>étrangères</l><r><g><b/>des<b/>affaires<b/>étrangères</g></r></p></e>
+<e lm="ministre des finances"><i>ministre</i><par n="artiste__n"/><p><l><b/>des<b/>finances</l><r><g><b/>des<b/>finances</g></r></p></e>
 <e lm="ministre">        <i>ministre</i><par n="artiste__n"/></e>
 <e lm="ex-ministre">     <i>ex-ministre</i><par n="artiste__n"/></e>
 <e lm="vice-ministre">   <i>vice-ministre</i><par n="artiste__n"/></e>
@@ -37259,6 +37269,12 @@
     <e lm="tuyau d'écoulement"><i>tuyau</i><par n="lieu__n"/><p><l><b/>d'écoulement</l><r><g><b/>d'écoulement</g></r></p></e>
     <e lm="vie des saints"><i>vie</i><par n="abeille__n"/><p><l><b/>des<b/>saints</l><r><g><b/>des<b/>saints</g></r></p></e>
 
+<e lm="exploitation minière"><p><l>exploitation<b/>minière</l><r>exploitation<b/>minière<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="exploitation minière"><p><l>exploitations<b/>minières</l><r>exploitation<b/>minière<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="exploitation agricole"><p><l>exploitation<b/>agricole</l><r>exploitation<b/>agricole<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="exploitation agricole"><p><l>exploitations<b/>agricoles</l><r>exploitation<b/>agricole<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="terre aride"><p><l>terre<b/>aride</l><r>terre<b/>aride<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="terre aride"><p><l>terres<b/>arides</l><r>terre<b/>aride<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="touche finale"><p><l>touche<b/>finale</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="touche finale"><p><l>touches<b/>finales</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="être humain"><p><l>être<b/>humain</l><r>être<b/>humain<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -37295,6 +37311,10 @@
 <e lm="nombre cardinal"><p><l>nombre<b/>cardinaux</l><r>nombre<b/>cardinal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="nombre imaginaire"><p><l>nombre<b/>imaginaire</l><r>nombre<b/>imaginaire<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="nombre imaginaire"><p><l>nombres<b/>imaginaires</l><r>nombre<b/>imaginaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="caractère gras"><p><l>caractère<b/>gras</l><r>caractère<b/>gras<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="caractère gras"><p><l>caractères<b/>gras</l><r>caractère<b/>gras<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="chantier naval"><p><l>chantier<b/>naval</l><r>chantier<b/>naval<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="chantier naval"><p><l>chantiers<b/>navaux</l><r>chantier<b/>naval<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="propiétaire terrien"><p><l>propiétaire<b/>terrien</l><r>propiétaire<b/>terrien<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="propiétaire terrien"><p><l>propiétaires<b/>terriens</l><r>propiétaire<b/>terrien<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
@@ -37312,6 +37332,17 @@
 <e lm="pentagonal" a="hector"><i>pentagona</i><par n="amica/l__adj"/></e>
 <e lm="octogonal" a="hector"><i>octogona</i><par n="amica/l__adj"/></e>
 <e lm="orthogonal" a="hector"><i>orthogonal</i><par n="amica/l__adj"/></e>
+<e lm="stimulus" a="hector"><i>stimul</i><par n="stimul/us__n"/></e>
+<e lm="sassanide"><i>sassanide</i><par n="académique__adj"/></e>
+<e lm="sassanide"><i>sassanide</i><par n="artiste__n"/></e>
+<e lm="séleucide"><i>séleucide</i><par n="académique__adj"/></e>
+<e lm="séleucide"><i>séleucide</i><par n="artiste__n"/></e>
+<e lm="nébuleuse"><i>nébuleuse</i><par n="abeille__n"/></e>
+<e lm="paléolithique"><i>paléolithique</i><par n="académique__adj"/></e>
+<e lm="lithique"><i>lithique</i><par n="académique__adj"/></e>
+<e lm="solo"><i>solo</i><par n="livre__n"/></e>
+<e lm="rongeur"><i>rongeur</i><par n="livre__n"/></e>
+<e lm="rongeur"><i>rongeu</i><par n="causeu/r__adj"/></e>
 
 <!-- xxx -->
   </section>
