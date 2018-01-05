@@ -767,6 +767,13 @@
   <e>       <p><l>er</l>        <r>er<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="support/er__n">
+  <e>       <p><l>rices</l>     <r>er<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>rice</l>      <r>er<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ers</l>       <r>er<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>er</l>        <r>er<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="po/ète__n">
   <e>       <p><l>étesses</l>   <r>ète<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>étesse</l>    <r>ète<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -851,6 +858,20 @@
 <pardef n="livre__n">
   <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="record/man__n">
+  <e>       <p><l>man</l>       <r>man<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>men</l>       <r>man<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>woman</l>     <r>man<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>women</l>     <r>man<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="bêta__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sse</l>       <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sses</l>      <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="cul/-de-sac__n">
@@ -10668,6 +10689,8 @@
 <e lm="UDF">             <i>UDF</i><par n="BBC__n"/></e>
 <e lm="UE">              <i>UE</i><par n="BBC__n"/></e>
 <e lm="UEFA">            <i>UEFA</i><par n="BBVA__n"/></e>
+<e lm="FIFA">            <i>FIFA</i><par n="BBC__n"/></e>
+<e lm="NASA">            <i>NASA</i><par n="BBC__n"/></e>
 <e lm="UGT">             <i>UGT</i><par n="BBC__n"/></e>
 <e lm="UME">             <i>UME</i><par n="BBC__n"/></e>
 <e lm="UMP">             <i>UMP</i><par n="BBC__n"/></e>
@@ -12330,6 +12353,7 @@
 <e lm="complémentarité"> <i>complémentarité</i><par n="abeille__n"/></e>
 <e lm="comportement">    <i>comportement</i><par n="livre__n"/></e>
 <e lm="composant">       <i>composant</i><par n="livre__n"/></e>
+<e lm="constituant">     <i>constituant</i><par n="livre__n"/></e>
 <e lm="composante">      <i>composante</i><par n="abeille__n"/></e>
 <e lm="compositeur">     <i>composit</i><par n="administrat/eur__n"/></e>
 <e lm="composition">     <i>composition</i><par n="abeille__n"/></e>
@@ -13178,7 +13202,6 @@
 <e lm="désordre">        <i>désordre</i><par n="livre__n"/></e>
 <e lm="désorganisation"> <i>désorganisation</i><par n="abeille__n"/></e>
 <e lm="désorientation">  <i>désorientation</i><par n="abeille__n"/></e>
-<e lm="déssacord">       <i>déssacord</i><par n="livre__n"/></e>
 <e lm="déstabilisation"> <i>déstabilisation</i><par n="abeille__n"/></e>
 <e lm="désynchronisation"><i>désynchronisation</i><par n="abeille__n"/></e>
 <e lm="déséquilibre">    <i>déséquilibre</i><par n="livre__n"/></e>
@@ -13942,6 +13965,7 @@
 <e lm="grossièreté">     <i>grossièreté</i><par n="abeille__n"/></e>
 <e lm="grotte">          <i>grotte</i><par n="abeille__n"/></e>
 <e lm="groupe">          <i>groupe</i><par n="livre__n"/></e>
+<e lm="sous-groupe">     <i>sous-groupe</i><par n="livre__n"/></e>
 <e lm="groupement">      <i>groupement</i><par n="livre__n"/></e>
 <e lm="grue">            <i>grue</i><par n="abeille__n"/></e>
 <e lm="grâce">           <i>grâce</i><par n="abeille__n"/></e>
@@ -14848,6 +14872,7 @@
 <e lm="léthargie">       <i>léthargie</i><par n="abeille__n"/></e>
 <e lm="lézard" a="joan"> <i>lézard</i><par n="livre__n"/></e>
 <e lm="m">               <i>m</i><par n="mois__n"/></e>
+<e lm="mm">              <i>mm</i><par n="mois__n"/></e>
 <e lm="monsieur">        <i>m</i><par n="m/onsieur__n"/></e>
 <e lm="mal">             <i>ma</i><par n="anima/l__n"/></e>
 <e lm="machination">     <i>machination</i><par n="abeille__n"/></e>
@@ -15103,6 +15128,8 @@
 <e lm="ministre de la justice"><i>ministre</i><par n="artiste__n"/><p><l><b/>de<b/>la<b/>justice</l><r><g><b/>de<b/>la<b/>justice</g></r></p></e>
 <e lm="ministre des affaires étrangères"><i>ministre</i><par n="artiste__n"/><p><l><b/>des<b/>affaires<b/>étrangères</l><r><g><b/>des<b/>affaires<b/>étrangères</g></r></p></e>
 <e lm="ministre">        <i>ministre</i><par n="artiste__n"/></e>
+<e lm="ex-ministre">     <i>ex-ministre</i><par n="artiste__n"/></e>
+<e lm="vice-ministre">   <i>vice-ministre</i><par n="artiste__n"/></e>
 <e lm="ministère des finances"><i>ministère</i><par n="livre__n"/><p><l><b/>des<b/>finances</l><r><g><b/>des<b/>finances</g></r></p></e>
 <e lm="ministère">       <i>ministère</i><par n="livre__n"/></e>
 <e lm="minorisation" a="hector"><i>minorisation</i><par n="abeille__n"/></e>
@@ -15254,6 +15281,7 @@
 <e lm="moyen de transport"><i>moyen</i><par n="livre__n"/><p><l><b/>de<b/>transport</l><r><g><b/>de<b/>transport</g></r></p></e>
 <e lm="moyen">           <i>moyen</i><par n="livre__n"/></e>
 <e lm="moyenne">         <i>moyenne</i><par n="abeille__n"/></e>
+<e lm="médiane">         <i>médiane</i><par n="abeille__n"/></e>
 <e lm="mp3">             <i>mp3</i><par n="BBVA__n"/></e>
 <e lm="muguet">          <i>muguet</i><par n="livre__n"/></e>
 <e lm="multi-service">   <i>multi-service</i><par n="livre__n"/></e>
@@ -15826,6 +15854,7 @@
 <e lm="pensionnaire">    <i>pensionnaire</i><par n="artiste__n"/></e>
 <e lm="pensée">          <i>pensée</i><par n="abeille__n"/></e>
 <e lm="pentagone">       <i>pentagone</i><par n="livre__n"/></e>
+<e lm="octogone">        <i>octogone</i><par n="livre__n"/></e>
 <e lm="pente">           <i>pente</i><par n="abeille__n"/></e>
 <e lm="perce">           <i>perce</i><par n="abeille__n"/></e>
 <e lm="percepteur">      <i>percept</i><par n="administrat/eur__n"/></e>
@@ -16298,7 +16327,9 @@
 <e r="LR" lm="prédécesseur"><i>prédécesseu</i><par n="causeu/r__n"/></e>
 <e lm="prédécesseur">    <i>prédécesseur</i><par n="affecté__n"/></e>
 <e lm="préfecture">      <i>préfecture</i><par n="abeille__n"/></e>
+<e lm="sous-préfecture"> <i>sous-préfecture</i><par n="abeille__n"/></e>
 <e lm="préfet">          <i>préf</i><par n="préf/et__n"/></e>
+<e lm="sous-préfet">     <i>sous-préf</i><par n="préf/et__n"/></e>
 <e lm="préférence">      <i>préférence</i><par n="abeille__n"/></e>
 <e lm="préhistoire">     <i>préhistoire</i><par n="abeille__n"/></e>
 <e lm="préinscription">  <i>préinscription</i><par n="abeille__n"/></e>
@@ -16554,6 +16585,7 @@
 <e lm="reconversion">    <i>reconversion</i><par n="abeille__n"/></e>
 <e lm="record du parcours"><i>record</i><par n="livre__n"/><p><l><b/>du<b/>parcours</l><r><g><b/>du<b/>parcours</g></r></p></e>
 <e lm="record">          <i>record</i><par n="livre__n"/></e>
+<e lm="recordman">       <i>record</i><par n="record/man__n"/></e>
 <e lm="recours">         <i>recours</i><par n="mois__n"/></e>
 <e lm="recouvrement de salaires"><i>recouvrement</i><par n="livre__n"/><p><l><b/>de<b/>salaires</l><r><g><b/>de<b/>salaires</g></r></p></e>
 <e lm="recouvrement des valeurs"><i>recouvrement</i><par n="livre__n"/><p><l><b/>des<b/>valeurs</l><r><g><b/>des<b/>valeurs</g></r></p></e>
@@ -17537,6 +17569,7 @@
 <e lm="terroir">         <i>terroir</i><par n="livre__n"/></e>
 <e lm="terrorisme">      <i>terrorisme</i><par n="livre__n"/></e>
 <e lm="terroriste">      <i>terroriste</i><par n="artiste__n"/></e>
+<e lm="antiterroriste">  <i>antiterroriste</i><par n="artiste__n"/></e>
 <e lm="test">            <i>test</i><par n="livre__n"/></e>
 <e lm="testament">       <i>testament</i><par n="livre__n"/></e>
 <e lm="texte">           <i>texte</i><par n="livre__n"/></e>
@@ -34757,6 +34790,7 @@
 <e lm="cyrillique" a="jaumeortola"><i>cyrillique</i><par n="académique__adj"/></e>
 <e lm="débutant" a="jaumeortola"><i>débutant</i><par n="abaissant__adj"/></e>
 <e lm="décimal" a="jaumeortola"><i>décima</i><par n="amica/l__adj"/></e>
+<e lm="hexadécimal" a="hector"><i>hexadécima</i><par n="amica/l__adj"/></e>
 <e lm="demi-circulaire" a="jaumeortola"><i>demi-circulaire</i><par n="académique__adj"/></e>
 <e lm="descriptif" a="jaumeortola"><i>descripti</i><par n="affirmati/f__adj"/></e>
 <e lm="désertique" a="jaumeortola"><i>désertique</i><par n="académique__adj"/></e>
@@ -34935,9 +34969,6 @@
 <e lm="de la renaissance"><i>de<b/>la<b/>renaissance</i><par n="arrière__adj"/></e>
 <e lm="en vigueur"><i>en<b/>vigueur></i><par n="arrière__adj"/></e>
 <e r="RL" lm="de fer"><i>de<b/>fer></i><par n="arrière__adj"/></e>
-
-<e lm="touche finale"><p><l>touche<b/>finale</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e lm="touche finale"><p><l>touches<b/>finales</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 
 <e lm="abrégement" a="jaumeortola"><i>abrégement</i><par n="livre__n"/></e>
 <e lm="abside" a="jaumeortola"><i>abside</i><par n="abeille__n"/></e>
@@ -37136,7 +37167,7 @@
 <e lm="voussoir" a="jaumeortola"><i>voussoir</i><par n="livre__n"/></e>
 <e lm="voyant" a="jaumeortola"><i>voyant</i><par n="affecté__n"/></e>
 <e lm="widget" a="jaumeortola"><i>widget</i><par n="livre__n"/></e>
-<e lm="wisigoth" a="jaumeortola"><i>wisigoth</i><par n="affecté__n"/></e>
+<e lm="Wisigoth" a="jaumeortola"><i>Wisigoth</i><par n="affecté__n"/></e>
 <e lm="xylème" a="jaumeortola"><i>xylème</i><par n="livre__n"/></e>
 <e lm="xylographie" a="jaumeortola"><i>xylographie</i><par n="abeille__n"/></e>
 <e lm="xylophone" a="jaumeortola"><i>xylophone</i><par n="livre__n"/></e>
@@ -37228,6 +37259,61 @@
     <e lm="tuyau d'écoulement"><i>tuyau</i><par n="lieu__n"/><p><l><b/>d'écoulement</l><r><g><b/>d'écoulement</g></r></p></e>
     <e lm="vie des saints"><i>vie</i><par n="abeille__n"/><p><l><b/>des<b/>saints</l><r><g><b/>des<b/>saints</g></r></p></e>
 
+<e lm="touche finale"><p><l>touche<b/>finale</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="touche finale"><p><l>touches<b/>finales</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="être humain"><p><l>être<b/>humain</l><r>être<b/>humain<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="être humain"><p><l>êtres<b/>humains</l><r>être<b/>humain<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="acide aminé"><p><l>acide<b/>aminé</l><r>acide<b/>aminé<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="acide aminé"><p><l>acides<b/>aminés</l><r>acide<b/>aminé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre premier"><p><l>nombre<b/>premier</l><r>nombre<b/>premier<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre premier"><p><l>nombres<b/>premiers</l><r>nombre<b/>premier<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre réel"><p><l>nombre<b/>réel</l><r>nombre<b/>réel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre réel"><p><l>nombres<b/>réels</l><r>nombre<b/>réel<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre naturel"><p><l>nombre<b/>naturel</l><r>nombre<b/>naturel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre naturel"><p><l>nombres<b/>naturels</l><r>nombre<b/>naturel<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre complexe"><p><l>nombre<b/>complexe</l><r>nombre<b/>complexe<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre complexe"><p><l>nombres<b/>complexes</l><r>nombre<b/>complexe<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre entier"><p><l>nombre<b/>entier</l><r>nombre<b/>entier<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre entier"><p><l>nombres<b/>entiers</l><r>nombre<b/>entier<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre rationnel"><p><l>nombre<b/>rationnel</l><r>nombre<b/>rationnel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre rationnel"><p><l>nombres<b/>rationnels</l><r>nombre<b/>rationnel<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre atomique"><p><l>nombre<b/>atomique</l><r>nombre<b/>atomique<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre atomique"><p><l>nombres<b/>atomiques</l><r>nombre<b/>atomique<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre quantique"><p><l>nombre<b/>quantique</l><r>nombre<b/>quantique<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre quantique"><p><l>nombres<b/>quantiques</l><r>nombre<b/>quantique<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre pair"><p><l>nombre<b/>pair</l><r>nombre<b/>pair<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre pair"><p><l>nombres<b/>pairs</l><r>nombre<b/>pair<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre impair"><p><l>nombre<b/>impair</l><r>nombre<b/>impair<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre impair"><p><l>nombres<b/>impairs</l><r>nombre<b/>impair<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre irationnel"><p><l>nombre<b/>irationnel</l><r>nombre<b/>irationnel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre irationnel"><p><l>nombres<b/>irationnel</l><r>nombre<b/>irationnel<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre décimal"><p><l>nombre<b/>décimal</l><r>nombre<b/>décimal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre décimal"><p><l>nombres<b/>décimaux</l><r>nombre<b/>décimal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre transcendant"><p><l>nombre<b/>transcendant</l><r>nombre<b/>transcendant<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre transcendant"><p><l>nombres<b/>transcendants</l><r>nombre<b/>transcendant<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre cardinal"><p><l>nombre<b/>cardinal</l><r>nombre<b/>cardinal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre cardinal"><p><l>nombre<b/>cardinaux</l><r>nombre<b/>cardinal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="nombre imaginaire"><p><l>nombre<b/>imaginaire</l><r>nombre<b/>imaginaire<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="nombre imaginaire"><p><l>nombres<b/>imaginaires</l><r>nombre<b/>imaginaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="propiétaire terrien"><p><l>propiétaire<b/>terrien</l><r>propiétaire<b/>terrien<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="propiétaire terrien"><p><l>propiétaires<b/>terriens</l><r>propiétaire<b/>terrien<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
+<e lm="supporter"><i>support</i><par n="support/er__n"/></e>
+<e lm="wiki"><i>wiki</i><par n="livre__n"/></e>
+<e lm="basse"><i>basse</i><par n="abeille__n"/></e>
+<e lm="plombée"><i>plombée</i><par n="abeille__n"/></e>
+<e lm="natif"><i>nati</i><par n="jui/f__n"/></e>
+<e lm="intégrant"><i>intégrant</i><par n="livre__n"/></e>
+<e lm="bêta"><i>bêta</i><par n="soif__n"/></e>
+<e lm="bêta"><i>bêta</i><par n="livre__n"/></e>
+<e lm="bêtasse"><i>bêtasse</i><par n="abeille__n"/></e>
+<e lm="alpha"><i>alpha</i><par n="livre__n"/></e>
+<e lm="hexagonal" a="hector"><i>hexagona</i><par n="amica/l__adj"/></e>
+<e lm="pentagonal" a="hector"><i>pentagona</i><par n="amica/l__adj"/></e>
+<e lm="octogonal" a="hector"><i>octogona</i><par n="amica/l__adj"/></e>
+<e lm="orthogonal" a="hector"><i>orthogonal</i><par n="amica/l__adj"/></e>
+
+<!-- xxx -->
   </section>
   <section id="apostrophes" type="postblank">
     <!-- ******************************
