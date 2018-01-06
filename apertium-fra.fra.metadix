@@ -10975,7 +10975,6 @@
 <e lm="agrégation">      <i>agrégation</i><par n="abeille__n"/></e>
 <e lm="agrément">        <i>agrément</i><par n="livre__n"/></e>
 <e lm="aide">            <i>aide</i><par n="abeille__n"/></e>
-<e lm="aide-architecte"> <i>aide-architecte</i><par n="artiste__n"/></e>
 <e lm="aide-starter">    <i>aide-starter</i><par n="artiste__n"/></e>
 <e lm="aigle">           <i>aigle</i><par n="artiste__n"/></e>
 <e lm="aiglon">          <i>aiglon</i><par n="ancien__n"/></e>
@@ -13584,6 +13583,7 @@
 <e lm="feed-back">       <i>feed-back</i><par n="mois__n"/></e>
 <e lm="femelle">         <i>femelle</i><par n="abeille__n"/></e>
 <e lm="femme au foyer">  <i>femme</i><par n="abeille__n"/><p><l><b/>au<b/>foyer</l><r><g><b/>au<b/>foyer</g></r></p></e>
+<e lm="femme de ménage"> <i>femme</i><par n="abeille__n"/><p><l><b/>de<b/>ménage</l><r><g><b/>de<b/>ménage</g></r></p></e>
 <e lm="femme">           <i>femme</i><par n="abeille__n"/></e>
 <e lm="fente">           <i>fente</i><par n="abeille__n"/></e>
 <e lm="fenêtre">         <i>fenêtre</i><par n="abeille__n"/></e>
@@ -37292,6 +37292,10 @@
 <e lm="compagnie aérienne"><p><l>compagnies<b/>aériennes</l><r>compagnie<b/>aérienne<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="commune rurale"><p><l>commune<b/>rurale</l><r>commune<b/>rurale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="commune rurale"><p><l>communes<b/>rurales</l><r>commune<b/>rurale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e r="LR" lm="aide ménagère"><p><l>aide-ménagère</l><r>aide<b/>ménagère<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" lm="aide ménagère"><p><l>aides-ménagères</l><r>aide<b/>ménagère<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="aide ménagère"><p><l>aide<b/>ménagère</l><r>aide<b/>ménagère<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="aide ménagère"><p><l>aides<b/>ménagères</l><r>aide<b/>ménagère<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="vieille ville"><p><l>vieille<b/>ville</l><r>vieille<b/>ville<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="vieille ville"><p><l>vieilles<b/>villes</l><r>vieille<b/>ville<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="petite maison"><p><l>petite<b/>maison</l><r>petite<b/>maison<s n="n"/><s n="f"/><s n="sg"/></r></p></e>

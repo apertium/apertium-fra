@@ -353,6 +353,11 @@ SELECT PP IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PP) ;
   ## Vous ne le lui avez pas dit
 SELECT Sg IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PP + Sg_Pl) ;
   ## Vous ne le lui avez pas pris
+SELECT PP IF (-3 Pro) (-2 Haver) (-1 Adv) (0 PP) ;
+  ## Vous lui avez toujours dit
+SELECT PP IF (-5 Ne) (-4 Pro) (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
+SELECT Haver IF (-2 Ne) (-1 Pro) (-0 Haver) (1 Adv) (2 Adv) (3 PP) ;
+  ## Vous ne lui avez pas toujours dit
 
 SELECT PP IF (-1 Ser) (0 PP) (OC Verb) ;
   ## sont investis
