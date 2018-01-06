@@ -517,6 +517,7 @@
   <e>       <p><l>a</l>         <r>on<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>es</l>        <r>on<s n="det"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>on</l>        <r>on<s n="det"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>on</l>        <r>on<s n="det"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e> <!-- mon amie -->
 </pardef>
 
 <pardef n="leur__det">
