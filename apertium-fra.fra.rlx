@@ -25,6 +25,7 @@ LIST Prop = np ;
 LIST A = adj ;
 LIST Adv = adv ;
 LIST Preadv = preadv ;
+LIST Predet = predet ;
 LIST CnjAdv = cnjadv ;
 LIST CnjCoo = cnjcoo ;
 LIST CnjSub = cnjsub ;
@@ -195,6 +196,13 @@ SELECT V IF (-1 Avoir) (0 Avoir + PP) ;
 SELECT V IF (-2 Avoir) (-1 Adv) (0 Avoir + PP) ;
   ## Le jeune homme n'a pas eu plus de
 SELECT V IF (0 Avoir) (1 ("lieu")) ;
+SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det OR Num) (2 N) ;
+  ## Elle a une fille
+SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 A) (3 N) ;
+  ## Elle a un petit secret
+SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 Predet OR Preadv OR Adv) (3 A) (4 N) ;
+  ## Elle a un tout petit secret
+  ## Elle a un très petit secret
 
 SELECT Haver IF (0 Avoir) (1 Tn) (2 PP) ;
   ## As-tu vu Jean ?
