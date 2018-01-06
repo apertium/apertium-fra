@@ -15434,6 +15434,7 @@
 <e lm="navigation">      <i>navigation</i><par n="abeille__n"/></e>
 <e lm="navire">          <i>navire</i><par n="livre__n"/></e>
 <e lm="nazi">            <i>nazi</i><par n="affecté__n"/></e>
+<e lm="nazi">            <i>nazi</i><par n="abaissant__adj"/></e>
 <e lm="nazisme">         <i>nazisme</i><par n="livre__n"/></e>
 <e lm="naïveté">         <i>naïveté</i><par n="abeille__n"/></e>
 <e lm="negotiation">     <i>negotiation</i><par n="abeille__n"/></e>
@@ -15964,7 +15965,7 @@
 <e lm="physiothérapeute"><i>physiothérapeute</i><par n="artiste__n"/></e>
 <e lm="physiothérapie">  <i>physiothérapie</i><par n="abeille__n"/></e>
 <e lm="physique">        <i>physique</i><par n="abeille__n"/></e>
-<e lm="phénicien" a="hector"><i>phénicien</i><par n="ancien__n"/></e>
+<e lm="Phénicien" a="hector"><i>Phénicien</i><par n="ancien__n"/></e>
 <e lm="phénomène">       <i>phénomène</i><par n="livre__n"/></e>
 <e lm="pianiste">        <i>pianiste</i><par n="artiste__n"/></e>
 <e lm="piano">           <i>piano</i><par n="livre__n"/></e>
@@ -37393,6 +37394,8 @@
 <e lm="pontife"><i>pontife</i><par n="livre__n"/></e>
 <e lm="concubin"><i>concubin</i><par n="affecté__n"/></e>
 <e lm="cursive"><i>cursive</i><par n="abeille__n"/></e>
+<e lm="nova"><i>nova</i><par n="abeille__n"/></e>
+<e lm="supernova"><i>supernova</i><par n="abeille__n"/></e>
 
 <!-- xxx -->
   </section>

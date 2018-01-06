@@ -2,6 +2,7 @@ DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 #OPTIONS += no-inline-sets no-inline-templates ;
 OPTIONS += no-inline-templates ;
+SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
 SETS
 
@@ -67,6 +68,8 @@ LIST VPl2 = (vblex p2 pl) (vbser p2 pl) (vbhaver p2 pl) (vbmod p2 pl);
 LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
 
 LIST Fin = pri prs pii ifi pis cni imp ;
+LIST Ifi = ifi ;
+LIST Pri = pri ;
 LIST Inf = inf ;
 LIST PP = pp ;
 
@@ -151,8 +154,9 @@ SELECT Cog IF (0 Cog) (0 Ant) (-1C Ant) ;
 
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
-REMOVE V IF (-2/* Prep) (-1C A) (0 A OR V) ;
+REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
 	# des bones notes
+	# hors du commun haura lieu
 
 SELECT Prop IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
@@ -174,6 +178,9 @@ SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
 REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
   ## Marie pense qu'elle a vu où Jean est allé :
 
+REMOVE Ifi IF (0 Pri + P1 OR Ifi + P1) ;
+REMOVE Ifi IF (0 Pri + P2 OR Ifi + P2) ;
+  ## je vis, tu vis
 
 SELECT Inf IF (0 Être) (-1 Vbmod) ;
   ## Ce doit être Jean ! 
@@ -187,6 +194,7 @@ SELECT V IF (-1 Avoir) (0 Avoir + PP) ;
   ## Le jeune homme a eu plus de
 SELECT V IF (-2 Avoir) (-1 Adv) (0 Avoir + PP) ;
   ## Le jeune homme n'a pas eu plus de
+SELECT V IF (0 Avoir) (1 ("lieu")) ;
 
 SELECT Haver IF (0 Avoir) (1 Tn) (2 PP) ;
   ## As-tu vu Jean ?
@@ -389,9 +397,12 @@ SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
 
 SELECT Prep IF (0 Entre) (1 Nous OR Vous OR Eux);
   ## entre nous, vous, eux, elles
-
 SELECT Prep IF (0 Entre) (1 Il + Pl + Fem);
   ## entre elles
+SELECT Prep IF (-2C Prep) (-1C N) (0 Entre) (1 Det) (2 N OR A) ;
+  ## ne fait pas de différence entre les tyrannies
+SELECT Prep IF (-3C Prep) (-2C N OR A) (-1C N OR A OR PP) (0 Entre) (1 Det) (2 N OR A) ;
+  ## ne fait pas de grosses différences entre les tyrannies
 
 SELECT Preadv IF (0 Si) (1 Adv OR Preadv);
   ## si bien / si mal
