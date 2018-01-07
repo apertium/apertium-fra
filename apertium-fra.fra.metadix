@@ -158,6 +158,13 @@
   <e>       <p><l>ses</l>       <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="andalou__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>se</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ses</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="mali/n__adj">
   <e>       <p><l>n</l>         <r>n<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>gne</l>       <r>n<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6435,6 +6442,7 @@
 <e lm="ancestral">       <i>ancestra</i><par n="amica/l__adj"/></e>
 <e lm="ancien">          <i>ancien</i><par n="ancien__adj"/></e>
 <e lm="andalou">         <i>andalou</i><par n="andalou__adj"/></e>
+<e lm="Andalou">         <i>Andalou</i><par n="andalou__n"/></e>
 <e lm="andin">           <i>andin</i><par n="abaissant__adj"/></e>
 <e lm="andorran">        <i>andorran</i><par n="abaissant__adj"/></e>
 <e lm="anecdotique">     <i>anecdotique</i><par n="académique__adj"/></e>
@@ -14664,6 +14672,10 @@
 <e lm="kg">              <i>kg</i><par n="mois__n"/></e>
 <e lm="Hz">              <i>Hz</i><par n="mois__n"/></e>
 <e lm="kHz">             <i>kHz</i><par n="mois__n"/></e>
+<e lm="kV">              <i>kV</i><par n="mois__n"/></e>
+<e lm="kWh">             <i>kWh</i><par n="mois__n"/></e>
+<e lm="kW">              <i>kW</i><par n="mois__n"/></e>
+<e lm="ml">              <i>ml</i><par n="mois__n"/></e>
 <e lm="rpm">             <i>rpm</i><par n="fois__n"/></e>
 <e lm="kidnappeur">      <i>kidnappeu</i><par n="causeu/r__n"/></e>
 <e lm="kilo">            <i>kilo</i><par n="livre__n"/></e>
@@ -15432,7 +15444,7 @@
 <e lm="naturel">         <i>naturel</i><par n="livre__n"/></e>
 <e lm="naufrage">        <i>naufrage</i><par n="livre__n"/></e>
 <e lm="nausée">          <i>nausée</i><par n="abeille__n"/></e>
-<e lm="navarrais">       <i>navarrais</i><par n="admis__n"/></e>
+<e lm="Navarrais">       <i>Navarrais</i><par n="admis__n"/></e>
 <e lm="navigabilité">    <i>navigabilité</i><par n="abeille__n"/></e>
 <e lm="navigateur">      <i>navigat</i><par n="administrat/eur__n"/></e>
 <e lm="navigation">      <i>navigation</i><par n="abeille__n"/></e>
@@ -37405,6 +37417,8 @@
 <e lm="garde municipal"><p><l>gardes<b/>municipals</l><r>garde<b/>municipal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="tableau périodique"><p><l>tableau<b/>périodique</l><r>tableau<b/>périodique<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="tableau périodique"><p><l>tableaux<b/>périodiques</l><r>tableau<b/>périodique<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="effectif scolaire"><p><l>effectif<b/>scolaire</l><r>effectif<b/>scolaire<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="effectif scolaire"><p><l>effectifs<b/>scolaire</l><r>effectif<b/>scolaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e lm="ancien ministre"><p><l>ancien<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ancien ministre"><p><l>ancienne<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -37495,7 +37509,25 @@
 <e lm="Élise">           <i>Élise</i><par n="Marie__np"/></e>
 <e lm="Régis">           <i>Régis</i><par n="Antoine__np"/></e>
 <e lm="proviseur"><i>proviseur</i><par n="affecté__n"/></e>
-
+<e lm="mole"><i>mole</i><par n="livre__n"/></e>
+<e lm="médalliste"><i>médalliste</i><par n="artiste__n"/></e>
+<e lm="translitération"><i>translitération</i><par n="abeille__n"/></e>
+<e lm="haché"><i>haché</i><par n="livre__n"/></e>
+<e lm="aquifère"><i>aquifère</i><par n="livre__n"/></e>
+<e lm="aquifère"><i>aquifère</i><par n="académique__adj"/></e>
+<e lm="UM"><i>UM</i><par n="BBC__n"/></e>
+<e lm="marronnier"><i>marronnier</i><par n="livre__n"/></e>
+<e lm="châtaignier"><i>châtaignier</i><par n="livre__n"/></e>
+<e lm="centre-droite"><i>centre-droite</i><par n="abeille__n"/></e>
+<e lm="numéral"><i>numéra</i><par n="amica/l__adj"/></e>
+<e lm="descripteur"><i>descripteur</i><par n="livre__n"/></e>
+<e lm="ambience"><i>ambience</i><par n="abeille__n"/></e>
+<e lm="sanatorium"><i>sanatorium</i><par n="livre__n"/></e>
+<e lm="redox"><i>redox</i><par n="livre__n"/></e>
+<e lm="ovale"><i>ovale</i><par n="livre__n"/></e>
+<e lm="ovale"><i>ovale</i><par n="académique__adj"/></e>
+<e lm="culinaire"><i>culinaire</i><par n="académique__adj"/></e>
+<e lm="casse-tête"><i>casse-tête</i><par n="livre__n"/></e>
 
 <!-- xxx -->
   </section>
