@@ -44,6 +44,8 @@ LIST Interr = itg ;
 LIST Rel = rel ;
 LIST Interj = ij ;
 
+SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
+
 LIST Masc_strict = m ;
 LIST Fem_strict = f ;
 LIST Masc = m mf ;
@@ -431,6 +433,8 @@ SELECT Prep IF (-2C Prep) (-1C N) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de différence entre les tyrannies
 SELECT Prep IF (-3C Prep) (-2C N OR A) (-1C N OR A OR PP) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de grosses différences entre les tyrannies
+REMOVE V (0 Entre) (*-1 V BARRIER Cnj_Rel) ;  # no funciona sempre
+REMOVE V (0 Entre) (*1 V BARRIER Cnj_Rel) ;
 
 SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
