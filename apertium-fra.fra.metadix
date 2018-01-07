@@ -11706,6 +11706,7 @@
 <e lm="blouse">          <i>blouse</i><par n="abeille__n"/></e>
 <e lm="blé">             <i>blé</i><par n="livre__n"/></e>
 <e lm="boeuf">           <i>boeuf</i><par n="livre__n"/></e>
+<e r="LR" lm="bœuf">     <p><l>bœuf</l>     <r>boeuf</r></p><par n="livre__n"/></e>
 <e lm="bois">            <i>bois</i><par n="mois__n"/></e>
 <e lm="boisson">         <i>boisson</i><par n="abeille__n"/></e>
 <e lm="bolomètre">       <i>bolomètre</i><par n="livre__n"/></e>
@@ -22118,6 +22119,7 @@
 <e lm="Ferran Adrià">    <i>Ferran<b/>Adrià</i><par n="Abraham__np"/></e>
 <e lm="Ferrandis">       <i>Ferrandis</i><par n="Saussure__np"/></e>
 <e lm="Ferrando">        <i>Ferrando</i><par n="Saussure__np"/></e>
+<e lm="Ferry">           <i>Ferry</i><par n="Saussure__np"/></e>
 <e lm="Ferrari">         <i>Ferrari</i><par n="Abraham__np"/></e>
 <e lm="Ferrari">         <i>Ferrari</i><par n="Carrefour__np"/></e>
 <e lm="Ferraz">          <i>Ferraz</i><par n="Abraham__np"/></e>
@@ -31949,6 +31951,7 @@
 <e r="RL" lm="avoir envie de"><par n="/avoir__vblex"/><p><l><b/>envie<b/><a/>de</l><r><g><b/>envie<b/>de</g></r></p></e>
 <e r="LR" lm="avoir envie de"><par n="/avoir__vblex"/><p><l><b/>envie<b/>de</l><r><g><b/>envie<b/>de</g></r></p></e>
 <e lm="être fort comme un boeuf"><par n="/être__vblex"/><p><l><b/>fort<b/>comme<b/>un<b/>boeuf</l><r><g><b/>fort<b/>comme<b/>un<b/>boeuf</g></r></p></e>
+<e r="LR" lm="être fort comme un boeuf"><par n="/être__vblex"/><p><l><b/>fort<b/>comme<b/>un<b/>bœuf</l><r><g><b/>fort<b/>comme<b/>un<b/>boeuf</g></r></p></e>
 <e lm="avoir l'air">     <par n="/avoir__vblex"/><p><l><b/>l'air</l><r><g><b/>l'air</g></r></p></e>
 <e r="RL" lm="avoir l'air de"><par n="/avoir__vblex"/><p><l><b/>l'air<b/><a/>de</l><r><g><b/>l'air<b/>de</g></r></p></e>
 <e r="LR" lm="avoir l'air de"><par n="/avoir__vblex"/><p><l><b/>l'air<b/>de</l><r><g><b/>l'air<b/>de</g></r></p></e>
@@ -33382,6 +33385,7 @@
 <e lm="mettre en place"> <i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>place</l><r><g><b/>en<b/>place</g></r></p></e>
 <e lm="mettre l'accent sur"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>l'accent<b/>sur</l><r><g><b/>l'accent<b/>sur</g></r></p></e>
 <e lm="mettre la charrue devant les boeufs"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>la<b/>charrue<b/>devant<b/>les<b/>boeufs</l><r><g><b/>la<b/>charrue<b/>devant<b/>les<b/>boeufs</g></r></p></e>
+<e r="LR" lm="mettre la charrue devant les boeufs"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>la<b/>charrue<b/>devant<b/>les<b/>bœufs</l><r><g><b/>la<b/>charrue<b/>devant<b/>les<b/>boeufs</g></r></p></e>
 <e lm="mettre la main à la pâte"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>la<b/>main<b/>à<b/>la<b/>pâte</l><r><g><b/>la<b/>main<b/>à<b/>la<b/>pâte</g></r></p></e>
 <e lm="mettre la pédale douce"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>la<b/>pédale<b/>douce</l><r><g><b/>la<b/>pédale<b/>douce</g></r></p></e>
 <e lm="mettre le cap sur"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>le<b/>cap<b/>sur</l><r><g><b/>le<b/>cap<b/>sur</g></r></p></e>
@@ -37342,8 +37346,11 @@
 <e lm="terre aride"><p><l>terres<b/>arides</l><r>terre<b/>aride<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="station thermale"><p><l>station<b/>thermale</l><r>station<b/>thermale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="station thermale"><p><l>stations<b/>thermales</l><r>station<b/>thermale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="école maternelle"><p><l>école<b/>maternelle</l><r>école<b/>maternelle<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="école maternelle"><p><l>écoles<b/>maternelles</l><r>école<b/>maternelle<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="touche finale"><p><l>touche<b/>finale</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="touche finale"><p><l>touches<b/>finales</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+
 <e lm="ordre religieux"><p><l>ordre<b/>religieux</l><r>ordre<b/>religieux<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ordre religieux"><p><l>ordres<b/>religieux</l><r>ordre<b/>religieux<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="être humain"><p><l>être<b/>humain</l><r>être<b/>humain<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -37384,6 +37391,8 @@
 <e lm="nombre imaginaire"><p><l>nombres<b/>imaginaires</l><r>nombre<b/>imaginaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="caractère gras"><p><l>caractère<b/>gras</l><r>caractère<b/>gras<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="caractère gras"><p><l>caractères<b/>gras</l><r>caractère<b/>gras<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="porc- épic"><p><l>porc-épic</l><r>porc-épic<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="porc- épic"><p><l>porcs-épics</l><r>porc-épic<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="chantier naval"><p><l>chantier<b/>naval</l><r>chantier<b/>naval<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="chantier naval"><p><l>chantiers<b/>navaux</l><r>chantier<b/>naval<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="propriétaire terrien"><p><l>propriétaire<b/>terrien</l><r>propriétaire<b/>terrien<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -37474,6 +37483,12 @@
 <e lm="calculatrice"><i>calculatrice</i><par n="abeille__n"/></e>
 <e lm="classique"><i>classique</i><par n="livre__n"/></e>
 <e lm="tapir"><i>tapir</i><par n="livre__n"/></e>
+<e lm="porc"><i>porc</i><par n="livre__n"/></e>
+<e lm="truie"><i>truie</i><par n="abeille__n"/></e>
+<e lm="tape"><i>tape</i><par n="abeille__n"/></e>
+<e lm="sonnerie"><i>sonnerie</i><par n="abeille__n"/></e>
+<e lm="frappe"><i>frappe</i><par n="abeille__n"/></e>
+<e lm="maternelle"><i>maternelle</i><par n="abeille__n"/></e>
 
 <!-- xxx -->
   </section>
@@ -37631,6 +37646,7 @@
 <e r="LR" lm="celui que"><p><l>celui<b/>qu'</l><r>celui<b/>que<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="ceux que"> <p><l>ceux<b/>qu'</l><r>celui<b/>que<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
 <e r="LR" lm="que">      <p><l>qu'</l>       <r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
+<e r="LR" lm="que">      <p><l>qu'</l>       <r>que<s n="cnjsub"/></r></p></e>
     <!-- ******************************
           group vblex
       ****************************** -->

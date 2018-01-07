@@ -30,6 +30,7 @@ LIST CnjAdv = cnjadv ;
 LIST CnjCoo = cnjcoo ;
 LIST CnjSub = cnjsub ;
 LIST Num = num ;
+LIST Itg = itg ;
 LIST Prs = prs ;
 LIST Pro = pro ;
 LIST Tn = tn ;
@@ -194,6 +195,11 @@ SELECT Inf IF (0 Être) (-1 Vbmod) ;
 SELECT Inf IF (0 Être) (-1 Pro) (-2 Vbmod) ;
   ## Le spécialiste lorrain du 10 kilomètres peut l'être.
 
+REMOVE Inf IF (-1C Être) (0 Inf) ;
+  ## Il fut conseiller principal
+REMOVE Inf IF (-2C Être) (-1C Adv) (0 Inf) ;
+  ## Il fut successivement conseiller principal
+
 SELECT Haver IF (0 Avoir) (1 PP) ;
   ## Est-ce que tu as vu Jean ?
 SELECT V IF (-1 Avoir) (0 Avoir + PP) ;
@@ -226,6 +232,15 @@ SELECT V IF (0 Avoir) (1 EOS) ;
 
 SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
+ 
+SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR CnjSub) (0 Title) ;
+  ## Qui s'adresse
+SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
+  ## A qui s'adresse
+SELECT Itg IF (-1C V LINK NOT 0 PP) (0C Itg OR Rel) ;
+  ## je me demande qui
+SELECT Itg IF (-2C V LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
+  ## je ne demande pas qui
   
 REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Prn) ;
@@ -482,15 +497,17 @@ REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$MascSg LI
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$MascPl LINK 0 N OR NP) (1C N + $$MascPl) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$FemSg LINK 0 N OR NP) (1C N + $$FemSg) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$FemPl LINK 0 N OR NP) (1C N + $$FemPl) ;
-SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$MascSg LINK 0 N OR NP) (1C N + $$MascSg) ;
-SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$MascPl LINK 0 N OR NP) (1C N + $$MascPl) ;
-SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$FemSg LINK 0 N OR NP) (1C N + $$FemSg) ;
-SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$FemPl LINK 0 N OR NP) (1C N + $$FemPl) ;
-SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$MascSg LINK 0 N OR NP) (1C N + $$MascSg) ;
-SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$MascPl LINK 0 N OR NP) (1C N + $$MascPl) ;
-SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$FemSg LINK 0 N OR NP) (1C N + $$FemSg) ;
-SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$FemPl LINK 0 N OR NP) (1C N + $$FemPl) ;
+SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$FemSg LINK NOT 0 Det) (1C N + $$FemSg) ;
+SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$MascSg LINK NOT 0 Det) (1C N + $$MascSg) ;
+SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$MascPl LINK NOT 0 Det) (1C N + $$MascPl) ;
+SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$FemSg LINK NOT 0 Det) (1C N + $$FemSg) ;
+SELECT A OR PP IF (-1/* Prep) (0 Noun_Adj_PP + $$FemPl LINK NOT 0 Det) (1C N + $$FemPl) ;
+SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$MascSg) (1C N + $$MascSg) ;
+SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$MascPl) (1C N + $$MascPl) ;
+SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$FemSg) (1C N + $$FemSg) ;
+SELECT A OR PP IF (-2 Prep) (-1 Det) (0 Noun_Adj_PP + $$FemPl) (1C N + $$FemPl) ;
 ## du bas côté (bas > adj)
+## en seconde période (seconde > adj)
 
 REMOVE A OR PP IF (-2 Det + $$MascSg) (-1C A + $$MascSg) (0 Noun_Adj_PP + $$MascSg LINK 0 N OR NP) (1 Barrera_Final_SN OR Ant_Cog) ;
 REMOVE A OR PP IF (-2 Det + $$FemSg) (-1C A + $$FemSg) (0 Noun_Adj_PP + $$FemSg LINK 0 N OR NP) (1 Barrera_Final_SN OR Ant_Cog) ;
