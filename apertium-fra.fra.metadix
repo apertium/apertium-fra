@@ -37489,6 +37489,13 @@
 <e lm="sonnerie"><i>sonnerie</i><par n="abeille__n"/></e>
 <e lm="frappe"><i>frappe</i><par n="abeille__n"/></e>
 <e lm="maternelle"><i>maternelle</i><par n="abeille__n"/></e>
+<e lm="groupe A" a="hector"><i>groupe</i><par n="livre__n"/><p><l><b/>A</l><r><g><b/>A</g></r></p></e>
+<e lm="rentrée"><i>rentrée</i><par n="abeille__n"/></e>
+<e lm="Elise">           <i>Elise</i><par n="Marie__np"/></e>
+<e lm="Élise">           <i>Élise</i><par n="Marie__np"/></e>
+<e lm="Régis">           <i>Régis</i><par n="Antoine__np"/></e>
+<e lm="proviseur"><i>proviseur</i><par n="affecté__n"/></e>
+
 
 <!-- xxx -->
   </section>

@@ -6,8 +6,8 @@ SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
 SETS
 
-LIST BOS = (>>>) ;
-LIST EOS = (<<<) ;
+LIST BOS = >>> ;
+LIST EOS = <<< ;
 
 LIST Verb = vblex vbser vbhaver vbmod ;
 LIST V = vblex ;
@@ -186,6 +186,8 @@ SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
 
 REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
   ## Marie pense qu'elle a vu où Jean est allé
+REMOVE Fin IF (-1C V) (0 Fin OR N OR A OR PP OR Det) ;
+  ## tenir compte de
 
 REMOVE Ifi IF (0 Pri + P1 OR Ifi + P1) ;
 REMOVE Ifi IF (0 Pri + P2 OR Ifi + P2) ;
@@ -438,9 +440,14 @@ REMOVE V (0 Entre) (*1 V BARRIER Cnj_Rel) ;
 
 SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
-
 SELECT Adv IF (-1 Si) (0 Adv OR PreAdv);
   ## si bien / si mal
+REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;
+  ## on fait bien
+REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep) ;
+  ## c'est bien de
+REMOVE PreAdv IF (0 Adv OR PreAdv) (1C V LINK NOT 0 PP) ;
+  ## c'est bien regarder des choses
 
 SELECT Prn IF (0 S) (NOT 1 Il) ;
 SELECT CnjAdv IF (0 S) (1 Il) ;
@@ -494,6 +501,10 @@ REMOVE A OR PP IF (-2 ("comme")) (-1 Det + $$FemSg) (0 Noun_Adj_PP + $$FemSg LIN
 REMOVE A OR PP IF (-2 ("comme")) (-1 Det + $$MascPl) (0 Noun_Adj_PP + $$MascPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 ("comme")) (-1 Det + $$FemPl) (0 Noun_Adj_PP + $$FemPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 
+
+SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$Sg) (1C V + $$Sg) ;
+SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$Pl) (1C V + $$Pl) ;
+# des responsables parleront
 
 # ADJ NOM
 
@@ -628,3 +639,5 @@ SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + $$MascPl) (-1C Adv) (0 A + $$MascP
 SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + $$FemPl) (-1C Adv) (0 A + $$FemPl LINK NOT 0 Det) ;
 # ". Civiles étnicamente croatas"
 
+SELECT N IF (-1 ("par")) (0 ("personne")) ;
+REMOVE N IF (-1 ("pour")) (0 ("personne")) ;
