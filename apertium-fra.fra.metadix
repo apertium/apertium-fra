@@ -21540,7 +21540,10 @@
 <e lm="Cristóbal">       <i>Cristóbal</i><par n="Saussure__np"/></e>
 <e lm="Cristóbal">       <i>Cristóbal</i><par n="Antoine__np"/></e>
 <e lm="Croatie">         <i>Croatie</i><par n="Bulgarie__np"/></e>
-<e lm="Croix-Rouge">     <i>Croix-Rouge</i><par n="Carrefour__np"/></e>
+<e lm="Croix-Rouge">     <i>Croix-Rouge</i><par n="Wikipedia__np"/></e>
+<e r="LR" lm="Croix-Rouge"> <p><l>Croix<b/>Rouge</l>     <r>Croix-Rouge</r></p><par n="Wikipedia__np"/></e>
+<e lm="Croissant-Rouge">     <i>Croissant-Rouge</i><par n="Linux__np"/></e>
+<e r="LR" lm="Croissant-Rouge"> <p><l>Croissant<b/>Rouge</l>     <r>Croissant-Rouge</r></p><par n="Linux__np"/></e>
 <e lm="Cronenbery">      <i>Cronenbery</i><par n="Abraham__np"/></e>
 <e lm="Cross">           <i>Cross</i><par n="Carrefour__np"/></e>
 <e lm="Crotone">         <i>Crotone</i><par n="Andorre__np"/></e>
@@ -25468,6 +25471,8 @@
 <e lm="Saint-Christophe-et-Niévès"><i>Saint-Christophe-et-Niévès</i><par n="Iran__np"/></e>
 <e lm="Saint-Denis">     <i>Saint-Denis</i><par n="Andorre__np"/></e>
 <e lm="Saint-Domingue">  <i>Saint-Domingue</i><par n="Andorre__np"/></e>
+<e lm="Saint-Empire"><i>Saint-Empire</i><par n="Iran__np"/></e>
+<e lm="Saint-Empire romain germanique"><i>Saint-Empire<b/>romain<b/>germanique</i><par n="Iran__np"/></e>
 <e lm="Saint-Etienne">   <i>Saint-Etienne</i><par n="Andorre__np"/></e>
 <e lm="Saint-Germain">   <i>Saint-Germain</i><par n="Andorre__np"/></e>
 <e lm="Saint-Hélier">    <i>Saint-Hélier</i><par n="Andorre__np"/></e>
@@ -31920,6 +31925,7 @@
 <e lm="toi">             <p><l>toi</l>       <r>toi</r></p><par n="toi__prn"/></e>
 <e lm="toi-même">        <p><l>toi-même</l>  <r>toi-même</r></p><par n="toi__prn"/></e>
 <e lm="tout">            <i>tou</i><par n="tou/t__prn"/></e>
+<e lm="pas tout">        <i>pas<b/>tou</i><par n="tou/t__prn"/></e>
 <e lm="tout le monde">   <i>tout<b/>le<b/>monde</i><par n="tout_le_monde__prn"/></e>
 <e r="LR" lm="tu">       <p><l>tu</l>        <r>tu</r></p><par n="tu__prn"/></e>
 <e lm="un">              <i>un</i><par n="un__prn"/></e>
@@ -33446,6 +33452,7 @@
 <e lm="manifester">      <i>manifest</i><par n="abaiss/er__vblex"/></e>
 <e lm="manipuler">       <i>manipul</i><par n="abaiss/er__vblex"/></e>
 <e lm="manœuvrer">      <i>manœuvr</i><par n="abaiss/er__vblex"/></e>
+<e r="LR" lm="manœuvrer"> <p><l>manoeuvr</l>     <r>manœuvr</r></p><par n="abaiss/er__vblex"/></e>
 <e r="LR" lm="manquer à"><i>manqu</i><par n="abaiss/er__vblex"/><p><l><b/>à</l><r><g><b/>à</g></r></p></e>
 <e r="RL" lm="manquer à"><i>manqu</i><par n="abaiss/er__vblex"/><p><l><b/><a/>à</l><r><g><b/>à</g></r></p></e>
 <e lm="manquer">         <i>manqu</i><par n="abaiss/er__vblex"/></e>
@@ -33556,6 +33563,7 @@
 <e lm="occuper">         <i>occup</i><par n="abaiss/er__vblex"/></e>
 <e lm="octroyer">        <i>octro</i><par n="bala/yer__vblex"/></e>
 <e lm="œuvrer">         <i>œuvr</i><par n="abaiss/er__vblex"/></e>
+<e r="LR" lm="œuvrer"> <p><l>oeuvr</l>     <r>œuvr</r></p><par n="abaiss/er__vblex"/></e>
 <e lm="offrir">          <i>off</i><par n="couv/rir__vblex"/></e>
 <e lm="offenser">        <i>offens</i><par n="abaiss/er__vblex"/></e>
 <e lm="officier">        <i>offici</i><par n="abaiss/er__vblex"/></e>
@@ -34391,6 +34399,7 @@
 <e lm="éclaircir">       <i>éclairc</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="éclater">         <i>éclat</i><par n="abaiss/er__vblex"/></e>
 <e lm="écœurer">        <i>écœur</i><par n="abaiss/er__vblex"/></e>
+<e r="LR" lm="écœurer"> <p><l>écoeur</l>     <r>écœur</r></p><par n="abaiss/er__vblex"/></e>
 <e lm="éconduire">       <i>écondui</i><par n="condui/re__vblex"/></e>
 <e lm="économiser">      <i>économis</i><par n="abaiss/er__vblex"/></e>
 <e lm="écorcher">        <i>écorch</i><par n="abaiss/er__vblex"/></e>
@@ -34401,7 +34410,6 @@
 <e lm="écrire">          <i>écri</i><par n="décri/re__vblex"/></e>
 <e lm="écrouler">        <i>écroul</i><par n="abaiss/er__vblex"/></e>
 <e lm="écumer">          <i>écum</i><par n="abaiss/er__vblex"/></e>
-<e r="LR" lm="écœurer"> <p><l>écoeur</l>     <r>écœur</r></p><par n="abaiss/er__vblex"/></e>
 <e lm="éditer">          <i>édit</i><par n="abaiss/er__vblex"/></e>
 <e lm="édulcorer">       <i>édulcor</i><par n="abaiss/er__vblex"/></e>
 <e lm="éduquer">         <i>éduqu</i><par n="abaiss/er__vblex"/></e>
@@ -34485,6 +34493,7 @@
 <e r="LR" lm="que">      <i>que</i><par n="que__cnjsub"/></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="cnjsub"/></r></p></e>
 <e lm="tout">            <i>tou</i><par n="tou/t__predet"/></e>
+<e lm="pas tout">        <i>pas<b/>tou</i><par n="tou/t__predet"/></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 <e lm="avoir">           <par n="/avoir__vbhaver"/></e>
 <e lm="il y a">          <p><l>il<b/>y<b/>a</l><r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -37391,7 +37400,13 @@
 <e lm="école maternelle"><p><l>écoles<b/>maternelles</l><r>école<b/>maternelle<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="touche finale"><p><l>touche<b/>finale</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="touche finale"><p><l>touches<b/>finales</l><r>touche<b/>finale<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="petite place"><p><l>petite<b/>place</l><r>petite<b/>place<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="petite place"><p><l>petites<b/>places</l><r>petite<b/>place<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
+<e lm="art oratoire"><p><l>art<b/>oratoire</l><r>art<b/>oratoire<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="art oratoire"><p><l>arts<b/>oratoires</l><r>art<b/>oratoire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="ordre sacerdotal"><p><l>ordre<b/>sacerdotal</l><r>ordre<b/>sacerdotal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="ordre sacerdotal"><p><l>ordres<b/>sacerdotaux</l><r>ordre<b/>sacerdotal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="ordre religieux"><p><l>ordre<b/>religieux</l><r>ordre<b/>religieux<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ordre religieux"><p><l>ordres<b/>religieux</l><r>ordre<b/>religieux<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="être humain"><p><l>être<b/>humain</l><r>être<b/>humain<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -37593,6 +37608,7 @@
 <e lm="œstrogène"><i>œstrogène</i><par n="livre__n"/></e>
 <e lm="pois chiche"><i>pois<b/>chiche</i><par n="livre__n"/></e>
 <e lm="koinè"><i>koinè</i><par n="abeille__n"/></e>
+<e lm="infinitif"><i>infinitif</i><par n="livre__n"/></e>
 
 <!-- xxx -->
   </section>
