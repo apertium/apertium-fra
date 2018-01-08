@@ -15091,6 +15091,7 @@
 <e lm="maçon">           <i>maçon</i><par n="ancien__n"/></e>
 <e lm="maître">          <i>maître</i><par n="buffle__n"/></e>
 <e lm="maître d'école">  <i>maître</i><par n="buffle__n"/><p><l><b/>d'école</l><r><g><b/>d'école</g></r></p></e>
+<e lm="maîtresse de maison"><i>maîtresse</i><par n="abeille__n"/><p><l><b/>de<b/>maison</l><r><g><b/>de<b/>maison</g></r></p></e>
 <e lm="maîtrise">        <i>maîtrise</i><par n="abeille__n"/></e>
 <e lm="maïs">            <i>maïs</i><par n="mois__n"/></e>
 <e lm="mec">             <i>mec</i><par n="livre__n"/></e>
