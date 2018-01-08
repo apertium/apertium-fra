@@ -963,6 +963,14 @@
   <e>       <p><l></l>          <r><s n="np"/><s n="al"/></r></p></e>
 </pardef>
 
+<pardef n="Linux__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="Wikipedia__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="Andorre__np">
       <!-- TODO: This pardef is used temporarily for the toponyms with YET not defined gender -->
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="un"/><s n="sg"/></r></p></e>
@@ -6856,9 +6864,11 @@
 <e lm="considérable">    <i>considérable</i><par n="académique__adj"/></e>
 <e lm="consistant">      <i>consistant</i><par n="abaissant__adj"/></e>
 <e lm="constant">        <i>constant</i><par n="abaissant__adj"/></e>
+<e lm="inconstant">      <i>inconstant</i><par n="abaissant__adj"/></e>
 <e lm="constituant">     <i>constituant</i><par n="abaissant__adj"/></e>
 <e lm="constitutif">     <i>constituti</i><par n="affirmati/f__adj"/></e>
 <e lm="constitutionnel"> <i>constitutionnel</i><par n="annuel__adj"/></e>
+<e lm="inconstitutionnel"><i>inconstitutionnel</i><par n="annuel__adj"/></e>
 <e lm="constructif">     <i>constructi</i><par n="affirmati/f__adj"/></e>
 <e lm="consultatif">     <i>consultati</i><par n="affirmati/f__adj"/></e>
 <e lm="consécutif">      <i>consécuti</i><par n="affirmati/f__adj"/></e>
@@ -9093,7 +9103,9 @@
 <e lm="considérablement"><i>considérablement</i><par n="hier__adv"/></e>
 <e lm="consistantement"> <i>consistantement</i><par n="hier__adv"/></e>
 <e lm="constamment">     <i>constamment</i><par n="hier__adv"/></e>
+<e lm="inconstamment">   <i>inconstamment</i><par n="hier__adv"/></e>
 <e lm="constitutionnellement"><i>constitutionnellement</i><par n="hier__adv"/></e>
+<e lm="inconstitutionnellement"><i>inconstitutionnellement</i><par n="hier__adv"/></e>
 <e lm="constitutivement" a="hector"><i>constitutivement</i><par n="hier__adv"/></e>
 <e lm="consécutivement" a="hector"><i>consécutivement</i><par n="hier__adv"/></e>
 <e lm="conséquemment">   <i>conséquemment</i><par n="hier__adv"/></e>
@@ -9965,6 +9977,7 @@
 <e lm="étroitement">     <i>étroitement</i><par n="hier__adv"/></e>
 <e lm="éventuellement">  <i>éventuellement</i><par n="hier__adv"/></e>
 <e lm="évidemment">      <i>évidemment</i><par n="hier__adv"/></e>
+<e lm="c'est-à-dire">    <i>c'est-à-dire</i><par n="hier__adv"/></e>
     <!-- ******************************
           group cnjadv
       ****************************** -->
@@ -9997,7 +10010,8 @@
 <e lm="aux effets pertinents"><i>aux<b/>effets<b/>pertinents</i><par n="alors__cnjadv"/></e>
 <e lm="avant que">       <i>avant<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="bien que">        <i>bien<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="c'est-à-dire">    <i>c'est-à-dire</i><par n="alors__cnjadv"/></e>
+<e r="RL" lm="c'est-à-dire que"><p><l>c'est-à-dire<b/><a/>que</l><r>c'est-à-dire<b/>que</r></p><par n="alors__cnjadv"/></e>
+<e r="LR" lm="c'est-à-dire que"><i>c'est-à-dire<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="c'est ainsi que"><p><l>c'est<b/>ainsi<b/><a/>que</l><r>c'est<b/>ainsi<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="c'est ainsi que"><i>c'est<b/>ainsi<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="c'est pour cela que"><p><l>c'est<b/>pour<b/>cela<b/><a/>que</l><r>c'est<b/>pour<b/>cela<b/>que</r></p><par n="alors__cnjadv"/></e>
@@ -37418,7 +37432,9 @@
 <e lm="tableau périodique"><p><l>tableau<b/>périodique</l><r>tableau<b/>périodique<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="tableau périodique"><p><l>tableaux<b/>périodiques</l><r>tableau<b/>périodique<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="effectif scolaire"><p><l>effectif<b/>scolaire</l><r>effectif<b/>scolaire<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="effectif scolaire"><p><l>effectifs<b/>scolaire</l><r>effectif<b/>scolaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="effectif scolaire"><p><l>effectifs<b/>scolaires</l><r>effectif<b/>scolaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="médecin légiste"><p><l>médecin<b/>légiste</l><r>médecin<b/>légiste<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="médecin légiste"><p><l>médecins<b/>légistes</l><r>médecin<b/>légiste<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e lm="ancien ministre"><p><l>ancien<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ancien ministre"><p><l>ancienne<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -37428,6 +37444,10 @@
 <e lm="ancien président"><p><l>ancienne<b/>présidente</l><r>ancien<b/>président<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="ancien président"><p><l>ancien<b/>présidents</l><r>ancien<b/>président<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="ancien président"><p><l>anciennes<b/>présidentes</l><r>ancien<b/>président<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="travailleur indépendant"><p><l>travailleur<b/>indépendant</l><r>travailleur<b/>indépendant<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="travailleuse indépendant"><p><l>travailleuse<b/>indépendante</l><r>travailleuse<b/>indépendant<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="travailleur indépendant"><p><l>travailleurs<b/>indépendants</l><r>travailleur<b/>indépendant<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="travailleuse indépendant"><p><l>travailleuses<b/>indépendantes</l><r>travailleuse<b/>indépendant<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="conseiller municipal"><p><l>conseiller<b/>municipal</l><r>conseiller<b/>municipal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="conseiller municipal"><p><l>conseillère<b/>municipale</l><r>conseiller<b/>municipal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="conseiller municipal"><p><l>conseillers<b/>municipals</l><r>conseiller<b/>municipal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -37528,6 +37548,17 @@
 <e lm="ovale"><i>ovale</i><par n="académique__adj"/></e>
 <e lm="culinaire"><i>culinaire</i><par n="académique__adj"/></e>
 <e lm="casse-tête"><i>casse-tête</i><par n="livre__n"/></e>
+<e lm="constitutionnalité"><i>constitutionnalité</i><par n="abeille__n"/></e>
+<e lm="inconstitutionnalité"><i>inconstitutionnalité</i><par n="abeille__n"/></e>
+<e lm="Est républicain"><i>Est<b/>républicain</i><par n="Linux__np"/></e>
+<e lm="condoléance"><i>condoléance</i><par n="abeille__n"/></e>
+<e lm="cosmétique"><i>cosmétique</i><par n="livre__n"/></e>
+<e lm="auto-portrait"><i>auto-portrait</i><par n="livre__n"/></e>
+<e lm="interconnection"><i>interconnection</i><par n="abeille__n"/></e>
+<e lm="oxydant"><i>oxydant</i><par n="livre__n"/></e>
+<e lm="télécopie"><i>télécopie</i><par n="abeille__n"/></e>
+<e lm="répondeur"><i>répondeur</i><par n="livre__n"/></e>
+<e lm="organule"><i>organule</i><par n="livre__n"/></e>
 
 <!-- xxx -->
   </section>
@@ -37551,6 +37582,7 @@
 <e r="LR" lm="aussitôt que"><p><l>aussitôt<b/>qu'</l><r>aussitôt<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="avant que"><p><l>avant<b/>qu'</l><r>avant<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="c'est ainsi que"><p><l>c'est<b/>ainsi<b/>qu'</l><r>c'est<b/>ainsi<b/>que</r></p><par n="alors__cnjadv"/></e>
+<e r="LR" lm="c'est-à-dire que"><p><l>c'est-à-dire<b/>qu'</l><r>c'est-à-dire<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="c'est pour cela que"><p><l>c'est<b/>pour<b/>cela<b/>qu'</l><r>c'est<b/>pour<b/>cela<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="chaque fois que"><p><l>chaque<b/>fois<b/>qu'</l><r>chaque<b/>fois<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="d'aussi loin que"><p><l>d'aussi<b/>loin<b/>qu'</l><r>d'aussi<b/>loin<b/>que</r></p><par n="alors__cnjadv"/></e>

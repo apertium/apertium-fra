@@ -440,6 +440,10 @@ REMOVE V (0 Entre) (*1 V BARRIER Cnj_Rel) ;
 
 SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
+SELECT PreAdv IF (0 Si) (1C A) (2 ("que")) ;
+  ## si intelligente que
+SELECT PreAdv IF (0 Si) (1C A) (2C Prep) ;
+  ## si différents dans le monde
 SELECT Adv IF (-1 Si) (0 Adv OR PreAdv);
   ## si bien / si mal
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;
