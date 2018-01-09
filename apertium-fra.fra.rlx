@@ -154,12 +154,15 @@ REMOVE Ant IF (-1 DetInd) (0 Ant) ;
 
 SELECT Ant IF (0 Ant) (1C Ant) ;
 	# Jean-René
+SELECT Cog IF (0 Cog OR Ant) (-1C Ant) ;
+SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
+
+SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) ;
+#SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
+#SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("Parlement")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
-SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
-SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
-SELECT Cog IF (0 Cog) (0 Ant) (-1C Ant) ;
 
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
