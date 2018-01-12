@@ -36939,7 +36939,7 @@
 <e lm="saveur" a="jaumeortola"><i>saveur</i><par n="abeille__n"/></e>
 <e lm="saxophoniste" a="jaumeortola"><i>saxophoniste</i><par n="artiste__n"/></e>
 <e lm="saynète" a="jaumeortola"><i>saynète</i><par n="abeille__n"/></e>
-<e lm="scandinave" a="jaumeortola"><i>scandinave</i><par n="artiste__n"/></e>
+<e lm="Scandinave"><i>Scandinave</i><par n="artiste__n"/></e>
 <e lm="scarabée" a="jaumeortola"><i>scarabée</i><par n="livre__n"/></e>
 <e lm="scénographe" a="jaumeortola"><i>scénographe</i><par n="artiste__n"/></e>
 <e lm="scénographie" a="jaumeortola"><i>scénographie</i><par n="abeille__n"/></e>
@@ -37674,13 +37674,33 @@
 <e lm="exécuteur testamentaire"><p><l>exécuteurs<b/>testamentaires</l><r>exécuteur<b/>testamentaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="demi-axe"><i>demi-axe</i><par n="livre__n"/></e>
 <e lm="fraiseuse"><i>fraiseuse</i><par n="abeille__n"/></e>
-<e lm="methanol"><i>methanol</i><par n="livre__n"/></e>
+<e lm="méthanol"><i>méthanol</i><par n="livre__n"/></e>
 <e lm="vin blanc"><p><l>vin<b/>blanc</l><r>vin<b/>blanc<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="vin blanc"><p><l>vins<b/>blancs</l><r>vin<b/>blanc<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="vin rouge"><p><l>vin<b/>rouge</l><r>vin<b/>rouge<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="vin rouge"><p><l>vins<b/>rouges</l><r>vin<b/>rouge<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="grosse planche"><p><l>grosse<b/>planche</l><r>grosse<b/>planche<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="grosse planche"><p><l>grosses<b/>planches</l><r>grosse<b/>planche<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="ballon dirigeable"><p><l>ballon<b/>dirigeable</l><r>ballon<b/>dirigeable<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="ballon dirigeable"><p><l>ballons<b/>dirigeables</l><r>ballon<b/>dirigeable<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="mauvaise herbe"><p><l>mauvaise<b/>herbe</l><r>mauvaise<b/>herbe<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="mauvaise herbe"><p><l>mauvaises<b/>herbes</l><r>mauvaise<b/>herbe<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="supraconducteur"><i>supraconducteur</i><par n="livre__n"/></e>
+<e lm="micro-climat"><i>micro-climat</i><par n="livre__n"/></e>
+<e lm="bêlement"><i>bêlement</i><par n="livre__n"/></e>
+<e lm="stalle"><i>stalle</i><par n="abeille__n"/></e>
+<e lm="micromètre"><i>micromètre</i><par n="livre__n"/></e>
+<e lm="méiose"><i>méiose</i><par n="abeille__n"/></e>
+<e lm="bifteck haché"><p><l>bifteck<b/>haché</l><r>bifteck<b/>haché<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="bifteck haché"><p><l>biftecks<b/>hachés</l><r>bifteck<b/>haché<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="plongée sous-marine"><p><l>plongée<b/>sous-marine</l><r>plongée<b/>sous-marine<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="plongée sous-marine"><p><l>plongées<b/>sous-marines</l><r>plongée<b/>sous-marine<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="sédatif"><i>sédatif</i><par n="livre__n"/></e>
+<e lm="diélectrique"><i>diélectrique</i><par n="livre__n"/></e>
+<e lm="nématode"><i>nématode</i><par n="livre__n"/></e>
+<e lm="alts i baixos"><i>alts<b/>i<b/>baixos</i><par n="vacances__n"/></e>
 
-<!-- xxx -->
+	<!-- xxx -->
   </section>
   <section id="apostrophes" type="postblank">
     <!-- ******************************
