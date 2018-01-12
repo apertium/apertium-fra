@@ -842,8 +842,15 @@
 </pardef>
 
 <pardef n="brand/y__n">
-  <e>       <p><l>ies</l>       <r>y<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>y</l>         <r>y<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ys</l>        <r>y<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!-- orthographe 1990 -->
+  <e r="LR"><p><l>ies</l>       <r>y<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!-- orthographe pré-1990 -->
+</pardef>
+
+<pardef n="latifundi/um__n">
+  <e>       <p><l>um</l>        <r>um<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ums</l>       <r>um<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>a</l>         <r>um<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="trava/il__n">
@@ -16941,7 +16948,7 @@
 <e lm="réfugié">         <i>réfugié</i><par n="affecté__n"/></e>
 <e lm="référence">       <i>référence</i><par n="abeille__n"/></e>
 <e lm="référencement">   <i>référencement</i><par n="livre__n"/></e>
-<e lm="référendum">      <i>référendum</i><par n="livre__n"/></e>
+<e lm="référendum">      <i>référend</i><par n="latifundi/um__n"/></e>
 <e lm="référent">        <i>référent</i><par n="livre__n"/></e>
 <e lm="régate">          <i>régate</i><par n="abeille__n"/></e>
 <e lm="régence">         <i>régence</i><par n="abeille__n"/></e>
@@ -35209,7 +35216,8 @@
 <e lm="astérisque" a="jaumeortola"><i>astérisque</i><par n="livre__n"/></e>
 <e lm="athée" a="jaumeortola"><i>athée</i><par n="artiste__n"/></e>
 <e lm="athéisme" a="jaumeortola"><i>athéisme</i><par n="livre__n"/></e>
-<e lm="athénien" a="jaumeortola"><i>athénien</i><par n="ancien__n"/></e>
+<e lm="Athénien"><i>Athénien</i><par n="ancien__n"/></e>
+<e lm="athénien" a="hecton"><i>athénien</i><par n="ancien__adj"/></e>
 <e lm="atlas" a="jaumeortola"><i>atlas</i><par n="IRPF__n"/></e>
 <e lm="atome" a="jaumeortola"><i>atome</i><par n="livre__n"/></e>
 <e lm="attache" a="jaumeortola"><i>attache</i><par n="abeille__n"/></e>
@@ -37076,6 +37084,8 @@
 <e lm="structuralisme" a="jaumeortola"><i>structuralisme</i><par n="livre__n"/></e>
 <e lm="styliste" a="jaumeortola"><i>styliste</i><par n="artiste__n"/></e>
 <e lm="stylo" a="jaumeortola"><i>stylo</i><par n="livre__n"/></e>
+<e lm="stylo à bille" a="hector"><i>stylo</i><par n="livre__n"/><p><l><b/>à<b/>bille</l><r><g><b/>à<b/>bille</g></r></p></e>
+<e lm="stylo-bille" a="hector"><i>stylo-bille</i><par n="livre__n"/></e>
 <e lm="subconscient" a="jaumeortola"><i>subconscient</i><par n="livre__n"/></e>
 <e lm="subdivision" a="jaumeortola"><i>subdivision</i><par n="abeille__n"/></e>
 <e lm="subduction" a="jaumeortola"><i>subduction</i><par n="abeille__n"/></e>
@@ -37699,6 +37709,24 @@
 <e lm="diélectrique"><i>diélectrique</i><par n="livre__n"/></e>
 <e lm="nématode"><i>nématode</i><par n="livre__n"/></e>
 <e lm="alts i baixos"><i>alts<b/>i<b/>baixos</i><par n="vacances__n"/></e>
+<e lm="téléphérique" a="jaumeortola"><i>téléphérique</i><par n="livre__n"/></e>
+<e r="LR" lm="téléphérique"> <p><l>téléférique</l>     <r>téléphérique</r></p><par n="livre__n"/></e>
+<e lm="sous-dialecte"><i>sous-dialecte</i><par n="livre__n"/></e>
+<e lm="symptomatologie"><i>symptomatologie</i><par n="abeille__n"/></e>
+<e lm="ours brun"><i>ours<b/>brun</i><par n="livre__n"/></e>
+<e lm="grosse caisse"><p><l>grosse<b/>caisse</l><r>grosse<b/>caisse<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="grosse caisse"><p><l>grosses<b/>caisses</l><r>grosse<b/>caisse<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="analyte"><i>analyte</i><par n="livre__n"/></e>
+<e lm="direction artistique"><p><l>direction<b/>artistique</l><r>direction<b/>artistique<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="direction artistique"><p><l>directions<b/>artistiques</l><r>direction<b/>artistique<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="hobby"><i>hobb</i><par n="brand/y__n"/></e>
+<e lm="prétorien"><i>prétorien</i><par n="ancien__n"/></e>
+<e lm="prétorien"><i>prétorien</i><par n="ancien__adj"/></e>
+<e lm="latifundium"><i>latifundi</i><par n="latifundi/um__n"/></e>
+<e lm="fraiseuse"><i>fraiseuse</i><par n="abeille__n"/></e>
+<e lm="perceuse"><i>perceuse</i><par n="abeille__n"/></e>
+<e lm="panégyrique"><i>panégyrique</i><par n="livre__n"/></e>
+
 
 	<!-- xxx -->
   </section>
