@@ -459,6 +459,8 @@ REMOVE PreAdv IF (0 Adv OR PreAdv) (1C V LINK NOT 0 PP) ;
 SELECT Prn IF (0 S) (NOT 1 Il) ;
 SELECT CnjAdv IF (0 S) (1 Il) ;
   ## s'affirme
+REMOVE CnjAdv IF (-1C Prep) (0 N) (1C Prep) ;
+  ## une medaille d'or de piano
 
 SELECT Adv IF (-1 BOS) (0 Adv OR A) (1C Prep) ;
   ## Même sur le terrain

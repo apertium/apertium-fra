@@ -7387,6 +7387,7 @@
 <e lm="guerrier">        <i>guerri</i><par n="ch/er__adj"/></e>
 <e lm="guipuzcoain">     <i>guipuzcoain</i><par n="abaissant__adj"/></e>
 <e lm="géant">           <i>géant</i><par n="abaissant__adj"/></e>
+<e lm="supergéant">      <i>supergéant</i><par n="abaissant__adj"/></e>
 <e lm="génial">          <i>génia</i><par n="amica/l__adj"/></e>
 <e lm="génital">         <i>génita</i><par n="amica/l__adj"/></e>
 <e lm="général">         <i>généra</i><par n="amica/l__adj"/></e>
@@ -13305,7 +13306,6 @@
 <e lm="effronterie">     <i>effronterie</i><par n="abeille__n"/></e>
 <e lm="effusion">        <i>effusion</i><par n="abeille__n"/></e>
 <e lm="ego">             <i>ego</i><par n="livre__n"/></e>
-<e lm="election">        <i>election</i><par n="abeille__n"/></e>
 <e lm="email" a="hector"><i>email</i><par n="livre__n"/></e>
 <e lm="emballage">       <i>emballage</i><par n="livre__n"/></e>
 <e lm="embarcadère">     <i>embarcadère</i><par n="livre__n"/></e>
@@ -15548,7 +15548,7 @@
 <e lm="noyade">          <i>noyade</i><par n="abeille__n"/></e>
 <e lm="noyau">           <i>noyau</i><par n="lieu__n"/></e>
 <e lm="noyer">           <i>noyer</i><par n="livre__n"/></e>
-<e lm="noël">            <i>noël</i><par n="mois__n"/></e>
+<e lm="Noël">            <i>Noël</i><par n="mois__n"/></e>
 <e lm="nuage">           <i>nuage</i><par n="livre__n"/></e>
 <e lm="nuance">          <i>nuance</i><par n="abeille__n"/></e>
 <e lm="nudité">          <i>nudité</i><par n="abeille__n"/></e>
@@ -17975,7 +17975,6 @@
 <e lm="veillée funèbre"> <i>veillée<b/>funèbre</i><par n="soif__n"/></e>
 <e lm="veillée funèbre"> <p><l>veillées<b/>funèbres</l><r>veillée<b/>funèbre</r></p><par n="vacances__n"/></e>
 <e lm="veine">           <i>veine</i><par n="abeille__n"/></e>
-<e lm="velero">          <i>velero</i><par n="livre__n"/></e>
 <e lm="velléité">        <i>velléité</i><par n="abeille__n"/></e>
 <e lm="velours">         <i>velours</i><par n="mois__n"/></e>
 <e lm="vendeur">         <i>vende</i><par n="vende/ur__n"/></e>
@@ -32811,6 +32810,7 @@
 <e lm="décerner un prix"><i>décern</i><par n="abaiss/er__vblex"/><p><l><b/>un<b/>prix</l><r><g><b/>un<b/>prix</g></r></p></e>
 <e lm="décharger">       <i>décharg</i><par n="allong/er__vblex"/></e>
 <e lm="déchaîner">       <i>déchaîn</i><par n="abaiss/er__vblex"/></e>
+<e lm="désenchaîner">    <i>désenchaîn</i><par n="abaiss/er__vblex"/></e>
 <e lm="déchiffrer">      <i>déchiffr</i><par n="abaiss/er__vblex"/></e>
 <e lm="déchirer">        <i>déchir</i><par n="abaiss/er__vblex"/></e>
 <e lm="décider">         <i>décid</i><par n="abaiss/er__vblex"/></e>
@@ -37456,12 +37456,16 @@
 <e lm="ordre sacerdotal"><p><l>ordres<b/>sacerdotaux</l><r>ordre<b/>sacerdotal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="ordre religieux"><p><l>ordre<b/>religieux</l><r>ordre<b/>religieux<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ordre religieux"><p><l>ordres<b/>religieux</l><r>ordre<b/>religieux<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="ordre franciscain"><p><l>ordre<b/>franciscain</l><r>ordre<b/>franciscain<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="ordre franciscain"><p><l>ordres<b/>franciscains</l><r>ordre<b/>franciscain<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="être humain"><p><l>être<b/>humain</l><r>être<b/>humain<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="être humain"><p><l>êtres<b/>humains</l><r>être<b/>humain<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="master spécialisé"><p><l>master<b/>spécialisé</l><r>master<b/>spécialisé<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="master spécialisé"><p><l>masters<b/>spécialisés</l><r>master<b/>spécialisé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="acide aminé"><p><l>acide<b/>aminé</l><r>acide<b/>aminé<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="acide aminé"><p><l>acides<b/>aminés</l><r>acide<b/>aminé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="garde forestier"><p><l>garde<b/>forestier</l><r>garde<b/>forestier<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="garde forestier"><p><l>gardes<b/>forestiers</l><r>garde<b/>forestier<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="nombre premier"><p><l>nombre<b/>premier</l><r>nombre<b/>premier<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="nombre premier"><p><l>nombres<b/>premiers</l><r>nombre<b/>premier<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="nombre réel"><p><l>nombre<b/>réel</l><r>nombre<b/>réel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -37726,7 +37730,34 @@
 <e lm="fraiseuse"><i>fraiseuse</i><par n="abeille__n"/></e>
 <e lm="perceuse"><i>perceuse</i><par n="abeille__n"/></e>
 <e lm="panégyrique"><i>panégyrique</i><par n="livre__n"/></e>
-
+<e lm="transmembranaire"><i>transmembranaire</i><par n="académique__adj"/></e>
+<e lm="retrouvaille"><i>retrouvaille</i><par n="abeille__n"/></e>
+<e lm="pliocène"><i>pliocène</i><par n="livre__n"/></e>
+<e lm="anticoagulant"><i>anticoagulant</i><par n="livre__n"/></e>
+<e lm="milliseconde"><i>milliseconde</i><par n="abeille__n"/></e>
+<e lm="coucher"><i>coucher</i><par n="livre__n"/></e>
+<e lm="lever"><i>lever</i><par n="livre__n"/></e>
+<e lm="Congolais">       <i>Congolais</i><par n="admis__n"/></e>
+<e lm="piémontais">      <i>piémontais</i><par n="admis__n"/></e>
+<e lm="Lusitanien">      <i>Lusitanien</i><par n="ancien__n"/></e>
+<e lm="séraphin"><i>séraphin</i><par n="livre__n"/></e>
+<e lm="décret royal"><p><l>décret<b/>royal</l><r>décret<b/>royal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="décret royal"><p><l>décrets<b/>royaux</l><r>décret<b/>royal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="déclancher">        <i>déclanch</i><par n="abaiss/er__vblex"/></e>
+<e lm="en train"><i>en<b/>train</i><par n="hier__adv"/></e>
+<e lm="en métro"><i>en<b/>métro</i><par n="hier__adv"/></e>
+<e lm="en auto"><i>en<b/>auto</i><par n="hier__adv"/></e>
+<e lm="en voiture"><i>en<b/>voiture</i><par n="hier__adv"/></e>
+<e lm="en vélo"><i>en<b/>vélo</i><par n="hier__adv"/></e>
+<e lm="en bus"><i>en<b/>bus</i><par n="hier__adv"/></e>
+<e lm="en avion"><i>en<b/>avion</i><par n="hier__adv"/></e>
+<e lm="en bateau"><i>en<b/>bateau</i><par n="hier__adv"/></e>
+<e lm="forgé"><i>forgé</i><par n="livre__n"/></e>
+<e lm="fromage blanc"><p><l>fromage<b/>blanc</l><r>fromage<b/>blanc<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="fromage blanc"><p><l>fromages<b/>blancs</l><r>fromage<b/>blanc<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="petit morceau"><p><l>petit<b/>morceau</l><r>petit<b/>morceau<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="petit morceau"><p><l>petits<b/>morceaux</l><r>petit<b/>morceau<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="penny"><i>penn</i><par n="brand/y__n"/></e>
 
 	<!-- xxx -->
   </section>
