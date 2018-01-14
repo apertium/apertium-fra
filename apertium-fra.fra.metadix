@@ -6576,14 +6576,13 @@
 <e lm="hispano-arabe">   <i>hispano-arabe</i><par n="académique__adj"/></e>
 <e lm="arabique">        <i>arabique</i><par n="académique__adj"/></e>
 <e lm="aragonais">       <i>aragonais</i><par n="anglais__adj"/></e>
+<e lm="catalano-aragonais"><i>catalano-aragonais</i><par n="anglais__adj"/></e>
 <e lm="aranais">         <i>aranais</i><par n="anglais__adj"/></e>
 <e lm="arbitral">        <i>arbitra</i><par n="amica/l__adj"/></e>
 <e lm="arbitraire">      <i>arbitraire</i><par n="académique__adj"/></e>
 <e lm="arboré">          <i>arboré</i><par n="abaissant__adj"/></e>
 <e lm="archiprotégé">    <i>archiprotégé</i><par n="abaissant__adj"/></e>
 <e lm="architectonique"> <i>architectonique</i><par n="académique__adj"/></e>
-<e lm="architectonique"> <i>architectonique</i><par n="académique__adj"/></e>
-<e lm="architectural">   <i>architectura</i><par n="amica/l__adj"/></e>
 <e lm="architectural" a="joan"><i>architectura</i><par n="amica/l__adj"/></e>
 <e lm="archéologique">   <i>archéologique</i><par n="académique__adj"/></e>
 <e lm="ardent">          <i>ardent</i><par n="abaissant__adj"/></e>
@@ -37785,13 +37784,50 @@
 <e lm="dm"><i>dm</i><par n="mois__n"/></e>
 <e lm="dl"><i>dl</i><par n="mois__n"/></e>
 <e lm="graffiti"><i>graffiti</i><par n="graffiti__n"/></e>
-<e lm="graphite"><i>graphite</i><par n="livre__n"/></e>
 <e lm="butonnière"><i>butonnière</i><par n="abeille__n"/></e>
 <e lm="brunit" a="ester"><i>brunit</i><par n="livre__n"/></e>
 <e lm="symposium"><i>symposium</i><par n="livre__n"/></e>
 <e lm="interferomètre"><i>interferomètre</i><par n="livre__n"/></e>
 <e lm="corpuscule"><i>corpuscule</i><par n="livre__n"/></e>
 <e lm="estivant"><i>estivant</i><par n="affecté__n"/></e>
+<e lm="vacancier"><i>vacanci</i><par n="bouch/er__n"/></e>
+<e lm="artiodactyle"><i>artiodactyle</i><par n="livre__n"/></e>
+<e lm="illium"><i>illium</i><par n="personnel__n"/></e>
+<e lm="multimillionaire"><i>multimillionaire</i><par n="artiste__n"/></e>
+<e lm="trésor public"><p><l>trésor<b/>public</l><r>trésor<b/>public<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="trésor public"><p><l>trésors<b/>publics</l><r>trésor<b/>public<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="celluloïd"><i>celluloïd</i><par n="livre__n"/></e>
+<e lm="celluloïde"><i>celluloïde</i><par n="livre__n"/></e>
+<e lm="excédant"><i>excédant</i><par n="livre__n"/></e>
+<e lm="sacristain"><i>sacristain</i><par n="affecté__n"/></e>
+<e lm="hypogée"><i>hypogée</i><par n="livre__n"/></e>
+<e lm="fessier"><i>fessier</i><par n="livre__n"/></e>
+<e lm="cilium"><i>cili</i><par n="latifundi/um__n"/></e>
+<e lm="glycogène"><i>glycogène</i><par n="livre__n"/></e>
+<e lm="ampère"><i>ampère</i><par n="livre__n"/></e>
+<e lm="newton"><i>newton</i><par n="livre__n"/></e>
+<e lm="épervier"><i>épervier</i><par n="livre__n"/></e>
+<e lm="DVD">             <i>DVD</i><par n="BBVA__n"/></e>
+<e lm="congelé"><i>congelé</i><par n="livre__n"/></e>
+<e lm="colisée"><i>colisée</i><par n="livre__n"/></e>
+<e lm="Cantabre"><i>Cantabre</i><par n="artiste__n"/></e>
+<e lm="cantabre"><i>cantabre</i><par n="académique__adj"/></e>
+<e lm="radian"><i>radian</i><par n="livre__n"/></e>
+<e lm="magazine"><i>magazine</i><par n="livre__n"/></e>
+<e lm="subdomaine"><i>subdomaine</i><par n="livre__n"/></e>
+<e lm="repopulateur"><i>repopulat</i><par n="débit/eur__n"/></e>
+<e lm="repopulateur"><i>repopulat</i><par n="conduct/eur__adj"/></e>
+<e lm="gamétophyte"><i>gamétophyte</i><par n="livre__n"/></e>
+<e lm="chromage"><i>chromage</i><par n="livre__n"/></e>
+<e lm="orangé"><i>orangé</i><par n="abaissant__adj"/></e>
+<e lm="statu quo"><i>statu<b/>quo</i><par n="mois__n"/></e>
+<e lm="kJ"><i>kJ</i><par n="mois__n"/></e>
+<e lm="désinfectant"><i>désinfectant</i><par n="livre__n"/></e>
+<e lm="poulain"><i>poulain</i><par n="livre__n"/></e>
+<e lm="poulin"><i>poulin</i><par n="livre__n"/></e>
+<e lm="frambroise"><i>frambroise</i><par n="abeille__n"/></e>
+<e lm="coupé"><i>coupé</i><par n="livre__n"/></e>
+<e lm="UHF">             <i>UHF</i><par n="BBC__n"/></e>
 
 	<!-- xxx -->
   </section>
