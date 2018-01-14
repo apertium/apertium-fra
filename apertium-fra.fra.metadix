@@ -877,7 +877,12 @@
 
 <pardef n="stimul/us__n">
   <e>       <p><l>us</l>        <r>us<s n="n"/><s n="m"/><s n="sp"/></r></p></e>
-  <e r="LR"><p><l>i</l>         <r>us<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!-- orthographe pré-1990 -->
+  <e r="LR"><p><l>i</l>         <r>us<s n="n"/><s n="m"/><s n="sp"/></r></p></e> <!-- orthographe pré-1990, sp: pro forma -->
+</pardef>
+
+<pardef n="graffiti__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e>
+  <e r="LR"><p><l>s</l>         <r><s n="n"/><s n="m"/><s n="sp"/></r></p></e> <!-- sp: pro forma -->
 </pardef>
 
 <pardef n="record/man__n">
@@ -8433,6 +8438,7 @@
 <e lm="sanitaire">       <i>sanitaire</i><par n="académique__adj"/></e>
 <e lm="sans-fil">        <i>sans-fil</i><par n="académique__adj"/></e>
 <e lm="sans but lucratif"><i>sans<b/>but<b/>lucratif</i><par n="arrière__adj"/></e>
+<e lm="sans protection"> <i>sans<b/>protection</i><par n="arrière__adj"/></e>
 <e lm="saoudite">        <i>saoudite</i><par n="académique__adj"/></e>
 <e lm="satirique">       <i>satirique</i><par n="académique__adj"/></e>
 <e lm="satisfaisant">    <i>satisfaisant</i><par n="abaissant__adj"/></e>
@@ -32770,6 +32776,7 @@
 <e lm="dompter">         <i>dompt</i><par n="abaiss/er__vblex"/></e>
 <e lm="donner à cœur joie"><i>donn</i><par n="abaiss/er__vblex"/><p><l><b/>à<b/>cœur<b/>joie</l><r><g><b/>à<b/>cœur<b/>joie</g></r></p></e>
 <e r="LR" lm="donner à cœur joie"><i>donn</i><par n="abaiss/er__vblex"/><p><l><b/>à<b/>coeur<b/>joie</l><r><g><b/>à<b/>cœur<b/>joie</g></r></p></e>
+<e lm="donner des espoirs"><i>donn</i><par n="abaiss/er__vblex"/><p><l><b/>des<b/>espoirs</l><r><g><b/>des<b/>espoirs</g></r></p></e>
 <e lm="donner du fil à retordre"><i>donn</i><par n="abaiss/er__vblex"/><p><l><b/>du<b/>fil<b/>à<b/>retordre</l><r><g><b/>du<b/>fil<b/>à<b/>retordre</g></r></p></e>
 <e lm="donner">          <i>donn</i><par n="abaiss/er__vblex"/></e>
 <e lm="donner la préférence"><i>donn</i><par n="abaiss/er__vblex"/><p><l><b/>la<b/>préférence</l><r><g><b/>la<b/>préférence</g></r></p></e>
@@ -37757,7 +37764,34 @@
 <e lm="fromage blanc"><p><l>fromages<b/>blancs</l><r>fromage<b/>blanc<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="petit morceau"><p><l>petit<b/>morceau</l><r>petit<b/>morceau<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="petit morceau"><p><l>petits<b/>morceaux</l><r>petit<b/>morceau<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="grand chemin"><p><l>grand<b/>chemin</l><r>grand<b/>chemin<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="grand chemin"><p><l>grands<b/>chemins</l><r>grand<b/>chemin<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="penny"><i>penn</i><par n="brand/y__n"/></e>
+<e lm="majorquin"><i>majorquin</i><par n="abaissant__adj"/></e>
+<e lm="majorquin"><i>majorquin</i><par n="affecté__n"/></e>
+<e lm="minorquin"><i>minorquin</i><par n="abaissant__adj"/></e>
+<e lm="minorquin"><i>minorquin</i><par n="affecté__n"/></e>
+<e lm="arbitraire"><i>arbitraire</i><par n="livre__n"/></e>
+<e lm="illusionner"><i>illusionn</i><par n="abaiss/er__vblex"/></e>
+<e lm="minuter"><i>minuter</i><par n="livre__n"/></e>
+<e lm="radioisotope"><i>radioisotope</i><par n="livre__n"/></e>
+<e lm="pinerale"><i>pinerale</i><par n="abeille__n"/></e>
+<e lm="lehendakari"><i>lehendakari</i><par n="artiste__n"/></e>
+<e lm="léonais"><i>léonais</i><par n="admis__n"/></e>
+<e lm="léonais"><i>léonais</i><par n="anglais__adj"/></e>
+<e lm="guêtre"><i>guêtre</i><par n="abeille__n"/></e>
+<e lm="triacylglycérol"><i>triacylglycérol</i><par n="livre__n"/></e>
+<e lm="entrailles"><i>entrailles</i><par n="vacances__n"/></e>
+<e lm="dm"><i>dm</i><par n="mois__n"/></e>
+<e lm="dl"><i>dl</i><par n="mois__n"/></e>
+<e lm="graffiti"><i>graffiti</i><par n="graffiti__n"/></e>
+<e lm="graphite"><i>graphite</i><par n="livre__n"/></e>
+<e lm="butonnière"><i>butonnière</i><par n="abeille__n"/></e>
+<e lm="brunit" a="ester"><i>brunit</i><par n="livre__n"/></e>
+<e lm="symposium"><i>symposium</i><par n="livre__n"/></e>
+<e lm="interferomètre"><i>interferomètre</i><par n="livre__n"/></e>
+<e lm="corpuscule"><i>corpuscule</i><par n="livre__n"/></e>
+<e lm="estivant"><i>estivant</i><par n="affecté__n"/></e>
 
 	<!-- xxx -->
   </section>
