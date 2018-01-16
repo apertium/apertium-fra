@@ -38083,6 +38083,11 @@
 <e lm="UIB">             <i>UIB</i><par n="BBC__n"/></e>
 <e lm="trafic routier"><p><l>trafic<b/>routier</l><r>trafic<b/>routier<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="trafic routier"><p><l>trafics<b/>routiers</l><r>trafic<b/>routier<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="médiathèque"><i>médiathèque</i><par n="abeille__n"/></e>
+<e lm="faubourg"><i>faubourg</i><par n="livre__n"/></e>
+<e lm="réservation">     <i>réservation</i><par n="abeille__n"/></e>
+<e lm="demi-journée">     <i>demi-journée</i><par n="abeille__n"/></e>
+<e lm="demi-heure">     <i>demi-heure</i><par n="abeille__n"/></e>
 
 
 	<!-- xxx -->

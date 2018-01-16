@@ -106,6 +106,7 @@ LIST Fil = "fil" ;
 LIST Fils = "fils" ;
 LIST Foi = "foi" ;
 LIST Fois = "fois" ;
+LIST Tour = "tour" ;
 LIST Mille = "mille" ;
 LIST Mil = "mil" ;
 LIST Somme = "somme" ;
@@ -267,6 +268,10 @@ SELECT Mil IF (0C Mil OR Mille) (1 N OR A) (1 Pl) ;
 
 SELECT Savoir IF (0C Savoir OR Saurer) ;
   ## ce problème ne saurait tout expliquer à lui seul
+
+SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant")) (-1C Num) (0 Tour) (NOT 1 A) ;
+  ## à 7 tours de la fin
+SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
 
 SELECT N IF (-1 Num) (0C N OR V) ;
   ## 9 combats
