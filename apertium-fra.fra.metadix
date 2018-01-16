@@ -6822,6 +6822,7 @@
 <e lm="collectif">       <i>collecti</i><par n="affirmati/f__adj"/></e>
 <e lm="collectionneur">  <i>collectionneu</i><par n="causeu/r__adj"/></e>
 <e lm="colombien">       <i>colombien</i><par n="ancien__adj"/></e>
+<e lm="Colombien">       <i>Colombien</i><par n="ancien__n"/></e>
 <e lm="colonial">        <i>colonia</i><par n="amica/l__adj"/></e>
 <e lm="colossal">        <i>colossa</i><par n="amica/l__adj"/></e>
 <e lm="combattant">      <i>combattant</i><par n="abaissant__adj"/></e>
@@ -9316,6 +9317,7 @@
 <e lm="en partie">       <i>en<b/>partie</i><par n="hier__adv"/></e>
 <e lm="en permanence">   <i>en<b/>permanence</i><par n="hier__adv"/></e>
 <e lm="en plein essor">  <i>en<b/>plein<b/>essor</i><par n="hier__adv"/></e>
+<e lm="en outre">        <i>en<b/>outre</i><par n="hier__adv"/></e>
 <e lm="en plus">         <i>en<b/>plus</i><par n="hier__adv"/></e>
 <e lm="en port dû">      <i>en<b/>port<b/>dû</i><par n="hier__adv"/></e>
 <e lm="en périodes mensuelles"><i>en<b/>périodes<b/>mensuelles</i><par n="hier__adv"/></e>
@@ -21874,20 +21876,20 @@
 <e lm="Eizmendi">        <i>Eizmendi</i><par n="Abraham__np"/></e>
 <e lm="Ekopass">         <i>Ekopass</i><par n="Carrefour__np"/></e>
 <e lm="Ekorrepara">      <i>Ekorrepara</i><par n="Carrefour__np"/></e>
-<e lm="El Aaiun">        <i>El<b/>Aaiun</i><par n="Andorre__np"/></e>
+<e lm="El Aaiun">        <i>El<b/>Aaiun</i><par n="Iran__np"/></e>
 <e lm="El Correo">       <i>El<b/>Correo</i><par n="Carrefour__np"/></e>
 <e lm="El Correo Español"><i>El<b/>Correo<b/>Español</i><par n="Carrefour__np"/></e>
 <e lm="El Diario Montañés"><i>El<b/>Diario<b/>Montañés</i><par n="Carrefour__np"/></e>
 <e lm="El Diario Vasco"> <i>El<b/>Diario<b/>Vasco</i><par n="Carrefour__np"/></e>
-<e lm="El Greco">        <i>El<b/>Greco</i><par n="Abraham__np"/></e>
-<e lm="El Hierro">       <i>El<b/>Hierro</i><par n="Andorre__np"/></e>
+<e lm="El Greco">        <i>El<b/>Greco</i><par n="Antoine__np"/></e>
+<e lm="El Hierro">       <i>El<b/>Hierro</i><par n="Iran__np"/></e>
 <e lm="El Mundo">        <i>El<b/>Mundo</i><par n="Carrefour__np"/></e>
 <e lm="El Mundo del País Vasco"><i>El<b/>Mundo<b/>del<b/>País<b/>Vasco</i><par n="Carrefour__np"/></e>
 <e lm="El Niño">         <i>El<b/>Niño</i><par n="Carrefour__np"/></e>
 <e lm="El País">         <i>El<b/>País</i><par n="Carrefour__np"/></e>
-<e lm="El Prat">         <i>El<b/>Prat</i><par n="Andorre__np"/></e>
+<e lm="El Prat">         <i>El<b/>Prat</i><par n="Iran__np"/></e>
 <e lm="ElBaradei">       <i>ElBaradei</i><par n="Abraham__np"/></e>
-<e lm="Eladio">          <i>Eladio</i><par n="Abraham__np"/></e>
+<e lm="Eladio">          <i>Eladio</i><par n="Antoine__np"/></e>
 <e lm="Elbe">            <i>Elbe</i><par n="Andorre__np"/></e>
 <e lm="Elbrouz">         <i>Elbrouz</i><par n="Andorre__np"/></e>
 <e lm="Elche">           <i>Elche</i><par n="Iran__np"/></e>
@@ -31679,6 +31681,7 @@
 <e r="LR" lm="à la fin de"><p><l>A<b/>la<b/>fin<b/></l><r>à<b/>la<b/>fin<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à la suite de"><p><l>A<b/>la<b/>suite<b/></l><r>à<b/>la<b/>suite<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à moins de"><p><l>A<b/>moins<b/></l><r>à<b/>moins<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à partir de"><p><l>A<b/>partir<b/></l><r>à<b/>partir<b/></r></p><par n="contde__pr"/></e>
 <e lm="afin de">         <i>afin<b/></i><par n="contde__pr"/></e>
 <e lm="après">           <i>après</i><par n="attendu__pr"/></e>
 <e lm="vers">            <i>après</i><par n="attendu__pr"/></e>
@@ -31735,6 +31738,7 @@
 <e lm="en">              <i>en</i><par n="attendu__pr"/></e>
 <e lm="en accord avec">  <i>en<b/>accord<b/>avec</i><par n="attendu__pr"/></e>
 <e lm="en cas de">       <i>en<b/>cas<b/></i><par n="contde__pr"/></e>
+<e lm="en plus de">      <i>en<b/>plus<b/></i><par n="contde__pr"/></e>
 <e lm="en ce qui concerne"><i>en<b/>ce<b/>qui<b/>concerne</i><par n="attendu__pr"/></e>
 <e lm="en cours de">     <i>en<b/>cours<b/></i><par n="contde__pr"/></e>
 <e lm="en dehors de">    <i>en<b/>dehors<b/></i><par n="contde__pr"/></e>
@@ -35299,6 +35303,7 @@
 <e lm="bibliothécaire" a="jaumeortola"><i>bibliothécaire</i><par n="artiste__n"/></e>
 <e lm="bicarbonate" a="jaumeortola"><i>bicarbonate</i><par n="livre__n"/></e>
 <e lm="biélorusse" a="jaumeortola"><i>biélorusse</i><par n="artiste__n"/></e>
+<e lm="biélorusse"><i>biélorusse</i><par n="académique__adj"/></e>
 <e lm="bigot" a="jaumeortola"><i>bigot</i><par n="affecté__n"/></e>
 <e lm="bilinguisme" a="jaumeortola"><i>bilinguisme</i><par n="livre__n"/></e>
 <e lm="billard" a="jaumeortola"><i>billard</i><par n="livre__n"/></e>
@@ -35560,7 +35565,6 @@
 <e lm="collectivisme" a="jaumeortola"><i>collectivisme</i><par n="livre__n"/></e>
 <e lm="collégiale" a="jaumeortola"><i>collégiale</i><par n="abeille__n"/></e>
 <e lm="colloïde" a="jaumeortola"><i>colloïde</i><par n="livre__n"/></e>
-<e lm="colombien" a="jaumeortola"><i>colombien</i><par n="ancien__n"/></e>
 <e lm="côlon" a="jaumeortola"><i>côlon</i><par n="livre__n"/></e>
 <e lm="colonialisme" a="jaumeortola"><i>colonialisme</i><par n="livre__n"/></e>
 <e lm="colonnade" a="jaumeortola"><i>colonnade</i><par n="abeille__n"/></e>
@@ -37520,7 +37524,6 @@
 <e lm="béton armé"><p><l>béton<b/>armé</l><r>béton<b/>armé<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="béton armé"><p><l>bétons<b/>armés</l><r>béton<b/>armé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
-
 <e lm="ancien ministre"><p><l>ancien<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ancien ministre"><p><l>ancienne<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="ancien ministre"><p><l>ancien<b/>ministres</l><r>ancien<b/>ministre<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -38067,6 +38070,19 @@
 <e lm="DVD">             <i>DVD</i><par n="BBVA__n"/></e>
 <e lm="PSC">             <i>PSC</i><par n="BBVA__n"/></e>
 <e lm="DJ" a="prompsit2adn"><i>DJ</i><par n="ATS__n"/></e>
+<e lm="répeuplement"><i>répeuplement</i><par n="livre__n"/></e>
+<e lm="robotique"><i>robotique</i><par n="abeille__n"/></e>
+<e lm="obsidiane"><i>obsidiane</i><par n="abeille__n"/></e>
+<e lm="privacité"><i>privacité</i><par n="abeille__n"/></e>
+<e lm="rate"><i>rate</i><par n="abeille__n"/></e>
+<e lm="feraille"><i>feraille</i><par n="abeille__n"/></e>
+<e lm="ilium"><i>ilium</i><par n="livre__n"/></e>
+<e lm="gémissement"><i>gémissement</i><par n="livre__n"/></e>
+<e lm="lilas"><i>lilas</i><par n="mois__n"/></e>
+<e lm="lilas"><i>lilas</i><par n="arrière__adj"/></e>
+<e lm="UIB">             <i>UIB</i><par n="BBC__n"/></e>
+<e lm="trafic routier"><p><l>trafic<b/>routier</l><r>trafic<b/>routier<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="trafic routier"><p><l>trafics<b/>routiers</l><r>trafic<b/>routier<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 
 	<!-- xxx -->
@@ -38187,6 +38203,7 @@
 <e r="LR" lm="dans bien de" a="webform"><p><l>dans<b/>bien<b/>d'</l><r>dans<b/>bien<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="dans le cadre de"><p><l>dans<b/>le<b/>cadre<b/>d'</l><r>dans<b/>le<b/>cadre<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="en cas de"><p><l>en<b/>cas<b/>d'</l><r>en<b/>cas<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en plus de"><p><l>en<b/>plus<b/>d'</l><r>en<b/>plus<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="en raison de" a="webform"><p><l>en<b/>raison<b/>d'</l><r>en<b/>raison<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="en échange de" a="webform"><p><l>en<b/>échange<b/>d'</l><r>en<b/>échange<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="jusque">   <p><l>jusqu'</l>    <r>jusque<s n="pr"/></r></p></e>
@@ -38199,6 +38216,8 @@
 <e r="LR" lm="à l'instar de" a="webform"><p><l>à<b/>l'instar<b/>d'</l><r>à<b/>l'instar<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'occasion de" a="webform"><p><l>à<b/>l'occasion<b/>d'</l><r>à<b/>l'occasion<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'égard de"><p><l>à<b/>l'égard<b/>d'</l><r>à<b/>l'égard<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à moins de"><p><l>à<b/>moins<b/>d'</l><r>à<b/>moins<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à partir de"><p><l>à<b/>partir<b/>d'</l><r>à<b/>partir<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à propos de"><p><l>à<b/>propos<b/>d'</l><r>à<b/>propos<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à proximité de"><p><l>à<b/>proximité<b/>d'</l><r>à<b/>proximité<b/>de<s n="pr"/></r></p></e>
     <!-- ******************************

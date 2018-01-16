@@ -209,6 +209,8 @@ REMOVE Inf IF (-2C Être) (-1C Adv) (0 Inf) ;
 
 SELECT Haver IF (0 Avoir) (1 PP) ;
   ## Est-ce que tu as vu Jean ?
+SELECT Haver (-2 ("il") + P3 + Masc + Sg)  (-1 ("y")) (0 Avoir) (NOT 1 PP) ;
+  ## il y a, il y avait
 SELECT V IF (-1 Avoir) (0 Avoir + PP) ;
   ## Le jeune homme a eu plus de
 SELECT V IF (-2 Avoir) (-1 Adv) (0 Avoir + PP) ;
@@ -268,6 +270,9 @@ SELECT Savoir IF (0C Savoir OR Saurer) ;
 
 SELECT N IF (-1 Num) (0C N OR V) ;
   ## 9 combats
+SELECT N IF (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
+  ## que le pouvoir de
+  ## , conseiller regional, 
 
 SELECT Tn IF (0 Lui) (1 Aussi);
 SELECT Tn IF (0 Nous) (1 Aussi);
@@ -412,9 +417,6 @@ SELECT Haver IF (-2 Ne) (-1 Pro) (-0 Haver) (1 Adv) (2 Adv) (3 PP) ;
 SELECT PP IF (-1 Ser) (0 PP) (OC Verb) ;
   ## sont investis
 
-SELECT N IF (-1 DetDef) (0C N OR Verb) (1 Prep) ;
-  ## que le pouvoir de
-
 REMOVE N IF (-1 Nous) (0 Somme OR Ser) ;
   ## nous sommes assaillis
 
@@ -438,8 +440,8 @@ SELECT Prep IF (-2C Prep) (-1C N) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de différence entre les tyrannies
 SELECT Prep IF (-3C Prep) (-2C N OR A) (-1C N OR A OR PP) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de grosses différences entre les tyrannies
-REMOVE V (0 Entre) (*-1 V BARRIER Cnj_Rel) ;  # no funciona sempre
-REMOVE V (0 Entre) (*1 V BARRIER Cnj_Rel) ;
+REMOVE V (0 Entre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
+REMOVE V (0 Entre) (*1 Verb BARRIER Cnj_Rel) ;
 
 SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
