@@ -21614,6 +21614,7 @@
 <e lm="Célèbes">         <i>Célèbes</i><par n="Andorre__np"/></e>
 <e lm="César">           <i>César</i><par n="Carrefour__np"/></e>
 <e lm="César">           <i>César</i><par n="Antoine__np"/></e>
+<e lm="Tibère">          <i>Tibère</i><par n="Antoine__np"/></e>
 <e lm="Cézanne">         <i>Cézanne</i><par n="Saussure__np"/></e>
 <e lm="Côme">            <i>Côme</i><par n="Andorre__np"/></e>
 <e lm="Côte-d'Azur">     <i>Côte-d'Azur</i><par n="Bulgarie__np"/></e>
@@ -23941,6 +23942,7 @@
 <e lm="Maragall">        <i>Maragall</i><par n="Saussure__np"/></e>
 <e lm="Marathon">        <i>Marathon</i><par n="Carrefour__np"/></e>
 <e lm="Marc">            <i>Marc</i><par n="Antoine__np"/></e>
+<e lm="Marc Antoine">    <i>Marc<b/>Antoine</i><par n="Antoine__np"/></e>
 <e lm="Marcano">         <i>Marcano</i><par n="Abraham__np"/></e>
 <e lm="Marcel">          <i>Marcel</i><par n="Antoine__np"/></e>
 <e lm="Marcelino Iglesias Ricou"><i>Marcelino<b/>Iglesias<b/>Ricou</i><par n="Abraham__np"/></e>
@@ -38131,6 +38133,8 @@
 <e lm="ouïghour"><i>ouïghour</i><par n="affecté__n"/></e>
 <e lm="ouïghour"><i>ouïghour</i><par n="abaissant__adj"/></e>
 <e lm="philippin">       <i>philippin</i><par n="abaissant__adj"/></e>
+<e lm="av. J.-C.">       <i>av.<b/>J.-C.</i><par n="hier__adv"/></e>
+<e lm="ap. J.-C.">       <i>ap.<b/>J.-C.</i><par n="hier__adv"/></e>
 
 
 	<!-- xxx -->
