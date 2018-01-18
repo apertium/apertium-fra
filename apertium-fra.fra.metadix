@@ -31948,6 +31948,7 @@
 <e r="RL" lm="est-ce que"><p><l>est-ce<b/><a/>que</l><r>est-ce<b/>que</r></p><par n="que__prn"/></e>
 <e r="LR" lm="est-ce que"><i>est-ce<b/>que</i><par n="que__prn"/></e>
 <e lm="eux">             <i>eux</i><par n="eux__prn"/></e>
+<e lm="eux tous">        <p><l>eux<b/>tous</l><r>eux<b/>tous</r></p><par n="eux__prn"/></e>
 <e lm="il">              <par n="/il__prn"/></e>
 <e r="LR" lm="je">       <p><l>je</l>        <r>je</r></p><par n="je__prn"/></e>
 <e lm="le">              <i>l</i><par n="l/e__prn"/></e>
@@ -31968,6 +31969,7 @@
 <e lm="n'importe quoi">  <i>n'importe<b/>quoi</i><par n="ceci__prn"/></e>
 <e lm="nous">            <p><l>nous</l>      <r>nous</r></p><par n="nous__prn"/></e>
 <e lm="nous-mêmes">      <p><l>nous-mêmes</l><r>nous-mêmes</r></p><par n="nous__prn"/></e>
+<e lm="nous tous">       <p><l>nous<b/>tous</l><r>nous<b/>tous</r></p><par n="nous__prn"/></e>
 <e lm="on">              <i>on</i><par n="on__prn"/></e>
 <e lm="personne">        <i>personne</i><par n="personne__prn"/></e>
 <e r="RL" lm="qu'est-ce que"><p><l>qu'est-ce<b/><a/>que</l><r>qu'est-ce<b/>que</r></p><par n="que__prn"/></e>
@@ -31994,6 +31996,7 @@
 <e lm="un">              <i>un</i><par n="un__prn"/></e>
 <e lm="vous">            <p><l>vous</l>      <r>vous</r></p><par n="vous__prn"/></e>
 <e lm="vous-mêmes">      <p><l>vous-mêmes</l><r>vous-mêmes</r></p><par n="vous__prn"/></e>
+<e lm="vous tous">       <p><l>vous<b/>tous</l><r>vous<b/>tous</r></p><par n="vous__prn"/></e>
 <e lm="y">               <i>y</i><par n="en__prn"/></e>
 
 
@@ -38135,6 +38138,13 @@
 <e lm="philippin">       <i>philippin</i><par n="abaissant__adj"/></e>
 <e lm="av. J.-C.">       <i>av.<b/>J.-C.</i><par n="hier__adv"/></e>
 <e lm="ap. J.-C.">       <i>ap.<b/>J.-C.</i><par n="hier__adv"/></e>
+<e lm="square"><i>square</i><par n="livre__n"/></e>
+<e lm="inclinable"><i>inclinable</i><par n="académique__adj"/></e>
+<e lm="pentatonique"><i>pentatonique</i><par n="académique__adj"/></e>
+<e lm="dodécaphonique"><i>dodécaphonique</i><par n="académique__adj"/></e>
+<e lm="dodécaphonisme"><i>dodécaphonisme</i><par n="livre__n"/></e>
+<e lm="dodécaphoniste"><i>dodécaphoniste</i><par n="académique__adj"/></e>
+<e lm="dodécaphoniste"><i>dodécaphoniste</i><par n="académique__adj"/></e>
 
 
 	<!-- xxx -->
