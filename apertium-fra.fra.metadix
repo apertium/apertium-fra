@@ -9068,9 +9068,13 @@
 <e lm="beaucoup">        <i>beaucoup</i><par n="hier__adv"/></e>
 <e lm="beaucoup après">  <i>beaucoup<b/>après</i><par n="hier__adv"/></e>
 <e lm="beaucoup avant">  <i>beaucoup<b/>avant</i><par n="hier__adv"/></e>
-<e lm="beaucoup mieux">  <i>beaucoup<b/>mieux</i><par n="hier__adv"/></e>
+<e r="LR" lm="beaucoup mieux" c="l'usage préfère 'bien mieux'">  <i>beaucoup<b/>mieux</i><par n="hier__adv"/></e>
+<e lm="bien plus">       <i>bien<b/>plus</i><par n="hier__adv"/></e>
+<e lm="bien mieux">      <i>bien<b/>mieux</i><par n="hier__adv"/></e>
+<e lm="bien pire">       <i>bien<b/>pire</i><par n="hier__adv"/></e>
 <e lm="beaucoup moins">  <i>beaucoup<b/>moins</i><par n="hier__adv"/></e>
 <e lm="beaucoup plus">   <i>beaucoup<b/>plus</i><par n="hier__adv"/></e>
+<e lm="autrement plus">  <i>autrement<b/>plus</i><par n="hier__adv"/></e>
 <e lm="bien">            <i>bien</i><par n="hier__adv"/></e>
 <e lm="bien au-delà">    <i>bien<b/>au-delà</i><par n="hier__adv"/></e>
 <e lm="bien au contraire"><i>bien<b/>au<b/>contraire</i><par n="hier__adv"/></e>
@@ -9078,7 +9082,15 @@
 <e lm="bien pire">       <i>bien<b/>pire</i><par n="hier__adv"/></e>
 <e lm="bien sûr">        <i>bien<b/>sûr</i><par n="hier__adv"/></e>
 <e lm="bientôt">         <i>bientôt</i><par n="hier__adv"/></e>
+<e lm="peu après">       <i>peu<b/>après</i><par n="hier__adv"/></e>
+<e lm="un peu après">    <i>un<b/>peu<b/>après</i><par n="hier__adv"/></e>
+<e lm="peu avant">       <i>peu<b/>avant</i><par n="hier__adv"/></e>
+<e lm="un peu avant">    <i>un<b/>peu<b/>avant</i><par n="hier__adv"/></e>
 <e lm="bientôt après">   <i>bientôt<b/>après</i><par n="hier__adv"/></e>
+<e lm="un peu avant" a="hector"><i>un<b/>peu<b/>avant</i><par n="attendu__pr"/></e>
+<e lm="longtemps avant"> <i>longtemps<b/>avant</i><par n="hier__adv"/></e>
+<e lm="bien avant">      <i>bien<b/>avant</i><par n="hier__adv"/></e>
+<e lm="bien en avance">  <i>bien<b/>en<b/>avance</i><par n="hier__adv"/></e>
 <e lm="biilatéralement"> <i>biilatéralement</i><par n="hier__adv"/></e>
 <e lm="bilatéralement" a="hector"><i>bilatéralement</i><par n="hier__adv"/></e>
 <e lm="bon gré mal gré"> <i>bon<b/>gré<b/>mal<b/>gré</i><par n="hier__adv"/></e>
@@ -9577,6 +9589,7 @@
 <e lm="merci beaucoup">  <i>merci<b/>beaucoup</i><par n="hier__adv"/></e>
 <e lm="merveilleusement"><i>merveilleusement</i><par n="hier__adv"/></e>
 <e lm="mieux">           <i>mieux</i><par n="hier__adv"/></e>
+<e lm="un peu mieux">    <i>un<b/>peu<b/>mieux</i><par n="hier__adv"/></e>
 <e lm="minuit">          <i>minuit</i><par n="hier__adv"/></e>
 <e lm="miraculeusement" a="joan"><i>miraculeusement</i><par n="hier__adv"/></e>
 <e lm="moi aussi">       <i>moi<b/>aussi</i><par n="hier__adv"/></e>
@@ -9881,8 +9894,16 @@
 <e lm="tôt">             <i>tôt</i><par n="hier__adv"/></e>
 
 <e lm="un peu" a="hector"><i>un<b/>peu</i><par n="hier__adv"/></e>
+<e lm="un peu avant" a="hector"><i>un<b/>peu<b/>avant</i><par n="hier__adv"/></e>
 <e lm="un peu moins" a="hector"><i>un<b/>peu<b/>moins</i><par n="hier__adv"/></e>
 <e lm="un peu plus" a="hector"><i>un<b/>peu<b/>plus</i><par n="hier__adv"/></e>
+<e lm="un petit peu" a="hector"><i>un<b/>petit<b/>peu</i><par n="hier__adv"/></e>
+<e lm="un petit peu moins" a="hector"><i>un<b/>petit<b/>peu<b/>moins</i><par n="hier__adv"/></e>
+<e lm="un petit peu plus" a="hector"><i>un<b/>petit<b/>peu<b/>plus</i><par n="hier__adv"/></e>
+<e lm="un peu trop">     <i>un<b/>peu<b/>trop</i><par n="hier__adv"/></e>
+<e lm="un peu trop peu"> <i>un<b/>peu<b/>trop<b/>peu</i><par n="hier__adv"/></e>
+<e lm="un petit peu trop"><i>un<b/>petit<b/>peu<b/>trop</i><par n="hier__adv"/></e>
+<e lm="un petit peu trop peu"> <i>un<b/>petit<b/>peu<b/>trop<b/>peu</i><par n="hier__adv"/></e>
 <e lm="une bonne fois pour toutes"><i>une<b/>bonne<b/>fois<b/>pour<b/>toutes</i><par n="hier__adv"/></e>
 <e lm="une fois">        <i>une<b/>fois</i><par n="hier__adv"/></e>
 <e lm="unidirectionellement" a="hector"><i>unidirectionellement</i><par n="hier__adv"/></e>
@@ -9992,6 +10013,7 @@
 <e lm="à une époque lontaine"><i>à<b/>une<b/>époque<b/>lontaine</i><par n="hier__adv"/></e>
 <e lm="à échelle">       <i>à<b/>échelle</i><par n="hier__adv"/></e>
 <e lm="économiquement">  <i>économiquement</i><par n="hier__adv"/></e>
+<e lm="tout aussi">      <i>tout<b/>aussi</i><par n="hier__adv"/></e>
 <e lm="également">       <i>également</i><par n="hier__adv"/></e>
 <e lm="électoralement" a="hector"><i>électoralement</i><par n="hier__adv"/></e>
 <e lm="élégamment">      <i>élégamment</i><par n="hier__adv"/></e>
@@ -12689,8 +12711,9 @@
 <e lm="coupe-feu">       <i>coupe-feu</i><par n="mois__n"/></e>
 <e lm="couple">          <i>couple</i><par n="livre__n"/></e>
 <e lm="coupon">          <i>coupon</i><par n="livre__n"/></e>
-<e lm="cour de cassation"><i>cour</i><par n="abeille__n"/><p><l><b/>de<b/>cassation</l><r><g><b/>de<b/>cassation</g></r></p></e>
 <e lm="cour">            <i>cour</i><par n="abeille__n"/></e>
+<e lm="cour de cassation"><i>cour</i><par n="abeille__n"/><p><l><b/>de<b/>cassation</l><r><g><b/>de<b/>cassation</g></r></p></e>
+<e lm="cour de récréation"><i>cour</i><par n="abeille__n"/><p><l><b/>de<b/>récréation</l><r><g><b/>de<b/>récréation</g></r></p></e>
 <e lm="courage">         <i>courage</i><par n="livre__n"/></e>
 <e lm="courant">         <i>courant</i><par n="livre__n"/></e>
 <e lm="courbe">          <i>courbe</i><par n="abeille__n"/></e>
@@ -12705,7 +12728,10 @@
 <e lm="cours de formation"><i>cours</i><par n="livre__n"/><p><l><b/>de<b/>formation</l><r><g><b/>de<b/>formation</g></r></p></e>
 <e lm="cours">           <i>cours</i><par n="mois__n"/></e>
 <e lm="course">          <i>course</i><par n="abeille__n"/></e>
-<e lm="court">           <i>court</i><par n="abeille__n"/></e>
+<e lm="court">           <i>court</i><par n="livre__n"/></e>
+<e lm="court de tennis"> <i>court</i><par n="livre__n"/><p><l><b/>de<b/>tennis</l><r><g><b/>de<b/>tennis</g></r></p></e>
+<e lm="un peu trop">     <i>un<b/>peu<b/>trop</i><par n="hier__adv"/></e>
+<e lm="un peu trop peu"> <i>un<b/>peu<b/>trop<b/>peu</i><par n="hier__adv"/></e>
 <e lm="court-circuit">   <i>court-circuit</i><par n="livre__n"/></e>
 <e lm="court-métrage">   <i>court-métrage</i><par n="livre__n"/></e>
 <e lm="courtage">        <i>courtage</i><par n="livre__n"/></e>
@@ -31706,7 +31732,18 @@
 <e r="LR" lm="à partir de"><p><l>A<b/>partir<b/></l><r>à<b/>partir<b/></r></p><par n="contde__pr"/></e>
 <e lm="afin de">         <i>afin<b/></i><par n="contde__pr"/></e>
 <e lm="après">           <i>après</i><par n="attendu__pr"/></e>
-<e lm="vers">            <i>après</i><par n="attendu__pr"/></e>
+<e lm="peu après">       <i>peu<b/>après</i><par n="attendu__pr"/></e>
+<e lm="un peu après">    <i>un<b/>peu<b/>après</i><par n="attendu__pr"/></e>
+<e lm="peu avant">       <i>peu<b/>avant</i><par n="attendu__pr"/></e>
+<e lm="un peu avant">    <i>un<b/>peu<b/>avant</i><par n="attendu__pr"/></e>
+<e lm="bientôt après">   <i>bientôt<b/>après</i><par n="attendu__pr"/></e>
+<e lm="longtemps avant"> <i>longtemps<b/>avant</i><par n="attendu__pr"/></e>
+<e lm="bien avant">      <i>bien<b/>avant</i><par n="attendu__pr"/></e>
+<e lm="bien en avance">  <i>bien<b/>en<b/>avance<b/>sur</i><par n="attendu__pr"/></e>
+<e lm="un peu en avance"><i>un<b/>peu<b/>en<b/>avance<b/>sur</i><par n="attendu__pr"/></e>
+<e lm="un petit peu trop de"><i>un<b/>petit<b/>peu<b/>trop<b/></i><par n="contde__pr"/></e>
+<e lm="un petit peu trop peu de"><i>un<b/>petit<b/>peu<b/>trop<b/>peu<b/></i><par n="contde__pr"/></e>
+<e lm="vers">            <i>vers</i><par n="attendu__pr"/></e>
 <e lm="attendu">         <i>attendu</i><par n="attendu__pr"/></e>
 <e lm="au-dehors de">    <i>au-dehors<b/></i><par n="contde__pr"/></e>
 <e r="LR" lm="au-delà de"><i>au-delà<b/></i><par n="contde__pr"/></e>
@@ -31830,6 +31867,9 @@
 <e lm="un peu de">       <i>un<b/>peu<b/></i><par n="contde__pr"/></e>
 <e lm="un peu moins de"> <i>un<b/>peu<b/>moins<b/></i><par n="contde__pr"/></e>
 <e lm="un peu plus de">  <i>un<b/>peu<b/>plus<b/></i><par n="contde__pr"/></e>
+<e lm="un petit peu de"> <i>un<b/>petit<b/>peu<b/></i><par n="contde__pr"/></e>
+<e lm="un petit peu moins de"><i>un<b/>petit<b/>peu<b/>moins<b/></i><par n="contde__pr"/></e>
+<e lm="un petit peu plus de"><i>un<b/>petit<b/>peu<b/>plus<b/></i><par n="contde__pr"/></e>
 <e lm="vers">            <i>vers</i><par n="attendu__pr"/></e>
 <e lm="via">             <i>via</i><par n="attendu__pr"/></e>
 <e r="LR" lm="à">        <i>à</i><par n="attendu__pr"/></e>
@@ -31894,6 +31934,7 @@
     <!-- ******************************
           group preadv
       ****************************** -->
+<e lm="beaucoup">        <i>beaucoup</i><par n="très__preadv"/></e>
 <e lm="bien">            <i>bien</i><par n="très__preadv"/></e>
 <e lm="fort">            <i>fort</i><par n="très__preadv"/></e>
 <e r="LR" lm="guère">    <i>guère</i><par n="très__preadv"/></e>
@@ -31902,6 +31943,8 @@
 <e lm="quasi">           <i>quasi</i><par n="très__preadv"/></e>
     <!-- <e lm="si" r="LR"><i>si</i><par n="hier__adv"/></e> -->
 <e lm="si">              <i>si</i><par n="très__preadv"/></e>
+<e lm="aussi">           <i>aussi</i><par n="très__preadv"/></e>
+<e lm="tout aussi">      <i>tout<b/>aussi</i><par n="très__preadv"/></e>
 <e lm="tellement">       <i>tellement</i><par n="très__preadv"/></e>
 <e lm="très">            <i>très</i><par n="très__preadv"/></e>
     <!-- ******************************
@@ -34979,6 +35022,7 @@
 <e lm="glacial" a="jaumeortola"><i>glacia</i><par n="amica/l__adj"/></e>
 <e lm="gouvernant" a="jaumeortola"><i>gouvernant</i><par n="abaissant__adj"/></e>
 <e lm="grégorien" a="jaumeortola"><i>grégorien</i><par n="ancien__adj"/></e>
+<e lm="julien" a="hector"><i>julien</i><par n="ancien__adj"/></e>
 <e lm="hellénistique" a="jaumeortola"><i>hellénistique</i><par n="académique__adj"/></e>
 <e lm="héraldique" a="jaumeortola"><i>héraldique</i><par n="académique__adj"/></e>
 <e lm="herbacé" a="jaumeortola"><i>herbacé</i><par n="abaissant__adj"/></e>
@@ -38145,7 +38189,10 @@
 <e lm="dodécaphonisme"><i>dodécaphonisme</i><par n="livre__n"/></e>
 <e lm="dodécaphoniste"><i>dodécaphoniste</i><par n="académique__adj"/></e>
 <e lm="dodécaphoniste"><i>dodécaphoniste</i><par n="académique__adj"/></e>
-
+<e lm="Mare Nostrum">    <i>Mare<b/>Nostrum</i><par n="Iran__np"/></e>
+<e lm="d'habitude"><i>d'habitude</i><par n="hier__adv"/></e>
+<e lm="un tant soit peu"><i>un<b/>tant<b/>soit<b/>peu</i><par n="hier__adv"/></e>
+<e lm="gamin"><i>gamin</i><par n="affecté__n"/></e>
 
 	<!-- xxx -->
   </section>
