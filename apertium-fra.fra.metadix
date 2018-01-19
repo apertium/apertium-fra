@@ -6151,6 +6151,7 @@
   <e>       <p><l>étais</l>     <r>être<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>étaient</l>   <r>être<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>était</l>     <r>être<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>c'était</l>   <r>être<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>fussions</l>  <r>être<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>fusse</l>     <r>être<s n="vbser"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>fussiez</l>   <r>être<s n="vbser"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
@@ -32045,6 +32046,7 @@
 
 <e r="LR" lm="à quoi est-ce que"><i>à<b/>quoi<b/>est-ce<b/>que</i><par n="que__prn"/></e>
 <e lm="ça">              <i>ça</i><par n="ceci__prn"/></e>
+
     <!-- ******************************
           group prn_symbol
       ****************************** -->
@@ -38193,6 +38195,9 @@
 <e lm="d'habitude"><i>d'habitude</i><par n="hier__adv"/></e>
 <e lm="un tant soit peu"><i>un<b/>tant<b/>soit<b/>peu</i><par n="hier__adv"/></e>
 <e lm="gamin"><i>gamin</i><par n="affecté__n"/></e>
+<e lm="sur place">     <i>sur<b/>place</i><par n="hier__adv"/></e>
+<e lm="en principe">     <i>en<b/>principe</i><par n="hier__adv"/></e>
+<e lm="avant tout">     <i>avant<b/>tout</i><par n="hier__adv"/></e>
 
 	<!-- xxx -->
   </section>
@@ -38344,7 +38349,9 @@
 <e r="LR" lm="que">      <p><l>qu'</l>       <r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="qu'est-ce que"><p><l>qu'est-ce<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="qu'est-ce que c'est que"><p><l>qu'est-ce<b/>que<b/>c'est<b/>qu'</l><r>qu'est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/><j/>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+<e r="LR" lm="c'">       <p><l>c'</l>        <r>ça<s n="prn"/><s n="tn"/><s n="nt"/></r></p></e>
 <e r="LR" lm="s'">       <p><l>s'</l>        <r>se<s n="prn"/><s n="pro"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+
 <e r="LR" lm="t'">       <p><l>t'</l>        <r>te<s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR" lm="à quoi est-ce que"><p><l>à<b/>quoi<b/>est-ce<b/>qu'</l><r>à<b/>quoi<b/>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sg"/></r></p></e>
     <!-- ******************************
