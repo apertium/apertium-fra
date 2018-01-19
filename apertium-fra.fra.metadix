@@ -1135,6 +1135,8 @@
 <pardef n="nous__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="me__prn">
@@ -1144,6 +1146,8 @@
 <pardef n="vous__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="te__prn">
@@ -1185,10 +1189,14 @@
 
 <pardef n="je__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p1"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="tu__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p2"/><s n="f"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="moi__prn">
@@ -10419,6 +10427,7 @@
 <e lm="Afar">            <i>Afar</i><par n="BBC__n"/></e>
 <e lm="Afra">            <i>Afra</i><par n="BBC__n"/></e>
 <e lm="Agca">            <i>Agca</i><par n="BBVA__n"/></e>
+<e lm="Al-Andalus">      <i>Al-Andalus</i><par n="Iran__np"/></e>
 <e lm="Algérien">        <i>Algérien</i><par n="ancien__n"/></e>
 <e lm="Alosi">           <i>Alosi</i><par n="BBVA__n"/></e>
 <e lm="Ampea">           <i>Ampea</i><par n="BBC__n"/></e>
@@ -12729,6 +12738,7 @@
 <e lm="cours de formation"><i>cours</i><par n="livre__n"/><p><l><b/>de<b/>formation</l><r><g><b/>de<b/>formation</g></r></p></e>
 <e lm="cours">           <i>cours</i><par n="mois__n"/></e>
 <e lm="course">          <i>course</i><par n="abeille__n"/></e>
+<e lm="course de fond">  <i>course</i><par n="livre__n"/><p><l><b/>de<b/>fond</l><r><g><b/>de<b/>fond</g></r></p></e>
 <e lm="court">           <i>court</i><par n="livre__n"/></e>
 <e lm="court de tennis"> <i>court</i><par n="livre__n"/><p><l><b/>de<b/>tennis</l><r><g><b/>de<b/>tennis</g></r></p></e>
 <e lm="un peu trop">     <i>un<b/>peu<b/>trop</i><par n="hier__adv"/></e>
@@ -21139,6 +21149,7 @@
 <e lm="Calvados">        <i>Calvados</i><par n="Andorre__np"/></e>
 <e lm="Calvaire">        <i>Calvaire</i><par n="Andorre__np"/></e>
 <e lm="Calvin">          <i>Calvin</i><par n="Antoine__np"/></e>
+<e lm="Calvin">          <i>Calvin</i><par n="Saussure__np"/></e>
 <e lm="Calédonie">       <i>Calédonie</i><par n="Andorre__np"/></e>
 <e lm="Camacho">         <i>Camacho</i><par n="Saussure__np"/></e>
 <e lm="Camargue">        <i>Camargue</i><par n="Andorre__np"/></e>
@@ -26609,7 +26620,7 @@
 <e lm="Wiggins">         <i>Wiggins</i><par n="Abraham__np"/></e>
 <e lm="Wii">             <i>Wii</i><par n="Carrefour__np"/></e>
 <e lm="Wikeriadur">      <i>Wikeriadur</i><par n="Carrefour__np"/></e>
-<e lm="Wikipédia">       <i>Wikipédia</i><par n="Carrefour__np"/></e>
+<e lm="Wikipédia">       <i>Wikipédia</i><par n="Wikipedia__np"/></e>
 <e lm="Wiktionnaire">    <i>Wiktionnaire</i><par n="Carrefour__np"/></e>
 <e lm="Wilde">           <i>Wilde</i><par n="Saussure__np"/></e>
 <e lm="Wilkinson">       <i>Wilkinson</i><par n="Carrefour__np"/></e>
@@ -32400,6 +32411,7 @@
 <e lm="arrondir">        <i>arrond</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="arroser">         <i>arros</i><par n="abaiss/er__vblex"/></e>
 <e lm="arrêter">         <i>arrêt</i><par n="abaiss/er__vblex"/></e>
+<e lm="arrêter de">      <i>arrêt</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="articuler">       <i>articul</i><par n="abaiss/er__vblex"/></e>
 <e lm="aspirer">         <i>aspir</i><par n="abaiss/er__vblex"/></e>
 <e lm="assener">         <i>ass</i><par n="ach/e[T]er__vblex" prm="n"/></e>
@@ -32582,6 +32594,7 @@
 <e lm="cercler">         <i>cercl</i><par n="abaiss/er__vblex"/></e>
 <e lm="certifier">       <i>certifi</i><par n="abaiss/er__vblex"/></e>
 <e lm="cesser">          <i>cess</i><par n="abaiss/er__vblex"/></e>
+<e lm="cesser de">       <i>cess</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="choir">           <i>ch</i><par n="ch/oir__vblex"/></e>
 <e lm="chamarrer">       <i>chamarr</i><par n="abaiss/er__vblex"/></e>
 <e lm="chambrer">        <i>chambr</i><par n="abaiss/er__vblex"/></e>
@@ -38198,6 +38211,12 @@
 <e lm="sur place">     <i>sur<b/>place</i><par n="hier__adv"/></e>
 <e lm="en principe">     <i>en<b/>principe</i><par n="hier__adv"/></e>
 <e lm="avant tout">     <i>avant<b/>tout</i><par n="hier__adv"/></e>
+<e lm="calvinisme"><i>calvinisme</i><par n="livre__n"/></e>
+<e lm="calviniste"><i>calviniste</i><par n="académique__adj"/></e>
+<e lm="calviniste"><i>calviniste</i><par n="artiste__n"/></e>
+<e lm="luthéranisme"><i>luthéranisme</i><par n="livre__n"/></e>
+<e lm="luthérien"><i>luthérien</i><par n="ancien__adj"/></e>
+<e lm="luthérien"><i>luthérien</i><par n="ancien__n"/></e>
 
 	<!-- xxx -->
   </section>
