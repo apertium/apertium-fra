@@ -477,6 +477,11 @@ SELECT PP IF (-1 Ser) (0 PP) (OC Verb) ;
 REMOVE N IF (-1 Nous) (0 Somme OR Ser) ;
   ## nous sommes assaillis
 
+SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
+  ## que nous avons apris
+SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;
+  ## que nous n'avons pas apris
+
 SELECT Prep IF (0 En) (1C N OR A) ;
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
