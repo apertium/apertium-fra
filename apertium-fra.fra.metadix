@@ -31840,6 +31840,7 @@
 <e lm="moyennant">       <i>moyennant</i><par n="attendu__pr"/></e>
 <e lm="non inférieur à"> <i>non<b/>inférieur<b/></i><par n="conta__pr"/></e>
 <e lm="outre">           <i>outre</i><par n="attendu__pr"/></e>
+<e lm="outre de">        <i>outre<b/></i><par n="contde__pr"/></e>
 <e lm="par">             <i>par</i><par n="attendu__pr"/></e>
 <e lm="par l'intermédiaire de"><i>par<b/>l'intermédiaire<b/></i><par n="contde__pr"/></e>
 <e lm="par ordre de">    <i>par<b/>ordre<b/></i><par n="contde__pr"/></e>
@@ -37753,6 +37754,7 @@
 <e lm="pois chiche"><i>pois<b/>chiche</i><par n="livre__n"/></e>
 <e lm="koinè"><i>koinè</i><par n="abeille__n"/></e>
 <e lm="infinitif"><i>infinitif</i><par n="livre__n"/></e>
+<e lm="outre">           <i>outre</i><par n="attendu__pr"/></e>
 <e lm="outre-Manche"><i>outre-Manche</i><par n="hier__adv"/></e>
 <e lm="outre-Atlantique"><i>outre-Atlantique</i><par n="hier__adv"/></e>
 <e lm="blues"><i>blues</i><par n="mois__n"/></e>

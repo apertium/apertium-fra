@@ -411,25 +411,65 @@ SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);
 
 SELECT PP IF (-1 Haver) (0 PP) ;
   ## Vous avez dit
-SELECT Sg IF (-1 Haver) (0 PP + Sg_Pl) ; 
+SELECT PP IF (-2 Haver) (-1C Adv) (0 PP) ;
+  ## Vous avez toujours dit
+SELECT Sg IF (NOT -2 Pro) (-1 Haver) (0 PP + Sg_Pl) ; 
   ## Vous avez pris
+SELECT Sg IF (NOT -3 Pro) (-2 Haver) (-1C Adv) (0 PP + Sg_Pl) ; 
+  ## Vous avez toujours pris
+SELECT Sg IF (-2 Pro + Sg) (-1 Haver) (0 PP + Sg_Pl) ; 
+  ## Vous lui avez pris
+SELECT Pl IF (-2 Pro + Pl) (-2 ("le")) (-1 Haver) (0 PP + Sg_Pl) ; 
+  ## Vous les avez pris
+SELECT Sg IF (-2 Pro + Pl) (-2 ("leur")) (-1 Haver) (0 PP + Sg_Pl) ; 
+  ## Vous leur avez pris
+SELECT Sg IF (-3 Pro + Sg) (-2 Haver) (-1C Adv) (0 PP + Sg_Pl) ; 
+  ## Vous lui avez toujours pris
+SELECT Pl IF (-3 Pro + Pl) (-3 ("le")) (-2 Haver) (-1C Adv) (0 PP + Sg_Pl) ; 
+  ## Vous les avez toujours pris
+SELECT Sg IF (-3 Pro + Pl) (-3 ("leur")) (-2 Haver) (-1C Adv) (0 PP + Sg_Pl) ; 
+  ## Vous leur avez toujours pris
 SELECT PP IF (-3 Ne) (-2 Haver) (0 PP) ;
   ## Vous n'avez pas dit
+SELECT PP IF (-4 Ne) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP) ;
+  ## Vous n'avez pas toujours dit
 SELECT Sg IF (-3 Ne) (-2 Haver) (0 PP + Sg_Pl) ;
   ## Vous n'avez pas pris
+SELECT Sg IF (-4 Ne) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP + Sg_Pl) ;
+  ## Vous n'avez pas toujours pris
 SELECT PP IF (-4 Ne) (-3 Pro) (-2 Haver) (0 PP) ;
   ## Vous ne lui avez pas dit
-SELECT Sg IF (-4 Ne) (-3 Pro) (-2 Haver) (0 PP + Sg_Pl) ;
+SELECT PP IF (-5 Ne) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP) ;
+  ## Vous ne lui avez pas toujours dit
+SELECT Sg IF (-4 Ne) (-3 Pro + Sg) (-2 Haver) (0 PP + Sg_Pl) ;
   ## Vous ne lui avez pas pris
+SELECT Pl IF (-4 Ne) (-3 Pro + Pl) (-3 ("le")) (-2 Haver) (0 PP + Sg_Pl) ;
+  ## Vous ne les avez pas pris
+SELECT Sg IF (-4 Ne) (-3 Pro + Pl) (-3 ("leur")) (-2 Haver) (0 PP + Sg_Pl) ;
+  ## Vous ne leur avez pas pris
+SELECT Sg IF (-5 Ne) (-4 Pro + Sg) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP + Sg_Pl) ;
+  ## Vous ne lui avez pas toujours pris
+SELECT Pl IF (-5 Ne) (-4 Pro + Pl) (-4 ("le")) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP + Sg_Pl) ;
+  ## Vous ne les avez pas toujours pris
+SELECT Sg IF (-5 Ne) (-4 Pro + Pl) (-4 ("leur")) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP + Sg_Pl) ;
+  ## Vous ne leur avez pas toujours pris
 SELECT PP IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PP) ;
   ## Vous ne le lui avez pas dit
-SELECT Sg IF (-5 Ne) (-4 Pro) (-3 Pro) (-2 Haver) (0 PP + Sg_Pl) ;
+SELECT PP IF (-6 Ne) (-5 Pro) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP) ;
+  ## Vous ne le lui avez pas toujours dit
+SELECT Sg IF (-5 Ne) (-4 Pro + Sg) (-3 Pro) (-2 Haver) (0 PP + Sg_Pl) ;
   ## Vous ne le lui avez pas pris
-SELECT PP IF (-3 Pro) (-2 Haver) (-1 Adv) (0 PP) ;
-  ## Vous lui avez toujours dit
-SELECT PP IF (-5 Ne) (-4 Pro) (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
-SELECT Haver IF (-2 Ne) (-1 Pro) (-0 Haver) (1 Adv) (2 Adv) (3 PP) ;
-  ## Vous ne lui avez pas toujours dit
+SELECT Pl IF (-5 Ne) (-4 Pro + Pl) (-3 Pro) (-2 Haver) (0 PP + Sg_Pl) ;
+  ## Vous ne les lui avez pas pris
+SELECT Sg IF (-6 Ne) (-5 Pro + Sg) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP + Sg_Pl) ;
+  ## Vous ne le lui avez pas toujours pris
+SELECT Pl IF (-6 Ne) (-5 Pro + Pl) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP + Sg_Pl) ;
+  ## Vous ne les lui avez pas toujours pris
+#SELECT PP IF (-3 Pro) (-2 Haver) (-1 Adv) (0 PP) ;
+#  ## Vous lui avez toujours dit
+#SELECT PP IF (-5 Ne) (-4 Pro) (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
+#SELECT Haver IF (-2 Ne) (-1 Pro) (-0 Haver) (1 Adv) (2 Adv) (3 PP) ;
+#  ## Vous ne lui avez pas toujours dit
 
 SELECT PP IF (-1 Ser) (0 PP) (OC Verb) ;
   ## sont investis
