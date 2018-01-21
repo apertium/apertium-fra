@@ -9049,6 +9049,7 @@
 <e lm="auprès">          <i>auprès</i><par n="hier__adv"/></e>
 <e lm="aussi">           <i>aussi</i><par n="hier__adv"/></e>
 <e lm="aussitôt">        <i>aussitôt</i><par n="hier__adv"/></e>
+<e lm="sitôt">           <i>sitôt</i><par n="hier__adv"/></e>
 <e lm="aussitôt après">  <i>aussitôt<b/>après</i><par n="hier__adv"/></e>
 <e lm="autant">          <i>autant</i><par n="hier__adv"/></e>
 <e r="RL" lm="autant que"><p><l>autant<b/><a/>que</l><r>autant<b/>que</r></p><par n="hier__adv"/></e>
@@ -10069,6 +10070,7 @@
 <e lm="aussi bien que">  <i>aussi<b/>bien<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="aussi longtemps que"><i>aussi<b/>longtemps<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="aussitôt que">    <i>aussitôt<b/></i><par n="afin_/que__cnjadv"/></e>
+<e lm="sitôt que">    <i>sitôt<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="autrement dit">   <i>autrement<b/>dit</i><par n="alors__cnjadv"/></e>
 <e lm="aux effets pertinents"><i>aux<b/>effets<b/>pertinents</i><par n="alors__cnjadv"/></e>
 <e lm="avant que">       <i>avant<b/></i><par n="afin_/que__cnjadv"/></e>
@@ -10945,7 +10947,6 @@
 <e lm="activiste">       <i>activiste</i><par n="artiste__n"/></e>
 <e lm="activité">        <i>activité</i><par n="abeille__n"/></e>
 <e lm="actrice">         <i>actrice</i><par n="abeille__n"/></e>
-<e lm="actu">            <i>actu</i><par n="abeille__n"/></e>
 <e lm="actuaire">        <i>actuaire</i><par n="artiste__n"/></e>
 <e lm="actualisation">   <i>actualisation</i><par n="abeille__n"/></e>
 <e lm="actualité">       <i>actualité</i><par n="abeille__n"/></e>
@@ -11348,7 +11349,7 @@
 <e lm="appât">           <i>appât</i><par n="livre__n"/></e>
 <e lm="appétit">         <i>appétit</i><par n="livre__n"/></e>
 <e lm="après-midi">      <i>après-midi</i><par n="livre__n"/></e>
-<e r="LR" lm="après-midi"><i>après-midi</i><par n="mois__n"/></e>
+<e r="LR" lm="après-midi"><i>après-midi</i><par n="mois__n"/></e> <!-- orthographe pré-1990 -->
 <e lm="aptitude">        <i>aptitude</i><par n="abeille__n"/></e>
 <e lm="apéritif">        <i>apéritif</i><par n="livre__n"/></e>
 <e lm="apôtre">          <i>apôtre</i><par n="livre__n"/></e>
@@ -12226,7 +12227,7 @@
 <e lm="chrétien">        <i>chrétien</i><par n="ancien__n"/></e>
 <e lm="chupinazo">       <i>chupinazo</i><par n="livre__n"/></e>
 <e lm="chute">           <i>chute</i><par n="abeille__n"/></e>
-<e lm="chypriote">       <i>chypriote</i><par n="artiste__n"/></e>
+<e lm="Chypriote">       <i>Chypriote</i><par n="artiste__n"/></e>
 <e lm="châle">           <i>châle</i><par n="livre__n"/></e>
 <e lm="châssis">         <i>châssis</i><par n="mois__n"/></e>
 <e lm="châtaigne">       <i>châtaigne</i><par n="abeille__n"/></e>
@@ -21389,7 +21390,7 @@
 <e lm="Chris">           <i>Chris</i><par n="Antoine__np"/></e>
 <e lm="Chris">           <i>Chris</i><par n="Marie__np"/></e>
 <e lm="Christ">          <i>Christ</i><par n="Carrefour__np"/></e>
-<e lm="Christ">          <i>Christ</i><par n="Abraham__np"/></e>
+<e lm="Christ">          <i>Christ</i><par n="Antoine__np"/></e>
 <e lm="Christensen">     <i>Christensen</i><par n="Abraham__np"/></e>
 <e lm="Christian">       <i>Christian</i><par n="Antoine__np"/></e>
 <e lm="Christine">       <i>Christine</i><par n="Marie__np"/></e>
@@ -30404,8 +30405,8 @@
 <e lm="Virgili"><i>Virgili</i><par n="Saussure__np"/></e>
 <e lm="Viscarro"><i>Viscarro</i><par n="Saussure__np"/></e>
 <e lm="Visconti"><i>Visconti</i><par n="Saussure__np"/></e>
-<e lm="Vitel·li"><i>Vitel·li</i><par n="Saussure__np"/></e>
-<e lm="Vitruvi"><i>Vitruvi</i><par n="Saussure__np"/></e>
+<e lm="Vitellius"><i>Vitellius</i><par n="Saussure__np"/></e>
+<e lm="Vitruve"><i>Vitruve</i><par n="Saussure__np"/></e>
 <e lm="Vivaldi"><i>Vivaldi</i><par n="Saussure__np"/></e>
 <e lm="Vivas"><i>Vivas</i><par n="Saussure__np"/></e>
 <e lm="Vivekananda"><i>Vivekananda</i><par n="Saussure__np"/></e>
@@ -31024,6 +31025,7 @@
 <e lm="Papagueno"><i>Papagueno</i><par n="Antoine__np"/></e>
 <e lm="Paquillo"><i>Paquillo</i><par n="Antoine__np"/></e>
 <e lm="Paris"><i>Paris</i><par n="Antoine__np"/></e>
+<e lm="Pâris"><i>Pâris</i><par n="Antoine__np"/></e>
 <e lm="Pascal"><i>Pascal</i><par n="Antoine__np"/></e>
 <e lm="Pastor"><i>Pastor</i><par n="Antoine__np"/></e>
 <e lm="Patricio"><i>Patricio</i><par n="Antoine__np"/></e>
@@ -32414,7 +32416,8 @@
 <e lm="arrondir">        <i>arrond</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="arroser">         <i>arros</i><par n="abaiss/er__vblex"/></e>
 <e lm="arrêter">         <i>arrêt</i><par n="abaiss/er__vblex"/></e>
-<e lm="arrêter de">      <i>arrêt</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="LR" lm="arrêter de"><i>arrêt</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="RL" lm="arrêter de"><i>arrêt</i><par n="abaiss/er__vblex"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="articuler">       <i>articul</i><par n="abaiss/er__vblex"/></e>
 <e lm="aspirer">         <i>aspir</i><par n="abaiss/er__vblex"/></e>
 <e lm="assener">         <i>ass</i><par n="ach/e[T]er__vblex" prm="n"/></e>
@@ -32597,7 +32600,8 @@
 <e lm="cercler">         <i>cercl</i><par n="abaiss/er__vblex"/></e>
 <e lm="certifier">       <i>certifi</i><par n="abaiss/er__vblex"/></e>
 <e lm="cesser">          <i>cess</i><par n="abaiss/er__vblex"/></e>
-<e lm="cesser de">       <i>cess</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="LR" lm="cesser de"><i>cess</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="RL" lm="cesser de"><i>cess</i><par n="abaiss/er__vblex"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="choir">           <i>ch</i><par n="ch/oir__vblex"/></e>
 <e lm="chamarrer">       <i>chamarr</i><par n="abaiss/er__vblex"/></e>
 <e lm="chambrer">        <i>chambr</i><par n="abaiss/er__vblex"/></e>
@@ -33551,6 +33555,7 @@
 <e lm="mettre en cause"> <i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>cause</l><r><g><b/>en<b/>cause</g></r></p></e>
 <e lm="mettre en dépôt"> <i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>dépôt</l><r><g><b/>en<b/>dépôt</g></r></p></e>
 <e lm="mettre en évidence"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>évidence</l><r><g><b/>en<b/>évidence</g></r></p></e>
+<e lm="mettre en examen"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>examen</l><r><g><b/>en<b/>examen</g></r></p></e>
 <e lm="mettre en marche"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>marche</l><r><g><b/>en<b/>marche</g></r></p></e>
 <e lm="mettre en œuvre"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>œuvre</l><r><g><b/>en<b/>œuvre</g></r></p></e>
 <e r="LR" lm="mettre en œuvre"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>oeuvre</l><r><g><b/>en<b/>œuvre</g></r></p></e>
@@ -33851,7 +33856,8 @@
 <e lm="presser">         <i>press</i><par n="abaiss/er__vblex"/></e>
 <e lm="pressentir">      <i>pressen</i><par n="consen/tir__vblex"/></e>
 <e lm="pressurer">       <i>pressur</i><par n="abaiss/er__vblex"/></e>
-<e lm="prier de">        <i>pri</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="LR" lm="prier de"> <i>pri</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="RL" lm="prier de"> <i>pri</i><par n="abaiss/er__vblex"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="prier">           <i>pri</i><par n="abaiss/er__vblex"/></e>
 <e lm="primer">          <i>prim</i><par n="abaiss/er__vblex"/></e>
 <e lm="priser">          <i>pris</i><par n="abaiss/er__vblex"/></e>
@@ -34452,6 +34458,8 @@
 <e lm="tuer la poule aux œufs d'or"><i>tu</i><par n="abaiss/er__vblex"/><p><l><b/>la<b/>poule<b/>aux<b/>œufs<b/>d'or</l><r><g><b/>la<b/>poule<b/>aux<b/>œufs<b/>d'or</g></r></p></e>
 <e lm="typer">           <i>typ</i><par n="abaiss/er__vblex"/></e>
 <e lm="tâcher">          <i>tâch</i><par n="abaiss/er__vblex"/></e>
+<e r="LR" lm="tâcher de"><i>tâch</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="RL" lm="tâcher de"><i>tâch</i><par n="abaiss/er__vblex"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="télécharger">     <i>télécharg</i><par n="allong/er__vblex"/></e>
 <e lm="téléphoner">      <i>téléphon</i><par n="abaiss/er__vblex"/></e>
 <e lm="téléviser">       <i>télévis</i><par n="abaiss/er__vblex"/></e>
@@ -37470,6 +37478,7 @@
     <e lm="marchand de meubles"><i>marchand</i><par n="affecté__n"/><p><l><b/>de<b/>meubles</l><r><g><b/>de<b/>meubles</g></r></p></e>
     <e lm="membre de l'ETA"><i>membre</i><par n="artiste__n"/><p><l><b/>de<b/>l'ETA</l><r><g><b/>de<b/>l'ETA</g></r></p></e>
     <e lm="métier à tisser"><i>métier</i><par n="livre__n"/><p><l><b/>à<b/>tisser</l><r><g><b/>à<b/>tisser</g></r></p></e>
+    <e lm="mise en examen"><i>mise</i><par n="abeille__n"/><p><l><b/>en<b/>examen</l><r><g><b/>en<b/>examen</g></r></p></e>
     <e lm="mise en scène"><i>mise</i><par n="abeille__n"/><p><l><b/>en<b/>scène</l><r><g><b/>en<b/>scène</g></r></p></e>
     <e lm="mot de passe"><i>mot</i><par n="livre__n"/><p><l><b/>de<b/>passe</l><r><g><b/>de<b/>passe</g></r></p></e>
     <e lm="musique de chambre"><i>musique</i><par n="abeille__n"/><p><l><b/>de<b/>chambre</l><r><g><b/>de<b/>chambre</g></r></p></e>
@@ -38221,6 +38230,12 @@
 <e lm="luthéranisme"><i>luthéranisme</i><par n="livre__n"/></e>
 <e lm="luthérien"><i>luthérien</i><par n="ancien__adj"/></e>
 <e lm="luthérien"><i>luthérien</i><par n="ancien__n"/></e>
+<e lm="redoublant"><i>redoublant</i><par n="affecté__n"/></e>
+<e lm="bambin"><i>bambin</i><par n="affecté__n"/></e>
+<e lm="imputation"><i>imputation</i><par n="abeille__n"/></e>
+<e lm="chagrin"><i>chagrin</i><par n="livre__n"/></e>
+<e lm="pérenne"><i>pérenne</i><par n="académique__adj"/></e>
+<e lm="pou"><i>pou</i><par n="lieu__n"/></e>
 
 	<!-- xxx -->
   </section>
@@ -38242,6 +38257,7 @@
 <e r="LR" lm="au point que"><p><l>au<b/>point<b/>qu'</l><r>au<b/>point<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="aussi longtemps que"><p><l>aussi<b/>longtemps<b/>qu'</l><r>aussi<b/>longtemps<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="aussitôt que"><p><l>aussitôt<b/>qu'</l><r>aussitôt<b/>que</r></p><par n="alors__cnjadv"/></e>
+<e r="LR" lm="sitôt que"><p><l>sitôt<b/>qu'</l><r>sitôt<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="avant que"><p><l>avant<b/>qu'</l><r>avant<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="c'est ainsi que"><p><l>c'est<b/>ainsi<b/>qu'</l><r>c'est<b/>ainsi<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="c'est-à-dire que"><p><l>c'est-à-dire<b/>qu'</l><r>c'est-à-dire<b/>que</r></p><par n="alors__cnjadv"/></e>
@@ -38398,14 +38414,20 @@
 <e r="LR" lm="baisser le prix de"><i>baiss</i><par n="abaiss/er__vblex"/><p><l><b/>le<b/>prix<b/>d'</l><r><g><b/>le<b/>prix<b/>de</g></r></p></e>
 <e r="LR" lm="convenir verbalement de"><i>conv</i><par n="appart/enir__vblex"/><p><l><b/>verbalement<b/>d'</l><r><g><b/>verbalement<b/>de</g></r></p></e>
 <e r="LR" lm="avoir envie de"><par n="/avoir__vblex"/><p><l>envie<b/>d'</l><r><g><b/>envie<b/>de</g></r></p></e>
+<e r="LR" lm="avoir l'air de"><par n="/avoir__vblex"/><p><l>l'air<b/>d'</l><r><g><b/>l'air<b/>de</g></r></p></e>
 <e r="LR" lm="faire abstraction de"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>abstraction<b/>d'</l><r><g><b/>abstraction<b/>de</g></r></p></e>
 <e r="LR" lm="faire semblant de"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>semblant<b/>d'</l><r><g><b/>semblant<b/>de</g></r></p></e>
 <e r="LR" lm="permettre de"><i>perm</i><par n="adm/ettre__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
 <e r="LR" lm="prendre la relève de"><i>pr</i><par n="appr/endre__vblex"/><p><l><b/>la<b/>relève<b/>d'</l><r><g><b/>la<b/>relève<b/>de</g></r></p></e>
+<e r="LR" lm="arrêter de"><i>arrêt</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+<e r="LR" lm="cesser de"><i>cess</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+<e r="LR" lm="essayer de"><i>essa</i><par n="bala/yer__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+<e r="LR" lm="prier de"><i>pri</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
 <e r="LR" lm="profiter de"><i>profit</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
 <e r="LR" lm="prolonger de"><i>prolong</i><par n="allong/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
 <e r="LR" lm="refuser de"><i>refus</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
 <e r="LR" lm="réjouir de"><i>réjou</i><par n="about/[]ir__vblex__"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
+<e r="LR" lm="tâcher de"><i>tâch</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
 <e r="LR" lm="sacrifier sur l'autel de"><i>sacrifi</i><par n="abaiss/er__vblex"/><p><l><b/>sur<b/>l'autel<b/>d'</l><r><g><b/>sur<b/>l'autel<b/>de</g></r></p></e>
     <!-- ******************************
           group(s) with only one element
