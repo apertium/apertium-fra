@@ -9255,6 +9255,7 @@
 <e lm="dedans">          <i>dedans</i><par n="hier__adv"/></e>
 <e lm="dehors">          <i>dehors</i><par n="hier__adv"/></e>
 <e lm="demain">          <i>demain</i><par n="hier__adv"/></e>
+<e lm="après-demain">    <i>après-demain</i><par n="hier__adv"/></e>
 <e lm="depuis longtemps"><i>depuis<b/>longtemps</i><par n="hier__adv"/></e>
 <e lm="depuis lors">     <i>depuis<b/>lors</i><par n="hier__adv"/></e>
 <e lm="dernièrement">    <i>dernièrement</i><par n="hier__adv"/></e>
@@ -9529,6 +9530,7 @@
 <e lm="isolément">       <i>isolément</i><par n="hier__adv"/></e>
 <e lm="jadis">           <i>jadis</i><par n="hier__adv"/></e>
 <e lm="jamais">          <i>jamais</i><par n="hier__adv"/></e>
+<e lm="nulle part">      <i>nulle<b/>part</i><par n="hier__adv"/></e>
 <e lm="joyeusement">     <i>joyeusement</i><par n="hier__adv"/></e>
 <e lm="judiciairement">  <i>judiciairement</i><par n="hier__adv"/></e>
 <e lm="juridiquement">   <i>juridiquement</i><par n="hier__adv"/></e>
