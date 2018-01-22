@@ -13787,7 +13787,8 @@
 <e lm="fléxibilité">     <i>fléxibilité</i><par n="abeille__n"/></e>
 <e lm="flûte">           <i>flûte</i><par n="abeille__n"/></e>
 <e lm="focalisation">    <i>focalisation</i><par n="abeille__n"/></e>
-<e lm="foetus">          <i>foetus</i><par n="mois__n"/></e>
+<e lm="fœtus">           <i>fœtus</i><par n="mois__n"/></e>
+<e r="LR" lm="fœtus">    <p><l>foetus</l>     <r>fœtus</r></p><par n="mois__n"/></e>
 <e lm="foi">             <i>foi</i><par n="abeille__n"/></e>
 <e lm="foie">            <i>foie</i><par n="livre__n"/></e>
 <e lm="foire">           <i>foire</i><par n="abeille__n"/></e>
@@ -13931,7 +13932,6 @@
 <e lm="fév.">            <i>fév.</i><par n="personnel__n"/></e>
 <e lm="février">         <i>février</i><par n="livre__n"/></e>
 <e lm="fête">            <i>fête</i><par n="abeille__n"/></e>
-<e r="LR" lm="foetus">   <p><l>fœtus</l>     <r>foetus</r></p><par n="mois__n"/></e>
 <e lm="g">               <i>g</i><par n="mois__n"/></e>
 <e lm="gabardine">       <i>gabardine</i><par n="abeille__n"/></e>
 <e lm="gadget">          <i>gadget</i><par n="livre__n"/></e>
@@ -38288,6 +38288,14 @@
 <e lm="ruminant"><i>ruminant</i><par n="abaissant__adj"/></e>
 <e lm="relancement"><i>relancement</i><par n="livre__n"/></e>
 <e lm="joule"><i>joule</i><par n="livre__n"/></e>
+<e lm="nitrure"><i>nitrure</i><par n="livre__n"/></e>
+<e lm="bonsaï"><i>bonsaï</i><par n="livre__n"/></e>
+<e lm="poudreuse"><i>poudreuse</i><par n="abeille__n"/></e>
+<e lm="cryogénique"><i>cryogénique</i><par n="académique__adj"/></e>
+<e lm="hydrodynamique"><i>hydrodynamique</i><par n="académique__adj"/></e>
+<e lm="hydrodynamique"><i>hydrodynamique</i><par n="abeille__n"/></e>
+<e lm="sextennat"><i>sextennat</i><par n="livre__n"/></e>
+<e lm="carnassière"><i>carnassière</i><par n="abeille__n"/></e>
 
 	<!-- xxx -->
   </section>
