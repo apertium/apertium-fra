@@ -12979,6 +12979,7 @@
 <e lm="diplôme">         <i>diplôme</i><par n="livre__n"/></e>
 <e lm="diplômé">         <i>diplômé</i><par n="affecté__n"/></e>
 <e lm="directeur">       <i>direct</i><par n="administrat/eur__n"/></e>
+<e lm="co-directeur">    <i>co-direct</i><par n="administrat/eur__n"/></e>
 <e lm="direction">       <i>direction</i><par n="abeille__n"/></e>
 <e lm="directive">       <i>directive</i><par n="abeille__n"/></e>
 <e lm="directoire">      <i>directoire</i><par n="livre__n"/></e>
@@ -15196,7 +15197,7 @@
 <e lm="meurtre">         <i>meurtre</i><par n="livre__n"/></e>
 <e lm="meurtrier">       <i>meurtri</i><par n="bouch/er__n"/></e>
 <e lm="meurtrissure">    <i>meurtrissure</i><par n="abeille__n"/></e>
-<e lm="mexicain">        <i>mexicain</i><par n="affecté__n"/></e>
+<e lm="Mexicain">        <i>Mexicain</i><par n="affecté__n"/></e>
 <e lm="micro">           <i>micro</i><par n="livre__n"/></e>
 <e lm="micro-onde">      <i>micro-onde</i><par n="abeille__n"/></e>
 <e lm="micro-ondes">     <i>micro-ondes</i><par n="mois__n"/></e>
@@ -15535,6 +15536,9 @@
 <e lm="navigateur">      <i>navigat</i><par n="administrat/eur__n"/></e>
 <e lm="navigation">      <i>navigation</i><par n="abeille__n"/></e>
 <e lm="navire">          <i>navire</i><par n="livre__n"/></e>
+<e lm="néonazi">         <i>néonazi</i><par n="affecté__n"/></e>
+<e lm="néonazi">         <i>néonazi</i><par n="abaissant__adj"/></e>
+<e lm="néonazisme">      <i>néonazisme</i><par n="livre__n"/></e>
 <e lm="nazi">            <i>nazi</i><par n="affecté__n"/></e>
 <e lm="nazi">            <i>nazi</i><par n="abaissant__adj"/></e>
 <e lm="nazisme">         <i>nazisme</i><par n="livre__n"/></e>
@@ -16806,8 +16810,10 @@
 <e lm="repli">           <i>repli</i><par n="livre__n"/></e>
 <e lm="report">          <i>report</i><par n="livre__n"/></e>
 <e lm="reporteur" a="hector"><i>report</i><par n="administrat/eur__n"/></e>
+<e r="LR" lm="reporteur"><p><l>reporteuse</l><r>reporteur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" lm="reporteur"><p><l>reporteuses</l><r>reporteur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="reportage">       <i>reportage</i><par n="livre__n"/></e>
-<e lm="reporter" a="hector"><i>reporter</i><par n="livre__n"/></e>
+<e lm="reporter" a="hector"><i>report</i><par n="bouch/er__n"/></e>
 <e lm="repos">           <i>repos</i><par n="mois__n"/></e>
 <e lm="reprise">         <i>reprise</i><par n="abeille__n"/></e>
 <e lm="reproducteur">    <i>reproduct</i><par n="administrat/eur__n"/></e>
@@ -38272,6 +38278,16 @@
 <e lm="randonnée pédestre"><p><l>randonnée<b/>pédestre</l><r>randonnée<b/>pédestre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="randonnée pédestre"><p><l>randonnées<b/>pédestres</l><r>randonnée<b/>pédestre<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="convaincu"><i>convaincu</i><par n="abaissant__adj"/></e>
+<e lm="saule pleureur"><p><l>saule<b/>pleureur</l><r>saule<b/>pleureur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="saule pleureur"><p><l>saules<b/>pleureurs</l><r>saule<b/>pleureur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="contortionniste"><i>contortionniste</i><par n="artiste__n"/></e>
+<e lm="psaltérion"><i>psaltérion</i><par n="livre__n"/></e>
+<e lm="contentieux"><i>contentieux</i><par n="mois__n"/></e>
+<e lm="réfracteur"><i>réfracteur</i><par n="livre__n"/></e>
+<e lm="ruminant"><i>ruminant</i><par n="livre__n"/></e>
+<e lm="ruminant"><i>ruminant</i><par n="abaissant__adj"/></e>
+<e lm="relancement"><i>relancement</i><par n="livre__n"/></e>
+<e lm="joule"><i>joule</i><par n="livre__n"/></e>
 
 	<!-- xxx -->
   </section>
