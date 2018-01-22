@@ -208,6 +208,13 @@
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="blanc__n">
+  <e>       <p><l>hes</l>       <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>he</l>        <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="vie/il__adj">
   <e>       <p><l>illes</l>     <r>il<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>ille</l>      <r>il<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6712,6 +6719,7 @@
 <e r="LR" lm="biscaïen"> <i>biscaïen</i><par n="ancien__adj"/></e>
 <e lm="bizarre">         <i>bizarre</i><par n="académique__adj"/></e>
 <e lm="blanc">           <i>blanc</i><par n="blanc__adj"/></e>
+<e lm="blanc">           <i>blanc</i><par n="blanc__n"/></e>
 <e lm="blanc-azur">      <i>blanc-azur</i><par n="académique__adj"/></e>
 <e lm="blanc-bleu">      <i>blanc-bleu</i><par n="académique__adj"/></e>
 <e lm="blanc-noir">      <i>blanc-noir</i><par n="abaissant__adj"/></e>
@@ -9215,6 +9223,7 @@
 <e lm="dans une certaine mesure"><i>dans<b/>une<b/>certaine<b/>mesure</i><par n="hier__adv"/></e>
 <e lm="dans une situtaion désavantageuse"><i>dans<b/>une<b/>situation<b/>désavantageuse</i><par n="hier__adv"/></e>
 <e lm="davantage">       <i>davantage</i><par n="hier__adv"/></e>
+<e lm="de bout en bout"> <i>de<b/>bout<b/>en<b/>bout</i><par n="hier__adv"/></e>
 <e lm="de caractère obligatoire"><i>de<b/>caractère<b/>obligatoire</i><par n="hier__adv"/></e>
 <e lm="de cette manière"><i>de<b/>cette<b/>manière</i><par n="hier__adv"/></e>
 <e lm="de concert">      <i>de<b/>concert</i><par n="hier__adv"/></e>
@@ -9337,6 +9346,7 @@
 <e lm="en espèces">      <i>en<b/>espèces</i><par n="hier__adv"/></e>
 <e lm="en exercice">     <i>en<b/>exercice</i><par n="hier__adv"/></e>
 <e lm="en externe">      <i>en<b/>externe</i><par n="hier__adv"/></e>
+<e lm="en face">         <i>en<b/>face</i><par n="hier__adv"/></e>
 <e lm="en fait">         <i>en<b/>fait</i><par n="hier__adv"/></e>
 <e lm="en faveur">       <i>en<b/>faveur</i><par n="hier__adv"/></e>
 <e lm="en faveur des tiers"><i>en<b/>faveur<b/>des<b/>tiers</i><par n="hier__adv"/></e>
@@ -9417,6 +9427,7 @@
 <e lm="extrêmement">     <i>extrêmement</i><par n="hier__adv"/></e>
 <e lm="face à face">     <i>face<b/>à<b/>face</i><par n="hier__adv"/></e>
 <e lm="facilement">      <i>facilement</i><par n="hier__adv"/></e>
+<e lm="fait à fait">     <i>fait<b/>à<b/>fait</i><par n="hier__adv"/></e>
 <e lm="fanatiquement" a="hector"><i>fanatiquement</i><par n="hier__adv"/></e>
 <e lm="fatalement">      <i>fatalement</i><par n="hier__adv"/></e>
 <e lm="favorablement">   <i>favorablement</i><par n="hier__adv"/></e>
@@ -9687,7 +9698,6 @@
 <e lm="petit à petit">   <i>petit<b/>à<b/>petit</i><par n="hier__adv"/></e>
 <e lm="peu">             <i>peu</i><par n="hier__adv"/></e>
 <e lm="peu à peu">       <i>peu<b/>à<b/>peu</i><par n="hier__adv"/></e>
-<e lm="petit à petit">   <i>petit<b/>à<b/>petit</i><par n="hier__adv"/></e>
 <e lm="peut-être">       <i>peut-être</i><par n="hier__adv"/></e>
 <e lm="peut être">       <i>peut<b/>être</i><par n="hier__adv"/></e>
 <e lm="philologiquement"><i>philologiquement</i><par n="hier__adv"/></e>
@@ -10217,6 +10227,8 @@
 <e r="LR" lm="quoique">  <i>quoique</i><par n="alors__cnjadv"/></e>
 <e lm="s'il arrivait que"><i>s'il<b/>arrivait<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="s'il y a lieu">   <i>s'il<b/>y<b/>a<b/>lieu</i><par n="alors__cnjadv"/></e>
+<e lm="hormis que">      <i>hormis<b/></i><par n="afin_/que__cnjadv"/></e>
+<e lm="excepté que">     <i>excepté<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="sauf que">        <i>sauf<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="sauf si">         <i>sauf<b/>si</i><par n="alors__cnjadv"/></e>
 <e lm="selon que">       <i>selon<b/></i><par n="afin_/que__cnjadv"/></e>
@@ -24009,6 +24021,7 @@
 <e lm="Maria Antonieta"> <i>Maria<b/>Antonieta</i><par n="Marie__np"/></e>
 <e lm="Maria del Carme"> <i>Maria<b/>del<b/>Carme</i><par n="Marie__np"/></e>
 <e lm="Maria del Mar">   <i>Maria<b/>del<b/>Mar</i><par n="Marie__np"/></e>
+<e lm="Sainte Marie de la Mer"><i>Sainte<b/>Marie<b/>de<b/>la<b/>Mer</i><par n="Bulgarie__np"/></e>
 <e lm="Maria Josep">     <i>Maria<b/>Josep</i><par n="Marie__np"/></e>
 <e lm="María José">      <i>María<b/>José</i><par n="Marie__np"/></e>
 <e lm="Maria Magdalena"> <i>Maria<b/>Magdalena</i><par n="Marie__np"/></e>
@@ -31735,6 +31748,7 @@
 <e r="LR" lm="à coups de"><p><l>A<b/>coups<b/></l><r>à<b/>coups<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à défaut de"><p><l>A<b/>défaut<b/></l><r>à<b/>défaut<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à force de"><p><l>A<b/>force<b/></l><r>à<b/>force<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à la réserve de"><p><l>A<b/>la<b/>réserve<b/></l><r>à<b/>la<b/>réserve<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à l'encontre de"><p><l>A<b/>l'encontre<b/></l><r>à<b/>l'encontre<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à l'exception de"><p><l>A<b/>l'exception<b/></l><r>à<b/>l'exception<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à l'instar de"><p><l>A<b/>l'instar<b/></l><r>à<b/>l'instar<b/></r></p><par n="contde__pr"/></e>
@@ -31828,9 +31842,11 @@
 <e lm="en échange de">   <i>en<b/>échange<b/></i><par n="contde__pr"/></e>
 <e lm="entre">           <i>entre</i><par n="attendu__pr"/></e>
 <e lm="envers">          <i>envers</i><par n="attendu__pr"/></e>
+<e lm="excepté">         <i>excepté</i><par n="attendu__pr"/></e>
 <e lm="face à">          <i>face<b/></i><par n="conta__pr"/></e>
 <e lm="faute de">        <i>faute<b/></i><par n="contde__pr"/></e>
 <e lm="grâce à">         <i>grâce<b/></i><par n="conta__pr"/></e>
+<e lm="hormis">          <i>hormis</i><par n="attendu__pr"/></e>
 <e lm="hors">            <i>hors</i><par n="attendu__pr"/></e>
 <e lm="jusqu'à">         <i>jusqu'</i><par n="conta__pr"/></e>
 <e r="LR" lm="jusque">   <i>jusque</i><par n="attendu__pr"/></e>
@@ -31843,6 +31859,7 @@
 <e lm="merci de">        <i>merci<b/></i><par n="contde__pr"/></e>
 <e lm="moyennant">       <i>moyennant</i><par n="attendu__pr"/></e>
 <e lm="non inférieur à"> <i>non<b/>inférieur<b/></i><par n="conta__pr"/></e>
+<e lm="ôté">             <i>ôté</i><par n="attendu__pr"/></e>
 <e lm="outre">           <i>outre</i><par n="attendu__pr"/></e>
 <e lm="outre de">        <i>outre<b/></i><par n="contde__pr"/></e>
 <e lm="par">             <i>par</i><par n="attendu__pr"/></e>
@@ -31894,6 +31911,7 @@
 <e lm="à coups de">      <i>à<b/>coups<b/></i><par n="contde__pr"/></e>
 <e lm="à défaut de">     <i>à<b/>défaut<b/></i><par n="contde__pr"/></e>
 <e lm="à force de">      <i>à<b/>force<b/></i><par n="contde__pr"/></e>
+<e lm="à la réserve de"> <i>à<b/>la<b/>réserve<b/></i><par n="contde__pr"/></e>
 <e lm="à l'encontre">    <i>à<b/>l'encontre</i><par n="attendu__pr"/></e>
 <e lm="à l'encontre de"> <i>à<b/>l'encontre<b/></i><par n="contde__pr"/></e>
 <e lm="à l'exception de"><i>à<b/>l'exception<b/></i><par n="contde__pr"/></e>
@@ -31912,6 +31930,7 @@
 <e lm="à titre de">      <i>à<b/>titre<b/></i><par n="contde__pr"/></e>
 <e lm="à travers">       <i>à<b/>travers</i><par n="attendu__pr"/></e>
 <e lm="avant">           <i>avant</i><par n="attendu__pr"/></e>
+<e lm="mis à part">      <i>mis<b/>à<b/>part</i><par n="attendu__pr"/></e>
     <!-- ******************************
           group pr_symbol
       ****************************** -->
@@ -32088,6 +32107,7 @@
 <e lm="quand">           <i>quand</i><par n="combien__rel"/></e>
 <e r="LR" lm="que">      <i>que</i><par n="que__rel"/></e>
 <e r="LR" lm="qui">      <i>qui</i><par n="qui__rel"/></e>
+<e lm="ce qui">          <i>ce<b/>qui</i><par n="que__rel"/></e>
     <!-- ******************************
           group vblex
       ****************************** -->
@@ -38236,6 +38256,9 @@
 <e lm="chagrin"><i>chagrin</i><par n="livre__n"/></e>
 <e lm="pérenne"><i>pérenne</i><par n="académique__adj"/></e>
 <e lm="pou"><i>pou</i><par n="lieu__n"/></e>
+<e lm="levant"><i>levant</i><par n="livre__n"/></e>
+<e lm="couchant"><i>couchant</i><par n="livre__n"/></e>
+<e lm="par conséquent"><i>par<b/>conséquent</i><par n="hier__adv"/></e>
 
 	<!-- xxx -->
   </section>
@@ -38333,6 +38356,9 @@
 <e r="LR" lm="si">       <p><l>s'</l>        <r>si<s n="cnjadv"/></r></p></e>
     
 <e r="LR" lm="sauf que"> <p><l>sauf<b/>qu'</l><r>sauf<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="hormis que"> <p><l>hormis<b/>qu'</l><r>hormis<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="ôté que"> <p><l>ôté<b/>qu'</l><r>hormis<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="excepté que"> <p><l>excepté<b/>qu'</l><r>excepté<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="tandis que"><p><l>tandis<b/>qu'</l><r>tandis<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="vu que">   <p><l>vu<b/>qu'</l> <r>vu<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="à présent que"><p><l>à<b/>présent<b/>qu'</l><r>à<b/>présent<b/>que<s n="cnjadv"/></r></p></e>
@@ -38359,11 +38385,13 @@
 <e r="LR" lm="en plus de"><p><l>en<b/>plus<b/>d'</l><r>en<b/>plus<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="en raison de" a="webform"><p><l>en<b/>raison<b/>d'</l><r>en<b/>raison<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="en échange de" a="webform"><p><l>en<b/>échange<b/>d'</l><r>en<b/>échange<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en dehors de" a="hector"><p><l>en<b/>dehors<b/>d'</l><r>en<b/>dehors<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="jusque">   <p><l>jusqu'</l>    <r>jusque<s n="pr"/></r></p></e>
 <e r="LR" lm="lors de">  <p><l>lors<b/>d'</l><r>lors<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="par l'intermédiaire de" a="webform"><p><l>par<b/>l'intermédiaire<b/>d'</l><r>par<b/>l'intermédiaire<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="pour ce qui est de"><p><l>pour<b/>ce<b/>qui<b/>est<b/>d'</l><r>pour<b/>ce<b/>qui<b/>est<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="sur la rêquete de" a="webform"><p><l>sur<b/>la<b/>rêquete<b/>d'</l><r>sur<b/>la<b/>rêquete<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la réserve de" a="webform"><p><l>à<b/>la<b/>réserve<b/>d'</l><r>à<b/>la<b/>réserve<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'encontre de" a="webform"><p><l>à<b/>l'encontre<b/>d'</l><r>à<b/>l'encontre<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'exception de" a="webform"><p><l>à<b/>l'exception<b/>d'</l><r>à<b/>l'exception<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'instar de" a="webform"><p><l>à<b/>l'instar<b/>d'</l><r>à<b/>l'instar<b/>de<s n="pr"/></r></p></e>
