@@ -10764,6 +10764,7 @@
 <e lm="SIDA">            <i>SIDA</i><par n="BBVA__n"/></e>
 <e lm="SME">             <i>SME</i><par n="BBVA__n"/></e>
 <e lm="SMI">             <i>SMI</i><par n="BBVA__n"/></e>
+<e lm="SMIC">            <i>SMIC</i><par n="IRPF__n"/></e>
 <e lm="SMS">             <i>SMS</i><par n="BBVA__n"/></e>
 <e lm="SNCF">            <i>SNCF</i><par n="BBC__n"/></e>
 <e lm="SOS">             <i>SOS</i><par n="BBVA__n"/></e>
@@ -21050,7 +21051,7 @@
 <e lm="Brent">           <i>Brent</i><par n="Carrefour__np"/></e>
 <e lm="Brest">           <i>Brest</i><par n="Andorre__np"/></e>
 <e lm="Bretagne">        <i>Bretagne</i><par n="Bulgarie__np"/></e>
-<e lm="Breton">          <i>Breton</i><par n="Abraham__np"/></e>
+<e lm="Breton">          <i>Breton</i><par n="Saussure__np"/></e>
 <e lm="Bretos">          <i>Bretos</i><par n="Abraham__np"/></e>
 <e lm="Brett">           <i>Brett</i><par n="Abraham__np"/></e>
 <e lm="Brian">           <i>Brian</i><par n="Antoine__np"/></e>
@@ -38259,6 +38260,18 @@
 <e lm="levant"><i>levant</i><par n="livre__n"/></e>
 <e lm="couchant"><i>couchant</i><par n="livre__n"/></e>
 <e lm="par conséquent"><i>par<b/>conséquent</i><par n="hier__adv"/></e>
+<e lm="savoir-faire"><i>savoir-faire</i><par n="mois__n"/></e>
+<e lm="savoir-vivre"><i>savoir-vivre</i><par n="mois__n"/></e>
+<e lm="autonomiste"><i>autonomiste</i><par n="académique__adj"/></e>
+<e lm="autonomiste"><i>autonomiste</i><par n="artiste__n"/></e>
+<e lm="autonomisme"><i>autonomisme</i><par n="livre__n"/></e>
+<e lm="unioniste"><i>unioniste</i><par n="académique__adj"/></e>
+<e lm="unioniste"><i>unioniste</i><par n="artiste__n"/></e>
+<e lm="unionisme"><i>unionisme</i><par n="livre__n"/></e>
+<e lm="fort"><i>fort</i><par n="livre__n"/></e>
+<e lm="randonnée pédestre"><p><l>randonnée<b/>pédestre</l><r>randonnée<b/>pédestre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="randonnée pédestre"><p><l>randonnées<b/>pédestres</l><r>randonnée<b/>pédestre<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="convaincu"><i>convaincu</i><par n="abaissant__adj"/></e>
 
 	<!-- xxx -->
   </section>
