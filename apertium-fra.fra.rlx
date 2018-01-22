@@ -291,6 +291,12 @@ SELECT N IF (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
   ## que le pouvoir de
   ## , conseiller regional, 
 
+SELECT Verb IF (-1 ("qui")) (0C N OR Verb) ;
+SELECT Verb IF (-2 ("qui")) (-1 Adv) (0C N OR Verb) ;
+SELECT Verb IF (-2 ("qui")) (-1 Pro) (0C N OR Verb) ;
+SELECT Verb IF (-3 ("qui")) (-2 Adv) (-1 Pro) (0C N OR Verb) ;
+  ## qui demeure aujourd'hui
+
 SELECT Tn IF (0 Lui) (1 Aussi);
 SELECT Tn IF (0 Nous) (1 Aussi);
 SELECT Tn IF (0 Vous) (1 Aussi);
