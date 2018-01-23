@@ -8756,6 +8756,7 @@
 <e lm="urbanistique">    <i>urbanistique</i><par n="académique__adj"/></e>
 <e lm="urgent">          <i>urgent</i><par n="abaissant__adj"/></e>
 <e lm="uruguayen">       <i>uruguayen</i><par n="ancien__adj"/></e>
+<e lm="paraguayen">      <i>paraguayen</i><par n="ancien__adj"/></e>
 <e lm="utile">           <i>utile</i><par n="académique__adj"/></e>
 <e lm="utilisable">      <i>utilisable</i><par n="académique__adj"/></e>
 <e lm="vacant">          <i>vacant</i><par n="abaissant__adj"/></e>
@@ -15871,7 +15872,7 @@
 <e lm="paradoxe">        <i>paradoxe</i><par n="livre__n"/></e>
 <e lm="parage">          <i>parage</i><par n="livre__n"/></e>
 <e lm="paragraphe">      <i>paragraphe</i><par n="livre__n"/></e>
-<e lm="paraguayen">      <i>paraguayen</i><par n="ancien__n"/></e>
+<e lm="Paraguayen">      <i>paraguayen</i><par n="ancien__n"/></e>
 <e lm="parallèle" c="cat paral·lela"><i>parallèle</i><par n="abeille__n"/></e>
 <e lm="parallèle" c="cat paral·lel"><i>parallèle</i><par n="livre__n"/></e>
 <e lm="paralysie">       <i>paralysie</i><par n="abeille__n"/></e>
@@ -22735,7 +22736,8 @@
 <e lm="Guinée">          <i>Guinée</i><par n="Bulgarie__np"/></e>
 <e lm="Guinée-Bissao">   <i>Guinée-Bissao</i><par n="Bulgarie__np"/></e>
 <e lm="Guinée-Bissau">   <i>Guinée-Bissau</i><par n="Bulgarie__np"/></e>
-<e lm="Guinée-Équatorale"><i>Guinée-Équatorale</i><par n="Bulgarie__np"/></e>
+<e lm="Guinée-Conakry">  <i>Guinée-Conakry</i><par n="Bulgarie__np"/></e>
+<e lm="Guinée-Équatoriale"><i>Guinée-Équatoriale</i><par n="Bulgarie__np"/></e>
 <e lm="Guinée équatoriale"><i>Guinée<b/>équatoriale</i><par n="Bulgarie__np"/></e>
 <e lm="Guipuscoa">       <i>Guipuscoa</i><par n="Andorre__np"/></e>
 <e lm="Guipúzcoa">       <i>Guipúzcoa</i><par n="Bulgarie__np"/></e>
@@ -24901,6 +24903,7 @@
 <e lm="Papendal">        <i>Papendal</i><par n="Carrefour__np"/></e>
 <e lm="Papito">          <i>Papito</i><par n="Carrefour__np"/></e>
 <e lm="Papon">           <i>Papon</i><par n="Abraham__np"/></e>
+<e lm="Papouasie">       <i>Papouasie</i><par n="Bulgarie__np"/></e>
 <e lm="Papouasie-Nouvelle-Guinée"><i>Papouasie-Nouvelle-Guinée</i><par n="Bulgarie__np"/></e>
 <e lm="Paraguay">        <i>Paraguay</i><par n="Iran__np"/></e>
 <e lm="Paramaribo">      <i>Paramaribo</i><par n="Andorre__np"/></e>
@@ -26488,7 +26491,7 @@
 <e lm="Velázquez">       <i>Velázquez</i><par n="Saussure__np"/></e>
 <e lm="Venancio">        <i>Venancio</i><par n="Abraham__np"/></e>
 <e lm="Vendée">          <i>Vendée</i><par n="Andorre__np"/></e>
-<e lm="Venezuela">       <i>Venezuela</i><par n="Iran__np"/></e>
+<e lm="Vénézuela">       <i>Vénézuela</i><par n="Iran__np"/></e>
 <e lm="Venise">          <i>Venise</i><par n="Bulgarie__np"/></e>
 <e lm="Venus">           <i>Venus</i><par n="Carrefour__np"/></e>
 <e lm="Veolia">          <i>Veolia</i><par n="Carrefour__np"/></e>
@@ -31870,6 +31873,7 @@
 <e lm="malgré">          <i>malgré</i><par n="attendu__pr"/></e>
 <e lm="merci de">        <i>merci<b/></i><par n="contde__pr"/></e>
 <e lm="moyennant">       <i>moyennant</i><par n="attendu__pr"/></e>
+<e lm="nonobstant">      <i>nonobstant</i><par n="attendu__pr"/></e>
 <e lm="non inférieur à"> <i>non<b/>inférieur<b/></i><par n="conta__pr"/></e>
 <e lm="ôté">             <i>ôté</i><par n="attendu__pr"/></e>
 <e lm="outre">           <i>outre</i><par n="attendu__pr"/></e>
@@ -34128,6 +34132,8 @@
 <e lm="ressortir">       <i>ressor</i><par n="consen/tir__vblex"/></e>
 <e lm="ressusciter">     <i>ressuscit</i><par n="abaiss/er__vblex"/></e>
 <e lm="rester">          <i>rest</i><par n="abaiss/er__vblex"/></e>
+<e r="LR" lm="rester à"> <i>rest</i><par n="abaiss/er__vblex"/><p><l><b/>à</l><r><g><b/>à</g></r></p></e>
+<e r="RL" lm="rester à"> <i>rest</i><par n="abaiss/er__vblex"/><p><l><b/><a/>à</l><r><g><b/>à</g></r></p></e>
 <e lm="restaurer">       <i>restaur</i><par n="abaiss/er__vblex"/></e>
 <e lm="restituer">       <i>restitu</i><par n="abaiss/er__vblex"/></e>
 <e lm="restreindre">     <i>restrei</i><par n="cei/ndre__vblex"/></e>
@@ -37377,7 +37383,7 @@
 <e lm="uniformité" a="jaumeortola"><i>uniformité</i><par n="abeille__n"/></e>
 <e lm="urbaniste" a="jaumeortola"><i>urbaniste</i><par n="artiste__n"/></e>
 <e lm="urée" a="jaumeortola"><i>urée</i><par n="abeille__n"/></e>
-<e lm="uruguayen" a="jaumeortola"><i>uruguayen</i><par n="ancien__n"/></e>
+<e lm="Uruguayen"><i>Uruguayen</i><par n="ancien__n"/></e>
 <e lm="usurpateur" a="jaumeortola"><i>usurpat</i><par n="administrat/eur__n"/></e>
 <e lm="utilitarisme" a="jaumeortola"><i>utilitarisme</i><par n="livre__n"/></e>
 <e lm="vacuole" a="jaumeortola"><i>vacuole</i><par n="abeille__n"/></e>
@@ -38341,6 +38347,8 @@
 <e lm="Angola"><i>Angola</i><par n="Iran__np"/></e>
 <e lm="Mozambicain"><i>Mozambicain</i><par n="affecté__n"/></e>
 <e lm="mozambicain"><i>mozambicain</i><par n="abaissant__adj"/></e>
+<e lm="maths"><i>maths</i><par n="vacances__n"/></e>
+<e lm="philo"><i>philo</i><par n="soif__n"/></e>
 
 	<!-- xxx -->
   </section>
