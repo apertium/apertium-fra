@@ -6288,6 +6288,9 @@
 <e r="LR" lm="étatique"> <p><l>Etatique</l>  <r>étatique</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="étendu">   <p><l>Etendu</l>    <r>étendu</r></p><par n="abaissant__adj"/></e>
 <e r="LR" lm="éternel">  <p><l>Eternel</l>   <r>éternel</r></p><par n="annuel__adj"/></e>
+<e r="LR" lm="éthiopien"><p><l>Ethiopien</l> <r>éthiopien</r></p><par n="ancien__n"/></e>
+<e r="LR" lm="éthiopien"><p><l>Ethiopien</l> <r>éthiopien</r></p><par n="ancien__adj"/></e>
+<e r="LR" lm="Éthiopie"> <p><l>Ethiopie</l>  <r>Éthiopie</r></p><par n="Bulgarie__np"/></e>
 <e r="LR" lm="éthique">  <p><l>Ethique</l>   <r>éthique</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="étonnant"> <p><l>Etonnant</l>  <r>étonnant</r></p><par n="abaissant__adj"/></e>
 <e r="LR" lm="étranger"> <p><l>Etrang</l>    <r>étrang</r></p><par n="ch/er__adj"/></e>
@@ -7993,6 +7996,7 @@
 <e lm="neuf">            <i>neu</i><par n="affirmati/f__adj"/></e>
 <e lm="neuvième">        <i>neuvième</i><par n="académique__adj"/></e>
 <e lm="new-yorkais">     <i>new-yorkais</i><par n="anglais__adj"/></e>
+<e lm="nigérian">        <i>nigérian</i><par n="abaissant__adj"/></e>
 <e lm="nigérien">        <i>nigérien</i><par n="ancien__adj"/></e>
 <e lm="nitreux">         <i>nitreu</i><par n="affectueu/x__adj"/></e>
 <e lm="noble">           <i>noble</i><par n="académique__adj"/></e>
@@ -10694,6 +10698,7 @@
 <e lm="NSM">             <i>NSM</i><par n="BBVA__n"/></e>
 <e lm="NYSE">            <i>NYSE</i><par n="BBVA__n"/></e>
 <e lm="Na-Bai">          <i>Na-Bai</i><par n="BBVA__n"/></e>
+<e lm="Nigérian">        <i>Nigérian</i><par n="affecté__n"/></e>
 <e lm="Nigérien">        <i>Nigérien</i><par n="ancien__n"/></e>
 <e lm="Nord-américain">  <i>Nord-américain</i><par n="affecté__n"/></e>
 <e lm="Nord-coréen">     <i>Nord-coréen</i><par n="ancien__n"/></e>
@@ -17485,7 +17490,8 @@
 <e lm="sucre">           <i>sucre</i><par n="livre__n"/></e>
 <e lm="sucrerie">        <i>sucrerie</i><par n="abeille__n"/></e>
 <e lm="sud">             <i>sud</i><par n="personnel__n"/></e>
-<e lm="sud-africain">    <i>sud-africain</i><par n="affecté__n"/></e>
+<e lm="Sud-africain">    <i>Sud-africain</i><par n="affecté__n"/></e>
+<e lm="Sud-coréen">      <i>Sud-coréen</i><par n="ancien__n"/></e>
 <e lm="sud-est">         <i>sud-est</i><par n="personnel__n"/></e>
 <e lm="sueur">           <i>sueur</i><par n="abeille__n"/></e>
 <e lm="suffixation">     <i>suffixation</i><par n="abeille__n"/></e>
@@ -21544,7 +21550,6 @@
 <e lm="Confebask">       <i>Confebask</i><par n="Carrefour__np"/></e>
 <e lm="Confucius">       <i>Confucius</i><par n="Antoine__np"/></e>
 <e lm="Congo">           <i>Congo</i><par n="Iran__np"/></e>
-<e lm="Congo">           <i>Congo</i><par n="Iran__np"/></e>
 <e lm="Conley">          <i>Conley</i><par n="Carrefour__np"/></e>
 <e lm="Connecticut">     <i>Connecticut</i><par n="Iran__np"/></e>
 <e lm="Conseil Européen"><i>Conseil<b/>Européen</i><par n="Carrefour__np"/></e>
@@ -24617,8 +24622,8 @@
 <e lm="Nicée">           <i>Nicée</i><par n="Andorre__np"/></e>
 <e lm="Niermann">        <i>Niermann</i><par n="Abraham__np"/></e>
 <e lm="Niger">           <i>Niger</i><par n="Iran__np"/></e>
+<e lm="Niger">           <i>Niger</i><par n="Iran__np"/></e>
 <e r="LR" lm="Nigéria">  <p><l>Nigeria</l>   <r>Nigéria</r></p><par n="Iran__np"/></e>
-<e lm="Nigeria">         <i>Nigeria</i><par n="Iran__np"/></e>
 <e lm="Nigéria">         <i>Nigéria</i><par n="Iran__np"/></e>
 <e lm="Nihat">           <i>Nihat</i><par n="Abraham__np"/></e>
 <e lm="Nihous">          <i>Nihous</i><par n="Abraham__np"/></e>
@@ -37149,7 +37154,6 @@
 <e lm="sorcellerie" a="jaumeortola"><i>sorcellerie</i><par n="abeille__n"/></e>
 <e lm="sorcier" a="jaumeortola"><i>sorci</i><par n="bouch/er__n"/></e>
 <e lm="sortilège" a="jaumeortola"><i>sortilège</i><par n="livre__n"/></e>
-<e lm="soudanais" a="jaumeortola"><i>soudanais</i><par n="admis__n"/></e>
 <e lm="soudure" a="jaumeortola"><i>soudure</i><par n="abeille__n"/></e>
 <e lm="souffleur" a="jaumeortola"><i>souffleu</i><par n="causeu/r__n"/></e>
 <e lm="soufisme" a="jaumeortola"><i>soufisme</i><par n="livre__n"/></e>
@@ -38296,6 +38300,47 @@
 <e lm="hydrodynamique"><i>hydrodynamique</i><par n="abeille__n"/></e>
 <e lm="sextennat"><i>sextennat</i><par n="livre__n"/></e>
 <e lm="carnassière"><i>carnassière</i><par n="abeille__n"/></e>
+<e lm="éthiopien"><i>éthiopien</i><par n="ancien__n"/></e>
+<e lm="éthiopien"><i>éthiopien</i><par n="ancien__adj"/></e>
+<e lm="Éthiopie"><i>Éthiopie</i><par n="Bulgarie__np"/></e>
+<e lm="éthiopique"><i>éthiopique</i><par n="ancien__n"/></e>
+<e lm="amharique"><i>amharique</i><par n="académique__adj"/></e>
+<e lm="amharique"><i>amharique</i><par n="livre__n"/></e>
+<e lm="guèze"><i>guèze</i><par n="livre__n"/></e>
+<e r="LR" lm="Burkinais"><i>Burkinais</i><par n="admis__n"/></e>
+<e r="LR" lm="burkinais"><i>burkinais</i><par n="anglais__adj"/></e>
+<e r="LR" lm="Burkinabais"><i>Burkinabais</i><par n="admis__n"/></e>
+<e r="LR" lm="burkinabais"><i>burkinabais</i><par n="anglais__adj"/></e>
+<e lm="Burkinabé"><i>Burkinabé</i><par n="affecté__n"/></e>
+<e lm="Burkinabé"><i>Burkinabé</i><par n="abaissant__adj"/></e>
+<e lm="Libyen"><i>Libyen</i><par n="ancien__n"/></e>
+<e lm="libyen"><i>libyen</i><par n="ancien__adj"/></e>
+<e lm="Libye"><i>Libye</i><par n="Bulgarie__np"/></e>
+<e lm="Sénégalais"><i>Sénégalais</i><par n="admis__n"/></e>
+<e lm="sénégalais"><i>sénégalais</i><par n="anglais__adj"/></e>
+<e lm="Gambien"><i>Gambien</i><par n="ancien__n"/></e>
+<e lm="gambien"><i>gambien</i><par n="ancien__adj"/></e>
+<e lm="Tchadien"><i>Tchadien</i><par n="ancien__n"/></e>
+<e lm="tchadien"><i>tchadien</i><par n="ancien__adj"/></e>
+<e lm="Béninois"><i>Béninois</i><par n="admis__n"/></e>
+<e lm="béninois"><i>béninois</i><par n="anglais__adj"/></e>
+<e lm="Togolais"><i>Togolais</i><par n="admis__n"/></e>
+<e lm="togolais"><i>togolais</i><par n="anglais__adj"/></e>
+<e lm="Ivoirien"><i>Ivoirien</i><par n="ancien__n"/></e>
+<e lm="ivoirien"><i>ivoirien</i><par n="ancien__adj"/></e>
+<e lm="Ghanéen"><i>Ghanéen</i><par n="ancien__n"/></e>
+<e lm="ghanéen"><i>ghanéen</i><par n="ancien__adj"/></e>
+<e lm="Camerounais"><i>Camerounais</i><par n="admis__n"/></e>
+<e lm="camerounais"><i>camerounais</i><par n="anglais__adj"/></e>
+<e lm="Gabonais"><i>Gabonais</i><par n="admis__n"/></e>
+<e lm="gabonais"><i>gabonais</i><par n="anglais__adj"/></e>
+<e lm="Soudanais"><i>Soudanais</i><par n="admis__n"/></e>
+<e lm="soudanais"><i>soudanais</i><par n="anglais__adj"/></e>
+<e lm="Angolais"><i>Angolais</i><par n="admis__n"/></e>
+<e lm="angolais"><i>angolais</i><par n="anglais__adj"/></e>
+<e lm="Angola"><i>Angola</i><par n="Iran__np"/></e>
+<e lm="Mozambicain"><i>Mozambicain</i><par n="affecté__n"/></e>
+<e lm="mozambicain"><i>mozambicain</i><par n="abaissant__adj"/></e>
 
 	<!-- xxx -->
   </section>
