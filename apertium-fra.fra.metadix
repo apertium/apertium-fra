@@ -8067,6 +8067,8 @@
 <e lm="obéissant">       <i>obéissant</i><par n="abaissant__adj"/></e>
 <e lm="occasionnel">     <i>occasionnel</i><par n="annuel__adj"/></e>
 <e lm="occidental">      <i>occidenta</i><par n="amica/l__adj"/></e>
+<e lm="nord-occidental"> <i>nord-occidenta</i><par n="amica/l__adj"/></e>
+<e lm="nord-occidental"> <i>nord-occidenta</i><par n="amica/l__adj"/></e>
 <e lm="occitan">         <i>occitan</i><par n="abaissant__adj"/></e>
 <e lm="occulte">         <i>occulte</i><par n="académique__adj"/></e>
 <e lm="odieux">          <i>odieu</i><par n="affectueu/x__adj"/></e>
@@ -8097,6 +8099,8 @@
 <e lm="organisationnel"> <i>organisationnel</i><par n="annuel__adj"/></e>
 <e lm="orgueilleux">     <i>orgueilleu</i><par n="affectueu/x__adj"/></e>
 <e lm="oriental">        <i>orienta</i><par n="amica/l__adj"/></e>
+<e lm="nord-oriental">   <i>nord-orienta</i><par n="amica/l__adj"/></e>
+<e lm="sud-oriental">    <i>sud-orienta</i><par n="amica/l__adj"/></e>
 <e lm="original">        <i>origina</i><par n="amica/l__adj"/></e>
 <e lm="originaire">      <i>originaire</i><par n="académique__adj"/></e>
 <e lm="orphelin">        <i>orphelin</i><par n="abaissant__adj"/></e>
@@ -35518,7 +35522,7 @@
 <e lm="butin" a="jaumeortola"><i>butin</i><par n="livre__n"/></e>
 <e lm="butoir" a="jaumeortola"><i>butoir</i><par n="livre__n"/></e>
 <e lm="byte" a="jaumeortola"><i>byte</i><par n="livre__n"/></e>
-<e lm="byzantin" a="jaumeortola"><i>byzantin</i><par n="affecté__n"/></e>
+<e lm="Byzantin"><i>Byzantin</i><par n="affecté__n"/></e>
 <e lm="cabane" a="jaumeortola"><i>cabane</i><par n="abeille__n"/></e>
 <e lm="cabaret" a="jaumeortola"><i>cabaret</i><par n="livre__n"/></e>
 <e lm="cacahuète" a="jaumeortola"><i>cacahuète</i><par n="abeille__n"/></e>
@@ -38629,6 +38633,16 @@
 <e lm="du sud-est"><i>du<b/>sud-est</i><par n="arrière__adj"/></e>
 <e lm="du sud-oest"><i>du<b/>sud-oest</i><par n="arrière__adj"/></e>
 <e lm="rééquilibre"><i>rééquilibre</i><par n="livre__n"/></e>
+<e lm="balte"><i>balte</i><par n="académique__adj"/></e>
+<e lm="balte"><i>balte</i><par n="artiste__n"/></e>
+<e lm="roussillonnais"><i>roussillonnais</i><par n="anglais__adj"/></e>
+<e lm="Roussillonnais"><i>Roussillonnais</i><par n="admis__n"/></e>
+<e lm="alguérois"><i>alguérois</i><par n="anglais__adj"/></e>
+<e lm="Alguérois"><i>Alguérois</i><par n="admis__n"/></e>
+<e lm="Alghero"><i>Alghero</i><par n="Iran__np"/></e>
+<e lm="ibizois"><i>ibizois</i><par n="anglais__adj"/></e>
+<e lm="Ibizois"><i>Ibizois</i><par n="admis__n"/></e>
+
 
 	<!-- xxx -->
   </section>
