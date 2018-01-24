@@ -208,6 +208,7 @@
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l></l>          <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>e</l>         <r><s n="adj"/><s n="f"/><s n="sp"/></r></p></e> <!-- pedaç per solucionar pb típic amb 'idioma anglès'  des de cat o spa -->
 </pardef>
 
 <pardef n="blanc__adj">
@@ -16212,6 +16213,7 @@
 <e lm="point">           <i>point</i><par n="livre__n"/></e>
 <e lm="pointe">          <i>pointe</i><par n="abeille__n"/></e>
 <e lm="poire">           <i>poire</i><par n="abeille__n"/></e>
+<e lm="poire cactus">    <i>poire</i><par n="abeille__n"/><p><l><b/>cactus</l><r><g><b/>cactus</g></r></p></e>
 <e lm="poison">          <i>poison</i><par n="livre__n"/></e>
 <e lm="poisson">         <i>poisson</i><par n="livre__n"/></e>
 <e lm="poissonnerie">    <i>poissonnerie</i><par n="abeille__n"/></e>
@@ -36117,7 +36119,9 @@
 <e lm="ficelle" a="jaumeortola"><i>ficelle</i><par n="abeille__n"/></e>
 <e lm="fidéicommis" a="jaumeortola"><i>fidéicommis</i><par n="mois__n"/></e>
 <e lm="figue" a="jaumeortola"><i>figue</i><par n="abeille__n"/></e>
+<e lm="figue de Barbarie"><i>figue</i><par n="abeille__n"/><p><l><b/>de<b/>Barbarie</l><r><g><b/>de<b/>Barbarie</g></r></p></e>
 <e lm="figuier" a="jaumeortola"><i>figuier</i><par n="livre__n"/></e>
+<e lm="figuier de Barbarie"><i>figuier</i><par n="abeille__n"/><p><l><b/>de<b/>Barbarie</l><r><g><b/>de<b/>Barbarie</g></r></p></e>
 <e lm="figurant" a="jaumeortola"><i>figurant</i><par n="affecté__n"/></e>
 <e lm="filage" a="jaumeortola"><i>filage</i><par n="livre__n"/></e>
 <e lm="filament" a="jaumeortola"><i>filament</i><par n="livre__n"/></e>
@@ -38635,13 +38639,82 @@
 <e lm="rééquilibre"><i>rééquilibre</i><par n="livre__n"/></e>
 <e lm="balte"><i>balte</i><par n="académique__adj"/></e>
 <e lm="balte"><i>balte</i><par n="artiste__n"/></e>
-<e lm="roussillonnais"><i>roussillonnais</i><par n="anglais__adj"/></e>
-<e lm="Roussillonnais"><i>Roussillonnais</i><par n="admis__n"/></e>
+<e lm="roussillonais"><i>roussillonais</i><par n="anglais__adj"/></e>
+<e lm="roussillonais"><i>roussillonais</i><par n="admis__n"/></e>
 <e lm="alguérois"><i>alguérois</i><par n="anglais__adj"/></e>
-<e lm="Alguérois"><i>Alguérois</i><par n="admis__n"/></e>
+<e lm="alguérois"><i>alguérois</i><par n="admis__n"/></e>
 <e lm="Alghero"><i>Alghero</i><par n="Iran__np"/></e>
 <e lm="ibizois"><i>ibizois</i><par n="anglais__adj"/></e>
-<e lm="Ibizois"><i>Ibizois</i><par n="admis__n"/></e>
+<e lm="ibizois"><i>ibizois</i><par n="admis__n"/></e>
+<e lm="lisible"><i>lisible</i><par n="académique__adj"/></e>
+<e lm="illisible"><i>illisible</i><par n="académique__adj"/></e>
+<e lm="demi (avant le nom)"><p><l>demi</l><r>demi_pre</r></p><par n="arrière__adj"/></e>
+<e lm="demi (après le nom)"><p><l>demi</l><r>demi_post</r></p><par n="abaissant__adj"/></e>
+<e lm="nef"><i>nef</i><par n="abeille__n"/></e>
+<e lm="gravitatoire"><i>gravitatoire</i><par n="académique__adj"/></e>
+<e lm="comfortable"><i>comfortable</i><par n="académique__adj"/></e>
+<e lm="artiste"><i>artiste</i><par n="académique__adj"/></e>
+<e lm="yougoslave"><i>yougoslave</i><par n="académique__adj"/></e>
+<e lm="abrupte"><i>abrupte</i><par n="académique__adj"/></e>
+<e lm="successoire"><i>successoire</i><par n="académique__adj"/></e>
+<e lm="catalaniste"><i>catalaniste</i><par n="académique__adj"/></e>
+<e lm="maligne"><i>maligne</i><par n="académique__adj"/></e>
+<e lm="avant-gardiste"><i>avant-gardiste</i><par n="académique__adj"/></e>
+<e lm="scalaire"><i>scalaire</i><par n="académique__adj"/></e>
+<e lm="traditionnaliste"><i>traditionnaliste</i><par n="académique__adj"/></e>
+<e lm="majuscule"><i>majuscule</i><par n="académique__adj"/></e>
+<e lm="piramidal"><i>piramida</i><par n="amica/l__adj"/></e>
+<e lm="stationnal"><i>stationna</i><par n="amica/l__adj"/></e>
+<e lm="infinitessimal"><i>infinitessima</i><par n="amica/l__adj"/></e>
+<e lm="neuronal"><i>neurona</i><par n="amica/l__adj"/></e>
+<e lm="transcendental"><i>transcendenta</i><par n="amica/l__adj"/></e>
+<e lm="bidimensionnel"><i>bidimensionnel</i><par n="annuel__adj"/></e>
+<e lm="tridimensionnel"><i>tridimensionnel</i><par n="annuel__adj"/></e>
+<e lm="apparaissant"><i>apparaissant</i><par n="abaissant__adj"/></e>
+<e lm="réfiné"><i>réfiné</i><par n="abaissant__adj"/></e>
+<e lm="doloureux"><i>doloureu</i><par n="affectueu/x__adj"/></e>
+<e lm="réproductif"><i>réproducti</i><par n="affirmati/f__adj"/></e>
+<e lm="sévillan"><i>sévillan</i><par n="abaissant__adj"/></e>
+<e lm="polinésien"><i>polinésien</i><par n="ancien__adj"/></e>
+<e lm="intermitent"><i>intermitent</i><par n="abaissant__adj"/></e>
+<e lm="génant"><i>génant</i><par n="abaissant__adj"/></e>
+<e lm="bénin"><i>béni</i><par n="mali/n__adj"/></e>
+<e lm="identifiable"><i>identifiable</i><par n="académique__adj"/></e>
+<e lm="rétrograde"><i>rétrograde</i><par n="académique__adj"/></e>
+<e lm="rédondant"><i>rédondant</i><par n="académique__adj"/></e>
+<e lm="staliniste"><i>staliniste</i><par n="académique__adj"/></e>
+<e lm="amorphe"><i>amorphe</i><par n="académique__adj"/></e>
+<e lm="hydrophobe"><i>hydrophobe</i><par n="académique__adj"/></e>
+<e lm="stéreo"><i>stéreo</i><par n="arrière__adj"/></e>
+<e lm="abolitionniste"><i>abolitionniste</i><par n="académique__adj"/></e>
+<e lm="mésopotamique"><i>mésopotamique</i><par n="académique__adj"/></e>
+<e lm="attaquant"><i>attaquant</i><par n="abaissant__adj"/></e>
+<e lm="belligérant"><i>belligérant</i><par n="abaissant__adj"/></e>
+<e lm="assistentiel"><i>assistentiel</i><par n="annuel__adj"/></e>
+<e lm="périmétral"><i>périmétra</i><par n="amica/l__adj"/></e>
+<e lm="peu sûr"><i>peu<b/>sûr</i><par n="abaissant__adj"/></e>
+<e lm="très mauvais"><i>très<b/>mauvais</i><par n="abaissant__adj"/></e>
+<e lm="national-socialiste"><i>national-socialiste</i><par n="académique__adj"/></e>
+<e lm="baptiste"><i>baptiste</i><par n="académique__adj"/></e>
+<e lm="antécédent"><i>antécédent</i><par n="abaissant__adj"/></e>
+<e lm="répresseur"><i>répresseu</i><par n="causeu/r__adj"/></e>
+<e lm="autographe"><i>autographe</i><par n="académique__adj"/></e>
+<e lm="hydrophobique"><i>hydrophobique</i><par n="académique__adj"/></e>
+<e lm="alevin"><i>alevin</i><par n="abaissant__adj"/></e>
+<e lm="supranationnal"><i>supranationnal</i><par n="abaissant__adj"/></e>
+<e lm="controlable"><i>controlable</i><par n="académique__adj"/></e>
+<e lm="épileptique"><i>épileptique</i><par n="académique__adj"/></e>
+<e lm="académiciste"><i>académiciste</i><par n="académique__adj"/></e>
+<e lm="coloriste"><i>coloriste</i><par n="académique__adj"/></e>
+<e lm="submergible"><i>submergible</i><par n="académique__adj"/></e>
+<e lm="régulable"><i>régulable</i><par n="académique__adj"/></e>
+<e lm="ammonique"><i>ammonique</i><par n="académique__adj"/></e>
+<e lm="alevin"><i>alevin</i><par n="abaissant__adj"/></e>
+<e lm="supranationnal"><i>supranationnal</i><par n="abaissant__adj"/></e>
+<e lm="concernant"><i>concernant</i><par n="abaissant__adj"/></e>
+<e lm="obsedé"><i>obsedé</i><par n="abaissant__adj"/></e>
+<e lm="supranational"><i>supranationa</i><par n="amica/l__adj"/></e>
+<e lm="au dépourvu"><i>au<b/>dépourvu</i><par n="arrière__adj"/></e>
 
 
 	<!-- xxx -->

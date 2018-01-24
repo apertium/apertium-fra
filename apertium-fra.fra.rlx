@@ -84,6 +84,8 @@ LIST Qui = "qui" ;
 LIST Avoir = "avoir" ; 
 LIST Savoir = "savoir" ; 
 LIST Saurer = "saurer" ; 
+LIST Demi_pre = "demi_pre" ;
+LIST Demi_post = "demi_post" ; 
 LIST Le = "le" ;
 LIST Fait = "<fait>"i ;
 LIST Est = "<est>"i ;
@@ -280,6 +282,9 @@ SELECT Mil IF (0C Mil OR Mille) (1 N OR A) (1 Pl) ;
 
 SELECT Savoir IF (0C Savoir OR Saurer) ;
   ## ce problème ne saurait tout expliquer à lui seul
+
+SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
+REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
 
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
