@@ -6379,6 +6379,7 @@
 <e lm="abrasif">         <i>abrasi</i><par n="affirmati/f__adj"/></e>
 <e lm="abrupt">          <i>abrupt</i><par n="abaissant__adj"/></e>
 <e lm="abrutissant">     <i>abrutissant</i><par n="abaissant__adj"/></e>
+<e lm="abrutisseur">     <i>abrutisseu</i><par n="causeu/r__adj"/></e>
 <e lm="absent">          <i>absent</i><par n="abaissant__adj"/></e>
 <e lm="absolu">          <i>absolu</i><par n="abaissant__adj"/></e>
 <e lm="absolutoire">     <i>absolutoire</i><par n="académique__adj"/></e>
@@ -14562,6 +14563,7 @@
 <e lm="insoutenabilité"> <i>insoutenabilité</i><par n="abeille__n"/></e>
 <e lm="inspecteur des finances"><i>inspect</i><par n="administrat/eur__n"/><p><l><b/>des<b/>finances</l><r><g><b/>des<b/>finances</g></r></p></e>
 <e lm="inspecteur">      <i>inspect</i><par n="administrat/eur__n"/></e>
+<e lm="sous-inspecteur"> <i>sous-inspect</i><par n="administrat/eur__n"/></e>
 <e lm="inspection">      <i>inspection</i><par n="abeille__n"/></e>
 <e lm="inspiration">     <i>inspiration</i><par n="abeille__n"/></e>
 <e lm="instabilité">     <i>instabilité</i><par n="abeille__n"/></e>
@@ -17229,6 +17231,7 @@
 <e lm="secours">         <i>secours</i><par n="mois__n"/></e>
 <e lm="secret">          <i>secret</i><par n="livre__n"/></e>
 <e lm="secrétaire">      <i>secrétaire</i><par n="artiste__n"/></e>
+<e lm="vice-secrétaire"> <i>vice-secrétaire</i><par n="artiste__n"/></e>
 <e lm="secrétariat">     <i>secrétariat</i><par n="livre__n"/></e>
 <e lm="sectarisme">      <i>sectarisme</i><par n="livre__n"/></e>
 <e lm="secte">           <i>secte</i><par n="abeille__n"/></e>
@@ -37693,6 +37696,8 @@
 <e lm="béton armé"><p><l>bétons<b/>armés</l><r>béton<b/>armé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="marc légal"><p><l>marc<b/>légal</l><r>marc<b/>légal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="marc légal"><p><l>marcs<b/>légaux</l><r>marc<b/>légal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="être cher"><p><l>être<b/>cher</l><r>être<b/>cher<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="être cher"><p><l>êtres<b/>chers</l><r>être<b/>cher<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 <e lm="ancien ministre"><p><l>ancien<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ancien ministre"><p><l>ancienne<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -38707,6 +38712,7 @@
 <e lm="académiciste"><i>académiciste</i><par n="académique__adj"/></e>
 <e lm="coloriste"><i>coloriste</i><par n="académique__adj"/></e>
 <e lm="submergible"><i>submergible</i><par n="académique__adj"/></e>
+<e lm="lavable"><i>lavable</i><par n="académique__adj"/></e>
 <e lm="régulable"><i>régulable</i><par n="académique__adj"/></e>
 <e lm="ammonique"><i>ammonique</i><par n="académique__adj"/></e>
 <e lm="alevin"><i>alevin</i><par n="abaissant__adj"/></e>
@@ -38715,6 +38721,111 @@
 <e lm="obsedé"><i>obsedé</i><par n="abaissant__adj"/></e>
 <e lm="supranational"><i>supranationa</i><par n="amica/l__adj"/></e>
 <e lm="au dépourvu"><i>au<b/>dépourvu</i><par n="arrière__adj"/></e>
+<e lm="rapatrié"><i>rapatrié</i><par n="abaissant__adj"/></e>
+<e lm="chauvin"><i>chauvin</i><par n="abaissant__adj"/></e>
+
+<e lm="ronce"><i>ronce</i><par n="abeille__n"/></e>
+<e lm="ronce à feuilles d'Orme"><i>ronce</i><par n="abeille__n"/><p><l><b/>à<b/>feuilles<b/>d'Orme</l><r><g><b/>à<b/>feuilles<b/>d'Orme</g></r></p></e>
+<e lm="NBA">             <i>NBA</i><par n="BBC__n"/></e>
+<e lm="GM" a="prompsit2adn"><i>GM</i><par n="BBVA__n"/></e>
+<e lm="BMW" a="prompsit2adn"><i>BMW</i><par n="IRPF__n"/></e>
+<e lm="MVP" a="prompsit2adn"><i>MVP</i><par n="ATS__n"/></e>
+<e lm="UB" a="prompsit2adn"><i>UB</i><par n="BBC__n"/></e>
+
+<e lm="eucalypte"><i>eucalypte</i><par n="livre__n"/></e>
+<e lm="cathéter"><i>cathéter</i><par n="livre__n"/></e>
+<e lm="glycéraldéhyde"><i>glycéraldéhyde</i><par n="livre__n"/></e>
+<e lm="vacheur"><i>vacheu</i><par n="causeu/r__n"/></e>
+<e lm="déchiffrement"><i>déchiffrement</i><par n="livre__n"/></e>
+<e lm="joint"><i>joint</i><par n="livre__n"/></e>
+<e lm="abrutissement"><i>abrutissement</i><par n="livre__n"/></e>
+<e lm="jaune"><i>jaune</i><par n="livre__n"/></e>
+<e lm="colisée"><i>colisée</i><par n="livre__n"/></e>
+<e lm="cathète"><i>cathète</i><par n="livre__n"/></e>
+<e lm="cataclisme"><i>cataclisme</i><par n="livre__n"/></e>
+<e lm="tradicionalisme"><i>tradicionalisme</i><par n="livre__n"/></e>
+<e lm="rapatriement"><i>rapatriement</i><par n="livre__n"/></e>
+<e lm="triasique"><i>triasique</i><par n="livre__n"/></e>
+<e lm="détronnement"><i>détronnement</i><par n="livre__n"/></e>
+<e lm="dégouttement"><i>dégouttement</i><par n="livre__n"/></e>
+<e lm="hertz"><i>hertz</i><par n="livre__n"/></e>
+<e lm="mésolithique"><i>mésolithique</i><par n="livre__n"/></e>
+<e lm="recueillement"><i>recueillement</i><par n="livre__n"/></e>
+<e lm="microétat"><i>microétat</i><par n="livre__n"/></e>
+<e lm="turbant"><i>turbant</i><par n="livre__n"/></e>
+<e lm="clin"><i>clin</i><par n="livre__n"/></e>
+<e lm="bonbon"><i>bonbon</i><par n="livre__n"/></e>
+<e lm="scintillement"><i>scintillement</i><par n="livre__n"/></e>
+<e lm="révulsif"><i>révulsif</i><par n="livre__n"/></e>
+<e lm="révulsif"><i>révulsi</i><par n="affirmati/f__adj"/></e>
+<e lm="fractionnement"><i>fractionnement</i><par n="livre__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="livre__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="livre__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="livre__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="livre__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="livre__n"/></e>
+<e lm="stand"><i>stand</i><par n="livre__n"/></e>
+<e lm="sécheur"><i>sécheur</i><par n="livre__n"/></e>
+
+<e lm="repêche"><i>repêche</i><par n="abeille__n"/></e>
+<e lm="oftalmologie"><i>oftalmologie</i><par n="abeille__n"/></e>
+<e lm="immunidéficience"><i>immunidéficience</i><par n="abeille__n"/></e>
+<e lm="repatriation"><i>repatriation</i><par n="abeille__n"/></e>
+<e lm="amibe"><i>amibe</i><par n="abeille__n"/></e>
+<e lm="resistivité"><i>resistivité</i><par n="abeille__n"/></e>
+<e lm="génératrice"><i>génératrice</i><par n="abeille__n"/></e>
+<e lm="incontinence"><i>incontinence</i><par n="abeille__n"/></e>
+<e lm="mandarine"><i>mandarine</i><par n="abeille__n"/></e>
+<e lm="diatribe"><i>diatribe</i><par n="abeille__n"/></e>
+<e lm="catilinaire"><i>catilinaire</i><par n="abeille__n"/></e>
+<e lm="philippique"><i>philippique</i><par n="abeille__n"/></e>
+<e lm="cardiopathie"><i>cardiopathie</i><par n="abeille__n"/></e>
+<e lm="flaque"><i>flaque</i><par n="abeille__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="abeille__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="abeille__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="abeille__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="abeille__n"/></e>
+
+<e lm="coloriste"><i>coloriste</i><par n="artiste__n"/></e>
+<e lm="adoptant"><i>adoptant</i><par n="artiste__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="artiste__n"/></e>
+<e lm="ronce"><i>ronce</i><par n="artiste__n"/></e>
+
+<e lm="chauviniste"><i>chauviniste</i><par n="académique__adj"/></e>
+<e lm="chauvin"><i>chauvin</i><par n="affecté__n"/></e>
+<e lm="chauvinisme"><i>chauvinisme</i><par n="livre__n"/></e>
+<e lm="chauviniste"><i>chauviniste</i><par n="artiste__n"/></e>
+<e lm="sumérien"><i>sumérien</i><par n="ancien__n"/></e>
+<e lm="sumérien"><i>sumérien</i><par n="ancien__adj"/></e>
+<e lm="mounteur"><i>mounteu</i><par n="causeu/r__n"/></e>
+<e lm="OVNI">      <i>OVNI</i><par n="BBVA__n"/></e>
+<e lm="UEM">             <i>UEM</i><par n="BBC__n"/></e>
+<e lm="anticolonialiste"><i>anticolonialiste</i><par n="académique__adj"/></e>
+<e lm="colonialiste"><i>colonialiste</i><par n="académique__adj"/></e>
+<e lm="colonialiste"><i>colonialiste</i><par n="artiste__n"/></e>
+<e lm="néo-colonialiste"><i>néocolonialiste</i><par n="académique__adj"/></e>
+<e lm="ultracolonialiste"><i>ultracolonialiste</i><par n="académique__adj"/></e>
+<e lm="anticolonialisme"><i>anticolonialisme</i><par n="livre__n"/></e>
+<e lm="anticolonialiste"><i>anticolonialiste</i><par n="artiste__n"/></e>
+<e lm="colonialisme"><i>colonialisme</i><par n="livre__n"/></e>
+<e lm="néo-colonialisme"><i>néocolonialisme</i><par n="livre__n"/></e>
+<e lm="néo-colonialiste"><i>néocolonialiste</i><par n="artiste__n"/></e>
+<e lm="néocolonialisme"><i>néocolonialisme</i><par n="livre__n"/></e>
+<e lm="ultracolonialisme"><i>ultracolonialisme</i><par n="livre__n"/></e>
+<e lm="ultracolonialiste"><i>ultracolonialiste</i><par n="artiste__n"/></e>
+
+<e lm="rouge et bleu"><p><l>rouge<b/>et<b/>bleu</l><r>rouge<b/>et<b/>bleu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="rouge et bleu"><p><l>rouges<b/>et<b/>bleus</l><r>rouge<b/>et<b/>bleu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="rouge et bleu"><p><l>rouge<b/>et<b/>bleue</l><r>rouge<b/>et<b/>bleu<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="rouge et bleu"><p><l>rouges<b/>et<b/>bleues</l><r>rouge<b/>et<b/>bleu<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="rouge et bleu"><p><l>rouge<b/>et<b/>bleu</l><r>rouge<b/>et<b/>bleu<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="rouge et bleu"><p><l>rouges<b/>et<b/>bleus</l><r>rouge<b/>et<b/>bleu<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="rouge et bleu"><p><l>rouge<b/>et<b/>bleue</l><r>rouge<b/>et<b/>bleu<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="rouge et bleu"><p><l>rouges<b/>et<b/>bleues</l><r>rouge<b/>et<b/>bleu<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="grand consommateur"><p><l>grand<b/>consommateur</l><r>grand<b/>consommateur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="grand consommateur"><p><l>grands<b/>consommateur</l><r>grand<b/>consommateur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="grand consommateur"><p><l>grande<b/>consommatrice</l><r>grand<b/>consommateur<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="grand consommateur"><p><l>grandes<b/>consommatrice</l><r>grand<b/>consommateur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 
 	<!-- xxx -->
