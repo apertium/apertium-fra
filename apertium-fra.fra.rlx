@@ -120,6 +120,8 @@ LIST Des = "dès" ;
 LIST Entre = "entre" ;
 LIST Si = "si" ;
 LIST S = "<s'>"i ;
+LIST Ouvrir = "ouvrir" ;
+LIST Ouvrer = "ouvrer" ;
 
 LIST À = "à" ;
 
@@ -267,6 +269,8 @@ SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
 
 SELECT Fois IF (0C Foi OR Fois) ;
+
+REMOVE Ouvrer IF (0 Ouvrir OR Ouvrer) ;
 
 SELECT Cours IF (0C Cour OR Cours) ;
 SELECT Cours IF (-1/* Det + Pl) (0 Cour OR Cours) ;
