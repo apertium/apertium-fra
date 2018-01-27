@@ -11485,7 +11485,7 @@
 <e lm="ardoise">         <i>ardoise</i><par n="abeille__n"/></e>
 <e lm="argent">          <i>argent</i><par n="argent__n"/></e>
 <e lm="argenterie">      <i>argenterie</i><par n="abeille__n"/></e>
-<e lm="argentin">        <i>argentin</i><par n="affecté__n"/></e>
+<e lm="Argentin">        <i>Argentin</i><par n="affecté__n"/></e>
 <e lm="argile">          <i>argile</i><par n="abeille__n"/></e>
 <e lm="argot">           <i>argot</i><par n="livre__n"/></e>
 <e lm="argument">        <i>argument</i><par n="livre__n"/></e>
@@ -32033,6 +32033,7 @@
 <e lm="à propos de">     <i>à<b/>propos<b/></i><par n="contde__pr"/></e>
 <e r="LR" lm="à proximité de"><i>à<b/>proximité<b/></i><par n="contde__pr"/></e>
 <e lm="à ras de">        <i>à<b/>ras<b/></i><par n="contde__pr"/></e>
+<e lm="au ras de">       <i>au<b/>ras<b/></i><par n="contde__pr"/></e>
 <e lm="à titre de">      <i>à<b/>titre<b/></i><par n="contde__pr"/></e>
 <e lm="à travers">       <i>à<b/>travers</i><par n="attendu__pr"/></e>
 <e lm="avant">           <i>avant</i><par n="attendu__pr"/></e>
@@ -34355,7 +34356,7 @@
 <e lm="saisir des biens"><i>sais</i><par n="about/[]ir__vblex" prm=""/><p><l><b/>des<b/>biens</l><r><g><b/>des<b/>biens</g></r></p></e>
 <e lm="saisir">          <i>sais</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="saler">           <i>sal</i><par n="abaiss/er__vblex"/></e>
-<e lm="salir">           <i>sal</i><par n="accour/ir__vblex"/></e>
+<e lm="salir">           <i>sal</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="saliver">         <i>saliv</i><par n="abaiss/er__vblex"/></e>
 <e lm="saluer">          <i>salu</i><par n="abaiss/er__vblex"/></e>
 <e lm="sanctionner">     <i>sanctionn</i><par n="abaiss/er__vblex"/></e>
@@ -35375,7 +35376,7 @@
 <e lm="anarchiste" a="jaumeortola"><i>anarchiste</i><par n="artiste__n"/></e>
 <e lm="anarcho-syndicalisme" a="jaumeortola"><i>anarcho-syndicalisme</i><par n="livre__n"/></e>
 <e lm="anatomie" a="jaumeortola"><i>anatomie</i><par n="abeille__n"/></e>
-<e lm="andorran" a="jaumeortola"><i>andorran</i><par n="affecté__n"/></e>
+<e lm="Andorran"><i>Andorran</i><par n="affecté__n"/></e>
 <e lm="anesthésiste" a="jaumeortola"><i>anesthésiste</i><par n="artiste__n"/></e>
 <e lm="anévrisme" a="jaumeortola"><i>anévrisme</i><par n="livre__n"/></e>
 <e lm="angiosperme" a="jaumeortola"><i>angiosperme</i><par n="abeille__n"/></e>
@@ -37152,7 +37153,7 @@
 <e lm="rotor" a="jaumeortola"><i>rotor</i><par n="livre__n"/></e>
 <e lm="rouble" a="jaumeortola"><i>rouble</i><par n="livre__n"/></e>
 <e lm="rougeole" a="jaumeortola"><i>rougeole</i><par n="abeille__n"/></e>
-<e lm="rouille" a="jaumeortola"><i>rouille</i><par n="artiste__n"/></e>
+<e lm="rouille"><i>rouille</i><par n="abeille__n"/></e>
 <e lm="roupie" a="jaumeortola"><i>roupie</i><par n="abeille__n"/></e>
 <e lm="rubis" a="jaumeortola"><i>rubis</i><par n="mois__n"/></e>
 <e lm="ruche" a="jaumeortola"><i>ruche</i><par n="abeille__n"/></e>
@@ -37773,6 +37774,13 @@
 <e lm="marc légal"><p><l>marcs<b/>légaux</l><r>marc<b/>légal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="être cher"><p><l>être<b/>cher</l><r>être<b/>cher<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="être cher"><p><l>êtres<b/>chers</l><r>être<b/>cher<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
+<e lm="crieur public"><p><l>crieur<b/>public</l><r>crieur<b/>public<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="crieur public"><p><l>crieurs<b/>publics</l><r>crieur<b/>public<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="homme politique"><p><l>homme<b/>politique</l><r>homme<b/>politique<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="homme politique"><p><l>hommes<b/>politiques</l><r>homme<b/>politique<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="femme politique"><p><l>femme<b/>politique</l><r>femme<b/>politique<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="femme politique"><p><l>femmes<b/>politiques</l><r>femme<b/>politique<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
 <e lm="ancien ministre"><p><l>ancien<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="ancien ministre"><p><l>ancienne<b/>ministre</l><r>ancien<b/>ministre<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -39226,7 +39234,13 @@
 <e lm="kabyle"><i>kabyle</i><par n="artiste__n"/></e>
 <e lm="touareg"><i>touareg</i><par n="académique__adj"/></e>
 <e lm="touareg"><i>touareg</i><par n="artiste__n"/></e>
-
+<e lm="autoproclamé"><i>autoproclamé</i><par n="abaissant__adj"/></e>
+<e lm="tiret"><i>tiret</i><par n="livre__n"/></e>
+<e lm="noce"><i>noce</i><par n="abeille__n"/></e>
+<e lm="abêtir"><i>abêt</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="accomplir"><i>accompl</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="destinée"><i>destinée</i><par n="abeille__n"/></e>
+<e lm="Gaditan"><i>Gaditan</i><par n="affecté__n"/></e>
 
 	<!-- xxx -->
   </section>
