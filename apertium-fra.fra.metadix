@@ -636,6 +636,10 @@
   <e>       <p><l>es</l>        <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="abords__n">
+  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="vacances__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
@@ -858,10 +862,6 @@
 
 <pardef n="fois__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sp"/></r></p></e>
-</pardef>
-
-<pardef n="abords__n">
-  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="personnel__n">
@@ -12880,7 +12880,8 @@
 <e lm="crispation">      <i>crispation</i><par n="abeille__n"/></e>
 <e lm="cristallerie">    <i>cristallerie</i><par n="abeille__n"/></e>
 <e lm="cristallisation"> <i>cristallisation</i><par n="abeille__n"/></e>
-<e lm="critique">        <i>critique</i><par n="artiste__n"/></e>
+<e lm="critique">        <i>critique</i><par n="livre__n"/></e>
+<e lm="critique">        <i>critique</i><par n="abeille__n"/></e>
 <e lm="critère">         <i>critère</i><par n="livre__n"/></e>
 <e lm="critérium">       <i>critérium</i><par n="livre__n"/></e>
 <e lm="croate">          <i>croate</i><par n="artiste__n"/></e>
@@ -35719,7 +35720,8 @@
 <e lm="chauffage" a="jaumeortola"><i>chauffage</i><par n="livre__n"/></e>
 <e lm="chauffagiste" a="jaumeortola"><i>chauffagiste</i><par n="artiste__n"/></e>
 <e lm="chaussée" a="jaumeortola"><i>chaussée</i><par n="abeille__n"/></e>
-<e lm="chauve-souris" a="jaumeortola"><i>chauve-souris</i><par n="BBC__n"/></e>
+<e lm="chauve-souris"><p><l>chauve-souris</l><r>chauve-souris<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="chauve-souris"><p><l>chauves-souris</l><r>chauve-souris<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="cheik" a="jaumeortola"><i>cheik</i><par n="livre__n"/></e>
 <e lm="chenille" a="jaumeortola"><i>chenille</i><par n="abeille__n"/></e>
 <e lm="chérubin" a="jaumeortola"><i>chérubin</i><par n="livre__n"/></e>
@@ -35807,7 +35809,8 @@
 <e lm="comparant" a="jaumeortola"><i>comparant</i><par n="affecté__n"/></e>
 <e lm="compas" a="jaumeortola"><i>compas</i><par n="mois__n"/></e>
 <e lm="compresseur" a="jaumeortola"><i>compresseur</i><par n="livre__n"/></e>
-<e lm="compte-rendu" a="jaumeortola"><i>compte-rendu</i><par n="BBVA__n"/></e>
+<e lm="compte-rendu"><p><l>compte-rendu</l><r>compte-rendu<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="compte-rendu"><p><l>comptes-rendus</l><r>compte-rendu<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="computation" a="jaumeortola"><i>computation</i><par n="abeille__n"/></e>
 <e lm="concentrateur" a="jaumeortola"><i>concentrateur</i><par n="livre__n"/></e>
 <e lm="concentré" a="jaumeortola"><i>concentré</i><par n="livre__n"/></e>
