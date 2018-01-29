@@ -8740,7 +8740,8 @@
 <e lm="technologique">   <i>technologique</i><par n="académique__adj"/></e>
 <e lm="tel">             <i>tel</i><par n="annuel__adj"/></e>
 <e lm="tellement">       <i>tellement</i><par n="arrière__adj"/></e>
-<e lm="tellement de">    <i>tellement<b/>de</i><par n="arrière__adj"/></e>
+<e r="RL" lm="tellement de">   <p><l>tellement<b/><a/>de</l><r>tellement<b/>de</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="tellement de">   <i>tellement<b/>de</i><par n="arrière__adj"/></e>
 <e lm="tellurique">      <i>tellurique</i><par n="académique__adj"/></e>
 <e lm="temporaire">      <i>temporaire</i><par n="académique__adj"/></e>
 <e lm="temporel">        <i>temporel</i><par n="annuel__adj"/></e>
@@ -8995,46 +8996,53 @@
     <!-- ******************************
           group adj_symbol
       ****************************** -->
-<e r="LR" lm="10e" a="hector"><p><l>10e</l>  <r>10ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="10ème" a="hector"><p><l>10ème</l>     <r>10ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="11e" a="hector"><p><l>11e</l>  <r>11ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="11ème" a="hector"><p><l>11ème</l>     <r>11ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="12e" a="hector"><p><l>12e</l>  <r>12ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="12ème" a="hector"><p><l>12ème</l>     <r>12ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="13e" a="hector"><p><l>13e</l>  <r>13ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="13ème" a="hector"><p><l>13ème</l>     <r>13ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="14e" a="hector"><p><l>14e</l>  <r>14ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="14ème" a="hector"><p><l>14ème</l>     <r>14ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="15e" a="hector"><p><l>15e</l>  <r>15ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="15ème" a="hector"><p><l>15ème</l>     <r>15ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="16e" a="hector"><p><l>16e</l>  <r>16ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="16ème" a="hector"><p><l>16ème</l>     <r>16ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="17e" a="hector"><p><l>17e</l>  <r>17ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="17ème" a="hector"><p><l>17ème</l>     <r>17ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="18e" a="hector"><p><l>18e</l>  <r>18ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="18ème" a="hector"><p><l>18ème</l>     <r>18ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="19e" a="hector"><p><l>19e</l>  <r>19ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="19ème" a="hector"><p><l>19ème</l>     <r>19ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="20e" a="hector"><p><l>20e</l>  <r>20ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="20ème" a="hector"><p><l>20ème</l>     <r>20ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="2e" a="hector">   <p><l>2e</l>        <r>2nd<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="10e" a="hector"><p><l>10e</l>  <r>10ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="10ème" a="hector"><p><l>10ème</l>     <r>10ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="11e" a="hector"><p><l>11e</l>  <r>11ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="11ème" a="hector"><p><l>11ème</l>     <r>11ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="12e" a="hector"><p><l>12e</l>  <r>12ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="12ème" a="hector"><p><l>12ème</l>     <r>12ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="13e" a="hector"><p><l>13e</l>  <r>13ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="13ème" a="hector"><p><l>13ème</l>     <r>13ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="14e" a="hector"><p><l>14e</l>  <r>14ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="14ème" a="hector"><p><l>14ème</l>     <r>14ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="15e" a="hector"><p><l>15e</l>  <r>15ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="15ème" a="hector"><p><l>15ème</l>     <r>15ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="16e" a="hector"><p><l>16e</l>  <r>16ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="16ème" a="hector"><p><l>16ème</l>     <r>16ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="17e" a="hector"><p><l>17e</l>  <r>17ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="17ème" a="hector"><p><l>17ème</l>     <r>17ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="18e" a="hector"><p><l>18e</l>  <r>18ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="18ème" a="hector"><p><l>18ème</l>     <r>18ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="19e" a="hector"><p><l>19e</l>  <r>19ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="19ème" a="hector"><p><l>19ème</l>     <r>19ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="20e" a="hector"><p><l>20e</l>  <r>20ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="20ème" a="hector"><p><l>20ème</l>     <r>20ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 
-
+<e r="LR" lm="1r" a="hector"><p><l>1r</l>    <r>1er<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="1er" a="hector">  <p><l>1er</l>       <r>1er<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="1er" a="hector"><p><l>1e</l>      <r>1er<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="1er" a="hector">  <p><l>1re</l>      <r>1er<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" lm="1er" a="hector"><p><l>1ère</l>      <r>1er<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" lm="2nd" a="hector"><p><l>2e</l>    <r>2nd<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="2nd" a="hector"><p><l>2de</l>    <r>2nd<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" lm="2nd" a="hector"><p><l>2nde</l>    <r>2nd<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="LR" lm="2nd" a="hector"><p><l>2e</l>    <r>2nd<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="2nd" a="hector">  <p><l>2nd</l>       <r>2nd<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR" lm="3e" a="hector"><p><l>3e</l>    <r>3ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="3ème" a="hector"> <p><l>3ème</l>      <r>3ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="4e" a="hector"><p><l>4e</l>    <r>4ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="4ème" a="hector"> <p><l>4ème</l>      <r>4ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="5e" a="hector"><p><l>5e</l>    <r>5ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="5ème" a="hector"> <p><l>5ème</l>      <r>5ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="6e" a="hector"><p><l>6e</l>    <r>6ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="6ème" a="hector"> <p><l>6ème</l>      <r>6ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="7e" a="hector"><p><l>7e</l>    <r>7ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="7ème" a="hector"> <p><l>7ème</l>      <r>7ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="8e" a="hector"><p><l>8e</l>    <r>8ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="8ème" a="hector"> <p><l>8ème</l>      <r>8ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e r="LR" lm="9e" a="hector"><p><l>9e</l>    <r>9ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="9ème" a="hector"> <p><l>9ème</l>      <r>9ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="3e" a="hector"><p><l>3e</l>    <r>3ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="3ème" a="hector"> <p><l>3ème</l>      <r>3ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="4e" a="hector"><p><l>4e</l>    <r>4ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="4ème" a="hector"> <p><l>4ème</l>      <r>4ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="5e" a="hector"><p><l>5e</l>    <r>5ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="5ème" a="hector"> <p><l>5ème</l>      <r>5ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="6e" a="hector"><p><l>6e</l>    <r>6ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="6ème" a="hector"> <p><l>6ème</l>      <r>6ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="7e" a="hector"><p><l>7e</l>    <r>7ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="7ème" a="hector"> <p><l>7ème</l>      <r>7ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="8e" a="hector"><p><l>8e</l>    <r>8ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="8ème" a="hector"> <p><l>8ème</l>      <r>8ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="9e" a="hector"><p><l>9e</l>    <r>9ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR" lm="9ème" a="hector"> <p><l>9ème</l>      <r>9ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e lm="bouche bée">      <p><l>bouche<b/>bée</l><r>bouche<b/>bée<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e lm="en vigueur">      <p><l>en<b/>vigueur</l><r>en<b/>vigueur<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
 <e lm="lu et approuvé">  <p><l>lu<b/>et<b/>approuvé</l><r>lu<b/>et<b/>approuvé<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
@@ -9741,6 +9749,7 @@
 <e lm="orthodoxement">   <i>orthodoxement</i><par n="hier__adv"/></e>
 <e lm="oui">             <i>oui</i><par n="hier__adv"/></e>
 <e lm="outre-mer">       <i>outre-mer</i><par n="hier__adv"/></e>
+<e r="LR" lm="outre-mer">     <p><l>outremer</l>     <r>outre-mer</r></p><par n="hier__adv"/></e>
 <e lm="outre mesure">    <i>outre<b/>mesure</i><par n="hier__adv"/></e>
 <e lm="ouvertement">     <i>ouvertement</i><par n="hier__adv"/></e>
 <e lm="où">              <i>où</i><par n="comment__adv"/></e>
@@ -10850,7 +10859,7 @@
 <e lm="SME">             <i>SME</i><par n="BBVA__n"/></e>
 <e lm="SMI">             <i>SMI</i><par n="BBVA__n"/></e>
 <e lm="SMIC">            <i>SMIC</i><par n="IRPF__n"/></e>
-<e lm="SMS">             <i>SMS</i><par n="BBVA__n"/></e>
+<e lm="SMS">             <i>SMS</i><par n="IRPF__n"/></e>
 <e lm="SNCF">            <i>SNCF</i><par n="BBC__n"/></e>
 <e lm="SOS">             <i>SOS</i><par n="BBVA__n"/></e>
 <e lm="SPE">             <i>SPE</i><par n="BBVA__n"/></e>
@@ -12988,6 +12997,7 @@
 <e lm="deception">       <i>deception</i><par n="abeille__n"/></e>
 <e lm="declaration">     <i>declaration</i><par n="abeille__n"/></e>
 <e lm="degré">           <i>degré</i><par n="livre__n"/></e>
+<e r="RL" lm="degré de"> <i>degré</i><par n="livre__n"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="demande d'admission"><i>demande</i><par n="abeille__n"/><p><l><b/>d'admission</l><r><g><b/>d'admission</g></r></p></e>
 <e lm="demande d'aval">  <i>demande</i><par n="abeille__n"/><p><l><b/>d'aval</l><r><g><b/>d'aval</g></r></p></e>
 <e lm="demande de chéquier"><i>demande</i><par n="abeille__n"/><p><l><b/>de<b/>chéquier</l><r><g><b/>de<b/>chéquier</g></r></p></e>
@@ -15809,7 +15819,7 @@
 <e lm="opium">           <i>opium</i><par n="livre__n"/></e>
 <e lm="opportuniste">    <i>opportuniste</i><par n="artiste__n"/></e>
 <e lm="opportunité">     <i>opportunité</i><par n="abeille__n"/></e>
-<e lm="opposant">        <i>opposant</i><par n="livre__n"/></e>
+<e lm="opposant">        <i>opposant</i><par n="affecté__n"/></e>
 <e lm="opposition">      <i>opposition</i><par n="abeille__n"/></e>
 <e lm="opticien" a="hector"><i>opticien</i><par n="ancien__n"/></e>
 <e lm="optimisation">    <i>optimisation</i><par n="abeille__n"/></e>
@@ -16157,7 +16167,7 @@
 <e lm="photogramme">     <i>photogramme</i><par n="livre__n"/></e>
 <e lm="photographe">     <i>photographe</i><par n="artiste__n"/></e>
 <e lm="photographie">    <i>photographie</i><par n="abeille__n"/></e>
-<e lm="photon">          <i>photon</i><par n="artiste__n"/></e>
+<e lm="photon">          <i>photon</i><par n="livre__n"/></e>
 <e lm="photonouvelle">   <i>photonouvelle</i><par n="abeille__n"/></e>
 <e lm="phrase">          <i>phrase</i><par n="abeille__n"/></e>
 <e lm="physicien">       <i>physicien</i><par n="ancien__n"/></e>
@@ -32169,6 +32179,8 @@
 <e r="LR" lm="qui">      <i>qui</i><par n="que__prn"/></e>
 <e lm="qui est-ce qui">  <i>qui<b/>est-ce<b/>qui</i><par n="que__prn"/></e>
 <e lm="rien">            <i>rien</i><par n="ceci__prn"/></e>
+<e lm="plus rien">       <i>plus<b/>rien</i><par n="ceci__prn"/></e>
+<e lm="rien de plus">    <i>rien<b/>de<b/>plus</i><par n="ceci__prn"/></e>
 <e r="LR" lm="se">       <i>se</i><par n="on__prn"/></e>
 <e lm="soi">             <p><l>soi</l>       <r>soi</r></p><par n="soi__prn"/></e>
 <e lm="soi-même">        <p><l>soi-même</l>  <r>soi-même</r></p><par n="soi__prn"/></e>
@@ -35421,6 +35433,7 @@
 <e lm="arcade" a="jaumeortola"><i>arcade</i><par n="abeille__n"/></e>
 <e lm="archaïsme" a="jaumeortola"><i>archaïsme</i><par n="livre__n"/></e>
 <e lm="archiduc" a="jaumeortola"><i>archiduc</i><par n="livre__n"/></e>
+<e lm="archiduchesse"><i>archiduchesse</i><par n="abeille__n"/></e>
 <e lm="architrave" a="jaumeortola"><i>architrave</i><par n="abeille__n"/></e>
 <e lm="archivolte" a="jaumeortola"><i>archivolte</i><par n="abeille__n"/></e>
 <e lm="arçon" a="jaumeortola"><i>arçon</i><par n="livre__n"/></e>
@@ -35659,7 +35672,8 @@
 <e lm="carrosserie" a="jaumeortola"><i>carrosserie</i><par n="abeille__n"/></e>
 <e lm="Carthaginois"><i>Carthaginois</i><par n="admis__n"/></e>
 <e lm="cartilage" a="jaumeortola"><i>cartilage</i><par n="livre__n"/></e>
-<e lm="cartouche" a="jaumeortola"><i>cartouche</i><par n="artiste__n"/></e>
+<e lm="cartouche" c="armement"><i>cartouche</i><par n="abeille__n"/></e>
+<e lm="cartouche" c="ornement"><i>cartouche</i><par n="livre__n"/></e>
 <e lm="casaque" a="jaumeortola"><i>casaque</i><par n="abeille__n"/></e>
 <e lm="caste" a="jaumeortola"><i>caste</i><par n="abeille__n"/></e>
 <e lm="castor" a="jaumeortola"><i>castor</i><par n="livre__n"/></e>
@@ -36291,6 +36305,7 @@
 <e lm="glucagon" a="jaumeortola"><i>glucagon</i><par n="livre__n"/></e>
 <e lm="glucide" a="jaumeortola"><i>glucide</i><par n="livre__n"/></e>
 <e lm="glucose" a="jaumeortola"><i>glucose</i><par n="livre__n"/></e>
+<e r="LR" lm="glucose">     <p><l>glycose</l>     <r>glucose</r></p><par n="livre__n"/></e>
 <e lm="glycoprotéine" a="jaumeortola"><i>glycoprotéine</i><par n="abeille__n"/></e>
 <e lm="gnome" a="jaumeortola"><i>gnome</i><par n="livre__n"/></e>
 <e lm="gnosticisme" a="jaumeortola"><i>gnosticisme</i><par n="livre__n"/></e>
@@ -36520,9 +36535,10 @@
 <e lm="laxatif" a="jaumeortola"><i>laxatif</i><par n="livre__n"/></e>
 <e lm="légionnaire" a="jaumeortola"><i>légionnaire</i><par n="artiste__n"/></e>
 <e lm="leitmotiv" a="jaumeortola"><i>leitmotiv</i><par n="livre__n"/></e>
-<e lm="leitmotive" a="jaumeortola"><i>leitmotive</i><par n="abords__n"/></e>
+<e r="LR" lm="leitmotiv" c="orthographe 1990"><p><l>leitmotive</l><r>leitmotiv<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="lèpre" a="jaumeortola"><i>lèpre</i><par n="abeille__n"/></e>
 <e lm="lépreux" a="jaumeortola"><i>lépreu</i><par n="épou/x__n"/></e>
+<e lm="lépreux"><i>lépreu</i><par n="affectueu/x__adj"/></e>
 <e lm="lepton" a="jaumeortola"><i>lepton</i><par n="livre__n"/></e>
 <e lm="leucocyte" a="jaumeortola"><i>leucocyte</i><par n="livre__n"/></e>
 <e lm="lévrier" a="jaumeortola"><i>lévrier</i><par n="livre__n"/></e>
@@ -36656,7 +36672,7 @@
 <e lm="miniaturiste" a="jaumeortola"><i>miniaturiste</i><par n="artiste__n"/></e>
 <e lm="minimalisme" a="jaumeortola"><i>minimalisme</i><par n="livre__n"/></e>
 <e lm="minimaliste" a="jaumeortola"><i>minimaliste</i><par n="artiste__n"/></e>
-<e lm="mire" a="jaumeortola"><i>mire</i><par n="artiste__n"/></e>
+<e lm="mire"><i>mire</i><par n="abeille__n"/></e>
 <e lm="miséricorde" a="jaumeortola"><i>miséricorde</i><par n="abeille__n"/></e>
 <e lm="missel" a="jaumeortola"><i>misse</i><par n="cie/l__n"/></e>
 <e lm="mite" a="jaumeortola"><i>mite</i><par n="abeille__n"/></e>
@@ -36815,7 +36831,8 @@
 <e lm="ostracisme" a="jaumeortola"><i>ostracisme</i><par n="livre__n"/></e>
 <e lm="ottoman" a="jaumeortola"><i>ottoman</i><par n="affecté__n"/></e>
 <e lm="outillage" a="jaumeortola"><i>outillage</i><par n="livre__n"/></e>
-<e lm="outre-mer" a="jaumeortola"><i>outre-mer</i><par n="BBVA__n"/></e>
+<e lm="outre-mer" a="jaumeortola"><i>outre-mer</i><par n="mois__n"/></e>
+<e r="LR" lm="outre-mer">     <p><l>outremer</l>     <r>outre-mer</r></p><par n="mois__n"/></e>
 <e lm="ovaire" a="jaumeortola"><i>ovaire</i><par n="livre__n"/></e>
 <e lm="overdose" a="jaumeortola"><i>overdose</i><par n="abeille__n"/></e>
 <e lm="ovni" a="jaumeortola"><i>ovni</i><par n="livre__n"/></e>
@@ -39241,6 +39258,23 @@
 <e lm="accomplir"><i>accompl</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="destinée"><i>destinée</i><par n="abeille__n"/></e>
 <e lm="Gaditan"><i>Gaditan</i><par n="affecté__n"/></e>
+<e lm="Pagès"><i>Pagès</i><par n="Saussure__np"/></e>
+<e lm="jeunes gens"><i>jeunes<b/>gens</i><par n="abords__n"/></e>
+<e lm="pneu"><i>pneu</i><par n="livre__n"/></e>
+<e lm="thyroïde"><i>thyroïde</i><par n="abeille__n"/></e>
+<e lm="thyroïde"><i>thyroïde</i><par n="académique__adj"/></e>
+<e lm="thyroïde"><i>thyroïdien</i><par n="ancien__adj"/></e>
+<e lm="cross-country"><i>cross-countr</i><par n="brand/y__n"/></e>
+<e lm="cross"><i>cross</i><par n="mois__n"/></e>
+<e lm="mobilier">        <i>mobili</i><par n="ch/er__adj"/></e>
+<e lm="mobilier">        <i>mobili</i><par n="livre__n"/></e>
+<e lm="truite"><i>truite</i><par n="abeille__n"/></e>
+<e lm="colon"><i>colon</i><par n="livre__n"/></e>
+<e lm="troyen"><i>troyen</i><par n="ancien__adj"/></e>
+<e lm="troyen"><i>troyen</i><par n="ancien__n"/></e>
+<e lm="aïkido"><i>aïkido</i><par n="livre__n"/></e>
+<e lm="ès"><i>ès</i><par n="attendu__pr"/></e>
+<e lm="infante"><i>infante</i><par n="livre__n"/></e>
 
 	<!-- xxx -->
   </section>
@@ -39250,6 +39284,7 @@
       ****************************** -->
 <e r="LR" lm="beaucoup de"><p><l>beaucoup<b/>d'</l><r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="peu de">   <p><l>peu<b/>d'</l> <r>peu<b/>de</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="tellement de"><p><l>tellement<b/>d'</l> <r>peu<b/>de</r></p><par n="arrière__adj"/></e>
     <!-- ******************************
           group cnjadv
       ****************************** -->
