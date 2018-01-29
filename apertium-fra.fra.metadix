@@ -7820,6 +7820,9 @@
 <e lm="jeune">           <i>jeune</i><par n="académique__adj"/></e>
 <e lm="joli">            <i>joli</i><par n="abaissant__adj"/></e>
 <e lm="jordanien">       <i>jordanien</i><par n="ancien__adj"/></e>
+<e lm="cisjordanien">    <i>cisjordanien</i><par n="ancien__adj"/></e>
+<e lm="Jordanien">       <i>Jordanien</i><par n="ancien__n"/></e>
+<e lm="Cisjordanien">    <i>Cisjordanien</i><par n="ancien__n"/></e>
 <e lm="joueur">          <i>joueu</i><par n="causeu/r__adj"/></e>
 <e lm="jouissif">        <i>jouissi</i><par n="affirmati/f__adj"/></e>
 <e lm="journalistique">  <i>journalistique</i><par n="académique__adj"/></e>
@@ -9452,6 +9455,7 @@
 <e lm="en long et en large"><i>en<b/>long<b/>et<b/>en<b/>large</i><par n="hier__adv"/></e>
 <e lm="en même temps">   <i>en<b/>même<b/>temps</i><par n="hier__adv"/></e>
 <e lm="en paiement">     <i>en<b/>paiement</i><par n="hier__adv"/></e>
+<e lm="en payement">     <i>en<b/>payement</i><par n="hier__adv"/></e>
 <e lm="en partie">       <i>en<b/>partie</i><par n="hier__adv"/></e>
 <e lm="en permanence">   <i>en<b/>permanence</i><par n="hier__adv"/></e>
 <e lm="en plein essor">  <i>en<b/>plein<b/>essor</i><par n="hier__adv"/></e>
@@ -12984,6 +12988,7 @@
 <e lm="date d'échéance"> <i>date</i><par n="abeille__n"/><p><l><b/>d'échéance</l><r><g><b/>d'échéance</g></r></p></e>
 <e lm="date d'émision">  <i>date</i><par n="abeille__n"/><p><l><b/>d'émision</l><r><g><b/>d'émision</g></r></p></e>
 <e lm="date de paiement"><i>date</i><par n="abeille__n"/><p><l><b/>de<b/>paiement</l><r><g><b/>de<b/>paiement</g></r></p></e>
+<e lm="date de payement"><i>date</i><par n="abeille__n"/><p><l><b/>de<b/>payement</l><r><g><b/>de<b/>payement</g></r></p></e>
 <e lm="date de régularisation"><i>date</i><par n="abeille__n"/><p><l><b/>de<b/>régularisation</l><r><g><b/>de<b/>régularisation</g></r></p></e>
 <e lm="date de valeur">  <i>date</i><par n="abeille__n"/><p><l><b/>de<b/>valeur</l><r><g><b/>de<b/>valeur</g></r></p></e>
 <e lm="date">            <i>date</i><par n="abeille__n"/></e>
@@ -15388,6 +15393,7 @@
 <e lm="modalité">        <i>modalité</i><par n="abeille__n"/></e>
 <e lm="mode d'amortissement"><i>mode</i><par n="livre__n"/><p><l><b/>d'amortissement</l><r><g><b/>d'amortissement</g></r></p></e>
 <e lm="mode de paiement"><i>mode</i><par n="livre__n"/><p><l><b/>de<b/>paiement</l><r><g><b/>de<b/>paiement</g></r></p></e>
+<e lm="mode de payement"><i>mode</i><par n="livre__n"/><p><l><b/>de<b/>payement</l><r><g><b/>de<b/>payement</g></r></p></e>
 <e lm="mode de remboursement"><i>mode</i><par n="livre__n"/><p><l><b/>de<b/>remboursement</l><r><g><b/>de<b/>remboursement</g></r></p></e>
 <e lm="mode" c="cat moda"><i>mode</i><par n="abeille__n"/></e>
 <e lm="mode" c="cat mode"><i>mode</i><par n="livre__n"/></e>
@@ -15499,6 +15505,7 @@
 <e lm="mouvement">       <i>mouvement</i><par n="livre__n"/></e>
 <e lm="moyen de libre service"><i>moyen</i><par n="livre__n"/><p><l><b/>de<b/>libre<b/>service</l><r><g><b/>de<b/>libre<b/>service</g></r></p></e>
 <e lm="moyen de paiement"><i>moyen</i><par n="livre__n"/><p><l><b/>de<b/>paiement</l><r><g><b/>de<b/>paiement</g></r></p></e>
+<e lm="moyen de payement"><i>moyen</i><par n="livre__n"/><p><l><b/>de<b/>payement</l><r><g><b/>de<b/>payement</g></r></p></e>
 <e lm="moyen de production"><i>moyen</i><par n="livre__n"/><p><l><b/>de<b/>production</l><r><g><b/>de<b/>production</g></r></p></e>
 <e lm="moyen de transport"><i>moyen</i><par n="livre__n"/><p><l><b/>de<b/>transport</l><r><g><b/>de<b/>transport</g></r></p></e>
 <e lm="moyen">           <i>moyen</i><par n="livre__n"/></e>
@@ -15843,6 +15850,7 @@
 <e lm="ordination">      <i>ordination</i><par n="abeille__n"/></e>
 <e lm="ordonnance">      <i>ordonnance</i><par n="abeille__n"/></e>
 <e lm="ordre de paiement"><i>ordre</i><par n="livre__n"/><p><l><b/>de<b/>paiement</l><r><g><b/>de<b/>paiement</g></r></p></e>
+<e lm="ordre de payement"><i>ordre</i><par n="livre__n"/><p><l><b/>de<b/>payement</l><r><g><b/>de<b/>payement</g></r></p></e>
 <e lm="ordre de transfert"><i>ordre</i><par n="livre__n"/><p><l><b/>de<b/>transfert</l><r><g><b/>de<b/>transfert</g></r></p></e>
 <e lm="ordre du jour">   <i>ordre</i><par n="livre__n"/><p><l><b/>du<b/>jour</l><r><g><b/>du<b/>jour</g></r></p></e>
 <e lm="ordre">           <i>ordre</i><par n="livre__n"/></e>
@@ -16574,6 +16582,7 @@
 <e lm="prénom">          <i>prénom</i><par n="livre__n"/></e>
 <e lm="préoccupation">   <i>préoccupation</i><par n="abeille__n"/></e>
 <e lm="prépaiement">     <i>prépaiement</i><par n="livre__n"/></e>
+<e lm="prépayement">     <i>prépayement</i><par n="livre__n"/></e>
 <e lm="préparateur">     <i>préparat</i><par n="administrat/eur__n"/></e>
 <e lm="préparatif">      <i>préparatif</i><par n="livre__n"/></e>
 <e lm="préparation">     <i>préparation</i><par n="abeille__n"/></e>
@@ -17676,8 +17685,9 @@
 <e lm="syntaxe">         <i>syntaxe</i><par n="abeille__n"/></e>
 <e lm="synthèse">        <i>synthèse</i><par n="abeille__n"/></e>
 <e lm="syntonie">        <i>syntonie</i><par n="abeille__n"/></e>
-<e lm="syrien">          <i>syrien</i><par n="ancien__n"/></e>
+<e lm="Syrien">          <i>Syrien</i><par n="ancien__n"/></e>
 <e lm="système de paiement"><i>système</i><par n="livre__n"/><p><l><b/>de<b/>paiement</l><r><g><b/>de<b/>paiement</g></r></p></e>
+<e lm="système de payement"><i>système</i><par n="livre__n"/><p><l><b/>de<b/>payement</l><r><g><b/>de<b/>payement</g></r></p></e>
 <e lm="système">         <i>système</i><par n="livre__n"/></e>
 <e lm="systématisation"> <i>systématisation</i><par n="abeille__n"/></e>
 <e lm="sèche-cheveux">   <i>sèche-cheveux</i><par n="mois__n"/></e>
@@ -18598,6 +18608,8 @@
 <e lm="aménagement urbain"><p><l>aménagements<b/>urbains</l><r>aménagement<b/>urbain<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="analyse isotache"><p><l>analyse<b/>isotache</l><r>analyse<b/>isotache<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="analyse isotache"><p><l>analyses<b/>isotaches</l><r>analyse<b/>isotache<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="après payement">  <p><l>après<b/>payement</l><r>après<b/>payement<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="après payement">  <p><l>après<b/>payements</l><r>après<b/>payement<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="après paiement">  <p><l>après<b/>paiement</l><r>après<b/>paiement<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="après paiement">  <p><l>après<b/>paiements</l><r>après<b/>paiement<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="arme biologique"> <p><l>arme<b/>biologique</l><r>arme<b/>biologique<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -18964,6 +18976,10 @@
 <e lm="organisme publique"><p><l>organismes<b/>publiques</l><r>organisme<b/>publique<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="organisme sportif"><p><l>organismes<b/>sportifs</l><r>organisme<b/>sportif<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="p.">              <p><l>p.</l>        <r>p.<s n="n"/><s n="f"/><s n="sp"/></r></p></e>
+<e lm="payement différé"><p><l>payement<b/>différé</l><r>payement<b/>différé<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="payement total">  <p><l>payement<b/>total</l><r>payement<b/>total<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="payement différé"><p><l>payements<b/>différés</l><r>payement<b/>différé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="payement total">  <p><l>payements<b/>totaux</l><r>payement<b/>total<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="paiement différé"><p><l>paiement<b/>différé</l><r>paiement<b/>différé<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="paiement total">  <p><l>paiement<b/>total</l><r>paiement<b/>total<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="paiement différé"><p><l>paiements<b/>différés</l><r>paiement<b/>différé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -33325,7 +33341,9 @@
 <e r="RL" lm="faire allusion à"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>allusion<b/><a/>à</l><r><g><b/>allusion<b/>à</g></r></p></e>
 <e lm="faire appel">     <i>f</i><par n="déf/aire__vblex"/><p><l><b/>appel</l><r><g><b/>appel</g></r></p></e>
 <e lm="faire concurrence"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>concurrence</l><r><g><b/>concurrence</g></r></p></e>
+<e lm="faire connaissance avec"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>connaissance<b/>avec</l><r><g><b/>connaissance<b/>avec</g></r></p></e>
 <e lm="faire connaître"> <i>f</i><par n="déf/aire__vblex"/><p><l><b/>connaître</l><r><g><b/>connaître</g></r></p></e>
+<e lm="faire couler"> <i>f</i><par n="déf/aire__vblex"/><p><l><b/>couler</l><r><g><b/>couler</g></r></p></e>
 <e lm="faire de la publicité"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>de<b/>la<b/>publicité</l><r><g><b/>de<b/>la<b/>publicité</g></r></p></e>
 <e lm="faire descendre"> <i>f</i><par n="déf/aire__vblex"/><p><l><b/>descendre</l><r><g><b/>descendre</g></r></p></e>
 <e lm="faire des études de gestion"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>des<b/>études<b/>de<b/>gestion</l><r><g><b/>des<b/>études<b/>de<b/>gestion</g></r></p></e>
@@ -36637,7 +36655,7 @@
 <e lm="méningite" a="jaumeortola"><i>méningite</i><par n="abeille__n"/></e>
 <e lm="menthe" a="jaumeortola"><i>menthe</i><par n="abeille__n"/></e>
 <e lm="menton" a="jaumeortola"><i>menton</i><par n="livre__n"/></e>
-<e lm="mentor" a="jaumeortola"><i>mentor</i><par n="livre__n"/></e>
+<e lm="mentor"><i>mentor</i><par n="affecté__n"/></e>
 <e lm="menuet" a="jaumeortola"><i>menuet</i><par n="livre__n"/></e>
 <e lm="mercantilisme" a="jaumeortola"><i>mercantilisme</i><par n="livre__n"/></e>
 <e lm="mercantiliste" a="jaumeortola"><i>mercantiliste</i><par n="artiste__n"/></e>
@@ -37483,7 +37501,7 @@
 <e lm="trompettiste" a="jaumeortola"><i>trompettiste</i><par n="artiste__n"/></e>
 <e lm="trot" a="jaumeortola"><i>trot</i><par n="livre__n"/></e>
 <e lm="trotskysme" a="jaumeortola"><i>trotskysme</i><par n="livre__n"/></e>
-<e lm="troubadour" a="jaumeortola"><i>troubadour</i><par n="livre__n"/></e>
+<e lm="troubadour"><i>troubadour</i><par n="clown__n"/></e>
 <e lm="trousseau" a="jaumeortola"><i>trousseau</i><par n="lieu__n"/></e>
 <e lm="tryptophane" a="jaumeortola"><i>tryptophane</i><par n="livre__n"/></e>
 <e lm="tsar" a="jaumeortola"><i>tsar</i><par n="livre__n"/></e>
@@ -39275,6 +39293,12 @@
 <e lm="aïkido"><i>aïkido</i><par n="livre__n"/></e>
 <e lm="ès"><i>ès</i><par n="attendu__pr"/></e>
 <e lm="infante"><i>infante</i><par n="livre__n"/></e>
+<e lm="fantassin"><i>fantassin</i><par n="livre__n"/></e>
+    <e lm="quart de finale"><i>quart</i><par n="livre__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
+    <e lm="salle de classe"><i>salle</i><par n="abeille__n"/><p><l><b/>de<b/>classe</l><r><g><b/>de<b/>classe</g></r></p></e>
+    <e lm="lieu de travail"><i>lieu</i><par n="lieu__n"/><p><l><b/>de<b/>travail</l><r><g><b/>de<b/>travail</g></r></p></e>
+<e lm="destroyer"><i>destroyer</i><par n="livre__n"/></e>
+<e lm="Lumière">         <i>Lumière</i><par n="Saussure__np"/></e>
 
 	<!-- xxx -->
   </section>
