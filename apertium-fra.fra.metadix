@@ -14846,7 +14846,7 @@
 <e lm="juridiction">     <i>juridiction</i><par n="abeille__n"/></e>
 <e lm="jurisprudence">   <i>jurisprudence</i><par n="abeille__n"/></e>
 <e lm="jury">            <i>jury</i><par n="livre__n"/></e>
-<e lm="jus">             <i>jus</i><par n="livre__n"/></e>
+<e lm="jus">             <i>jus</i><par n="mois__n"/></e>
 <e lm="justesse">        <i>justesse</i><par n="abeille__n"/></e>
 <e lm="justice">         <i>justice</i><par n="abeille__n"/></e>
 <e lm="justificatif">    <i>justificatif</i><par n="livre__n"/></e>
@@ -32075,6 +32075,7 @@
 <e r="LR" lm="au">       <p><l>au</l>        <r>à<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="RL" lm="au-delà de"><p><l>au-delà<b/><a/>de</l><r>au-delà<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au-delà de"><p><l>au-delà<b/>de</l><r>au-delà<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au lendemain"><p><l>au<b/>lendemain</l><r>à<s n="pr"/><j/>le<b/>lendemain<s n="adv"/></r></p></e>
 <e r="RL" lm="au profit de"><p><l>au<b/>profit<b/><a/>de</l><r>au<b/>profit<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au profit de"><p><l>au<b/>profit<b/>de</l><r>au<b/>profit<b/>de<s n="pr"/></r></p></e>
 <e r="RL" lm="au sujet de"><p><l>au<b/>sujet<b/><a/>de</l><r>au<b/>sujet<b/>de<s n="pr"/></r></p></e>
