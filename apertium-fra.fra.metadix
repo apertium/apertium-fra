@@ -11127,7 +11127,7 @@
 <e lm="afforestation">   <i>afforestation</i><par n="abeille__n"/></e>
 <e lm="affrontement">    <i>affrontement</i><par n="livre__n"/></e>
 <e lm="Afghan">          <i>Afghan</i><par n="affecté__n"/></e>
-<e lm="africain">        <i>africain</i><par n="affecté__n"/></e>
+<e lm="Africain">        <i>Africain</i><par n="affecté__n"/></e>
 <e lm="africaniste">     <i>africaniste</i><par n="artiste__n"/></e>
 <e lm="afrikaans">       <i>afrikaans</i><par n="livre__n"/></e>
 <e lm="afro-américain">  <i>afro-américain</i><par n="affecté__n"/></e>
@@ -35492,7 +35492,7 @@
 <e lm="aura" a="jaumeortola"><i>aura</i><par n="abeille__n"/></e>
 <e lm="aurore" a="jaumeortola"><i>aurore</i><par n="abeille__n"/></e>
 <e lm="auspice" a="jaumeortola"><i>auspice</i><par n="livre__n"/></e>
-<e lm="australien" a="jaumeortola"><i>australien</i><par n="ancien__n"/></e>
+<e lm="Australien"><i>Australien</i><par n="ancien__n"/></e>
 <e lm="autisme" a="jaumeortola"><i>autisme</i><par n="livre__n"/></e>
 <e lm="autiste" a="jaumeortola"><i>autiste</i><par n="artiste__n"/></e>
 <e lm="autobiographie" a="jaumeortola"><i>autobiographie</i><par n="abeille__n"/></e>
@@ -35658,7 +35658,8 @@
 <e lm="canine" a="jaumeortola"><i>canine</i><par n="abeille__n"/></e>
 <e lm="cannabis" a="jaumeortola"><i>cannabis</i><par n="mois__n"/></e>
 <e lm="cannaie" a="jaumeortola"><i>cannaie</i><par n="abeille__n"/></e>
-<e lm="cannelle" a="jaumeortola"><i>cannelle</i><par n="artiste__n"/></e>
+<e lm="cannelle"><i>cannelle</i><par n="livre__n"/></e>
+<e lm="cannelle"><i>cannelle</i><par n="abeille__n"/></e>
 <e lm="cannibale" a="jaumeortola"><i>cannibale</i><par n="artiste__n"/></e>
 <e lm="cannibalisme" a="jaumeortola"><i>cannibalisme</i><par n="livre__n"/></e>
 <e lm="canoë" a="jaumeortola"><i>canoë</i><par n="livre__n"/></e>
@@ -35805,7 +35806,7 @@
 <e lm="cloison" a="jaumeortola"><i>cloison</i><par n="abeille__n"/></e>
 <e lm="cloître" a="jaumeortola"><i>cloître</i><par n="livre__n"/></e>
 <e lm="clonage" a="jaumeortola"><i>clonage</i><par n="livre__n"/></e>
-<e lm="clone" a="jaumeortola"><i>clone</i><par n="artiste__n"/></e>
+<e lm="clone"><i>clone</i><par n="livre__n"/></e>
 <e lm="cluster" a="jaumeortola"><i>cluster</i><par n="livre__n"/></e>
 <e lm="cobalt" a="jaumeortola"><i>cobalt</i><par n="livre__n"/></e>
 <e lm="cocon" a="jaumeortola"><i>cocon</i><par n="livre__n"/></e>
@@ -36261,7 +36262,8 @@
 <e lm="formalisme" a="jaumeortola"><i>formalisme</i><par n="livre__n"/></e>
 <e lm="fortin" a="jaumeortola"><i>fortin</i><par n="livre__n"/></e>
 <e lm="fosse" a="jaumeortola"><i>fosse</i><par n="abeille__n"/></e>
-<e lm="foudre" a="jaumeortola"><i>foudre</i><par n="artiste__n"/></e>
+<e lm="foudre"><i>foudre</i><par n="livre__n"/></e>
+<e lm="foudre"><i>foudre</i><par n="abeille__n"/></e>
 <e lm="fougère" a="jaumeortola"><i>fougère</i><par n="abeille__n"/></e>
 <e lm="fougue" a="jaumeortola"><i>fougue</i><par n="abeille__n"/></e>
 <e lm="fourrage" a="jaumeortola"><i>fourrage</i><par n="livre__n"/></e>
@@ -36504,7 +36506,7 @@
 <e lm="isomorphie" a="jaumeortola"><i>isomorphie</i><par n="abeille__n"/></e>
 <e lm="isotope" a="jaumeortola"><i>isotope</i><par n="livre__n"/></e>
 <e lm="isthme" a="jaumeortola"><i>isthme</i><par n="livre__n"/></e>
-<e lm="italique" a="jaumeortola"><i>italique</i><par n="artiste__n"/></e>
+<e lm="italique"><i>italique</i><par n="livre__n"/></e>
 <e lm="itération" a="jaumeortola"><i>itération</i><par n="abeille__n"/></e>
 <e lm="jade" a="jaumeortola"><i>jade</i><par n="livre__n"/></e>
 <e lm="jaguar" a="jaumeortola"><i>jaguar</i><par n="livre__n"/></e>
@@ -36636,7 +36638,8 @@
 <e lm="martre" a="jaumeortola"><i>martre</i><par n="abeille__n"/></e>
 <e lm="martyrologe" a="jaumeortola"><i>martyrologe</i><par n="livre__n"/></e>
 <e lm="masquage" a="jaumeortola"><i>masquage</i><par n="livre__n"/></e>
-<e lm="mat" a="jaumeortola"><i>mat</i><par n="affecté__n"/></e>
+<e lm="mat"><i>mat</i><par n="livre__n"/></e>
+<e lm="mat"><i>mat</i><par n="abaissant__adj"/></e>
 <e lm="matérialisme" a="jaumeortola"><i>matérialisme</i><par n="livre__n"/></e>
 <e lm="matérialiste" a="jaumeortola"><i>matérialiste</i><par n="artiste__n"/></e>
 <e lm="mauresque" a="jaumeortola"><i>mauresque</i><par n="artiste__n"/></e>
@@ -36730,7 +36733,8 @@
 <e lm="motocross" a="jaumeortola"><i>motocross</i><par n="mois__n"/></e>
 <e lm="moulage" a="jaumeortola"><i>moulage</i><par n="livre__n"/></e>
 <e lm="mousquetaire" a="jaumeortola"><i>mousquetaire</i><par n="livre__n"/></e>
-<e lm="mousse" a="jaumeortola"><i>mousse</i><par n="artiste__n"/></e>
+<e lm="mousse"><i>mousse</i><par n="livre__n"/></e>
+<e lm="mousse"><i>mousse</i><par n="abeille__n"/></e>
 <e lm="moût" a="jaumeortola"><i>moût</i><par n="livre__n"/></e>
 <e lm="moutarde" a="jaumeortola"><i>moutarde</i><par n="abeille__n"/></e>
 <e lm="mozarabe" a="jaumeortola"><i>mozarabe</i><par n="artiste__n"/></e>
@@ -36802,7 +36806,8 @@
 <e lm="oc" a="jaumeortola"><i>oc</i><par n="mois__n"/></e>
 <e lm="occultisme" a="jaumeortola"><i>occultisme</i><par n="livre__n"/></e>
 <e lm="occultiste" a="jaumeortola"><i>occultiste</i><par n="artiste__n"/></e>
-<e lm="ocre" a="jaumeortola"><i>ocre</i><par n="artiste__n"/></e>
+<e lm="ocre"><i>ocre</i><par n="abeille__n"/></e>
+<e lm="ocre"><i>ocre</i><par n="arrière__adj"/></e>
 <e lm="octaèdre" a="jaumeortola"><i>octaèdre</i><par n="livre__n"/></e>
 <e lm="octave" a="jaumeortola"><i>octave</i><par n="abeille__n"/></e>
 <e lm="œdème" a="jaumeortola"><i>œdème</i><par n="livre__n"/></e>
@@ -36887,7 +36892,8 @@
 <e lm="parterre" a="jaumeortola"><i>parterre</i><par n="livre__n"/></e>
 <e lm="parvis" a="jaumeortola"><i>parvis</i><par n="mois__n"/></e>
 <e lm="pasodoble" a="jaumeortola"><i>pasodoble</i><par n="livre__n"/></e>
-<e lm="passe" a="jaumeortola"><i>passe</i><par n="artiste__n"/></e>
+<e lm="passe"><i>passe</i><par n="abeille__n"/></e>
+<e lm="passe"><i>passe</i><par n="arrière__adj"/></e>
 <e lm="passe-temps" a="jaumeortola"><i>passe-temps</i><par n="mois__n"/></e>
 <e lm="patineur" a="jaumeortola"><i>patineu</i><par n="causeu/r__n"/></e>
 <e lm="patriarcat" a="jaumeortola"><i>patriarcat</i><par n="livre__n"/></e>
@@ -38048,7 +38054,8 @@
 <e lm="en métro"><i>en<b/>métro</i><par n="hier__adv"/></e>
 <e lm="en auto"><i>en<b/>auto</i><par n="hier__adv"/></e>
 <e lm="en voiture"><i>en<b/>voiture</i><par n="hier__adv"/></e>
-<e lm="en vélo"><i>en<b/>vélo</i><par n="hier__adv"/></e>
+<e lm="à vélo"><i>à<b/>vélo</i><par n="hier__adv"/></e>
+<e lm="à moto"><i>à<b/>moto</i><par n="hier__adv"/></e>
 <e lm="en bus"><i>en<b/>bus</i><par n="hier__adv"/></e>
 <e lm="en avion"><i>en<b/>avion</i><par n="hier__adv"/></e>
 <e lm="en bateau"><i>en<b/>bateau</i><par n="hier__adv"/></e>
@@ -38070,8 +38077,12 @@
 <e lm="radioisotope"><i>radioisotope</i><par n="livre__n"/></e>
 <e lm="pinerale"><i>pinerale</i><par n="abeille__n"/></e>
 <e lm="lehendakari"><i>lehendakari</i><par n="artiste__n"/></e>
+<e lm="mirandais"><i>mirandais</i><par n="admis__n"/></e>
+<e lm="mirandais"><i>mirandais</i><par n="anglais__adj"/></e>
 <e lm="léonais"><i>léonais</i><par n="admis__n"/></e>
+<e lm="astur-léonais"><i>astur-léonais</i><par n="mois__n"/></e>
 <e lm="léonais"><i>léonais</i><par n="anglais__adj"/></e>
+<e lm="astur-léonais"><i>astur-léonais</i><par n="anglais__adj"/></e>
 <e lm="guêtre"><i>guêtre</i><par n="abeille__n"/></e>
 <e lm="triacylglycérol"><i>triacylglycérol</i><par n="livre__n"/></e>
 <e lm="entrailles"><i>entrailles</i><par n="vacances__n"/></e>
@@ -39050,7 +39061,6 @@
     <e lm="boîte de conserve"><i>boîte</i><par n="abeille__n"/><p><l><b/>de<b/>conserve</l><r><g><b/>de<b/>conserve</g></r></p></e>
     <e lm="coup de tête"><i>coup</i><par n="livre__n"/><p><l><b/>de<b/>tête</l><r><g><b/>de<b/>tête</g></r></p></e>
     <e lm="quatuor à cordes"><i>quatuor</i><par n="livre__n"/><p><l><b/>à<b/>cordes</l><r><g><b/>à<b/>cordes</g></r></p></e>
-<e lm="aztèque" a="jaumeortola"><i>aztèque</i><par n="artiste__n"/></e>
     <e lm="tête de lit"><i>tête</i><par n="abeille__n"/><p><l><b/>de<b/>lit</l><r><g><b/>de<b/>lit</g></r></p></e>
     <e lm="pièce de vêtement"><i>pièce</i><par n="abeille__n"/><p><l><b/>de<b/>vêtement</l><r><g><b/>de<b/>vêtement</g></r></p></e>
     <e lm="métier à tisser"><i>métier</i><par n="livre__n"/><p><l><b/>à<b/>tisser</l><r><g><b/>à<b/>tisser</g></r></p></e>
@@ -39300,6 +39310,13 @@
     <e lm="lieu de travail"><i>lieu</i><par n="lieu__n"/><p><l><b/>de<b/>travail</l><r><g><b/>de<b/>travail</g></r></p></e>
 <e lm="destroyer"><i>destroyer</i><par n="livre__n"/></e>
 <e lm="Lumière">         <i>Lumière</i><par n="Saussure__np"/></e>
+<e lm="conquérant">      <i>conquérant</i><par n="affecté__n"/></e>
+<e lm="à midi"><i>à<b/>midi</i><par n="hier__adv"/></e>
+<e lm="à minuit"><i>à<b/>minuit</i><par n="hier__adv"/></e>
+<e lm="foutre">         <i>fou</i><par n="abat/tre__vblex"/></e>
+<e lm="niquer">         <i>niqu</i><par n="abaiss/er__vblex"/></e>
+<e lm="raisin sec"><p><l>raisin<b/>sec</l><r>raisin<b/>sec<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="raisin sec"><p><l>raisins<b/>secs</l><r>raisin<b/>sec<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 
 	<!-- xxx -->
   </section>
