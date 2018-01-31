@@ -78,6 +78,9 @@ LIST Inf = inf ;
 LIST Ger = ger ;
 LIST PP = pp ;
 
+LIST unknown = ("\\*.*"r) ;
+LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
+
 LIST Mon_Ton_Son = "mon" "ton" "son" ;
 LIST Que = "que" ;
 LIST Qui = "qui" ;
@@ -134,6 +137,7 @@ LIST ConsInitiale = "<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r ;
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
 SET Ant_Cog = Ant OR Cog ;
+SET Top = (np top) ;
 
 SET DetDef = (det def) ;
 SET DetInd = (det ind) ;
@@ -163,6 +167,10 @@ SELECT Ant IF (0 Ant) (1C Ant) ;
 	# Jean-René
 SELECT Cog IF (0 Cog OR Ant) (-1C Ant) ;
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
+
+REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknown) ;
+SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknown) ;
+	## Léon Verguet
 
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) ;
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
