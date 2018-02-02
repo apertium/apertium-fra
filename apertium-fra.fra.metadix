@@ -467,10 +467,10 @@
 </pardef>
 
 <pardef n="maître__adj">
-  <e>       <p><l>sses</l>      <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>sse</l>       <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sses</l>      <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sse</l>       <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="arrière__adj">
@@ -19955,6 +19955,7 @@
 <e lm="Alphand">         <i>Alphand</i><par n="Abraham__np"/></e>
 <e lm="Alpharetta">      <i>Alpharetta</i><par n="Andorre__np"/></e>
 <e lm="Alphonse">        <i>Alphonse</i><par n="Antoine__np"/></e>
+<e lm="Alphonse le Batailleur"><i>Alphonse<b/>le<b/>Batailleur</i><par n="Antoine__np"/></e>
 <e lm="Alpine">          <i>Alpine</i><par n="Carrefour__np"/></e>
 <e lm="Alquézar">        <i>Alquézar</i><par n="Andorre__np"/></e>
 <e lm="Alro">            <i>Alro</i><par n="Carrefour__np"/></e>
@@ -23756,7 +23757,7 @@
 <e lm="Lasarte-Oria">    <i>Lasarte-Oria</i><par n="Andorre__np"/></e>
 <e lm="Laso">            <i>Laso</i><par n="Saussure__np"/></e>
 <e lm="Latasa">          <i>Latasa</i><par n="Andorre__np"/></e>
-<e lm="Latium">          <i>Latium</i><par n="Andorre__np"/></e>
+<e lm="Latium">          <i>Latium</i><par n="Iran__np"/></e>
 <e lm="Latorre">         <i>Latorre</i><par n="Saussure__np"/></e>
 <e lm="Laura">           <i>Laura</i><par n="Marie__np"/></e>
 <e lm="Laure">           <i>Laure</i><par n="Marie__np"/></e>
@@ -25534,6 +25535,7 @@
 <e lm="Ricardo">         <i>Ricardo</i><par n="Antoine__np"/></e>
 <e lm="Rice">            <i>Rice</i><par n="Abraham__np"/></e>
 <e lm="Richard">         <i>Richard</i><par n="Antoine__np"/></e>
+<e lm="Richard Cœur de Lion"><i>Richard<b/>Cœur<b/>de<b/>Lion</i><par n="Antoine__np"/></e>
 <e lm="Richardson">      <i>Richardson</i><par n="Abraham__np"/></e>
 <e lm="Richelieu">       <i>Richelieu</i><par n="Abraham__np"/></e>
 <e lm="Richter">         <i>Richter</i><par n="Abraham__np"/></e>
@@ -35274,6 +35276,7 @@
 <e lm="limitrophe" a="jaumeortola"><i>limitrophe</i><par n="académique__adj"/></e>
 <e lm="lisse" a="jaumeortola"><i>lisse</i><par n="académique__adj"/></e>
 <e lm="littoral" a="jaumeortola"><i>littora</i><par n="amica/l__adj"/></e>
+<e lm="pré-littoral" a="hector"><i>pré-littora</i><par n="amica/l__adj"/></e>
 <e lm="longitudinal" a="jaumeortola"><i>longitudina</i><par n="amica/l__adj"/></e>
 <e lm="marchand" a="jaumeortola"><i>marchand</i><par n="abaissant__adj"/></e>
 <e lm="médicinal" a="jaumeortola"><i>médicina</i><par n="amica/l__adj"/></e>
@@ -37258,7 +37261,8 @@
 <e lm="saoudien" a="jaumeortola"><i>saoudien</i><par n="ancien__n"/></e>
 <e lm="saphir" a="jaumeortola"><i>saphir</i><par n="livre__n"/></e>
 <e lm="sarcophage" a="jaumeortola"><i>sarcophage</i><par n="livre__n"/></e>
-<e lm="sarrasin" a="jaumeortola"><i>sarrasin</i><par n="affecté__n"/></e>
+<e lm="Sarrasin"><i>Sarrasin</i><par n="affecté__n"/></e>
+<e lm="sarrasin"><i>sarrasin</i><par n="abaissant__adj"/></e>
 <e lm="satrape" a="jaumeortola"><i>satrape</i><par n="livre__n"/></e>
 <e lm="satyre" a="jaumeortola"><i>satyre</i><par n="artiste__n"/></e>
 <e lm="sauf-conduit" a="jaumeortola"><i>sauf-conduit</i><par n="livre__n"/></e>
@@ -39380,10 +39384,23 @@
 <e lm="Empúries"><i>Empúries</i><par n="Bulgarie__np"/></e>
 <e lm="Borrell"><i>Borrell</i><par n="Antoine__np"/></e>
 <e lm="Sunyer"><i>Sunyer</i><par n="Antoine__np"/></e>
+<e lm="Garcia"><i>Garcia</i><par n="Antoine__np"/></e>
+<e lm="Urraque"><i>Urraque</i><par n="Marie__np"/></e>
 <e lm="c"><i>c</i><par n="soif__n"/></e>
 <e lm="Moro" a="hector"> <i>Moro</i><par n="Saussure__np"/></e>
 <e lm="cérémonieux"><i>cérémonieu</i><par n="affectueu/x__adj"/></e>
 <e lm="chaste"><i>chaste</i><par n="académique__adj"/></e>
+<e lm="almoravide"><i>almoravide</i><par n="académique__adj"/></e>
+<e lm="Almoravide"><i>Almoravide</i><par n="artiste__n"/></e>
+<e lm="almohade"><i>almohade</i><par n="académique__adj"/></e>
+<e lm="Almohade"><i>Almohade</i><par n="artiste__n"/></e>
+<e lm="Ribagorce"><i>Ribagorce</i><par n="Bulgarie__np"/></e>
+<e lm="Pallars"><i>Pallars</i><par n="Iran__np"/></e>
+<e lm="Pallars Jussà"><i>Pallars<b/>Jussà</i><par n="Iran__np"/></e>
+<e lm="Pallars Sobirà"><i>Pallars<b/>Sobirà</i><par n="Iran__np"/></e>
+<e lm="cordillère"><i>cordillère</i><par n="abeille__n"/></e>
+<e lm="Prades" a="hector"><i>Prades</i><par n="Saussure__np"/></e>
+<e lm="Prades" a="hector"><i>Prades</i><par n="Bulgarie__np"/></e>
 
 
 	<!-- xxx -->
