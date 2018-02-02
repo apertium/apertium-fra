@@ -91,6 +91,12 @@
       <e><i>hurler</i></e>
       <e><i>hussard</i></e>
       <e><i>hutte</i></e>
+      <e><i>Ier</i></e>
+      <e><i>Ire</i></e>
+      <e><i>IIe</i></e>
+      <e><i>IIIe</i></e>
+      <e><i>IVe</i></e>
+      <e><i>IXe</i></e>
     </pardef>
 
     <pardef n="vocals">
@@ -199,9 +205,13 @@
   </pardefs>
 
   <section id="main" type="standard">
+      <e><p><l><a/>à<b/><a/>le<b/></l><r>au<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>à<b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>à</l><r/></p><par n="à"/></e>
       <e><p><l><a/>plus<b/><a/>de<b/><a/>les</l><r>plus<b/>d</r></p><par n="de"/></e>
       <e><p><l><a/>moins<b/><a/>de<b/><a/>les</l><r>moins<b/>d</r></p><par n="de"/></e>
+      <e><p><l><a/>de<b/><a/>le<b/></l><r>du<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>de<b/><a/>la<b/></l><r>de<b/>la<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de</l><r>d</r></p><par n="de"/></e>
       <e><p><l><a/>ne<b/></l><r>n'</r></p><par n="vocals"/></e>
       <e><p><l><a/>ne<b/><a/>le<b/></l><r>ne<b/>l'</r></p><par n="vocals"/></e>

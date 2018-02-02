@@ -460,6 +460,12 @@
   <e>       <p><l></l>          <r><s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="II/e__adj">
+  <e>       <p><l>es</l>        <r>e<s n="adj"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>e<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r>e<s n="num"/></r></p></e>
+</pardef>
+
 <pardef n="maître__adj">
   <e>       <p><l>sses</l>      <r><s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>sse</l>       <r><s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -6314,8 +6320,8 @@
 <e lm="1">               <i>1</i><par n="ch/er__adj"/></e>
 <e r="RL" lm="nouveau">  <p><l><a/>nouve</l> <r>nouve</r></p><par n="nouve/au__adj"/></e>
 <e lm="Canarien">        <i>Canarien</i><par n="ancien__adj"/></e>
-<e lm="C">               <i>Cème</i><par n="arrière__adj"/></e>
-<e lm="D">               <i>Dème</i><par n="arrière__adj"/></e>
+<e lm="C">               <i>Cème</i><par n="académique__adj"/></e>
+<e lm="D">               <i>Dème</i><par n="académique__adj"/></e>
 <e r="LR" lm="éblouissant"><p><l>Eblouissant</l><r>éblouissant</r></p><par n="abaissant__adj"/></e>
 <e r="LR" lm="éclatant"> <p><l>Eclatant</l>  <r>éclatant</r></p><par n="abaissant__adj"/></e>
 <e r="LR" lm="écologique"><p><l>Ecologique</l><r>écologique</r></p><par n="académique__adj"/></e>
@@ -6342,7 +6348,7 @@
 <e r="LR" lm="énergique"><p><l>Energique</l> <r>énergique</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="énergétique"><p><l>Energétique</l><r>énergétique</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="énigmatique"><p><l>Enigmatique</l><r>énigmatique</r></p><par n="académique__adj"/></e>
-<e r="LR" lm="énième">   <p><l>Enième</l>    <r>énième</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="énième">   <p><l>Enième</l>    <r>énième</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="énorme">   <p><l>Enorme</l>    <r>énorme</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="éolien">   <p><l>Eolien</l>    <r>éolien</r></p><par n="ancien__adj"/></e>
 <e r="LR" lm="épais">    <p><l>Epais</l>     <r>épais</r></p><par n="anglais__adj"/></e>
@@ -6366,49 +6372,53 @@
 <e r="LR" lm="évocateur"><p><l>Evocat</l>    <r>évocat</r></p><par n="conduct/eur__adj"/></e>
 <e r="LR" lm="évolutif"> <p><l>Evoluti</l>   <r>évoluti</r></p><par n="affirmati/f__adj"/></e>
 <e lm="I">               <i>I</i><par n="arrière__adj"/></e>
-<e lm="III">             <i>IIIème</i><par n="arrière__adj"/></e>
-<e lm="II">              <i>IIème</i><par n="arrière__adj"/></e>
-<e lm="IV">              <i>IVème</i><par n="arrière__adj"/></e>
-<e lm="IX">              <i>IXème</i><par n="arrière__adj"/></e>
-<e lm="III">             <i>IIIe</i><par n="arrière__adj"/></e>
-<e lm="II">              <i>IIe</i><par n="arrière__adj"/></e>
-<e lm="IV">              <i>IVe</i><par n="arrière__adj"/></e>
-<e lm="IX">              <i>IXe</i><par n="arrière__adj"/></e>
-<e lm="L">               <i>Lème</i><par n="arrière__adj"/></e>
-<e lm="M">               <i>Mème</i><par n="arrière__adj"/></e>
+<e lm="Ier">       <p><l>Ier</l>       <r>Ier<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="Ier">       <p><l>Ire</l>       <r>Ier<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="Ier">       <p><l>Iers</l>      <r>Ier<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="Ier">       <p><l>Ires</l>      <r>Ier<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="III">             <i>IIIème</i><par n="académique__adj"/></e>
+<e lm="II">              <i>IIème</i><par n="académique__adj"/></e>
+<e lm="IV">              <i>IVème</i><par n="académique__adj"/></e>
+<e lm="IX">              <i>IXème</i><par n="académique__adj"/></e>
+<e lm="III">             <i>III</i><par n="II/e__adj"/></e>
+<e lm="II">              <i>II</i><par n="II/e__adj"/></e>
+<e lm="IV">              <i>IV</i><par n="II/e__adj"/></e>
+<e lm="IX">              <i>IX</i><par n="II/e__adj"/></e>
+<e lm="L">               <i>Lème</i><par n="académique__adj"/></e>
+<e lm="M">               <i>Mème</i><par n="académique__adj"/></e>
 <e lm="Uros">            <i>Uros</i><par n="arrière__adj"/></e>
-<e lm="VIII">            <i>VIIIème</i><par n="arrière__adj"/></e>
-<e lm="VII">             <i>VIIème</i><par n="arrière__adj"/></e>
-<e lm="VI">              <i>VIème</i><par n="arrière__adj"/></e>
-<e lm="V">               <i>Vème</i><par n="arrière__adj"/></e>
-<e lm="XIII">            <i>XIIIème</i><par n="arrière__adj"/></e>
-<e lm="XII">             <i>XIIème</i><par n="arrière__adj"/></e>
-<e lm="XIV">             <i>XIVème</i><par n="arrière__adj"/></e>
-<e lm="XIX">             <i>XIXème</i><par n="arrière__adj"/></e>
-<e lm="XI">              <i>XIème</i><par n="arrière__adj"/></e>
-<e lm="XVIII">           <i>XVIIIème</i><par n="arrière__adj"/></e>
-<e lm="XVII">            <i>XVIIème</i><par n="arrière__adj"/></e>
-<e lm="XVI">             <i>XVIème</i><par n="arrière__adj"/></e>
-<e lm="XV">              <i>XVème</i><par n="arrière__adj"/></e>
-<e lm="XXI">             <i>XXIème</i><par n="arrière__adj"/></e>
-<e lm="XX">              <i>XXème</i><par n="arrière__adj"/></e>
-<e lm="X">               <i>Xème</i><par n="arrière__adj"/></e>
-<e lm="VIII">            <i>VIIIe</i><par n="arrière__adj"/></e>
-<e lm="VII">             <i>VIIe</i><par n="arrière__adj"/></e>
-<e lm="VI">              <i>VIe</i><par n="arrière__adj"/></e>
-<e lm="V">               <i>Ve</i><par n="arrière__adj"/></e>
-<e lm="XIII">            <i>XIIIe</i><par n="arrière__adj"/></e>
-<e lm="XII">             <i>XIIe</i><par n="arrière__adj"/></e>
-<e lm="XIV">             <i>XIVe</i><par n="arrière__adj"/></e>
-<e lm="XIX">             <i>XIXe</i><par n="arrière__adj"/></e>
-<e lm="XI">              <i>XIe</i><par n="arrière__adj"/></e>
-<e lm="XVIII">           <i>XVIIIe</i><par n="arrière__adj"/></e>
-<e lm="XVII">            <i>XVIIe</i><par n="arrière__adj"/></e>
-<e lm="XVI">             <i>XVIe</i><par n="arrière__adj"/></e>
-<e lm="XV">              <i>XVe</i><par n="arrière__adj"/></e>
-<e lm="XXI">             <i>XXIe</i><par n="arrière__adj"/></e>
-<e lm="XX">              <i>XXe</i><par n="arrière__adj"/></e>
-<e lm="X">               <i>Xe</i><par n="arrière__adj"/></e>
+<e lm="VIII">            <i>VIIIème</i><par n="académique__adj"/></e>
+<e lm="VII">             <i>VIIème</i><par n="académique__adj"/></e>
+<e lm="VI">              <i>VIème</i><par n="académique__adj"/></e>
+<e lm="V">               <i>Vème</i><par n="académique__adj"/></e>
+<e lm="XIII">            <i>XIIIème</i><par n="académique__adj"/></e>
+<e lm="XII">             <i>XIIème</i><par n="académique__adj"/></e>
+<e lm="XIV">             <i>XIVème</i><par n="académique__adj"/></e>
+<e lm="XIX">             <i>XIXème</i><par n="académique__adj"/></e>
+<e lm="XI">              <i>XIème</i><par n="académique__adj"/></e>
+<e lm="XVIII">           <i>XVIIIème</i><par n="académique__adj"/></e>
+<e lm="XVII">            <i>XVIIème</i><par n="académique__adj"/></e>
+<e lm="XVI">             <i>XVIème</i><par n="académique__adj"/></e>
+<e lm="XV">              <i>XVème</i><par n="académique__adj"/></e>
+<e lm="XXI">             <i>XXIème</i><par n="académique__adj"/></e>
+<e lm="XX">              <i>XXème</i><par n="académique__adj"/></e>
+<e lm="X">               <i>Xème</i><par n="académique__adj"/></e>
+<e lm="VIII">            <i>VIII</i><par n="II/e__adj"/></e>
+<e lm="VII">             <i>VII</i><par n="II/e__adj"/></e>
+<e lm="VI">              <i>VI</i><par n="II/e__adj"/></e>
+<e lm="V">               <i>V</i><par n="II/e__adj"/></e>
+<e lm="XIII">            <i>XIII</i><par n="II/e__adj"/></e>
+<e lm="XII">             <i>XII</i><par n="II/e__adj"/></e>
+<e lm="XIV">             <i>XIV</i><par n="II/e__adj"/></e>
+<e lm="XIX">             <i>XIX</i><par n="II/e__adj"/></e>
+<e lm="XI">              <i>XI</i><par n="II/e__adj"/></e>
+<e lm="XVIII">           <i>XVIII</i><par n="II/e__adj"/></e>
+<e lm="XVII">            <i>XVII</i><par n="II/e__adj"/></e>
+<e lm="XVI">             <i>XVI</i><par n="II/e__adj"/></e>
+<e lm="XV">              <i>XV</i><par n="II/e__adj"/></e>
+<e lm="XXI">             <i>XXI</i><par n="II/e__adj"/></e>
+<e lm="XX">              <i>XX</i><par n="II/e__adj"/></e>
+<e lm="X">               <i>X</i><par n="II/e__adj"/></e>
 
 
     <!-- VERBS: END -->
@@ -8483,6 +8493,7 @@
 <e lm="rocheux">         <i>rocheu</i><par n="affectueu/x__adj"/></e>
 <e lm="romain">          <i>romain</i><par n="abaissant__adj"/></e>
 <e lm="roman">           <i>roman</i><par n="abaissant__adj"/></e>
+<e lm="préroman">        <i>préroman</i><par n="abaissant__adj"/></e>
 <e lm="romand">          <i>romand</i><par n="abaissant__adj"/></e>
 <e lm="romantique">      <i>romantique</i><par n="académique__adj"/></e>
 <e lm="rond">            <i>rond</i><par n="abaissant__adj"/></e>
@@ -8963,7 +8974,7 @@
 <e lm="énergisant">      <i>énergisant</i><par n="abaissant__adj"/></e>
 <e lm="énergétique">     <i>énergétique</i><par n="académique__adj"/></e>
 <e lm="énigmatique">     <i>énigmatique</i><par n="académique__adj"/></e>
-<e lm="énième">          <i>énième</i><par n="arrière__adj"/></e>
+<e lm="énième">          <i>énième</i><par n="académique__adj"/></e>
 <e lm="énorme">          <i>énorme</i><par n="académique__adj"/></e>
 <e lm="éolien">          <i>éolien</i><par n="ancien__adj"/></e>
 <e lm="épais">           <i>épais</i><par n="anglais__adj"/></e>
@@ -12937,7 +12948,6 @@
 <e lm="cul">             <i>cul</i><par n="livre__n"/></e>
 <e lm="culbute">         <i>culbute</i><par n="abeille__n"/></e>
 <e r="RL" lm="culot">    <i>culot</i><par n="livre__n"/></e>
-<e lm="culotte">         <i>culotte</i><par n="abeille__n"/></e>
 <e lm="culpabilisation"> <i>culpabilisation</i><par n="abeille__n"/></e>
 <e lm="culpabilité">     <i>culpabilité</i><par n="abeille__n"/></e>
 <e lm="culte">           <i>culte</i><par n="livre__n"/></e>
@@ -17021,7 +17031,7 @@
 <e lm="robustesse">      <i>robustesse</i><par n="abeille__n"/></e>
 <e lm="roche">           <i>roche</i><par n="abeille__n"/></e>
 <e lm="rock">            <i>rock</i><par n="mois__n"/></e>
-<e lm="Romain">          <i>Romain</i><par n="livre__n"/></e>
+<e lm="Romain">          <i>Romain</i><par n="affecté__n"/></e>
 <e lm="roman">           <i>roman</i><par n="livre__n"/></e>
 <e lm="romancier">       <i>romanci</i><par n="bouch/er__n"/></e>
 <e lm="romanisation">    <i>romanisation</i><par n="abeille__n"/></e>
@@ -19573,8 +19583,9 @@
 <e lm="Aitzol">          <i>Aitzol</i><par n="Abraham__np"/></e>
 <e lm="Aitzpea">         <i>Aitzpea</i><par n="Abraham__np"/></e>
 <e lm="Aiuriagerra">     <i>Aiuriagerra</i><par n="Abraham__np"/></e>
-<e lm="Aix-la-Chapelle"> <i>Aix-la-Chapelle</i><par n="Andorre__np"/></e>
-<e lm="Aix-les-Bains">   <i>Aix-les-Bains</i><par n="Andorre__np"/></e>
+<e lm="Aix-la-Chapelle"> <i>Aix-la-Chapelle</i><par n="Bulgarie__np"/></e>
+<e lm="Aix-les-Bains">   <i>Aix-les-Bains</i><par n="Iran__np"/></e>
+<e lm="Aix-en-Provence"> <i>Aix-en-Provence</i><par n="Iran__np"/></e>
 <e lm="Aixerrota">       <i>Aixerrota</i><par n="Carrefour__np"/></e>
 <e lm="Aiye">            <i>Aiye</i><par n="Andorre__np"/></e>
 <e lm="Aizarna">         <i>Aizarna</i><par n="Andorre__np"/></e>
@@ -20268,7 +20279,7 @@
 <e lm="Anjel">           <i>Anjel</i><par n="Abraham__np"/></e>
 <e lm="Anjeles">         <i>Anjeles</i><par n="Abraham__np"/></e>
 <e lm="Anjelica Huston"> <i>Anjelica<b/>Huston</i><par n="Abraham__np"/></e>
-<e lm="Anjou">           <i>Anjou</i><par n="Andorre__np"/></e>
+<e lm="Anjou">           <i>Anjou</i><par n="Iran__np"/></e>
 <e lm="Ankara">          <i>Ankara</i><par n="Bulgarie__np"/></e>
 <e lm="Ankarali">        <i>Ankarali</i><par n="Abraham__np"/></e>
 <e lm="Ankaraspor">      <i>Ankaraspor</i><par n="Carrefour__np"/></e>
@@ -21149,8 +21160,8 @@
 <e lm="Boulevard">       <i>Boulevard</i><par n="Andorre__np"/></e>
 <e lm="Boulogne-sur-Mer"><i>Boulogne-sur-Mer</i><par n="Andorre__np"/></e>
 <e lm="Bouquet">         <i>Bouquet</i><par n="Abraham__np"/></e>
-<e lm="Bourbon">         <i>Bourbon</i><par n="Abraham__np"/></e>
-<e lm="Bourbons">        <i>Bourbons</i><par n="Abraham__np"/></e>
+<e lm="Bourbon">         <i>Bourbon</i><par n="Saussure__np"/></e>
+<e lm="Bourbons">        <i>Bourbons</i><par n="Saussure__np"/></e>
 <e lm="Bourg-en-Bresse"> <i>Bourg-en-Bresse</i><par n="Andorre__np"/></e>
 <e lm="Bourg-lès-Valence"><i>Bourg-lès-Valence</i><par n="Andorre__np"/></e>
 <e lm="Bourgogne">       <i>Bourgogne</i><par n="Bulgarie__np"/></e>
@@ -22499,8 +22510,9 @@
 <e lm="Fronte Populaire"><i>Fronte<b/>Populaire</i><par n="Carrefour__np"/></e>
 <e lm="Frédéric">        <i>Frédéric</i><par n="Saussure__np"/></e>
 <e lm="Frédéric">        <i>Frédéric</i><par n="Antoine__np"/></e>
-<e lm="Frédéric I Barberousse"><i>Frédéric<b/>I<b/>Barberousse</i><par n="Abraham__np"/></e>
-<e lm="Frédéric II le Grand"><i>Frédéric<b/>II<b/>le<b/>Grand</i><par n="Abraham__np"/></e>
+<e lm="Frédéric Barberousse"><i>Frédéric<b/>Barberousse</i><par n="Antoine__np"/></e>
+<e lm="Frédéric I Barberousse"><i>Frédéric<b/>I<b/>Barberousse</i><par n="Antoine__np"/></e>
+<e lm="Frédéric II le Grand"><i>Frédéric<b/>II<b/>le<b/>Grand</i><par n="Antoine__np"/></e>
 <e lm="Fuenlabrada">     <i>Fuenlabrada</i><par n="Andorre__np"/></e>
 <e lm="Fuerteventura">   <i>Fuerteventura</i><par n="Andorre__np"/></e>
 <e lm="Fuji">            <i>Fuji</i><par n="Andorre__np"/></e>
@@ -25803,7 +25815,8 @@
 <e lm="San Sebastián de la Gomera"><i>San<b/>Sebastián<b/>de<b/>la<b/>Gomera</i><par n="Andorre__np"/></e>
 <e lm="San Sebastián de los Reyes"><i>San<b/>Sebastián<b/>de<b/>los<b/>Reyes</i><par n="Andorre__np"/></e>
 <e lm="Sanaa">           <i>Sanaa</i><par n="Andorre__np"/></e>
-<e lm="Sanche le Grand"> <i>Sanche<b/>le<b/>Grand</i><par n="Abraham__np"/></e>
+<e lm="Sanche">          <i>Sanche</i><par n="Antoine__np"/></e>
+<e lm="Sanche le Grand"> <i>Sanche<b/>le<b/>Grand</i><par n="Antoine__np"/></e>
 <e lm="Sanchez">         <i>Sanchez</i><par n="Saussure__np"/></e>
 <e lm="Sanchis">         <i>Sanchis</i><par n="Carrefour__np"/></e>
 <e lm="Sancho">          <i>Sancho</i><par n="Saussure__np"/></e>
@@ -31683,6 +31696,7 @@
 <e lm="Pepa"><i>Pepa</i><par n="Marie__np"/></e>
 <e lm="Peri"><i>Peri</i><par n="Marie__np"/></e>
 <e lm="Peronella"><i>Peronella</i><par n="Marie__np"/></e>
+<e lm="Pétronille"><i>Pétronille</i><par n="Marie__np"/></e>
 <e lm="Philippa"><i>Philippa</i><par n="Marie__np"/></e>
 <e lm="Prudence"><i>Prudence</i><par n="Marie__np"/></e>
 <e lm="Prudència"><i>Prudència</i><par n="Marie__np"/></e>
@@ -31938,6 +31952,7 @@
 <e lm="au cours de">     <i>au<b/>cours<b/></i><par n="contde__pr"/></e>
 <e lm="au delà de">      <i>au<b/>delà<b/></i><par n="contde__pr"/></e>
 <e r="LR" lm="au dire de"><i>au<b/>dire<b/></i><par n="contde__pr"/></e>
+<e lm="au début de">     <i>au<b/>début<b/></i><par n="contde__pr"/></e>
 <e lm="au défaut de">    <i>au<b/>défaut<b/></i><par n="contde__pr"/></e>
 <e lm="au détriment de"> <i>au<b/>détriment<b/></i><par n="contde__pr"/></e>
 <e lm="au fur et à mesure de"><i>au<b/>fur<b/>et<b/>à<b/>mesure<b/></i><par n="contde__pr"/></e>
@@ -39301,7 +39316,7 @@
 <e lm="maçonnique"><i>maçonnique</i><par n="académique__adj"/></e>
 <e lm="franc-maçonnique"><i>franc-maçonnique</i><par n="académique__adj"/></e>
 <e lm="ibère"><i>ibère</i><par n="artiste__n"/></e>
-<e lm="copain"><i>copain</i><par n="artiste__n"/></e>
+<e lm="copain"><i>copain</i><par n="livre__n"/></e>
 <e lm="copine"><i>copine</i><par n="abeille__n"/></e>
 <e lm="kabyle"><i>kabyle</i><par n="académique__adj"/></e>
 <e lm="kabyle"><i>kabyle</i><par n="artiste__n"/></e>
@@ -39354,6 +39369,22 @@
 <e lm="Raimond"><i>Raimond</i><par n="Antoine__np"/></e>
 <e lm="Raimond-Bérenger"><i>Raimond-Bérenger</i><par n="Antoine__np"/></e>
 <e lm="Bérenger-Raimond"><i>Bérenger-Raimond</i><par n="Antoine__np"/></e>
+<e lm="à droite"><i>à<b/>droite</i><par n="hier__adv"/></e>
+<e lm="à gauche"><i>à<b/>gauche</i><par n="hier__adv"/></e>
+<e lm="Pons"><i>Pons</i><par n="Antoine__np"/></e>
+<e lm="Pons-Hugues"><i>Pons-Hugues</i><par n="Antoine__np"/></e>
+<e lm="Hugues"><i>Hugues</i><par n="Antoine__np"/></e>
+<e lm="Aliénor"><i>Aliénor</i><par n="Marie__np"/></e>
+<e lm="Elionor"><i>Elionor</i><par n="Marie__np"/></e>
+<e lm="Boniface"><i>Boniface</i><par n="Antoine__np"/></e>
+<e lm="Empúries"><i>Empúries</i><par n="Bulgarie__np"/></e>
+<e lm="Borrell"><i>Borrell</i><par n="Antoine__np"/></e>
+<e lm="Sunyer"><i>Sunyer</i><par n="Antoine__np"/></e>
+<e lm="c"><i>c</i><par n="soif__n"/></e>
+<e lm="Moro" a="hector"> <i>Moro</i><par n="Saussure__np"/></e>
+<e lm="cérémonieux"><i>cérémonieu</i><par n="affectueu/x__adj"/></e>
+<e lm="chaste"><i>chaste</i><par n="académique__adj"/></e>
+
 
 	<!-- xxx -->
   </section>
