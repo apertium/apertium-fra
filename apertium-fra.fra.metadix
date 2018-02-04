@@ -23364,6 +23364,7 @@
 <e lm="Jean Scot Érigène"><i>Jean<b/>Scot<b/>Érigène</i><par n="Antoine__np"/></e>
 <e r="RL" lm="Jean Scot Érigène"><i>Jean<b/>Scot<b/>Érigène</i><par n="Andorre__np"/></e>
 <e lm="Jeanne">          <i>Jeanne</i><par n="Marie__np"/></e>
+<e lm="Jeannine">        <i>Jeannine</i><par n="Marie__np"/></e>
 <e lm="Jeff">            <i>Jeff</i><par n="Antoine__np"/></e>
 <e lm="Jegou">           <i>Jegou</i><par n="Abraham__np"/></e>
 <e lm="Jema">            <i>Jema</i><par n="Carrefour__np"/></e>
@@ -26607,7 +26608,6 @@
 <e lm="Vallés">          <i>Vallés</i><par n="Iran__np"/></e>
 <e lm="Valverde">        <i>Valverde</i><par n="Andorre__np"/></e>
 <e lm="Valverde">        <i>Valverde</i><par n="Carrefour__np"/></e>
-<e lm="Valérie">         <i>Valérie</i><par n="Abraham__np"/></e>
 <e lm="Valéry">          <i>Valéry</i><par n="Antoine__np"/></e>
 <e lm="Van">             <i>Van</i><par n="Abraham__np"/></e>
 <e lm="Van Gogh">        <i>Van<b/>Gogh</i><par n="Abraham__np"/></e>
@@ -40303,6 +40303,74 @@
 <e lm="Daraiche" a="hector"><i>Daraiche</i><par n="Saussure__np"/></e>
 <e lm="McDuff" a="hector"><i>McDuff</i><par n="Saussure__np"/></e>
 <e lm="de Varennes" a="hector"><i>de<b/>Varennes</i><par n="Saussure__np"/></e>
+
+<e lm="plus tard"><i>plus<b/>tard</i><par n="hier__adv"/></e>
+<e lm="ci-après"><i>ci-après</i><par n="hier__adv"/></e>
+<e lm="ci-dessous"><i>ci-dessous</i><par n="hier__adv"/></e>
+<e lm="par la suite"><i>par<b/>la<b/>suite</i><par n="hier__adv"/></e>
+
+<e lm="Valérie" a="hector"><i>Valérie</i><par n="Marie__np"/></e>
+<e lm="Éric" a="hector"><i>Éric</i><par n="Antoine__np"/></e>
+<e lm="Chantal" a="hector"><i>Chantal</i><par n="Marie__np"/></e>
+<e lm="Brigitte" a="hector"><i>Brigitte</i><par n="Marie__np"/></e>
+<e lm="Olivier" a="hector"><i>Olivier</i><par n="Antoine__np"/></e>
+<e lm="Sébastien" a="hector"><i>Sébastien</i><par n="Antoine__np"/></e>
+<e lm="Émilie" a="hector"><i>Émilie</i><par n="Marie__np"/></e>
+<e lm="Christelle" a="hector"><i>Christelle</i><par n="Marie__np"/></e>
+<e lm="Maxime" a="hector"><i>Maxime</i><par n="Antoine__np"/></e>
+<e lm="Laetitia" a="hector"><i>Laetitia</i><par n="Marie__np"/></e>
+<e lm="Manon" a="hector"><i>Manon</i><par n="Marie__np"/></e>
+<e lm="Kévin" a="hector"><i>Kévin</i><par n="Antoine__np"/></e>
+<e lm="Michèle" a="hector"><i>Michèle</i><par n="Marie__np"/></e>
+<e lm="Christiane" a="hector"><i>Christiane</i><par n="Marie__np"/></e>
+<e lm="Béatrice" a="hector"><i>Béatrice</i><par n="Marie__np"/></e>
+<e lm="Delphine" a="hector"><i>Delphine</i><par n="Marie__np"/></e>
+<e lm="Pauline" a="hector"><i>Pauline</i><par n="Marie__np"/></e>
+<e lm="Karine" a="hector"><i>Karine</i><par n="Marie__np"/></e>
+<e lm="Joël" a="hector"><i>Joël</i><par n="Antoine__np"/></e>
+<e lm="Jérémy" a="hector"><i>Jérémy</i><par n="Antoine__np"/></e>
+<e lm="Chloe" a="hector"><i>Chloe</i><par n="Marie__np"/></e>
+<e lm="Evelyne" a="hector"><i>Evelyne</i><par n="Marie__np"/></e>
+<e lm="Anais" a="hector"><i>Anais</i><par n="Marie__np"/></e>
+<e lm="Sylvain" a="hector"><i>Sylvain</i><par n="Antoine__np"/></e>
+<e lm="Danielle" a="hector"><i>Danielle</i><par n="Marie__np"/></e>
+<e lm="Ludovic" a="hector"><i>Ludovic</i><par n="Antoine__np"/></e>
+<e lm="Carole" a="hector"><i>Carole</i><par n="Marie__np"/></e>
+<e lm="Fabienne" a="hector"><i>Fabienne</i><par n="Marie__np"/></e>
+<e lm="Florian" a="hector"><i>Florian</i><par n="Antoine__np"/></e>
+<e lm="Damien" a="hector"><i>Damien</i><par n="Antoine__np"/></e>
+<e lm="Pascale" a="hector"><i>Pascale</i><par n="Marie__np"/></e>
+<e lm="Mickaël" a="hector"><i>Mickaël</i><par n="Antoine__np"/></e>
+<e lm="Annick" a="hector"><i>Annick</i><par n="Marie__np"/></e>
+<e lm="Severine" a="hector"><i>Severine</i><par n="Marie__np"/></e>
+<e lm="Amandine" a="hector"><i>Amandine</i><par n="Marie__np"/></e>
+<e lm="Jocelyne" a="hector"><i>Jocelyne</i><par n="Marie__np"/></e>
+<e lm="Angelique" a="hector"><i>Angelique</i><par n="Marie__np"/></e>
+<e lm="Loïc" a="hector"><i>Loïc</i><par n="Antoine__np"/></e>
+<e lm="Joelle" a="hector"><i>Joelle</i><par n="Marie__np"/></e>
+<e lm="Mireille" a="hector"><i>Mireille</i><par n="Marie__np"/></e>
+<e lm="Justine" a="hector"><i>Justine</i><par n="Marie__np"/></e>
+<e lm="Grégory" a="hector"><i>Grégory</i><par n="Antoine__np"/></e>
+<e lm="Valentin" a="hector"><i>Valentin</i><par n="Antoine__np"/></e>
+<e lm="Oceane" a="hector"><i>Oceane</i><par n="Marie__np"/></e>
+<e lm="Cyril" a="hector"><i>Cyril</i><par n="Antoine__np"/></e>
+<e lm="Amelie" a="hector"><i>Amelie</i><par n="Marie__np"/></e>
+<e lm="Jean-Marc" a="hector"><i>Jean-Marc</i><par n="Antoine__np"/></e>
+<e lm="Maryse" a="hector"><i>Maryse</i><par n="Marie__np"/></e>
+<e lm="Fanny" a="hector"><i>Fanny</i><par n="Marie__np"/></e>
+<e lm="Enzo" a="hector"><i>Enzo</i><par n="Antoine__np"/></e>
+<e lm="Magali" a="hector"><i>Magali</i><par n="Marie__np"/></e>
+<e lm="Yannis" a="hector"><i>Yannis</i><par n="Antoine__np"/></e>
+<e lm="Marie-Christine" a="hector"><i>Marie-Christine</i><par n="Marie__np"/></e>
+<e lm="Morgane" a="hector"><i>Morgane</i><par n="Marie__np"/></e>
+<e lm="Baptiste" a="hector"><i>Baptiste</i><par n="Antoine__np"/></e>
+<e lm="Ines" a="hector"><i>Ines</i><par n="Marie__np"/></e>
+<e lm="Matthieu" a="hector"><i>Matthieu</i><par n="Antoine__np"/></e>
+<e lm="Nadia" a="hector"><i>Nadia</i><par n="Marie__np"/></e>
+<e lm="Rémi" a="hector"><i>Rémi</i><par n="Antoine__np"/></e>
+<e lm="Nathan" a="hector"><i>Nathan</i><par n="Antoine__np"/></e>
+<e lm="Genevieve" a="hector"><i>Genevieve</i><par n="Marie__np"/></e>
+<e lm="Estelle" a="hector"><i>Estelle</i><par n="Marie__np"/></e>
 
 	<!-- xxx -->
   </section>
