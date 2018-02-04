@@ -8402,6 +8402,7 @@
 <e lm="pur">             <i>pur</i><par n="abaissant__adj"/></e>
 <e lm="purificateur">    <i>purificateu</i><par n="causeu/r__adj"/></e>
 <e lm="pyrénéen">        <i>pyrénéen</i><par n="ancien__adj"/></e>
+<e lm="pré-pyrénéen">    <i>pré-pyrénéen</i><par n="ancien__adj"/></e>
 <e lm="pâle">            <i>pâle</i><par n="académique__adj"/></e>
 <e lm="pèlerin">         <i>pèlerin</i><par n="abaissant__adj"/></e>
 <e lm="pécuniaire">      <i>pécuniaire</i><par n="académique__adj"/></e>
@@ -11119,8 +11120,8 @@
 <e lm="adénopathie">     <i>adénopathie</i><par n="abeille__n"/></e>
 <e lm="adéquation">      <i>adéquation</i><par n="abeille__n"/></e>
 <e lm="affaiblissement"> <i>affaiblissement</i><par n="livre__n"/></e>
-<e lm="affaire">         <i>affaire</i><par n="livre__n"/></e>
-<e lm="affaires étrangères"><i>affaires<b/>étrangères</i><par n="abords__n"/></e>
+<e lm="affaire">         <i>affaire</i><par n="abeille__n"/></e>
+<e lm="affaires étrangères"><i>affaires<b/>étrangères</i><par n="vacances__n"/></e>
 <e lm="affectation">     <i>affectation</i><par n="abeille__n"/></e>
 <e lm="affection">       <i>affection</i><par n="abeille__n"/></e>
 <e lm="affectivité">     <i>affectivité</i><par n="abeille__n"/></e>
@@ -14239,7 +14240,7 @@
 <e lm="gérent">          <i>gérent</i><par n="affecté__n"/></e>
 <e lm="gériatre">        <i>gériatre</i><par n="artiste__n"/></e>
 <e lm="gêne">            <i>gêne</i><par n="abeille__n"/></e>
-<e lm="h">               <i>h</i><par n="mois__n"/></e>
+<e lm="h">               <i>h</i><par n="fois__n"/></e>
 <e lm="habilitation">    <i>habilitation</i><par n="abeille__n"/></e>
 <e lm="habilité">        <i>habilité</i><par n="abeille__n"/></e>
 <e lm="habillement">     <i>habillement</i><par n="livre__n"/></e>
@@ -21590,18 +21591,18 @@
 <e lm="Ciutat">          <i>Ciutat</i><par n="Andorre__np"/></e>
 <e lm="Civera">          <i>Civera</i><par n="Saussure__np"/></e>
 <e lm="Civic">           <i>Civic</i><par n="Carrefour__np"/></e>
-<e lm="Claire">          <i>Claire</i><par n="Abraham__np"/></e>
-<e lm="Clara">           <i>Clara</i><par n="Abraham__np"/></e>
-<e lm="Clark">           <i>Clark</i><par n="Abraham__np"/></e>
-<e lm="Clarke">          <i>Clarke</i><par n="Abraham__np"/></e>
+<e lm="Claire">          <i>Claire</i><par n="Marie__np"/></e>
+<e lm="Clara">           <i>Clara</i><par n="Marie__np"/></e>
+<e lm="Clark">           <i>Clark</i><par n="Saussure__np"/></e>
+<e lm="Clarke">          <i>Clarke</i><par n="Saussure__np"/></e>
 <e lm="Classic">         <i>Classic</i><par n="Carrefour__np"/></e>
 <e lm="Claude" a="hector"><i>Claude</i><par n="Antoine__np"/></e>
 <e lm="Claudia">         <i>Claudia</i><par n="Marie__np"/></e>
 <e lm="Claudine">        <i>Claudine</i><par n="Marie__np"/></e>
 <e lm="Claudio">         <i>Claudio</i><par n="Antoine__np"/></e>
-<e lm="Clavero">         <i>Clavero</i><par n="Abraham__np"/></e>
+<e lm="Clavero">         <i>Clavero</i><par n="Saussure__np"/></e>
 <e lm="Clearstream">     <i>Clearstream</i><par n="Carrefour__np"/></e>
-<e lm="Clemenceau">      <i>Clemenceau</i><par n="Abraham__np"/></e>
+<e lm="Clemenceau">      <i>Clemenceau</i><par n="Saussure__np"/></e>
 <e lm="Clemente">        <i>Clemente</i><par n="Antoine__np"/></e>
 <e lm="Clerc">           <i>Clerc</i><par n="Abraham__np"/></e>
 <e lm="Clermont">        <i>Clermont</i><par n="Andorre__np"/></e>
@@ -22246,8 +22247,8 @@
 <e lm="Estanislao">      <i>Estanislao</i><par n="Antoine__np"/></e>
 <e lm="Esteban">         <i>Esteban</i><par n="Saussure__np"/></e>
 <e lm="Esteban">         <i>Esteban</i><par n="Antoine__np"/></e>
+<e lm="Estefania">       <i>Estefania</i><par n="Marie__np"/></e>
 <e lm="Estefanía">       <i>Estefanía</i><par n="Marie__np"/></e>
-<e lm="Estefanie">       <i>Estefanía</i><par n="Abraham__np"/></e>
 <e lm="Estella">         <i>Estella</i><par n="Andorre__np"/></e>
 <e lm="Esteve">          <i>Esteve</i><par n="Antoine__np"/></e>
 <e lm="Esther">          <i>Esther</i><par n="Marie__np"/></e>
@@ -25425,6 +25426,7 @@
 <e lm="Raikkonen">       <i>Raikkonen</i><par n="Saussure__np"/></e>
 <e lm="Raimon">          <i>Raimon</i><par n="Antoine__np"/></e>
 <e lm="Raimundo">        <i>Raimundo</i><par n="Antoine__np"/></e>
+<e lm="Rainier">         <i>Rainier</i><par n="Antoine__np"/></e>
 <e lm="Rainiero">        <i>Rainiero</i><par n="Antoine__np"/></e>
 <e lm="Rajadell">        <i>Rajadell</i><par n="Iran__np"/></e>
 <e lm="Rajoy">           <i>Rajoy</i><par n="Saussure__np"/></e>
@@ -31321,7 +31323,7 @@
 <e lm="Socrates"><i>Socrates</i><par n="Antoine__np"/></e>
 <e lm="Spencer"><i>Spencer</i><par n="Antoine__np"/></e>
 <e lm="Stanley"><i>Stanley</i><par n="Antoine__np"/></e>
-<e lm="Stephane"><i>Stephane</i><par n="Antoine__np"/></e>
+<e lm="Stéphane"><i>Stéphane</i><par n="Antoine__np"/></e>
 <e lm="Steve"><i>Steve</i><par n="Antoine__np"/></e>
 <e lm="Steven"><i>Steven</i><par n="Antoine__np"/></e>
 <e lm="Sting"><i>Sting</i><par n="Antoine__np"/></e>
@@ -33383,6 +33385,8 @@
 <e lm="faire appel">     <i>f</i><par n="déf/aire__vblex"/><p><l><b/>appel</l><r><g><b/>appel</g></r></p></e>
 <e lm="faire concurrence"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>concurrence</l><r><g><b/>concurrence</g></r></p></e>
 <e lm="faire connaissance avec"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>connaissance<b/>avec</l><r><g><b/>connaissance<b/>avec</g></r></p></e>
+<e r="LR" lm="faire la connaissance de"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>la<b/>connaissance<b/>de</l><r><g><b/>la<b/>connaissance<b/>de</g></r></p></e>
+<e r="LR" lm="faire la connaissance de"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>la<b/>connaissance<b/><a/>de</l><r><g><b/>la<b/>connaissance<b/>de</g></r></p></e>
 <e lm="faire connaître"> <i>f</i><par n="déf/aire__vblex"/><p><l><b/>connaître</l><r><g><b/>connaître</g></r></p></e>
 <e lm="faire couler"> <i>f</i><par n="déf/aire__vblex"/><p><l><b/>couler</l><r><g><b/>couler</g></r></p></e>
 <e lm="faire de la publicité"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>de<b/>la<b/>publicité</l><r><g><b/>de<b/>la<b/>publicité</g></r></p></e>
@@ -39396,12 +39400,27 @@
 <e lm="Almohade"><i>Almohade</i><par n="artiste__n"/></e>
 <e lm="Ribagorce"><i>Ribagorce</i><par n="Bulgarie__np"/></e>
 <e lm="Pallars"><i>Pallars</i><par n="Iran__np"/></e>
+<e lm="Ampourdan"><i>Ampourdan</i><par n="Iran__np"/></e>
 <e lm="Pallars Jussà"><i>Pallars<b/>Jussà</i><par n="Iran__np"/></e>
 <e lm="Pallars Sobirà"><i>Pallars<b/>Sobirà</i><par n="Iran__np"/></e>
 <e lm="cordillère"><i>cordillère</i><par n="abeille__n"/></e>
 <e lm="Prades" a="hector"><i>Prades</i><par n="Saussure__np"/></e>
 <e lm="Prades" a="hector"><i>Prades</i><par n="Bulgarie__np"/></e>
-
+<e lm="Sigismond">       <i>Sigismond</i><par n="Antoine__np"/></e>
+<e lm="Segimon">       <i>Segimon</i><par n="Antoine__np"/></e>
+<e lm="moyen âge">       <i>moyen<b/>âge</i><par n="personnel__n"/></e>
+<e r="LR" lm="moyen âge">     <p><l>moyen-âge</l>     <r>moyen<b/>âge</r></p><par n="livre__n"/></e>
+<e lm="rouget"><i>rouget</i><par n="livre__n"/></e>
+<e lm="Collserola">      <i>Collserola</i><par n="Bulgarie__np"/></e>
+<e lm="Gràcia">      <i>Gràcia</i><par n="Bulgarie__np"/></e>
+<e lm="Tibidabo">        <i>Tibidabo</i><par n="Iran__np"/></e>
+<e lm="Sants">        <i>Sants</i><par n="Iran__np"/></e>
+<e lm="piémont"><i>piémont</i><par n="livre__n"/></e>
+<e r="LR" lm="piémont"><p><l>piedmont</l><r>piémont</r></p><par n="livre__n"/></e>
+<e lm="piémont pyrénéen"><i>piémont<b/>pyrénéen</i><par n="personnel__n"/></e>
+<e r="LR" lm="piémont pyrénéen"><p><l>piedmont<b/>pyrénéen</l><r>piémont<b/>pyrénéen</r></p><par n="personnel__n"/></e>
+<e lm="divisé"><i>divisé</i><par n="abaissant__adj"/></e>
+<e lm="fini"><i>fini</i><par n="abaissant__adj"/></e>
 
 	<!-- xxx -->
   </section>
@@ -39588,6 +39607,7 @@
 <e r="LR" lm="avoir envie de"><par n="/avoir__vblex"/><p><l>envie<b/>d'</l><r><g><b/>envie<b/>de</g></r></p></e>
 <e r="LR" lm="avoir l'air de"><par n="/avoir__vblex"/><p><l>l'air<b/>d'</l><r><g><b/>l'air<b/>de</g></r></p></e>
 <e r="LR" lm="faire abstraction de"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>abstraction<b/>d'</l><r><g><b/>abstraction<b/>de</g></r></p></e>
+<e r="LR" lm="faire la connaissance de"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>la<b/>connaissance<b/>d'</l><r><g><b/>la<b/>connaissance<b/>de</g></r></p></e>
 <e r="LR" lm="faire semblant de"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>semblant<b/>d'</l><r><g><b/>semblant<b/>de</g></r></p></e>
 <e r="LR" lm="permettre de"><i>perm</i><par n="adm/ettre__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
 <e r="LR" lm="prendre la relève de"><i>pr</i><par n="appr/endre__vblex"/><p><l><b/>la<b/>relève<b/>d'</l><r><g><b/>la<b/>relève<b/>de</g></r></p></e>

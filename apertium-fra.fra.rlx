@@ -31,7 +31,6 @@ LIST CnjCoo = cnjcoo ;
 LIST CnjSub = cnjsub ;
 LIST Num = num ;
 LIST Itg = itg ;
-LIST Prs = prs ;
 LIST Pro = pro ;
 LIST Tn = tn ;
 LIST Imper = imp ;
@@ -74,6 +73,7 @@ LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
 LIST Fin = pri prs pii ifi pis cni imp ;
 LIST Ifi = ifi ;
 LIST Pri = pri ;
+LIST Prs = prs ;
 LIST Inf = inf ;
 LIST Ger = ger ;
 LIST PP = pp ;
@@ -149,6 +149,11 @@ SET CLB = Subj | Cm ;
 SET Noun_Adj = N OR A ;
 SET Noun_Adj_PP = N OR A OR PP ;
 SET Adj_PP = A OR PP ;
+SET Adv_PreAdv = Adv OR PreAdv ;
+SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf;
+
+# verbs Vblex que típicament impliquen subjuntiu
+SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -189,7 +194,7 @@ REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
 SELECT Prop IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
 
-REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB); 
+#REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB); 
 
 REMOVE Pro IF (0 Le) (NOT 1 Verb) ;
   ## Le chien aime jouer avec les deux enfants.
@@ -270,6 +275,20 @@ SELECT Itg IF (-2C V LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
 REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Prn) ;
 
+# elección de subjuntivo después de "que"
+SELECT Prs (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
+	# Compte: quiero decirle que me parece muy bien
+#REMOVE Prs (*-1 >>> BARRIER CnjAdv OR CnjSub OR Rel) (NOT -1 ("no") OR ("No") OR ("nunca") OR ("Nunca")) (0C Verb) ;
+SELECT Prs (*-1 ("être# .*"r) LINK 1 ("que")) (0C Verb) ;
+SELECT Prs (*-1 ("être") LINK 1 A LINK NOT 0 ("vrai") LINK 1 ("que")) (0C Verb) ;
+SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 ("que")) (0C Verb) ;
+	# es común que la persona sienta la certeza
+	# es posible que vengas.
+	# es bueno que vengas
+	# però: són tan variades que en cadascuna d'elles es poden observar patrons
+#REMOVE Prs (NOT *-1 VerbSubj LINK 1 Que) (0C Verb) ;
+REMOVE Prs (NOT *-1 Que) (0 Verb) ;
+
 SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT 1 N OR A) ;
   ## Les poules du couvent couvent
 
@@ -308,6 +327,53 @@ SELECT N IF (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
   ## que le pouvoir de
   ## , conseiller regional, 
 
+SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("que")) ;
+  ## le groupe ne demande qu'à
+SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("pas") OR ("jamais")) ;
+  ## ne limite pas
+SELECT Verb IF (-2 ("ne")) (-1 Pro) (0C N OR Verb) (1 ("pas") OR ("jamais")) ;
+  ## ne se limite pas
+SELECT Verb IF (-1 CM) (0C N OR Verb) (1 Det) (2 N) ;
+  ## , demande la creation de
+SELECT Verb IF (-1 ("on")) (0C N OR Verb) (0 Verb + P3 + Sg) ;
+SELECT P3 IF (-1 ("on")) (0C N OR Verb) (0 Verb + P3 + Sg) ;
+  ## on compte
+
+REMOVE Fin IF (-1 Ser) (0C Noun_Adj_PP OR Verb + Fin) ;
+  ## elle était contente
+REMOVE Fin IF (-2 Ser) (-1 Adv_PreAdv) (0C Noun_Adj_PP OR Verb + Fin) ;
+  ## elle était très contente
+REMOVE Fin IF (-3 Ser) (-2 Adv) (-1 Adv_PreAdv) (0C Noun_Adj_PP OR Verb + Fin) ;
+  ## elle n'était pas très contente
+SELECT Verb IF (-1C Pro) (0C Noun_Adj_PP OR Verb) ;
+  ## ce qui se passe pendant le
+
+SELECT N IF (NOT -1 Prn) (0 ("place")) (1 NP OR unknownMajIni) ;
+  ## place Saussure
+SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
+  ## Aller :
+REMOVE Fin IF (-1 BOS) (0 N OR Fin) ;
+  ## Groupe A, Taille 48, Série 1
+SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep) ;
+  ## Remise des coupes
+REMOVE Fin IF (-1C PreAdv) (0 A OR Fin) ;
+  ## la très célèbre Pietà
+REMOVE Verb IF (-2 BOS) (-1C A + $$MascSg) (0 N + $$MascSg OR Verb) ;
+REMOVE Verb IF (-2 BOS) (-1C A + $$FemSg) (0 N + $$FemSg OR Verb) ;
+REMOVE Verb IF (-2 BOS) (-1C A + $$MascPl) (0 N + $$MascPl OR Verb) ;
+REMOVE Verb IF (-2 BOS) (-1C A + $$FemPl) (0 N + $$FemPl OR Verb) ;
+  ## . Petites annonces
+REMOVE P2 IF (-1C N + $$MascSg) (0 A + $$MascSg OR Verb + P2) ;
+REMOVE P2 IF (-1C N + $$FemSg) (0 A + $$FemSg OR Verb + P2) ;
+REMOVE P2 IF (-1C N + $$MascPl) (0 A + $$MascPl OR Verb + P2) ;
+REMOVE P2 IF (-1C N + $$FemPl) (0 A + $$FemPl OR Verb + P2) ;
+  ## 13 h. précises
+REMOVE P2 IF (-1C A + $$MascSg) (0 N + $$MascSg OR Verb + P2) ;
+REMOVE P2 IF (-1C A + $$FemSg) (0 N + $$FemSg OR Verb + P2) ;
+REMOVE P2 IF (-1C A + $$MascPl) (0 N + $$MascPl OR Verb + P2) ;
+REMOVE P2 IF (-1C A + $$FemPl) (0 N + $$FemPl OR Verb + P2) ;
+
+
 SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
   ## l'ancien président
 
@@ -318,6 +384,12 @@ SELECT A IF (0 ("jeune")) (1 N OR Verb) ;
 
 REMOVE PP (-2C Det + Masc_strict) (-1C N + Masc) (0 PP + Fem_strict) (0 V) ;
 REMOVE PP (-2C Det + Fem_strict) (-1C N + Fem) (0 PP + Masc_strict) (0 V) ;
+
+REMOVE V (-2 ("de")) (-1 ("tout") + $$MascSg) (0C V OR N + $$MascSg) ;
+REMOVE V (-2 ("de")) (-1 ("tout") + $$FemSg) (0C V OR N + $$FemSg) ;
+REMOVE V (-2 ("de")) (-1 ("tout") + $$MascPl) (0C V OR N + $$MascPl) ;
+REMOVE V (-2 ("de")) (-1 ("tout") + $$FemPl) (0C V OR N + $$FemPl) ;
+  ## de toutes sortes
 
 SELECT Verb IF (-1 ("qui")) (0C N OR Verb) ;
 SELECT Verb IF (-2 ("qui")) (-1 Adv) (0C N OR Verb) ;
@@ -508,7 +580,7 @@ SELECT Pl IF (-6 Ne) (-5 Pro + Pl) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP 
 SELECT Prep IF (0 ("après")) (1 Inf) ;
   ## . Après avoir parcouru
 
-SELECT PP IF (-1 Ser) (0 PP) (OC Verb) ;
+SELECT PP IF (-1 Ser) (0 PP) (0C Verb) ;
   ## sont investis
 
 REMOVE N IF (-1 Nous) (0 Somme OR Ser) ;
@@ -621,6 +693,13 @@ REMOVE A OR PP IF (-2 ("comme")) (-1 Det + $$FemSg) (0 Noun_Adj_PP + $$FemSg LIN
 REMOVE A OR PP IF (-2 ("comme")) (-1 Det + $$MascPl) (0 Noun_Adj_PP + $$MascPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 ("comme")) (-1 Det + $$FemPl) (0 Noun_Adj_PP + $$FemPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2 Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 
+REMOVE V IF (0C N + $$MascSg OR V) (1C Adj_PP + $$MascSg) ;
+REMOVE V IF (0C N + $$FemSg OR V) (1C Adj_PP + $$FemSg) ;
+REMOVE V IF (0C N + $$MascPl OR V) (1C Adj_PP + $$MascPl) ;
+REMOVE V IF (0C N + $$FemPl OR V) (1C Adj_PP + $$FemPl) ;
+	#et agressions sexuelles sur mineur
+
+REMOVE V IF (-1 ("de")) (-1/* DetDef) (0C N + Pl OR V) ;
 
 SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$Sg) (1C V + $$Sg) ;
 SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$Pl) (1C V + $$Pl) ;
