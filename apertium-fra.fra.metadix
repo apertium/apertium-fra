@@ -40420,6 +40420,8 @@
 <e lm="australien"><i>australien</i><par n="ancien__adj"/></e>
     <e lm="boîte de conserve"><i>boîte</i><par n="abeille__n"/><p><l><b/>de<b/>conserve</l><r><g><b/>de<b/>conserve</g></r></p></e>
     <e lm="coup de tête"><i>coup</i><par n="livre__n"/><p><l><b/>de<b/>tête</l><r><g><b/>de<b/>tête</g></r></p></e>
+<e lm="blogue"><i>blogue</i><par n="livre__n"/></e>
+<e lm="blog"><i>blog</i><par n="livre__n"/></e>
 
 	<!-- xxx -->
   </section>
