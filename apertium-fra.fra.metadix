@@ -15541,7 +15541,7 @@
 <e lm="moyenne">         <i>moyenne</i><par n="abeille__n"/></e>
 <e lm="médiane">         <i>médiane</i><par n="abeille__n"/></e>
 <e lm="mp3">             <i>mp3</i><par n="BBVA__n"/></e>
-<e lm="ms">              <i>ms</i><par n="fois__n"/></e>
+<e lm="ms">              <i>ms</i><par n="mois__n"/></e>
 <e lm="mg">              <i>mg</i><par n="mois__n"/></e>
 <e lm="muguet">          <i>muguet</i><par n="livre__n"/></e>
 <e lm="multi-service">   <i>multi-service</i><par n="livre__n"/></e>
@@ -17773,7 +17773,7 @@
 <e lm="tactique">        <i>tactique</i><par n="abeille__n"/></e>
 <e lm="taillage">        <i>taillage</i><par n="livre__n"/></e>
 <e lm="taille">          <i>taille</i><par n="abeille__n"/></e>
-<e lm="tailleur" a="ester"><i>tailleur</i><par n="livre__n"/></e>
+<e lm="tailleur">        <i>tailleu</i><par n="causeu/r__n"/></e>
 <e lm="talent">          <i>talent</i><par n="livre__n"/></e>
 <e lm="taliban">         <i>taliban</i><par n="ancien__n"/></e>
 <e lm="talibanisation">  <i>talibanisation</i><par n="abeille__n"/></e>
@@ -25103,7 +25103,7 @@
 <e lm="Patrick">         <i>Patrick</i><par n="Antoine__np"/></e>
 <e lm="Patxi">           <i>Patxi</i><par n="Antoine__np"/></e>
 <e lm="Pau">             <i>Pau</i><par n="Antoine__np"/></e>
-<e lm="Pau">             <i>Pau</i><par n="Andorre__np"/></e>
+<e lm="Pau">             <i>Pau</i><par n="Iran__np"/></e>
 <e lm="Paul">            <i>Paul</i><par n="Antoine__np"/></e>
 <e lm="Paul Kagame">     <i>Paul<b/>Kagame</i><par n="Abraham__np"/></e>
 <e lm="Paula">           <i>Paula</i><par n="Marie__np"/></e>
@@ -35643,6 +35643,7 @@
 <e lm="blindage" a="jaumeortola"><i>blindage</i><par n="livre__n"/></e>
 <e lm="bobine" a="jaumeortola"><i>bobine</i><par n="abeille__n"/></e>
 <e lm="bobo" a="jaumeortola"><i>bobo</i><par n="artiste__n"/></e>
+<e lm="bobo"><i>bobo</i><par n="livre__n"/></e>
 <e lm="bobsleigh" a="jaumeortola"><i>bobsleigh</i><par n="livre__n"/></e>
 <e lm="bol" a="jaumeortola"><i>bo</i><par n="cie/l__n"/></e>
 <e lm="bolchevique" a="jaumeortola"><i>bolchevique</i><par n="artiste__n"/></e>
@@ -36683,7 +36684,8 @@
 <e lm="manglier" a="jaumeortola"><i>manglier</i><par n="livre__n"/></e>
 <e lm="maniement" a="jaumeortola"><i>maniement</i><par n="livre__n"/></e>
 <e lm="maniérisme" a="jaumeortola"><i>maniérisme</i><par n="livre__n"/></e>
-<e lm="manille" a="jaumeortola"><i>manille</i><par n="artiste__n"/></e>
+<e lm="manille"><i>manille</i><par n="livre__n"/></e>
+<e lm="manille"><i>manille</i><par n="abeille__n"/></e>
 <e lm="manufacture" a="jaumeortola"><i>manufacture</i><par n="abeille__n"/></e>
 <e lm="mappemonde" a="jaumeortola"><i>mappemonde</i><par n="abeille__n"/></e>
 <e lm="maquisard" a="jaumeortola"><i>maquisard</i><par n="affecté__n"/></e>
@@ -37751,7 +37753,7 @@
     <e lm="site web"><i>site</i><par n="livre__n"/><p><l><b/>web</l><r><g><b/>web</g></r></p></e>
     <e lm="site Internet"><i>site</i><par n="livre__n"/><p><l><b/>Internet</l><r><g><b/>Internet</g></r></p></e>
     <e lm="statut de capital"><i>statut</i><par n="livre__n"/><p><l><b/>de<b/>capital</l><r><g><b/>de<b/>capital</g></r></p></e>
-    <e lm="tailleur de pierre"><i>tailleur</i><par n="livre__n"/><p><l><b/>de<b/>pierre</l><r><g><b/>de<b/>pierre</g></r></p></e>
+    <e lm="tailleur de pierre"><i>tailleu</i><par n="causeu/r__n"/><p><l><b/>de<b/>pierre</l><r><g><b/>de<b/>pierre</g></r></p></e>
     <e lm="terrain de golf"><i>terrain</i><par n="livre__n"/><p><l><b/>de<b/>golf</l><r><g><b/>de<b/>golf</g></r></p></e>
     <e lm="tête de bétail"><i>tête</i><par n="abeille__n"/><p><l><b/>de<b/>bétail</l><r><g><b/>de<b/>bétail</g></r></p></e>
     <e lm="tête de lit"><i>tête</i><par n="abeille__n"/><p><l><b/>de<b/>lit</l><r><g><b/>de<b/>lit</g></r></p></e>
@@ -38007,6 +38009,8 @@
 <e lm="Est républicain"><i>Est<b/>républicain</i><par n="Linux__np"/></e>
 <e lm="condoléance"><i>condoléance</i><par n="abeille__n"/></e>
 <e lm="cosmétique"><i>cosmétique</i><par n="livre__n"/></e>
+<e lm="cosmétique"><i>cosmétique</i><par n="abeille__n"/></e>
+<e lm="cosmétique"><i>cosmétique</i><par n="académique__adj"/></e>
 <e lm="auto-portrait"><i>auto-portrait</i><par n="livre__n"/></e>
 <e lm="interconnection"><i>interconnection</i><par n="abeille__n"/></e>
 <e lm="oxydant"><i>oxydant</i><par n="livre__n"/></e>
@@ -38250,7 +38254,6 @@
     <e lm="fusil de chasse"><i>fusil</i><par n="livre__n"/><p><l><b/>de<b/>chasse</l><r><g><b/>de<b/>chasse</g></r></p></e>
     <e lm="agent de police"><i>agent</i><par n="artiste__n"/><p><l><b/>de<b/>police</l><r><g><b/>de<b/>police</g></r></p></e>
     <e lm="prise de décisions"><i>prise</i><par n="abeille__n"/><p><l><b/>de<b/>décisions</l><r><g><b/>de<b/>décisions</g></r></p></e>
-    <e lm="tailleur de pierre"><i>tailleur</i><par n="livre__n"/><p><l><b/>de<b/>pierre</l><r><g><b/>de<b/>pierre</g></r></p></e>
     <e lm="mal à la tête"><i>ma</i><par n="anima/l__n"/><p><l><b/>à<b/>la<b/>tête</l><r><g><b/>à<b/>la<b/>tête</g></r></p></e>
 <e lm="lépidoptère" a="jaumeortola"><i>lépidoptère</i><par n="livre__n"/></e>
     <e lm="chambre de commerce"><i>chambre</i><par n="abeille__n"/><p><l><b/>de<b/>commerce</l><r><g><b/>de<b/>commerce</g></r></p></e>
@@ -39138,7 +39141,6 @@
     <e lm="fusil de chasse"><i>fusil</i><par n="livre__n"/><p><l><b/>de<b/>chasse</l><r><g><b/>de<b/>chasse</g></r></p></e>
     <e lm="agent de police"><i>agent</i><par n="artiste__n"/><p><l><b/>de<b/>police</l><r><g><b/>de<b/>police</g></r></p></e>
     <e lm="prise de décisions"><i>prise</i><par n="abeille__n"/><p><l><b/>de<b/>décisions</l><r><g><b/>de<b/>décisions</g></r></p></e>
-    <e lm="tailleur de pierre"><i>tailleur</i><par n="livre__n"/><p><l><b/>de<b/>pierre</l><r><g><b/>de<b/>pierre</g></r></p></e>
     <e lm="mal à la tête"><i>ma</i><par n="anima/l__n"/><p><l><b/>à<b/>la<b/>tête</l><r><g><b/>à<b/>la<b/>tête</g></r></p></e>
     <e lm="chambre de commerce"><i>chambre</i><par n="abeille__n"/><p><l><b/>de<b/>commerce</l><r><g><b/>de<b/>commerce</g></r></p></e>
 <e lm="belle-mère" a="jaumeortola"><i>belle-mère</i><par n="BBC__n"/></e>

@@ -104,6 +104,7 @@ LIST Pas = "pas" ;
 LIST Ne = "ne" ; 
 LIST Aussi = "aussi" ; 
 LIST Même = "même" ; 
+LIST Plus = "plus" ;
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
 
@@ -386,6 +387,13 @@ REMOVE P2 IF (-1C A + $$FemPl) (0 N + $$FemPl OR Verb + P2) ;
 
 SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
   ## l'ancien président
+
+REMOVE N IF (-1/* Det) (0 ("plus")) (1 A OR PP OR Adv OR unknown) ;
+  ## le plus beau
+REMOVE N IF (-1/* Det) (0 ("plus")) (1 EOS) ;
+  ## que j'aime le plus
+REMOVE N IF (-1 ("de")) (0 ("plus")) ;
+  ## 290 F de plus
 
 SELECT A IF (0 ("petit")) (1 N OR Verb) ;
   ## un petit groupe
