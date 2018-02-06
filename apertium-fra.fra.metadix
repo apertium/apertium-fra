@@ -6589,7 +6589,6 @@
 <e lm="anglo-hollandais"><i>anglo-hollandais</i><par n="anglais__adj"/></e>
 <e lm="anglo-saxon">     <i>anglo-saxon</i><par n="ancien__adj"/></e>
 <e lm="angoissant">      <i>angoissant</i><par n="abaissant__adj"/></e>
-<e lm="angolais">        <i>angolais</i><par n="bas__adj"/></e>
 <e lm="angulaire">       <i>angulaire</i><par n="académique__adj"/></e>
 <e lm="animal">          <i>animal</i><par n="abaissant__adj"/></e>
 <e lm="animique">        <i>animique</i><par n="académique__adj"/></e>
@@ -16350,6 +16349,7 @@
 <e lm="polygone">        <i>polygone</i><par n="livre__n"/></e>
 <e lm="polémique">       <i>polémique</i><par n="abeille__n"/></e>
 <e lm="pomme de terre">  <i>pomme</i><par n="abeille__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
+<e lm="pomme de pin">    <i>pomme</i><par n="abeille__n"/><p><l><b/>de<b/>pin</l><r><g><b/>de<b/>pin</g></r></p></e>
 <e lm="pomme">           <i>pomme</i><par n="abeille__n"/></e>
 <e lm="pommette">        <i>pommette</i><par n="abeille__n"/></e>
 <e lm="pommier">         <i>pommier</i><par n="livre__n"/></e>
@@ -39359,7 +39359,7 @@
 <e lm="pneu"><i>pneu</i><par n="livre__n"/></e>
 <e lm="thyroïde"><i>thyroïde</i><par n="abeille__n"/></e>
 <e lm="thyroïde"><i>thyroïde</i><par n="académique__adj"/></e>
-<e lm="thyroïde"><i>thyroïdien</i><par n="ancien__adj"/></e>
+<e lm="thyroïdien"><i>thyroïdien</i><par n="ancien__adj"/></e>
 <e lm="cross-country"><i>cross-countr</i><par n="brand/y__n"/></e>
 <e lm="cross"><i>cross</i><par n="mois__n"/></e>
 <e lm="mobilier">        <i>mobili</i><par n="ch/er__adj"/></e>
@@ -40442,6 +40442,14 @@
 <e lm="hawaïen"><i>hawaïen</i><par n="ancien__adj"/></e>
     <e lm="hydrate de carbone"><i>hydrate</i><par n="livre__n"/><p><l><b/>de<b/>carbone</l><r><g><b/>de<b/>carbone</g></r></p></e>
     <e lm="agent de police"><i>agent</i><par n="artiste__n"/><p><l><b/>de<b/>police</l><r><g><b/>de<b/>police</g></r></p></e>
+
+<e r="LR" lm="de l'État"><i>de<b/>l'État</i><par n="arrière__adj"/></e>
+<e r="LR" lm="de la Renaissance"><i>de<b/>la<b/>Renaissance</i><par n="arrière__adj"/></e>
+<e lm="de l'État"><i>en<b/>vigueur</i><par n="arrière__adj"/></e>
+<e lm="bourbonien" a="jaumeortola"><i>bourbonien</i><par n="ancien__adj"/></e>
+<e lm="châtiment"><i>châtiment</i><par n="livre__n"/></e>
+<e lm="Goth"><i>Goth</i><par n="artiste__n"/></e>
+<e lm="goth"><i>goth</i><par n="académique__adj"/></e>
 
 	<!-- xxx -->
   </section>
