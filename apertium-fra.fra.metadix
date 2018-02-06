@@ -6677,6 +6677,7 @@
 <e lm="apparenté">       <i>apparenté</i><par n="abaissant__adj"/></e>
 <e lm="appartenant">     <i>appartenant</i><par n="abaissant__adj"/></e>
 <e lm="appauvrissant">   <i>appauvrissant</i><par n="abaissant__adj"/></e>
+<e lm="appellatif" a="joan"><i>appellatif</i><par n="livre__n"/></e>
 <e lm="appellatif">      <i>appellati</i><par n="affirmati/f__adj"/></e>
 <e lm="applicable">      <i>applicable</i><par n="académique__adj"/></e>
 <e lm="applicateur">     <i>applicat</i><par n="conduct/eur__adj"/></e>
@@ -14419,6 +14420,7 @@
 <e lm="héritage">        <i>héritage</i><par n="livre__n"/></e>
 <e lm="héritier">        <i>hériti</i><par n="bouch/er__n"/></e>
 <e lm="héros">           <i>héro</i><par n="héro/s__n"/></e>
+<e lm="super-héros">     <i>super-héro</i><par n="héro/s__n"/></e>
 <e lm="hésitation">      <i>hésitation</i><par n="abeille__n"/></e>
 <e lm="hétérodoxie">     <i>hétérodoxie</i><par n="abeille__n"/></e>
 <e lm="hétérogénéité">   <i>hétérogénéité</i><par n="abeille__n"/></e>
@@ -17645,12 +17647,11 @@
 <e lm="sujétion">        <i>sujétion</i><par n="abeille__n"/></e>
 <e lm="sultanat">        <i>sultanat</i><par n="livre__n"/></e>
 <e lm="sunnite">         <i>sunnite</i><par n="artiste__n"/></e>
-<e lm="super-héros">     <i>super-héros</i><par n="mois__n"/></e>
 <e lm="supercherie" a="joan"><i>supercherie</i><par n="abeille__n"/></e>
 <e lm="supermarché">     <i>supermarché</i><par n="livre__n"/></e>
 <e lm="superposition">   <i>superposition</i><par n="abeille__n"/></e>
 <e lm="superproduction"> <i>superproduction</i><par n="abeille__n"/></e>
-<e lm="superviseur">     <i>superviseur</i><par n="livre__n"/></e>
+<e lm="superviseur">     <i>superviseu</i><par n="causeu/r__n"/></e>
 <e lm="supervision">     <i>supervision</i><par n="abeille__n"/></e>
 <e lm="supplice">        <i>supplice</i><par n="livre__n"/></e>
 <e lm="supplément">      <i>supplément</i><par n="livre__n"/></e>
@@ -20924,6 +20925,7 @@
 <e lm="Bastille">        <i>Bastille</i><par n="Andorre__np"/></e>
 <e lm="Basurko">         <i>Basurko</i><par n="Abraham__np"/></e>
 <e lm="Basurto">         <i>Basurto</i><par n="Andorre__np"/></e>
+<e lm="Bataille">        <i>Bataille</i><par n="Saussure__np"/></e>
 <e lm="Batailles d'Aboukir"><i>Batailles<b/>d'Aboukir</i><par n="Carrefour__np"/></e>
 <e lm="Batasuna">        <i>Batasuna</i><par n="Carrefour__np"/></e>
 <e lm="Bathurst">        <i>Bathurst</i><par n="Andorre__np"/></e>
@@ -37263,13 +37265,14 @@
 <e lm="sabot" a="jaumeortola"><i>sabot</i><par n="livre__n"/></e>
 <e lm="saccharose" a="jaumeortola"><i>saccharose</i><par n="livre__n"/></e>
 <e lm="sacerdoce" a="jaumeortola"><i>sacerdoce</i><par n="livre__n"/></e>
-<e lm="sacré" a="jaumeortola"><i>sacré</i><par n="BBVA__n"/></e>
+<e lm="sacré"><i>sacré</i><par n="livre__n"/></e>
 <e lm="sacrilège" a="jaumeortola"><i>sacrilège</i><par n="livre__n"/></e>
 <e lm="sacristie" a="jaumeortola"><i>sacristie</i><par n="abeille__n"/></e>
 <e lm="safari" a="jaumeortola"><i>safari</i><par n="livre__n"/></e>
 <e lm="safran" a="jaumeortola"><i>safran</i><par n="livre__n"/></e>
 <e lm="saga" a="jaumeortola"><i>saga</i><par n="abeille__n"/></e>
-<e lm="sahraoui" a="jaumeortola"><i>sahraoui</i><par n="affecté__n"/></e>
+<e lm="Sahraoui"><i>Sahraoui</i><par n="affecté__n"/></e>
+<e lm="sahraoui"><i>sahraoui</i><par n="abaissant__adj"/></e>
 <e lm="sainteté" a="jaumeortola"><i>sainteté</i><par n="abeille__n"/></e>
 <e lm="salafiste" a="jaumeortola"><i>salafiste</i><par n="artiste__n"/></e>
 <e lm="salamandre" a="jaumeortola"><i>salamandre</i><par n="abeille__n"/></e>
@@ -37341,7 +37344,7 @@
 <e lm="sève" a="jaumeortola"><i>sève</i><par n="abeille__n"/></e>
 <e lm="sextant" a="jaumeortola"><i>sextant</i><par n="livre__n"/></e>
 <e lm="sextet" a="jaumeortola"><i>sextet</i><par n="livre__n"/></e>
-<e lm="sgraffite" a="jaumeortola"><i>sgraffite</i><par n="artiste__n"/></e>
+<e lm="sgraffite"><i>sgraffite</i><par n="livre__n"/></e>
 <e lm="shoot" a="jaumeortola"><i>shoot</i><par n="livre__n"/></e>
 <e lm="sicaire" a="jaumeortola"><i>sicaire</i><par n="livre__n"/></e>
 <e lm="side-car" a="jaumeortola"><i>side-car</i><par n="livre__n"/></e>
@@ -37471,7 +37474,7 @@
 <e lm="synchronisation" a="jaumeortola"><i>synchronisation</i><par n="abeille__n"/></e>
 <e lm="syncope" a="jaumeortola"><i>syncope</i><par n="abeille__n"/></e>
 <e lm="syncrétisme" a="jaumeortola"><i>syncrétisme</i><par n="livre__n"/></e>
-<e lm="syndic" a="jaumeortola"><i>syndic</i><par n="livre__n"/></e>
+<e lm="syndic"><i>syndi</i><par n="tur/c__n"/></e>
 <e lm="syndicalisme" a="jaumeortola"><i>syndicalisme</i><par n="livre__n"/></e>
 <e lm="syndicaliste" a="jaumeortola"><i>syndicaliste</i><par n="artiste__n"/></e>
 <e lm="synode" a="jaumeortola"><i>synode</i><par n="livre__n"/></e>
@@ -37552,7 +37555,7 @@
 <e lm="transvasement" a="jaumeortola"><i>transvasement</i><par n="livre__n"/></e>
 <e lm="trapèze" a="jaumeortola"><i>trapèze</i><par n="livre__n"/></e>
 <e lm="travée" a="jaumeortola"><i>travée</i><par n="abeille__n"/></e>
-<e lm="travers" a="jaumeortola"><i>travers</i><par n="admis__n"/></e>
+<e lm="travers"><i>travers</i><par n="mois__n"/></e>
 <e lm="trèfle" a="jaumeortola"><i>trèfle</i><par n="livre__n"/></e>
 <e lm="trempe" a="jaumeortola"><i>trempe</i><par n="abeille__n"/></e>
 <e lm="trépied" a="jaumeortola"><i>trépied</i><par n="livre__n"/></e>
@@ -40422,6 +40425,21 @@
     <e lm="coup de tête"><i>coup</i><par n="livre__n"/><p><l><b/>de<b/>tête</l><r><g><b/>de<b/>tête</g></r></p></e>
 <e lm="blogue"><i>blogue</i><par n="livre__n"/></e>
 <e lm="blog"><i>blog</i><par n="livre__n"/></e>
+<e lm="tangente"><i>tangente</i><par n="abeille__n"/></e>
+<e lm="cotangente"><i>cotangente</i><par n="abeille__n"/></e>
+
+<e lm="USB" a="jaumeortola"><i>USB</i><par n="IRPF__n"/></e>
+    <e lm="quatuor à cordes"><i>quatuor</i><par n="livre__n"/><p><l><b/>à<b/>cordes</l><r><g><b/>à<b/>cordes</g></r></p></e>
+    <e lm="tête de lit"><i>tête</i><par n="abeille__n"/><p><l><b/>de<b/>lit</l><r><g><b/>de<b/>lit</g></r></p></e>
+    <e lm="pièce de vêtement"><i>pièce</i><par n="abeille__n"/><p><l><b/>de<b/>vêtement</l><r><g><b/>de<b/>vêtement</g></r></p></e>
+    <e lm="métier à tisser"><i>métier</i><par n="livre__n"/><p><l><b/>à<b/>tisser</l><r><g><b/>à<b/>tisser</g></r></p></e>
+    <e lm="recueil de poèmes"><i>recueil</i><par n="livre__n"/><p><l><b/>de<b/>poèmes</l><r><g><b/>de<b/>poèmes</g></r></p></e>
+<e lm="symbologie" a="jaumeortola"><i>symbologie</i><par n="abeille__n"/></e>
+    <e lm="mot de passe"><i>mot</i><par n="livre__n"/><p><l><b/>de<b/>passe</l><r><g><b/>de<b/>passe</g></r></p></e>
+<e lm="hawaïen" a="jaumeortola"><i>hawaïen</i><par n="ancien__n"/></e>
+<e lm="hawaïen"><i>hawaïen</i><par n="ancien__adj"/></e>
+    <e lm="hydrate de carbone"><i>hydrate</i><par n="livre__n"/><p><l><b/>de<b/>carbone</l><r><g><b/>de<b/>carbone</g></r></p></e>
+    <e lm="agent de police"><i>agent</i><par n="artiste__n"/><p><l><b/>de<b/>police</l><r><g><b/>de<b/>police</g></r></p></e>
 
 	<!-- xxx -->
   </section>
