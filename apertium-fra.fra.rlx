@@ -725,6 +725,9 @@ SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$Sg) (1C V
 SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$Pl) (1C V + $$Pl) ;
 # des responsables parleront
 
+SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;
+# en voyant son cartable
+
 # ADJ NOM
 
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + $$MascSg LINK 0 N OR NP) (1C N + $$MascSg) ;
