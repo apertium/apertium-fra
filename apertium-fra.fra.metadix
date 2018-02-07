@@ -12960,6 +12960,7 @@
 <e lm="cul">             <i>cul</i><par n="livre__n"/></e>
 <e lm="culbute">         <i>culbute</i><par n="abeille__n"/></e>
 <e r="RL" lm="culot">    <i>culot</i><par n="livre__n"/></e>
+<e lm="culotte">         <i>culotte</i><par n="abeille__n"/></e>
 <e lm="culpabilisation"> <i>culpabilisation</i><par n="abeille__n"/></e>
 <e lm="culpabilité">     <i>culpabilité</i><par n="abeille__n"/></e>
 <e lm="culte">           <i>culte</i><par n="livre__n"/></e>
