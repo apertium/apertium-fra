@@ -15138,7 +15138,7 @@
 <e lm="macro">           <i>macro</i><par n="abeille__n"/></e>
 <e lm="macro-opération"> <i>macro-opération</i><par n="abeille__n"/></e>
 <e lm="macroconcert">    <i>macroconcert</i><par n="livre__n"/></e>
-<e lm="Macédonien" a="hector"><i>Macédonien</i><par n="ancien__n"/></e>
+<e lm="macédonien" a="hector"><i>macédonien</i><par n="ancien__n"/></e>
 <e lm="madame">          <i>madame</i><par n="abeille__n"/></e>
 <e lm="Madrilène">       <i>Madrilène</i><par n="artiste__n"/></e>
 <e lm="mafia">           <i>mafia</i><par n="abeille__n"/></e>
@@ -39392,7 +39392,10 @@
 <e lm="Sixte">        <i>Sixte</i><par n="Antoine__np"/></e>
 <e lm="magrébin"><i>magrébin</i><par n="abaissant__adj"/></e>
 <e lm="Magrébin"><i>Magrébin</i><par n="affecté__n"/></e>
+<e lm="maghrébin"><i>maghrébin</i><par n="abaissant__adj"/></e>
+<e lm="Maghrébin"><i>Maghrébin</i><par n="affecté__n"/></e>
 <e lm="Magreb"><i>Magreb</i><par n="Iran__np"/></e>
+<e lm="Maghreb"><i>Maghreb</i><par n="Iran__np"/></e>
 <e lm="Canigou"><i>Canigou</i><par n="Iran__np"/></e>
 <e lm="Raimond"><i>Raimond</i><par n="Antoine__np"/></e>
 <e lm="Raimond-Bérenger"><i>Raimond-Bérenger</i><par n="Antoine__np"/></e>
@@ -40464,6 +40467,7 @@
 <e lm="ionien" a="jaumeortola"><i>ionien</i><par n="ancien__adj"/></e>
 <e lm="sableux" a="jaumeortola"><i>sableu</i><par n="affectueu/x__adj"/></e>
 <e lm="napolitain" a="jaumeortola"><i>napolitain</i><par n="abaissant__adj"/></e>
+<e lm="napolitain"><i>napolitain</i><par n="affecté__n"/></e>
 <e lm="eucaryote" a="jaumeortola"><i>eucaryote</i><par n="académique__adj"/></e>
 <e lm="manifeste" a="jaumeortola"><i>manifeste</i><par n="académique__adj"/></e>
 <e lm="inactif" a="jaumeortola"><i>inacti</i><par n="affirmati/f__adj"/></e>
@@ -40880,6 +40884,9 @@
 <e lm="vétuste" a="jaumeortola"><i>vétuste</i><par n="académique__adj"/></e>
 <e lm="paradisiaque" a="jaumeortola"><i>paradisiaque</i><par n="académique__adj"/></e>
 <e lm="champêtre" a="jaumeortola"><i>champêtre</i><par n="académique__adj"/></e>
+<e lm="Chauvin">           <i>Chauvin</i><par n="Saussure__np"/></e>
+<e lm="estrémègne"><i>estrémègne</i><par n="académique__adj"/></e>
+<e lm="Estrémègne"><i>Estrémègne</i><par n="artiste__n"/></e>
 
 
 	<!-- xxx -->

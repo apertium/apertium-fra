@@ -91,13 +91,27 @@
       <e><i>hurler</i></e>
       <e><i>hussard</i></e>
       <e><i>hutte</i></e>
+      <e><i>yacht</i></e>
+      <e><i>yang</i></e>
+      <e><i>yankee</i></e>
+      <e><i>yaourt</i></e>
+      <e><i>yard</i></e>
+      <e><i>yayo</i></e>
+      <e><i>yéménite</i></e>
+      <e><i>yen</i></e>
+      <e><i>yeuse</i></e>
+      <e><i>yin</i></e>
+      <e><i>yoga</i></e>
+      <e><i>yougoslave</i></e>
+      <e><i>yourte</i></e>
       <e><i>Ier</i></e>
       <e><i>Ire</i></e>
       <e><i>IIe</i></e>
       <e><i>IIIe</i></e>
       <e><i>IVe</i></e>
       <e><i>IXe</i></e>
-    </pardef>
+
+</pardef>
 
     <pardef n="vocals">
       <e><i>a</i></e>
