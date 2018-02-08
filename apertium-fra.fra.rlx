@@ -49,6 +49,8 @@ LIST Masc_strict = m ;
 LIST Fem_strict = f ;
 LIST Masc = m mf ;
 LIST Fem = f mf ;
+LIST Sg_strict = sg ;
+LIST Pl_strict = pl ;
 LIST Sg = sg sp ;
 LIST Pl = pl sp ;
 LIST Sp = sp ;
@@ -127,6 +129,10 @@ LIST S = "<s'>"i ;
 LIST Ouvrir = "ouvrir" ;
 LIST Ouvrer = "ouvrer" ;
 LIST Devant = "devant" ;
+LIST Mystique_pers = "mystique_pers" ;
+LIST Mystique_syst = "mystique_syst" ;
+LIST Pupille_pers = "pupille_pers" ;
+LIST Pupille_anat = "pupille_anat" ;
 
 LIST À = "à" ;
 
@@ -318,6 +324,13 @@ SELECT Mil IF (0C Mil OR Mille) (1 N OR A) (1 Pl) ;
 
 SELECT Savoir IF (0C Savoir OR Saurer) ;
   ## ce problème ne saurait tout expliquer à lui seul
+
+REMOVE Mystique_pers IF (-1 Det + Sg_strict + Fem_strict) (0 Mystique_pers) ;
+REMOVE Mystique_pers IF (1 A + Sg_strict + Fem_strict) (0 Mystique_pers) ;
+REMOVE Mystique_syst IF (-1/* Det + Pl_strict) (0 Mystique_syst) ;
+REMOVE Pupille_pers IF (-1 Det + Sg_strict + Fem_strict) (0 Pupille_pers) ;
+REMOVE Pupille_pers IF (1 A + Sg_strict + Fem_strict) (0 Pupille_pers) ;
+REMOVE Pupille_anat IF (-1/* Det + Pl_strict) (0 Pupille_anat) ;
 
 SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
 REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
