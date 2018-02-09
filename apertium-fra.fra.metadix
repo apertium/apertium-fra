@@ -6543,6 +6543,7 @@
 <e lm="allant">          <i>allant</i><par n="abaissant__adj"/></e>
 <e lm="allemand">        <i>allemand</i><par n="abaissant__adj"/></e>
 <e lm="allongé" a="ester"><i>allongé</i><par n="abaissant__adj"/></e>
+<e lm="couché" a="hector"><i>couché</i><par n="abaissant__adj"/></e>
 <e lm="allusif">         <i>allusi</i><par n="affirmati/f__adj"/></e>
 <e lm="alphabétique">    <i>alphabétique</i><par n="académique__adj"/></e>
 <e lm="alpin">           <i>alpin</i><par n="abaissant__adj"/></e>
@@ -6947,6 +6948,7 @@
 <e lm="colonial">        <i>colonia</i><par n="amica/l__adj"/></e>
 <e lm="colossal">        <i>colossa</i><par n="amica/l__adj"/></e>
 <e lm="combattant">      <i>combattant</i><par n="abaissant__adj"/></e>
+<e lm="combattant">      <i>combattant</i><par n="affecté__n"/></e>
 <e lm="commencé">        <i>commencé</i><par n="abaissant__adj"/></e>
 <e lm="commercial">      <i>commercia</i><par n="amica/l__adj"/></e>
 <e lm="commun">          <i>commun</i><par n="abaissant__adj"/></e>
@@ -7206,6 +7208,8 @@
 <e lm="douteux">         <i>douteu</i><par n="affectueu/x__adj"/></e>
 <e lm="douzième">        <i>douzième</i><par n="académique__adj"/></e>
 <e lm="dramatique">      <i>dramatique</i><par n="académique__adj"/></e>
+<e lm="dramatique">      <i>dramatique</i><par n="abeille__n"/></e>
+<e lm="dramatique">      <i>dramatique</i><par n="livre__n"/></e>
 <e lm="drastique" a="joan"><i>drastique</i><par n="académique__adj"/></e>
 <e lm="droit">           <i>droit</i><par n="abaissant__adj"/></e>
 <e lm="drôle">           <i>drôle</i><par n="académique__adj"/></e>
@@ -8814,6 +8818,7 @@
 <e lm="transparent">     <i>transparent</i><par n="abaissant__adj"/></e>
 <e lm="travailleur">     <i>travailleu</i><par n="causeu/r__adj"/></e>
 <e lm="travailliste">    <i>travailliste</i><par n="académique__adj"/></e>
+<e lm="travailliste">    <i>travailliste</i><par n="artiste__n"/></e>
 <e lm="treizième">       <i>treizième</i><par n="académique__adj"/></e>
 <e lm="trentième">       <i>trentième</i><par n="académique__adj"/></e>
 <e lm="triangulaire">    <i>triangulaire</i><par n="académique__adj"/></e>
@@ -12977,7 +12982,6 @@
 <e lm="cycle">           <i>cycle</i><par n="livre__n"/></e>
 <e lm="cyclisme">        <i>cyclisme</i><par n="livre__n"/></e>
 <e lm="cycliste">        <i>cycliste</i><par n="artiste__n"/></e>
-<e lm="cyclo-cross">     <i>cyclo-cross</i><par n="mois__n"/></e>
 <e lm="cyclone">         <i>cyclone</i><par n="livre__n"/></e>
 <e lm="cygne" a="joan">  <i>cygne</i><par n="livre__n"/></e>
 <e lm="cylindre" a="joan"><i>cylindre</i><par n="livre__n"/></e>
@@ -31858,6 +31862,7 @@
 <e lm="quatorze">        <i>quatorze</i><par n="cinq__num"/></e>
 <e lm="quatre">          <i>quatre</i><par n="cinq__num"/></e>
 <e lm="quatre-vingt">    <i>quatre-vingt</i><par n="cinq__num"/></e>
+<e r="LR" lm="quatre-vingt"> <p><l>quatre-vingts</l>   <r>quatre-vingt</r></p><par n="cinq__num"/></e>
 <e lm="quatre-vingt-cinq"><i>quatre-vingt-cinq</i><par n="cinq__num"/></e>
 <e lm="quatre-vingt-deux"><i>quatre-vingt-deux</i><par n="cinq__num"/></e>
 <e lm="quatre-vingt-dix"><i>quatre-vingt-dix</i><par n="cinq__num"/></e>
@@ -32178,6 +32183,7 @@
 <e lm="tout aussi">      <i>tout<b/>aussi</i><par n="très__preadv"/></e>
 <e lm="tellement">       <i>tellement</i><par n="très__preadv"/></e>
 <e lm="très">            <i>très</i><par n="très__preadv"/></e>
+<e lm="trop">            <i>trop</i><par n="très__preadv"/></e>
     <!-- ******************************
           group prn
       ****************************** -->
@@ -33553,6 +33559,7 @@
 <e lm="goutter">         <i>goutt</i><par n="abaiss/er__vblex"/></e>
 <e lm="gouverner">       <i>gouvern</i><par n="abaiss/er__vblex"/></e>
 <e lm="goûter">          <i>goût</i><par n="abaiss/er__vblex"/></e>
+<e lm="dégoûter">        <i>dégoût</i><par n="abaiss/er__vblex"/></e>
 <e lm="grandir">         <i>grand</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="gratifier">       <i>gratifi</i><par n="abaiss/er__vblex"/></e>
 <e lm="gratter">         <i>gratt</i><par n="abaiss/er__vblex"/></e>
@@ -35429,7 +35436,11 @@
 <e lm="acarus" a="jaumeortola"><i>acarus</i><par n="mois__n"/></e>
 <e lm="accumulateur" a="jaumeortola"><i>accumulat</i><par n="administrat/eur__n"/></e>
 <e lm="acétylène" a="jaumeortola"><i>acétylène</i><par n="livre__n"/></e>
-<e lm="achéménide" a="jaumeortola"><i>achéménide</i><par n="artiste__n"/></e>
+<e lm="Achéménide"><i>Achéménide</i><par n="artiste__n"/></e>
+<e lm="achéménide"><i>achéménide</i><par n="académique__adj"/></e>
+<e lm="Mède"><i>Mède</i><par n="artiste__n"/></e>
+<e lm="mède"><i>mède</i><par n="académique__adj"/></e>
+<e lm="mèdique"><i>mèdique</i><par n="académique__adj"/></e>
 <e lm="acheminement" a="jaumeortola"><i>acheminement</i><par n="livre__n"/></e>
 <e lm="acronyme" a="jaumeortola"><i>acronyme</i><par n="livre__n"/></e>
 <e lm="acuité" a="jaumeortola"><i>acuité</i><par n="abeille__n"/></e>
@@ -36017,6 +36028,7 @@
 <e lm="cutteur" a="jaumeortola"><i>cutteur</i><par n="livre__n"/></e>
 <e lm="cyanure" a="jaumeortola"><i>cyanure</i><par n="livre__n"/></e>
 <e lm="cyclocross" a="jaumeortola"><i>cyclocross</i><par n="mois__n"/></e>
+<e r="LR" lm="cyclocross"> <p><l>cyclo-cross</l>     <r>cyclocross</r></p><par n="mois__n"/></e>
 <e lm="cyclomoteur" a="jaumeortola"><i>cyclomoteur</i><par n="livre__n"/></e>
 <e lm="cyclotron" a="jaumeortola"><i>cyclotron</i><par n="livre__n"/></e>
 <e lm="cylindrée" a="jaumeortola"><i>cylindrée</i><par n="abeille__n"/></e>
@@ -36801,6 +36813,7 @@
 <e lm="motel" a="jaumeortola"><i>mote</i><par n="cie/l__n"/></e>
 <e lm="motet" a="jaumeortola"><i>motet</i><par n="livre__n"/></e>
 <e lm="motocross" a="jaumeortola"><i>motocross</i><par n="mois__n"/></e>
+<e r="LR" lm="motocross"> <p><l>moto-cross</l>     <r>motocross</r></p><par n="mois__n"/></e>
 <e lm="moulage" a="jaumeortola"><i>moulage</i><par n="livre__n"/></e>
 <e lm="mousquetaire" a="jaumeortola"><i>mousquetaire</i><par n="livre__n"/></e>
 <e lm="mousse"><i>mousse</i><par n="livre__n"/></e>
@@ -37437,6 +37450,8 @@
 <e lm="stoïcisme" a="jaumeortola"><i>stoïcisme</i><par n="livre__n"/></e>
 <e lm="stomate" a="jaumeortola"><i>stomate</i><par n="livre__n"/></e>
 <e lm="stop" a="jaumeortola"><i>stop</i><par n="livre__n"/></e>
+<e r="LR" lm="non stop"><i>non<b/>stop</i><par n="hier__adv"/></e>
+<e lm="sans arrêt"><i>sans<b/>arrêt</i><par n="hier__adv"/></e>
 <e lm="strate" a="jaumeortola"><i>strate</i><par n="abeille__n"/></e>
 <e lm="stratège" a="jaumeortola"><i>stratège</i><par n="artiste__n"/></e>
 <e lm="stratification" a="jaumeortola"><i>stratification</i><par n="abeille__n"/></e>
@@ -37456,6 +37471,7 @@
 <e lm="substrat" a="jaumeortola"><i>substrat</i><par n="livre__n"/></e>
 <e lm="sucrier"><i>sucrier</i><par n="livre__n"/></e>
 <e lm="Sud-Américain"><i>Sud-Américain</i><par n="affecté__n"/></e>
+<e lm="sud-américain"><i>sud-américain</i><par n="abaissant__adj"/></e>
 <e lm="sud-ouest" a="jaumeortola"><i>sud-ouest</i><par n="personnel__n"/></e>
 <e lm="suie" a="jaumeortola"><i>suie</i><par n="abeille__n"/></e>
 <e lm="suif" a="jaumeortola"><i>suif</i><par n="livre__n"/></e>
@@ -37710,7 +37726,7 @@
     <e lm="boîte aux lettres"><i>boîte</i><par n="abeille__n"/><p><l><b/>aux<b/>lettres</l><r><g><b/>aux<b/>lettres</g></r></p></e>
     <e lm="boîte de conserve"><i>boîte</i><par n="abeille__n"/><p><l><b/>de<b/>conserve</l><r><g><b/>de<b/>conserve</g></r></p></e>
     <e lm="calendrier des saints"><i>calendrier</i><par n="livre__n"/><p><l><b/>des<b/>saints</l><r><g><b/>des<b/>saints</g></r></p></e>
-    <e lm="carte de noël"><i>carte</i><par n="abeille__n"/><p><l><b/>de<b/>noël</l><r><g><b/>de<b/>noël</g></r></p></e>
+    <e lm="carte de Noël"><i>carte</i><par n="abeille__n"/><p><l><b/>de<b/>Noël</l><r><g><b/>de<b/>Noël</g></r></p></e>
     <e lm="chambre de combustion"><i>chambre</i><par n="abeille__n"/><p><l><b/>de<b/>combustion</l><r><g><b/>de<b/>combustion</g></r></p></e>
     <e lm="chambre de commerce"><i>chambre</i><par n="abeille__n"/><p><l><b/>de<b/>commerce</l><r><g><b/>de<b/>commerce</g></r></p></e>
     <e lm="chef de famille"><i>chef</i><par n="artiste__n"/><p><l><b/>de<b/>famille</l><r><g><b/>de<b/>famille</g></r></p></e>
@@ -38278,14 +38294,12 @@
     <e lm="accident de la circulation"><i>accident</i><par n="livre__n"/><p><l><b/>de<b/>la<b/>circulation</l><r><g><b/>de<b/>la<b/>circulation</g></r></p></e>
     <e lm="travail de recherche"><i>trava</i><par n="trava/il__n"/><p><l><b/>de<b/>recherche</l><r><g><b/>de<b/>recherche</g></r></p></e>
     <e lm="lit de mort"><i>lit</i><par n="livre__n"/><p><l><b/>de<b/>mort</l><r><g><b/>de<b/>mort</g></r></p></e>
-    <e lm="carte de noël"><i>carte</i><par n="abeille__n"/><p><l><b/>de<b/>noël</l><r><g><b/>de<b/>noël</g></r></p></e>
     <e lm="tremblement de terre"><i>tremblement</i><par n="livre__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
     <e lm="tête de bétail"><i>tête</i><par n="abeille__n"/><p><l><b/>de<b/>bétail</l><r><g><b/>de<b/>bétail</g></r></p></e>
     <e lm="garde du corps"><i>garde</i><par n="artiste__n"/><p><l><b/>du<b/>corps</l><r><g><b/>du<b/>corps</g></r></p></e>
     <e lm="vie des saints"><i>vie</i><par n="abeille__n"/><p><l><b/>des<b/>saints</l><r><g><b/>des<b/>saints</g></r></p></e>
     <e lm="calendrier des saints"><i>calendrier</i><par n="livre__n"/><p><l><b/>des<b/>saints</l><r><g><b/>des<b/>saints</g></r></p></e>
     <e lm="terrain de golf"><i>terrain</i><par n="livre__n"/><p><l><b/>de<b/>golf</l><r><g><b/>de<b/>golf</g></r></p></e>
-<e lm="moscovite" a="jaumeortola"><i>moscovite</i><par n="artiste__n"/></e>
 <e lm="primogéniture" a="jaumeortola"><i>primogéniture</i><par n="abeille__n"/></e>
     <e lm="ligne de mire"><i>ligne</i><par n="abeille__n"/><p><l><b/>de<b/>mire</l><r><g><b/>de<b/>mire</g></r></p></e>
     <e lm="faisceau de lumière"><i>faisceau</i><par n="lieu__n"/><p><l><b/>de<b/>lumière</l><r><g><b/>de<b/>lumière</g></r></p></e>
@@ -38294,7 +38308,8 @@
     <e lm="ligne de métro"><i>ligne</i><par n="abeille__n"/><p><l><b/>de<b/>métro</l><r><g><b/>de<b/>métro</g></r></p></e>
     <e lm="estime de soi"><i>estime</i><par n="abeille__n"/><p><l><b/>de<b/>soi</l><r><g><b/>de<b/>soi</g></r></p></e>
 <e lm="carbonyle" a="jaumeortola"><i>carbonyle</i><par n="livre__n"/></e>
-    <e lm="homme d'état"><i>homme</i><par n="livre__n"/><p><l><b/>d'état</l><r><g><b/>d'état</g></r></p></e>
+    <e lm="homme d'État"><i>homme</i><par n="livre__n"/><p><l><b/>d'État</l><r><g><b/>d'État</g></r></p></e>
+    <e lm="femme d'État"><i>femme</i><par n="abeille__n"/><p><l><b/>d'État</l><r><g><b/>d'État</g></r></p></e>
 <e lm="foin" a="jaumeortola"><i>foin</i><par n="livre__n"/></e>
     <e lm="boîte aux lettres"><i>boîte</i><par n="abeille__n"/><p><l><b/>aux<b/>lettres</l><r><g><b/>aux<b/>lettres</g></r></p></e>
     <e lm="homme de neandertal"><i>homme</i><par n="livre__n"/><p><l><b/>de<b/>neandertal</l><r><g><b/>de<b/>neandertal</g></r></p></e>
@@ -39164,7 +39179,6 @@
     <e lm="accident de la circulation"><i>accident</i><par n="livre__n"/><p><l><b/>de<b/>la<b/>circulation</l><r><g><b/>de<b/>la<b/>circulation</g></r></p></e>
     <e lm="travail de recherche"><i>trava</i><par n="trava/il__n"/><p><l><b/>de<b/>recherche</l><r><g><b/>de<b/>recherche</g></r></p></e>
     <e lm="lit de mort"><i>lit</i><par n="livre__n"/><p><l><b/>de<b/>mort</l><r><g><b/>de<b/>mort</g></r></p></e>
-    <e lm="carte de noël"><i>carte</i><par n="abeille__n"/><p><l><b/>de<b/>noël</l><r><g><b/>de<b/>noël</g></r></p></e>
     <e lm="tremblement de terre"><i>tremblement</i><par n="livre__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
     <e lm="tête de bétail"><i>tête</i><par n="abeille__n"/><p><l><b/>de<b/>bétail</l><r><g><b/>de<b/>bétail</g></r></p></e>
     <e lm="garde du corps"><i>garde</i><par n="artiste__n"/><p><l><b/>du<b/>corps</l><r><g><b/>du<b/>corps</g></r></p></e>
@@ -39178,7 +39192,6 @@
     <e lm="ligne de métro"><i>ligne</i><par n="abeille__n"/><p><l><b/>de<b/>métro</l><r><g><b/>de<b/>métro</g></r></p></e>
     <e lm="estime de soi"><i>estime</i><par n="abeille__n"/><p><l><b/>de<b/>soi</l><r><g><b/>de<b/>soi</g></r></p></e>
     <e lm="salle omnisports"><i>salle</i><par n="abeille__n"/><p><l><b/>omnisports</l><r><g><b/>omnisports</g></r></p></e>
-    <e lm="homme d'état"><i>homme</i><par n="livre__n"/><p><l><b/>d'état</l><r><g><b/>d'état</g></r></p></e>
     <e lm="boîte aux lettres"><i>boîte</i><par n="abeille__n"/><p><l><b/>aux<b/>lettres</l><r><g><b/>aux<b/>lettres</g></r></p></e>
     <e lm="homme de neandertal"><i>homme</i><par n="livre__n"/><p><l><b/>de<b/>neandertal</l><r><g><b/>de<b/>neandertal</g></r></p></e>
     <e lm="pièce de vêtement"><i>pièce</i><par n="abeille__n"/><p><l><b/>de<b/>vêtement</l><r><g><b/>de<b/>vêtement</g></r></p></e>
@@ -40898,6 +40911,36 @@
 <e lm="bande-annonce"><p><l>bande-annonce</l><r>bande-annonce<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="bande-annonce"><p><l>bandes-annonces</l><r>bande-annonce<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 
+    <e lm="sac à dos"><i>sac</i><par n="livre__n"/><p><l><b/>à<b/>dos</l><r><g><b/>à<b/>dos</g></r></p></e>
+    <e lm="console de jeux vidéo"><i>console</i><par n="abeille__n"/><p><l><b/>de<b/>jeux<b/>vidéo</l><r><g><b/>de<b/>jeux<b/>vidéo</g></r></p></e>
+    <e lm="profession d'avocat"><i>profession</i><par n="abeille__n"/><p><l><b/>d'avocat</l><r><g><b/>d'avocat</g></r></p></e>
+    <e lm="fermeture éclair"><i>fermeture</i><par n="abeille__n"/><p><l><b/>éclair</l><r><g><b/>éclair</g></r></p></e>
+<e lm="émulateur" a="jaumeortola"><i>émulat</i><par n="administrat/eur__n"/></e>
+    <e lm="prise de possession"><i>prise</i><par n="abeille__n"/><p><l><b/>de<b/>possession</l><r><g><b/>de<b/>possession</g></r></p></e>
+    <e lm="toile d'araignée"><i>toile</i><par n="abeille__n"/><p><l><b/>d'araignée</l><r><g><b/>d'araignée</g></r></p></e>
+    <e lm="mise en scène"><i>mise</i><par n="abeille__n"/><p><l><b/>en<b/>scène</l><r><g><b/>en<b/>scène</g></r></p></e>
+    <e lm="accident de la circulation"><i>accident</i><par n="livre__n"/><p><l><b/>de<b/>la<b/>circulation</l><r><g><b/>de<b/>la<b/>circulation</g></r></p></e>
+    <e lm="travail de recherche"><i>trava</i><par n="trava/il__n"/><p><l><b/>de<b/>recherche</l><r><g><b/>de<b/>recherche</g></r></p></e>
+    <e lm="lit de mort"><i>lit</i><par n="livre__n"/><p><l><b/>de<b/>mort</l><r><g><b/>de<b/>mort</g></r></p></e>
+    <e lm="tête de bétail"><i>tête</i><par n="abeille__n"/><p><l><b/>de<b/>bétail</l><r><g><b/>de<b/>bétail</g></r></p></e>
+    <e lm="garde du corps"><i>garde</i><par n="artiste__n"/><p><l><b/>du<b/>corps</l><r><g><b/>du<b/>corps</g></r></p></e>
+<e lm="rhum" a="jaumeortola"><i>rhum</i><par n="livre__n"/></e>
+    <e lm="vie des saints"><i>vie</i><par n="abeille__n"/><p><l><b/>des<b/>saints</l><r><g><b/>des<b/>saints</g></r></p></e>
+    <e lm="calendrier des saints"><i>calendrier</i><par n="livre__n"/><p><l><b/>des<b/>saints</l><r><g><b/>des<b/>saints</g></r></p></e>
+    <e lm="terrain de golf"><i>terrain</i><par n="livre__n"/><p><l><b/>de<b/>golf</l><r><g><b/>de<b/>golf</g></r></p></e>
+    <e lm="ligne de mire"><i>ligne</i><par n="abeille__n"/><p><l><b/>de<b/>mire</l><r><g><b/>de<b/>mire</g></r></p></e>
+    <e lm="faisceau de lumière"><i>faisceau</i><par n="lieu__n"/><p><l><b/>de<b/>lumière</l><r><g><b/>de<b/>lumière</g></r></p></e>
+    <e lm="coupure de courant"><i>coupure</i><par n="abeille__n"/><p><l><b/>de<b/>courant</l><r><g><b/>de<b/>courant</g></r></p></e>
+    <e lm="ligne de métro"><i>ligne</i><par n="abeille__n"/><p><l><b/>de<b/>métro</l><r><g><b/>de<b/>métro</g></r></p></e>
+    <e lm="estime de soi"><i>estime</i><par n="abeille__n"/><p><l><b/>de<b/>soi</l><r><g><b/>de<b/>soi</g></r></p></e>
+    <e lm="salle omnisports"><i>salle</i><par n="abeille__n"/><p><l><b/>omnisports</l><r><g><b/>omnisports</g></r></p></e>
+
+<e lm="embêter"><i>embêt</i><par n="abaiss/er__vblex"/></e>
+<e lm="lasser"><i>lass</i><par n="abaiss/er__vblex"/></e>
+<e lm="Bassons">         <i>Bassons</i><par n="Saussure__np"/></e>
+<e lm="Gravé">           <i>Gravé</i><par n="Saussure__np"/></e>
+<e lm="val"><i>va</i><par n="cie/l__n"/></e>
+<e lm="débrouiller"><i>débrouill</i><par n="abaiss/er__vblex"/></e>
 
 	<!-- xxx -->
   </section>

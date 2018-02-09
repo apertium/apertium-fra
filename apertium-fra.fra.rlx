@@ -218,7 +218,7 @@ SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
 
 REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
   ## Marie pense qu'elle a vu où Jean est allé
-REMOVE Fin IF (-1C V) (0 Fin OR N OR A OR PP OR Det) ;
+REMOVE Fin IF (-1C V LINK NOT 0 PP) (0 Fin OR N OR A OR PP OR Det) ;
   ## tenir compte de
 
 REMOVE Ifi IF (0 Pri + P1 OR Ifi + P1) ;
@@ -662,6 +662,19 @@ REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep) ;
   ## c'est bien de
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1C V LINK NOT 0 PP) ;
   ## c'est bien regarder des choses
+REMOVE PreAdv IF (-1 Ser) (0 Adv OR PreAdv) (1C Adv) ;
+  ## il est bien aujourd'jui
+REMOVE PreAdv IF (-2 Ser) (-1 ("pas")) (0 Adv OR PreAdv) (1C Adv) ;
+  ## il n'est pas bien aujourd'jui
+REMOVE PreAdv IF (-1 V) (0 Adv OR PreAdv) (1 Det) (2 N) ;
+  ## ils ne savaient pas bien leur rôle
+REMOVE PreAdv IF (-2 V) (-1 ("pas")) (0 Adv OR PreAdv) (1 Det) (2 N) ;
+  ## ils savaient bien leur rôle
+
+SELECT PreAdv IF (0C Adv_PreAdv) (1 A OR PP OR Adv);
+REMOVE N IF (-1 PreAdv) (0 A OR PP OR N);
+REMOVE Adv IF (-1 PreAdv) (0 A OR PP OR Adv);
+REMOVE PreAdv IF (-1 PreAdv) (0 A OR PP OR PreAdv) (NOT 1 A OR PP) ;
 
 SELECT Prn IF (0 S) (NOT 1 Il) ;
 SELECT CnjAdv IF (0 S) (1 Il) ;
@@ -836,25 +849,25 @@ SELECT A OR PP IF (-1 N + $$FemPl) (0 Adj_PP + $$FemPl) (NOT 0 PreAdv OR Est) (1
 
 # NOM ADJ ADJ
 
-SELECT A OR PP IF (-2 N + $$MascSg) (-1 Adj_PP + $$MascSg) (0 Adj_PP + $$MascSg) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-2 N + $$MascPl) (-1 Adj_PP + $$MascPl) (0 Adj_PP + $$MascPl) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-2 N + $$FemSg) (-1 Adj_PP + $$FemSg) (0 Adj_PP + $$FemSg) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-2 N + $$FemPl) (-1 Adj_PP + $$FemPl) (0 Adj_PP + $$FemPl) (NOT 0 Det OR Ger) ;
+SELECT A OR PP IF (-2 N + $$MascSg) (-1 Adj_PP + $$MascSg) (0 Adj_PP + $$MascSg) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-2 N + $$MascPl) (-1 Adj_PP + $$MascPl) (0 Adj_PP + $$MascPl) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-2 N + $$FemSg) (-1 Adj_PP + $$FemSg) (0 Adj_PP + $$FemSg) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-2 N + $$FemPl) (-1 Adj_PP + $$FemPl) (0 Adj_PP + $$FemPl) (NOT 0 Det OR Ger OR Est) ;
 
 # NOM ADJ ADJ ADJ
 
-SELECT A OR PP IF (-3 N + $$MascSg) (-2 N + $$MascSg) (-1 Adj_PP + $$MascSg) (0 Adj_PP + $$MascSg) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-3 N + $$MascPl) (-2 N + $$MascPl) (-1 Adj_PP + $$MascPl) (0 Adj_PP + $$MascPl) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-3 N + $$FemSg) (-2 N + $$FemSg) (-1 Adj_PP + $$FemSg) (0 Adj_PP + $$FemSg) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-3 N + $$FemPl) (-2 N + $$FemPl) (-1 Adj_PP + $$FemPl) (0 Adj_PP + $$FemPl) (NOT 0 Det OR Ger) ;
+SELECT A OR PP IF (-3 N + $$MascSg) (-2 N + $$MascSg) (-1 Adj_PP + $$MascSg) (0 Adj_PP + $$MascSg) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-3 N + $$MascPl) (-2 N + $$MascPl) (-1 Adj_PP + $$MascPl) (0 Adj_PP + $$MascPl) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-3 N + $$FemSg) (-2 N + $$FemSg) (-1 Adj_PP + $$FemSg) (0 Adj_PP + $$FemSg) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-3 N + $$FemPl) (-2 N + $$FemPl) (-1 Adj_PP + $$FemPl) (0 Adj_PP + $$FemPl) (NOT 0 Det OR Ger OR Est) ;
 ## "la Primera Conferencia Internacional Americana celebrada" (pqè Americana > adj)
 
 # NOM ADJ ADJ ADJ ADJ
 
-SELECT A OR PP IF (-4 N + $$MascSg) (-3 N + $$MascSg) (-2 N + $$MascSg) (-1 Adj_PP + $$MascSg) (0 Adj_PP + $$MascSg) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-4 N + $$MascPl) (-3 N + $$MascPl) (-2 N + $$MascPl) (-1 Adj_PP + $$MascPl) (0 Adj_PP + $$MascPl) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-4 N + $$FemSg) (-3 N + $$FemSg) (-2 N + $$FemSg) (-1 Adj_PP + $$FemSg) (0 Adj_PP + $$FemSg) (NOT 0 Det OR Ger) ;
-SELECT A OR PP IF (-4 N + $$FemPl) (-3 N + $$FemPl) (-2 N + $$FemPl) (-1 Adj_PP + $$FemPl) (0 Adj_PP + $$FemPl) (NOT 0 Det OR Ger) ;
+SELECT A OR PP IF (-4 N + $$MascSg) (-3 N + $$MascSg) (-2 N + $$MascSg) (-1 Adj_PP + $$MascSg) (0 Adj_PP + $$MascSg) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-4 N + $$MascPl) (-3 N + $$MascPl) (-2 N + $$MascPl) (-1 Adj_PP + $$MascPl) (0 Adj_PP + $$MascPl) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-4 N + $$FemSg) (-3 N + $$FemSg) (-2 N + $$FemSg) (-1 Adj_PP + $$FemSg) (0 Adj_PP + $$FemSg) (NOT 0 Det OR Ger OR Est) ;
+SELECT A OR PP IF (-4 N + $$FemPl) (-3 N + $$FemPl) (-2 N + $$FemPl) (-1 Adj_PP + $$FemPl) (0 Adj_PP + $$FemPl) (NOT 0 Det OR Ger OR Est) ;
 ## "la Primera Conferencia Internacional Americana celebrada" (pqè Americana > adj)
 
 #REMOVE N IF (-3 N + $$MascSg) (-2 Adj_PP + $$MascSg) (-1 Adj_PP + $$MascSg) (0 Adj_PP + $$MascSg) (*1 Adj_PP + $$MascSg) ;
