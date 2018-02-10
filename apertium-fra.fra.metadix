@@ -6589,6 +6589,7 @@
 <e lm="anglican">        <i>anglican</i><par n="abaissant__adj"/></e>
 <e lm="anglo-hollandais"><i>anglo-hollandais</i><par n="anglais__adj"/></e>
 <e lm="anglo-saxon">     <i>anglo-saxon</i><par n="ancien__adj"/></e>
+<e lm="saxon">           <i>saxon</i><par n="ancien__adj"/></e>
 <e lm="angoissant">      <i>angoissant</i><par n="abaissant__adj"/></e>
 <e lm="angulaire">       <i>angulaire</i><par n="académique__adj"/></e>
 <e lm="animal">          <i>animal</i><par n="abaissant__adj"/></e>
@@ -8314,6 +8315,7 @@
 <e lm="populiste">       <i>populiste</i><par n="académique__adj"/></e>
 <e lm="porno">           <i>porno</i><par n="académique__adj"/></e>
 <e lm="portable">        <i>portable</i><par n="académique__adj"/></e>
+<e lm="portable">        <i>portable</i><par n="livre__n"/></e>
 <e lm="portuaire">       <i>portuaire</i><par n="académique__adj"/></e>
 <e lm="portugais">       <i>portugais</i><par n="anglais__adj"/></e>
 <e lm="positif">         <i>positi</i><par n="affirmati/f__adj"/></e>
@@ -10577,6 +10579,7 @@
 <e lm="Anesvad">         <i>Anesvad</i><par n="BBC__n"/></e>
 <e lm="Anglican">        <i>Anglican</i><par n="affecté__n"/></e>
 <e lm="Anglo-saxon">     <i>Anglo-saxon</i><par n="ancien__n"/></e>
+<e lm="Saxon">           <i>Saxon</i><par n="ancien__n"/></e>
 <e lm="Asiatique">       <i>Asiatique</i><par n="artiste__n"/></e>
 <e lm="Audience National"><i>Audience<b/>National</i><par n="BBC__n"/></e>
 <e lm="Autrichien">      <i>Autrichien</i><par n="ancien__n"/></e>
@@ -26734,13 +26737,13 @@
 <e lm="Villepin">        <i>Villepin</i><par n="Saussure__np"/></e>
 <e lm="Villepinte">      <i>Villepinte</i><par n="Abraham__np"/></e>
 <e lm="Villette">        <i>Villette</i><par n="Andorre__np"/></e>
-<e lm="Villiers">        <i>Villiers</i><par n="Abraham__np"/></e>
+<e lm="de Villiers">     <i>de<b/>Villiers</i><par n="Saussure__np"/></e>
 <e lm="Villiers-le-Bel"> <i>Villiers-le-Bel</i><par n="Andorre__np"/></e>
-<e lm="Vilnious">        <i>Vilnious</i><par n="Andorre__np"/></e>
-<e r="LR" lm="Vilnius">  <i>Vilnius</i><par n="Andorre__np"/></e>
+<e lm="Vilnious">        <i>Vilnious</i><par n="Iran__np"/></e>
+<e r="LR" lm="Vilnius">  <i>Vilnius</i><par n="Iran__np"/></e>
 <e lm="Vinaroz">         <i>Vinaroz</i><par n="Iran__np"/></e>
 <e lm="Vincent">         <i>Vincent</i><par n="Antoine__np"/></e>
-<e lm="Vincenzo">        <i>Vincenzo</i><par n="Abraham__np"/></e>
+<e lm="Vincenzo">        <i>Vincenzo</i><par n="Antoine__np"/></e>
 <e lm="Violeta">         <i>Violeta</i><par n="Marie__np"/></e>
 <e lm="Virgile">         <i>Virgile</i><par n="Antoine__np"/></e>
 <e lm="Virginia">        <i>Virginia</i><par n="Marie__np"/></e>
@@ -26898,6 +26901,7 @@
 <e lm="Ypsilon">         <i>Ypsilon</i><par n="Carrefour__np"/></e>
 <e lm="Yus">             <i>Yus</i><par n="Abraham__np"/></e>
 <e lm="Yuste">           <i>Yuste</i><par n="Saussure__np"/></e>
+<e lm="Yuste">           <i>Yuste</i><par n="Iran__np"/></e>
 <e lm="Yvelines">        <i>Yvelines</i><par n="Abraham__np"/></e>
 <e lm="Yvelines">        <i>Yvelines</i><par n="Iran__np"/></e>
 <e lm="Yves">            <i>Yves</i><par n="Antoine__np"/></e>
@@ -40953,7 +40957,8 @@
 <e lm="collant"><i>collant</i><par n="abaissant__adj"/></e>
 <e lm="collant"><i>collant</i><par n="livre__n"/></e>
 <e lm="entassé">           <i>entassé</i><par n="abaissant__adj"/></e>
-
+<e lm="Cruïlles">        <i>Cruïlles</i><par n="Iran__np"/></e>
+<e lm="Cuixà">           <i>Cuixà</i><par n="Iran__np"/></e>
 
 	<!-- xxx -->
   </section>
