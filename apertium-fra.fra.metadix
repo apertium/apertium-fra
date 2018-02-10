@@ -7314,8 +7314,6 @@
 <e lm="esthétique">      <i>esthétique</i><par n="académique__adj"/></e>
 <e lm="estival">         <i>estiva</i><par n="amica/l__adj"/></e>
 <e lm="estonien">        <i>estonien</i><par n="ancien__adj"/></e>
-<e lm="ethiopien">       <i>ethiopien</i><par n="ancien__adj"/></e>
-<e lm="ethiopien">       <i>ethiopien</i><par n="ancien__adj"/></e>
 <e lm="ethnique">        <i>ethnique</i><par n="académique__adj"/></e>
 <e lm="ethnographique">  <i>ethnographique</i><par n="académique__adj"/></e>
 <e lm="ethnologique">    <i>ethnologique</i><par n="académique__adj"/></e>
@@ -8693,6 +8691,8 @@
 <e lm="structurellement"><i>structurellement</i><par n="annuel__adj"/></e>
 <e lm="structuré">       <i>structuré</i><par n="abaissant__adj"/></e>
 <e lm="stupide">         <i>stupide</i><par n="académique__adj"/></e>
+<e lm="stupide">         <i>stupide</i><par n="artiste__n"/></e>
+<e lm="stupidité">       <i>stupidité</i><par n="abeille__n"/></e>
 <e lm="stupéfiant">      <i>stupéfiant</i><par n="abaissant__adj"/></e>
 <e lm="stérile">         <i>stérile</i><par n="académique__adj"/></e>
 <e lm="subit">           <i>subit</i><par n="abaissant__adj"/></e>
@@ -12070,6 +12070,11 @@
 <e lm="bétail">          <i>bétail</i><par n="livre__n"/></e>
 <e lm="béton">           <i>béton</i><par n="livre__n"/></e>
 <e lm="bête">            <i>bête</i><par n="abeille__n"/></e>
+<e lm="bête">            <i>bête</i><par n="livre__n"/></e>
+<e lm="bête">            <i>bête</i><par n="académique__adj"/></e>
+<e lm="sot"><i>sot</i><par n="favori__adj"/></e>
+<e lm="sot"><i>sot</i><par n="chat__n"/></e>
+<e lm="bêtise"><i>bêtise</i><par n="abeille__n"/></e>
 <e lm="bûcher">          <i>bûcher</i><par n="livre__n"/></e>
 <e lm="cabine">          <i>cabine</i><par n="abeille__n"/></e>
 <e lm="cabinet de conseil"><i>cabinet</i><par n="livre__n"/><p><l><b/>de<b/>conseil</l><r><g><b/>de<b/>conseil</g></r></p></e>
@@ -14408,6 +14413,7 @@
 <e lm="hypersensibilité"><i>hypersensibilité</i><par n="abeille__n"/></e>
 <e lm="hypocrisie">      <i>hypocrisie</i><par n="abeille__n"/></e>
 <e lm="hypocrite">       <i>hypocrite</i><par n="artiste__n"/></e>
+<e lm="hypocrite">       <i>hypocrite</i><par n="académique__adj"/></e>
 <e lm="hypothermie">     <i>hypothermie</i><par n="abeille__n"/></e>
 <e lm="hypothèque">      <i>hypothèque</i><par n="abeille__n"/></e>
 <e lm="hypothèse">       <i>hypothèse</i><par n="abeille__n"/></e>
@@ -15211,7 +15217,7 @@
 <e lm="manifeste">       <i>manifeste</i><par n="livre__n"/></e>
 <e lm="manipulation">    <i>manipulation</i><par n="abeille__n"/></e>
 <e lm="manière">         <i>manière</i><par n="abeille__n"/></e>
-<e lm="mannequin">       <i>mannequin</i><par n="livre__n"/></e>
+<e lm="mannequin">       <i>mannequin</i><par n="artiste__n"/></e>
 <e lm="manœuvre">       <i>manœuvre</i><par n="abeille__n"/></e>
 <e r="LR" lm="manoeuvre"><p><l>manoeuvre</l>  <r>manœuvre</r></p><par n="abeille__n"/></e>
 <e lm="manœuvrabilité">  <i>manœuvrabilité</i><par n="abeille__n"/></e>
@@ -16472,6 +16478,7 @@
 <e lm="prisme">          <i>prisme</i><par n="livre__n"/></e>
 <e lm="prison">          <i>prison</i><par n="abeille__n"/></e>
 <e lm="prisonnier">      <i>prisonni</i><par n="bouch/er__n"/></e>
+<e lm="prisonnier">      <i>prisonni</i><par n="ch/er__adj"/></e>
 <e lm="privation">       <i>privation</i><par n="abeille__n"/></e>
 <e lm="privatisation">   <i>privatisation</i><par n="abeille__n"/></e>
 <e lm="privilège">       <i>privilège</i><par n="livre__n"/></e>
@@ -22783,7 +22790,7 @@
 <e lm="González">        <i>González</i><par n="Saussure__np"/></e>
 <e lm="Google">          <i>Google</i><par n="Carrefour__np"/></e>
 <e lm="Goran">           <i>Goran</i><par n="Abraham__np"/></e>
-<e lm="Gorazde">         <i>Gorazde</i><par n="Andorre__np"/></e>
+<e lm="Gorazde">         <i>Gorazde</i><par n="Iran__np"/></e>
 <e lm="Gordexola">       <i>Gordexola</i><par n="Andorre__np"/></e>
 <e lm="Gordien">         <i>Gordien</i><par n="Andorre__np"/></e>
 <e lm="Gordon">          <i>Gordon</i><par n="Antoine__np"/></e>
@@ -22865,7 +22872,7 @@
 <e lm="Guerre et Paix">  <i>Guerre<b/>et<b/>Paix</i><par n="Carrefour__np"/></e>
 <e lm="Guerrero">        <i>Guerrero</i><par n="Carrefour__np"/></e>
 <e lm="Guerrero">        <i>Guerrero</i><par n="Saussure__np"/></e>
-<e lm="Guerrero">        <i>Guerrero</i><par n="Andorre__np"/></e>
+<e lm="Guerrero">        <i>Guerrero</i><par n="Iran__np"/></e>
 <e lm="Guesnerie">       <i>Guesnerie</i><par n="Abraham__np"/></e>
 <e lm="Guevara">         <i>Guevara</i><par n="Saussure__np"/></e>
 <e lm="Guezala">         <i>Guezala</i><par n="Abraham__np"/></e>
@@ -24659,7 +24666,7 @@
 <e r="LR" lm="Mykérinos"><i>Mykérinos</i><par n="Abraham__np"/></e>
 <e lm="Mylène">          <i>Mylène</i><par n="Marie__np"/></e>
 <e lm="Myriam">          <i>Myriam</i><par n="Marie__np"/></e>
-<e lm="Myrina">          <i>Myrina</i><par n="Abraham__np"/></e>
+<e lm="Myrina">          <i>Myrina</i><par n="Abraham__np"/></e> <!-- ??? -->
 <e lm="Málaga">          <i>Málaga</i><par n="Bulgarie__np"/></e>
 <e lm="Márquez">         <i>Márquez</i><par n="Saussure__np"/></e>
 <e lm="Mâcon">           <i>Mâcon</i><par n="Andorre__np"/></e>
@@ -25561,15 +25568,16 @@
 <e lm="Ricardo">         <i>Ricardo</i><par n="Antoine__np"/></e>
 <e lm="Rice">            <i>Rice</i><par n="Abraham__np"/></e>
 <e lm="Richard">         <i>Richard</i><par n="Antoine__np"/></e>
+<e lm="Richard">         <i>Richard</i><par n="Saussure__np"/></e>
 <e lm="Richard Cœur de Lion"><i>Richard<b/>Cœur<b/>de<b/>Lion</i><par n="Antoine__np"/></e>
-<e lm="Richardson">      <i>Richardson</i><par n="Abraham__np"/></e>
-<e lm="Richelieu">       <i>Richelieu</i><par n="Abraham__np"/></e>
-<e lm="Richter">         <i>Richter</i><par n="Abraham__np"/></e>
+<e lm="Richardson">      <i>Richardson</i><par n="Saussure__np"/></e>
+<e lm="Richelieu">       <i>Richelieu</i><par n="Saussure__np"/></e>
+<e lm="Richter">         <i>Richter</i><par n="Saussure__np"/></e>
 <e lm="Rick">            <i>Rick</i><par n="Abraham__np"/></e>
 <e lm="Riga">            <i>Riga</i><par n="Andorre__np"/></e>
-<e lm="Riggs">           <i>Riggs</i><par n="Abraham__np"/></e>
-<e lm="Rina">            <i>Rina</i><par n="Abraham__np"/></e>
-<e lm="Rio de Janeiro">  <i>Rio<b/>de<b/>Janeiro</i><par n="Andorre__np"/></e>
+<e lm="Riggs">           <i>Riggs</i><par n="Saussure__np"/></e>
+<e lm="Rina">            <i>Rina</i><par n="Saussure__np"/></e>
+<e lm="Rio de Janeiro">  <i>Rio<b/>de<b/>Janeiro</i><par n="Iran__np"/></e>
 <e lm="Rioja">           <i>Rioja</i><par n="Bulgarie__np"/></e>
 <e lm="Rioja Alavesa">   <i>Rioja<b/>Alavesa</i><par n="Andorre__np"/></e>
 <e lm="Ripa">            <i>Ripa</i><par n="Carrefour__np"/></e>
@@ -25579,7 +25587,7 @@
 <e lm="Riscal">          <i>Riscal</i><par n="Abraham__np"/></e>
 <e lm="Rita">            <i>Rita</i><par n="Marie__np"/></e>
 <e lm="Rivas">           <i>Rivas</i><par n="Saussure__np"/></e>
-<e lm="Riveira">         <i>Riveira</i><par n="Andorre__np"/></e>
+<e lm="Riveira">         <i>Riveira</i><par n="Saussure__np"/></e>
 <e lm="Rivera">          <i>Rivera</i><par n="Carrefour__np"/></e>
 <e lm="Rivero">          <i>Rivero</i><par n="Carrefour__np"/></e>
 <e lm="Riyad">           <i>Riyad</i><par n="Andorre__np"/></e>
@@ -25974,9 +25982,10 @@
 <e lm="Sergueï Mikhaïlovitch Eisenstein"><i>Sergueï<b/>Mikhaïlovitch<b/>Eisenstein</i><par n="Abraham__np"/></e>
 <e lm="Serhiy">          <i>Serhiy</i><par n="Abraham__np"/></e>
 <e lm="Serinor">         <i>Serinor</i><par n="Carrefour__np"/></e>
-<e lm="Serna">           <i>Serna</i><par n="Abraham__np"/></e>
+<e lm="Serna">           <i>Serna</i><par n="Saussure__np"/></e>
 <e lm="Seroxat">         <i>Seroxat</i><par n="Carrefour__np"/></e>
 <e lm="Serra">           <i>Serra</i><par n="Bulgarie__np"/></e>
+<e lm="Serra">           <i>Serra</i><par n="Saussure__np"/></e>
 <e lm="Serrano">         <i>Serrano</i><par n="Saussure__np"/></e>
 <e lm="Serrat">          <i>Serrat</i><par n="Abraham__np"/></e>
 <e lm="Serrat">          <i>Serrat</i><par n="Andorre__np"/></e>
@@ -36255,7 +36264,6 @@
 <e lm="étamine" a="jaumeortola"><i>étamine</i><par n="abeille__n"/></e>
 <e lm="étendoir" a="jaumeortola"><i>étendoir</i><par n="livre__n"/></e>
 <e lm="éther" a="jaumeortola"><i>éther</i><par n="livre__n"/></e>
-<e lm="éthiopien" a="jaumeortola"><i>éthiopien</i><par n="ancien__n"/></e>
 <e lm="ethnicité" a="jaumeortola"><i>ethnicité</i><par n="abeille__n"/></e>
 <e lm="ethnie" a="jaumeortola"><i>ethnie</i><par n="abeille__n"/></e>
 <e lm="éthylène" a="jaumeortola"><i>éthylène</i><par n="livre__n"/></e>
@@ -40941,6 +40949,11 @@
 <e lm="Gravé">           <i>Gravé</i><par n="Saussure__np"/></e>
 <e lm="val"><i>va</i><par n="cie/l__n"/></e>
 <e lm="débrouiller"><i>débrouill</i><par n="abaiss/er__vblex"/></e>
+<e lm="mieleux">       <i>mieleu</i><par n="affectueu/x__adj"/></e>
+<e lm="collant"><i>collant</i><par n="abaissant__adj"/></e>
+<e lm="collant"><i>collant</i><par n="livre__n"/></e>
+<e lm="entassé">           <i>entassé</i><par n="abaissant__adj"/></e>
+
 
 	<!-- xxx -->
   </section>
