@@ -300,7 +300,7 @@ SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 ("que")) (0C Verb) ;
 #REMOVE Prs (NOT *-1 VerbSubj LINK 1 Que) (0C Verb) ;
 REMOVE Prs (NOT *-1 Que) (0 Verb) ;
 
-SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT 1 N OR A) ;
+SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
   ## Les poules du couvent couvent
 
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;

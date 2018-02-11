@@ -35155,6 +35155,7 @@
     <e lm="déphaser">        <i>déphas</i><par n="abaiss/er__vblex"/></e>
     <e lm="assaisonner">        <i>assaisonn</i><par n="abaiss/er__vblex"/></e>
     <e lm="pénaliser">        <i>pénalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dépénaliser">        <i>dépénalis</i><par n="abaiss/er__vblex"/></e>
     <e lm="avoir assez"><i></i><par n="/avoir__vblex"/><p><l><b/>assez</l><r><g><b/>assez</g></r></p></e>
     <e lm="réinstaller">         <i>réinstall</i><par n="abaiss/er__vblex"/></e>
     <e lm="pronostiquer">        <i>pronostiqu</i><par n="abaiss/er__vblex"/></e>
@@ -38495,7 +38496,6 @@
 <e lm="feraille"><i>feraille</i><par n="abeille__n"/></e>
 <e lm="ilium"><i>ilium</i><par n="livre__n"/></e>
 <e lm="gémissement"><i>gémissement</i><par n="livre__n"/></e>
-<e lm="lilas"><i>lilas</i><par n="mois__n"/></e>
 <e lm="lilas"><i>lilas</i><par n="arrière__adj"/></e>
 <e lm="UIB">             <i>UIB</i><par n="BBC__n"/></e>
 <e lm="mauvais traitement"><p><l>mauvais<b/>traitement</l><r>mauvais<b/>traitement<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -39379,6 +39379,7 @@
 <e lm="maçonnique"><i>maçonnique</i><par n="académique__adj"/></e>
 <e lm="franc-maçonnique"><i>franc-maçonnique</i><par n="académique__adj"/></e>
 <e lm="ibère"><i>ibère</i><par n="artiste__n"/></e>
+<e lm="ibère"><i>ibère</i><par n="académique__adj"/></e>
 <e lm="copain"><i>copain</i><par n="livre__n"/></e>
 <e lm="copine"><i>copine</i><par n="abeille__n"/></e>
 <e lm="kabyle"><i>kabyle</i><par n="académique__adj"/></e>
@@ -40963,7 +40964,18 @@
 <e lm="entassé">           <i>entassé</i><par n="abaissant__adj"/></e>
 <e lm="Cruïlles">        <i>Cruïlles</i><par n="Iran__np"/></e>
 <e lm="Cuixà">           <i>Cuixà</i><par n="Iran__np"/></e>
-<e lm="gadoue">           <i>gadoue</i><par n="abeille__n"/></e>
+<e lm="gadoue">          <i>gadoue</i><par n="abeille__n"/></e>
+<e lm="gazon">           <i>gazon</i><par n="livre__n"/></e>
+<e lm="ferme">           <i>ferme</i><par n="hier__adv"/></e>
+<e lm="fermement">       <i>fermement</i><par n="hier__adv"/></e>
+<e lm="rénover">         <i>rénov</i><par n="abaiss/er__vblex"/></e>
+<e lm="stopper">         <i>stopp</i><par n="abaiss/er__vblex"/></e>
+<e lm="stationner">      <i>stationn</i><par n="abaiss/er__vblex"/></e>
+<e lm="Urbain">          <i>Urbain</i><par n="Saussure__np"/></e>
+<e lm="Urbain">          <i>Urbain</i><par n="Marc__np"/></e>
+<e lm="ticket">          <i>ticket</i><par n="livre__n"/></e>
+<e lm="trier">           <i>tri</i><par n="abaiss/er__vblex"/></e>
+<e lm="placette">        <i>placette</i><par n="abeille__n"/></e>
 
 	<!-- xxx -->
   </section>
