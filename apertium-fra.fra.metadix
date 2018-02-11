@@ -1522,7 +1522,7 @@
   <e>       <p><l>eusses</l>    <r>avoir<s n="vbhaver"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>eussent</l>   <r>avoir<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>eût</l>       <r>avoir<s n="vbhaver"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e>       <p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="mf"/><s n="sp"/></r></p></e>
   <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>eu</l>        <r>avoir<s n="vbhaver"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
@@ -21630,7 +21630,9 @@
 <e lm="Clarke">          <i>Clarke</i><par n="Saussure__np"/></e>
 <e lm="Classic">         <i>Classic</i><par n="Carrefour__np"/></e>
 <e lm="Claude" a="hector"><i>Claude</i><par n="Antoine__np"/></e>
+<e lm="Claudi">          <i>Claudi</i><par n="Antoine__np"/></e>
 <e lm="Claudia">         <i>Claudia</i><par n="Marie__np"/></e>
+<e lm="Claudette">       <i>Claudette</i><par n="Marie__np"/></e>
 <e lm="Claudine">        <i>Claudine</i><par n="Marie__np"/></e>
 <e lm="Claudio">         <i>Claudio</i><par n="Antoine__np"/></e>
 <e lm="Clavero">         <i>Clavero</i><par n="Saussure__np"/></e>
@@ -34875,12 +34877,14 @@
       ****************************** -->
 <e r="LR" lm="que">      <i>que</i><par n="que__cnjsub"/></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="cnjsub"/></r></p></e>
+<e r="RL" lm="ce que">   <p><l>ce<b/><a/>que</l> <r>ce<b/>que<s n="rel"/><s n="nt"/></r></p></e>
 <e lm="tout">            <i>tou</i><par n="tou/t__predet"/></e>
 <e lm="pas tout">        <i>pas<b/>tou</i><par n="tou/t__predet"/></e>
 <e r="RL" lm="que">      <p><l><a/>que</l>   <r>que<s n="rel"/><s n="mf"/><s n="sp"/></r></p></e>
 <e lm="avoir">           <par n="/avoir__vbhaver"/></e>
 <e lm="il y a">          <p><l>il<b/>y<b/>a</l><r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="être">            <par n="/être__vbser"/></e>
+
 
 
     <e lm="faire partie"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>partie</l><r><g><b/>partie</g></r></p></e>
@@ -40959,6 +40963,7 @@
 <e lm="entassé">           <i>entassé</i><par n="abaissant__adj"/></e>
 <e lm="Cruïlles">        <i>Cruïlles</i><par n="Iran__np"/></e>
 <e lm="Cuixà">           <i>Cuixà</i><par n="Iran__np"/></e>
+<e lm="gadoue">           <i>gadoue</i><par n="abeille__n"/></e>
 
 	<!-- xxx -->
   </section>
