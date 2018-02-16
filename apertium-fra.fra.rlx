@@ -119,6 +119,7 @@ LIST Cour = "cour" ;
 LIST Cours = "cours" ;
 LIST Mille = "mille" ;
 LIST Mil = "mil" ;
+LIST Ete = "été" ;
 LIST Somme = "somme" ;
 LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
@@ -167,7 +168,7 @@ SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Inicial_Estrict_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
 SET Barrera_Final_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Verb OR Rel OR Pro ;	# Verb és perillós per la ambigüitat, però en general, prolífic
-SET Barrera_Final_Estrict_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
+SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
 
 SECTION
 
@@ -616,6 +617,11 @@ SELECT PP IF (-1 Ser) (0 PP) (0C Verb) ;
 
 REMOVE N IF (-1 Nous) (0 Somme OR Ser) ;
   ## nous sommes assaillis
+
+SELECT N IF (-1 Det) (0 Ete) ;
+  ## cet été
+SELECT N IF (-1 Prep) (0 Ete) ;
+  ## vacances d'été
 
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
   ## que nous avons apris
