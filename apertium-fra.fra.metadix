@@ -7568,6 +7568,8 @@
 <e r="LR" lm="énigmatique"><p><l>Enigmatique</l>       <r>énigmatique</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="énième"><p><l>Enième</l>                 <r>énième</r></p><par n="académique__adj"/></e>
 <e lm="ennemi"><i>ennemi</i><par n="abaissant__adj"/></e>
+<e lm="ennuyant"><i>ennuyant</i><par n="abaissant__adj"/></e>
+<e lm="ennuyeux"><i>ennuyeu</i><par n="affectueu/x__adj"/></e>
 <e r="LR" lm="énorme"><p><l>Enorme</l>                 <r>énorme</r></p><par n="académique__adj"/></e>
 <e lm="enrhumé"><i>enrhumé</i><par n="abaissant__adj"/></e>
 <e lm="enseignant"><i>enseignant</i><par n="abaissant__adj"/></e>
@@ -11018,6 +11020,7 @@
 <e lm="arthrose" a="ester"><i>arthrose</i><par n="abeille__n"/></e>
 <e lm="artichaut"><i>artichaut</i><par n="livre__n"/></e>
 <e lm="article"><i>article</i><par n="livre__n"/></e>
+<e lm="article de ménage"><i>article</i><par n="livre__n"/><p><l><b/>de<b/>ménage</l><r><g><b/>de<b/>ménage</g></r></p></e>
 <e lm="articulation"><i>articulation</i><par n="abeille__n"/></e>
 <e lm="artifice"><i>artifice</i><par n="livre__n"/></e>
 <e lm="artificier"><i>artificier</i><par n="livre__n"/></e>
