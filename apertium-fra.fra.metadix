@@ -8936,6 +8936,7 @@
 <e lm="particulier"><i>particuli</i><par n="ch/er__adj"/></e>
 <e lm="partiel"><i>partiel</i><par n="annuel__adj"/></e>
 <e lm="partisan" a="jaumeortola"><i>partisan</i><par n="abaissant__adj"/></e>
+<e lm="partisan"><i>partisan</i><par n="affecté__n"/></e>
 <e lm="passager"><i>passag</i><par n="ch/er__adj"/></e>
 <e lm="passif"><i>passi</i><par n="affirmati/f__adj"/></e>
 <e lm="passible"><i>passible</i><par n="académique__adj"/></e>
@@ -10015,6 +10016,22 @@
 <e lm="XXI"><i>XXIème</i><par n="académique__adj"/></e>
 <e lm="XX"><i>XXème</i><par n="académique__adj"/></e>
 <e lm="X"><i>Xème</i><par n="académique__adj"/></e>
+<e lm="XXIII"><i>XXIII</i><par n="II/e__adj"/></e>
+<e lm="XXIII"><i>XXIIIème</i><par n="académique__adj"/></e>
+<e lm="XXIV"><i>XXIV</i><par n="II/e__adj"/></e>
+<e lm="XXIV"><i>XXIVème</i><par n="académique__adj"/></e>
+<e lm="XXV"><i>XXV</i><par n="II/e__adj"/></e>
+<e lm="XXV"><i>XXVème</i><par n="académique__adj"/></e>
+<e lm="XXVI"><i>XXVI</i><par n="II/e__adj"/></e>
+<e lm="XXVI"><i>XXVIème</i><par n="académique__adj"/></e>
+<e lm="XXVII"><i>XXVII</i><par n="II/e__adj"/></e>
+<e lm="XXVII"><i>XXVIIème</i><par n="académique__adj"/></e>
+<e lm="XXVIII"><i>XXVIII</i><par n="II/e__adj"/></e>
+<e lm="XXVIII"><i>XXVIIIème</i><par n="académique__adj"/></e>
+<e lm="XXIX"><i>XXIX</i><par n="II/e__adj"/></e>
+<e lm="XXIX"><i>XXIXème</i><par n="académique__adj"/></e>
+<e lm="XXX"><i>XXX</i><par n="II/e__adj"/></e>
+<e lm="XXX"><i>XXXème</i><par n="académique__adj"/></e>
 <e lm="xénophobe"><i>xénophobe</i><par n="académique__adj"/></e>
 <e lm="yougoslave"><i>yougoslave</i><par n="académique__adj"/></e>
 <e lm="zapatiste"><i>zapatiste</i><par n="académique__adj"/></e>
@@ -13538,7 +13555,12 @@
 <e lm="dualité"><i>dualité</i><par n="abeille__n"/></e>
 <e lm="duc"><i>duc</i><par n="livre__n"/></e>
 <e lm="duchesse"><i>duchesse</i><par n="abeille__n"/></e>
+<e lm="grand-duc"><p><l>grand-duc</l>          <r>grand-duc<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="grand-duc"><p><l>grands-ducs</l>        <r>grand-duc<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="grande-duchesse"><p><l>grande-duchesse</l>    <r>grande-duchesse<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="grande-duchesse"><p><l>grandes-duchesses</l>  <r>grande-duchesse<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="duché" a="jaumeortola"><i>duché</i><par n="livre__n"/></e>
+<e lm="grand-duché"><i>grand-duché</i><par n="livre__n"/></e>
 <e lm="duel"><i>duel</i><par n="livre__n"/></e>
 <e lm="dumping"><i>dumping</i><par n="livre__n"/></e>
 <e lm="dune" a="jaumeortola"><i>dune</i><par n="abeille__n"/></e>
@@ -13745,7 +13767,9 @@
 <e lm="déposant"><i>déposant</i><par n="affecté__n"/></e>
 <e lm="dépositaire"><i>dépositaire</i><par n="artiste__n"/></e>
 <e lm="déposition"><i>déposition</i><par n="abeille__n"/></e>
-<e lm="dépouile"><i>dépouille</i><par n="abeille__n"/></e>
+<e lm="dépouille"><i>dépouille</i><par n="abeille__n"/></e>
+<e lm="dépouille mortelle"><p><l>dépouille<b/>mortelle</l>         <r>dépouille<b/>mortelle<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="dépouille mortelle"><p><l>dépouilles<b/>mortelles</l>       <r>dépouille<b/>mortelle<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="dépouillement"><i>dépouillement</i><par n="livre__n"/></e>
 <e lm="dépression"><i>dépression</i><par n="abeille__n"/></e>
 <e lm="dépressurisation"><i>dépressurisation</i><par n="abeille__n"/></e>
@@ -17683,7 +17707,6 @@
 <e lm="particulier"><i>particuli</i><par n="bouch/er__n"/></e>
 <e lm="partie"><i>partie</i><par n="abeille__n"/></e>
 <e lm="partisan de la légalisation de l'avortement"><i>partisan</i><par n="affecté__n"/><p><l><b/>de<b/>la<b/>légalisation<b/>de<b/>l'avortement</l><r><g><b/>de<b/>la<b/>légalisation<b/>de<b/>l'avortement</g></r></p></e>
-<e lm="partisan"><i>partisan</i><par n="chat__n"/></e>
 <e lm="partition"><i>partition</i><par n="abeille__n"/></e>
 <e lm="parvis" a="jaumeortola"><i>parvis</i><par n="mois__n"/></e>
 <e lm="pas"><i>pas</i><par n="mois__n"/></e>
@@ -25159,6 +25182,8 @@
 <e lm="Consell"><i>Consell</i><par n="Iran__np"/></e>
 <e lm="Constance"><i>Constance</i><par n="Marie__np"/></e>
 <e lm="Constanci"><i>Constanci</i><par n="Saussure__np"/></e>
+<e lm="Constantí"><i>Constantí</i><par n="Iran__np"/></e>
+<e lm="Constantin"><i>Constantin</i><par n="Antoine__np"/></e>
 <e lm="Constantin Ier le Grand"><i>Constantin<b/>Ier<b/>le<b/>Grand</i><par n="Antoine__np"/></e>
 <e lm="Constantine"><i>Constantine</i><par n="Bulgarie__np"/></e>
 <e lm="Constantineau" a="hector"><i>Constantineau</i><par n="Saussure__np"/></e>
@@ -33172,7 +33197,7 @@
 <e lm="Solís"><i>Solís</i><par n="Saussure__np"/></e>
 <e lm="Somalie"><i>Somalie</i><par n="Bulgarie__np"/></e>
 <e lm="Somaliland"><i>Somaliland</i><par n="Andorre__np"/></e>
-<e lm="Somme"><i>Somme</i><par n="Andorre__np"/></e>
+<e lm="Somme"><i>Somme</i><par n="Bulgarie__np"/></e>
 <e lm="Sommerfeld"><i>Sommerfeld</i><par n="Saussure__np"/></e>
 <e lm="Somoza"><i>Somoza</i><par n="Saussure__np"/></e>
 <e lm="Sondheim"><i>Sondheim</i><par n="Saussure__np"/></e>
@@ -34162,7 +34187,7 @@
 <e lm="Verdeguer"><i>Verdeguer</i><par n="Saussure__np"/></e>
 <e lm="Verdi"><i>Verdi</i><par n="Saussure__np"/></e>
 <e lm="Verdini"><i>Verdini</i><par n="Abraham__np"/></e>
-<e lm="Verdun"><i>Verdun</i><par n="Andorre__np"/></e>
+<e lm="Verdun"><i>Verdun</i><par n="Iran__np"/></e>
 <e lm="Verdú"><i>Verdú</i><par n="Iran__np"/></e>
 <e lm="Vergara"><i>Vergara</i><par n="Saussure__np"/></e>
 <e lm="Verger"><i>Verger</i><par n="Saussure__np"/></e>
@@ -34914,11 +34939,11 @@
 <e r="LR" lm="9ème" a="hector"><p><l>9ème</l>          <r>9ème<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e lm="bouche bée"><p><l>bouche<b/>bée</l>             <r>bouche<b/>bée<s n="adj"/><s n="mf"/><s n="sg"/></r></p></e>
 <e lm="en vigueur"><p><l>en<b/>vigueur</l>             <r>en<b/>vigueur<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
-<e lm="franc-comtois"><p><l>franc-comtois</l>          <r>franc-comtois<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="franc-maçon"><p><l>franc-maçon</l>              <r>franc-maçon<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="franc-maçon"><p><l>franc-maçonne</l>            <r>franc-maçon<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="franc-maçon"><p><l>franc-maçonnes</l>           <r>franc-maçon<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR" lm="franc-maçon"><p><l>franc-maçons</l>      <r>franc-maçon<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="franc-comtois"><p><l>franc-comtois</l>          <r>franc-comtois<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="franc-comtois"><p><l>franche-comtois</l>        <r>franc-comtois<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="franc-comtois"><p><l>franches-comtois</l>       <r>franc-comtois<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="franc-comtois"><p><l>francs-comtois</l>         <r>franc-comtois<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -39739,7 +39764,7 @@
 <e lm="promener"><i>prom</i><par n="ach/e[T]er__vblex" prm="n"/></e>
 <e lm="promettre"><i>prom</i><par n="adm/ettre__vblex"/></e>
 <e lm="promettre monts et merveilles"><i>prom</i><par n="adm/ettre__vblex"/><p><l><b/>monts<b/>et<b/>merveilles</l><r><g><b/>monts<b/>et<b/>merveilles</g></r></p></e>
-<e lm="promouvoir"><i>prom</i><par n="m/ouvoir__vblex"/></e>
+<e lm="promouvoir"><i>prom</i><par n="ém/ouvoir__vblex"/></e>
 <e lm="promulguer"><i>promulgu</i><par n="abaiss/er__vblex"/></e>
 <e lm="prononcer"><i>pronon</i><par n="annon/cer__vblex"/></e>
 <e lm="pronostiquer"><i>pronostiqu</i><par n="abaiss/er__vblex"/></e>
@@ -40602,7 +40627,28 @@
 <e lm="avoir"><par n="/avoir__vbhaver"/></e>
 <e lm="il y a"><p><l>il<b/>y<b/>a</l>                  <r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="être"><par n="/être__vbser"/></e>
+
+<e lm="radius"><i>radius</i><par n="mois__n"/></e>
+<e lm="ulna"><i>ulna</i><par n="abeille__n"/></e>
+<e lm="neutralisant" a="jaumeortola"><i>neutralisant</i><par n="abaissant__adj"/></e>
+<e lm="neutralisé" a="jaumeortola"><i>neutralisé</i><par n="abaissant__adj"/></e>
+<e lm="neutraliste" a="jaumeortola"><i>neutraliste</i><par n="académique__adj"/></e>
+<e lm="neutralisme" a="jaumeortola"><i>neutralisme</i><par n="livre__n"/></e>
+<e lm="neutraliste" a="jaumeortola"><i>neutraliste</i><par n="artiste__n"/></e>
+<e lm="grade"><i>grade</i><par n="livre__n"/></e>
+<e lm="hors-jeu"><i>hors-jeu</i><par n="mois__n"/></e>
+<e lm="coup franc"><p><l>coup<b/>franc</l>      <r>coup<b/>franc<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="coup franc"><p><l>coups<b/>francs</l>    <r>coup<b/>franc<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR" lm="coup franc"><p><l>coup-franc</l>      <r>coup<b/>franc<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="coup franc"><p><l>coups-francs</l>    <r>coup<b/>franc<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="pénalité"><i>pénalité</i><par n="abeille__n"/></e>
+<e lm="Pétain"><i>Pétain</i><par n="Saussure__np"/></e>
+<e lm="Joffre"><i>Joffre</i><par n="Saussure__np"/></e>
+<e lm="Foch"><i>Foch</i><par n="Saussure__np"/></e>
+
+<!-- xxxx -->
   </section>
+
   <section id="apostrophes" type="postblank">
     <!-- ******************************
           group adj

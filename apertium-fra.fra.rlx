@@ -635,6 +635,9 @@ SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
 SELECT A IF (0 N OR A) (-1C Peu) (1C N) ;
 
+REMOVE A IF (-1 Num) (0C N OR A) (1 Prep) ;
+SELECT N IF (-1 Num) (0 ("seconde")) ;
+
 SELECT Interj IF (0 Helas) ;
   ## triem ser hélas com a interjecció
 REMOVE Interj IF (0 ("bon")) (1 N) ;
@@ -702,6 +705,8 @@ SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1C Det) ;
   ## Même le temps était
 SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;
   ## Même en se partageant
+SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
+  ## il va même jusqu'à donner
 
 SELECT Masc_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;
   ## mon père
