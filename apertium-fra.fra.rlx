@@ -125,6 +125,7 @@ LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
 LIST Des = "dès" ;
 LIST Entre = "entre" ;
+LIST Pendant = "pendant" ; 
 LIST Si = "si" ;
 LIST S = "<s'>"i ;
 LIST Ouvrir = "ouvrir" ;
@@ -653,6 +654,13 @@ SELECT Prep IF (-3C Prep) (-2C N OR A) (-1C N OR A OR PP) (0 Entre) (1 Det) (2 N
   ## ne fait pas de grosses différences entre les tyrannies
 REMOVE V (0 Entre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Entre) (*1 Verb BARRIER Cnj_Rel) ;
+
+SELECT Prep (0 Pendant) (-1 BOS) ;
+  ## Pendant la Première Guerre Mondiale
+SELECT Prep (0 Pendant) (1 ("de")) (2 A OR N) ;
+  ## pendant de nombreuses années
+REMOVE V (0 Pendant) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
+REMOVE V (0 Pendant) (*1 Verb BARRIER Cnj_Rel) ;
 
 SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
