@@ -1259,7 +1259,7 @@
 
 <pardef n="lui__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e> <!-- avec lui (comme: avec moi, toi, etc.) -->
+  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e> <!-- avec lui (comme: avec moi, toi, etc.) -->
 </pardef>
 
 <pardef n="/lui-même__prn">
@@ -26937,11 +26937,10 @@
 <e lm="Garces"><i>Garces</i><par n="Saussure__np"/></e>
 <e lm="Garci"><i>Garci</i><par n="Saussure__np"/></e>
 <e lm="Garcia"><i>Garcia</i><par n="Bulgarie__np"/></e>
-<e lm="Garcia"><i>Garcia</i><par n="Antoine__np"/></e>
+<e lm="Garcia"><i>Garcia</i><par n="Saussure__np"/></e>
 <e lm="Garcilaso"><i>Garcilaso</i><par n="Antoine__np"/></e>
 <e lm="Garcés"><i>Garcés</i><par n="Saussure__np"/></e>
 <e lm="García"><i>García</i><par n="Saussure__np"/></e>
-<e lm="Garcie"><i>García</i><par n="Abraham__np"/></e>
 <e lm="Gard"><i>Gard</i><par n="Andorre__np"/></e>
 <e lm="Gardiner"><i>Gardiner</i><par n="Saussure__np"/></e>
 <e lm="Gardner"><i>Gardner</i><par n="Abraham__np"/></e>
@@ -37680,6 +37679,7 @@
 <e lm="n'importe qui"><i>n'importe<b/>qui</i><par n="n'importe_qui__prn"/></e>
 <e lm="n'importe quoi"><i>n'importe<b/>quoi</i><par n="ceci__prn"/></e>
 <e lm="nous"><p><l>nous</l>                            <r>nous</r></p><par n="nous__prn"/></e>
+<e lm="nous-même"><p><l>nous-même</l>                  <r>nous-même</r></p><par n="nous__prn"/></e>
 <e lm="nous-mêmes"><p><l>nous-mêmes</l>                <r>nous-mêmes</r></p><par n="nous__prn"/></e>
 <e lm="nous tous"><p><l>nous<b/>tous</l>               <r>nous<b/>tous</r></p><par n="nous__prn"/></e>
 <e lm="on"><i>on</i><par n="on__prn"/></e>
@@ -37710,6 +37710,7 @@
 <e lm="un"><i>un</i><par n="un__prn"/></e>
 <e lm="vous"><p><l>vous</l>                            <r>vous</r></p><par n="vous__prn"/></e>
 <e lm="vous-mêmes"><p><l>vous-mêmes</l>                <r>vous-mêmes</r></p><par n="vous__prn"/></e>
+<e lm="vous-même"><p><l>vous-même</l>                  <r>vous-même</r></p><par n="vous__prn"/></e>
 <e lm="vous tous"><p><l>vous<b/>tous</l>               <r>vous<b/>tous</r></p><par n="vous__prn"/></e>
 <e lm="y"><i>y</i><par n="en__prn"/></e>
 
@@ -40645,6 +40646,7 @@
 <e lm="Pétain"><i>Pétain</i><par n="Saussure__np"/></e>
 <e lm="Joffre"><i>Joffre</i><par n="Saussure__np"/></e>
 <e lm="Foch"><i>Foch</i><par n="Saussure__np"/></e>
+<e lm="au beau milieu"><i>au<b/>beau<b/>milieu</i><par n="hier__adv"/></e>
 
 <!-- xxxx -->
   </section>

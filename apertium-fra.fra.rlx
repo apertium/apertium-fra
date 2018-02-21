@@ -191,9 +191,11 @@ SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR (
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
+REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
+REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
 
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
@@ -343,15 +345,17 @@ SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
 
 SELECT Prep IF (-1C Verb) (0 Devant) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
-SELECT Prep IF (-1C Verb) (0 Devant) (1 Pro) ;
+SELECT Prep IF (-1C Verb) (0 Devant) (1 Pro OR Tn) ;
   ## Il s'impose devant lui
-
 
 SELECT N IF (-1 Num) (0C N OR V) ;
   ## 9 combats
 SELECT N IF (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
   ## que le pouvoir de
   ## , conseiller regional, 
+SELECT N IF (-1 Prep) (-1/* DetDef) (0C N OR Verb) ;
+  ## du commandant Klein
+SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
 
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("que")) ;
   ## le groupe ne demande qu'à
@@ -410,6 +414,9 @@ REMOVE N IF (-1/* Det) (0 ("plus")) (1 EOS) ;
 REMOVE N IF (-1 ("de")) (0 ("plus")) ;
   ## 290 F de plus
 
+SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;
+  ## plus rapide que moi
+
 SELECT A IF (0 ("petit")) (1 N OR Verb) ;
   ## un petit groupe
 SELECT A IF (0 ("jeune")) (1 N OR Verb) ;
@@ -430,18 +437,15 @@ SELECT Verb IF (-2 ("qui")) (-1 Pro) (0C N OR Verb) ;
 SELECT Verb IF (-3 ("qui")) (-2 Adv) (-1 Pro) (0C N OR Verb) ;
   ## qui demeure aujourd'hui
 
-SELECT Tn IF (0 Lui) (1 Aussi);
-SELECT Tn IF (0 Nous) (1 Aussi);
-SELECT Tn IF (0 Vous) (1 Aussi);
-SELECT Tn IF (0 Lui) (1 Même);
-SELECT Tn IF (0 Nous) (1 Même + Pl);
-SELECT Tn IF (0 Vous) (1 Même + Pl);
-SELECT Tn IF (0 Lui) (-1C Prep) (NOT 1 Inf);
-SELECT Tn IF (0 Nous) (-1C Prep) (NOT 1 Inf);
-SELECT Tn IF (0 Vous) (-1C Prep) (NOT 1 Inf);
-SELECT Pro IF (0 Lui) (-1C Prep) (1 Inf);
-SELECT Pro IF (0 Nous) (-1C Prep) (1 Inf);
-SELECT Pro IF (0 Vous) (-1C Prep) (1 Inf);
+SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Aussi);
+SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Même);
+SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (NOT 1 Inf);
+SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
+SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
+  ## Il s'impose devant lui
+
+SELECT Tn IF (-3 ("plus") OR ("moins")) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;
+  ## plus rapide que lui
 
 SELECT Tn IF (0 Tu) (1 VSg2);
   ## Tu veux
@@ -651,10 +655,11 @@ SELECT Prep IF (0 Entre) (1 Nous OR Vous OR Eux);
   ## entre nous, vous, eux, elles
 SELECT Prep IF (0 Entre) (1 Il + Pl + Fem);
   ## entre elles
-SELECT Prep IF (-2C Prep) (-1C N) (0 Entre) (1 Det) (2 N OR A) ;
+#SELECT Prep IF (-2C Prep) (-1C N) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de différence entre les tyrannies
-SELECT Prep IF (-3C Prep) (-2C N OR A) (-1C N OR A OR PP) (0 Entre) (1 Det) (2 N OR A) ;
+#SELECT Prep IF (-3C Prep) (-2C N OR A) (-1C N OR A OR PP) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de grosses différences entre les tyrannies
+SELECT Prep IF (0 Entre) (1 Det) (2 N OR A) ;
 REMOVE V (0 Entre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Entre) (*1 Verb BARRIER Cnj_Rel) ;
 
