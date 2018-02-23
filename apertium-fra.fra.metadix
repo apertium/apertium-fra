@@ -891,6 +891,16 @@
   <e>       <p><l>onsieur</l>   <r>onsieur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="m/adame__n">
+  <e>       <p><l>esdames</l>   <r>adame<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>adame</l>     <r>adame<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="m/ademoiselle__n">
+  <e>       <p><l>esdemoiselles</l><r>ademoiselle<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ademoiselle</l><r>ademoiselle<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="brand/y__n">
   <e>       <p><l>y</l>         <r>y<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ys</l>        <r>y<s n="n"/><s n="m"/><s n="pl"/></r></p></e> <!-- orthographe 1990 -->
@@ -15261,6 +15271,7 @@
 <e lm="horoscope"><i>horoscope</i><par n="livre__n"/></e>
 <e lm="horreur"><i>horreur</i><par n="abeille__n"/></e>
 <e lm="hors-d'œuvre" a="jaumeortola"><i>hors-d'œuvre</i><par n="mois__n"/></e>
+<e r="LR" lm="hors-d'œuvre"><p><l>hors-d'oeuvre</l><r>hors-d'œuvre</r></p><par n="mois__n"/></e>
 <e lm="horticulture" a="jaumeortola"><i>horticulture</i><par n="abeille__n"/></e>
 <e lm="hospice" a="jaumeortola"><i>hospice</i><par n="livre__n"/></e>
 <e lm="hospitalisation"><i>hospitalisation</i><par n="abeille__n"/></e>
@@ -16349,8 +16360,9 @@
 <e lm="macromolécule" a="jaumeortola"><i>macromolécule</i><par n="abeille__n"/></e>
 <e lm="macrophage" a="jaumeortola"><i>macrophage</i><par n="livre__n"/></e>
 <e lm="macédonien" a="hector"><i>macédonien</i><par n="ancien__n"/></e>
-<e lm="madame"><i>madame</i><par n="abeille__n"/></e>
-<e lm="mademoiselle"><i>mademoiselle</i><par n="abeille__n"/></e>
+<e r="LR" lm="madame"><i>madame</i><par n="abeille__n"/></e>
+<e lm="madame"><i>m</i><par n="m/adame__n"/></e>
+<e lm="mademoiselle"><i>m</i><par n="m/ademoiselle__n"/></e>
 <e lm="Madone"><i>Madone</i><par n="abeille__n"/></e>
 <e lm="madrigal" a="jaumeortola"><i>madriga</i><par n="anima/l__n"/></e>
 <e lm="Madrilène"><i>Madrilène</i><par n="artiste__n"/></e>
@@ -40647,6 +40659,20 @@
 <e lm="Joffre"><i>Joffre</i><par n="Saussure__np"/></e>
 <e lm="Foch"><i>Foch</i><par n="Saussure__np"/></e>
 <e lm="au beau milieu"><i>au<b/>beau<b/>milieu</i><par n="hier__adv"/></e>
+<e lm="taille-crayon"><i>taille-crayon</i><par n="livre__n"/></e>
+<e lm="avant-poste"><i>avant-poste</i><par n="livre__n"/></e>
+<e lm="dernier-né"><p><l>dernier-né</l>      <r>dernier-né<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="dernier-né"><p><l>derniers-nés</l>    <r>dernier-né<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="dernier-né"><p><l>dernière-née</l>    <r>dernier-né<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="dernier-né"><p><l>dernières-nées</l>  <r>dernier-né<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="chef-d’œuvre"><p><l>chef-d’œuvre</l>  <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="chef-d’œuvre"><p><l>chefs-d’œuvre</l> <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR" lm="chef-d’œuvre"><p><l>chef-d’oeuvre</l>  <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="chef-d’œuvre"><p><l>chefs-d’oeuvre</l> <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="Notre-Dame"><i>Notre-Dame</i><par n="soif__n"/></e>
+<e lm="Nostre Seigneur"><i>Nostre<b/>Seigneur</i><par n="personnel__n"/></e>
+<e lm="Nostre Père"><i>Nostre<b/>Père</i><par n="personnel__n"/></e>
+<e lm="couscous"><i>couscous</i><par n="mois__n"/></e>
 
 <!-- xxxx -->
   </section>
