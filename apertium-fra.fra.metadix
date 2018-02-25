@@ -14018,6 +14018,7 @@
 <e lm="encadré" a="jaumeortola"><i>encadré</i><par n="livre__n"/></e>
 <e lm="encaissement"><i>encaissement</i><par n="livre__n"/></e>
 <e lm="enceinte"><i>enceinte</i><par n="abeille__n"/></e>
+<e lm="enceinte"><i>enceinte</i><par n="académique__adj"/></e>
 <e lm="encens" a="jaumeortola"><i>encens</i><par n="mois__n"/></e>
 <e lm="encerclement"><i>encerclement</i><par n="livre__n"/></e>
 <e lm="enchantement" a="jaumeortola"><i>enchantement</i><par n="livre__n"/></e>
@@ -22519,19 +22520,18 @@
 <e lm="Amérique du Nord"><i>Amérique<b/>du<b/>Nord</i><par n="Bulgarie__np"/></e>
 <e lm="Amérique du Sud"><i>Amérique<b/>du<b/>Sud</i><par n="Bulgarie__np"/></e>
 <e lm="Amérique latine"><i>Amérique<b/>latine</i><par n="Bulgarie__np"/></e>
-<e lm="Amériques"><i>Amériques</i><par n="Andorre__np"/></e>
+<e lm="Amériques"><i>Amériques</i><par n="Bahamas__np"/></e>
 <e lm="Améscoa"><i>Améscoa</i><par n="Andorre__np"/></e>
 <e lm="Ana"><i>Ana</i><par n="Marie__np"/></e>
-<e lm="Anabel"><i>Anabel</i><par n="Abraham__np"/></e>
+<e lm="Anabel"><i>Anabel</i><par n="Marie__np"/></e>
 <e lm="Anabella"><i>Anabella</i><par n="Marie__np"/></e>
 <e lm="Anacabe" c="es un apellido"><i>Anacabe</i><par n="Abraham__np"/></e>
 <e lm="Anacharsis"><i>Anacharsis</i><par n="Abraham__np"/></e>
 <e lm="Anaclet"><i>Anaclet</i><par n="Abraham__np"/></e>
-<e lm="Anacréon"><i>Anacréon</i><par n="Abraham__np"/></e>
+<e lm="Anacréon"><i>Anacréon</i><par n="Antoine__np"/></e>
 <e lm="Anadyr"><i>Anadyr</i><par n="Abraham__np"/></e>
 <e lm="Anadyr"><i>Anadyr</i><par n="Andorre__np"/></e>
 <e lm="Anagonye"><i>Anagonye</i><par n="Abraham__np"/></e>
-<e lm="Anais"><i>Anais</i><par n="Abraham__np"/></e>
 <e lm="Anais" a="hector"><i>Anais</i><par n="Marie__np"/></e>
 <e lm="Anakin"><i>Anakin</i><par n="Abraham__np"/></e>
 <e lm="Anakyn"><i>Anakyn</i><par n="Abraham__np"/></e>
@@ -22539,24 +22539,23 @@
 <e lm="Anantnag"><i>Anantnag</i><par n="Andorre__np"/></e>
 <e lm="Anari"><i>Anari</i><par n="Abraham__np"/></e>
 <e lm="Anartz"><i>Anartz</i><par n="Abraham__np"/></e>
-<e lm="Anasagasti"><i>Anasagasti</i><par n="Abraham__np"/></e>
 <e lm="Anasagasti"><i>Anasagasti</i><par n="Saussure__np"/></e>
 <e lm="Anastasia"><i>Anastasia</i><par n="Marie__np"/></e>
-<e lm="Anastasie"><i>Anastasie</i><par n="Abraham__np"/></e>
-<e lm="Anastasio"><i>Anastasio</i><par n="Abraham__np"/></e>
+<e lm="Anastasie"><i>Anastasie</i><par n="Marie__np"/></e>
+<e lm="Anastasio"><i>Anastasio</i><par n="Antoine__np"/></e>
 <e lm="Anatolie"><i>Anatolie</i><par n="Abraham__np"/></e>
 <e lm="Anatolie"><i>Anatolie</i><par n="Bulgarie__np"/></e>
-<e lm="Anatoly"><i>Anatoly</i><par n="Abraham__np"/></e>
+<e lm="Anatoly"><i>Anatoly</i><par n="Antoine__np"/></e>
 <e lm="Anaxagore"><i>Anaxagore</i><par n="Antoine__np"/></e>
 <e lm="Anaya"><i>Anaya</i><par n="Carrefour__np"/></e>
 <e lm="Anbar"><i>Anbar</i><par n="Andorre__np"/></e>
 <e lm="Anboto"><i>Anboto</i><par n="Andorre__np"/></e>
 <e lm="Ancash"><i>Ancash</i><par n="Andorre__np"/></e>
-<e lm="Ancelotti"><i>Ancelotti</i><par n="Abraham__np"/></e>
+<e lm="Ancelotti"><i>Ancelotti</i><par n="Saussure__np"/></e>
 <e lm="Anchieta"><i>Anchieta</i><par n="Abraham__np"/></e>
-<e lm="Anchustegi"><i>Anchustegi</i><par n="Abraham__np"/></e>
+<e lm="Anchustegi"><i>Anchustegi</i><par n="Saussure__np"/></e>
 <e lm="Anchía"><i>Anchía</i><par n="Abraham__np"/></e>
-<e lm="Ancic"><i>Ancic</i><par n="Abraham__np"/></e>
+<e lm="Ancic"><i>Ancic</i><par n="Saussure__np"/></e>
 <e lm="Ancien Régime"><i>Ancien<b/>Régime</i><par n="Carrefour__np"/></e>
 <e lm="Ancient Testament"><i>Ancient<b/>Testament</i><par n="Carrefour__np"/></e>
 <e lm="Ancona"><i>Ancona</i><par n="Andorre__np"/></e>
@@ -26950,6 +26949,7 @@
 <e lm="Garci"><i>Garci</i><par n="Saussure__np"/></e>
 <e lm="Garcia"><i>Garcia</i><par n="Bulgarie__np"/></e>
 <e lm="Garcia"><i>Garcia</i><par n="Saussure__np"/></e>
+<e lm="Garcia" c="nom médiéval de rois d'Aragon et Navarre"><i>Garcia</i><par n="Antoine__np"/></e>
 <e lm="Garcilaso"><i>Garcilaso</i><par n="Antoine__np"/></e>
 <e lm="Garcés"><i>Garcés</i><par n="Saussure__np"/></e>
 <e lm="García"><i>García</i><par n="Saussure__np"/></e>
@@ -34247,8 +34247,6 @@
 <e lm="Vico"><i>Vico</i><par n="Antoine__np"/></e>
 <e lm="Victor"><i>Victor</i><par n="Antoine__np"/></e>
 <e lm="Victor Hugo"><i>Victor<b/>Hugo</i><par n="Antoine__np"/></e>
-<e lm="Victoria"><i>Victoria</i><par n="Abraham__np"/></e>
-<e lm="Victoria"><i>Victoria</i><par n="Andorre__np"/></e>
 <e lm="Victoria"><i>Victoria</i><par n="Marie__np"/></e>
 <e lm="Victoriano"><i>Victoriano</i><par n="Antoine__np"/></e>
 <e lm="Victòria"><i>Victòria</i><par n="Marie__np"/></e>
@@ -40674,6 +40672,9 @@
 <e lm="Nostre Seigneur"><i>Nostre<b/>Seigneur</i><par n="personnel__n"/></e>
 <e lm="Nostre Père"><i>Nostre<b/>Père</i><par n="personnel__n"/></e>
 <e lm="couscous"><i>couscous</i><par n="mois__n"/></e>
+<e lm="genevois"><i>genevois</i><par n="anglais__adj"/></e>
+<e lm="Genevois"><i>Genevois</i><par n="admis__n"/></e>
+<e lm="en particulier"><i>en<b/>particulier</i><par n="hier__adv"/></e>
 
 <!-- xxxx -->
   </section>
