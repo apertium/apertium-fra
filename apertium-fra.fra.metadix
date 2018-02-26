@@ -1087,6 +1087,9 @@
 
 <pardef n="Carrefour__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="al"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="np"/><s n="al"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l></l>          <r><s n="np"/><s n="al"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="Linux__np">
@@ -1095,6 +1098,10 @@
 
 <pardef n="Wikipedia__np">
   <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="f"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="Jeux_olympiques__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="Andorre__np">
@@ -7282,6 +7289,7 @@
 <e lm="de Bilbao"><p><l>de<b/>Bilbao</l>               <r>de<b/>bilbao</r></p><par n="arrière__adj"/></e>
 <e lm="de Burgos"><i>de<b/>Burgos</i><par n="arrière__adj"/></e>
 <e lm="de Cantabria"><i>de<b/>Cantabria</i><par n="arrière__adj"/></e>
+<e lm="de Cantabrie"><i>de<b/>Cantabrie</i><par n="arrière__adj"/></e>
 <e lm="de Castro"><i>de<b/>Castro</i><par n="arrière__adj"/></e>
 <e lm="de championnat"><i>de<b/>championnat</i><par n="académique__adj"/></e>
 <e lm="de commerce et de gestion"><i>de<b/>commerce<b/>et<b/>de<b/>gestion</i><par n="arrière__adj"/></e>
@@ -15385,7 +15393,7 @@
 <e lm="IBEX35"><i>IBEX35</i><par n="BBVA__n"/></e>
 <e lm="IBEX 35"><i>IBEX<b/>35</i><par n="BBVA__n"/></e>
 <e lm="ibizois"><i>ibizois</i><par n="admis__n"/></e>
-<e lm="IBM" a="prompsit2adn"><i>IBM</i><par n="BBVA__n"/></e>
+<e lm="IBM" a="prompsit2adn"><i>IBM</i><par n="BBC__n"/></e>
 <e lm="ibère"><i>ibère</i><par n="artiste__n"/></e>
 <e lm="iceberg"><i>iceberg</i><par n="livre__n"/></e>
 <e lm="iconographie" a="jaumeortola"><i>iconographie</i><par n="abeille__n"/></e>
@@ -15825,9 +15833,9 @@
 <e lm="iota"><i>iota</i><par n="livre__n"/></e>
 <e lm="IPC"><i>IPC</i><par n="BBVA__n"/></e>
 <e lm="IRA"><i>IRA</i><par n="BBVA__n"/></e>
-<e lm="irakien"><i>irakien</i><par n="ancien__n"/></e>
+<e lm="Irakien"><i>Irakien</i><par n="ancien__n"/></e>
+<e lm="irakien"><i>irakien</i><par n="ancien__adj"/></e>
 <e lm="Iranien"><i>Iranien</i><par n="ancien__n"/></e>
-<e lm="iranien"><i>iranien</i><par n="ancien__n"/></e>
 <e lm="iridium" a="jaumeortola"><i>iridium</i><par n="livre__n"/></e>
 <e lm="iris"><i>iris</i><par n="mois__n"/></e>
 <e lm="irlandais"><i>irlandais</i><par n="admis__n"/></e>
@@ -21487,7 +21495,7 @@
 <e lm="Abbott"><i>Abbott</i><par n="Abraham__np"/></e>
 <e lm="Abbott"><i>Abbott</i><par n="Andorre__np"/></e>
 <e lm="Abbott"><i>Abbott</i><par n="Saussure__np"/></e>
-<e lm="ABC"><i>ABC</i><par n="Carrefour__np"/></e>
+<e lm="ABC"><i>ABC</i><par n="Linux__np"/></e>
 <e lm="Abdallah"><i>Abdallah</i><par n="Abraham__np"/></e>
 <e lm="Abdel"><i>Abdel</i><par n="Abraham__np"/></e>
 <e lm="Abdel"><i>Abdel</i><par n="Saussure__np"/></e>
@@ -21643,7 +21651,7 @@
 <e lm="Ademola"><i>Ademola</i><par n="Abraham__np"/></e>
 <e lm="Aden"><i>Aden</i><par n="Andorre__np"/></e>
 <e lm="Adenauer"><i>Adenauer</i><par n="Saussure__np"/></e>
-<e lm="Adeslas"><i>Adeslas</i><par n="Carrefour__np"/></e>
+<e lm="Adeslas"><i>Adeslas</i><par n="Wikipedia__np"/></e>
 <e lm="Adha"><i>Adha</i><par n="Carrefour__np"/></e>
 <e lm="Adhamiya"><i>Adhamiya</i><par n="Andorre__np"/></e>
 <e lm="Adidas"><i>Adidas</i><par n="Carrefour__np"/></e>
@@ -21687,7 +21695,7 @@
 <e lm="Adúriz"><i>Adúriz</i><par n="Saussure__np"/></e>
 <e lm="Aebersold"><i>Aebersold</i><par n="Abraham__np"/></e>
 <e lm="Aecio"><i>Aecio</i><par n="Abraham__np"/></e>
-<e lm="Aena"><i>Aena</i><par n="Carrefour__np"/></e>
+<e lm="Aena"><i>Aena</i><par n="Wikipedia__np"/></e>
 <e lm="Aenor"><i>Aenor</i><par n="Carrefour__np"/></e>
 <e lm="Aermachi"><i>Aermachi</i><par n="Carrefour__np"/></e>
 <e lm="Aernouts"><i>Aernouts</i><par n="Abraham__np"/></e>
@@ -22164,7 +22172,7 @@
 <e lm="Alexssandro"><i>Alexssandro</i><par n="Abraham__np"/></e>
 <e lm="Alfa"><i>Alfa</i><par n="Carrefour__np"/></e>
 <e lm="Alfa Romeo"><i>Alfa<b/>Romeo</i><par n="Carrefour__np"/></e>
-<e lm="Alfaguara"><i>Alfaguara</i><par n="Carrefour__np"/></e>
+<e lm="Alfaguara"><i>Alfaguara</i><par n="Wikipedia__np"/></e>
 <e lm="Alfalfas"><i>Alfalfas</i><par n="Carrefour__np"/></e>
 <e lm="Alfaro"><i>Alfaro</i><par n="Saussure__np"/></e>
 <e lm="Alfaz del Pi"><i>Alfaz<b/>del<b/>Pi</i><par n="Andorre__np"/></e>
@@ -22854,7 +22862,7 @@
 <e lm="Apolo"><i>Apolo</i><par n="Carrefour__np"/></e>
 <e lm="Apotzaga"><i>Apotzaga</i><par n="Andorre__np"/></e>
 <e lm="Appathurai"><i>Appathurai</i><par n="Abraham__np"/></e>
-<e lm="Apple"><i>Apple</i><par n="Carrefour__np"/></e>
+<e lm="Apple"><i>Apple</i><par n="Wikipedia__np"/></e>
 <e lm="Apple"><i>Apple</i><par n="Saussure__np"/></e>
 <e lm="Appleton"><i>Appleton</i><par n="Saussure__np"/></e>
 <e lm="April" a="hector"><i>April</i><par n="Saussure__np"/></e>
@@ -23186,7 +23194,7 @@
 <e lm="Asensi"><i>Asensi</i><par n="Saussure__np"/></e>
 <e lm="Asensio"><i>Asensio</i><par n="Saussure__np"/></e>
 <e lm="Asepam"><i>Asepam</i><par n="Carrefour__np"/></e>
-<e lm="Asepeyo"><i>Asepeyo</i><par n="Carrefour__np"/></e>
+<e lm="Asepeyo"><i>Asepeyo</i><par n="Wikipedia__np"/></e>
 <e lm="Ash"><i>Ash</i><par n="Abraham__np"/></e>
 <e lm="Ashland"><i>Ashland</i><par n="Carrefour__np"/></e>
 <e lm="Asie"><i>Asie</i><par n="Bulgarie__np"/></e>
@@ -23239,7 +23247,7 @@
 <e lm="Atencia"><i>Atencia</i><par n="Saussure__np"/></e>
 <e lm="Atenea"><i>Atenea</i><par n="Marie__np"/></e>
 <e lm="Atherton"><i>Atherton</i><par n="Saussure__np"/></e>
-<e lm="Athletic"><i>Athletic</i><par n="Carrefour__np"/></e>
+<e lm="Athletic"><i>Athletic</i><par n="Linux__np"/></e>
 <e lm="Athletic Bilbao"><i>Athletic<b/>Bilbao</i><par n="Carrefour__np"/></e>
 <e lm="Athletic Club Bilbao"><i>Athletic<b/>Club<b/>Bilbao</i><par n="Carrefour__np"/></e>
 <e lm="Athos"><i>Athos</i><par n="Andorre__np"/></e>
@@ -23467,7 +23475,7 @@
 <e lm="Ban Ki-moon"><i>Ban<b/>Ki-moon</i><par n="Antoine__np"/></e>
 <e lm="Banach"><i>Banach</i><par n="Saussure__np"/></e>
 <e lm="Banc d'Espagne"><i>Banc<b/>d'Espagne</i><par n="Carrefour__np"/></e>
-<e lm="Bancaja"><i>Bancaja</i><par n="Carrefour__np"/></e>
+<e lm="Bancaja"><i>Bancaja</i><par n="Wikipedia__np"/></e>
 <e lm="Bandar Seri Begawan"><i>Bandar<b/>Seri<b/>Begawan</i><par n="Andorre__np"/></e>
 <e lm="Bandeira"><i>Bandeira</i><par n="Abraham__np"/></e>
 <e lm="Banderas"><i>Banderas</i><par n="Saussure__np"/></e>
@@ -23612,7 +23620,7 @@
 <e lm="bataille d'Austerlitz"><i>bataille<b/>d'Austerlitz</i><par n="Carrefour__np"/></e>
 <e lm="Batailles d'Aboukir"><i>Batailles<b/>d'Aboukir</i><par n="Carrefour__np"/></e>
 <e lm="Bataller"><i>Bataller</i><par n="Saussure__np"/></e>
-<e lm="Batasuna"><i>Batasuna</i><par n="Carrefour__np"/></e>
+<e lm="Batasuna"><i>Batasuna</i><par n="Wikipedia__np"/></e>
 <e lm="Bateman"><i>Bateman</i><par n="Saussure__np"/></e>
 <e lm="Bates"><i>Bates</i><par n="Saussure__np"/></e>
 <e lm="Bathurst"><i>Bathurst</i><par n="Andorre__np"/></e>
@@ -23884,7 +23892,7 @@
 <e lm="Betancourt"><i>Betancourt</i><par n="Saussure__np"/></e>
 <e lm="Bethe"><i>Bethe</i><par n="Saussure__np"/></e>
 <e lm="Bethléem"><i>Bethléem</i><par n="Iran__np"/></e>
-<e lm="Betis"><i>Betis</i><par n="Carrefour__np"/></e>
+<e lm="Betis"><i>Betis</i><par n="Linux__np"/></e>
 <e lm="Bettencourt"><i>Bettencourt</i><par n="Saussure__np"/></e>
 <e lm="Bettini"><i>Bettini</i><par n="Abraham__np"/></e>
 <e lm="Bettini"><i>Bettini</i><par n="Saussure__np"/></e>
@@ -24469,7 +24477,7 @@
 <e lm="Calbetó"><i>Calbetó</i><par n="Saussure__np"/></e>
 <e lm="Calcutta"><i>Calcutta</i><par n="Andorre__np"/></e>
 <e lm="Caldera"><i>Caldera</i><par n="Saussure__np"/></e>
-<e lm="Calderón"><i>Calderón</i><par n="Carrefour__np"/></e>
+<e lm="Calderón"><i>Calderón</i><par n="Linux__np"/></e>
 <e lm="Calderón"><i>Calderón</i><par n="Saussure__np"/></e>
 <e lm="Caldwell"><i>Caldwell</i><par n="Saussure__np"/></e>
 <e lm="Calera"><i>Calera</i><par n="Saussure__np"/></e>
@@ -24655,7 +24663,7 @@
 <e lm="Carrascosa"><i>Carrascosa</i><par n="Saussure__np"/></e>
 <e lm="Carratalà"><i>Carratalà</i><par n="Saussure__np"/></e>
 <e lm="Carratalá"><i>Carratalá</i><par n="Saussure__np"/></e>
-<e lm="Carrefour"><i>Carrefour</i><par n="Carrefour__np"/></e>
+<e lm="Carrefour"><i>Carrefour</i><par n="Linux__np"/></e>
 <e lm="Carreras"><i>Carreras</i><par n="Saussure__np"/></e>
 <e lm="Carreres"><i>Carreres</i><par n="Saussure__np"/></e>
 <e lm="Carretero"><i>Carretero</i><par n="Saussure__np"/></e>
@@ -25009,7 +25017,7 @@
 <e lm="Citroen"><i>Citroen</i><par n="Carrefour__np"/></e>
 <e lm="Citroën"><i>Citroën</i><par n="Carrefour__np"/></e>
 <e lm="Cité Interdite"><i>Cité<b/>Interdite</i><par n="Carrefour__np"/></e>
-<e lm="CiU"><i>CiU</i><par n="Carrefour__np"/></e>
+<e lm="CiU"><i>CiU</i><par n="Wikipedia__np"/></e>
 <e lm="Ciudad Real"><i>Ciudad<b/>Real</i><par n="Andorre__np"/></e>
 <e lm="Ciurana"><i>Ciurana</i><par n="Saussure__np"/></e>
 <e lm="Ciutadella"><i>Ciutadella</i><par n="Bulgarie__np"/></e>
@@ -25226,7 +25234,7 @@
 <e lm="Corbí"><i>Corbí</i><par n="Saussure__np"/></e>
 <e lm="Corcuera"><i>Corcuera</i><par n="Saussure__np"/></e>
 <e lm="Cordillère Australienne"><i>Cordillère<b/>Australienne</i><par n="Bulgarie__np"/></e>
-<e lm="Cordillère Cantabrique"><i>Cordillère<b/>Cantabrique</i><par n="Bulgarie__np"/></e>
+<e lm="cordillère Cantabrique"><i>cordillère<b/>Cantabrique</i><par n="Bulgarie__np"/></e>
 <e lm="Cordillère des Andes"><i>Cordillère<b/>des<b/>Andes</i><par n="Bulgarie__np"/></e>
 <e lm="Cordillères Bétiques"><i>Cordillères<b/>Bétiques</i><par n="Andorre__np"/></e>
 <e lm="Cordobés"><i>Cordobés</i><par n="Saussure__np"/></e>
@@ -26171,7 +26179,7 @@
 <e lm="Encarnación"><i>Encarnación</i><par n="Saussure__np"/></e>
 <e lm="Encarnación"><i>Encarnación</i><par n="Marie__np"/></e>
 <e lm="Enders"><i>Enders</i><par n="Abraham__np"/></e>
-<e lm="Endesa"><i>Endesa</i><par n="Carrefour__np"/></e>
+<e lm="Endesa"><i>Endesa</i><par n="Wikipedia__np"/></e>
 <e lm="Eneko"><i>Eneko</i><par n="Abraham__np"/></e>
 <e lm="Enekuri"><i>Enekuri</i><par n="Andorre__np"/></e>
 <e lm="Enel"><i>Enel</i><par n="Carrefour__np"/></e>
@@ -26380,7 +26388,7 @@
 <e lm="Europe de l'Ouest"><i>Europe<b/>de<b/>l'Ouest</i><par n="Andorre__np"/></e>
 <e lm="Europistas"><i>Europistas</i><par n="Carrefour__np"/></e>
 <e lm="eurostoxx"><i>eurostoxx</i><par n="Carrefour__np"/></e>
-<e lm="Eurovision"><i>Eurovision</i><par n="Carrefour__np"/></e>
+<e lm="Eurovision"><i>Eurovision</i><par n="Wikipedia__np"/></e>
 <e lm="Eusebio"><i>Eusebio</i><par n="Antoine__np"/></e>
 <e lm="Euskadi"><i>Euskadi</i><par n="Iran__np"/></e>
 <e lm="Euskadi Gaztea"><i>Euskadi<b/>Gaztea</i><par n="Carrefour__np"/></e>
@@ -27049,7 +27057,7 @@
 <e lm="Gendreau" a="hector"><i>Gendreau</i><par n="Saussure__np"/></e>
 <e lm="Gendron" a="hector"><i>Gendron</i><par n="Saussure__np"/></e>
 <e lm="Gener"><i>Gener</i><par n="Saussure__np"/></e>
-<e lm="Generalitat"><i>Generalitat</i><par n="Carrefour__np"/></e>
+<e lm="Generalitat"><i>Generalitat</i><par n="Wikipedia__np"/></e>
 <e lm="Genest" a="hector"><i>Genest</i><par n="Saussure__np"/></e>
 <e lm="Genevieve" a="hector"><i>Genevieve</i><par n="Marie__np"/></e>
 <e lm="Geneviève"><i>Geneviève</i><par n="Marie__np"/></e>
@@ -27234,7 +27242,7 @@
 <e lm="Goodall"><i>Goodall</i><par n="Saussure__np"/></e>
 <e lm="Goodman"><i>Goodman</i><par n="Saussure__np"/></e>
 <e lm="Goodwin"><i>Goodwin</i><par n="Saussure__np"/></e>
-<e lm="Google"><i>Google</i><par n="Carrefour__np"/></e>
+<e lm="Google"><i>Google</i><par n="Linux__np"/></e>
 <e lm="Goran"><i>Goran</i><par n="Abraham__np"/></e>
 <e lm="Gorazde"><i>Gorazde</i><par n="Iran__np"/></e>
 <e lm="Gorbatxov"><i>Gorbatxov</i><par n="Saussure__np"/></e>
@@ -27325,7 +27333,7 @@
 <e lm="Greenaway"><i>Greenaway</i><par n="Saussure__np"/></e>
 <e lm="Greenberg"><i>Greenberg</i><par n="Saussure__np"/></e>
 <e lm="Greene"><i>Greene</i><par n="Saussure__np"/></e>
-<e lm="Greenpeace"><i>Greenpeace</i><par n="Carrefour__np"/></e>
+<e lm="Greenpeace"><i>Greenpeace</i><par n="Wikipedia__np"/></e>
 <e lm="Greenspan"><i>Greenspan</i><par n="Saussure__np"/></e>
 <e lm="Gregal"><i>Gregal</i><par n="Carrefour__np"/></e>
 <e lm="Gregori"><i>Gregori</i><par n="Antoine__np"/></e>
@@ -27928,9 +27936,9 @@
 <e lm="Ibarra"><i>Ibarra</i><par n="Saussure__np"/></e>
 <e lm="Ibarretxe"><i>Ibarretxe</i><par n="Saussure__np"/></e>
 <e lm="Ibañez"><i>Ibañez</i><par n="Saussure__np"/></e>
-<e lm="Iberdrola"><i>Iberdrola</i><par n="Carrefour__np"/></e>
+<e lm="Iberdrola"><i>Iberdrola</i><par n="Wikipedia__np"/></e>
 <e lm="Iberflora"><i>Iberflora</i><par n="Carrefour__np"/></e>
-<e lm="Iberia"><i>Iberia</i><par n="Carrefour__np"/></e>
+<e lm="Iberia"><i>Iberia</i><par n="Wikipedia__np"/></e>
 <e lm="Iberinco"><i>Iberinco</i><par n="Carrefour__np"/></e>
 <e lm="Ibermática"><i>Ibermática</i><par n="Carrefour__np"/></e>
 <e lm="ibex"><i>ibex</i><par n="Carrefour__np"/></e>
@@ -28285,8 +28293,9 @@
 <e lm="Jesus"><i>Jesus</i><par n="Antoine__np"/></e>
 <e lm="Jesús"><i>Jesús</i><par n="Antoine__np"/></e>
 <e lm="Jetté" a="hector"><i>Jetté</i><par n="Saussure__np"/></e>
-<e lm="Jeudi Gras"><i>Jeudi<b/>Gras</i><par n="Carrefour__np"/></e>
-<e lm="Jeux olympiques"><i>Jeux<b/>olympiques</i><par n="Carrefour__np"/></e>
+<e lm="Jeudi Gras"><i>Jeudi<b/>Gras</i><par n="Linux__np"/></e>
+<e lm="Jeux olympiques"><i>Jeux<b/>olympiques</i><par n="Jeux_olympiques__np"/></e>
+<e lm="Jeux paralympiques"><i>Jeux<b/>paralympiques</i><par n="Jeux_olympiques__np"/></e>
 <e lm="Jheronimus Van Aeken"><i>Jheronimus<b/>Van<b/>Aeken</i><par n="Abraham__np"/></e>
 <e lm="Ji Le"><i>Ji<b/>Le</i><par n="Abraham__np"/></e>
 <e lm="Jijona"><i>Jijona</i><par n="Bulgarie__np"/></e>
@@ -28710,7 +28719,7 @@
 <e lm="Koxtape"><i>Koxtape</i><par n="Carrefour__np"/></e>
 <e lm="Krakatau"><i>Krakatau</i><par n="Andorre__np"/></e>
 <e lm="Krauss"><i>Krauss</i><par n="Abraham__np"/></e>
-<e lm="Kremlin"><i>Kremlin</i><par n="Carrefour__np"/></e>
+<e lm="Kremlin"><i>Kremlin</i><par n="Linux__np"/></e>
 <e lm="Kresala"><i>Kresala</i><par n="Carrefour__np"/></e>
 <e lm="Kristina"><i>Kristina</i><par n="Marie__np"/></e>
 <e lm="Kroes"><i>Kroes</i><par n="Abraham__np"/></e>
@@ -29249,7 +29258,7 @@
 <e lm="Lindo"><i>Lindo</i><par n="Antoine__np"/></e>
 <e lm="Lindsay"><i>Lindsay</i><par n="Saussure__np"/></e>
 <e lm="Linnaeus"><i>Linnaeus</i><par n="Saussure__np"/></e>
-<e lm="Linux"><i>Linux</i><par n="Carrefour__np"/></e>
+<e lm="Linux"><i>Linux</i><par n="Linux__np"/></e>
 <e lm="Lion"><i>Lion</i><par n="Carrefour__np"/></e>
 <e lm="Lionel"><i>Lionel</i><par n="Antoine__np"/></e>
 <e lm="Lipper"><i>Lipper</i><par n="Carrefour__np"/></e>
@@ -30224,7 +30233,7 @@
 <e lm="Mickey"><i>Mickey</i><par n="Antoine__np"/></e>
 <e lm="Micra"><i>Micra</i><par n="Carrefour__np"/></e>
 <e lm="Micronésie"><i>Micronésie</i><par n="Bulgarie__np"/></e>
-<e lm="Microsoft"><i>Microsoft</i><par n="Carrefour__np"/></e>
+<e lm="Microsoft"><i>Microsoft</i><par n="Linux__np"/></e>
 <e lm="Micó"><i>Micó</i><par n="Saussure__np"/></e>
 <e lm="Middleton"><i>Middleton</i><par n="Saussure__np"/></e>
 <e lm="Mides"><i>Mides</i><par n="Antoine__np"/></e>
@@ -30286,7 +30295,7 @@
 <e lm="Milosevic"><i>Milosevic</i><par n="Saussure__np"/></e>
 <e lm="Milot" a="hector"><i>Milot</i><par n="Saussure__np"/></e>
 <e lm="Milošević"><i>Milošević</i><par n="Saussure__np"/></e>
-<e lm="Milà"><i>Milà</i><par n="Carrefour__np"/></e>
+<e lm="Milà"><i>Milà</i><par n="Linux__np"/></e>
 <e lm="Milá"><i>Milá</i><par n="Saussure__np"/></e>
 <e lm="Mimenza"><i>Mimenza</i><par n="Abraham__np"/></e>
 <e lm="Minerva"><i>Minerva</i><par n="Marie__np"/></e>
@@ -30553,7 +30562,7 @@
 <e lm="Moshe"><i>Moshe</i><par n="Abraham__np"/></e>
 <e lm="Moshé"><i>Moshé</i><par n="Abraham__np"/></e>
 <e lm="Mosley"><i>Mosley</i><par n="Saussure__np"/></e>
-<e lm="Mosso"><i>Mosso</i><par n="Carrefour__np"/></e>
+<e lm="Mosso"><i>Mosso</i><par n="Linux__np"/></e>
 <e lm="Mossos"><i>Mossos</i><par n="Carrefour__np"/></e>
 <e lm="Mostra"><i>Mostra</i><par n="Carrefour__np"/></e>
 <e lm="Mota"><i>Mota</i><par n="Saussure__np"/></e>
@@ -30722,7 +30731,7 @@
 <e lm="Naples" a="hector"><i>Naples</i><par n="États-Unis__np"/></e>
 <e lm="Napolitano"><i>Napolitano</i><par n="Abraham__np"/></e>
 <e lm="Napoléon"><i>Napoléon</i><par n="Antoine__np"/></e>
-<e lm="Napster"><i>Napster</i><par n="Carrefour__np"/></e>
+<e lm="Napster"><i>Napster</i><par n="Linux__np"/></e>
 <e lm="Naranjito"><i>Naranjito</i><par n="Antoine__np"/></e>
 <e lm="Narbona"><i>Narbona</i><par n="Saussure__np"/></e>
 <e lm="Narcís"><i>Narcís</i><par n="Antoine__np"/></e>
@@ -31080,7 +31089,7 @@
 <e lm="Oncina"><i>Oncina</i><par n="Saussure__np"/></e>
 <e lm="Ondarroa"><i>Ondarroa</i><par n="Andorre__np"/></e>
 <e lm="Oneill"><i>Oneill</i><par n="Saussure__np"/></e>
-<e lm="ONG"><i>ONG</i><par n="Carrefour__np"/></e>
+<e lm="ONG"><i>ONG</i><par n="Wikipedia__np"/></e>
 <e lm="Ongarato"><i>Ongarato</i><par n="Abraham__np"/></e>
 <e lm="Ono"><i>Ono</i><par n="Saussure__np"/></e>
 <e lm="Ontario"><i>Ontario</i><par n="Iran__np"/></e>
@@ -31143,7 +31152,7 @@
 <e lm="Osalan"><i>Osalan</i><par n="Carrefour__np"/></e>
 <e lm="OSALDE"><i>OSALDE</i><par n="Carrefour__np"/></e>
 <e lm="Osanz"><i>Osanz</i><par n="Saussure__np"/></e>
-<e lm="Osasuna"><i>Osasuna</i><par n="Carrefour__np"/></e>
+<e lm="Osasuna"><i>Osasuna</i><par n="Linux__np"/></e>
 <e lm="Osborne"><i>Osborne</i><par n="Saussure__np"/></e>
 <e lm="Oscar"><i>Oscar</i><par n="Abraham__np"/></e>
 <e lm="Oscar"><i>Oscar</i><par n="Antoine__np"/></e>
@@ -31812,7 +31821,6 @@
 <e lm="Premier Monde"><i>Premier<b/>Monde</i><par n="Carrefour__np"/></e>
 <e lm="Preminger"><i>Preminger</i><par n="Saussure__np"/></e>
 <e lm="Premium"><i>Premium</i><par n="Carrefour__np"/></e>
-<e lm="Première Guerre mondiale"><i>Première<b/>Guerre<b/>mondiale</i><par n="Carrefour__np"/></e>
 <e lm="Prentice"><i>Prentice</i><par n="Saussure__np"/></e>
 <e lm="Presley"><i>Presley</i><par n="Saussure__np"/></e>
 <e lm="Presley"><i>Presley</i><par n="Antoine__np"/></e>
@@ -31956,7 +31964,7 @@
 <e lm="Quesada"><i>Quesada</i><par n="Saussure__np"/></e>
 <e lm="Quesnel" a="hector"><i>Quesnel</i><par n="Saussure__np"/></e>
 <e lm="Quevedo"><i>Quevedo</i><par n="Saussure__np"/></e>
-<e lm="Quichotte"><i>Quichotte</i><par n="Carrefour__np"/></e>
+<e lm="Quichotte"><i>Quichotte</i><par n="Linux__np"/></e>
 <e lm="Quico"><i>Quico</i><par n="Antoine__np"/></e>
 <e lm="Quiksilver"><i>Quiksilver</i><par n="Carrefour__np"/></e>
 <e lm="Quiles"><i>Quiles</i><par n="Saussure__np"/></e>
@@ -31993,7 +32001,7 @@
 <e lm="Rachid"><i>Rachid</i><par n="Abraham__np"/></e>
 <e lm="Racicot" a="hector"><i>Racicot</i><par n="Saussure__np"/></e>
 <e lm="Racine" a="hector"><i>Racine</i><par n="Saussure__np"/></e>
-<e lm="Racing"><i>Racing</i><par n="Carrefour__np"/></e>
+<e lm="Racing"><i>Racing</i><par n="Linux__np"/></e>
 <e lm="Radcliffe"><i>Radcliffe</i><par n="Saussure__np"/></e>
 <e lm="Radio EiTB"><i>Radio<b/>EiTB</i><par n="Carrefour__np"/></e>
 <e lm="Radio Euskadi"><i>Radio<b/>Euskadi</i><par n="Carrefour__np"/></e>
@@ -32100,7 +32108,7 @@
 <e lm="Reagan"><i>Reagan</i><par n="Saussure__np"/></e>
 <e lm="Real"><i>Real</i><par n="Carrefour__np"/></e>
 <e lm="Real"><i>Real</i><par n="Saussure__np"/></e>
-<e lm="Real Madrid"><i>Real<b/>Madrid</i><par n="Carrefour__np"/></e>
+<e lm="Real Madrid"><i>Real<b/>Madrid</i><par n="Linux__np"/></e>
 <e lm="Real Sociedad"><i>Real<b/>Sociedad</i><par n="Carrefour__np"/></e>
 <e lm="Real Sporting de Gijón"><i>Real<b/>Sporting<b/>de<b/>Gijón</i><par n="Carrefour__np"/></e>
 <e lm="Rebeca"><i>Rebeca</i><par n="Marie__np"/></e>
@@ -32961,7 +32969,6 @@
 <e lm="Sebastián"><i>Sebastián</i><par n="Antoine__np"/></e>
 <e lm="Seco"><i>Seco</i><par n="Saussure__np"/></e>
 <e lm="Secombe"><i>Secombe</i><par n="Saussure__np"/></e>
-<e lm="Seconde Guerre mondiale"><i>Seconde<b/>Guerre<b/>mondiale</i><par n="Carrefour__np"/></e>
 <e lm="Segarra"><i>Segarra</i><par n="Bulgarie__np"/></e>
 <e lm="Segi"><i>Segi</i><par n="Carrefour__np"/></e>
 <e lm="Segimon"><i>Segimon</i><par n="Antoine__np"/></e>
@@ -33599,7 +33606,7 @@
 <e lm="Telamó"><i>Telamó</i><par n="Antoine__np"/></e>
 <e lm="Tele 5"><i>Tele<b/>5</i><par n="Carrefour__np"/></e>
 <e lm="Telebista"><i>Telebista</i><par n="Carrefour__np"/></e>
-<e lm="Telecinco"><i>Telecinco</i><par n="Carrefour__np"/></e>
+<e lm="Telecinco"><i>Telecinco</i><par n="Wikipedia__np"/></e>
 <e lm="Telefónica"><i>Telefónica</i><par n="Carrefour__np"/></e>
 <e lm="Telekom"><i>Telekom</i><par n="Carrefour__np"/></e>
 <e lm="Telekos"><i>Telekos</i><par n="Carrefour__np"/></e>
@@ -33952,7 +33959,7 @@
 <e lm="TV"><i>TV</i><par n="Carrefour__np"/></e>
 <e lm="TV1"><i>TV1</i><par n="Carrefour__np"/></e>
 <e lm="TV2"><i>TV2</i><par n="Carrefour__np"/></e>
-<e lm="TVE"><i>TVE</i><par n="Carrefour__np"/></e>
+<e lm="TVE"><i>TVE</i><par n="Wikipedia__np"/></e>
 <e lm="Twain"><i>Twain</i><par n="Saussure__np"/></e>
 <e lm="Twingo"><i>Twingo</i><par n="Carrefour__np"/></e>
 <e lm="Txabarri"><i>Txabarri</i><par n="Abraham__np"/></e>
@@ -34534,7 +34541,7 @@
 <e lm="Wimbledon"><i>Wimbledon</i><par n="Carrefour__np"/></e>
 <e lm="Wimsey"><i>Wimsey</i><par n="Saussure__np"/></e>
 <e lm="Windhoek"><i>Windhoek</i><par n="Andorre__np"/></e>
-<e lm="Windows"><i>Windows</i><par n="Carrefour__np"/></e>
+<e lm="Windows"><i>Windows</i><par n="Linux__np"/></e>
 <e lm="Windsor"><i>Windsor</i><par n="Andorre__np"/></e>
 <e lm="Winfrey"><i>Winfrey</i><par n="Saussure__np"/></e>
 <e lm="Winnifred"><i>Winnifred</i><par n="Marie__np"/></e>
@@ -34604,7 +34611,7 @@
 <e lm="Yago"><i>Yago</i><par n="Antoine__np"/></e>
 <e lm="Yagüe"><i>Yagüe</i><par n="Saussure__np"/></e>
 <e lm="Yagües"><i>Yagües</i><par n="Saussure__np"/></e>
-<e lm="Yahoo"><i>Yahoo</i><par n="Carrefour__np"/></e>
+<e lm="Yahoo"><i>Yahoo</i><par n="Linux__np"/></e>
 <e lm="Yaiza"><i>Yaiza</i><par n="Marie__np"/></e>
 <e lm="Yamamoto"><i>Yamamoto</i><par n="Saussure__np"/></e>
 <e lm="Yamoussoukro"><i>Yamoussoukro</i><par n="Andorre__np"/></e>
@@ -40675,6 +40682,444 @@
 <e lm="genevois"><i>genevois</i><par n="anglais__adj"/></e>
 <e lm="Genevois"><i>Genevois</i><par n="admis__n"/></e>
 <e lm="en particulier"><i>en<b/>particulier</i><par n="hier__adv"/></e>
+<e lm="Cornuailles" c="admis aussi au pluriel"><i>Cornuailles</i><par n="Bulgarie__np"/></e>
+<e lm="Cornuailles" c="admis aussi au singulier"><i>Cornuailles</i><par n="Bahamas__np"/></e>
+<e lm="cornouaillais"><i>cornouaillais</i><par n="anglais__adj"/></e>
+<e lm="Cornouaillais"><i>Cornouaillais</i><par n="admis__n"/></e>
+<e lm="cornique"><i>cornique</i><par n="académique__adj"/></e>
+<e lm="cornique"><i>cornique</i><par n="artiste__n"/></e>
+
+<e lm="20 minutos"><i>20<b/>minutos</i><par n="Linux__np"/></e>
+<e lm="3xl.net"><i>3xl.net</i><par n="Linux__np"/></e>
+<e lm="@teneu"><i>@teneu</i><par n="Linux__np"/></e>
+<e lm="ABBA"><i>ABBA</i><par n="Linux__np"/></e>
+<e lm="ABN-Amro"><i>ABN-Amro</i><par n="Linux__np"/></e>
+<e lm="ADN.es"><i>ADN.es</i><par n="Linux__np"/></e>
+<e lm="ADNes"><i>ADNes</i><par n="Linux__np"/></e>
+<e lm="AIP"><i>AIP</i><par n="Linux__np"/></e>
+<e lm="ANB"><i>ANB</i><par n="Linux__np"/></e>
+<e lm="Activision"><i>Activision</i><par n="Linux__np"/></e>
+<e lm="Adecco"><i>Adecco</i><par n="Linux__np"/></e>
+<e lm="Adif"><i>Adif</i><par n="Linux__np"/></e>
+<e lm="Adobe"><i>Adobe</i><par n="Linux__np"/></e>
+<e lm="Adobe Flash"><i>Adobe<b/>Flash</i><par n="Linux__np"/></e>
+<e lm="Adobe Flash Player"><i>Adobe<b/>Flash<b/>Player</i><par n="Linux__np"/></e>
+<e lm="Adobe Illustrator"><i>Adobe<b/>Illustrator</i><par n="Linux__np"/></e>
+<e lm="Adobe Photoshop"><i>Adobe<b/>Photoshop</i><par n="Linux__np"/></e>
+<e lm="Adobe Reader"><i>Adobe<b/>Reader</i><par n="Linux__np"/></e>
+<e lm="Adobe Systems"><i>Adobe<b/>Systems</i><par n="Linux__np"/></e>
+<e lm="Alcatel"><i>Alcatel</i><par n="Linux__np"/></e>
+<e lm="Alcázar"><i>Alcázar</i><par n="Linux__np"/></e>
+<e lm="AllMusic"><i>AllMusic</i><par n="Linux__np"/></e>
+<e lm="Alping Running Meeting"><i>Alping<b/>Running<b/>Meeting</i><par n="Linux__np"/></e>
+<e lm="Altadis"><i>Altadis</i><par n="Linux__np"/></e>
+<e lm="Amazon"><i>Amazon</i><par n="Linux__np"/></e>
+<e lm="AmigaOS"><i>AmigaOS</i><par n="Linux__np"/></e>
+<e lm="Android"><i>Android</i><par n="Linux__np"/></e>
+<e lm="Apertium"><i>Apertium</i><par n="Linux__np"/></e>
+<e lm="Apple Macintosh"><i>Apple<b/>Macintosh</i><par n="Linux__np"/></e>
+<e lm="AppleTalk"><i>AppleTalk</i><par n="Linux__np"/></e>
+<e lm="ArtFutura"><i>ArtFutura</i><par n="Linux__np"/></e>
+<e lm="Athlon"><i>Athlon</i><par n="Linux__np"/></e>
+<e lm="Audi"><i>Audi</i><par n="Linux__np"/></e>
+<e lm="Audiovisual Sport"><i>Audiovisual<b/>Sport</i><par n="Linux__np"/></e>
+<e lm="Autan"><i>Autan</i><par n="Linux__np"/></e>
+<e lm="AutoCAD"><i>AutoCAD</i><par n="Linux__np"/></e>
+<e lm="Autom"><i>Autom</i><par n="Linux__np"/></e>
+<e lm="Avanza"><i>Avanza</i><par n="Linux__np"/></e>
+<e lm="Banco Central Hispano"><i>Banco<b/>Central<b/>Hispano</i><par n="Linux__np"/></e>
+<e lm="Banco Guipuzcoano"><i>Banco<b/>Guipuzcoano</i><par n="Linux__np"/></e>
+<e lm="Banco Urquijo"><i>Banco<b/>Urquijo</i><par n="Linux__np"/></e>
+<e lm="Banesto"><i>Banesto</i><par n="Linux__np"/></e>
+<e lm="Bankinter"><i>Bankinter</i><par n="Linux__np"/></e>
+<e lm="Barclays"><i>Barclays</i><par n="Linux__np"/></e>
+<e lm="Barrapunto"><i>Barrapunto</i><par n="Linux__np"/></e>
+<e lm="Barça"><i>Barça</i><par n="Linux__np"/></e>
+<e lm="BdP"><i>BdP</i><par n="Linux__np"/></e>
+<e lm="BeOS"><i>BeOS</i><par n="Linux__np"/></e>
+<e lm="Bimbo"><i>Bimbo</i><par n="Linux__np"/></e>
+<e lm="Blizzard Entertainment"><i>Blizzard<b/>Entertainment</i><par n="Linux__np"/></e>
+<e lm="Bloc"><i>Bloc</i><par n="Linux__np"/></e>
+<e lm="Bluetooth"><i>Bluetooth</i><par n="Linux__np"/></e>
+<e lm="Bombardier"><i>Bombardier</i><par n="Linux__np"/></e>
+<e lm="Bonjour"><i>Bonjour</i><par n="Linux__np"/></e>
+<e lm="Bonotren"><i>Bonotren</i><par n="Linux__np"/></e>
+<e lm="Boyhumus"><i>Boyhumus</i><par n="Linux__np"/></e>
+<e lm="CCUC"><i>CCUC</i><par n="Linux__np"/></e>
+<e lm="CIDUI"><i>CIDUI</i><par n="Linux__np"/></e>
+<e lm="CIO"><i>CIO</i><par n="Linux__np"/></e>
+<e lm="Caixaforum"><i>Caixaforum</i><par n="Linux__np"/></e>
+<e lm="Campus per la Pau"><i>Campus<b/>per<b/>la<b/>Pau</i><par n="Linux__np"/></e>
+<e lm="Canal Nou"><i>Canal<b/>Nou</i><par n="Linux__np"/></e>
+<e lm="Canal Plus"><i>Canal<b/>Plus</i><par n="Linux__np"/></e>
+<e lm="Cisco"><i>Cisco</i><par n="Linux__np"/></e>
+<e lm="Ciutadans"><i>Ciutadans</i><par n="Linux__np"/></e>
+<e lm="Complejo Ática"><i>Complejo<b/>Ática</i><par n="Linux__np"/></e>
+<e lm="Compromís"><i>Compromís</i><par n="Linux__np"/></e>
+<e lm="Correcaminos"><i>Correcaminos</i><par n="Linux__np"/></e>
+<e lm="Correllengua"><i>Correllengua</i><par n="Linux__np"/></e>
+<e lm="Cosmocaixa"><i>Cosmocaixa</i><par n="Linux__np"/></e>
+<e lm="Coyote"><i>Coyote</i><par n="Linux__np"/></e>
+<e lm="Crédit-Agricole"><i>Crédit-Agricole</i><par n="Linux__np"/></e>
+<e lm="Cupido"><i>Cupido</i><par n="Linux__np"/></e>
+<e lm="Debian"><i>Debian</i><par n="Linux__np"/></e>
+<e lm="Debian Etch"><i>Debian<b/>Etch</i><par n="Linux__np"/></e>
+<e lm="Debian Hamm"><i>Debian<b/>Hamm</i><par n="Linux__np"/></e>
+<e lm="Debian Jessie"><i>Debian<b/>Jessie</i><par n="Linux__np"/></e>
+<e lm="Debian Lenny"><i>Debian<b/>Lenny</i><par n="Linux__np"/></e>
+<e lm="Debian Potato"><i>Debian<b/>Potato</i><par n="Linux__np"/></e>
+<e lm="Debian Sarge"><i>Debian<b/>Sarge</i><par n="Linux__np"/></e>
+<e lm="Debian Slink"><i>Debian<b/>Slink</i><par n="Linux__np"/></e>
+<e lm="Debian Squeeze"><i>Debian<b/>Squeeze</i><par n="Linux__np"/></e>
+<e lm="Debian Stretch"><i>Debian<b/>Stretch</i><par n="Linux__np"/></e>
+<e lm="Debian Wheezy"><i>Debian<b/>Wheezy</i><par n="Linux__np"/></e>
+<e lm="Debian Woody"><i>Debian<b/>Woody</i><par n="Linux__np"/></e>
+<e lm="Denny's"><i>Denny's</i><par n="Linux__np"/></e>
+<e lm="Depeche Mode"><i>Depeche<b/>Mode</i><par n="Linux__np"/></e>
+<e lm="Deutsche Bank"><i>Deutsche<b/>Bank</i><par n="Linux__np"/></e>
+<e lm="DirectX"><i>DirectX</i><par n="Linux__np"/></e>
+<e lm="Discovery"><i>Discovery</i><par n="Linux__np"/></e>
+<e lm="Doctor Who"><i>Doctor<b/>Who</i><par n="Linux__np"/></e>
+<e lm="El 9 Nou"><i>El<b/>9<b/>Nou</i><par n="Linux__np"/></e>
+<e lm="El Bruguers"><i>El<b/>Bruguers</i><par n="Linux__np"/></e>
+<e lm="El Correo Español"><i>El<b/>Correo<b/>Español</i><par n="Linux__np"/></e>
+<e lm="El Corte Inglés"><i>El<b/>Corte<b/>Inglés</i><par n="Linux__np"/></e>
+<e lm="El Diario Vasco"><i>El<b/>Diario<b/>Vasco</i><par n="Linux__np"/></e>
+<e lm="El Jueves"><i>El<b/>Jueves</i><par n="Linux__np"/></e>
+<e lm="El Mundo"><i>El<b/>Mundo</i><par n="Linux__np"/></e>
+<e lm="El Mundo Deportivo"><i>El<b/>Mundo<b/>Deportivo</i><par n="Linux__np"/></e>
+<e lm="El País"><i>El<b/>País</i><par n="Linux__np"/></e>
+<e lm="El Periòdic d'Andorra"><i>El<b/>Periòdic<b/>d'Andorra</i><par n="Linux__np"/></e>
+<e lm="El Periódico"><i>El<b/>Periódico</i><par n="Linux__np"/></e>
+<e lm="El Pueblo Vasco"><i>El<b/>Pueblo<b/>Vasco</i><par n="Linux__np"/></e>
+<e lm="El Punt Avui"><i>El<b/>Punt<b/>Avui</i><par n="Linux__np"/></e>
+<e lm="El Temps"><i>El<b/>Temps</i><par n="Linux__np"/></e>
+<e lm="El Ter"><i>El<b/>Ter</i><par n="Linux__np"/></e>
+<e lm="Espanyol"><i>Espanyol</i><par n="Linux__np"/></e>
+<e lm="Eurobasket"><i>Eurobasket</i><par n="Linux__np"/></e>
+<e lm="Euromed"><i>Euromed</i><par n="Linux__np"/></e>
+<e lm="Excel"><i>Excel</i><par n="Linux__np"/></e>
+<e lm="Explorer"><i>Explorer</i><par n="Linux__np"/></e>
+<e lm="Facebook"><i>Facebook</i><par n="Linux__np"/></e>
+<e lm="Ferrovial"><i>Ferrovial</i><par n="Linux__np"/></e>
+<e lm="Fleetwood Mac"><i>Fleetwood<b/>Mac</i><par n="Linux__np"/></e>
+<e lm="Fotolog"><i>Fotolog</i><par n="Linux__np"/></e>
+<e lm="Franz Ferdinand"><i>Franz<b/>Ferdinand</i><par n="Linux__np"/></e>
+<e lm="GIMP"><i>GIMP</i><par n="Linux__np"/></e>
+<e lm="GNOME"><i>GNOME</i><par n="Linux__np"/></e>
+<e lm="GNU"><i>GNU</i><par n="Linux__np"/></e>
+<e lm="Grup 62"><i>Grup<b/>62</i><par n="Linux__np"/></e>
+<e lm="Grup62"><i>Grup62</i><par n="Linux__np"/></e>
+<e lm="Grupo Planeta"><i>Grupo<b/>Planeta</i><par n="Linux__np"/></e>
+<e lm="Halloween"><i>Halloween</i><par n="Linux__np"/></e>
+<e lm="Hasbro"><i>Hasbro</i><par n="Linux__np"/></e>
+<e lm="Haskell"><i>Haskell</i><par n="Linux__np"/></e>
+<e lm="ISBN"><i>ISBN</i><par n="Linux__np"/></e>
+<e lm="Ibex"><i>Ibex</i><par n="Linux__np"/></e>
+<e lm="Infocom"><i>Infocom</i><par n="Linux__np"/></e>
+<e lm="Informe Horizon"><i>Informe<b/>Horizon</i><par n="Linux__np"/></e>
+<e lm="Instagram"><i>Instagram</i><par n="Linux__np"/></e>
+<e lm="Institut Radioquirúrgic"><i>Institut<b/>Radioquirúrgic</i><par n="Linux__np"/></e>
+<e lm="Institut Valencià de la Joventut"><i>Institut<b/>Valencià<b/>de<b/>la<b/>Joventut</i><par n="Linux__np"/></e>
+<e lm="Inter"><i>Inter</i><par n="Linux__np"/></e>
+<e lm="Inter de Milan"><i>Inter<b/>de<b/>Milan</i><par n="Linux__np"/></e>
+<e lm="Java"><i>Java</i><par n="Linux__np"/></e>
+<e lm="Javascript"><i>Javascript</i><par n="Linux__np"/></e>
+<e lm="KFC"><i>KFC</i><par n="Linux__np"/></e>
+<e lm="Kentucky Fried Chicken"><i>Kentucky<b/>Fried<b/>Chicken</i><par n="Linux__np"/></e>
+<e lm="Kingdom Hearts"><i>Kingdom<b/>Hearts</i><par n="Linux__np"/></e>
+<e lm="LEGO"><i>LEGO</i><par n="Linux__np"/></e>
+<e lm="LaTeX"><i>LaTeX</i><par n="Linux__np"/></e>
+<e lm="Lamborghini"><i>Lamborghini</i><par n="Linux__np"/></e>
+<e lm="Land Rover"><i>Land<b/>Rover</i><par n="Linux__np"/></e>
+<e lm="Le Monde"><i>Le<b/>Monde</i><par n="Linux__np"/></e>
+<e lm="Levante-EMV"><i>Levante-EMV</i><par n="Linux__np"/></e>
+<e lm="Libertad Digital"><i>Libertad<b/>Digital</i><par n="Linux__np"/></e>
+<e lm="LimeWire"><i>LimeWire</i><par n="Linux__np"/></e>
+<e lm="Macintosh"><i>Macintosh</i><par n="Linux__np"/></e>
+<e lm="Mattel"><i>Mattel</i><par n="Linux__np"/></e>
+<e lm="Messenger"><i>Messenger</i><par n="Linux__np"/></e>
+<e lm="Microsoft Access"><i>Microsoft<b/>Access</i><par n="Linux__np"/></e>
+<e lm="Microsoft Excel"><i>Microsoft<b/>Excel</i><par n="Linux__np"/></e>
+<e lm="Microsoft Office"><i>Microsoft<b/>Office</i><par n="Linux__np"/></e>
+<e lm="Microsoft OneNote"><i>Microsoft<b/>OneNote</i><par n="Linux__np"/></e>
+<e lm="Microsoft PowerPoint"><i>Microsoft<b/>PowerPoint</i><par n="Linux__np"/></e>
+<e lm="Microsoft Windows"><i>Microsoft<b/>Windows</i><par n="Linux__np"/></e>
+<e lm="Microsoft Word"><i>Microsoft<b/>Word</i><par n="Linux__np"/></e>
+<e lm="Miquelet"><i>Miquelet</i><par n="Linux__np"/></e>
+<e lm="Moses"><i>Moses</i><par n="Linux__np"/></e>
+<e lm="Motörhead"><i>Motörhead</i><par n="Linux__np"/></e>
+<e lm="Mozilla Firefox"><i>Mozilla<b/>Firefox</i><par n="Linux__np"/></e>
+<e lm="MySQL"><i>MySQL</i><par n="Linux__np"/></e>
+<e lm="MySpace"><i>MySpace</i><par n="Linux__np"/></e>
+<e lm="National Geographic"><i>National<b/>Geographic</i><par n="Linux__np"/></e>
+<e lm="NeXTSTEP"><i>NeXTSTEP</i><par n="Linux__np"/></e>
+<e lm="Netflix"><i>Netflix</i><par n="Linux__np"/></e>
+<e lm="Netscape"><i>Netscape</i><par n="Linux__np"/></e>
+<e lm="Nickelodeon"><i>Nickelodeon</i><par n="Linux__np"/></e>
+<e lm="Nike"><i>Nike</i><par n="Linux__np"/></e>
+<e lm="Nissan"><i>Nissan</i><par n="Linux__np"/></e>
+<e lm="Norton"><i>Norton</i><par n="Linux__np"/></e>
+<e lm="Nàstic"><i>Nàstic</i><par n="Linux__np"/></e>
+<e lm="Ono"><i>Ono</i><par n="Linux__np"/></e>
+<e lm="Opel"><i>Opel</i><par n="Linux__np"/></e>
+<e lm="OpenOffice"><i>OpenOffice</i><par n="Linux__np"/></e>
+<e lm="Opentrad"><i>Opentrad</i><par n="Linux__np"/></e>
+<e lm="Opus Dei"><i>Opus<b/>Dei</i><par n="Linux__np"/></e>
+<e lm="Orkut"><i>Orkut</i><par n="Linux__np"/></e>
+<e lm="Palau de la Música"><i>Palau<b/>de<b/>la<b/>Música</i><par n="Linux__np"/></e>
+<e lm="Panathinaikos"><i>Panathinaikos</i><par n="Linux__np"/></e>
+<e lm="Pentágono"><i>Pentágono</i><par n="Linux__np"/></e>
+<e lm="Photoshop"><i>Photoshop</i><par n="Linux__np"/></e>
+<e lm="Podemos"><i>Podemos</i><par n="Linux__np"/></e>
+<e lm="Pokémon"><i>Pokémon</i><par n="Linux__np"/></e>
+<e lm="PowerPC"><i>PowerPC</i><par n="Linux__np"/></e>
+<e lm="Queen"><i>Queen</i><par n="Linux__np"/></e>
+<e lm="QuickTime"><i>QuickTime</i><par n="Linux__np"/></e>
+<e lm="Rammstein"><i>Rammstein</i><par n="Linux__np"/></e>
+<e lm="Ramón y Cajal"><i>Ramón<b/>y<b/>Cajal</i><par n="Linux__np"/></e>
+<e lm="Rayo Vallecano"><i>Rayo<b/>Vallecano</i><par n="Linux__np"/></e>
+<e lm="Real Betis"><i>Real<b/>Betis</i><par n="Linux__np"/></e>
+<e lm="Real Madrid"><i>Real<b/>Madrid</i><par n="Linux__np"/></e>
+<e lm="Real Saragosse"><i>Real<b/>Saragosse</i><par n="Linux__np"/></e>
+<e lm="Real Valladolid"><i>Real<b/>Valladolid</i><par n="Linux__np"/></e>
+<e lm="Scrabble"><i>Scrabble</i><par n="Linux__np"/></e>
+<e lm="Segway"><i>Segway</i><par n="Linux__np"/></e>
+<e lm="Sex Pistols"><i>Sex<b/>Pistols</i><par n="Linux__np"/></e>
+<e lm="SimCity"><i>SimCity</i><par n="Linux__np"/></e>
+<e lm="Sinn Féin"><i>Sinn<b/>Féin</i><par n="Linux__np"/></e>
+<e lm="Skype"><i>Skype</i><par n="Linux__np"/></e>
+<e lm="Slackware"><i>Slackware</i><par n="Linux__np"/></e>
+<e lm="Softcatalà"><i>Softcatalà</i><par n="Linux__np"/></e>
+<e lm="Solaris"><i>Solaris</i><par n="Linux__np"/></e>
+<e lm="Sporting"><i>Sporting</i><par n="Linux__np"/></e>
+<e lm="Starbucks"><i>Starbucks</i><par n="Linux__np"/></e>
+<e lm="Super3"><i>Super3</i><par n="Linux__np"/></e>
+<e lm="TNC"><i>TNC</i><par n="Linux__np"/></e>
+<e lm="TeX"><i>TeX</i><par n="Linux__np"/></e>
+<e lm="Tetris"><i>Tetris</i><par n="Linux__np"/></e>
+<e lm="The Guardian"><i>The<b/>Guardian</i><par n="Linux__np"/></e>
+<e lm="The New York Times"><i>The<b/>New<b/>York<b/>Times</i><par n="Linux__np"/></e>
+<e lm="The Sun"><i>The<b/>Sun</i><par n="Linux__np"/></e>
+<e lm="The Times"><i>The<b/>Times</i><par n="Linux__np"/></e>
+<e lm="TiVo"><i>TiVo</i><par n="Linux__np"/></e>
+<e lm="Tirant Lo Blanc"><i>Tirant<b/>Lo<b/>Blanc</i><par n="Linux__np"/></e>
+<e lm="Tirant Lo Blanch"><i>Tirant<b/>Lo<b/>Blanch</i><par n="Linux__np"/></e>
+<e lm="Tour"><i>Tour</i><par n="Linux__np"/></e>
+<e lm="Transducens"><i>Transducens</i><par n="Linux__np"/></e>
+<e lm="Triodos Bank"><i>Triodos<b/>Bank</i><par n="Linux__np"/></e>
+<e lm="Twitter"><i>Twitter</i><par n="Linux__np"/></e>
+<e lm="Unicode"><i>Unicode</i><par n="Linux__np"/></e>
+<e lm="Washington Post"><i>Washington<b/>Post</i><par n="Linux__np"/></e>
+<e lm="Windows 10"><i>Windows<b/>10</i><par n="Linux__np"/></e>
+<e lm="Windows 2000"><i>Windows<b/>2000</i><par n="Linux__np"/></e>
+<e lm="Windows 3.1"><i>Windows<b/>3.1</i><par n="Linux__np"/></e>
+<e lm="Windows 7"><i>Windows<b/>7</i><par n="Linux__np"/></e>
+<e lm="Windows 8"><i>Windows<b/>8</i><par n="Linux__np"/></e>
+<e lm="Windows 8.1"><i>Windows<b/>8.1</i><par n="Linux__np"/></e>
+<e lm="Windows 95"><i>Windows<b/>95</i><par n="Linux__np"/></e>
+<e lm="Windows 98"><i>Windows<b/>98</i><par n="Linux__np"/></e>
+<e lm="Windows Embedded"><i>Windows<b/>Embedded</i><par n="Linux__np"/></e>
+<e lm="Windows ME"><i>Windows<b/>ME</i><par n="Linux__np"/></e>
+<e lm="Windows Mobile"><i>Windows<b/>Mobile</i><par n="Linux__np"/></e>
+<e lm="Windows NT"><i>Windows<b/>NT</i><par n="Linux__np"/></e>
+<e lm="Windows Phone"><i>Windows<b/>Phone</i><par n="Linux__np"/></e>
+<e lm="Windows Server"><i>Windows<b/>Server</i><par n="Linux__np"/></e>
+<e lm="Windows Vista"><i>Windows<b/>Vista</i><par n="Linux__np"/></e>
+<e lm="Windows XP"><i>Windows<b/>XP</i><par n="Linux__np"/></e>
+<e lm="Wolfenstein"><i>Wolfenstein</i><par n="Linux__np"/></e>
+<e lm="Word"><i>Word</i><par n="Linux__np"/></e>
+<e lm="WordPerfect"><i>WordPerfect</i><par n="Linux__np"/></e>
+<e lm="Xerox"><i>Xerox</i><par n="Linux__np"/></e>
+<e lm="YouTube"><i>YouTube</i><par n="Linux__np"/></e>
+<e lm="Zork"><i>Zork</i><par n="Linux__np"/></e>
+<e lm="eldiario.es"><i>eldiario.es</i><par n="Linux__np"/></e>
+<e lm="iOS"><i>iOS</i><par n="Linux__np"/></e>
+<e lm="iPad"><i>iPad</i><par n="Linux__np"/></e>
+<e lm="iPhone"><i>iPhone</i><par n="Linux__np"/></e>
+<e lm="iPod"><i>iPod</i><par n="Linux__np"/></e>
+<e lm="iTunes"><i>iTunes</i><par n="Linux__np"/></e>
+<e lm="interNOSTRUM"><i>interNOSTRUM</i><par n="Linux__np"/></e>
+<e lm="patronat Sant Miquel"><i>patronat<b/>Sant<b/>Miquel</i><par n="Linux__np"/></e>
+<e lm="pdf"><i>pdf</i><par n="Linux__np"/></e>
+<e lm="Òmnium"><i>Òmnium</i><par n="Linux__np"/></e>
+<e lm="AMPA"><i>AMPA</i><par n="Wikipedia__np"/></e>
+<e lm="APA"><i>APA</i><par n="Wikipedia__np"/></e>
+<e lm="AV"><i>AV</i><par n="Wikipedia__np"/></e>
+<e lm="Abengoa"><i>Abengoa</i><par n="Wikipedia__np"/></e>
+<e lm="Acciona"><i>Acciona</i><par n="Wikipedia__np"/></e>
+<e lm="Acesa"><i>Acesa</i><par n="Wikipedia__np"/></e>
+<e lm="Adena"><i>Adena</i><par n="Wikipedia__np"/></e>
+<e lm="Afinsa"><i>Afinsa</i><par n="Wikipedia__np"/></e>
+<e lm="Airbus"><i>Airbus</i><par n="Wikipedia__np"/></e>
+<e lm="Airtel"><i>Airtel</i><par n="Wikipedia__np"/></e>
+<e lm="Al-Qaïda"><i>Al-Qaïda</i><par n="Wikipedia__np"/></e>
+<e lm="Alitalia"><i>Alitalia</i><par n="Wikipedia__np"/></e>
+<e lm="Altavista"><i>Altavista</i><par n="Wikipedia__np"/></e>
+<e lm="Amnistia Internacional"><i>Amnistia<b/>Internacional</i><par n="Wikipedia__np"/></e>
+<e lm="Anacom"><i>Anacom</i><par n="Wikipedia__np"/></e>
+<e lm="Antaviana"><i>Antaviana</i><par n="Wikipedia__np"/></e>
+<e lm="Aransalut"><i>Aransalut</i><par n="Wikipedia__np"/></e>
+<e lm="Argentaria"><i>Argentaria</i><par n="Wikipedia__np"/></e>
+<e lm="Artnodes"><i>Artnodes</i><par n="Wikipedia__np"/></e>
+<e lm="Astroc"><i>Astroc</i><par n="Wikipedia__np"/></e>
+<e lm="Atari"><i>Atari</i><par n="Wikipedia__np"/></e>
+<e lm="Atrium"><i>Atrium</i><par n="Wikipedia__np"/></e>
+<e lm="Autoeuropa"><i>Autoeuropa</i><par n="Wikipedia__np"/></e>
+<e lm="Bandai"><i>Bandai</i><par n="Wikipedia__np"/></e>
+<e lm="Bauhaus"><i>Bauhaus</i><par n="Wikipedia__np"/></e>
+<e lm="Bayer"><i>Bayer</i><par n="Wikipedia__np"/></e>
+<e lm="Benetton"><i>Benetton</i><par n="Wikipedia__np"/></e>
+<e lm="Bethesda Softworks"><i>Bethesda<b/>Softworks</i><par n="Wikipedia__np"/></e>
+<e lm="Bloomberg"><i>Bloomberg</i><par n="Wikipedia__np"/></e>
+<e lm="CC.OO."><i>CC.OO.</i><par n="Wikipedia__np"/></e>
+<e lm="CISA"><i>CISA</i><par n="Wikipedia__np"/></e>
+<e lm="Cadena SER"><i>Cadena<b/>SER</i><par n="Wikipedia__np"/></e>
+<e lm="Caixa Catalunya"><i>Caixa<b/>Catalunya</i><par n="Wikipedia__np"/></e>
+<e lm="Caja Madrid"><i>Caja<b/>Madrid</i><par n="Wikipedia__np"/></e>
+<e lm="Caja Mediterráneo"><i>Caja<b/>Mediterráneo</i><par n="Wikipedia__np"/></e>
+<e lm="Castanyada"><i>Castanyada</i><par n="Wikipedia__np"/></e>
+<e lm="Catalunya Caixa"><i>Catalunya<b/>Caixa</i><par n="Wikipedia__np"/></e>
+<e lm="Catalunya Ràdio"><i>Catalunya<b/>Ràdio</i><par n="Wikipedia__np"/></e>
+<e lm="Champions"><i>Champions</i><par n="Wikipedia__np"/></e>
+<e lm="Champions League"><i>Champions<b/>League</i><par n="Wikipedia__np"/></e>
+<e lm="Coca-Cola"><i>Coca-Cola</i><par n="Wikipedia__np"/></e>
+<e lm="Cofidis"><i>Cofidis</i><par n="Wikipedia__np"/></e>
+<e lm="Convergència"><i>Convergència</i><par n="Wikipedia__np"/></e>
+<e lm="Convergència i Unió"><i>Convergència<b/>i<b/>Unió</i><par n="Wikipedia__np"/></e>
+<e lm="Dreamcast"><i>Dreamcast</i><par n="Wikipedia__np"/></e>
+<e lm="EA"><i>EA</i><par n="Wikipedia__np"/></e>
+<e lm="EcoUniversitat"><i>EcoUniversitat</i><par n="Wikipedia__np"/></e>
+<e lm="Electronic Arts"><i>Electronic<b/>Arts</i><par n="Wikipedia__np"/></e>
+<e lm="Enciclopèdia Catalana"><i>Enciclopèdia<b/>Catalana</i><par n="Wikipedia__np"/></e>
+<e lm="Ertzaintza"><i>Ertzaintza</i><par n="Wikipedia__np"/></e>
+<e lm="Escola de Belles Arts de Sant Carles"><i>Escola<b/>de<b/>Belles<b/>Arts<b/>de<b/>Sant<b/>Carles</i><par n="Wikipedia__np"/></e>
+<e lm="Espasa"><i>Espasa</i><par n="Wikipedia__np"/></e>
+<e lm="Espasa Calpe"><i>Espasa<b/>Calpe</i><par n="Wikipedia__np"/></e>
+<e lm="Esquerra"><i>Esquerra</i><par n="Wikipedia__np"/></e>
+<e lm="Esquerra Republicana"><i>Esquerra<b/>Republicana</i><par n="Wikipedia__np"/></e>
+<e lm="Parlement Européen"><i>Parlement<b/>Européen</i><par n="Linux__np"/></e>
+<e lm="Euroligue"><i>Euroligue</i><par n="Wikipedia__np"/></e>
+<e lm="Falange"><i>Falange</i><par n="Wikipedia__np"/></e>
+<e lm="Famicom"><i>Famicom</i><par n="Wikipedia__np"/></e>
+<e lm="Fecsa"><i>Fecsa</i><par n="Wikipedia__np"/></e>
+<e lm="Fecsa-Endesa"><i>Fecsa-Endesa</i><par n="Wikipedia__np"/></e>
+<e lm="Fundació Catalana de l'Esplai"><i>Fundació<b/>Catalana<b/>de<b/>l'Esplai</i><par n="Wikipedia__np"/></e>
+<e lm="GameBoy"><i>GameBoy</i><par n="Wikipedia__np"/></e>
+<e lm="GameBoy Advance"><i>GameBoy<b/>Advance</i><par n="Wikipedia__np"/></e>
+<e lm="GameBoy Advance SP"><i>GameBoy<b/>Advance<b/>SP</i><par n="Wikipedia__np"/></e>
+<e lm="GameBoy Color"><i>GameBoy<b/>Color</i><par n="Wikipedia__np"/></e>
+<e lm="GameBoy Micro"><i>GameBoy<b/>Micro</i><par n="Wikipedia__np"/></e>
+<e lm="GameBoy Pocket"><i>GameBoy<b/>Pocket</i><par n="Wikipedia__np"/></e>
+<e lm="GameCube"><i>GameCube</i><par n="Wikipedia__np"/></e>
+<e lm="Generalitat Valenciana"><i>Generalitat<b/>Valenciana</i><par n="Wikipedia__np"/></e>
+<e lm="Generalitat de Catalunya"><i>Generalitat<b/>de<b/>Catalunya</i><par n="Wikipedia__np"/></e>
+<e lm="Hewlett-Packard"><i>Hewlett-Packard</i><par n="Wikipedia__np"/></e>
+<e lm="Hitachi"><i>Hitachi</i><par n="Wikipedia__np"/></e>
+<e lm="Honda"><i>Honda</i><par n="Wikipedia__np"/></e>
+<e lm="Iberia"><i>Iberia</i><par n="Wikipedia__np"/></e>
+<e lm="Iliade"><i>Iliade</i><par n="Wikipedia__np"/></e>
+<e lm="Interpol"><i>Interpol</i><par n="Wikipedia__np"/></e>
+<e lm="Intifada"><i>Intifada</i><par n="Wikipedia__np"/></e>
+<e lm="Juventus"><i>Juventus</i><par n="Wikipedia__np"/></e>
+<e lm="La Razón"><i>La<b/>Razón</i><par n="Wikipedia__np"/></e>
+<e lm="La Vanguardia"><i>La<b/>Vanguardia</i><par n="Wikipedia__np"/></e>
+<e lm="Lufthansa"><i>Lufthansa</i><par n="Wikipedia__np"/></e>
+<e lm="MTV"><i>MTV</i><par n="Wikipedia__np"/></e>
+<e lm="Mastercard"><i>Mastercard</i><par n="Wikipedia__np"/></e>
+<e lm="Mazda"><i>Mazda</i><par n="Wikipedia__np"/></e>
+<e lm="Mediapro"><i>Mediapro</i><par n="Wikipedia__np"/></e>
+<e lm="Mercedes-Benz"><i>Mercedes-Benz</i><par n="Wikipedia__np"/></e>
+<e lm="Metro-Goldwyn-Mayer"><i>Metro-Goldwyn-Mayer</i><par n="Wikipedia__np"/></e>
+<e lm="Moritz"><i>Moritz</i><par n="Wikipedia__np"/></e>
+<e lm="Motorola"><i>Motorola</i><par n="Wikipedia__np"/></e>
+<e lm="Movistar"><i>Movistar</i><par n="Wikipedia__np"/></e>
+<e lm="Mozilla"><i>Mozilla</i><par n="Wikipedia__np"/></e>
+<e lm="New Nintendo 2DS"><i>New<b/>Nintendo<b/>2DS</i><par n="Wikipedia__np"/></e>
+<e lm="New Nintendo 3DS"><i>New<b/>Nintendo<b/>3DS</i><par n="Wikipedia__np"/></e>
+<e lm="New Nintendo 3DS XL"><i>New<b/>Nintendo<b/>3DS<b/>XL</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo"><i>Nintendo</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo 2DS"><i>Nintendo<b/>2DS</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo 3DS"><i>Nintendo<b/>3DS</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo 3DS XL"><i>Nintendo<b/>3DS<b/>XL</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo 64"><i>Nintendo<b/>64</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo DS"><i>Nintendo<b/>DS</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo DS Lite"><i>Nintendo<b/>DS<b/>Lite</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo DSi"><i>Nintendo<b/>DSi</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo DSi XL"><i>Nintendo<b/>DSi<b/>XL</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo Entertainment System"><i>Nintendo<b/>Entertainment<b/>System</i><par n="Wikipedia__np"/></e>
+<e lm="Nintendo Switch"><i>Nintendo<b/>Switch</i><par n="Wikipedia__np"/></e>
+<e lm="Nokia"><i>Nokia</i><par n="Wikipedia__np"/></e>
+<e lm="Nvidia"><i>Nvidia</i><par n="Wikipedia__np"/></e>
+<e lm="OTAN"><i>OTAN</i><par n="Wikipedia__np"/></e>
+<e lm="Odyssey"><i>Odyssey</i><par n="Wikipedia__np"/></e>
+<e lm="Onda Cero"><i>Onda<b/>Cero</i><par n="Wikipedia__np"/></e>
+<e lm="PAC"><i>PAC</i><par n="Wikipedia__np"/></e>
+<e lm="PSP"><i>PSP</i><par n="Wikipedia__np"/></e>
+<e lm="Pegasus Airlines"><i>Pegasus<b/>Airlines</i><par n="Wikipedia__np"/></e>
+<e lm="Pepsi"><i>Pepsi</i><par n="Wikipedia__np"/></e>
+<e lm="Peugeot"><i>Peugeot</i><par n="Wikipedia__np"/></e>
+<e lm="PlayStation"><i>PlayStation</i><par n="Wikipedia__np"/></e>
+<e lm="PlayStation 2"><i>PlayStation<b/>2</i><par n="Wikipedia__np"/></e>
+<e lm="PlayStation 3"><i>PlayStation<b/>3</i><par n="Wikipedia__np"/></e>
+<e lm="PlayStation 4"><i>PlayStation<b/>4</i><par n="Wikipedia__np"/></e>
+<e lm="PlayStation Portable"><i>PlayStation<b/>Portable</i><par n="Wikipedia__np"/></e>
+<e lm="PlayStation Vita"><i>PlayStation<b/>Vita</i><par n="Wikipedia__np"/></e>
+<e lm="Première Guerre mondiale"><i>Première<b/>Guerre<b/>mondiale</i><par n="Wikipedia__np"/></e>
+<e lm="Seconde Guerre mondiale"><i>Seconde<b/>Guerre<b/>mondiale</i><par n="Wikipedia__np"/></e>
+<e lm="Deuxième Guerre mondiale"><i>Deuxième<b/>Guerre<b/>mondiale</i><par n="Wikipedia__np"/></e>
+<e lm="Querimònia"><i>Querimònia</i><par n="Wikipedia__np"/></e>
+<e lm="Real Sociedad"><i>Real<b/>Sociedad</i><par n="Wikipedia__np"/></e>
+<e lm="Retevisión"><i>Retevisión</i><par n="Wikipedia__np"/></e>
+<e lm="Reuters"><i>Reuters</i><par n="Wikipedia__np"/></e>
+<e lm="Ràdio Nou"><i>Ràdio<b/>Nou</i><par n="Wikipedia__np"/></e>
+<e lm="SEGA"><i>SEGA</i><par n="Wikipedia__np"/></e>
+<e lm="SEGA Dreamcast"><i>SEGA<b/>Dreamcast</i><par n="Wikipedia__np"/></e>
+<e lm="Seat"><i>Seat</i><par n="Wikipedia__np"/></e>
+<e lm="Sexta"><i>Sexta</i><par n="Wikipedia__np"/></e>
+<e lm="Stella Artois"><i>Stella<b/>Artois</i><par n="Wikipedia__np"/></e>
+<e lm="Super Nintendo Entertainment System"><i>Super<b/>Nintendo<b/>Entertainment<b/>System</i><par n="Wikipedia__np"/></e>
+<e lm="Supercoupe"><i>Supercoupe</i><par n="Wikipedia__np"/></e>
+<e lm="Tele-5"><i>Tele-5</i><par n="Wikipedia__np"/></e>
+<e lm="Telefonica"><i>Telefónica</i><par n="Wikipedia__np"/></e>
+<e lm="Telstra"><i>Telstra</i><par n="Wikipedia__np"/></e>
+<e lm="Tesla"><i>Tesla</i><par n="Wikipedia__np"/></e>
+<e lm="TfL"><i>TfL</i><par n="Wikipedia__np"/></e>
+<e lm="ThyssenKrupp"><i>ThyssenKrupp</i><par n="Wikipedia__np"/></e>
+<e lm="Toshiba"><i>Toshiba</i><par n="Wikipedia__np"/></e>
+<e lm="Toyota"><i>Toyota</i><par n="Wikipedia__np"/></e>
+<e lm="Transport for London"><i>Transport<b/>for<b/>London</i><par n="Wikipedia__np"/></e>
+<e lm="Trust"><i>Trust</i><par n="Wikipedia__np"/></e>
+<e lm="Unicaja"><i>Unicaja</i><par n="Wikipedia__np"/></e>
+<e lm="Universitat Oberta d'Estiu"><i>Universitat<b/>Oberta<b/>d'Estiu</i><par n="Wikipedia__np"/></e>
+<e lm="Universitat Oberta de Catalunya"><i>Universitat<b/>Oberta<b/>de<b/>Catalunya</i><par n="Wikipedia__np"/></e>
+<e lm="Unión Fenosa"><i>Unión<b/>Fenosa</i><par n="Wikipedia__np"/></e>
+<e lm="Vallbona"><i>Vallbona</i><par n="Wikipedia__np"/></e>
+<e lm="VilaWeb"><i>VilaWeb</i><par n="Wikipedia__np"/></e>
+<e lm="Visa"><i>Visa</i><par n="Wikipedia__np"/></e>
+<e lm="Visa Electron"><i>Visa<b/>Electron</i><par n="Wikipedia__np"/></e>
+<e lm="Vodafone"><i>Vodafone</i><par n="Wikipedia__np"/></e>
+<e lm="Vogue"><i>Vogue</i><par n="Wikipedia__np"/></e>
+<e lm="Vueling"><i>Vueling</i><par n="Wikipedia__np"/></e>
+<e lm="Wii"><i>Wii</i><par n="Wikipedia__np"/></e>
+<e lm="Wii U"><i>Wii<b/>U</i><par n="Wikipedia__np"/></e>
+<e lm="Wikimedia"><i>Wikimedia</i><par n="Wikipedia__np"/></e>
+<e lm="Wikipedia"><i>Wikipedia</i><par n="Wikipedia__np"/></e>
+<e lm="Xbox"><i>Xbox</i><par n="Wikipedia__np"/></e>
+<e lm="Xbox 360"><i>Xbox<b/>360</i><par n="Wikipedia__np"/></e>
+<e lm="Xbox One"><i>Xbox<b/>One</i><par n="Wikipedia__np"/></e>
+<e lm="Xbox One X"><i>Xbox<b/>One<b/>X</i><par n="Wikipedia__np"/></e>
+<e lm="Xunta"><i>Xunta</i><par n="Wikipedia__np"/></e>
+<e lm="Xàbia Viva"><i>Xàbia<b/>Viva</i><par n="Wikipedia__np"/></e>
+<e lm="Yamaha"><i>Yamaha</i><par n="Wikipedia__np"/></e>
+<e lm="casadellibro.com"><i>casadellibro.com</i><par n="Wikipedia__np"/></e>
+<e lm="la Caixa"><i>la<b/>Caixa</i><par n="Wikipedia__np"/></e>
+<e lm="la Fura dels Baus"><i>la<b/>Fura<b/>dels<b/>Baus</i><par n="Wikipedia__np"/></e>
+<e lm="la Generalitat"><i>la<b/>Generalitat</i><par n="Wikipedia__np"/></e>
+<e lm="la Magrana"><i>la<b/>Magrana</i><par n="Wikipedia__np"/></e>
+<e lm="la Salle"><i>la<b/>Salle</i><par n="Wikipedia__np"/></e>
+<e lm="tv3"><i>tv3</i><par n="Wikipedia__np"/></e>
+<e lm="Ondas"><i>Ondas</i><par n="Linux__np"/></e>
 
 <!-- xxxx -->
   </section>
