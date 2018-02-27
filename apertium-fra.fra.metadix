@@ -28095,10 +28095,9 @@
 <e lm="Isaac"><i>Isaac</i><par n="Antoine__np"/></e>
 <e lm="Isabel"><i>Isabel</i><par n="Marie__np"/></e>
 <e lm="Isabella"><i>Isabella</i><par n="Marie__np"/></e>
-<e lm="Isabelle"><i>Isabelle</i><par n="Abraham__np"/></e>
 <e lm="Isabelle"><i>Isabelle</i><par n="Saussure__np"/></e>
 <e lm="Isabelle"><i>Isabelle</i><par n="Marie__np"/></e>
-<e lm="Isabelle Ire la Catholique"><i>Isabelle<b/>Ire<b/>la<b/>Catholique</i><par n="Abraham__np"/></e>
+<e lm="Isabelle Ire la Catholique"><i>Isabelle<b/>Ire<b/>la<b/>Catholique</i><par n="Marie__np"/></e>
 <e lm="Isaura"><i>Isaura</i><par n="Marie__np"/></e>
 <e lm="Isdabe"><i>Isdabe</i><par n="Andorre__np"/></e>
 <e lm="Isidora"><i>Isidora</i><par n="Marie__np"/></e>
@@ -31559,21 +31558,22 @@
 <e lm="Phaneuf" a="hector"><i>Phaneuf</i><par n="Saussure__np"/></e>
 <e lm="Pharand" a="hector"><i>Pharand</i><par n="Saussure__np"/></e>
 <e lm="Pharsale"><i>Pharsale</i><par n="Andorre__np"/></e>
-<e lm="Phelps"><i>Phelps</i><par n="Abraham__np"/></e>
-<e lm="Phidias"><i>Phidias</i><par n="Abraham__np"/></e>
+<e lm="Phelps"><i>Phelps</i><par n="Saussure__np"/></e>
+<e lm="Phidias"><i>Phidias</i><par n="Antoine__np"/></e>
 <e lm="Phil"><i>Phil</i><par n="Antoine__np"/></e>
 <e lm="Philadelphie"><i>Philadelphie</i><par n="Andorre__np"/></e>
 <e lm="Philae"><i>Philae</i><par n="Andorre__np"/></e>
 <e lm="Philip"><i>Philip</i><par n="Antoine__np"/></e>
 <e lm="Philippa"><i>Philippa</i><par n="Marie__np"/></e>
 <e lm="Philippe"><i>Philippe</i><par n="Antoine__np"/></e>
-<e lm="Philippe de Grèce"><i>Philippe<b/>de<b/>Grèce</i><par n="Abraham__np"/></e>
-<e lm="Philippe Ier le Beau"><i>Philippe<b/>Ier<b/>le<b/>Beau</i><par n="Abraham__np"/></e>
-<e lm="Philippe II"><i>Philippe<b/>II</i><par n="Abraham__np"/></e>
-<e lm="Philippe II le Hardi"><i>Philippe<b/>II<b/>le<b/>Hardi</i><par n="Abraham__np"/></e>
-<e lm="Philippe IV le Bel"><i>Philippe<b/>IV<b/>le<b/>Bel</i><par n="Abraham__np"/></e>
-<e lm="Philippe V le Long"><i>Philippe<b/>V<b/>le<b/>Long</i><par n="Abraham__np"/></e>
-<e lm="Philippe VI de Valois"><i>Philippe<b/>VI<b/>de<b/>Valois</i><par n="Abraham__np"/></e>
+<e lm="Philippe"><i>Philippe</i><par n="Saussure__np"/></e>
+<e lm="Philippe de Grèce"><i>Philippe<b/>de<b/>Grèce</i><par n="Antoine__np"/></e>
+<e lm="Philippe Ier le Beau"><i>Philippe<b/>Ier<b/>le<b/>Beau</i><par n="Antoine__np"/></e>
+<e lm="Philippe II"><i>Philippe<b/>II</i><par n="Antoine__np"/></e>
+<e lm="Philippe II le Hardi"><i>Philippe<b/>II<b/>le<b/>Hardi</i><par n="Antoine__np"/></e>
+<e lm="Philippe IV le Bel"><i>Philippe<b/>IV<b/>le<b/>Bel</i><par n="Antoine__np"/></e>
+<e lm="Philippe V le Long"><i>Philippe<b/>V<b/>le<b/>Long</i><par n="Antoine__np"/></e>
+<e lm="Philippe VI de Valois"><i>Philippe<b/>VI<b/>de<b/>Valois</i><par n="Antoine__np"/></e>
 <e lm="Philippes"><i>Philippes</i><par n="Andorre__np"/></e>
 <e lm="Philippines"><i>Philippines</i><par n="Bahamas__np"/></e>
 <e lm="Philips"><i>Philips</i><par n="Carrefour__np"/></e>
@@ -38862,7 +38862,8 @@
 <e lm="entrer en vigueur"><i>entr</i><par n="abaiss/er__vblex"/><p><l><b/>en<b/>vigueur</l><r><g><b/>en<b/>vigueur</g></r></p></e>
 <e lm="entrer"><i>entr</i><par n="abaiss/er__vblex"/></e>
 <e lm="entraver"><i>entrav</i><par n="abaiss/er__vblex"/></e>
-<e lm="entraîner"><i>entraîn</i><par n="abaiss/er__vblex"/></e>
+<e lm="entrainer"><i>entrain</i><par n="abaiss/er__vblex"/></e>
+<e r="LR" lm="entraîner" c="ortographe traditionnelle"><p><l>entraîn</l><r>entrain</r></p><par n="abaiss/er__vblex"/></e>
 <e lm="entrecouper"><i>entrecoup</i><par n="abaiss/er__vblex"/></e>
 <e lm="entrecroiser"><i>entrecrois</i><par n="abaiss/er__vblex"/></e>
 <e lm="entreprendre"><i>entrepr</i><par n="appr/endre__vblex"/></e>
@@ -41120,6 +41121,7 @@
 <e lm="la Salle"><i>la<b/>Salle</i><par n="Wikipedia__np"/></e>
 <e lm="tv3"><i>tv3</i><par n="Wikipedia__np"/></e>
 <e lm="Ondas"><i>Ondas</i><par n="Linux__np"/></e>
+<e lm="EDF"><i>EDF</i><par n="BBC__n"/></e>
 
 <!-- xxxx -->
   </section>

@@ -14,6 +14,8 @@
 /autogen.sh -text
 /buscaPar.xsl -text svneol=unset#text/plain
 /configure.ac -text
+fra-tagger-data/fra.crp.txt -text
+/fra-unsupervised.make -text
 /fra.prob -text svneol=unset#unset
 /modes.xml -text svneol=unset#text/plain
 /principal.xsl -text svneol=unset#text/plain

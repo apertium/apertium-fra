@@ -126,6 +126,7 @@ LIST Helas = "hélas" ;
 LIST Des = "dès" ;
 LIST Entre = "entre" ;
 LIST Pendant = "pendant" ; 
+LIST Or = "or" ; 
 LIST Si = "si" ;
 LIST S = "<s'>"i ;
 LIST Ouvrir = "ouvrir" ;
@@ -160,7 +161,8 @@ SET Noun_Adj = N OR A ;
 SET Noun_Adj_PP = N OR A OR PP ;
 SET Adj_PP = A OR PP ;
 SET Adv_PreAdv = Adv OR PreAdv ;
-SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf;
+SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf ;
+SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
 # verbs Vblex que típicament impliquen subjuntiu
 SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
@@ -232,11 +234,17 @@ REMOVE Ifi IF (0 Pri + P2 OR Ifi + P2) ;
 
 SELECT Inf IF (0 Être) (-1 Vbmod) ;
   ## Ce doit être Jean ! 
-REMOVE N IF (-1 N) (0C Est) (1 A OR PP) ;
-REMOVE A IF (-1 N) (0C Est) (1 A OR PP) ;
+REMOVE N IF (-1 N OR A OR Prn) (0C Est) (1 A OR PP) ;
+REMOVE A IF (-1 N OR A OR Prn) (0C Est) (1 A OR PP) ;
   ## la demande est suffisante
-REMOVE N IF (-1 N) (0C Est) (1 Det) ;
-REMOVE A IF (-1 N) (0C Est) (1 Det) ;
+REMOVE N IF (-1 N OR A OR Prn) (0C Est) (1 Adv OR PreAdv) (2 A OR PP) ;
+REMOVE A IF (-1 N OR A OR Prn) (0C Est) (1 Adv OR PreAdv) (2 A OR PP) ;
+  ## est très satisfait
+REMOVE N IF (-1 N OR A OR Prn) (0C Est) (1 Det) ;
+REMOVE A IF (-1 N OR A OR Prn) (0C Est) (1 Det) ;
+REMOVE N IF (-1 NP OR unknown) (0C ("<est>")) ;
+REMOVE A IF (-1 NP OR unknown) (0C ("<est>")) ;
+SELECT N IF (-2 ("à")) (-1 Det + Def) (0C Est) ;
 
 
 SELECT Inf IF (0 Être) (-1 Pro) (-2 Vbmod) ;
@@ -293,6 +301,12 @@ SELECT Itg IF (-2C V LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
   
 REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Prn) ;
+
+REMOVE A (*-1 Cnj_Rel_End_NoInf) (0C Verb OR A LINK NOT *1 Verb) ;
+REMOVE A (*-1 Cnj_Rel_End_NoInf) (0C Verb OR N LINK NOT *1 Verb) ;
+  ## Une œuvre romanesque qui célèbre à sa façon l'effervescence de l'Art nouveau.
+REMOVE Verb (OC Verb OR A OR N LINK NOT 0 Inf) (1 Être LINK 0 P1 OR P2 OR P3) ;
+  ## Si la demande est suffisante
 
 # elección de subjuntivo después de "que"
 SELECT Prs (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
@@ -676,12 +690,17 @@ SELECT Prep (0 Pendant) (1 ("de")) (2 A OR N) ;
 REMOVE V (0 Pendant) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Pendant) (*1 Verb BARRIER Cnj_Rel) ;
 
+SELECT N (-1 ("en")) (0 ("or")) ;
+
 SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
 SELECT PreAdv IF (0 Si) (1C A) (2 ("que")) ;
   ## si intelligente que
 SELECT PreAdv IF (0 Si) (1C A) (2C Prep) ;
   ## si différents dans le monde
+SELECT CnjAdv IF (-1 BOS) (0 Si) (1 Det OR Tn) ;
+  ## Si la demande nationale est suffisante
+
 SELECT Adv IF (-1 Si) (0 Adv OR PreAdv);
   ## si bien / si mal
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;
@@ -730,11 +749,27 @@ SELECT Masc_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Masc
 SELECT Fem_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Fem) (2 Noun_Adj_PP + Fem) (3C Fem_strict) ;
 SELECT Masc_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Masc) (2 Noun_Adj_PP + Masc) (3C Masc_strict) ;
 
+SELECT Masc IF (-1 Det + Masc_strict) (0C N OR A + Masc LINK 0 Fem) ;
+SELECT Masc IF (-1 A + Masc_strict) (0C N OR A + Masc LINK 0 Fem) ;
+SELECT Fem IF (-1 Det + Fem_strict) (0C N OR A + Fem LINK 0 Masc) ;
+SELECT Fem IF (-1 A + Fem_strict) (0C N OR A + Fem LINK 0 Masc) ;
+  ## le primer tour
+
 SELECT N IF (-1C V) (0C N OR PP) (1 Prep) ;
   ## porter plainte contre
 
-SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub) ;
+SELECT N IF (-1 Det + MascSg) (0 N + MascSg LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
+SELECT N IF (-1 Det + FemSg) (0 N + FemSg LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
+SELECT N IF (-1 Det + MascPl) (0 N + MascPl LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
+SELECT N IF (-1 Det + FemPl) (0 N + FemPl LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
+SELECT N IF (-1 Det + MascSg) (0 N + MascSg LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
+SELECT N IF (-1 Det + FemSg) (0 N + FemSg LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
+SELECT N IF (-1 Det + MascPl) (0 N + MascPl LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
+SELECT N IF (-1 Det + FemPl) (0 N + FemPl LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
+
+SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub OR Adv) ;
   ## ces vacances d'été pour/qui/que
+  ## l'expert en balistique n'a pas
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;

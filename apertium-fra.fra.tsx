@@ -57,6 +57,8 @@
   </def-label> 
   <def-label name="ANTROPONIM">
     <tags-item tags="np.ant"/>
+    <tags-item tags="np.ant.*"/>
+    <tags-item tags="np.cog.*"/>
   </def-label>
   <def-label name="TOPONIM">
     <tags-item tags="np.top.*"/><!-- gender must be specified for French toponyms! -->
@@ -66,6 +68,7 @@
   </def-label>
   <def-label name="NPALTRES">
     <tags-item tags="np.al"/>
+    <tags-item tags="np.al.*"/>
   </def-label>
   <def-label name="NUM" closed="true">
     <tags-item tags="num.*"/>
