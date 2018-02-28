@@ -654,6 +654,7 @@ SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Ve
   ## que nous n'avons pas apris
 
 SELECT Prep IF (0 En) (1C N OR A) ;
+SELECT Prep IF (0 En) (1C Num) ;
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
