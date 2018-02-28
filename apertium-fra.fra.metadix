@@ -18295,6 +18295,11 @@
 <e lm="poème"><i>poème</i><par n="livre__n"/></e>
 <e lm="poésie"><i>poésie</i><par n="abeille__n"/></e>
 <e lm="poêle"><i>poêle</i><par n="abeille__n"/></e>
+<e lm="poêle"><i>poêle</i><par n="livre__n"/></e>
+<e r="LR" lm="poêle"><p><l>poële</l><r>poêle</r></p><par n="abeille__n"/></e>
+<e r="LR" lm="poêle"><p><l>poële</l><r>poêle</r></p><par n="livre__n"/></e>
+<e lm="paella"><i>paella</i><par n="abeille__n"/></e>
+<e r="LR" lm="paella"><p><l>paëlla</l><r>paella</r></p><par n="abeille__n"/></e>
 <e lm="PP"><i>PP</i><par n="BBVA__n"/></e>
 <e lm="PPI"><i>PPI</i><par n="BBVA__n"/></e>
 <e lm="PR"><i>PR</i><par n="BBVA__n"/></e>
@@ -25252,20 +25257,20 @@
 <e lm="Corisco"><i>Corisco</i><par n="Andorre__np"/></e>
 <e lm="Corm"><i>Corm</i><par n="Abraham__np"/></e>
 <e lm="Cormier" a="hector"><i>Cormier</i><par n="Saussure__np"/></e>
-<e lm="Corne d'Or"><i>Corne<b/>d'Or</i><par n="Andorre__np"/></e>
-<e lm="corne de l'Afrique"><i>corne<b/>de<b/>l'Afrique</i><par n="Andorre__np"/></e>
-<e lm="Cornelius Nepos"><i>Cornelius<b/>Nepos</i><par n="Abraham__np"/></e>
+<e lm="Corne d'Or"><i>Corne<b/>d'Or</i><par n="Bulgarie__np"/></e>
+<e lm="corne de l'Afrique"><i>corne<b/>de<b/>l'Afrique</i><par n="Bulgarie__np"/></e>
+<e lm="Cornelius Nepos"><i>Cornelius<b/>Nepos</i><par n="Antoine__np"/></e>
 <e lm="Cornellà"><i>Cornellà</i><par n="Iran__np"/></e>
-<e lm="Cornouailles"><i>Cornouailles</i><par n="Andorre__np"/></e>
+<e lm="Cornouailles"><i>Cornouailles</i><par n="Bulgarie__np"/></e>
+<e lm="Cornouailles"><i>Cornouailles</i><par n="Bahamas__np"/></e>
 <e lm="Cornwallis"><i>Cornwallis</i><par n="Saussure__np"/></e>
-<e lm="Coromina"><i>Coromina</i><par n="Abraham__np"/></e>
 <e lm="Coromina"><i>Coromina</i><par n="Saussure__np"/></e>
 <e lm="Corominas"><i>Corominas</i><par n="Saussure__np"/></e>
 <e lm="Coromines"><i>Coromines</i><par n="Saussure__np"/></e>
 <e lm="Corporate"><i>Corporate</i><par n="Carrefour__np"/></e>
 <e lm="Corral"><i>Corral</i><par n="Saussure__np"/></e>
-<e lm="Corrales"><i>Corrales</i><par n="Andorre__np"/></e>
-<e lm="Correa"><i>Correa</i><par n="Abraham__np"/></e>
+<e lm="Corrales"><i>Corrales</i><par n="Saussure__np"/></e>
+<e lm="Correa"><i>Correa</i><par n="Saussure__np"/></e>
 <e lm="Correal"><i>Correal</i><par n="Saussure__np"/></e>
 <e lm="Correcher"><i>Correcher</i><par n="Saussure__np"/></e>
 <e lm="Corredoira"><i>Corredoira</i><par n="Abraham__np"/></e>
@@ -25273,11 +25278,11 @@
 <e lm="Corretger"><i>Corretger</i><par n="Saussure__np"/></e>
 <e lm="Corrigan"><i>Corrigan</i><par n="Saussure__np"/></e>
 <e lm="Corriveau" a="hector"><i>Corriveau</i><par n="Saussure__np"/></e>
-<e lm="Corrèze"><i>Corrèze</i><par n="Andorre__np"/></e>
+<e lm="Corrèze"><i>Corrèze</i><par n="Bulgarie__np"/></e>
 <e lm="Corsa"><i>Corsa</i><par n="Carrefour__np"/></e>
 <e lm="Corse"><i>Corse</i><par n="Bulgarie__np"/></e>
 <e lm="Corse-du-Sud"><i>Corse-du-Sud</i><par n="Bulgarie__np"/></e>
-<e lm="Corsica"><i>Corsica</i><par n="Andorre__np"/></e>
+<e lm="Corsica"><i>Corsica</i><par n="Bulgarie__np"/></e>
 <e lm="Cort"><i>Cort</i><par n="Saussure__np"/></e>
 <e lm="Cortina"><i>Cortina</i><par n="Saussure__np"/></e>
 <e lm="Cortés"><i>Cortés</i><par n="Saussure__np"/></e>
@@ -30004,8 +30009,6 @@
 <e lm="Mccormick"><i>Mccormick</i><par n="Saussure__np"/></e>
 <e lm="Mcculloch"><i>Mcculloch</i><par n="Saussure__np"/></e>
 <e lm="Mcdermott"><i>Mcdermott</i><par n="Saussure__np"/></e>
-<e lm="McDonald"><i>McDonald</i><par n="Andorre__np"/></e>
-<e lm="McDonald"><i>McDonald</i><par n="Saussure__np"/></e>
 <e lm="Mcdonald"><i>Mcdonald</i><par n="Saussure__np"/></e>
 <e lm="McDonald's"><i>McDonald's</i><par n="Carrefour__np"/></e>
 <e lm="Mcdonnell"><i>Mcdonnell</i><par n="Saussure__np"/></e>
@@ -33611,7 +33614,6 @@
 <e lm="Tele 5"><i>Tele<b/>5</i><par n="Carrefour__np"/></e>
 <e lm="Telebista"><i>Telebista</i><par n="Carrefour__np"/></e>
 <e lm="Telecinco"><i>Telecinco</i><par n="Wikipedia__np"/></e>
-<e lm="Telefónica"><i>Telefónica</i><par n="Carrefour__np"/></e>
 <e lm="Telekom"><i>Telekom</i><par n="Carrefour__np"/></e>
 <e lm="Telekos"><i>Telekos</i><par n="Carrefour__np"/></e>
 <e lm="Telekutxa"><i>Telekutxa</i><par n="Carrefour__np"/></e>
@@ -36053,7 +36055,7 @@
 <e lm="à l'heure"><i>à<b/>l'heure</i><par n="hier__adv"/></e>
 <e lm="à l'heure actuelle"><i>à<b/>l'heure<b/>actuelle</i><par n="hier__adv"/></e>
 <e lm="à l'intérieur"><i>à<b/>l'intérieur</i><par n="hier__adv"/></e>
-<e lm="à l’unanimité"><i>à<b/>l'unanimité</i><par n="hier__adv"/></e>
+<e lm="à l'unanimité"><i>à<b/>l'unanimité</i><par n="hier__adv"/></e>
 <e lm="à l'époque"><i>à<b/>l'époque</i><par n="hier__adv"/></e>
 <e lm="à la demande"><i>à<b/>la<b/>demande</i><par n="hier__adv"/></e>
 <e lm="à la fois"><i>à<b/>la<b/>fois</i><par n="hier__adv"/></e>
@@ -40676,13 +40678,13 @@
 <e lm="dernier-né"><p><l>derniers-nés</l>    <r>dernier-né<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="dernier-né"><p><l>dernière-née</l>    <r>dernier-né<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="dernier-né"><p><l>dernières-nées</l>  <r>dernier-né<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-<e lm="chef-d’œuvre"><p><l>chef-d’œuvre</l>  <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="chef-d’œuvre"><p><l>chefs-d’œuvre</l> <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e r="LR" lm="chef-d’œuvre"><p><l>chef-d’oeuvre</l>  <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="LR" lm="chef-d’œuvre"><p><l>chefs-d’oeuvre</l> <r>chef-d’œuvre<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="chef-d'œuvre"><p><l>chef-d'œuvre</l>  <r>chef-d'œuvre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="chef-d'œuvre"><p><l>chef-d'œuvree</l> <r>chef-d'œuvre<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR" lm="chef-d'œuvre"><p><l>chef-d'oeuvre</l>  <r>chef-d'œuvre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="LR" lm="chef-d'œuvre"><p><l>chefs-d'oeuvre</l> <r>chef-d'œuvre<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="Notre-Dame"><i>Notre-Dame</i><par n="soif__n"/></e>
-<e lm="Nostre Seigneur"><i>Nostre<b/>Seigneur</i><par n="personnel__n"/></e>
-<e lm="Nostre Père"><i>Nostre<b/>Père</i><par n="personnel__n"/></e>
+<e lm="Notre Seigneur"><i>Notre<b/>Seigneur</i><par n="personnel__n"/></e>
+<e lm="Notre Père"><i>Notre<b/>Père</i><par n="personnel__n"/></e>
 <e lm="couscous"><i>couscous</i><par n="mois__n"/></e>
 <e lm="genevois"><i>genevois</i><par n="anglais__adj"/></e>
 <e lm="Genevois"><i>Genevois</i><par n="admis__n"/></e>
@@ -41086,7 +41088,7 @@
 <e lm="Super Nintendo Entertainment System"><i>Super<b/>Nintendo<b/>Entertainment<b/>System</i><par n="Wikipedia__np"/></e>
 <e lm="Supercoupe"><i>Supercoupe</i><par n="Wikipedia__np"/></e>
 <e lm="Tele-5"><i>Tele-5</i><par n="Wikipedia__np"/></e>
-<e lm="Telefonica"><i>Telefónica</i><par n="Wikipedia__np"/></e>
+<e lm="Telefónica"><i>Telefónica</i><par n="Wikipedia__np"/></e>
 <e lm="Telstra"><i>Telstra</i><par n="Wikipedia__np"/></e>
 <e lm="Tesla"><i>Tesla</i><par n="Wikipedia__np"/></e>
 <e lm="TfL"><i>TfL</i><par n="Wikipedia__np"/></e>
@@ -41124,7 +41126,7 @@
 <e lm="la Magrana"><i>la<b/>Magrana</i><par n="Wikipedia__np"/></e>
 <e lm="la Salle"><i>la<b/>Salle</i><par n="Wikipedia__np"/></e>
 <e lm="tv3"><i>tv3</i><par n="Wikipedia__np"/></e>
-<e lm="Ondas"><i>Ondas</i><par n="Linux__np"/></e>
+<e lm="Ondas"><i>Ondas</i><par n="Jeux_olympiques__np"/></e>
 <e lm="EDF"><i>EDF</i><par n="BBC__n"/></e>
 
 <e lm="Aarab"><i>Aarab</i><par n="Saussure__np"/></e>
