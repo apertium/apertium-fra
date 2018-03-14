@@ -153,13 +153,6 @@
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="ambigu__adj">
-  <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ë</l>         <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>ës</l>        <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
-</pardef>
-
 <pardef n="andalou__adj">
   <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
@@ -269,6 +262,25 @@
   <e>       <p><l>le</l>        <r>l<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux</l>        <r>l<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>l</l>         <r>l<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="m/ûr__adj">
+  <e>       <p><l>ûr</l>          <r>ûr<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ure</l>         <r>ûr<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR" c="orthographe traditionnelle"><p><l>ûre</l>         <r>ûr<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>urs</l>         <r>ûr<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR" c="orthographe traditionnelle"><p><l>ûrs</l>         <r>ûr<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ures</l>        <r>ûr<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR" c="orthographe traditionnelle"><p><l>ûres</l>        <r>ûr<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="aig/u__adj">
+  <e>       <p><l>u</l>          <r>u<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>üe</l>         <r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR" c="orthographe traditionnelle"><p><l>uë</l>         <r>u<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>us</l>         <r>u<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ües</l>        <r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR" c="orthographe traditionnelle"><p><l>uës</l>        <r>u<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="nationa/l-socialiste__adj">
@@ -6456,7 +6468,7 @@
 <e lm="aguerri"><i>aguerri</i><par n="abaissant__adj"/></e>
 <e lm="aigre"><i>aigre</i><par n="académique__adj"/></e>
 <e lm="aigre-doux"><i>aigre-dou</i><par n="dou/x__adj"/></e>
-<e lm="aigu"><i>aigu</i><par n="abaissant__adj"/></e>
+<e lm="aigu"><i>aig</i><par n="aig/u__adj"/></e>
 <e lm="aiguisé"><i>aiguisé</i><par n="abaissant__adj"/></e>
     <!-- <e lm="à lui"><i>à<b/></i><par n="à/_lui__adj"/></e> analògament a à moi, à toi, à nous, à vous, però és pitjor el remei que l'enfermetat -->
 <e lm="aimable"><i>aimable</i><par n="académique__adj"/></e>
@@ -6505,7 +6517,7 @@
 <e lm="amer"><i>am</i><par n="ch/er__adj"/></e>
 <e lm="amateur"><i>amateur</i><par n="académique__adj"/></e>
 <e lm="amazonien"><i>amazonien</i><par n="ancien__adj"/></e>
-<e lm="ambigu"><i>ambigu</i><par n="ambigu__adj"/></e>
+<e lm="ambigu"><i>ambig</i><par n="aig/u__adj"/></e>
 <e lm="ambitieux"><i>ambitieu</i><par n="affectueu/x__adj"/></e>
 <e lm="ambulant"><i>ambulant</i><par n="abaissant__adj"/></e>
 <e lm="amharique"><i>amharique</i><par n="académique__adj"/></e>
@@ -8722,7 +8734,7 @@
 <e lm="météorique" a="jaumeortola"><i>météorique</i><par n="académique__adj"/></e>
 <e lm="météorologique"><i>météorologique</i><par n="académique__adj"/></e>
 <e lm="même"><i>même</i><par n="même__adj"/></e>
-<e lm="mûr"><i>mûr</i><par n="abaissant__adj"/></e>
+<e lm="mûr"><i>m</i><par n="m/ûr__adj"/></e>
 <e lm="naissant"><i>naissant</i><par n="abaissant__adj"/></e>
 <e lm="napolitain" a="jaumeortola"><i>napolitain</i><par n="abaissant__adj"/></e>
 <e lm="napoléonien" a="jaumeortola"><i>napoléonien</i><par n="ancien__adj"/></e>
@@ -9731,7 +9743,7 @@
 <e lm="sérieux"><i>sérieu</i><par n="affectueu/x__adj"/></e>
 <e lm="sévillan"><i>sévillan</i><par n="abaissant__adj"/></e>
 <e lm="sévère"><i>sévère</i><par n="académique__adj"/></e>
-<e lm="sûr"><i>sûr</i><par n="abaissant__adj"/></e>
+<e lm="sûr"><i>s</i><par n="m/ûr__adj"/></e>
 <e lm="tabou"><i>tabou</i><par n="abaissant__adj"/></e>
 <e lm="tactile"><i>tactile</i><par n="académique__adj"/></e>
 <e lm="tactique"><i>tactique</i><par n="académique__adj"/></e>
