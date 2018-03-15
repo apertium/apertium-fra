@@ -20975,7 +20975,7 @@
 <e lm="vigne"><i>vigne</i><par n="abeille__n"/></e>
 <e lm="vignette"><i>vignette</i><par n="abeille__n"/></e>
 <e lm="vignoble"><i>vignoble</i><par n="livre__n"/></e>
-<e lm="vigueur"><i>vigueur</i><par n="livre__n"/></e>
+<e lm="vigueur"><i>vigueur</i><par n="abeille__n"/></e>
 <e lm="viking" a="jaumeortola"><i>viking</i><par n="artiste__n"/></e>
 <e lm="vilebrequin" a="jaumeortola"><i>vilebrequin</i><par n="livre__n"/></e>
 <e lm="villa"><i>villa</i><par n="abeille__n"/></e>
