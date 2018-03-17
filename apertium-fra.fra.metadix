@@ -9061,6 +9061,7 @@
 <e lm="plaignant"><i>plaignant</i><par n="abaissant__adj"/></e>
 <e lm="plaisant"><i>plaisant</i><par n="abaissant__adj"/></e>
 <e lm="planétaire"><i>planétaire</i><par n="académique__adj"/></e>
+<e lm="interplanétaire"><i>interplanétaire</i><par n="académique__adj"/></e>
 <e lm="plastique"><i>plastique</i><par n="académique__adj"/></e>
 <e lm="plat"><i>plat</i><par n="abaissant__adj"/></e>
 <e lm="platonique" a="jaumeortola"><i>platonique</i><par n="académique__adj"/></e>
@@ -11533,6 +11534,7 @@
 <e lm="bigot" a="jaumeortola"><i>bigot</i><par n="affecté__n"/></e>
 <e lm="bijection" a="jaumeortola"><i>bijection</i><par n="abeille__n"/></e>
 <e lm="bijou" a="joan"><i>bijou</i><par n="lieu__n"/></e>
+<e lm="joyau" a="hector"><i>joyau</i><par n="lieu__n"/></e>
 <e lm="bijouterie"><i>bijouterie</i><par n="abeille__n"/></e>
 <e lm="bikini"><i>bikini</i><par n="livre__n"/></e>
 <e lm="bilan"><i>bilan</i><par n="livre__n"/></e>
@@ -49347,6 +49349,7 @@
 <e lm="colza"><i>colza</i><par n="livre__n"/></e>
 <e lm="Tibre"><i>Tibre</i><par n="Iran__np"/></e>
 
+<e lm="à l'envers"><i>à<b/>l'envers</i><par n="hier__adv"/></e>
 
 <!-- xxxx -->
   </section>
