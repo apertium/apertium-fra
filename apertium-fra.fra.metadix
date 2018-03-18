@@ -1485,6 +1485,10 @@
   <e r="LR"><p><l>t-elle</l>    <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>t-ils</l>     <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>t-il</l>      <r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>elles<b/>elles</l><r>lui<b/>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>elle<b/>elle</l><r>lui<b/>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>eux<b/>ils</l><r>lui<b/>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>lui<b/>il</l> <r>lui<b/>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
 <pardef n="dont__rel">
@@ -11604,6 +11608,7 @@
 <e lm="blogger"><i>blogger</i><par n="artiste__n"/></e>
 <e lm="blogue"><i>blogue</i><par n="livre__n"/></e>
 <e lm="blogueur" a="jaumeortola"><i>blogueu</i><par n="causeu/r__n"/></e>
+<e lm="bloguer"><i>blogu</i><par n="abaiss/er__vblex"/></e>
 <e lm="blond"><i>blond</i><par n="affecté__n"/></e>
 <e lm="blouse"><i>blouse</i><par n="abeille__n"/></e>
 <e lm="blues"><i>blues</i><par n="mois__n"/></e>
@@ -36164,6 +36169,7 @@
 <e lm="au-dessous de"><i>au-dessous<b/></i><par n="contde__pr"/></e>
 <e lm="au-dessus de"><i>au-dessus<b/></i><par n="contde__pr"/></e>
 <e lm="au-devant de"><i>au-devant<b/></i><par n="contde__pr"/></e>
+<e lm="dans la foulée de"><i>dans<b/>la<b/>foulée<b/></i><par n="contde__pr"/></e>
 <e lm="au bout de"><i>au<b/>bout<b/></i><par n="contde__pr"/></e>
 <e lm="au cours de"><i>au<b/>cours<b/></i><par n="contde__pr"/></e>
 <e lm="au delà de"><i>au<b/>delà<b/></i><par n="contde__pr"/></e>
@@ -37678,6 +37684,7 @@
 <e r="RL" lm="ceci"><p><l><a/>ceci</l>                 <r>ceci</r></p><par n="ceci__prn"/></e>
 <e r="RL" lm="en"><p><l><a/>en</l>                     <r>en</r></p><par n="en__prn"/></e>
 <e r="RL" lm="je"><p><l><a/>je</l>                     <r>je</r></p><par n="je__prn"/></e>
+<e r="RL" lm="je"><p><l>moi<b/><a/>je</l>              <r>moi<b/>je</r></p><par n="je__prn"/></e>
 <e r="RL" lm="le"><p><l><a/>l</l>                      <r>le</r></p><par n="~l__prn"/></e>
 <e r="RL" lm="me"><p><l><a/>me</l>                     <r>me</r></p><par n="me__prn"/></e>
 <e r="RL" lm="ne"><p><l><a/>ne</l>                     <r>ne</r></p><par n="en__prn"/></e>
@@ -37685,6 +37692,7 @@
 <e r="RL" lm="se"><p><l><a/>se</l>                     <r>se</r></p><par n="on__prn"/></e>
 <e r="RL" lm="te"><p><l><a/>te</l>                     <r>te</r></p><par n="te__prn"/></e>
 <e r="RL" lm="tu"><p><l><a/>tu</l>                     <r>tu</r></p><par n="tu__prn"/></e>
+<e r="RL" lm="toi tu"><p><l>toi<b/><a/>tu</l>          <r>toi<b/>tu</r></p><par n="tu__prn"/></e>
 <e lm="aucun"><i>aucun</i><par n="aucun__prn"/></e>
 <e lm="autrui"><i>autrui</i><par n="personne__prn"/></e>
 <e lm="celui"><i>ce</i><par n="ce/lui__prn"/></e>
@@ -37706,6 +37714,7 @@
 <e lm="eux tous"><p><l>eux<b/>tous</l>                 <r>eux<b/>tous</r></p><par n="eux__prn"/></e>
 <e lm="il"><par n="/il__prn"/></e>
 <e r="LR" lm="je"><p><l>je</l>                         <r>je</r></p><par n="je__prn"/></e>
+<e r="LR" lm="je"><p><l>moi<b/>je</l>                  <r>moi<b/>je</r></p><par n="je__prn"/></e>
 <e lm="le"><i>l</i><par n="l/e__prn"/></e>
 <e lm="le mien"><i>l</i><par n="l/e_mien__prn"/></e>
 <e lm="le nôtre"><i>l</i><par n="l/e_nôtre__prn"/></e>
@@ -37726,6 +37735,7 @@
 <e lm="nous-mêmes"><p><l>nous-mêmes</l>                <r>nous-mêmes</r></p><par n="nous__prn"/></e>
 <e lm="nous tous"><p><l>nous<b/>tous</l>               <r>nous<b/>tous</r></p><par n="nous__prn"/></e>
 <e lm="on"><i>on</i><par n="on__prn"/></e>
+<e lm="nous on"><i>nous<b/>on</i><par n="on__prn"/></e>
 <e lm="pas tout"><i>pas<b/>tou</i><par n="tou/t__prn"/></e>
 <e lm="personne"><i>personne</i><par n="personne__prn"/></e>
 <e lm="plus rien"><i>plus<b/>rien</i><par n="ceci__prn"/></e>
@@ -37750,6 +37760,7 @@
 <e lm="tout"><i>tou</i><par n="tou/t__prn"/></e>
 <e lm="tout le monde"><i>tout<b/>le<b/>monde</i><par n="tout_le_monde__prn"/></e>
 <e r="LR" lm="tu"><p><l>tu</l>                         <r>tu</r></p><par n="tu__prn"/></e>
+<e r="LR" lm="toi tu"><p><l>toi<b/>tu</l>              <r>toi<b/>tu</r></p><par n="tu__prn"/></e>
 <e lm="un"><i>un</i><par n="un__prn"/></e>
 <e lm="vous"><p><l>vous</l>                            <r>vous</r></p><par n="vous__prn"/></e>
 <e lm="vous-mêmes"><p><l>vous-mêmes</l>                <r>vous-mêmes</r></p><par n="vous__prn"/></e>
@@ -49527,6 +49538,8 @@
 <e lm="vilain"><i>vilain</i><par n="abaissant__adj"/></e>
 <e lm="voirie"><i>voirie</i><par n="abeille__n"/></e>
 <e lm="patinoire"><i>patinoire</i><par n="abeille__n"/></e>
+<e lm="étage"><i>étage</i><par n="livre__n"/></e>
+<e lm="rez-de-chaussée"><i>rez-de-chaussée</i><par n="mois__n"/></e>
 
 <!-- xxxx -->
   </section>
