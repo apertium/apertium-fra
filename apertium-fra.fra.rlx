@@ -100,8 +100,10 @@ LIST Il = "il" ;
 LIST Nous = "nous" ;
 LIST Vous = "vous" ;
 LIST Lui = "lui" ;
+LIST Leur = "leur" ;
 LIST Eux = "eux" ;
 LIST En = "en" ; 
+LIST Pour = "pour" ; 
 LIST Pas = "pas" ; 
 LIST Ne = "ne" ; 
 LIST Aussi = "aussi" ; 
@@ -365,6 +367,7 @@ SELECT Prep IF (-1C Verb) (0 Devant) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
 SELECT Prep IF (-1C Verb) (0 Devant) (1 Pro OR Tn) ;
   ## Il s'impose devant lui
+SELECT Prep IF (NOT -1 Verb OR Pas) (0 Pour) ;
 
 SELECT N IF (-1 Num) (0C N OR V) ;
   ## 9 combats
@@ -402,7 +405,7 @@ SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
   ## Aller :
 REMOVE Fin IF (-1 BOS) (0 N OR Fin) ;
   ## Groupe A, Taille 48, Série 1
-SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep) ;
+SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep OR Pour) ;
   ## Remise des coupes
 REMOVE Fin IF (-1C PreAdv) (0 A OR Fin) ;
   ## la très célèbre Pietà
@@ -457,12 +460,15 @@ SELECT Verb IF (-3 ("qui")) (-2 Adv) (-1 Pro) (0C N OR Verb) ;
 
 SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Aussi);
 SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Même);
-SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (NOT 1 Inf);
-SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
+SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (NOT 1 Inf);
+SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
 SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
   ## Il s'impose devant lui
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR ("on")) (1 Verb);
   ## on lui connaît
+
+SELECT Det IF (0 Leur) (1 A) ;
+  ## pour leur premère participation
 
 SELECT Tn IF (-3 ("plus") OR ("moins")) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;
   ## plus rapide que lui
@@ -647,6 +653,8 @@ SELECT N IF (-1 Det) (0 Ete) ;
   ## cet été
 SELECT N IF (-1 Prep) (0 Ete) ;
   ## vacances d'été
+SELECT Ser IF (-1 Adv) (0 Ete) (1 PP);
+  ## a lui aussi été refait
 
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
   ## que nous avons apris
@@ -697,7 +705,7 @@ SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
 SELECT PreAdv IF (0 Si) (1C A) (2 ("que")) ;
   ## si intelligente que
-SELECT PreAdv IF (0 Si) (1C A) (2C Prep) ;
+SELECT PreAdv IF (0 Si) (1C A) (2C Prep OR Pour) ;
   ## si différents dans le monde
 SELECT CnjAdv IF (-1 BOS) (0 Si) (1 Det OR Tn) ;
   ## Si la demande nationale est suffisante
@@ -706,7 +714,7 @@ SELECT Adv IF (-1 Si) (0 Adv OR PreAdv);
   ## si bien / si mal
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;
   ## on fait bien
-REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep) ;
+REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep OR Pour) ;
   ## c'est bien de
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1C V LINK NOT 0 PP) ;
   ## c'est bien regarder des choses
@@ -727,10 +735,10 @@ REMOVE PreAdv IF (-1 PreAdv) (0 A OR PP OR PreAdv) (NOT 1 A OR PP) ;
 SELECT Prn IF (0 S) (NOT 1 Il) ;
 SELECT CnjAdv IF (0 S) (1 Il) ;
   ## s'affirme
-REMOVE CnjAdv IF (-1C Prep) (0 N) (1C Prep) ;
+REMOVE CnjAdv IF (-1C Prep OR Pour) (0 N) (1C Prep OR Pour) ;
   ## une medaille d'or de piano
 
-SELECT Adv IF (-1 BOS) (0 Adv OR A) (1C Prep) ;
+SELECT Adv IF (-1 BOS) (0 Adv OR A) (1C Prep OR Pour) ;
   ## Même sur le terrain
 SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1C Det) ;
   ## Même le temps était
@@ -954,4 +962,4 @@ SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + FemPl) (-1C Adv) (0 A + FemPl LINK
 # ". Civiles étnicamente croatas"
 
 SELECT N IF (-1 ("par")) (0 ("personne")) ;
-REMOVE N IF (-1 ("pour")) (0 ("personne")) ;
+REMOVE N IF (-1 Pour) (0 ("personne")) ;

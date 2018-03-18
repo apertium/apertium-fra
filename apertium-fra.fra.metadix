@@ -11164,6 +11164,8 @@
 <e lm="attaché"><i>attaché</i><par n="affecté__n"/></e>
 <e lm="attaquant"><i>attaquant</i><par n="affecté__n"/></e>
 <e lm="attaque"><i>attaque</i><par n="abeille__n"/></e>
+<e lm="contrattaque"><i>contrattaque</i><par n="abeille__n"/></e>
+<e r="LR" lm="contrattaque" c="orth. trad."><p><l>contre-attaque</l><r>contrattaque</r></p><par n="abeille__n"/></e>
 <e lm="attentat"><i>attentat</i><par n="livre__n"/></e>
 <e lm="attente"><i>attente</i><par n="abeille__n"/></e>
 <e lm="attention"><i>attention</i><par n="abeille__n"/></e>
@@ -35107,6 +35109,7 @@
 <e lm="autrement dit"><i>autrement<b/>dit</i><par n="hier__adv"/></e>
 <e lm="autrement plus"><i>autrement<b/>plus</i><par n="hier__adv"/></e>
 <e lm="aux alentours"><i>aux<b/>alentours</i><par n="hier__adv"/></e>
+<e lm="aux environs"><i>aux<b/>environs</i><par n="hier__adv"/></e>
 <e lm="av. J.-C."><i>av.<b/>J.-C.</i><par n="hier__adv"/></e>
 <e lm="avant"><i>avant</i><par n="hier__adv"/></e>
 <e lm="avant-hier"><i>avant-hier</i><par n="hier__adv"/></e>
@@ -36266,6 +36269,7 @@
 <e lm="pour ce qui est de"><i>pour<b/>ce<b/>qui<b/>est<b/></i><par n="contde__pr"/></e>
 <e lm="près"><i>près</i><par n="attendu__pr"/></e>
 <e lm="près de"><i>près<b/></i><par n="contde__pr"/></e>
+<e lm="à côté de"><i>à<b/>côté<b/></i><par n="contde__pr"/></e>
 <e lm="quant à"><i>quant<b/></i><par n="conta__pr"/></e>
 <e lm="quitte à"><i>quitte<b/></i><par n="conta__pr"/></e>
 <e lm="remontant à"><i>remontant<b/></i><par n="conta__pr"/></e>
@@ -49350,6 +49354,179 @@
 <e lm="Tibre"><i>Tibre</i><par n="Iran__np"/></e>
 
 <e lm="à l'envers"><i>à<b/>l'envers</i><par n="hier__adv"/></e>
+
+    <e lm="abruptement">        <i>abruptement</i><par n="hier__adv"/></e>
+    <e lm="à cheval">        <i>à<b/>cheval</i><par n="hier__adv"/></e>
+    <e lm="afectueusement">        <i>afectueusement</i><par n="hier__adv"/></e>
+    <e r="RL" lm="à la fin">        <i>à<b/>la<b/>fin</i><par n="hier__adv"/></e>
+    <e r="RL" lm="à la périphérie">        <i>à<b/>la<b/>périphérie</i><par n="hier__adv"/></e>
+    <e lm="à l'automne">        <i>à<b/>l'automne</i><par n="hier__adv"/></e>
+    <e lm="à l'écart">        <i>à<b/>l'écart</i><par n="hier__adv"/></e>
+    <e lm="algébriquement">        <i>algébriquement</i><par n="hier__adv"/></e>
+    <e lm="allegro">        <i>allegro</i><par n="hier__adv"/></e>
+    <e r="RL" lm="à l'origine">        <i>à<b/>l'origine</i><par n="hier__adv"/></e>
+    <e lm="à mi-chemin">        <i>à<b/>mi-chemin</i><par n="hier__adv"/></e>
+    <e lm="à moyen terme">        <i>à<b/>moyen<b/>terme</i><par n="hier__adv"/></e>
+    <e lm="analogiquement">        <i>analogiquement</i><par n="hier__adv"/></e>
+    <e lm="à peu près">        <i>à<b/>peu<b/>près</i><par n="hier__adv"/></e>
+    <e lm="à pied">        <i>à<b/>pied</i><par n="hier__adv"/></e>
+    <e lm="à point">        <i>à<b/>point</i><par n="hier__adv"/></e>
+    <e lm="à priori">        <i>à<b/>priori</i><par n="hier__adv"/></e>
+    <e lm="arbitrairement">        <i>arbitrairement</i><par n="hier__adv"/></e>
+    <e lm="artistiquement">        <i>artistiquement</i><par n="hier__adv"/></e>
+    <e lm="assidument">        <i>assidument</i><par n="hier__adv"/></e>
+    <e lm="à tort">        <i>à<b/>tort</i><par n="hier__adv"/></e>
+    <e lm="à travers">        <i>à<b/>travers</i><par n="hier__adv"/></e>
+    <e lm="au galop">        <i>au<b/>galop</i><par n="hier__adv"/></e>
+    <e lm="au maximum">        <i>au<b/>maximum</i><par n="hier__adv"/></e>
+    <e lm="au milieu">        <i>au<b/>milieu</i><par n="hier__adv"/></e>
+    <e lm="au plus vite">        <i>au<b/>plus<b/>vite</i><par n="hier__adv"/></e>
+    <e lm="avec succès">        <i>avec<b/>succès</i><par n="hier__adv"/></e>
+    <e lm="chaleureusement">        <i>chaleureusement</i><par n="hier__adv"/></e>
+    <e r="RL" lm="chaque fois">        <i>chaque<b/>fois</i><par n="hier__adv"/></e>
+    <e lm="chirurgiquement">        <i>chirurgiquement</i><par n="hier__adv"/></e>
+    <e lm="chronologiquement">        <i>chronologiquement</i><par n="hier__adv"/></e>
+    <e lm="ci-dessus">        <i>ci-dessus</i><par n="hier__adv"/></e>
+    <e lm="clandestinement">        <i>clandestinement</i><par n="hier__adv"/></e>
+    <e lm="classiquement">        <i>classiquement</i><par n="hier__adv"/></e>
+    <e lm="collectivement">        <i>collectivement</i><par n="hier__adv"/></e>
+    <e lm="comme">        <i>comme</i><par n="hier__adv"/></e>
+    <e lm="communément">        <i>communément</i><par n="hier__adv"/></e>
+    <e lm="critiquement">        <i>critiquement</i><par n="hier__adv"/></e>
+    <e lm="culturellement">        <i>culturellement</i><par n="hier__adv"/></e>
+    <e lm="dans le monde entier">        <i>dans<b/>le<b/>monde<b/>entier</i><par n="hier__adv"/></e>
+    <e lm="de cette façon">        <i>de<b/>cette<b/>façon</i><par n="hier__adv"/></e>
+    <e lm="décisivement">        <i>décisivement</i><par n="hier__adv"/></e>
+    <e lm="de façon inattendue">        <i>de<b/>façon<b/>inattendue</i><par n="hier__adv"/></e>
+    <e lm="de façon inespérée">        <i>de<b/>façon<b/>inespérée</i><par n="hier__adv"/></e>
+    <e lm="de façon permanente">        <i>de<b/>façon<b/>permanente</i><par n="hier__adv"/></e>
+    <e lm="de facto">        <i>de<b/>facto</i><par n="hier__adv"/></e>
+    <e lm="de iure">        <i>de<b/>iure</i><par n="hier__adv"/></e>
+    <e lm="de manière adéquate">        <i>de<b/>manière<b/>adéquate</i><par n="hier__adv"/></e>
+    <e lm="de manière aléatoire">        <i>de<b/>manière<b/>aléatoire</i><par n="hier__adv"/></e>
+    <e lm="de manière homogène">        <i>de<b/>manière<b/>homogène</i><par n="hier__adv"/></e>
+    <e lm="densement">        <i>densement</i><par n="hier__adv"/></e>
+    <e lm="densément">        <i>densément</i><par n="hier__adv"/></e>
+    <e lm="de retour">        <i>de<b/>retour</i><par n="hier__adv"/></e>
+    <e lm="diagonalement">        <i>diagonalement</i><par n="hier__adv"/></e>
+    <e lm="dialectiquement">        <i>dialectiquement</i><par n="hier__adv"/></e>
+    <e lm="dramatiquement">        <i>dramatiquement</i><par n="hier__adv"/></e>
+    <e lm="du monde entier">        <i>du<b/>monde<b/>entier</i><par n="hier__adv"/></e>
+    <e r="RL" lm="d'un côté">        <i>d'un<b/>côté</i><par n="hier__adv"/></e>
+    <e lm="d'une certaine façon">        <i>d'une<b/>certaine<b/>façon</i><par n="hier__adv"/></e>
+    <e lm="dynamiquement">        <i>dynamiquement</i><par n="hier__adv"/></e>
+    <e lm="électriquement">        <i>électriquement</i><par n="hier__adv"/></e>
+    <e lm="en amont">        <i>en<b/>amont</i><par n="hier__adv"/></e>
+    <e lm="en août">        <i>en<b/>août</i><par n="hier__adv"/></e>
+    <e lm="en aval">        <i>en<b/>aval</i><par n="hier__adv"/></e>
+    <e lm="en avril">        <i>en<b/>avril</i><par n="hier__adv"/></e>
+    <e lm="en commun">        <i>en<b/>commun</i><par n="hier__adv"/></e>
+    <e lm="en décembre">        <i>en<b/>décembre</i><par n="hier__adv"/></e>
+    <e lm="en été">        <i>en<b/>été</i><par n="hier__adv"/></e>
+    <e lm="en février">        <i>en<b/>février</i><par n="hier__adv"/></e>
+    <e lm="en fin de compte">        <i>en<b/>fin<b/>de<b/>compte</i><par n="hier__adv"/></e>
+    <e lm="en général">        <i>en<b/>général</i><par n="hier__adv"/></e>
+    <e lm="en hiver">        <i>en<b/>hiver</i><par n="hier__adv"/></e>
+    <e lm="en janvier">        <i>en<b/>janvier</i><par n="hier__adv"/></e>
+    <e lm="en juillet">        <i>en<b/>juillet</i><par n="hier__adv"/></e>
+    <e lm="en juin">        <i>en<b/>juin</i><par n="hier__adv"/></e>
+    <e lm="en mai">        <i>en<b/>mai</i><par n="hier__adv"/></e>
+    <e lm="en mars">        <i>en<b/>mars</i><par n="hier__adv"/></e>
+    <e lm="en novembre">        <i>en<b/>novembre</i><par n="hier__adv"/></e>
+    <e lm="en octobre">        <i>en<b/>octobre</i><par n="hier__adv"/></e>
+    <e lm="en plein air">        <i>en<b/>plein<b/>air</i><par n="hier__adv"/></e>
+    <e lm="en privé">        <i>en<b/>privé</i><par n="hier__adv"/></e>
+    <e lm="en sa faveur">        <i>en<b/>sa<b/>faveur</i><par n="hier__adv"/></e>
+    <e lm="en septembre">        <i>en<b/>septembre</i><par n="hier__adv"/></e>
+    <e lm="en tête de">        <i>en<b/>tête<b/>de</i><par n="hier__adv"/></e>
+    <e lm="etc.">        <i>etc.</i><par n="hier__adv"/></e>
+    <e lm="étymologiquement">        <i>étymologiquement</i><par n="hier__adv"/></e>
+    <e lm="explicitement">        <i>explicitement</i><par n="hier__adv"/></e>
+    <e lm="extérieurement">        <i>extérieurement</i><par n="hier__adv"/></e>
+    <e lm="extraordinairement">        <i>extraordinairement</i><par n="hier__adv"/></e>
+    <e lm="familièrement">        <i>familièrement</i><par n="hier__adv"/></e>
+    <e lm="faussement">        <i>faussement</i><par n="hier__adv"/></e>
+    <e lm="financièrement">        <i>financièrement</i><par n="hier__adv"/></e>
+    <e lm="fonctionnellement">        <i>fonctionnellement</i><par n="hier__adv"/></e>
+    <e lm="furtivement">        <i>furtivement</i><par n="hier__adv"/></e>
+    <e lm="gentiment">        <i>gentiment</i><par n="hier__adv"/></e>
+    <e lm="géographiquement">        <i>géographiquement</i><par n="hier__adv"/></e>
+    <e lm="géologiquement">        <i>géologiquement</i><par n="hier__adv"/></e>
+    <e lm="géométriquement">        <i>géométriquement</i><par n="hier__adv"/></e>
+    <e lm="géopolitiquement">        <i>géopolitiquement</i><par n="hier__adv"/></e>
+    <e lm="habilement">        <i>habilement</i><par n="hier__adv"/></e>
+    <e lm="hermétiquement">        <i>hermétiquement</i><par n="hier__adv"/></e>
+    <e lm="hiérarchiquement">        <i>hiérarchiquement</i><par n="hier__adv"/></e>
+    <e lm="humainement">        <i>humainement</i><par n="hier__adv"/></e>
+    <e lm="incorrectement">        <i>incorrectement</i><par n="hier__adv"/></e>
+    <e lm="indiscutablement">        <i>indiscutablement</i><par n="hier__adv"/></e>
+    <e lm="in situ">        <i>in<b/>situ</i><par n="hier__adv"/></e>
+    <e lm="intensément">        <i>intensément</i><par n="hier__adv"/></e>
+    <e lm="internement">        <i>internement</i><par n="hier__adv"/></e>
+    <e lm="in vitro">        <i>in<b/>vitro</i><par n="hier__adv"/></e>
+    <e lm="in vivo">        <i>in<b/>vivo</i><par n="hier__adv"/></e>
+    <e lm="jusqu'aujourd'hui">        <i>jusqu'aujourd'hui</i><par n="hier__adv"/></e>
+    <e lm="jusqu'à maintenant">        <i>jusqu'à<b/>maintenant</i><par n="hier__adv"/></e>
+    <e lm="jusque-là">        <i>jusque-là</i><par n="hier__adv"/></e>
+    <e lm="jusqu'ici">        <i>jusqu'ici</i><par n="hier__adv"/></e>
+    <e lm="l'année dernière">        <i>l'année<b/>dernière</i><par n="hier__adv"/></e>
+    <e lm="linéairement">        <i>linéairement</i><par n="hier__adv"/></e>
+    <e lm="microscopiquement">        <i>microscopiquement</i><par n="hier__adv"/></e>
+    <e lm="militairement">        <i>militairement</i><par n="hier__adv"/></e>
+    <e lm="minutieusement">        <i>minutieusement</i><par n="hier__adv"/></e>
+    <e lm="modérément">        <i>modérément</i><par n="hier__adv"/></e>
+    <e lm="modernement">        <i>modernement</i><par n="hier__adv"/></e>
+    <e lm="ni seulement">        <i>ni<b/>seulement</i><par n="hier__adv"/></e>
+    <e lm="nominalement">        <i>nominalement</i><par n="hier__adv"/></e>
+    <e lm="numériquement">        <i>numériquement</i><par n="hier__adv"/></e>
+    <e lm="ordinairement">        <i>ordinairement</i><par n="hier__adv"/></e>
+    <e lm="originalement">        <i>originalement</i><par n="hier__adv"/></e>
+    <e lm="par exemple">        <i>par<b/>exemple</i><par n="hier__adv"/></e>
+    <e lm="par habitant">        <i>par<b/>habitant</i><par n="hier__adv"/></e>
+    <e lm="passionément">        <i>passionément</i><par n="hier__adv"/></e>
+    <e lm="per se">        <i>per<b/>se</i><par n="hier__adv"/></e>
+    <e lm="p. ex.">        <i>p.<b/>ex.</i><par n="hier__adv"/></e>
+    <e lm="phonétiquement">        <i>phonétiquement</i><par n="hier__adv"/></e>
+    <e lm="phonologiquement">        <i>phonologiquement</i><par n="hier__adv"/></e>
+    <e lm="pire">        <i>pire</i><par n="hier__adv"/></e>
+    <e lm="pitoyablement">        <i>pitoyablement</i><par n="hier__adv"/></e>
+    <e lm="plus bas">        <i>plus<b/>bas</i><par n="hier__adv"/></e>
+    <e lm="plus haut">        <i>plus<b/>haut</i><par n="hier__adv"/></e>
+    <e lm="pour">        <i>pour</i><par n="hier__adv"/></e>
+    <e lm="pour la deuxième fois">        <i>pour<b/>la<b/>deuxième<b/>fois</i><par n="hier__adv"/></e>
+    <e lm="pour toujours">        <i>pour<b/>toujours</i><par n="hier__adv"/></e>
+    <e lm="prêt">        <i>prêt</i><par n="hier__adv"/></e>
+    <e lm="provisionnellement">        <i>provisionnellement</i><par n="hier__adv"/></e>
+    <e lm="quantitativamente">        <i>quantitativamente</i><par n="hier__adv"/></e>
+    <e r="RL" lm="sans critique">        <i>sans<b/>critique</i><par n="hier__adv"/></e>
+    <e r="RL" lm="sans interruption">        <i>sans<b/>interruption</i><par n="hier__adv"/></e>
+    <e lm="scientifiquement">        <i>scientifiquement</i><par n="hier__adv"/></e>
+    <e lm="sémantiquement">        <i>sémantiquement</i><par n="hier__adv"/></e>
+    <e lm="séparément">        <i>séparément</i><par n="hier__adv"/></e>
+    <e lm="sous la coupe">        <i>sous<b/>la<b/>coupe</i><par n="hier__adv"/></e>
+    <e lm="sous la direction">        <i>sous<b/>la<b/>direction</i><par n="hier__adv"/></e>
+    <e lm="splendidement">        <i>splendidement</i><par n="hier__adv"/></e>
+    <e lm="stratégiquement">        <i>stratégiquement</i><par n="hier__adv"/></e>
+    <e lm="stylistiquement">        <i>stylistiquement</i><par n="hier__adv"/></e>
+    <e lm="substantiellement">        <i>substantiellement</i><par n="hier__adv"/></e>
+    <e lm="supposément">        <i>supposément</i><par n="hier__adv"/></e>
+    <e lm="syntaxiquement">        <i>syntaxiquement</i><par n="hier__adv"/></e>
+    <e lm="tel">        <i>tel</i><par n="hier__adv"/></e>
+    <e lm="topographiquement">        <i>topographiquement</i><par n="hier__adv"/></e>
+    <e lm="tout à coup">        <i>tout<b/>à<b/>coup</i><par n="hier__adv"/></e>
+    <e lm="tragiquement">        <i>tragiquement</i><par n="hier__adv"/></e>
+    <e lm="transversalement">        <i>transversalement</i><par n="hier__adv"/></e>
+    <e lm="très bien">        <i>très<b/>bien</i><par n="hier__adv"/></e>
+    <e lm="tristement">        <i>tristement</i><par n="hier__adv"/></e>
+    <e lm="unanimement">        <i>unanimement</i><par n="hier__adv"/></e>
+    <e lm="usuellement">        <i>usuellement</i><par n="hier__adv"/></e>
+    <e lm="vulgairement">        <i>vulgairement</i><par n="hier__adv"/></e>
+
+<e lm="convive"><i>convive</i><par n="artiste__n"/></e>
+<e lm="choucroute"><i>choucroute</i><par n="abeille__n"/></e>
+<e lm="vilain"><i>vilain</i><par n="abaissant__adj"/></e>
+<e lm="voirie"><i>voirie</i><par n="abeille__n"/></e>
+<e lm="patinoire"><i>patinoire</i><par n="abeille__n"/></e>
 
 <!-- xxxx -->
   </section>
