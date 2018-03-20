@@ -37816,8 +37816,6 @@
 <e lm="être valide"><i></i><par n="/être__vblex"/><p><l><b/>valide</l><r><g><b/>valide</g></r></p></e>
 <e lm="avoir honte"><i></i><par n="/avoir__vblex"/><p><l><b/>honte</l><r><g><b/>honte</g></r></p></e>
 <e lm="avoir lieu"><i></i><par n="/avoir__vblex"/><p><l><b/>lieu</l><r><g><b/>lieu</g></r></p></e>
-<e r="LR" lm="avoir tendance à"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance<b/>à</l><r><g><b/>tendance<b/>à</g></r></p></e>
-<e r="RL" lm="avoir tendance à"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance<b/><a/>à</l><r><g><b/>tendance<b/>à</g></r></p></e>
 <e lm="avoir son doctorat"><i></i><par n="/avoir__vblex"/><p><l><b/>son<b/>doctorat</l><r><g><b/>son<b/>doctorat</g></r></p></e>
 <e lm="être d'accord"><i></i><par n="/être__vblex"/><p><l><b/>d'accord</l><r><g><b/>d'accord</g></r></p></e>
 <e lm="avoir à voir"><i></i><par n="/avoir__vblex"/><p><l><b/>à<b/>voir</l><r><g><b/>à<b/>voir</g></r></p></e>
@@ -38231,7 +38229,7 @@
 <e lm="béatifier"><i>béatifi</i><par n="abaiss/er__vblex"/></e>
 <e lm="bénéficier"><i>bénéfici</i><par n="abaiss/er__vblex"/></e>
 <e lm="bêler"><i>bêl</i><par n="abaiss/er__vblex"/></e>
-<e lm="bénir"><i>bêl</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="bénir"><i>bén</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="céder"><i>c</i><par n="accél/é[R]er__vblex" prm="d"/></e>
 <e lm="celer"><i>c</i><par n="ach/e[T]er__vblex" prm="l"/></e>
 <e lm="cacher"><i>cach</i><par n="abaiss/er__vblex"/></e>
@@ -40504,6 +40502,7 @@
 <e lm="vouloir sa part du gâteau"><i>v</i><par n="v/ouloir__vblex"/><p><l><b/>sa<b/>part<b/>du<b/>gâteau</l><r><g><b/>sa<b/>part<b/>du<b/>gâteau</g></r></p></e>
 <e lm="valoir"><i>va</i><par n="va/loir__vblex"/></e>
 <e lm="valoir la peine"><i>va</i><par n="va/loir__vblex"/><p><l><b/>la<b/>peine</l><r><g><b/>la<b/>peine</g></r></p></e>
+<e lm="prévaloir"><i>préva</i><par n="va/loir__vblex"/></e>
 <e lm="vacciner"><i>vaccin</i><par n="abaiss/er__vblex"/></e>
 <e lm="vagabonder"><i>vagabond</i><par n="abaiss/er__vblex"/></e>
 <e lm="vaguer"><i>vagu</i><par n="abaiss/er__vblex"/></e>
@@ -49547,8 +49546,6 @@
     <e lm="faire partie"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>partie</l><r><g><b/>partie</g></r></p></e>
     <e lm="avoir lieu"><i></i><par n="/avoir__vblex"/><p><l><b/>lieu</l><r><g><b/>lieu</g></r></p></e>
     <e lm="mener à bien"><p><l>m</l><r>m</r></p><par n="ach/e[T]er__vblex" prm="n"/><p><l><b/>à<b/>bien</l><r><g><b/>à<b/>bien</g></r></p></e>
-    <e lm="avoir tendance à" r="LR"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance<b/>à</l><r><g><b/>tendance<b/>à</g></r></p></e>
-    <e lm="avoir tendance à" r="RL"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance<b/><a/>à</l><r><g><b/>tendance<b/>à</g></r></p></e>
     <e lm="faire tomber"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>tomber</l><r><g><b/>tomber</g></r></p></e>
     <e lm="mener à bien"><p><l>m</l><r>m</r></p><par n="ach/e[T]er__vblex" prm="n"/><p><l><b/>à<b/>bien</l><r><g><b/>à<b/>bien</g></r></p></e>
     <e lm="avoir son doctorat"><i></i><par n="/avoir__vblex"/><p><l><b/>son<b/>doctorat</l><r><g><b/>son<b/>doctorat</g></r></p></e>
@@ -49676,8 +49673,6 @@
 <e lm="divergir"><i>diverg</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="désobéir"><i>désobé</i><par n="about/[]ir__vblex" prm=""/></e>
     <e lm="mener à bien"><p><l>m</l><r>m</r></p><par n="ach/e[T]er__vblex" prm="n"/><p><l><b/>à<b/>bien</l><r><g><b/>à<b/>bien</g></r></p></e>
-    <e lm="avoir tendance à" r="LR"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance<b/>à</l><r><g><b/>tendance<b/>à</g></r></p></e>
-    <e lm="avoir tendance à" r="RL"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance<b/><a/>à</l><r><g><b/>tendance<b/>à</g></r></p></e>
     <e lm="faire tomber"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>tomber</l><r><g><b/>tomber</g></r></p></e>
     <e lm="mener à bien"><p><l>m</l><r>m</r></p><par n="ach/e[T]er__vblex" prm="n"/><p><l><b/>à<b/>bien</l><r><g><b/>à<b/>bien</g></r></p></e>
     <e lm="avoir son doctorat"><i></i><par n="/avoir__vblex"/><p><l><b/>son<b/>doctorat</l><r><g><b/>son<b/>doctorat</g></r></p></e>
@@ -49780,6 +49775,36 @@
     <e lm="désinfecter">        <i>désinfect</i><par n="abaiss/er__vblex"/></e>
     <e lm="adoucir">        <i>adoucir</i><par n="about/[]ir__vblex"/></e>
     <e lm="engloutir">        <i>engloutir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="avoir tendance"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance</l><r><g><b/>tendance</g></r></p></e>
+    <e lm="être d'accord"><i></i><par n="/être__vblex"/><p><l><b/>d'accord</l><r><g><b/>d'accord</g></r></p></e>
+    <e lm="faire pression sur"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>pression<b/>sur</l><r><g><b/>pression<b/>sur</g></r></p></e>
+    <e lm="changer de nom"><i>chang</i><par n="allong/er__vblex"/><p><l><b/>de<b/>nom</l><r><g><b/>de<b/>nom</g></r></p></e>
+    <e lm="faire appel à" r="LR"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>appel<b/>à</l><r><g><b/>appel<b/>à</g></r></p></e>
+    <e lm="rendre indépendant"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>indépendant</l><r><g><b/>indépendant</g></r></p></e>
+    <e lm="mettre enceinte"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>enceinte</l><r><g><b/>enceinte</g></r></p></e>
+    <e lm="mettre en évidence"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>évidence</l><r><g><b/>en<b/>évidence</g></r></p></e>
+    <e lm="faire appel à" r="RL"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>appel<b/><a/>à</l><r><g><b/>appel<b/>à</g></r></p></e>
+<e lm="éclipse"><i>éclipse</i><par n="abeille__n"/></e>
+
+    <e lm="instituer">        <i>institu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="contrer">        <i>contr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="diluer">        <i>dilu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="pêcher">        <i>pêch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="infiltrer">        <i>infiltr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="perpétuer">        <i>perpétu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="encastrer">        <i>encastr</i><par n="abaiss/er__vblex"/></e>
+<e lm="détrôner"><i>détrôn</i><par n="abaiss/er__vblex"/></e>
+<e lm="diplômer"><i>diplôm</i><par n="abaiss/er__vblex"/></e>
+<e lm="entremêler"><i>entremêl</i><par n="abaiss/er__vblex"/></e>
+<e lm="prédire"><i>préd</i><par n="d/i[]re__vblex" prm=""/></e>
+<e lm="transcrire"><i>transcri</i><par n="décri/re__vblex"/></e>
+<e lm="circonscrire"><i>circonscri</i><par n="décri/re__vblex"/></e>
+<e lm="exacerber"><i>exacerb</i><par n="abaiss/er__vblex"/></e>
+<e lm="innerver"><i>innerv</i><par n="abaiss/er__vblex"/></e>
+<e lm="corrompre"><i>corromp</i><par n="interromp/re__vblex"/></e>
+    <e lm="insinuer">        <i>insinu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="obstruer">        <i>obstru</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dévaluer">        <i>dévalu</i><par n="abaiss/er__vblex"/></e>
 
 <!-- xxxx -->
   </section>
