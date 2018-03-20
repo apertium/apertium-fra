@@ -18239,6 +18239,7 @@
 <e lm="porte"><i>porte</i><par n="abeille__n"/></e>
 <e lm="porte-avions" a="jaumeortola"><i>porte-avions</i><par n="mois__n"/></e>
 <e lm="porte-monnaie"><i>porte-monnaie</i><par n="mois__n"/></e>
+<e lm="portemonnaie"><i>portemonnaie</i><par n="livre__n"/></e>
 <e lm="porte-nage"><i>porte-nage</i><par n="abeille__n"/></e>
 <e lm="porte-parole"><i>porte-parole</i><par n="ex__n"/></e>
 <e lm="portefeuille de valeurs"><i>portefeuille</i><par n="abeille__n"/><p><l><b/>de<b/>valeurs</l><r><g><b/>de<b/>valeurs</g></r></p></e>
@@ -36759,7 +36760,7 @@
 <e lm="caractère obligatoire"><p><l>caractères<b/>obligatoires</l><r>caractère<b/>obligatoire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="caractère privé"><p><l>caractères<b/>privés</l> <r>caractère<b/>privé<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="carte porte-monnaie"><p><l>carte<b/>porte-monnaie</l><r>carte<b/>porte-monnaie<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-<e lm="carte porte-monnaie"><p><l>cartes<b/>porte-monnaies</l><r>carte<b/>porte-monnaie<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="carte porte-monnaie"><p><l>cartes<b/>porte-monnaie</l><r>carte<b/>porte-monnaie<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="casier judiciaire"><p><l>casier<b/>judiciaire</l><r>casier<b/>judiciaire<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="casier judiciaire"><p><l>casiers<b/>judiciaires</l><r>casier<b/>judiciaire<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="cellule souche"><p><l>cellule<b/>souche</l>     <r>cellule<b/>souche<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
@@ -38722,7 +38723,7 @@
 <e lm="dériver"><i>dériv</i><par n="abaiss/er__vblex"/></e>
 <e lm="dérober"><i>dérob</i><par n="abaiss/er__vblex"/></e>
 <e lm="dérouler"><i>déroul</i><par n="abaiss/er__vblex"/></e>
-<e lm="déshabiller" a="joan"><i>désabill</i><par n="abaiss/er__vblex"/></e>
+<e lm="déshabiller" a="joan"><i>déshabill</i><par n="abaiss/er__vblex"/></e>
 <e lm="désabonner"><i>désabonn</i><par n="abaiss/er__vblex"/></e>
 <e lm="désactiver" a="joan"><i>désactiv</i><par n="abaiss/er__vblex"/></e>
 <e lm="désajuster"><i>désajust</i><par n="abaiss/er__vblex"/></e>
@@ -39872,7 +39873,7 @@
 <e lm="quereller"><i>querell</i><par n="abaiss/er__vblex"/></e>
 <e lm="questionner"><i>questionn</i><par n="abaiss/er__vblex"/></e>
 <e lm="quitter"><i>quitt</i><par n="abaiss/er__vblex"/></e>
-<e lm="quérir"><i>quérir</i><par n="quérir__vblex"/></e>
+<e lm="quérir"><i>quér</i><par n="quérir__vblex"/></e>
 <e lm="régler"><i>r</i><par n="accél/é[R]er__vblex" prm="gl"/></e>
 <e lm="régner"><i>r</i><par n="accél/é[R]er__vblex" prm="gn"/></e>
 <e lm="rire à gorge déployée"><p><l>r</l>              <r>r</r></p><par n="r/i[]re__vblex" prm=""/><p><l><b/>à<b/>gorge<b/>déployée</l><r><g><b/>à<b/>gorge<b/>déployée</g></r></p></e>
@@ -40076,7 +40077,7 @@
 <e lm="retoucher"><i>retouch</i><par n="abaiss/er__vblex"/></e>
 <e lm="retourner"><i>retourn</i><par n="abaiss/er__vblex"/></e>
 <e lm="retraire"><i>retra</i><par n="distra/ire__vblex"/></e>
-<e lm="retracer"><i>retracer</i><par n="annon/cer__vblex"/></e>
+<e lm="retracer"><i>retra</i><par n="annon/cer__vblex"/></e>
 <e lm="retraiter"><i>retrait</i><par n="abaiss/er__vblex"/></e>
 <e lm="retrancher"><i>retranch</i><par n="abaiss/er__vblex"/></e>
 <e lm="retransmettre"><i>retransm</i><par n="adm/ettre__vblex"/></e>
@@ -40198,6 +40199,7 @@
 <e lm="savoir d'où vient le vent"><i>s</i><par n="s/avoir__vblex"/><p><l><b/>d'où<b/>vient<b/>le<b/>vent</l><r><g><b/>d'où<b/>vient<b/>le<b/>vent</g></r></p></e>
 <e lm="savoir"><i>s</i><par n="s/avoir__vblex"/></e>
 <e lm="sécher"><i>s</i><par n="accél/é[R]er__vblex" prm="ch"/></e>
+<e lm="assécher"><i>ass</i><par n="accél/é[R]er__vblex" prm="ch"/></e>
 <e lm="semer"><i>s</i><par n="ach/e[T]er__vblex" prm="m"/></e>
 <e lm="saboter"><i>sabot</i><par n="abaiss/er__vblex"/></e>
 <e lm="sabrer"><i>sabr</i><par n="abaiss/er__vblex"/></e>
@@ -40614,7 +40616,7 @@
 <e lm="épicer"><i>épi</i><par n="annon/cer__vblex"/></e>
 <e lm="épier"><i>épi</i><par n="abaiss/er__vblex"/></e>
 <e lm="éplucher"><i>épluch</i><par n="abaiss/er__vblex"/></e>
-<e lm="épouser" a="joan"><i>épouser</i><par n="abaiss/er__vblex"/></e>
+<e lm="épouser" a="joan"><i>épous</i><par n="abaiss/er__vblex"/></e>
 <e lm="épouvanter"><i>épouvant</i><par n="abaiss/er__vblex"/></e>
 <e lm="éprouver"><i>éprouv</i><par n="abaiss/er__vblex"/></e>
 <e lm="épuiser"><i>épuis</i><par n="abaiss/er__vblex"/></e>
@@ -49676,7 +49678,6 @@
     <e lm="faire tomber"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>tomber</l><r><g><b/>tomber</g></r></p></e>
     <e lm="mener à bien"><p><l>m</l><r>m</r></p><par n="ach/e[T]er__vblex" prm="n"/><p><l><b/>à<b/>bien</l><r><g><b/>à<b/>bien</g></r></p></e>
     <e lm="avoir son doctorat"><i></i><par n="/avoir__vblex"/><p><l><b/>son<b/>doctorat</l><r><g><b/>son<b/>doctorat</g></r></p></e>
-    <e lm="prévaloir">        <i>prévaloir</i><par n="about/[]ir__vblex"/></e>
     <e lm="être d'accord"><i></i><par n="/être__vblex"/><p><l><b/>d'accord</l><r><g><b/>d'accord</g></r></p></e>
     <e lm="faire pression sur"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>pression<b/>sur</l><r><g><b/>pression<b/>sur</g></r></p></e>
     <e lm="changer de nom"><i>chang</i><par n="allong/er__vblex"/><p><l><b/>de<b/>nom</l><r><g><b/>de<b/>nom</g></r></p></e>
@@ -49685,11 +49686,11 @@
     <e lm="faire appel à" r="RL"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>appel<b/><a/>à</l><r><g><b/>appel<b/>à</g></r></p></e>
     <e lm="infecter">        <i>infect</i><par n="abaiss/er__vblex"/></e>
     <e lm="interner">        <i>intern</i><par n="abaiss/er__vblex"/></e>
-    <e lm="interagir">        <i>interagir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="interagir">        <i>interag</i><par n="about/[]ir__vblex"/></e>
     <e lm="rendre indépendant"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>indépendant</l><r><g><b/>indépendant</g></r></p></e>
     <e lm="mettre enceinte"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>enceinte</l><r><g><b/>enceinte</g></r></p></e>
     <e lm="mettre en évidence"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>évidence</l><r><g><b/>en<b/>évidence</g></r></p></e>
-    <e lm="mûrir">        <i>mûrir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="mûrir">        <i>mûr</i><par n="about/[]ir__vblex"/></e>
     <e lm="condenser">        <i>condens</i><par n="abaiss/er__vblex"/></e>
     <e lm="avoir à voir"><i></i><par n="/avoir__vblex"/><p><l><b/>à<b/>voir</l><r><g><b/>à<b/>voir</g></r></p></e>
     <e lm="faire tomber"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>tomber</l><r><g><b/>tomber</g></r></p></e>
@@ -49737,23 +49738,23 @@
     <e lm="faire de la publicité pour"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>de<b/>la<b/>publicité<b/>pour</l><r><g><b/>de<b/>la<b/>publicité<b/>pour</g></r></p></e>
     <e lm="mettre en scène"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>scène</l><r><g><b/>en<b/>scène</g></r></p></e>
     <e lm="transporter par voie aérienne"><i>transport</i><par n="abaiss/er__vblex"/><p><l><b/>par<b/>voie<b/>aérienne</l><r><g><b/>par<b/>voie<b/>aérienne</g></r></p></e>
-    <e lm="interagir">        <i>interagir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="interagir">        <i>interag</i><par n="about/[]ir__vblex"/></e>
     <e lm="être apparenté#"><i></i><par n="/être__vblex"/><p><l><b/>apparenté#</l><r><g><b/>apparenté#</g></r></p></e>
     <e lm="rendre incapable"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>incapable</l><r><g><b/>incapable</g></r></p></e>
     <e lm="faire honte"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>honte</l><r><g><b/>honte</g></r></p></e>
     <e lm="faire faillite"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>faillite</l><r><g><b/>faillite</g></r></p></e>
-    <e lm="engloutir">        <i>engloutir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="engloutir">        <i>englout</i><par n="about/[]ir__vblex"/></e>
     <e lm="rebondir">         <i>rebond</i><par n="about/[]ir__vblex"/></e>
     <e lm="faire un pas"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>pas</l><r><g><b/>un<b/>pas</g></r></p></e>
-    <e lm="fléchir">        <i>fléchir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="fléchir">        <i>fléch</i><par n="about/[]ir__vblex"/></e>
     <e lm="mettre aux enchères"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>aux<b/>enchères</l><r><g><b/>aux<b/>enchères</g></r></p></e>
     <e lm="être en danger"><i></i><par n="/être__vblex"/><p><l><b/>en<b/>danger</l><r><g><b/>en<b/>danger</g></r></p></e>
     <e lm="syntoniser">        <i>syntonis</i><par n="abaiss/er__vblex"/></e>
     <e lm="mettre en relation"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>relation</l><r><g><b/>en<b/>relation</g></r></p></e>
     <e lm="faire attention"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>attention</l><r><g><b/>attention</g></r></p></e>
-    <e lm="pourrir">        <i>pourrir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="pourrir">        <i>pourr</i><par n="about/[]ir__vblex"/></e>
     <e lm="rendre obsolète"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>obsolète</l><r><g><b/>obsolète</g></r></p></e>
-    <e lm="encourir">        <i>encourir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="encourir">        <i>encour</i><par n="about/[]ir__vblex"/></e>
     <e lm="porter atteinte à" r="LR"><i>port</i><par n="abaiss/er__vblex"/><p><l><b/>atteinte<b/>à</l><r><g><b/>atteinte<b/>à</g></r></p></e>
     <e lm="porter atteinte à" r="RL"><i>port</i><par n="abaiss/er__vblex"/><p><l><b/>atteinte<b/><a/>à</l><r><g><b/>atteinte<b/>à</g></r></p></e>
     <e lm="faire credit"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>credit</l><r><g><b/>credit</g></r></p></e>
@@ -49765,16 +49766,16 @@
     <e lm="enquêter sur"><i>enquêt</i><par n="abaiss/er__vblex"/><p><l><b/>sur</l><r><g><b/>sur</g></r></p></e>
     <e lm="faire la guerre"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>la<b/>guerre</l><r><g><b/>la<b/>guerre</g></r></p></e>
     <e lm="déplaire" a="hector">         <i>dépl</i><par n="compl/aire__vblex"/></e>
-    <e lm="ramollir" a="hector">        <i>ramollir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="ramollir" a="hector">        <i>ramoll</i><par n="about/[]ir__vblex"/></e>
     <e lm="recenser" a="hector">        <i>recens</i><par n="abaiss/er__vblex"/></e>
     <e lm="tirer au sort"><i>tir</i><par n="abaiss/er__vblex"/><p><l><b/>au<b/>sort</l><r><g><b/>au<b/>sort</g></r></p></e>
-    <e lm="noircir" a="hector">        <i>noircir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="noircir" a="hector">        <i>noirc</i><par n="about/[]ir__vblex"/></e>
     <e lm="faire tournar la tête"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>tournar<b/>la<b/>tête</l><r><g><b/>tournar<b/>la<b/>tête</g></r></p></e>
     <e lm="faire taire"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>taire</l><r><g><b/>taire</g></r></p></e>
-    <e lm="pervertir" a="hector">        <i>pervertir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="pervertir" a="hector">        <i>pervert</i><par n="about/[]ir__vblex"/></e>
     <e lm="désinfecter">        <i>désinfect</i><par n="abaiss/er__vblex"/></e>
-    <e lm="adoucir">        <i>adoucir</i><par n="about/[]ir__vblex"/></e>
-    <e lm="engloutir">        <i>engloutir</i><par n="about/[]ir__vblex"/></e>
+    <e lm="adoucir">        <i>adouc</i><par n="about/[]ir__vblex"/></e>
+    <e lm="engloutir">        <i>englout</i><par n="about/[]ir__vblex"/></e>
     <e lm="avoir tendance"><i></i><par n="/avoir__vblex"/><p><l><b/>tendance</l><r><g><b/>tendance</g></r></p></e>
     <e lm="être d'accord"><i></i><par n="/être__vblex"/><p><l><b/>d'accord</l><r><g><b/>d'accord</g></r></p></e>
     <e lm="faire pression sur"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>pression<b/>sur</l><r><g><b/>pression<b/>sur</g></r></p></e>
@@ -49805,6 +49806,95 @@
     <e lm="insinuer">        <i>insinu</i><par n="abaiss/er__vblex"/></e>
     <e lm="obstruer">        <i>obstru</i><par n="abaiss/er__vblex"/></e>
     <e lm="dévaluer">        <i>dévalu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="avoir à voir"><i></i><par n="/avoir__vblex"/><p><l><b/>à<b/>voir</l><r><g><b/>à<b/>voir</g></r></p></e>
+    <e lm="tomber malade"><i>tomb</i><par n="abaiss/er__vblex"/><p><l><b/>malade</l><r><g><b/>malade</g></r></p></e>
+    <e lm="rendre hommage"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>hommage</l><r><g><b/>hommage</g></r></p></e>
+    <e lm="faire sans"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>sans</l><r><g><b/>sans</g></r></p></e>
+    <e lm="tirer au sort"><i>tir</i><par n="abaiss/er__vblex"/><p><l><b/>au<b/>sort</l><r><g><b/>au<b/>sort</g></r></p></e>
+    <e lm="laisser en suspens"><i>laiss</i><par n="abaiss/er__vblex"/><p><l><b/>en<b/>suspens</l><r><g><b/>en<b/>suspens</g></r></p></e>
+    <e lm="faire frire"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>frire</l><r><g><b/>frire</g></r></p></e>
+    <e lm="rendre furieux"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>furieux</l><r><g><b/>furieux</g></r></p></e>
+    <e lm="rendre public"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>public</l><r><g><b/>public</g></r></p></e>
+    <e lm="mettre à l'epreuve"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>à<b/>l'epreuve</l><r><g><b/>à<b/>l'epreuve</g></r></p></e>
+    <e lm="être éloigné de" r="LR"><i></i><par n="/être__vblex"/><p><l><b/>éloigné<b/>de</l><r><g><b/>éloigné<b/>de</g></r></p></e>
+    <e lm="être éloigné de" r="RL"><i></i><par n="/être__vblex"/><p><l><b/>éloigné<b/><a/>de</l><r><g><b/>éloigné<b/>de</g></r></p></e>
+    <e lm="faire cours"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>cours</l><r><g><b/>cours</g></r></p></e>
+    <e lm="réduire en esclavage"><i>rédui</i><par n="condui/re__vblex"/><p><l><b/>en<b/>esclavage</l><r><g><b/>en<b/>esclavage</g></r></p></e>
+    <e lm="faire un rot"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>rot</l><r><g><b/>un<b/>rot</g></r></p></e>
+    <e lm="valoir la peine"><i>va</i><par n="va/loir__vblex"/><p><l><b/>la<b/>peine</l><r><g><b/>la<b/>peine</g></r></p></e>
+    <e lm="envoyer une lettre"><i>env</i><par n="env/oyer__vblex"/><p><l><b/>une<b/>lettre</l><r><g><b/>une<b/>lettre</g></r></p></e>
+    <e lm="mettre le feu"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>le<b/>feu</l><r><g><b/>le<b/>feu</g></r></p></e>
+    <e lm="rendre impossible"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>impossible</l><r><g><b/>impossible</g></r></p></e>
+    <e lm="germer">        <i>germ</i><par n="abaiss/er__vblex"/></e>
+    <e lm="former un coin"><i>form</i><par n="abaiss/er__vblex"/><p><l><b/>un<b/>coin</l><r><g><b/>un<b/>coin</g></r></p></e>
+    <e lm="faire détoner"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>détoner</l><r><g><b/>détoner</g></r></p></e>
+    <e lm="faire plaisir à" r="LR"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>plaisir<b/>à</l><r><g><b/>plaisir<b/>à</g></r></p></e>
+    <e lm="faire plaisir à" r="RL"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>plaisir<b/><a/>à</l><r><g><b/>plaisir<b/>à</g></r></p></e>
+    <e lm="tenir tête à" r="LR"><i>t</i><par n="appart/enir__vblex"/><p><l><b/>tête<b/>à</l><r><g><b/>tête<b/>à</g></r></p></e>
+    <e lm="tenir tête à" r="RL"><i>t</i><par n="appart/enir__vblex"/><p><l><b/>tête<b/><a/>à</l><r><g><b/>tête<b/>à</g></r></p></e>
+    <e lm="faire avancer"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>avancer</l><r><g><b/>avancer</g></r></p></e>
+    <e lm="faire taire"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>taire</l><r><g><b/>taire</g></r></p></e>
+    <e lm="mettre l'accent"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>l'accent</l><r><g><b/>l'accent</g></r></p></e>
+    <e lm="mettre en relief"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>relief</l><r><g><b/>en<b/>relief</g></r></p></e>
+    <e lm="envoyer un message"><i>env</i><par n="env/oyer__vblex"/><p><l><b/>un<b/>message</l><r><g><b/>un<b/>message</g></r></p></e>
+    <e lm="mettre dans un coin"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>dans<b/>un<b/>coin</l><r><g><b/>dans<b/>un<b/>coin</g></r></p></e>
+    <e lm="faire de la publicité pour"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>de<b/>la<b/>publicité<b/>pour</l><r><g><b/>de<b/>la<b/>publicité<b/>pour</g></r></p></e>
+    <e lm="mettre en scène"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>scène</l><r><g><b/>en<b/>scène</g></r></p></e>
+    <e lm="transporter par voie aérienne"><i>transport</i><par n="abaiss/er__vblex"/><p><l><b/>par<b/>voie<b/>aérienne</l><r><g><b/>par<b/>voie<b/>aérienne</g></r></p></e>
+    <e lm="être apparenté#"><i></i><par n="/être__vblex"/><p><l><b/>apparenté#</l><r><g><b/>apparenté#</g></r></p></e>
+<e lm="étiqueter"><i>étiquet</i><par n="appel/er__vblex"/></e>
+<e r="LR" lm="étiqueter"><i>étiqu</i><par n="ach/e[T]er__vblex" prm="t"/></e>
+    <e lm="rendre incapable"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>incapable</l><r><g><b/>incapable</g></r></p></e>
+    <e lm="faire honte"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>honte</l><r><g><b/>honte</g></r></p></e>
+    <e lm="faire faillite"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>faillite</l><r><g><b/>faillite</g></r></p></e>
+    <e lm="faire un pas"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>pas</l><r><g><b/>un<b/>pas</g></r></p></e>
+    <e lm="mettre aux enchères"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>aux<b/>enchères</l><r><g><b/>aux<b/>enchères</g></r></p></e>
+    <e lm="être en danger"><i></i><par n="/être__vblex"/><p><l><b/>en<b/>danger</l><r><g><b/>en<b/>danger</g></r></p></e>
+    <e lm="mettre en relation"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>relation</l><r><g><b/>en<b/>relation</g></r></p></e>
+    <e lm="réinterpréter">         <i>réinterpr</i><par n="accél/é[R]er__vblex" prm="t"/></e>
+    <e lm="faire attention"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>attention</l><r><g><b/>attention</g></r></p></e>
+    <e lm="rendre obsolète"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>obsolète</l><r><g><b/>obsolète</g></r></p></e>
+    <e lm="porter atteinte à" r="LR"><i>port</i><par n="abaiss/er__vblex"/><p><l><b/>atteinte<b/>à</l><r><g><b/>atteinte<b/>à</g></r></p></e>
+    <e lm="porter atteinte à" r="RL"><i>port</i><par n="abaiss/er__vblex"/><p><l><b/>atteinte<b/><a/>à</l><r><g><b/>atteinte<b/>à</g></r></p></e>
+    <e lm="infester">        <i>infest</i><par n="abaiss/er__vblex"/></e>
+    <e lm="emmerder">        <i>emmerd</i><par n="abaiss/er__vblex"/></e>
+    <e lm="chaldéen">        <i>chaldéen</i><par n="ancien__adj"/></e>
+    <e lm="Chaldéen">        <i>Chaldéen</i><par n="ancien__n"/></e>
+    <e lm="Chaldée">         <i>Chaldée</i><par n="Bulgarie__np"/></e>
+<e lm="Taïwanais"><i>Taïwanais</i><par n="admis__n"/></e>
+<e lm="taïwanais"><i>taïwanais</i><par n="anglais__adj"/></e>
+    <e lm="rebeller">        <i>rebell</i><par n="abaiss/er__vblex"/></e>
+    <e lm="emboîter">        <i>emboît</i><par n="abaiss/er__vblex"/></e>
+    <e lm="agenouiller">        <i>agenouill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rendre incapable"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>incapable</l><r><g><b/>incapable</g></r></p></e>
+    <e lm="faire honte"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>honte</l><r><g><b/>honte</g></r></p></e>
+    <e lm="faire faillite"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>faillite</l><r><g><b/>faillite</g></r></p></e>
+    <e lm="faire un pas"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>un<b/>pas</l><r><g><b/>un<b/>pas</g></r></p></e>
+    <e lm="mettre aux enchères"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>aux<b/>enchères</l><r><g><b/>aux<b/>enchères</g></r></p></e>
+    <e lm="être en danger"><i></i><par n="/être__vblex"/><p><l><b/>en<b/>danger</l><r><g><b/>en<b/>danger</g></r></p></e>
+    <e lm="mettre en relation"><i>m</i><par n="adm/ettre__vblex"/><p><l><b/>en<b/>relation</l><r><g><b/>en<b/>relation</g></r></p></e>
+    <e lm="faire attention"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>attention</l><r><g><b/>attention</g></r></p></e>
+    <e lm="rendre obsolète"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>obsolète</l><r><g><b/>obsolète</g></r></p></e>
+    <e lm="porter atteinte à" r="LR"><i>port</i><par n="abaiss/er__vblex"/><p><l><b/>atteinte<b/>à</l><r><g><b/>atteinte<b/>à</g></r></p></e>
+    <e lm="porter atteinte à" r="RL"><i>port</i><par n="abaiss/er__vblex"/><p><l><b/>atteinte<b/><a/>à</l><r><g><b/>atteinte<b/>à</g></r></p></e>
+<e lm="cambrioleur"><i>cambrioleu</i><par n="causeu/r__n"/></e>
+<e lm="cambriolage"><i>cambriolage</i><par n="livre__n"/></e>
+<e lm="cambrioler"><i>cambriol</i><par n="abaiss/er__vblex"/></e>
+<e lm="pécher"><i>p</i><par n="accél/é[R]er__vblex" prm="ch"/></e>
+<e lm="lécher"><i>l</i><par n="accél/é[R]er__vblex" prm="ch"/></e>
+<e lm="flageller"><i>flagell</i><par n="abaiss/er__vblex"/></e>
+    <e lm="faire crédit"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>crédit</l><r><g><b/>crédit</g></r></p></e>
+    <e lm="blesser grièvement"><i>bless</i><par n="abaiss/er__vblex"/><p><l><b/>grièvement</l><r><g><b/>grièvement</g></r></p></e>
+    <e lm="faire exploser"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>exploser</l><r><g><b/>exploser</g></r></p></e>
+    <e lm="couper en morceaux"><i>coup</i><par n="abaiss/er__vblex"/><p><l><b/>en<b/>morceaux</l><r><g><b/>en<b/>morceaux</g></r></p></e>
+    <e lm="aller en pèlerinage"><i></i><par n="/aller__vblex"/><p><l><b/>en<b/>pèlerinage</l><r><g><b/>en<b/>pèlerinage</g></r></p></e>
+    <e lm="enquêter sur"><i>enquêt</i><par n="abaiss/er__vblex"/><p><l><b/>sur</l><r><g><b/>sur</g></r></p></e>
+    <e lm="faire la guerre"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>la<b/>guerre</l><r><g><b/>la<b/>guerre</g></r></p></e>
+<e lm="abstraire"><i>abstra</i><par n="distra/ire__vblex"/></e>
+<e lm="lèche-cul"><i>lèche-cul</i><par n="artiste__n"/></e>
+<e lm="lèche-botte"><i>lèche-botte</i><par n="artiste__n"/></e>
+<e r="LR"><p><l>lèche-culs</l><r>lèche-cul<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="LR"><p><l>lèche-bottes</l><r>lèche-botte<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 
 <!-- xxxx -->
   </section>
