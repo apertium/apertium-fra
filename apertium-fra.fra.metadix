@@ -8870,6 +8870,7 @@
 <e lm="off"><i>off</i><par n="arrière__adj"/></e>
 <e lm="offensif"><i>offensi</i><par n="affirmati/f__adj"/></e>
 <e lm="officiel"><i>officiel</i><par n="annuel__adj"/></e>
+<e lm="coofficiel"><i>coofficiel</i><par n="annuel__adj"/></e>
 <e lm="ogival" a="jaumeortola"><i>ogiva</i><par n="amica/l__adj"/></e>
 <e lm="oligarchique" a="jaumeortola"><i>oligarchique</i><par n="académique__adj"/></e>
 <e lm="olympique"><i>olympique</i><par n="académique__adj"/></e>
@@ -49895,6 +49896,242 @@
 <e lm="lèche-botte"><i>lèche-botte</i><par n="artiste__n"/></e>
 <e r="LR"><p><l>lèche-culs</l><r>lèche-cul<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR"><p><l>lèche-bottes</l><r>lèche-botte<s n="n"/><s n="mf"/><s n="sg"/></r></p></e>
+<e lm="scolastique"><i>scolastique</i><par n="abeille__n"/></e>
+<e lm="scolastique"><i>scolastique</i><par n="livre__n"/></e>
+<e lm="néophyte"><i>néophyte</i><par n="artiste__n"/></e>
+<e lm="néophyte"><i>néophyte</i><par n="académique__adj"/></e>
+<e lm="heptasyllabe"><i>heptasyllabe</i><par n="académique__adj"/></e>
+<e lm="pentasyllabe"><i>pentasyllabe</i><par n="académique__adj"/></e>
+<e lm="heptasyllabique"><i>heptasyllabique</i><par n="académique__adj"/></e>
+<e lm="pentasyllabique"><i>pentasyllabique</i><par n="académique__adj"/></e>
+<e lm="alaman"><i>alaman</i><par n="abaissant__adj"/></e>
+<e lm="aléman"><i>aléman</i><par n="abaissant__adj"/></e>
+<e lm="Alaman"><i>Alaman</i><par n="affecté__n"/></e>
+<e lm="Aléman"><i>Aléman</i><par n="affecté__n"/></e>
+<e lm="suisse allemand"><i>suisse<b/>allemand</i><par n="personnel__n"/></e>
+<e lm="francique"><i>francique</i><par n="académique__adj"/></e>
+<e lm="francique"><i>francique</i><par n="personnel__n"/></e>
+<e lm="romand"><i>romand</i><par n="abaissant__adj"/></e>
+<e lm="Romand"><i>Romand</i><par n="affecté__n"/></e>
+<e lm="alémanique"><i>alémanique</i><par n="académique__adj"/></e>
+<e lm="vétéran"><i>vétéran</i><par n="abaissant__adj"/></e>
+<e lm="vétéran"><i>vétéran</i><par n="affecté__n"/></e>
+<e lm="tchécoslovaque"><i>tchécoslovaque</i><par n="académique__adj"/></e>
+<e lm="Tchécoslovaque"><i>Tchécoslovaque</i><par n="artiste__n"/></e>
+<e lm="nippon"><i>nippon</i><par n="ancien__adj"/></e>
+<e lm="Nippon"><i>Nippon</i><par n="ancien__n"/></e>
+<e lm="bombardier"><i>bombardi</i><par n="ch/er__adj"/></e>
+<e lm="exténué"><i>exténué</i><par n="abaissant__adj"/></e>
+<e lm="centreuropéen"><i>centreuropéen</i><par n="ancien__adj"/></e>
+<e lm="affriqué"><i>affriqué</i><par n="abaissant__adj"/></e>
+<e lm="génitif"><i>géniti</i><par n="affirmati/f__adj"/></e>
+<e lm="distinguible"><i>distinguible</i><par n="académique__adj"/></e>
+<e lm="arthurien"><i>arthurien</i><par n="ancien__adj"/></e>
+<e lm="déserteur"><i>désert</i><par n="conduct/eur__adj"/></e>
+<e lm="éthiopique"><i>éthiopique</i><par n="académique__adj"/></e>
+<e lm="sous-jacent" a="jaumeortola"><i>sous-jacent</i><par n="abaissant__adj"/></e>
+<e lm="aqueux" a="jaumeortola"><i>aqueu</i><par n="affectueu/x__adj"/></e>
+<e lm="bactérien" a="jaumeortola"><i>bactérien</i><par n="ancien__adj"/></e>
+<e lm="slovène" a="jaumeortola"><i>slovène</i><par n="académique__adj"/></e>
+<e lm="éclectique" a="jaumeortola"><i>éclectique</i><par n="académique__adj"/></e>
+<e lm="marécageux" a="jaumeortola"><i>marécageu</i><par n="affectueu/x__adj"/></e>
+<e lm="commutatif" a="jaumeortola"><i>commutati</i><par n="affirmati/f__adj"/></e>
+<e lm="molaire" a="jaumeortola"><i>molaire</i><par n="académique__adj"/></e>
+<e lm="focal" a="jaumeortola"><i>foca</i><par n="amica/l__adj"/></e>
+<e lm="consonantique" a="jaumeortola"><i>consonantique</i><par n="académique__adj"/></e>
+<e lm="brusque" a="jaumeortola"><i>brusque</i><par n="académique__adj"/></e>
+<e lm="végétarien" a="jaumeortola"><i>végétarien</i><par n="ancien__adj"/></e>
+<e lm="subsaharien" a="jaumeortola"><i>subsaharien</i><par n="ancien__adj"/></e>
+<e lm="restrictif" a="jaumeortola"><i>restricti</i><par n="affirmati/f__adj"/></e>
+<e lm="relativiste" a="jaumeortola"><i>relativiste</i><par n="académique__adj"/></e>
+<e lm="polyphonique" a="jaumeortola"><i>polyphonique</i><par n="académique__adj"/></e>
+<e lm="collaboratif" a="jaumeortola"><i>collaborati</i><par n="affirmati/f__adj"/></e>
+<e lm="somptueux" a="jaumeortola"><i>somptueu</i><par n="affectueu/x__adj"/></e>
+<e lm="anticlérical" a="jaumeortola"><i>anticlérica</i><par n="amica/l__adj"/></e>
+<e lm="nucléique" a="jaumeortola"><i>nucléique</i><par n="académique__adj"/></e>
+<e lm="catalytique" a="jaumeortola"><i>catalytique</i><par n="académique__adj"/></e>
+<e lm="bienveillant" a="jaumeortola"><i>bienveillant</i><par n="abaissant__adj"/></e>
+<e lm="articulé" a="jaumeortola"><i>articulé</i><par n="abaissant__adj"/></e>
+<e lm="orographique" a="jaumeortola"><i>orographique</i><par n="académique__adj"/></e>
+<e lm="historiographique" a="jaumeortola"><i>historiographique</i><par n="académique__adj"/></e>
+<e lm="senior" a="jaumeortola"><i>senior</i><par n="académique__adj"/></e>
+<e lm="lymphatique" a="jaumeortola"><i>lymphatique</i><par n="académique__adj"/></e>
+<e lm="atypique" a="jaumeortola"><i>atypique</i><par n="académique__adj"/></e>
+<e lm="sénatorial" a="jaumeortola"><i>sénatoria</i><par n="amica/l__adj"/></e>
+<e lm="cutané" a="jaumeortola"><i>cutané</i><par n="abaissant__adj"/></e>
+<e lm="schématique" a="jaumeortola"><i>schématique</i><par n="académique__adj"/></e>
+<e lm="éveillé" a="jaumeortola"><i>éveillé</i><par n="abaissant__adj"/></e>
+<e lm="dégourdi" a="jaumeortola"><i>dégourdi</i><par n="abaissant__adj"/></e>
+<e lm="consulaire" a="jaumeortola"><i>consulaire</i><par n="académique__adj"/></e>
+<e lm="pornographique" a="jaumeortola"><i>pornographique</i><par n="académique__adj"/></e>
+<e lm="circulatoire" a="jaumeortola"><i>circulatoire</i><par n="académique__adj"/></e>
+<e lm="tolérant" a="jaumeortola"><i>tolérant</i><par n="abaissant__adj"/></e>
+<e lm="trapézoïdal" a="jaumeortola"><i>trapézoïda</i><par n="amica/l__adj"/></e>
+<e lm="adaptatif" a="jaumeortola"><i>adaptati</i><par n="affirmati/f__adj"/></e>
+<e lm="grenadin" a="jaumeortola"><i>grenadin</i><par n="abaissant__adj"/></e>
+<e lm="ruineux" a="jaumeortola"><i>ruineu</i><par n="affectueu/x__adj"/></e>
+<e lm="scolastique" a="jaumeortola"><i>scolastique</i><par n="académique__adj"/></e>
+<e lm="centriste" a="jaumeortola"><i>centriste</i><par n="académique__adj"/></e>
+<e lm="utopique" a="jaumeortola"><i>utopique</i><par n="académique__adj"/></e>
+<e lm="transitif" a="jaumeortola"><i>transiti</i><par n="affirmati/f__adj"/></e>
+<e lm="inversible" a="jaumeortola"><i>inversible</i><par n="académique__adj"/></e>
+<e lm="aristotélique" a="jaumeortola"><i>aristotélique</i><par n="académique__adj"/></e>
+<e lm="rationaliste" a="jaumeortola"><i>rationaliste</i><par n="académique__adj"/></e>
+<e lm="poreux" a="jaumeortola"><i>poreu</i><par n="affectueu/x__adj"/></e>
+<e lm="cathodique" a="jaumeortola"><i>cathodique</i><par n="académique__adj"/></e>
+<e lm="méthodologique" a="jaumeortola"><i>méthodologique</i><par n="académique__adj"/></e>
+<e lm="élisabéthain" a="jaumeortola"><i>élisabéthain</i><par n="abaissant__adj"/></e>
+<e lm="mozarabe" a="jaumeortola"><i>mozarabe</i><par n="académique__adj"/></e>
+<e lm="câblé" a="jaumeortola"><i>câblé</i><par n="abaissant__adj"/></e>
+<e lm="unicellulaire" a="jaumeortola"><i>unicellulaire</i><par n="académique__adj"/></e>
+<e lm="logarithmique" a="jaumeortola"><i>logarithmique</i><par n="académique__adj"/></e>
+<e lm="électrochimique" a="jaumeortola"><i>électrochimique</i><par n="académique__adj"/></e>
+<e lm="anesthésique" a="jaumeortola"><i>anesthésique</i><par n="académique__adj"/></e>
+<e lm="anesthésiant" a="jaumeortola"><i>anesthésiant</i><par n="abaissant__adj"/></e>
+<e lm="caillouteux" a="jaumeortola"><i>caillouteu</i><par n="affectueu/x__adj"/></e>
+<e lm="pierreux" a="jaumeortola"><i>pierreu</i><par n="affectueu/x__adj"/></e>
+<e lm="inductif" a="jaumeortola"><i>inducti</i><par n="affirmati/f__adj"/></e>
+<e lm="anaérobique" a="jaumeortola"><i>anaérobique</i><par n="académique__adj"/></e>
+<e lm="commerçant" a="jaumeortola"><i>commerçant</i><par n="abaissant__adj"/></e>
+<e lm="cynique" a="jaumeortola"><i>cynique</i><par n="académique__adj"/></e>
+<e lm="médial" a="jaumeortola"><i>média</i><par n="amica/l__adj"/></e>
+<e lm="photoélectrique" a="jaumeortola"><i>photoélectrique</i><par n="académique__adj"/></e>
+<e lm="inculte" a="jaumeortola"><i>inculte</i><par n="académique__adj"/></e>
+<e lm="diviseur" a="jaumeortola"><i>diviseu</i><par n="causeu/r__adj"/></e>
+<e lm="clérical" a="jaumeortola"><i>clérica</i><par n="amica/l__adj"/></e>
+<e lm="tétraédrique" a="jaumeortola"><i>tétraédrique</i><par n="académique__adj"/></e>
+<e lm="marginalisé" a="jaumeortola"><i>marginalisé</i><par n="abaissant__adj"/></e>
+<e lm="insigne" a="jaumeortola"><i>insigne</i><par n="académique__adj"/></e>
+<e lm="concis" a="jaumeortola"><i>concis</i><par n="anglais__adj"/></e>
+<e lm="subversif" a="jaumeortola"><i>subversi</i><par n="affirmati/f__adj"/></e>
+<e lm="peptidique" a="jaumeortola"><i>peptidique</i><par n="académique__adj"/></e>
+<e lm="oxydé" a="jaumeortola"><i>oxydé</i><par n="abaissant__adj"/></e>
+<e lm="asexuel" a="jaumeortola"><i>asexuel</i><par n="annuel__adj"/></e>
+<e lm="possessif" a="jaumeortola"><i>possessi</i><par n="affirmati/f__adj"/></e>
+<e lm="pariétal" a="jaumeortola"><i>pariéta</i><par n="amica/l__adj"/></e>
+<e lm="hiéroglyphique" a="jaumeortola"><i>hiéroglyphique</i><par n="académique__adj"/></e>
+<e lm="humanistique" a="jaumeortola"><i>humanistique</i><par n="académique__adj"/></e>
+<e lm="granuleux" a="jaumeortola"><i>granuleu</i><par n="affectueu/x__adj"/></e>
+<e lm="nord-africain" a="jaumeortola"><i>nord-africain</i><par n="abaissant__adj"/></e>
+<e lm="fractionnaire" a="jaumeortola"><i>fractionnaire</i><par n="académique__adj"/></e>
+<e lm="stoïcien" a="jaumeortola"><i>stoïcien</i><par n="ancien__adj"/></e>
+<e lm="stoïque" a="jaumeortola"><i>stoïque</i><par n="académique__adj"/></e>
+<e lm="cinématique" a="jaumeortola"><i>cinématique</i><par n="académique__adj"/></e>
+<e lm="calcique" a="jaumeortola"><i>calcique</i><par n="académique__adj"/></e>
+<e lm="isométrique" a="jaumeortola"><i>isométrique</i><par n="académique__adj"/></e>
+<e lm="invincible" a="jaumeortola"><i>invincible</i><par n="académique__adj"/></e>
+<e lm="idiomatique" a="jaumeortola"><i>idiomatique</i><par n="académique__adj"/></e>
+<e lm="arrondi" a="jaumeortola"><i>arrondi</i><par n="abaissant__adj"/></e>
+<e lm="émoussé" a="jaumeortola"><i>émoussé</i><par n="abaissant__adj"/></e>
+<e lm="invasif" a="jaumeortola"><i>invasi</i><par n="affirmati/f__adj"/></e>
+<e lm="tyrannique" a="jaumeortola"><i>tyrannique</i><par n="académique__adj"/></e>
+<e lm="équilatère" a="jaumeortola"><i>équilatère</i><par n="académique__adj"/></e>
+<e lm="sectaire" a="jaumeortola"><i>sectaire</i><par n="académique__adj"/></e>
+<e lm="crevé" a="jaumeortola"><i>crevé</i><par n="abaissant__adj"/></e>
+<e lm="disproportionné" a="jaumeortola"><i>disproportionné</i><par n="abaissant__adj"/></e>
+<e lm="craintif" a="jaumeortola"><i>crainti</i><par n="affirmati/f__adj"/></e>
+<e lm="peureux" a="jaumeortola"><i>peureu</i><par n="affectueu/x__adj"/></e>
+<e lm="scellé" a="jaumeortola"><i>scellé</i><par n="abaissant__adj"/></e>
+<e lm="cacheté" a="jaumeortola"><i>cacheté</i><par n="abaissant__adj"/></e>
+<e lm="tamponné" a="jaumeortola"><i>tamponné</i><par n="abaissant__adj"/></e>
+<e lm="monochromatique" a="jaumeortola"><i>monochromatique</i><par n="académique__adj"/></e>
+<e lm="hydrologique" a="jaumeortola"><i>hydrologique</i><par n="académique__adj"/></e>
+<e lm="asymptotique" a="jaumeortola"><i>asymptotique</i><par n="académique__adj"/></e>
+<e lm="inhibiteur" a="jaumeortola"><i>inhibit</i><par n="conduct/eur__adj"/></e>
+<e lm="heuristique" a="jaumeortola"><i>heuristique</i><par n="académique__adj"/></e>
+<e lm="galant" a="jaumeortola"><i>galant</i><par n="abaissant__adj"/></e>
+<e lm="délictueux" a="jaumeortola"><i>délictueu</i><par n="affectueu/x__adj"/></e>
+<e lm="délictuel" a="jaumeortola"><i>délictuel</i><par n="annuel__adj"/></e>
+<e lm="cryptographique" a="jaumeortola"><i>cryptographique</i><par n="académique__adj"/></e>
+<e lm="typologique" a="jaumeortola"><i>typologique</i><par n="académique__adj"/></e>
+<e lm="microbien" a="jaumeortola"><i>microbien</i><par n="ancien__adj"/></e>
+<e lm="ferromagnétique" a="jaumeortola"><i>ferromagnétique</i><par n="académique__adj"/></e>
+<e lm="spectroscopique" a="jaumeortola"><i>spectroscopique</i><par n="académique__adj"/></e>
+<e lm="corrosif" a="jaumeortola"><i>corrosi</i><par n="affirmati/f__adj"/></e>
+<e lm="tangible" a="jaumeortola"><i>tangible</i><par n="académique__adj"/></e>
+<e lm="onirique" a="jaumeortola"><i>onirique</i><par n="académique__adj"/></e>
+<e lm="interpersonnel" a="jaumeortola"><i>interpersonnel</i><par n="annuel__adj"/></e>
+<e lm="gaussien" a="jaumeortola"><i>gaussien</i><par n="ancien__adj"/></e>
+<e lm="endocrinien" a="jaumeortola"><i>endocrinien</i><par n="ancien__adj"/></e>
+<e lm="thermoélectrique" a="jaumeortola"><i>thermoélectrique</i><par n="académique__adj"/></e>
+<e lm="sociolinguistique" a="jaumeortola"><i>sociolinguistique</i><par n="académique__adj"/></e>
+<e lm="prédéterminé" a="jaumeortola"><i>prédéterminé</i><par n="abaissant__adj"/></e>
+<e lm="rampant" a="jaumeortola"><i>rampant</i><par n="abaissant__adj"/></e>
+<e lm="équin" a="jaumeortola"><i>équin</i><par n="abaissant__adj"/></e>
+<e lm="diabétique" a="jaumeortola"><i>diabétique</i><par n="académique__adj"/></e>
+<e lm="sensitif" a="jaumeortola"><i>sensiti</i><par n="affirmati/f__adj"/></e>
+<e lm="sanguinaire" a="jaumeortola"><i>sanguinaire</i><par n="académique__adj"/></e>
+<e lm="lombaire" a="jaumeortola"><i>lombaire</i><par n="académique__adj"/></e>
+<e lm="immoral" a="jaumeortola"><i>immora</i><par n="amica/l__adj"/></e>
+<e lm="ongulé" a="jaumeortola"><i>ongulé</i><par n="abaissant__adj"/></e>
+<e lm="acrylique" a="jaumeortola"><i>acrylique</i><par n="académique__adj"/></e>
+<e lm="somatique" a="jaumeortola"><i>somatique</i><par n="académique__adj"/></e>
+<e lm="rétractile" a="jaumeortola"><i>rétractile</i><par n="académique__adj"/></e>
+<e lm="pluricellulaire" a="jaumeortola"><i>pluricellulaire</i><par n="académique__adj"/></e>
+<e lm="nicaraguayen" a="jaumeortola"><i>nicaraguayen</i><par n="ancien__adj"/></e>
+<e lm="bicaméral" a="jaumeortola"><i>bicaméra</i><par n="amica/l__adj"/></e>
+<e lm="axiomatique" a="jaumeortola"><i>axiomatique</i><par n="académique__adj"/></e>
+<e lm="présentiel" a="jaumeortola"><i>présentiel</i><par n="annuel__adj"/></e>
+<e lm="perméable" a="jaumeortola"><i>perméable</i><par n="académique__adj"/></e>
+<e lm="azoté" a="jaumeortola"><i>azoté</i><par n="abaissant__adj"/></e>
+<e lm="infirme" a="jaumeortola"><i>infirme</i><par n="académique__adj"/></e>
+<e lm="patriote" a="jaumeortola"><i>patriote</i><par n="académique__adj"/></e>
+<e lm="interrogatif" a="jaumeortola"><i>interrogati</i><par n="affirmati/f__adj"/></e>
+<e lm="immatériel" a="jaumeortola"><i>immatériel</i><par n="annuel__adj"/></e>
+<e lm="condamné" a="jaumeortola"><i>condamné</i><par n="abaissant__adj"/></e>
+<e lm="confessionnel" a="jaumeortola"><i>confessionnel</i><par n="annuel__adj"/></e>
+<e lm="tacite" a="jaumeortola"><i>tacite</i><par n="académique__adj"/></e>
+<e lm="menstruel" a="jaumeortola"><i>menstruel</i><par n="annuel__adj"/></e>
+<e lm="distinguable" a="jaumeortola"><i>distinguable</i><par n="académique__adj"/></e>
+<e lm="officieux" a="jaumeortola"><i>officieu</i><par n="affectueu/x__adj"/></e>
+<e lm="autosuffisant" a="jaumeortola"><i>autosuffisant</i><par n="abaissant__adj"/></e>
+<e lm="virulent" a="jaumeortola"><i>virulent</i><par n="abaissant__adj"/></e>
+<e lm="télescopique" a="jaumeortola"><i>télescopique</i><par n="académique__adj"/></e>
+<e lm="paradigmatique" a="jaumeortola"><i>paradigmatique</i><par n="académique__adj"/></e>
+<e lm="diététique" a="jaumeortola"><i>diététique</i><par n="académique__adj"/></e>
+<e lm="dépressif" a="jaumeortola"><i>dépressi</i><par n="affirmati/f__adj"/></e>
+<e lm="confédéral" a="jaumeortola"><i>confédéra</i><par n="amica/l__adj"/></e>
+<e lm="procédural" a="jaumeortola"><i>procédura</i><par n="amica/l__adj"/></e>
+<e lm="orthonormal" a="jaumeortola"><i>orthonorma</i><par n="amica/l__adj"/></e>
+<e lm="autocratique" a="jaumeortola"><i>autocratique</i><par n="académique__adj"/></e>
+<e lm="tutélaire" a="jaumeortola"><i>tutélaire</i><par n="académique__adj"/></e>
+<e lm="ténébreux" a="jaumeortola"><i>ténébreu</i><par n="affectueu/x__adj"/></e>
+<e lm="pancréatique" a="jaumeortola"><i>pancréatique</i><par n="académique__adj"/></e>
+<e lm="acerbe" a="jaumeortola"><i>acerbe</i><par n="académique__adj"/></e>
+<e lm="lingual" a="jaumeortola"><i>lingua</i><par n="amica/l__adj"/></e>
+<e lm="insensible" a="jaumeortola"><i>insensible</i><par n="académique__adj"/></e>
+<e lm="incurable" a="jaumeortola"><i>incurable</i><par n="académique__adj"/></e>
+<e lm="épidermique" a="jaumeortola"><i>épidermique</i><par n="académique__adj"/></e>
+<e lm="élitiste" a="jaumeortola"><i>élitiste</i><par n="académique__adj"/></e>
+<e lm="passionnel" a="jaumeortola"><i>passionnel</i><par n="annuel__adj"/></e>
+<e lm="corrélatif" a="jaumeortola"><i>corrélati</i><par n="affirmati/f__adj"/></e>
+<e lm="laxiste" a="jaumeortola"><i>laxiste</i><par n="académique__adj"/></e>
+<e lm="monosyllabe" a="jaumeortola"><i>monosyllabe</i><par n="académique__adj"/></e>
+<e lm="kényan" a="jaumeortola"><i>kényan</i><par n="abaissant__adj"/></e>
+<e lm="imaginable" a="jaumeortola"><i>imaginable</i><par n="académique__adj"/></e>
+<e lm="géomorphologique" a="jaumeortola"><i>géomorphologique</i><par n="académique__adj"/></e>
+<e lm="copernicien" a="jaumeortola"><i>copernicien</i><par n="ancien__adj"/></e>
+<e lm="ultraconservateur" a="jaumeortola"><i>ultraconservat</i><par n="conduct/eur__adj"/></e>
+<e lm="persuasif" a="jaumeortola"><i>persuasi</i><par n="affirmati/f__adj"/></e>
+<e lm="ïambique" a="jaumeortola"><i>ïambique</i><par n="académique__adj"/></e>
+<e lm="évangéliste" a="jaumeortola"><i>évangéliste</i><par n="académique__adj"/></e>
+<e lm="voltaïque" a="jaumeortola"><i>voltaïque</i><par n="académique__adj"/></e>
+<e lm="prépositionnel" a="jaumeortola"><i>prépositionnel</i><par n="annuel__adj"/></e>
+<e lm="isothermique" a="jaumeortola"><i>isothermique</i><par n="académique__adj"/></e>
+<e lm="indécent" a="jaumeortola"><i>indécent</i><par n="abaissant__adj"/></e>
+<e lm="impassible" a="jaumeortola"><i>impassible</i><par n="académique__adj"/></e>
+<e lm="minoen" a="jaumeortola"><i>minoen</i><par n="ancien__adj"/></e>
+<e lm="récursif" a="jaumeortola"><i>récursi</i><par n="affirmati/f__adj"/></e>
+<e lm="occlusif" a="jaumeortola"><i>occlusi</i><par n="affirmati/f__adj"/></e>
+<e lm="dermatologique" a="jaumeortola"><i>dermatologique</i><par n="académique__adj"/></e>
+<e lm="ornithologique" a="jaumeortola"><i>ornithologique</i><par n="académique__adj"/></e>
+<e lm="toxicologique" a="jaumeortola"><i>toxicologique</i><par n="académique__adj"/></e>
+<e lm="pédiatrique" a="jaumeortola"><i>pédiatrique</i><par n="académique__adj"/></e>
+<e lm="déshabillé" a="jaumeortola"><i>déshabillé</i><par n="abaissant__adj"/></e>
+<e lm="mensonger" a="jaumeortola"><i>mensong</i><par n="ch/er__adj"/></e>
+<e lm="sarde" a="jaumeortola"><i>sarde</i><par n="académique__adj"/></e>
+<e lm="lombard" a="jaumeortola"><i>lombard</i><par n="abaissant__adj"/></e>
+<e lm="bénédictin" a="jaumeortola"><i>bénédictin</i><par n="abaissant__adj"/></e>
 
 <!-- xxxx -->
   </section>
