@@ -10487,7 +10487,8 @@
 <e lm="affinité"><i>affinité</i><par n="abeille__n"/></e>
 <e lm="affirmation"><i>affirmation</i><par n="abeille__n"/></e>
 <e lm="affixation"><i>affixation</i><par n="abeille__n"/></e>
-<e lm="affixe" a="jaumeortola"><i>affixe</i><par n="artiste__n"/></e>
+<e lm="affixe" c="math"><i>affixe</i><par n="abeille__n"/></e>
+<e lm="affixe" c="ling"><i>affixe</i><par n="livre__n"/></e>
 <e lm="affleurement" a="jaumeortola"><i>affleurement</i><par n="livre__n"/></e>
 <e lm="affliction"><i>affliction</i><par n="abeille__n"/></e>
 <e lm="affluence"><i>affluence</i><par n="abeille__n"/></e>
@@ -11428,7 +11429,7 @@
 <e lm="baril"><i>baril</i><par n="livre__n"/></e>
 <e lm="barographe"><i>barographe</i><par n="livre__n"/></e>
 <e lm="baromètre"><i>baromètre</i><par n="livre__n"/></e>
-<e lm="baron"><i>baron</i><par n="buffle__n"/></e>
+<e lm="baron"><i>baron</i><par n="clown__n"/></e>
 <e lm="baronnie" a="jaumeortola"><i>baronnie</i><par n="abeille__n"/></e>
 <e lm="barque"><i>barque</i><par n="abeille__n"/></e>
 <e lm="barquette"><i>barquette</i><par n="abeille__n"/></e>
@@ -12038,7 +12039,6 @@
 <e lm="cartouche" c="armement"><i>cartouche</i><par n="abeille__n"/></e>
 <e lm="cartouche" c="ornement"><i>cartouche</i><par n="livre__n"/></e>
 <e lm="carénage" a="jaumeortola"><i>carénage</i><par n="livre__n"/></e>
-<e lm="carême"><i>carême</i><par n="livre__n"/></e>
 <e lm="cas"><i>cas</i><par n="mois__n"/></e>
 <e lm="casaque" a="jaumeortola"><i>casaque</i><par n="abeille__n"/></e>
 <e lm="casbah"><i>casbah</i><par n="abeille__n"/></e>
@@ -13919,7 +13919,6 @@
 <e lm="EADS" c="European Aeronautic Defence and Space Company"><i>EADS</i><par n="BBC__n"/></e>
 <e lm="eau"><i>eau</i><par n="eau__n"/></e>
 <e lm="eau de javel"><i>eau</i><par n="eau__n"/><p><l><b/>de<b/>javel</l><r><g><b/>de<b/>javel</g></r></p></e>
-<e lm="eau-forte" a="jaumeortola"><i>eau-forte</i><par n="BBC__n"/></e>
 <e lm="EB"><i>EB</i><par n="BBVA__n"/></e>
 <e lm="EBB"><i>EBB</i><par n="BBVA__n"/></e>
 <e r="LR" lm="écart"><p><l>Ecart</l>                   <r>écart</r></p><par n="livre__n"/></e>
@@ -14841,7 +14840,7 @@
 <e lm="gain"><i>gain</i><par n="livre__n"/></e>
 <e lm="gaine" a="jaumeortola"><i>gaine</i><par n="abeille__n"/></e>
 <e lm="gala"><i>gala</i><par n="livre__n"/></e>
-<e lm="galactose" a="jaumeortola"><i>galactose</i><par n="artiste__n"/></e>
+<e lm="galactose"><i>galactose</i><par n="livre__n"/></e>
 <e lm="galant" a="jaumeortola"><i>galant</i><par n="affecté__n"/></e>
 <e lm="galaxie"><i>galaxie</i><par n="abeille__n"/></e>
 <e lm="galerie"><i>galerie</i><par n="abeille__n"/></e>
@@ -17485,7 +17484,6 @@
 <e lm="oracle" a="jaumeortola"><i>oracle</i><par n="livre__n"/></e>
 <e lm="oraison"><i>oraison</i><par n="abeille__n"/></e>
 <e lm="oralité"><i>oralité</i><par n="abeille__n"/></e>
-<e lm="orang-outan" a="jaumeortola"><i>orang-outan</i><par n="BBVA__n"/></e>
 <e lm="orange"><i>orange</i><par n="abeille__n"/></e>
 <e lm="oranger"><i>oranger</i><par n="livre__n"/></e>
 <e lm="orateur"><i>orat</i><par n="administrat/eur__n"/></e>
@@ -17571,8 +17569,8 @@
 <e lm="ouest"><i>ouest</i><par n="personnel__n"/></e>
 <e lm="ouragan"><i>ouragan</i><par n="livre__n"/></e>
 <e lm="ours"><i>ours</i><par n="admis__n"/></e>
-<e lm="ours-brun"><i>ours-brun</i><par n="livre__n"/></e>
 <e lm="ours brun"><i>ours<b/>brun</i><par n="livre__n"/></e>
+<e r="LR" lm="ours brun"><p><l>ours-brun</l><r>ours<b/>brun</r></p><par n="livre__n"/></e>
 <e lm="outil"><i>outil</i><par n="livre__n"/></e>
 <e lm="outillage" a="jaumeortola"><i>outillage</i><par n="livre__n"/></e>
 <e lm="outrage"><i>outrage</i><par n="livre__n"/></e>
@@ -17659,7 +17657,6 @@
 <e lm="pantalon"><i>pantalon</i><par n="livre__n"/></e>
 <e lm="panthère"><i>panthère</i><par n="abeille__n"/></e>
 <e lm="pantin" a="jaumeortola"><i>pantin</i><par n="livre__n"/></e>
-<e lm="pantomime" a="jaumeortola"><i>pantomime</i><par n="artiste__n"/></e>
 <e lm="pantoufle" a="jaumeortola"><i>pantoufle</i><par n="abeille__n"/></e>
 <e lm="panégyrique"><i>panégyrique</i><par n="livre__n"/></e>
 <e lm="paon" a="jaumeortola"><i>paon</i><par n="ancien__n"/></e>
@@ -17855,7 +17852,6 @@
 <e lm="perdant"><i>perdant</i><par n="affecté__n"/></e>
 <e lm="perdition"><i>perdition</i><par n="abeille__n"/></e>
 <e lm="perdrix"><i>perdrix</i><par n="fois__n"/></e>
-<e lm="perestroïka" a="jaumeortola"><i>perestroïka</i><par n="BBC__n"/></e>
 <e lm="perfection"><i>perfection</i><par n="abeille__n"/></e>
 <e lm="perfectionnement"><i>perfectionnement</i><par n="livre__n"/></e>
 <e lm="perfectionniste" a="jaumeortola"><i>perfectionniste</i><par n="artiste__n"/></e>
@@ -18035,7 +18031,6 @@
 <e lm="piste"><i>piste</i><par n="abeille__n"/></e>
 <e lm="pistil" a="jaumeortola"><i>pisti</i><par n="cie/l__n"/></e>
 <e lm="pistolet"><i>pistolet</i><par n="livre__n"/></e>
-<e lm="pistolet-mitrailleur" a="jaumeortola"><i>pistolet-mitrailleur</i><par n="BBVA__n"/></e>
 <e lm="piston" a="jaumeortola"><i>piston</i><par n="livre__n"/></e>
 <e lm="pivert" a="jaumeortola"><i>pivert</i><par n="livre__n"/></e>
 <e lm="pivot"><i>pivot</i><par n="livre__n"/></e>
@@ -18072,7 +18067,6 @@
 <e lm="plaisanterie"><i>plaisanterie</i><par n="abeille__n"/></e>
 <e lm="plaisir"><i>plaisir</i><par n="livre__n"/></e>
 <e lm="plan"><i>plan</i><par n="livre__n"/></e>
-<e lm="plan d'aide à l'investissement"><i>plan<b/>d'aide<b/>à<b/>l'investissement</i><par n="BBVA__n"/></e>
 <e lm="planche" a="jaumeortola"><i>planche</i><par n="abeille__n"/></e>
 <e lm="plancton"><i>plancton</i><par n="personnel__n"/></e>
 <e lm="planeur" a="jaumeortola"><i>planeu</i><par n="causeu/r__n"/></e>
@@ -18279,7 +18273,6 @@
 <e lm="postériorité"><i>postériorité</i><par n="abeille__n"/></e>
 <e lm="postérité"><i>postérité</i><par n="abeille__n"/></e>
 <e lm="pot"><i>pot</i><par n="livre__n"/></e>
-<e lm="pot-de-vin" a="jaumeortola"><i>pot-de-vin</i><par n="BBVA__n"/></e>
 <e lm="potassium"><i>potassium</i><par n="livre__n"/></e>
 <e lm="poteau"><i>poteau</i><par n="lieu__n"/></e>
 <e lm="potentialisation"><i>potentialisation</i><par n="abeille__n"/></e>
@@ -18730,7 +18723,7 @@
 <e lm="quadrimestre"><i>quadrimestre</i><par n="livre__n"/></e>
 <e lm="quadruple" a="jaumeortola"><i>quadruple</i><par n="livre__n"/></e>
 <e lm="quai"><i>quai</i><par n="livre__n"/></e>
-<e lm="quaker" a="jaumeortola"><i>quaker</i><par n="livre__n"/></e>
+<e lm="quaker"><i>quaker</i><par n="clown__n"/></e>
 <e lm="qualification"><i>qualification</i><par n="abeille__n"/></e>
 <e lm="qualité"><i>qualité</i><par n="abeille__n"/></e>
 <e lm="quantificateur" a="jaumeortola"><i>quantificateur</i><par n="livre__n"/></e>
@@ -19627,7 +19620,7 @@
 <e lm="serment" a="jaumeortola"><i>serment</i><par n="livre__n"/></e>
 <e lm="sermon"><i>sermon</i><par n="livre__n"/></e>
 <e lm="serpent"><i>serpent</i><par n="livre__n"/></e>
-<e lm="serpentin" a="jaumeortola"><i>serpentin</i><par n="affecté__n"/></e>
+<e lm="serpentin"><i>serpentin</i><par n="livre__n"/></e>
 <e lm="serre"><i>serre</i><par n="abeille__n"/></e>
 <e lm="serrement"><i>serrement</i><par n="livre__n"/></e>
 <e lm="serrure"><i>serrure</i><par n="abeille__n"/></e>
@@ -19688,7 +19681,8 @@
 <e lm="silicate"><i>silicate</i><par n="livre__n"/></e>
 <e lm="silice"><i>silice</i><par n="abeille__n"/></e>
 <e lm="silicium"><i>silicium</i><par n="livre__n"/></e>
-<e lm="silicone" a="jaumeortola"><i>silicone</i><par n="artiste__n"/></e>
+<e lm="silicone" c="composé"><i>silicone</i><par n="abeille__n"/></e>
+<e lm="silicone" c="polymère"><i>silicone</i><par n="livre__n"/></e>
 <e lm="sillage"><i>sillage</i><par n="livre__n"/></e>
 <e lm="sillon"><i>sillon</i><par n="livre__n"/></e>
 <e lm="silo" a="jaumeortola"><i>silo</i><par n="livre__n"/></e>
@@ -50132,6 +50126,64 @@
 <e lm="sarde" a="jaumeortola"><i>sarde</i><par n="académique__adj"/></e>
 <e lm="lombard" a="jaumeortola"><i>lombard</i><par n="abaissant__adj"/></e>
 <e lm="bénédictin" a="jaumeortola"><i>bénédictin</i><par n="abaissant__adj"/></e>
+<e lm="sarde"><i>sarde</i><par n="artiste__n"/></e>
+<e lm="lombard"><i>lombard</i><par n="affecté__n"/></e>
+<e lm="dépendant"><i>dépendant</i><par n="affecté__n"/></e>
+<e lm="VIH" a="jaumeortola"><i>VIH</i><par n="IRPF__n"/></e>
+<e lm="cynique" a="jaumeortola"><i>cynique</i><par n="artiste__n"/></e>
+<e lm="marginal" a="jaumeortola"><i>margina</i><par n="commercia/l__n"/></e>
+<e lm="endoplasme" a="jaumeortola"><i>endoplasme</i><par n="livre__n"/></e>
+    <e lm="boîte aux lettres"><i>boîte</i><par n="abeille__n"/><p><l><b/>aux<b/>lettres</l><r><g><b/>aux<b/>lettres</g></r></p></e>
+    <e lm="stylo à bille"><i>stylo</i><par n="livre__n"/><p><l><b/>à<b/>bille</l><r><g><b/>à<b/>bille</g></r></p></e>
+    <e lm="tuyau d'écoulement"><i>tuyau</i><par n="lieu__n"/><p><l><b/>d'écoulement</l><r><g><b/>d'écoulement</g></r></p></e>
+    <e lm="salon de coiffure"><i>salon</i><par n="livre__n"/><p><l><b/>de<b/>coiffure</l><r><g><b/>de<b/>coiffure</g></r></p></e>
+    <e lm="chambre de combustion"><i>chambre</i><par n="abeille__n"/><p><l><b/>de<b/>combustion</l><r><g><b/>de<b/>combustion</g></r></p></e>
+    <e lm="coucher de soleil"><i>coucher</i><par n="livre__n"/><p><l><b/>de<b/>soleil</l><r><g><b/>de<b/>soleil</g></r></p></e>
+    <e lm="coucher du soleil"><i>coucher</i><par n="livre__n"/><p><l><b/>du<b/>soleil</l><r><g><b/>du<b/>soleil</g></r></p></e>
+    <e lm="coup de poing"><i>coup</i><par n="livre__n"/><p><l><b/>de<b/>poing</l><r><g><b/>de<b/>poing</g></r></p></e>
+    <e lm="terrain de culture"><i>terrain</i><par n="livre__n"/><p><l><b/>de<b/>culture</l><r><g><b/>de<b/>culture</g></r></p></e>
+    <e lm="botte de foin"><i>botte</i><par n="abeille__n"/><p><l><b/>de<b/>foin</l><r><g><b/>de<b/>foin</g></r></p></e>
+    <e lm="grenier à paille"><i>grenier</i><par n="livre__n"/><p><l><b/>à<b/>paille</l><r><g><b/>à<b/>paille</g></r></p></e>
+<e lm="antiparticule" a="jaumeortola"><i>antiparticule</i><par n="abeille__n"/></e>
+    <e lm="bulletin de vote"><i>bulletin</i><par n="livre__n"/><p><l><b/>de<b/>vote</l><r><g><b/>de<b/>vote</g></r></p></e>
+    <e lm="vent du midi"><i>vent</i><par n="livre__n"/><p><l><b/>du<b/>midi</l><r><g><b/>du<b/>midi</g></r></p></e>
+    <e lm="feuille de calcul"><i>feuille</i><par n="abeille__n"/><p><l><b/>de<b/>calcul</l><r><g><b/>de<b/>calcul</g></r></p></e>
+    <e lm="point d'interrogation"><i>point</i><par n="livre__n"/><p><l><b/>d'interrogation</l><r><g><b/>d'interrogation</g></r></p></e>
+    <e lm="émission de nouvelles"><i>émission</i><par n="abeille__n"/><p><l><b/>de<b/>nouvelles</l><r><g><b/>de<b/>nouvelles</g></r></p></e>
+    <e lm="bulletin d'emission"><i>bulletin</i><par n="livre__n"/><p><l><b/>d'emission</l><r><g><b/>d'emission</g></r></p></e>
+    <e lm="feuille de papier"><i>feuille</i><par n="abeille__n"/><p><l><b/>de<b/>papier</l><r><g><b/>de<b/>papier</g></r></p></e>
+    <e lm="trafic de drogue"><i>trafic</i><par n="livre__n"/><p><l><b/>de<b/>drogue</l><r><g><b/>de<b/>drogue</g></r></p></e>
+    <e lm="boîte aux lettres"><i>boîte</i><par n="abeille__n"/><p><l><b/>aux<b/>lettres</l><r><g><b/>aux<b/>lettres</g></r></p></e>
+    <e lm="stylo à bille"><i>stylo</i><par n="livre__n"/><p><l><b/>à<b/>bille</l><r><g><b/>à<b/>bille</g></r></p></e>
+    <e lm="tuyau d'écoulement"><i>tuyau</i><par n="lieu__n"/><p><l><b/>d'écoulement</l><r><g><b/>d'écoulement</g></r></p></e>
+    <e lm="salon de coiffure"><i>salon</i><par n="livre__n"/><p><l><b/>de<b/>coiffure</l><r><g><b/>de<b/>coiffure</g></r></p></e>
+    <e lm="chambre de combustion"><i>chambre</i><par n="abeille__n"/><p><l><b/>de<b/>combustion</l><r><g><b/>de<b/>combustion</g></r></p></e>
+    <e lm="coucher de soleil"><i>coucher</i><par n="livre__n"/><p><l><b/>de<b/>soleil</l><r><g><b/>de<b/>soleil</g></r></p></e>
+    <e lm="coucher du soleil"><i>coucher</i><par n="livre__n"/><p><l><b/>du<b/>soleil</l><r><g><b/>du<b/>soleil</g></r></p></e>
+    <e lm="coup de poing"><i>coup</i><par n="livre__n"/><p><l><b/>de<b/>poing</l><r><g><b/>de<b/>poing</g></r></p></e>
+    <e lm="terrain de culture"><i>terrain</i><par n="livre__n"/><p><l><b/>de<b/>culture</l><r><g><b/>de<b/>culture</g></r></p></e>
+    <e lm="botte de foin"><i>botte</i><par n="abeille__n"/><p><l><b/>de<b/>foin</l><r><g><b/>de<b/>foin</g></r></p></e>
+    <e lm="grenier à paille"><i>grenier</i><par n="livre__n"/><p><l><b/>à<b/>paille</l><r><g><b/>à<b/>paille</g></r></p></e>
+    <e lm="bulletin de vote"><i>bulletin</i><par n="livre__n"/><p><l><b/>de<b/>vote</l><r><g><b/>de<b/>vote</g></r></p></e>
+    <e lm="vent du midi"><i>vent</i><par n="livre__n"/><p><l><b/>du<b/>midi</l><r><g><b/>du<b/>midi</g></r></p></e>
+    <e lm="feuille de calcul"><i>feuille</i><par n="abeille__n"/><p><l><b/>de<b/>calcul</l><r><g><b/>de<b/>calcul</g></r></p></e>
+    <e lm="point d'interrogation"><i>point</i><par n="livre__n"/><p><l><b/>d'interrogation</l><r><g><b/>d'interrogation</g></r></p></e>
+    <e lm="émission de nouvelles"><i>émission</i><par n="abeille__n"/><p><l><b/>de<b/>nouvelles</l><r><g><b/>de<b/>nouvelles</g></r></p></e>
+    <e lm="bulletin d'emission"><i>bulletin</i><par n="livre__n"/><p><l><b/>d'emission</l><r><g><b/>d'emission</g></r></p></e>
+    <e lm="feuille de papier"><i>feuille</i><par n="abeille__n"/><p><l><b/>de<b/>papier</l><r><g><b/>de<b/>papier</g></r></p></e>
+    <e lm="trafic de drogue"><i>trafic</i><par n="livre__n"/><p><l><b/>de<b/>drogue</l><r><g><b/>de<b/>drogue</g></r></p></e>
+<e lm="pérestroïka"><i>pérestroïka</i><par n="abeille__n"/></e>
+<e r="LR" lm="pérestroïka"><p><l>perestroïka</l><r>pérestroïka</r></p><par n="abeille__n"/></e>
+<e lm="Carême"><i>Carême</i><par n="personnel__n"/></e>
+<e lm="eau-forte"><p><l>eau-forte</l><r>eau-forte<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="eau-forte"><p><l>eaux-fortes</l><r>eau-forte<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="pantomime"><i>pantomime</i><par n="abeille__n"/></e>
+<e lm="pantomime"><i>pantomime</i><par n="livre__n"/></e>
+<e lm="orang-outan"><p><l>orang-outan</l><r>orang-outan<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="orang-outan"><p><l>orangs-outans</l><r>orang-outan<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="pistolet-mitrailleur"><p><l>pistolet-mitrailleur</l><r>pistolet-mitrailleur<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="pistolet-mitrailleur"><p><l>pistolets-mitrailleurs</l><r>pistolet-mitrailleur<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+
 
 <!-- xxxx -->
   </section>
