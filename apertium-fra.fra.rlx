@@ -961,5 +961,15 @@ SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + MascPl) (-1C Adv) (0 A + MascPl LI
 SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + FemPl) (-1C Adv) (0 A + FemPl LINK NOT 0 Det) ;
 # ". Civiles étnicamente croatas"
 
+# A OR PP
+
+#SELECT PP IF (-1 Ser) (0 A OR PP) (1 ("par")) ;
+#SELECT PP IF (-2 Ser) (-1 Adv) (0 A OR PP) (1 ("par")) ;
+#SELECT PP IF (-2 Ser) (-1 Adv) (0 A OR PP) (1 Adv) (2 ("par")) ;
+SELECT PP IF (0 A OR PP) (1 ("par")) ;
+SELECT PP IF (0 A OR PP) (1 Adv) (2 ("par")) ;
+SELECT PP IF (-2 Ser) (-1 ("ne")) (0 A OR PP) (1 ("que")) (2 ("par")) ;
+# Les cours seront assurés par Michel Laine
+
 SELECT N IF (-1 ("par")) (0 ("personne")) ;
 REMOVE N IF (-1 Pour) (0 ("personne")) ;
