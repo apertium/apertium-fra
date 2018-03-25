@@ -36585,6 +36585,7 @@
 <e lm="aucun"><i>aucun</i><par n="certain__det"/></e>
 <e r="LR" lm="ce"><i>ce</i><par n="ce__det"/></e>
 <e lm="certain"><i>certain</i><par n="certain__det"/></e>
+
 <e lm="chaque"><i>chaque</i><par n="chaque__det"/></e>
     <!-- TODO: why these are also __det? -->
 <e lm="cinquante et un"><i>cinquante<b/>et<b/>un</i><par n="cinquante_et_un__det"/></e>
@@ -52670,6 +52671,137 @@
 <e lm="céteau" a="jaumeortola"><i>céteau</i><par n="lieu__n"/></e>
 <e lm="cétose" a="jaumeortola"><i>cétose</i><par n="artiste__n"/></e>
 <e lm="cœlacanthe" a="jaumeortola"><i>cœlacanthe</i><par n="livre__n"/></e>
+
+<e lm="perse"><i>perse</i><par n="académique__adj"/></e>
+<e lm="perse"><i>perse</i><par n="artiste__n"/></e>
+
+<e lm="bacciforme" a="jaumeortola"><i>bacciforme</i><par n="académique__adj"/></e>
+<e lm="baccifère" a="jaumeortola"><i>baccifère</i><par n="académique__adj"/></e>
+<e lm="bacillaire" a="jaumeortola"><i>bacillaire</i><par n="académique__adj"/></e>
+<e lm="bacilliforme" a="jaumeortola"><i>bacilliforme</i><par n="académique__adj"/></e>
+<e lm="bactéricide" a="jaumeortola"><i>bactéricide</i><par n="académique__adj"/></e>
+<e lm="bactériologique" a="jaumeortola"><i>bactériologique</i><par n="académique__adj"/></e>
+<e lm="bactériophage" a="jaumeortola"><i>bactériophage</i><par n="académique__adj"/></e>
+<e lm="bactériostatique" a="jaumeortola"><i>bactériostatique</i><par n="académique__adj"/></e>
+<e lm="balnéaire" a="jaumeortola"><i>balnéaire</i><par n="académique__adj"/></e>
+<e lm="baloutche" a="jaumeortola"><i>baloutche</i><par n="académique__adj"/></e>
+<e lm="balsamique" a="jaumeortola"><i>balsamique</i><par n="académique__adj"/></e>
+<e lm="bancal" a="jaumeortola"><i>bancal</i><par n="abaissant__adj"/></e>
+<e lm="barbiturique" a="jaumeortola"><i>barbiturique</i><par n="académique__adj"/></e>
+<e lm="barbu" a="jaumeortola"><i>barbu</i><par n="abaissant__adj"/></e>
+<e lm="bariolé" a="jaumeortola"><i>bariolé</i><par n="abaissant__adj"/></e>
+<e lm="beige" a="jaumeortola"><i>beige</i><par n="académique__adj"/></e>
+<e lm="bien" a="jaumeortola"><i>bien</i><par n="arrière__adj"/></e>
+<e lm="bigle" a="jaumeortola"><i>bigle</i><par n="académique__adj"/></e>
+<e lm="bipenne" a="jaumeortola"><i>bipenne</i><par n="académique__adj"/></e>
+<e lm="bisexuel" a="jaumeortola"><i>bisexuel</i><par n="annuel__adj"/></e>
+<e lm="bistre" a="jaumeortola"><i>bistre</i><par n="arrière__adj"/></e>
+<e lm="blet" a="jaumeortola"><i>blet</i><par n="favori__adj"/></e>
+<e lm="boiteux" a="jaumeortola"><i>boiteu</i><par n="affectueu/x__adj"/></e>
+<e lm="bolchévique" a="jaumeortola"><i>bolchévique</i><par n="académique__adj"/></e>
+<e lm="bonhomme" a="jaumeortola"><i>bonhomme</i><par n="académique__adj"/></e>
+<e lm="bonobo" a="jaumeortola"><i>bonobo</i><par n="académique__adj"/></e>
+<e lm="borgne" a="jaumeortola"><i>borgne</i><par n="académique__adj"/></e>
+<e lm="bossu" a="jaumeortola"><i>bossu</i><par n="abaissant__adj"/></e>
+<e lm="botulique" a="jaumeortola"><i>botulique</i><par n="académique__adj"/></e>
+<e lm="bouffon" a="jaumeortola"><i>bouffon</i><par n="ancien__adj"/></e>
+<e lm="bourré" a="jaumeortola"><i>bourré</i><par n="abaissant__adj"/></e>
+<e lm="bousillé" a="jaumeortola"><i>bousillé</i><par n="abaissant__adj"/></e>
+<e lm="brique" a="jaumeortola"><i>brique</i><par n="arrière__adj"/></e>
+<e lm="broussailleux" a="jaumeortola"><i>broussailleu</i><par n="affectueu/x__adj"/></e>
+<e lm="bucolique" a="jaumeortola"><i>bucolique</i><par n="académique__adj"/></e>
+<e lm="bulbeux" a="jaumeortola"><i>bulbeu</i><par n="affectueu/x__adj"/></e>
+<e lm="burlesque" a="jaumeortola"><i>burlesque</i><par n="académique__adj"/></e>
+<e lm="bègue" a="jaumeortola"><i>bègue</i><par n="académique__adj"/></e>
+<e lm="béarnais" a="jaumeortola"><i>béarnais</i><par n="anglais__adj"/></e>
+<e lm="cacophonique" a="jaumeortola"><i>cacophonique</i><par n="académique__adj"/></e>
+<e lm="caduc" a="jaumeortola"><i>caduc</i><par n="académique__adj"/></e>
+<e lm="caducifolié" a="jaumeortola"><i>caducifolié</i><par n="abaissant__adj"/></e>
+<e lm="café" a="jaumeortola"><i>café</i><par n="arrière__adj"/></e>
+<e lm="calamiteux" a="jaumeortola"><i>calamiteu</i><par n="affectueu/x__adj"/></e>
+<e lm="calmant" a="jaumeortola"><i>calmant</i><par n="abaissant__adj"/></e>
+<e lm="cambrien" a="jaumeortola"><i>cambrien</i><par n="ancien__adj"/></e>
+<e lm="cannelle" a="jaumeortola"><i>cannelle</i><par n="arrière__adj"/></e>
+<e lm="canon" a="jaumeortola"><i>canon</i><par n="académique__adj"/></e>
+<e lm="cantonais" a="jaumeortola"><i>cantonais</i><par n="anglais__adj"/></e>
+<e lm="cardioïde" a="jaumeortola"><i>cardioïde</i><par n="académique__adj"/></e>
+<e lm="caresseur" a="jaumeortola"><i>caresseu</i><par n="causeu/r__adj"/></e>
+<e lm="carotte" a="jaumeortola"><i>carotte</i><par n="arrière__adj"/></e>
+<e lm="catatonique" a="jaumeortola"><i>catatonique</i><par n="académique__adj"/></e>
+<e lm="cavalier" a="jaumeortola"><i>cavali</i><par n="ch/er__adj"/></e>
+<e lm="cave" a="jaumeortola"><i>cave</i><par n="académique__adj"/></e>
+<e lm="caverneux" a="jaumeortola"><i>caverneu</i><par n="affectueu/x__adj"/></e>
+<e lm="celluleux" a="jaumeortola"><i>celluleu</i><par n="affectueu/x__adj"/></e>
+<e lm="cendreux" a="jaumeortola"><i>cendreu</i><par n="affectueu/x__adj"/></e>
+<e lm="cerise" a="jaumeortola"><i>cerise</i><par n="arrière__adj"/></e>
+<e lm="certain" a="jaumeortola"><i>certain</i><par n="abaissant__adj"/></e>
+<e lm="cespiteux" a="jaumeortola"><i>cespiteu</i><par n="affectueu/x__adj"/></e>
+<e lm="chagrin" a="jaumeortola"><i>chagrin</i><par n="abaissant__adj"/></e>
+<e lm="chamois" a="jaumeortola"><i>chamois</i><par n="arrière__adj"/></e>
+<e lm="chanceux" a="jaumeortola"><i>chanceu</i><par n="affectueu/x__adj"/></e>
+<e lm="chanteur" a="jaumeortola"><i>chanteu</i><par n="causeu/r__adj"/></e>
+<e lm="charbonnier" a="jaumeortola"><i>charbonni</i><par n="ch/er__adj"/></e>
+<e lm="charpentier" a="jaumeortola"><i>charpenti</i><par n="ch/er__adj"/></e>
+<e lm="chevalier" a="jaumeortola"><i>chevali</i><par n="ch/er__adj"/></e>
+<e lm="chien" a="jaumeortola"><i>chien</i><par n="ancien__adj"/></e>
+<e lm="chocolat" a="jaumeortola"><i>chocolat</i><par n="arrière__adj"/></e>
+<e lm="chouette" a="jaumeortola"><i>chouette</i><par n="académique__adj"/></e>
+<e lm="chryséléphantin" a="jaumeortola"><i>chryséléphantin</i><par n="abaissant__adj"/></e>
+<e lm="châtaigne" a="jaumeortola"><i>châtaigne</i><par n="arrière__adj"/></e>
+<e lm="chétif" a="jaumeortola"><i>chéti</i><par n="affirmati/f__adj"/></e>
+<e lm="circonspect" a="jaumeortola"><i>circonspect</i><par n="abaissant__adj"/></e>
+<e lm="cité" a="jaumeortola"><i>cité</i><par n="abaissant__adj"/></e>
+<e lm="citoyen" a="jaumeortola"><i>citoyen</i><par n="ancien__adj"/></e>
+<e lm="citron" a="jaumeortola"><i>citron</i><par n="arrière__adj"/></e>
+<e lm="classificateur" a="jaumeortola"><i>classificat</i><par n="conduct/eur__adj"/></e>
+<e lm="cloche" a="jaumeortola"><i>cloche</i><par n="académique__adj"/></e>
+<e lm="cochléaire" a="jaumeortola"><i>cochléaire</i><par n="académique__adj"/></e>
+<e lm="cocu" a="jaumeortola"><i>cocu</i><par n="abaissant__adj"/></e>
+<e lm="colique" a="jaumeortola"><i>colique</i><par n="académique__adj"/></e>
+<e lm="comateux" a="jaumeortola"><i>comateu</i><par n="affectueu/x__adj"/></e>
+<e lm="comminatoire" a="jaumeortola"><i>comminatoire</i><par n="académique__adj"/></e>
+<e lm="commode" a="jaumeortola"><i>commode</i><par n="académique__adj"/></e>
+<e lm="compensatoire" a="jaumeortola"><i>compensatoire</i><par n="académique__adj"/></e>
+<e lm="complice" a="jaumeortola"><i>complice</i><par n="académique__adj"/></e>
+<e lm="composé" a="jaumeortola"><i>composé</i><par n="abaissant__adj"/></e>
+<e lm="compromis" a="jaumeortola"><i>compromis</i><par n="anglais__adj"/></e>
+<e lm="con" a="jaumeortola"><i>con</i><par n="ancien__adj"/></e>
+<e lm="conciliable" a="jaumeortola"><i>conciliable</i><par n="académique__adj"/></e>
+<e lm="concubin" a="jaumeortola"><i>concubin</i><par n="abaissant__adj"/></e>
+<e lm="connu" a="jaumeortola"><i>connu</i><par n="abaissant__adj"/></e>
+<e lm="consciencieux" a="jaumeortola"><i>consciencieu</i><par n="affectueu/x__adj"/></e>
+<e lm="continent" a="jaumeortola"><i>continent</i><par n="abaissant__adj"/></e>
+<e lm="contraignant" a="jaumeortola"><i>contraignant</i><par n="abaissant__adj"/></e>
+<e lm="contreplaqué" a="jaumeortola"><i>contreplaqué</i><par n="abaissant__adj"/></e>
+<e lm="copiste" a="jaumeortola"><i>copiste</i><par n="académique__adj"/></e>
+<e lm="coquet" a="jaumeortola"><i>coquet</i><par n="favori__adj"/></e>
+<e lm="corail" a="jaumeortola"><i>corail</i><par n="arrière__adj"/></e>
+<e lm="corpulent" a="jaumeortola"><i>corpulent</i><par n="abaissant__adj"/></e>
+<e lm="cosmogonique" a="jaumeortola"><i>cosmogonique</i><par n="académique__adj"/></e>
+<e lm="cotidal" a="jaumeortola"><i>cotida</i><par n="amica/l__adj"/></e>
+<e lm="couard" a="jaumeortola"><i>couard</i><par n="abaissant__adj"/></e>
+<e lm="courtois" a="jaumeortola"><i>courtois</i><par n="anglais__adj"/></e>
+<e lm="crapuleux" a="jaumeortola"><i>crapuleu</i><par n="affectueu/x__adj"/></e>
+<e lm="creux" a="jaumeortola"><i>creu</i><par n="affectueu/x__adj"/></e>
+<e lm="criard" a="jaumeortola"><i>criard</i><par n="abaissant__adj"/></e>
+<e lm="croche" a="jaumeortola"><i>croche</i><par n="académique__adj"/></e>
+<e lm="crochu" a="jaumeortola"><i>crochu</i><par n="abaissant__adj"/></e>
+<e lm="croisé" a="jaumeortola"><i>croisé</i><par n="abaissant__adj"/></e>
+<e lm="crème" a="jaumeortola"><i>crème</i><par n="arrière__adj"/></e>
+<e lm="créateur" a="jaumeortola"><i>créat</i><par n="conduct/eur__adj"/></e>
+<e lm="créationniste" a="jaumeortola"><i>créationniste</i><par n="académique__adj"/></e>
+<e lm="créole" a="jaumeortola"><i>créole</i><par n="académique__adj"/></e>
+<e lm="crétin" a="jaumeortola"><i>crétin</i><par n="abaissant__adj"/></e>
+<e lm="cube" a="jaumeortola"><i>cube</i><par n="académique__adj"/></e>
+<e lm="cuit" a="jaumeortola"><i>cuit</i><par n="abaissant__adj"/></e>
+<e lm="curé" a="jaumeortola"><i>curé</i><par n="abaissant__adj"/></e>
+<e lm="cyan" a="jaumeortola"><i>cyan</i><par n="arrière__adj"/></e>
+<e lm="cytologique" a="jaumeortola"><i>cytologique</i><par n="académique__adj"/></e>
+<e lm="câlin" a="jaumeortola"><i>câlin</i><par n="abaissant__adj"/></e>
+<e lm="cérumineux" a="jaumeortola"><i>cérumineu</i><par n="affectueu/x__adj"/></e>
+<e lm="cérébelleux" a="jaumeortola"><i>cérébelleu</i><par n="affectueu/x__adj"/></e>
+<e lm="imbriquer"><i>imbriqu</i><par n="abaiss/er__vblex"/></e>
+<e lm="métamorphoser"><i>métamorphos</i><par n="abaiss/er__vblex"/></e>
 
 <!-- xxxx -->
   </section>
