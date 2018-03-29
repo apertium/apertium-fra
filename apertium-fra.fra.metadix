@@ -20949,6 +20949,9 @@
 <e lm="viande"><i>viande</i><par n="abeille__n"/></e>
 <e lm="vibration"><i>vibration</i><par n="abeille__n"/></e>
 <e lm="vicaire"><i>vicaire</i><par n="livre__n"/></e>
+<e lm="sous-vicaire"><i>sous-vicaire</i><par n="livre__n"/></e>
+<e lm="vicariat"><i>vicariat</i><par n="livre__n"/></e>
+<e lm="sous-vicariat"><i>sous-vicariat</i><par n="livre__n"/></e>
 <e lm="vice"><i>vice</i><par n="livre__n"/></e>
 <e lm="vice-amiral" a="jaumeortola"><i>vice-amira</i><par n="anima/l__n"/></e>
 <e lm="vice-champion" a="jaumeortola"><i>vice-champion</i><par n="ancien__n"/></e>
@@ -52802,6 +52805,132 @@
 <e lm="cérébelleux" a="jaumeortola"><i>cérébelleu</i><par n="affectueu/x__adj"/></e>
 <e lm="imbriquer"><i>imbriqu</i><par n="abaiss/er__vblex"/></e>
 <e lm="métamorphoser"><i>métamorphos</i><par n="abaiss/er__vblex"/></e>
+<e lm="arpitan"><i>arpitan</i><par n="affecté__n"/></e>
+<e lm="arpitan"><i>arpitan</i><par n="abaissant__adj"/></e>
+
+    <e lm="abstraitement" a="jaumeortola"><i>abstraitement</i><par n="hier__adv"/></e>
+    <e lm="absurdement" a="jaumeortola"><i>absurdement</i><par n="hier__adv"/></e>
+    <e lm="abusivement" a="jaumeortola"><i>abusivement</i><par n="hier__adv"/></e>
+    <e lm="acceptablement" a="jaumeortola"><i>acceptablement</i><par n="hier__adv"/></e>
+    <e lm="âcrement" a="jaumeortola"><i>âcrement</i><par n="hier__adv"/></e>
+    <e lm="administrativement" a="jaumeortola"><i>administrativement</i><par n="hier__adv"/></e>
+    <e lm="admirativement" a="jaumeortola"><i>admirativement</i><par n="hier__adv"/></e>
+    <e lm="adorablement" a="jaumeortola"><i>adorablement</i><par n="hier__adv"/></e>
+    <e lm="adverbialement" a="jaumeortola"><i>adverbialement</i><par n="hier__adv"/></e>
+    <e lm="affablement" a="jaumeortola"><i>affablement</i><par n="hier__adv"/></e>
+    <e lm="affectueusement" a="jaumeortola"><i>affectueusement</i><par n="hier__adv"/></e>
+    <e lm="affirmativement" a="jaumeortola"><i>affirmativement</i><par n="hier__adv"/></e>
+    <e lm="agilement" a="jaumeortola"><i>agilement</i><par n="hier__adv"/></e>
+    <e lm="agressivement" a="jaumeortola"><i>agressivement</i><par n="hier__adv"/></e>
+    <e lm="aigrement" a="jaumeortola"><i>aigrement</i><par n="hier__adv"/></e>
+    <e lm="aléatoirement" a="jaumeortola"><i>aléatoirement</i><par n="hier__adv"/></e>
+    <e lm="alentour" a="jaumeortola"><i>alentour</i><par n="hier__adv"/></e>
+    <e lm="alias" a="jaumeortola"><i>alias</i><par n="hier__adv"/></e>
+    <e lm="allégoriquement" a="jaumeortola"><i>allégoriquement</i><par n="hier__adv"/></e>
+    <e lm="allégretto" a="jaumeortola"><i>allégretto</i><par n="hier__adv"/></e>
+    <e lm="allégro" a="jaumeortola"><i>allégro</i><par n="hier__adv"/></e>
+    <e lm="alphabétiquement" a="jaumeortola"><i>alphabétiquement</i><par n="hier__adv"/></e>
+    <e lm="ambigument" a="jaumeortola"><i>ambigument</i><par n="hier__adv"/></e>
+    <e lm="ambitieusement" a="jaumeortola"><i>ambitieusement</i><par n="hier__adv"/></e>
+    <e lm="amèrement" a="jaumeortola"><i>amèrement</i><par n="hier__adv"/></e>
+    <e lm="amiablement" a="jaumeortola"><i>amiablement</i><par n="hier__adv"/></e>
+    <e lm="analytiquement" a="jaumeortola"><i>analytiquement</i><par n="hier__adv"/></e>
+    <e lm="anarchiquement" a="jaumeortola"><i>anarchiquement</i><par n="hier__adv"/></e>
+    <e lm="anatomiquement" a="jaumeortola"><i>anatomiquement</i><par n="hier__adv"/></e>
+    <e lm="andante" a="jaumeortola"><i>andante</i><par n="hier__adv"/></e>
+    <e lm="andantino" a="jaumeortola"><i>andantino</i><par n="hier__adv"/></e>
+    <e lm="angéliquement" a="jaumeortola"><i>angéliquement</i><par n="hier__adv"/></e>
+    <e lm="angulairement" a="jaumeortola"><i>angulairement</i><par n="hier__adv"/></e>
+    <e lm="anxieusement" a="jaumeortola"><i>anxieusement</i><par n="hier__adv"/></e>
+    <e lm="apathiquement" a="jaumeortola"><i>apathiquement</i><par n="hier__adv"/></e>
+    <e lm="approximativement" a="jaumeortola"><i>approximativement</i><par n="hier__adv"/></e>
+    <e lm="âprement" a="jaumeortola"><i>âprement</i><par n="hier__adv"/></e>
+    <e lm="ardûment" a="jaumeortola"><i>ardûment</i><par n="hier__adv"/></e>
+    <e lm="aristocratiquement" a="jaumeortola"><i>aristocratiquement</i><par n="hier__adv"/></e>
+    <e lm="arithmétiquement" a="jaumeortola"><i>arithmétiquement</i><par n="hier__adv"/></e>
+    <e lm="artificieusement" a="jaumeortola"><i>artificieusement</i><par n="hier__adv"/></e>
+    <e lm="assidûment" a="jaumeortola"><i>assidûment</i><par n="hier__adv"/></e>
+    <e lm="astronomiquement" a="jaumeortola"><i>astronomiquement</i><par n="hier__adv"/></e>
+    <e lm="astucieusement" a="jaumeortola"><i>astucieusement</i><par n="hier__adv"/></e>
+    <e lm="athlétiquement" a="jaumeortola"><i>athlétiquement</i><par n="hier__adv"/></e>
+    <e lm="atrocement" a="jaumeortola"><i>atrocement</i><par n="hier__adv"/></e>
+    <e lm="audacieusement" a="jaumeortola"><i>audacieusement</i><par n="hier__adv"/></e>
+    <e lm="augustement" a="jaumeortola"><i>augustement</i><par n="hier__adv"/></e>
+    <e lm="autocratiquement" a="jaumeortola"><i>autocratiquement</i><par n="hier__adv"/></e>
+    <e lm="autoritairement" a="jaumeortola"><i>autoritairement</i><par n="hier__adv"/></e>
+    <e lm="avantageusement" a="jaumeortola"><i>avantageusement</i><par n="hier__adv"/></e>
+    <e lm="avaricieusement" a="jaumeortola"><i>avaricieusement</i><par n="hier__adv"/></e>
+    <e lm="bénignement" a="jaumeortola"><i>bénignement</i><par n="hier__adv"/></e>
+    <e lm="bestialement" a="jaumeortola"><i>bestialement</i><par n="hier__adv"/></e>
+    <e lm="botaniquement" a="jaumeortola"><i>botaniquement</i><par n="hier__adv"/></e>
+    <e lm="conditionnellement" a="jaumeortola"><i>conditionnellement</i><par n="hier__adv"/></e>
+    <e lm="continûment" a="jaumeortola"><i>continûment</i><par n="hier__adv"/></e>
+    <e lm="couci-couça" a="jaumeortola"><i>couci-couça</i><par n="hier__adv"/></e>
+    <e lm="courtoisement" a="jaumeortola"><i>courtoisement</i><par n="hier__adv"/></e>
+    <e lm="cumulativement" a="jaumeortola"><i>cumulativement</i><par n="hier__adv"/></e>
+    <e lm="dédaigneusement" a="jaumeortola"><i>dédaigneusement</i><par n="hier__adv"/></e>
+    <e lm="défectueusement" a="jaumeortola"><i>défectueusement</i><par n="hier__adv"/></e>
+    <e lm="delà" a="jaumeortola"><i>delà</i><par n="hier__adv"/></e>
+    <e lm="délicatement" a="jaumeortola"><i>délicatement</i><par n="hier__adv"/></e>
+    <e lm="délicieusement" a="jaumeortola"><i>délicieusement</i><par n="hier__adv"/></e>
+    <e lm="depuis" a="jaumeortola"><i>depuis</i><par n="hier__adv"/></e>
+    <e lm="désastreusement" a="jaumeortola"><i>désastreusement</i><par n="hier__adv"/></e>
+    <e lm="dictatorialement" a="jaumeortola"><i>dictatorialement</i><par n="hier__adv"/></e>
+    <e lm="didactiquement" a="jaumeortola"><i>didactiquement</i><par n="hier__adv"/></e>
+    <e lm="différemment" a="jaumeortola"><i>différemment</i><par n="hier__adv"/></e>
+    <e lm="diligemment" a="jaumeortola"><i>diligemment</i><par n="hier__adv"/></e>
+    <e lm="dimanche" a="jaumeortola"><i>dimanche</i><par n="hier__adv"/></e>
+    <e lm="diplomatiquement" a="jaumeortola"><i>diplomatiquement</i><par n="hier__adv"/></e>
+    <e lm="dispendieusement" a="jaumeortola"><i>dispendieusement</i><par n="hier__adv"/></e>
+    <e lm="douloureusement" a="jaumeortola"><i>douloureusement</i><par n="hier__adv"/></e>
+    <e lm="doux" a="jaumeortola"><i>doux</i><par n="hier__adv"/></e>
+    <e lm="droitement" a="jaumeortola"><i>droitement</i><par n="hier__adv"/></e>
+    <e lm="dur" a="jaumeortola"><i>dur</i><par n="hier__adv"/></e>
+    <e lm="élogieusement" a="jaumeortola"><i>élogieusement</i><par n="hier__adv"/></e>
+    <e lm="empiriquement" a="jaumeortola"><i>empiriquement</i><par n="hier__adv"/></e>
+    <e lm="étrangement" a="jaumeortola"><i>étrangement</i><par n="hier__adv"/></e>
+    <e lm="évangéliquement" a="jaumeortola"><i>évangéliquement</i><par n="hier__adv"/></e>
+    <e lm="fin" a="jaumeortola"><i>fin</i><par n="hier__adv"/></e>
+    <e lm="frais" a="jaumeortola"><i>frais</i><par n="hier__adv"/></e>
+    <e lm="fraternellement" a="jaumeortola"><i>fraternellement</i><par n="hier__adv"/></e>
+    <e lm="grave" a="jaumeortola"><i>grave</i><par n="hier__adv"/></e>
+    <e lm="guère" a="jaumeortola"><i>guère</i><par n="hier__adv"/></e>
+    <e lm="haut" a="jaumeortola"><i>haut</i><par n="hier__adv"/></e>
+    <e lm="hautainement" a="jaumeortola"><i>hautainement</i><par n="hier__adv"/></e>
+    <e lm="hygiéniquement" a="jaumeortola"><i>hygiéniquement</i><par n="hier__adv"/></e>
+    <e lm="illico" a="jaumeortola"><i>illico</i><par n="hier__adv"/></e>
+    <e lm="illogiquement" a="jaumeortola"><i>illogiquement</i><par n="hier__adv"/></e>
+    <e lm="journellement" a="jaumeortola"><i>journellement</i><par n="hier__adv"/></e>
+    <e lm="moult" a="jaumeortola"><i>moult</i><par n="hier__adv"/></e>
+    <e lm="net" a="jaumeortola"><i>net</i><par n="hier__adv"/></e>
+    <e lm="nonobstant" a="jaumeortola"><i>nonobstant</i><par n="hier__adv"/></e>
+    <e lm="nouvellement" a="jaumeortola"><i>nouvellement</i><par n="hier__adv"/></e>
+    <e lm="orthographiquement" a="jaumeortola"><i>orthographiquement</i><par n="hier__adv"/></e>
+    <e lm="ostensiblement" a="jaumeortola"><i>ostensiblement</i><par n="hier__adv"/></e>
+    <e lm="parcimonieusement" a="jaumeortola"><i>parcimonieusement</i><par n="hier__adv"/></e>
+    <e lm="paresseusement" a="jaumeortola"><i>paresseusement</i><par n="hier__adv"/></e>
+    <e lm="par-là" a="jaumeortola"><i>par-là</i><par n="hier__adv"/></e>
+    <e lm="passablement" a="jaumeortola"><i>passablement</i><par n="hier__adv"/></e>
+    <e lm="passionnément" a="jaumeortola"><i>passionnément</i><par n="hier__adv"/></e>
+    <e lm="pauvrement" a="jaumeortola"><i>pauvrement</i><par n="hier__adv"/></e>
+    <e lm="péremptoirement" a="jaumeortola"><i>péremptoirement</i><par n="hier__adv"/></e>
+    <e lm="piano" a="jaumeortola"><i>piano</i><par n="hier__adv"/></e>
+    <e lm="pis" a="jaumeortola"><i>pis</i><par n="hier__adv"/></e>
+    <e lm="presque" a="jaumeortola"><i>presque</i><par n="hier__adv"/></e>
+    <e lm="répétitivement" a="jaumeortola"><i>répétitivement</i><par n="hier__adv"/></e>
+    <e lm="saintement" a="jaumeortola"><i>saintement</i><par n="hier__adv"/></e>
+    <e lm="scandaleusement" a="jaumeortola"><i>scandaleusement</i><par n="hier__adv"/></e>
+    <e lm="selon" a="jaumeortola"><i>selon</i><par n="hier__adv"/></e>
+    <e lm="sensément" a="jaumeortola"><i>sensément</i><par n="hier__adv"/></e>
+    <e lm="solennellement" a="jaumeortola"><i>solennellement</i><par n="hier__adv"/></e>
+    <e lm="spasmodiquement" a="jaumeortola"><i>spasmodiquement</i><par n="hier__adv"/></e>
+    <e lm="spectaculairement" a="jaumeortola"><i>spectaculairement</i><par n="hier__adv"/></e>
+    <e lm="superstitieusement" a="jaumeortola"><i>superstitieusement</i><par n="hier__adv"/></e>
+    <e lm="sympathiquement" a="jaumeortola"><i>sympathiquement</i><par n="hier__adv"/></e>
+    <e lm="tellement" a="jaumeortola"><i>tellement</i><par n="hier__adv"/></e>
+    <e lm="tyranniquement" a="jaumeortola"><i>tyranniquement</i><par n="hier__adv"/></e>
+    <e lm="ultimement" a="jaumeortola"><i>ultimement</i><par n="hier__adv"/></e>
+    <e lm="variablement" a="jaumeortola"><i>variablement</i><par n="hier__adv"/></e>
 
 <!-- xxxx -->
   </section>
