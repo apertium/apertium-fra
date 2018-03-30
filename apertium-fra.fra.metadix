@@ -8175,6 +8175,7 @@
 <e lm="incliné" a="jaumeortola"><i>incliné</i><par n="abaissant__adj"/></e>
 <e lm="inclusif"><i>inclusi</i><par n="affirmati/f__adj"/></e>
 <e lm="incohérent" a="jaumeortola"><i>incohérent</i><par n="abaissant__adj"/></e>
+<e lm="inodore"><i>inodore</i><par n="académique__adj"/></e>
 <e lm="incolore" a="jaumeortola"><i>incolore</i><par n="académique__adj"/></e>
 <e lm="incomparable"><i>incomparable</i><par n="académique__adj"/></e>
 <e lm="incompatible"><i>incompatible</i><par n="académique__adj"/></e>
@@ -27307,7 +27308,7 @@
 <e lm="Google"><i>Google</i><par n="Linux__np"/></e>
 <e lm="Goran"><i>Goran</i><par n="Abraham__np"/></e>
 <e lm="Gorazde"><i>Gorazde</i><par n="Iran__np"/></e>
-<e lm="Gorbatxov"><i>Gorbatxov</i><par n="Saussure__np"/></e>
+<e lm="Gorbatchev"><i>Gorbatchev</i><par n="Saussure__np"/></e>
 <e lm="Gordexola"><i>Gordexola</i><par n="Andorre__np"/></e>
 <e lm="Gordien"><i>Gordien</i><par n="Andorre__np"/></e>
 <e lm="Gordillo"><i>Gordillo</i><par n="Saussure__np"/></e>
@@ -53127,6 +53128,67 @@
 <e lm="lubrique" a="jaumeortola"><i>lubrique</i><par n="académique__adj"/></e>
 <e lm="lusophone" a="jaumeortola"><i>lusophone</i><par n="académique__adj"/></e>
 <e lm="luxurieux" a="jaumeortola"><i>luxurieu</i><par n="affectueu/x__adj"/></e>
+<e lm="magenta" a="jaumeortola"><i>magenta</i><par n="arrière__adj"/></e>
+<e lm="magmatique" a="jaumeortola"><i>magmatique</i><par n="académique__adj"/></e>
+<e lm="malsain" a="jaumeortola"><i>malsain</i><par n="abaissant__adj"/></e>
+<e lm="manchois" a="jaumeortola"><i>manchois</i><par n="anglais__adj"/></e>
+<e lm="manchot" a="jaumeortola"><i>manchot</i><par n="abaissant__adj"/></e>
+<e lm="maniéré" a="jaumeortola"><i>maniéré</i><par n="abaissant__adj"/></e>
+<e lm="marié" a="jaumeortola"><i>marié</i><par n="abaissant__adj"/></e>
+<e lm="mathématicien" a="jaumeortola"><i>mathématicien</i><par n="ancien__adj"/></e>
+<e lm="maxillaire" a="jaumeortola"><i>maxillaire</i><par n="académique__adj"/></e>
+<e lm="maximum" a="jaumeortola"><i>maximum</i><par n="académique__adj"/></e>
+<e lm="membraneux" a="jaumeortola"><i>membraneu</i><par n="affectueu/x__adj"/></e>
+<e lm="menteur" a="jaumeortola"><i>menteu</i><par n="causeu/r__adj"/></e>
+<e lm="mercenaire" a="jaumeortola"><i>mercenaire</i><par n="académique__adj"/></e>
+<e lm="mercuriel" a="jaumeortola"><i>mercuriel</i><par n="annuel__adj"/></e>
+<e lm="mesuré" a="jaumeortola"><i>mesuré</i><par n="abaissant__adj"/></e>
+<e lm="meuble" a="jaumeortola"><i>meuble</i><par n="académique__adj"/></e>
+<e lm="meunier" a="jaumeortola"><i>meuni</i><par n="ch/er__adj"/></e>
+<e lm="mielleux" a="jaumeortola"><i>mielleu</i><par n="affectueu/x__adj"/></e>
+<e lm="mien" a="jaumeortola"><i>mien</i><par n="ancien__adj"/></e>
+<e lm="mignon" a="jaumeortola"><i>mignon</i><par n="ancien__adj"/></e>
+<e lm="migraineux" a="jaumeortola"><i>migraineu</i><par n="affectueu/x__adj"/></e>
+<e lm="milliardième" a="jaumeortola"><i>milliardième</i><par n="académique__adj"/></e>
+<e lm="millionième" a="jaumeortola"><i>millionième</i><par n="académique__adj"/></e>
+<e lm="mineur" a="jaumeortola"><i>mineur</i><par n="abaissant__adj"/></e>
+<e lm="miséricordieux" a="jaumeortola"><i>miséricordieu</i><par n="affectueu/x__adj"/></e>
+<e lm="moite" a="jaumeortola"><i>moite</i><par n="académique__adj"/></e>
+<e lm="monophysite" a="jaumeortola"><i>monophysite</i><par n="académique__adj"/></e>
+<e lm="monoïque" a="jaumeortola"><i>monoïque</i><par n="académique__adj"/></e>
+<e lm="morne" a="jaumeortola"><i>morne</i><par n="académique__adj"/></e>
+<e lm="morveux" a="jaumeortola"><i>morveu</i><par n="affectueu/x__adj"/></e>
+<e lm="mosaïque" a="jaumeortola"><i>mosaïque</i><par n="académique__adj"/></e>
+<e lm="mouillé" a="jaumeortola"><i>mouillé</i><par n="abaissant__adj"/></e>
+<e lm="multifilaire" a="jaumeortola"><i>multifilaire</i><par n="académique__adj"/></e>
+<e lm="multiplateforme" a="jaumeortola"><i>multiplateforme</i><par n="académique__adj"/></e>
+<e lm="musculeux" a="jaumeortola"><i>musculeu</i><par n="affectueu/x__adj"/></e>
+<e lm="musicien" a="jaumeortola"><i>musicien</i><par n="ancien__adj"/></e>
+<e lm="mutin" a="jaumeortola"><i>mutin</i><par n="abaissant__adj"/></e>
+<e lm="myope" a="jaumeortola"><i>myope</i><par n="académique__adj"/></e>
+<e lm="médicamenteux" a="jaumeortola"><i>médicamenteu</i><par n="affectueu/x__adj"/></e>
+<e lm="méiotique" a="jaumeortola"><i>méiotique</i><par n="académique__adj"/></e>
+<e lm="narquois" a="jaumeortola"><i>narquois</i><par n="anglais__adj"/></e>
+<e lm="neurotoxique" a="jaumeortola"><i>neurotoxique</i><par n="académique__adj"/></e>
+<e lm="niveleur" a="jaumeortola"><i>niveleu</i><par n="causeu/r__adj"/></e>
+<e lm="nodulaire" a="jaumeortola"><i>nodulaire</i><par n="académique__adj"/></e>
+<e lm="noduleux" a="jaumeortola"><i>noduleu</i><par n="affectueu/x__adj"/></e>
+<e lm="nonagénaire" a="jaumeortola"><i>nonagénaire</i><par n="académique__adj"/></e>
+<e lm="népalais" a="jaumeortola"><i>népalais</i><par n="anglais__adj"/></e>
+<e lm="obstiné" a="jaumeortola"><i>obstiné</i><par n="abaissant__adj"/></e>
+<e lm="obséquieux" a="jaumeortola"><i>obséquieu</i><par n="affectueu/x__adj"/></e>
+<e lm="occitaniste" a="jaumeortola"><i>occitaniste</i><par n="académique__adj"/></e>
+<e lm="octogénaire" a="jaumeortola"><i>octogénaire</i><par n="académique__adj"/></e>
+<e lm="océanien" a="jaumeortola"><i>océanien</i><par n="ancien__adj"/></e>
+<e lm="onduleux" a="jaumeortola"><i>onduleu</i><par n="affectueu/x__adj"/></e>
+<e lm="onomatopéique" a="jaumeortola"><i>onomatopéique</i><par n="académique__adj"/></e>
+<e lm="organisé" a="jaumeortola"><i>organisé</i><par n="abaissant__adj"/></e>
+<e lm="oronymique" a="jaumeortola"><i>oronymique</i><par n="académique__adj"/></e>
+<e lm="orthostatique" a="jaumeortola"><i>orthostatique</i><par n="académique__adj"/></e>
+<e lm="orwellien" a="jaumeortola"><i>orwellien</i><par n="ancien__adj"/></e>
+<e lm="oublieux" a="jaumeortola"><i>oublieu</i><par n="affectueu/x__adj"/></e>
+<e lm="ourdou" a="jaumeortola"><i>ourdou</i><par n="abaissant__adj"/></e>
+<e lm="parathyroïde" a="jaumeortola"><i>parathyroïde</i><par n="académique__adj"/></e>
 
 <!-- xxxx -->
   </section>
