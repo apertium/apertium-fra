@@ -379,6 +379,9 @@ SELECT N IF (-1 Prep) (-1/* DetDef) (0C N OR Verb) ;
   ## du commandant Klein
 SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
 
+SELECT N IF (-1 ("faire")) (0 ("partie")) ;
+SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
+
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("que")) ;
   ## le groupe ne demande qu'à
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("pas") OR ("jamais")) ;

@@ -397,6 +397,7 @@
   <e>       <p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="sp"/></r></p></e>
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
   <e r="RL"><p><l>x</l>         <r>x<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ses</l>       <r>x<s n="adj"/><s n="f"/><s n="sp"/></r></p></e>
 </pardef>
 
 <pardef n="hébreu__adj">
@@ -1384,11 +1385,15 @@
   <e>       <p><l>es</l>        <r>s<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
-<pardef n="l/e_mien__prn">
-  <e>       <p><l>es<b/>miennes</l><r>e<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>a<b/>mienne</l><r>e<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es<b/>miens</l><r>e<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>e<b/>mien</l> <r>e<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<pardef n="/le_mien__prn">
+  <e r="LR"><p><l>les<b/>miennes</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>la<b/>mienne</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>les<b/>miens</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>le<b/>mien</l> <r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>miennes</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>la<b/>mienne</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>miens</l><r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>le<b/>mien</l> <r>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 <pardef n="du_mien__prn">
   <e r="LR"><p><l>des<b/>miennes</l><r>de<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1401,11 +1406,15 @@
   <e r="LR"><p><l>au<b/>mien</l><r>à<s n="pr"/><j/>le<b/>mien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="l/e_sien__prn">
-  <e>       <p><l>es<b/>siennes</l><r>e<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>a<b/>sienne</l><r>e<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es<b/>siens</l><r>e<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>e<b/>sien</l> <r>e<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<pardef n="/le_sien__prn">
+  <e r="LR"><p><l>les<b/>siennes</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>la<b/>sienne</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>les<b/>siens</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>le<b/>sien</l> <r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>siennes</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>la<b/>sienne</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>siens</l><r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>le<b/>sien</l> <r>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 <pardef n="du_sien__prn">
   <e r="LR"><p><l>des<b/>siennes</l><r>de<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1418,11 +1427,15 @@
   <e r="LR"><p><l>au<b/>sien</l><r>à<s n="pr"/><j/>le<b/>sien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="l/e_tien__prn">
-  <e>       <p><l>es<b/>tiennes</l><r>e<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
-  <e>       <p><l>a<b/>tienne</l><r>e<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es<b/>tiens</l><r>e<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l>e<b/>tien</l> <r>e<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<pardef n="/le_tien__prn">
+  <e r="LR"><p><l>les<b/>tiennes</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>la<b/>tienne</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>les<b/>tiens</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>le<b/>tien</l> <r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>tiennes</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>la<b/>tienne</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>tiens</l><r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>le<b/>tien</l> <r>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 <pardef n="du_tien__prn">
   <e r="LR"><p><l>des<b/>tiennes</l><r>de<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="pl"/></r></p></e>
@@ -1435,10 +1448,13 @@
   <e r="LR"><p><l>au<b/>tien</l><r>à<s n="pr"/><j/>le<b/>tien<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="l/e_nôtre__prn">
-  <e>       <p><l>a<b/>nôtre</l><r>e<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es<b/>nôtres</l><r>e<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l>e<b/>nôtre</l><r>e<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+<pardef n="/le_nôtre__prn">
+  <e r="LR"><p><l>la<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>les<b/>nôtres</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>le<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>la<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>nôtres</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>le<b/>nôtre</l><r>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 <pardef n="du_nôtre__prn">
   <e r="LR"><p><l>des<b/>nôtres</l><r>de<s n="pr"/><j/>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1449,10 +1465,13 @@
   <e r="LR"><p><l>au<b/>nôtre</l><r>à<s n="pr"/><j/>le<b/>nôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="l/e_vôtre__prn">
-  <e>       <p><l>a<b/>vôtre</l><r>e<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e<b/>vôtre</l><r>e<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es<b/>vôtres</l><r>e<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+<pardef n="/le_vôtre__prn">
+  <e r="LR"><p><l>la<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>les<b/>vôtres</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>la<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>le<b/>vôtre</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>vôtres</l><r>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 <pardef n="du_vôtre__prn">
   <e r="LR"><p><l>des<b/>vôtres</l><r>de<s n="pr"/><j/>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -1463,10 +1482,13 @@
   <e r="LR"><p><l>au<b/>vôtre</l><r>à<s n="pr"/><j/>le<b/>vôtre<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
-<pardef n="l/e_leur__prn">
-  <e>       <p><l>a<b/>leur</l> <r>e<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>e<b/>leur</l> <r>e<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>es<b/>leurs</l><r>e<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+<pardef n="/le_leur__prn">
+  <e r="LR"><p><l>la<b/>leur</l> <r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>le<b/>leur</l> <r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>les<b/>leurs</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l><a/>la<b/>leur</l> <r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="f"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>le<b/>leur</l> <r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="m"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l><a/>les<b/>leurs</l><r>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 <pardef n="du_leur__prn">
   <e r="LR"><p><l>des<b/>leurs</l><r>de<s n="pr"/><j/>le<b/>leur<s n="prn"/><s n="tn"/><s n="pos"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -36518,6 +36540,7 @@
 <e lm="pourvu que"><i>pourvu<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="priori"><i>priori</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="puisque"><i>puisque</i><par n="alors__cnjadv"/></e>
+<e lm="quand"><i>quand</i><par n="alors__cnjadv"/></e>
 <e lm="quand il y a lieu"><i>quand<b/>il<b/>y<b/>a<b/>lieu</i><par n="alors__cnjadv"/></e>
 <e lm="quoi que ce soit"><i>quoi<b/>que<b/>ce<b/>soit</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="quoique"><i>quoique</i><par n="alors__cnjadv"/></e>
@@ -37730,12 +37753,12 @@
 <e r="LR" lm="je"><p><l>je</l>                         <r>je</r></p><par n="je__prn"/></e>
 <e r="LR" lm="je"><p><l>moi<b/>je</l>                  <r>moi<b/>je</r></p><par n="je__prn"/></e>
 <e lm="le"><i>l</i><par n="l/e__prn"/></e>
-<e lm="le mien"><i>l</i><par n="l/e_mien__prn"/></e>
-<e lm="le nôtre"><i>l</i><par n="l/e_nôtre__prn"/></e>
-<e lm="le sien"><i>l</i><par n="l/e_sien__prn"/></e>
-<e lm="le tien"><i>l</i><par n="l/e_tien__prn"/></e>
-<e lm="le vôtre"><i>l</i><par n="l/e_vôtre__prn"/></e>
-<e lm="le leur"><i>l</i><par n="l/e_leur__prn"/></e>
+<e lm="le mien"><i></i><par n="/le_mien__prn"/></e>
+<e lm="le nôtre"><i></i><par n="/le_nôtre__prn"/></e>
+<e lm="le sien"><i></i><par n="/le_sien__prn"/></e>
+<e lm="le tien"><i></i><par n="/le_tien__prn"/></e>
+<e lm="le vôtre"><i></i><par n="/le_vôtre__prn"/></e>
+<e lm="le leur"><i></i><par n="/le_leur__prn"/></e>
 <e r="LR" lm="on"><p><l>l'on</l>                       <r>on</r></p><par n="on__prn"/></e>
 <e lm="leur"><i>leur</i><par n="leur__prn"/></e>
 <e lm="lui"><p><l>lui</l>                              <r>lui</r></p><par n="lui__prn"/></e>
