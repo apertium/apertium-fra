@@ -12420,6 +12420,12 @@
 <e lm="cimetière"><i>cimetière</i><par n="livre__n"/></e>
 <e lm="cinabre" a="jaumeortola"><i>cinabre</i><par n="livre__n"/></e>
 <e lm="cinquantaine"><i>cinquantaine</i><par n="abeille__n"/></e>
+<e lm="soixantaine"><i>soixantaine</i><par n="abeille__n"/></e>
+<e lm="soixante-dizaine"><i>soixante-dizaine</i><par n="abeille__n"/></e>
+<e lm="septantaine"><i>septantaine</i><par n="abeille__n"/></e>
+<e lm="quatre-vingtaine"><i>quatre-vingtaine</i><par n="abeille__n"/></e>
+<e lm="quatre-vingt-dizaine"><i>quatre-vingt-dizaine</i><par n="abeille__n"/></e>
+<e lm="nonantaine"><i>nonantaine</i><par n="abeille__n"/></e>
 <e lm="cinéaste"><i>cinéaste</i><par n="artiste__n"/></e>
 <e lm="cinéma"><i>cinéma</i><par n="livre__n"/></e>
 <e lm="cinématographe" a="jaumeortola"><i>cinématographe</i><par n="livre__n"/></e>
@@ -14298,7 +14304,6 @@
 <e lm="euphémisme" a="jaumeortola"><i>euphémisme</i><par n="livre__n"/></e>
 <e lm="euro"><i>euro</i><par n="livre__n"/></e>
 <e lm="eurobourse"><i>eurobourse</i><par n="abeille__n"/></e>
-<e lm="Européen"><i>Européen</i><par n="ancien__n"/></e>
 <e lm="eurozone"><i>eurozone</i><par n="abeille__n"/></e>
 <e lm="euskaldunisation"><i>euskaldunisation</i><par n="abeille__n"/></e>
 <e lm="euskaltegi"><i>euskaltegi</i><par n="livre__n"/></e>
@@ -15168,7 +15173,7 @@
 <e lm="géographie"><i>géographie</i><par n="abeille__n"/></e>
 <e lm="géologie" a="jaumeortola"><i>géologie</i><par n="abeille__n"/></e>
 <e lm="géologue" a="jaumeortola"><i>géologue</i><par n="artiste__n"/></e>
-<e lm="géomètre" a="jaumeortola"><i>géomètre</i><par n="livre__n"/></e>
+<e lm="géomètre"><i>géomètre</i><par n="artiste__n"/></e>
 <e lm="géométrie" a="jaumeortola"><i>géométrie</i><par n="abeille__n"/></e>
 <e lm="gérance"><i>gérance</i><par n="abeille__n"/></e>
 <e lm="géranium"><i>géranium</i><par n="livre__n"/></e>
@@ -17459,7 +17464,6 @@
 <e lm="offrant"><i>offrant</i><par n="affecté__n"/></e>
 <e lm="offre"><i>offre</i><par n="abeille__n"/></e>
 <e lm="offset" a="jaumeortola"><i>offset</i><par n="livre__n"/></e>
-<e lm="oftalmologie"><i>oftalmologie</i><par n="abeille__n"/></e>
 <e lm="ogive" a="jaumeortola"><i>ogive</i><par n="abeille__n"/></e>
 <e lm="OGM"><i>OGM</i><par n="IRPF__n"/></e>
 <e lm="ogre"><i>ogre</i><par n="buffle__n"/></e>
@@ -17591,8 +17595,8 @@
 <e lm="orthodoxe" a="jaumeortola"><i>orthodoxe</i><par n="artiste__n"/></e>
 <e lm="orthodoxie"><i>orthodoxie</i><par n="abeille__n"/></e>
 <e lm="orthophoniste" a="jaumeortola"><i>orthophoniste</i><par n="artiste__n"/></e>
-<e lm="ortographe"><i>ortographe</i><par n="abeille__n"/></e>
-<e lm="ortographie"><i>ortographie</i><par n="abeille__n"/></e>
+<e lm="orthographe"><i>orthographe</i><par n="abeille__n"/></e>
+<e lm="orthographie"><i>orthographie</i><par n="abeille__n"/></e>
 <e lm="os"><i>os</i><par n="mois__n"/></e>
 <e lm="oscar"><i>oscar</i><par n="livre__n"/></e>
 <e lm="oscillateur" a="jaumeortola"><i>oscillat</i><par n="administrat/eur__n"/></e>
@@ -19528,7 +19532,9 @@
 <e lm="sardane"><i>sardane</i><par n="abeille__n"/></e>
 <e lm="sardine"><i>sardine</i><par n="abeille__n"/></e>
 <e lm="sarkozysme"><i>sarkozysme</i><par n="livre__n"/></e>
-<e lm="Sarrasin"><i>Sarrasin</i><par n="affecté__n"/></e>
+<e lm="sarrasin"><i>sarrasin</i><par n="affecté__n"/></e>
+<e lm="blé sarrasin"><i>blé<b/>sarrasin</i><par n="personnel__n"/></e>
+<e lm="blé noir"><i>blé<b/>noir</i><par n="personnel__n"/></e>
 <e lm="sassanide"><i>sassanide</i><par n="artiste__n"/></e>
 <e lm="satellite"><i>satellite</i><par n="livre__n"/></e>
 <e lm="satire"><i>satire</i><par n="abeille__n"/></e>
@@ -30282,7 +30288,7 @@
 <e lm="Metzelder"><i>Metzelder</i><par n="Saussure__np"/></e>
 <e lm="Meunier" a="hector"><i>Meunier</i><par n="Saussure__np"/></e>
 <e lm="Meurthe-et-Moselle"><i>Meurthe-et-Moselle</i><par n="Andorre__np"/></e>
-<e lm="Meuse"><i>Meuse</i><par n="Andorre__np"/></e>
+<e lm="Meuse"><i>Meuse</i><par n="Bulgarie__np"/></e>
 <e lm="Mevel"><i>Mevel</i><par n="Abraham__np"/></e>
 <e lm="Mexique"><i>Mexique</i><par n="Iran__np"/></e>
 <e lm="Meyer"><i>Meyer</i><par n="Saussure__np"/></e>
@@ -33716,9 +33722,10 @@
 <e lm="Terrassa"><i>Terrassa</i><par n="Bulgarie__np"/></e>
 <e lm="Terrassa"><i>Terrassa</i><par n="Saussure__np"/></e>
 <e lm="Terre-Neuve"><i>Terre-Neuve</i><par n="Bulgarie__np"/></e>
-<e lm="Terre-Neuve et Labrador"><i>Terre-Neuve<b/>et<b/>Labrador</i><par n="Bulgarie__np"/></e>
+<e lm="Terre-Neuve-et-Labrador"><i>Terre-Neuve-et-Labrador</i><par n="Bulgarie__np"/></e>
 <e lm="Terre de Feu"><i>Terre<b/>de<b/>Feu</i><par n="Bulgarie__np"/></e>
 <e lm="Terres australes et antarctiques françaises"><i>Terres<b/>australes<b/>et<b/>antarctiques<b/>françaises</i><par n="Bahamas__np"/></e>
+<e lm="Labrador"><i>Labrador</i><par n="Iran__np"/></e>
 <e lm="Terri"><i>Terri</i><par n="Abraham__np"/></e>
 <e lm="Terribas"><i>Terribas</i><par n="Saussure__np"/></e>
 <e lm="Terricabras"><i>Terricabras</i><par n="Saussure__np"/></e>
@@ -36374,6 +36381,7 @@
 <e lm="à l'époque de"><i>à<b/>l'époque<b/></i><par n="contde__pr"/></e>
 <e lm="à la demande de"><i>à<b/>la<b/>demande<b/></i><par n="contde__pr"/></e>
 <e lm="à la fin de"><i>à<b/>la<b/>fin<b/></i><par n="contde__pr"/></e>
+<e lm="jusqu'à la fin de"><i>jusqu'à<b/>la<b/>fin<b/></i><par n="contde__pr"/></e>
 <e lm="à la réserve de"><i>à<b/>la<b/>réserve<b/></i><par n="contde__pr"/></e>
 <e lm="à la suite de"><i>à<b/>la<b/>suite<b/></i><par n="contde__pr"/></e>
 <e lm="à moins de"><i>à<b/>moins<b/></i><par n="contde__pr"/></e>
@@ -45562,6 +45570,8 @@
 <e lm="Lores"><i>Lores</i><par n="Saussure__np"/></e>
 <e lm="Lorion"><i>Lorion</i><par n="Saussure__np"/></e>
 <e lm="Lorrain"><i>Lorrain</i><par n="Saussure__np"/></e>
+<e lm="Lorrain"><i>Lorrain</i><par n="affecté__n"/></e>
+<e lm="lorrain"><i>lorrain</i><par n="abaissant__adj"/></e>
 <e lm="Lorusso"><i>Lorusso</i><par n="Saussure__np"/></e>
 <e lm="Lorés"><i>Lorés</i><par n="Saussure__np"/></e>
 <e lm="Losa"><i>Losa</i><par n="Saussure__np"/></e>
@@ -53268,7 +53278,6 @@
 <e lm="orthostatique" a="jaumeortola"><i>orthostatique</i><par n="académique__adj"/></e>
 <e lm="orwellien" a="jaumeortola"><i>orwellien</i><par n="ancien__adj"/></e>
 <e lm="oublieux" a="jaumeortola"><i>oublieu</i><par n="affectueu/x__adj"/></e>
-<e lm="ourdou" a="jaumeortola"><i>ourdou</i><par n="abaissant__adj"/></e>
 <e lm="parathyroïde" a="jaumeortola"><i>parathyroïde</i><par n="académique__adj"/></e>
 <e lm="quadragénaire" a="jaumeortola"><i>quadragénaire</i><par n="académique__adj"/></e>
 <e lm="quadratique" a="jaumeortola"><i>quadratique</i><par n="académique__adj"/></e>
@@ -53495,7 +53504,7 @@
 <e lm="estragon" a="jaumeortola"><i>estragon</i><par n="livre__n"/></e>
 <e lm="ethnocide" a="jaumeortola"><i>ethnocide</i><par n="livre__n"/></e>
 <e lm="eucaryote" a="jaumeortola"><i>eucaryote</i><par n="livre__n"/></e>
-<e lm="européen" a="jaumeortola"><i>européen</i><par n="ancien__n"/></e>
+<e lm="Européen"><i>Européen</i><par n="ancien__n"/></e>
 <e lm="exclusif" a="jaumeortola"><i>exclusi</i><par n="jui/f__n"/></e>
 <e lm="excroissance" a="jaumeortola"><i>excroissance</i><par n="abeille__n"/></e>
 <e lm="exergue" a="jaumeortola"><i>exergue</i><par n="livre__n"/></e>
@@ -53648,9 +53657,9 @@
 <e lm="grammaticalité" a="jaumeortola"><i>grammaticalité</i><par n="abeille__n"/></e>
 <e lm="grand" a="jaumeortola"><i>grand</i><par n="affecté__n"/></e>
 <e lm="grand-mère" a="jaumeortola"><i>grand-mère</i><par n="abeille__n"/></e>
-<e r="LR" lm="grands-mère"><p><l>grands-mères</l><r>grand-mère</r></p><par n="vacanes__n"/></e>
+<e r="LR" lm="grands-mère"><p><l>grands-mères</l><r>grand-mère</r></p><par n="vacances__n"/></e>
 <e lm="grand-tante" a="jaumeortola"><i>grand-tante</i><par n="abeille__n"/></e>
-<e r="LR" lm="grands-tante"><p><l>grands-tantes</l><r>grand-tante</r></p><par n="vacanes__n"/></e>
+<e r="LR" lm="grands-tante"><p><l>grands-tantes</l><r>grand-tante</r></p><par n="vacances__n"/></e>
 <e lm="grandiloquence" a="jaumeortola"><i>grandiloquence</i><par n="abeille__n"/></e>
 <e lm="granit" a="jaumeortola"><i>granit</i><par n="livre__n"/></e>
 <e lm="gratiole" a="jaumeortola"><i>gratiole</i><par n="abeille__n"/></e>
@@ -53970,6 +53979,525 @@
 <e lm="sic"><i>sic</i><par n="hier__adv"/></e>
 <e lm="Mulhouse"><i>Mulhouse</i><par n="Iran__np"/></e>
 <e lm="ado"><i>ado</i><par n="artiste__n"/></e>
+<e lm="marcheur"><i>marcheu</i><par n="causeu/r__n"/></e>
+<e lm="rigolo"><i>rigolo</i><par n="favori__adj"/></e>
+<e lm="dixaine"><i>dixaine</i><par n="abeille__n"/></e>
+<e lm="machin" a="jaumeortola"><i>machin</i><par n="livre__n"/></e>
+<e lm="macrocéphalie" a="jaumeortola"><i>macrocéphalie</i><par n="abeille__n"/></e>
+<e lm="macron" a="jaumeortola"><i>macron</i><par n="livre__n"/></e>
+<e lm="madrague" a="jaumeortola"><i>madrague</i><par n="abeille__n"/></e>
+<e lm="maestro" a="jaumeortola"><i>maestro</i><par n="livre__n"/></e>
+<e lm="mah-jong" a="jaumeortola"><i>mah-jong</i><par n="livre__n"/></e>
+<e lm="maharaja" a="jaumeortola"><i>maharaja</i><par n="livre__n"/></e>
+<e lm="maigre" a="jaumeortola"><i>maigre</i><par n="artiste__n"/></e>
+<e lm="maladroit" a="jaumeortola"><i>maladroit</i><par n="affecté__n"/></e>
+<e lm="malaria" a="jaumeortola"><i>malaria</i><par n="abeille__n"/></e>
+<e lm="malheureux" a="jaumeortola"><i>malheureu</i><par n="épou/x__n"/></e>
+<e lm="mama" a="jaumeortola"><i>mama</i><par n="abeille__n"/></e>
+<e lm="mambo" a="jaumeortola"><i>mambo</i><par n="livre__n"/></e>
+<e lm="manchette" a="jaumeortola"><i>manchette</i><par n="abeille__n"/></e>
+<e lm="manchot" a="jaumeortola"><i>manchot</i><par n="affecté__n"/></e>
+<e lm="mandarin" a="jaumeortola"><i>mandarin</i><par n="affecté__n"/></e>
+<e lm="mandragore" a="jaumeortola"><i>mandragore</i><par n="abeille__n"/></e>
+<e lm="mandrill" a="jaumeortola"><i>mandril</i><par n="cie/l__n"/></e>
+<e lm="mangeoire" a="jaumeortola"><i>mangeoire</i><par n="abeille__n"/></e>
+<e lm="manger" a="jaumeortola"><i>manger</i><par n="livre__n"/></e>
+<e lm="mangonneau" a="jaumeortola"><i>mangonneau</i><par n="lieu__n"/></e>
+<e lm="mangue" a="jaumeortola"><i>mangue</i><par n="abeille__n"/></e>
+<e lm="manguier" a="jaumeortola"><i>manguier</i><par n="livre__n"/></e>
+<e lm="maniguette" a="jaumeortola"><i>maniguette</i><par n="abeille__n"/></e>
+<e lm="manomètre" a="jaumeortola"><i>manomètre</i><par n="livre__n"/></e>
+<e lm="manticore" a="jaumeortola"><i>manticore</i><par n="abeille__n"/></e>
+<e lm="manège" a="jaumeortola"><i>manège</i><par n="livre__n"/></e>
+<e lm="maquereau" a="jaumeortola"><i>maquereau</i><par n="lieu__n"/></e>
+<e lm="maquignon" a="jaumeortola"><i>maquignon</i><par n="ancien__n"/></e>
+<e lm="marc" a="jaumeortola"><i>marc</i><par n="livre__n"/></e>
+<e lm="marcel" a="jaumeortola"><i>marce</i><par n="cie/l__n"/></e>
+<e lm="margarine" a="jaumeortola"><i>margarine</i><par n="abeille__n"/></e>
+<e lm="margelle" a="jaumeortola"><i>margelle</i><par n="abeille__n"/></e>
+<e lm="marguerite" a="jaumeortola"><i>marguerite</i><par n="abeille__n"/></e>
+<e lm="marié" a="jaumeortola"><i>marié</i><par n="affecté__n"/></e>
+<e lm="marjolaine" a="jaumeortola"><i>marjolaine</i><par n="abeille__n"/></e>
+<e lm="marmaille" a="jaumeortola"><i>marmaille</i><par n="abeille__n"/></e>
+<e lm="marsault" a="jaumeortola"><i>marsault</i><par n="livre__n"/></e>
+<e lm="marsouin" a="jaumeortola"><i>marsouin</i><par n="livre__n"/></e>
+<e lm="marécage" a="jaumeortola"><i>marécage</i><par n="livre__n"/></e>
+<e lm="masculin" a="jaumeortola"><i>masculin</i><par n="livre__n"/></e>
+<e lm="masochisme" a="jaumeortola"><i>masochisme</i><par n="livre__n"/></e>
+<e lm="massepain" a="jaumeortola"><i>massepain</i><par n="livre__n"/></e>
+<e lm="massette" a="jaumeortola"><i>massette</i><par n="abeille__n"/></e>
+<e lm="mastic" a="jaumeortola"><i>mastic</i><par n="livre__n"/></e>
+<e lm="maudit" a="jaumeortola"><i>maudit</i><par n="affecté__n"/></e>
+<e lm="mauvais" a="jaumeortola"><i>mauvais</i><par n="admis__n"/></e>
+<e lm="mauvaiseté" a="jaumeortola"><i>mauvaiseté</i><par n="abeille__n"/></e>
+<e lm="mauve" a="jaumeortola"><i>mauve</i><par n="livre__n"/></e>
+<e lm="maxillaire" a="jaumeortola"><i>maxillaire</i><par n="livre__n"/></e>
+<e lm="maçonnerie" a="jaumeortola"><i>maçonnerie</i><par n="abeille__n"/></e>
+<e lm="maïeutique" a="jaumeortola"><i>maïeutique</i><par n="abeille__n"/></e>
+<e lm="meilleur" a="jaumeortola"><i>meilleur</i><par n="affecté__n"/></e>
+<e lm="meitnérium" a="jaumeortola"><i>meitnéri</i><par n="latifundi/um__n"/></e>
+<e lm="membranophone" a="jaumeortola"><i>membranophone</i><par n="livre__n"/></e>
+<e lm="mendole" a="jaumeortola"><i>mendole</i><par n="abeille__n"/></e>
+<e lm="menthol" a="jaumeortola"><i>mentho</i><par n="cie/l__n"/></e>
+<e lm="mercuriale" a="jaumeortola"><i>mercuriale</i><par n="abeille__n"/></e>
+<e lm="merlan" a="jaumeortola"><i>merlan</i><par n="livre__n"/></e>
+<e lm="merveilleux" a="jaumeortola"><i>merveilleu</i><par n="épou/x__n"/></e>
+<e lm="mesquin" a="jaumeortola"><i>mesquin</i><par n="affecté__n"/></e>
+<e lm="meunier" a="jaumeortola"><i>meuni</i><par n="bouch/er__n"/></e>
+<e lm="miaou" a="jaumeortola"><i>miaou</i><par n="livre__n"/></e>
+<e lm="miasme" a="jaumeortola"><i>miasme</i><par n="livre__n"/></e>
+<e lm="mica" a="jaumeortola"><i>mica</i><par n="livre__n"/></e>
+<e lm="microbicide" a="jaumeortola"><i>microbicide</i><par n="livre__n"/></e>
+<e lm="microcline" a="jaumeortola"><i>microcline</i><par n="livre__n"/></e>
+<e lm="mien" a="jaumeortola"><i>mien</i><par n="ancien__n"/></e>
+<e lm="miette" a="jaumeortola"><i>miette</i><par n="abeille__n"/></e>
+<e lm="mignon" a="jaumeortola"><i>mignon</i><par n="ancien__n"/></e>
+<e lm="migraineux" a="jaumeortola"><i>migraineu</i><par n="épou/x__n"/></e>
+<e lm="mijoteuse" a="jaumeortola"><i>mijoteuse</i><par n="abeille__n"/></e>
+<e lm="mile" a="jaumeortola"><i>mile</i><par n="livre__n"/></e>
+<e lm="milliardième" a="jaumeortola"><i>milliardième</i><par n="artiste__n"/></e>
+<e lm="millionième" a="jaumeortola"><i>millionième</i><par n="artiste__n"/></e>
+<e lm="millième" a="jaumeortola"><i>millième</i><par n="artiste__n"/></e>
+<e lm="mimosa" a="jaumeortola"><i>mimosa</i><par n="livre__n"/></e>
+<e lm="mince" a="jaumeortola"><i>mince</i><par n="artiste__n"/></e>
+<e lm="minoritaire" a="jaumeortola"><i>minoritaire</i><par n="artiste__n"/></e>
+<e lm="minou" a="jaumeortola"><i>minou</i><par n="livre__n"/></e>
+<e lm="miquelet" a="jaumeortola"><i>miquelet</i><par n="livre__n"/></e>
+<e lm="misaine" a="jaumeortola"><i>misaine</i><par n="abeille__n"/></e>
+<e lm="mistelle" a="jaumeortola"><i>mistelle</i><par n="abeille__n"/></e>
+<e lm="miséricordieux" a="jaumeortola"><i>miséricordieu</i><par n="épou/x__n"/></e>
+<e lm="mitard" a="jaumeortola"><i>mitard</i><par n="livre__n"/></e>
+<e lm="mitoyenneté" a="jaumeortola"><i>mitoyenneté</i><par n="abeille__n"/></e>
+<e lm="moderne" a="jaumeortola"><i>moderne</i><par n="artiste__n"/></e>
+<e lm="modeste" a="jaumeortola"><i>modeste</i><par n="artiste__n"/></e>
+<e lm="modiste" a="jaumeortola"><i>modiste</i><par n="artiste__n"/></e>
+<e lm="modéré" a="jaumeortola"><i>modéré</i><par n="affecté__n"/></e>
+<e lm="moignon" a="jaumeortola"><i>moignon</i><par n="livre__n"/></e>
+<e lm="moisson" a="jaumeortola"><i>moisson</i><par n="abeille__n"/></e>
+<e lm="mojito" a="jaumeortola"><i>mojito</i><par n="livre__n"/></e>
+<e lm="molybdénite" a="jaumeortola"><i>molybdénite</i><par n="abeille__n"/></e>
+<e lm="mondain" a="jaumeortola"><i>mondain</i><par n="affecté__n"/></e>
+<e lm="monogamie" a="jaumeortola"><i>monogamie</i><par n="abeille__n"/></e>
+<e lm="monophysisme" a="jaumeortola"><i>monophysisme</i><par n="livre__n"/></e>
+<e lm="monophysite" a="jaumeortola"><i>monophysite</i><par n="artiste__n"/></e>
+<e lm="monoplan" a="jaumeortola"><i>monoplan</i><par n="livre__n"/></e>
+<e lm="montgolfière" a="jaumeortola"><i>montgolfière</i><par n="abeille__n"/></e>
+<e lm="moraine" a="jaumeortola"><i>moraine</i><par n="abeille__n"/></e>
+<e lm="moral" a="jaumeortola"><i>mora</i><par n="commercia/l__n"/></e>
+<e lm="more" a="jaumeortola"><i>more</i><par n="abeille__n"/></e>
+<e lm="morgeline" a="jaumeortola"><i>morgeline</i><par n="abeille__n"/></e>
+<e lm="morpion" a="jaumeortola"><i>morpion</i><par n="livre__n"/></e>
+<e lm="mortaise" a="jaumeortola"><i>mortaise</i><par n="abeille__n"/></e>
+<e lm="morula" a="jaumeortola"><i>morula</i><par n="abeille__n"/></e>
+<e lm="morve" a="jaumeortola"><i>morve</i><par n="abeille__n"/></e>
+<e lm="morveux" a="jaumeortola"><i>morveu</i><par n="épou/x__n"/></e>
+<e lm="motte" a="jaumeortola"><i>motte</i><par n="abeille__n"/></e>
+<e lm="moudjahidin" a="jaumeortola"><i>moudjahidin</i><par n="abords__n"/></e>
+<e lm="mouflon" a="jaumeortola"><i>mouflon</i><par n="livre__n"/></e>
+<e lm="mouillage" a="jaumeortola"><i>mouillage</i><par n="livre__n"/></e>
+<e lm="mousseron" a="jaumeortola"><i>mousseron</i><par n="livre__n"/></e>
+<e lm="muet" a="jaumeortola"><i>muet</i><par n="chat__n"/></e>
+<e lm="mufle" a="jaumeortola"><i>mufle</i><par n="livre__n"/></e>
+<e lm="multicoque" a="jaumeortola"><i>multicoque</i><par n="livre__n"/></e>
+<e lm="multiplan" a="jaumeortola"><i>multiplan</i><par n="livre__n"/></e>
+<e lm="musaraigne" a="jaumeortola"><i>musaraigne</i><par n="abeille__n"/></e>
+<e lm="musc" a="jaumeortola"><i>musc</i><par n="livre__n"/></e>
+<e lm="muscardin" a="jaumeortola"><i>muscardin</i><par n="affecté__n"/></e>
+<e lm="muscovite" a="jaumeortola"><i>muscovite</i><par n="abeille__n"/></e>
+<e lm="musicothérapie" a="jaumeortola"><i>musicothérapie</i><par n="abeille__n"/></e>
+<e lm="muséologie" a="jaumeortola"><i>muséologie</i><par n="abeille__n"/></e>
+<e lm="mutin" a="jaumeortola"><i>mutin</i><par n="affecté__n"/></e>
+<e lm="mutinerie" a="jaumeortola"><i>mutinerie</i><par n="abeille__n"/></e>
+<e lm="mutuel" a="jaumeortola"><i>mutuel</i><par n="colonel__n"/></e>
+<e lm="mygale" a="jaumeortola"><i>mygale</i><par n="abeille__n"/></e>
+<e lm="myope" a="jaumeortola"><i>myope</i><par n="artiste__n"/></e>
+<e lm="myriapode" a="jaumeortola"><i>myriapode</i><par n="livre__n"/></e>
+<e lm="myriophylle" a="jaumeortola"><i>myriophylle</i><par n="livre__n"/></e>
+<e lm="myrmidon" a="jaumeortola"><i>myrmidon</i><par n="affecté__n"/></e>
+<e lm="mâtin"><i>mâtin</i><par n="livre__n"/></e>
+<e lm="mème" a="jaumeortola"><i>mème</i><par n="livre__n"/></e>
+<e lm="médication" a="jaumeortola"><i>médication</i><par n="abeille__n"/></e>
+<e lm="médiocre" a="jaumeortola"><i>médiocre</i><par n="artiste__n"/></e>
+<e lm="médium" a="jaumeortola"><i>médium</i><par n="artiste__n"/></e>
+<e lm="mégalomanie" a="jaumeortola"><i>mégalomanie</i><par n="abeille__n"/></e>
+<e lm="mélanome" a="jaumeortola"><i>mélanome</i><par n="livre__n"/></e>
+<e lm="mélique" a="jaumeortola"><i>mélique</i><par n="abeille__n"/></e>
+<e lm="mélisse" a="jaumeortola"><i>mélisse</i><par n="abeille__n"/></e>
+<e lm="mélèze" a="jaumeortola"><i>mélèze</i><par n="livre__n"/></e>
+<e lm="mémétique" a="jaumeortola"><i>mémétique</i><par n="abeille__n"/></e>
+<e lm="mésocyclone" a="jaumeortola"><i>mésocyclone</i><par n="livre__n"/></e>
+<e lm="méson" a="jaumeortola"><i>méson</i><par n="livre__n"/></e>
+<e lm="métagénomique" a="jaumeortola"><i>métagénomique</i><par n="abeille__n"/></e>
+<e lm="métallurgiste" a="jaumeortola"><i>métallurgiste</i><par n="artiste__n"/></e>
+<e lm="métamathématique" a="jaumeortola"><i>métamathématique</i><par n="abeille__n"/></e>
+<e lm="méthylation" a="jaumeortola"><i>méthylation</i><par n="abeille__n"/></e>
+<e lm="métonymie" a="jaumeortola"><i>métonymie</i><par n="abeille__n"/></e>
+<e lm="métope" a="jaumeortola"><i>métope</i><par n="abeille__n"/></e>
+<e lm="métronome" a="jaumeortola"><i>métronome</i><par n="livre__n"/></e>
+<e lm="métropolitain" a="jaumeortola"><i>métropolitain</i><par n="affecté__n"/></e>
+<e lm="môle"><i>môle</i><par n="livre__n"/></e>
+<e lm="mûrissement" a="jaumeortola"><i>mûrissement</i><par n="livre__n"/></e>
+<e lm="nacre" a="jaumeortola"><i>nacre</i><par n="abeille__n"/></e>
+<e lm="nadir" a="jaumeortola"><i>nadir</i><par n="livre__n"/></e>
+<e lm="nahuatl"><i>nahuatl</i><par n="personnel__n"/></e>
+<e lm="nandou" a="jaumeortola"><i>nandou</i><par n="livre__n"/></e>
+<e lm="napalm" a="jaumeortola"><i>napalm</i><par n="livre__n"/></e>
+<e lm="narcisse" a="jaumeortola"><i>narcisse</i><par n="livre__n"/></e>
+<e lm="narcotrafic" a="jaumeortola"><i>narcotrafic</i><par n="livre__n"/></e>
+<e lm="narguilé" a="jaumeortola"><i>narguilé</i><par n="livre__n"/></e>
+<e lm="narval" a="jaumeortola"><i>narva</i><par n="cie/l__n"/></e>
+<e lm="nasalisation" a="jaumeortola"><i>nasalisation</i><par n="abeille__n"/></e>
+<e lm="national" a="jaumeortola"><i>nationa</i><par n="commercia/l__n"/></e>
+<e lm="naïade" a="jaumeortola"><i>naïade</i><par n="abeille__n"/></e>
+<e lm="naïf" a="jaumeortola"><i>naï</i><par n="jui/f__n"/></e>
+<e lm="nem" a="jaumeortola"><i>nem</i><par n="livre__n"/></e>
+<e lm="nerprun" a="jaumeortola"><i>nerprun</i><par n="livre__n"/></e>
+<e lm="nerveux" a="jaumeortola"><i>nerveu</i><par n="épou/x__n"/></e>
+<e lm="nervi" a="jaumeortola"><i>nervi</i><par n="livre__n"/></e>
+<e lm="nestorianisme" a="jaumeortola"><i>nestorianisme</i><par n="livre__n"/></e>
+<e lm="neuf" a="jaumeortola"><i>neu</i><par n="jui/f__n"/></e>
+<e lm="neuroscience" a="jaumeortola"><i>neuroscience</i><par n="abeille__n"/></e>
+<e lm="neurotoxique" a="jaumeortola"><i>neurotoxique</i><par n="livre__n"/></e>
+<e lm="neutre" a="jaumeortola"><i>neutre</i><par n="livre__n"/></e>
+<e lm="new-yorkais" a="jaumeortola"><i>new-yorkais</i><par n="admis__n"/></e>
+<e lm="nicaraguayen" a="jaumeortola"><i>nicaraguayen</i><par n="ancien__n"/></e>
+<e lm="nihonium" a="jaumeortola"><i>nihoni</i><par n="latifundi/um__n"/></e>
+<e lm="niveleur" a="jaumeortola"><i>niveleu</i><par n="causeu/r__n"/></e>
+<e lm="nivellement" a="jaumeortola"><i>nivellement</i><par n="livre__n"/></e>
+<e lm="nocher" a="jaumeortola"><i>nocher</i><par n="livre__n"/></e>
+<e lm="noirceur" a="jaumeortola"><i>noirceur</i><par n="abeille__n"/></e>
+<e lm="nonagénaire" a="jaumeortola"><i>nonagénaire</i><par n="artiste__n"/></e>
+<e lm="nonne" a="jaumeortola"><i>nonne</i><par n="abeille__n"/></e>
+<e lm="noradrénaline" a="jaumeortola"><i>noradrénaline</i><par n="abeille__n"/></e>
+<e lm="nostalgique" a="jaumeortola"><i>nostalgique</i><par n="artiste__n"/></e>
+<e lm="noséane" a="jaumeortola"><i>noséane</i><par n="abeille__n"/></e>
+<e lm="nouille" a="jaumeortola"><i>nouille</i><par n="abeille__n"/></e>
+<e lm="nu" a="jaumeortola"><i>nu</i><par n="livre__n"/></e>
+<e lm="nucléosynthèse" a="jaumeortola"><i>nucléosynthèse</i><par n="abeille__n"/></e>
+<e lm="nuisance" a="jaumeortola"><i>nuisance</i><par n="abeille__n"/></e>
+<e lm="nuisette" a="jaumeortola"><i>nuisette</i><par n="abeille__n"/></e>
+<e lm="nul" a="jaumeortola"><i>nul</i><par n="colonel__n"/></e>
+<e lm="numbat" a="jaumeortola"><i>numbat</i><par n="livre__n"/></e>
+<e lm="numismatique" a="jaumeortola"><i>numismatique</i><par n="abeille__n"/></e>
+<e lm="nuée" a="jaumeortola"><i>nuée</i><par n="abeille__n"/></e>
+<e lm="nymphomanie" a="jaumeortola"><i>nymphomanie</i><par n="abeille__n"/></e>
+<e lm="nèfle" a="jaumeortola"><i>nèfle</i><par n="abeille__n"/></e>
+<e lm="nègre" a="jaumeortola"><i>nègre</i><par n="livre__n"/></e>
+<e lm="nécessaire" a="jaumeortola"><i>nécessaire</i><par n="livre__n"/></e>
+<e lm="néflier" a="jaumeortola"><i>néflier</i><par n="livre__n"/></e>
+<e lm="négationnisme" a="jaumeortola"><i>négationnisme</i><par n="livre__n"/></e>
+<e lm="négationniste" a="jaumeortola"><i>négationniste</i><par n="artiste__n"/></e>
+<e lm="nénufar" a="jaumeortola"><i>nénufar</i><par n="livre__n"/></e>
+<e lm="néofasciste" a="jaumeortola"><i>néofasciste</i><par n="artiste__n"/></e>
+<e lm="néphrologie" a="jaumeortola"><i>néphrologie</i><par n="abeille__n"/></e>
+<e lm="névralgie" a="jaumeortola"><i>névralgie</i><par n="abeille__n"/></e>
+<e lm="névrose" a="jaumeortola"><i>névrose</i><par n="abeille__n"/></e>
+<e lm="névé" a="jaumeortola"><i>névé</i><par n="livre__n"/></e>
+<e lm="oblade" a="jaumeortola"><i>oblade</i><par n="abeille__n"/></e>
+<e lm="obscur" a="jaumeortola"><i>obscur</i><par n="affecté__n"/></e>
+<e lm="obstiné" a="jaumeortola"><i>obstiné</i><par n="affecté__n"/></e>
+<e lm="obséquieux" a="jaumeortola"><i>obséquieu</i><par n="épou/x__n"/></e>
+<e lm="occiput" a="jaumeortola"><i>occiput</i><par n="livre__n"/></e>
+<e lm="occitanisme" a="jaumeortola"><i>occitanisme</i><par n="livre__n"/></e>
+<e lm="occitaniste" a="jaumeortola"><i>occitaniste</i><par n="artiste__n"/></e>
+<e lm="octa" a="jaumeortola"><i>octa</i><par n="livre__n"/></e>
+<e lm="octant" a="jaumeortola"><i>octant</i><par n="livre__n"/></e>
+<e lm="octogénaire" a="jaumeortola"><i>octogénaire</i><par n="artiste__n"/></e>
+<e lm="ocytocine" a="jaumeortola"><i>ocytocine</i><par n="abeille__n"/></e>
+<e lm="océanide" a="jaumeortola"><i>océanide</i><par n="abeille__n"/></e>
+<e lm="océanien" a="jaumeortola"><i>océanien</i><par n="ancien__n"/></e>
+<e lm="océanographe" a="jaumeortola"><i>océanographe</i><par n="artiste__n"/></e>
+<e lm="oganesson" a="jaumeortola"><i>oganesson</i><par n="livre__n"/></e>
+<e lm="ohmmètre" a="jaumeortola"><i>ohmmètre</i><par n="livre__n"/></e>
+<e lm="okapi" a="jaumeortola"><i>okapi</i><par n="livre__n"/></e>
+<e lm="oligarque" a="jaumeortola"><i>oligarque</i><par n="artiste__n"/></e>
+<e lm="ombrelle" a="jaumeortola"><i>ombrelle</i><par n="abeille__n"/></e>
+<e lm="omniscience" a="jaumeortola"><i>omniscience</i><par n="abeille__n"/></e>
+<e lm="omniscient" a="jaumeortola"><i>omniscient</i><par n="affecté__n"/></e>
+<e lm="omnium" a="jaumeortola"><i>omni</i><par n="latifundi/um__n"/></e>
+<e lm="omoplate" a="jaumeortola"><i>omoplate</i><par n="abeille__n"/></e>
+<e lm="onction" a="jaumeortola"><i>onction</i><par n="abeille__n"/></e>
+<e lm="one-step" a="jaumeortola"><i>one-step</i><par n="livre__n"/></e>
+<e lm="onzième" a="jaumeortola"><i>onzième</i><par n="artiste__n"/></e>
+<e lm="opale" a="jaumeortola"><i>opale</i><par n="abeille__n"/></e>
+<e lm="ophicléide" a="jaumeortola"><i>ophicléide</i><par n="livre__n"/></e>
+<e lm="ophtalmologie" a="jaumeortola"><i>ophtalmologie</i><par n="abeille__n"/></e>
+<e lm="orage" a="jaumeortola"><i>orage</i><par n="livre__n"/></e>
+<e lm="orangeraie" a="jaumeortola"><i>orangeraie</i><par n="abeille__n"/></e>
+<e lm="ordalie" a="jaumeortola"><i>ordalie</i><par n="abeille__n"/></e>
+<e lm="ordi" a="jaumeortola"><i>ordi</i><par n="livre__n"/></e>
+<e lm="ordonnée" a="jaumeortola"><i>ordonnée</i><par n="abeille__n"/></e>
+<e lm="organdi" a="jaumeortola"><i>organdi</i><par n="livre__n"/></e>
+<e lm="orgueilleux" a="jaumeortola"><i>orgueilleu</i><par n="épou/x__n"/></e>
+<e lm="origan" a="jaumeortola"><i>origan</i><par n="livre__n"/></e>
+<e lm="orignal" a="jaumeortola"><i>origna</i><par n="anima/l__n"/></e>
+<e lm="ormeau" a="jaumeortola"><i>ormeau</i><par n="lieu__n"/></e>
+<e lm="ornithorynque" a="jaumeortola"><i>ornithorynque</i><par n="livre__n"/></e>
+<e lm="ornière" a="jaumeortola"><i>ornière</i><par n="abeille__n"/></e>
+<e lm="orogenèse" a="jaumeortola"><i>orogenèse</i><par n="abeille__n"/></e>
+<e lm="oronymie" a="jaumeortola"><i>oronymie</i><par n="abeille__n"/></e>
+<e lm="orphie" a="jaumeortola"><i>orphie</i><par n="abeille__n"/></e>
+<e lm="orseille" a="jaumeortola"><i>orseille</i><par n="abeille__n"/></e>
+<e lm="orteil" a="jaumeortola"><i>ortei</i><par n="cie/l__n"/></e>
+<e lm="orthodromie" a="jaumeortola"><i>orthodromie</i><par n="abeille__n"/></e>
+<e lm="orthogenèse" a="jaumeortola"><i>orthogenèse</i><par n="abeille__n"/></e>
+<e lm="orthopédiste" a="jaumeortola"><i>orthopédiste</i><par n="artiste__n"/></e>
+<e lm="ortie" a="jaumeortola"><i>ortie</i><par n="abeille__n"/></e>
+<e lm="orvet" a="jaumeortola"><i>orvet</i><par n="livre__n"/></e>
+<e lm="oryctérope" a="jaumeortola"><i>oryctérope</i><par n="livre__n"/></e>
+<e lm="osciètre" a="jaumeortola"><i>osciètre</i><par n="livre__n"/></e>
+<e lm="oseille" a="jaumeortola"><i>oseille</i><par n="abeille__n"/></e>
+<e lm="osmium" a="jaumeortola"><i>osmi</i><par n="latifundi/um__n"/></e>
+<e lm="otoscope" a="jaumeortola"><i>otoscope</i><par n="livre__n"/></e>
+<e lm="ouate" a="jaumeortola"><i>ouate</i><par n="abeille__n"/></e>
+<e lm="oublieux" a="jaumeortola"><i>oublieu</i><par n="épou/x__n"/></e>
+<e lm="oued" a="jaumeortola"><i>oued</i><par n="livre__n"/></e>
+<e lm="ourdou" a="jaumeortola"><i>ourdou</i><par n="livre__n"/></e>
+<e lm="ourlet" a="jaumeortola"><i>ourlet</i><par n="livre__n"/></e>
+<e lm="outre" a="jaumeortola"><i>outre</i><par n="abeille__n"/></e>
+<e lm="ovulation" a="jaumeortola"><i>ovulation</i><par n="abeille__n"/></e>
+<e lm="oxychlorure" a="jaumeortola"><i>oxychlorure</i><par n="livre__n"/></e>
+<e lm="oxyde" a="jaumeortola"><i>oxyde</i><par n="livre__n"/></e>
+<e lm="oxymoron" a="jaumeortola"><i>oxymoron</i><par n="livre__n"/></e>
+<e lm="paca" a="jaumeortola"><i>paca</i><par n="livre__n"/></e>
+<e lm="pacha" a="jaumeortola"><i>pacha</i><par n="livre__n"/></e>
+<e lm="paillasse" a="jaumeortola"><i>paillasse</i><par n="artiste__n"/></e>
+<e lm="paillasson" a="jaumeortola"><i>paillasson</i><par n="livre__n"/></e>
+<e lm="pal" a="jaumeortola"><i>pa</i><par n="cie/l__n"/></e>
+<e lm="paletot" a="jaumeortola"><i>paletot</i><par n="livre__n"/></e>
+<e lm="paliure" a="jaumeortola"><i>paliure</i><par n="livre__n"/></e>
+<e lm="palynologie" a="jaumeortola"><i>palynologie</i><par n="abeille__n"/></e>
+<e lm="paléographie" a="jaumeortola"><i>paléographie</i><par n="abeille__n"/></e>
+<e lm="pamplemousse" a="jaumeortola"><i>pamplemousse</i><par n="livre__n"/></e>
+<e lm="pangolin" a="jaumeortola"><i>pangolin</i><par n="livre__n"/></e>
+<e lm="panicaut" a="jaumeortola"><i>panicaut</i><par n="livre__n"/></e>
+<e lm="panoplie" a="jaumeortola"><i>panoplie</i><par n="abeille__n"/></e>
+<e lm="panthéisme" a="jaumeortola"><i>panthéisme</i><par n="livre__n"/></e>
+<e lm="papaye" a="jaumeortola"><i>papaye</i><par n="abeille__n"/></e>
+<e lm="papillote" a="jaumeortola"><i>papillote</i><par n="abeille__n"/></e>
+<e lm="paramnésie" a="jaumeortola"><i>paramnésie</i><par n="abeille__n"/></e>
+<e lm="paraphrase" a="jaumeortola"><i>paraphrase</i><par n="abeille__n"/></e>
+<e lm="parasite" a="jaumeortola"><i>parasite</i><par n="artiste__n"/></e>
+<e lm="parathyroïde" a="jaumeortola"><i>parathyroïde</i><par n="abeille__n"/></e>
+<e lm="pareil" a="jaumeortola"><i>pareil</i><par n="colonel__n"/></e>
+<e lm="paresseux" a="jaumeortola"><i>paresseu</i><par n="épou/x__n"/></e>
+<e lm="parfait" a="jaumeortola"><i>parfait</i><par n="affecté__n"/></e>
+<e lm="pariétal" a="jaumeortola"><i>pariéta</i><par n="commercia/l__n"/></e>
+<e lm="parjure"><i>parjure</i><par n="livre__n"/></e>
+<e lm="parotide" a="jaumeortola"><i>parotide</i><par n="abeille__n"/></e>
+<e lm="parraineur" a="jaumeortola"><i>parraineu</i><par n="causeu/r__n"/></e>
+<e lm="parure" a="jaumeortola"><i>parure</i><par n="abeille__n"/></e>
+<e lm="paréidolie" a="jaumeortola"><i>paréidolie</i><par n="abeille__n"/></e>
+<e lm="passepoil" a="jaumeortola"><i>passepoi</i><par n="cie/l__n"/></e>
+<e lm="passereau" a="jaumeortola"><i>passereau</i><par n="lieu__n"/></e>
+<e lm="passif" a="jaumeortola"><i>passif</i><par n="livre__n"/></e>
+<e lm="passoire" a="jaumeortola"><i>passoire</i><par n="abeille__n"/></e>
+<e lm="passériforme" a="jaumeortola"><i>passériforme</i><par n="livre__n"/></e>
+<e lm="pasteurisation" a="jaumeortola"><i>pasteurisation</i><par n="abeille__n"/></e>
+<e lm="pathologiste" a="jaumeortola"><i>pathologiste</i><par n="artiste__n"/></e>
+<e lm="patène" a="jaumeortola"><i>patène</i><par n="abeille__n"/></e>
+<e lm="paumé" a="jaumeortola"><i>paumé</i><par n="affecté__n"/></e>
+<e lm="pauvre" a="jaumeortola"><i>pauvre</i><par n="artiste__n"/></e>
+<e lm="pavot" a="jaumeortola"><i>pavot</i><par n="livre__n"/></e>
+<e lm="peccadille" a="jaumeortola"><i>peccadille</i><par n="abeille__n"/></e>
+<e lm="peigne" a="jaumeortola"><i>peigne</i><par n="livre__n"/></e>
+<e lm="pellicule" a="jaumeortola"><i>pellicule</i><par n="abeille__n"/></e>
+<e lm="pelote" a="jaumeortola"><i>pelote</i><par n="abeille__n"/></e>
+<e lm="pendant" a="jaumeortola"><i>pendant</i><par n="livre__n"/></e>
+<e lm="pennon" a="jaumeortola"><i>pennon</i><par n="livre__n"/></e>
+<e lm="penseur" a="jaumeortola"><i>penseu</i><par n="causeu/r__n"/></e>
+<e lm="pensionnat" a="jaumeortola"><i>pensionnat</i><par n="livre__n"/></e>
+<e lm="pentagramme" a="jaumeortola"><i>pentagramme</i><par n="livre__n"/></e>
+<e lm="penthotal" a="jaumeortola"><i>penthota</i><par n="cie/l__n"/></e>
+<e lm="pentoxyde" a="jaumeortola"><i>pentoxyde</i><par n="livre__n"/></e>
+<e lm="percnoptère" a="jaumeortola"><i>percnoptère</i><par n="livre__n"/></e>
+<e lm="perdreau" a="jaumeortola"><i>perdreau</i><par n="lieu__n"/></e>
+<e lm="perfide" a="jaumeortola"><i>perfide</i><par n="artiste__n"/></e>
+<e lm="pergola" a="jaumeortola"><i>pergola</i><par n="abeille__n"/></e>
+<e lm="permaculture" a="jaumeortola"><i>permaculture</i><par n="abeille__n"/></e>
+<e lm="permanent" a="jaumeortola"><i>permanent</i><par n="affecté__n"/></e>
+<e lm="perplexe" a="jaumeortola"><i>perplexe</i><par n="artiste__n"/></e>
+<e lm="perpétuation" a="jaumeortola"><i>perpétuation</i><par n="abeille__n"/></e>
+<e lm="perspicace" a="jaumeortola"><i>perspicace</i><par n="artiste__n"/></e>
+<e lm="pesto" a="jaumeortola"><i>pesto</i><par n="livre__n"/></e>
+<e lm="peureux" a="jaumeortola"><i>peureu</i><par n="épou/x__n"/></e>
+<e lm="phalanstère" a="jaumeortola"><i>phalanstère</i><par n="livre__n"/></e>
+<e lm="pharmacocinétique" a="jaumeortola"><i>pharmacocinétique</i><par n="abeille__n"/></e>
+<e lm="pharmacovigilance" a="jaumeortola"><i>pharmacovigilance</i><par n="abeille__n"/></e>
+<e lm="phlogopite" a="jaumeortola"><i>phlogopite</i><par n="abeille__n"/></e>
+<e lm="phonologisation" a="jaumeortola"><i>phonologisation</i><par n="abeille__n"/></e>
+<e lm="photolyse" a="jaumeortola"><i>photolyse</i><par n="abeille__n"/></e>
+<e lm="phycocyanine" a="jaumeortola"><i>phycocyanine</i><par n="abeille__n"/></e>
+<e lm="phycologie" a="jaumeortola"><i>phycologie</i><par n="abeille__n"/></e>
+<e lm="phycoérythrine" a="jaumeortola"><i>phycoérythrine</i><par n="abeille__n"/></e>
+<e lm="phylarque" a="jaumeortola"><i>phylarque</i><par n="livre__n"/></e>
+<e lm="phyllotaxie" a="jaumeortola"><i>phyllotaxie</i><par n="abeille__n"/></e>
+<e lm="phylogénie" a="jaumeortola"><i>phylogénie</i><par n="abeille__n"/></e>
+<e lm="physostigmine" a="jaumeortola"><i>physostigmine</i><par n="abeille__n"/></e>
+<e lm="phytolithe" a="jaumeortola"><i>phytolithe</i><par n="livre__n"/></e>
+<e lm="phytoremédiation" a="jaumeortola"><i>phytoremédiation</i><par n="abeille__n"/></e>
+<e lm="phénylamine" a="jaumeortola"><i>phénylamine</i><par n="abeille__n"/></e>
+<e lm="piaule" a="jaumeortola"><i>piaule</i><par n="abeille__n"/></e>
+<e lm="pie" a="jaumeortola"><i>pie</i><par n="abeille__n"/></e>
+<e lm="pieuvre" a="jaumeortola"><i>pieuvre</i><par n="abeille__n"/></e>
+<e lm="pilchard" a="jaumeortola"><i>pilchard</i><par n="livre__n"/></e>
+<e lm="pilocarpine" a="jaumeortola"><i>pilocarpine</i><par n="abeille__n"/></e>
+<e lm="pilon" a="jaumeortola"><i>pilon</i><par n="livre__n"/></e>
+<e lm="pilori" a="jaumeortola"><i>pilori</i><par n="livre__n"/></e>
+<e lm="piquant" a="jaumeortola"><i>piquant</i><par n="livre__n"/></e>
+<e lm="piquette" a="jaumeortola"><i>piquette</i><par n="abeille__n"/></e>
+<e lm="piranha" a="jaumeortola"><i>piranha</i><par n="livre__n"/></e>
+<e lm="pire" a="jaumeortola"><i>pire</i><par n="livre__n"/></e>
+<e lm="pisse" a="jaumeortola"><i>pisse</i><par n="abeille__n"/></e>
+<e lm="pissenlit" a="jaumeortola"><i>pissenlit</i><par n="livre__n"/></e>
+<e lm="pistache"><i>pistache</i><par n="abeille__n"/></e>
+<e lm="pisé" a="jaumeortola"><i>pisé</i><par n="livre__n"/></e>
+<e lm="piton" a="jaumeortola"><i>piton</i><par n="livre__n"/></e>
+<e lm="pivoine" a="jaumeortola"><i>pivoine</i><par n="abeille__n"/></e>
+<e lm="plancher" a="jaumeortola"><i>plancher</i><par n="livre__n"/></e>
+<e lm="plantigrade" a="jaumeortola"><i>plantigrade</i><par n="livre__n"/></e>
+<e lm="plantoir" a="jaumeortola"><i>plantoir</i><par n="livre__n"/></e>
+<e lm="planétaire" a="jaumeortola"><i>planétaire</i><par n="livre__n"/></e>
+<e lm="pleurotomie" a="jaumeortola"><i>pleurotomie</i><par n="abeille__n"/></e>
+<e lm="plutino" a="jaumeortola"><i>plutino</i><par n="livre__n"/></e>
+<e lm="plèbe" a="jaumeortola"><i>plèbe</i><par n="abeille__n"/></e>
+<e lm="plénipotentiaire" a="jaumeortola"><i>plénipotentiaire</i><par n="artiste__n"/></e>
+<e lm="poisse" a="jaumeortola"><i>poisse</i><par n="abeille__n"/></e>
+<e lm="polacre" a="jaumeortola"><i>polacre</i><par n="abeille__n"/></e>
+<e lm="polaque" a="jaumeortola"><i>polaque</i><par n="artiste__n"/></e>
+<e lm="poliomyélite" a="jaumeortola"><i>poliomyélite</i><par n="abeille__n"/></e>
+<e lm="polka" a="jaumeortola"><i>polka</i><par n="abeille__n"/></e>
+<e lm="polytope" a="jaumeortola"><i>polytope</i><par n="livre__n"/></e>
+<e lm="pomelo" a="jaumeortola"><i>pomelo</i><par n="livre__n"/></e>
+<e lm="pommade" a="jaumeortola"><i>pommade</i><par n="abeille__n"/></e>
+<e lm="pommeraie" a="jaumeortola"><i>pommeraie</i><par n="abeille__n"/></e>
+<e lm="pope" a="jaumeortola"><i>pope</i><par n="livre__n"/></e>
+<e lm="populaire" a="jaumeortola"><i>populaire</i><par n="artiste__n"/></e>
+<e lm="poquet" a="jaumeortola"><i>poquet</i><par n="livre__n"/></e>
+<e lm="porcher" a="jaumeortola"><i>porch</i><par n="bouch/er__n"/></e>
+<e lm="porcherie" a="jaumeortola"><i>porcherie</i><par n="abeille__n"/></e>
+<e lm="porcin" a="jaumeortola"><i>porcin</i><par n="livre__n"/></e>
+<e lm="pornographe" a="jaumeortola"><i>pornographe</i><par n="artiste__n"/></e>
+<e lm="portance" a="jaumeortola"><i>portance</i><par n="abeille__n"/></e>
+<e lm="posada" a="jaumeortola"><i>posada</i><par n="abeille__n"/></e>
+<e lm="posidonie" a="jaumeortola"><i>posidonie</i><par n="abeille__n"/></e>
+<e lm="potage" a="jaumeortola"><i>potage</i><par n="livre__n"/></e>
+<e lm="potager" a="jaumeortola"><i>potager</i><par n="livre__n"/></e>
+<e lm="potamot" a="jaumeortola"><i>potamot</i><par n="livre__n"/></e>
+<e lm="poterne" a="jaumeortola"><i>poterne</i><par n="abeille__n"/></e>
+<e lm="potiron" a="jaumeortola"><i>potiron</i><par n="livre__n"/></e>
+<e lm="potorou" a="jaumeortola"><i>potorou</i><par n="livre__n"/></e>
+<e lm="poulette" a="jaumeortola"><i>poulette</i><par n="abeille__n"/></e>
+<e lm="pouliot" a="jaumeortola"><i>pouliot</i><par n="livre__n"/></e>
+<e lm="pourvoyeur" a="jaumeortola"><i>pourvoyeu</i><par n="causeu/r__n"/></e>
+<e lm="powellite" a="jaumeortola"><i>powellite</i><par n="abeille__n"/></e>
+<e lm="pragois" a="jaumeortola"><i>pragois</i><par n="admis__n"/></e>
+<e lm="praire" a="jaumeortola"><i>praire</i><par n="abeille__n"/></e>
+<e lm="presbytie" a="jaumeortola"><i>presbytie</i><par n="abeille__n"/></e>
+<e lm="presqu'île" a="jaumeortola"><i>presqu'île</i><par n="abeille__n"/></e>
+<e lm="prestidigitateur" a="jaumeortola"><i>prestidigitat</i><par n="administrat/eur__n"/></e>
+<e lm="priapisme" a="jaumeortola"><i>priapisme</i><par n="livre__n"/></e>
+<e lm="primevère" a="jaumeortola"><i>primevère</i><par n="abeille__n"/></e>
+<e lm="principal" a="jaumeortola"><i>principa</i><par n="commercia/l__n"/></e>
+<e lm="privé" a="jaumeortola"><i>privé</i><par n="affecté__n"/></e>
+<e lm="proboscide" a="jaumeortola"><i>proboscide</i><par n="abeille__n"/></e>
+<e lm="proboscidien" a="jaumeortola"><i>proboscidien</i><par n="livre__n"/></e>
+<e lm="procaryote" a="jaumeortola"><i>procaryote</i><par n="livre__n"/></e>
+<e lm="proche" a="jaumeortola"><i>proche</i><par n="artiste__n"/></e>
+<e lm="procrastination" a="jaumeortola"><i>procrastination</i><par n="abeille__n"/></e>
+<e lm="procès-verbal" a="jaumeortola"><i>procès-verba</i><par n="anima/l__n"/></e>
+<e lm="profond" a="jaumeortola"><i>profond</i><par n="affecté__n"/></e>
+<e lm="progestérone" a="jaumeortola"><i>progestérone</i><par n="abeille__n"/></e>
+<e lm="progressiste" a="jaumeortola"><i>progressiste</i><par n="artiste__n"/></e>
+<e lm="proie" a="jaumeortola"><i>proie</i><par n="abeille__n"/></e>
+<e lm="prolactine" a="jaumeortola"><i>prolactine</i><par n="abeille__n"/></e>
+<e lm="prolégomènes" a="jaumeortola"><i>prolégomènes</i><par n="abords__n"/></e>
+<e lm="proparoxyton" a="jaumeortola"><i>proparoxyton</i><par n="livre__n"/></e>
+<e lm="propre" a="jaumeortola"><i>propre</i><par n="livre__n"/></e>
+<e lm="prosélyte" a="jaumeortola"><i>prosélyte</i><par n="artiste__n"/></e>
+<e lm="protecteur" a="jaumeortola"><i>protect</i><par n="administrat/eur__n"/></e>
+<e lm="protestataire" a="jaumeortola"><i>protestataire</i><par n="artiste__n"/></e>
+<e lm="prothalle" a="jaumeortola"><i>prothalle</i><par n="livre__n"/></e>
+<e lm="protiste" a="jaumeortola"><i>protiste</i><par n="livre__n"/></e>
+<e lm="provisoire" a="jaumeortola"><i>provisoire</i><par n="livre__n"/></e>
+<e lm="provitamine" a="jaumeortola"><i>provitamine</i><par n="abeille__n"/></e>
+<e lm="prunellier" a="jaumeortola"><i>prunellier</i><par n="livre__n"/></e>
+<e lm="préalable" a="jaumeortola"><i>préalable</i><par n="livre__n"/></e>
+<e lm="précambrien" a="jaumeortola"><i>précambrien</i><par n="livre__n"/></e>
+<e lm="précoce" a="jaumeortola"><i>précoce</i><par n="artiste__n"/></e>
+<e lm="prégnance" a="jaumeortola"><i>prégnance</i><par n="abeille__n"/></e>
+<e lm="prématuré" a="jaumeortola"><i>prématuré</i><par n="affecté__n"/></e>
+<e lm="présidentialisme" a="jaumeortola"><i>présidentialisme</i><par n="livre__n"/></e>
+<e lm="présomptueux" a="jaumeortola"><i>présomptueu</i><par n="épou/x__n"/></e>
+<e lm="préteur" a="jaumeortola"><i>préteu</i><par n="causeu/r__n"/></e>
+<e lm="prétérit" a="jaumeortola"><i>prétérit</i><par n="livre__n"/></e>
+<e lm="psautier" a="jaumeortola"><i>psautier</i><par n="livre__n"/></e>
+<e lm="pseudo-science" a="jaumeortola"><i>pseudo-science</i><par n="abeille__n"/></e>
+<e lm="psilocybine" a="jaumeortola"><i>psilocybine</i><par n="abeille__n"/></e>
+<e lm="psychisme" a="jaumeortola"><i>psychisme</i><par n="livre__n"/></e>
+<e lm="psychophysique" a="jaumeortola"><i>psychophysique</i><par n="abeille__n"/></e>
+<e lm="ptérosaure" a="jaumeortola"><i>ptérosaure</i><par n="livre__n"/></e>
+<e lm="puffin" a="jaumeortola"><i>puffin</i><par n="livre__n"/></e>
+<e lm="pull-over" a="jaumeortola"><i>pull-over</i><par n="livre__n"/></e>
+<e lm="pulmonaire" a="jaumeortola"><i>pulmonaire</i><par n="abeille__n"/></e>
+<e lm="punching-ball" a="jaumeortola"><i>punching-bal</i><par n="cie/l__n"/></e>
+<e lm="pur" a="jaumeortola"><i>pur</i><par n="affecté__n"/></e>
+<e lm="puritain" a="jaumeortola"><i>puritain</i><par n="affecté__n"/></e>
+<e lm="pustule" a="jaumeortola"><i>pustule</i><par n="abeille__n"/></e>
+<e lm="puy" a="jaumeortola"><i>pu</i><par n="brand/y__n"/></e>
+<e lm="pycnogonide" a="jaumeortola"><i>pycnogonide</i><par n="livre__n"/></e>
+<e lm="pylône" a="jaumeortola"><i>pylône</i><par n="livre__n"/></e>
+<e lm="pyridine" a="jaumeortola"><i>pyridine</i><par n="abeille__n"/></e>
+<e lm="pyridoxine" a="jaumeortola"><i>pyridoxine</i><par n="abeille__n"/></e>
+<e lm="pyromorphite" a="jaumeortola"><i>pyromorphite</i><par n="abeille__n"/></e>
+<e lm="pyrrhotite" a="jaumeortola"><i>pyrrhotite</i><par n="abeille__n"/></e>
+<e lm="pyrrol" a="jaumeortola"><i>pyrro</i><par n="cie/l__n"/></e>
+<e lm="pyrrole" a="jaumeortola"><i>pyrrole</i><par n="livre__n"/></e>
+<e lm="pyrèthre" a="jaumeortola"><i>pyrèthre</i><par n="livre__n"/></e>
+<e lm="pyrénéen" a="jaumeortola"><i>pyrénéen</i><par n="ancien__n"/></e>
+<e lm="pâquerette" a="jaumeortola"><i>pâquerette</i><par n="abeille__n"/></e>
+<e lm="pâtre" a="jaumeortola"><i>pâtre</i><par n="livre__n"/></e>
+<e lm="pâture" a="jaumeortola"><i>pâture</i><par n="abeille__n"/></e>
+<e lm="pédalo" a="jaumeortola"><i>pédalo</i><par n="livre__n"/></e>
+<e lm="pédé" a="jaumeortola"><i>pédé</i><par n="livre__n"/></e>
+<e lm="pénéplaine" a="jaumeortola"><i>pénéplaine</i><par n="abeille__n"/></e>
+<e lm="pénétrant" a="jaumeortola"><i>pénétrant</i><par n="affecté__n"/></e>
+<e lm="pépin" a="jaumeortola"><i>pépin</i><par n="livre__n"/></e>
+<e lm="péponide" a="jaumeortola"><i>péponide</i><par n="artiste__n"/></e>
+<e lm="périhélie" a="jaumeortola"><i>périhélie</i><par n="livre__n"/></e>
+<e lm="périodique" a="jaumeortola"><i>périodique</i><par n="livre__n"/></e>
+<e lm="péronisme" a="jaumeortola"><i>péronisme</i><par n="livre__n"/></e>
+<e lm="pétitionnaire" a="jaumeortola"><i>pétitionnaire</i><par n="artiste__n"/></e>
+<e lm="pétrin" a="jaumeortola"><i>pétrin</i><par n="livre__n"/></e>
+<e lm="pêne" a="jaumeortola"><i>pêne</i><par n="livre__n"/></e>
+<e lm="Catalifaud"><i>Catalifaud</i><par n="Saussure__np"/></e>
+<e lm="Certal"><i>Certal</i><par n="Saussure__np"/></e>
+<e lm="Courtessole"><i>Courtessole</i><par n="Saussure__np"/></e>
+<e lm="Coyen"><i>Coyen</i><par n="Saussure__np"/></e>
+<e lm="Kahe"><i>Kahe</i><par n="Saussure__np"/></e>
+<e lm="Mazelin"><i>Mazelin</i><par n="Saussure__np"/></e>
+<e lm="Soyer"><i>Soyer</i><par n="Saussure__np"/></e>
+<e lm="Artigue"><i>Artigue</i><par n="Saussure__np"/></e>
+<e lm="Artois"><i>Artois</i><par n="Saussure__np"/></e>
+<e lm="Baud"><i>Baud</i><par n="Saussure__np"/></e>
+<e lm="Cacas"><i>Cacas</i><par n="Saussure__np"/></e>
+<e lm="Fayemendy"><i>Fayemendy</i><par n="Saussure__np"/></e>
+<e lm="Kiani"><i>Kiani</i><par n="Saussure__np"/></e>
+<e lm="Vaissier"><i>Vaissier</i><par n="Saussure__np"/></e>
+<e lm="Bontemps"><i>Bontemps</i><par n="Saussure__np"/></e>
+<e lm="Cure"><i>Cure</i><par n="Saussure__np"/></e>
+<e lm="Drici"><i>Drici</i><par n="Saussure__np"/></e>
+<e lm="Maljean"><i>Maljean</i><par n="Saussure__np"/></e>
+<e lm="Perriguey"><i>Perriguey</i><par n="Saussure__np"/></e>
+<e lm="Viard"><i>Viard</i><par n="Saussure__np"/></e>
+<e lm="Viaron"><i>Viaron</i><par n="Saussure__np"/></e>
+<e lm="Angélique"><i>Angélique</i><par n="Marie__np"/></e>
+<e lm="Amélie"><i>Amélie</i><par n="Marie__np"/></e>
+<e lm="Tiffany"><i>Tiffany</i><par n="Marie__np"/></e>
+<e lm="Touria"><i>Touria</i><par n="Marie__np"/></e>
+<e lm="Anissa"><i>Anissa</i><par n="Marie__np"/></e>
+<e lm="Catalifaud"><i>Catalifaud</i><par n="Marie__np"/></e>
+
 
 <!-- xxxx -->
   </section>
