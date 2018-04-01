@@ -898,6 +898,11 @@
   <e>       <p><l>-père</l>     <r>-père<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="grand/-oncle__n">
+  <e>       <p><l>-oncle</l>     <r>-oncle<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s-oncles</l>   <r>-oncle<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="fois__n">
   <e>       <p><l></l>          <r><s n="n"/><s n="f"/><s n="sp"/></r></p></e>
 </pardef>
@@ -15045,6 +15050,7 @@
 <e lm="gramme"><i>gramme</i><par n="livre__n"/></e>
 <e lm="gramophone" a="jaumeortola"><i>gramophone</i><par n="livre__n"/></e>
 <e lm="grand-père"><i>grand</i><par n="grand/-père__n"/></e>
+<e lm="grand-oncle"><i>grand</i><par n="grand/-oncle__n"/></e>
 <e r="LR" lm="grand-route"><p><l>grand'route</l>       <r>grand-route</r></p><par n="abeille__n"/></e>
 <e lm="grand-route"><i>grand-route</i><par n="abeille__n"/></e>
 <e lm="grandeur"><i>grandeur</i><par n="abeille__n"/></e>
@@ -15374,7 +15380,6 @@
 <e lm="hurlement"><i>hurlement</i><par n="livre__n"/></e>
 <e lm="hussard"><i>hussard</i><par n="livre__n"/></e>
 <e lm="hutte"><i>hutte</i><par n="abeille__n"/></e>
-<e lm="huître"><i>huître</i><par n="abeille__n"/></e>
 <e lm="hybridation" a="jaumeortola"><i>hybridation</i><par n="abeille__n"/></e>
 <e lm="hydratation"><i>hydratation</i><par n="abeille__n"/></e>
 <e lm="hydrate" a="jaumeortola"><i>hydrate</i><par n="livre__n"/></e>
@@ -19645,6 +19650,7 @@
 <e lm="sensualité"><i>sensualité</i><par n="abeille__n"/></e>
 <e lm="sentence"><i>sentence</i><par n="abeille__n"/></e>
 <e lm="sentier"><i>sentier</i><par n="livre__n"/></e>
+<e lm="sentier de grande randonnée"><i>sentier</i><par n="livre__n"/><p><l><b/>de<b/>grande<b/>randonnée</l><r><g><b/>de<b/>grande<b/>randonnée</g></r></p></e>
 <e lm="sentiment"><i>sentiment</i><par n="livre__n"/></e>
 <e lm="sentimentalité" a="jaumeortola"><i>sentimentalité</i><par n="abeille__n"/></e>
 <e lm="sentinelle" a="jaumeortola"><i>sentinelle</i><par n="abeille__n"/></e>
@@ -23777,8 +23783,8 @@
 <e lm="Belda"><i>Belda</i><par n="Saussure__np"/></e>
 <e lm="Belen"><i>Belen</i><par n="Marie__np"/></e>
 <e lm="Belenguer"><i>Belenguer</i><par n="Saussure__np"/></e>
-<e lm="Belfast"><i>Belfast</i><par n="Andorre__np"/></e>
-<e lm="Belfort"><i>Belfort</i><par n="Andorre__np"/></e>
+<e lm="Belfast"><i>Belfast</i><par n="Iran__np"/></e>
+<e lm="Belfort"><i>Belfort</i><par n="Iran__np"/></e>
 <e lm="Belgique"><i>Belgique</i><par n="Bulgarie__np"/></e>
 <e lm="Belgrade"><i>Belgrade</i><par n="Iran__np"/></e>
 <e lm="Belhumeur" a="hector"><i>Belhumeur</i><par n="Saussure__np"/></e>
@@ -30272,7 +30278,7 @@
 <e lm="Mestre"><i>Mestre</i><par n="Saussure__np"/></e>
 <e lm="Metcalfe"><i>Metcalfe</i><par n="Saussure__np"/></e>
 <e lm="Meteosat"><i>Meteosat</i><par n="Carrefour__np"/></e>
-<e lm="Metz"><i>Metz</i><par n="Andorre__np"/></e>
+<e lm="Metz"><i>Metz</i><par n="Iran__np"/></e>
 <e lm="Metzelder"><i>Metzelder</i><par n="Saussure__np"/></e>
 <e lm="Meunier" a="hector"><i>Meunier</i><par n="Saussure__np"/></e>
 <e lm="Meurthe-et-Moselle"><i>Meurthe-et-Moselle</i><par n="Andorre__np"/></e>
@@ -37963,6 +37969,7 @@
 <e lm="accoutumer"><i>accoutum</i><par n="abaiss/er__vblex"/></e>
 <e lm="accroître"><i>accr</i><par n="accr/oître__vblex"/></e>
 <e lm="accrocher"><i>accroch</i><par n="abaiss/er__vblex"/></e>
+<e lm="raccrocher"><i>raccroch</i><par n="abaiss/er__vblex"/></e>
 <e lm="accréditer"><i>accrédit</i><par n="abaiss/er__vblex"/></e>
 <e lm="accueillir"><i>accueill</i><par n="accueill/ir__vblex"/></e>
 <e lm="accumuler"><i>accumul</i><par n="abaiss/er__vblex"/></e>
@@ -53641,7 +53648,9 @@
 <e lm="grammaticalité" a="jaumeortola"><i>grammaticalité</i><par n="abeille__n"/></e>
 <e lm="grand" a="jaumeortola"><i>grand</i><par n="affecté__n"/></e>
 <e lm="grand-mère" a="jaumeortola"><i>grand-mère</i><par n="abeille__n"/></e>
+<e r="LR" lm="grands-mère"><p><l>grands-mères</l><r>grand-mère</r></p><par n="vacanes__n"/></e>
 <e lm="grand-tante" a="jaumeortola"><i>grand-tante</i><par n="abeille__n"/></e>
+<e r="LR" lm="grands-tante"><p><l>grands-tantes</l><r>grand-tante</r></p><par n="vacanes__n"/></e>
 <e lm="grandiloquence" a="jaumeortola"><i>grandiloquence</i><par n="abeille__n"/></e>
 <e lm="granit" a="jaumeortola"><i>granit</i><par n="livre__n"/></e>
 <e lm="gratiole" a="jaumeortola"><i>gratiole</i><par n="abeille__n"/></e>
@@ -53660,7 +53669,7 @@
 <e lm="grisou" a="jaumeortola"><i>grisou</i><par n="livre__n"/></e>
 <e lm="grive" a="jaumeortola"><i>grive</i><par n="abeille__n"/></e>
 <e lm="grognon" a="jaumeortola"><i>grognon</i><par n="ancien__n"/></e>
-<e lm="groseille" a="jaumeortola"><i>groseille</i><par n="artiste__n"/></e>
+<e lm="groseille"><i>groseille</i><par n="abeille__n"/></e>
 <e lm="groupuscule" a="jaumeortola"><i>groupuscule</i><par n="livre__n"/></e>
 <e lm="grumeau" a="jaumeortola"><i>grumeau</i><par n="lieu__n"/></e>
 <e lm="grégaire" a="jaumeortola"><i>grégaire</i><par n="artiste__n"/></e>
@@ -53742,6 +53751,7 @@
 <e lm="huard" a="jaumeortola"><i>huard</i><par n="livre__n"/></e>
 <e lm="hublot" a="jaumeortola"><i>hublot</i><par n="livre__n"/></e>
 <e lm="huitre" a="jaumeortola"><i>huitre</i><par n="abeille__n"/></e>
+<e lm="huître" a="orth. trad"><i>huître</i><par n="abeille__n"/></e>
 <e lm="humanitaire" a="jaumeortola"><i>humanitaire</i><par n="artiste__n"/></e>
 <e lm="humble" a="jaumeortola"><i>humble</i><par n="livre__n"/></e>
 <e lm="huppe" a="jaumeortola"><i>huppe</i><par n="abeille__n"/></e>
@@ -53835,7 +53845,7 @@
 <e lm="jaloux" a="jaumeortola"><i>jalou</i><par n="épou/x__n"/></e>
 <e lm="jamboree" a="jaumeortola"><i>jamboree</i><par n="livre__n"/></e>
 <e lm="jaquier" a="jaumeortola"><i>jaquier</i><par n="livre__n"/></e>
-<e lm="jarre" a="jaumeortola"><i>jarre</i><par n="artiste__n"/></e>
+<e lm="jarre"><i>jarre</i><par n="abeille__n"/></e>
 <e lm="jasmin" a="jaumeortola"><i>jasmin</i><par n="livre__n"/></e>
 <e lm="jatte" a="jaumeortola"><i>jatte</i><par n="abeille__n"/></e>
 <e lm="javeline" a="jaumeortola"><i>javeline</i><par n="abeille__n"/></e>
@@ -53930,7 +53940,8 @@
 <e lm="lointain" a="jaumeortola"><i>lointain</i><par n="affecté__n"/></e>
 <e lm="loir" a="jaumeortola"><i>loir</i><par n="livre__n"/></e>
 <e lm="lombric" a="jaumeortola"><i>lombric</i><par n="livre__n"/></e>
-<e lm="louche" a="jaumeortola"><i>louche</i><par n="artiste__n"/></e>
+<e lm="louche"><i>louche</i><par n="abeille__n"/></e>
+<e lm="louche"><i>louche</i><par n="livre__n"/></e>
 <e lm="lougre" a="jaumeortola"><i>lougre</i><par n="livre__n"/></e>
 <e lm="louve" a="jaumeortola"><i>louve</i><par n="abeille__n"/></e>
 <e lm="luciole" a="jaumeortola"><i>luciole</i><par n="abeille__n"/></e>
@@ -53952,6 +53963,13 @@
 <e lm="huitième"><i>huitième</i><par n="livre__n"/></e>
 <e lm="dixième"><i>dixième</i><par n="livre__n"/></e>
 <e lm="douzième"><i>douzième</i><par n="livre__n"/></e>
+<e lm="Tristan"><i>Tristan</i><par n="Antoine__np"/></e>
+<e lm="Iseult"><i>Iseult</i><par n="Marie__np"/></e>
+<e lm="Janine"><i>Janine</i><par n="Marie__np"/></e>
+<e lm="Francine"><i>Francine</i><par n="Marie__np"/></e>
+<e lm="sic"><i>sic</i><par n="hier__adv"/></e>
+<e lm="Mulhouse"><i>Mulhouse</i><par n="Iran__np"/></e>
+<e lm="ado"><i>ado</i><par n="artiste__n"/></e>
 
 <!-- xxxx -->
   </section>
