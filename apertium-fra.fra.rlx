@@ -360,6 +360,11 @@ REMOVE Pupille_anat IF (-1/* Det + Pl_strict) (0 Pupille_anat) ;
 SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
 REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
 
+SELECT A IF (0 ("prochain") LINK NOT -1 Det) ;
+SELECT A IF (0 ("prochain")) (-1 Det) (1 N) ;
+
+SELECT N IF (0 ("dame") + Pl) (-1 ("finale") OR ("demi-finale") OR ("tournoi") OR ("championat")) ;
+
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
 SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
