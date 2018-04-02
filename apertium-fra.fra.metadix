@@ -6601,7 +6601,7 @@
 <e lm="angoissant"><i>angoissant</i><par n="abaissant__adj"/></e>
 <e lm="angolais"><i>angolais</i><par n="anglais__adj"/></e>
 <e lm="angulaire"><i>angulaire</i><par n="académique__adj"/></e>
-<e lm="animal"><i>animal</i><par n="abaissant__adj"/></e>
+<e lm="animal"><i>anima</i><par n="amica/l__adj"/></e>
 <e lm="animique"><i>animique</i><par n="académique__adj"/></e>
 <e lm="animiste"><i>animiste</i><par n="académique__adj"/></e>
 <e lm="animé"><i>animé</i><par n="abaissant__adj"/></e>
@@ -7585,6 +7585,7 @@
 <e lm="déterminant"><i>déterminant</i><par n="abaissant__adj"/></e>
 <e lm="déterministe" a="jaumeortola"><i>déterministe</i><par n="académique__adj"/></e>
 <e lm="déterminé" a="jaumeortola"><i>déterminé</i><par n="abaissant__adj"/></e>
+<e lm="indéterminé"><i>indéterminé</i><par n="abaissant__adj"/></e>
 <e lm="détestable"><i>détestable</i><par n="académique__adj"/></e>
 <e lm="détonant"><i>détonant</i><par n="abaissant__adj"/></e>
 <e lm="détracteur"><i>détract</i><par n="conduct/eur__adj"/></e>
@@ -10865,7 +10866,7 @@
 <e lm="animosité"><i>animosité</i><par n="abeille__n"/></e>
 <e lm="anion" a="jaumeortola"><i>anion</i><par n="livre__n"/></e>
 <e lm="annales"><i>annales</i><par n="vacances__n"/></e>
-<e lm="annales météorologiques"><i>annales<b/>météorologiques</i><par n="fois__n"/></e>
+<e lm="annales météorologiques"><i>annales<b/>météorologiques</i><par n="vacances__n"/></e>
 <e lm="anneau"><i>anneau</i><par n="lieu__n"/></e>
 <e lm="annexe"><i>annexe</i><par n="abeille__n"/></e>
 <e lm="annexion" a="hector"><i>annexion</i><par n="abeille__n"/></e>
@@ -12329,7 +12330,7 @@
 <e lm="chiffre"><i>chiffre</i><par n="livre__n"/></e>
 <e lm="chignon"><i>chignon</i><par n="livre__n"/></e>
 <e lm="chiite"><i>chiite</i><par n="artiste__n"/></e>
-<e lm="chilien"><i>chilien</i><par n="ancien__n"/></e>
+<e lm="chilien"><i>Chilien</i><par n="ancien__n"/></e>
 <e lm="chimie"><i>chimie</i><par n="abeille__n"/></e>
 <e lm="chimiothérapie" a="jaumeortola"><i>chimiothérapie</i><par n="abeille__n"/></e>
 <e lm="chimiste"><i>chimiste</i><par n="artiste__n"/></e>
@@ -18192,6 +18193,7 @@
 <e lm="point de vente agréé"><i>point</i><par n="livre__n"/><p><l><b/>de<b/>vente<b/>agréé</l><r><g><b/>de<b/>vente<b/>agréé</g></r></p></e>
 <e lm="point de vente"><i>point</i><par n="livre__n"/><p><l><b/>de<b/>vente</l><r><g><b/>de<b/>vente</g></r></p></e>
 <e lm="point"><i>point</i><par n="livre__n"/></e>
+<e lm="point de repère"><i>point</i><par n="livre__n"/><p><l><b/>de<b/>repère</l><r><g><b/>de<b/>repère</g></r></p></e>
 <e lm="point d'interrogation"><i>point</i><par n="livre__n"/><p><l><b/>d'interrogation</l><r><g><b/>d'interrogation</g></r></p></e>
 <e lm="pointe"><i>pointe</i><par n="abeille__n"/></e>
 <e lm="pointeur" a="jaumeortola"><i>pointeu</i><par n="causeu/r__n"/></e>
@@ -31728,6 +31730,7 @@
 <e lm="Pintu"><i>Pintu</i><par n="Antoine__np"/></e>
 <e lm="Pinzón"><i>Pinzón</i><par n="Saussure__np"/></e>
 <e lm="Piolín"><i>Piolín</i><par n="Antoine__np"/></e>
+<e lm="Titi"><i>Titi</i><par n="Antoine__np"/></e>
 <e lm="Piper"><i>Piper</i><par n="Saussure__np"/></e>
 <e lm="Piquer"><i>Piquer</i><par n="Saussure__np"/></e>
 <e lm="Piqueras"><i>Piqueras</i><par n="Saussure__np"/></e>
@@ -32005,6 +32008,7 @@
 <e lm="Pyrénées-Orientales"><i>Pyrénées-Orientales</i><par n="Bahamas__np"/></e>
 <e lm="Pyrénées Atlantiques"><i>Pyrénées<b/>Atlantiques</i><par n="Bahamas__np"/></e>
 <e lm="Pythagore"><i>Pythagore</i><par n="Antoine__np"/></e>
+<e lm="Protagoras"><i>Protagoras</i><par n="Antoine__np"/></e>
 <e lm="Pàmies"><i>Pàmies</i><par n="Saussure__np"/></e>
 <e lm="Pâques"><i>Pâques</i><par n="Carrefour__np"/></e>
 <e lm="Pâris"><i>Pâris</i><par n="Antoine__np"/></e>
@@ -33581,8 +33585,8 @@
 <e lm="Tadeo"><i>Tadeo</i><par n="Saussure__np"/></e>
 <e lm="Tadeo"><i>Tadeo</i><par n="Antoine__np"/></e>
 <e lm="Tadjikistan"><i>Tadjikistan</i><par n="Iran__np"/></e>
-<e lm="Tage"><i>Tage</i><par n="Andorre__np"/></e>
-<e lm="Tahiti"><i>Tahiti</i><par n="Andorre__np"/></e>
+<e lm="Tage"><i>Tage</i><par n="Iran__np"/></e>
+<e lm="Tahiti"><i>Tahiti</i><par n="Iran__np"/></e>
 <e lm="Taillac"><i>Taillac</i><par n="Saussure__np"/></e>
 <e lm="Taillefer" a="hector"><i>Taillefer</i><par n="Saussure__np"/></e>
 <e lm="Taillon" a="hector"><i>Taillon</i><par n="Saussure__np"/></e>
@@ -54770,6 +54774,39 @@
 <e lm="forain"><i>forain</i><par n="abaissant__adj"/></e>
 <e lm="forain"><i>forain</i><par n="affecté__n"/></e>
 <e lm="maîtriser" a="hector"><i>maîtris</i><par n="abaiss/er__vblex"/></e>
+<e lm="terrier"><i>terrier</i><par n="livre__n"/></e>
+<e lm="fox-terrier"><i>fox-terrier</i><par n="livre__n"/></e>
+<e lm="tachyon" a="jaumeortola"><i>tachyon</i><par n="livre__n"/></e>
+<e lm="tahitien" a="jaumeortola"><i>tahitien</i><par n="ancien__n"/></e>
+<e lm="tahitien"><i>tahitien</i><par n="ancien__adj"/></e>
+<e lm="tamanoir" a="jaumeortola"><i>tamanoir</i><par n="livre__n"/></e>
+<e lm="tanche" a="jaumeortola"><i>tanche</i><par n="abeille__n"/></e>
+<e lm="tannage" a="jaumeortola"><i>tannage</i><par n="livre__n"/></e>
+<e lm="tannerie" a="jaumeortola"><i>tannerie</i><par n="abeille__n"/></e>
+<e lm="tanneur" a="jaumeortola"><i>tanneu</i><par n="causeu/r__n"/></e>
+<e lm="taon" a="jaumeortola"><i>taon</i><par n="livre__n"/></e>
+<e lm="taquin" a="jaumeortola"><i>taquin</i><par n="affecté__n"/></e>
+<e lm="tarente" a="jaumeortola"><i>tarente</i><par n="abeille__n"/></e>
+<e lm="tarentule" a="jaumeortola"><i>tarentule</i><par n="abeille__n"/></e>
+<e lm="tarot" a="jaumeortola"><i>tarot</i><par n="livre__n"/></e>
+<e lm="tatou" a="jaumeortola"><i>tatou</i><par n="livre__n"/></e>
+<e lm="tatoueur" a="jaumeortola"><i>tatoueu</i><par n="causeu/r__n"/></e>
+<e lm="taupinière" a="jaumeortola"><i>taupinière</i><par n="abeille__n"/></e>
+<e lm="taxinomie" a="jaumeortola"><i>taxinomie</i><par n="abeille__n"/></e>
+<e lm="taïga" a="jaumeortola"><i>taïga</i><par n="abeille__n"/></e>
+<e lm="technocratie" a="jaumeortola"><i>technocratie</i><par n="abeille__n"/></e>
+<e lm="tell" a="jaumeortola"><i>tel</i><par n="cie/l__n"/></e>
+<e lm="telline" a="jaumeortola"><i>telline</i><par n="abeille__n"/></e>
+<e lm="tenture" a="jaumeortola"><i>tenture</i><par n="abeille__n"/></e>
+<e lm="terbium" a="jaumeortola"><i>terbi</i><par n="latifundi/um__n"/></e>
+<e lm="terreux" a="jaumeortola"><i>terreu</i><par n="épou/x__n"/></e>
+<e lm="terrier" a="jaumeortola"><i>terri</i><par n="bouch/er__n"/></e>
+<e lm="thermographie" a="jaumeortola"><i>thermographie</i><par n="abeille__n"/></e>
+<e lm="thylacine" a="jaumeortola"><i>thylacine</i><par n="livre__n"/></e>
+<e lm="thérapeutique" a="jaumeortola"><i>thérapeutique</i><par n="abeille__n"/></e>
+<e lm="thérapside" a="jaumeortola"><i>thérapside</i><par n="livre__n"/></e>
+<e lm="lexical"><i>lexica</i><par n="amica/l__adj"/></e>
+<e lm="dégagement"><i>dégagement</i><par n="livre__n"/></e>
 
 <!-- xxxx -->
   </section>
