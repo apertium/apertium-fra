@@ -240,6 +240,10 @@ SELECT Inf IF (0 Être) (-1 Vbmod) ;
 REMOVE N IF (-1 N OR A OR Prn) (0C Est) (1 A OR PP) ;
 REMOVE A IF (-1 N OR A OR Prn) (0C Est) (1 A OR PP) ;
   ## la demande est suffisante
+REMOVE N IF (0C Est) (1C PP) ;
+REMOVE A IF (0C Est) (1C PP) ;
+  ## est lancée
+  ## est venu
 REMOVE N IF (-1 N OR A OR Prn) (0C Est) (1 Adv OR PreAdv) (2 A OR PP) ;
 REMOVE A IF (-1 N OR A OR Prn) (0C Est) (1 Adv OR PreAdv) (2 A OR PP) ;
   ## est très satisfait
