@@ -7403,6 +7403,8 @@
 <e lm="bavard"><i>bavard</i><par n="abaissant__adj"/></e>
 <e lm="beau"><i>be</i><par n="be/au__adj"/></e>
 <e lm="bel"><i>be</i><par n="be/l__adj"/></e>
+<e r="RL" lm="assez de"><p><l>assez<b/><a/>de</l><r>assez<b/>de</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="assez de"><i>assez<b/>de</i><par n="arrière__adj"/></e>
 <e r="RL" lm="beaucoup de"><p><l>beaucoup<b/><a/>de</l><r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="beaucoup de"><i>beaucoup<b/>de</i><par n="arrière__adj"/></e>
 <e lm="beige" a="jaumeortola"><i>beige</i><par n="académique__adj"/></e>
@@ -17178,7 +17180,6 @@
 <e lm="explosion"><i>explosion</i><par n="abeille__n"/></e>
 <e lm="expo"><i>expo</i><par n="abeille__n"/></e>
 <e lm="exportateur" a="jaumeortola"><i>exportat</i><par n="administrat/eur__n"/></e>
-<e lm="sergio"><i>exportateur</i><par n="artiste__n"/></e>
 <e lm="exportation"><i>exportation</i><par n="abeille__n"/></e>
 <e lm="exposant"><i>exposant</i><par n="affecté__n"/></e>
 <e lm="exposition"><i>exposition</i><par n="abeille__n"/></e>
@@ -53884,6 +53885,7 @@
           group adj
       ****************************** -->
 <e r="LR" lm="beaucoup de"><p><l>beaucoup<b/>d'</l>    <r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="assez de"><p><l>assez<b/>d'</l>          <r>assez<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="peu de"><p><l>peu<b/>d'</l>              <r>peu<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="tellement de"><p><l>tellement<b/>d'</l>  <r>peu<b/>de</r></p><par n="arrière__adj"/></e>
 
