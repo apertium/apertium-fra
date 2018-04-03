@@ -7405,6 +7405,8 @@
 <e lm="bel"><i>be</i><par n="be/l__adj"/></e>
 <e r="RL" lm="assez de"><p><l>assez<b/><a/>de</l><r>assez<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="assez de"><i>assez<b/>de</i><par n="arrière__adj"/></e>
+<e r="RL" lm="trop de"><p><l>trop<b/><a/>de</l><r>trop<b/>de</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="trop de"><i>trop<b/>de</i><par n="arrière__adj"/></e>
 <e r="RL" lm="beaucoup de"><p><l>beaucoup<b/><a/>de</l><r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="beaucoup de"><i>beaucoup<b/>de</i><par n="arrière__adj"/></e>
 <e lm="beige" a="jaumeortola"><i>beige</i><par n="académique__adj"/></e>
@@ -21888,6 +21890,7 @@
 <e lm="polycarbonate" a="jaumeortola"><i>polycarbonate</i><par n="livre__n"/></e>
 <e lm="polyester" a="jaumeortola"><i>polyester</i><par n="livre__n"/></e>
 <e lm="polygame"><i>polygame</i><par n="artiste__n"/></e>
+<e lm="polygame"><i>polygame</i><par n="académique__adj"/></e>
 <e lm="polygamie"><i>polygamie</i><par n="abeille__n"/></e>
 <e lm="polygone"><i>polygone</i><par n="livre__n"/></e>
 <e lm="polymorphisme" a="jaumeortola"><i>polymorphisme</i><par n="livre__n"/></e>
@@ -45128,18 +45131,20 @@
 <e lm="Otín"><i>Otín</i><par n="Saussure__np"/></e>
 <e lm="Ouagadougou"><i>Ouagadougou</i><par n="Andorre__np"/></e>
 <e lm="Ouaknine"><i>Ouaknine</i><par n="Saussure__np"/></e>
-<e lm="Oudmourtia"><i>Oudmourtia</i><par n="Andorre__np"/></e>
+<e lm="académique__adj"><i>Oudmourtie</i><par n="Bulgarie__np"/></e>
+<e lm="oudmourte"><i>oudmourte</i><par n="artiste__n"/></e>
+<e lm="oudmourte"><i>oudmourte</i><par n="académique__adj"/></e>
 <e lm="Ouellet" a="hector"><i>Ouellet</i><par n="Saussure__np"/></e>
 <e lm="Ouganda"><i>Ouganda</i><par n="Iran__np"/></e>
 <e lm="Ouimet" a="hector"><i>Ouimet</i><par n="Saussure__np"/></e>
-<e lm="Oulan-Bator"><i>Oulan-Bator</i><par n="Andorre__np"/></e>
+<e lm="Oulan-Bator"><i>Oulan-Bator</i><par n="Iran__np"/></e>
 <e lm="Oum"><i>Oum</i><par n="Saussure__np"/></e>
-<e lm="Oural"><i>Oural</i><par n="Andorre__np"/></e>
-<e lm="Ourense"><i>Ourense</i><par n="Andorre__np"/></e>
+<e lm="Oural"><i>Oural</i><par n="Iran__np"/></e>
+<e lm="Ourense"><i>Ourense</i><par n="Iran__np"/></e>
 <e lm="Ourmia"><i>Ourmia</i><par n="Andorre__np"/></e>
 <e lm="Ourón"><i>Ourón</i><par n="Carrefour__np"/></e>
 <e lm="Oussama Ben Laden"><i>Oussama<b/>Ben<b/>Laden</i><par n="Abraham__np"/></e>
-<e lm="Oussouriisk"><i>Oussouriisk</i><par n="Andorre__np"/></e>
+<e lm="Oussouriisk"><i>Oussouriisk</i><par n="Iran__np"/></e>
 <e lm="Oustacha"><i>Oustacha</i><par n="Carrefour__np"/></e>
 <e lm="Outeda"><i>Outeda</i><par n="Abraham__np"/></e>
 <e lm="Outón"><i>Outón</i><par n="Carrefour__np"/></e>
@@ -45149,7 +45154,7 @@
 <e lm="Ovidi"><i>Ovidi</i><par n="Antoine__np"/></e>
 <e lm="Ovidi"><i>Ovidi</i><par n="Saussure__np"/></e>
 <e lm="Ovidio"><i>Ovidio</i><par n="Antoine__np"/></e>
-<e lm="Oviedo"><i>Oviedo</i><par n="Bulgarie__np"/></e>
+<e lm="Oviedo"><i>Oviedo</i><par n="Iran__np"/></e>
 <e lm="Oviedo"><i>Oviedo</i><par n="Saussure__np"/></e>
 <e lm="Owen"><i>Owen</i><par n="Antoine__np"/></e>
 <e lm="Owen Arthur"><i>Owen<b/>Arthur</i><par n="Abraham__np"/></e>
@@ -49366,7 +49371,7 @@
 <e lm="Thériault" a="hector"><i>Thériault</i><par n="Saussure__np"/></e>
 <e lm="Théroux" a="hector"><i>Théroux</i><par n="Saussure__np"/></e>
 <e lm="Thérèse"><i>Thérèse</i><par n="Marie__np"/></e>
-<e lm="Thésée"><i>Thésée</i><par n="Abraham__np"/></e>
+<e lm="Thésée"><i>Thésée</i><par n="Antoine__np"/></e>
 <e lm="Tiago"><i>Tiago</i><par n="Antoine__np"/></e>
 <e lm="Tibbo"><i>Tibbo</i><par n="Saussure__np"/></e>
 <e lm="Tibet"><i>Tibet</i><par n="Iran__np"/></e>
@@ -52582,7 +52587,9 @@
 <e lm="partout"><i>partout</i><par n="hier__adv"/></e>
 <e lm="partout dans le monde"><i>partout<b/>dans<b/>le<b/>monde</i><par n="hier__adv"/></e>
 <e lm="pas"><i>pas</i><par n="hier__adv"/></e>
+<e lm="pas assez"><i>pas<b/>assez</i><par n="hier__adv"/></e>
 <e lm="pas beaucoup"><i>pas<b/>beaucoup</i><par n="hier__adv"/></e>
+<e lm="pas trop"><i>pas<b/>trop</i><par n="hier__adv"/></e>
 <e lm="pas du tout"><i>pas<b/>du<b/>tout</i><par n="hier__adv"/></e>
 <e lm="pas le moins du monde"><i>pas<b/>le<b/>moins<b/>du<b/>monde</i><par n="hier__adv"/></e>
 <e lm="passablement" a="jaumeortola"><i>passablement</i><par n="hier__adv"/></e>
@@ -53878,6 +53885,22 @@
 <e lm="avoir"><par n="/avoir__vbhaver"/></e>
 <e lm="il y a"><p><l>il<b/>y<b/>a</l>                  <r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="être"><par n="/être__vbser"/></e>
+
+<e lm="maladif"><i>maladi</i><par n="affirmati/f__adj"/></e>
+<e lm="RAM"><i>RAM</i><par n="BBC__n"/></e>
+<e lm="ROM"><i>ROM</i><par n="BBC__n"/></e>
+<e lm="piétiner"><i>piétin</i><par n="abaiss/er__vblex"/></e>
+<e lm="astronautique"><i>astronautique</i><par n="abeille__n"/></e>
+<e lm="astronautique"><i>astronautique</i><par n="académique__adj"/></e>
+<e lm="de consommation"><i>de<b/>consommation</i><par n="arrière__adj"/></e>
+<e lm="multidirectionnel"><i>multidirectionnel</i><par n="annuel__adj"/></e>
+<e lm="Yakoutie"><i>Yakoutie</i><par n="Bulgarie__np"/></e>
+<e lm="yakoute"><i>yakoute</i><par n="artiste__n"/></e>
+<e lm="yakoute"><i>yakoute</i><par n="académique__adj"/></e>
+<e lm="iakoute"><i>iakoute</i><par n="artiste__n"/></e>
+<e lm="iakoute"><i>iakoute</i><par n="académique__adj"/></e>
+
+<!-- xxxx -->
   </section>
 
   <section id="apostrophes" type="postblank">
@@ -53887,7 +53910,8 @@
 <e r="LR" lm="beaucoup de"><p><l>beaucoup<b/>d'</l>    <r>beaucoup<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="assez de"><p><l>assez<b/>d'</l>          <r>assez<b/>de</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="peu de"><p><l>peu<b/>d'</l>              <r>peu<b/>de</r></p><par n="arrière__adj"/></e>
-<e r="LR" lm="tellement de"><p><l>tellement<b/>d'</l>  <r>peu<b/>de</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="tellement de"><p><l>tellement<b/>d'</l>  <r>tellement<b/>de</r></p><par n="arrière__adj"/></e>
+<e r="LR" lm="trop de"><p><l>trop<b/>d'</l>            <r>trop<b/>de</r></p><par n="arrière__adj"/></e>
 
     <!-- ******************************
           group cnjadv
