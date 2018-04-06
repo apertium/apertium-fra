@@ -309,11 +309,14 @@ SELECT Itg IF (-2C V LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
 REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Prn) ;
 
-REMOVE A (*-1 Cnj_Rel_End_NoInf) (0C Verb OR A LINK NOT *1 Verb) ;
-REMOVE A (*-1 Cnj_Rel_End_NoInf) (0C Verb OR N LINK NOT *1 Verb) ;
+REMOVE A (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR A LINK NOT *1 Verb) ;
+REMOVE A (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR N LINK NOT *1 Verb) ;
   ## Une œuvre romanesque qui célèbre à sa façon l'effervescence de l'Art nouveau.
+  ## il était très fier, 
 REMOVE Verb (OC Verb OR A OR N LINK NOT 0 Inf) (1 Être LINK 0 P1 OR P2 OR P3) ;
   ## Si la demande est suffisante
+REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
+  ## il était très fier, 
 
 # elección de subjuntivo después de "que"
 SELECT Prs (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
@@ -660,6 +663,35 @@ SELECT Pl IF (-6 Ne) (-5 Pro + Pl) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP 
 #SELECT PP IF (-5 Ne) (-4 Pro) (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
 #SELECT Haver IF (-2 Ne) (-1 Pro) (-0 Haver) (1 Adv) (2 Adv) (3 PP) ;
 #  ## Vous ne lui avez pas toujours dit
+
+SELECT PP IF (-2 ("se")) (-1 Ser + Sg) (0 PP + Sg) ;
+  ## s'est mouillé
+SELECT PP IF (-2 ("se")) (-1 Ser + Pl) (0 PP + Pl) ;
+  ## se sont mouillés
+SELECT PP IF (-3 ("se")) (-2 Ser + Sg) (-1 Adv) (0 PP + Sg) ;
+  ## ne s'est pas mouillé
+SELECT PP IF (-3 ("se")) (-2 Ser + Pl) (-1 Adv) (0 PP + Pl) ;
+  ## ne se sont pas mouillés
+SELECT PP IF (-4 ("se")) (-3 Ser + Sg) (-2 Adv) (-1 Adv) (0 PP + Sg) ;
+  ## ne s'est pas bien mouillé
+SELECT PP IF (-4 ("se")) (-3 Ser + Pl) (-2 Adv) (-1 Adv) (0 PP + Pl) ;
+  ## ne se sont pas bien mouillés
+
+SELECT PP IF (-2 Haver + Sg) (-1 Ser + PP) (0 PP + Sg) ;
+SELECT PP IF (-2 Haver + Pl) (-1 Ser + PP) (0 PP + Pl) ;
+  ## ha été nommé
+SELECT PP IF (-3 Haver + Sg) (-2 Adv) (-1 Ser + PP) (0 PP + Sg) ;
+SELECT PP IF (-3 Haver + Pl) (-2 Adv) (-1 Ser + PP) (0 PP + Pl) ;
+  ## n'a pas été nommé
+SELECT PP IF (-4 Haver + Sg) (-3 Adv) (-2 Ser + PP) (-1 Adv) (0 PP + Sg) ;
+SELECT PP IF (-4 Haver + Pl) (-3 Adv) (-2 Ser + PP) (-1 Adv) (0 PP + Pl) ;
+  ## n'a pas été bien nommé
+
+SELECT PP IF (-1 Ser) (0 ("fini")) ;
+SELECT PP IF (-2 Ser) (-1 Adv) (0 ("fini")) ;
+SELECT PP IF (-3 Ser) (-2 Adv) (-1 Adv) (0 ("fini")) ;
+  ## c'est fini
+
 
 SELECT Prep IF (0 ("après")) (1 Inf) ;
   ## . Après avoir parcouru
