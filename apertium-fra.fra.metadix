@@ -11027,6 +11027,7 @@
 <e lm="touareg"><i>touareg</i><par n="académique__adj"/></e>
 <e lm="touffu" a="jaumeortola"><i>touffu</i><par n="abaissant__adj"/></e>
 <e lm="touristique"><i>touristique</i><par n="académique__adj"/></e>
+<e lm="cyclotouristique"><i>cyclotouristique</i><par n="académique__adj"/></e>
 <e lm="tourmenté"><i>tourmenté</i><par n="abaissant__adj"/></e>
 <e lm="tous droits réservés"><i>tous<b/>droits<b/>réservés</i><par n="arrière__adj"/></e>
 <e lm="tout-terrain"><i>tout-terrain</i><par n="arrière__adj"/></e>
@@ -23407,6 +23408,7 @@
 <e lm="sanskrit" a="jaumeortola"><i>sanskrit</i><par n="livre__n"/></e>
 <e lm="santé"><i>santé</i><par n="abeille__n"/></e>
 <e lm="Saoudien"><i>saoudien</i><par n="ancien__n"/></e>
+<e lm="sapeur"><i>sapeur</i><par n="livre__n"/></e>
 <e lm="sapeur-pompier"><i>sapeur-pompier</i><par n="personnel__n"/></e>
 <e lm="sapeur-pompier"><p><l>sapeurs-pompiers</l>      <r>sapeur-pompier</r></p><par n="abords__n"/></e>
 <e lm="saphir" a="jaumeortola"><i>saphir</i><par n="livre__n"/></e>
@@ -24602,9 +24604,11 @@
 <e lm="tourbillon"><i>tourbillon</i><par n="livre__n"/></e>
 <e lm="tourelle"><i>tourelle</i><par n="abeille__n"/></e>
 <e lm="tourisme"><i>tourisme</i><par n="livre__n"/></e>
+<e lm="cyclotourisme"><i>cyclotourisme</i><par n="livre__n"/></e>
 <e lm="tourisme rural"><i>tourisme<b/>rural</i><par n="mois__n"/></e>
 <e lm="tourismes ruraux"><i>tourismes<b/>ruraux</i><par n="abords__n"/></e>
 <e lm="touriste"><i>touriste</i><par n="artiste__n"/></e>
+<e lm="cyclotouriste"><i>cyclotouriste</i><par n="artiste__n"/></e>
 <e lm="tourmaline" a="jaumeortola"><i>tourmaline</i><par n="abeille__n"/></e>
 <e lm="tourment" a="jaumeortola"><i>tourment</i><par n="livre__n"/></e>
 <e lm="tourmente"><i>tourmente</i><par n="abeille__n"/></e>
@@ -53913,6 +53917,178 @@
 <e lm="modestement"><i>modestement</i><par n="hier__adv"/></e>
 <e lm="béotien"><i>béotien</i><par n="ancien__n"/></e>
 <e lm="béotien"><i>béotien</i><par n="ancien__adj"/></e>
+<e lm="esclaffer"><i>esclaff</i><par n="abaiss/er__vblex"/></e>
+<e lm="esclaffer de rire"><i>esclaff</i><par n="abaiss/er__vblex"/><p><l><b/>de<b/>rire</l><r><g><b/>de<b/>rire</g></r></p></e> 
+    <e lm="ébrouer" a="automatique">        <i>ébrou</i><par n="abaiss/er__vblex"/></e>
+    <e lm="affûter" a="automatique">        <i>affût</i><par n="abaiss/er__vblex"/></e>
+    <e lm="allécher" a="automatique">        <i>all</i><par n="accél/é[R]er__vblex" prm="ch"/></e>
+    <e lm="amadouer" a="automatique">        <i>amadou</i><par n="abaiss/er__vblex"/></e>
+    <e lm="atterrer">        <i>atterr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ferrer">        <i>ferr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="amurer" a="automatique">        <i>amur</i><par n="abaiss/er__vblex"/></e>
+    <e lm="anathématiser" a="automatique">        <i>anathématis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="anatomiser" a="automatique">        <i>anatomis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="animaliser" a="automatique">        <i>animalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aniser" a="automatique">        <i>anis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="anneler" a="automatique">        <i>ann</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="annoter" a="automatique">        <i>annot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="anodiser" a="automatique">        <i>anodis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="antéposer" a="automatique">        <i>antépos</i><par n="abaiss/er__vblex"/></e>
+    <e lm="appéter" a="automatique">        <i>app</i><par n="accél/é[R]er__vblex" prm="t"/></e>
+    <e lm="araser" a="automatique">        <i>aras</i><par n="abaiss/er__vblex"/></e>
+    <e lm="arborer" a="automatique">        <i>arbor</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aromatiser" a="automatique">        <i>aromatis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="arpenter" a="automatique">        <i>arpent</i><par n="abaiss/er__vblex"/></e>
+    <e lm="arquebuser" a="automatique">        <i>arquebus</i><par n="abaiss/er__vblex"/></e>
+    <e lm="arrimer" a="automatique">        <i>arrim</i><par n="abaiss/er__vblex"/></e>
+    <e lm="assoiffer" a="automatique">        <i>assoiff</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aurifier" a="automatique">        <i>aurifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="autographier" a="automatique">        <i>autographi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aviner" a="automatique">        <i>avin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aviver" a="automatique">        <i>aviv</i><par n="abaiss/er__vblex"/></e>
+    <e lm="axiomatiser" a="automatique">        <i>axiomatis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bafouer" a="automatique">        <i>bafou</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bailler" a="automatique">        <i>baill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="boiser" a="automatique">        <i>bois</i><par n="abaiss/er__vblex"/></e>
+    <e lm="boiter" a="automatique">        <i>boit</i><par n="abaiss/er__vblex"/></e>
+    <e lm="brader" a="automatique">        <i>brad</i><par n="abaiss/er__vblex"/></e>
+    <e lm="braser" a="automatique">        <i>bras</i><par n="abaiss/er__vblex"/></e>
+    <e lm="brimer" a="automatique">        <i>brim</i><par n="abaiss/er__vblex"/></e>
+    <e lm="broyer" a="automatique">        <i>bro</i><par n="côto/yer__vblex"/></e>
+    <e lm="buriner" a="automatique">        <i>burin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bâter" a="automatique">        <i>bât</i><par n="abaiss/er__vblex"/></e>
+    <e lm="cabosser" a="automatique">        <i>caboss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="calomnier" a="automatique">        <i>calomni</i><par n="abaiss/er__vblex"/></e>
+    <e lm="chagriner" a="automatique">        <i>chagrin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="chanfreiner" a="automatique">        <i>chanfrein</i><par n="abaiss/er__vblex"/></e>
+    <e lm="charpenter" a="automatique">        <i>charpent</i><par n="abaiss/er__vblex"/></e>
+    <e lm="chatouiller" a="automatique">        <i>chatouill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="choyer" a="automatique">        <i>cho</i><par n="côto/yer__vblex"/></e>
+    <e lm="cinématographier" a="automatique">        <i>cinématographi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ciseler" a="automatique">        <i>cis</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="cocher" a="automatique">        <i>coch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="concasser" a="automatique">        <i>concass</i><par n="abaiss/er__vblex"/></e>
+    <e lm="connecter" a="automatique">        <i>connect</i><par n="abaiss/er__vblex"/></e>
+    <e lm="consterner" a="automatique">        <i>constern</i><par n="abaiss/er__vblex"/></e>
+    <e lm="contrister" a="automatique">        <i>contrist</i><par n="abaiss/er__vblex"/></e>
+    <e lm="corroder" a="automatique">        <i>corrod</i><par n="abaiss/er__vblex"/></e>
+    <e lm="cumuler" a="automatique">        <i>cumul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="câliner" a="automatique">        <i>câlin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="diffamer" a="automatique">        <i>diffam</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dilapider" a="automatique">        <i>dilapid</i><par n="abaiss/er__vblex"/></e>
+    <e lm="diphtonguer" a="automatique">        <i>diphtongu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="disséquer" a="automatique">        <i>disséquer</i><par n="ach/e[T]er__vblex" prm="qu"/></e>
+    <e lm="débroussailler" a="automatique">        <i>débroussaill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="décongestionner" a="automatique">        <i>décongestionn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dédier" a="automatique">        <i>dédi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="déflorer" a="automatique">        <i>déflor</i><par n="abaiss/er__vblex"/></e>
+    <e lm="déifier" a="automatique">        <i>déifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dépraver" a="automatique">        <i>déprav</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dépuceler" a="automatique">        <i>dépuc</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="désinstaller" a="automatique">        <i>désinstall</i><par n="abaiss/er__vblex"/></e>
+    <e lm="effleurer" a="automatique">        <i>effleur</i><par n="abaiss/er__vblex"/></e>
+    <e lm="emmagasiner" a="automatique">        <i>emmagasin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="enculer" a="automatique">        <i>encul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="endoctriner" a="automatique">        <i>endoctrin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ensoleiller" a="automatique">        <i>ensoleill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ensorceler" a="automatique">        <i>ensorc</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="estampiller" a="automatique">        <i>estampill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="exécrer" a="automatique">        <i>ex</i><par n="accél/é[R]er__vblex" prm="cr"/></e>
+    <e lm="façonner" a="automatique">        <i>façonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="flairer" a="automatique">        <i>flair</i><par n="abaiss/er__vblex"/></e>
+    <e lm="forer" a="automatique">        <i>for</i><par n="abaiss/er__vblex"/></e>
+    <e lm="garroter" a="automatique">        <i>garrot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="gaspiller" a="automatique">        <i>gaspill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="gober" a="automatique">        <i>gob</i><par n="abaiss/er__vblex"/></e>
+    <e lm="gréciser" a="automatique">        <i>grécis</i><par n="abaiss/er__vblex"/></e>
+<e lm="Désiré"><i>Désiré</i><par n="Antoine__np"/></e>
+<e lm="Désirée"><i>Désirée</i><par n="Marie__np"/></e>
+    <e lm="décocher" a="automatique">        <i>décoch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="combler" a="automatique">        <i>combl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="haranguer" a="automatique">        <i>harangu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="harponner" a="automatique">        <i>harponn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="herser" a="automatique">        <i>hers</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ignifuger" a="automatique">        <i>ignifug</i><par n="allong/er__vblex"/></e>
+    <e lm="insonoriser" a="automatique">        <i>insonoris</i><par n="abaiss/er__vblex"/></e>
+    <e lm="judiciariser" a="automatique">        <i>judiciaris</i><par n="abaiss/er__vblex"/></e>
+    <e lm="laquer" a="automatique">        <i>laqu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="lessiver" a="automatique">        <i>lessiv</i><par n="abaiss/er__vblex"/></e>
+    <e lm="lithographier" a="automatique">        <i>lithographi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="lubrifier" a="automatique">        <i>lubrifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="maçonner" a="automatique">        <i>maçonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="mystifier" a="automatique">        <i>mystifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="natter" a="automatique">        <i>natt</i><par n="abaiss/er__vblex"/></e>
+    <e lm="paginer" a="automatique">        <i>pagin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="palataliser" a="automatique">        <i>palatalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="paraphraser" a="automatique">        <i>paraphras</i><par n="abaiss/er__vblex"/></e>
+    <e lm="pasteuriser" a="automatique">        <i>pasteuris</i><par n="abaiss/er__vblex"/></e>
+    <e lm="perforer" a="automatique">        <i>perfor</i><par n="abaiss/er__vblex"/></e>
+    <e lm="prioriser" a="automatique">        <i>prioris</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rapiécer" a="automatique">        <i>rapié</i><par n="annon/cer__vblex"/></e>
+    <e lm="reluquer" a="automatique">        <i>reluqu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rembourrer" a="automatique">        <i>rembourr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="robotiser" a="automatique">        <i>robotis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="roder" a="automatique">        <i>rod</i><par n="abaiss/er__vblex"/></e>
+    <e lm="râper" a="automatique">        <i>râp</i><par n="abaiss/er__vblex"/></e>
+    <e lm="réputer" a="automatique">        <i>réput</i><par n="abaiss/er__vblex"/></e>
+    <e lm="sarcler" a="automatique">        <i>sarcl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="savourer" a="automatique">        <i>savour</i><par n="abaiss/er__vblex"/></e>
+    <e lm="sermonner" a="automatique">        <i>sermonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="sodomiser" a="automatique">        <i>sodomis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="solutionner" a="automatique">        <i>solutionn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="suborner" a="automatique">        <i>suborn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tanner" a="automatique">        <i>tann</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tatouer" a="automatique">        <i>tatou</i><par n="abaiss/er__vblex"/></e>
+    <e lm="techniser" a="automatique">        <i>technis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tenailler" a="automatique">        <i>tenaill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="terrifier" a="automatique">        <i>terrifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="télécommander" a="automatique">        <i>télécommand</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ébiseler" a="automatique">        <i>ébis</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="écourter" a="automatique">        <i>écourt</i><par n="abaiss/er__vblex"/></e>
+    <e lm="émincer" a="automatique">        <i>émin</i><par n="annon/cer__vblex"/></e>
+    <e lm="étamer" a="automatique">        <i>étam</i><par n="abaiss/er__vblex"/></e>
+    <e lm="idolâtrer" a="automatique">        <i>idolâtr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aboucher" a="automatique">        <i>abouch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="abreuver" a="automatique">        <i>abreuv</i><par n="abaiss/er__vblex"/></e>
+    <e lm="accoter" a="automatique">        <i>accot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="acidifier" a="automatique">        <i>acidifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="aduler" a="automatique">        <i>adul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="affiner" a="automatique">        <i>affin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="agencer" a="automatique">        <i>agen</i><par n="annon/cer__vblex"/></e>
+    <e lm="agripper" a="automatique">        <i>agripp</i><par n="abaiss/er__vblex"/></e>
+    <e lm="alcooliser" a="automatique">        <i>alcoolis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="alkyler" a="automatique">        <i>alkyl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="amonceler" a="automatique">        <i>amonc</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="angliciser" a="automatique">        <i>anglicis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="angéliser" a="automatique">        <i>angélis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="annihiler" a="automatique">        <i>annihil</i><par n="abaiss/er__vblex"/></e>
+    <e lm="anonymiser" a="automatique">        <i>anonymis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="apitoyer" a="automatique">        <i>apito</i><par n="côto/yer__vblex"/></e>
+    <e lm="apostropher" a="automatique">        <i>apostroph</i><par n="abaiss/er__vblex"/></e>
+    <e lm="apparier" a="automatique">        <i>appari</i><par n="abaiss/er__vblex"/></e>
+    <e lm="argenter" a="automatique">        <i>argent</i><par n="abaiss/er__vblex"/></e>
+    <e lm="assibiler" a="automatique">        <i>assibil</i><par n="abaiss/er__vblex"/></e>
+    <e lm="atomiser" a="automatique">        <i>atomis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="attrouper" a="automatique">        <i>attroup</i><par n="abaiss/er__vblex"/></e>
+    <e lm="auréoler" a="automatique">        <i>auréol</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ausculter" a="automatique">        <i>auscult</i><par n="abaiss/er__vblex"/></e>
+    <e lm="autofinancer" a="automatique">        <i>autofinan</i><par n="annon/cer__vblex"/></e>
+    <e lm="balkaniser" a="automatique">        <i>balkanis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bastonner" a="automatique">        <i>bastonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bercer" a="automatique">        <i>ber</i><par n="annon/cer__vblex"/></e>
+    <e lm="complexer" a="automatique">        <i>compl</i><par n="ach/e[T]er__vblex" prm="x"/></e>
+    <e lm="complexifier" a="automatique">        <i>complexifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="disculper" a="automatique">        <i>disculp</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dorloter" a="automatique">        <i>dorlot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="doucher" a="automatique">        <i>douch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="délocaliser" a="automatique">        <i>délocalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="démocratiser" a="automatique">        <i>démocratis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dénouer" a="automatique">        <i>dénou</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dénuder" a="automatique">        <i>dénud</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dépiter" a="automatique">        <i>dépit</i><par n="abaiss/er__vblex"/></e>
+<e lm="chatouille"><i>chatouille</i><par n="abeille__n"/></e>
+<e lm="chatouillement"><i>chatouillement</i><par n="livre__n"/></e>
+<e lm="comblé"><i>comblé</i><par n="abaissant__adj"/></e>
 
 <!-- xxxx -->
   </section>
