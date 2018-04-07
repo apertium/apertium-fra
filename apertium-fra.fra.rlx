@@ -484,6 +484,8 @@ SELECT Verb IF (-3 ("qui")) (-2 Adv) (-1 Pro) (0C N OR Verb) ;
 
 SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Aussi);
 SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Même);
+SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Qui);
+SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Que);
 SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (NOT 1 Inf);
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
 SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
