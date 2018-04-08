@@ -7443,6 +7443,7 @@
 <e lm="bipenne" a="jaumeortola"><i>bipenne</i><par n="académique__adj"/></e>
 <e lm="bipolaire" a="jaumeortola"><i>bipolaire</i><par n="académique__adj"/></e>
 <e lm="birman"><i>birman</i><par n="abaissant__adj"/></e>
+<e lm="birman"><i>birman</i><par n="affecté__n"/></e>
 <e lm="biscayen"><i>biscayen</i><par n="ancien__adj"/></e>
 <e r="LR" lm="biscaïen"><i>biscaïen</i><par n="ancien__adj"/></e>
 <e lm="bisexuel" a="jaumeortola"><i>bisexuel</i><par n="annuel__adj"/></e>
@@ -7675,6 +7676,7 @@
 <e lm="chilien"><i>chilien</i><par n="ancien__adj"/></e>
 <e lm="chimique"><i>chimique</i><par n="académique__adj"/></e>
 <e lm="chinois"><i>chinois</i><par n="anglais__adj"/></e>
+<e lm="tunisois"><i>tunisois</i><par n="anglais__adj"/></e>
 <e lm="chirurgical"><i>chirurgica</i><par n="amica/l__adj"/></e>
 <e lm="chlorhydrique" a="jaumeortola"><i>chlorhydrique</i><par n="académique__adj"/></e>
 <e lm="chocolat" a="jaumeortola"><i>chocolat</i><par n="arrière__adj"/></e>
@@ -7688,6 +7690,14 @@
 <e lm="chryséléphantin" a="jaumeortola"><i>chryséléphantin</i><par n="abaissant__adj"/></e>
 <e lm="chrétien"><i>chrétien</i><par n="ancien__adj"/></e>
 <e lm="chypriote"><i>chypriote</i><par n="académique__adj"/></e>
+<e lm="chypriote grec"><p><l>chypriote<b/>grec</l><r>chypriote<b/>grec<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="chypriote grec"><p><l>chypriote<b/>greque</l><r>chypriote<b/>grec<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="chypriote grec"><p><l>chypriotes<b/>grecs</l><r>chypriote<b/>grec<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="chypriote grec"><p><l>chypriotes<b/>greques</l><r>chypriote<b/>grec<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="chypriote turc"><p><l>chypriote<b/>turc</l><r>chypriote<b/>turc<s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="chypriote turc"><p><l>chypriote<b/>turque</l><r>chypriote<b/>turc<s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="chypriote turc"><p><l>chypriotes<b/>turcs</l><r>chypriote<b/>turc<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="chypriote turc"><p><l>chypriotes<b/>turques</l><r>chypriote<b/>turc<s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="châtaigne" a="jaumeortola"><i>châtaigne</i><par n="arrière__adj"/></e>
 <e lm="châtain" a="jaumeortola"><i>châtain</i><par n="abaissant__adj"/></e>
 <e lm="chétif" a="jaumeortola"><i>chéti</i><par n="affirmati/f__adj"/></e>
@@ -14823,6 +14833,7 @@
 <e lm="chimpanzé" a="hector"><i>chimpanzé</i><par n="livre__n"/></e>
 <e lm="chimère"><i>chimère</i><par n="abeille__n"/></e>
 <e lm="chinois"><i>chinois</i><par n="admis__n"/></e>
+<e lm="Tunisois"><i>Tunisois</i><par n="admis__n"/></e>
 <e lm="chinook" a="jaumeortola"><i>chinook</i><par n="livre__n"/></e>
 <e lm="chiot" a="jaumeortola"><i>chiot</i><par n="livre__n"/></e>
 <e lm="chiourme" a="jaumeortola"><i>chiourme</i><par n="artiste__n"/></e>
@@ -14880,6 +14891,14 @@
 <e lm="chute"><i>chute</i><par n="abeille__n"/></e>
 <e lm="chyme" a="jaumeortola"><i>chyme</i><par n="livre__n"/></e>
 <e lm="Chypriote"><i>Chypriote</i><par n="artiste__n"/></e>
+<e lm="Chypriote grec"><p><l>Chypriote<b/>grec</l><r>Chypriote<b/>grec<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="Chypriote grec"><p><l>Chypriote<b/>greque</l><r>Chypriote<b/>grec<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="Chypriote grec"><p><l>Chypriotes<b/>grecs</l><r>Chypriote<b/>grec<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="Chypriote grec"><p><l>Chypriotes<b/>greques</l><r>Chypriote<b/>grec<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="Chypriote turc"><p><l>Chypriote<b/>turc</l><r>Chypriote<b/>turc<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="Chypriote turc"><p><l>Chypriote<b/>turque</l><r>Chypriote<b/>turc<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="Chypriote turc"><p><l>Chypriotes<b/>turcs</l><r>Chypriote<b/>turc<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="Chypriote turc"><p><l>Chypriotes<b/>turques</l><r>Chypriote<b/>turc<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="châle"><i>châle</i><par n="livre__n"/></e>
 <e lm="châssis"><i>châssis</i><par n="mois__n"/></e>
 <e lm="châtaigne"><i>châtaigne</i><par n="abeille__n"/></e>
@@ -18167,7 +18186,11 @@
 <e lm="gérontocratie" a="jaumeortola"><i>gérontocratie</i><par n="abeille__n"/></e>
 <e lm="gésier" a="jaumeortola"><i>gésier</i><par n="livre__n"/></e>
 <e lm="gêne"><i>gêne</i><par n="abeille__n"/></e>
-<e lm="gîte" a="jaumeortola"><i>gîte</i><par n="artiste__n"/></e>
+<e lm="gîte" c="hébergement"><i>gîte</i><par n="livre__n"/></e>
+<e lm="gîte" c="inclinaison d'un navire"><i>gîte</i><par n="abeille__n"/></e>
+<e lm="gîte d'étape"><i>gîte</i><par n="livre__n"/><p><l><b/>d'étape</l><r><g><b/>d'étape</g></r></p></e>
+<e lm="gîte rural"><p><l>gîte<b/>rural</l>   <r>gîte<b/>rural<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="gîte rural"><p><l>gîtes<b/>ruraux</l>  <r>gîte<b/>rural<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="h"><i>h</i><par n="fois__n"/></e>
 <e lm="habanera" a="jaumeortola"><i>habanera</i><par n="abeille__n"/></e>
 <e lm="habileté" a="jaumeortola"><i>habileté</i><par n="abeille__n"/></e>
@@ -21237,7 +21260,8 @@
 <e lm="paléographie" a="jaumeortola"><i>paléographie</i><par n="abeille__n"/></e>
 <e lm="paléolithique"><i>paléolithique</i><par n="livre__n"/></e>
 <e lm="paléontologie" a="jaumeortola"><i>paléontologie</i><par n="abeille__n"/></e>
-<e lm="paléontologiste" a="jaumeortola"><i>paléontologiste</i><par n="artiste__n"/></e>
+<e r="LR" lm="paléontologiste" a="jaumeortola"><i>paléontologiste</i><par n="artiste__n"/></e>
+<e lm="paléontologue"><i>paléontologue</i><par n="artiste__n"/></e>
 <e lm="paléozoïque" a="jaumeortola"><i>paléozoïque</i><par n="livre__n"/></e>
 <e lm="pampa"><i>pampa</i><par n="abeille__n"/></e>
 <e lm="pamphlet"><i>pamphlet</i><par n="livre__n"/></e>
@@ -40677,7 +40701,9 @@
 <e lm="Juste"><i>Juste</i><par n="Saussure__np"/></e>
 <e lm="Justice"><i>Justice</i><par n="Saussure__np"/></e>
 <e lm="Justicia"><i>Justicia</i><par n="Saussure__np"/></e>
+<e lm="Justí"><i>Justí</i><par n="Antoine__np"/></e>
 <e lm="Justin"><i>Justin</i><par n="Antoine__np"/></e>
+<e lm="Justinien"><i>Justinien</i><par n="Antoine__np"/></e>
 <e lm="Justine" a="hector"><i>Justine</i><par n="Marie__np"/></e>
 <e lm="Justiniano"><i>Justiniano</i><par n="Saussure__np"/></e>
 <e lm="Justo"><i>Justo</i><par n="Saussure__np"/></e>
@@ -47925,7 +47951,6 @@
 <e lm="Sarco"><i>Sarco</i><par n="Saussure__np"/></e>
 <e lm="Sarcozy"><i>Sarcozy</i><par n="Saussure__np"/></e>
 <e lm="Sardaigne"><i>Sardaigne</i><par n="Bulgarie__np"/></e>
-<e lm="Sardeigne"><i>Sardeigne</i><par n="Bulgarie__np"/></e>
 <e lm="Sardinero"><i>Sardinero</i><par n="Andorre__np"/></e>
 <e lm="Sardà"><i>Sardà</i><par n="Saussure__np"/></e>
 <e lm="Sardá"><i>Sardá</i><par n="Saussure__np"/></e>
@@ -54089,6 +54114,139 @@
 <e lm="chatouille"><i>chatouille</i><par n="abeille__n"/></e>
 <e lm="chatouillement"><i>chatouillement</i><par n="livre__n"/></e>
 <e lm="comblé"><i>comblé</i><par n="abaissant__adj"/></e>
+    <e lm="kilométrer" a="automatique">        <i>kilom</i><par n="accél/é[R]er__vblex" prm="tr"/></e>
+    <e lm="musquer" a="automatique">        <i>musqu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="parceller" a="automatique">        <i>parcell</i><par n="abaiss/er__vblex"/></e>
+    <e lm="sous-évaluer" a="automatique">        <i>sous-évalu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="séquestrer" a="automatique">        <i>séquestr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="vêler" a="automatique">        <i>vêl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="entraîner" a="automatique">        <i>entraîn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dépêcher" a="automatique">        <i>dépêch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="désosser" a="automatique">        <i>désoss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="effarer" a="automatique">        <i>effar</i><par n="abaiss/er__vblex"/></e>
+    <e lm="emmailloter" a="automatique">        <i>emmaillot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="emmancher" a="automatique">        <i>emmanch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="emmurer" a="automatique">        <i>emmur</i><par n="abaiss/er__vblex"/></e>
+    <e lm="empêtrer" a="automatique">        <i>empêtr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="enfumer" a="automatique">        <i>enfum</i><par n="abaiss/er__vblex"/></e>
+    <e lm="enturbanner" a="automatique">        <i>enturbann</i><par n="abaiss/er__vblex"/></e>
+    <e lm="esquisser" a="automatique">        <i>esquiss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="flatter" a="automatique">        <i>flatt</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fourvoyer" a="automatique">        <i>fourvo</i><par n="côto/yer__vblex"/></e>
+    <e lm="fracasser" a="automatique">        <i>fracass</i><par n="abaiss/er__vblex"/></e>
+    <e lm="froisser" a="automatique">        <i>froiss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="grammaticaliser" a="automatique">        <i>grammaticalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="greffer" a="automatique">        <i>greff</i><par n="abaiss/er__vblex"/></e>
+    <e lm="informatiser" a="automatique">        <i>informatis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="inféoder" a="automatique">        <i>inféod</i><par n="abaiss/er__vblex"/></e>
+    <e lm="jalouser" a="automatique">        <i>jalous</i><par n="abaiss/er__vblex"/></e>
+    <e lm="liguer" a="automatique">        <i>ligu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="maniérer" a="automatique">        <i>mani</i><par n="accél/é[R]er__vblex" prm="r"/></e>
+    <e lm="prostituer" a="automatique">        <i>prostitu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="racler" a="automatique">        <i>racl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rassasier" a="automatique">        <i>rassasi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ravitailler" a="automatique">        <i>ravitaill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="reformer" a="automatique">        <i>reform</i><par n="abaiss/er__vblex"/></e>
+    <e lm="renseigner" a="automatique">        <i>renseign</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rincer" a="automatique">        <i>rin</i><par n="annon/cer__vblex"/></e>
+    <e lm="régaler" a="automatique">        <i>régal</i><par n="abaiss/er__vblex"/></e>
+    <e lm="réinsérer" a="automatique">        <i>réins</i><par n="accél/é[R]er__vblex" prm="r"/></e>
+    <e lm="tabasser" a="automatique">        <i>tabass</i><par n="abaiss/er__vblex"/></e>
+    <e lm="trouer" a="automatique">        <i>trou</i><par n="abaiss/er__vblex"/></e>
+    <e lm="trousser" a="automatique">        <i>trouss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tutoyer" a="automatique">        <i>tuto</i><par n="côto/yer__vblex"/></e>
+    <e lm="échauder" a="automatique">        <i>échaud</i><par n="abaiss/er__vblex"/></e>
+    <e lm="émotionner" a="automatique">        <i>émotionn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="étirer" a="automatique">        <i>étir</i><par n="abaiss/er__vblex"/></e>
+    <e lm="suppléer" a="automatique">        <i>supplé</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tâter" a="automatique">        <i>tât</i><par n="abaiss/er__vblex"/></e>
+    <e lm="badiner" a="automatique">        <i>badin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="agneler" a="automatique">        <i>agn</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="arboriser" a="automatique">        <i>arboris</i><par n="abaiss/er__vblex"/></e>
+    <e lm="archaïser" a="automatique">        <i>archaïs</i><par n="abaiss/er__vblex"/></e>
+    <e lm="artiller" a="automatique">        <i>artill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="assoner" a="automatique">        <i>asson</i><par n="abaiss/er__vblex"/></e>
+    <e lm="babiller" a="automatique">        <i>babill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="barguigner" a="automatique">        <i>barguign</i><par n="abaiss/er__vblex"/></e>
+    <e lm="batifoler" a="automatique">        <i>batifol</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bouffonner" a="automatique">        <i>bouffonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bâiller" a="automatique">        <i>bâill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="caguer" a="automatique">        <i>cagu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="cancaner" a="automatique">        <i>cancan</i><par n="abaiss/er__vblex"/></e>
+    <e lm="chatoyer" a="automatique">        <i>chato</i><par n="côto/yer__vblex"/></e>
+    <e lm="clapoter" a="automatique">        <i>clapot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="commérer" a="automatique">        <i>comm</i><par n="accél/é[R]er__vblex" prm="r"/></e>
+    <e lm="crisser" a="automatique">        <i>criss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="croasser" a="automatique">        <i>croass</i><par n="abaiss/er__vblex"/></e>
+    <e lm="crépiter" a="automatique">        <i>crépit</i><par n="abaiss/er__vblex"/></e>
+    <e lm="culminer" a="automatique">        <i>culmin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="déraper" a="automatique">        <i>dérap</i><par n="abaiss/er__vblex"/></e>
+    <e lm="escarmoucher" a="automatique">        <i>escarmouch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fanfaronner" a="automatique">        <i>fanfaronn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fauconner" a="automatique">        <i>fauconn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fouiner" a="automatique">        <i>fouin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="gambader" a="automatique">        <i>gambad</i><par n="abaiss/er__vblex"/></e>
+    <e lm="glousser" a="automatique">        <i>glouss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="grelotter" a="automatique">        <i>grelott</i><par n="abaiss/er__vblex"/></e>
+    <e lm="grincer" a="automatique">        <i>grin</i><par n="annon/cer__vblex"/></e>
+    <e lm="gîter" a="automatique">        <i>gît</i><par n="abaiss/er__vblex"/></e>
+    <e lm="hyperventiler" a="automatique">        <i>hyperventil</i><par n="abaiss/er__vblex"/></e>
+    <e lm="jeûner" a="automatique">        <i>jeûn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="jouter" a="automatique">        <i>jout</i><par n="abaiss/er__vblex"/></e>
+    <e lm="larmoyer" a="automatique">        <i>larmo</i><par n="côto/yer__vblex"/></e>
+    <e lm="louvoyer" a="automatique">        <i>louvo</i><par n="côto/yer__vblex"/></e>
+    <e lm="minauder" a="automatique">        <i>minaud</i><par n="abaiss/er__vblex"/></e>
+    <e lm="monologuer" a="automatique">        <i>monologu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="papillonner" a="automatique">        <i>papillonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="papoter" a="automatique">        <i>papot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="pulluler" a="automatique">        <i>pullul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ramper" a="automatique">        <i>ramp</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rivaliser" a="automatique">        <i>rivalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ronchonner" a="automatique">        <i>ronchonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ronfler" a="automatique">        <i>ronfl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ronronner" a="automatique">        <i>ronronn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rouspéter" a="automatique">        <i>rousp</i><par n="accél/é[R]er__vblex" prm="t"/></e>
+    <e lm="scintiller" a="automatique">        <i>scintill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="somnoler" a="automatique">        <i>somnol</i><par n="abaiss/er__vblex"/></e>
+    <e lm="stagner" a="automatique">        <i>stagn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="transmigrer" a="automatique">        <i>transmigr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="troller" a="automatique">        <i>troll</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ululer" a="automatique">        <i>ulul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="vaciller" a="automatique">        <i>vacill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="voleter" a="automatique">        <i>vol</i><par n="ach/e[T]er__vblex" prm="t"/></e>
+    <e lm="voltiger" a="automatique">        <i>voltig</i><par n="allong/er__vblex"/></e>
+    <e lm="zigzaguer" a="automatique">        <i>zigzagu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="éternuer" a="automatique">        <i>éternu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="anastomoser" a="automatique">        <i>anastomos</i><par n="abaiss/er__vblex"/></e>
+    <e lm="trotter" a="automatique">        <i>trott</i><par n="abaiss/er__vblex"/></e>
+    <e lm="conjecturer" a="automatique">        <i>conjectur</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bafouiller" a="automatique">        <i>bafouill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bredouiller" a="automatique">        <i>bredouill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="butiner" a="automatique">        <i>butin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bégayer" a="automatique">        <i>béga</i><par n="bala/yer__vblex"/></e>
+    <e lm="chantonner" a="automatique">        <i>chantonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="contre-attaquer" a="automatique">        <i>contre-attaqu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="cravacher" a="automatique">        <i>cravach</i><par n="abaiss/er__vblex"/></e>
+    <e lm="déferler" a="automatique">        <i>déferl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="démanger" a="automatique">        <i>démang</i><par n="allong/er__vblex"/></e>
+    <e lm="dénicher" a="automatique">        <i>dénich</i><par n="abaiss/er__vblex"/></e>
+    <e lm="désenivrer" a="automatique">        <i>désenivr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="expectorer" a="automatique">        <i>expector</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fredonner" a="automatique">        <i>fredonn</i><par n="abaiss/er__vblex"/></e>
+    <e lm="griffer" a="automatique">        <i>griff</i><par n="abaiss/er__vblex"/></e>
+    <e lm="grignoter" a="automatique">        <i>grignot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="hancher" a="automatique">        <i>hanch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="hurler" a="automatique">        <i>hurl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="invectiver" a="automatique">        <i>invectiv</i><par n="abaiss/er__vblex"/></e>
+    <e lm="judaïser" a="automatique">        <i>judaïs</i><par n="abaiss/er__vblex"/></e>
+    <e lm="latiniser" a="automatique">        <i>latinis</i><par n="abaiss/er__vblex"/></e>
+<e lm="chuchotement"><i>chuchotement</i><par n="livre__n"/></e>
+<e lm="Montbéliard"><i>Montbéliard</i><par n="Iran__np"/></e>
+<e lm="Besançon"><i>Besançon</i><par n="Iran__np"/></e>
+<e lm="voltige"><i>voltige</i><par n="livre__n"/></e>
+<e lm="URSS"><i>URSS</i><par n="BBC__n"/></e>
+<e lm="laotien"><i>laotien</i><par n="ancien__adj"/></e>
+<e lm="laotien"><i>laotien</i><par n="ancien__n"/></e>
 
 <!-- xxxx -->
   </section>
