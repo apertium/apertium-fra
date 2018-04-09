@@ -4892,6 +4892,60 @@
   <e>       <p><l>e</l>         <r>re<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="inclu/re__vblex">
+  <e>       <p><l>rions</l>     <r>re<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>rais</l>      <r>re<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>riez</l>      <r>re<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>rais</l>      <r>re<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>raient</l>    <r>re<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>rait</l>      <r>re<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rons</l>      <r>re<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>rai</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rez</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ras</l>       <r>re<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ront</l>      <r>re<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ra</l>        <r>re<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ant</l>       <r>re<s n="vblex"/><s n="ger"/></r></p></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="ifi"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="ifi"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rent</l>      <r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="ifi"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ons</l>       <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ons</l>       <r>re<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
+  <e>       <p><l>ez</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ez</l>        <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
+  <e>       <p><l>re</l>        <r>re<s n="vblex"/><s n="inf"/></r></p></e>
+  <e>       <p><l>ions</l>      <r>re<s n="vblex"/><s n="pii"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ais</l>       <r>re<s n="vblex"/><s n="pii"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iez</l>       <r>re<s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ais</l>       <r>re<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>aient</l>     <r>re<s n="vblex"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ait</l>       <r>re<s n="vblex"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ssions</l>    <r>re<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sse</l>       <r>re<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ssiez</l>     <r>re<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>sses</l>      <r>re<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ssent</l>     <r>re<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ses</l>       <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>se</l>        <r>re<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ons</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ez</l>        <r>re<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>s</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ent</l>       <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>t</l>         <r>re<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ions</l>      <r>re<s n="vblex"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>re<s n="vblex"/><s n="prs"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>iez</l>       <r>re<s n="vblex"/><s n="prs"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>es</l>        <r>re<s n="vblex"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ent</l>       <r>re<s n="vblex"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>e</l>         <r>re<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="ri/re__vblex">
   <e>       <p><l>rions</l>     <r>re<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>rais</l>      <r>re<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -6365,6 +6419,11 @@
 <pardef n="concl/u[]re__vblex">
   <e>       <p><l>û</l>         <r>u</r></p><i><prm/></i><par n="dî/mes__vblex"/></e>
   <e>       <i>u<prm/></i><par n="conclu/re__vblex"/></e>
+</pardef>
+
+<pardef n="incl/u[]re__vblex">
+  <e>       <p><l>û</l>         <r>u</r></p><i><prm/></i><par n="dî/mes__vblex"/></e>
+  <e>       <i>u<prm/></i><par n="inclu/re__vblex"/></e>
 </pardef>
 
 <pardef n="maud/i[]re__vblex">
@@ -54253,9 +54312,9 @@
 <e lm="démordre"><i>démor</i><par n="mou/dre__vblex"/></e>
 <e lm="sous-entendre"><i>sous-entend</i><par n="attend/re__vblex"/></e>
 <e lm="dévêtir"><i>dévêt</i><par n="revêt/ir__vblex"/></e>
-<e lm="inclure"><i>incl</i><par n="concl/u[]re__vblex" prm=""/></e>
-<e lm="occlure"><i>occl</i><par n="concl/u[]re__vblex" prm=""/></e>
-<e lm="reclure"><i>recl</i><par n="concl/u[]re__vblex" prm=""/></e>
+<e lm="inclure"><i>incl</i><par n="incl/u[]re__vblex" prm=""/></e>
+<e lm="occlure"><i>occl</i><par n="incl/u[]re__vblex" prm=""/></e>
+<e lm="reclure"><i>recl</i><par n="incl/u[]re__vblex" prm=""/></e>
 <e lm="redire"><i>red</i><par n="d/i[]re__vblex" prm=""/></e>
 <e lm="aplatir"><i>aplat</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="affermir"><i>afferm</i><par n="about/[]ir__vblex" prm=""/></e>
