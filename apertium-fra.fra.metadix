@@ -8116,8 +8116,8 @@
 <e lm="de Gasteiz"><p><l>de<b/>Gasteiz</l>             <r>de<b/>gasteiz</r></p><par n="arrière__adj"/></e>
 <e r="LR" lm="de guérilleros"><i>de<b/>guérilleros</i><par n="arrière__adj"/></e>
 <e lm="de l'environnement"><i>de<b/>l'environnement</i><par n="arrière__adj"/></e>
-<e lm="de l'État"><p><l>de<b/>l'État</l>               <r>de<b/>l'état</r></p><par n="arrière__adj"/></e>
-<e r="RL" lm="de l'État"><i>de<b/>l'État</i><par n="arrière__adj"/></e>
+<e r="LR" lm="de l'État"><p><l>de<b/>l'état</l>               <r>de<b/>l'État</r></p><par n="arrière__adj"/></e>
+<e lm="de l'État"><i>de<b/>l'État</i><par n="arrière__adj"/></e>
 <e lm="de la bière"><p><l>de<b/>la<b/>bière</l>        <r>de<b/>la<b/>bière</r></p><par n="arrière__adj"/></e>
 <e lm="de la Manche"><p><l>de<b/>la<b/>Manche</l>      <r>de<b/>la<b/>manche</r></p><par n="arrière__adj"/></e>
 <e r="RL" lm="de la Renaissance"><i>de<b/>la<b/>Renaissance</i><par n="arrière__adj"/></e>
@@ -14704,6 +14704,8 @@
 <e lm="centralisme"><i>centralisme</i><par n="livre__n"/></e>
 <e lm="centraliste" a="jaumeortola"><i>centraliste</i><par n="artiste__n"/></e>
 <e lm="centralité" a="jaumeortola"><i>centralité</i><par n="abeille__n"/></e>
+<e lm="centre-ville"><p><l>centre-ville</l>      <r>centre-ville<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="centre-ville"><p><l>centres-villes</l>     <r>centre-ville<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="centre d'accueil"><i>centre</i><par n="livre__n"/><p><l><b/>d'accueil</l><r><g><b/>d'accueil</g></r></p></e>
 <e lm="centre de formation"><i>centre</i><par n="livre__n"/><p><l><b/>de<b/>formation</l><r><g><b/>de<b/>formation</g></r></p></e>
 <e lm="centre des impôts"><i>centre</i><par n="livre__n"/><p><l><b/>des<b/>impôts</l><r><g><b/>des<b/>impôts</g></r></p></e>
@@ -28800,7 +28802,7 @@
 <e lm="bon sens"><p><l>bon<b/>sens</l>                 <r>bon<b/>sens<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="bons sens"><p><l>bons<b/>sens</l>               <r>bon<b/>sens<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="bouton-poussoir"><p><l>bouton-poussoir</l>      <r>bouton-poussoir<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="bouton-poussoir"><p><l>boutons-poussoir</l>     <r>bouton-poussoir<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="bouton-poussoir"><p><l>boutons-poussoirs</l>     <r>bouton-poussoir<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="bulletin d'information"><p><l>bulletin<b/>d'information</l><r>bulletin<b/>d'information<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="bulletin météorologique"><p><l>bulletin<b/>météorologique</l><r>bulletin<b/>météorologique<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="bulletin d'information"><p><l>bulletins<b/>d'information</l><r>bulletin<b/>d'information<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
@@ -30770,18 +30772,18 @@
 <e lm="Amaral"><i>Amaral</i><par n="Saussure__np"/></e>
 <e lm="Amargant"><i>Amargant</i><par n="Saussure__np"/></e>
 <e lm="Amarika"><i>Amarika</i><par n="Abraham__np"/></e>
-<e lm="Amariya"><i>Amariya</i><par n="Andorre__np"/></e>
-<e lm="Amaro"><i>Amaro</i><par n="Abraham__np"/></e>
+<e lm="Amariya"><i>Amariya</i><par n="Bulgarie__np"/></e>
 <e lm="Amaro"><i>Amaro</i><par n="Saussure__np"/></e>
 <e lm="Amaró"><i>Amaró</i><par n="Saussure__np"/></e>
 <e lm="Amat"><i>Amat</i><par n="Carrefour__np"/></e>
 <e lm="Amat"><i>Amat</i><par n="Saussure__np"/></e>
+<e lm="Amades"><i>Amades</i><par n="Saussure__np"/></e>
 <e lm="Amate"><i>Amate</i><par n="Saussure__np"/></e>
 <e lm="Amato"><i>Amato</i><par n="Saussure__np"/></e>
 <e lm="Amatriain"><i>Amatriain</i><par n="Andorre__np"/></e>
 <e lm="Amatza"><i>Amatza</i><par n="Abraham__np"/></e>
 <e lm="Amaury"><i>Amaury</i><par n="Abraham__np"/></e>
-<e lm="Amavisca" c="es un apellido"><i>Amavisca</i><par n="Abraham__np"/></e>
+<e lm="Amavisca"><i>Amavisca</i><par n="Saussure__np"/></e>
 <e lm="Amaya"><i>Amaya</i><par n="Saussure__np"/></e>
 <e lm="Amaya"><i>Amaya</i><par n="Marie__np"/></e>
 <e lm="Amazon"><i>Amazon</i><par n="Linux__np"/></e>
@@ -48742,7 +48744,6 @@
 <e lm="Spano"><i>Spano</i><par n="Saussure__np"/></e>
 <e lm="Spanu"><i>Spanu</i><par n="Saussure__np"/></e>
 <e lm="Sparks"><i>Sparks</i><par n="Saussure__np"/></e>
-<e lm="Sparta"><i>Sparta</i><par n="Andorre__np"/></e>
 <e lm="Spartacus"><i>Spartacus</i><par n="Abraham__np"/></e>
 <e lm="Sparte"><i>Sparte</i><par n="Bulgarie__np"/></e>
 <e lm="Spears"><i>Spears</i><par n="Saussure__np"/></e>
@@ -54384,6 +54385,13 @@
     <e lm="virer" a="automatique">        <i>vir</i><par n="abaiss/er__vblex"/></e>
 <e lm="fleurissement"><i>fleurissement</i><par n="livre__n"/></e>
 <e lm="resserrer"><i>resserr</i><par n="abaiss/er__vblex"/></e>
+<e lm="Spartiate"><i>Spartiate</i><par n="artiste__n"/></e>
+<e lm="spartiate"><i>spartiate</i><par n="académique__adj"/></e>
+<e lm="Lacédémone"><i>Lacédémone</i><par n="Bulgarie__np"/></e>
+<e lm="Lacédémonien"><i>Lacédémonien</i><par n="ancien__n"/></e>
+<e lm="lacédémonien"><i>lacédémonien</i><par n="ancien__adj"/></e>
+<e lm="Laconien"><i>Laconien</i><par n="ancien__n"/></e>
+<e lm="laconien"><i>laconien</i><par n="ancien__adj"/></e>
 
 <!-- xxxx -->
   </section>
