@@ -28918,7 +28918,6 @@
 <e lm="concession administrative"><p><l>concessions<b/>administratives</l><r>concession<b/>administrative<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="conseil municipal"><p><l>conseil<b/>municipal</l><r>conseil<b/>municipal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="conseiller municipal"><p><l>conseiller<b/>municipal</l><r>conseiller<b/>municipal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
-<e lm="conseiller municipal"><p><l>conseillers<b/>municipals</l><r>conseiller<b/>municipal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="conseiller municipal"><p><l>conseillers<b/>municipaux</l><r>conseiller<b/>municipal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="conseiller municipal"><p><l>conseillère<b/>municipale</l><r>conseiller<b/>municipal<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="conseiller municipal"><p><l>conseillères<b/>municipales</l><r>conseiller<b/>municipal<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -29073,7 +29072,7 @@
 <e lm="garde municipal"><p><l>garde<b/>municipal</l>   <r>garde<b/>municipal<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="garde civile"><p><l>gardes<b/>civiles</l>       <r>garde<b/>civile<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="garde forestier"><p><l>gardes<b/>forestiers</l> <r>garde<b/>forestier<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-<e lm="garde municipal"><p><l>gardes<b/>municipals</l> <r>garde<b/>municipal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e lm="garde municipal"><p><l>gardes<b/>municipaux</l> <r>garde<b/>municipal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="grand-duc"><p><l>grand-duc</l>                  <r>grand-duc<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="grand amphithéâtre"><p><l>grand<b/>amphithéâtre</l><r>grand<b/>amphithéâtre<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="grand chemin"><p><l>grand<b/>chemin</l>         <r>grand<b/>chemin<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
