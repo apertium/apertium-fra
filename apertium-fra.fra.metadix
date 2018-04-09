@@ -23049,7 +23049,7 @@
 <e lm="roman"><i>roman</i><par n="livre__n"/></e>
 <e lm="romancier"><i>romanci</i><par n="bouch/er__n"/></e>
 <e lm="Romand"><i>Romand</i><par n="affecté__n"/></e>
-<e lm="romani" a="jaumeortola"><i>romani</i><par n="livre__n"/></e>
+<e lm="romani"><i>romani</i><par n="affecté__n"/></e>
 <e lm="romanisation"><i>romanisation</i><par n="abeille__n"/></e>
 <e lm="romaniste" a="jaumeortola"><i>romaniste</i><par n="artiste__n"/></e>
 <e lm="romantisme"><i>romantisme</i><par n="livre__n"/></e>
@@ -25704,7 +25704,7 @@
 <e lm="être à couteaux tirés"><par n="/être__vblex"/><p><l><b/>à<b/>couteaux<b/>tirés</l><r><g><b/>à<b/>couteaux<b/>tirés</g></r></p></e>
 <e lm="abaisser"><i>abaiss</i><par n="abaiss/er__vblex"/></e>
 <e lm="abandonner"><i>abandonn</i><par n="abaiss/er__vblex"/></e>
-<e lm="abassourdir"><i>abassourd</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="abasourdir"><i>abasourd</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="abattre"><i>abat</i><par n="abat/tre__vblex"/></e>
 <e lm="abdiquer"><i>abdiqu</i><par n="abaiss/er__vblex"/></e>
 <e lm="abjurer"><i>abjur</i><par n="abaiss/er__vblex"/></e>
@@ -25781,6 +25781,7 @@
 <e lm="affaiblir"><p><l>affaibl</l>                    <r>affaibl</r></p><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="affairer"><i>affair</i><par n="abaiss/er__vblex"/></e>
 <e lm="affaisser"><i>affaiss</i><par n="abaiss/er__vblex"/></e>
+<e lm="affermir"><i>afferm</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="affecter"><i>affect</i><par n="abaiss/er__vblex"/></e>
 <e lm="afficher"><i>affich</i><par n="abaiss/er__vblex"/></e>
 <e lm="affilier"><i>affili</i><par n="abaiss/er__vblex"/></e>
@@ -41527,28 +41528,27 @@
 <e lm="Lazo"><i>Lazo</i><par n="Saussure__np"/></e>
 <e lm="Lazore"><i>Lazore</i><par n="Saussure__np"/></e>
 <e lm="Lazure"><i>Lazure</i><par n="Saussure__np"/></e>
-<e lm="Laâyoune"><i>Laâyoune</i><par n="Andorre__np"/></e>
+<e lm="Laâyoune"><i>Laâyoune</i><par n="Iran__np"/></e>
 <e lm="Laínez"><i>Laínez</i><par n="Saussure__np"/></e>
 <e lm="LCD"><i>LCD</i><par n="Carrefour__np"/></e>
-<e lm="Le Alto"><i>Le<b/>Alto</i><par n="Andorre__np"/></e>
+<e lm="Le Alto"><i>Le<b/>Alto</i><par n="Iran__np"/></e>
 <e lm="Le Baldaquin de Saint Pierre"><i>Le<b/>Baldaquin<b/>de<b/>Saint<b/>Pierre</i><par n="Carrefour__np"/></e>
-<e lm="Le Caire"><i>Le<b/>Caire</i><par n="Andorre__np"/></e>
-<e lm="Le Canard enchaîné"><i>Le<b/>Canard<b/>enchaîné</i><par n="Carrefour__np"/></e>
-<e lm="Le Cap"><i>Le<b/>Cap</i><par n="Andorre__np"/></e>
-<e lm="Le Corbusier"><i>Le<b/>Corbusier</i><par n="Saussure__np"/></e>
+<e lm="Le Caire"><i>Le<b/>Caire</i><par n="Iran__np"/></e>
+<e lm="Le Canard enchaîné"><i>Le<b/>Canard<b/>enchaîné</i><par n="Linux__np"/></e>
+<e lm="Le Cap"><i>Le<b/>Cap</i><par n="Iran__np"/></e>
+<e lm="Le Corbusier"><i>Le<b/>Corbusier</i><par n="Antoine__np"/></e>
 <e lm="Le Cuirassé Potemkine"><i>Le<b/>Cuirassé<b/>Potemkine</i><par n="Carrefour__np"/></e>
 <e lm="Le dictateur"><i>Le<b/>dictateur</i><par n="Carrefour__np"/></e>
 <e lm="le gouvernement"><i>le<b/>gouvernement</i><par n="Carrefour__np"/></e>
 <e lm="Le Manifeste du parti communiste"><i>Le<b/>Manifeste<b/>du<b/>parti<b/>communiste</i><par n="Carrefour__np"/></e>
-<e lm="Le Mans"><i>Le<b/>Mans</i><par n="Andorre__np"/></e>
-<e lm="Le Monde"><i>Le<b/>Monde</i><par n="Carrefour__np"/></e>
+<e lm="Le Mans"><i>Le<b/>Mans</i><par n="Iran__np"/></e>
 <e lm="Le Monde"><i>Le<b/>Monde</i><par n="Linux__np"/></e>
 <e lm="Le Pen"><i>Le<b/>Pen</i><par n="Saussure__np"/></e>
 <e lm="Le Pensec"><i>Le<b/>Pensec</i><par n="Saussure__np"/></e>
-<e lm="Le Pirée"><i>Le<b/>Pirée</i><par n="Andorre__np"/></e>
+<e lm="Le Pirée"><i>Le<b/>Pirée</i><par n="Iran__np"/></e>
 <e lm="Le Politique"><i>Le<b/>Politique</i><par n="Carrefour__np"/></e>
-<e lm="Le Puy-en-Velay"><i>Le<b/>Puy-en-Velay</i><par n="Andorre__np"/></e>
-<e lm="Le Soir"><i>Le<b/>Soir</i><par n="Carrefour__np"/></e>
+<e lm="Le Puy-en-Velay"><i>Le<b/>Puy-en-Velay</i><par n="Iran__np"/></e>
+<e lm="Le Soir"><i>Le<b/>Soir</i><par n="Linux__np"/></e>
 <e lm="Le Vert"><i>Le<b/>Vert</i><par n="Abraham__np"/></e>
 <e lm="Leach"><i>Leach</i><par n="Saussure__np"/></e>
 <e lm="Leahy"><i>Leahy</i><par n="Saussure__np"/></e>
@@ -41845,8 +41845,10 @@
 <e lm="LimeWire"><i>LimeWire</i><par n="Linux__np"/></e>
 <e lm="Limiñana"><i>Limiñana</i><par n="Saussure__np"/></e>
 <e lm="Limoges" a="hector"><i>Limoges</i><par n="Saussure__np"/></e>
+<e lm="Limoges" a="hector"><i>Limoges</i><par n="Bulgarie__np"/></e>
+<e lm="Clermont-Ferrand" a="hector"><i>Clermont-Ferrand</i><par n="Iran__np"/></e>
 <e lm="Limones"><i>Limones</i><par n="Saussure__np"/></e>
-<e lm="Limousin"><i>Limousin</i><par n="Andorre__np"/></e>
+<e lm="Limousin"><i>Limousin</i><par n="Iran__np"/></e>
 <e lm="Limpopo"><i>Limpopo</i><par n="Iran__np"/></e>
 <e lm="Limón"><i>Limón</i><par n="Saussure__np"/></e>
 <e lm="Lin"><i>Lin</i><par n="Saussure__np"/></e>
@@ -46304,16 +46306,15 @@
 <e lm="Proteau"><i>Proteau</i><par n="Saussure__np"/></e>
 <e lm="Proudhon"><i>Proudhon</i><par n="Saussure__np"/></e>
 <e lm="Proulx" a="hector"><i>Proulx</i><par n="Saussure__np"/></e>
-<e lm="Proust"><i>Proust</i><par n="Abraham__np"/></e>
 <e lm="Proust"><i>Proust</i><par n="Saussure__np"/></e>
 <e lm="Provence"><i>Provence</i><par n="Bulgarie__np"/></e>
 <e lm="Provence-Alpes-Côte d'Azur"><i>Provence-Alpes-Côte<b/>d'Azur</i><par n="Andorre__np"/></e>
 <e lm="Provencher" a="hector"><i>Provencher</i><par n="Saussure__np"/></e>
 <e lm="Provençal"><i>Provençal</i><par n="Saussure__np"/></e>
-<e lm="Province du Cap"><i>Province<b/>du<b/>Cap</i><par n="Andorre__np"/></e>
-<e lm="Provinces-Unies"><i>Provinces-Unies</i><par n="Andorre__np"/></e>
-<e lm="Provinces-Unies du Rio de la Plata"><i>Provinces-Unies<b/>du<b/>Rio<b/>de<b/>la<b/>Plata</i><par n="Carrefour__np"/></e>
-<e lm="Provinces Illyriennes"><i>Provinces<b/>Illyriennes</i><par n="Andorre__np"/></e>
+<e lm="Province du Cap"><i>Province<b/>du<b/>Cap</i><par n="Iran__np"/></e>
+<e lm="Provinces-Unies"><i>Provinces-Unies</i><par n="Bahamas__np"/></e>
+<e lm="Provinces-Unies du Rio de la Plata"><i>Provinces-Unies<b/>du<b/>Rio<b/>de<b/>la<b/>Plata</i><par n="Bahamas__np"/></e>
+<e lm="Provinces Illyriennes"><i>Provinces<b/>Illyriennes</i><par n="Bahamas__np"/></e>
 <e lm="Provost" a="hector"><i>Provost</i><par n="Saussure__np"/></e>
 <e lm="Prozac"><i>Prozac</i><par n="Carrefour__np"/></e>
 <e lm="Prudence"><i>Prudence</i><par n="Marie__np"/></e>
@@ -54247,6 +54248,83 @@
 <e lm="URSS"><i>URSS</i><par n="BBC__n"/></e>
 <e lm="laotien"><i>laotien</i><par n="ancien__adj"/></e>
 <e lm="laotien"><i>laotien</i><par n="ancien__n"/></e>
+<e lm="entremettre"><i>entrem</i><par n="adm/ettre__vblex"/></e>
+<e lm="réadmettre"><i>réadm</i><par n="adm/ettre__vblex"/></e>
+<e lm="démordre"><i>démor</i><par n="mou/dre__vblex"/></e>
+<e lm="sous-entendre"><i>sous-entend</i><par n="attend/re__vblex"/></e>
+<e lm="dévêtir"><i>dévêt</i><par n="revêt/ir__vblex"/></e>
+<e lm="inclure"><i>incl</i><par n="concl/u[]re__vblex" prm=""/></e>
+<e lm="occlure"><i>occl</i><par n="concl/u[]re__vblex" prm=""/></e>
+<e lm="reclure"><i>recl</i><par n="concl/u[]re__vblex" prm=""/></e>
+<e lm="redire"><i>red</i><par n="d/i[]re__vblex" prm=""/></e>
+<e lm="aplatir"><i>aplat</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="affermir"><i>afferm</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="amollir"><i>amoll</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="assouplir"><i>assoupl</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="dégourdir"><i>dégourd</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="nantir"><i>nant</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="prémunir"><i>prémun</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="vrombir"><i>vromb</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="amerrir"><i>amerr</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="bleuir"><i>bleu</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="gémir"><i>gém</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="pâlir"><i>pâl</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="aigrir"><i>aigr</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="tarir"><i>tar</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="déguerpir"><i>déguerpir</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="repentir"><i>repent</i><par n="about/[]ir__vblex" prm=""/></e>
+    <e lm="parquer" a="automatique">        <i>parqu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="piler" a="automatique">        <i>pil</i><par n="abaiss/er__vblex"/></e>
+    <e lm="pisser" a="automatique">        <i>piss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="prophétiser" a="automatique">        <i>prophétis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="puiser" a="automatique">        <i>puis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="renifler" a="automatique">        <i>renifl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rimer" a="automatique">        <i>rim</i><par n="abaiss/er__vblex"/></e>
+    <e lm="rissoler" a="automatique">        <i>rissol</i><par n="abaiss/er__vblex"/></e>
+    <e lm="roucouler" a="automatique">        <i>roucoul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="soupirer" a="automatique">        <i>soupir</i><par n="abaiss/er__vblex"/></e>
+    <e lm="sublimer" a="automatique">        <i>sublim</i><par n="abaiss/er__vblex"/></e>
+    <e lm="suinter" a="automatique">        <i>suint</i><par n="abaiss/er__vblex"/></e>
+    <e lm="susurrer" a="automatique">        <i>susurr</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tambouriner" a="automatique">        <i>tambourin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="temporiser" a="automatique">        <i>temporis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="transhumer" a="automatique">        <i>transhum</i><par n="abaiss/er__vblex"/></e>
+    <e lm="transpirer" a="automatique">        <i>transpir</i><par n="abaiss/er__vblex"/></e>
+    <e lm="téter" a="automatique">        <i>t</i><par n="accél/é[R]er__vblex" prm="t"/></e>
+    <e lm="vanner" a="automatique">        <i>vann</i><par n="abaiss/er__vblex"/></e>
+    <e lm="vicier" a="automatique">        <i>vici</i><par n="abaiss/er__vblex"/></e>
+    <e lm="édifier" a="automatique">        <i>édifi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="activer" a="automatique">        <i>activ</i><par n="abaiss/er__vblex"/></e>
+    <e lm="brailler" a="automatique">        <i>braill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="bruler" a="automatique">        <i>brul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="caraméliser" a="automatique">        <i>caramélis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="crever" a="automatique">        <i>cr</i><par n="ach/e[T]er__vblex" prm="v"/></e>
+    <e lm="déchausser" a="automatique">        <i>déchauss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dégeler" a="automatique">        <i>dég</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="dégeler" a="automatique">        <i>dég</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="dérouiller" a="automatique">        <i>dérouill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="enfler" a="automatique">        <i>enfl</i><par n="abaiss/er__vblex"/></e>
+    <e lm="engraisser" a="automatique">        <i>engraiss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="helléniser" a="automatique">        <i>hellénis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="lamenter" a="automatique">        <i>lament</i><par n="abaiss/er__vblex"/></e>
+    <e lm="limer" a="automatique">        <i>lim</i><par n="abaiss/er__vblex"/></e>
+    <e lm="moucher" a="automatique">        <i>mouch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="nouer" a="automatique">        <i>nou</i><par n="abaiss/er__vblex"/></e>
+    <e lm="orthographier" a="automatique">        <i>orthographi</i><par n="abaiss/er__vblex"/></e>
+    <e lm="peler" a="automatique">        <i>p</i><par n="ach/e[T]er__vblex" prm="l"/></e>
+    <e lm="pincer" a="automatique">        <i>pin</i><par n="annon/cer__vblex"/></e>
+    <e lm="rapetisser" a="automatique">        <i>rapetiss</i><par n="abaiss/er__vblex"/></e>
+    <e lm="remuer" a="automatique">        <i>remu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="scandaliser" a="automatique">        <i>scandalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="trainer" a="automatique">        <i>train</i><par n="abaiss/er__vblex"/></e>
+    <e lm="égoutter" a="automatique">        <i>égoutt</i><par n="abaiss/er__vblex"/></e>
+    <e lm="accoucher" a="automatique">        <i>accouch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="comploter" a="automatique">        <i>complot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="couter" a="automatique">        <i>cout</i><par n="abaiss/er__vblex"/></e>
+    <e lm="tinter" a="automatique">        <i>tint</i><par n="abaiss/er__vblex"/></e>
+    <e lm="virer" a="automatique">        <i>vir</i><par n="abaiss/er__vblex"/></e>
+<e lm="fleurissement"><i>fleurissement</i><par n="livre__n"/></e>
+<e lm="resserrer"><i>resserr</i><par n="abaiss/er__vblex"/></e>
 
 <!-- xxxx -->
   </section>
