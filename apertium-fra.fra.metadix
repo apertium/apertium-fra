@@ -128,8 +128,8 @@
   <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>-soi</l>      <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-  <e>       <p><l>-les</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-les</l>      <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
