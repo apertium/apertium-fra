@@ -7714,6 +7714,7 @@
 <e lm="calculable"><i>calculable</i><par n="académique__adj"/></e>
 <e lm="calculateur"><i>calculat</i><par n="conduct/eur__adj"/></e>
 <e lm="californien"><i>californien</i><par n="ancien__adj"/></e>
+<e lm="Californien"><i>Californien</i><par n="ancien__n"/></e>
 <e lm="calligraphique" a="jaumeortola"><i>calligraphique</i><par n="académique__adj"/></e>
 <e lm="calmant" a="jaumeortola"><i>calmant</i><par n="abaissant__adj"/></e>
 <e lm="calme"><i>calme</i><par n="académique__adj"/></e>
@@ -7723,7 +7724,7 @@
 <e lm="cambrien" a="jaumeortola"><i>cambrien</i><par n="ancien__adj"/></e>
 <e lm="camerounais"><i>camerounais</i><par n="anglais__adj"/></e>
 <e lm="canadien"><i>canadien</i><par n="ancien__adj"/></e>
-<e lm="Canarien"><i>Canarien</i><par n="ancien__adj"/></e>
+<e lm="Canarien"><i>Canarien</i><par n="ancien__n"/></e>
 <e lm="canarien"><i>canarien</i><par n="ancien__adj"/></e>
 <e lm="cancéreux"><i>cancéreu</i><par n="affectueu/x__adj"/></e>
 <e lm="candide" a="jaumeortola"><i>candide</i><par n="académique__adj"/></e>
@@ -33989,8 +33990,8 @@
 <e lm="Cairns"><i>Cairns</i><par n="Saussure__np"/></e>
 <e lm="Cairó"><i>Cairó</i><par n="Saussure__np"/></e>
 <e lm="Caisse"><i>Caisse</i><par n="Saussure__np"/></e>
-<e lm="Caisse d'Éparge de Saint-Sébastien"><i>Caisse<b/>d'Éparge<b/>de<b/>Saint-Sébastien</i><par n="Carrefour__np"/></e>
-<e lm="caisse d'épargne"><i>caisse<b/>d'épargne</i><par n="Carrefour__np"/></e>
+<e lm="Caisse d'Épargne de Saint-Sébastien"><i>Caisse<b/>d'Épargne<b/>de<b/>Saint-Sébastien</i><par n="Carrefour__np"/></e>
+<e lm="caisse d'épargne"><i>caisse</i><par n="abeille__n"/><p><l><b/>d'épargne</l><r><g><b/>d'épargne</g></r></p></e>
 <e lm="Caissy" a="hector"><i>Caissy</i><par n="Saussure__np"/></e>
 <e lm="Caixa"><i>Caixa</i><par n="Carrefour__np"/></e>
 <e lm="Caixa Catalunya"><i>Caixa<b/>Catalunya</i><par n="Wikipedia__np"/></e>
@@ -58267,6 +58268,12 @@
 <e lm="grand-place"><i>grand-place</i><par n="abeille__n"/></e>
 <e r="LR" lm="grand-rue">   <p><l>grands-rues</l><r>grand-rue<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e r="LR" lm="grand-place">   <p><l>grands-places</l><r>grand-place<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+<e lm="cantrarice"><i>cantrarice</i><par n="abeille__n"/></e>
+<e lm="patois"><i>patois</i><par n="mois__n"/></e>
+<e lm="patoisant"><i>patoisant</i><par n="abaissant__adj"/></e>
+<e lm="patoisant"><i>patoisant</i><par n="affecté__n"/></e>
+<e lm="bretonnant"><i>bretonnant</i><par n="abaissant__adj"/></e>
+<e lm="bretonnant"><i>bretonnant</i><par n="affecté__n"/></e>
 
 
 <!-- xxxx -->
