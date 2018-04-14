@@ -38829,12 +38829,13 @@
 <e lm="Gerber"><i>Gerber</i><par n="Saussure__np"/></e>
 <e lm="Gere"><i>Gere</i><par n="Antoine__np"/></e>
 <e lm="Gerediaga"><i>Gerediaga</i><par n="Carrefour__np"/></e>
-<e lm="Geremek"><i>Geremek</i><par n="Abraham__np"/></e>
-<e lm="Gerhard"><i>Gerhard</i><par n="Abraham__np"/></e>
+<e lm="Geremek"><i>Geremek</i><par n="Saussure__np"/></e>
+<e lm="Gerhard"><i>Gerhard</i><par n="Saussure__np"/></e>
 <e lm="Geriasa"><i>Geriasa</i><par n="Carrefour__np"/></e>
 <e lm="Gerinlajoie"><i>Gerinlajoie</i><par n="Saussure__np"/></e>
 <e lm="Germain" a="hector"><i>Germain</i><par n="Saussure__np"/></e>
-<e lm="Germanie"><i>Germanie</i><par n="Andorre__np"/></e>
+<e lm="Germain" a="hector"><i>Germain</i><par n="Antoine__np"/></e>
+<e lm="Germanie"><i>Germanie</i><par n="Bulgarie__np"/></e>
 <e lm="Germà"><i>Germà</i><par n="Antoine__np"/></e>
 <e lm="Germà Bernàcer"><i>Germà<b/>Bernàcer</i><par n="Antoine__np"/></e>
 <e lm="Germán"><i>Germán</i><par n="Saussure__np"/></e>
@@ -38844,11 +38845,10 @@
 <e lm="Geroa"><i>Geroa</i><par n="Carrefour__np"/></e>
 <e lm="Gerokon"><i>Gerokon</i><par n="Carrefour__np"/></e>
 <e lm="Gerolsteiner"><i>Gerolsteiner</i><par n="Carrefour__np"/></e>
-<e lm="Gerry"><i>Gerry</i><par n="Abraham__np"/></e>
 <e lm="Gerry"><i>Gerry</i><par n="Antoine__np"/></e>
-<e lm="Gerry Adams"><i>Gerry<b/>Adams</i><par n="Abraham__np"/></e>
-<e lm="Gerry Mc Cann"><i>Gerry<b/>Mc<b/>Cann</i><par n="Abraham__np"/></e>
-<e lm="Gers"><i>Gers</i><par n="Andorre__np"/></e>
+<e lm="Gerry Adams"><i>Gerry<b/>Adams</i><par n="Antoine__np"/></e>
+<e lm="Gerry Mc Cann"><i>Gerry<b/>Mc<b/>Cann</i><par n="Antoine__np"/></e>
+<e lm="Gers"><i>Gers</i><par n="Antoine__np"/></e>
 <e lm="Gershwin"><i>Gershwin</i><par n="Saussure__np"/></e>
 <e lm="Gervais" a="hector"><i>Gervais</i><par n="Saussure__np"/></e>
 <e lm="Gervasi"><i>Gervasi</i><par n="Saussure__np"/></e>
@@ -53434,7 +53434,6 @@
 <e lm="sur le point de"><i>sur<b/>le<b/>point<b/></i><par n="contde__pr"/></e>
 <e lm="sur proposition de"><i>sur<b/>proposition<b/></i><par n="contde__pr"/></e>
 <e lm="tant qu'à"><i>tant<b/>qu'à</i><par n="attendu__pr"/></e>
-<e lm="tourner en faveur de"><i>tourner<b/>en<b/>faveur<b/></i><par n="contde__pr"/></e>
 <e lm="tout au long de"><i>tout<b/>au<b/>long<b/></i><par n="contde__pr"/></e>
 <e lm="un petit peu de"><i>un<b/>petit<b/>peu<b/></i><par n="contde__pr"/></e>
 <e lm="un petit peu moins de"><i>un<b/>petit<b/>peu<b/>moins<b/></i><par n="contde__pr"/></e>
@@ -53495,7 +53494,6 @@
 <e lm="au cas où"><i>au<b/>cas<b/>où</i><par n="alors__cnjadv"/></e>
 <e lm="au fur et à mesure que"><i>au<b/>fur<b/>et<b/>à<b/>mesure<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="au lieu que"><i>au<b/>lieu<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="au maximum"><i>au<b/>maximum</i><par n="alors__cnjadv"/></e>
 <e lm="au moment que"><i>au<b/>moment<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="au moment où"><i>au<b/>moment<b/>où</i><par n="alors__cnjadv"/></e>
 <e lm="au même titre que"><i>au<b/>même<b/>titre<b/></i><par n="afin_/que__cnjadv"/></e>
@@ -53506,7 +53504,7 @@
 <e lm="aussi longtemps que"><i>aussi<b/>longtemps<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="aussitôt que"><i>aussitôt<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="autrement dit"><i>autrement<b/>dit</i><par n="alors__cnjadv"/></e>
-<e lm="aux effets pertinents"><i>aux<b/>effets<b/>pertinents</i><par n="alors__cnjadv"/></e>
+<e lm="aux effets pertinents"><i>aux<b/>effets<b/>pertinents</i><par n="hier__adv"/></e>
 <e lm="avant que"><i>avant<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="bien que"><i>bien<b/></i><par n="afin_/que__cnjadv"/></e>
 <e r="RL" lm="c'est-à-dire que"><p><l>c'est-à-dire<b/><a/>que</l><r>c'est-à-dire<b/>que</r></p><par n="alors__cnjadv"/></e>
@@ -53520,15 +53518,13 @@
 <e lm="ce n'est pas pourquoi"><i>ce<b/>n'est<b/>pas<b/>pourquoi</i><par n="alors__cnjadv"/></e>
 <e lm="cependant"><i>cependant</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="cependant"><i>cependant</i><par n="alors__cnjadv"/></e>
-<e lm="chaque fois"><i>chaque<b/>fois</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="chaque fois que"><p><l>chaque<b/>fois<b/><a/>que</l><r>chaque<b/>fois<b/>que</r></p><par n="alors__cnjadv"/></e>
-<e lm="chaque fois moins"><i>chaque<b/>fois<b/>moins</i><par n="alors__cnjadv"/></e>
-<e lm="chaque fois plus"><i>chaque<b/>fois<b/>plus</i><par n="alors__cnjadv"/></e>
+<e lm="chaque fois moins"><i>chaque<b/>fois<b/>moins</i><par n="hier__adv"/></e>
+<e lm="chaque fois plus"><i>chaque<b/>fois<b/>plus</i><par n="hier__adv"/></e>
 <e r="LR" lm="chaque fois que"><i>chaque<b/>fois<b/>que</i><par n="alors__cnjadv"/></e>
 <e lm="comme"><i>comme</i><par n="alors__cnjadv"/></e>
 <e lm="comme au temps où"><i>comme<b/>au<b/>temps<b/>où</i><par n="alors__cnjadv"/></e>
 <e lm="comme si"><i>comme<b/>si</i><par n="alors__cnjadv"/></e>
-<e lm="d'après"><i>d'après</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="d'aussi loin que"><p><l>d'aussi<b/>loin<b/><a/>que</l><r>d'aussi<b/>loin<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="d'aussi loin que"><i>d'aussi<b/>loin<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="d'autant que"><p><l>d'autant<b/><a/>que</l><r>d'autant<b/>que</r></p><par n="alors__cnjadv"/></e>
@@ -53538,7 +53534,6 @@
 <e r="LR" lm="d'autant que"><i>d'autant<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="d'ici que"><p><l>d'ici<b/><a/>que</l>    <r>d'ici<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="d'ici que"><i>d'ici<b/>que</i><par n="alors__cnjadv"/></e>
-<e lm="d'un côté"><i>d'un<b/>côté</i><par n="alors__cnjadv"/></e>
 <e lm="dans la mesure où"><i>dans<b/>la<b/>mesure<b/>où</i><par n="alors__cnjadv"/></e>
 <e lm="dans le cas où"><i>dans<b/>le<b/>cas<b/>où</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="dans le temps que"><p><l>dans<b/>le<b/>temps<b/><a/>que</l><r>dans<b/>le<b/>temps<b/>que</r></p><par n="alors__cnjadv"/></e>
@@ -53547,24 +53542,24 @@
 <e r="LR" lm="de crainte que"><i>de<b/>crainte<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="de façon que"><p><l>de<b/>façon<b/><a/>que</l><r>de<b/>façon<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="de façon que"><i>de<b/>façon<b/>que</i><par n="alors__cnjadv"/></e>
-<e lm="de là"><i>de<b/>là</i><par n="alors__cnjadv"/></e>
+<e lm="de là"><i>de<b/>là</i><par n="hier__adv"/></e>
 <e r="RL" lm="de manière que"><p><l>de<b/>manière<b/><a/>que</l><r>de<b/>manière<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="de manière que"><i>de<b/>manière<b/>que</i><par n="alors__cnjadv"/></e>
-<e lm="de mieux en mieux"><i>de<b/>mieux<b/>en<b/>mieux</i><par n="alors__cnjadv"/></e>
+<e lm="de mieux en mieux"><i>de<b/>mieux<b/>en<b/>mieux</i><par n="hier__adv"/></e>
 <e lm="de moins en moins"><i>de<b/>moins<b/>en<b/>moins</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="de même que"><p><l>de<b/>même<b/><a/>que</l><r>de<b/>même<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="de même que"><i>de<b/>même<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="de peur que"><p><l>de<b/>peur<b/><a/>que</l><r>de<b/>peur<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="de peur que"><i>de<b/>peur<b/>que</i><par n="alors__cnjadv"/></e>
-<e lm="de pire en pire"><i>de<b/>pire<b/>en<b/>pire</i><par n="alors__cnjadv"/></e>
-<e lm="de plus en plus"><i>de<b/>plus<b/>en<b/>plus</i><par n="alors__cnjadv"/></e>
+<e lm="de pire en pire"><i>de<b/>pire<b/>en<b/>pire</i><par n="hier__adv"/></e>
+<e lm="de plus en plus"><i>de<b/>plus<b/>en<b/>plus</i><par n="hier__adv"/></e>
 <e r="RL" lm="de telle façon que"><p><l>de<b/>telle<b/>façon<b/><a/>que</l><r>de<b/>telle<b/>façon<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="de telle façon que"><i>de<b/>telle<b/>façon<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="de telle sorte que"><p><l>de<b/>telle<b/>sorte<b/><a/>que</l><r>de<b/>telle<b/>sorte<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="de telle sorte que"><i>de<b/>telle<b/>sorte<b/>que</i><par n="alors__cnjadv"/></e>
 <e lm="donc"><i>donc</i><par n="alors__cnjadv"/></e>
 <e lm="dont acte"><i>dont<b/>acte</i><par n="alors__cnjadv"/></e>
-<e lm="du coup"><i>du<b/>coup</i><par n="alors__cnjadv"/></e>
+<e lm="du coup"><i>du<b/>coup</i><par n="hier__adv"/></e>
 <e r="RL" lm="du fait que"><p><l>du<b/>fait<b/><a/>que</l><r>du<b/>fait<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="du fait que"><i>du<b/>fait<b/>que</i><par n="alors__cnjadv"/></e>
 <e lm="du moment où"><i>du<b/>moment<b/>où</i><par n="alors__cnjadv"/></e>
@@ -53575,7 +53570,7 @@
 <e r="RL" lm="dès lors que"><p><l>dès<b/>lors<b/><a/>que</l><r>dès<b/>lors<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="dès lors que"><i>dès<b/>lors<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="dès que"><i>dès<b/>que</i><par n="alors__cnjadv"/></e>
-<e lm="dûment vérifié"><i>dûment<b/>vérifié</i><par n="alors__cnjadv"/></e>
+<e lm="dûment vérifié"><i>dûment<b/>vérifié</i><par n="hier__adv"/></e>
 <e r="RL" lm="en admettant que"><p><l>en<b/>admettant<b/><a/>que</l><r>en<b/>admettant<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="en admettant que"><i>en<b/>admettant<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="en attendant que"><p><l>en<b/>attendant<b/><a/>que</l><r>en<b/>attendant<b/>que</r></p><par n="alors__cnjadv"/></e>
@@ -53583,7 +53578,7 @@
 <e r="RL" lm="en cas que"><p><l>en<b/>cas<b/><a/>que</l><r>en<b/>cas<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="en cas que"><i>en<b/>cas<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="en d'autres termes"><i>en<b/>d'autres<b/>termes</i><par n="alors__cnjadv"/></e>
-<e lm="en double exemplaire"><i>en<b/>double<b/>exemplaire</i><par n="alors__cnjadv"/></e>
+<e lm="en double exemplaire"><i>en<b/>double<b/>exemplaire</i><par n="hier__adv"/></e>
 <e r="RL" lm="en même temps que"><p><l>en<b/>même<b/>temps<b/><a/>que</l><r>en<b/>même<b/>temps<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="en même temps que"><i>en<b/>même<b/>temps<b/>que</i><par n="alors__cnjadv"/></e>
 <e lm="en n'ayant pas d'autres sujets à traiter"><i>en<b/>n'ayant<b/>pas<b/>d'autres<b/>sujets<b/>à<b/>traiter</i><par n="alors__cnjadv"/></e>
@@ -53591,25 +53586,25 @@
 <e r="LR" lm="en supposant que"><i>en<b/>supposant<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="en tant que"><p><l>en<b/>tant<b/><a/>que</l><r>en<b/>tant<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="en tant que"><i>en<b/>tant<b/>que</i><par n="alors__cnjadv"/></e>
-<e lm="en triple exemplaire"><i>en<b/>triple<b/>exemplaire</i><par n="alors__cnjadv"/></e>
+<e lm="en triple exemplaire"><i>en<b/>triple<b/>exemplaire</i><par n="hier__adv"/></e>
 <e r="RL" lm="encore que"><p><l>encore<b/><a/>que</l>  <r>encore<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="RL" lm="encore heureux que"><p><l>encore<b/>heureux<b/><a/>que</l><r>encore<b/>heureux<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="encore heureux que"><i>encore<b/>heureux<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="encore que"><i>encore<b/>que</i><par n="alors__cnjadv"/></e>
-<e lm="et caetera"><i>et<b/>caetera</i><par n="alors__cnjadv"/></e>
-<e lm="et cetera"><i>et<b/>cetera</i><par n="alors__cnjadv"/></e>
+<e lm="et caetera"><i>et<b/>caetera</i><par n="hier__adv"/></e>
+<e lm="et cetera"><i>et<b/>cetera</i><par n="hier__adv"/></e>
 <e lm="excepté que"><i>excepté<b/></i><par n="afin_/que__cnjadv"/></e>
 <e r="RL" lm="heureusement que"><p><l>heureusement<b/><a/>que</l><r>heureusement<b/>que</r></p><par n="alors__cnjadv"/></e>
 <e r="LR" lm="heureusement que"><i>heureusement<b/>que</i><par n="alors__cnjadv"/></e>
 <e lm="hormis que"><i>hormis<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="hors délai"><i>hors<b/>délai</i><par n="alors__cnjadv"/></e>
+<e lm="hors délai"><i>hors<b/>délai</i><par n="hier__adv"/></e>
 <e lm="il y a non-lieu"><i>il<b/>y<b/>a<b/>non-lieu</i><par n="alors__cnjadv"/></e>
-<e lm="in situ"><i>in<b/>situ</i><par n="alors__cnjadv"/></e>
-<e lm="jusqu'à aujourd'hui"><i>jusqu'à<b/>aujourd'hui</i><par n="alors__cnjadv"/></e>
+<e lm="in situ"><i>in<b/>situ</i><par n="hier__adv"/></e>
+<e lm="jusqu'à aujourd'hui"><i>jusqu'à<b/>aujourd'hui</i><par n="hier__adv"/></e>
 <e r="RL" lm="jusqu'à ce que"><p><l>jusqu'à<b/>ce<b/><a/>que</l><r>jusqu'à<b/>ce<b/>que</r></p><par n="alors__cnjadv"/></e>
-<e lm="jusqu'à nouvel ordre"><i>jusqu'à<b/>nouvel<b/>ordre</i><par n="alors__cnjadv"/></e>
-<e lm="le jour de la date"><i>le<b/>jour<b/>de<b/>la<b/>date</i><par n="alors__cnjadv"/></e>
-<e lm="le soussigné"><i>le<b/>soussigné</i><par n="alors__cnjadv"/></e>
+<e lm="jusqu'à nouvel ordre"><i>jusqu'à<b/>nouvel<b/>ordre</i><par n="hier__adv"/></e>
+<e lm="le jour de la date"><i>le<b/>jour<b/>de<b/>la<b/>date</i><par n="hier__adv"/></e>
+<e lm="le soussigné"><i>le<b/>soussigné</i><par n="personnel__n"/></e>
 <e r="LR" lm="lors même que"><i>lors<b/>même<b/>que</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="lorsque"><i>lorsque</i><par n="alors__cnjadv"/></e>
 <e lm="maintenant que"><i>maintenant<b/></i><par n="afin_/que__cnjadv"/></e>
@@ -53623,33 +53618,33 @@
 <e lm="on peut signaler"><i>on<b/>peut<b/>signaler</i><par n="alors__cnjadv"/></e>
 <e lm="or"><i>or</i><par n="alors__cnjadv"/></e>
 <e lm="par conséquent"><i>par<b/>conséquent</i><par n="alors__cnjadv"/></e>
-<e lm="par exploit d'huissier"><i>par<b/>exploit<b/>d'huissier</i><par n="alors__cnjadv"/></e>
-<e lm="par la présente"><i>par<b/>la<b/>présente</i><par n="alors__cnjadv"/></e>
+<e lm="par exploit d'huissier"><i>par<b/>exploit<b/>d'huissier</i><par n="hier__adv"/></e>
+<e lm="par la présente"><i>par<b/>la<b/>présente</i><par n="hier__adv"/></e>
 <e lm="par le cas où"><i>par<b/>le<b/>cas<b/>où</i><par n="alors__cnjadv"/></e>
-<e lm="par majorité absolue"><i>par<b/>majorité<b/>absolue</i><par n="alors__cnjadv"/></e>
-<e lm="par ordre alphabétique"><i>par<b/>ordre<b/>alphabétique</i><par n="alors__cnjadv"/></e>
+<e lm="par majorité absolue"><i>par<b/>majorité<b/>absolue</i><par n="hier__adv"/></e>
+<e lm="par ordre alphabétique"><i>par<b/>ordre<b/>alphabétique</i><par n="hier__adv"/></e>
 <e lm="parce que"><i>parce<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="pendant que"><i>pendant<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="pendant ce temps"><i>pendant<b/>ce<b/>temps</i><par n="alors__cnjadv"/></e>
-<e lm="plus vite"><i>plus<b/>vite</i><par n="alors__cnjadv"/></e>
+<e lm="pendant ce temps"><i>pendant<b/>ce<b/>temps</i><par n="hier__adv"/></e>
+<e lm="plus vite"><i>plus<b/>vite</i><par n="hier__adv"/></e>
 <e lm="plutôt que"><i>plutôt<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="pour que"><i>pour<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="pour peu que"><i>pour<b/>peu<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="pour plus d'informations"><i>pour<b/>plus<b/>d'informations</i><par n="alors__cnjadv"/></e>
-<e lm="pour plus de renseignements"><i>pour<b/>plus<b/>de<b/>renseignements</i><par n="alors__cnjadv"/></e>
-<e lm="pour que ce soit valide"><i>pour<b/>que<b/>ce<b/>soit<b/>valide</i><par n="alors__cnjadv"/></e>
-<e lm="pour sa démarche"><i>pour<b/>sa<b/>démarche</i><par n="alors__cnjadv"/></e>
-<e lm="pour sa nouvelle démarche"><i>pour<b/>sa<b/>nouvelle<b/>démarche</i><par n="alors__cnjadv"/></e>
-<e lm="pour sa vérification"><i>pour<b/>sa<b/>vérification</i><par n="alors__cnjadv"/></e>
-<e lm="pour valoir ce que de doit"><i>pour<b/>valoir<b/>ce<b/>que<b/>de<b/>doit</i><par n="alors__cnjadv"/></e>
-<e lm="pour votre connaissance"><i>pour<b/>votre<b/>connaissance</i><par n="alors__cnjadv"/></e>
-<e lm="pour votre connaissance et effets"><i>pour<b/>votre<b/>connaissance<b/>et<b/>effets</i><par n="alors__cnjadv"/></e>
+<e lm="pour plus d'informations"><i>pour<b/>plus<b/>d'informations</i><par n="hier__adv"/></e>
+<e lm="pour plus de renseignements"><i>pour<b/>plus<b/>de<b/>renseignements</i><par n="hier__adv"/></e>
+<e lm="pour que ce soit valide"><i>pour<b/>que<b/>ce<b/>soit<b/>valide</i><par n="hier__adv"/></e>
+<e lm="pour sa démarche"><i>pour<b/>sa<b/>démarche</i><par n="hier__adv"/></e>
+<e lm="pour sa nouvelle démarche"><i>pour<b/>sa<b/>nouvelle<b/>démarche</i><par n="hier__adv"/></e>
+<e lm="pour sa vérification"><i>pour<b/>sa<b/>vérification</i><par n="hier__adv"/></e>
+<e lm="pour valoir ce que de doit"><i>pour<b/>valoir<b/>ce<b/>que<b/>de<b/>doit</i><par n="hier__adv"/></e>
+<e lm="pour votre connaissance"><i>pour<b/>votre<b/>connaissance</i><par n="hier__adv"/></e>
+<e lm="pour votre connaissance et effets"><i>pour<b/>votre<b/>connaissance<b/>et<b/>effets</i><par n="hier__adv"/></e>
 <e lm="pourtant"><i>pourtant</i><par n="alors__cnjadv"/></e>
 <e lm="pourvu que"><i>pourvu<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="priori"><i>priori</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="puisque"><i>puisque</i><par n="alors__cnjadv"/></e>
 <e lm="quand"><i>quand</i><par n="alors__cnjadv"/></e>
-<e lm="quand il y a lieu"><i>quand<b/>il<b/>y<b/>a<b/>lieu</i><par n="alors__cnjadv"/></e>
+<e lm="quand il y a lieu"><i>quand<b/>il<b/>y<b/>a<b/>lieu</i><par n="hier__adv"/></e>
 <e lm="quoi que ce soit"><i>quoi<b/>que<b/>ce<b/>soit</i><par n="alors__cnjadv"/></e>
 <e r="LR" lm="quoique"><i>quoique</i><par n="alors__cnjadv"/></e>
 <e lm="s'il arrivait que"><i>s'il<b/>arrivait<b/></i><par n="afin_/que__cnjadv"/></e>
@@ -53673,17 +53668,15 @@
 <e lm="vu que"><i>vu<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="à cause que"><i>à<b/>cause<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="à condition que"><i>à<b/>condition<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="à l'heure actuelle"><i>à<b/>l'heure<b/>actuelle</i><par n="alors__cnjadv"/></e>
 <e lm="à l'époque où"><i>à<b/>l'époque<b/>où</i><par n="alors__cnjadv"/></e>
-<e lm="à la connaissance de l'intéressé"><i>à<b/>la<b/>connaissance<b/>de<b/>l'intéressé</i><par n="alors__cnjadv"/></e>
-<e lm="à la connaissance générale"><i>à<b/>la<b/>connaissance<b/>générale</i><par n="alors__cnjadv"/></e>
+<e lm="à la connaissance de l'intéressé"><i>à<b/>la<b/>connaissance<b/>de<b/>l'intéressé</i><par n="hier__adv"/></e>
+<e lm="à la connaissance générale"><i>à<b/>la<b/>connaissance<b/>générale</i><par n="hier__adv"/></e>
 <e lm="à mesure que"><i>à<b/>mesure<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="à moins que"><i>à<b/>moins<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="à part cela"><i>à<b/>part<b/>cela</i><par n="alors__cnjadv"/></e>
+<e lm="à part cela"><i>à<b/>part<b/>cela</i><par n="hier__adv"/></e>
 <e lm="à partir du moment où"><i>à<b/>partir<b/>du<b/>moment<b/>où</i><par n="alors__cnjadv"/></e>
 <e lm="à présent que"><i>à<b/>présent<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="à présenter où il faut"><i>à<b/>présenter<b/>où<b/>il<b/>faut</i><par n="alors__cnjadv"/></e>
-<e lm="à ras"><i>à<b/>ras</i><par n="alors__cnjadv"/></e>
+<e lm="à ras"><i>à<b/>ras</i><par n="hier__adv"/></e>
 <e lm="à supposer que"><i>à<b/>supposer<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="à tel point que"><i>à<b/>tel<b/>point<b/></i><par n="afin_/que__cnjadv"/></e>
 <e r="RL" lm="étant donné que"><p><l>étant<b/>donné<b/><a/>que</l><r>étant<b/>donné<b/>que</r></p><par n="alors__cnjadv"/></e>
@@ -58336,6 +58329,17 @@
 <e lm="éclore"><i>écl</i><par n="cl/ore__vblex"/></e>
 <e lm="frire"><i>fri</i><par n="fri/re__vblex"/></e>
 
+<e lm="œcuménisme"><i>œcuménisme</i><par n="livre__n"/></e>
+<e r="LR" lm="œucuménisme"><p><l>oecuménisme</l><r>œcuménisme</r></p><par n="livre__n"/></e>
+<e r="LR" lm="œucuménisme"><p><l>écuménisme</l><r>œcuménisme</r></p><par n="livre__n"/></e>
+<e lm="œcuménique"><i>œcuménique</i><par n="académique__adj"/></e>
+<e r="LR" lm="œucuménique"><p><l>oecuménique</l><r>œcuménique</r></p><par n="académique__adj"/></e>
+<e r="LR" lm="œucuménique"><p><l>écuménique</l><r>œcuménique</r></p><par n="académique__adj"/></e>
+<e lm="œcuméniste"><i>œcuméniste</i><par n="académique__adj"/></e>
+<e r="LR" lm="œucuméniste"><p><l>oecuméniste</l><r>œcuméniste</r></p><par n="académique__adj"/></e>
+<e r="LR" lm="œucuméniste"><p><l>écuméniste</l><r>œcuméniste</r></p><par n="académique__adj"/></e>
+<e lm="encyclique"><i>encyclique</i><par n="abeille__n"/></e>
+<e lm="Pella"><i>Pella</i><par n="Bulgarie__np"/></e>
 
 <!-- xxxx -->
   </section>
@@ -58425,6 +58429,8 @@
 <e r="LR" lm="aussi bien que" a="webform"><p><l>aussi<b/>bien<b/>qu'</l><r>aussi<b/>bien<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="bien que"><p><l>bien<b/>qu'</l>          <r>bien<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="de sorte que"><p><l>de<b/>sorte<b/>qu'</l><r>de<b/>sorte<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="de telle sorte que"><p><l>de<b/>telle<b/>sorte<b/>qu'</l><r>de<b/>telle<b/>sorte<b/>que<s n="cnjadv"/></r></p></e>
+<e r="LR" lm="de telle façon que"><p><l>de<b/>telle<b/>façon<b/>qu'</l><r>de<b/>telle<b/>façon<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="depuis que"><p><l>depuis<b/>qu'</l>      <r>depuis<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="excepté que"><p><l>excepté<b/>qu'</l>    <r>excepté<b/>que<s n="cnjadv"/></r></p></e>
 <e r="LR" lm="hormis que"><p><l>hormis<b/>qu'</l>      <r>hormis<b/>que<s n="cnjadv"/></r></p></e>
