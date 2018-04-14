@@ -6508,6 +6508,58 @@
   <e>       <p><l>ît</l>         <r>rie<s n="vblex"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="cl/ore__vblex">
+  <e>       <p><l>ore</l>      <r>ore<s n="vblex"/><s n="inf"/></r></p></e>
+  <e>       <p><l>oses</l>     <r>ore<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ose</l>      <r>ore<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>os</l>       <r>ore<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>os</l>       <r>ore<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>osant</l>    <r>ore<s n="vblex"/><s n="ger"/></r></p></e>
+  <e>       <p><l>osons</l>    <r>ore<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>os</l>       <r>ore<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>osez</l>     <r>ore<s n="vblex"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>os</l>       <r>ore<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>osent</l>    <r>ore<s n="vblex"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ôt</l>       <r>ore<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>orons</l>    <r>ore<s n="vblex"/><s n="fti"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>orai</l>     <r>ore<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>orez</l>     <r>ore<s n="vblex"/><s n="fti"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oras</l>     <r>ore<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oront</l>    <r>ore<s n="vblex"/><s n="fti"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ora</l>      <r>ore<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>osions</l>   <r>ore<s n="vblex"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ose</l>      <r>ore<s n="vblex"/><s n="pis"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>osiez</l>    <r>ore<s n="vblex"/><s n="pis"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>oses</l>     <r>ore<s n="vblex"/><s n="pis"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>osent</l>    <r>ore<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ose</l>      <r>ore<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>orions</l>   <r>ore<s n="vblex"/><s n="cni"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e>       <p><l>orais</l>    <r>ore<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oriez</l>    <r>ore<s n="vblex"/><s n="cni"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e>       <p><l>orais</l>    <r>ore<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>oraient</l>  <r>ore<s n="vblex"/><s n="cni"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e>       <p><l>orait</l>    <r>ore<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>os</l>       <r>ore<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+</pardef>
+
+<pardef n="fri/re__vblex">
+  <e>       <p><l>re</l>       <r>fri<s n="vblex"/><s n="inf"/></r></p></e>
+  <e>       <p><l>tes</l>      <r>fri<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>te</l>       <r>fri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ts</l>       <r>fri<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>t</l>        <r>fri<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>sant</l>     <r>fri<s n="vblex"/><s n="ger"/></r></p></e>
+  <e>       <p><l>s</l>        <r>fri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>        <r>fri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>t</l>        <r>fri<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rai</l>      <r>fri<s n="vblex"/><s n="fti"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ras</l>      <r>fri<s n="vblex"/><s n="fti"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ra</l>       <r>fri<s n="vblex"/><s n="fti"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rais</l>     <r>fri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rais</l>     <r>fri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e>       <p><l>rait</l>     <r>fri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+</pardef>
+
     <!--secció de metaparadigmes-->
 <pardef n="lu/i[]re__vblex">
   <e>       <p><l>î</l>         <r>i</r></p><i><prm/></i><par n="luî/mes__vblex"/></e>
@@ -24361,7 +24413,7 @@
 <e lm="surface"><i>surface</i><par n="abeille__n"/></e>
 <e lm="surfeur"><i>surfeu</i><par n="causeu/r__n"/></e>
 <e lm="surgelé" a="jaumeortola"><i>surgelé</i><par n="livre__n"/></e>
-<e lm="surlendemain" a="jaumeortola"><i>surlendemain</i><par n="livre__n"/></e>
+<e lm="surlendemain" a="jaumeortola"><i>surlendemain</i><par n="personnel__n"/></e>
 <e lm="surnom"><i>surnom</i><par n="livre__n"/></e>
 <e lm="surpassement" a="jaumeortola"><i>surpassement</i><par n="livre__n"/></e>
 <e lm="surplus"><i>surplus</i><par n="mois__n"/></e>
@@ -52617,6 +52669,7 @@
 <e lm="le cas échéant"><i>le<b/>cas<b/>échéant</i><par n="hier__adv"/></e>
 <e r="RL" lm="le jour"><i>le<b/>jour</i><par n="hier__adv"/></e>
 <e lm="le lendemain"><i>le<b/>lendemain</i><par n="hier__adv"/></e>
+<e lm="le surlendemain"><i>le<b/>surlendemain</i><par n="hier__adv"/></e>
 <e lm="lentement"><i>lentement</i><par n="hier__adv"/></e>
 <e r="LR" lm="les unes de l'autre"><p><l>les<b/>unes<b/>de<b/>l'autre</l><r>l'un<b/>de<b/>l'autre</r></p><par n="hier__adv"/></e>
 <e r="LR" lm="les unes des autres"><p><l>les<b/>unes<b/>des<b/>autres</l><r>l'un<b/>de<b/>l'autre</r></p><par n="hier__adv"/></e>
@@ -58274,6 +58327,14 @@
 <e lm="patoisant"><i>patoisant</i><par n="affecté__n"/></e>
 <e lm="bretonnant"><i>bretonnant</i><par n="abaissant__adj"/></e>
 <e lm="bretonnant"><i>bretonnant</i><par n="affecté__n"/></e>
+
+<e lm="clore"><i>cl</i><par n="cl/ore__vblex"/></e>
+<e lm="déclore"><i>décl</i><par n="cl/ore__vblex"/></e>
+<e lm="enclore"><i>encl</i><par n="cl/ore__vblex"/></e>
+<e lm="forclore"><i>forcl</i><par n="cl/ore__vblex"/></e>
+<e lm="reclore"><i>recl</i><par n="cl/ore__vblex"/></e>
+<e lm="éclore"><i>écl</i><par n="cl/ore__vblex"/></e>
+<e lm="frire"><i>fri</i><par n="fri/re__vblex"/></e>
 
 
 <!-- xxxx -->
