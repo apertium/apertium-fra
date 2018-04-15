@@ -31240,7 +31240,7 @@
 <e lm="Angelis"><i>Angelis</i><par n="Antoine__np"/></e>
 <e lm="Angelo"><i>Angelo</i><par n="Antoine__np"/></e>
 <e lm="Angelopoulos"><i>Angelopoulos</i><par n="Saussure__np"/></e>
-<e lm="Angers"><i>Angers</i><par n="Andorre__np"/></e>
+<e lm="Angers"><i>Angers</i><par n="Iran__np"/></e>
 <e lm="Angers" a="hector"><i>Angers</i><par n="Saussure__np"/></e>
 <e lm="Angileri"><i>Angileri</i><par n="Saussure__np"/></e>
 <e lm="Angiolo"><i>Angiolo</i><par n="Abraham__np"/></e>
@@ -31257,7 +31257,7 @@
 <e lm="Angoitia"><i>Angoitia</i><par n="Abraham__np"/></e>
 <e lm="Angola"><i>Angola</i><par n="Iran__np"/></e>
 <e lm="Angosto"><i>Angosto</i><par n="Saussure__np"/></e>
-<e lm="Angoulême"><i>Angoulême</i><par n="Andorre__np"/></e>
+<e lm="Angoulême"><i>Angoulême</i><par n="Bulgarie__np"/></e>
 <e lm="Angrignon"><i>Angrignon</i><par n="Saussure__np"/></e>
 <e lm="Angrill"><i>Angrill</i><par n="Saussure__np"/></e>
 <e lm="Anguera"><i>Anguera</i><par n="Saussure__np"/></e>
@@ -32041,15 +32041,14 @@
 <e lm="Aubuchon"><i>Aubuchon</i><par n="Saussure__np"/></e>
 <e lm="Aubut" a="hector"><i>Aubut</i><par n="Saussure__np"/></e>
 <e lm="Aubé" a="hector"><i>Aubé</i><par n="Saussure__np"/></e>
-<e lm="Auch"><i>Auch</i><par n="Andorre__np"/></e>
-<e lm="Auchan"><i>Auchan</i><par n="Carrefour__np"/></e>
+<e lm="Auch"><i>Auch</i><par n="Iran__np"/></e>
+<e lm="Auchan"><i>Auchan</i><par n="Linux__np"/></e>
 <e lm="Auchinleck"><i>Auchinleck</i><par n="Saussure__np"/></e>
-<e lm="Auckland"><i>Auckland</i><par n="Andorre__np"/></e>
+<e lm="Auckland"><i>Auckland</i><par n="Iran__np"/></e>
 <e lm="Auclair" a="hector"><i>Auclair</i><par n="Saussure__np"/></e>
 <e lm="Aucoin"><i>Aucoin</i><par n="Saussure__np"/></e>
 <e lm="Auden"><i>Auden</i><par n="Saussure__np"/></e>
 <e lm="Audet" a="hector"><i>Audet</i><par n="Saussure__np"/></e>
-<e lm="Audi"><i>Audi</i><par n="Carrefour__np"/></e>
 <e lm="Audi"><i>Audi</i><par n="Linux__np"/></e>
 <e lm="Audiovisual Sport"><i>Audiovisual<b/>Sport</i><par n="Linux__np"/></e>
 <e lm="Audrey"><i>Audrey</i><par n="Marie__np"/></e>
@@ -32058,7 +32057,7 @@
 <e lm="Audí"><i>Audí</i><par n="Saussure__np"/></e>
 <e lm="Auerbach"><i>Auerbach</i><par n="Saussure__np"/></e>
 <e lm="Auger" a="hector"><i>Auger</i><par n="Saussure__np"/></e>
-<e lm="Augsburg"><i>Augsburg</i><par n="Andorre__np"/></e>
+<e lm="Augsburg"><i>Augsburg</i><par n="Iran__np"/></e>
 <e lm="August"><i>August</i><par n="Antoine__np"/></e>
 <e lm="Augusta"><i>Augusta</i><par n="Marie__np"/></e>
 <e lm="Auguste"><i>Auguste</i><par n="Saussure__np"/></e>
@@ -45204,7 +45203,7 @@
 <e lm="Oort"><i>Oort</i><par n="Saussure__np"/></e>
 <e lm="Opel"><i>Opel</i><par n="Carrefour__np"/></e>
 <e lm="Opel"><i>Opel</i><par n="Linux__np"/></e>
-<e lm="Open Office"><i>Open<b/>Office</i><par n="Carrefour__np"/></e>
+<e lm="Open Office"><i>Open<b/>Office</i><par n="Linux__np"/></e>
 <e lm="OpenOffice"><i>OpenOffice</i><par n="Linux__np"/></e>
 <e lm="Opentrad"><i>Opentrad</i><par n="Linux__np"/></e>
 <e lm="Oppenheimer"><i>Oppenheimer</i><par n="Saussure__np"/></e>
@@ -45215,6 +45214,10 @@
 <e lm="Opus Dei"><i>Opus<b/>Dei</i><par n="Linux__np"/></e>
 <e lm="Oran"><i>Oran</i><par n="Iran__np"/></e>
 <e lm="Orange"><i>Orange</i><par n="Carrefour__np"/></e>
+<e lm="Orange"><i>Orange</i><par n="Bulgarie__np"/></e>
+<e lm="Orange"><i>Orange</i><par n="Saussure__np"/></e>
+<e lm="Orange-Nassau"><i>Orange-Nassau</i><par n="Saussure__np"/></e>
+<e lm="Guillaume d'Orange"><i>Guillaume<b/>d'Orange</i><par n="Antoine__np"/></e>
 <e lm="Oranjestad"><i>Oranjestad</i><par n="Andorre__np"/></e>
 <e lm="Orbaiz"><i>Orbaiz</i><par n="Abraham__np"/></e>
 <e lm="Orbañanos"><i>Orbañanos</i><par n="Abraham__np"/></e>
@@ -58340,6 +58343,8 @@
 <e r="LR" lm="œucuméniste"><p><l>écuméniste</l><r>œcuméniste</r></p><par n="académique__adj"/></e>
 <e lm="encyclique"><i>encyclique</i><par n="abeille__n"/></e>
 <e lm="Pella"><i>Pella</i><par n="Bulgarie__np"/></e>
+<e lm="barème"><i>barème</i><par n="livre__n"/></e>
+<e lm="Bar-le-Duc"><i>Bar-le-Duc</i><par n="Iran__np"/></e>
 
 <!-- xxxx -->
   </section>

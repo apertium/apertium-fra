@@ -153,6 +153,7 @@ SET Ant = (np ant) ;
 SET Cog = (np cog) ;
 SET Ant_Cog = Ant OR Cog ;
 SET Top = (np top) ;
+SET Al = (al) ;
 
 SET DetDef = (det def) ;
 SET DetInd = (det ind) ;
@@ -368,6 +369,10 @@ REMOVE Pupille_anat IF (-1/* Det + Pl_strict) (0 Pupille_anat) ;
 
 SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
 REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
+
+SELECT Cog IF (-2 Ant) (-1 ("de")) (0 ("Orange")) ;
+SELECT Cog IF (-3 Ant) (-2 Num) (-1 ("de")) (0 ("Orange")) ;
+SELECT Al IF (0 ("Orange")) (1 ("SA") OR Top) ;
 
 SELECT A IF (0 ("prochain") LINK NOT -1 Det) ;
 SELECT A IF (0 ("prochain")) (-1 Det) (1 N) ;
@@ -888,6 +893,8 @@ SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + Pl) (1C V +
 
 SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;
 # en voyant son cartable
+
+REMOVE Ger IF (-1 N + Masc + Sg) (0 ("suivant")) (1 EOS OR Prep OR Tn) ;
 
 # ADJ NOM
 
