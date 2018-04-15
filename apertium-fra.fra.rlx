@@ -148,12 +148,14 @@ LIST Excl = "!" ;
 
 LIST Title = "<[A-Z][a-z]\+>"r ;
 LIST ConsInitiale = "<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r ;
+LIST Majusc = "<[A-Z][A-Z]*>"r ;
 
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
 SET Ant_Cog = Ant OR Cog ;
 SET Top = (np top) ;
 SET Al = (al) ;
+SET Acr = (acr) ;
 
 SET DetDef = (det def) ;
 SET DetInd = (det ind) ;
@@ -812,6 +814,8 @@ SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;
   ## Même en se partageant
 SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
   ## il va même jusqu'à donner
+
+SELECT Acr OR Al IF (0 Majusc) ;
 
 SELECT Masc_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;
   ## mon père
