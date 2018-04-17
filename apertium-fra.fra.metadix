@@ -1373,6 +1373,10 @@
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="beaucoup__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="personne__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="mf"/><s n="sg"/></r></p></e>
 </pardef>
@@ -22647,6 +22651,7 @@
 <e lm="puisard"><i>puisard</i><par n="livre__n"/></e>
 <e lm="puissance"><i>puissance</i><par n="abeille__n"/></e>
 <e lm="puits"><i>puits</i><par n="mois__n"/></e>
+<e lm="pull" a="hector"><i>pull</i><par n="livre__n"/></e>
 <e lm="pull-over" a="jaumeortola"><i>pull-over</i><par n="livre__n"/></e>
 <e lm="pulmonaire" a="jaumeortola"><i>pulmonaire</i><par n="abeille__n"/></e>
 <e lm="pulpe" a="jaumeortola"><i>pulpe</i><par n="abeille__n"/></e>
@@ -23287,7 +23292,8 @@
 <e lm="rosace" a="jaumeortola"><i>rosace</i><par n="abeille__n"/></e>
 <e lm="rosaire"><i>rosaire</i><par n="livre__n"/></e>
 <e lm="rosbif" a="jaumeortola"><i>rosbif</i><par n="livre__n"/></e>
-<e lm="rose"><i>rose</i><par n="abeille__n"/></e>
+<e lm="rose" c="fleur"><i>rose</i><par n="abeille__n"/></e>
+<e lm="rose" c="couleur"><i>rose</i><par n="livre__n"/></e>
 <e lm="roseau"><i>roseau</i><par n="lieu__n"/></e>
 <e lm="rosette" a="jaumeortola"><i>rosette</i><par n="abeille__n"/></e>
 <e lm="rosier"><i>rosier</i><par n="livre__n"/></e>
@@ -24237,6 +24243,7 @@
 <e lm="stator" a="jaumeortola"><i>stator</i><par n="livre__n"/></e>
 <e lm="stats"><i>stats</i><par n="vacances__n"/></e>
 <e lm="statu quo"><i>statu<b/>quo</i><par n="mois__n"/></e>
+<e lm="quid pro quo"><i>quid<b/>pro<b/>quo</i><par n="mois__n"/></e>
 <e lm="statue"><i>statue</i><par n="abeille__n"/></e>
 <e lm="stature" a="jaumeortola"><i>stature</i><par n="abeille__n"/></e>
 <e lm="statut"><i>statut</i><par n="livre__n"/></e>
@@ -25539,6 +25546,7 @@
 <e lm="zoologie" a="jaumeortola"><i>zoologie</i><par n="abeille__n"/></e>
 <e lm="zoologique"><i>zoologique</i><par n="livre__n"/></e>
 <e lm="zoologiste" a="jaumeortola"><i>zoologiste</i><par n="artiste__n"/></e>
+<e lm="zoologue" a="hector"><i>zoologue</i><par n="artiste__n"/></e>
 <e lm="zoom"><i>zoom</i><par n="livre__n"/></e>
 <e lm="zoulou" a="jaumeortola"><i>zoulou</i><par n="affecté__n"/></e>
 <e lm="zygote" a="jaumeortola"><i>zygote</i><par n="livre__n"/></e>
@@ -26295,6 +26303,7 @@
 <e lm="bénéficier"><i>bénéfici</i><par n="abaiss/er__vblex"/></e>
 <e lm="bêler"><i>bêl</i><par n="abaiss/er__vblex"/></e>
 <e lm="céder"><i>c</i><par n="accél/é[R]er__vblex" prm="d"/></e>
+<e lm="concéder"><i>conc</i><par n="accél/é[R]er__vblex" prm="d"/></e>
 <e lm="celer"><i>c</i><par n="ach/e[T]er__vblex" prm="l"/></e>
 <e lm="cacher"><i>cach</i><par n="abaiss/er__vblex"/></e>
 <e lm="cacheter"><i>cachet</i><par n="cachet/er__vblex"/></e>
@@ -53941,10 +53950,12 @@
 <e lm="fort"><i>fort</i><par n="très__preadv"/></e>
 <e r="LR" lm="guère"><i>guère</i><par n="très__preadv"/></e>
 <e lm="mal"><i>mal</i><par n="très__preadv"/></e>
+<e lm="peu"><i>peu</i><par n="très__preadv"/></e>
 <e lm="presque"><i>presque</i><par n="très__preadv"/></e>
 <e lm="quasi"><i>quasi</i><par n="très__preadv"/></e>
     <!-- <e lm="si" r="LR"><i>si</i><par n="hier__adv"/></e> -->
 <e lm="si"><i>si</i><par n="très__preadv"/></e>
+<e lm="quelque"><i>quelque</i><par n="très__preadv"/></e>
 <e lm="tellement"><i>tellement</i><par n="très__preadv"/></e>
 <e lm="tout aussi"><i>tout<b/>aussi</i><par n="très__preadv"/></e>
 <e lm="trop"><i>trop</i><par n="très__preadv"/></e>
@@ -54023,6 +54034,8 @@
 <e lm="on"><i>on</i><par n="on__prn"/></e>
 <e lm="pas tout"><i>pas<b/>tou</i><par n="tou/t__prn"/></e>
 <e lm="personne"><i>personne</i><par n="personne__prn"/></e>
+<e lm="beaucoup"><i>beaucoup</i><par n="beaucoup__prn"/></e>
+<e lm="peu"><i>peu</i><par n="beaucoup__prn"/></e>
 <e lm="plus rien"><i>plus<b/>rien</i><par n="ceci__prn"/></e>
 <e r="RL" lm="qu'est-ce que"><p><l>qu'est-ce<b/><a/>que</l><r>qu'est-ce<b/>que</r></p><par n="que__prn"/></e>
 <e r="LR" lm="qu'est-ce que"><i>qu'est-ce<b/>que</i><par n="que__prn"/></e>
@@ -58346,6 +58359,13 @@
 <e lm="Pella"><i>Pella</i><par n="Bulgarie__np"/></e>
 <e lm="barème"><i>barème</i><par n="livre__n"/></e>
 <e lm="Bar-le-Duc"><i>Bar-le-Duc</i><par n="Iran__np"/></e>
+<e lm="surgissement"><i>surgissement</i><par n="livre__n"/></e>
+<e lm="au total"><i>au<b/>total</i><par n="hier__adv"/></e>
+<e lm="mets"><i>mets</i><par n="livre__n"/></e>
+<e lm="BNP"><i>BNP</i><par n="BBC__n"/></e>
+<e lm="SG"><i>SG</i><par n="BBC__n"/></e>
+<e lm="Société Générale"><i>Société<b/>Générale</i><par n="Wikipedia__np"/></e>
+<e lm="BNP Paribas"><i>BNP<b/>Paribas</i><par n="Wikipedia__np"/></e>
 
 <!-- xxxx -->
   </section>
