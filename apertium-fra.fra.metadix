@@ -21960,6 +21960,10 @@
 <e lm="piquant" a="jaumeortola"><i>piquant</i><par n="livre__n"/></e>
 <e lm="pique"><i>pique</i><par n="abeille__n"/></e>
 <e lm="pique-nique" a="jaumeortola"><i>pique-nique</i><par n="livre__n"/></e>
+<e lm="pique-niqueur"><i>pique-niqueu</i><par n="causeu/r__n"/></e>
+<e lm="pique-niquer"><i>pique-niqu</i><par n="abaiss/er__vblex"/></e>
+<e lm="pique-assiette"><i>pique-assiette</i><par n="artiste__n"/></e>
+<e lm="pique-feu"><i>pique-feu</i><par n="artiste__n"/></e>
 <e lm="piquette" a="jaumeortola"><i>piquette</i><par n="abeille__n"/></e>
 <e lm="piqûre"><i>piqûre</i><par n="livre__n"/></e>
 <e lm="piranha" a="jaumeortola"><i>piranha</i><par n="livre__n"/></e>
@@ -25865,6 +25869,7 @@
           group vblex
       ****************************** -->
 <e lm="aller en prison"><i></i><par n="/aller__vblex"/><p><l><b/>en<b/>prison</l><r><g><b/>en<b/>prison</g></r></p></e>
+<e lm="aller pique-niquer"><i></i><par n="/aller__vblex"/><p><l><b/>pique-niquer</l><r><g><b/>pique-niquer</g></r></p></e>
 <e lm="avoir à sa charge"><i></i><par n="/avoir__vblex"/><p><l><b/>à<b/>sa<b/>charge</l><r><g><b/>à<b/>sa<b/>charge</g></r></p></e>
 <e lm="avoir de l'effet"><i></i><par n="/avoir__vblex"/><p><l><b/>de<b/>l'effet</l><r><g><b/>de<b/>l'effet</g></r></p></e>
 <e lm="être conforme"><i></i><par n="/être__vblex"/><p><l><b/>conforme</l><r><g><b/>conforme</g></r></p></e>
@@ -27813,6 +27818,7 @@
 <e lm="paraître"><i>par</i><par n="appar/aître__vblex"/></e>
 <e lm="parer"><i>par</i><par n="abaiss/er__vblex"/></e>
 <e lm="partir"><i>par</i><par n="consen/tir__vblex"/></e>
+<e lm="partir pique-niquer"><i>par</i><par n="consen/tir__vblex"/><p><l><b/>pique-niquer</l><r><g><b/>pique-niquer</g></r></p></e>
 <e lm="parachever"><i>parach</i><par n="ach/e[T]er__vblex" prm="v"/></e>
 <e lm="parader"><i>parad</i><par n="abaiss/er__vblex"/></e>
 <e lm="paralyser"><i>paralys</i><par n="abaiss/er__vblex"/></e>
