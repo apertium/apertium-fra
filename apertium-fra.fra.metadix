@@ -719,6 +719,13 @@
   <e>       <p><l></l>          <r><s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 </pardef>
 
+<pardef n="pécheur__adj">
+  <e>       <p><l>esses</l>     <r><s n="adj"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>esse</l>      <r><s n="adj"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>         <r><s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="adj"/><s n="m"/><s n="sg"/></r></p></e>
+</pardef>
+
 <pardef n="débit/eur__n">
   <e>       <p><l>euses</l>     <r>eur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
   <e r="LR"><p><l>rices</l>     <r>eur<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
@@ -10619,6 +10626,7 @@
 <e lm="pétrolier"><i>pétroli</i><par n="ch/er__adj"/></e>
 <e lm="pétrolifère"><i>pétrolifère</i><par n="académique__adj"/></e>
 <e lm="pêcheur"><i>pêcheu</i><par n="causeu/r__adj"/></e>
+<e lm="pécheur"><i>pécheur</i><par n="pécheur__adj"/></e>
 <e lm="quadragénaire" a="jaumeortola"><i>quadragénaire</i><par n="académique__adj"/></e>
 <e lm="quadrangulaire" a="jaumeortola"><i>quadrangulaire</i><par n="académique__adj"/></e>
 <e lm="quadratique" a="jaumeortola"><i>quadratique</i><par n="académique__adj"/></e>
@@ -18385,6 +18393,7 @@
 <e lm="génuflexion" a="jaumeortola"><i>génuflexion</i><par n="abeille__n"/></e>
 <e lm="généalogie" a="jaumeortola"><i>généalogie</i><par n="abeille__n"/></e>
 <e lm="général"><i>généra</i><par n="commercia/l__n"/></e>
+<e lm="généralissime"><i>généralissime</i><par n="livre__n"/></e>
 <e lm="généralisation"><i>généralisation</i><par n="abeille__n"/></e>
 <e lm="généraliste"><i>généraliste</i><par n="artiste__n"/></e>
 <e lm="généralité"><i>généralité</i><par n="abeille__n"/></e>
@@ -22784,6 +22793,7 @@
 <e lm="pêcher"><i>pêcher</i><par n="livre__n"/></e>
 <e lm="pêcherie"><i>pêcherie</i><par n="abeille__n"/></e>
 <e lm="pêcheur"><i>pêcheu</i><par n="causeu/r__n"/></e>
+<e lm="pécheur"><i>pécheur</i><par n="clown__n"/></e>
 <e lm="pêne" a="jaumeortola"><i>pêne</i><par n="livre__n"/></e>
 <e lm="pôle"><i>pôle</i><par n="livre__n"/></e>
 <e lm="QMC"><i>QMC</i><par n="BBVA__n"/></e>
@@ -27847,6 +27857,7 @@
 <e lm="paver"><i>pav</i><par n="abaiss/er__vblex"/></e>
 <e lm="pavaner" a="joan"><i>pavan</i><par n="abaiss/er__vblex"/></e>
 <e lm="peindre"><i>pei</i><par n="cei/ndre__vblex"/></e>
+<e lm="repeindre"><i>repei</i><par n="cei/ndre__vblex"/></e>
 <e lm="peigner"><i>peign</i><par n="abaiss/er__vblex"/></e>
 <e lm="peiner"><i>pein</i><par n="abaiss/er__vblex"/></e>
 <e lm="peinturer"><i>peintur</i><par n="abaiss/er__vblex"/></e>
@@ -28862,6 +28873,7 @@
       ****************************** -->
 <e r="LR" lm="à bientôt"><p><l>A<b/>bientôt</l>        <r>à<b/>bientôt</r></p><par n="ah__ij"/></e>
 <e lm="ah"><i>ah</i><par n="ah__ij"/></e>
+<e lm="adieu"><i>adieu</i><par n="ah__ij"/></e>
 <e lm="au revoir"><i>au<b/>revoir</i><par n="ah__ij"/></e>
 <e lm="bah"><i>bah</i><par n="ah__ij"/></e>
 <e lm="bon"><i>bon</i><par n="ah__ij"/></e>
@@ -30229,7 +30241,7 @@
 <e lm="Ainhize"><i>Ainhize</i><par n="Abraham__np"/></e>
 <e lm="Ainhoa"><i>Ainhoa</i><par n="Abraham__np"/></e>
 <e lm="Ainhoa"><i>Ainhoa</i><par n="Marie__np"/></e>
-<e lm="Ainhoa Arteta"><i>Ainhoa<b/>Arteta</i><par n="Abraham__np"/></e>
+<e lm="Ainhoa Arteta"><i>Ainhoa<b/>Arteta</i><par n="Marie__np"/></e>
 <e lm="Ainoa"><i>Ainoa</i><par n="Marie__np"/></e>
 <e lm="Ainsi parlait Zarathoustra"><i>Ainsi<b/>parlait<b/>Zarathoustra</i><par n="Carrefour__np"/></e>
 <e lm="Ainsley"><i>Ainsley</i><par n="Saussure__np"/></e>
@@ -30239,7 +30251,6 @@
 <e lm="Air"><i>Air</i><par n="Andorre__np"/></e>
 <e lm="Air France"><i>Air<b/>France</i><par n="Carrefour__np"/></e>
 <e lm="Air France-KLM"><i>Air<b/>France-KLM</i><par n="Carrefour__np"/></e>
-<e lm="Aira"><i>Aira</i><par n="Abraham__np"/></e>
 <e lm="Aira"><i>Aira</i><par n="Saussure__np"/></e>
 <e lm="Airbag"><i>Airbag</i><par n="Carrefour__np"/></e>
 <e lm="Airbus"><i>Airbus</i><par n="Carrefour__np"/></e>
@@ -34400,7 +34411,7 @@
 <e lm="Carla"><i>Carla</i><par n="Marie__np"/></e>
 <e lm="Carle" a="hector"><i>Carle</i><par n="Saussure__np"/></e>
 <e lm="Carles"><i>Carles</i><par n="Antoine__np"/></e>
-<e lm="Carlo"><i>Carlo</i><par n="Abraham__np"/></e>
+<e lm="Carlo"><i>Carlo</i><par n="Antoine__np"/></e>
 <e lm="Carloman"><i>Carloman</i><par n="Abraham__np"/></e>
 <e lm="Carlone"><i>Carlone</i><par n="Saussure__np"/></e>
 <e lm="Carlos"><i>Carlos</i><par n="Antoine__np"/></e>
@@ -34410,7 +34421,7 @@
 <e lm="Carmargo"><i>Carmargo</i><par n="Saussure__np"/></e>
 <e lm="Carme"><i>Carme</i><par n="Marie__np"/></e>
 <e lm="Carmel"><i>Carmel</i><par n="Saussure__np"/></e>
-<e lm="Carmelo"><i>Carmelo</i><par n="Abraham__np"/></e>
+<e lm="Carmelo"><i>Carmelo</i><par n="Antoine__np"/></e>
 <e lm="Carmelo"><i>Carmelo</i><par n="Antoine__np"/></e>
 <e lm="Carmen"><i>Carmen</i><par n="Marie__np"/></e>
 <e lm="Carmichael"><i>Carmichael</i><par n="Saussure__np"/></e>
@@ -51551,9 +51562,9 @@
 <e lm="Zaragocí"><i>Zaragocí</i><par n="Saussure__np"/></e>
 <e lm="Zaragoza"><i>Zaragoza</i><par n="Saussure__np"/></e>
 <e lm="Zaragozá"><i>Zaragozá</i><par n="Saussure__np"/></e>
-<e lm="Zarate"><i>Zarate</i><par n="Abraham__np"/></e>
-<e r="LR" lm="Zarathoustra"><i>Zarathoustra</i><par n="Abraham__np"/></e>
-<e lm="Zarathushtra"><i>Zarathushtra</i><par n="Abraham__np"/></e>
+<e lm="Zarate"><i>Zarate</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Zarathoustra"><i>Zarathoustra</i><par n="Antoine__np"/></e>
+<e lm="Zarathushtra"><i>Zarathushtra</i><par n="Antoine__np"/></e>
 <e lm="Zaratustra"><i>Zaratustra</i><par n="Antoine__np"/></e>
 <e lm="Zarautz"><i>Zarautz</i><par n="Andorre__np"/></e>
 <e lm="Zarautz Inmob. Orio"><i>Zarautz<b/>Inmob.<b/>Orio</i><par n="Carrefour__np"/></e>
@@ -58373,6 +58384,14 @@
 <e lm="SG"><i>SG</i><par n="BBC__n"/></e>
 <e lm="Société Générale"><i>Société<b/>Générale</i><par n="Wikipedia__np"/></e>
 <e lm="BNP Paribas"><i>BNP<b/>Paribas</i><par n="Wikipedia__np"/></e>
+<e lm="nageur"><i>nageu</i><par n="causeu/r__n"/></e>
+<e lm="tombola"><i>tombola</i><par n="abeille__n"/></e>
+<e lm="savamment"><i>savamment</i><par n="hier__adv"/></e>
+<e lm="adroitement"><i>adroitement</i><par n="hier__adv"/></e>
+<e lm="doctement"><i>doctement</i><par n="hier__adv"/></e>
+<e lm="sagement"><i>sagement</i><par n="hier__adv"/></e>
+<e lm="manifestement"><i>manifestement</i><par n="hier__adv"/></e>
+<e lm="jongler"><i>jongl</i><par n="abaiss/er__vblex"/></e>
 
 <!-- xxxx -->
   </section>
