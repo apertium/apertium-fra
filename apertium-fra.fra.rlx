@@ -378,7 +378,9 @@ REMOVE Pupille_pers IF (-1 Det + Sg_strict + Fem_strict) (0 Pupille_pers) ;
 REMOVE Pupille_pers IF (1 A + Sg_strict + Fem_strict) (0 Pupille_pers) ;
 REMOVE Pupille_anat IF (-1/* Det + Pl_strict) (0 Pupille_anat) ;
 
-REMOVE Mai IF (0 Mai or Mais);
+SELECT N IF (0 ("conseiller")) (1 ("général")) ;
+
+REMOVE Mai IF (0 Mai or Mais) ;
 
 SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
 REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
@@ -702,9 +704,9 @@ SELECT Pl IF (-6 Ne) (-5 Pro + Pl) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP 
 #SELECT Haver IF (-2 Ne) (-1 Pro) (-0 Haver) (1 Adv) (2 Adv) (3 PP) ;
 #  ## Vous ne lui avez pas toujours dit
 
-SELECT Masc IF (NOT -2 Pro) (-1 Haver) (0 PP + M_F) ; 
+SELECT Masc IF (-1 Haver) (0 PP + M_F) ; 
   ## Vous avez pu
-SELECT Masc IF (NOT -3 Pro) (-2 Haver) (-1C Adv) (0 PP + M_F) ; 
+SELECT Masc IF (-2 Haver) (-1C Adv) (0 PP + M_F) ; 
   ## Vous avez toujours pu
 
 SELECT PP IF (-2 ("se")) (-1 Ser + Sg) (0 PP + Sg) ;
