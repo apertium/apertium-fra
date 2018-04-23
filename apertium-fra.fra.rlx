@@ -142,6 +142,7 @@ LIST Pupille_pers = "pupille_pers" ;
 LIST Pupille_anat = "pupille_anat" ;
 LIST Mai = "mai" ;
 LIST Mais = "mais" ;
+LIST Rose = "rose" ;
 
 LIST À = "à" ;
 
@@ -322,10 +323,19 @@ SELECT Itg IF (-2C V LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
 REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Prn) ;
 
-REMOVE A (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR A LINK NOT *1 Verb) ;
-REMOVE A (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR N LINK NOT *1 Verb) ;
+#REMOVE A (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR A LINK NOT *1 Verb) ;
+#REMOVE N (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR N LINK NOT *1 Verb) ;
+#REMOVE A (NOT *-1 Verb) (0C Verb OR A LINK NOT *1 Verb) ;
+#REMOVE N (NOT *-1 Verb) (0C Verb OR N LINK NOT *1 Verb) ;
+  ## Ces règles ne marchent pas pour des tas de phrases dans la presse où il n'y a pas de verbe
   ## Une œuvre romanesque qui célèbre à sa façon l'effervescence de l'Art nouveau.
   ## il était très fier, 
+  ## Peut-on envisager dans l'avenir une subvention égale au niveau
+SELECT Verb (-1 ("qui") OR ("que")) (0C Verb OR A) ;
+  ## qui célèbre
+SELECT Verb (-1 NP) (0C Verb OR A) ;
+  ## Cooper illustre
+
 REMOVE Verb (OC Verb OR A OR N LINK NOT 0 Inf) (1 Être LINK 0 P1 OR P2 OR P3) ;
   ## Si la demande est suffisante
 REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
@@ -353,6 +363,9 @@ SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
 
 SELECT Fois IF (0C Foi OR Fois) ;
+
+SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
+  ## la vallée des roses
 
 REMOVE Ouvrer IF (0 Ouvrir OR Ouvrer) ;
 
