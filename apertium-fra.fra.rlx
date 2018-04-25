@@ -86,6 +86,7 @@ LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
 
 LIST Mon_Ton_Son = "mon" "ton" "son" ;
+LIST Son = "son" ;
 LIST Que = "que" ;
 LIST Qui = "qui" ;
 LIST Avoir = "avoir" ; 
@@ -356,13 +357,24 @@ SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 ("que")) (0C Verb) ;
 REMOVE Prs (NOT *-1 Que) (0 Verb) ;
 
 #SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
-SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
+SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son) (NOT 1 N OR A) ;
   ## Les poules du couvent couvent
 
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
 
 SELECT Fois IF (0C Foi OR Fois) ;
+
+SELECT N IF (0 ("président")) (1 ("de")) ;
+
+SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 N + MascSg LINK NOT 0 A) ;
+SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 N + FemSg LINK NOT 0 A) ;
+SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 N + MascPl LINK NOT 0 A) ;
+SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 N + FemPl LINK NOT 0 A) ;
+SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 A + MascSg) (2 N + MascSg) ;
+SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 A + FemSg) (2 N + FemSg) ;
+SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 A + MascPl) (2 N + MascPl) ;
+SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 A + FemPl) (2 N + FemPl) ;
 
 SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
