@@ -8743,6 +8743,7 @@
 <e lm="expressionniste" a="jaumeortola"><i>expressionniste</i><par n="académique__adj"/></e>
 <e lm="expérimental"><i>expérimenta</i><par n="amica/l__adj"/></e>
 <e lm="expérimenté" a="joan"><i>expérimenté</i><par n="abaissant__adj"/></e>
+<e lm="inexpérimenté" a="hector"><i>inexpérimenté</i><par n="abaissant__adj"/></e>
 <e lm="exquis"><i>exquis</i><par n="anglais__adj"/></e>
 <e lm="extensif" a="jaumeortola"><i>extensi</i><par n="affirmati/f__adj"/></e>
 <e lm="extensible"><i>extensible</i><par n="académique__adj"/></e>
@@ -23328,6 +23329,8 @@
 <e lm="rossignol"><i>rossignol</i><par n="livre__n"/></e>
 <e lm="rosée" a="jaumeortola"><i>rosée</i><par n="abeille__n"/></e>
 <e lm="rotatif" a="jaumeortola"><i>rotati</i><par n="jui/f__n"/></e>
+<e lm="rot"><i>rot</i><par n="livre__n"/></e>
+<e lm="roter"><i>rot</i><par n="abaiss/er__vblex"/></e>
 <e lm="rotation"><i>rotation</i><par n="abeille__n"/></e>
 <e lm="rotonde"><i>rotonde</i><par n="abeille__n"/></e>
 <e lm="rotondité"><i>rotondité</i><par n="abeille__n"/></e>
@@ -51976,7 +51979,6 @@
 <e lm="au-dessous"><i>au-dessous</i><par n="hier__adv"/></e>
 <e lm="au-dessus"><i>au-dessus</i><par n="hier__adv"/></e>
 <e lm="au-devant"><i>au-devant</i><par n="hier__adv"/></e>
-<e lm="au beau milieu" a="hector"><i>au<b/>beau<b/>milieu</i><par n="hier__adv"/></e>
 <e lm="au beau milieu"><i>au<b/>beau<b/>milieu</i><par n="hier__adv"/></e>
 <e lm="au bon moment"><i>au<b/>bon<b/>moment</i><par n="hier__adv"/></e>
 <e lm="au cas où"><i>au<b/>cas<b/>où</i><par n="hier__adv"/></e>
@@ -52006,6 +52008,10 @@
 <e lm="augustement" a="jaumeortola"><i>augustement</i><par n="hier__adv"/></e>
 <e lm="aujourd'hui"><i>aujourd'hui</i><par n="hier__adv"/></e>
 <e r="RL" lm="aujourd'hui"><i>aujourd'hui</i><par n="hier__adv"/></e>
+<e lm="aujourd'hui matin"><i>aujourd'hui<b/>matin</i><par n="hier__adv"/></e>
+<e lm="aujourd'hui midi"><i>aujourd'hui<b/>midi</i><par n="hier__adv"/></e>
+<e lm="aujourd'hui après-midi"><i>aujourd'hui<b/>après-midi</i><par n="hier__adv"/></e>
+<e lm="aujourd'hui soir"><i>aujourd'hui<b/>soir</i><par n="hier__adv"/></e>
 <e lm="auparavant"><i>auparavant</i><par n="hier__adv"/></e>
 <e lm="auprès"><i>auprès</i><par n="hier__adv"/></e>
 <e lm="aussi"><i>aussi</i><par n="hier__adv"/></e>
@@ -52257,6 +52263,10 @@
 <e lm="dehors"><i>dehors</i><par n="hier__adv"/></e>
 <e lm="delà" a="jaumeortola"><i>delà</i><par n="hier__adv"/></e>
 <e lm="demain"><i>demain</i><par n="hier__adv"/></e>
+<e lm="demain matin"><i>demain<b/>matin</i><par n="hier__adv"/></e>
+<e lm="demain midi"><i>demain<b/>midi</i><par n="hier__adv"/></e>
+<e lm="demain après-midi"><i>demain<b/>après-midi</i><par n="hier__adv"/></e>
+<e lm="demain soir"><i>demain<b/>soir</i><par n="hier__adv"/></e>
 <e lm="densement"><i>densement</i><par n="hier__adv"/></e>
 <e lm="densément"><i>densément</i><par n="hier__adv"/></e>
 <e lm="depuis" a="jaumeortola"><i>depuis</i><par n="hier__adv"/></e>
@@ -52559,6 +52569,9 @@
 <e lm="hermétiquement"><i>hermétiquement</i><par n="hier__adv"/></e>
 <e lm="heureusement"><i>heureusement</i><par n="hier__adv"/></e>
 <e lm="hier"><i>hier</i><par n="hier__adv"/></e>
+<e lm="hier matin"><i>hier<b/>matin</i><par n="hier__adv"/></e>
+<e lm="hier midi"><i>hier<b/>midi</i><par n="hier__adv"/></e>
+<e lm="hier après-midi"><i>hier<b/>après-midi</i><par n="hier__adv"/></e>
 <e lm="hier soir"><i>hier<b/>soir</i><par n="hier__adv"/></e>
 <e lm="historiquement"><i>historiquement</i><par n="hier__adv"/></e>
 <e lm="hiérarchiquement"><i>hiérarchiquement</i><par n="hier__adv"/></e>
@@ -58380,7 +58393,14 @@
 <e lm="Stanislas"><i>Stanislas</i><par n="Saussure__np"/></e>
 <e lm="Chetritt"><i>Chetritt</i><par n="Saussure__np"/></e>
 <e lm="Welzer"><i>Welzer</i><par n="Saussure__np"/></e>
-<e lm="Oyié"><i>Oyié</i><par n="Saussure__np"/></e>
+<e lm="culturalisme"><i>culturalisme</i><par n="livre__n"/></e>
+<e lm="multiculturalisme"><i>multiculturalisme</i><par n="livre__n"/></e>
+<e lm="multiculturalité"><i>multiculturalisté</i><par n="abeille__n"/></e>
+<e lm="culturaliste"><i>culturaliste</i><par n="académique__adj"/></e>
+<e lm="multiculturaliste"><i>multiculturaliste</i><par n="académique__adj"/></e>
+<e lm="jardinerie"><i>jardinerie</i><par n="abeille__n"/></e>
+<e lm="épingle"><i>épingle</i><par n="abeille__n"/></e>
+<e lm="épingler"><i>épingl</i><par n="abaiss/er__vblex"/></e>
 
 <!-- xxxx -->
   </section>
