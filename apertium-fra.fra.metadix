@@ -49832,7 +49832,8 @@
 <e lm="Tourangeau"><i>Tourangeau</i><par n="Saussure__np"/></e>
 <e lm="Touray"><i>Touray</i><par n="Saussure__np"/></e>
 <e lm="Tourfan"><i>Tourfan</i><par n="Iran__np"/></e>
-<e lm="Tourgaï"><i>Tourgaï</i><par n="Andorre__np"/></e>
+<e lm="Tourgaï"><i>Tourgaï</i><par n="Iran__np"/></e>
+<e lm="Tourgaï"><i>Tourgaï</i><par n="Saussure__np"/></e>
 <e lm="Touria"><i>Touria</i><par n="Marie__np"/></e>
 <e lm="Tourigny" a="hector"><i>Tourigny</i><par n="Saussure__np"/></e>
 <e lm="Tourkestan"><i>Tourkestan</i><par n="Iran__np"/></e>
@@ -49843,7 +49844,7 @@
 <e lm="Tousignant" a="hector"><i>Tousignant</i><par n="Saussure__np"/></e>
 <e lm="Toussaint"><i>Toussaint</i><par n="Carrefour__np"/></e>
 <e lm="Toussaint" a="hector"><i>Toussaint</i><par n="Saussure__np"/></e>
-<e lm="Toutânkhamon"><p><l>Toutankhamon</l>            <r>Toutânkhamon</r></p><par n="Andorre__np"/></e>
+<e lm="Toutânkhamon"><p><l>Toutankhamon</l>            <r>Toutânkhamon</r></p><par n="Antoine__np"/></e>
 <e lm="Toutant"><i>Toutant</i><par n="Saussure__np"/></e>
 <e lm="Toutmosis"><i>Toutmosis</i><par n="Antoine__np"/></e>
 <e lm="Toutânkhamon"><i>Toutânkhamon</i><par n="Antoine__np"/></e>
@@ -50144,7 +50145,8 @@
 <e lm="Unanue"><i>Unanue</i><par n="Abraham__np"/></e>
 <e lm="Underwood"><i>Underwood</i><par n="Saussure__np"/></e>
 <e lm="Une verité qui derange"><i>Une<b/>verité<b/>qui<b/>derange</i><par n="Carrefour__np"/></e>
-<e lm="UNESCO"><i>UNESCO</i><par n="Carrefour__np"/></e>
+<e lm="UNESCO"><i>UNESCO</i><par n="Wikipedia__np"/></e>
+<e lm="Unesco"><i>Unesco</i><par n="BBC__n"/></e>
 <e lm="Ung"><i>Ung</i><par n="Saussure__np"/></e>
 <e lm="Ungar"><i>Ungar</i><par n="Saussure__np"/></e>
 <e lm="Unger"><i>Unger</i><par n="Saussure__np"/></e>
@@ -50154,12 +50156,14 @@
 <e lm="Unicredito"><i>Unicredito</i><par n="Carrefour__np"/></e>
 <e lm="Unicrédito"><i>Unicrédito</i><par n="Carrefour__np"/></e>
 <e lm="Unidos"><i>Unidos</i><par n="Carrefour__np"/></e>
-<e lm="Union des Republiques Socialistes Soviétiques"><i>Union<b/>des<b/>Republiques<b/>Socialistes<b/>Soviétiques</i><par n="Carrefour__np"/></e>
-<e lm="Union Européenne"><p><l>Union<b/>Européenne</l> <r>Union<b/>Européenne</r></p><par n="Andorre__np"/></e>
-<e lm="Union européenne"><i>Union<b/>européenne</i><par n="Carrefour__np"/></e>
+<e lm="Union des républiques socialistes soviétiques"><i>Union<b/>des<b/>républiques<b/>socialistes<b/>soviétiques</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Union des républiques socialistes soviétiques"><p><l>Union<b/>des<b/>Républiques<b/>Socialistes<b/>Soviétiques</l> <r>Union<b/>des<b/>républiques<b/>socialistes<b/>soviétiques</r></p><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Union Européenne"><p><l>Union<b/>Européenne</l> <r>Union<b/>européenne</r></p><par n="Bulgarie__np"/></e>
+<e lm="Union européenne"><i>Union<b/>européenne</i><par n="Bulgarie__np"/></e>
 <e lm="Union Latine"><i>Union<b/>Latine</i><par n="Carrefour__np"/></e>
-<e lm="Union Soviétique"><i>Union<b/>Soviétique</i><par n="Andorre__np"/></e>
-<e lm="Union sud-africaine"><i>Union<b/>sud-africaine</i><par n="Andorre__np"/></e>
+<e lm="Union Soviétique"><i>Union<b/>soviétique</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Union soviétique"><p><l>Union<b/>Soviétique</l> <r>Union<b/>soviétique</r></p><par n="Bulgarie__np"/></e>
+<e lm="Union sud-africaine"><i>Union<b/>sud-africaine</i><par n="Bulgarie__np"/></e>
 <e lm="United"><i>United</i><par n="Carrefour__np"/></e>
 <e lm="Universal"><i>Universal</i><par n="Carrefour__np"/></e>
 <e lm="Universitat Oberta d'Estiu"><i>Universitat<b/>Oberta<b/>d'Estiu</i><par n="Wikipedia__np"/></e>
@@ -54501,6 +54505,7 @@
 <e lm="redire"><i>red</i><par n="d/i[]re__vblex" prm=""/></e>
 <e lm="aplatir"><i>aplat</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="affermir"><i>afferm</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="raffermir"><i>rafferm</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="amollir"><i>amoll</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="assouplir"><i>assoupl</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="dégourdir"><i>dégourd</i><par n="about/[]ir__vblex" prm=""/></e>
