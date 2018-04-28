@@ -14230,7 +14230,7 @@
 <e lm="bobo"><i>bobo</i><par n="livre__n"/></e>
 <e lm="bobsleigh" a="jaumeortola"><i>bobsleigh</i><par n="livre__n"/></e>
 <e lm="bodyboard" a="jaumeortola"><i>bodyboard</i><par n="livre__n"/></e>
-<e r="LR" lm="bœuf"><p><l>boeuf</l>                    <r>bœuf</r></p><par n="livre__n"/></e>
+<e r="LR" lm="bœuf"><p><l>boeuf</l><r>bœuf</r></p><par n="livre__n"/></e>
 <e lm="bogue" a="jaumeortola"><i>bogue</i><par n="artiste__n"/></e>
 <e lm="bohrium" a="jaumeortola"><i>bohrium</i><par n="livre__n"/></e>
 <e lm="boire" a="jaumeortola"><i>boire</i><par n="livre__n"/></e>
@@ -18817,6 +18817,7 @@
 <e lm="IBEX 35"><i>IBEX<b/>35</i><par n="BBVA__n"/></e>
 <e lm="ibizois"><i>ibizois</i><par n="admis__n"/></e>
 <e lm="IBM" a="prompsit2adn"><i>IBM</i><par n="BBC__n"/></e>
+<e lm="IBM"><i>IBM</i><par n="Wikipedia__np"/></e>
 <e lm="ibuprofène" a="jaumeortola"><i>ibuprofène</i><par n="livre__n"/></e>
 <e lm="ibère"><i>ibère</i><par n="artiste__n"/></e>
 <e lm="iceberg"><i>iceberg</i><par n="livre__n"/></e>
@@ -31295,15 +31296,15 @@
 <e lm="Ansotegi"><i>Ansotegi</i><par n="Saussure__np"/></e>
 <e lm="Ansó"><i>Ansó</i><par n="Andorre__np"/></e>
 <e lm="Ansóain"><i>Ansóain</i><par n="Abraham__np"/></e>
-<e lm="Antalya"><i>Antalya</i><par n="Andorre__np"/></e>
-<e lm="Antarctique"><i>Antarctique</i><par n="Andorre__np"/></e>
+<e lm="Antalya"><i>Antalya</i><par n="Bulgarie__np"/></e>
+<e lm="Antarctique"><i>Antarctique</i><par n="Bulgarie__np"/></e>
 <e lm="Antaviana"><i>Antaviana</i><par n="Wikipedia__np"/></e>
 <e lm="Antawn"><i>Antawn</i><par n="Abraham__np"/></e>
 <e lm="Antaya"><i>Antaya</i><par n="Saussure__np"/></e>
 <e lm="Antelo"><i>Antelo</i><par n="Saussure__np"/></e>
 <e lm="Antena 3"><i>Antena<b/>3</i><par n="Carrefour__np"/></e>
 <e lm="Antenne 2"><i>Antenne<b/>2</i><par n="Carrefour__np"/></e>
-<e lm="Antequera"><i>Antequera</i><par n="Andorre__np"/></e>
+<e lm="Antequera"><i>Antequera</i><par n="Bulgarie__np"/></e>
 <e lm="Antequera"><i>Antequera</i><par n="Saussure__np"/></e>
 <e lm="Antes"><i>Antes</i><par n="Saussure__np"/></e>
 <e lm="Antezana"><i>Antezana</i><par n="Saussure__np"/></e>
@@ -31313,7 +31314,7 @@
 <e lm="Antich"><i>Antich</i><par n="Saussure__np"/></e>
 <e lm="Antichrist"><i>Antichrist</i><par n="Abraham__np"/></e>
 <e lm="Antigone"><i>Antigone</i><par n="Abraham__np"/></e>
-<e lm="Antigua"><i>Antigua</i><par n="Andorre__np"/></e>
+<e lm="Antigua"><i>Antigua</i><par n="Bulgarie__np"/></e>
 <e lm="Antigua-et-Barbuda"><i>Antigua-et-Barbuda</i><par n="Bulgarie__np"/></e>
 <e lm="Antilles"><i>Antilles</i><par n="Bahamas__np"/></e>
 <e lm="Antilles françaises"><i>Antilles<b/>françaises</i><par n="Bahamas__np"/></e>
@@ -39898,6 +39899,7 @@
 <e lm="Iannuzzi"><i>Iannuzzi</i><par n="Saussure__np"/></e>
 <e lm="Ianoukovitch"><i>Ianoukovitch</i><par n="Saussure__np"/></e>
 <e lm="Ianoukovytch"><i>Ianoukovytch</i><par n="Saussure__np"/></e>
+<e lm="Koutchma"><i>Koutchma</i><par n="Saussure__np"/></e>
 <e lm="Ibaeta"><i>Ibaeta</i><par n="Saussure__np"/></e>
 <e lm="Ibagaza"><i>Ibagaza</i><par n="Saussure__np"/></e>
 <e lm="Ibargoyen"><i>Ibargoyen</i><par n="Saussure__np"/></e>
@@ -40061,7 +40063,8 @@
 <e lm="Ionie"><i>Ionie</i><par n="Andorre__np"/></e>
 <e lm="Iorio"><i>Iorio</i><par n="Saussure__np"/></e>
 <e lm="iOS"><i>iOS</i><par n="Linux__np"/></e>
-<e lm="Iouchtchenko"><i>Iouchtchenko</i><par n="Abraham__np"/></e>
+<e lm="Iouchtchenko"><i>Iouchtchenko</i><par n="Saussure__np"/></e>
+<e lm="Iouri"><i>Iouri</i><par n="Antoine__np"/></e>
 <e lm="Iouri Alexeïevitch"><i>Iouri<b/>Alexeïevitch</i><par n="Antoine__np"/></e>
 <e lm="Iowa"><i>Iowa</i><par n="Iran__np"/></e>
 <e lm="iPad"><i>iPad</i><par n="Linux__np"/></e>
@@ -40075,7 +40078,7 @@
 <e lm="Iqbal"><i>Iqbal</i><par n="Saussure__np"/></e>
 <e lm="Iraizoz"><i>Iraizoz</i><par n="Saussure__np"/></e>
 <e lm="Irak"><i>Irak</i><par n="Iran__np"/></e>
-<e lm="Irakoitz"><i>Irakoitz</i><par n="Abraham__np"/></e>
+<e lm="Irakoitz"><i>Irakoitz</i><par n="Antoine__np"/></e>
 <e lm="Iran"><i>Iran</i><par n="Iran__np"/></e>
 <e lm="Iranzo"><i>Iranzo</i><par n="Saussure__np"/></e>
 <e lm="Iraola"><i>Iraola</i><par n="Saussure__np"/></e>
@@ -49527,7 +49530,7 @@
 <e lm="Tymochenko"><i>Tymochenko</i><par n="Saussure__np"/></e>
 <e lm="Tyndale"><i>Tyndale</i><par n="Saussure__np"/></e>
 <e lm="Tyr"><i>Tyr</i><par n="Andorre__np"/></e>
-<e lm="Tyrol"><i>Tyrol</i><par n="Andorre__np"/></e>
+<e lm="Tyrol"><i>Tyrol</i><par n="Iran__np"/></e>
 <e lm="Tyson"><i>Tyson</i><par n="Antoine__np"/></e>
 <e lm="Tzipi Livni"><i>Tzipi<b/>Livni</i><par n="Marie__np"/></e>
 <e lm="Tàcit"><i>Tacite</i><par n="Saussure__np"/></e>
@@ -49540,7 +49543,6 @@
 <e lm="Téhéran"><i>Téhéran</i><par n="Iran__np"/></e>
 <e lm="Télécom"><i>Télécom</i><par n="Carrefour__np"/></e>
 <e lm="Télémaque"><i>Télémaque</i><par n="Antoine__np"/></e>
-<e lm="Télémaque"><i>Télémaque</i><par n="Saussure__np"/></e>
 <e lm="Téléthon"><i>Téléthon</i><par n="Carrefour__np"/></e>
 <e lm="télézapping"><i>télézapping</i><par n="Carrefour__np"/></e>
 <e lm="Térmens"><i>Térmens</i><par n="Saussure__np"/></e>
@@ -50908,7 +50910,6 @@
 <e lm="Yáñez"><i>Yáñez</i><par n="Saussure__np"/></e>
 <e lm="Yébenes"><i>Yébenes</i><par n="Iran__np"/></e>
 <e lm="Yémen"><i>Yémen</i><par n="Iran__np"/></e>
-<e lm="Yúschenko"><i>Yúschenko</i><par n="Saussure__np"/></e>
 <e lm="Zabala"><i>Zabala</i><par n="Saussure__np"/></e>
 <e lm="Zabaleta"><i>Zabaleta</i><par n="Saussure__np"/></e>
 <e lm="Zaballos"><i>Zaballos</i><par n="Saussure__np"/></e>
@@ -56756,7 +56757,6 @@
 <e lm="Nélida"><i>Nélida</i><par n="Marie__np"/></e>
 <e lm="Nídia"><i>Nídia</i><par n="Marie__np"/></e>
 <e lm="Níobe"><i>Níobe</i><par n="Marie__np"/></e>
-<e lm="Núria"><i>Núria</i><par n="Marie__np"/></e>
 <e lm="Obsulia"><i>Obsulia</i><par n="Marie__np"/></e>
 <e lm="Oceane"><i>Oceane</i><par n="Marie__np"/></e>
 <e lm="Octavia"><i>Octavia</i><par n="Marie__np"/></e>
@@ -57810,6 +57810,66 @@
 <e lm="jardinerie"><i>jardinerie</i><par n="abeille__n"/></e>
 <e lm="épingle"><i>épingle</i><par n="abeille__n"/></e>
 <e lm="épingler"><i>épingl</i><par n="abaiss/er__vblex"/></e>
+<e lm="oisif"><i>oisi</i><par n="affirmati/f__adj"/></e>
+<e lm="oisiveté"><i>oisiveté</i><par n="abeille__n"/></e>
+<e lm="Patrocle"><i>Patrocle</i><par n="Antoine__np"/></e>
+<e lm="Ménélas"><i>Ménélas</i><par n="Antoine__np"/></e>
+<e lm="Priam"><i>Priam</i><par n="Antoine__np"/></e>
+<e lm="Hécube"><i>Hécube</i><par n="Marie__np"/></e>
+<e lm="Œdipe"><i>Œdipe</i><par n="Antoine__np"/></e>
+<e r="LR" lm="Œdipe"><p><l>Oedipe</l><r>Œdipe</r></p><par n="Antoine__np"/></e>
+<e r="LR" lm="Œdipe"><p><l>OEdipe</l><r>Œdipe</r></p><par n="Antoine__np"/></e>
+<e lm="Semen"><i>Semen</i><par n="Antoine__np"/></e>
+<e lm="Semion"><i>Semion</i><par n="Antoine__np"/></e>
+<e lm="Nikola"><i>Nikola</i><par n="Antoine__np"/></e>
+<e lm="Nikolaï"><i>Nikolaï</i><par n="Antoine__np"/></e>
+<e lm="Hermann"><i>Hermann</i><par n="Antoine__np"/></e>
+<e lm="Yohann"><i>Yohann</i><par n="Antoine__np"/></e>
+<e lm="Tadée"><i>Tadée</i><par n="Antoine__np"/></e>
+<e lm="Matthias"><i>Matthias</i><par n="Antoine__np"/></e>
+<e lm="Emeric"><i>Emeric</i><par n="Antoine__np"/></e>
+<e lm="Rachida"><i>Rachida</i><par n="Marie__np"/></e>
+<e lm="Laëtitia"><i>Laëtitia</i><par n="Marie__np"/></e>
+<e lm="Jacquard"><i>Jacquard</i><par n="Saussure__np"/></e>
+<e lm="Andreux"><i>Andreux</i><par n="Saussure__np"/></e>
+<e lm="Boisset"><i>Boisset</i><par n="Saussure__np"/></e>
+<e lm="Boquillon"><i>Boquillon</i><par n="Saussure__np"/></e>
+<e lm="Briot"><i>Briot</i><par n="Saussure__np"/></e>
+<e lm="Brouti"><i>Brouti</i><par n="Saussure__np"/></e>
+<e lm="Cable"><i>Cable</i><par n="Saussure__np"/></e>
+<e lm="Cevalte"><i>Cevalte</i><par n="Saussure__np"/></e>
+<e lm="Ciszewski"><i>Ciszewski</i><par n="Saussure__np"/></e>
+<e lm="Kerjona"><i>Kerjona</i><par n="Saussure__np"/></e>
+<e lm="Deloy"><i>Deloy</i><par n="Saussure__np"/></e>
+<e lm="Fahy"><i>Fahy</i><par n="Saussure__np"/></e>
+<e lm="Fanel"><i>Fanel</i><par n="Saussure__np"/></e>
+<e lm="Filali"><i>Filali</i><par n="Saussure__np"/></e>
+<e lm="Gehin"><i>Gehin</i><par n="Saussure__np"/></e>
+<e lm="Gornet"><i>Gornet</i><par n="Saussure__np"/></e>
+<e lm="Gouton"><i>Gouton</i><par n="Saussure__np"/></e>
+<e lm="Grandemange"><i>Grandemange</i><par n="Saussure__np"/></e>
+<e lm="Hautchamp"><i>Hautchamp</i><par n="Saussure__np"/></e>
+<e lm="Hazotte"><i>Hazotte</i><par n="Saussure__np"/></e>
+<e lm="Jandin"><i>Jandin</i><par n="Saussure__np"/></e>
+<e lm="Khenchoul"><i>Khenchoul</i><par n="Saussure__np"/></e>
+<e lm="Nourdin"><i>Nourdin</i><par n="Saussure__np"/></e>
+<e lm="Pierron"><i>Pierron</i><par n="Saussure__np"/></e>
+<e lm="Remy"><i>Remy</i><par n="Saussure__np"/></e>
+<e lm="Rollot"><i>Rollot</i><par n="Saussure__np"/></e>
+<e lm="Sourdot"><i>Sourdot</i><par n="Saussure__np"/></e>
+<e lm="Verdier"><i>Verdier</i><par n="Saussure__np"/></e>
+<e lm="Voilquin"><i>Voilquin</i><par n="Saussure__np"/></e>
+<e lm="Werner"><i>Werner</i><par n="Saussure__np"/></e>
+<e lm="Behary"><i>Behary</i><par n="Saussure__np"/></e>
+<e lm="Laul"><i>Laul</i><par n="Saussure__np"/></e>
+<e lm="Sirder"><i>Sirder</i><par n="Saussure__np"/></e>
+<e lm="Hinzelin"><i>Hinzelin</i><par n="Saussure__np"/></e>
+<e lm="Hollerith"><i>Hollerith</i><par n="Saussure__np"/></e>
+<e lm="Jehel"><i>Jehel</i><par n="Saussure__np"/></e>
+<e lm="Massing"><i>Massing</i><par n="Saussure__np"/></e>
+<e lm="Rothon"><i>Rothon</i><par n="Saussure__np"/></e>
+<e lm="Tyrolien"><i>Tyrolien</i><par n="ancien__n"/></e>
+<e lm="tyrolien"><i>tyrolien</i><par n="ancien__adj"/></e>
 
 <!-- xxxx -->
   </section>
