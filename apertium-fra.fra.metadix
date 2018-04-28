@@ -32232,11 +32232,11 @@
 <e lm="Bakio"><i>Bakio</i><par n="Andorre__np"/></e>
 <e lm="Bakkali"><i>Bakkali</i><par n="Saussure__np"/></e>
 <e lm="Bakker"><i>Bakker</i><par n="Saussure__np"/></e>
-<e lm="Bakou"><i>Bakou</i><par n="Andorre__np"/></e>
-<e lm="Bakounine1"><i>Bakounine1</i><par n="Saussure__np"/></e>
+<e lm="Bakou"><i>Bakou</i><par n="Iran__np"/></e>
+<e lm="Bakounine"><i>Bakounine</i><par n="Saussure__np"/></e>
 <e lm="Balada"><i>Balada</i><par n="Saussure__np"/></e>
 <e lm="Balaguer"><i>Balaguer</i><par n="Saussure__np"/></e>
-<e lm="Balaguer"><i>Balaguer</i><par n="Andorre__np"/></e>
+<e lm="Balaguer"><i>Balaguer</i><par n="Iran__np"/></e>
 <e lm="Balaguero"><i>Balaguero</i><par n="Saussure__np"/></e>
 <e lm="Balagué"><i>Balagué</i><par n="Saussure__np"/></e>
 <e lm="Balan"><i>Balan</i><par n="Saussure__np"/></e>
@@ -42021,7 +42021,8 @@
 <e lm="Lowry"><i>Lowry</i><par n="Saussure__np"/></e>
 <e lm="Lowy"><i>Lowy</i><par n="Saussure__np"/></e>
 <e lm="Loyer" a="hector"><i>Loyer</i><par n="Saussure__np"/></e>
-<e lm="Loyola"><i>Loyola</i><par n="Saussure__np"/></e>
+<e lm="Loyola"><i>Loyola</i><par n="Marie__np"/></e>
+<e lm="Loyola"><i>Loyola</i><par n="Bulgarie__np"/></e>
 <e lm="Loza"><i>Loza</i><par n="Saussure__np"/></e>
 <e lm="Lozada"><i>Lozada</i><par n="Saussure__np"/></e>
 <e lm="Lozano"><i>Lozano</i><par n="Saussure__np"/></e>
@@ -43275,8 +43276,6 @@
 <e lm="Mercure"><i>Mercure</i><par n="Antoine__np"/></e>
 <e lm="Mercure"><i>Mercure</i><par n="Saussure__np"/></e>
 <e lm="Mercuri"><i>Mercuri</i><par n="Saussure__np"/></e>
-<e lm="Mercè"><i>Mercè</i><par n="Saussure__np"/></e>
-<e lm="Mercé"><i>Mercé</i><par n="Saussure__np"/></e>
 <e lm="Meredith"><i>Meredith</i><par n="Saussure__np"/></e>
 <e lm="Meredith"><i>Meredith</i><par n="Antoine__np"/></e>
 <e lm="Meredith"><i>Meredith</i><par n="Marie__np"/></e>
@@ -56472,6 +56471,7 @@
 <e lm="Melània"><i>Melània</i><par n="Marie__np"/></e>
 <e lm="Mercedes"><i>Mercedes</i><par n="Marie__np"/></e>
 <e lm="Mercè"><i>Mercè</i><par n="Marie__np"/></e>
+<e lm="Mercé"><i>Mercé</i><par n="Marie__np"/></e>
 <e lm="Meredith"><i>Meredith</i><par n="Marie__np"/></e>
 <e lm="Meriem"><i>Meriem</i><par n="Marie__np"/></e>
 <e lm="Meritxell"><i>Meritxell</i><par n="Marie__np"/></e>
@@ -57870,6 +57870,7 @@
 <e lm="Rothon"><i>Rothon</i><par n="Saussure__np"/></e>
 <e lm="Tyrolien"><i>Tyrolien</i><par n="ancien__n"/></e>
 <e lm="tyrolien"><i>tyrolien</i><par n="ancien__adj"/></e>
+<e lm="Sénèque"><i>Sénèque</i><par n="Saussure__np"/></e>
 
 <!-- xxxx -->
   </section>
