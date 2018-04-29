@@ -58075,10 +58075,14 @@
 <e lm="Coulombel"><i>Coulombel</i><par n="Saussure__np"/></e>
 <e lm="Dupoirieux"><i>Dupoirieux</i><par n="Saussure__np"/></e>
 <e lm="Arbaoui"><i>Arbaoui</i><par n="Saussure__np"/></e>
+<e lm="Rouay"><i>Rouay</i><par n="Saussure__np"/></e>
+<e lm="Hildenbrand"><i>Hildenbrand</i><par n="Saussure__np"/></e>
 <e lm="Bakhtiar"><i>Bakhtiar</i><par n="Antoine__np"/></e>
 <e lm="Mafik"><i>Mafik</i><par n="Antoine__np"/></e>
-<e lm="Receveur"><i>Receveur</i><par n="Antoine__np"/></e>
-<e lm="Receveur"><i>Receveur</i><par n="Antoine__np"/></e>
+<e lm="Domènech i Montaner"><i>Domènech<b/>i<b/>Montaner</i><par n="Saussure__np"/></e>
+<e lm="Puig i Cadafalch"><i>Puig<b/>i<b/>Cadafalch</i><par n="Saussure__np"/></e>
+<e lm="Pujol i Ferrusola"><i>Pujol<b/>i<b/>Ferrusola</i><par n="Saussure__np"/></e>
+<e lm="Pujol i Soley"><i>Pujol<b/>i<b/>Soley</i><par n="Saussure__np"/></e>
 
 <!-- xxxx -->
   </section>
