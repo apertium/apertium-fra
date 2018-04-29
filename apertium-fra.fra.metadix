@@ -48465,7 +48465,6 @@
 <e lm="Stalin"><i>Stalin</i><par n="Saussure__np"/></e>
 <e lm="Stalinabad"><i>Stalinabad</i><par n="Iran__np"/></e>
 <e lm="Staline"><i>Staline</i><par n="Saussure__np"/></e>
-<e lm="Staline"><i>Staline</i><par n="Andorre__np"/></e>
 <e lm="Stalingrad"><i>Stalingrad</i><par n="Iran__np"/></e>
 <e lm="Stallman"><i>Stallman</i><par n="Saussure__np"/></e>
 <e lm="Stallone"><i>Stallone</i><par n="Saussure__np"/></e>
@@ -48473,10 +48472,9 @@
 <e lm="Stan"><i>Stan</i><par n="Saussure__np"/></e>
 <e lm="Standard"><i>Standard</i><par n="Carrefour__np"/></e>
 <e lm="Standford"><i>Standford</i><par n="Carrefour__np"/></e>
-<e lm="Stanford"><i>Stanford</i><par n="Andorre__np"/></e>
+<e lm="Stanford"><i>Stanford</i><par n="Iran__np"/></e>
 <e lm="Stanford"><i>Stanford</i><par n="Carrefour__np"/></e>
 <e lm="Stangelj"><i>Stangelj</i><par n="Abraham__np"/></e>
-<e lm="Stanislas"><i>Stanislas</i><par n="Abraham__np"/></e>
 <e lm="Stanislav Gross"><i>Stanislav<b/>Gross</i><par n="Antoine__np"/></e>
 <e lm="Stanislavski"><i>Stanislavski</i><par n="Saussure__np"/></e>
 <e lm="Stanley"><i>Stanley</i><par n="Saussure__np"/></e>
@@ -58003,6 +58001,62 @@
 <e lm="Halil"><i>Halil</i><par n="Antoine__np"/></e>
 <e lm="Ballare"><i>Ballare</i><par n="Saussure__np"/></e>
 <e lm="Ferrusola"><i>Ferrusola</i><par n="Saussure__np"/></e>
+
+<e lm="industriel" a="jaumeortola"><i>industriel</i><par n="colonel__n"/></e>
+    <e lm="banc de sable"><i>banc</i><par n="livre__n"/><p><l><b/>de<b/>sable</l><r><g><b/>de<b/>sable</g></r></p></e>
+<e lm="ostéoporose" a="jaumeortola"><i>ostéoporose</i><par n="abeille__n"/></e>
+<e lm="monocotylédone" a="jaumeortola"><i>monocotylédone</i><par n="abeille__n"/></e>
+<e lm="limonite" a="jaumeortola"><i>limonite</i><par n="abeille__n"/></e>
+<e lm="inviolabilité" a="jaumeortola"><i>inviolabilité</i><par n="abeille__n"/></e>
+    <e lm="côté au vent"><i>côté</i><par n="livre__n"/><p><l><b/>au<b/>vent</l><r><g><b/>au<b/>vent</g></r></p></e>
+    <e lm="côté dessus du vent"><i>côté</i><par n="livre__n"/><p><l><b/>dessus<b/>du<b/>vent</l><r><g><b/>dessus<b/>du<b/>vent</g></r></p></e>
+    <e lm="jet d'eau"><i>jet</i><par n="livre__n"/><p><l><b/>d'eau</l><r><g><b/>d'eau</g></r></p></e>
+<e lm="subversion" a="jaumeortola"><i>subversion</i><par n="abeille__n"/></e>
+<e lm="hypoglycémie" a="jaumeortola"><i>hypoglycémie</i><par n="abeille__n"/></e>
+<e lm="klaxon" a="jaumeortola"><i>klaxon</i><par n="livre__n"/></e>
+<e lm="rudiment" a="jaumeortola"><i>rudiment</i><par n="livre__n"/></e>
+<e lm="paracétamol" a="jaumeortola"><i>paracétamo</i><par n="cie/l__n"/></e>
+<e lm="négrier" a="jaumeortola"><i>négri</i><par n="bouch/er__n"/></e>
+<e lm="créationnisme" a="jaumeortola"><i>créationnisme</i><par n="livre__n"/></e>
+<e lm="chlorate" a="jaumeortola"><i>chlorate</i><par n="livre__n"/></e>
+<e lm="périphrase" a="jaumeortola"><i>périphrase</i><par n="abeille__n"/></e>
+<e lm="hyperbole" a="jaumeortola"><i>hyperbole</i><par n="abeille__n"/></e>
+<e lm="gynécologie" a="jaumeortola"><i>gynécologie</i><par n="abeille__n"/></e>
+<e lm="cantine" a="jaumeortola"><i>cantine</i><par n="abeille__n"/></e>
+<e lm="platonisme" a="jaumeortola"><i>platonisme</i><par n="livre__n"/></e>
+<e lm="nudisme" a="jaumeortola"><i>nudisme</i><par n="livre__n"/></e>
+    <e lm="employé de bureau"><i>employé</i><par n="affecté__n"/><p><l><b/>de<b/>bureau</l><r><g><b/>de<b/>bureau</g></r></p></e>
+    <e lm="stand de ravitaillement"><i>stand</i><par n="livre__n"/><p><l><b/>de<b/>ravitaillement</l><r><g><b/>de<b/>ravitaillement</g></r></p></e>
+<e lm="semoule" a="jaumeortola"><i>semoule</i><par n="abeille__n"/></e>
+<e lm="polysémie" a="jaumeortola"><i>polysémie</i><par n="abeille__n"/></e>
+<e lm="pectine" a="jaumeortola"><i>pectine</i><par n="abeille__n"/></e>
+<e lm="criminologie" a="jaumeortola"><i>criminologie</i><par n="abeille__n"/></e>
+<e lm="tétanos" a="jaumeortola"><i>tétanos</i><par n="IRPF__n"/></e>
+    <e lm="locuteur d'espagnol"><i>locut</i><par n="administrat/eur__n"/><p><l><b/>d'espagnol</l><r><g><b/>d'espagnol</g></r></p></e>
+    <e lm="responsable de projet"><i>responsable</i><par n="artiste__n"/><p><l><b/>de<b/>projet</l><r><g><b/>de<b/>projet</g></r></p></e>
+    <e lm="joueur de golf"><i>joueu</i><par n="causeu/r__n"/><p><l><b/>de<b/>golf</l><r><g><b/>de<b/>golf</g></r></p></e>
+<e lm="scaphandre" a="jaumeortola"><i>scaphandre</i><par n="livre__n"/></e>
+<e lm="épicycle" a="jaumeortola"><i>épicycle</i><par n="livre__n"/></e>
+<e lm="élitisme" a="jaumeortola"><i>élitisme</i><par n="livre__n"/></e>
+<e lm="condom" a="jaumeortola"><i>condom</i><par n="livre__n"/></e>
+<e lm="brocoli" a="jaumeortola"><i>brocoli</i><par n="livre__n"/></e>
+<e lm="bricolage" a="jaumeortola"><i>bricolage</i><par n="livre__n"/></e>
+    <e lm="chef de famille"><i>chef</i><par n="artiste__n"/><p><l><b/>de<b/>famille</l><r><g><b/>de<b/>famille</g></r></p></e>
+<e lm="vaseline" a="jaumeortola"><i>vaseline</i><par n="abeille__n"/></e>
+<e lm="sexologie" a="jaumeortola"><i>sexologie</i><par n="abeille__n"/></e>
+<e lm="rubéole" a="jaumeortola"><i>rubéole</i><par n="abeille__n"/></e>
+    <e lm="joueur de viole"><i>joueu</i><par n="causeu/r__n"/><p><l><b/>de<b/>viole</l><r><g><b/>de<b/>viole</g></r></p></e>
+    <e lm="fabricant de meubles"><i>fabricant</i><par n="affecté__n"/><p><l><b/>de<b/>meubles</l><r><g><b/>de<b/>meubles</g></r></p></e>
+    <e lm="marchand de meubles"><i>marchand</i><par n="affecté__n"/><p><l><b/>de<b/>meubles</l><r><g><b/>de<b/>meubles</g></r></p></e>
+    <e lm="action d'adjectiver"><i>action</i><par n="abeille__n"/><p><l><b/>d'adjectiver</l><r><g><b/>d'adjectiver</g></r></p></e>
+<e lm="Unicef" a="jaumeortola"><i>Unicef</i><par n="IRPF__n"/></e>
+    <e lm="auditeur de la radio"><i>audit</i><par n="administrat/eur__n"/><p><l><b/>de<b/>la<b/>radio</l><r><g><b/>de<b/>la<b/>radio</g></r></p></e>
+<e lm="dermatologue" a="jaumeortola"><i>dermatologue</i><par n="artiste__n"/></e>
+<e lm="ornithologue" a="jaumeortola"><i>ornithologue</i><par n="artiste__n"/></e>
+<e lm="toxicologue" a="jaumeortola"><i>toxicologue</i><par n="artiste__n"/></e>
+<e lm="dermatologie" a="jaumeortola"><i>dermatologie</i><par n="abeille__n"/></e>
+<e lm="toxicologie" a="jaumeortola"><i>toxicologie</i><par n="abeille__n"/></e>
+<e lm="trilinguisme" a="jaumeortola"><i>trilinguisme</i><par n="livre__n"/></e>
 
 <!-- xxxx -->
   </section>
