@@ -14926,6 +14926,7 @@
 <e lm="CHA"><i>CHA</i><par n="BBVA__n"/></e>
 <e lm="chadouf" a="jaumeortola"><i>chadouf</i><par n="livre__n"/></e>
 <e lm="chagrin"><i>chagrin</i><par n="livre__n"/></e>
+<e lm="chah"><i>chah</i><par n="livre__n"/></e>
 <e lm="chahuteur"><i>chahuteu</i><par n="causeu/r__n"/></e>
 <e lm="chair"><i>chair</i><par n="abeille__n"/></e>
 <e lm="chaire" a="jaumeortola"><i>chaire</i><par n="abeille__n"/></e>
@@ -31297,7 +31298,7 @@
 <e lm="Ansó"><i>Ansó</i><par n="Andorre__np"/></e>
 <e lm="Ansóain"><i>Ansóain</i><par n="Abraham__np"/></e>
 <e lm="Antalya"><i>Antalya</i><par n="Bulgarie__np"/></e>
-<e lm="Antarctique"><i>Antarctique</i><par n="Bulgarie__np"/></e>
+<e lm="Antarctique"><i>Antarctique</i><par n="Iran__np"/></e>
 <e lm="Antaviana"><i>Antaviana</i><par n="Wikipedia__np"/></e>
 <e lm="Antawn"><i>Antawn</i><par n="Abraham__np"/></e>
 <e lm="Antaya"><i>Antaya</i><par n="Saussure__np"/></e>
@@ -35330,7 +35331,7 @@
 <e lm="Cooper"><i>Cooper</i><par n="Saussure__np"/></e>
 <e lm="Cope"><i>Cope</i><par n="Saussure__np"/></e>
 <e lm="Copeland"><i>Copeland</i><par n="Saussure__np"/></e>
-<e lm="Copenhague"><i>Copenhague</i><par n="Andorre__np"/></e>
+<e lm="Copenhague"><i>Copenhague</i><par n="Iran__np"/></e>
 <e lm="Copernic"><i>Copernic</i><par n="Saussure__np"/></e>
 <e lm="Coppola"><i>Coppola</i><par n="Saussure__np"/></e>
 <e lm="Copé"><i>Copé</i><par n="Abraham__np"/></e>
@@ -39031,12 +39032,13 @@
 <e lm="Grisé"><i>Grisé</i><par n="Saussure__np"/></e>
 <e lm="Griño"><i>Griño</i><par n="Saussure__np"/></e>
 <e lm="Griñán"><i>Griñán</i><par n="Saussure__np"/></e>
-<e lm="Groenland"><i>Groenland</i><par n="Andorre__np"/></e>
+<e lm="Groenland"><i>Groenland</i><par n="Iran__np"/></e>
 <e lm="Grohl"><i>Grohl</i><par n="Saussure__np"/></e>
 <e lm="Groleau" a="hector"><i>Groleau</i><par n="Saussure__np"/></e>
 <e lm="Grondin" a="hector"><i>Grondin</i><par n="Saussure__np"/></e>
 <e lm="Grondines"><i>Grondines</i><par n="Saussure__np"/></e>
 <e lm="Gros"><i>Gros</i><par n="Saussure__np"/></e>
+<e lm="Grosjean"><i>Grosjean</i><par n="Saussure__np"/></e>
 <e lm="Groslouis"><i>Groslouis</i><par n="Saussure__np"/></e>
 <e lm="Gross"><i>Gross</i><par n="Saussure__np"/></e>
 <e lm="Grosse"><i>Grosse</i><par n="Saussure__np"/></e>
@@ -57914,7 +57916,7 @@
 <e lm="Hadnagy"><i>Hadnagy</i><par n="Saussure__np"/></e>
 <e lm="Hasél"><i>Hasél</i><par n="Saussure__np"/></e>
 <e lm="Hernáiz"><i>Hernáiz</i><par n="Saussure__np"/></e>
-<e lm="Hypéride"><i>Hypéride</i><par n="Saussure__np"/></e>
+<e lm="Hypéride"><i>Hypéride</i><par n="Antoine__np"/></e>
 <e lm="Huerga"><i>Huerga</i><par n="Saussure__np"/></e>
 <e lm="Illueca"><i>Illueca</i><par n="Saussure__np"/></e>
 <e lm="Iturbi"><i>Iturbi</i><par n="Saussure__np"/></e>
@@ -57954,7 +57956,7 @@
 <e lm="Sauerbruch"><i>Sauerbruch</i><par n="Saussure__np"/></e>
 <e lm="Sclarsky"><i>Sclarsky</i><par n="Saussure__np"/></e>
 <e lm="Signes"><i>Signes</i><par n="Saussure__np"/></e>
-<e lm="Simònides"><i>Simònides</i><par n="Saussure__np"/></e>
+<e lm="Simonide"><i>Simonide</i><par n="Antoine__np"/></e>
 <e lm="Solson"><i>Solson</i><par n="Saussure__np"/></e>
 <e lm="Stravinsky"><i>Stravinsky</i><par n="Saussure__np"/></e>
 <e lm="Subiela"><i>Subiela</i><par n="Saussure__np"/></e>
