@@ -239,6 +239,10 @@ REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
 REMOVE Fin IF (-1C V LINK NOT 0 PP) (0 Fin OR N OR A OR PP OR Det) ;
   ## tenir compte de
 
+SELECT Vbmod (0 Devoir) (1 Inf) ;
+REMOVE Vbmod (0 Devoir + PP) (-1 Ser) ;
+REMOVE Vbmod (0 Devoir) (1 ("à")) ;
+
 REMOVE Ifi IF (0 Pri + P1 OR Ifi + P1) ;
 REMOVE Ifi IF (0 Pri + P2 OR Ifi + P2) ;
   ## je vis, tu vis
