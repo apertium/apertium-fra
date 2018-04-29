@@ -9168,7 +9168,10 @@
 <e lm="idiot"><i>idiot</i><par n="abaissant__adj"/></e>
 <e lm="idoine"><i>idoine</i><par n="académique__adj"/></e>
 <e lm="idyllique" a="jaumeortola"><i>idyllique</i><par n="académique__adj"/></e>
-<e lm="idéal"><i>idéal</i><par n="abaissant__adj"/></e>
+<e lm="idéal"><i>idéa</i><par n="amica/l__adj"/></e>
+<e lm="idéal"><i>idéa</i><par n="cie/l__n"/></e>
+<e r="LR" lm="idéal"><p><l>idéals</l><r>idéal<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
+<e r="LR" lm="idéal"><p><l>idéals</l><r>idéal<s n="adj"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="idéaliste" a="jaumeortola"><i>idéaliste</i><par n="académique__adj"/></e>
 <e lm="idéologique"><i>idéologique</i><par n="académique__adj"/></e>
 <e lm="ignare" a="jaumeortola"><i>ignare</i><par n="académique__adj"/></e>
@@ -58031,7 +58034,7 @@
 <e lm="polysémie" a="jaumeortola"><i>polysémie</i><par n="abeille__n"/></e>
 <e lm="pectine" a="jaumeortola"><i>pectine</i><par n="abeille__n"/></e>
 <e lm="criminologie" a="jaumeortola"><i>criminologie</i><par n="abeille__n"/></e>
-<e lm="tétanos" a="jaumeortola"><i>tétanos</i><par n="IRPF__n"/></e>
+<e lm="tétanos" a="jaumeortola"><i>tétanos</i><par n="mois__n"/></e>
     <e lm="locuteur d'espagnol"><i>locut</i><par n="administrat/eur__n"/><p><l><b/>d'espagnol</l><r><g><b/>d'espagnol</g></r></p></e>
     <e lm="responsable de projet"><i>responsable</i><par n="artiste__n"/><p><l><b/>de<b/>projet</l><r><g><b/>de<b/>projet</g></r></p></e>
     <e lm="joueur de golf"><i>joueu</i><par n="causeu/r__n"/><p><l><b/>de<b/>golf</l><r><g><b/>de<b/>golf</g></r></p></e>
@@ -58049,7 +58052,7 @@
     <e lm="fabricant de meubles"><i>fabricant</i><par n="affecté__n"/><p><l><b/>de<b/>meubles</l><r><g><b/>de<b/>meubles</g></r></p></e>
     <e lm="marchand de meubles"><i>marchand</i><par n="affecté__n"/><p><l><b/>de<b/>meubles</l><r><g><b/>de<b/>meubles</g></r></p></e>
     <e lm="action d'adjectiver"><i>action</i><par n="abeille__n"/><p><l><b/>d'adjectiver</l><r><g><b/>d'adjectiver</g></r></p></e>
-<e lm="Unicef" a="jaumeortola"><i>Unicef</i><par n="IRPF__n"/></e>
+<e lm="Unicef" a="jaumeortola"><i>Unicef</i><par n="BBC__n"/></e>
     <e lm="auditeur de la radio"><i>audit</i><par n="administrat/eur__n"/><p><l><b/>de<b/>la<b/>radio</l><r><g><b/>de<b/>la<b/>radio</g></r></p></e>
 <e lm="dermatologue" a="jaumeortola"><i>dermatologue</i><par n="artiste__n"/></e>
 <e lm="ornithologue" a="jaumeortola"><i>ornithologue</i><par n="artiste__n"/></e>
@@ -58057,6 +58060,25 @@
 <e lm="dermatologie" a="jaumeortola"><i>dermatologie</i><par n="abeille__n"/></e>
 <e lm="toxicologie" a="jaumeortola"><i>toxicologie</i><par n="abeille__n"/></e>
 <e lm="trilinguisme" a="jaumeortola"><i>trilinguisme</i><par n="livre__n"/></e>
+
+<e lm="Receveur"><i>Receveur</i><par n="Saussure__np"/></e>
+<e lm="Hamand"><i>Hamand</i><par n="Saussure__np"/></e>
+<e lm="Farinet"><i>Farinet</i><par n="Saussure__np"/></e>
+<e lm="Fouard"><i>Fouard</i><par n="Saussure__np"/></e>
+<e lm="Zanin"><i>Zanin</i><par n="Saussure__np"/></e>
+<e lm="Thévenet"><i>Thévenet</i><par n="Saussure__np"/></e>
+<e lm="Cajelot"><i>Cajelot</i><par n="Saussure__np"/></e>
+<e lm="Bouima"><i>Bouima</i><par n="Saussure__np"/></e>
+<e lm="Orlik"><i>Orlik</i><par n="Saussure__np"/></e>
+<e lm="Noua"><i>Noua</i><par n="Saussure__np"/></e>
+<e lm="Caduret"><i>Caduret</i><par n="Saussure__np"/></e>
+<e lm="Coulombel"><i>Coulombel</i><par n="Saussure__np"/></e>
+<e lm="Dupoirieux"><i>Dupoirieux</i><par n="Saussure__np"/></e>
+<e lm="Arbaoui"><i>Arbaoui</i><par n="Saussure__np"/></e>
+<e lm="Bakhtiar"><i>Bakhtiar</i><par n="Antoine__np"/></e>
+<e lm="Mafik"><i>Mafik</i><par n="Antoine__np"/></e>
+<e lm="Receveur"><i>Receveur</i><par n="Antoine__np"/></e>
+<e lm="Receveur"><i>Receveur</i><par n="Antoine__np"/></e>
 
 <!-- xxxx -->
   </section>
