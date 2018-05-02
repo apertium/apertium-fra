@@ -7487,6 +7487,8 @@
 <e lm="auguste" a="jaumeortola"><i>auguste</i><par n="académique__adj"/></e>
 <e lm="augustin" a="jaumeortola"><i>augustin</i><par n="abaissant__adj"/></e>
 <e lm="augustinien" a="jaumeortola"><i>augustinien</i><par n="ancien__adj"/></e>
+<e lm="galiléen" a="jaumeortola"><i>galiléen</i><par n="ancien__adj"/></e>
+<e lm="galiléen" a="jaumeortola"><i>galiléen</i><par n="ancien__n"/></e>
 <e lm="aumônier" a="jaumeortola"><i>aumôni</i><par n="ch/er__adj"/></e>
 <e lm="auriculaire" a="jaumeortola"><i>auriculaire</i><par n="académique__adj"/></e>
 <e lm="auriculé" a="jaumeortola"><i>auriculé</i><par n="abaissant__adj"/></e>
@@ -10787,6 +10789,7 @@
 <e lm="réactionnaire"><i>réactionnaire</i><par n="académique__adj"/></e>
 <e lm="réalisable" a="jaumeortola"><i>réalisable</i><par n="académique__adj"/></e>
 <e lm="réaliste"><i>réaliste</i><par n="académique__adj"/></e>
+<e lm="néoréaliste"><i>néoréaliste</i><par n="académique__adj"/></e>
 <e lm="récent"><i>récent</i><par n="abaissant__adj"/></e>
 <e lm="récepteur" a="jaumeortola"><i>récept</i><par n="conduct/eur__adj"/></e>
 <e lm="réceptif"><i>récepti</i><par n="affirmati/f__adj"/></e>
@@ -15132,6 +15135,7 @@
 <e lm="chronologie"><i>chronologie</i><par n="abeille__n"/></e>
 <e lm="chronomètre"><i>chronomètre</i><par n="livre__n"/></e>
 <e lm="chronométrage"><i>chronométrage</i><par n="livre__n"/></e>
+<e lm="chronométrer"><i>chronométr</i><par n="abaiss/er__vblex"/></e>
 <e lm="chrysalide" a="jaumeortola"><i>chrysalide</i><par n="abeille__n"/></e>
 <e lm="chrysanthème" a="jaumeortola"><i>chrysanthème</i><par n="livre__n"/></e>
 <e lm="chrétien"><i>chrétien</i><par n="ancien__n"/></e>
@@ -18540,6 +18544,7 @@
 <e lm="henné" a="jaumeortola"><i>henné</i><par n="livre__n"/></e>
 <e lm="heptalogie" a="jaumeortola"><i>heptalogie</i><par n="abeille__n"/></e>
 <e lm="heptathlon" a="hector"><i>heptathlon</i><par n="livre__n"/></e>
+<e lm="pentathlon" a="hector"><i>pentathlon</i><par n="livre__n"/></e>
 <e lm="herbage" a="jaumeortola"><i>herbage</i><par n="livre__n"/></e>
 <e lm="herbe"><i>herbe</i><par n="abeille__n"/></e>
 <e lm="herbicide" a="jaumeortola"><i>herbicide</i><par n="livre__n"/></e>
@@ -24469,6 +24474,8 @@
 <e lm="surprotection"><i>surprotection</i><par n="abeille__n"/></e>
 <e lm="surréalisme"><i>surréalisme</i><par n="livre__n"/></e>
 <e lm="surréaliste" a="jaumeortola"><i>surréaliste</i><par n="artiste__n"/></e>
+<e lm="réaliste"><i>réaliste</i><par n="artiste__n"/></e>
+<e lm="néoréaliste"><i>néoréaliste</i><par n="artiste__n"/></e>
 <e lm="surréservation" a="jaumeortola"><i>surréservation</i><par n="abeille__n"/></e>
 <e lm="sursaut"><i>sursaut</i><par n="livre__n"/></e>
 <e lm="sursis"><i>sursis</i><par n="mois__n"/></e>
@@ -52292,6 +52299,7 @@
 <e lm="positivement"><i>positivement</i><par n="hier__adv"/></e>
 <e lm="possiblement" a="hector"><i>possiblement</i><par n="hier__adv"/></e>
 <e lm="postalement" a="hector"><i>postalement</i><par n="hier__adv"/></e>
+<e lm="postérieur"><i>postérieur</i><par n="abaissant__adj"/></e>
 <e lm="postérieurement"><i>postérieurement</i><par n="hier__adv"/></e>
 <e lm="potentiellement"><i>potentiellement</i><par n="hier__adv"/></e>
 <e lm="pour"><i>pour</i><par n="hier__adv"/></e>
