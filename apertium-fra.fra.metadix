@@ -30226,6 +30226,7 @@
 <e lm="Ailanto"><i>Ailanto</i><par n="Abraham__np"/></e>
 <e lm="Aimar"><i>Aimar</i><par n="Abraham__np"/></e>
 <e lm="Aimé"><i>Aimé</i><par n="Saussure__np"/></e>
+<e lm="Aimé"><i>Aimé</i><par n="Antoine__np"/></e>
 <e lm="Ain"><i>Ain</i><par n="Andorre__np"/></e>
 <e lm="Aina"><i>Aina</i><par n="Marie__np"/></e>
 <e lm="Ainalik"><i>Ainalik</i><par n="Saussure__np"/></e>
@@ -30690,13 +30691,13 @@
 <e lm="Alkain"><i>Alkain</i><par n="Abraham__np"/></e>
 <e lm="Alkalde"><i>Alkalde</i><par n="Carrefour__np"/></e>
 <e lm="Alkarbide"><i>Alkarbide</i><par n="Carrefour__np"/></e>
-<e lm="Alkartasuna"><i>Alkartasuna</i><par n="Carrefour__np"/></e>
+<e lm="Alkartasuna"><i>Alkartasuna</i><par n="Wikipedia__np"/></e>
 <e lm="Alkiza"><i>Alkiza</i><par n="Abraham__np"/></e>
 <e lm="Alkmaar"><i>Alkmaar</i><par n="Andorre__np"/></e>
-<e lm="Alkorta"><i>Alkorta</i><par n="Abraham__np"/></e>
-<e lm="Allah"><i>Allah</i><par n="Abraham__np"/></e>
+<e lm="Alkorta"><i>Alkorta</i><par n="Saussure__np"/></e>
+<e lm="Allah"><i>Allah</i><par n="Antoine__np"/></e>
 <e lm="Allaire" a="hector"><i>Allaire</i><par n="Saussure__np"/></e>
-<e lm="Allaman"><i>Allaman</i><par n="Andorre__np"/></e>
+<e lm="Allaman"><i>Allaman</i><par n="Iran__np"/></e>
 <e lm="Allan"><i>Allan</i><par n="Saussure__np"/></e>
 <e lm="Allan Bo"><i>Allan<b/>Bo</i><par n="Antoine__np"/></e>
 <e lm="Allard" a="hector"><i>Allard</i><par n="Saussure__np"/></e>
@@ -30884,9 +30885,7 @@
 <e lm="Alzorriz"><i>Alzorriz</i><par n="Abraham__np"/></e>
 <e lm="Alzuria"><i>Alzuria</i><par n="Abraham__np"/></e>
 <e lm="Alzuza"><i>Alzuza</i><par n="Andorre__np"/></e>
-<e lm="Alá"><i>Alá</i><par n="Antoine__np"/></e>
 <e lm="Alçay"><i>Alçay</i><par n="Andorre__np"/></e>
-<e lm="Alí"><i>Alí</i><par n="Saussure__np"/></e>
 <e lm="Alícia"><i>Alícia</i><par n="Marie__np"/></e>
 <e lm="Alòs"><i>Alòs</i><par n="Saussure__np"/></e>
 <e lm="Alós"><i>Alós</i><par n="Saussure__np"/></e>
@@ -32155,7 +32154,7 @@
 <e lm="Babylone"><i>Babylone</i><par n="Bulgarie__np"/></e>
 <e lm="Baca"><i>Baca</i><par n="Saussure__np"/></e>
 <e lm="Bacardit"><i>Bacardit</i><par n="Saussure__np"/></e>
-<e lm="Bacchus"><i>Bacchus</i><par n="Abraham__np"/></e>
+<e lm="Bacchus"><i>Bacchus</i><par n="Antoine__np"/></e>
 <e lm="Bach"><i>Bach</i><par n="Saussure__np"/></e>
 <e lm="Bachand" a="hector"><i>Bachand</i><par n="Saussure__np"/></e>
 <e lm="Bachar Al-Assad"><i>Bachar<b/>Al-Assad</i><par n="Antoine__np"/></e>
@@ -32169,7 +32168,6 @@
 <e lm="Bachman"><i>Bachman</i><par n="Saussure__np"/></e>
 <e lm="Bachs"><i>Bachs</i><par n="Saussure__np"/></e>
 <e lm="Bacon"><i>Bacon</i><par n="Saussure__np"/></e>
-<e lm="Bacus"><i>Bacus</i><par n="Antoine__np"/></e>
 <e lm="Badajoz"><i>Badajoz</i><par n="Iran__np"/></e>
 <e lm="Badal"><i>Badal</i><par n="Saussure__np"/></e>
 <e lm="Badalamenti"><i>Badalamenti</i><par n="Saussure__np"/></e>
@@ -34297,7 +34295,6 @@
 <e lm="Carolla"><i>Carolla</i><par n="Saussure__np"/></e>
 <e lm="Carolyn"><i>Carolyn</i><par n="Abraham__np"/></e>
 <e lm="Caron" a="hector"><i>Caron</i><par n="Saussure__np"/></e>
-<e lm="Caront"><i>Caront</i><par n="Antoine__np"/></e>
 <e lm="Carot"><i>Carot</i><par n="Saussure__np"/></e>
 <e lm="Carpena"><i>Carpena</i><par n="Saussure__np"/></e>
 <e lm="Carpenter"><i>Carpenter</i><par n="Saussure__np"/></e>
@@ -34928,10 +34925,11 @@
 <e lm="Chung"><i>Chung</i><par n="Saussure__np"/></e>
 <e lm="Church"><i>Church</i><par n="Saussure__np"/></e>
 <e lm="Churchill"><i>Churchill</i><par n="Saussure__np"/></e>
-<e lm="Chutes du Niagara"><i>Chutes<b/>du<b/>Niagara</i><par n="Andorre__np"/></e>
+<e lm="Chutes du Niagara"><i>Chutes<b/>du<b/>Niagara</i><par n="Bahamas__np"/></e>
 <e lm="Chypre"><i>Chypre</i><par n="Bulgarie__np"/></e>
 <e lm="Chávez"><i>Chávez</i><par n="Saussure__np"/></e>
-<e lm="Châlons-en-Champagne"><i>Châlons-en-Champagne</i><par n="Andorre__np"/></e>
+<e lm="Châlons"><i>Châlons</i><par n="Iran__np"/></e>
+<e lm="Châlons-en-Champagne"><i>Châlons-en-Champagne</i><par n="Iran__np"/></e>
 <e lm="Châteauroux"><i>Châteauroux</i><par n="Andorre__np"/></e>
 <e lm="Châtelain"><i>Châtelain</i><par n="Saussure__np"/></e>
 <e lm="Chèvrefils"><i>Chèvrefils</i><par n="Saussure__np"/></e>
@@ -43375,7 +43373,6 @@
 <e lm="Microsoft Word"><i>Microsoft<b/>Word</i><par n="Linux__np"/></e>
 <e lm="Micó"><i>Micó</i><par n="Saussure__np"/></e>
 <e lm="Middleton"><i>Middleton</i><par n="Saussure__np"/></e>
-<e lm="Mides"><i>Mides</i><par n="Antoine__np"/></e>
 <e lm="Midi-Pyrénées"><i>Midi-Pyrénées</i><par n="Andorre__np"/></e>
 <e lm="Midland"><i>Midland</i><par n="Carrefour__np"/></e>
 <e lm="Midway"><i>Midway</i><par n="Andorre__np"/></e>
@@ -44325,7 +44322,6 @@
 <e lm="Neri"><i>Neri</i><par n="Saussure__np"/></e>
 <e lm="Nerone"><i>Nerone</i><par n="Saussure__np"/></e>
 <e lm="Nervión"><i>Nervión</i><par n="Andorre__np"/></e>
-<e lm="Neró"><i>Neró</i><par n="Antoine__np"/></e>
 <e lm="Nesbitt"><i>Nesbitt</i><par n="Saussure__np"/></e>
 <e lm="Nesmith"><i>Nesmith</i><par n="Saussure__np"/></e>
 <e lm="Ness"><i>Ness</i><par n="Saussure__np"/></e>
@@ -44590,6 +44586,7 @@
 <e lm="Néfertari"><i>Néfertari</i><par n="Marie__np"/></e>
 <e lm="Néfertiti"><i>Néfertiti</i><par n="Marie__np"/></e>
 <e lm="Népal"><i>Népal</i><par n="Iran__np"/></e>
+<e lm="Néron" a="hector"><i>Néron</i><par n="Antoine__np"/></e>
 <e lm="Néron" a="hector"><i>Néron</i><par n="Saussure__np"/></e>
 <e lm="Néstor"><i>Néstor</i><par n="Antoine__np"/></e>
 <e lm="Néstor Carlos Kirchner"><i>Néstor<b/>Carlos<b/>Kirchner</i><par n="Antoine__np"/></e>
@@ -44961,6 +44958,7 @@
 <e lm="Oviedo"><i>Oviedo</i><par n="Iran__np"/></e>
 <e lm="Oviedo"><i>Oviedo</i><par n="Saussure__np"/></e>
 <e lm="Owen"><i>Owen</i><par n="Antoine__np"/></e>
+<e lm="Owen"><i>Owen</i><par n="Saussure__np"/></e>
 <e lm="Owen Arthur"><i>Owen<b/>Arthur</i><par n="Antoine__np"/></e>
 <e lm="Owens"><i>Owens</i><par n="Saussure__np"/></e>
 <e lm="Owner"><i>Owner</i><par n="Marie__np"/></e>
@@ -51099,12 +51097,13 @@
 <e lm="Émirats arabes unis"><i>Émirats<b/>arabes<b/>unis</i><par n="États-Unis__np"/></e>
 <e lm="Émond" a="hector"><i>Émond</i><par n="Saussure__np"/></e>
 <e lm="Éole"><i>Éole</i><par n="Antoine__np"/></e>
-<e lm="Éphèse"><i>Éphèse</i><par n="Andorre__np"/></e>
-<e lm="Épicure"><i>Épicure</i><par n="Abraham__np"/></e>
-<e lm="Épinal"><i>Épinal</i><par n="Andorre__np"/></e>
-<e lm="Épire"><i>Épire</i><par n="Andorre__np"/></e>
+<e lm="Éphèse"><i>Éphèse</i><par n="Bulgarie__np"/></e>
+<e lm="Épictète"><i>Épictète</i><par n="Antoine__np"/></e>
+<e lm="Épicure"><i>Épicure</i><par n="Antoine__np"/></e>
+<e lm="Épinal"><i>Épinal</i><par n="Iran__np"/></e>
+<e lm="Épire"><i>Épire</i><par n="Iran__np"/></e>
 <e lm="Équateur"><i>Équateur</i><par n="Iran__np"/></e>
-<e lm="Érasme"><i>Érasme</i><par n="Abraham__np"/></e>
+<e lm="Érasme"><i>Érasme</i><par n="Antoine__np"/></e>
 <e lm="Ératosthène"><i>Ératosthène</i><par n="Abraham__np"/></e>
 <e lm="Éric" a="hector"><i>Éric</i><par n="Antoine__np"/></e>
 <e lm="Éros"><i>Éros</i><par n="Abraham__np"/></e>
@@ -54093,7 +54092,6 @@
 <e lm="Aida"><i>Aida</i><par n="Marie__np"/></e>
 <e lm="Aileen"><i>Aileen</i><par n="Marie__np"/></e>
 <e lm="Ailsa"><i>Ailsa</i><par n="Marie__np"/></e>
-<e lm="Aimee"><i>Aimee</i><par n="Marie__np"/></e>
 <e lm="Aimée"><i>Aimée</i><par n="Marie__np"/></e>
 <e lm="Aina"><i>Aina</i><par n="Marie__np"/></e>
 <e lm="Ainara"><i>Ainara</i><par n="Marie__np"/></e>
@@ -54627,7 +54625,8 @@
 <e lm="Caprice"><i>Caprice</i><par n="Marie__np"/></e>
 <e lm="Capricia"><i>Capricia</i><par n="Marie__np"/></e>
 <e lm="Capucine"><i>Capucine</i><par n="Marie__np"/></e>
-<e lm="le petit Chaperon rouge"><i>le<b/>petit<b/>Chaperon<b/>rouge</i><par n="Marie__np"/></e>
+<e lm="petit Chaperon"><i>petit<b/>Chaperon</i><par n="Antoine__np"/></e>
+<e lm="le petit Chaperon rouge"><i>le<b/>petit<b/>Chaperon<b/>rouge</i><par n="Antoine__np"/></e>
 <e lm="Cara"><i>Cara</i><par n="Marie__np"/></e>
 <e lm="Careli"><i>Careli</i><par n="Marie__np"/></e>
 <e lm="Caren"><i>Caren</i><par n="Marie__np"/></e>
@@ -58109,7 +58108,6 @@
     <e lm="Trastamare"><i>Trastamare</i><par n="Saussure__np"/></e>
     <e lm="Corts"><i>Corts</i><par n="Saussure__np"/></e>
     <e lm="Wyoming"><i>Wyoming</i><par n="Saussure__np"/></e>
-    <e lm="Érasme" a="ester"><i>Érasme</i><par n="Antoine__np"/></e>
     <e lm="Sherlock"><i>Sherlock</i><par n="Antoine__np"/></e>
     <e lm="Cabildo"><i>Cabildo</i><par n="Saussure__np"/></e>
     <e lm="Hendrik"><i>Hendrik</i><par n="Antoine__np"/></e>
@@ -58132,7 +58130,6 @@
     <e lm="Tritó"><i>Tritó</i><par n="Antoine__np"/></e>
     <e lm="Riviera"><i>Riviera</i><par n="Saussure__np"/></e>
     <e lm="Encamp"><i>Encamp</i><par n="Saussure__np"/></e>
-    <e lm="Bacchus" a="hector"><i>Bacchus</i><par n="Antoine__np"/></e>
     <e lm="Santillana"><i>Santillana</i><par n="Saussure__np"/></e>
     <e lm="Albalat"><i>Albalat</i><par n="Saussure__np"/></e>
     <e lm="Lucifer"><i>Lucifer</i><par n="Antoine__np"/></e>
