@@ -16737,6 +16737,7 @@
 <e lm="découverte"><i>découverte</i><par n="abeille__n"/></e>
 <e lm="découvreur" a="jaumeortola"><i>découvreu</i><par n="causeu/r__n"/></e>
 <e lm="décret"><i>décret</i><par n="livre__n"/></e>
+<e lm="décret de Nueva Planta" a="hector"><i>décret</i><par n="livre__n"/><p><l><b/>de<b/>Nueva<b/>Planta</l><r><g><b/>de<b/>Nueva<b/>Planta</g></r></p></e>
 <e lm="décroissance" a="jaumeortola"><i>décroissance</i><par n="abeille__n"/></e>
 <e lm="décrottement"><i>décrottement</i><par n="livre__n"/></e>
 <e lm="décryptage"><i>décryptage</i><par n="livre__n"/></e>
@@ -20387,7 +20388,7 @@
 <e lm="millionième" a="jaumeortola"><i>millionième</i><par n="artiste__n"/></e>
 <e lm="millionnaire"><i>millionnaire</i><par n="artiste__n"/></e>
 <e lm="milliseconde"><i>milliseconde</i><par n="abeille__n"/></e>
-<e lm="millième" a="jaumeortola"><i>millième</i><par n="artiste__n"/></e>
+<e lm="millième"><i>millième</i><par n="livre__n"/></e>
 <e lm="millénaire"><i>millénaire</i><par n="livre__n"/></e>
 <e lm="mimosa" a="jaumeortola"><i>mimosa</i><par n="livre__n"/></e>
 <e lm="mimétisme" a="jaumeortola"><i>mimétisme</i><par n="livre__n"/></e>
@@ -26632,6 +26633,7 @@
 <e lm="cuisiner"><i>cuisin</i><par n="abaiss/er__vblex"/></e>
 <e lm="cultiver"><i>cultiv</i><par n="abaiss/er__vblex"/></e>
 <e lm="célébrer"><i>cél</i><par n="accél/é[R]er__vblex" prm="br"/></e>
+<e lm="concélébrer"><i>concél</i><par n="accél/é[R]er__vblex" prm="br"/></e>
 <e lm="côtoyer"><i>côto</i><par n="côto/yer__vblex"/></e>
 <e lm="devoir"><i>d</i><par n="d/evoir__vblex"/></e>
 <e lm="dire au revoir à"><i>d</i><par n="d/i[]re__vblex" prm=""/><p><l><b/>au<b/>revoir<b/>à</l><r><g><b/>au<b/>revoir<b/>à</g></r></p></e>
@@ -27538,7 +27540,9 @@
 <e lm="intoxiquer"><i>intoxiqu</i><par n="abaiss/er__vblex"/></e>
 <e lm="intriguer"><i>intrigu</i><par n="abaiss/er__vblex"/></e>
 <e lm="introduire"><i>introdui</i><par n="condui/re__vblex"/></e>
+<e lm="réintroduire"><i>réintrodui</i><par n="condui/re__vblex"/></e>
 <e lm="introniser"><i>intronis</i><par n="abaiss/er__vblex"/></e>
+<e lm="réintroniser"><i>réintronis</i><par n="abaiss/er__vblex"/></e>
 <e lm="intéresser"><i>intéress</i><par n="abaiss/er__vblex"/></e>
 <e lm="intérioriser"><i>intérioris</i><par n="abaiss/er__vblex"/></e>
 <e lm="inutiliser"><i>inutilis</i><par n="abaiss/er__vblex"/></e>
@@ -32003,6 +32007,8 @@
 <e lm="Auguste"><i>Auguste</i><par n="Marie__np"/></e>
 <e lm="Augustin"><i>Augustin</i><par n="Saussure__np"/></e>
 <e lm="Augustin"><i>Augustin</i><par n="Antoine__np"/></e>
+<e lm="Augustin d'Hippone"><i>Augustin<b/>d'Hippone</i><par n="Antoine__np"/></e>
+<e lm="Hippone"><i>Hippone</i><par n="Bulgarie__np"/></e>
 <e lm="Augustine"><i>Augustine</i><par n="Marie__np"/></e>
 <e lm="Augustinus"><i>Augustinus</i><par n="Carrefour__np"/></e>
 <e lm="Augusto"><i>Augusto</i><par n="Antoine__np"/></e>
@@ -38055,9 +38061,12 @@
 <e lm="Franzoni"><i>Franzoni</i><par n="Saussure__np"/></e>
 <e lm="Français"><i>Français</i><par n="Saussure__np"/></e>
 <e lm="François"><i>François</i><par n="Antoine__np"/></e>
+<e lm="François d'Assise"><i>François<b/>d'Assise</i><par n="Antoine__np"/></e>
 <e lm="François Bozizé"><i>François<b/>Bozizé</i><par n="Antoine__np"/></e>
 <e lm="François Fillon"><i>François<b/>Fillon</i><par n="Antoine__np"/></e>
 <e lm="François Hollande"><i>François<b/>Hollande</i><par n="Antoine__np"/></e>
+<e lm="saint François Borgia"><i>saint<b/>François<b/>Borgia</i><par n="Antoine__np"/></e>
+<e lm="Francesc de Borja"><i>Francesc<b/>de<b/>Borja</i><par n="Antoine__np"/></e>
 <e lm="Françoise"><i>Françoise</i><par n="Marie__np"/></e>
 <e lm="Frappier" a="hector"><i>Frappier</i><par n="Saussure__np"/></e>
 <e lm="Frasca"><i>Frasca</i><par n="Saussure__np"/></e>
@@ -45893,7 +45902,9 @@
 <e lm="Pompeu"><i>Pompeu</i><par n="Antoine__np"/></e>
 <e lm="Pompidou"><i>Pompidou</i><par n="Abraham__np"/></e>
 <e lm="Pompée"><i>Pompée</i><par n="Antoine__np"/></e>
-<e lm="Pompéi"><i>Pompéi</i><par n="Carrefour__np"/></e>
+<e lm="Pompéi"><i>Pompéi</i><par n="Bulgarie__np"/></e>
+<e lm="Pompeia"><i>Pompeia</i><par n="Marie__np"/></e>
+<e lm="Calpurnie"><i>Calpurnie</i><par n="Marie__np"/></e>
 <e lm="Pomés"><i>Pomés</i><par n="Saussure__np"/></e>
 <e lm="Ponce"><i>Ponce</i><par n="Saussure__np"/></e>
 <e lm="Ponce Pilate"><i>Ponce<b/>Pilate</i><par n="Antoine__np"/></e>
@@ -58221,7 +58232,8 @@
     <e lm="Fortis"><i>Fortis</i><par n="Saussure__np"/></e>
     <e lm="Nistelrooy"><i>Nistelrooy</i><par n="Saussure__np"/></e>
     <e lm="Gavernera"><i>Gavernera</i><par n="Saussure__np"/></e>
-    <e lm="Pyrame"><i>Pyrame</i><par n="Saussure__np"/></e>
+    <e lm="Pyrame"><i>Pyrame</i><par n="Antoine__np"/></e>
+    <e lm="Thysbé"><i>Thysbé</i><par n="Marie__np"/></e>
     <e lm="Espadeler"><i>Espadeler</i><par n="Saussure__np"/></e>
     <e lm="Anyós"><i>Anyós</i><par n="Saussure__np"/></e>
     <e lm="Vallehermoso"><i>Vallehermoso</i><par n="Saussure__np"/></e>

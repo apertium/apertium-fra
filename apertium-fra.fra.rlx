@@ -1119,3 +1119,5 @@ SELECT Prn IF (0 ("certains")) (1 Adv) (2C Verb LINK 0 Verb + Pl + Pers) ;
 REMOVE A IF (0 ("certains")) (NOT -1 N OR A) ;
 SELECT Det IF (0 ("certains")) (1 N) (NOT 1 Verb + Pl + Pers) (NOT 1 Adv) ;
 # que certains élus très proches
+
+SELECT N IF (-1 Num) (0 ("dixième") OR ("centième") OR ("millième")) ;
