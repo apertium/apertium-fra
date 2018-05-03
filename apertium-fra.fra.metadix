@@ -36195,7 +36195,6 @@
 <e lm="Demosthène"><i>Demosthène</i><par n="Saussure__np"/></e>
 <e lm="Dempsey"><i>Dempsey</i><par n="Saussure__np"/></e>
 <e lm="Demurtas"><i>Demurtas</i><par n="Saussure__np"/></e>
-<e lm="Demòcrit"><i>Demòcrit</i><par n="Antoine__np"/></e>
 <e lm="Deneault" a="hector"><i>Deneault</i><par n="Saussure__np"/></e>
 <e lm="Deneuve"><i>Deneuve</i><par n="Saussure__np"/></e>
 <e lm="Deng"><i>Deng</i><par n="Saussure__np"/></e>
@@ -36448,7 +36447,7 @@
 <e lm="Dinh"><i>Dinh</i><par n="Saussure__np"/></e>
 <e lm="Dini"><i>Dini</i><par n="Saussure__np"/></e>
 <e lm="Dino"><i>Dino</i><par n="Antoine__np"/></e>
-<e lm="Dioclétien"><i>Dioclétien</i><par n="Abraham__np"/></e>
+<e lm="Dioclétien"><i>Dioclétien</i><par n="Antoine__np"/></e>
 <e lm="Diodati"><i>Diodati</i><par n="Saussure__np"/></e>
 <e lm="Dion" a="hector"><i>Dion</i><par n="Saussure__np"/></e>
 <e lm="Dionisia"><i>Dionisia</i><par n="Marie__np"/></e>
@@ -36481,21 +36480,21 @@
 <e lm="Ditomasso"><i>Ditomasso</i><par n="Saussure__np"/></e>
 <e lm="Ditullio"><i>Ditullio</i><par n="Saussure__np"/></e>
 <e lm="Divesens"><i>Divesens</i><par n="Antoine__np"/></e>
-<e lm="Divine comédie"><i>Divine<b/>comédie</i><par n="Carrefour__np"/></e>
+<e lm="Divine comédie"><i>Divine<b/>comédie</i><par n="Wikipedia__np"/></e>
 <e lm="Divjak"><i>Divjak</i><par n="Saussure__np"/></e>
 <e lm="Dix Ans"><i>Dix<b/>Ans</i><par n="Carrefour__np"/></e>
 <e lm="Dixon"><i>Dixon</i><par n="Saussure__np"/></e>
 <e lm="Diz"><i>Diz</i><par n="Saussure__np"/></e>
 <e lm="Dizazzo"><i>Dizazzo</i><par n="Saussure__np"/></e>
 <e lm="Diéguez"><i>Diéguez</i><par n="Saussure__np"/></e>
-<e lm="Diògenes"><i>Diògenes</i><par n="Antoine__np"/></e>
-<e lm="Djakarta"><i>Djakarta</i><par n="Andorre__np"/></e>
-<e lm="Djalalabad"><i>Djalalabad</i><par n="Andorre__np"/></e>
+<e lm="Diogène"><i>Diogène</i><par n="Antoine__np"/></e>
+<e lm="Djakarta"><i>Djakarta</i><par n="Bulgarie__np"/></e>
+<e lm="Djalalabad"><i>Djalalabad</i><par n="Iran__np"/></e>
 <e lm="Djibouti"><i>Djibouti</i><par n="Iran__np"/></e>
 <e lm="Djihad"><i>Djihad</i><par n="Carrefour__np"/></e>
 <e lm="Djokovic"><i>Djokovic</i><par n="Saussure__np"/></e>
-<e lm="Dmitriy"><i>Dmitriy</i><par n="Abraham__np"/></e>
-<e lm="Dmitry"><i>Dmitry</i><par n="Abraham__np"/></e>
+<e lm="Dmitriy"><i>Dmitriy</i><par n="Antoine__np"/></e>
+<e lm="Dmitry"><i>Dmitry</i><par n="Antoine__np"/></e>
 <e lm="DMOZ"><i>DMOZ</i><par n="Carrefour__np"/></e>
 <e lm="DNI"><i>DNI</i><par n="Carrefour__np"/></e>
 <e lm="Doan"><i>Doan</i><par n="Saussure__np"/></e>
@@ -36503,7 +36502,7 @@
 <e lm="Doblado"><i>Doblado</i><par n="Saussure__np"/></e>
 <e lm="Doblas"><i>Doblas</i><par n="Saussure__np"/></e>
 <e lm="Dobson"><i>Dobson</i><par n="Saussure__np"/></e>
-<e lm="Docteur Jivago"><i>Docteur<b/>Jivago</i><par n="Carrefour__np"/></e>
+<e lm="Docteur Jivago"><i>Docteur<b/>Jivago</i><par n="Linux__np"/></e>
 <e lm="Doctor Who"><i>Doctor<b/>Who</i><par n="Linux__np"/></e>
 <e lm="Dodd"><i>Dodd</i><par n="Saussure__np"/></e>
 <e lm="Doddridge"><i>Doddridge</i><par n="Saussure__np"/></e>
@@ -36821,8 +36820,8 @@
 <e lm="Décosse"><i>Décosse</i><par n="Saussure__np"/></e>
 <e lm="Décoste"><i>Décoste</i><par n="Saussure__np"/></e>
 <e lm="Décumates"><i>Décumates</i><par n="Andorre__np"/></e>
-<e lm="Dédale"><i>Dédale</i><par n="Abraham__np"/></e>
-<e lm="Démocrite"><i>Démocrite</i><par n="Abraham__np"/></e>
+<e lm="Dédale"><i>Dédale</i><par n="Antoine__np"/></e>
+<e lm="Démocrite"><i>Démocrite</i><par n="Antoine__np"/></e>
 <e lm="Démosthène"><i>Démosthène</i><par n="Antoine__np"/></e>
 <e lm="Dénia"><i>Dénia</i><par n="Bulgarie__np"/></e>
 <e lm="Dépôt"><i>Dépôt</i><par n="Saussure__np"/></e>
@@ -39938,8 +39937,8 @@
 <e lm="Ibrahim"><i>Ibrahim</i><par n="Antoine__np"/></e>
 <e lm="Ibsen"><i>Ibsen</i><par n="Saussure__np"/></e>
 <e lm="Ibáñez"><i>Ibáñez</i><par n="Saussure__np"/></e>
-<e lm="Ibérie"><i>Ibérie</i><par n="Andorre__np"/></e>
-<e lm="Icare"><i>Icare</i><par n="Abraham__np"/></e>
+<e lm="Ibérie"><i>Ibérie</i><par n="Bulgarie__np"/></e>
+<e lm="Icare"><i>Icare</i><par n="Antoine__np"/></e>
 <e lm="Icart"><i>Icart</i><par n="Saussure__np"/></e>
 <e lm="Icebound"><i>Icebound</i><par n="Saussure__np"/></e>
 <e lm="Iceta"><i>Iceta</i><par n="Saussure__np"/></e>
@@ -58303,6 +58302,21 @@
     <e lm="Abás"><i>Abás</i><par n="Saussure__np"/></e>
     <e lm="Benoit" a="ester"><i>Benoit</i><par n="Antoine__np"/></e>
     <e lm="Christophore Colomb"><i>Christophore<b/>Colomb</i><par n="Antoine__np"/></e>
+    <e lm="Wilhelm"><i>Wilhelm</i><par n="Antoine__np"/></e>
+    <e lm="Friedemann"><i>Friedemann</i><par n="Antoine__np"/></e>
+    <e lm="Caridad"><i>Caridad</i><par n="Marie__np"/></e>
+    <e lm="Suu"><i>Suu</i><par n="Antoine__np"/></e>
+    <e lm="Deco"><i>Deco</i><par n="Antoine__np"/></e>
+    <e lm="Al"><i>Al</i><par n="Antoine__np"/></e>
+    <e lm="Kaká"><i>Kaká</i><par n="Antoine__np"/></e>
+    <e lm="Merce"><i>Merce</i><par n="Marie__np"/></e>
+    <e lm="Chucho"><i>Chucho</i><par n="Antoine__np"/></e>
+    <e lm="Cherie"><i>Cherie</i><par n="Marie__np"/></e>
+    <e lm="Jamiroquai"><i>Jamiroquai</i><par n="Antoine__np"/></e>
+    <e lm="Pebbles"><i>Pebbles</i><par n="Marie__np"/></e>
+    <e lm="Compay Segundo"><i>Compay<b/>Segundo</i><par n="Antoine__np"/></e>
+    <e lm="Kantauri"><i>Kantauri</i><par n="Antoine__np"/></e>
+    <e lm="Ingham"><i>Ingham</i><par n="Antoine__np"/></e>
 
 <!-- xxxx -->
   </section>
