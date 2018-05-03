@@ -37147,8 +37147,6 @@
 <e lm="Enzo" a="hector"><i>Enzo</i><par n="Antoine__np"/></e>
 <e lm="Enée"><i>Enée</i><par n="Abraham__np"/></e>
 <e lm="Eolia"><i>Eolia</i><par n="Carrefour__np"/></e>
-<e lm="Epictet"><i>Epictet</i><par n="Antoine__np"/></e>
-<e lm="Epicuro"><i>Epicuro</i><par n="Antoine__np"/></e>
 <e lm="Episkopi"><i>Episkopi</i><par n="Andorre__np"/></e>
 <e lm="Epsilon"><i>Epsilon</i><par n="Carrefour__np"/></e>
 <e lm="Epstein"><i>Epstein</i><par n="Saussure__np"/></e>
@@ -37232,8 +37230,7 @@
 <e lm="Escudé"><i>Escudé</i><par n="Saussure__np"/></e>
 <e lm="Escuer"><i>Escuer</i><par n="Saussure__np"/></e>
 <e lm="Escuin"><i>Escuin</i><par n="Saussure__np"/></e>
-<e lm="Esculape"><i>Esculape</i><par n="Abraham__np"/></e>
-<e lm="Esculapi"><i>Esculapi</i><par n="Antoine__np"/></e>
+<e lm="Esculape"><i>Esculape</i><par n="Antoine__np"/></e>
 <e lm="Escuín"><i>Escuín</i><par n="Saussure__np"/></e>
 <e lm="Escámez"><i>Escámez</i><par n="Saussure__np"/></e>
 <e lm="Eslava"><i>Eslava</i><par n="Saussure__np"/></e>
@@ -43589,8 +43586,12 @@
 <e lm="Mohamed"><i>Mohamed</i><par n="Saussure__np"/></e>
 <e lm="Mohamed"><i>Mohamed</i><par n="Antoine__np"/></e>
 <e lm="Mohammad"><i>Mohammad</i><par n="Saussure__np"/></e>
+<e lm="Mohammad"><i>Mohammad</i><par n="Antoine__np"/></e>
+<e lm="Mohammad Reza">   <i>Mohammad<b/>Reza</i><par n="Antoine__np"/></e>
+<e lm="Reza">            <i>Reza</i><par n="Antoine__np"/></e>
 <e lm="Mohammed"><i>Mohammed</i><par n="Antoine__np"/></e>
 <e lm="Mohammed"><i>Mohammed</i><par n="Saussure__np"/></e>
+<e lm="Mossadegh"><i>Mossadegh</i><par n="Saussure__np"/></e>
 <e lm="Mohedano"><i>Mohedano</i><par n="Saussure__np"/></e>
 <e lm="Moine"><i>Moine</i><par n="Saussure__np"/></e>
 <e lm="Moineau"><i>Moineau</i><par n="Saussure__np"/></e>
@@ -58317,6 +58318,11 @@
     <e lm="Compay Segundo"><i>Compay<b/>Segundo</i><par n="Antoine__np"/></e>
     <e lm="Kantauri"><i>Kantauri</i><par n="Antoine__np"/></e>
     <e lm="Ingham"><i>Ingham</i><par n="Antoine__np"/></e>
+<e lm="urique"><i>urique</i><par n="académique__adj"/></e>
+    <e lm="Faivre"><i>Faivre</i><par n="Saussure__np"/></e>
+    <e lm="Lefaivre"><i>Lefaivre</i><par n="Saussure__np"/></e>
+    <e lm="Wilhelm"><i>Wilhelm</i><par n="Saussure__np"/></e>
+    <e lm="Asclépios"><i>Asclépios</i><par n="Antoine__np"/></e>
 
 <!-- xxxx -->
   </section>
