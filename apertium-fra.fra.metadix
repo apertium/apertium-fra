@@ -58323,6 +58323,10 @@
     <e lm="Lefaivre"><i>Lefaivre</i><par n="Saussure__np"/></e>
     <e lm="Wilhelm"><i>Wilhelm</i><par n="Saussure__np"/></e>
     <e lm="Asclépios"><i>Asclépios</i><par n="Antoine__np"/></e>
+<e lm="violence sexuelle"><p><l>violence<b/>sexuelle</l><r>violence<b/>sexuelle<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="violence sexuelle"><p><l>violences<b/>sexuelles</l><r>violence<b/>sexuelle<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e lm="sévices"><i>sévices</i><par n="abords__n"/></e>
+    <e lm="sévices sexuels"><i>sévices<b/>sexuels</i><par n="abords__n"/></e>
 
 <!-- xxxx -->
   </section>
