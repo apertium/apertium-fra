@@ -1186,6 +1186,11 @@
   <e>       <p><l>le</l>        <r><s n="num"/><s n="f"/><s n="sp"/></r></p></e>
 </pardef>
 
+<pardef n="un__num">
+  <e>       <p><l></l>          <r><s n="num"/><s n="m"/><s n="sp"/></r></p></e>
+  <e>       <p><l>e</l>         <r><s n="num"/><s n="f"/><s n="sp"/></r></p></e>
+</pardef>
+
 <pardef n="attendu__pr">
   <e>       <p><l></l>          <r><s n="pr"/></r></p></e>
 </pardef>
@@ -53292,6 +53297,7 @@
 <e lm="trente et un"><i>trente<b/>et<b/>un</i><par n="cinquante_et_un__num"/></e>
 <e lm="trois"><i>trois</i><par n="cinq__num"/></e>
 <e lm="trois cent"><i>trois<b/>cent</i><par n="cent__num"/></e>
+<e lm="un"><i>un</i><par n="un__num"/></e>
 <e lm="V"><i>V</i><par n="cinq__num"/></e>
 <e lm="VI"><i>VI</i><par n="cinq__num"/></e>
 <e lm="VII"><i>VII</i><par n="cinq__num"/></e>
