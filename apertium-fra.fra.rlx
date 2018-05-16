@@ -221,9 +221,6 @@ SELECT Prop IF (NOT -1 BOS) (0 Title) ;
 
 #REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB); 
 
-REMOVE Pro IF (0 Le) (NOT 1 Verb) ;
-  ## Le chien aime jouer avec les deux enfants.
-
 REMOVE N IF (0 Fait) (-1 Il) ;
   ## Il fait beau aujourd'hui, il fait très chaud.
 
@@ -966,6 +963,23 @@ SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;
 # en voyant son cartable
 
 REMOVE Ger IF (-1 N + Masc + Sg) (0 ("suivant")) (1 EOS OR Prep OR Tn) ;
+
+# DET
+
+REMOVE Pro IF (0 Le) (NOT 1 Verb OR ("lui") OR ("leur")) ;
+  ## Le chien aime jouer avec les deux enfants.
+  ## je le lui donne, je le leur donne
+
+SELECT Det IF (0 DetInd + MascSg) (1 A + MascSg) (2 N + MascSg) ;
+SELECT Det IF (0 DetInd + FemSg) (1 A + FemSg) (2 N + FemSg) ;
+SELECT Det IF (0 DetInd + MascPl) (1 A + MascPl) (2 N + MascPl) ;
+SELECT Det IF (0 DetInd + FemPl) (1 A + FemPl) (2 N + FemPl) ;
+  ## Crewdson signe un long article
+SELECT Det IF (0 DetInd + MascSg) (1 Adv_PreAdv) (2 A + MascSg) (3 N + MascSg) ;
+SELECT Det IF (0 DetInd + FemSg) (1 Adv_PreAdv) (2 A + FemSg) (3 N + FemSg) ;
+SELECT Det IF (0 DetInd + MascPl) (1 Adv_PreAdv) (2 A + MascPl) (3 N + MascPl) ;
+SELECT Det IF (0 DetInd + FemPl) (1 Adv_PreAdv) (2 A + FemPl) (3 N + FemPl) ;
+  ## Crewdson signe un trèslong article
 
 # ADJ NOM
 
