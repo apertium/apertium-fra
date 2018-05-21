@@ -19537,6 +19537,8 @@
 <e lm="kiwi" a="jaumeortola"><i>kiwi</i><par n="livre__n"/></e>
 <e lm="kJ"><i>kJ</i><par n="mois__n"/></e>
 <e lm="km"><i>km</i><par n="mois__n"/></e>
+<e lm="mn"><i>mn</i><par n="mois__n"/></e>
+<e lm="min"><i>min</i><par n="mois__n"/></e>
 <e lm="koala" a="jaumeortola"><i>koala</i><par n="livre__n"/></e>
 <e lm="koinè"><i>koinè</i><par n="abeille__n"/></e>
 <e lm="kopeck" a="jaumeortola"><i>kopeck</i><par n="livre__n"/></e>
