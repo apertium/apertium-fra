@@ -59210,6 +59210,19 @@
 <e lm="zingage" a="jaumeortola"><i>zingage</i><par n="livre__n"/></e>
 <e lm="zombie" a="jaumeortola"><i>zombie</i><par n="livre__n"/></e>
 
+<e lm="en vain"><i>en<b/>vain</i><par n="hier__adv"/></e>
+    <e lm="rétorquer" a="hector">        <i>rétorqu</i><par n="abaiss/er__vblex"/></e>
+    <e lm="étancher" a="hector">        <i>étanch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="fiancer" a="hector">        <i>fian</i><par n="annon/cer__vblex"/></e>
+    <e lm="adouber" a="hector">        <i>adoub</i><par n="abaiss/er__vblex"/></e>
+    <e lm="baragouiner" a="hector">        <i>baragouin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="ployer" a="hector">        <i>plo</i><par n="côto/yer__vblex"/></e>
+    <e lm="bouder" a="hector">        <i>boud</i><par n="abaiss/er__vblex"/></e>
+    <e lm="gouter" a="hector">        <i>gout</i><par n="abaiss/er__vblex"/></e>
+
+    <e lm="Rei" a="hector"><i>Rei</i><par n="Saussure__vblex"/></e>
+    <e lm="Rei Bèthvéder" a="hector"><i>Rei<b/>Bèthvéder</i><par n="Saussure__vblex"/></e>
+
 <!-- xxxx -->
   </section>
 
