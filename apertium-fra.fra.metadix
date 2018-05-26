@@ -51533,8 +51533,10 @@
 <e lm="chèrement"><i>chèrement</i><par n="hier__adv"/></e>
 <e lm="ci"><i>ci</i><par n="hier__adv"/></e>
 <e lm="ci-après"><i>ci-après</i><par n="hier__adv"/></e>
+<e lm="ci-contre"><i>ci-contre</i><par n="hier__adv"/></e>
 <e lm="ci-dessous"><i>ci-dessous</i><par n="hier__adv"/></e>
 <e lm="ci-dessus"><i>ci-dessus</i><par n="hier__adv"/></e>
+<e lm="ci-joint"><i>ci-joint</i><par n="hier__adv"/></e>
 <e lm="circonstanciellement" a="hector"><i>circonstanciellement</i><par n="hier__adv"/></e>
 <e lm="circulairement"><i>circulairement</i><par n="hier__adv"/></e>
 <e lm="clairement"><i>clairement</i><par n="hier__adv"/></e>
@@ -59220,8 +59222,8 @@
     <e lm="bouder" a="hector">        <i>boud</i><par n="abaiss/er__vblex"/></e>
     <e lm="gouter" a="hector">        <i>gout</i><par n="abaiss/er__vblex"/></e>
 
-    <e lm="Rei" a="hector"><i>Rei</i><par n="Saussure__vblex"/></e>
-    <e lm="Rei Bèthvéder" a="hector"><i>Rei<b/>Bèthvéder</i><par n="Saussure__vblex"/></e>
+    <e lm="Rei" a="hector"><i>Rei</i><par n="Saussure__np"/></e>
+    <e lm="Rei Bèthvéder" a="hector"><i>Rei<b/>Bèthvéder</i><par n="Saussure__np"/></e>
 
 <!-- xxxx -->
   </section>
