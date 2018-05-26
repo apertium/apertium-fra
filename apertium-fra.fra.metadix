@@ -16515,7 +16515,7 @@
 <e lm="divulgateur"><i>divulgat</i><par n="administrat/eur__n"/></e>
 <e lm="divulgation"><i>divulgation</i><par n="abeille__n"/></e>
 <e lm="dixaine"><i>dixaine</i><par n="abeille__n"/></e>
-<e lm="dixième"><i>dixième</i><par n="livre__n"/></e>
+<e lm="dixième"><i>dixième</i><par n="artiste__n"/></e>
 <e lm="dizaine"><i>dizaine</i><par n="abeille__n"/></e>
 <e lm="dièse" a="jaumeortola"><i>dièse</i><par n="livre__n"/></e>
 <e lm="diégèse" a="jaumeortola"><i>diégèse</i><par n="abeille__n"/></e>
@@ -16593,7 +16593,7 @@
 <e lm="doute"><i>doute</i><par n="livre__n"/></e>
 <e lm="douve" a="jaumeortola"><i>douve</i><par n="abeille__n"/></e>
 <e lm="douzaine"><i>douzaine</i><par n="abeille__n"/></e>
-<e lm="douzième"><i>douzième</i><par n="livre__n"/></e>
+<e lm="douzième"><i>douzième</i><par n="artiste__n"/></e>
 <e lm="doyen"><i>doyen</i><par n="ancien__n"/></e>
 <e lm="Dr"><i>Dr</i><par n="mois__n"/></e>
 <e lm="drachme" a="jaumeortola"><i>drachme</i><par n="abeille__n"/></e>
@@ -24000,7 +24000,7 @@
 <e lm="sittelle" a="jaumeortola"><i>sittelle</i><par n="abeille__n"/></e>
 <e lm="situation"><i>situation</i><par n="abeille__n"/></e>
 <e lm="situationnisme" a="jaumeortola"><i>situationnisme</i><par n="livre__n"/></e>
-<e lm="sixième"><i>sixième</i><par n="livre__n"/></e>
+<e lm="sixième"><i>sixième</i><par n="artiste__n"/></e>
 <e lm="siècle"><i>siècle</i><par n="livre__n"/></e>
 <e lm="siège d'ouverture"><i>siège</i><par n="livre__n"/><p><l><b/>d'ouverture</l><r><g><b/>d'ouverture</g></r></p></e>
 <e lm="siège"><i>siège</i><par n="livre__n"/></e>
@@ -58650,6 +58650,7 @@
 <e lm="vite" a="jaumeortola"><i>vite</i><par n="académique__adj"/></e>
 <e lm="voleur" a="jaumeortola"><i>voleu</i><par n="causeu/r__adj"/></e>
 <e lm="zincifère" a="jaumeortola"><i>zincifère</i><par n="académique__adj"/></e>
+<e lm="cornu"><i>cornu</i><par n="abaissant__adj"/></e>
 
 <!-- xxxx -->
   </section>
