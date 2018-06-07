@@ -14766,7 +14766,7 @@
 <e lm="carpe"><i>carpe</i><par n="abeille__n"/></e>
 <e lm="carreau"><i>carreau</i><par n="lieu__n"/></e>
 <e lm="carrefour"><i>carrefour</i><par n="livre__n"/></e>
-<e lm="carrier" a="jaumeortola"><i>carri</i><par n="bouch/er__n"/></e>
+<e lm="carrier"><i>carrier</i><par n="livre__n"/></e>
 <e lm="carrière"><i>carrière</i><par n="abeille__n"/></e>
 <e lm="carrosse" a="jaumeortola"><i>carrosse</i><par n="livre__n"/></e>
 <e lm="carrosserie" a="jaumeortola"><i>carrosserie</i><par n="abeille__n"/></e>
@@ -18310,6 +18310,7 @@
 <e lm="grec"><i>grec</i><par n="grec__n"/></e>
 <e lm="gredin" a="jaumeortola"><i>gredin</i><par n="affecté__n"/></e>
 <e lm="greffe"><i>greffe</i><par n="abeille__n"/></e>
+<e lm="greffe"><i>greffe</i><par n="livre__n"/></e>
 <e lm="greffier" a="jaumeortola"><i>greffi</i><par n="bouch/er__n"/></e>
 <e lm="grelot" a="jaumeortola"><i>grelot</i><par n="livre__n"/></e>
 <e lm="grenade"><i>grenade</i><par n="abeille__n"/></e>
@@ -20982,7 +20983,7 @@
 <e lm="neutron" a="jaumeortola"><i>neutron</i><par n="livre__n"/></e>
 <e lm="neutrophile" a="jaumeortola"><i>neutrophile</i><par n="livre__n"/></e>
 <e lm="neveu"><i>neveu</i><par n="lieu__n"/></e>
-<e lm="new-yorkais" a="jaumeortola"><i>new-yorkais</i><par n="admis__n"/></e>
+<e lm="New-yorkais"><i>New-yorkais</i><par n="admis__n"/></e>
 <e lm="newsletter"><i>newsletter</i><par n="livre__n"/></e>
 <e lm="newton"><i>newton</i><par n="livre__n"/></e>
 <e lm="nez"><i>nez</i><par n="mois__n"/></e>
@@ -21039,8 +21040,8 @@
 <e lm="nord"><i>nord</i><par n="personnel__n"/></e>
 <e lm="Nord-Américain"><i>Nord-Américain</i><par n="affecté__n"/></e>
 <e lm="Nord-Coréen"><i>Nord-Coréen</i><par n="ancien__n"/></e>
-<e lm="nord-est"><i>nord-est</i><par n="artiste__n"/></e>
-<e lm="nord-ouest"><i>nord-ouest</i><par n="artiste__n"/></e>
+<e lm="nord-est"><i>nord-est</i><par n="personnel__n"/></e>
+<e lm="nord-ouest"><i>nord-ouest</i><par n="personnel__n"/></e>
 <e lm="nordique"><i>nordique</i><par n="artiste__n"/></e>
 <e lm="normale"><i>normale</i><par n="abeille__n"/></e>
 <e lm="normalisation"><i>normalisation</i><par n="abeille__n"/></e>
@@ -21884,8 +21885,8 @@
 <e lm="philippique"><i>philippique</i><par n="abeille__n"/></e>
 <e lm="philo"><i>philo</i><par n="soif__n"/></e>
 <e lm="philologie"><i>philologie</i><par n="abeille__n"/></e>
-<e lm="philologue"><i>philologue</i><par n="livre__n"/></e>
-<e lm="philosophe"><i>philosophe</i><par n="livre__n"/></e>
+<e lm="philologue"><i>philologue</i><par n="artiste__n"/></e>
+<e lm="philosophe"><i>philosophe</i><par n="artiste__n"/></e>
 <e lm="philosophie"><i>philosophie</i><par n="abeille__n"/></e>
 <e lm="phlogopite" a="jaumeortola"><i>phlogopite</i><par n="abeille__n"/></e>
 <e lm="PHO"><i>PHO</i><par n="ATS__n"/></e>
@@ -29565,7 +29566,7 @@
 <e lm="place tireuse"><p><l>places<b/>tireuses</l>     <r>place<b/>tireuse<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="plongée sous-marine"><p><l>plongée<b/>sous-marine</l><r>plongée<b/>sous-marine<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="plongée sous-marine"><p><l>plongées<b/>sous-marines</l><r>plongée<b/>sous-marine<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-<e lm="plupart"><p><l>plupart</l>                      <r>plupart<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
+<e lm="plupart"><i>plupart</i><par n="soif__n"/></e>
 <e lm="politique égalitaire"><p><l>politique<b/>égalitaire</l><r>politique<b/>égalitaire<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
 <e lm="politique égalitaire"><p><l>politiques<b/>égalitaires</l><r>politique<b/>égalitaire<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="polygone industriel"><p><l>polygone<b/>industriel</l><r>polygone<b/>industriel<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
@@ -30124,7 +30125,7 @@
 <e lm="Agathon"><i>Agathon</i><par n="Abraham__np"/></e>
 <e lm="Agea"><i>Agea</i><par n="Saussure__np"/></e>
 <e lm="Agell"><i>Agell</i><par n="Saussure__np"/></e>
-<e lm="Agen"><i>Agen</i><par n="Andorre__np"/></e>
+<e lm="Agen"><i>Agen</i><par n="Iran__np"/></e>
 <e lm="Agesta"><i>Agesta</i><par n="Abraham__np"/></e>
 <e lm="Aggiano"><i>Aggiano</i><par n="Abraham__np"/></e>
 <e lm="Agha Khan"><i>Agha<b/>Khan</i><par n="Antoine__np"/></e>
@@ -36960,7 +36961,6 @@
 <e lm="El Diario Montañés"><i>El<b/>Diario<b/>Montañés</i><par n="Carrefour__np"/></e>
 <e lm="El Diario Vasco"><i>El<b/>Diario<b/>Vasco</i><par n="Linux__np"/></e>
 <e lm="El Greco"><i>El<b/>Greco</i><par n="Antoine__np"/></e>
-<e lm="el Greco"><i>el<b/>Greco</i><par n="Saussure__np"/></e>
 <e lm="El Haddad"><i>El<b/>Haddad</i><par n="Saussure__np"/></e>
 <e lm="El Harrak"><i>El<b/>Harrak</i><par n="Saussure__np"/></e>
 <e lm="El Hierro"><i>El<b/>Hierro</i><par n="Iran__np"/></e>
@@ -59224,6 +59224,28 @@
 
     <e lm="Rei" a="hector"><i>Rei</i><par n="Saussure__np"/></e>
     <e lm="Rei Bèthvéder" a="hector"><i>Rei<b/>Bèthvéder</i><par n="Saussure__np"/></e>
+
+    <e lm="baisoter" a="automatique">        <i>baisot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="becqueter" a="automatique">        <i>becqu</i><par n="ach/e[T]er__vblex" prm="t"/></e>
+    <e lm="hocher" a="automatique">        <i>hoch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="lemmatiser" a="automatique">        <i>lemmatis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="saucer" a="automatique">        <i>sau</i><par n="annon/cer__vblex"/></e>
+    <e lm="végétaliser" a="automatique">        <i>végétalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dandiner" a="automatique">        <i>dandin</i><par n="abaiss/er__vblex"/></e>
+    <e lm="dépersonnaliser" a="automatique">        <i>dépersonnalis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="vouvoyer" a="automatique">        <i>vouvo</i><par n="côto/yer__vblex"/></e>
+    <e lm="brasiller" a="automatique">        <i>brasill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="flâner" a="automatique">        <i>flân</i><par n="abaiss/er__vblex"/></e>
+    <e lm="gesticuler" a="automatique">        <i>gesticul</i><par n="abaiss/er__vblex"/></e>
+    <e lm="loucher" a="automatique">        <i>louch</i><par n="abaiss/er__vblex"/></e>
+    <e lm="sautiller" a="automatique">        <i>sautill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="verdoyer" a="automatique">        <i>verdo</i><par n="côto/yer__vblex"/></e>
+    <e lm="vivoter" a="automatique">        <i>vivot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="zozoter" a="automatique">        <i>zozot</i><par n="abaiss/er__vblex"/></e>
+    <e lm="zézayer" a="automatique">        <i>zéza</i><par n="bala/yer__vblex"/></e>
+    <e lm="frimer" a="automatique">        <i>frim</i><par n="abaiss/er__vblex"/></e>
+    <e lm="schématiser" a="automatique">        <i>schématis</i><par n="abaiss/er__vblex"/></e>
+    <e lm="trifouiller" a="automatique">        <i>trifouill</i><par n="abaiss/er__vblex"/></e>
 
 <!-- xxxx -->
   </section>
