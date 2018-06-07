@@ -10613,7 +10613,7 @@
 <e lm="puissant"><i>puissant</i><par n="abaissant__adj"/></e>
 <e lm="pulmonaire" a="jaumeortola"><i>pulmonaire</i><par n="académique__adj"/></e>
 <e lm="punitif" a="jaumeortola"><i>puniti</i><par n="affirmati/f__adj"/></e>
-<e lm="punk"><i>punk</i><par n="arrière__adj"/></e>
+<e lm="punk"><i>punk</i><par n="académique__adj"/></e>
 <e lm="pur"><i>pur</i><par n="abaissant__adj"/></e>
 <e lm="purificateur"><i>purificateu</i><par n="causeu/r__adj"/></e>
 <e lm="puritain" a="jaumeortola"><i>puritain</i><par n="abaissant__adj"/></e>
@@ -22708,7 +22708,7 @@
 <e lm="puma" a="jaumeortola"><i>puma</i><par n="livre__n"/></e>
 <e lm="punching-ball" a="jaumeortola"><i>punching-bal</i><par n="cie/l__n"/></e>
 <e lm="punition"><i>punition</i><par n="abeille__n"/></e>
-<e lm="punk"><i>punk</i><par n="ex__n"/></e>
+<e lm="punk"><i>punk</i><par n="artiste__n"/></e>
 <e lm="pupille"><i>pupille</i><par n="abeille__n"/></e>
 <e lm="pupille" a="anatomie"><p><l>pupille</l>         <r>pupille_anat</r></p><par n="abeille__n"/></e>
 <e lm="pupille" a="personne"><p><l>pupille</l>         <r>pupille_pers</r></p><par n="artiste__n"/></e>
