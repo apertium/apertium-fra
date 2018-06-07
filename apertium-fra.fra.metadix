@@ -17195,7 +17195,7 @@
 <e lm="enterrement"><i>enterrement</i><par n="livre__n"/></e>
 <e lm="enthalpie" a="jaumeortola"><i>enthalpie</i><par n="abeille__n"/></e>
 <e lm="enthousiasme" a="jaumeortola"><i>enthousiasme</i><par n="livre__n"/></e>
-<e lm="entier" a="jaumeortola"><i>enti</i><par n="bouch/er__n"/></e>
+<e lm="entier"><i>entier</i><par n="livre__n"/></e>
 <e lm="entité"><i>entité</i><par n="abeille__n"/></e>
 <e lm="entomologiste" a="jaumeortola"><i>entomologiste</i><par n="artiste__n"/></e>
 <e lm="entomophagie" a="jaumeortola"><i>entomophagie</i><par n="abeille__n"/></e>
@@ -22227,7 +22227,7 @@
 <e lm="pont"><i>pont</i><par n="livre__n"/></e>
 <e lm="pontife"><i>pontife</i><par n="livre__n"/></e>
 <e lm="pontificat" a="jaumeortola"><i>pontificat</i><par n="livre__n"/></e>
-<e lm="pop"><i>pop</i><par n="personnel__n"/></e>
+<e lm="pop"><i>pop</i><par n="soif__n"/></e>
 <e lm="pope" a="jaumeortola"><i>pope</i><par n="livre__n"/></e>
 <e lm="populaire" a="jaumeortola"><i>populaire</i><par n="artiste__n"/></e>
 <e lm="popularisation" a="jaumeortola"><i>popularisation</i><par n="abeille__n"/></e>
