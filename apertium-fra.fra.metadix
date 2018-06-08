@@ -28544,6 +28544,7 @@
 <e lm="standardiser"><i>standardis</i><par n="abaiss/er__vblex"/></e>
 <e lm="stationner"><i>stationn</i><par n="abaiss/er__vblex"/></e>
 <e lm="statuer"><i>statu</i><par n="abaiss/er__vblex"/></e>
+<e lm="stériliser"><i>stérilis</i><par n="abaiss/er__vblex"/></e>
 <e lm="stigmatiser"><i>stigmatis</i><par n="abaiss/er__vblex"/></e>
 <e lm="stimuler"><i>stimul</i><par n="abaiss/er__vblex"/></e>
 <e lm="stipuler"><i>stipul</i><par n="abaiss/er__vblex"/></e>
@@ -59246,6 +59247,7 @@
     <e lm="frimer" a="automatique">        <i>frim</i><par n="abaiss/er__vblex"/></e>
     <e lm="schématiser" a="automatique">        <i>schématis</i><par n="abaiss/er__vblex"/></e>
     <e lm="trifouiller" a="automatique">        <i>trifouill</i><par n="abaiss/er__vblex"/></e>
+    <e lm="faire connaître"><i>f</i><par n="déf/aire__vblex"/><p><l><b/>connaître</l><r><g><b/>connaître</g></r></p></e>
 
 <!-- xxxx -->
   </section>
