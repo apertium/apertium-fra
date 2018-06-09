@@ -52922,6 +52922,9 @@
 <e lm="à travers"><i>à<b/>travers</i><par n="attendu__pr"/></e>
 <e lm="ès"><i>ès</i><par n="attendu__pr"/></e>
 <e lm="ôté"><i>ôté</i><par n="attendu__pr"/></e>
+<e lm="à proximité de"><i>à<b/>proximité<b/></i><par n="contde__pr"/></e>
+<e r="LR" lm="à proximité de"><p><l>A<b/>proximité<b/></l>     <r>à<b/>proximité<b/></r></p><par n="contde__pr"/></e>
+<e lm="au-delà de"><i>au-delà<b/></i><par n="contde__pr"/></e>
 
     <!-- ******************************
           group cnjadv
