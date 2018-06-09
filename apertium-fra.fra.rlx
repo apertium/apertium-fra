@@ -115,6 +115,7 @@ LIST Même = "même" ;
 LIST Plus = "plus" ;
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
+LIST Si = "si" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -802,6 +803,10 @@ SELECT Interj IF (0 ("adieu")) (NOT -1 Det OR A);
 REMOVE Interj IF (0 ("bon")) (1 N) ;
 SELECT A IF (0 ("bon")) (1C N) ;
   ## un bon jour
+
+SELECT CnjAdv IF (0 Si) (1 Prn) ;
+SELECT CnjAdv IF (0 Si) (1 Det) ;
+SELECT PreAdv IF (0 Si) (1 A) ;
 
 SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
   ## dès maintenant
