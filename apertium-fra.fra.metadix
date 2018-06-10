@@ -9,7 +9,7 @@
 
 -->
 <dictionary>
-  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzŀlłČŽčćšśžźőßœæ</alphabet>
+  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäãçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzŀlłČŽčćšśžźőßœæ</alphabet>
   <sdefs>
     <sdef n="detnt" /> 
     <sdef n="predet" /> 
@@ -25385,7 +25385,7 @@
 <e lm="vicissitude"><i>vicissitude</i><par n="abeille__n"/></e>
 <e lm="vicomte" c="vizcondesa"><i>vicomte</i><par n="livre__n"/></e>
 <e lm="vicomtesse" c="vizcondesa"><i>vicomtesse</i><par n="abeille__n"/></e>
-<e lm="vicomté"><i>vicomté</i><par n="livre__n"/></e>
+<e lm="vicomté"><i>vicomté</i><par n="abeille__n"/></e>
 <e lm="victime"><i>victime</i><par n="abeille__n"/></e>
 <e lm="victimisation"><i>victimisation</i><par n="abeille__n"/></e>
 <e lm="victoire au forceps"><i>victoire</i><par n="abeille__n"/><p><l><b/>au<b/>forceps</l><r><g><b/>au<b/>forceps</g></r></p></e>
