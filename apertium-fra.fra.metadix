@@ -9,7 +9,7 @@
 
 -->
 <dictionary>
-  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzŀlČčćšśžźőßœæ</alphabet>
+  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzŀlłČŽčćšśžźőßœæ</alphabet>
   <sdefs>
     <sdef n="detnt" /> 
     <sdef n="predet" /> 
@@ -29934,7 +29934,7 @@
 <e lm="Aburto"><i>Aburto</i><par n="Abraham__np"/></e>
 <e lm="Abydos"><i>Abydos</i><par n="Iran__np"/></e>
 <e lm="Abyei"><i>Abyei</i><par n="Iran__np"/></e>
-<e lm="Abyshev"><i>Abyshev</i><par n="Antoine__np"/></e>
+<e lm="Abyshev"><i>Abyshev</i><par n="Saussure__np"/></e>
 <e lm="Abyssinie"><i>Abyssinie</i><par n="Bulgarie__np"/></e>
 <e lm="Abárzuza"><i>Abárzuza</i><par n="Andorre__np"/></e>
 <e lm="Abós"><i>Abós</i><par n="Saussure__np"/></e>
@@ -31165,7 +31165,7 @@
 <e lm="Andreev"><i>Andreev</i><par n="Saussure__np"/></e>
 <e lm="Andrei"><i>Andrei</i><par n="Antoine__np"/></e>
 <e lm="Andrei Roublev"><i>Andrei<b/>Roublev</i><par n="Antoine__np"/></e>
-<e lm="Andreiev"><i>Andreiev</i><par n="Antoine__np"/></e>
+<e lm="Andreiev"><i>Andreiev</i><par n="Saussure__np"/></e>
 <e lm="Andrej"><i>Andrej</i><par n="Antoine__np"/></e>
 <e lm="Andreo"><i>Andreo</i><par n="Antoine__np"/></e>
 <e lm="Andreo"><i>Andreo</i><par n="Saussure__np"/></e>
@@ -31178,16 +31178,16 @@
 <e lm="Andrey"><i>Andrey</i><par n="Antoine__np"/></e>
 <e lm="Andreï"><i>Andreï</i><par n="Antoine__np"/></e>
 <e lm="Andrino"><i>Andrino</i><par n="Saussure__np"/></e>
-<e lm="Andrinople"><i>Andrinople</i><par n="Andorre__np"/></e>
+<e lm="Andrinople"><i>Andrinople</i><par n="Bulgarie__np"/></e>
 <e lm="Andrinua"><i>Andrinua</i><par n="Saussure__np"/></e>
 <e lm="Andriotto"><i>Andriotto</i><par n="Abraham__np"/></e>
 <e lm="Andris"><i>Andris</i><par n="Abraham__np"/></e>
-<e lm="Andriuskevicius"><i>Andriuskevicius</i><par n="Abraham__np"/></e>
-<e lm="Andriuzzi"><i>Andriuzzi</i><par n="Abraham__np"/></e>
-<e lm="Andriy"><i>Andriy</i><par n="Abraham__np"/></e>
+<e lm="Andriuskevicius"><i>Andriuskevicius</i><par n="Saussure__np"/></e>
+<e lm="Andriuzzi"><i>Andriuzzi</i><par n="Saussure__np"/></e>
+<e lm="Andriy"><i>Andriy</i><par n="Antoine__np"/></e>
 <e lm="Andrle"><i>Andrle</i><par n="Abraham__np"/></e>
 <e lm="Android"><i>Android</i><par n="Linux__np"/></e>
-<e lm="Andromède"><i>Andromède</i><par n="Andorre__np"/></e>
+<e lm="Andromède"><i>Andromède</i><par n="Bulgarie__np"/></e>
 <e lm="Androni"><i>Androni</i><par n="Antoine__np"/></e>
 <e lm="Andros"><i>Andros</i><par n="Andorre__np"/></e>
 <e lm="Andrucha"><i>Andrucha</i><par n="Antoine__np"/></e>
@@ -32069,6 +32069,7 @@
 <e lm="Autoeuropa"><i>Autoeuropa</i><par n="Wikipedia__np"/></e>
 <e lm="Autom"><i>Autom</i><par n="Linux__np"/></e>
 <e lm="Autriche"><i>Autriche</i><par n="Bulgarie__np"/></e>
+<e lm="Hongrie"><i>Hongrie</i><par n="Bulgarie__np"/></e>
 <e lm="Empire Austro-Hongrois"><i>Empire<b/>Austro-Hongrois</i><par n="Iran__np"/></e>
 <e lm="Autzagane"><i>Autzagane</i><par n="Andorre__np"/></e>
 <e lm="Auvergne"><i>Auvergne</i><par n="Bulgarie__np"/></e>
@@ -35413,11 +35414,9 @@
 <e lm="Cornellier"><i>Cornellier</i><par n="Saussure__np"/></e>
 <e lm="Cornellà"><i>Cornellà</i><par n="Iran__np"/></e>
 <e lm="Cornet"><i>Cornet</i><par n="Saussure__np"/></e>
-<e lm="Cornouailles"><i>Cornouailles</i><par n="Bulgarie__np"/></e>
-<e lm="Cornouailles"><i>Cornouailles</i><par n="Bahamas__np"/></e>
 <e lm="Cornu"><i>Cornu</i><par n="Saussure__np"/></e>
-<e lm="Cornuailles" c="admis aussi au pluriel"><i>Cornuailles</i><par n="Bulgarie__np"/></e>
-<e lm="Cornuailles" c="admis aussi au singulier"><i>Cornuailles</i><par n="Bahamas__np"/></e>
+<e lm="Cornouailles" c="admis aussi au pluriel"><i>Cornouailles</i><par n="Bulgarie__np"/></e>
+<e lm="Cornouailles" c="admis aussi au singulier"><i>Cornouailles</i><par n="Bahamas__np"/></e>
 <e lm="Cornudella"><i>Cornudella</i><par n="Saussure__np"/></e>
 <e lm="Cornwallis"><i>Cornwallis</i><par n="Saussure__np"/></e>
 <e lm="Coromina"><i>Coromina</i><par n="Saussure__np"/></e>
@@ -35782,7 +35781,9 @@
 <e lm="Célia"><i>Célia</i><par n="Marie__np"/></e>
 <e lm="Céline"><i>Céline</i><par n="Marie__np"/></e>
 <e lm="Céline"><i>Céline</i><par n="Saussure__np"/></e>
-<e lm="Célèbes"><i>Célèbes</i><par n="Andorre__np"/></e>
+<e lm="Célèbes"><i>Célèbes</i><par n="Bulgarie__np"/></e>
+<e lm="Chiapas"><i>Chiapas</i><par n="Iran__np"/></e>
+<e lm="Grenoble"><i>Grenoble</i><par n="Bulgarie__np"/></e>
 <e lm="Céré"><i>Céré</i><par n="Saussure__np"/></e>
 <e lm="César"><i>César</i><par n="Carrefour__np"/></e>
 <e lm="César"><i>César</i><par n="Antoine__np"/></e>
@@ -39715,6 +39716,8 @@
 <e lm="Honduras"><i>Honduras</i><par n="Iran__np"/></e>
 <e lm="Honecker"><i>Honecker</i><par n="Saussure__np"/></e>
 <e lm="Hong"><i>Hong</i><par n="Saussure__np"/></e>
+<e lm="Hong Kong"><i>Hong<b/>Kong</i><par n="Iran__np"/></e>
+<e lm="Stuttgart"><i>Stuttgart</i><par n="Saussure__np"/></e>
 <e lm="Hood"><i>Hood</i><par n="Saussure__np"/></e>
 <e lm="Hooke"><i>Hooke</i><par n="Saussure__np"/></e>
 <e lm="Hooper"><i>Hooper</i><par n="Saussure__np"/></e>
@@ -40874,13 +40877,13 @@
 <e lm="Knox"><i>Knox</i><par n="Saussure__np"/></e>
 <e lm="Koch"><i>Koch</i><par n="Saussure__np"/></e>
 <e lm="Koehler"><i>Koehler</i><par n="Saussure__np"/></e>
-<e lm="Kofi"><i>Kofi</i><par n="Abraham__np"/></e>
+<e lm="Kofi"><i>Kofi</i><par n="Antoine__np"/></e>
 <e lm="Kohn"><i>Kohn</i><par n="Saussure__np"/></e>
 <e lm="Koikili"><i>Koikili</i><par n="Abraham__np"/></e>
 <e lm="Koizumi"><i>Koizumi</i><par n="Saussure__np"/></e>
 <e lm="Koldo"><i>Koldo</i><par n="Antoine__np"/></e>
 <e lm="Kolmogorov"><i>Kolmogorov</i><par n="Saussure__np"/></e>
-<e lm="Kolobnev"><i>Kolobnev</i><par n="Abraham__np"/></e>
+<e lm="Kolobnev"><i>Kolobnev</i><par n="Saussure__np"/></e>
 <e lm="Koltès"><i>Koltès</i><par n="Abraham__np"/></e>
 <e lm="Koneak"><i>Koneak</i><par n="Saussure__np"/></e>
 <e lm="Kong"><i>Kong</i><par n="Saussure__np"/></e>
@@ -44071,7 +44074,7 @@
 <e lm="Muralitharan"><i>Muralitharan</i><par n="Saussure__np"/></e>
 <e lm="Murat"><i>Murat</i><par n="Saussure__np"/></e>
 <e lm="Murat"><i>Murat</i><par n="Antoine__np"/></e>
-<e lm="Muravyev"><i>Muravyev</i><par n="Abraham__np"/></e>
+<e lm="Muravyev"><i>Muravyev</i><par n="Saussure__np"/></e>
 <e lm="Murcia"><i>Murcia</i><par n="Saussure__np"/></e>
 <e lm="Murciano"><i>Murciano</i><par n="Saussure__np"/></e>
 <e lm="Murcie"><i>Murcie</i><par n="Bulgarie__np"/></e>
@@ -48844,7 +48847,7 @@
 <e lm="Tat"><i>Tat</i><par n="Saussure__np"/></e>
 <e lm="Tata"><i>Tata</i><par n="Carrefour__np"/></e>
 <e lm="Tatarella"><i>Tatarella</i><par n="Saussure__np"/></e>
-<e lm="Tchouvachie"><i>Tatarstan</i><par n="Iran__np"/></e>
+<e lm="Tatarstan"><i>Tatarstan</i><par n="Iran__np"/></e>
 <e lm="Tatay"><i>Tatay</i><par n="Saussure__np"/></e>
 <e lm="Tate"><i>Tate</i><par n="Saussure__np"/></e>
 <e lm="Tatiana Trouné"><i>Tatiana<b/>Trouné</i><par n="Marie__np"/></e>
@@ -49416,6 +49419,7 @@
 <e lm="Troya"><i>Troya</i><par n="Saussure__np"/></e>
 <e lm="Troyano"><i>Troyano</i><par n="Saussure__np"/></e>
 <e lm="Troyes"><i>Troyes</i><par n="Bulgarie__np"/></e>
+<e lm="Valenciennes"><i>Valenciennes</i><par n="Bulgarie__np"/></e>
 <e lm="Trubetskoi"><i>Trubetskoi</i><par n="Saussure__np"/></e>
 <e lm="Truchon" a="hector"><i>Truchon</i><par n="Saussure__np"/></e>
 <e lm="Trudeau"><i>Trudeau</i><par n="Saussure__np"/></e>
@@ -49604,7 +49608,7 @@
 <e r="LR" lm="Union Européenne"><p><l>Union<b/>Européenne</l> <r>Union<b/>européenne</r></p><par n="Bulgarie__np"/></e>
 <e lm="Union européenne"><i>Union<b/>européenne</i><par n="Bulgarie__np"/></e>
 <e lm="Union Latine"><i>Union<b/>Latine</i><par n="Carrefour__np"/></e>
-<e lm="Union Soviétique"><i>Union<b/>soviétique</i><par n="Bulgarie__np"/></e>
+<e lm="Union soviétique"><i>Union<b/>soviétique</i><par n="Bulgarie__np"/></e>
 <e r="LR" lm="Union soviétique"><p><l>Union<b/>Soviétique</l> <r>Union<b/>soviétique</r></p><par n="Bulgarie__np"/></e>
 <e lm="Union sud-africaine"><i>Union<b/>sud-africaine</i><par n="Bulgarie__np"/></e>
 <e lm="United"><i>United</i><par n="Carrefour__np"/></e>
