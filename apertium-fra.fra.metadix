@@ -26257,6 +26257,7 @@
 <e lm="avaliser"><i>avalis</i><par n="abaiss/er__vblex"/></e>
 <e lm="avancer"><i>avan</i><par n="annon/cer__vblex"/></e>
 <e lm="avantager"><i>avantag</i><par n="allong/er__vblex"/></e>
+<e lm="désavantager"><i>désavantag</i><par n="allong/er__vblex"/></e>
 <e lm="avarier"><i>avari</i><par n="abaiss/er__vblex"/></e>
 <e lm="aventurer"><i>aventur</i><par n="abaiss/er__vblex"/></e>
 <e lm="avertir"><i>avert</i><par n="about/[]ir__vblex" prm=""/></e>
@@ -53174,10 +53175,7 @@
 <e lm="quatre-vingt et un"><i>quatre-vingt<b/>et<b/>un</i><par n="cinquante_et_un__det"/></e>
 <e lm="quelque"><i>quelque</i><par n="quelque__det"/></e>
 <e r="LR" lm="son"><i>s</i><par n="m/on__det"/></e>
-<e lm="soixante-onze"><i>soixante-onze</i><par n="quatre-vingt-onze__det"/></e>
-<e lm="soixante et un"><i>soixante<b/>et<b/>un</i><par n="cinquante_et_un__det"/></e>
 <e r="LR" lm="ton"><i>t</i><par n="m/on__det"/></e>
-<e lm="trente et un"><i>trente<b/>et<b/>un</i><par n="cinquante_et_un__det"/></e>
 <e lm="un"><par n="/un__det"/></e>
 <e lm="un_autre"><par n="/un_autre__det"/></e>
 <e lm="vingt et un"><i>vingt<b/>et<b/>un</i><par n="cinquante_et_un__det"/></e>
@@ -53280,8 +53278,6 @@
 <e lm="soixante-deux"><i>soixante-douze</i><par n="cinq__num"/></e>
 <e lm="soixante-dix-huit"><i>soixante-huit</i><par n="cinq__num"/></e>
 <e lm="soixante-dix-neuf"><i>soixante-neuf</i><par n="cinq__num"/></e>
-<e lm="soixante-onze"><i>soixante-onze</i><par n="cinq__num"/></e>
-<e lm="soixante-onze"><i>soixante-onze</i><par n="cinquante_et_un__num"/></e>
 <e lm="soixante-quatre"><i>soixante-quatorze</i><par n="cinq__num"/></e>
 <e lm="soixante-quatorze"><i>soixante-quatre</i><par n="cinq__num"/></e>
 <e lm="soixante-cinq"><i>soixante-quinze</i><par n="cinq__num"/></e>
@@ -53290,6 +53286,9 @@
 <e lm="soixante-seize"><i>soixante-six</i><par n="cinq__num"/></e>
 <e lm="soixante-trois"><i>soixante-treize</i><par n="cinq__num"/></e>
 <e lm="soixante-treize"><i>soixante-trois</i><par n="cinq__num"/></e>
+<e lm="soixante et onze"><i>soixante<b/>et<b/>onze</i><par n="cinquante_et_un__num"/></e>
+<e lm="soixante et onze"><i>soixante<b/>et<b/>onze</i><par n="quatre-vingt-onze__det"/></e>
+<e lm="soixante et un"><i>soixante<b/>et<b/>un</i><par n="cinquante_et_un__det"/></e>
 <e lm="soixante et un"><i>soixante<b/>et<b/>un</i><par n="cinquante_et_un__num"/></e>
 <e lm="treize"><i>treize</i><par n="cinq__num"/></e>
 <e lm="trente"><i>trente</i><par n="cinq__num"/></e>
@@ -53302,6 +53301,7 @@
 <e lm="trente-six"><i>trente-six</i><par n="cinq__num"/></e>
 <e lm="trente-trois"><i>trente-trois</i><par n="cinq__num"/></e>
 <e lm="trente et un"><i>trente<b/>et<b/>un</i><par n="cinquante_et_un__num"/></e>
+<e lm="trente et un"><i>trente<b/>et<b/>un</i><par n="cinquante_et_un__det"/></e>
 <e lm="trois"><i>trois</i><par n="cinq__num"/></e>
 <e lm="trois cent"><i>trois<b/>cent</i><par n="cent__num"/></e>
 <e lm="trois-cent"><i>trois-cent</i><par n="cent__num"/></e>
@@ -59096,7 +59096,6 @@
 <e lm="rhème" a="jaumeortola"><i>rhème</i><par n="livre__n"/></e>
 <e lm="rhumatisant" a="jaumeortola"><i>rhumatisant</i><par n="affecté__n"/></e>
 <e lm="ridelle" a="jaumeortola"><i>ridelle</i><par n="abeille__n"/></e>
-<e lm="romain" a="jaumeortola"><i>romain</i><par n="affecté__n"/></e>
 <e lm="rouergat" a="jaumeortola"><i>rouergat</i><par n="affecté__n"/></e>
 <e lm="rousserolle" a="jaumeortola"><i>rousserolle</i><par n="abeille__n"/></e>
 <e lm="ruisselet" a="jaumeortola"><i>ruisselet</i><par n="livre__n"/></e>
