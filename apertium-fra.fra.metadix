@@ -30436,6 +30436,8 @@
 <e lm="Alberola"><i>Alberola</i><par n="Saussure__np"/></e>
 <e lm="Albers"><i>Albers</i><par n="Abraham__np"/></e>
 <e lm="Albert"><i>Albert</i><par n="Antoine__np"/></e>
+<e lm="Albèrt"><i>Albèrt</i><par n="Antoine__np"/></e>
+<e lm="Albert"><i>Albert</i><par n="Saussure__np"/></e>
 <e lm="Albert Ier de Monaco"><i>Albert<b/>Ier<b/>de<b/>Monaco</i><par n="Antoine__np"/></e>
 <e lm="Albert le Gran"><i>Albert<b/>le<b/>Grand</i><par n="Antoine__np"/></e>
 <e lm="Alberta"><i>Alberta</i><par n="Bulgarie__np"/></e>
@@ -31167,6 +31169,7 @@
 <e lm="Andresen"><i>Andresen</i><par n="Saussure__np"/></e>
 <e lm="Andreu"><i>Andreu</i><par n="Saussure__np"/></e>
 <e lm="Andreu"><i>Andreu</i><par n="Antoine__np"/></e>
+<e lm="Andrieu"><i>Andrieu</i><par n="Antoine__np"/></e>
 <e lm="Andrew"><i>Andrew</i><par n="Antoine__np"/></e>
 <e lm="Andrew"><i>Andrew</i><par n="Saussure__np"/></e>
 <e lm="Andrews"><i>Andrews</i><par n="Saussure__np"/></e>
@@ -31349,18 +31352,19 @@
 <e lm="Antolín"><i>Antolín</i><par n="Antoine__np"/></e>
 <e lm="Anton"><i>Anton</i><par n="Antoine__np"/></e>
 <e lm="Antonacci"><i>Antonacci</i><par n="Saussure__np"/></e>
-<e lm="Antonella"><i>Antonella</i><par n="Abraham__np"/></e>
-<e lm="Antonelli"><i>Antonelli</i><par n="Abraham__np"/></e>
+<e lm="Antonella"><i>Antonella</i><par n="Marie__np"/></e>
+<e lm="Antonelli"><i>Antonelli</i><par n="Saussure__np"/></e>
 <e lm="Antonescu"><i>Antonescu</i><par n="Saussure__np"/></e>
 <e lm="Antoni"><i>Antoni</i><par n="Antoine__np"/></e>
 <e lm="Antonia"><i>Antonia</i><par n="Marie__np"/></e>
-<e lm="Antonieta"><i>Antonieta</i><par n="Abraham__np"/></e>
+<e lm="Antonieta"><i>Antonieta</i><par n="Marie__np"/></e>
 <e lm="Antonio" a="hector"><i>Antonio</i><par n="Antoine__np"/></e>
 <e lm="Antonioni"><i>Antonioni</i><par n="Saussure__np"/></e>
-<e lm="Antoniutti"><i>Antoniutti</i><par n="Abraham__np"/></e>
-<e lm="Antonov"><i>Antonov</i><par n="Carrefour__np"/></e>
-<e lm="Antonsson"><i>Antonsson</i><par n="Abraham__np"/></e>
-<e lm="Antontxu"><i>Antontxu</i><par n="Abraham__np"/></e>
+<e lm="Antoniutti"><i>Antoniutti</i><par n="Saussure__np"/></e>
+<e lm="Antonov"><i>Antonov</i><par n="Linux__np"/></e>
+<e lm="Antonov"><i>Antonov</i><par n="Saussure__np"/></e>
+<e lm="Antonsson"><i>Antonsson</i><par n="Saussure__np"/></e>
+<e lm="Antontxu"><i>Antontxu</i><par n="Antoine__np"/></e>
 <e lm="Antonucci"><i>Antonucci</i><par n="Saussure__np"/></e>
 <e lm="Antony"><i>Antony</i><par n="Antoine__np"/></e>
 <e lm="Antoun"><i>Antoun</i><par n="Saussure__np"/></e>
@@ -31374,9 +31378,9 @@
 <e lm="Antuñano"><i>Antuñano</i><par n="Saussure__np"/></e>
 <e lm="Antxia"><i>Antxia</i><par n="Saussure__np"/></e>
 <e lm="Antxieta"><i>Antxieta</i><par n="Saussure__np"/></e>
-<e lm="Antxon"><i>Antxon</i><par n="Abraham__np"/></e>
+<e lm="Antxon"><i>Antxon</i><par n="Antoine__np"/></e>
 <e lm="Antxustegi"><i>Antxustegi</i><par n="Saussure__np"/></e>
-<e lm="Antxón"><i>Antxón</i><par n="Abraham__np"/></e>
+<e lm="Antxón"><i>Antxón</i><par n="Antoine__np"/></e>
 <e lm="Antzerkiola Imaginarioa"><i>Antzerkiola<b/>Imaginarioa</i><par n="Carrefour__np"/></e>
 <e lm="Antzuola"><i>Antzuola</i><par n="Andorre__np"/></e>
 <e lm="Antòni"><i>Antòni</i><par n="Antoine__np"/></e>
@@ -32006,7 +32010,6 @@
 <e lm="Augusta"><i>Augusta</i><par n="Marie__np"/></e>
 <e lm="Auguste"><i>Auguste</i><par n="Saussure__np"/></e>
 <e lm="Auguste"><i>Auguste</i><par n="Antoine__np"/></e>
-<e lm="Auguste"><i>Auguste</i><par n="Marie__np"/></e>
 <e lm="Augustin"><i>Augustin</i><par n="Saussure__np"/></e>
 <e lm="Augustin"><i>Augustin</i><par n="Antoine__np"/></e>
 <e lm="Augustin d'Hippone"><i>Augustin<b/>d'Hippone</i><par n="Antoine__np"/></e>
@@ -32035,8 +32038,6 @@
 <e lm="Aurillac"><i>Aurillac</i><par n="Iran__np"/></e>
 <e lm="Auriol"><i>Auriol</i><par n="Saussure__np"/></e>
 <e lm="Auritz-Burguete"><i>Auritz-Burguete</i><par n="Andorre__np"/></e>
-<e lm="Aurora"><i>Aurora</i><par n="Marie__np"/></e>
-<e lm="Aurore"><i>Aurore</i><par n="Marie__np"/></e>
 <e lm="Aurrekoetxea"><i>Aurrekoetxea</i><par n="Saussure__np"/></e>
 <e lm="Aurèle"><i>Aurèle</i><par n="Antoine__np"/></e>
 <e lm="Aurèlia"><i>Aurèlia</i><par n="Marie__np"/></e>
@@ -32963,6 +32964,7 @@
 <e lm="Berruezo"><i>Berruezo</i><par n="Saussure__np"/></e>
 <e lm="Berry"><i>Berry</i><par n="Saussure__np"/></e>
 <e lm="Berta"><i>Berta</i><par n="Marie__np"/></e>
+<e lm="Bèrta"><i>Bèrta</i><par n="Marie__np"/></e>
 <e lm="Berteau"><i>Berteau</i><par n="Saussure__np"/></e>
 <e lm="Bertelsmann"><i>Bertelsmann</i><par n="Carrefour__np"/></e>
 <e lm="Berthe"><i>Berthe</i><par n="Saussure__np"/></e>
@@ -33585,7 +33587,6 @@
 <e lm="Brien" a="hector"><i>Brien</i><par n="Saussure__np"/></e>
 <e lm="Briggs"><i>Briggs</i><par n="Saussure__np"/></e>
 <e lm="Bright"><i>Bright</i><par n="Saussure__np"/></e>
-<e lm="Brigitte" a="hector"><i>Brigitte</i><par n="Marie__np"/></e>
 <e lm="Brillant"><i>Brillant</i><par n="Saussure__np"/></e>
 <e lm="Brillon"><i>Brillon</i><par n="Saussure__np"/></e>
 <e lm="Brin"><i>Brin</i><par n="Saussure__np"/></e>
@@ -34300,7 +34301,7 @@
 <e lm="Carod-Rovira"><i>Carod-Rovira</i><par n="Saussure__np"/></e>
 <e lm="Carol"><i>Carol</i><par n="Saussure__np"/></e>
 <e lm="Carola"><i>Carola</i><par n="Marie__np"/></e>
-<e lm="Carole" a="hector"><i>Carole</i><par n="Marie__np"/></e>
+<e lm="Caròla"><i>Caròla</i><par n="Marie__np"/></e>
 <e lm="Carolina"><i>Carolina</i><par n="Marie__np"/></e>
 <e lm="Caroline"><i>Caroline</i><par n="Marie__np"/></e>
 <e lm="Caroline du Nord"><i>Caroline<b/>du<b/>Nord</i><par n="Bulgarie__np"/></e>
@@ -35037,7 +35038,7 @@
 <e lm="Claudette"><i>Claudette</i><par n="Marie__np"/></e>
 <e lm="Claudi"><i>Claudi</i><par n="Antoine__np"/></e>
 <e lm="Claudia"><i>Claudia</i><par n="Marie__np"/></e>
-<e lm="Claudine"><i>Claudine</i><par n="Marie__np"/></e>
+<e lm="Claudina"><i>Claudina</i><par n="Marie__np"/></e>
 <e lm="Claudio"><i>Claudio</i><par n="Antoine__np"/></e>
 <e lm="Claus"><i>Claus</i><par n="Antoine__np"/></e>
 <e lm="Clausewitz"><i>Clausewitz</i><par n="Saussure__np"/></e>
@@ -35554,7 +35555,7 @@
 <e lm="Crespí"><i>Crespí</i><par n="Saussure__np"/></e>
 <e lm="Cresson"><i>Cresson</i><par n="Saussure__np"/></e>
 <e lm="Cresswell"><i>Cresswell</i><par n="Saussure__np"/></e>
-<e lm="Crestian"><i>Crestian</i><par n="Marie__np"/></e>
+<e lm="Crestian"><i>Crestian</i><par n="Antoine__np"/></e>
 <e lm="Creton"><i>Creton</i><par n="Saussure__np"/></e>
 <e lm="Creus"><i>Creus</i><par n="Saussure__np"/></e>
 <e lm="Creuse"><i>Creuse</i><par n="Bulgarie__np"/></e>
@@ -35880,6 +35881,7 @@
 <e lm="Dangelo"><i>Dangelo</i><par n="Saussure__np"/></e>
 <e lm="Dani"><i>Dani</i><par n="Antoine__np"/></e>
 <e lm="Daniel"><i>Daniel</i><par n="Antoine__np"/></e>
+<e lm="Danièl"><i>Danièl</i><par n="Antoine__np"/></e>
 <e lm="Daniel Ortega"><i>Daniel<b/>Ortega</i><par n="Antoine__np"/></e>
 <e lm="Daniela"><i>Daniela</i><par n="Marie__np"/></e>
 <e lm="Daniele"><i>Daniele</i><par n="Antoine__np"/></e>
@@ -35944,6 +35946,7 @@
 <e lm="Davi"><i>Davi</i><par n="Saussure__np"/></e>
 <e lm="Daviault" a="hector"><i>Daviault</i><par n="Saussure__np"/></e>
 <e lm="David"><i>David</i><par n="Antoine__np"/></e>
+<e lm="Dàvid"><i>Dàvid</i><par n="Antoine__np"/></e>
 <e lm="David"><i>David</i><par n="Saussure__np"/></e>
 <e lm="Davide"><i>Davide</i><par n="Abraham__np"/></e>
 <e lm="Davidson"><i>Davidson</i><par n="Saussure__np"/></e>
@@ -37323,6 +37326,7 @@
 <e lm="Ester"><i>Ester</i><par n="Marie__np"/></e>
 <e lm="Esteva"><i>Esteva</i><par n="Saussure__np"/></e>
 <e lm="Esteve"><i>Esteve</i><par n="Antoine__np"/></e>
+<e lm="Estève"><i>Estève</i><par n="Antoine__np"/></e>
 <e lm="Esteves"><i>Esteves</i><par n="Saussure__np"/></e>
 <e lm="Esther"><i>Esther</i><par n="Marie__np"/></e>
 <e lm="Estilicó"><i>Estilicó</i><par n="Saussure__np"/></e>
@@ -37827,9 +37831,10 @@
 <e lm="Flo"><i>Flo</i><par n="Saussure__np"/></e>
 <e lm="Flood"><i>Flood</i><par n="Saussure__np"/></e>
 <e lm="Flor"><i>Flor</i><par n="Saussure__np"/></e>
-<e lm="Floren"><i>Floren</i><par n="Abraham__np"/></e>
+<e lm="Floren"><i>Floren</i><par n="Antoine__np"/></e>
 <e lm="Florence"><i>Florence</i><par n="Saussure__np"/></e>
 <e lm="Florence"><i>Florence</i><par n="Marie__np"/></e>
+<e lm="Florença"><i>Florença</i><par n="Marie__np"/></e>
 <e lm="Florencio"><i>Florencio</i><par n="Saussure__np"/></e>
 <e lm="Florens"><i>Florens</i><par n="Marie__np"/></e>
 <e lm="Florensa"><i>Florensa</i><par n="Saussure__np"/></e>
@@ -38054,6 +38059,7 @@
 <e lm="saint François Borgia"><i>saint<b/>François<b/>Borgia</i><par n="Antoine__np"/></e>
 <e lm="Francesc de Borja"><i>Francesc<b/>de<b/>Borja</i><par n="Antoine__np"/></e>
 <e lm="Françoise"><i>Françoise</i><par n="Marie__np"/></e>
+<e lm="Francesa"><i>Francesa</i><par n="Marie__np"/></e>
 <e lm="Frappier" a="hector"><i>Frappier</i><par n="Saussure__np"/></e>
 <e lm="Frasca"><i>Frasca</i><par n="Saussure__np"/></e>
 <e lm="Fraser" a="hector"><i>Fraser</i><par n="Saussure__np"/></e>
@@ -38196,7 +38202,9 @@
 <e lm="Gaboriault"><i>Gaboriault</i><par n="Saussure__np"/></e>
 <e lm="Gaborone"><i>Gaborone</i><par n="Andorre__np"/></e>
 <e lm="Gaboury"><i>Gaboury</i><par n="Saussure__np"/></e>
+<e lm="Gabriel"><i>Gabriel</i><par n="Saussure__np"/></e>
 <e lm="Gabriel"><i>Gabriel</i><par n="Antoine__np"/></e>
+<e lm="Gabrièl"><i>Gabrièl</i><par n="Antoine__np"/></e>
 <e lm="Gabriela"><i>Gabriela</i><par n="Marie__np"/></e>
 <e lm="Gabriele Falloppio"><i>Gabriele<b/>Falloppio</i><par n="Antoine__np"/></e>
 <e lm="Gaby"><i>Gaby</i><par n="Antoine__np"/></e>
@@ -39239,6 +39247,7 @@
 <e lm="Gutiérrez"><i>Gutiérrez</i><par n="Saussure__np"/></e>
 <e lm="Guy"><i>Guy</i><par n="Saussure__np"/></e>
 <e lm="Guy"><i>Guy</i><par n="Antoine__np"/></e>
+<e lm="Gui"><i>Gui</i><par n="Antoine__np"/></e>
 <e lm="Guyana"><i>Guyana</i><par n="Bulgarie__np"/></e>
 <e lm="Guyane"><i>Guyane</i><par n="Bulgarie__np"/></e>
 <e lm="Guyane Française"><i>Guyane<b/>Française</i><par n="Bulgarie__np"/></e>
@@ -40075,7 +40084,6 @@
 <e lm="Irastorza"><i>Irastorza</i><par n="Saussure__np"/></e>
 <e lm="Irazusta"><i>Irazusta</i><par n="Saussure__np"/></e>
 <e lm="Ireland"><i>Ireland</i><par n="Saussure__np"/></e>
-<e lm="Irene"><i>Irene</i><par n="Marie__np"/></e>
 <e lm="Iriarte"><i>Iriarte</i><par n="Saussure__np"/></e>
 <e lm="Iriarte"><i>Iriarte</i><par n="Saussure__np"/></e>
 <e lm="Iribar"><i>Iribar</i><par n="Saussure__np"/></e>
@@ -40105,6 +40113,7 @@
 <e lm="Isabella"><i>Isabella</i><par n="Marie__np"/></e>
 <e lm="Isabelle"><i>Isabelle</i><par n="Saussure__np"/></e>
 <e lm="Isabelle"><i>Isabelle</i><par n="Marie__np"/></e>
+<e lm="Isabèla"><i>Isabèla</i><par n="Marie__np"/></e>
 <e lm="Isabelle Ire la Catholique"><i>Isabelle<b/>Ire<b/>la<b/>Catholique</i><par n="Marie__np"/></e>
 <e lm="Isach"><i>Isach</i><par n="Saussure__np"/></e>
 <e lm="Isanta"><i>Isanta</i><par n="Saussure__np"/></e>
@@ -40454,6 +40463,7 @@
 <e lm="Jordana"><i>Jordana</i><par n="Saussure__np"/></e>
 <e lm="Jordanie"><i>Jordanie</i><par n="Bulgarie__np"/></e>
 <e lm="Jordi"><i>Jordi</i><par n="Antoine__np"/></e>
+<e lm="Jòrdi"><i>Jòrdi</i><par n="Antoine__np"/></e>
 <e lm="Jordà"><i>Jordà</i><par n="Saussure__np"/></e>
 <e lm="Jordá"><i>Jordá</i><par n="Saussure__np"/></e>
 <e lm="Jorge"><i>Jorge</i><par n="Antoine__np"/></e>
@@ -40507,8 +40517,8 @@
 <e lm="Jourdenais"><i>Jourdenais</i><par n="Saussure__np"/></e>
 <e lm="Journal"><i>Journal</i><par n="Carrefour__np"/></e>
 <e lm="Journeault"><i>Journeault</i><par n="Saussure__np"/></e>
-<e lm="journée du parti nationaliste basque"><i>journée<b/>du<b/>parti<b/>nationaliste<b/>basque</i><par n="Carrefour__np"/></e>
-<e lm="Journée Internationale de la Femme"><i>Journée<b/>Internationale<b/>de<b/>la<b/>Femme</i><par n="Carrefour__np"/></e>
+<e lm="journée du parti nationaliste basque"><i>journée<b/>du<b/>parti<b/>nationaliste<b/>basque</i><par n="Linux__np"/></e>
+<e lm="Journée Internationale de la Femme"><i>Journée<b/>Internationale<b/>de<b/>la<b/>Femme</i><par n="Linux__np"/></e>
 <e lm="Jouyet"><i>Jouyet</i><par n="Abraham__np"/></e>
 <e lm="Jovani"><i>Jovani</i><par n="Saussure__np"/></e>
 <e lm="Joventut"><i>Joventut</i><par n="Carrefour__np"/></e>
@@ -40516,7 +40526,7 @@
 <e lm="Jovita"><i>Jovita</i><par n="Marie__np"/></e>
 <e lm="Jové"><i>Jové</i><par n="Saussure__np"/></e>
 <e lm="Joxe"><i>Joxe</i><par n="Saussure__np"/></e>
-<e lm="Joxemi"><i>Joxemi</i><par n="Abraham__np"/></e>
+<e lm="Joxemi"><i>Joxemi</i><par n="Antoine__np"/></e>
 <e lm="Joxi"><i>Joxi</i><par n="Antoine__np"/></e>
 <e lm="Joya"><i>Joya</i><par n="Saussure__np"/></e>
 <e lm="Joyal" a="hector"><i>Joyal</i><par n="Saussure__np"/></e>
@@ -41347,6 +41357,8 @@
 <e lm="Laurencelle"><i>Laurencelle</i><par n="Saussure__np"/></e>
 <e lm="Laurendeau"><i>Laurendeau</i><par n="Saussure__np"/></e>
 <e lm="Laurent"><i>Laurent</i><par n="Antoine__np"/></e>
+<e lm="Laurenç"><i>Laurenç</i><par n="Antoine__np"/></e>
+<e lm="Laurença"><i>Laurença</i><par n="Marie__np"/></e>
 <e lm="Lauriault"><i>Lauriault</i><par n="Saussure__np"/></e>
 <e lm="Lauricella"><i>Lauricella</i><par n="Saussure__np"/></e>
 <e lm="Laurie"><i>Laurie</i><par n="Saussure__np"/></e>
@@ -41408,11 +41420,10 @@
 <e lm="Le Caire"><i>Le<b/>Caire</i><par n="Iran__np"/></e>
 <e lm="Le Canard enchaîné"><i>Le<b/>Canard<b/>enchaîné</i><par n="Linux__np"/></e>
 <e lm="Le Cap"><i>Le<b/>Cap</i><par n="Iran__np"/></e>
-<e lm="Le Corbusier"><i>Le<b/>Corbusier</i><par n="Antoine__np"/></e>
-<e lm="Le Cuirassé Potemkine"><i>Le<b/>Cuirassé<b/>Potemkine</i><par n="Carrefour__np"/></e>
-<e lm="Le dictateur"><i>Le<b/>dictateur</i><par n="Carrefour__np"/></e>
-<e lm="le gouvernement"><i>le<b/>gouvernement</i><par n="Carrefour__np"/></e>
-<e lm="Le Manifeste du parti communiste"><i>Le<b/>Manifeste<b/>du<b/>parti<b/>communiste</i><par n="Carrefour__np"/></e>
+<e lm="Le Corbusier"><i>Le<b/>Corbusier</i><par n="Saussure__np"/></e>
+<e lm="Le Cuirassé Potemkine"><i>Le<b/>Cuirassé<b/>Potemkine</i><par n="Linux__np"/></e>
+<e lm="Le dictateur"><i>Le<b/>dictateur</i><par n="Linux__np"/></e>
+<e lm="Le Manifeste du parti communiste"><i>Le<b/>Manifeste<b/>du<b/>parti<b/>communiste</i><par n="Linux__np"/></e>
 <e lm="Le Mans"><i>Le<b/>Mans</i><par n="Iran__np"/></e>
 <e lm="Le Monde"><i>Le<b/>Monde</i><par n="Linux__np"/></e>
 <e lm="Le Pen"><i>Le<b/>Pen</i><par n="Saussure__np"/></e>
@@ -41983,13 +41994,14 @@
 <e lm="Louis"><i>Louis</i><par n="Antoine__np"/></e>
 <e lm="Louis-Dreyfus"><i>Louis-Dreyfus</i><par n="Antoine__np"/></e>
 <e lm="Louise"><i>Louise</i><par n="Marie__np"/></e>
+<e lm="Loïsa"><i>Loïsa</i><par n="Marie__np"/></e>
 <e lm="Louisiane"><i>Louisiane</i><par n="Bulgarie__np"/></e>
 <e lm="Louisjeune"><i>Louisjeune</i><par n="Saussure__np"/></e>
 <e lm="Louissaint"><i>Louissaint</i><par n="Saussure__np"/></e>
 <e lm="Louisseize"><i>Louisseize</i><par n="Saussure__np"/></e>
 <e lm="Loukachenko"><i>Loukachenko</i><par n="Saussure__np"/></e>
 <e lm="Loukili"><i>Loukili</i><par n="Saussure__np"/></e>
-<e lm="Louksor"><i>Louksor</i><par n="Andorre__np"/></e>
+<e lm="Louksor"><i>Louksor</i><par n="Iran__np"/></e>
 <e lm="Lourdes"><i>Lourdes</i><par n="Bulgarie__np"/></e>
 <e lm="Lourdes"><i>Lourdes</i><par n="Marie__np"/></e>
 <e lm="Loureiro"><i>Loureiro</i><par n="Saussure__np"/></e>
@@ -42481,6 +42493,7 @@
 <e lm="Marcaurèle"><i>Marcaurèle</i><par n="Saussure__np"/></e>
 <e lm="Marceau" a="hector"><i>Marceau</i><par n="Saussure__np"/></e>
 <e lm="Marcel"><i>Marcel</i><par n="Antoine__np"/></e>
+<e lm="Marcèl"><i>Marcèl</i><par n="Antoine__np"/></e>
 <e lm="Marcela"><i>Marcela</i><par n="Marie__np"/></e>
 <e lm="Marcelin"><i>Marcelin</i><par n="Saussure__np"/></e>
 <e lm="Marcelino"><i>Marcelino</i><par n="Antoine__np"/></e>
@@ -42567,6 +42580,8 @@
 <e lm="Marie-Noël"><i>Marie-Noël</i><par n="Marie__np"/></e>
 <e lm="Marie-Noëlle"><i>Marie-Noëlle</i><par n="Marie__np"/></e>
 <e lm="Marie-Thérèse"><i>Marie-Thérèse</i><par n="Marie__np"/></e>
+<e lm="Maria Terèsa"><i>Maria<b/>Terèsa</i><par n="Marie__np"/></e>
+<e lm="Maria Teresa"><i>Maria<b/>Teresa</i><par n="Marie__np"/></e>
 <e lm="Mariehamn"><i>Mariehamn</i><par n="Andorre__np"/></e>
 <e lm="Mariela"><i>Mariela</i><par n="Marie__np"/></e>
 <e lm="Marien"><i>Marien</i><par n="Saussure__np"/></e>
@@ -43344,7 +43359,6 @@
 <e lm="Michetti"><i>Michetti</i><par n="Saussure__np"/></e>
 <e lm="Michigan"><i>Michigan</i><par n="Iran__np"/></e>
 <e lm="Michon"><i>Michon</i><par n="Saussure__np"/></e>
-<e lm="Michèle" a="hector"><i>Michèle</i><par n="Marie__np"/></e>
 <e lm="Mick"><i>Mick</i><par n="Antoine__np"/></e>
 <e lm="Mickaël" a="hector"><i>Mickaël</i><par n="Antoine__np"/></e>
 <e lm="Mickel"><i>Mickel</i><par n="Saussure__np"/></e>
@@ -43474,6 +43488,7 @@
 <e lm="Miossic"><i>Miossic</i><par n="Saussure__np"/></e>
 <e lm="Miousse"><i>Miousse</i><par n="Saussure__np"/></e>
 <e lm="Miquel"><i>Miquel</i><par n="Antoine__np"/></e>
+<e lm="Miquèl"><i>Miquèl</i><par n="Antoine__np"/></e>
 <e lm="Miquelet"><i>Miquelet</i><par n="Linux__np"/></e>
 <e lm="Miquèu"><i>Miquèu</i><par n="Antoine__np"/></e>
 <e lm="Mir"><i>Mir</i><par n="Saussure__np"/></e>
@@ -43499,7 +43514,6 @@
 <e lm="Mirco"><i>Mirco</i><par n="Abraham__np"/></e>
 <e lm="Mireault" a="hector"><i>Mireault</i><par n="Saussure__np"/></e>
 <e lm="Mireia"><i>Mireia</i><par n="Marie__np"/></e>
-<e lm="Mireille" a="hector"><i>Mireille</i><par n="Marie__np"/></e>
 <e lm="Miren"><i>Miren</i><par n="Marie__np"/></e>
 <e lm="Miren Azkarate"><i>Miren<b/>Azkarate</i><par n="Marie__np"/></e>
 <e lm="Mirentxu"><i>Mirentxu</i><par n="Marie__np"/></e>
@@ -44062,6 +44076,7 @@
 <e lm="Muriana"><i>Muriana</i><par n="Saussure__np"/></e>
 <e lm="Muriel"><i>Muriel</i><par n="Saussure__np"/></e>
 <e lm="Muriel"><i>Muriel</i><par n="Marie__np"/></e>
+<e lm="Murièl"><i>Murièl</i><par n="Marie__np"/></e>
 <e lm="Murillo"><i>Murillo</i><par n="Saussure__np"/></e>
 <e lm="Muriá"><i>Muriá</i><par n="Saussure__np"/></e>
 <e lm="Murkowski"><i>Murkowski</i><par n="Saussure__np"/></e>
@@ -45238,7 +45253,6 @@
 <e lm="Pasajes"><i>Pasajes</i><par n="Iran__np"/></e>
 <e lm="Pascal"><i>Pascal</i><par n="Saussure__np"/></e>
 <e lm="Pascal"><i>Pascal</i><par n="Antoine__np"/></e>
-<e lm="Pascale" a="hector"><i>Pascale</i><par n="Marie__np"/></e>
 <e lm="Pascua"><i>Pascua</i><par n="Saussure__np"/></e>
 <e lm="Pascual"><i>Pascual</i><par n="Antoine__np"/></e>
 <e lm="Pascuet"><i>Pascuet</i><par n="Saussure__np"/></e>
@@ -45269,6 +45283,7 @@
 <e lm="Patiño"><i>Patiño</i><par n="Saussure__np"/></e>
 <e lm="Pato"><i>Pato</i><par n="Saussure__np"/></e>
 <e lm="Patoine"><i>Patoine</i><par n="Saussure__np"/></e>
+<e lm="Patric"><i>Patric</i><par n="Antoine__np"/></e>
 <e lm="Patrice"><i>Patrice</i><par n="Antoine__np"/></e>
 <e lm="Patrice"><i>Patrice</i><par n="Saussure__np"/></e>
 <e lm="Patricia"><i>Patricia</i><par n="Marie__np"/></e>
@@ -46645,9 +46660,10 @@
 <e lm="Rentería"><i>Rentería</i><par n="Andorre__np"/></e>
 <e lm="Reny"><i>Reny</i><par n="Saussure__np"/></e>
 <e lm="Renzi"><i>Renzi</i><par n="Saussure__np"/></e>
-<e lm="Renzo"><i>Renzo</i><par n="Saussure__np"/></e>
+<e lm="Renzo"><i>Renzo</i><par n="Antoine__np"/></e>
 <e lm="René"><i>René</i><par n="Antoine__np"/></e>
-<e lm="Renée"><i>René</i><par n="Marie__np"/></e>
+<e lm="Renée"><i>Renée</i><par n="Marie__np"/></e>
+<e lm="Reinat"><i>Reinat</i><par n="Antoine__np"/></e>
 <e lm="René Garcia Préval"><i>René<b/>Garcia<b/>Préval</i><par n="Antoine__np"/></e>
 <e lm="Renédecotret"><i>Renédecotret</i><par n="Saussure__np"/></e>
 <e lm="Renée"><i>Renée</i><par n="Marie__np"/></e>
@@ -46944,11 +46960,12 @@
 <e lm="Roge"><i>Roge</i><par n="Abraham__np"/></e>
 <e lm="Rogel"><i>Rogel</i><par n="Saussure__np"/></e>
 <e lm="Roger"><i>Roger</i><par n="Antoine__np"/></e>
+<e lm="Rogièr"><i>Rogièr</i><par n="Antoine__np"/></e>
 <e lm="Roger Bacon"><i>Roger<b/>Bacon</i><par n="Antoine__np"/></e>
 <e lm="Rogers"><i>Rogers</i><par n="Saussure__np"/></e>
 <e lm="Roguski"><i>Roguski</i><par n="Saussure__np"/></e>
-<e lm="Roh"><i>Roh</i><par n="Abraham__np"/></e>
-<e lm="Roh Moo-hyun"><i>Roh<b/>Moo-hyun</i><par n="Abraham__np"/></e>
+<e lm="Roh"><i>Roh</i><par n="Antoine__np"/></e>
+<e lm="Roh Moo-hyun"><i>Roh<b/>Moo-hyun</i><par n="Antoine__np"/></e>
 <e lm="Rohrabacher"><i>Rohrabacher</i><par n="Saussure__np"/></e>
 <e lm="Roig"><i>Roig</i><par n="Carrefour__np"/></e>
 <e lm="Roig"><i>Roig</i><par n="Saussure__np"/></e>
@@ -49704,7 +49721,7 @@
 <e lm="Valentin" a="hector"><i>Valentin</i><par n="Antoine__np"/></e>
 <e lm="Valentin"><i>Valentin</i><par n="Saussure__np"/></e>
 <e lm="Valentine"><i>Valentine</i><par n="Saussure__np"/></e>
-<e lm="Valentine"><i>Valentine</i><par n="Antoine__np"/></e>
+<e lm="Valentine"><i>Valentine</i><par n="Marie__np"/></e>
 <e lm="Valentini"><i>Valentini</i><par n="Saussure__np"/></e>
 <e lm="Valentino"><i>Valentino</i><par n="Antoine__np"/></e>
 <e lm="Valentí"><i>Valentí</i><par n="Saussure__np"/></e>
@@ -51049,6 +51066,8 @@
 <e lm="Èol"><i>Èol</i><par n="Antoine__np"/></e>
 <e lm="Èric"><i>Èric</i><par n="Antoine__np"/></e>
 <e lm="Ève"><i>Ève</i><par n="Marie__np"/></e>
+<e r="LR" lm="Ève"><p><l>Eve</l><r>Ève</r></p><par n="Marie__np"/></e>
+<e lm="Èva"><i>Èva</i><par n="Marie__np"/></e>
 <e lm="Éamon"><i>Éamon</i><par n="Antoine__np"/></e>
 <e lm="Écija"><i>Écija</i><par n="Saussure__np"/></e>
 <e lm="Écosse"><i>Écosse</i><par n="Bulgarie__np"/></e>
@@ -51067,6 +51086,7 @@
 <e lm="Élam"><i>Élam</i><par n="Andorre__np"/></e>
 <e lm="Électre"><i>Électre</i><par n="Marie__np"/></e>
 <e lm="Élisabeth"><i>Élisabeth</i><par n="Marie__np"/></e>
+<e lm="Elisabèt"><i>Elisabèt</i><par n="Marie__np"/></e>
 <e lm="Élisabeth Farnèse"><i>Élisabeth<b/>Farnèse</i><par n="Marie__np"/></e>
 <e lm="Élisabeth II"><i>Élisabeth<b/>II</i><par n="Marie__np"/></e>
 <e lm="Élise"><i>Élise</i><par n="Marie__np"/></e>
@@ -54059,6 +54079,7 @@
 <e lm="Adrianna"><i>Adrianna</i><par n="Marie__np"/></e>
 <e lm="Adrienne"><i>Adrienne</i><par n="Marie__np"/></e>
 <e lm="Adèle"><i>Adèle</i><par n="Marie__np"/></e>
+<e lm="Adèla"><i>Adèla</i><par n="Marie__np"/></e>
 <e lm="Adélaïde"><i>Adélaïde</i><par n="Marie__np"/></e>
 <e lm="Adélie"><i>Adélie</i><par n="Marie__np"/></e>
 <e lm="Afife"><i>Afife</i><par n="Marie__np"/></e>
@@ -54314,7 +54335,8 @@
 <e lm="Annalisa"><i>Annalisa</i><par n="Marie__np"/></e>
 <e lm="Annalise"><i>Annalise</i><par n="Marie__np"/></e>
 <e lm="Anne"><i>Anne</i><par n="Marie__np"/></e>
-<e lm="Anne-Marie"><i>Anne-Marie</i><par n="Marie__np"/></e>
+<e lm="Ana Maria"><i>Ana<b/>Maria</i><par n="Marie__np"/></e>
+<e lm="Asalaïs"><i>Asalaïs</i><par n="Marie__np"/></e>
 <e lm="Annetta"><i>Annetta</i><par n="Marie__np"/></e>
 <e lm="Annette"><i>Annette</i><par n="Marie__np"/></e>
 <e lm="Annick"><i>Annick</i><par n="Marie__np"/></e>
@@ -54405,11 +54427,11 @@
 <e lm="Aude"><i>Aude</i><par n="Marie__np"/></e>
 <e lm="Audrey"><i>Audrey</i><par n="Marie__np"/></e>
 <e lm="Augusta"><i>Augusta</i><par n="Marie__np"/></e>
-<e lm="Auguste"><i>Auguste</i><par n="Marie__np"/></e>
 <e lm="Aung"><i>Aung</i><par n="Marie__np"/></e>
 <e lm="Aura"><i>Aura</i><par n="Marie__np"/></e>
 <e lm="Aurkene"><i>Aurkene</i><par n="Marie__np"/></e>
 <e lm="Aurora"><i>Aurora</i><par n="Marie__np"/></e>
+<e lm="Auròra"><i>Auròra</i><par n="Marie__np"/></e>
 <e lm="Aurore"><i>Aurore</i><par n="Marie__np"/></e>
 <e lm="Aurèlia"><i>Aurèlia</i><par n="Marie__np"/></e>
 <e lm="Aurélie"><i>Aurélie</i><par n="Marie__np"/></e>
@@ -54567,6 +54589,7 @@
 <e lm="Brielle"><i>Brielle</i><par n="Marie__np"/></e>
 <e lm="Brigida"><i>Brigida</i><par n="Marie__np"/></e>
 <e lm="Brigitte"><i>Brigitte</i><par n="Marie__np"/></e>
+<e lm="Brigita"><i>Brigita</i><par n="Marie__np"/></e>
 <e lm="Brindadiana"><i>Brindadiana</i><par n="Marie__np"/></e>
 <e lm="Brinia"><i>Brinia</i><par n="Marie__np"/></e>
 <e lm="Brionna"><i>Brionna</i><par n="Marie__np"/></e>
@@ -54792,12 +54815,12 @@
 <e lm="Claudine"><i>Claudine</i><par n="Marie__np"/></e>
 <e lm="Clementine"><i>Clementine</i><par n="Marie__np"/></e>
 <e lm="Cleménce"><i>Cleménce</i><par n="Marie__np"/></e>
-<e lm="Cleòpatra"><i>Cleòpatra</i><par n="Marie__np"/></e>
 <e lm="Cloe"><i>Cloe</i><par n="Marie__np"/></e>
 <e lm="Clotilde"><i>Clotilde</i><par n="Marie__np"/></e>
 <e lm="Cloè"><i>Cloè</i><par n="Marie__np"/></e>
 <e lm="Clàudia"><i>Clàudia</i><par n="Marie__np"/></e>
 <e lm="Clémence"><i>Clémence</i><par n="Marie__np"/></e>
+<e lm="Clamença"><i>Clamença</i><par n="Marie__np"/></e>
 <e lm="Coco"><i>Coco</i><par n="Marie__np"/></e>
 <e lm="Colette"><i>Colette</i><par n="Marie__np"/></e>
 <e lm="Colleen"><i>Colleen</i><par n="Marie__np"/></e>
@@ -54830,7 +54853,7 @@
 <e lm="Crescencia"><i>Crescencia</i><par n="Marie__np"/></e>
 <e lm="Crestian"><i>Crestian</i><par n="Marie__np"/></e>
 <e lm="Cristal"><i>Cristal</i><par n="Marie__np"/></e>
-<e lm="Cristiana"><i>Cristiana</i><par n="Marie__np"/></e>
+<e lm="Marietiana"><i>Cristiana</i><par n="Marie__np"/></e>
 <e lm="Cristina"><i>Cristina</i><par n="Marie__np"/></e>
 <e lm="Crocetta"><i>Crocetta</i><par n="Marie__np"/></e>
 <e lm="Crocifissa"><i>Crocifissa</i><par n="Marie__np"/></e>
@@ -54999,6 +55022,7 @@
 <e lm="Doris"><i>Doris</i><par n="Marie__np"/></e>
 <e lm="Dorita"><i>Dorita</i><par n="Marie__np"/></e>
 <e lm="Dorotea"><i>Dorotea</i><par n="Marie__np"/></e>
+<e lm="Dorotèa"><i>Dorotèa</i><par n="Marie__np"/></e>
 <e lm="Dorothy"><i>Dorothy</i><par n="Marie__np"/></e>
 <e lm="Dorothée"><i>Dorothée</i><par n="Marie__np"/></e>
 <e lm="Douaa"><i>Douaa</i><par n="Marie__np"/></e>
@@ -55306,6 +55330,7 @@
 <e lm="Félicie"><i>Félicie</i><par n="Marie__np"/></e>
 <e lm="Gabina"><i>Gabina</i><par n="Marie__np"/></e>
 <e lm="Gabriela"><i>Gabriela</i><par n="Marie__np"/></e>
+<e lm="Gabrièla"><i>Gabrièla</i><par n="Marie__np"/></e>
 <e lm="Gabriella"><i>Gabriella</i><par n="Marie__np"/></e>
 <e lm="Gabrielle"><i>Gabrielle</i><par n="Marie__np"/></e>
 <e lm="Gaetana"><i>Gaetana</i><par n="Marie__np"/></e>
@@ -55350,6 +55375,7 @@
 <e lm="Germaine"><i>Germaine</i><par n="Marie__np"/></e>
 <e lm="Germana"><i>Germana</i><par n="Marie__np"/></e>
 <e lm="Gertrude"><i>Gertrude</i><par n="Marie__np"/></e>
+<e lm="Gertruda"><i>Gertruda</i><par n="Marie__np"/></e>
 <e lm="Gertrudis"><i>Gertrudis</i><par n="Marie__np"/></e>
 <e lm="Gervasia"><i>Gervasia</i><par n="Marie__np"/></e>
 <e lm="Gerónima"><i>Gerónima</i><par n="Marie__np"/></e>
@@ -55633,7 +55659,7 @@
 <e lm="Iolanda"><i>Iolanda</i><par n="Marie__np"/></e>
 <e lm="Iona"><i>Iona</i><par n="Marie__np"/></e>
 <e lm="Ione"><i>Ione</i><par n="Marie__np"/></e>
-<e lm="Iphigenia"><i>Iphigenia</i><par n="Marie__np"/></e>
+<e lm="Iphigénie"><i>Iphigénie</i><par n="Marie__np"/></e>
 <e lm="Iracema"><i>Iracema</i><par n="Marie__np"/></e>
 <e lm="Iracen"><i>Iracen</i><par n="Marie__np"/></e>
 <e lm="Iraia"><i>Iraia</i><par n="Marie__np"/></e>
@@ -55848,7 +55874,6 @@
 <e lm="Jovina"><i>Jovina</i><par n="Marie__np"/></e>
 <e lm="Jovita"><i>Jovita</i><par n="Marie__np"/></e>
 <e lm="Joy"><i>Joy</i><par n="Marie__np"/></e>
-<e lm="Joyce"><i>Joyce</i><par n="Marie__np"/></e>
 <e lm="Joëlle"><i>Joëlle</i><par n="Marie__np"/></e>
 <e lm="Juana"><i>Juana</i><par n="Marie__np"/></e>
 <e lm="Juanita"><i>Juanita</i><par n="Marie__np"/></e>
@@ -56333,7 +56358,7 @@
 <e lm="Maram"><i>Maram</i><par n="Marie__np"/></e>
 <e lm="Maravillas"><i>Maravillas</i><par n="Marie__np"/></e>
 <e lm="Marbela"><i>Marbela</i><par n="Marie__np"/></e>
-<e lm="Marcela"><i>Marcela</i><par n="Marie__np"/></e>
+<e lm="Marcèla"><i>Marcèla</i><par n="Marie__np"/></e>
 <e lm="Marcelina"><i>Marcelina</i><par n="Marie__np"/></e>
 <e lm="Marceline"><i>Marceline</i><par n="Marie__np"/></e>
 <e lm="Marcella"><i>Marcella</i><par n="Marie__np"/></e>
@@ -56477,6 +56502,7 @@
 <e lm="Michelina"><i>Michelina</i><par n="Marie__np"/></e>
 <e lm="Micheline"><i>Micheline</i><par n="Marie__np"/></e>
 <e lm="Michelle"><i>Michelle</i><par n="Marie__np"/></e>
+<e lm="Miquèla"><i>Miquèla</i><par n="Marie__np"/></e>
 <e lm="Michèle"><i>Michèle</i><par n="Marie__np"/></e>
 <e lm="Miguela"><i>Miguela</i><par n="Marie__np"/></e>
 <e lm="Mikaela"><i>Mikaela</i><par n="Marie__np"/></e>
@@ -56499,6 +56525,7 @@
 <e lm="Miranda"><i>Miranda</i><par n="Marie__np"/></e>
 <e lm="Mireia"><i>Mireia</i><par n="Marie__np"/></e>
 <e lm="Mireille"><i>Mireille</i><par n="Marie__np"/></e>
+<e lm="Mirèlha"><i>Mirèlha</i><par n="Marie__np"/></e>
 <e lm="Mireio"><i>Mireio</i><par n="Marie__np"/></e>
 <e lm="Mirella"><i>Mirella</i><par n="Marie__np"/></e>
 <e lm="Miren"><i>Miren</i><par n="Marie__np"/></e>
@@ -56828,6 +56855,7 @@
 <e lm="Paris"><i>Paris</i><par n="Marie__np"/></e>
 <e lm="Parmenia"><i>Parmenia</i><par n="Marie__np"/></e>
 <e lm="Pascale"><i>Pascale</i><par n="Marie__np"/></e>
+<e lm="Pascale"><i>Pascala</i><par n="Marie__np"/></e>
 <e lm="Pascaline"><i>Pascaline</i><par n="Marie__np"/></e>
 <e lm="Pascua"><i>Pascua</i><par n="Marie__np"/></e>
 <e lm="Pascuala"><i>Pascuala</i><par n="Marie__np"/></e>
@@ -57051,6 +57079,7 @@
 <e lm="Rosarito"><i>Rosarito</i><par n="Marie__np"/></e>
 <e lm="Rosaura"><i>Rosaura</i><par n="Marie__np"/></e>
 <e lm="Rose"><i>Rose</i><par n="Marie__np"/></e>
+<e lm="Ròsa"><i>Ròsa</i><par n="Marie__np"/></e>
 <e lm="Rosella"><i>Rosella</i><par n="Marie__np"/></e>
 <e lm="Roselle"><i>Roselle</i><par n="Marie__np"/></e>
 <e lm="Rosemary"><i>Rosemary</i><par n="Marie__np"/></e>
@@ -57464,7 +57493,6 @@
 <e lm="Valencia"><i>Valencia</i><par n="Marie__np"/></e>
 <e lm="Valentia"><i>Valentia</i><par n="Marie__np"/></e>
 <e lm="Valentina"><i>Valentina</i><par n="Marie__np"/></e>
-<e lm="Valentine"><i>Valentine</i><par n="Marie__np"/></e>
 <e lm="Valeria"><i>Valeria</i><par n="Marie__np"/></e>
 <e lm="Valeriana"><i>Valeriana</i><par n="Marie__np"/></e>
 <e lm="Valerie"><i>Valerie</i><par n="Marie__np"/></e>
@@ -57650,6 +57678,7 @@
 <e lm="Yustine"><i>Yustine</i><par n="Marie__np"/></e>
 <e lm="Yuvia"><i>Yuvia</i><par n="Marie__np"/></e>
 <e lm="Yvette"><i>Yvette</i><par n="Marie__np"/></e>
+<e lm="Iveta"><i>Iveta</i><par n="Marie__np"/></e>
 <e lm="Yvone"><i>Yvone</i><par n="Marie__np"/></e>
 <e lm="Yvonne"><i>Yvonne</i><par n="Marie__np"/></e>
 <e lm="Yésica"><i>Yésica</i><par n="Marie__np"/></e>
