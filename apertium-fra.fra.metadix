@@ -7066,6 +7066,7 @@
 <e lm="anglo-hollandais"><i>anglo-hollandais</i><par n="anglais__adj"/></e>
 <e lm="anglo-normand" a="jaumeortola"><i>anglo-normand</i><par n="abaissant__adj"/></e>
 <e lm="anglo-saxon"><i>anglo-saxon</i><par n="ancien__adj"/></e>
+<e lm="Anglo-Saxon"><i>Anglo-Saxon</i><par n="ancien__n"/></e>
 <e lm="anglophobe" a="jaumeortola"><i>anglophobe</i><par n="académique__adj"/></e>
 <e lm="anglophone" a="jaumeortola"><i>anglophone</i><par n="académique__adj"/></e>
 <e lm="angoissant"><i>angoissant</i><par n="abaissant__adj"/></e>
@@ -9712,6 +9713,7 @@
 <e lm="luxurieux" a="jaumeortola"><i>luxurieu</i><par n="affectueu/x__adj"/></e>
 <e lm="lymphatique" a="jaumeortola"><i>lymphatique</i><par n="académique__adj"/></e>
 <e lm="lyonnais"><i>lyonnais</i><par n="anglais__adj"/></e>
+<e lm="Lyonnais"><i>Lyonnais</i><par n="admis__n"/></e>
 <e lm="lyrique"><i>lyrique</i><par n="académique__adj"/></e>
 <e lm="lâche"><i>lâche</i><par n="académique__adj"/></e>
 <e lm="L"><i>Lème</i><par n="académique__adj"/></e>
@@ -9848,6 +9850,7 @@
 <e lm="migrant"><i>migrant</i><par n="abaissant__adj"/></e>
 <e lm="migrateur"><i>migrat</i><par n="conduct/eur__adj"/></e>
 <e lm="milanais" a="jaumeortola"><i>milanais</i><par n="anglais__adj"/></e>
+<e lm="Milanais"><i>Milanais</i><par n="admis__n"/></e>
 <e lm="militaire"><i>militaire</i><par n="académique__adj"/></e>
 <e lm="militant"><i>militant</i><par n="abaissant__adj"/></e>
 <e lm="milliardième" a="jaumeortola"><i>milliardième</i><par n="académique__adj"/></e>
@@ -10000,6 +10003,7 @@
 <e lm="méritoire"><i>méritoire</i><par n="académique__adj"/></e>
 <e lm="mérovingien"><i>mérovingien</i><par n="ancien__adj"/></e>
 <e lm="mésopotamien" a="jaumeortola"><i>mésopotamien</i><par n="ancien__adj"/></e>
+<e lm="Mésopotamien" a="hector"><i>Mésopotamien</i><par n="ancien__n"/></e>
 <e lm="mésopotamique"><i>mésopotamique</i><par n="académique__adj"/></e>
 <e lm="métabolique" a="jaumeortola"><i>métabolique</i><par n="académique__adj"/></e>
 <e lm="métallique"><i>métallique</i><par n="académique__adj"/></e>
@@ -10977,7 +10981,6 @@
 <e lm="sioniste" a="jaumeortola"><i>sioniste</i><par n="académique__adj"/></e>
 <e lm="sirupeux" a="jaumeortola"><i>sirupeu</i><par n="affectueu/x__adj"/></e>
 <e lm="situé"><i>situé</i><par n="abaissant__adj"/></e>
-<e lm="six"><i>six</i><par n="arrière__adj"/></e>
 <e lm="sixième"><i>sixième</i><par n="académique__adj"/></e>
 <e lm="slave" a="jaumeortola"><i>slave</i><par n="académique__adj"/></e>
 <e lm="slovaque" a="jaumeortola"><i>slovaque</i><par n="académique__adj"/></e>
@@ -13940,7 +13943,7 @@
 <e lm="baloutche" a="jaumeortola"><i>baloutche</i><par n="artiste__n"/></e>
 <e lm="balsamier" a="jaumeortola"><i>balsamier</i><par n="livre__n"/></e>
 <e lm="balsamine" a="jaumeortola"><i>balsamine</i><par n="abeille__n"/></e>
-<e lm="balte"><i>balte</i><par n="artiste__n"/></e>
+<e lm="Balte"><i>Balte</i><par n="artiste__n"/></e>
 <e lm="balustrade" a="jaumeortola"><i>balustrade</i><par n="abeille__n"/></e>
 <e lm="balustre" a="jaumeortola"><i>balustre</i><par n="livre__n"/></e>
 <e lm="Baléare"><i>Baléare</i><par n="artiste__n"/></e>
@@ -14982,7 +14985,7 @@
 <e lm="chanteur"><i>chanteu</i><par n="causeu/r__n"/></e>
 <e lm="chantier"><i>chantier</i><par n="livre__n"/></e>
 <e lm="chanvre"><i>chanvre</i><par n="livre__n"/></e>
-<e lm="chaos"><i>chaos</i><par n="ex__n"/></e>
+<e lm="chaos"><i>chaos</i><par n="mois__n"/></e>
 <e lm="chapeau"><i>chapeau</i><par n="lieu__n"/></e>
 <e lm="chapelle"><i>chapelle</i><par n="abeille__n"/></e>
 <e lm="chapiteau" a="jaumeortola"><i>chapiteau</i><par n="lieu__n"/></e>
@@ -16398,7 +16401,7 @@
 <e lm="diffusion"><i>diffusion</i><par n="abeille__n"/></e>
 <e lm="différence"><i>différence</i><par n="abeille__n"/></e>
 <e lm="différenciation"><i>différenciation</i><par n="abeille__n"/></e>
-<e lm="différentiel" a="jaumeortola"><i>différentiel</i><par n="colonel__n"/></e>
+<e lm="différentiel"><i>différentiel</i><par n="livre__n"/></e>
 <e lm="digeste" a="jaumeortola"><i>digeste</i><par n="livre__n"/></e>
 <e lm="digestibilité" a="jaumeortola"><i>digestibilité</i><par n="abeille__n"/></e>
 <e lm="digestif"><i>digestif</i><par n="livre__n"/></e>
@@ -18517,7 +18520,7 @@
 <e lm="haricots blancs au lard"><i>haricots<b/>blancs<b/>au<b/>lard</i><par n="abords__n"/></e>
 <e lm="harmonica"><i>harmonica</i><par n="abeille__n"/></e>
 <e lm="harmonie"><i>harmonie</i><par n="abeille__n"/></e>
-<e lm="harmonique" a="jaumeortola"><i>harmonique</i><par n="artiste__n"/></e>
+<e lm="harmonique"><i>harmonique</i><par n="livre__n"/></e>
 <e lm="harmonisation"><i>harmonisation</i><par n="abeille__n"/></e>
 <e lm="harmonium" a="jaumeortola"><i>harmonium</i><par n="livre__n"/></e>
 <e lm="harpe" a="jaumeortola"><i>harpe</i><par n="abeille__n"/></e>
@@ -20196,7 +20199,7 @@
 <e lm="marsouin" a="jaumeortola"><i>marsouin</i><par n="livre__n"/></e>
 <e lm="marsupial" a="jaumeortola"><i>marsupia</i><par n="anima/l__n"/></e>
 <e lm="marteau" a="jaumeortola"><i>marteau</i><par n="lieu__n"/></e>
-<e lm="martien"><i>martien</i><par n="ancien__n"/></e>
+<e lm="Martien"><i>Martien</i><par n="ancien__n"/></e>
 <e lm="martre" a="jaumeortola"><i>martre</i><par n="abeille__n"/></e>
 <e lm="martyr"><i>martyr</i><par n="affecté__n"/></e>
 <e lm="martyre"><i>martyre</i><par n="livre__n"/></e>
@@ -20588,7 +20591,7 @@
 <e lm="moquerie" a="jaumeortola"><i>moquerie</i><par n="abeille__n"/></e>
 <e lm="moquette"><i>moquette</i><par n="abeille__n"/></e>
 <e lm="moquetteur"><i>moquetteu</i><par n="causeu/r__n"/></e>
-<e lm="moral" a="jaumeortola"><i>mora</i><par n="commercia/l__n"/></e>
+<e lm="moral"><i>moral</i><par n="livre__n"/></e>
 <e lm="moraine" a="jaumeortola"><i>moraine</i><par n="abeille__n"/></e>
 <e lm="morale"><i>morale</i><par n="abeille__n"/></e>
 <e lm="moralisation"><i>moralisation</i><par n="abeille__n"/></e>
@@ -21223,7 +21226,7 @@
 <e lm="ocytocine" a="jaumeortola"><i>ocytocine</i><par n="abeille__n"/></e>
 <e lm="océan"><i>océan</i><par n="livre__n"/></e>
 <e lm="océanide" a="jaumeortola"><i>océanide</i><par n="abeille__n"/></e>
-<e lm="océanien" a="jaumeortola"><i>océanien</i><par n="ancien__n"/></e>
+<e lm="Océanien"><i>Océanien</i><par n="ancien__n"/></e>
 <e lm="océanographe" a="jaumeortola"><i>océanographe</i><par n="artiste__n"/></e>
 <e lm="océanographie" a="jaumeortola"><i>océanographie</i><par n="abeille__n"/></e>
 <e lm="ode"><i>ode</i><par n="abeille__n"/></e>
@@ -22763,7 +22766,7 @@
 <e lm="péage"><i>péage</i><par n="livre__n"/></e>
 <e lm="péché"><i>péché</i><par n="livre__n"/></e>
 <e lm="pédagogie"><i>pédagogie</i><par n="abeille__n"/></e>
-<e lm="pédagogue"><i>pédagogue</i><par n="livre__n"/></e>
+<e lm="pédagogue"><i>pédagogue</i><par n="artiste__n"/></e>
 <e lm="pédalage"><i>pédalage</i><par n="livre__n"/></e>
 <e lm="pédale"><i>pédale</i><par n="livre__n"/></e>
 <e lm="pédalo" a="jaumeortola"><i>pédalo</i><par n="livre__n"/></e>
@@ -25177,7 +25180,7 @@
 <e lm="UDF"><i>UDF</i><par n="BBC__n"/></e>
 <e lm="UdG"><i>UdG</i><par n="BBC__n"/></e>
 <e lm="UE"><i>UE</i><par n="BBC__n"/></e>
-<e lm="UEFA"><i>UEFA</i><par n="BBVA__n"/></e>
+<e lm="UEFA"><i>UEFA</i><par n="BBC__n"/></e>
 <e lm="UEM"><i>UEM</i><par n="BBC__n"/></e>
 <e lm="centenaire" a="jaumeortola" c="personne"><i>centenaire</i><par n="artiste__n"/></e>
 <e lm="UGT"><i>UGT</i><par n="BBC__n"/></e>
@@ -40648,7 +40651,7 @@
 <e lm="Justo"><i>Justo</i><par n="Antoine__np"/></e>
 <e lm="Justribo"><i>Justribo</i><par n="Saussure__np"/></e>
 <e lm="Justícia"><i>Justícia</i><par n="Saussure__np"/></e>
-<e lm="Jusèp"><i>Jusèp</i><par n="Saussure__np"/></e>
+<e lm="Jusèp"><i>Jusèp</i><par n="Antoine__np"/></e>
 <e lm="Juteau" a="hector"><i>Juteau</i><par n="Saussure__np"/></e>
 <e lm="Juteau"><i>Juteau</i><par n="Saussure__np"/></e>
 <e lm="Jutglar"><i>Jutglar</i><par n="Saussure__np"/></e>
@@ -50632,7 +50635,7 @@
 <e lm="Weetaluktuk"><i>Weetaluktuk</i><par n="Saussure__np"/></e>
 <e lm="Wegelius"><i>Wegelius</i><par n="Abraham__np"/></e>
 <e lm="Wehbe"><i>Wehbe</i><par n="Saussure__np"/></e>
-<e lm="Wehrmacht"><i>Wehrmacht</i><par n="Saussure__np"/></e>
+<e lm="Wehrmacht"><i>Wehrmacht</i><par n="Wikipedia__np"/></e>
 <e lm="Wei"><i>Wei</i><par n="Saussure__np"/></e>
 <e lm="Weierstrass"><i>Weierstrass</i><par n="Saussure__np"/></e>
 <e lm="Weightman"><i>Weightman</i><par n="Saussure__np"/></e>
@@ -58465,6 +58468,7 @@
 <e lm="aurignacien" a="jaumeortola"><i>aurignacien</i><par n="ancien__adj"/></e>
 <e lm="autocentré" a="jaumeortola"><i>autocentré</i><par n="abaissant__adj"/></e>
 <e lm="avignonnais" a="jaumeortola"><i>avignonnais</i><par n="anglais__adj"/></e>
+<e lm="Avignonnais"><i>Avignonnais</i><par n="admis__n"/></e>
 <e lm="boudeur" a="jaumeortola"><i>boudeu</i><par n="causeu/r__adj"/></e>
 <e lm="bourdonnant" a="jaumeortola"><i>bourdonnant</i><par n="abaissant__adj"/></e>
 <e lm="brittonique" a="jaumeortola"><i>brittonique</i><par n="académique__adj"/></e>
@@ -59298,11 +59302,13 @@
 <e lm="Wyoming"><i>Wyoming</i><par n="Saussure__np"/></e>
 <e lm="Lasarte"><i>Lasarte</i><par n="Saussure__np"/></e>
 <e lm="Hamilton"><i>Hamilton</i><par n="Saussure__np"/></e>
-<e lm="Greco"><i>Greco</i><par n="Saussure__np"/></e>
-<e lm="Greco"><i>Greco</i><par n="Saussure__np"/></e>
 
-    <e lm="momentanément">        <i>momentanément</i><par n="hier__adv"/></e>
-    <e lm="expérimentalement">        <i>expérimentalement</i><par n="hier__adv"/></e>
+<e lm="momentanément">        <i>momentanément</i><par n="hier__adv"/></e>
+<e lm="expérimentalement">        <i>expérimentalement</i><par n="hier__adv"/></e>
+<e lm="voilier" a="jaumeortola"><i>voilier</i><par n="livre__n"/></e>
+<e lm="pomme de terre"><i>pomme</i><par n="abeille__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
+<e lm="tremblement de terre"><i>tremblement</i><par n="livre__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
+<e lm="Jornalet"><i>Jornalet</i><par n="Linux__np"/></e>
 
 <!-- xxxx -->
   </section>
