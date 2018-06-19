@@ -14576,7 +14576,6 @@
 <e lm="cadrage"><i>cadrage</i><par n="livre__n"/></e>
 <e lm="cadran"><i>cadran</i><par n="livre__n"/></e>
 <e lm="cadre d'entreprise"><i>cadre</i><par n="livre__n"/><p><l><b/>d'entreprise</l><r><g><b/>d'entreprise</g></r></p></e>
-<e lm="cadre"><i>cadre</i><par n="artiste__n"/></e>
 <e lm="cadre"><i>cadre</i><par n="livre__n"/></e>
 <e lm="caducité" a="jaumeortola"><i>caducité</i><par n="abeille__n"/></e>
 <e lm="CAF"><i>CAF</i><par n="BBC__n"/></e>
@@ -31891,17 +31890,17 @@
 <e lm="Ashraf"><i>Ashraf</i><par n="Saussure__np"/></e>
 <e lm="Ashton"><i>Ashton</i><par n="Saussure__np"/></e>
 <e lm="Asie"><i>Asie</i><par n="Bulgarie__np"/></e>
-<e lm="Asie centrale"><i>Asie<b/>centrale</i><par n="Andorre__np"/></e>
-<e lm="Asie du Sud-Est"><i>Asie<b/>du<b/>Sud-Est</i><par n="Andorre__np"/></e>
-<e lm="Asie Mineure"><i>Asie<b/>Mineure</i><par n="Andorre__np"/></e>
-<e lm="Asier"><i>Asier</i><par n="Abraham__np"/></e>
+<e lm="Asie centrale"><i>Asie<b/>centrale</i><par n="Bulgarie__np"/></e>
+<e lm="Asie du Sud-Est"><i>Asie<b/>du<b/>Sud-Est</i><par n="Bulgarie__np"/></e>
+<e lm="Asie Mineure"><i>Asie<b/>Mineure</i><par n="Bulgarie__np"/></e>
+<e lm="Asier"><i>Asier</i><par n="Antoine__np"/></e>
 <e lm="Asimov"><i>Asimov</i><par n="Saussure__np"/></e>
 <e lm="Asin"><i>Asin</i><par n="Saussure__np"/></e>
 <e lm="Askartza"><i>Askartza</i><par n="Andorre__np"/></e>
 <e lm="Askatasuna"><i>Askatasuna</i><par n="Carrefour__np"/></e>
 <e lm="Askorbe"><i>Askorbe</i><par n="Saussure__np"/></e>
 <e lm="Asmara"><i>Asmara</i><par n="Andorre__np"/></e>
-<e lm="Asobal"><i>Asobal</i><par n="Carrefour__np"/></e>
+<e lm="Asobal"><i>Asobal</i><par n="Linux__np"/></e>
 <e lm="Aspa"><i>Aspa</i><par n="Saussure__np"/></e>
 <e lm="Aspe"><i>Aspe</i><par n="Andorre__np"/></e>
 <e lm="Asperger"><i>Asperger</i><par n="Saussure__np"/></e>
@@ -34738,7 +34737,7 @@
 <e lm="Champ-de-Mars"><i>Champ-de-Mars</i><par n="Andorre__np"/></e>
 <e lm="Champagne"><i>Champagne</i><par n="Bulgarie__np"/></e>
 <e lm="Champagne" a="hector"><i>Champagne</i><par n="Saussure__np"/></e>
-<e lm="Champagne-Ardennes"><i>Champagne-Ardennes</i><par n="Andorre__np"/></e>
+<e lm="Champagne-Ardennes"><i>Champagne-Ardennes</i><par n="Bulgarie__np"/></e>
 <e lm="Champeau"><i>Champeau</i><par n="Saussure__np"/></e>
 <e lm="Champegnois"><i>Champegnois</i><par n="Saussure__np"/></e>
 <e lm="Champigny"><i>Champigny</i><par n="Saussure__np"/></e>
@@ -59308,7 +59307,8 @@
 <e lm="voilier" a="jaumeortola"><i>voilier</i><par n="livre__n"/></e>
 <e lm="pomme de terre"><i>pomme</i><par n="abeille__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
 <e lm="tremblement de terre"><i>tremblement</i><par n="livre__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
-<e lm="Jornalet"><i>Jornalet</i><par n="Linux__np"/></e>
+<e lm="Grand Est"><i>Grand<b/>Est</i><par n="Iran__np"/></e>
+<e lm="dive"><i>dive</i><par n="abeille__n"/></e>
 
 <!-- xxxx -->
   </section>
@@ -59525,7 +59525,7 @@
 <e r="LR" lm="n'"><p><l>n'</l>                         <r>ne<s n="adv"/></r></p></e>
     <!-- <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="detnt"/></r></p></e> -->
 <e r="LR" lm="l'"><p><l>l'</l>                         <r>le<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="s"><i>s</i><par n="mois__n"/></e>
+<e lm="s"><i>s</i><par n="fois__n"/></e>
 <e r="RL" lm="à quoi est-ce que"><p><l>à<b/>quoi<b/>est-ce<b/>qu'</l><r>à<b/>quoi<b/>est-ce<b/>que</r></p><par n="que__prn"/></e>
   </section>
 
