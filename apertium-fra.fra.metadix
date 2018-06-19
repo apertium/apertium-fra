@@ -18459,6 +18459,7 @@
 <e lm="gîte rural"><p><l>gîte<b/>rural</l>   <r>gîte<b/>rural<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 <e lm="gîte rural"><p><l>gîtes<b/>ruraux</l>  <r>gîte<b/>rural<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
 <e lm="h"><i>h</i><par n="fois__n"/></e>
+<e lm="s"><i>s</i><par n="fois__n"/></e>
 <e lm="habanera" a="jaumeortola"><i>habanera</i><par n="abeille__n"/></e>
 <e lm="habileté" a="jaumeortola"><i>habileté</i><par n="abeille__n"/></e>
 <e lm="habilitation"><i>habilitation</i><par n="abeille__n"/></e>
@@ -59525,7 +59526,6 @@
 <e r="LR" lm="n'"><p><l>n'</l>                         <r>ne<s n="adv"/></r></p></e>
     <!-- <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="detnt"/></r></p></e> -->
 <e r="LR" lm="l'"><p><l>l'</l>                         <r>le<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
-<e lm="s"><i>s</i><par n="fois__n"/></e>
 <e r="RL" lm="à quoi est-ce que"><p><l>à<b/>quoi<b/>est-ce<b/>qu'</l><r>à<b/>quoi<b/>est-ce<b/>que</r></p><par n="que__prn"/></e>
   </section>
 
