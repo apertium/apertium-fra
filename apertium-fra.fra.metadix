@@ -18367,6 +18367,8 @@
 <e lm="guarana" a="jaumeortola"><i>guarana</i><par n="livre__n"/></e>
 <e lm="guenon" a="jaumeortola"><i>guenon</i><par n="abeille__n"/></e>
 <e lm="guerre"><i>guerre</i><par n="abeille__n"/></e>
+<e lm="après-guerre" c="orth. traditionnelle"><i>après-guerre</i><par n="ex__n"/></e>
+<e lm="entre-deux-guerre"><i>entre-deux-guerre</i><par n="ex__n"/></e>
 <e lm="guet" a="jaumeortola"><i>guet</i><par n="livre__n"/></e>
 <e lm="guette"><i>guette</i><par n="abeille__n"/></e>
 <e lm="guetteur" a="jaumeortola"><i>guetteu</i><par n="causeu/r__n"/></e>
@@ -20507,7 +20509,8 @@
 <e lm="modulateur" a="jaumeortola"><i>modulat</i><par n="administrat/eur__n"/></e>
 <e lm="modulation"><i>modulation</i><par n="abeille__n"/></e>
 <e lm="module"><i>module</i><par n="livre__n"/></e>
-<e lm="modèle"><i>modèle</i><par n="livre__n"/></e>
+<e lm="modèle" c="exemple"><i>modèle</i><par n="livre__n"/></e>
+<e lm="modèle" c="personne"><i>modèle</i><par n="artiste__n"/></e>
 <e lm="modélisation"><i>modélisation</i><par n="abeille__n"/></e>
 <e lm="modération"><i>modération</i><par n="abeille__n"/></e>
 <e lm="modéré" a="jaumeortola"><i>modéré</i><par n="affecté__n"/></e>
