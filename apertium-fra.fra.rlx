@@ -566,6 +566,8 @@ SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR
   ## Il s'impose devant lui
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR ("on")) (1 Verb);
   ## on lui connaît
+SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
+  ## il pense, lui, que...
 
 SELECT Det IF (0 Leur) (1 A) ;
   ## pour leur premère participation
@@ -801,7 +803,9 @@ SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Ve
 
 SELECT Prep IF (0 En) (1C N OR A) ;
 SELECT Prep IF (0 En) (1C Num) ;
-REMOVE Pro IF (0 En) (NOT 1 V OR Pro) ;
+REMOVE Pro IF (0 En) (1 V) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);
+  ## passer en revue
+REMOVE Pro IF (0 En) (NOT 1 V OR Pro);
   ## sont en Inde
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
