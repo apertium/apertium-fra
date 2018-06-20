@@ -6396,6 +6396,7 @@
   <e>       <p><l>étiez</l>     <r>être<s n="vbser"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>étais</l>     <r>être<s n="vbser"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>étaient</l>   <r>être<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>c'étaient</l> <r>être<s n="vbser"/><s n="pii"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>était</l>     <r>être<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>c'était</l>   <r>être<s n="vbser"/><s n="pii"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>fussions</l>  <r>être<s n="vbser"/><s n="pis"/><s n="p1"/><s n="pl"/></r></p></e>
@@ -6411,6 +6412,7 @@
   <e>       <p><l>êtes</l>      <r>être<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
   <e>       <p><l>es</l>        <r>être<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>sont</l>      <r>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+  <e r="LR"><p><l>ce<b/>sont</l><r>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>est</l>       <r>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e r="LR"><p><l>c'est</l>     <r>être<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
   <e>       <p><l>soyons</l>    <r>être<s n="vbser"/><s n="prs"/><s n="p1"/><s n="pl"/></r></p></e>
