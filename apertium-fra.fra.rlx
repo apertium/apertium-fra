@@ -32,6 +32,7 @@ LIST CnjSub = cnjsub ;
 LIST Num = num ;
 LIST Itg = itg ;
 LIST Pro = pro ;
+LIST Enc = enc ;
 LIST Tn = tn ;
 LIST Imper = imp ;
 LIST Pri = pri ;
@@ -109,6 +110,7 @@ LIST Eux = "eux" ;
 LIST En = "en" ; 
 LIST Pour = "pour" ; 
 LIST Pas = "pas" ; 
+LIST Rien = "rien" ; 
 LIST Ne = "ne" ; 
 LIST Aussi = "aussi" ; 
 LIST Même = "même" ; 
@@ -337,7 +339,16 @@ SELECT Itg IF (0 Adv OR Prn) (1 V + P3 + Pl) (2 Tn + P3 + Pl) ;
   ## quand veux-tu
   
 REMOVE Imper IF (NOT 1* Excl) ;
-REMOVE Imper IF (-1 Prn) ;
+REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
+REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
+
+REMOVE Imper IF (-1 Ant OR Cog OR unknown) (0 P3) ;
+REMOVE Imper IF (-2 Ant OR Cog OR unknown) (-1 Adv OR Pro) (0 P3) ;
+REMOVE Imper IF (-3 Ant OR Cog OR unknown) (-2 Adv) (-1 Pro) (0 P3) ;
+
+SELECT Imper IF (-1 BOS) (1 Excl) ;
+SELECT Imper IF (-2 BOS) (-1 Ne) (1 Adv OR Rien) (2 Excl) ;
+SELECT Imper IF (-3 BOS) (-2 Ne) (-1 Pro) (1 Adv OR Rien) (2 Excl) ;
 
 #REMOVE A (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR A LINK NOT *1 Verb) ;
 #REMOVE N (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR N LINK NOT *1 Verb) ;
@@ -564,6 +575,7 @@ SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
 SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
   ## Il s'impose devant lui
+SELECT Pro IF (0 Lui) (1C Imper) ;
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR ("on")) (1 Verb);
   ## on lui connaît
 SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
