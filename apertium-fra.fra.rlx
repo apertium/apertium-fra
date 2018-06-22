@@ -807,6 +807,8 @@ REMOVE Pro IF (0 En) (1 V) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);
   ## passer en revue
 REMOVE Pro IF (0 En) (NOT 1 V OR Pro);
   ## sont en Inde
+REMOVE Pro IF (0 En) (1 Ger);
+  ## en passant
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
