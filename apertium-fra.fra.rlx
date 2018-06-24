@@ -154,9 +154,9 @@ LIST À = "à" ;
 SET CM = (cm) OR (lpar) OR (rpar) OR ("<;>") ;
 LIST Excl = "!" ;
 
-LIST Title = "<[A-Z][a-z]\+>"r ;
+LIST Title = "<[A-ZÉÈÊ][a-zâéèêîôû]\+>"r ;
 LIST ConsInitiale = "<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r ;
-LIST Majusc = "<[A-Z][A-Z]*>"r ;
+LIST Majusc = "<[A-ZÉÈÊ][A-Zâéèêîôû]*>"r ;
 
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
@@ -267,6 +267,13 @@ REMOVE N IF (-1 NP OR unknown) (0C ("<est>")) ;
 REMOVE A IF (-1 NP OR unknown) (0C ("<est>")) ;
 SELECT N IF (-2 ("à")) (-1 Det + Def) (0C Est) ;
 
+#SELECT N IF (-1/* Det) (0C N OR A) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + MascSg) (0C N OR A) (0 N + MascSg) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + FemSg) (0C N OR A) (0 N + FemSg) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + MascPl) (0C N OR A) (0 N + MascPl) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + FemPl) (0C N OR A) (0 N + FemPl) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
+  ## Des Algériens sont tués
+  ## le Physique et le Figuré
 
 SELECT Inf IF (0 Être) (-1 Pro) (-2 Vbmod) ;
   ## Le spécialiste lorrain du 10 kilomètres peut l'être.
