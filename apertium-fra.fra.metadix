@@ -1142,6 +1142,10 @@
   <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="m"/><s n="pl"/></r></p></e>
 </pardef>
 
+<pardef n="Nations_unies__np">
+  <e>       <p><l></l>          <r><s n="np"/><s n="al"/><s n="f"/><s n="pl"/></r></p></e>
+</pardef>
+
 <pardef n="Andorre__np">
       <!-- TODO: This pardef is used temporarily for the toponyms with YET not defined gender -->
   <e>       <p><l></l>          <r><s n="np"/><s n="top"/><s n="un"/><s n="sg"/></r></p></e>
@@ -25418,7 +25422,8 @@
 <e lm="vignoble"><i>vignoble</i><par n="livre__n"/></e>
 <e lm="vigueur"><i>vigueur</i><par n="abeille__n"/></e>
 <e lm="VIH" a="jaumeortola"><i>VIH</i><par n="IRPF__n"/></e>
-<e lm="viking" a="jaumeortola"><i>viking</i><par n="artiste__n"/></e>
+<e lm="Viking"><i>Viking</i><par n="artiste__n"/></e>
+<e lm="viking"><i>viking</i><par n="académique__adj"/></e>
 <e lm="vilebrequin" a="jaumeortola"><i>vilebrequin</i><par n="livre__n"/></e>
 <e lm="villa"><i>villa</i><par n="abeille__n"/></e>
 <e lm="village"><i>village</i><par n="livre__n"/></e>
@@ -26172,7 +26177,7 @@
 <e lm="appareiller"><i>appareill</i><par n="abaiss/er__vblex"/></e>
 <e lm="apparenter"><i>apparent</i><par n="abaiss/er__vblex"/></e>
 <e lm="appartenir"><i>appart</i><par n="appart/enir__vblex"/></e>
-<e lm="appauvrir"><p><l>appauvr</l>                    <r>appauvr</r></p><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="appauvrir"><i>appauvr</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="appeler"><i>appel</i><par n="appel/er__vblex"/></e>
 <e lm="appeler un chat un chat"><i>appel</i><par n="appel/er__vblex"/><p><l><b/>un<b/>chat<b/>un<b/>chat</l><r><g><b/>un<b/>chat<b/>un<b/>chat</g></r></p></e>
 <e lm="applaudir"><i>applaud</i><par n="about/[]ir__vblex" prm=""/></e>
@@ -26816,6 +26821,7 @@
 <e lm="défier"><i>défi</i><par n="abaiss/er__vblex"/></e>
 <e lm="défigurer"><i>défigur</i><par n="abaiss/er__vblex"/></e>
 <e lm="défiler"><i>défil</i><par n="abaiss/er__vblex"/></e>
+<e lm="redéfinir"><i>redéfin</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="définir"><i>défin</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="définir soi-même"><i>défin</i><par n="about/[]ir__vblex" prm=""/><p><l><b/>soi-même</l><r><g><b/>soi-même</g></r></p></e>
 <e lm="déformer" a="joan"><i>déform</i><par n="abaiss/er__vblex"/></e>
@@ -33054,10 +33060,10 @@
 <e lm="Bibeau" a="hector"><i>Bibeau</i><par n="Saussure__np"/></e>
 <e lm="Bibi"><i>Bibi</i><par n="Saussure__np"/></e>
 <e lm="Bibiana"><i>Bibiana</i><par n="Marie__np"/></e>
-<e lm="Bible"><i>Bible</i><par n="Carrefour__np"/></e>
+<e lm="Bible"><i>Bible</i><par n="Wikipedia__np"/></e>
 <e lm="Bicarregui"><i>Bicarregui</i><par n="Saussure__np"/></e>
-<e lm="Bichkek"><i>Bichkek</i><par n="Andorre__np"/></e>
-<e lm="Bidart"><i>Bidart</i><par n="Andorre__np"/></e>
+<e lm="Bichkek"><i>Bichkek</i><par n="Iran__np"/></e>
+<e lm="Bidart"><i>Bidart</i><par n="Iran__np"/></e>
 <e lm="Bidarte"><i>Bidarte</i><par n="Saussure__np"/></e>
 <e lm="Bidasoa"><i>Bidasoa</i><par n="Andorre__np"/></e>
 <e lm="Bidassoa"><i>Bidassoa</i><par n="Andorre__np"/></e>
@@ -34926,7 +34932,7 @@
 <e lm="Chowdhury"><i>Chowdhury</i><par n="Saussure__np"/></e>
 <e lm="Chris"><i>Chris</i><par n="Antoine__np"/></e>
 <e lm="Chris"><i>Chris</i><par n="Marie__np"/></e>
-<e lm="Christ"><i>Christ</i><par n="Carrefour__np"/></e>
+<e lm="Christ"><i>Christ</i><par n="Linux__np"/></e>
 <e lm="Christ"><i>Christ</i><par n="Antoine__np"/></e>
 <e lm="Christelle" a="hector"><i>Christelle</i><par n="Marie__np"/></e>
 <e lm="Christensen"><i>Christensen</i><par n="Saussure__np"/></e>
@@ -35702,7 +35708,7 @@
 <e lm="Cullell"><i>Cullell</i><par n="Saussure__np"/></e>
 <e lm="Cullen"><i>Cullen</i><par n="Saussure__np"/></e>
 <e lm="Culleré"><i>Culleré</i><par n="Saussure__np"/></e>
-<e lm="Culture"><i>Culture</i><par n="Carrefour__np"/></e>
+<e lm="Culture"><i>Culture</i><par n="Wikipedia__np"/></e>
 <e lm="Culubret"><i>Culubret</i><par n="Saussure__np"/></e>
 <e lm="Cumes"><i>Cumes</i><par n="Andorre__np"/></e>
 <e lm="Cummings"><i>Cummings</i><par n="Saussure__np"/></e>
@@ -37805,7 +37811,7 @@
 <e lm="Fiorenza"><i>Fiorenza</i><par n="Saussure__np"/></e>
 <e lm="Fiorilli"><i>Fiorilli</i><par n="Saussure__np"/></e>
 <e lm="Fiorino"><i>Fiorino</i><par n="Saussure__np"/></e>
-<e lm="Firefox"><i>Firefox</i><par n="Carrefour__np"/></e>
+<e lm="Firefox"><i>Firefox</i><par n="Linux__np"/></e>
 <e lm="Fireman"><i>Fireman</i><par n="Saussure__np"/></e>
 <e lm="Firrincieli"><i>Firrincieli</i><par n="Saussure__np"/></e>
 <e lm="Firth"><i>Firth</i><par n="Saussure__np"/></e>
@@ -40070,7 +40076,7 @@
 <e lm="Institut Radioquirúrgic"><i>Institut<b/>Radioquirúrgic</i><par n="Linux__np"/></e>
 <e lm="Institut Valencià de la Joventut"><i>Institut<b/>Valencià<b/>de<b/>la<b/>Joventut</i><par n="Linux__np"/></e>
 <e lm="Insulinde"><i>Insulinde</i><par n="Bulgarie__np"/></e>
-<e lm="Intel"><i>Intel</i><par n="Carrefour__np"/></e>
+<e lm="Intel"><i>Intel</i><par n="Linux__np"/></e>
 <e lm="Inter"><i>Inter</i><par n="Linux__np"/></e>
 <e lm="Inter de Milan"><i>Inter<b/>de<b/>Milan</i><par n="Linux__np"/></e>
 <e lm="Internet"><i>Internet</i><par n="Carrefour__np"/></e>
@@ -42013,7 +42019,7 @@
 <e lm="Lortie" a="hector"><i>Lortie</i><par n="Saussure__np"/></e>
 <e lm="Lorusso"><i>Lorusso</i><par n="Saussure__np"/></e>
 <e lm="Lorés"><i>Lorés</i><par n="Saussure__np"/></e>
-<e lm="Los Angeles"><i>Los<b/>Angeles</i><par n="Bulgarie__np"/></e>
+<e lm="Los Angeles"><i>Los<b/>Angeles</i><par n="Iran__np"/></e>
 <e lm="Losa"><i>Losa</i><par n="Saussure__np"/></e>
 <e lm="Losada"><i>Losada</i><par n="Saussure__np"/></e>
 <e lm="Losantos"><i>Losantos</i><par n="Saussure__np"/></e>
@@ -42354,7 +42360,7 @@
 <e lm="Mairal"><i>Mairal</i><par n="Saussure__np"/></e>
 <e lm="Maire"><i>Maire</i><par n="Saussure__np"/></e>
 <e lm="Mairena"><i>Mairena</i><par n="Marie__np"/></e>
-<e lm="Maison Blanche"><i>Maison<b/>Blanche</i><par n="Carrefour__np"/></e>
+<e lm="Maison Blanche"><i>Maison<b/>Blanche</i><par n="Wikipedia__np"/></e>
 <e lm="Maisonneuve" a="hector"><i>Maisonneuve</i><par n="Saussure__np"/></e>
 <e lm="Maite"><i>Maite</i><par n="Marie__np"/></e>
 <e lm="Maiza"><i>Maiza</i><par n="Marie__np"/></e>
@@ -44300,8 +44306,7 @@
 <e lm="Nathan"><i>Nathan</i><par n="Saussure__np"/></e>
 <e lm="Nathaniel"><i>Nathaniel</i><par n="Antoine__np"/></e>
 <e lm="National Geographic"><i>National<b/>Geographic</i><par n="Linux__np"/></e>
-<e lm="Nations Unies"><p><l>Nations<b/>Unies</l>       <r>Nations<b/>Unies</r></p><par n="Andorre__np"/></e>
-<e lm="Nations unies"><i>Nations<b/>unies</i><par n="Carrefour__np"/></e>
+<e lm="Nations unies"><i>Nations<b/>unies</i><par n="Nations_unies__np"/></e>
 <e lm="Natividad"><i>Natividad</i><par n="Marie__np"/></e>
 <e lm="Natra"><i>Natra</i><par n="Carrefour__np"/></e>
 <e lm="Naturalia"><i>Naturalia</i><par n="Carrefour__np"/></e>
@@ -46679,15 +46684,15 @@
 <e lm="Remei"><i>Remei</i><par n="Marie__np"/></e>
 <e lm="Remon"><i>Remon</i><par n="Saussure__np"/></e>
 <e lm="Remón"><i>Remón</i><par n="Saussure__np"/></e>
-<e lm="Renaissance"><i>Renaissance</i><par n="Carrefour__np"/></e>
+<e lm="Renaissance"><i>Renaissance</i><par n="Wikipedia__np"/></e>
 <e lm="Renart"><i>Renart</i><par n="Saussure__np"/></e>
 <e lm="Renart"><i>Renart</i><par n="Antoine__np"/></e>
 <e lm="Renat"><i>Renat</i><par n="Antoine__np"/></e>
 <e lm="Renato"><i>Renato</i><par n="Antoine__np"/></e>
 <e lm="Renau"><i>Renau</i><par n="Saussure__np"/></e>
 <e lm="Renaud" a="hector"><i>Renaud</i><par n="Saussure__np"/></e>
-<e lm="Renault"><i>Renault</i><par n="Carrefour__np"/></e>
-<e lm="Renault-Nissan"><i>Renault-Nissan</i><par n="Carrefour__np"/></e>
+<e lm="Renault"><i>Renault</i><par n="Wikipedia__np"/></e>
+<e lm="Renault-Nissan"><i>Renault-Nissan</i><par n="Wikipedia__np"/></e>
 <e lm="Renbourn"><i>Renbourn</i><par n="Abraham__np"/></e>
 <e lm="Renda"><i>Renda</i><par n="Saussure__np"/></e>
 <e lm="Rendon"><i>Rendon</i><par n="Saussure__np"/></e>
@@ -48920,8 +48925,9 @@
 <e lm="Tchaikovski"><i>Tchaikovski</i><par n="Saussure__np"/></e>
 <e lm="Tchang Kaï-Chek"><i>Tchang<b/>Kaï-Chek</i><par n="Antoine__np"/></e>
 <e lm="Tchao Mong-Fou"><i>Tchao<b/>Mong-Fou</i><par n="Antoine__np"/></e>
-<e lm="Tcheliouskine"><i>Tcheliouskine</i><par n="Andorre__np"/></e>
+<e lm="Tcheliouskine"><i>Tcheliouskine</i><par n="Saussure__np"/></e>
 <e lm="Tchernenko"><i>Tchernenko</i><par n="Saussure__np"/></e>
+<e lm="Tchernobyl"><i>Tchernobyl</i><par n="Saussure__np"/></e>
 <e lm="Tcherski"><i>Tcherski</i><par n="Bulgarie__np"/></e>
 <e lm="Tchouvachie"><i>Tchouvachie</i><par n="Bulgarie__np"/></e>
 <e lm="Tchécoslovaquie"><i>Tchécoslovaquie</i><par n="Bulgarie__np"/></e>
@@ -48934,7 +48940,7 @@
 <e lm="Tebar"><i>Tebar</i><par n="Saussure__np"/></e>
 <e lm="Tecnalia"><i>Tecnalia</i><par n="Carrefour__np"/></e>
 <e lm="Tedeschi"><i>Tedeschi</i><par n="Saussure__np"/></e>
-<e lm="Tegucigalpa"><i>Tegucigalpa</i><par n="Andorre__np"/></e>
+<e lm="Tegucigalpa"><i>Tegucigalpa</i><par n="Bulgarie__np"/></e>
 <e lm="Teguise"><i>Teguise</i><par n="Bulgarie__np"/></e>
 <e lm="Teijeiro"><i>Teijeiro</i><par n="Saussure__np"/></e>
 <e lm="Teilhard"><i>Teilhard</i><par n="Saussure__np"/></e>
@@ -59324,6 +59330,8 @@
 <e lm="Nationalia"><i>Nationalia</i><par n="Wikipedia__np"/></e>
 <e lm="Sapiéncia,"><i>Sapiéncia</i><par n="Wikipedia__np"/></e>
 <e lm="Geopolítica.cat"><i>Geopolítica.cat</i><par n="Wikipedia__np"/></e>
+<e lm="rendre hommage"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>hommage</l><r><g><b/>hommage</g></r></p></e>
+<e lm="mouler"><i>moul</i><par n="abaiss/er__vblex"/></e>
 
 
 <!-- xxxx -->
