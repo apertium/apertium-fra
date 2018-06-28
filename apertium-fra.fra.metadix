@@ -34856,7 +34856,7 @@
 <e lm="Chentouf"><i>Chentouf</i><par n="Saussure__np"/></e>
 <e lm="Chené"><i>Chené</i><par n="Saussure__np"/></e>
 <e lm="Cher"><i>Cher</i><par n="Abraham__np"/></e>
-<e lm="Cher"><i>Cher</i><par n="Andorre__np"/></e>
+<e lm="Cher"><i>Cher</i><par n="Iran__np"/></e>
 <e lm="Cherbourg"><i>Cherbourg</i><par n="Iran__np"/></e>
 <e lm="Cherie"><i>Cherie</i><par n="Marie__np"/></e>
 <e lm="Cherrier"><i>Cherrier</i><par n="Saussure__np"/></e>
@@ -37901,7 +37901,7 @@
 <e lm="Foguet"><i>Foguet</i><par n="Saussure__np"/></e>
 <e lm="Fois"><i>Fois</i><par n="Saussure__np"/></e>
 <e lm="Foisy" a="hector"><i>Foisy</i><par n="Saussure__np"/></e>
-<e lm="Foix"><i>Foix</i><par n="Andorre__np"/></e>
+<e lm="Foix"><i>Foix</i><par n="Iran__np"/></e>
 <e lm="Foix"><i>Foix</i><par n="Saussure__np"/></e>
 <e lm="Foix i Mas"><i>Foix<b/>i<b/>Mas</i><par n="Saussure__np"/></e>
 <e lm="Folch"><i>Folch</i><par n="Saussure__np"/></e>
@@ -44494,7 +44494,7 @@
 <e lm="Nintendo DSi XL"><i>Nintendo<b/>DSi<b/>XL</i><par n="Wikipedia__np"/></e>
 <e lm="Nintendo Entertainment System"><i>Nintendo<b/>Entertainment<b/>System</i><par n="Wikipedia__np"/></e>
 <e lm="Nintendo Switch"><i>Nintendo<b/>Switch</i><par n="Wikipedia__np"/></e>
-<e lm="Niort"><i>Niort</i><par n="Andorre__np"/></e>
+<e lm="Niort"><i>Niort</i><par n="Iran__np"/></e>
 <e lm="Nioué"><i>Nioué</i><par n="Iran__np"/></e>
 <e lm="Niquay"><i>Niquay</i><par n="Saussure__np"/></e>
 <e lm="Niquette"><i>Niquette</i><par n="Saussure__np"/></e>
@@ -46360,7 +46360,7 @@
 <e lm="Quilis"><i>Quilis</i><par n="Saussure__np"/></e>
 <e lm="Quillot"><i>Quillot</i><par n="Abraham__np"/></e>
 <e lm="Quim"><i>Quim</i><par n="Antoine__np"/></e>
-<e lm="Quimper"><i>Quimper</i><par n="Andorre__np"/></e>
+<e lm="Quimper"><i>Quimper</i><par n="Iran__np"/></e>
 <e lm="Quimper"><i>Quimper</i><par n="Saussure__np"/></e>
 <e lm="Quincy Jones"><i>Quincy<b/>Jones</i><par n="Abraham__np"/></e>
 <e lm="Quinn"><i>Quinn</i><par n="Saussure__np"/></e>
@@ -59328,11 +59328,24 @@
 <e lm="Jornalet"><i>Jornalet</i><par n="Linux__np"/></e>
 <e lm="La Setmana"><i>La<b/>Setmana</i><par n="Wikipedia__np"/></e>
 <e lm="Nationalia"><i>Nationalia</i><par n="Wikipedia__np"/></e>
-<e lm="Sapiéncia,"><i>Sapiéncia</i><par n="Wikipedia__np"/></e>
+<e lm="Sapiéncia"><i>Sapiéncia</i><par n="Wikipedia__np"/></e>
 <e lm="Geopolítica.cat"><i>Geopolítica.cat</i><par n="Wikipedia__np"/></e>
 <e lm="rendre hommage"><i>rend</i><par n="attend/re__vblex"/><p><l><b/>hommage</l><r><g><b/>hommage</g></r></p></e>
 <e lm="mouler"><i>moul</i><par n="abaiss/er__vblex"/></e>
 
+
+<e lm="Aude"><i>Aude</i><par n="Bulgarie__np"/></e>
+<e lm="Gironde"><i>Gironde</i><par n="Bulgarie__np"/></e>
+<e lm="Isère"><i>Isère</i><par n="Bulgarie__np"/></e>
+<e lm="Martinique"><i>Martinique</i><par n="Bulgarie__np"/></e>
+<e lm="Bourges"><i>Bourges</i><par n="Bulgarie__np"/></e>
+<e lm="Bastia"><i>Bastia</i><par n="Bulgarie__np"/></e>
+<e lm="Lille"><i>Lille</i><par n="Bulgarie__np"/></e>
+<e lm="Gers"><i>Gers</i><par n="Iran__np"/></e>
+<e lm="Ajaccio"><i>Ajaccio</i><par n="Iran__np"/></e>
+<e lm="Dijon"><i>Dijon</i><par n="Iran__np"/></e>
+<e lm="Rouen"><i>Rouen</i><par n="Iran__np"/></e>
+<e lm="Amiens"><i>Amiens</i><par n="Iran__np"/></e>
 
 <!-- xxxx -->
   </section>
