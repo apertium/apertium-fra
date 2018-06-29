@@ -92,8 +92,8 @@
 </pardef>
 
 <pardef n="separa">
-  <e r="LR"><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
-  <e r="RL"><p><l><a/></l>      <r></r></p><re>[.\?;:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+  <e r="LR"><re>[.\?;:!\|]</re><p><l></l><r><s n="sent"/></r></p></e>
+  <e r="RL"><p><l><a/></l>      <r></r></p><re>[.\?;:!\|]</re><p><l></l><r><s n="sent"/></r></p></e>
 </pardef>
 
 <pardef n="coma">
@@ -59361,7 +59361,7 @@
 <e lm="Finistère"><i>Finistère</i><par n="Iran__np"/></e>
 <e lm="Pas-de-Calais"><i>Pas-de-Calais</i><par n="Iran__np"/></e>
 <e lm="Saône-et-Loire"><i>Saône-et-Loire</i><par n="Iran__np"/></e>
-<e lm="Seine-Saint-Denis"><i>Seine-Saint-Denis</i><par n="Bulgarie__np"/></e>
+<e lm="Seine-Saint-Denis"><i>Seine-Saint-Denis</i><par n="Iran__np"/></e>
 <e lm="Lons-le-Saunier"><i>Lons-le-Saunier</i><par n="Iran__np"/></e>
 <e lm="Avignon"><i>Avignon</i><par n="Iran__np"/></e>
 <e lm="Dzaoudzi"><i>Dzaoudzi</i><par n="Iran__np"/></e>
