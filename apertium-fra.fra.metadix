@@ -59390,10 +59390,10 @@
 <e lm="Béarn"><i>Béarn</i><par n="Iran__np"/></e>
 <e lm="Auvergne-Rhône-Alpes"><i>Auvergne-Rhône-Alpes</i><par n="Bulgarie__np"/></e>
 <e lm="Bourgogne-Franche-Comté"><i>Bourgogne-Franche-Comté</i><par n="Bulgarie__np"/></e>
-<e lm="Centre-Val de Loire"><i>Centre-Val de Loire</i><par n="Iran__np"/></e>
+<e lm="Centre-Val de Loire"><i>Centre-Val<b/>de<b/>Loire</i><par n="Iran__np"/></e>
 <e lm="Hauts-de-France"><i>Hauts-de-France</i><par n="États-Unis__np"/></e>
 <e lm="Nouvelle-Aquitaine"><i>Nouvelle-Aquitaine</i><par n="Bulgarie__np"/></e>
-<e lm="Pays de la Loire"><i>Pays de la Loire</i><par n="États-Unis__np"/></e>
+<e lm="Pays de la Loire"><i>Pays<b/>de<b/>la<b/>Loire</i><par n="États-Unis__np"/></e>
 <e lm="Poitou-Charentes"><i>Poitou-Charentes</i><par n="Iran__np"/></e>
 <e lm="Berry"><i>Berry</i><par n="Iran__np"/></e>
 <e lm="Lyonnais"><i>Lyonnais</i><par n="Iran__np"/></e>
@@ -59401,12 +59401,13 @@
 <e lm="Angoumois"><i>Angoumois</i><par n="Iran__np"/></e>
 <e lm="Douai"><i>Douai</i><par n="Iran__np"/></e>
 <e lm="Nivernais"><i>Nivernais</i><par n="Iran__np"/></e>
-<e lm="Comtat Venaissin"><i>Comtat Venaissin</i><par n="Iran__np"/></e>
+<e lm="Comtat Venaissin"><i>Comtat<b/>Venaissin</i><par n="Iran__np"/></e>
 <e lm="Rhône-Alpes"><i>Rhône-Alpes</i><par n="Iran__np"/></e>
 <e lm="Wurtemberg"><i>Wurtemberg</i><par n="Iran__np"/></e>
 <e lm="Marche"><i>Marche</i><par n="Bulgarie__np"/></e>
 <e lm="Trois-Évêchés"><i>Trois-Évêchés</i><par n="États-Unis__np"/></e>
 <e lm="Touraine"><i>Touraine</i><par n="Bulgarie__np"/></e>
+<e lm="Nîmes"><i>Nîmes</i><par n="Iran__np"/></e>
 
 <!-- xxxx -->
   </section>
