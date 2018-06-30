@@ -42619,7 +42619,7 @@
 <e lm="Maria del Mar"><i>Maria<b/>del<b/>Mar</i><par n="Marie__np"/></e>
 <e lm="Maria Josep"><i>Maria<b/>Josep</i><par n="Marie__np"/></e>
 <e lm="Maria Magdalena"><i>Maria<b/>Magdalena</i><par n="Marie__np"/></e>
-<e lm="Marian"><i>Marian</i><par n="Marie__np"/></e>
+<e lm="Marian"><i>Marian</i><par n="Antoine__np"/></e>
 <e lm="Mariana"><i>Mariana</i><par n="Marie__np"/></e>
 <e lm="Marianela"><i>Marianela</i><par n="Marie__np"/></e>
 <e lm="Mariani"><i>Mariani</i><par n="Saussure__np"/></e>
@@ -59373,6 +59373,14 @@
 <e lm="Lons-le-Saunier"><i>Lons-le-Saunier</i><par n="Iran__np"/></e>
 <e lm="Avignon"><i>Avignon</i><par n="Iran__np"/></e>
 <e lm="Dzaoudzi"><i>Dzaoudzi</i><par n="Iran__np"/></e>
+<e lm="Calandreta"><i>Calandreta</i><par n="Wikipedia__np"/></e>
+<e lm="Calandretas"><i>Calandretas</i><par n="Nations_unies__np"/></e>
+<e lm="Languedoc"><i>Languedoc</i><par n="Iran__np"/></e>
+<e lm="Languedoc-Roussillon"><i>Languedoc-Roussillon</i><par n="Iran__np"/></e>
+<e lm="Poitou"><i>Poitou</i><par n="Iran__np"/></e>
+<e lm="Ardenne"><i>Ardenne</i><par n="Bulgarie__np"/></e>
+<e lm="Charente"><i>Charente</i><par n="Bulgarie__np"/></e>
+<e lm="Charentes"><i>Charentes</i><par n="Bahamas__np"/></e>
 
 <!-- xxxx -->
   </section>
