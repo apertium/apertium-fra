@@ -1172,10 +1172,10 @@ SELECT A OR PP IF (-4 N + FemPl) (-3 N + FemPl) (-2 N + FemPl) (-1 Adj_PP + FemP
 
 # NOM ADV ADJ
 
-SELECT A IF (-2C N + MascSg) (-1C Adv) (0 A + MascSg LINK NOT 0 Det) ;
-SELECT A IF (-2C N + FemSg) (-1C Adv) (0 A + FemSg LINK NOT 0 Det) ;
-SELECT A IF (-2C N + MascPl) (-1C Adv) (0 A + MascPl LINK NOT 0 Det) ;
-SELECT A IF (-2C N + FemPl) (-1C Adv) (0 A + FemPl LINK NOT 0 Det) ;
+SELECT A IF (-2C N + MascSg) (-1C Adv) (0 A + MascSg LINK NOT 0 Det) (NOT 0 Verb + Pers) ;
+SELECT A IF (-2C N + FemSg) (-1C Adv) (0 A + FemSg LINK NOT 0 Det) (NOT 0 Verb + Pers) ;
+SELECT A IF (-2C N + MascPl) (-1C Adv) (0 A + MascPl LINK NOT 0 Det) (NOT 0 Verb + Pers) ;
+SELECT A IF (-2C N + FemPl) (-1C Adv) (0 A + FemPl LINK NOT 0 Det) (NOT 0 Verb + Pers) ;
 SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + MascSg) (-1C Adv) (0 A + MascSg LINK NOT 0 Det) ;
 SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + FemSg) (-1C Adv) (0 A + FemSg LINK NOT 0 Det) ;
 SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + MascPl) (-1C Adv) (0 A + MascPl LINK NOT 0 Det) ;
