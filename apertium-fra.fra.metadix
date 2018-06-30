@@ -33559,7 +33559,7 @@
 <e lm="Branchaud"><i>Branchaud</i><par n="Saussure__np"/></e>
 <e lm="Branco"><i>Branco</i><par n="Saussure__np"/></e>
 <e lm="Branconnier"><i>Branconnier</i><par n="Saussure__np"/></e>
-<e lm="Brandenbourg"><i>Brandenbourg</i><par n="Andorre__np"/></e>
+<e lm="Brandenbourg"><i>Brandenbourg</i><par n="Iran__np"/></e>
 <e lm="Brandes"><i>Brandes</i><par n="Saussure__np"/></e>
 <e lm="Brando"><i>Brando</i><par n="Saussure__np"/></e>
 <e lm="Brandt"><i>Brandt</i><par n="Saussure__np"/></e>
@@ -38060,7 +38060,7 @@
 <e lm="Francfort"><i>Francfort</i><par n="Iran__np"/></e>
 <e lm="Franch"><i>Franch</i><par n="Saussure__np"/></e>
 <e lm="Franche"><i>Franche</i><par n="Saussure__np"/></e>
-<e lm="Franche-Comté"><i>Franche-Comté</i><par n="Iran__np"/></e>
+<e lm="Franche-Comté"><i>Franche-Comté</i><par n="Bulgarie__np"/></e>
 <e lm="Franchi"><i>Franchi</i><par n="Saussure__np"/></e>
 <e lm="Francina"><i>Francina</i><par n="Marie__np"/></e>
 <e lm="Francine"><i>Francine</i><par n="Marie__np"/></e>
@@ -43158,7 +43158,7 @@
 <e lm="McVie"><i>McVie</i><par n="Saussure__np"/></e>
 <e lm="McWhirter"><i>McWhirter</i><par n="Saussure__np"/></e>
 <e lm="Meca"><i>Meca</i><par n="Saussure__np"/></e>
-<e lm="Mecklenbourg"><i>Mecklenbourg</i><par n="Andorre__np"/></e>
+<e lm="Mecklenbourg"><i>Mecklenbourg</i><par n="Iran__np"/></e>
 <e lm="Mecos"><i>Mecos</i><par n="Carrefour__np"/></e>
 <e lm="Mecos"><i>Mecos</i><par n="Saussure__np"/></e>
 <e lm="Mecque"><i>Mecque</i><par n="Bulgarie__np"/></e>
@@ -46307,8 +46307,8 @@
 <e lm="Péninsule Arabique"><i>Péninsule<b/>Arabique</i><par n="Bulgarie__np"/></e>
 <e lm="Péninsule Balkanique"><i>Péninsule<b/>Balkanique</i><par n="Bulgarie__np"/></e>
 <e lm="péninsule d'Alaska"><i>péninsule<b/>d'Alaska</i><par n="Andorre__np"/></e>
-<e lm="péninsule de Kamtchatka"><i>péninsule<b/>de<b/>Kamtchatka</i><par n="Andorre__np"/></e>
-<e lm="péninsule de Taïmyr"><i>péninsule<b/>de<b/>Taïmyr</i><par n="Andorre__np"/></e>
+<e lm="péninsule de Kamtchatka"><i>péninsule<b/>de<b/>Kamtchatka</i><par n="Bulgarie__np"/></e>
+<e lm="péninsule de Taïmyr"><i>péninsule<b/>de<b/>Taïmyr</i><par n="Bulgarie__np"/></e>
 <e lm="Péninsule des Somalis"><i>Péninsule<b/>des<b/>Somalis</i><par n="Bulgarie__np"/></e>
 <e lm="Péninsule ibérique"><i>Péninsule<b/>ibérique</i><par n="Bulgarie__np"/></e>
 <e lm="Pénélope"><i>Pénélope</i><par n="Marie__np"/></e>
@@ -48930,9 +48930,10 @@
 <e lm="Taylor"><i>Taylor</i><par n="Saussure__np"/></e>
 <e lm="Taylor"><i>Taylor</i><par n="Antoine__np"/></e>
 <e lm="Taylor"><i>Taylor</i><par n="Marie__np"/></e>
+<e lm="Recep"><i>Recep</i><par n="Antoine__np"/></e>
 <e lm="Tayyip"><i>Tayyip</i><par n="Antoine__np"/></e>
 <e lm="Taïlande"><i>Taïlande</i><par n="Bulgarie__np"/></e>
-<e lm="Taïmyr"><i>Taïmyr</i><par n="Andorre__np"/></e>
+<e lm="Taïmyr"><i>Taïmyr</i><par n="Bulgarie__np"/></e>
 <e lm="Taña"><i>Taña</i><par n="Saussure__np"/></e>
 <e lm="Tchad"><i>Tchad</i><par n="Iran__np"/></e>
 <e lm="Tchaikovski"><i>Tchaikovski</i><par n="Saussure__np"/></e>
