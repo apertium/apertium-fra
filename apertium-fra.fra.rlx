@@ -1206,6 +1206,25 @@ SELECT PP IF (0 A OR PP) (1 Adv) (2 ("par")) ;
 SELECT PP IF (-2 Ser) (-1 ("ne")) (0 A OR PP) (1 ("que")) (2 ("par")) ;
 # Les cours seront assurés par Michel Laine
 
+# V (P3) OR PP
+REMOVE PP IF (-1 N + MascSg) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + MascSg) ;
+REMOVE PP IF (-1 N + MascPl) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + MascPl) ;
+REMOVE PP IF (-1 N + FemSg) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + FemSg) ;
+REMOVE PP IF (-1 N + FemPl) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + FemPl) ;
+REMOVE PP IF (-4 N + MascSg) (-3 Prep) (-2 Det) (-1 N) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + MascSg) ;
+REMOVE PP IF (-4 N + MascPl) (-3 Prep) (-2 Det) (-1 N) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + MascPl) ;
+REMOVE PP IF (-4 N + FemSg) (-3 Prep) (-2 Det) (-1 N) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + FemSg) ;
+REMOVE PP IF (-4 N + FemPl) (-3 Prep) (-2 Det) (-1 N) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + FemPl) ;
+REMOVE PP IF (-5 N + MascSg) (-4 Prep) (-3 Det) (-2 N) (-1 A) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + MascSg) ;
+REMOVE PP IF (-5 N + MascPl) (-4 Prep) (-3 Det) (-2 N) (-1 A) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + MascPl) ;
+REMOVE PP IF (-5 N + FemSg) (-4 Prep) (-3 Det) (-2 N) (-1 A) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + FemSg) ;
+REMOVE PP IF (-5 N + FemPl) (-4 Prep) (-3 Det) (-2 N) (-1 A) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + FemPl) ;
+REMOVE PP IF (-5 N + MascSg) (-4 Prep) (-3 Det) (-2 A) (-1 N) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + MascSg) ;
+REMOVE PP IF (-5 N + MascPl) (-4 Prep) (-3 Det) (-2 A) (-1 N) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + MascPl) ;
+REMOVE PP IF (-5 N + FemSg) (-4 Prep) (-3 Det) (-2 A) (-1 N) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + FemSg) ;
+REMOVE PP IF (-5 N + FemPl) (-4 Prep) (-3 Det) (-2 A) (-1 N) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + FemPl) ;
+# la motorisation de ces pratiques réduit drastiquement leur population
+
 SELECT N IF (-1 ("par")) (0 ("personne")) ;
 REMOVE N IF (-1 Pour) (0 ("personne")) ;
 
