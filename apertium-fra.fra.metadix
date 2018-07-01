@@ -52795,6 +52795,7 @@
       ****************************** -->
 <e r="RL" lm="à"><p><l><a/>à</l>                       <r>à</r></p><par n="attendu__pr"/></e>
 <e r="LR" lm="à cause de"><p><l>A<b/>cause<b/></l>     <r>à<b/>cause<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à côté de"><p><l>A<b/>côté<b/></l>       <r>à<b/>côté<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à coups de"><p><l>A<b/>coups<b/></l>     <r>à<b/>coups<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à défaut de"><p><l>A<b/>défaut<b/></l>   <r>à<b/>défaut<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à force de"><p><l>A<b/>force<b/></l>     <r>à<b/>force<b/></r></p><par n="contde__pr"/></e>
@@ -52810,6 +52811,10 @@
 <e r="LR" lm="à la suite de"><p><l>A<b/>la<b/>suite<b/></l><r>à<b/>la<b/>suite<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à moins de"><p><l>A<b/>moins<b/></l>     <r>à<b/>moins<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à partir de"><p><l>A<b/>partir<b/></l>   <r>à<b/>partir<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à propos de"><p><l>A<b/>propos<b/></l>   <r>à<b/>propos<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à proximité de"><p><l>A<b/>proximité<b/></l>   <r>à<b/>proximité<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à ras de"><p><l>A<b/>ras<b/></l>   <r>à<b/>ras<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à titre de"><p><l>A<b/>titre<b/></l>   <r>à<b/>titre<b/></r></p><par n="contde__pr"/></e>
 <e lm="afin de"><i>afin<b/></i><par n="contde__pr"/></e>
 <e lm="après"><i>après</i><par n="attendu__pr"/></e>
 <e lm="attendu"><i>attendu</i><par n="attendu__pr"/></e>
@@ -59541,6 +59546,129 @@
     <!-- ******************************
           group pr_symbol
       ****************************** -->
+<e r="LR" lm="à cause de"><p><l>à<b/>cause<b/>d'</l><r>à<b/>cause<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à côté de"><p><l>à<b/>côté<b/>d'</l><r>à<b/>côté<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à coups de"><p><l>à<b/>coups<b/>d'</l><r>à<b/>coups<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à défaut de"><p><l>à<b/>défaut<b/>d'</l><r>à<b/>défaut<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="afin de"><p><l>afin<b/>d'</l><r>afin<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à force de"><p><l>à<b/>force<b/>d'</l><r>à<b/>force<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la demande de"><p><l>à<b/>la<b/>demande<b/>d'</l><r>à<b/>la<b/>demande<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la fin de"><p><l>à<b/>la<b/>fin<b/>d'</l><r>à<b/>la<b/>fin<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la réserve de"><p><l>à<b/>la<b/>réserve<b/>d'</l><r>à<b/>la<b/>réserve<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la suite de"><p><l>à<b/>la<b/>suite<b/>d'</l><r>à<b/>la<b/>suite<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'encontre de"><p><l>à<b/>l'encontre<b/>d'</l><r>à<b/>l'encontre<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'époque de"><p><l>à<b/>l'époque<b/>d'</l><r>à<b/>l'époque<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'exception de"><p><l>à<b/>l'exception<b/>d'</l><r>à<b/>l'exception<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'instar de"><p><l>à<b/>l'instar<b/>d'</l><r>à<b/>l'instar<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'occasion de"><p><l>à<b/>l'occasion<b/>d'</l><r>à<b/>l'occasion<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à moins de"><p><l>à<b/>moins<b/>d'</l><r>à<b/>moins<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à partir de" a="joan"><p><l>à<b/>partir<b/>d'</l><r>à<b/>partir<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à propos de"><p><l>à<b/>propos<b/>d'</l><r>à<b/>propos<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à proximité de"><p><l>à<b/>proximité<b/>d'</l><r>à<b/>proximité<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à ras de"><p><l>à<b/>ras<b/>d'</l><r>à<b/>ras<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à titre de"><p><l>à<b/>titre<b/>d'</l><r>à<b/>titre<b/>de<s n="pr"/></r></p></e>
+
+<e r="LR" lm="à cause de"><p><l>A<b/>cause<b/>d'</l><r>à<b/>cause<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à côté de"><p><l>A<b/>côté<b/>d'</l><r>à<b/>côté<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à coups de"><p><l>A<b/>coups<b/>d'</l><r>à<b/>coups<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à défaut de"><p><l>A<b/>défaut<b/>d'</l><r>à<b/>défaut<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à force de"><p><l>A<b/>force<b/>d'</l><r>à<b/>force<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la demande de"><p><l>A<b/>la<b/>demande<b/>d'</l><r>à<b/>la<b/>demande<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la fin de"><p><l>A<b/>la<b/>fin<b/>d'</l><r>à<b/>la<b/>fin<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la réserve de"><p><l>A<b/>la<b/>réserve<b/>d'</l><r>à<b/>la<b/>réserve<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à la suite de"><p><l>A<b/>la<b/>suite<b/>d'</l><r>à<b/>la<b/>suite<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'encontre de"><p><l>A<b/>l'encontre<b/>d'</l><r>à<b/>l'encontre<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'époque de"><p><l>A<b/>l'époque<b/>d'</l><r>à<b/>l'époque<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'exception de"><p><l>A<b/>l'exception<b/>d'</l><r>à<b/>l'exception<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'instar de"><p><l>A<b/>l'instar<b/>d'</l><r>à<b/>l'instar<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'occasion de"><p><l>A<b/>l'occasion<b/>d'</l><r>à<b/>l'occasion<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à moins de"><p><l>A<b/>moins<b/>d'</l><r>à<b/>moins<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à partir de" a="joan"><p><l>A<b/>partir<b/>d'</l><r>à<b/>partir<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à propos de"><p><l>A<b/>propos<b/>d'</l><r>à<b/>propos<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à proximité de"><p><l>A<b/>proximité<b/>d'</l><r>à<b/>proximité<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à ras de"><p><l>A<b/>ras<b/>d'</l><r>à<b/>ras<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à titre de"><p><l>A<b/>titre<b/>d'</l><r>à<b/>titre<b/>de<s n="pr"/></r></p></e>
+
+<e r="LR" lm="au bout de"><p><l>au<b/>bout<b/>d'</l><r>au<b/>bout<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au cours de"><p><l>au<b/>cours<b/>d'</l><r>au<b/>cours<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au début de"><p><l>au<b/>début<b/>d'</l><r>au<b/>début<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au défaut de"><p><l>au<b/>défaut<b/>d'</l><r>au<b/>défaut<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au-dehors de"><p><l>au-dehors<b/>d'</l><r>au-dehors<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au delà de"><p><l>au<b/>delà<b/>d'</l><r>au<b/>delà<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au-delà de"><p><l>au-delà<b/>d'</l><r>au-delà<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au-dessous de"><p><l>au-dessous<b/>d'</l><r>au-dessous<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au-dessus de"><p><l>au-dessus<b/>d'</l><r>au-dessus<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au détriment de"><p><l>au<b/>détriment<b/>d'</l><r>au<b/>détriment<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au-devant de"><p><l>au-devant<b/>d'</l><r>au-devant<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au fur et à mesure de"><p><l>au<b/>fur<b/>et<b/>à<b/>mesure<b/>d'</l><r>au<b/>fur<b/>et<b/>à<b/>mesure<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au gré de"><p><l>au<b/>gré<b/>d'</l><r>au<b/>gré<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au lieu de"><p><l>au<b/>lieu<b/>d'</l><r>au<b/>lieu<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au long de"><p><l>au<b/>long<b/>d'</l><r>au<b/>long<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au milieu de"><p><l>au<b/>milieu<b/>d'</l><r>au<b/>milieu<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au moment de"><p><l>au<b/>moment<b/>d'</l><r>au<b/>moment<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au moyen de"><p><l>au<b/>moyen<b/>d'</l><r>au<b/>moyen<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au nom et en qualité de représentant de"><p><l>au<b/>nom<b/>et<b/>en<b/>qualité<b/>de<b/>représentant<b/>d'</l><r>au<b/>nom<b/>et<b/>en<b/>qualité<b/>de<b/>représentant<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au préjudice de"><p><l>au<b/>préjudice<b/>d'</l><r>au<b/>préjudice<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au prétexte de"><p><l>au<b/>prétexte<b/>d'</l><r>au<b/>prétexte<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au profit de"><p><l>au<b/>profit<b/>d'</l><r>au<b/>profit<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au ras de"><p><l>au<b/>ras<b/>d'</l><r>au<b/>ras<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au sujet de"><p><l>au<b/>sujet<b/>d'</l><r>au<b/>sujet<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au temps de"><p><l>au<b/>temps<b/>d'</l><r>au<b/>temps<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="autour de"><p><l>autour<b/>d'</l><r>autour<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au travers de"><p><l>au<b/>travers<b/>d'</l><r>au<b/>travers<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="chargé de"><p><l>chargé<b/>d'</l><r>chargé<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="compte tenu de"><p><l>compte<b/>tenu<b/>d'</l><r>compte<b/>tenu<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="dans bien de"><p><l>dans<b/>bien<b/>d'</l><r>dans<b/>bien<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="dans la foulée de"><p><l>dans<b/>la<b/>foulée<b/>d'</l><r>dans<b/>la<b/>foulée<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="dans le but de"><p><l>dans<b/>le<b/>but<b/>d'</l><r>dans<b/>le<b/>but<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="dans le cadre de"><p><l>dans<b/>le<b/>cadre<b/>d'</l><r>dans<b/>le<b/>cadre<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="dans le cours de"><p><l>dans<b/>le<b/>cours<b/>d'</l><r>dans<b/>le<b/>cours<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="dans l'entourage de"><p><l>dans<b/>l'entourage<b/>d'</l><r>dans<b/>l'entourage<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="du fait de"><p><l>du<b/>fait<b/>d'</l><r>du<b/>fait<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="du point de vue de"><p><l>du<b/>point<b/>de<b/>vue<b/>d'</l><r>du<b/>point<b/>de<b/>vue<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en cas de"><p><l>en<b/>cas<b/>d'</l><r>en<b/>cas<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en cours de"><p><l>en<b/>cours<b/>d'</l><r>en<b/>cours<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en dehors de"><p><l>en<b/>dehors<b/>d'</l><r>en<b/>dehors<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en dépit de"><p><l>en<b/>dépit<b/>d'</l><r>en<b/>dépit<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en échange de"><p><l>en<b/>échange<b/>d'</l><r>en<b/>échange<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en face de"><p><l>en<b/>face<b/>d'</l><r>en<b/>face<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en plus de"><p><l>en<b/>plus<b/>d'</l><r>en<b/>plus<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en raison de"><p><l>en<b/>raison<b/>d'</l><r>en<b/>raison<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en tête de"><p><l>en<b/>tête<b/>d'</l><r>en<b/>tête<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="en vue de"><p><l>en<b/>vue<b/>d'</l><r>en<b/>vue<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="faute de"><p><l>faute<b/>d'</l><r>faute<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="jusqu'à la fin de"><p><l>jusqu'à<b/>la<b/>fin<b/>d'</l><r>jusqu'à<b/>la<b/>fin<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="la faute de"><p><l>la<b/>faute<b/>d'</l><r>la<b/>faute<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="le long de"><p><l>le<b/>long<b/>d'</l><r>le<b/>long<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="long de"><p><l>long<b/>d'</l><r>long<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="lors de"><p><l>lors<b/>d'</l><r>lors<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="merci de"><p><l>merci<b/>d'</l><r>merci<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="outre de"><p><l>outre<b/>d'</l><r>outre<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="par l'intermédiaire de"><p><l>par<b/>l'intermédiaire<b/>d'</l><r>par<b/>l'intermédiaire<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="par ordre de"><p><l>par<b/>ordre<b/>d'</l><r>par<b/>ordre<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="par suite de"><p><l>par<b/>suite<b/>d'</l><r>par<b/>suite<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="pour cause de"><p><l>pour<b/>cause<b/>d'</l><r>pour<b/>cause<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="pour ce qui est de"><p><l>pour<b/>ce<b/>qui<b/>est<b/>d'</l><r>pour<b/>ce<b/>qui<b/>est<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="près de"><p><l>près<b/>d'</l><r>près<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="sans détriment de"><p><l>sans<b/>détriment<b/>d'</l><r>sans<b/>détriment<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="sous la protection de"><p><l>sous<b/>la<b/>protection<b/>d'</l><r>sous<b/>la<b/>protection<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="sous l'effet de"><p><l>sous<b/>l'effet<b/>d'</l><r>sous<b/>l'effet<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="sur la rêquete de"><p><l>sur<b/>la<b/>rêquete<b/>d'</l><r>sur<b/>la<b/>rêquete<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="sur le point de"><p><l>sur<b/>le<b/>point<b/>d'</l><r>sur<b/>le<b/>point<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="sur proposition de"><p><l>sur<b/>proposition<b/>d'</l><r>sur<b/>proposition<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="tout au long de"><p><l>tout<b/>au<b/>long<b/>d'</l><r>tout<b/>au<b/>long<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un petit peu de"><p><l>un<b/>petit<b/>peu<b/>d'</l><r>un<b/>petit<b/>peu<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un petit peu moins de"><p><l>un<b/>petit<b/>peu<b/>moins<b/>d'</l><r>un<b/>petit<b/>peu<b/>moins<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un petit peu plus de"><p><l>un<b/>petit<b/>peu<b/>plus<b/>d'</l><r>un<b/>petit<b/>peu<b/>plus<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un petit peu trop de"><p><l>un<b/>petit<b/>peu<b/>trop<b/>d'</l><r>un<b/>petit<b/>peu<b/>trop<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un petit peu trop peu de"><p><l>un<b/>petit<b/>peu<b/>trop<b/>peu<b/>d'</l><r>un<b/>petit<b/>peu<b/>trop<b/>peu<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un peu de"><p><l>un<b/>peu<b/>d'</l><r>un<b/>peu<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un peu moins de"><p><l>un<b/>peu<b/>moins<b/>d'</l><r>un<b/>peu<b/>moins<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="un peu plus de"><p><l>un<b/>peu<b/>plus<b/>d'</l><r>un<b/>peu<b/>plus<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'égard de"><p><l>à<b/>l'égard<b/>d'</l><r>à<b/>l'égard<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à proximité de"><p><l>à<b/>proximité<b/>d'</l><r>à<b/>proximité<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au-delà de"><p><l>au-delà<b/>d'</l><r>au-delà<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="au dire de"><p><l>au<b/>dire<b/>d'</l><r>au<b/>dire<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="afin de"><p><l>afin<b/>d'</l>            <r>afin<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au-delà de"><p><l>au-delà<b/>d'</l>      <r>au-delà<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au bout de" a="webform"><p><l>au<b/>bout<b/>d'</l><r>au<b/>bout<b/>de<s n="pr"/></r></p></e>
