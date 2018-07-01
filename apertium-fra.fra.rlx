@@ -135,6 +135,7 @@ LIST Helas = "hélas" ;
 LIST Des = "dès" ;
 LIST Entre = "entre" ;
 LIST Pendant = "pendant" ; 
+LIST Puis = "puis" ; 
 LIST Or = "or" ; 
 LIST Si = "si" ;
 LIST S = "<s'>"i ;
@@ -868,6 +869,15 @@ SELECT Prep (0 Pendant) (1 ("de")) (2 A OR N) ;
   ## pendant de nombreuses années
 REMOVE V (0 Pendant) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Pendant) (*1 Verb BARRIER Cnj_Rel) ;
+
+## Ces règles ne sont pas en train de marcher
+SELECT Verb (0 Puis) (-1 Je);
+SELECT Verb (0 Puis) (1 Je) (NOT 1 Verb + P1) ;
+SELECT Verb (0 Puis) (1 Je LINK NOT 1 Verb + P1) (1 Je LINK NOT 2 Verb + P1);
+SELECT Verb (0 Puis) (-2 Je) (-1 Ne) ;
+REMOVE Verb (0 Puis) (NOT -2 Je) (NOT -1 Je) (NOT 1 Je) ;
+REMOVE Verb (0 Puis) (1 Je) (2 Verb + P1) ;
+REMOVE Verb (0 Puis) (1 Je) (2 Adv) (3 Verb + P1) ;
 
 SELECT N (-1 ("en")) (0 ("or")) ;
 
