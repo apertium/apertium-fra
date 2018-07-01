@@ -14107,6 +14107,7 @@
 <e lm="benzine" a="jaumeortola"><i>benzine</i><par n="abeille__n"/></e>
 <e lm="benzène"><i>benzène</i><par n="livre__n"/></e>
 <e lm="berbère" a="jaumeortola"><i>berbère</i><par n="artiste__n"/></e>
+<e lm="berbère"><i>berbère</i><par n="académique__adj"/></e>
 <e lm="berceau" a="jaumeortola"><i>berceau</i><par n="lieu__n"/></e>
 <e lm="berger"><i>berg</i><par n="bouch/er__n"/></e>
 <e lm="berge"><i>berge</i><par n="abeille__n"/></e>
@@ -51083,7 +51084,7 @@
 <e lm="Zinedine"><i>Zinedine</i><par n="Antoine__np"/></e>
 <e lm="Zinoviev"><i>Zinoviev</i><par n="Saussure__np"/></e>
 <e lm="Zinédine"><i>Zinédine</i><par n="Antoine__np"/></e>
-<e lm="Zivago"><i>Zivago</i><par n="Saussure__np"/></e>
+<e lm="Jivago"><i>Jivago</i><par n="Saussure__np"/></e>
 <e lm="Zizurkil"><i>Zizurkil</i><par n="Andorre__np"/></e>
 <e lm="Zobéide"><i>Zobéide</i><par n="Marie__np"/></e>
 <e lm="Zola"><i>Zola</i><par n="Saussure__np"/></e>
