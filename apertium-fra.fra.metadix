@@ -19860,7 +19860,7 @@
 <e lm="loisirs"><i>loisir</i><par n="abords__n"/></e>
 <e lm="lombard"><i>lombard</i><par n="affecté__n"/></e>
 <e lm="lombric" a="jaumeortola"><i>lombric</i><par n="livre__n"/></e>
-<e lm="londonien"><i>londonien</i><par n="ancien__n"/></e>
+<e lm="Londonien"><i>Londonien</i><par n="ancien__n"/></e>
 <e lm="long"><i>long</i><par n="personnel__n"/></e>
 <e lm="long-métrage"><i>long-métrage</i><par n="livre__n"/></e>
 <e r="LR" lm="long métrage"><i>long<b/>métrage</i><par n="livre__n"/></e>
@@ -42541,7 +42541,8 @@
 <e lm="Maranda"><i>Maranda</i><par n="Saussure__np"/></e>
 <e lm="Marandola"><i>Marandola</i><par n="Saussure__np"/></e>
 <e lm="Marat"><i>Marat</i><par n="Saussure__np"/></e>
-<e lm="Marathon"><i>Marathon</i><par n="Carrefour__np"/></e>
+<e lm="Marathon"><i>Marathon</i><par n="Linux__np"/></e>
+<e lm="Marathon"><i>Marathon</i><par n="Iran__np"/></e>
 <e lm="Maraver"><i>Maraver</i><par n="Saussure__np"/></e>
 <e lm="Marba"><i>Marba</i><par n="Saussure__np"/></e>
 <e lm="Marbre"><i>Marbre</i><par n="Saussure__np"/></e>
@@ -51150,7 +51151,8 @@
 <e lm="Éamon"><i>Éamon</i><par n="Antoine__np"/></e>
 <e lm="Écija"><i>Écija</i><par n="Saussure__np"/></e>
 <e lm="Écosse"><i>Écosse</i><par n="Bulgarie__np"/></e>
-<e lm="Écôle de Fontainebleau"><i>Écôle<b/>de<b/>Fontainebleau</i><par n="Carrefour__np"/></e>
+<e lm="Écôle de Fontainebleau"><i>Écôle<b/>de<b/>Fontainebleau</i><par n="Wikipedia__np"/></e>
+<e lm="Ed"><i>Ed</i><par n="Antoine__np"/></e>
 <e lm="Éden"><i>Éden</i><par n="Abraham__np"/></e>
 <e lm="Édesse"><i>Édesse</i><par n="Bulgarie__np"/></e>
 <e lm="Édimbourg"><i>Édimbourg</i><par n="Iran__np"/></e>
@@ -51162,7 +51164,7 @@
 <e r="LR" lm="Édouard"><p><l>Edouard</l><r>Édouard</r></p><par n="Saussure__np"/></e>
 <e lm="Égypte"><i>Égypte</i><par n="Bulgarie__np"/></e>
 <e lm="Égée"><i>Égée</i><par n="Antoine__np"/></e>
-<e lm="Élam"><i>Élam</i><par n="Andorre__np"/></e>
+<e lm="Élam"><i>Élam</i><par n="Iran__np"/></e>
 <e lm="Électre"><i>Électre</i><par n="Marie__np"/></e>
 <e lm="Élisabeth"><i>Élisabeth</i><par n="Marie__np"/></e>
 <e lm="Elisabèt"><i>Elisabèt</i><par n="Marie__np"/></e>
@@ -58629,7 +58631,7 @@
 <e lm="pavé" a="jaumeortola"><i>pavé</i><par n="abaissant__adj"/></e>
 <e lm="pélagien" a="jaumeortola"><i>pélagien</i><par n="ancien__adj"/></e>
 <e lm="penné" a="jaumeortola"><i>penné</i><par n="abaissant__adj"/></e>
-<e lm="pers" a="jaumeortola"><i>pers</i><par n="anglais__adj"/></e>
+<e r="RL" lm="pers" a="jaumeortola" c="cause des problèmes avec perse"><i>pers</i><par n="anglais__adj"/></e>
 <e lm="pétrographique" a="jaumeortola"><i>pétrographique</i><par n="académique__adj"/></e>
 <e lm="phonémique" a="jaumeortola"><i>phonémique</i><par n="académique__adj"/></e>
 <e lm="phylétique" a="jaumeortola"><i>phylétique</i><par n="académique__adj"/></e>
@@ -59406,6 +59408,7 @@
 <e lm="Comtat Venaissin"><i>Comtat<b/>Venaissin</i><par n="Iran__np"/></e>
 <e lm="Rhône-Alpes"><i>Rhône-Alpes</i><par n="Iran__np"/></e>
 <e lm="Wurtemberg"><i>Wurtemberg</i><par n="Iran__np"/></e>
+<e lm="Bade-Wurtemberg"><i>Bade-Wurtemberg</i><par n="Iran__np"/></e>
 <e lm="Marche"><i>Marche</i><par n="Bulgarie__np"/></e>
 <e lm="Trois-Évêchés"><i>Trois-Évêchés</i><par n="États-Unis__np"/></e>
 <e lm="Touraine"><i>Touraine</i><par n="Bulgarie__np"/></e>
@@ -59414,6 +59417,15 @@
 <e lm="Martí"><i>Martí</i><par n="Saussure__np"/></e>
 <e lm="Laffont"><i>Laffont</i><par n="Saussure__np"/></e>
 <e lm="Còrdas"><i>Còrdas</i><par n="Saussure__np"/></e>
+<e lm="Forêt-Noire"><i>Forêt-Noire</i><par n="Bulgarie__np"/></e>
+<e lm="alezan"><i>alezan</i><par n="abaissant__adj"/></e>
+<e lm="débardage"><i>débardage</i><par n="livre__n"/></e>
+<e lm="Artémision"><i>Artémision</i><par n="Iran__np"/></e>
+<e lm="trière"><i>trière</i><par n="abeille__n"/></e>
+<e lm="hit-parade"><i>hit-parade</i><par n="livre__n"/></e>
+<e lm="capter"><i>capt</i><par n="abaiss/er__vblex"/></e>
+<e lm="Eubée"><i>Eubée</i><par n="Bulgarie__np"/></e>
+<e lm="médique" a="hector"><i>médique</i><par n="académique__adj"/></e>
 
 <!-- xxxx -->
   </section>
