@@ -97,6 +97,7 @@ LIST Demi_pre = "demi_pre" ;
 LIST Demi_post = "demi_post" ; 
 LIST Le = "le" ;
 LIST Un = "un" ;
+LIST Aucun = "aucun" ;
 LIST Fait = "<fait>"i ;
 LIST Est = "<est>"i ;
 LIST Je = "je" "moi je";
@@ -852,6 +853,11 @@ SELECT A IF (0 ("bon")) (1C N) ;
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
+
+REMOVE Det IF (0 Prn OR Det) (1C Prep) (NOT 0 DetDef) ;
+  ## Aucune des 200 communes
+REMOVE Adv IF (-1C Det OR Prn) (0 Adv OR N) (1C Prep) ;
+  ## ce point de vue
 
 SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
   ## dès maintenant
