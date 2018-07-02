@@ -158,7 +158,8 @@ LIST Excl = "!" ;
 
 LIST Title = "<[A-ZÉÈÊ][a-zâéèêîôû]\+>"r ;
 LIST ConsInitiale = "<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r ;
-LIST Majusc = "<[A-ZÉÈÊ][A-Zâéèêîôû]*>"r ;
+LIST Majusc = "<[A-ZÉÈÊ][A-ZÂÉÈÊÎÔÛ]*>"r ;
+LIST MajuscInitiale = "<[A-ZÉÈÊ][a-zâéèêîôû]*>"r ;
 
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
@@ -935,6 +936,8 @@ SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
   ## il va même jusqu'à donner
 
 SELECT Acr OR Al IF (0 Majusc) ;
+SELECT N IF (0 MajuscInitiale) (0C N OR A) (NOT -1 BOS OR MajuscInitiale) (NOT 1 MajuscInitiale) ;
+  ## ces ingrats d'Européens.
 
 SELECT Masc_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;
   ## mon père
