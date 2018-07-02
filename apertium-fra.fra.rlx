@@ -149,6 +149,7 @@ LIST Pupille_anat = "pupille_anat" ;
 LIST Mai = "mai" ;
 LIST Mais = "mais" ;
 LIST Rose = "rose" ;
+LIST Tout = "tout" ;
 
 LIST À = "à" ;
 
@@ -440,6 +441,9 @@ REMOVE Pupille_anat IF (-1/* Det + Pl_strict) (0 Pupille_anat) ;
 SELECT N IF (0 ("conseiller")) (1 ("général")) ;
 
 REMOVE Mai IF (0 Mai or Mais) ;
+
+SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
+  ## . Tous les Etats
 
 SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
 REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
