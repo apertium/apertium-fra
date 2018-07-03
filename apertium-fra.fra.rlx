@@ -196,8 +196,10 @@ SECTION
 
 REMOVE Cog IF (-1 DetDef) (0 Cog) ;
 REMOVE Cog IF (-1 DetInd) (0 Cog) ;
+REMOVE Cog IF (-1 En) (0 Cog) ;
 REMOVE Ant IF (-1 DetDef) (0 Ant) ;
 REMOVE Ant IF (-1 DetInd) (0 Ant) ;
+REMOVE Ant IF (-1 En) (0 Ant) ;
 
 SELECT Ant IF (0 Ant) (1C Ant) ;
 	# Jean-René
