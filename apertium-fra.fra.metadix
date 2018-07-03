@@ -36641,8 +36641,8 @@
 <e lm="Dossantos"><i>Dossantos</i><par n="Saussure__np"/></e>
 <e lm="Dostaler"><i>Dostaler</i><par n="Saussure__np"/></e>
 <e lm="Dostie" a="hector"><i>Dostie</i><par n="Saussure__np"/></e>
-<e lm="Dostoevskij"><i>Dostoevskij</i><par n="Saussure__np"/></e>
-<e lm="Dostoievski"><i>Dostoievski</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Dostoevskij"><i>Dostoevskij</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Dostoievski"><i>Dostoievski</i><par n="Saussure__np"/></e>
 <e lm="Dostoïevski"><i>Dostoïevski</i><par n="Saussure__np"/></e>
 <e lm="Dot"><i>Dot</i><par n="Saussure__np"/></e>
 <e lm="Douaire"><i>Douaire</i><par n="Saussure__np"/></e>
@@ -40748,7 +40748,8 @@
 <e lm="Kandahar"><i>Kandahar</i><par n="Iran__np"/></e>
 <e lm="Kandasamy"><i>Kandasamy</i><par n="Saussure__np"/></e>
 <e lm="Kandiah"><i>Kandiah</i><par n="Saussure__np"/></e>
-<e lm="Kandinski"><i>Kandinski</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Kandinski"><i>Kandinski</i><par n="Saussure__np"/></e>
+<e lm="Kandinsky"><i>Kandinsky</i><par n="Saussure__np"/></e>
 <e lm="Kane"><i>Kane</i><par n="Saussure__np"/></e>
 <e lm="Kang"><i>Kang</i><par n="Saussure__np"/></e>
 <e lm="Kanmen"><i>Kanmen</i><par n="Abraham__np"/></e>
@@ -48624,7 +48625,8 @@
 <e lm="Strasbourg"><i>Strasbourg</i><par n="Saussure__np"/></e>
 <e lm="Strauss"><i>Strauss</i><par n="Saussure__np"/></e>
 <e lm="Strauss-Kahn"><i>Strauss-Kahn</i><par n="Saussure__np"/></e>
-<e lm="Stravinski"><i>Stravinski</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Stravinski"><i>Stravinski</i><par n="Saussure__np"/></e>
+<e lm="Stravinsky"><i>Stravinsky</i><par n="Saussure__np"/></e>
 <e lm="Straw"><i>Straw</i><par n="Saussure__np"/></e>
 <e lm="Strawberry Fields"><i>Strawberry<b/>Fields</i><par n="Carrefour__np"/></e>
 <e lm="Strazzanti"><i>Strazzanti</i><par n="Saussure__np"/></e>
@@ -49491,7 +49493,8 @@
 <e lm="Troyano"><i>Troyano</i><par n="Saussure__np"/></e>
 <e lm="Troyes"><i>Troyes</i><par n="Bulgarie__np"/></e>
 <e lm="Valenciennes"><i>Valenciennes</i><par n="Bulgarie__np"/></e>
-<e lm="Trubetskoi"><i>Trubetskoi</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Trubetskoi"><i>Trubetskoi</i><par n="Saussure__np"/></e>
+<e lm="Troubetskoï"><i>Troubetskoï</i><par n="Saussure__np"/></e>
 <e lm="Truchon" a="hector"><i>Truchon</i><par n="Saussure__np"/></e>
 <e lm="Trudeau"><i>Trudeau</i><par n="Saussure__np"/></e>
 <e lm="Trudel" a="hector"><i>Trudel</i><par n="Saussure__np"/></e>
@@ -58234,7 +58237,6 @@
 <e lm="Signes"><i>Signes</i><par n="Saussure__np"/></e>
 <e lm="Simonide"><i>Simonide</i><par n="Antoine__np"/></e>
 <e lm="Solson"><i>Solson</i><par n="Saussure__np"/></e>
-<e lm="Stravinsky"><i>Stravinsky</i><par n="Saussure__np"/></e>
 <e lm="Subiela"><i>Subiela</i><par n="Saussure__np"/></e>
 <e lm="Tabero"><i>Tabero</i><par n="Saussure__np"/></e>
 <e lm="Taló"><i>Taló</i><par n="Saussure__np"/></e>
