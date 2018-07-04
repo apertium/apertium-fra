@@ -104,6 +104,7 @@ LIST Est = "<est>"i ;
 LIST Je = "je" "moi je";
 LIST Tu = "tu" "toi tu";
 LIST Il = "il"  "lui il";
+LIST On = "on" ;
 LIST Nous = "nous" ;
 LIST Vous = "vous" ;
 LIST Lui = "lui" ;
@@ -512,8 +513,8 @@ SELECT Verb IF (-2 ("ne")) (-1 Pro) (0C N OR Verb) (1 ("pas") OR ("jamais")) ;
   ## ne se limite pas
 SELECT Verb IF (-1 CM) (0C N OR Verb) (1 Det) (2 N) ;
   ## , demande la creation de
-SELECT Verb IF (-1 ("on")) (0C N OR Verb) (0 Verb + P3 + Sg) ;
-SELECT P3 IF (-1 ("on")) (0C N OR Verb) (0 Verb + P3 + Sg) ;
+SELECT Verb IF (-1 On) (0C N OR Verb) (0 Verb + P3 + Sg) ;
+SELECT P3 IF (-1 On) (0C N OR Verb) (0 Verb + P3 + Sg) ;
   ## on compte
 
 REMOVE Fin IF (-1 Ser) (0C Noun_Adj_PP OR Verb + Fin) ;
@@ -601,7 +602,7 @@ SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devan
 SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
   ## Il s'impose devant lui
 SELECT Pro IF (0 Lui) (1C Imper) ;
-SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR ("on")) (1 Verb);
+SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Verb);
   ## on lui connaît
 SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
   ## il pense, lui, que...
@@ -641,13 +642,13 @@ SELECT Pro IF (-1 Tu) (0 Pro) (1 Pro) (2 VSg2);
   ## Tu nous en parles
 SELECT Pro IF (-2 Tu) (-1 Ne) (0 Pro) (1 Pro) (2 VSg2);
   ## Tu ne nous en parles pas
-SELECT Pro IF (-1 Il + Sg) (0 Pro) (1 VSg3);
+SELECT Pro IF (-1 Il + Sg OR On) (0 Pro) (1 VSg3);
   ## Elle vous parle
-SELECT Pro IF (-2 Il + Sg) (-1 Ne) (0 Pro) (1 VSg3);
+SELECT Pro IF (-2 Il + Sg OR On) (-1 Ne) (0 Pro) (1 VSg3);
   ## Elle ne vous parle pas
-SELECT Pro IF (-1 Il + Sg) (0 Pro) (1 Pro) (2 VSg3);
+SELECT Pro IF (-1 Il + Sg OR On) (0 Pro) (1 Pro) (2 VSg3);
   ## Elle vous en parle
-SELECT Pro IF (-2 Il + Sg) (-1 Ne) (0 Pro) (1 Pro) (2 VSg3);
+SELECT Pro IF (-2 Il + Sg OR On) (-1 Ne) (0 Pro) (1 Pro) (2 VSg3);
   ## Elle ne vous en parle pas
 SELECT Pro IF (-1 Nous) (0 Pro) (1 VPl1);
   ## Nous vous parlons
@@ -701,19 +702,19 @@ SELECT P2 IF (-3 Tu) (-2 Pro) (-1 Pro) (0 VSg2);
   ## Tu lui en veux
 SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);
   ## Tu ne lui en veux pas
-SELECT P3 IF (-1 Il + Sg) (0 VSg3);
+SELECT P3 IF (-1 Il + Sg OR On) (0 VSg3);
   ## Elle parle
-SELECT P3 IF (1 Il + Sg) (0 VSg3);
+SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
   ## Parle-t-elle
-SELECT P3 IF (-2 Il + Sg) (-1 Ne) (0 VSg3);
+SELECT P3 IF (-2 Il + Sg OR On) (-1 Ne) (0 VSg3);
   ## Elle ne parle pas
-SELECT P3 IF (-2 Il + Sg) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-2 Il + Sg OR On) (-1 Pro) (0 VSg3);
   ## Elle lui parle
-SELECT P3 IF (-3 Il + Sg) (-2 Ne) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-3 Il + Sg OR On) (-2 Ne) (-1 Pro) (0 VSg3);
   ## Elle ne lui parle pas
-SELECT P3 IF (-3 Il + Sg) (-2 Pro) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-3 Il + Sg OR On) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle lui en parle
-SELECT P3 IF (-4 Il + Sg) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-4 Il + Sg OR On) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle ne lui en parle pas
 
 SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);
