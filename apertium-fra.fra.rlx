@@ -564,10 +564,13 @@ REMOVE N IF (-1 ("de")) (0 ("plus")) ;
 
 SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;
   ## plus rapide que moi
-SELECT Rel IF (-1 CM) (0 Que) ;
-SELECT Rel IF (-1C N) (0 Que) ;
-SELECT Rel IF (-2C N) (-1 A) (0 Que) ;
-SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que) ;
+SELECT Rel IF (-1 CM) (0 Que OR Qui) ;
+SELECT Rel IF (-1C N) (0 Que OR Qui) ;
+SELECT Rel IF (-2C N) (-1 A) (0 Que OR Qui) ;
+SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que OR Qui) ;
+
+SELECT Verb IF (-1 Qui) (0 Verb + P3) ;
+  ## qui fait que
 
 SELECT A IF (0 ("petit")) (1 N OR Verb) ;
   ## un petit groupe
