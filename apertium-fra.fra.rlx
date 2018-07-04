@@ -76,6 +76,7 @@ LIST VPl2 = (vblex p2 pl) (vbser p2 pl) (vbhaver p2 pl) (vbmod p2 pl);
 LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
 
 LIST Fin = pri prs pii ifi pis cni imp ;
+LIST Ind = pri pii ifi ;
 LIST Ifi = ifi ;
 LIST Pri = pri ;
 LIST Prs = prs ;
@@ -393,7 +394,8 @@ SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 ("que")) (0C Verb) ;
 	# es bueno que vengas
 	# però: són tan variades que en cadascuna d'elles es poden observar patrons
 #REMOVE Prs (NOT *-1 VerbSubj LINK 1 Que) (0C Verb) ;
-REMOVE Prs (NOT *-1 Que) (0 Verb) ;
+REMOVE Prs (NOT *-1 Que + CnjSub) (0 Verb) ;
+#REMOVE Prs (NOT *-1 Que + CnjSub BARRIER Ind) (0 Verb) ;
 
 #SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
 SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son) (NOT 1 N OR A) ;
@@ -562,6 +564,10 @@ REMOVE N IF (-1 ("de")) (0 ("plus")) ;
 
 SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;
   ## plus rapide que moi
+SELECT Rel IF (-1 CM) (0 Que) ;
+SELECT Rel IF (-1C N) (0 Que) ;
+SELECT Rel IF (-2C N) (-1 A) (0 Que) ;
+SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que) ;
 
 SELECT A IF (0 ("petit")) (1 N OR Verb) ;
   ## un petit groupe
