@@ -10542,6 +10542,7 @@
 <e lm="protagoniste"><i>protagoniste</i><par n="académique__adj"/></e>
 <e lm="protecteur" a="jaumeortola"><i>protect</i><par n="conduct/eur__adj"/></e>
 <e lm="protectionniste" a="jaumeortola"><i>protectionniste</i><par n="académique__adj"/></e>
+<e lm="protectionniste" a="hector"><i>protectionniste</i><par n="artiste__n"/></e>
 <e lm="protestant"><i>protestant</i><par n="abaissant__adj"/></e>
 <e lm="protestataire" a="jaumeortola"><i>protestataire</i><par n="académique__adj"/></e>
 <e lm="protocolaire"><i>protocolaire</i><par n="académique__adj"/></e>
@@ -51681,6 +51682,9 @@
 <e r="RL" lm="autant que"><p><l>autant<b/><a/>que</l>  <r>autant<b/>que</r></p><par n="hier__adv"/></e>
 <e r="LR" lm="autant que"><p><l>autant<b/>qu'</l>      <r>autant<b/>que</r></p><par n="hier__adv"/></e>
 <e r="LR" lm="autant que"><p><l>autant<b/>que</l>      <r>autant<b/>que</r></p><par n="hier__adv"/></e>
+<e r="RL" lm="tout autant que"><p><l>tout<b/>autant<b/><a/>que</l><r>tout<b/>autant<b/>que</r></p><par n="hier__adv"/></e>
+<e r="LR" lm="tout autant que"><p><l>tout<b/>autant<b/>qu'</l><r>tout<b/>autant<b/>que</r></p><par n="hier__adv"/></e>
+<e r="LR" lm="tout autant que"><p><l>tout<b/>autant<b/>que</l><r>tout<b/>autant<b/>que</r></p><par n="hier__adv"/></e>
 <e lm="authentiquement"><i>authentiquement</i><par n="hier__adv"/></e>
 <e lm="autocratiquement" a="jaumeortola"><i>autocratiquement</i><par n="hier__adv"/></e>
 <e lm="automatiquement"><i>automatiquement</i><par n="hier__adv"/></e>
@@ -52453,6 +52457,7 @@
 <e lm="obligatoirement"><i>obligatoirement</i><par n="hier__adv"/></e>
 <e lm="occasionnellement"><i>occasionnellement</i><par n="hier__adv"/></e>
 <e lm="officiellement"><i>officiellement</i><par n="hier__adv"/></e>
+<e lm="officieusement"><i>officieusement</i><par n="hier__adv"/></e>
 <e lm="optionnellement" a="hector"><i>optionnellement</i><par n="hier__adv"/></e>
 <e lm="oralement" a="hector"><i>oralement</i><par n="hier__adv"/></e>
 <e lm="ordinairement"><i>ordinairement</i><par n="hier__adv"/></e>
@@ -59609,6 +59614,11 @@
 <e lm="grandement"><i>grandement</i><par n="hier__adv"/></e>
 <e lm="Lisbonne"><i>Lisbonne</i><par n="Bulgarie__np"/></e>
 <e lm="remblayer"><i>rembla</i><par n="bala/yer__vblex"/></e>
+<e lm="migratoire"><i>migratoire</i><par n="académique__adj"/></e>
+<e lm="endiguer"><i>endigu</i><par n="abaiss/er__vblex"/></e>
+<e lm="faiseur"><i>faiseu</i><par n="causeu/r__n"/></e>
+<e lm="affectionner"><i>affectionn</i><par n="abaiss/er__vblex"/></e>
+
 
 <!-- xxxx -->
   </section>
