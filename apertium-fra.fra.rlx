@@ -503,6 +503,8 @@ SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
 REMOVE Pers IF (-2 Prep) (-1 Det) (0C N OR Verb LINK 0 Pers) ;
   ## à leurs armes
 
+REMOVE N IF (-1 Rel) (0 N OR Verb) ;
+  ## ce qui limite le nombre
 
 SELECT N IF (-1 ("faire")) (0 ("partie")) ;
 SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
@@ -849,6 +851,8 @@ REMOVE Pro IF (0 En) (NOT 1 V OR Pro);
   ## sont en Inde
 REMOVE Pro IF (0 En) (1 Ger);
   ## en passant
+REMOVE Pro IF (0 En) (1 Pro) (2 Ger);
+  ## en se dirigeant
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
