@@ -399,8 +399,9 @@ REMOVE Prs (NOT *-1 Que + CnjSub) (0 Verb) ;
 #REMOVE Prs (NOT *-1 Que + CnjSub BARRIER Ind) (0 Verb) ;
 
 #SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
-SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son) (NOT 1 N OR A) ;
+SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son OR A) (NOT 1 N OR A) ;
   ## Les poules du couvent couvent
+  ## leurs grandes forces
 
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
@@ -501,6 +502,7 @@ SELECT N IF (-1 Prep) (-1/* DetDef) (0C N OR Verb) ;
 SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
 REMOVE Pers IF (-2 Prep) (-1 Det) (0C N OR Verb LINK 0 Pers) ;
   ## à leurs armes
+
 
 SELECT N IF (-1 ("faire")) (0 ("partie")) ;
 SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
