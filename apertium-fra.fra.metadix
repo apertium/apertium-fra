@@ -25279,6 +25279,7 @@
 <e lm="vacuole" a="jaumeortola"><i>vacuole</i><par n="abeille__n"/></e>
 <e lm="vagin"><i>vagin</i><par n="livre__n"/></e>
 <e lm="vague"><i>vague</i><par n="abeille__n"/></e>
+<e lm="vague"><i>vague</i><par n="livre__n"/></e>
 <e lm="vaillance"><i>vaillance</i><par n="abeille__n"/></e>
 <e lm="vaincu"><i>vaincu</i><par n="affecté__n"/></e>
 <e lm="vainqueur"><i>vainqueu</i><par n="causeu/r__n"/></e>
@@ -53167,6 +53168,7 @@
 <e lm="à proximité de"><i>à<b/>proximité<b/></i><par n="contde__pr"/></e>
 <e r="LR" lm="à proximité de"><p><l>A<b/>proximité<b/></l>     <r>à<b/>proximité<b/></r></p><par n="contde__pr"/></e>
 <e lm="au-delà de"><i>au-delà<b/></i><par n="contde__pr"/></e>
+<e lm="suivant"><i>suivant</i><par n="attendu__pr"/></e>
 
     <!-- ******************************
           group cnjadv
@@ -53351,7 +53353,6 @@
 <e lm="sinon"><i>sinon</i><par n="alors__cnjadv"/></e>
 <e lm="sitôt que"><i>sitôt<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="sous prétexte que"><i>sous<b/>prétexte<b/></i><par n="afin_/que__cnjadv"/></e>
-<e lm="suivant"><i>suivant</i><par n="alors__cnjadv"/></e>
 <e lm="suivant que"><i>suivant<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="surtout que"><i>surtout<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="tandis que"><i>tandis<b/></i><par n="afin_/que__cnjadv"/></e>
