@@ -315,7 +315,6 @@ SELECT V IF (-1 ("en")) (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("
 SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) ;
 SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) ;
 
-SELECT Haver IF (0 Avoir) (1 Tn) (2 PP) ;
   ## As-tu vu Jean ?
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
   ## n'ont pas vu, n'ont jamais vu
@@ -407,6 +406,8 @@ SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
 
 SELECT Fois IF (0C Foi OR Fois) ;
+
+SELECT Adv IF (0 Plus) (1 ("de") OR ("que")) ;
 
 SELECT N IF (0 ("président")) (1 ("de")) ;
 
@@ -1107,6 +1108,13 @@ REMOVE Adv IF (-1 Det + FemPl) (0 A + FemPl) (0 Adv) (1 N + FemPl) (NOT 1 A) ;
   ## un vrai travail
 
 # ADJ NOM
+SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;
+  ## en français
+SELECT A IF (-1C N + MascSg) (0C N OR A + MascSg) (1 unknown) ;
+SELECT A IF (-1C N + MascPl) (0C N OR A + MascPl) (1 unknown) ;
+SELECT A IF (-1C N + FemSg) (0C N OR A + FemSg) (1 unknown) ;
+SELECT A IF (-1C N + FemPl) (0C N OR A + FemPl) (1 unknown) ;
+  ## en langue aborigène xxx
 
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C N + MascSg) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C N + MascPl) ;
