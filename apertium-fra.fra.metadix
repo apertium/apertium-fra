@@ -24115,6 +24115,7 @@
 <e lm="somptuosité"><i>somptuosité</i><par n="abeille__n"/></e>
 <e lm="son"><i>son</i><par n="livre__n"/></e>
 <e lm="sonate" a="jaumeortola"><i>sonate</i><par n="abeille__n"/></e>
+<e lm="sonatine" a="hector"><i>sonatine</i><par n="abeille__n"/></e>
 <e lm="sondage"><i>sondage</i><par n="livre__n"/></e>
 <e lm="sonde"><i>sonde</i><par n="abeille__n"/></e>
 <e lm="songe" a="jaumeortola"><i>songe</i><par n="livre__n"/></e>
@@ -59805,6 +59806,9 @@
 <e lm="polynésien" a="capsot"><i>polynésien</i><par n="ancien__adj"/></e>
 <e lm="tokelauan" a="capsot"><i>tokelauan</i><par n="ancien__adj"/></e>
 <e lm="marquisien" a="capsot"><i>marquisien</i><par n="ancien__adj"/></e>
+
+<e lm="sismique" a="hector"><i>sismique</i><par n="académique__adj"/></e>
+<e lm="clavecin" a="hector"><i>clavecin</i><par n="livre__n"/></e>
 
 <!-- xxxx -->
   </section>
