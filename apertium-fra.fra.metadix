@@ -14095,7 +14095,6 @@
 <e lm="beignet" a="jaumeortola"><i>beignet</i><par n="livre__n"/></e>
 <e lm="belette" a="jaumeortola"><i>belette</i><par n="abeille__n"/></e>
 <e lm="Belge"><i>Belge</i><par n="artiste__n"/></e>
-<e lm="belge" a="jaumeortola"><i>belge</i><par n="artiste__n"/></e>
 <e lm="belladone" a="jaumeortola"><i>belladone</i><par n="abeille__n"/></e>
 <e lm="bellicisme" a="jaumeortola"><i>bellicisme</i><par n="livre__n"/></e>
 <e lm="belliciste" a="jaumeortola"><i>belliciste</i><par n="artiste__n"/></e>
@@ -15097,7 +15096,7 @@
 <e lm="chiffre"><i>chiffre</i><par n="livre__n"/></e>
 <e lm="chignon"><i>chignon</i><par n="livre__n"/></e>
 <e lm="chiite"><i>chiite</i><par n="artiste__n"/></e>
-<e lm="chilien"><i>Chilien</i><par n="ancien__n"/></e>
+<e lm="Chilien"><i>Chilien</i><par n="ancien__n"/></e>
 <e lm="chimie"><i>chimie</i><par n="abeille__n"/></e>
 <e lm="chimiothérapie" a="jaumeortola"><i>chimiothérapie</i><par n="abeille__n"/></e>
 <e lm="chimiste"><i>chimiste</i><par n="artiste__n"/></e>
@@ -15419,7 +15418,6 @@
 <e lm="colocation"><i>colocation</i><par n="abeille__n"/></e>
 <e lm="colombe" a="jaumeortola"><i>colombe</i><par n="abeille__n"/></e>
 <e lm="Colombien"><i>Colombien</i><par n="ancien__n"/></e>
-<e lm="colombien" a="jaumeortola"><i>colombien</i><par n="ancien__n"/></e>
 <e lm="colon"><i>colon</i><par n="livre__n"/></e>
 <e lm="colonel"><i>colonel</i><par n="colonel__n"/></e>
 <e lm="colonial" a="jaumeortola"><i>colonia</i><par n="commercia/l__n"/></e>
@@ -24730,7 +24728,7 @@
 <e lm="taxon" a="jaumeortola"><i>taxon</i><par n="livre__n"/></e>
 <e lm="taxonomie" a="jaumeortola"><i>taxonomie</i><par n="abeille__n"/></e>
 <e lm="taïga" a="jaumeortola"><i>taïga</i><par n="abeille__n"/></e>
-<e lm="Taïwanais"><i>Taïwanais</i><par n="admis__n"/></e>
+<e lm="taïwanais"><i>taïwanais</i><par n="admis__n"/></e>
 <e lm="TBL"><i>TBL</i><par n="BBVA__n"/></e>
 <e lm="Tchadien"><i>Tchadien</i><par n="ancien__n"/></e>
 <e lm="tchouvache" a="hector"><i>tchouvache</i><par n="artiste__n"/></e>
@@ -25605,7 +25603,7 @@
 <e lm="yoga" a="jaumeortola"><i>yoga</i><par n="livre__n"/></e>
 <e lm="yougoslave" a="jaumeortola"><i>yougoslave</i><par n="artiste__n"/></e>
 <e lm="yourte"><i>yourte</i><par n="abeille__n"/></e>
-<e lm="yéménite" a="jaumeortola"><i>yéménite</i><par n="artiste__n"/></e>
+<e lm="Yéménite"><i>Yéménite</i><par n="artiste__n"/></e>
 <e lm="zapatisme"><i>zapatisme</i><par n="livre__n"/></e>
 <e lm="zapatiste"><i>zapatiste</i><par n="artiste__n"/></e>
 <e lm="zapping"><i>zapping</i><par n="livre__n"/></e>
@@ -25838,7 +25836,7 @@
 <e lm="équateur"><i>équateur</i><par n="livre__n"/></e>
 <e lm="équation"><i>équation</i><par n="abeille__n"/></e>
 <e lm="Équato-guinéen"><i>Équato-guinéen</i><par n="ancien__n"/></e>
-<e lm="équatorien" a="jaumeortola"><i>équatorien</i><par n="ancien__n"/></e>
+<e lm="Équatorien"><i>Équatorien</i><par n="ancien__n"/></e>
 <e lm="équerre"><i>équerre</i><par n="abeille__n"/></e>
 <e lm="équilibrage"><i>équilibrage</i><par n="livre__n"/></e>
 <e lm="équilibre"><i>équilibre</i><par n="livre__n"/></e>
@@ -59647,6 +59645,91 @@
 <e lm="Futuna"><i>Futuna</i><par n="Bulgarie__np"/></e>
 <e lm="îles Australes"><i>îles<b/>Australes</i><par n="Bahamas__np"/></e>
 <e lm="Terre-Adélie"><i>Terre-Adélie</i><par n="Bulgarie__np"/></e>
+
+<e lm="Botswanais" a="capsot"><i>Botswanais</i><par n="admis__n"/></e>
+<e lm="Burundais" a="capsot"><i>Burundais</i><par n="admis__n"/></e>
+<e lm="Centrafricain" a="capsot"><i>Centrafricain</i><par n="ancien__n"/></e>
+<e lm="Kenyan" a="capsot"><i>Kenyan</i><par n="ancien__n"/></e>
+<e lm="Ougandais" a="capsot"><i>Ougandais</i><par n="admis__n"/></e>
+<e lm="Rwandais" a="capsot"><i>Rwandais</i><par n="admis__n"/></e>
+<e lm="Seychellois" a="capsot"><i>Seychellois</i><par n="admis__n"/></e>
+<e lm="Sierraléonais" a="capsot"><i>Sierraléonais</i><par n="admis__n"/></e>
+<e lm="Sud-soudanais" a="capsot"><i>Sud-soudanais</i><par n="admis__n"/></e>
+<e lm="Dominiquais" a="capsot"><i>Dominiquais</i><par n="admis__n"/></e>
+<e lm="Guatémaltèque" a="capsot"><i>Guatémaltèque</i><par n="artiste__n"/></e>
+<e lm="groenlandais" a="capsot"><i>groenlandais</i><par n="admis__n"/></e>
+<e lm="Guyanais" a="capsot"><i>Guyanais</i><par n="admis__n"/></e>
+<e lm="Martiniquais" a="capsot"><i>Martiniquais</i><par n="admis__n"/></e>
+<e lm="Bangladais" a="capsot"><i>Bangladais</i><par n="admis__n"/></e>
+<e lm="Bhoutanais" a="capsot"><i>Bhoutanais</i><par n="admis__n"/></e>
+<e lm="Omanais" a="capsot"><i>Omanais</i><par n="admis__n"/></e>
+<e lm="Srilankais" a="capsot"><i>Srilankais</i><par n="admis__n"/></e>
+<e lm="Timorais" a="capsot"><i>Timorais</i><par n="admis__n"/></e>
+<e lm="turkmène" a="capsot"><i>turkmène</i><par n="artiste__n"/></e>
+<e lm="ossète" a="capsot"><i>ossète</i><par n="artiste__n"/></e>
+<e lm="Monégasque" a="capsot"><i>Monégasque</i><par n="artiste__n"/></e>
+<e lm="montenégrin" a="capsot"><i>montenégrin</i><par n="ancien__n"/></e>
+<e lm="mannois" a="capsot"><i>mannois</i><par n="admis__n"/></e>
+<e lm="Gilbertin" a="capsot"><i>Gilbertin</i><par n="ancien__n"/></e>
+<e lm="Marshallais" a="capsot"><i>Marshallais</i><par n="admis__n"/></e>
+<e lm="Nauruan" a="capsot"><i>Nauruan</i><par n="ancien__n"/></e>
+<e lm="Néo-zélandais" a="capsot"><i>Néo-zélandais</i><par n="admis__n"/></e>
+<e lm="Paluan" a="capsot"><i>Paluan</i><par n="ancien__n"/></e>
+<e lm="Samoan" a="capsot"><i>Samoan</i><par n="ancien__n"/></e>
+<e lm="Tuvaluan" a="capsot"><i>Tuvaluan</i><par n="ancien__n"/></e>
+<e lm="Vanuatais" a="capsot"><i>Vanuatais</i><par n="admis__n"/></e>
+<e lm="Tokelauan" a="capsot"><i>Tokelauan</i><par n="ancien__n"/></e>
+<e lm="Cap-Verdien" a="capsot"><i>Cap-Verdien</i><par n="ancien__n"/></e>
+<e lm="Comorien" a="capsot"><i>Comorien</i><par n="ancien__n"/></e>
+<e lm="Djiboutien" a="capsot"><i>Djiboutien</i><par n="ancien__n"/></e>
+<e lm="Érythréen" a="capsot"><i>Érythréen</i><par n="ancien__n"/></e>
+<e lm="Bissaoguinéen" a="capsot"><i>Bissaoguinéen</i><par n="ancien__n"/></e>
+<e lm="Équatoguinéen" a="capsot"><i>Équatoguinéen</i><par n="ancien__n"/></e>
+<e lm="Lésothan" a="capsot"><i>Lésothan</i><par n="ancien__n"/></e>
+<e lm="Lésothien" a="capsot"><i>Lésothien</i><par n="ancien__n"/></e>
+<e lm="Libérien" a="capsot"><i>Libérien</i><par n="ancien__n"/></e>
+<e lm="Malawite" a="capsot"><i>Malawite</i><par n="artiste__n"/></e>
+<e lm="Malawien" a="capsot"><i>Malawien</i><par n="ancien__n"/></e>
+<e lm="Mauricien" a="capsot"><i>Mauricien</i><par n="ancien__n"/></e>
+<e lm="Mauritanien" a="capsot"><i>Mauritanien</i><par n="ancien__n"/></e>
+<e lm="Namibien" a="capsot"><i>Namibien</i><par n="ancien__n"/></e>
+<e lm="Tanzanien" a="capsot"><i>Tanzanien</i><par n="ancien__n"/></e>
+<e lm="Zambien" a="capsot"><i>Zambien</i><par n="ancien__n"/></e>
+<e lm="Zimbabwéen" a="capsot"><i>Zimbabwéen</i><par n="ancien__n"/></e>
+<e lm="Antiguayen" a="capsot"><i>Antiguayen</i><par n="ancien__n"/></e>
+<e lm="Bahaméen" a="capsot"><i>Bahaméen</i><par n="ancien__n"/></e>
+<e lm="Barbadien" a="capsot"><i>Barbadien</i><par n="ancien__n"/></e>
+<e lm="Bélizien" a="capsot"><i>Bélizien</i><par n="ancien__n"/></e>
+<e lm="Costaricien" a="capsot"><i>Costaricien</i><par n="ancien__n"/></e>
+<e lm="Haïtien" a="capsot"><i>Haïtien</i><par n="ancien__n"/></e>
+<e lm="Hondurien" a="capsot"><i>Hondurien</i><par n="ancien__n"/></e>
+<e lm="Panaméen" a="capsot"><i>Panaméen</i><par n="ancien__n"/></e>
+<e lm="Bermudien" a="capsot"><i>Bermudien</i><par n="ancien__n"/></e>
+<e lm="Guadeloupéen" a="capsot"><i>Guadeloupéen</i><par n="ancien__n"/></e>
+<e lm="Bahreïnien" a="capsot"><i>Bahreïnien</i><par n="ancien__n"/></e>
+<e lm="Cambodgien" a="capsot"><i>Cambodgien</i><par n="ancien__n"/></e>
+<e lm="Iraquien" a="capsot"><i>Iraquien</i><par n="ancien__n"/></e>
+<e lm="Koweïtien" a="capsot"><i>Koweïtien</i><par n="ancien__n"/></e>
+<e lm="Malaisien" a="capsot"><i>Malaisien</i><par n="ancien__n"/></e>
+<e lm="Maldivien" a="capsot"><i>Maldivien</i><par n="ancien__n"/></e>
+<e lm="Qatarien" a="capsot"><i>Qatarien</i><par n="ancien__n"/></e>
+<e lm="Singapourien" a="capsot"><i>Singapourien</i><par n="ancien__n"/></e>
+<e lm="abkhaze" a="capsot"><i>abkhaze</i><par n="artiste__n"/></e>
+<e lm="Abkhazien" a="capsot"><i>Abkhazien</i><par n="ancien__n"/></e>
+<e lm="Fidjien" a="capsot"><i>Fidjien</i><par n="ancien__n"/></e>
+<e lm="Micronésien" a="capsot"><i>Micronésien</i><par n="ancien__n"/></e>
+<e lm="Papouasien" a="capsot"><i>Papouasien</i><par n="ancien__n"/></e>
+<e lm="Tongien" a="capsot"><i>Tongien</i><par n="ancien__n"/></e>
+<e lm="Néo-Calédonien" a="capsot"><i>Néo-Calédonien</i><par n="ancien__n"/></e>
+<e lm="Polynésien" a="capsot"><i>Polynésien</i><par n="ancien__n"/></e>
+<e lm="Marquisien" a="capsot"><i>Marquisien</i><par n="ancien__n"/></e>
+<e lm="swazi" a="capsot"><i>swazi</i><par n="affecté__n"/></e>
+<e lm="swazi" a="capsot"><i>swazi</i><par n="abaissant__adj"/></e>
+<e lm="Kosovar" a="capsot"><i>Kosovar</i><par n="affecté__n"/></e>
+<e lm="kosovar" a="capsot"><i>kosovar</i><par n="abaissant__adj"/></e>
+<e lm="Qatari" a="capsot"><i>Qatari</i><par n="affecté__n"/></e>
+<e lm="qatari" a="capsot"><i>qatari</i><par n="abaissant__adj"/></e>
+<e lm="chamorro" a="capsot"><i>chamorro</i><par n="personnel__n"/></e>
 
 <!-- xxxx -->
   </section>
