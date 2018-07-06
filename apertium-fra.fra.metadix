@@ -31283,7 +31283,7 @@
 <e lm="Angrignon"><i>Angrignon</i><par n="Saussure__np"/></e>
 <e lm="Angrill"><i>Angrill</i><par n="Saussure__np"/></e>
 <e lm="Anguera"><i>Anguera</i><par n="Saussure__np"/></e>
-<e lm="Anguilla"><i>Anguilla</i><par n="Andorre__np"/></e>
+<e lm="Anguilla"><i>Anguilla</i><par n="Bulgarie__np"/></e>
 <e lm="Anguita"><i>Anguita</i><par n="Saussure__np"/></e>
 <e lm="Angulo"><i>Angulo</i><par n="Saussure__np"/></e>
 <e lm="Angélica"><i>Angélica</i><par n="Marie__np"/></e>
@@ -42246,7 +42246,7 @@
 <e lm="Mac"><i>Mac</i><par n="Saussure__np"/></e>
 <e lm="Macaluso"><i>Macaluso</i><par n="Saussure__np"/></e>
 <e lm="Macameau"><i>Macameau</i><par n="Saussure__np"/></e>
-<e lm="Macao"><i>Macao</i><par n="Andorre__np"/></e>
+<e lm="Macao"><i>Macao</i><par n="Iran__np"/></e>
 <e lm="Macarro"><i>Macarro</i><par n="Saussure__np"/></e>
 <e lm="MacArthur"><i>MacArthur</i><par n="Saussure__np"/></e>
 <e lm="Maccabi"><i>Maccabi</i><par n="Carrefour__np"/></e>
@@ -44979,7 +44979,8 @@
 <e lm="Ospina"><i>Ospina</i><par n="Saussure__np"/></e>
 <e lm="Ossama"><i>Ossama</i><par n="Antoine__np"/></e>
 <e lm="Ossétie"><i>Ossétie</i><par n="Bulgarie__np"/></e>
-<e lm="Ossétie du Sud"><i>Ossétie<b/>du<b/>Sud</i><par n="Andorre__np"/></e>
+<e lm="Ossétie du Sud"><i>Ossétie<b/>du<b/>Sud</i><par n="Bulgarie__np"/></e>
+<e lm="Ossétie du Nord"><i>Ossétie<b/>du<b/>Nord</i><par n="Bulgarie__np"/></e>
 <e lm="Ostiguy"><i>Ostiguy</i><par n="Saussure__np"/></e>
 <e lm="Ostwald"><i>Ostwald</i><par n="Saussure__np"/></e>
 <e lm="Osullivan"><i>Osullivan</i><par n="Saussure__np"/></e>
@@ -45113,7 +45114,7 @@
 <e lm="Palanques"><i>Palanques</i><par n="Saussure__np"/></e>
 <e lm="Palanti"><i>Palanti</i><par n="Saussure__np"/></e>
 <e lm="Palao"><i>Palao</i><par n="Saussure__np"/></e>
-<e lm="Palaos"><i>Palaos</i><par n="Andorre__np"/></e>
+<e lm="Palaos"><i>Palaos</i><par n="Bahamas__np"/></e>
 <e lm="Palardy"><i>Palardy</i><par n="Saussure__np"/></e>
 <e lm="Palasí"><i>Palasí</i><par n="Saussure__np"/></e>
 <e lm="Palatinat"><i>Palatinat</i><par n="Iran__np"/></e>
@@ -46042,8 +46043,8 @@
 <e lm="Portman"><i>Portman</i><par n="Saussure__np"/></e>
 <e lm="Porto"><i>Porto</i><par n="Iran__np"/></e>
 <e lm="Porto"><i>Porto</i><par n="Saussure__np"/></e>
-<e lm="Porto Novo"><i>Porto<b/>Novo</i><par n="Andorre__np"/></e>
-<e lm="Porto Rico"><i>Porto<b/>Rico</i><par n="Andorre__np"/></e>
+<e lm="Porto Novo"><i>Porto<b/>Novo</i><par n="Iran__np"/></e>
+<e lm="Porto Rico"><i>Porto<b/>Rico</i><par n="Iran__np"/></e>
 <e lm="Portuetxe"><i>Portuetxe</i><par n="Iran__np"/></e>
 <e lm="Portugais"><i>Portugais</i><par n="Saussure__np"/></e>
 <e lm="Portugal"><i>Portugal</i><par n="Iran__np"/></e>
@@ -48405,7 +48406,7 @@
 <e lm="Solés"><i>Solés</i><par n="Saussure__np"/></e>
 <e lm="Solís"><i>Solís</i><par n="Saussure__np"/></e>
 <e lm="Somalie"><i>Somalie</i><par n="Bulgarie__np"/></e>
-<e lm="Somaliland"><i>Somaliland</i><par n="Andorre__np"/></e>
+<e lm="Somaliland"><i>Somaliland</i><par n="Iran__np"/></e>
 <e lm="Somers"><i>Somers</i><par n="Saussure__np"/></e>
 <e lm="Somme"><i>Somme</i><par n="Bulgarie__np"/></e>
 <e lm="Sommerfeld"><i>Sommerfeld</i><par n="Saussure__np"/></e>
@@ -50620,7 +50621,7 @@
 <e lm="Wallach"><i>Wallach</i><par n="Saussure__np"/></e>
 <e lm="Waller"><i>Waller</i><par n="Saussure__np"/></e>
 <e lm="Wallis"><i>Wallis</i><par n="Saussure__np"/></e>
-<e lm="Wallis et Futuna"><i>Wallis<b/>et<b/>Futuna</i><par n="Andorre__np"/></e>
+<e lm="Wallis et Futuna"><i>Wallis<b/>et<b/>Futuna</i><par n="Iran__np"/></e>
 <e lm="Wallonie"><i>Wallonie</i><par n="Bulgarie__np"/></e>
 <e lm="Walmsley"><i>Walmsley</i><par n="Saussure__np"/></e>
 <e lm="Walpole"><i>Walpole</i><par n="Saussure__np"/></e>
@@ -51250,7 +51251,7 @@
 <e lm="Îles Britanniques"><i>Îles<b/>Britanniques</i><par n="Bahamas__np"/></e>
 <e lm="Îles Canaries"><i>Îles<b/>Canaries</i><par n="Bahamas__np"/></e>
 <e lm="Îles Carolines"><i>Îles<b/>Carolines</i><par n="Bahamas__np"/></e>
-<e lm="Îles Caïmans"><i>Îles<b/>Caïmans</i><par n="Bahamas__np"/></e>
+<e lm="îles Caïmans"><i>îles<b/>Caïmans</i><par n="Bahamas__np"/></e>
 <e lm="Îles Cocos"><i>Îles<b/>Cocos</i><par n="Bahamas__np"/></e>
 <e lm="Îles Cook"><i>Îles<b/>Cook</i><par n="Bahamas__np"/></e>
 <e lm="Îles de la Madeleine"><i>Îles<b/>de<b/>la<b/>Madeleine</i><par n="Bahamas__np"/></e>
@@ -51262,17 +51263,17 @@
 <e lm="Îles Géorgie du Sud"><i>Îles<b/>Géorgie<b/>du<b/>Sud</i><par n="Bahamas__np"/></e>
 <e lm="Îles Ioniennes"><i>Îles<b/>Ioniennes</i><par n="Bahamas__np"/></e>
 <e lm="Îles Kouriles"><i>Îles<b/>Kouriles</i><par n="Bahamas__np"/></e>
-<e lm="Îles Malouines"><i>Îles<b/>Malouines</i><par n="Bahamas__np"/></e>
+<e lm="îles Malouines"><i>îles<b/>Malouines</i><par n="Bahamas__np"/></e>
 <e lm="Îles Mariannes"><i>Îles<b/>Mariannes</i><par n="Bahamas__np"/></e>
 <e lm="Îles Mariannes du Nord"><i>Îles<b/>Mariannes<b/>du<b/>Nord</i><par n="Bahamas__np"/></e>
-<e lm="Îles Marquises"><i>Îles<b/>Marquises</i><par n="Bahamas__np"/></e>
-<e lm="Îles Marshall"><i>Îles<b/>Marshall</i><par n="Bahamas__np"/></e>
+<e lm="îles Marquises"><i>îles<b/>Marquises</i><par n="Bahamas__np"/></e>
+<e lm="îles Marshall"><i>îles<b/>Marshall</i><par n="Bahamas__np"/></e>
 <e lm="Îles Moluques"><i>Îles<b/>Moluques</i><par n="Bahamas__np"/></e>
-<e lm="Îles Pitcairn"><i>Îles<b/>Pitcairn</i><par n="Bahamas__np"/></e>
+<e lm="îles Pitcairn"><i>îles<b/>Pitcairn</i><par n="Bahamas__np"/></e>
 <e lm="Îles Salomon"><i>Îles<b/>Salomon</i><par n="Bahamas__np"/></e>
 <e lm="Îles sous le Vent"><i>Îles<b/>sous<b/>le<b/>Vent</i><par n="Bahamas__np"/></e>
 <e lm="Îles Tchagos"><i>Îles<b/>Tchagos</i><par n="Bahamas__np"/></e>
-<e lm="Îles Turques-et-Caïques"><i>Îles<b/>Turques-et-Caïques</i><par n="Bahamas__np"/></e>
+<e lm="îles Turques-et-Caïques"><i>îles<b/>Turques-et-Caïques</i><par n="Bahamas__np"/></e>
 <e lm="Îles Vierges"><i>Îles<b/>Vierges</i><par n="Bahamas__np"/></e>
 <e lm="Îles Vierges américaines"><i>Îles<b/>Vierges<b/>américaines</i><par n="Bahamas__np"/></e>
 <e lm="Îles Vierges britanniques"><i>Îles<b/>Vierges<b/>britanniques</i><par n="Bahamas__np"/></e>
@@ -59620,6 +59621,32 @@
 <e lm="faiseur"><i>faiseu</i><par n="causeu/r__n"/></e>
 <e lm="affectionner"><i>affectionn</i><par n="abaiss/er__vblex"/></e>
 
+<e lm="République démocratique du Congo"><i>République<b/>démocratique<b/>du<b/>Congo</i><par n="Bulgarie__np"/></e>
+<e lm="Sao Tomé-et-Principe"><i>Sao<b/>Tomé-et-Principe</i><par n="Iran__np"/></e>
+<e lm="Soudan du Sud"><i>Soudan<b/>du<b/>Sud</i><par n="Iran__np"/></e>
+<e lm="Bonaire"><i>Bonaire</i><par n="Bulgarie__np"/></e>
+<e lm="île de Clipperton"><i>île<b/>de<b/>Clipperton</i><par n="Bulgarie__np"/></e>
+<e lm="Curaçao"><i>Curaçao</i><par n="Iran__np"/></e>
+<e lm="Géorgie du Sud-et-les Îles Sandwich du Sud"><i>Géorgie<b/>du<b/>Sud-et-les<b/>Îles<b/>Sandwich<b/>du<b/>Sud</i><par n="Bulgarie__np"/></e>
+<e lm="Guyane française"><i>Guyane<b/>française</i><par n="Bulgarie__np"/></e>
+<e lm="Saint-Pierre-et-Miquelon"><i>Saint-Pierre-et-Miquelon</i><par n="Iran__np"/></e>
+<e lm="Brunei"><i>Brunei</i><par n="Iran__np"/></e>
+<e lm="Palestine"><i>Palestine</i><par n="Bulgarie__np"/></e>
+<e lm="Viêt Nam"><i>Viêt<b/>Nam</i><par n="Iran__np"/></e>
+<e lm="Haut-Karabagh"><i>Haut-Karabagh</i><par n="Iran__np"/></e>
+<e lm="Taïwan"><i>Taïwan</i><par n="Iran__np"/></e>
+<e lm="Herzégovine"><i>Herzégovine</i><par n="Bulgarie__np"/></e>
+<e lm="Saint-Siège"><i>Saint-Siège</i><par n="Iran__np"/></e>
+<e lm="Salomon"><i>Salomon</i><par n="Bahamas__np"/></e>
+<e lm="îles Midway"><i>îles<b/>Midway</i><par n="Bahamas__np"/></e>
+<e lm="îles Chatham"><i>îles<b/>Chatham</i><par n="Bahamas__np"/></e>
+<e lm="îles Tuamotu"><i>îles<b/>Tuamotu</i><par n="Bahamas__np"/></e>
+<e lm="îles Tokelau"><i>îles<b/>Tokelau</i><par n="Bahamas__np"/></e>
+<e lm="Wallis-et-Futuna"><i>Wallis-et-Futuna</i><par n="Iran__np"/></e>
+<e lm="Wallis"><i>Wallis</i><par n="Iran__np"/></e>
+<e lm="Futuna"><i>Futuna</i><par n="Bulgarie__np"/></e>
+<e lm="îles Australes"><i>îles<b/>Australes</i><par n="Bahamas__np"/></e>
+<e lm="Terre-Adélie"><i>Terre-Adélie</i><par n="Bulgarie__np"/></e>
 
 <!-- xxxx -->
   </section>
