@@ -2,8 +2,8 @@
 ## Makefile for apertium-fra
 ###############################################################################
 
-RELEASE=v1.3
-VERSION=v1.3.0
+RELEASE=v1.4
+VERSION=v1.4.0
 LANG1=fra
 BASENAME=apertium-$(LANG1)
 
