@@ -91,6 +91,7 @@ LIST Mon_Ton_Son = "mon" "ton" "son" ;
 LIST Son = "son" ;
 LIST Que = "que" ;
 LIST Qui = "qui" ;
+LIST À = "à" ;
 LIST Avoir = "avoir" ; 
 LIST Savoir = "savoir" ; 
 LIST Saurer = "saurer" ; 
@@ -395,6 +396,7 @@ SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 ("que")) (0C Verb) ;
 	# però: són tan variades que en cadascuna d'elles es poden observar patrons
 #REMOVE Prs (NOT *-1 VerbSubj LINK 1 Que) (0C Verb) ;
 REMOVE Prs (NOT *-1 Que + CnjSub) (0 Verb) ;
+  ## Cette règle a des exceptions: La peur que cette rencontre *change* la face du monde préoccupe l'Europe
 #REMOVE Prs (NOT *-1 Que + CnjSub BARRIER Ind) (0 Verb) ;
 
 #SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
@@ -693,6 +695,8 @@ SELECT P1 IF (-3 Je) (-2 Pro) (-1 Pro) (0 VSg1);
   ## Je lui en veux
 SELECT P1 IF (-4 Je) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg1);
   ## Je ne lui en veux pas
+REMOVE P1 + Sg IF (NOT -1* Je) (0 Verb + P1 + Sg) ;
+
 SELECT P2 IF (-1 Tu) (0 VSg2);
   ## Tu veux
 SELECT P2 IF (1 Tu) (0 VSg2);
@@ -707,6 +711,8 @@ SELECT P2 IF (-3 Tu) (-2 Pro) (-1 Pro) (0 VSg2);
   ## Tu lui en veux
 SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);
   ## Tu ne lui en veux pas
+REMOVE P2 + Sg IF (NOT -1* Tu) (0 Verb + P2 + Sg) (NOT 0 Verb + P2 + Sg + Imper) ;
+
 SELECT P3 IF (-1 Il + Sg OR On) (0 VSg3);
   ## Elle parle
 SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
@@ -1301,3 +1307,5 @@ SELECT Det IF (0 ("certains")) (1 N) (NOT 1 Verb + Pl + Pers) (NOT 1 Adv) ;
 # que certains élus très proches
 
 SELECT N IF (-1 Num) (0 ("dixième") OR ("centième") OR ("millième")) ;
+
+REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
