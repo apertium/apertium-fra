@@ -30938,6 +30938,7 @@
 <e lm="Alçay"><i>Alçay</i><par n="Andorre__np"/></e>
 <e lm="Alícia"><i>Alícia</i><par n="Marie__np"/></e>
 <e lm="Alòs"><i>Alòs</i><par n="Saussure__np"/></e>
+<e lm="Alòs i Font"><i>Alòs<b/>i<b/>Font</i><par n="Saussure__np"/></e>
 <e lm="Alós"><i>Alós</i><par n="Saussure__np"/></e>
 <e lm="Am"><i>Am</i><par n="Carrefour__np"/></e>
 <e lm="Amable Arias Yebra"><i>Amable<b/>Arias<b/>Yebra</i><par n="Abraham__np"/></e>
@@ -41532,6 +41533,7 @@
 <e lm="Lechuga"><i>Lechuga</i><par n="Saussure__np"/></e>
 <e lm="Lecina"><i>Lecina</i><par n="Saussure__np"/></e>
 <e lm="Leclerc" a="hector"><i>Leclerc</i><par n="Saussure__np"/></e>
+<e lm="Leclercq" a="hector"><i>Leclercq</i><par n="Saussure__np"/></e>
 <e lm="Lecompte" a="hector"><i>Lecompte</i><par n="Saussure__np"/></e>
 <e lm="Lecomte"><i>Lecomte</i><par n="Saussure__np"/></e>
 <e lm="Lecouffe"><i>Lecouffe</i><par n="Saussure__np"/></e>
@@ -53812,6 +53814,7 @@
       ****************************** -->
 <e r="LR" lm="que"><i>que</i><par n="que__cnjsub"/></e>
 <e r="RL" lm="que"><p><l><a/>que</l>                   <r>que<s n="cnjsub"/></r></p></e>
+<e r="RL" lm="que"><p><l><a/>que</l>                   <r>que<s n="cnjadv"/></r></p></e>
 <e lm="avoir"><par n="/avoir__vbhaver"/></e>
 <e lm="il y a"><p><l>il<b/>y<b/>a</l>                  <r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
 <e lm="être"><par n="/être__vbser"/></e>
@@ -59809,6 +59812,12 @@
 
 <e lm="sismique" a="hector"><i>sismique</i><par n="académique__adj"/></e>
 <e lm="clavecin" a="hector"><i>clavecin</i><par n="livre__n"/></e>
+<e lm="Guetta" a="hector"><i>Guetta</i><par n="Saussure__np"/></e>
+<e lm="Ménétrier" a="hector"><i>Ménétrier</i><par n="Saussure__np"/></e>
+<e lm="Marcadal" a="hector"><i>Marcadal</i><par n="Saussure__np"/></e>
+<e lm="Ferrèr" a="hector"><i>Ferrèr</i><par n="Saussure__np"/></e>
+<e lm="Matiu" a="hector"><i>Matiu</i><par n="Antoine__np"/></e>
+
 
 <!-- xxxx -->
   </section>
