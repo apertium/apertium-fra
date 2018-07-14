@@ -9,7 +9,7 @@
 
 -->
 <dictionary>
-  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäãçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzŀlłČŽčćšśžźőßœæ</alphabet>
+  <alphabet>·ÀÁÂÄÇÈÉÊËÌÍÎÏÑÒÓÔÖÙÚÛÜàáâäãçèéêëìíîïñòóôöùúûüABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzŀlłČŽčćšśžźőßœæŒ</alphabet>
   <sdefs>
     <sdef n="detnt" /> 
     <sdef n="predet" /> 
@@ -46961,6 +46961,7 @@
 <e lm="Robbins"><i>Robbins</i><par n="Saussure__np"/></e>
 <e lm="Roberge" a="hector"><i>Roberge</i><par n="Saussure__np"/></e>
 <e lm="Robert"><i>Robert</i><par n="Antoine__np"/></e>
+<e lm="Robèrt"><i>Robèrt</i><par n="Antoine__np"/></e>
 <e lm="Robert Kotcharian"><i>Robert<b/>Kotcharian</i><par n="Antoine__np"/></e>
 <e lm="Roberto"><i>Roberto</i><par n="Antoine__np"/></e>
 <e lm="Roberts"><i>Roberts</i><par n="Saussure__np"/></e>
@@ -59826,6 +59827,8 @@
 <e lm="Marcadal" a="hector"><i>Marcadal</i><par n="Saussure__np"/></e>
 <e lm="Ferrèr" a="hector"><i>Ferrèr</i><par n="Saussure__np"/></e>
 <e lm="Matiu" a="hector"><i>Matiu</i><par n="Antoine__np"/></e>
+<e lm="Edoard" a="hector"><i>Edoard</i><par n="Antoine__np"/></e>
+<e lm="francitan" a="hector"><i>francitan</i><par n="livre__n"/></e>
 
 
 <!-- xxxx -->
