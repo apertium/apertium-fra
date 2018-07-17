@@ -14824,7 +14824,7 @@
 <e lm="cassette"><i>cassette</i><par n="abeille__n"/></e>
 <e lm="cassitérite" a="jaumeortola"><i>cassitérite</i><par n="abeille__n"/></e>
 <e lm="caste" a="jaumeortola"><i>caste</i><par n="abeille__n"/></e>
-<e lm="castillan"><i>castillan</i><par n="livre__n"/></e>
+<e lm="castillan"><i>castillan</i><par n="affecté__n"/></e>
 <e lm="castillanisation"><i>castillanisation</i><par n="abeille__n"/></e>
 <e lm="casting"><i>casting</i><par n="livre__n"/></e>
 <e lm="castor" a="jaumeortola"><i>castor</i><par n="livre__n"/></e>
@@ -15581,7 +15581,7 @@
 <e lm="concentration"><i>concentration</i><par n="abeille__n"/></e>
 <e lm="concentré" a="jaumeortola"><i>concentré</i><par n="livre__n"/></e>
 <e lm="concept"><i>concept</i><par n="livre__n"/></e>
-<e lm="conception"><i>conception</i><par n="livre__n"/></e>
+<e lm="conception"><i>conception</i><par n="abeille__n"/></e>
 <e lm="conceptualiste" a="jaumeortola"><i>conceptualiste</i><par n="artiste__n"/></e>
 <e lm="concert"><i>concert</i><par n="livre__n"/></e>
 <e lm="concertation"><i>concertation</i><par n="abeille__n"/></e>
@@ -19298,7 +19298,7 @@
 <e lm="intégralité"><i>intégralité</i><par n="abeille__n"/></e>
 <e lm="intégrande" a="jaumeortola"><i>intégrande</i><par n="abeille__n"/></e>
 <e lm="intégrant"><i>intégrant</i><par n="livre__n"/></e>
-<e lm="intégration"><i>intégration</i><par n="livre__n"/></e>
+<e lm="intégration"><i>intégration</i><par n="abeille__n"/></e>
 <e lm="intégrationniste" a="jaumeortola"><i>intégrationniste</i><par n="artiste__n"/></e>
 <e lm="intégrisme" a="jaumeortola"><i>intégrisme</i><par n="livre__n"/></e>
 <e lm="intégriste" a="jaumeortola"><i>intégriste</i><par n="artiste__n"/></e>
@@ -22505,7 +22505,7 @@
 <e lm="promontoire"><i>promontoire</i><par n="livre__n"/></e>
 <e lm="promoteur"><i>promot</i><par n="administrat/eur__n"/></e>
 <e lm="promotion"><i>promotion</i><par n="abeille__n"/></e>
-<e lm="promulgation"><i>promulgation</i><par n="livre__n"/></e>
+<e lm="promulgation"><i>promulgation</i><par n="abeille__n"/></e>
 <e lm="pronom"><i>pronom</i><par n="livre__n"/></e>
 <e lm="prononciation"><i>prononciation</i><par n="abeille__n"/></e>
 <e lm="prononcé" a="jaumeortola"><i>prononcé</i><par n="livre__n"/></e>
@@ -24654,6 +24654,7 @@
 <e lm="tabac"><i>tabac</i><par n="livre__n"/></e>
 <e lm="tabagisme"><i>tabagisme</i><par n="livre__n"/></e>
 <e lm="table"><i>table</i><par n="abeille__n"/></e>
+<e lm="table des matières"><i>table</i><par n="abeille__n"/><p><l><b/>des<b/>matières</l><r><g><b/>des<b/>matières</g></r></p></e>
 <e lm="tableau d'affichage"><i>tableau</i><par n="lieu__n"/><p><l><b/>d'affichage</l><r><g><b/>d'affichage</g></r></p></e>
 <e lm="tableau"><i>tableau</i><par n="lieu__n"/></e>
 <e lm="tablette"><i>tablette</i><par n="abeille__n"/></e>
@@ -25633,6 +25634,7 @@
 <e lm="zèle"><i>zèle</i><par n="livre__n"/></e>
 <e lm="zéolite" a="jaumeortola"><i>zéolite</i><par n="abeille__n"/></e>
 <e lm="zéro"><i>zéro</i><par n="livre__n"/></e>
+<e lm="zéro"><i>zéro</i><par n="cinq__num"/></e>
 <e lm="âge"><i>âge</i><par n="livre__n"/></e>
 <e r="RL" lm="âge moyen"><p><l>âge<b/>moyen</l>        <r>âge<b/>moyen</r></p><par n="personnel__n"/></e>
 <e lm="âme"><i>âme</i><par n="abeille__n"/></e>
@@ -48930,7 +48932,7 @@
 <e lm="Tchao Mong-Fou"><i>Tchao<b/>Mong-Fou</i><par n="Antoine__np"/></e>
 <e lm="Tcheliouskine"><i>Tcheliouskine</i><par n="Saussure__np"/></e>
 <e lm="Tchernenko"><i>Tchernenko</i><par n="Saussure__np"/></e>
-<e lm="Tchernobyl"><i>Tchernobyl</i><par n="Saussure__np"/></e>
+<e lm="Tchernobyl"><i>Tchernobyl</i><par n="Iran__np"/></e>
 <e lm="Tcherski"><i>Tcherski</i><par n="Bulgarie__np"/></e>
 <e lm="Tchouvachie"><i>Tchouvachie</i><par n="Bulgarie__np"/></e>
 <e lm="Tchécoslovaquie"><i>Tchécoslovaquie</i><par n="Bulgarie__np"/></e>
@@ -52959,6 +52961,7 @@
 <e r="LR" lm="à l'instar de"><p><l>A<b/>l'instar<b/></l><r>à<b/>l'instar<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à l'occasion de"><p><l>A<b/>l'occasion<b/></l><r>à<b/>l'occasion<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à l'égard de"><p><l>A<b/>l'égard<b/></l> <r>à<b/>l'égard<b/></r></p><par n="contde__pr"/></e>
+<e r="LR" lm="à l'exemple de"><p><l>A<b/>l'exemple<b/></l> <r>à<b/>l'exemple<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à l'époque de"><p><l>A<b/>l'époque<b/></l><r>à<b/>l'époque<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à la demande de"><p><l>A<b/>la<b/>demande<b/></l><r>à<b/>la<b/>demande<b/></r></p><par n="contde__pr"/></e>
 <e r="LR" lm="à la fin de"><p><l>A<b/>la<b/>fin<b/></l><r>à<b/>la<b/>fin<b/></r></p><par n="contde__pr"/></e>
@@ -52981,7 +52984,8 @@
 <e lm="au bout de"><i>au<b/>bout<b/></i><par n="contde__pr"/></e>
 <e lm="au cours de"><i>au<b/>cours<b/></i><par n="contde__pr"/></e>
 <e lm="au delà de"><i>au<b/>delà<b/></i><par n="contde__pr"/></e>
-<e r="LR" lm="au dire de"><i>au<b/>dire<b/></i><par n="contde__pr"/></e>
+<e lm="au dire de"><i>au<b/>dire<b/></i><par n="contde__pr"/></e>
+<e lm="aux dires de"><i>aux<b/>dires<b/></i><par n="contde__pr"/></e>
 <e lm="au début de"><i>au<b/>début<b/></i><par n="contde__pr"/></e>
 <e lm="au défaut de"><i>au<b/>défaut<b/></i><par n="contde__pr"/></e>
 <e lm="au détriment de"><i>au<b/>détriment<b/></i><par n="contde__pr"/></e>
@@ -53128,7 +53132,8 @@
 <e lm="à l'exception de"><i>à<b/>l'exception<b/></i><par n="contde__pr"/></e>
 <e lm="à l'instar de"><i>à<b/>l'instar<b/></i><par n="contde__pr"/></e>
 <e lm="à l'occasion de"><i>à<b/>l'occasion<b/></i><par n="contde__pr"/></e>
-<e r="LR" lm="à l'égard de"><i>à<b/>l'égard<b/></i><par n="contde__pr"/></e>
+<e lm="à l'égard de"><i>à<b/>l'égard<b/></i><par n="contde__pr"/></e>
+<e lm="à l'exemple de"><i>à<b/>l'exemple<b/></i><par n="contde__pr"/></e>
 <e lm="à l'époque de"><i>à<b/>l'époque<b/></i><par n="contde__pr"/></e>
 <e lm="à la demande de"><i>à<b/>la<b/>demande<b/></i><par n="contde__pr"/></e>
 <e lm="à la fin de"><i>à<b/>la<b/>fin<b/></i><par n="contde__pr"/></e>
@@ -53605,8 +53610,6 @@
 <e r="RL" lm="lors de"><p><l>lors<b/><a/>de</l>        <r>lors<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="lors de"><p><l>lors<b/>de</l>            <r>lors<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="malgré le"><p><l>malgré<b/>le</l>        <r>malgré<s n="pr"/><j/>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL" lm="à l'égard de"><p><l>à<b/>l'egard<b/><a/>de</l><r>à<b/>l'egard<b/>de<s n="pr"/></r></p></e>
-<e r="LR" lm="à l'égard de"><p><l>à<b/>l'egard<b/>de</l><r>à<b/>l'egard<b/>de<s n="pr"/></r></p></e>
 
     <!-- ******************************
           group preadv
@@ -58674,6 +58677,7 @@
 <e lm="caténaire" a="jaumeortola"><i>caténaire</i><par n="académique__adj"/></e>
 <e lm="cénobitique" a="jaumeortola"><i>cénobitique</i><par n="académique__adj"/></e>
 <e lm="châtreur" a="jaumeortola"><i>châtreu</i><par n="causeu/r__adj"/></e>
+<e lm="châtreur" a="hector"><i>châtreu</i><par n="causeu/r__n"/></e>
 <e lm="chercheur" a="jaumeortola"><i>chercheu</i><par n="causeu/r__adj"/></e>
 <e lm="clairsemé" a="jaumeortola"><i>clairsemé</i><par n="abaissant__adj"/></e>
 <e lm="coextensif" a="jaumeortola"><i>coextensi</i><par n="affirmati/f__adj"/></e>
@@ -58757,6 +58761,7 @@
 <e lm="liminaire" a="jaumeortola"><i>liminaire</i><par n="académique__adj"/></e>
 <e lm="linnéen" a="jaumeortola"><i>linnéen</i><par n="ancien__adj"/></e>
 <e lm="lozérien" a="jaumeortola"><i>lozérien</i><par n="ancien__adj"/></e>
+<e lm="Lozérien" a="hector"><i>Lozérien</i><par n="ancien__n"/></e>
 <e lm="maçon" a="jaumeortola"><i>maçon</i><par n="ancien__adj"/></e>
 <e lm="magdalénien" a="jaumeortola"><i>magdalénien</i><par n="ancien__adj"/></e>
 <e lm="malaisé" a="jaumeortola"><i>malaisé</i><par n="abaissant__adj"/></e>
@@ -58773,10 +58778,12 @@
 <e lm="moelleux" a="jaumeortola"><i>moelleu</i><par n="affectueu/x__adj"/></e>
 <e lm="monophylétique" a="jaumeortola"><i>monophylétique</i><par n="académique__adj"/></e>
 <e lm="montpelliérain" a="jaumeortola"><i>montpelliérain</i><par n="abaissant__adj"/></e>
+<e lm="Montpelliérain" a="hector"><i>Montpelliérain</i><par n="affecté__n"/></e>
 <e lm="moratoire" a="jaumeortola"><i>moratoire</i><par n="académique__adj"/></e>
 <e lm="muséal" a="jaumeortola"><i>muséa</i><par n="amica/l__adj"/></e>
 <e lm="niais" a="jaumeortola"><i>niais</i><par n="anglais__adj"/></e>
 <e lm="nîmois" a="jaumeortola"><i>nîmois</i><par n="anglais__adj"/></e>
+<e lm="Nîmois" a="hector"><i>Nîmois</i><par n="admis__n"/></e>
 <e lm="nosocomial" a="jaumeortola"><i>nosocomia</i><par n="amica/l__adj"/></e>
 <e lm="notificatif" a="jaumeortola"><i>notificati</i><par n="affirmati/f__adj"/></e>
 <e lm="nouménal" a="jaumeortola"><i>nouména</i><par n="amica/l__adj"/></e>
@@ -58832,6 +58839,7 @@
 <e lm="repentant" a="jaumeortola"><i>repentant</i><par n="abaissant__adj"/></e>
 <e lm="révérend" a="jaumeortola"><i>révérend</i><par n="abaissant__adj"/></e>
 <e lm="rhodanien" a="jaumeortola"><i>rhodanien</i><par n="ancien__adj"/></e>
+<e lm="Rhodanien" a="hector"><i>Rhodanien</i><par n="ancien__n"/></e>
 <e lm="rhumatisant" a="jaumeortola"><i>rhumatisant</i><par n="abaissant__adj"/></e>
 <e lm="rouergat" a="jaumeortola"><i>rouergat</i><par n="abaissant__adj"/></e>
 <e lm="rouille" a="jaumeortola"><i>rouille</i><par n="arrière__adj"/></e>
@@ -58859,6 +58867,7 @@
 <e lm="valétudinaire" a="jaumeortola"><i>valétudinaire</i><par n="académique__adj"/></e>
 <e lm="vaniteux" a="jaumeortola"><i>vaniteu</i><par n="affectueu/x__adj"/></e>
 <e lm="vauclusien" a="jaumeortola"><i>vauclusien</i><par n="ancien__adj"/></e>
+<e lm="Vauclusien" a="hector"><i>Vauclusien</i><par n="ancien__n"/></e>
 <e lm="velléitaire" a="jaumeortola"><i>velléitaire</i><par n="académique__adj"/></e>
 <e lm="velouté" a="jaumeortola"><i>velouté</i><par n="abaissant__adj"/></e>
 <e lm="ventral" a="jaumeortola"><i>ventra</i><par n="amica/l__adj"/></e>
@@ -59798,8 +59807,35 @@
 <e lm="Ferrèr" a="hector"><i>Ferrèr</i><par n="Saussure__np"/></e>
 <e lm="Matiu" a="hector"><i>Matiu</i><par n="Antoine__np"/></e>
 <e lm="Edoard" a="hector"><i>Edoard</i><par n="Antoine__np"/></e>
+<e lm="Guilhèm" a="hector"><i>Guilhèm</i><par n="Antoine__np"/></e>
+<e lm="Patrici" a="hector"><i>Patrici</i><par n="Antoine__np"/></e>
+<e lm="Jacint" a="hector"><i>Jacint</i><par n="Antoine__np"/></e>
+<e lm="Will" a="hector"><i>Will</i><par n="Antoine__np"/></e>
+<e lm="Sherlock" a="hector"><i>Sherlock</i><par n="Antoine__np"/></e>
 <e lm="francitan" a="hector"><i>francitan</i><par n="livre__n"/></e>
-
+<e lm="germaniste" a="hector"><i>germaniste</i><par n="artiste__n"/></e>
+<e lm="chiroptère" a="hector"><i>chiroptère</i><par n="livre__n"/></e>
+<e lm="punaise" a="hector"><i>punaise</i><par n="abeille__n"/></e>
+<e lm="dialéctique" a="hector"><i>dialéctique</i><par n="abeille__n"/></e>
+<e lm="vinaigrette" a="hector"><i>vinaigrette</i><par n="abeille__n"/></e>
+<e lm="sterilité" a="hector"><i>sterilité</i><par n="abeille__n"/></e>
+<e lm="étymologie" a="hector"><i>étymologie</i><par n="abeille__n"/></e>
+<e lm="extériorisation" a="hector"><i>extériorisation</i><par n="abeille__n"/></e>
+<e lm="intériorisation" a="hector"><i>intériorisation</i><par n="abeille__n"/></e>
+<e lm="indisposition" a="hector"><i>indisposition</i><par n="abeille__n"/></e>
+<e lm="latéralité" a="hector"><i>latéralité</i><par n="abeille__n"/></e>
+<e lm="bise" a="hector"><i>bise</i><par n="abeille__n"/></e>
+<e lm="vigilance" a="hector"><i>vigilance</i><par n="abeille__n"/></e>
+<e lm="néologie" a="hector"><i>néologie</i><par n="abeille__n"/></e>
+<e lm="filmothèque" a="hector"><i>filmothèque</i><par n="abeille__n"/></e>
+<e lm="magnitude" a="hector"><i>magnitude</i><par n="abeille__n"/></e>
+<e lm="génétique" a="hector"><i>génétique</i><par n="abeille__n"/></e>
+<e lm="volée" a="hector"><i>volée</i><par n="abeille__n"/></e>
+<e lm="ire" a="hector"><i>ire</i><par n="abeille__n"/></e>
+<e lm="vinaigrette" a="hector"><i>vinaigrette</i><par n="abeille__n"/></e>
+<e lm="vinaigrette" a="hector"><i>vinaigrette</i><par n="abeille__n"/></e>
+<e lm="vinaigrette" a="hector"><i>vinaigrette</i><par n="abeille__n"/></e>
+<e lm="vinaigrette" a="hector"><i>vinaigrette</i><par n="abeille__n"/></e>
 
 <!-- xxxx -->
   </section>
@@ -60036,15 +60072,16 @@
 <e r="LR" lm="un peu moins de"><p><l>un<b/>peu<b/>moins<b/>d'</l><r>un<b/>peu<b/>moins<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="un peu plus de"><p><l>un<b/>peu<b/>plus<b/>d'</l><r>un<b/>peu<b/>plus<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'égard de"><p><l>à<b/>l'égard<b/>d'</l><r>à<b/>l'égard<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'exemple de"><p><l>à<b/>l'exemple<b/>d'</l><r>à<b/>l'exemple<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à proximité de"><p><l>à<b/>proximité<b/>d'</l><r>à<b/>proximité<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au-delà de"><p><l>au-delà<b/>d'</l><r>au-delà<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au dire de"><p><l>au<b/>dire<b/>d'</l><r>au<b/>dire<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="aux dires de"><p><l>aux<b/>dires<b/>d'</l><r>aux<b/>dires<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="afin de"><p><l>afin<b/>d'</l>            <r>afin<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au-delà de"><p><l>au-delà<b/>d'</l>      <r>au-delà<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au bout de" a="webform"><p><l>au<b/>bout<b/>d'</l><r>au<b/>bout<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au cours de" a="webform"><p><l>au<b/>cours<b/>d'</l><r>au<b/>cours<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au delà de"><p><l>au<b/>delà<b/>d'</l>   <r>au<b/>delà<b/>de<s n="pr"/></r></p></e>
-<e r="LR" lm="au dire de" a="webform"><p><l>au<b/>dire<b/>d'</l><r>au<b/>dire<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au gré de" a="webform"><p><l>au<b/>gré<b/>d'</l><r>au<b/>gré<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au milieu de" a="webform"><p><l>au<b/>milieu<b/>d'</l><r>au<b/>milieu<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="au profit de"><p><l>au<b/>profit<b/>d'</l><r>au<b/>profit<b/>de<s n="pr"/></r></p></e>
@@ -60062,11 +60099,10 @@
 <e r="LR" lm="par l'intermédiaire de" a="webform"><p><l>par<b/>l'intermédiaire<b/>d'</l><r>par<b/>l'intermédiaire<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="pour ce qui est de"><p><l>pour<b/>ce<b/>qui<b/>est<b/>d'</l><r>pour<b/>ce<b/>qui<b/>est<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="sur la rêquete de" a="webform"><p><l>sur<b/>la<b/>rêquete<b/>d'</l><r>sur<b/>la<b/>rêquete<b/>de<s n="pr"/></r></p></e>
-<e r="LR" lm="à l'encontre de" a="webform"><p><l>à<b/>l'encontre<b/>d'</l><r>à<b/>l'encontre<b/>de<s n="pr"/></r></p></e>
-<e r="LR" lm="à l'exception de" a="webform"><p><l>à<b/>l'exception<b/>d'</l><r>à<b/>l'exception<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'instar de" a="webform"><p><l>à<b/>l'instar<b/>d'</l><r>à<b/>l'instar<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'occasion de" a="webform"><p><l>à<b/>l'occasion<b/>d'</l><r>à<b/>l'occasion<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à l'égard de"><p><l>à<b/>l'égard<b/>d'</l><r>à<b/>l'égard<b/>de<s n="pr"/></r></p></e>
+<e r="LR" lm="à l'exemple de"><p><l>à<b/>l'exemple<b/>d'</l><r>à<b/>l'exemple<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à la fin de"><p><l>à<b/>la<b/>fin<b/>d'</l><r>à<b/>la<b/>fin<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à la réserve de" a="webform"><p><l>à<b/>la<b/>réserve<b/>d'</l><r>à<b/>la<b/>réserve<b/>de<s n="pr"/></r></p></e>
 <e r="LR" lm="à la suite de"><p><l>à<b/>la<b/>suite<b/>d'</l><r>à<b/>la<b/>suite<b/>de<s n="pr"/></r></p></e>
