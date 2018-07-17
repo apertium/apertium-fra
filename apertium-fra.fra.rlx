@@ -395,7 +395,7 @@ SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 ("que")) (0C Verb) ;
 	# es bueno que vengas
 	# però: són tan variades que en cadascuna d'elles es poden observar patrons
 #REMOVE Prs (NOT *-1 VerbSubj LINK 1 Que) (0C Verb) ;
-REMOVE Prs (NOT *-1 Que + CnjSub) (0 Verb) ;
+REMOVE Prs (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que")) (0 Verb) ;
   ## Cette règle a des exceptions: La peur que cette rencontre *change* la face du monde préoccupe l'Europe
 #REMOVE Prs (NOT *-1 Que + CnjSub BARRIER Ind) (0 Verb) ;
 
@@ -1065,6 +1065,9 @@ SELECT A IF (-2 Det + FemPl) (-1 N + FemPl) (0 ("suivant")) ;
 
 REMOVE Ger IF (-1 BOS) (0 Prep OR Ger) ;
   ## Suivant le besoin
+REMOVE Ger IF (-1 Verb + Pers) (0 Prep OR Ger) ; 
+  ## on l'utilise suivant des critères
+  ## on l'utilise maintenant
 
 REMOVE Ger IF (-1 ("nommer") OR ("appeler")) (0 Ger OR N OR A) ;
   ## nommé dirigeant
@@ -1072,9 +1075,15 @@ REMOVE Ger IF (-1 ("nommer") OR ("appeler")) (0 Ger OR N OR A) ;
 REMOVE Ger IF (-1 ("plus") OR ("moins")) (0 Ger OR A OR PP) ;
   ## plus exigeant
 
-REMOVE A IF (-1 BOS) (0 Prep OR A) (1 Det) ;
-REMOVE N IF (-1 BOS) (0 Prep OR A) (1 Det) ;
+REMOVE A IF (-1 BOS) (0 Prep) (0 A) (1 Det) ;
+REMOVE N IF (-1 BOS) (0 Prep) (0 N) (1 Det) ;
   ## Suivant le besoin
+REMOVE A IF (-1 BOS) (0 ("suivant")) (0 A) (1 ("de")) ;
+REMOVE N IF (-1 BOS) (0 ("suivant")) (0 N) (1 ("de")) ;
+  ## Suivant des besoins
+REMOVE A IF (-1 Verb + Pers) (0 ("suivant")) (0 A) (1 ("de")) ;
+REMOVE N IF (-1 Verb + Pers) (0 ("suivant")) (0 N) (1 ("de")) ;
+  ## Suivant des besoins
 
 # DET
 
