@@ -13392,7 +13392,7 @@
 <e lm="aspartame" a="jaumeortola"><i>aspartame</i><par n="livre__n"/></e>
 <e lm="aspe" a="jaumeortola"><i>aspe</i><par n="livre__n"/></e>
 <e lm="aspect"><i>aspect</i><par n="livre__n"/></e>
-<e lm="asperge"><i>asperge</i><par n="livre__n"/></e>
+<e lm="asperge"><i>asperge</i><par n="abeille__n"/></e>
 <e lm="aspermatisme" a="jaumeortola"><i>aspermatisme</i><par n="livre__n"/></e>
 <e lm="aspermie" a="jaumeortola"><i>aspermie</i><par n="abeille__n"/></e>
 <e lm="aspersion" a="jaumeortola"><i>aspersion</i><par n="abeille__n"/></e>
@@ -20622,7 +20622,7 @@
 <e lm="moralisation"><i>moralisation</i><par n="abeille__n"/></e>
 <e lm="moraliste" a="jaumeortola"><i>moraliste</i><par n="artiste__n"/></e>
 <e lm="moralité"><i>moralité</i><par n="abeille__n"/></e>
-<e lm="moratoire"><i>moratoire</i><par n="abeille__n"/></e>
+<e lm="moratoire"><i>moratoire</i><par n="livre__n"/></e>
 <e lm="morbidité"><i>morbidité</i><par n="abeille__n"/></e>
 <e lm="morceau"><i>morceau</i><par n="lieu__n"/></e>
 <e lm="more" a="jaumeortola"><i>more</i><par n="abeille__n"/></e>
@@ -21959,7 +21959,8 @@
 <e lm="physionomie"><i>physionomie</i><par n="abeille__n"/></e>
 <e lm="physiothérapeute"><i>physiothérapeute</i><par n="artiste__n"/></e>
 <e lm="physiothérapie"><i>physiothérapie</i><par n="abeille__n"/></e>
-<e lm="physique"><i>physique</i><par n="abeille__n"/></e>
+<e lm="physique" c="science"><i>physique</i><par n="abeille__n"/></e>
+<e lm="physique" c="aspect"><i>physique</i><par n="livre__n"/></e>
 <e lm="physostigmine" a="jaumeortola"><i>physostigmine</i><par n="abeille__n"/></e>
 <e lm="phytolithe" a="jaumeortola"><i>phytolithe</i><par n="livre__n"/></e>
 <e lm="phytoplancton" a="jaumeortola"><i>phytoplancton</i><par n="livre__n"/></e>
@@ -25637,7 +25638,7 @@
 <e lm="zoom"><i>zoom</i><par n="livre__n"/></e>
 <e lm="zoulou" a="jaumeortola"><i>zoulou</i><par n="affecté__n"/></e>
 <e lm="zygote" a="jaumeortola"><i>zygote</i><par n="livre__n"/></e>
-<e lm="zèbre"><i>zèbre</i><par n="abeille__n"/></e>
+<e lm="zèbre"><i>zèbre</i><par n="livre__n"/></e>
 <e lm="zèle"><i>zèle</i><par n="livre__n"/></e>
 <e lm="zéolite" a="jaumeortola"><i>zéolite</i><par n="abeille__n"/></e>
 <e lm="zéro"><i>zéro</i><par n="livre__n"/></e>
@@ -58886,6 +58887,7 @@
 <e lm="verdoyant" a="jaumeortola"><i>verdoyant</i><par n="abaissant__adj"/></e>
 <e lm="vésical" a="jaumeortola"><i>vésica</i><par n="amica/l__adj"/></e>
 <e lm="viennois" a="jaumeortola"><i>viennois</i><par n="anglais__adj"/></e>
+<e lm="Viennois" a="hector"><i>Viennois</i><par n="admis__n"/></e>
 <e lm="villageois" a="jaumeortola"><i>villageois</i><par n="anglais__adj"/></e>
 <e lm="vite" a="jaumeortola"><i>vite</i><par n="académique__adj"/></e>
 <e lm="voleur" a="jaumeortola"><i>voleu</i><par n="causeu/r__adj"/></e>
@@ -59866,6 +59868,22 @@
 <e lm="européisme" a="hector"><i>européisme</i><par n="livre__n"/></e>
 <e lm="abolitionisme" a="hector"><i>abolitionisme</i><par n="livre__n"/></e>
 <e lm="farce" a="hector"><i>farce</i><par n="abeille__n"/></e>
+<e lm="protagonisme" a="hector"><i>protagonisme</i><par n="livre__n"/></e>
+<e lm="particularisme" a="hector"><i>particularisme</i><par n="livre__n"/></e>
+<e lm="ocultisme" a="hector"><i>ocultisme</i><par n="livre__n"/></e>
+<e lm="gaulliste" a="hector"><i>gaulliste</i><par n="artiste__n"/></e>
+<e lm="gaulliste" a="hector"><i>gaulliste</i><par n="académique__adj"/></e>
+<e lm="néogaulliste" a="hector"><i>néogaulliste</i><par n="artiste__n"/></e>
+<e lm="néogaulliste" a="hector"><i>néogaulliste</i><par n="académique__adj"/></e>
+<e lm="aquittement" a="hector"><i>aquittement</i><par n="livre__n"/></e>
+<e lm="établi" a="hector"><i>établi</i><par n="livre__n"/></e>
+<e lm="abrevoir" a="hector"><i>abrevoir</i><par n="livre__n"/></e>
+<e lm="noisettie" a="hector"><i>noisettie</i><par n="livre__n"/></e>
+<e lm="anachorète" a="hector"><i>anachorète</i><par n="livre__n"/></e>
+<e lm="châlit" a="hector"><i>châlit</i><par n="livre__n"/></e>
+<e lm="cassoulet" a="hector"><i>cassoulet</i><par n="livre__n"/></e>
+<e lm="cenelle" a="hector"><i>cenelle</i><par n="livre__n"/></e>
+<e lm="barysphère" a="hector"><i>barysphère</i><par n="livre__n"/></e>
 
 <!-- xxxx -->
   </section>
