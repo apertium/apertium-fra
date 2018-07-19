@@ -609,7 +609,9 @@ SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
 SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
   ## Il s'impose devant lui
-SELECT Pro IF (0 Lui) (1C Imper) ;
+#SELECT Pron IF (0 Lui) (1C Verb) ;
+SELECT Pro IF (0 Lui) (1C Verb) ;
+#SELECT Pro IF (0 Lui) (1C Imper) ;
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Verb);
   ## on lui connaît
 SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
@@ -861,6 +863,13 @@ REMOVE Pro IF (0 En) (1 Ger);
   ## en passant
 REMOVE Pro IF (0 En) (1 Pro) (2 Ger);
   ## en se dirigeant
+SELECT Prep IF (0 En) (-1 ("prendre")) ;
+  ## prendre en compte, prendre en consideration
+SELECT Prep IF (0 En) (-1 Verb + Pers) (1 N) (NOT 1 Ger) ;
+  ## lui donne en référence
+SELECT Prep IF (0 En) (-2 Ser OR Haver) (-1 PP ) (1 N) (NOT 1 Ger) ;
+SELECT Prep IF (0 En) (-3 Ser OR Haver) (-2 Adv) (-1 PP ) (1 N) (NOT 1 Ger) ;
+  ## lui est donné en référence
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
