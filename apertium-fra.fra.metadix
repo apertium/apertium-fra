@@ -7940,6 +7940,8 @@
 <e lm="chimique"><i>chimique</i><par n="académique__adj"/></e>
 <e lm="chinois"><i>chinois</i><par n="anglais__adj"/></e>
 <e lm="tunisois"><i>tunisois</i><par n="anglais__adj"/></e>
+<e lm="bernois"><i>bernois</i><par n="anglais__adj"/></e>
+<e lm="valaisan"><i>valaisan</i><par n="ancien__adj"/></e>
 <e lm="chirurgical"><i>chirurgica</i><par n="amica/l__adj"/></e>
 <e lm="chlorhydrique" a="jaumeortola"><i>chlorhydrique</i><par n="académique__adj"/></e>
 <e lm="chocolat" a="jaumeortola"><i>chocolat</i><par n="arrière__adj"/></e>
@@ -14428,7 +14430,7 @@
 <e lm="brique"><i>brique</i><par n="abeille__n"/></e>
 <e lm="briquet" a="jaumeortola"><i>briquet</i><par n="livre__n"/></e>
 <e lm="brise"><i>brise</i><par n="abeille__n"/></e>
-<e lm="britannique" a="jaumeortola"><i>britannique</i><par n="artiste__n"/></e>
+<e lm="Britannique"><i>Britannique</i><par n="artiste__n"/></e>
 <e lm="brocart" a="jaumeortola"><i>brocart</i><par n="livre__n"/></e>
 <e lm="broche" a="jaumeortola"><i>broche</i><par n="abeille__n"/></e>
 <e lm="brochet" a="jaumeortola"><i>brochet</i><par n="livre__n"/></e>
@@ -15114,6 +15116,8 @@
 <e lm="chimère"><i>chimère</i><par n="abeille__n"/></e>
 <e lm="chinois"><i>chinois</i><par n="admis__n"/></e>
 <e lm="Tunisois"><i>Tunisois</i><par n="admis__n"/></e>
+<e lm="Bernois"><i>Bernois</i><par n="admis__n"/></e>
+<e lm="Valaisan"><i>Valaisan</i><par n="ancien__n"/></e>
 <e lm="chinook" a="jaumeortola"><i>chinook</i><par n="livre__n"/></e>
 <e lm="chiot" a="jaumeortola"><i>chiot</i><par n="livre__n"/></e>
 <e lm="chiourme" a="jaumeortola"><i>chiourme</i><par n="artiste__n"/></e>
@@ -51231,40 +51235,80 @@
 <e lm="Île Maurice"><i>Île<b/>Maurice</i><par n="Bulgarie__np"/></e>
 <e lm="Île Norfolk"><i>Île<b/>Norfolk</i><par n="Bulgarie__np"/></e>
 <e lm="Îles Aléoutiennes"><i>Îles<b/>Aléoutiennes</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Aléoutiennes" a="hector"><p><l>îles<b/>Aléoutiennes</l><r>Îles<b/>Aléoutiennes</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Aléoutiennes" a="hector"><p><l>Iles<b/>Aléoutiennes</l><r>Îles<b/>Aléoutiennes</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Andaman"><i>Îles<b/>Andaman</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Andaman" a="hector"><p><l>îles<b/>Andaman</l><r>Îles<b/>Andaman</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Andaman" a="hector"><p><l>Iles<b/>Andaman</l><r>Îles<b/>Andaman</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Anglo-Normandes"><i>Îles<b/>Anglo-Normandes</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Anglo-Normandes" a="hector"><p><l>îles<b/>Anglo-Normandes</l><r>Îles<b/>Anglo-Normandes</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Anglo-Normandes" a="hector"><p><l>Iles<b/>Anglo-Normandes</l><r>Îles<b/>Anglo-Normandes</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Ashmore et Cartier"><i>Îles<b/>Ashmore<b/>et<b/>Cartier</i><par n="Bahamas__np"/></e>
 <e lm="Îles Baléares"><i>Îles<b/>Baléares</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Baléares" a="hector"><p><l>îles<b/>Baléares</l><r>Îles<b/>Baléares</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Baléares" a="hector"><p><l>Iles<b/>Baléares</l><r>Îles<b/>Baléares</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Britanniques"><i>Îles<b/>Britanniques</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Britanniques" a="hector"><p><l>îles<b/>Britanniques</l><r>Îles<b/>Britanniques</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Britanniques" a="hector"><p><l>Iles<b/>Britanniques</l><r>Îles<b/>Britanniques</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Canaries"><i>Îles<b/>Canaries</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Canaries" a="hector"><p><l>îles<b/>Canaries</l><r>Îles<b/>Canaries</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Canaries" a="hector"><p><l>Iles<b/>Canaries</l><r>Îles<b/>Canaries</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Carolines"><i>Îles<b/>Carolines</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Carolines" a="hector"><p><l>îles<b/>Carolines</l><r>Îles<b/>Carolines</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Carolines" a="hector"><p><l>Iles<b/>Carolines</l><r>Îles<b/>Carolines</r></p><par n="Bahamas__np"/></e>
 <e lm="îles Caïmans"><i>îles<b/>Caïmans</i><par n="Bahamas__np"/></e>
 <e lm="Îles Cocos"><i>Îles<b/>Cocos</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Cocos" a="hector"><p><l>îles<b/>Cocos</l><r>Îles<b/>Cocos</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Cocos" a="hector"><p><l>Iles<b/>Cocos</l><r>Îles<b/>Cocos</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Cook"><i>Îles<b/>Cook</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Cook" a="hector"><p><l>îles<b/>Cook</l><r>Îles<b/>Cook</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Cook" a="hector"><p><l>Iles<b/>Cook</l><r>Îles<b/>Cook</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles de la Madeleine"><i>Îles<b/>de<b/>la<b/>Madeleine</i><par n="Bahamas__np"/></e>
 <e lm="Îles de la mer de Corail"><i>Îles<b/>de<b/>la<b/>mer<b/>de<b/>Corail</i><par n="Bahamas__np"/></e>
 <e lm="Îles du Vent"><i>Îles<b/>du<b/>Vent</i><par n="Bahamas__np"/></e>
 <e lm="Îles Frisonnes"><i>Îles<b/>Frisonnes</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Frisonnes" a="hector"><p><l>îles<b/>Frisonnes</l><r>Îles<b/>Frisonnes</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Frisonnes" a="hector"><p><l>Iles<b/>Frisonnes</l><r>Îles<b/>Frisonnes</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Féroé"><i>Îles<b/>Féroé</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Féroé" a="hector"><p><l>îles<b/>Féroé</l><r>Îles<b/>Féroé</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Féroé" a="hector"><p><l>Iles<b/>Féroé</l><r>Îles<b/>Féroé</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Galapagos"><i>Îles<b/>Galapagos</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Galapagos" a="hector"><p><l>îles<b/>Galapagos</l><r>Îles<b/>Galapagos</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Galapagos" a="hector"><p><l>Iles<b/>Galapagos</l><r>Îles<b/>Galapagos</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Géorgie du Sud"><i>Îles<b/>Géorgie<b/>du<b/>Sud</i><par n="Bahamas__np"/></e>
 <e lm="Îles Ioniennes"><i>Îles<b/>Ioniennes</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Ioniennes" a="hector"><p><l>îles<b/>Ioniennes</l><r>Îles<b/>Ioniennes</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Ioniennes" a="hector"><p><l>Iles<b/>Ioniennes</l><r>Îles<b/>Ioniennes</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Kouriles"><i>Îles<b/>Kouriles</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Kouriles" a="hector"><p><l>îles<b/>Kouriles</l><r>Îles<b/>Kouriles</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Kouriles" a="hector"><p><l>Iles<b/>Kouriles</l><r>Îles<b/>Kouriles</r></p><par n="Bahamas__np"/></e>
 <e lm="îles Malouines"><i>îles<b/>Malouines</i><par n="Bahamas__np"/></e>
 <e lm="Îles Mariannes"><i>Îles<b/>Mariannes</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Mariannes" a="hector"><p><l>îles<b/>Mariannes</l><r>Îles<b/>Mariannes</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Mariannes" a="hector"><p><l>Iles<b/>Mariannes</l><r>Îles<b/>Mariannes</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Mariannes du Nord"><i>Îles<b/>Mariannes<b/>du<b/>Nord</i><par n="Bahamas__np"/></e>
 <e lm="îles Marquises"><i>îles<b/>Marquises</i><par n="Bahamas__np"/></e>
 <e lm="îles Marshall"><i>îles<b/>Marshall</i><par n="Bahamas__np"/></e>
 <e lm="Îles Moluques"><i>Îles<b/>Moluques</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Moluques" a="hector"><p><l>îles<b/>Moluques</l><r>Îles<b/>Moluques</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Moluques" a="hector"><p><l>Iles<b/>Moluques</l><r>Îles<b/>Moluques</r></p><par n="Bahamas__np"/></e>
 <e lm="îles Pitcairn"><i>îles<b/>Pitcairn</i><par n="Bahamas__np"/></e>
 <e lm="Îles Salomon"><i>Îles<b/>Salomon</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Salomon" a="hector"><p><l>îles<b/>Salomon</l><r>Îles<b/>Salomon</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Salomon" a="hector"><p><l>Iles<b/>Salomon</l><r>Îles<b/>Salomon</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles sous le Vent"><i>Îles<b/>sous<b/>le<b/>Vent</i><par n="Bahamas__np"/></e>
 <e lm="Îles Tchagos"><i>Îles<b/>Tchagos</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Tchagos" a="hector"><p><l>îles<b/>Tchagos</l><r>Îles<b/>Tchagos</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Tchagos" a="hector"><p><l>Iles<b/>Tchagos</l><r>Îles<b/>Tchagos</r></p><par n="Bahamas__np"/></e>
 <e lm="îles Turques-et-Caïques"><i>îles<b/>Turques-et-Caïques</i><par n="Bahamas__np"/></e>
 <e lm="Îles Vierges"><i>Îles<b/>Vierges</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Vierges" a="hector"><p><l>îles<b/>Vierges</l><r>Îles<b/>Vierges</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Vierges" a="hector"><p><l>Iles<b/>Vierges</l><r>Îles<b/>Vierges</r></p><par n="Bahamas__np"/></e>
 <e lm="Îles Vierges américaines"><i>Îles<b/>Vierges<b/>américaines</i><par n="Bahamas__np"/></e>
 <e lm="Îles Vierges britanniques"><i>Îles<b/>Vierges<b/>britanniques</i><par n="Bahamas__np"/></e>
 <e lm="Îles Zaffarines"><i>Îles<b/>Zaffarines</i><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Zaffarines" a="hector"><p><l>îles<b/>Zaffarines</l><r>Îles<b/>Zaffarines</r></p><par n="Bahamas__np"/></e>
+<e r="LR" lm="Îles Zaffarines" a="hector"><p><l>Iles<b/>Zaffarines</l><r>Îles<b/>Zaffarines</r></p><par n="Bahamas__np"/></e>
 <e lm="Ñaco"><i>Ñaco</i><par n="Abraham__np"/></e>
 <e lm="Òmnium"><i>Òmnium</i><par n="Linux__np"/></e>
 <e lm="Òscar"><i>Òscar</i><par n="Antoine__np"/></e>
@@ -59884,6 +59928,8 @@
 <e lm="cassoulet" a="hector"><i>cassoulet</i><par n="livre__n"/></e>
 <e lm="cenelle" a="hector"><i>cenelle</i><par n="livre__n"/></e>
 <e lm="barysphère" a="hector"><i>barysphère</i><par n="livre__n"/></e>
+<e lm="Montand" a="hector"><i>Montand</i><par n="Saussure__np"/></e>
+<e lm="Xiang" a="hector"><i>Xiang</i><par n="Saussure__np"/></e>
 
 <!-- xxxx -->
   </section>
