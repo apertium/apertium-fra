@@ -740,6 +740,18 @@ SELECT PP IF (-1 Haver) (0 PP) ;
   ## Vous avez dit
 SELECT PP IF (-2 Haver) (-1C Adv) (0 PP) ;
   ## Vous avez toujours dit
+SELECT Sg IF (-1 Ser + Sg) (0 PP + Sg) ; 
+  ## est pris
+SELECT Pl IF (-1 Ser + Pl) (0 PP + Pl) ; 
+  ## sont pris
+SELECT Sg IF (-2 Ser + Sg) (-1 Adv) (0 PP + Sg) ; 
+  ## n'est pas pris
+SELECT Pl IF (-2 Ser + Pl) (-1 Adv) (0 PP + Pl) ; 
+  ## ne sont pas pris
+SELECT Sg IF (-3 Ser + Sg) (-2 Adv) (-1 Adv) (0 PP + Sg) ; 
+  ## n'est pas toujours pris
+SELECT Pl IF (-3 Ser + Pl) (-2 Adv) (-1 Adv) (0 PP + Pl) ; 
+  ## ne sont pas toujours pris
 SELECT Sg IF (NOT -2 Pro) (-1 Haver) (0 PP + Sg_Pl) ; 
   ## Vous avez pris
 SELECT Sg IF (NOT -3 Pro) (-2 Haver) (-1C Adv) (0 PP + Sg_Pl) ; 
