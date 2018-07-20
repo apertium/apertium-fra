@@ -400,6 +400,10 @@ REMOVE Prs (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que")) (0 Verb) ;
 #REMOVE Prs (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que") CBARRIER Ind) (0 Verb) ;
   ## Avant qu'il ne vienne chez nous, Stephen Hillenburg refuse plusieurs propositions
 
+REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (*0C Pri) ;
+REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (**-1C Pri) ;	# VÉRIFIER: Cette règle ne sembla pas marcher
+  ## Il s'agit
+
 #SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
 SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son OR A) (NOT 1 N OR A) ;
   ## Les poules du couvent couvent
