@@ -74,6 +74,7 @@
     <sdef n="ref" /> 
     <sdef n="sup" /> 
     <sdef n="num" /> 
+    <sdef n="web" /> 
     <sdef n="ij" /> 
     <sdef n="sent" /> 
     <sdef n="guio" /> 
@@ -117,7 +118,7 @@
 </pardef>
 
 <pardef n="urls">
-  <e>       <re>(((www.)|(http://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re><p><l></l><r><s n="num"/></r></p></e>
+  <e>       <re>(((www.)|(http://|https://|ftp://))[áéíóúàèìòùäëïöüñça-z0-9\-]+([.][áéíóúàèìòùäëïöüñça-z]+)+(/[áéíóúàèìòùäëïöüñça-z0-9_]+)*([.][áéíóúàèìòùäëïöüñça-z]+)*)</re><p><l></l><r><s n="web"/></r></p></e>
 </pardef>
 
 <pardef n="S__enc1">
@@ -11583,6 +11584,7 @@
 <e lm="zapatiste"><i>zapatiste</i><par n="académique__adj"/></e>
 <e lm="zen"><i>zen</i><par n="arrière__adj"/></e>
 <e lm="zoulou"><i>zoulou</i><par n="abaissant__adj"/></e>
+<e lm="maori"><i>maori</i><par n="abaissant__adj"/></e>
 <e lm="à but non lucratif"><i>à<b/>but<b/>non<b/>lucratif</i><par n="arrière__adj"/></e>
 <e lm="à domicile"><p><l>à<b/>domicile</l>             <r>à<b/>domicile</r></p><par n="arrière__adj"/></e>
 <e lm="à elle"><i>à<b/>elle</i><par n="à_moi__adj"/></e>
@@ -14499,6 +14501,7 @@
 <e lm="burqa"><i>burqa</i><par n="artiste__n"/></e>
 <e lm="burquini"><i>burquini</i><par n="livre__n"/></e>
 <e lm="bus"><i>bus</i><par n="mois__n"/></e>
+<e lm="autobus"><i>autobus</i><par n="mois__n"/></e>
 <e lm="buse" a="jaumeortola"><i>buse</i><par n="abeille__n"/></e>
 <e lm="business"><i>business</i><par n="mois__n"/></e>
 <e lm="buste" a="jaumeortola"><i>buste</i><par n="livre__n"/></e>
@@ -25641,6 +25644,7 @@
 <e lm="zoologue" a="hector"><i>zoologue</i><par n="artiste__n"/></e>
 <e lm="zoom"><i>zoom</i><par n="livre__n"/></e>
 <e lm="zoulou" a="jaumeortola"><i>zoulou</i><par n="affecté__n"/></e>
+<e lm="maori" a="jaumeortola"><i>maori</i><par n="affecté__n"/></e>
 <e lm="zygote" a="jaumeortola"><i>zygote</i><par n="livre__n"/></e>
 <e lm="zèbre"><i>zèbre</i><par n="livre__n"/></e>
 <e lm="zèle"><i>zèle</i><par n="livre__n"/></e>
@@ -52086,6 +52090,7 @@
 <e lm="en exercice"><i>en<b/>exercice</i><par n="hier__adv"/></e>
 <e lm="en externe"><i>en<b/>externe</i><par n="hier__adv"/></e>
 <e lm="en face"><i>en<b/>face</i><par n="hier__adv"/></e>
+<!-- <e r="LR"><p><l>en<b/>fait</l><r>en<s n="pr"/><j/>faire<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e> -->
 <e lm="en fait"><i>en<b/>fait</i><par n="hier__adv"/></e>
 <e lm="en faveur"><i>en<b/>faveur</i><par n="hier__adv"/></e>
 <e lm="en faveur des tiers"><i>en<b/>faveur<b/>des<b/>tiers</i><par n="hier__adv"/></e>
@@ -59930,6 +59935,11 @@
 <e lm="barysphère" a="hector"><i>barysphère</i><par n="livre__n"/></e>
 <e lm="Montand" a="hector"><i>Montand</i><par n="Saussure__np"/></e>
 <e lm="Xiang" a="hector"><i>Xiang</i><par n="Saussure__np"/></e>
+<e lm="Junqueras" a="hector"><i>Junqueras</i><par n="Saussure__np"/></e>
+<e lm="galo" a="hector"><i>galo</i><par n="livre__n"/></e>
+<e lm="Macarèl" a="hector"><i>Macarèl</i><par n="Linux__np"/></e>
+<e lm="Limoux" a="hector"><i>Limoux</i><par n="Iran__np"/></e>
+<e lm="Octave" a="hector"><i>Octave</i><par n="Antoine__np"/></e>
 
 <!-- xxxx -->
   </section>
