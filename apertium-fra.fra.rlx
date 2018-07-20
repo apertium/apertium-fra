@@ -510,6 +510,9 @@ REMOVE Pers IF (-2 Prep) (-1 Det) (0C N OR Verb LINK 0 Pers) ;
 REMOVE N IF (-1 Rel) (0 N OR Verb) ;
   ## ce qui limite le nombre
 
+REMOVE V IF (0 N OR V) (1C Ger) ;
+  ## mais la série devenant de plus en plus rentable
+
 SELECT N IF (-1 ("faire")) (0 ("partie")) ;
 SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
 
