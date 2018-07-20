@@ -8712,7 +8712,7 @@
 <e r="LR" lm="étranger"><p><l>Etrang</l>               <r>étrang</r></p><par n="ch/er__adj"/></e>
 <e r="LR" lm="étrange"><p><l>Etrange</l>               <r>étrange</r></p><par n="académique__adj"/></e>
 <e r="LR" lm="étroit"><p><l>Etroit</l>                 <r>étroit</r></p><par n="abaissant__adj"/></e>
-<e lm="etymologique" a="hector"><i>etymologique</i><par n="académique__adj"/></e>
+<e lm="étymologique" a="hector"><i>étymologique</i><par n="académique__adj"/></e>
 <e lm="eucaryote" a="jaumeortola"><i>eucaryote</i><par n="académique__adj"/></e>
 <e lm="euclidien" a="jaumeortola"><i>euclidien</i><par n="ancien__adj"/></e>
 <e lm="euphonique" a="jaumeortola"><i>euphonique</i><par n="académique__adj"/></e>
@@ -9368,8 +9368,9 @@
 <e lm="indépendant"><i>indépendant</i><par n="abaissant__adj"/></e>
 <e lm="indépendantiste"><i>indépendantiste</i><par n="académique__adj"/></e>
 <e lm="indésirable"><i>indésirable</i><par n="académique__adj"/></e>
+<e lm="désirable"><i>désirable</i><par n="académique__adj"/></e>
 <e lm="indésiré" a="jaumeortola"><i>indésiré</i><par n="abaissant__adj"/></e>
-<e lm="indéteminé"><i>indéteminé</i><par n="abaissant__adj"/></e>
+<e lm="désiré" a="jaumeortola"><i>désiré</i><par n="abaissant__adj"/></e>
 <e lm="indéterministe"><i>indéterministe</i><par n="académique__adj"/></e>
 <e lm="indéterminé"><i>indéterminé</i><par n="abaissant__adj"/></e>
 <e lm="inefficace"><i>inefficace</i><par n="académique__adj"/></e>
@@ -10920,7 +10921,7 @@
 <e lm="sarde" a="jaumeortola"><i>sarde</i><par n="académique__adj"/></e>
 <e lm="sarrasin"><i>sarrasin</i><par n="abaissant__adj"/></e>
 <e lm="sassanide"><i>sassanide</i><par n="académique__adj"/></e>
-<e lm="satirique"><i>satirique</i><par n="académique__adj"/></e>
+<e lm="satyrique"><i>satyrique</i><par n="académique__adj"/></e>
 <e lm="satisfaisant"><i>satisfaisant</i><par n="abaissant__adj"/></e>
 <e lm="satisfait" a="jaumeortola"><i>satisfait</i><par n="abaissant__adj"/></e>
 <e lm="sauf"><i>sau</i><par n="affirmati/f__adj"/></e>
@@ -11143,7 +11144,6 @@
 <e lm="sud-africain" a="jaumeortola"><i>sud-africain</i><par n="abaissant__adj"/></e>
 <e lm="sud-américain"><i>sud-américain</i><par n="abaissant__adj"/></e>
 <e lm="sud-coréen"><i>sud-coréen</i><par n="ancien__adj"/></e>
-<e r="RL" lm="sud-est"><i>sud-est</i><par n="arrière__adj"/></e>
 <e lm="sud-est" a="hector" c="quand en apposition"><i>sud-est</i><par n="arrière__adj"/></e>
 <e lm="sud-occidental"><i>sud-occidenta</i><par n="amica/l__adj"/></e>
 <e lm="sud-oriental"><i>sud-orienta</i><par n="amica/l__adj"/></e>
@@ -11299,6 +11299,7 @@
 <e lm="titulaire"><i>titulaire</i><par n="académique__adj"/></e>
 <e lm="tiède" a="jaumeortola"><i>tiède</i><par n="académique__adj"/></e>
 <e lm="togolais"><i>togolais</i><par n="anglais__adj"/></e>
+<e lm="tolérable"><i>tolérable</i><par n="académique__adj"/></e>
 <e lm="tolérant" a="jaumeortola"><i>tolérant</i><par n="abaissant__adj"/></e>
 <e lm="tonal" a="jaumeortola"><i>tonal</i><par n="abaissant__adj"/></e>
 <e lm="tonique" a="jaumeortola"><i>tonique</i><par n="académique__adj"/></e>
@@ -59940,6 +59941,13 @@
 <e lm="Macarèl" a="hector"><i>Macarèl</i><par n="Linux__np"/></e>
 <e lm="Limoux" a="hector"><i>Limoux</i><par n="Iran__np"/></e>
 <e lm="Octave" a="hector"><i>Octave</i><par n="Antoine__np"/></e>
+<e lm="diatonique"><i>diatonique</i><par n="académique__adj"/></e>
+<e lm="exécutif"><i>exécuti</i><par n="affirmati/f__adj"/></e>
+<e lm="granitique"><i>granitique</i><par n="académique__adj"/></e>
+<e lm="démagogique"><i>démagogique</i><par n="académique__adj"/></e>
+<e lm="télématique"><i>télématique</i><par n="académique__adj"/></e>
+<e lm="valide"><i>valide</i><par n="académique__adj"/></e>
+<e lm="valide"><i>valide</i><par n="artiste__n"/></e>
 
 <!-- xxxx -->
   </section>
