@@ -138,6 +138,7 @@ LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
 LIST Des = "dès" ;
 LIST Entre = "entre" ;
+LIST Devant = "devant" ;
 LIST Pendant = "pendant" ;
 LIST Puis = "puis" ;
 LIST Or = "or" ;
@@ -145,7 +146,6 @@ LIST Si = "si" ;
 LIST S = "<s'>"i ;
 LIST Ouvrir = "ouvrir" ;
 LIST Ouvrer = "ouvrer" ;
-LIST Devant = "devant" ;
 LIST Mystique_pers = "mystique_pers" ;
 LIST Mystique_syst = "mystique_syst" ;
 LIST Pupille_pers = "pupille_pers" ;
@@ -188,6 +188,8 @@ SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
 # verbs Vblex que típicament impliquen subjuntiu
 SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
+# verbs Vblex que típicament impliquen indicatiu
+SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -392,6 +394,7 @@ REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
 # elección de subjuntivo después de "que"
 SELECT Prs (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 	# Compte: quiero decirle que me parece muy bien
+SELECT Pri (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) ;
 #REMOVE Prs (*-1 >>> BARRIER CnjAdv OR CnjSub OR Rel) (NOT -1 ("no") OR ("No") OR ("nunca") OR ("Nunca")) (0C Verb) ;
 SELECT Prs (*-1 ("être# .*"r) LINK 1 ("que")) (0C Verb) ;
 SELECT Prs (*-1 ("être") LINK 1 A LINK NOT 0 ("vrai") LINK 1 ("que")) (0C Verb) ;
