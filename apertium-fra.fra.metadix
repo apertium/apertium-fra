@@ -6832,6 +6832,7 @@
 <e lm="afghan"><i>afghan</i><par n="abaissant__adj"/></e>
 <e lm="afocal" a="jaumeortola"><i>afoca</i><par n="amica/l__adj"/></e>
 <e lm="africain"><i>africain</i><par n="abaissant__adj"/></e>
+<e lm="panafricain"><i>panafricain</i><par n="abaissant__adj"/></e>
 <e lm="afrikaans" a="jaumeortola"><i>afrikaans</i><par n="arrière__adj"/></e>
 <e lm="afro-américain"><i>afro-américain</i><par n="abaissant__adj"/></e>
 <e lm="afro-asiatique" a="jaumeortola"><i>afro-asiatique</i><par n="académique__adj"/></e>
@@ -7879,6 +7880,7 @@
 <e lm="catastrophique"><i>catastrophique</i><par n="académique__adj"/></e>
 <e lm="catatonique" a="jaumeortola"><i>catatonique</i><par n="académique__adj"/></e>
 <e lm="cathare" a="jaumeortola"><i>cathare</i><par n="académique__adj"/></e>
+<e lm="cathare" a="hector"><i>cathare</i><par n="artiste__n"/></e>
 <e lm="cathodique" a="jaumeortola"><i>cathodique</i><par n="académique__adj"/></e>
 <e lm="catholique"><i>catholique</i><par n="académique__adj"/></e>
 <e lm="catégorique"><i>catégorique</i><par n="académique__adj"/></e>
@@ -8146,6 +8148,7 @@
 <e lm="controlable"><i>controlable</i><par n="académique__adj"/></e>
 <e lm="controversé"><i>controversé</i><par n="abaissant__adj"/></e>
 <e lm="contrôlé" a="jaumeortola"><i>contrôlé</i><par n="abaissant__adj"/></e>
+<e lm="incontrôlé"><i>incontrôlé</i><par n="abaissant__adj"/></e>
 <e lm="convaincant"><i>convaincant</i><par n="abaissant__adj"/></e>
 <e lm="convaincu"><i>convaincu</i><par n="abaissant__adj"/></e>
 <e lm="convalescent"><i>convalescent</i><par n="abaissant__adj"/></e>
@@ -8719,6 +8722,8 @@
 <e lm="euphorique"><i>euphorique</i><par n="académique__adj"/></e>
 <e lm="euphorisant"><i>euphorisant</i><par n="abaissant__adj"/></e>
 <e lm="européen"><i>européen</i><par n="ancien__adj"/></e>
+<e lm="paneuropéen"><i>paneuropéen</i><par n="ancien__adj"/></e>
+<e lm="transeuropéen"><i>transeuropéen</i><par n="ancien__adj"/></e>
 <e r="LR" lm="éventuel"><p><l>Eventuel</l>             <r>éventuel</r></p><par n="annuel__adj"/></e>
 <e r="LR" lm="évident"><p><l>Evident</l>               <r>évident</r></p><par n="abaissant__adj"/></e>
 <e r="LR" lm="évocateur"><p><l>Evocat</l>              <r>évocat</r></p><par n="conduct/eur__adj"/></e>
@@ -10191,6 +10196,7 @@
 <e lm="off"><i>off</i><par n="arrière__adj"/></e>
 <e lm="offensif"><i>offensi</i><par n="affirmati/f__adj"/></e>
 <e lm="officiel"><i>officiel</i><par n="annuel__adj"/></e>
+<e lm="co-officiel"><i>co-officiel</i><par n="annuel__adj"/></e>
 <e lm="officieux" a="jaumeortola"><i>officieu</i><par n="affectueu/x__adj"/></e>
 <e lm="ogival" a="jaumeortola"><i>ogiva</i><par n="amica/l__adj"/></e>
 <e lm="oligarchique" a="jaumeortola"><i>oligarchique</i><par n="académique__adj"/></e>
@@ -12698,6 +12704,8 @@
 <e lm="anarcho-syndicalisme" a="jaumeortola"><i>anarcho-syndicalisme</i><par n="livre__n"/></e>
 <e lm="anarchosyndicalisme" a="jaumeortola"><i>anarchosyndicalisme</i><par n="livre__n"/></e>
 <e lm="anarchosyndicaliste" a="jaumeortola"><i>anarchosyndicaliste</i><par n="artiste__n"/></e>
+<e lm="anarcho-syndicalisme"><i>anarcho-syndicalisme</i><par n="livre__n"/></e>
+<e lm="anarcho-syndicaliste"><i>anarcho-syndicaliste</i><par n="artiste__n"/></e>
 <e lm="anarthrie" a="jaumeortola"><i>anarthrie</i><par n="abeille__n"/></e>
 <e lm="anasarque" a="jaumeortola"><i>anasarque</i><par n="abeille__n"/></e>
 <e lm="anastomose" a="jaumeortola"><i>anastomose</i><par n="abeille__n"/></e>
@@ -17695,6 +17703,7 @@
 <e lm="fichier"><i>fichier</i><par n="livre__n"/></e>
 <e lm="fiction"><i>fiction</i><par n="abeille__n"/></e>
 <e lm="fidèle"><i>fidèle</i><par n="artiste__n"/></e>
+<e lm="infidèle"><i>infidèle</i><par n="artiste__n"/></e>
 <e lm="fidéicommis" a="jaumeortola"><i>fidéicommis</i><par n="mois__n"/></e>
 <e lm="fidélisation"><i>fidélisation</i><par n="abeille__n"/></e>
 <e lm="fidélité"><i>fidélité</i><par n="abeille__n"/></e>
@@ -21279,6 +21288,7 @@
 <e lm="officier"><i>offici</i><par n="bouch/er__n"/></e>
 <e lm="officialisation" a="jaumeortola"><i>officialisation</i><par n="abeille__n"/></e>
 <e lm="officialité"><i>officialité</i><par n="abeille__n"/></e>
+<e lm="co-officialité"><i>co-officialité</i><par n="abeille__n"/></e>
 <e lm="officiel"><i>officiel</i><par n="colonel__n"/></e>
 <e lm="offrande"><i>offrande</i><par n="abeille__n"/></e>
 <e lm="offrant"><i>offrant</i><par n="affecté__n"/></e>
@@ -25624,7 +25634,7 @@
 <e lm="yeuse"><i>yeuse</i><par n="abeille__n"/></e>
 <e lm="yin"><i>yin</i><par n="mois__n"/></e>
 <e lm="yoga" a="jaumeortola"><i>yoga</i><par n="livre__n"/></e>
-<e lm="yougoslave" a="jaumeortola"><i>yougoslave</i><par n="artiste__n"/></e>
+<e lm="Yougoslave"><i>Yougoslave</i><par n="artiste__n"/></e>
 <e lm="yourte"><i>yourte</i><par n="abeille__n"/></e>
 <e lm="Yéménite"><i>Yéménite</i><par n="artiste__n"/></e>
 <e lm="zapatisme"><i>zapatisme</i><par n="livre__n"/></e>
@@ -27629,6 +27639,7 @@
 <e lm="joncher"><i>jonch</i><par n="abaiss/er__vblex"/></e>
 <e lm="jouer à saute-mouton"><i>jou</i><par n="abaiss/er__vblex"/><p><l><b/>à<b/>saute-mouton</l><r><g><b/>à<b/>saute-mouton</g></r></p></e>
 <e lm="jouer avec le feu"><i>jou</i><par n="abaiss/er__vblex"/><p><l><b/>avec<b/>le<b/>feu</l><r><g><b/>avec<b/>le<b/>feu</g></r></p></e>
+<e lm="jouer de la flûte"><i>jou</i><par n="abaiss/er__vblex"/><p><l><b/>de<b/>la<b/>flûte</l><r><g><b/>de<b/>la<b/>flûte</g></r></p></e>
 <e lm="jouer"><i>jou</i><par n="abaiss/er__vblex"/></e>
 <e lm="jouer le rôle principal"><i>jou</i><par n="abaiss/er__vblex"/><p><l><b/>le<b/>rôle<b/>principal</l><r><g><b/>le<b/>rôle<b/>principal</g></r></p></e>
 <e lm="jouir"><i>jou</i><par n="about/[]ir__vblex" prm=""/></e>
@@ -27645,6 +27656,7 @@
 <e lm="lever du pied gauche"><i>l</i><par n="ach/e[T]er__vblex" prm="v"/><p><l><b/>du<b/>pied<b/>gauche</l><r><g><b/>du<b/>pied<b/>gauche</g></r></p></e>
 <e lm="lever"><i>l</i><par n="ach/e[T]er__vblex" prm="v"/></e>
 <e lm="lire"><i>l</i><par n="l/ire__vblex"/></e>
+<e lm="relire"><i>rel</i><par n="l/ire__vblex"/></e>
 <e lm="lécher"><i>l</i><par n="accél/é[R]er__vblex" prm="ch"/></e>
 <e lm="layer"><i>la</i><par n="bala/yer__vblex"/></e>
 <e lm="lainer"><i>lain</i><par n="abaiss/er__vblex"/></e>
@@ -28790,6 +28802,7 @@
 <e lm="usurper"><i>usurp</i><par n="abaiss/er__vblex"/></e>
 <e lm="utiliser"><i>utilis</i><par n="abaiss/er__vblex"/></e>
 <e lm="venir"><i>v</i><par n="appart/enir__vblex"/></e>
+<e lm="contrevenir"><i>contrev</i><par n="appart/enir__vblex"/></e>
 <e lm="vivre ensemble"><i>v</i><par n="rev/ivre__vblex"/><p><l><b/>ensemble</l><r><g><b/>ensemble</g></r></p></e>
 <e lm="vivre"><i>v</i><par n="rev/ivre__vblex"/></e>
 <e lm="voir"><i>v</i><par n="entrev/oir__vblex"/></e>
@@ -35998,7 +36011,7 @@
 <e lm="Das"><i>Das</i><par n="Saussure__np"/></e>
 <e lm="Daschle"><i>Daschle</i><par n="Saussure__np"/></e>
 <e lm="Dasilva" a="hector"><i>Dasilva</i><par n="Saussure__np"/></e>
-<e lm="Dassault"><i>Dassault</i><par n="Iran__np"/></e>
+<e lm="Dassault"><i>Dassault</i><par n="Linux__np"/></e>
 <e lm="Dastous" a="hector"><i>Dastous</i><par n="Saussure__np"/></e>
 <e lm="Daudelin"><i>Daudelin</i><par n="Saussure__np"/></e>
 <e lm="Daunais"><i>Daunais</i><par n="Saussure__np"/></e>
@@ -39381,6 +39394,7 @@
 <e lm="Haba"><i>Haba</i><par n="Saussure__np"/></e>
 <e lm="Habermas"><i>Habermas</i><par n="Saussure__np"/></e>
 <e lm="Habib"><i>Habib</i><par n="Saussure__np"/></e>
+<e lm="Habib"><i>Habib</i><par n="Antoine__np"/></e>
 <e lm="Habib Bourguiba"><i>Habib<b/>Bourguiba</i><par n="Antoine__np"/></e>
 <e lm="Habsburg"><i>Habsburg</i><par n="Saussure__np"/></e>
 <e lm="Hachem"><i>Hachem</i><par n="Saussure__np"/></e>
@@ -40979,10 +40993,11 @@
 <e lm="Kostunica"><i>Kostunica</i><par n="Saussure__np"/></e>
 <e lm="Kouchner"><i>Kouchner</i><par n="Saussure__np"/></e>
 <e lm="Kouma"><i>Kouma</i><par n="Saussure__np"/></e>
-<e lm="Kourgan"><i>Kourgan</i><par n="Andorre__np"/></e>
+<e lm="Kourgan"><i>Kourgan</i><par n="Iran__np"/></e>
 <e lm="Kournikova"><i>Kournikova</i><par n="Saussure__np"/></e>
-<e lm="Koursk"><i>Koursk</i><par n="Andorre__np"/></e>
-<e lm="Kovacevic"><i>Kovacevic</i><par n="Abraham__np"/></e>
+<e r="LR" lm="Kurnikova"><i>Kurnikova</i><par n="Saussure__np"/></e>
+<e lm="Koursk"><i>Koursk</i><par n="Iran__np"/></e>
+<e lm="Kovacevic"><i>Kovacevic</i><par n="Saussure__np"/></e>
 <e lm="Kovacs"><i>Kovacs</i><par n="Saussure__np"/></e>
 <e lm="Kovács"><i>Kovács</i><par n="Saussure__np"/></e>
 <e lm="Koweït"><i>Koweït</i><par n="Iran__np"/></e>
@@ -42905,9 +42920,9 @@
 <e lm="Masseau"><i>Masseau</i><par n="Saussure__np"/></e>
 <e lm="Massicotte" a="hector"><i>Massicotte</i><par n="Saussure__np"/></e>
 <e lm="Massie"><i>Massie</i><par n="Saussure__np"/></e>
-<e lm="Massif Central"><i>Massif<b/>Central</i><par n="Andorre__np"/></e>
-<e lm="Massif des Vosges"><i>Massif<b/>des<b/>Vosges</i><par n="Andorre__np"/></e>
-<e lm="massif Vinson"><i>massif<b/>Vinson</i><par n="Andorre__np"/></e>
+<e lm="Massif Central"><i>Massif<b/>Central</i><par n="Iran__np"/></e>
+<e lm="Massif des Vosges"><i>Massif<b/>des<b/>Vosges</i><par n="Iran__np"/></e>
+<e lm="massif Vinson"><i>massif<b/>Vinson</i><par n="Iran__np"/></e>
 <e lm="Massimiliano"><i>Massimiliano</i><par n="Antoine__np"/></e>
 <e lm="Massimo"><i>Massimo</i><par n="Antoine__np"/></e>
 <e lm="Massip"><i>Massip</i><par n="Saussure__np"/></e>
@@ -48876,7 +48891,7 @@
 <e lm="Tarantino"><i>Tarantino</i><par n="Saussure__np"/></e>
 <e lm="Tarawa"><i>Tarawa</i><par n="Andorre__np"/></e>
 <e lm="Tarazona"><i>Tarazona</i><par n="Saussure__np"/></e>
-<e lm="Tarbes"><i>Tarbes</i><par n="Andorre__np"/></e>
+<e lm="Tarbes"><i>Tarbes</i><par n="Bulgarie__np"/></e>
 <e lm="Tardagila"><i>Tardagila</i><par n="Abraham__np"/></e>
 <e lm="Tardif" a="hector"><i>Tardif</i><par n="Saussure__np"/></e>
 <e lm="Tardio"><i>Tardio</i><par n="Saussure__np"/></e>
@@ -53686,7 +53701,6 @@
 <e lm="peu"><i>peu</i><par n="très__preadv"/></e>
 <e lm="presque"><i>presque</i><par n="très__preadv"/></e>
 <e lm="quasi"><i>quasi</i><par n="très__preadv"/></e>
-    <!-- <e lm="si" r="LR"><i>si</i><par n="hier__adv"/></e> -->
 <e lm="si"><i>si</i><par n="très__preadv"/></e>
 <e lm="quelque"><i>quelque</i><par n="très__preadv"/></e>
 <e lm="tellement"><i>tellement</i><par n="très__preadv"/></e>
@@ -55381,7 +55395,6 @@
 <e lm="Edilma"><i>Edilma</i><par n="Marie__np"/></e>
 <e lm="Edisa"><i>Edisa</i><par n="Marie__np"/></e>
 <e lm="Edita"><i>Edita</i><par n="Marie__np"/></e>
-<e lm="Edith"><i>Edith</i><par n="Marie__np"/></e>
 <e lm="Edmonda"><i>Edmonda</i><par n="Marie__np"/></e>
 <e lm="Edmée"><i>Edmée</i><par n="Marie__np"/></e>
 <e lm="Edna"><i>Edna</i><par n="Marie__np"/></e>
@@ -57227,6 +57240,7 @@
 <e lm="Pilmaiquen"><i>Pilmaiquen</i><par n="Marie__np"/></e>
 <e lm="Pilmayquen"><i>Pilmayquen</i><par n="Marie__np"/></e>
 <e lm="Pina"><i>Pina</i><par n="Marie__np"/></e>
+<e lm="Placid"><i>Placid</i><par n="Marie__np"/></e>
 <e lm="Placide"><i>Placide</i><par n="Marie__np"/></e>
 <e lm="Plaisance"><i>Plaisance</i><par n="Marie__np"/></e>
 <e lm="Plácida"><i>Plácida</i><par n="Marie__np"/></e>
@@ -59777,6 +59791,8 @@
 <e lm="Papouasien" a="capsot"><i>Papouasien</i><par n="ancien__n"/></e>
 <e lm="Tongien" a="capsot"><i>Tongien</i><par n="ancien__n"/></e>
 <e lm="Néo-Calédonien" a="capsot"><i>Néo-Calédonien</i><par n="ancien__n"/></e>
+<e lm="Calédonien" a="capsot"><i>Calédonien</i><par n="ancien__n"/></e>
+<e lm="calédonien" a="capsot"><i>calédonien</i><par n="ancien__adj"/></e>
 <e lm="Polynésien" a="capsot"><i>Polynésien</i><par n="ancien__n"/></e>
 <e lm="Marquisien" a="capsot"><i>Marquisien</i><par n="ancien__n"/></e>
 <e lm="swazi" a="capsot"><i>swazi</i><par n="affecté__n"/></e>
@@ -59948,6 +59964,454 @@
 <e lm="télématique"><i>télématique</i><par n="académique__adj"/></e>
 <e lm="valide"><i>valide</i><par n="académique__adj"/></e>
 <e lm="valide"><i>valide</i><par n="artiste__n"/></e>
+
+<e lm="si" r="RL" c="réponse à un question négative"><i>si</i><par n="hier__adv"/></e>
+<e lm="à portée"><i>à<b/>portée</i><par n="hier__adv"/></e>
+<e lm="tout à l'heure"><i>tout<b/>à<b/>l'heure</i><par n="hier__adv"/></e>
+<e r="RL" lm="quelque part"><i>quelque<b/>part</i><par n="hier__adv"/></e>
+<e lm="au bord"><i>au<b/>bord</i><par n="hier__adv"/></e>
+<e lm="anecdotiquement"><i>anecdotiquement</i><par n="hier__adv"/></e>
+<e lm="là-haut"><i>là-haut</i><par n="hier__adv"/></e>
+<e lm="San Francisco" a="hector"><i>San<b/>Francisco</i><par n="Iran__np"/></e>
+<e lm="Beatritz"><i>Beatritz</i><par n="Marie__np"/></e>
+<e lm="Bernadeta"><i>Bernadeta</i><par n="Marie__np"/></e>
+<e lm="Catarina"><i>Catarina</i><par n="Marie__np"/></e>
+<e lm="#Constança"><i>#Constança</i><par n="Marie__np"/></e>
+<e lm="Corina"><i>Corina</i><par n="Marie__np"/></e>
+<e lm="Edit"><i>Edit</i><par n="Marie__np"/></e>
+<e lm="Nicòla"><i>Nicòla</i><par n="Marie__np"/></e>
+<e lm="Raquèl"><i>Raquèl</i><par n="Marie__np"/></e>
+<e lm="Attila"><i>Attila</i><par n="Antoine__np"/></e>
+<e lm="Fabian"><i>Fabian</i><par n="Antoine__np"/></e>
+<e lm="Francés"><i>Francés</i><par n="Antoine__np"/></e>
+<e lm="German"><i>German</i><par n="Antoine__np"/></e>
+<e lm="Gustau"><i>Gustau</i><par n="Antoine__np"/></e>
+<e lm="Hendrik"><i>Hendrik</i><par n="Antoine__np"/></e>
+<e lm="Isidore"><i>Isidore</i><par n="Antoine__np"/></e>
+<e lm="Lucian"><i>Lucian</i><par n="Antoine__np"/></e>
+<e lm="Olivier"><i>Olivier</i><par n="Antoine__np"/></e>
+<e lm="Ramond"><i>Ramond</i><par n="Antoine__np"/></e>
+<e lm="Beatritz"><i>Beatritz</i><par n="Antoine__np"/></e>
+<e lm="péculier"><i>péculi</i><par n="ch/er__adj"/></e>
+<e lm="justificatif"><i>justificati</i><par n="affirmati/f__adj"/></e>
+<e lm="électif"><i>électi</i><par n="affirmati/f__adj"/></e>
+<e lm="obsessif"><i>obsessi</i><par n="affirmati/f__adj"/></e>
+<e lm="opératif"><i>opérati</i><par n="affirmati/f__adj"/></e>
+<e lm="naturiste"><i>naturiste</i><par n="académique__adj"/></e>
+<e lm="épistolaire"><i>épistolaire</i><par n="académique__adj"/></e>
+<e lm="monolithique"><i>monolithique</i><par n="académique__adj"/></e>
+<e lm="généalogique"><i>généalogique</i><par n="académique__adj"/></e>
+<e lm="philharmonique"><i>philharmonique</i><par n="académique__adj"/></e>
+<e lm="incontinent"><i>incontinent</i><par n="abaissant__adj"/></e>
+<e lm="sordide"><i>sordide</i><par n="académique__adj"/></e>
+<e lm="acrimonieux"><i>acrimonieu</i><par n="affectueu/x__adj"/></e>
+<e lm="afflictif"><i>afflicti</i><par n="affirmati/f__adj"/></e>
+<e lm="diachronique"><i>diachronique</i><par n="académique__adj"/></e>
+<e lm="boueux"><i>boueu</i><par n="affectueu/x__adj"/></e>
+<e lm="sidéral"><i>sidéra</i><par n="amica/l__adj"/></e>
+<e lm="intersidéral"><i>intersidéra</i><par n="amica/l__adj"/></e>
+<e lm="ulcératif"><i>ulcérati</i><par n="affirmati/f__adj"/></e>
+<e lm="transgresser"><i>transgress</i><par n="abaiss/er__vblex"/></e>
+<e lm="récriminer"><i>récrimin</i><par n="abaiss/er__vblex"/></e>
+<e lm="dignifier"><i>dignifi</i><par n="abaiss/er__vblex"/></e>
+<e lm="récapituler"><i>récapitul</i><par n="abaiss/er__vblex"/></e>
+<e lm="gâter"><i>gât</i><par n="abaiss/er__vblex"/></e>
+<e lm="confesser"><i>confess</i><par n="abaiss/er__vblex"/></e>
+<e lm="moissonner"><i>moissonn</i><par n="abaiss/er__vblex"/></e>
+<e lm="mâchouiller"><i>mâchouill</i><par n="abaiss/er__vblex"/></e>
+<e lm="conjurer"><i>conjur</i><par n="abaiss/er__vblex"/></e>
+<e lm="investiguer"><i>investigu</i><par n="abaiss/er__vblex"/></e>
+<e lm="politiser"><i>politis</i><par n="abaiss/er__vblex"/></e>
+<e lm="vertébrer"><i>vertébr</i><par n="abaiss/er__vblex"/></e>
+<e lm="relationner"><i>relationn</i><par n="abaiss/er__vblex"/></e>
+<e lm="pontifier"><i>pontifi</i><par n="abaiss/er__vblex"/></e>
+<e lm="relaxer"><i>relax</i><par n="abaiss/er__vblex"/></e>
+<e lm="converser"><i>convers</i><par n="abaiss/er__vblex"/></e>
+<e lm="bramer"><i>bram</i><par n="abaiss/er__vblex"/></e>
+<e lm="sevrer"><i>sevr</i><par n="abaiss/er__vblex"/></e>
+<e lm="expérimenter"><i>expériment</i><par n="abaiss/er__vblex"/></e>
+<e lm="disséminer"><i>dissémin</i><par n="abaiss/er__vblex"/></e>
+<e lm="mortifier"><i>mortifi</i><par n="abaiss/er__vblex"/></e>
+<e lm="complémenter"><i>complément</i><par n="abaiss/er__vblex"/></e>
+<e lm="réflexionner"><i>réflexion</i><par n="abaiss/er__vblex"/></e>
+<e lm="immergir"><i>immerg</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="recourir"><i>recour</i><par n="accour/ir__vblex"/></e>
+<e lm="bayonette"><i>bayonette</i><par n="abeille__n"/></e>
+<e lm="crimimalité"><i>crimimalité</i><par n="abeille__n"/></e>
+<e lm="allophone"><i>allophone</i><par n="livre__n"/></e>
+<e lm="asperité"><i>asperité</i><par n="abeille__n"/></e>
+<e lm="ducilité"><i>ducilité</i><par n="abeille__n"/></e>
+<e lm="liberalité"><i>liberalité</i><par n="abeille__n"/></e>
+<e lm="solemnité"><i>solemnité</i><par n="abeille__n"/></e>
+<e lm="hématologie"><i>hématologie</i><par n="abeille__n"/></e>
+<e lm="hépatologie"><i>hépatologie</i><par n="abeille__n"/></e>
+<e lm="gemmologie"><i>gemmologie</i><par n="abeille__n"/></e>
+<e lm="gérontologie"><i>gérontologie</i><par n="abeille__n"/></e>
+<e lm="graphologie"><i>graphologie</i><par n="abeille__n"/></e>
+<e lm="instinctif"><i>instincti</i><par n="affirmati/f__adj"/></e>
+<e lm="injonctif"><i>injoncti</i><par n="affirmati/f__adj"/></e>
+<e lm="abolitif" a="jaumeortola"><i>aboliti</i><par n="affirmati/f__adj"/></e>
+<e lm="abréviatif" a="jaumeortola"><i>abréviati</i><par n="affirmati/f__adj"/></e>
+<e lm="abrogatif" a="jaumeortola"><i>abrogati</i><par n="affirmati/f__adj"/></e>
+<e lm="absolutif" a="jaumeortola"><i>absoluti</i><par n="affirmati/f__adj"/></e>
+<e lm="absorptif" a="jaumeortola"><i>absorpti</i><par n="affirmati/f__adj"/></e>
+<e lm="acculturatif" a="jaumeortola"><i>acculturati</i><par n="affirmati/f__adj"/></e>
+<e lm="adventif" a="jaumeortola"><i>adventi</i><par n="affirmati/f__adj"/></e>
+<e lm="aérodigestif" a="jaumeortola"><i>aérodigesti</i><par n="affirmati/f__adj"/></e>
+<e lm="afflictif" a="jaumeortola"><i>afflicti</i><par n="affirmati/f__adj"/></e>
+<e lm="allitératif" a="jaumeortola"><i>allitérati</i><par n="affirmati/f__adj"/></e>
+<e lm="amélioratif" a="jaumeortola"><i>améliorati</i><par n="affirmati/f__adj"/></e>
+<e lm="amplectif" a="jaumeortola"><i>amplecti</i><par n="affirmati/f__adj"/></e>
+<e lm="antiadhésif" a="jaumeortola"><i>antiadhési</i><par n="affirmati/f__adj"/></e>
+<e lm="anticipatif" a="jaumeortola"><i>anticipati</i><par n="affirmati/f__adj"/></e>
+<e lm="anticommutatif" a="jaumeortola"><i>anticommutati</i><par n="affirmati/f__adj"/></e>
+<e lm="antiréflexif" a="jaumeortola"><i>antiréflexi</i><par n="affirmati/f__adj"/></e>
+<e lm="appétitif" a="jaumeortola"><i>appétiti</i><par n="affirmati/f__adj"/></e>
+<e lm="applicatif" a="jaumeortola"><i>applicati</i><par n="affirmati/f__adj"/></e>
+<e lm="approbatif" a="jaumeortola"><i>approbati</i><par n="affirmati/f__adj"/></e>
+<e lm="arbustif" a="jaumeortola"><i>arbusti</i><par n="affirmati/f__adj"/></e>
+<e lm="argumentatif" a="jaumeortola"><i>argumentati</i><par n="affirmati/f__adj"/></e>
+<e lm="assimilatif" a="jaumeortola"><i>assimilati</i><par n="affirmati/f__adj"/></e>
+<e lm="assomptif" a="jaumeortola"><i>assompti</i><par n="affirmati/f__adj"/></e>
+<e lm="auto-adaptatif" a="jaumeortola"><i>auto-adaptati</i><par n="affirmati/f__adj"/></e>
+<e lm="autoadaptatif" a="jaumeortola"><i>autoadaptati</i><par n="affirmati/f__adj"/></e>
+<e lm="auto-adhésif" a="jaumeortola"><i>auto-adhési</i><par n="affirmati/f__adj"/></e>
+<e lm="autoadhésif" a="jaumeortola"><i>autoadhési</i><par n="affirmati/f__adj"/></e>
+<e lm="autopunitif" a="jaumeortola"><i>autopuniti</i><par n="affirmati/f__adj"/></e>
+<e lm="autoritatif" a="jaumeortola"><i>autoritati</i><par n="affirmati/f__adj"/></e>
+<e lm="bi-actif" a="jaumeortola"><i>bi-acti</i><par n="affirmati/f__adj"/></e>
+<e lm="biactif" a="jaumeortola"><i>biacti</i><par n="affirmati/f__adj"/></e>
+<e lm="bijectif" a="jaumeortola"><i>bijecti</i><par n="affirmati/f__adj"/></e>
+<e lm="bourratif" a="jaumeortola"><i>bourrati</i><par n="affirmati/f__adj"/></e>
+<e lm="capacitif" a="jaumeortola"><i>capaciti</i><par n="affirmati/f__adj"/></e>
+<e lm="captatif" a="jaumeortola"><i>captati</i><par n="affirmati/f__adj"/></e>
+<e lm="carminatif" a="jaumeortola"><i>carminati</i><par n="affirmati/f__adj"/></e>
+<e lm="causatif" a="jaumeortola"><i>causati</i><par n="affirmati/f__adj"/></e>
+<e lm="chétif" a="jaumeortola"><i>chéti</i><par n="affirmati/f__adj"/></e>
+<e lm="coactif" a="jaumeortola"><i>coacti</i><par n="affirmati/f__adj"/></e>
+<e lm="coercitif" a="jaumeortola"><i>coerciti</i><par n="affirmati/f__adj"/></e>
+<e lm="coextensif" a="jaumeortola"><i>coextensi</i><par n="affirmati/f__adj"/></e>
+<e lm="cohésif" a="jaumeortola"><i>cohési</i><par n="affirmati/f__adj"/></e>
+<e lm="colligatif" a="jaumeortola"><i>colligati</i><par n="affirmati/f__adj"/></e>
+<e lm="combattif" a="jaumeortola"><i>combatti</i><par n="affirmati/f__adj"/></e>
+<e lm="comminutif" a="jaumeortola"><i>comminuti</i><par n="affirmati/f__adj"/></e>
+<e lm="complétif" a="jaumeortola"><i>compléti</i><par n="affirmati/f__adj"/></e>
+<e lm="compréhensif" a="jaumeortola"><i>compréhensi</i><par n="affirmati/f__adj"/></e>
+<e lm="compressif" a="jaumeortola"><i>compressi</i><par n="affirmati/f__adj"/></e>
+<e lm="compulsif" a="jaumeortola"><i>compulsi</i><par n="affirmati/f__adj"/></e>
+<e lm="conatif" a="jaumeortola"><i>conati</i><par n="affirmati/f__adj"/></e>
+<e lm="concessif" a="jaumeortola"><i>concessi</i><par n="affirmati/f__adj"/></e>
+<e lm="conclusif" a="jaumeortola"><i>conclusi</i><par n="affirmati/f__adj"/></e>
+<e lm="conductif" a="jaumeortola"><i>conducti</i><par n="affirmati/f__adj"/></e>
+<e lm="conducto-convectif" a="jaumeortola"><i>conducto-convecti</i><par n="affirmati/f__adj"/></e>
+<e lm="confédératif" a="jaumeortola"><i>confédérati</i><par n="affirmati/f__adj"/></e>
+<e lm="confirmatif" a="jaumeortola"><i>confirmati</i><par n="affirmati/f__adj"/></e>
+<e lm="congestif" a="jaumeortola"><i>congesti</i><par n="affirmati/f__adj"/></e>
+<e lm="connectif" a="jaumeortola"><i>connecti</i><par n="affirmati/f__adj"/></e>
+<e lm="connotatif" a="jaumeortola"><i>connotati</i><par n="affirmati/f__adj"/></e>
+<e lm="conservatif" a="jaumeortola"><i>conservati</i><par n="affirmati/f__adj"/></e>
+<e lm="considératif" a="jaumeortola"><i>considérati</i><par n="affirmati/f__adj"/></e>
+<e lm="consomptif" a="jaumeortola"><i>consompti</i><par n="affirmati/f__adj"/></e>
+<e lm="constrictif" a="jaumeortola"><i>constricti</i><par n="affirmati/f__adj"/></e>
+<e lm="contemplatif" a="jaumeortola"><i>contemplati</i><par n="affirmati/f__adj"/></e>
+<e lm="contentif" a="jaumeortola"><i>contenti</i><par n="affirmati/f__adj"/></e>
+<e lm="contragestif" a="jaumeortola"><i>contragesti</i><par n="affirmati/f__adj"/></e>
+<e lm="contrarotatif" a="jaumeortola"><i>contrarotati</i><par n="affirmati/f__adj"/></e>
+<e lm="contrastif" a="jaumeortola"><i>contrasti</i><par n="affirmati/f__adj"/></e>
+<e lm="contre-intuitif" a="jaumeortola"><i>contre-intuiti</i><par n="affirmati/f__adj"/></e>
+<e lm="contre-productif" a="jaumeortola"><i>contre-producti</i><par n="affirmati/f__adj"/></e>
+<e lm="contrintuitif" a="jaumeortola"><i>contrintuiti</i><par n="affirmati/f__adj"/></e>
+<e lm="convectif" a="jaumeortola"><i>convecti</i><par n="affirmati/f__adj"/></e>
+<e lm="conversif" a="jaumeortola"><i>conversi</i><par n="affirmati/f__adj"/></e>
+<e lm="convolutif" a="jaumeortola"><i>convoluti</i><par n="affirmati/f__adj"/></e>
+<e lm="copulatif" a="jaumeortola"><i>copulati</i><par n="affirmati/f__adj"/></e>
+<e lm="curatif" a="jaumeortola"><i>curati</i><par n="affirmati/f__adj"/></e>
+<e lm="datif" a="jaumeortola"><i>dati</i><par n="affirmati/f__adj"/></e>
+<e lm="décongestif" a="jaumeortola"><i>décongesti</i><par n="affirmati/f__adj"/></e>
+<e lm="déductif" a="jaumeortola"><i>déducti</i><par n="affirmati/f__adj"/></e>
+<e lm="défectif" a="jaumeortola"><i>défecti</i><par n="affirmati/f__adj"/></e>
+<e lm="dégressif" a="jaumeortola"><i>dégressi</i><par n="affirmati/f__adj"/></e>
+<e lm="délibératif" a="jaumeortola"><i>délibérati</i><par n="affirmati/f__adj"/></e>
+<e lm="démarcatif" a="jaumeortola"><i>démarcati</i><par n="affirmati/f__adj"/></e>
+<e lm="dénominatif" a="jaumeortola"><i>dénominati</i><par n="affirmati/f__adj"/></e>
+<e lm="dénotatif" a="jaumeortola"><i>dénotati</i><par n="affirmati/f__adj"/></e>
+<e lm="déperditif" a="jaumeortola"><i>déperditi</i><par n="affirmati/f__adj"/></e>
+<e lm="dépréciatif" a="jaumeortola"><i>dépréciati</i><par n="affirmati/f__adj"/></e>
+<e lm="dépuratif" a="jaumeortola"><i>dépurati</i><par n="affirmati/f__adj"/></e>
+<e lm="dérivatif" a="jaumeortola"><i>dérivati</i><par n="affirmati/f__adj"/></e>
+<e lm="désidératif" a="jaumeortola"><i>désidérati</i><par n="affirmati/f__adj"/></e>
+<e lm="désignatif" a="jaumeortola"><i>désignati</i><par n="affirmati/f__adj"/></e>
+<e lm="désincitatif" a="jaumeortola"><i>désincitati</i><par n="affirmati/f__adj"/></e>
+<e lm="désintégratif" a="jaumeortola"><i>désintégrati</i><par n="affirmati/f__adj"/></e>
+<e lm="desquamatif" a="jaumeortola"><i>desquamati</i><par n="affirmati/f__adj"/></e>
+<e lm="dessiccatif" a="jaumeortola"><i>dessiccati</i><par n="affirmati/f__adj"/></e>
+<e lm="déterminatif" a="jaumeortola"><i>déterminati</i><par n="affirmati/f__adj"/></e>
+<e lm="détersif" a="jaumeortola"><i>détersi</i><par n="affirmati/f__adj"/></e>
+<e lm="dévolutif" a="jaumeortola"><i>dévoluti</i><par n="affirmati/f__adj"/></e>
+<e lm="diapositif" a="jaumeortola"><i>diapositi</i><par n="affirmati/f__adj"/></e>
+<e lm="diffusif" a="jaumeortola"><i>diffusi</i><par n="affirmati/f__adj"/></e>
+<e lm="digressif" a="jaumeortola"><i>digressi</i><par n="affirmati/f__adj"/></e>
+<e lm="dilutif" a="jaumeortola"><i>diluti</i><par n="affirmati/f__adj"/></e>
+<e lm="diminutif" a="jaumeortola"><i>diminuti</i><par n="affirmati/f__adj"/></e>
+<e lm="discriminatif" a="jaumeortola"><i>discriminati</i><par n="affirmati/f__adj"/></e>
+<e lm="discursif" a="jaumeortola"><i>discursi</i><par n="affirmati/f__adj"/></e>
+<e lm="disjonctif" a="jaumeortola"><i>disjoncti</i><par n="affirmati/f__adj"/></e>
+<e lm="dispersif" a="jaumeortola"><i>dispersi</i><par n="affirmati/f__adj"/></e>
+<e lm="disruptif" a="jaumeortola"><i>disrupti</i><par n="affirmati/f__adj"/></e>
+<e lm="dissipatif" a="jaumeortola"><i>dissipati</i><par n="affirmati/f__adj"/></e>
+<e lm="dissociatif" a="jaumeortola"><i>dissociati</i><par n="affirmati/f__adj"/></e>
+<e lm="dissolutif" a="jaumeortola"><i>dissoluti</i><par n="affirmati/f__adj"/></e>
+<e lm="dissuasif" a="jaumeortola"><i>dissuasi</i><par n="affirmati/f__adj"/></e>
+<e lm="distractif" a="jaumeortola"><i>distracti</i><par n="affirmati/f__adj"/></e>
+<e lm="dolosif" a="jaumeortola"><i>dolosi</i><par n="affirmati/f__adj"/></e>
+<e lm="dormitif" a="jaumeortola"><i>dormiti</i><par n="affirmati/f__adj"/></e>
+<e lm="dubitatif" a="jaumeortola"><i>dubitati</i><par n="affirmati/f__adj"/></e>
+<e lm="duratif" a="jaumeortola"><i>durati</i><par n="affirmati/f__adj"/></e>
+<e lm="effractif" a="jaumeortola"><i>effracti</i><par n="affirmati/f__adj"/></e>
+<e lm="effusif" a="jaumeortola"><i>effusi</i><par n="affirmati/f__adj"/></e>
+<e lm="égressif" a="jaumeortola"><i>égressi</i><par n="affirmati/f__adj"/></e>
+<e lm="éjectif" a="jaumeortola"><i>éjecti</i><par n="affirmati/f__adj"/></e>
+<e lm="électif" a="jaumeortola"><i>électi</i><par n="affirmati/f__adj"/></e>
+<e lm="électronégatif" a="jaumeortola"><i>électronégati</i><par n="affirmati/f__adj"/></e>
+<e lm="électroportatif" a="jaumeortola"><i>électroportati</i><par n="affirmati/f__adj"/></e>
+<e lm="électropositif" a="jaumeortola"><i>électropositi</i><par n="affirmati/f__adj"/></e>
+<e lm="élusif" a="jaumeortola"><i>élusi</i><par n="affirmati/f__adj"/></e>
+<e lm="émissif" a="jaumeortola"><i>émissi</i><par n="affirmati/f__adj"/></e>
+<e lm="émulsif" a="jaumeortola"><i>émulsi</i><par n="affirmati/f__adj"/></e>
+<e lm="énonciatif" a="jaumeortola"><i>énonciati</i><par n="affirmati/f__adj"/></e>
+<e lm="énumératif" a="jaumeortola"><i>énumérati</i><par n="affirmati/f__adj"/></e>
+<e lm="épuratif" a="jaumeortola"><i>épurati</i><par n="affirmati/f__adj"/></e>
+<e lm="ergatif" a="jaumeortola"><i>ergati</i><par n="affirmati/f__adj"/></e>
+<e lm="éruptif" a="jaumeortola"><i>érupti</i><par n="affirmati/f__adj"/></e>
+<e lm="estimatif" a="jaumeortola"><i>estimati</i><par n="affirmati/f__adj"/></e>
+<e lm="estroprogestatif" a="jaumeortola"><i>estroprogestati</i><par n="affirmati/f__adj"/></e>
+<e lm="évaluatif" a="jaumeortola"><i>évaluati</i><par n="affirmati/f__adj"/></e>
+<e lm="évasif" a="jaumeortola"><i>évasi</i><par n="affirmati/f__adj"/></e>
+<e lm="exagératif" a="jaumeortola"><i>exagérati</i><par n="affirmati/f__adj"/></e>
+<e lm="exclamatif" a="jaumeortola"><i>exclamati</i><par n="affirmati/f__adj"/></e>
+<e lm="exécutif" a="jaumeortola"><i>exécuti</i><par n="affirmati/f__adj"/></e>
+<e lm="exemplatif" a="jaumeortola"><i>exemplati</i><par n="affirmati/f__adj"/></e>
+<e lm="exfoliatif" a="jaumeortola"><i>exfoliati</i><par n="affirmati/f__adj"/></e>
+<e lm="exhortatif" a="jaumeortola"><i>exhortati</i><par n="affirmati/f__adj"/></e>
+<e lm="expectatif" a="jaumeortola"><i>expectati</i><par n="affirmati/f__adj"/></e>
+<e lm="expéditif" a="jaumeortola"><i>expéditi</i><par n="affirmati/f__adj"/></e>
+<e lm="explétif" a="jaumeortola"><i>expléti</i><par n="affirmati/f__adj"/></e>
+<e lm="expulsif" a="jaumeortola"><i>expulsi</i><par n="affirmati/f__adj"/></e>
+<e lm="extéroceptif" a="jaumeortola"><i>extérocepti</i><par n="affirmati/f__adj"/></e>
+<e lm="extinctif" a="jaumeortola"><i>extincti</i><par n="affirmati/f__adj"/></e>
+<e lm="factitif" a="jaumeortola"><i>factiti</i><par n="affirmati/f__adj"/></e>
+<e lm="fautif" a="jaumeortola"><i>fauti</i><par n="affirmati/f__adj"/></e>
+<e lm="fermentatif" a="jaumeortola"><i>fermentati</i><par n="affirmati/f__adj"/></e>
+<e lm="fixatif" a="jaumeortola"><i>fixati</i><par n="affirmati/f__adj"/></e>
+<e lm="fréquentatif" a="jaumeortola"><i>fréquentati</i><par n="affirmati/f__adj"/></e>
+<e lm="gélif" a="jaumeortola"><i>géli</i><par n="affirmati/f__adj"/></e>
+<e lm="germinatif" a="jaumeortola"><i>germinati</i><par n="affirmati/f__adj"/></e>
+<e lm="gustatif" a="jaumeortola"><i>gustati</i><par n="affirmati/f__adj"/></e>
+<e lm="hâtif" a="jaumeortola"><i>hâti</i><par n="affirmati/f__adj"/></e>
+<e lm="hyperactif" a="jaumeortola"><i>hyperacti</i><par n="affirmati/f__adj"/></e>
+<e lm="hyperémotif" a="jaumeortola"><i>hyperémoti</i><par n="affirmati/f__adj"/></e>
+<e lm="hypersensitif" a="jaumeortola"><i>hypersensiti</i><par n="affirmati/f__adj"/></e>
+<e lm="hypertensif" a="jaumeortola"><i>hypertensi</i><par n="affirmati/f__adj"/></e>
+<e lm="hypotensif" a="jaumeortola"><i>hypotensi</i><par n="affirmati/f__adj"/></e>
+<e lm="hypothético-déductif" a="jaumeortola"><i>hypothético-déducti</i><par n="affirmati/f__adj"/></e>
+<e lm="hypothéticodéductif" a="jaumeortola"><i>hypothéticodéducti</i><par n="affirmati/f__adj"/></e>
+<e lm="illatif" a="jaumeortola"><i>illati</i><par n="affirmati/f__adj"/></e>
+<e lm="illuminatif" a="jaumeortola"><i>illuminati</i><par n="affirmati/f__adj"/></e>
+<e lm="imitatif" a="jaumeortola"><i>imitati</i><par n="affirmati/f__adj"/></e>
+<e lm="immersif" a="jaumeortola"><i>immersi</i><par n="affirmati/f__adj"/></e>
+<e lm="immunodépressif" a="jaumeortola"><i>immunodépressi</i><par n="affirmati/f__adj"/></e>
+<e lm="immunosuppressif" a="jaumeortola"><i>immunosuppressi</i><par n="affirmati/f__adj"/></e>
+<e lm="imperfectif" a="jaumeortola"><i>imperfecti</i><par n="affirmati/f__adj"/></e>
+<e lm="implosif" a="jaumeortola"><i>implosi</i><par n="affirmati/f__adj"/></e>
+<e lm="impressif" a="jaumeortola"><i>impressi</i><par n="affirmati/f__adj"/></e>
+<e lm="imprimitif" a="jaumeortola"><i>imprimiti</i><par n="affirmati/f__adj"/></e>
+<e lm="improbatif" a="jaumeortola"><i>improbati</i><par n="affirmati/f__adj"/></e>
+<e lm="inattentif" a="jaumeortola"><i>inattenti</i><par n="affirmati/f__adj"/></e>
+<e lm="inchoatif" a="jaumeortola"><i>inchoati</i><par n="affirmati/f__adj"/></e>
+<e lm="incitatif" a="jaumeortola"><i>incitati</i><par n="affirmati/f__adj"/></e>
+<e lm="incompréhensif" a="jaumeortola"><i>incompréhensi</i><par n="affirmati/f__adj"/></e>
+<e lm="ineffectif" a="jaumeortola"><i>ineffecti</i><par n="affirmati/f__adj"/></e>
+<e lm="inexpressif" a="jaumeortola"><i>inexpressi</i><par n="affirmati/f__adj"/></e>
+<e lm="infinitif" a="jaumeortola"><i>infiniti</i><par n="affirmati/f__adj"/></e>
+<e lm="infirmatif" a="jaumeortola"><i>infirmati</i><par n="affirmati/f__adj"/></e>
+<e lm="ingressif" a="jaumeortola"><i>ingressi</i><par n="affirmati/f__adj"/></e>
+<e lm="inhibitif" a="jaumeortola"><i>inhibiti</i><par n="affirmati/f__adj"/></e>
+<e lm="injonctif" a="jaumeortola"><i>injoncti</i><par n="affirmati/f__adj"/></e>
+<e lm="inquisitif" a="jaumeortola"><i>inquisiti</i><par n="affirmati/f__adj"/></e>
+<e lm="insinuatif" a="jaumeortola"><i>insinuati</i><par n="affirmati/f__adj"/></e>
+<e lm="instinctif" a="jaumeortola"><i>instincti</i><par n="affirmati/f__adj"/></e>
+<e lm="intempestif" a="jaumeortola"><i>intempesti</i><par n="affirmati/f__adj"/></e>
+<e lm="interjectif" a="jaumeortola"><i>interjecti</i><par n="affirmati/f__adj"/></e>
+<e lm="intéroceptif" a="jaumeortola"><i>intérocepti</i><par n="affirmati/f__adj"/></e>
+<e lm="interpellatif" a="jaumeortola"><i>interpellati</i><par n="affirmati/f__adj"/></e>
+<e lm="interprétatif" a="jaumeortola"><i>interprétati</i><par n="affirmati/f__adj"/></e>
+<e lm="interro-négatif" a="jaumeortola"><i>interro-négati</i><par n="affirmati/f__adj"/></e>
+<e lm="interronégatif" a="jaumeortola"><i>interronégati</i><par n="affirmati/f__adj"/></e>
+<e lm="interruptif" a="jaumeortola"><i>interrupti</i><par n="affirmati/f__adj"/></e>
+<e lm="intersubjectif" a="jaumeortola"><i>intersubjecti</i><par n="affirmati/f__adj"/></e>
+<e lm="intransitif" a="jaumeortola"><i>intransiti</i><par n="affirmati/f__adj"/></e>
+<e lm="introductif" a="jaumeortola"><i>introducti</i><par n="affirmati/f__adj"/></e>
+<e lm="introspectif" a="jaumeortola"><i>introspecti</i><par n="affirmati/f__adj"/></e>
+<e lm="intrusif" a="jaumeortola"><i>intrusi</i><par n="affirmati/f__adj"/></e>
+<e lm="inventif" a="jaumeortola"><i>inventi</i><par n="affirmati/f__adj"/></e>
+<e lm="inversif" a="jaumeortola"><i>inversi</i><par n="affirmati/f__adj"/></e>
+<e lm="involutif" a="jaumeortola"><i>involuti</i><par n="affirmati/f__adj"/></e>
+<e lm="irritatif" a="jaumeortola"><i>irritati</i><par n="affirmati/f__adj"/></e>
+<e lm="jointif" a="jaumeortola"><i>jointi</i><par n="affirmati/f__adj"/></e>
+<e lm="justificatif" a="jaumeortola"><i>justificati</i><par n="affirmati/f__adj"/></e>
+<e lm="lascif" a="jaumeortola"><i>lasci</i><par n="affirmati/f__adj"/></e>
+<e lm="laudatif" a="jaumeortola"><i>laudati</i><par n="affirmati/f__adj"/></e>
+<e lm="laxatif" a="jaumeortola"><i>laxati</i><par n="affirmati/f__adj"/></e>
+<e lm="lénitif" a="jaumeortola"><i>léniti</i><par n="affirmati/f__adj"/></e>
+<e lm="limitatif" a="jaumeortola"><i>limitati</i><par n="affirmati/f__adj"/></e>
+<e lm="locomotif" a="jaumeortola"><i>locomoti</i><par n="affirmati/f__adj"/></e>
+<e lm="longévif" a="jaumeortola"><i>longévi</i><par n="affirmati/f__adj"/></e>
+<e lm="ludo-éducatif" a="jaumeortola"><i>ludo-éducati</i><par n="affirmati/f__adj"/></e>
+<e lm="ludoéducatif" a="jaumeortola"><i>ludoéducati</i><par n="affirmati/f__adj"/></e>
+<e lm="maladif" a="jaumeortola"><i>maladi</i><par n="affirmati/f__adj"/></e>
+<e lm="maniaco-dépressif" a="jaumeortola"><i>maniaco-dépressi</i><par n="affirmati/f__adj"/></e>
+<e lm="maniacodépressif" a="jaumeortola"><i>maniacodépressi</i><par n="affirmati/f__adj"/></e>
+<e lm="médico-sportif" a="jaumeortola"><i>médico-sporti</i><par n="affirmati/f__adj"/></e>
+<e lm="médicosportif" a="jaumeortola"><i>médicosporti</i><par n="affirmati/f__adj"/></e>
+<e lm="méditatif" a="jaumeortola"><i>méditati</i><par n="affirmati/f__adj"/></e>
+<e lm="mélioratif" a="jaumeortola"><i>méliorati</i><par n="affirmati/f__adj"/></e>
+<e lm="minoratif" a="jaumeortola"><i>minorati</i><par n="affirmati/f__adj"/></e>
+<e lm="modificatif" a="jaumeortola"><i>modificati</i><par n="affirmati/f__adj"/></e>
+<e lm="multiplicatif" a="jaumeortola"><i>multiplicati</i><par n="affirmati/f__adj"/></e>
+<e lm="mussif" a="jaumeortola"><i>mussi</i><par n="affirmati/f__adj"/></e>
+<e lm="neurocognitif" a="jaumeortola"><i>neurocogniti</i><par n="affirmati/f__adj"/></e>
+<e lm="neurodégénératif" a="jaumeortola"><i>neurodégénérati</i><par n="affirmati/f__adj"/></e>
+<e lm="neurovégétatif" a="jaumeortola"><i>neurovégétati</i><par n="affirmati/f__adj"/></e>
+<e lm="nociceptif" a="jaumeortola"><i>nocicepti</i><par n="affirmati/f__adj"/></e>
+<e lm="non-directif" a="jaumeortola"><i>non-directi</i><par n="affirmati/f__adj"/></e>
+<e lm="non-figuratif" a="jaumeortola"><i>non-figurati</i><par n="affirmati/f__adj"/></e>
+<e lm="notificatif" a="jaumeortola"><i>notificati</i><par n="affirmati/f__adj"/></e>
+<e lm="numératif" a="jaumeortola"><i>numérati</i><par n="affirmati/f__adj"/></e>
+<e lm="nuncupatif" a="jaumeortola"><i>nuncupati</i><par n="affirmati/f__adj"/></e>
+<e lm="nutritif" a="jaumeortola"><i>nutriti</i><par n="affirmati/f__adj"/></e>
+<e lm="oblatif" a="jaumeortola"><i>oblati</i><par n="affirmati/f__adj"/></e>
+<e lm="obsessif" a="jaumeortola"><i>obsessi</i><par n="affirmati/f__adj"/></e>
+<e lm="obstructif" a="jaumeortola"><i>obstructi</i><par n="affirmati/f__adj"/></e>
+<e lm="œstroprogestatif" a="jaumeortola"><i>œstroprogestati</i><par n="affirmati/f__adj"/></e>
+<e lm="oisif" a="jaumeortola"><i>oisi</i><par n="affirmati/f__adj"/></e>
+<e lm="olfactif" a="jaumeortola"><i>olfacti</i><par n="affirmati/f__adj"/></e>
+<e lm="opératif" a="jaumeortola"><i>opérati</i><par n="affirmati/f__adj"/></e>
+<e lm="oppositif" a="jaumeortola"><i>oppositi</i><par n="affirmati/f__adj"/></e>
+<e lm="oppressif" a="jaumeortola"><i>oppressi</i><par n="affirmati/f__adj"/></e>
+<e lm="optatif" a="jaumeortola"><i>optati</i><par n="affirmati/f__adj"/></e>
+<e lm="oxydatif" a="jaumeortola"><i>oxydati</i><par n="affirmati/f__adj"/></e>
+<e lm="palliatif" a="jaumeortola"><i>palliati</i><par n="affirmati/f__adj"/></e>
+<e lm="partitif" a="jaumeortola"><i>partiti</i><par n="affirmati/f__adj"/></e>
+<e lm="perceptif" a="jaumeortola"><i>percepti</i><par n="affirmati/f__adj"/></e>
+<e lm="percussif" a="jaumeortola"><i>percussi</i><par n="affirmati/f__adj"/></e>
+<e lm="perfectif" a="jaumeortola"><i>perfecti</i><par n="affirmati/f__adj"/></e>
+<e lm="performatif" a="jaumeortola"><i>performati</i><par n="affirmati/f__adj"/></e>
+<e lm="persécutif" a="jaumeortola"><i>persécuti</i><par n="affirmati/f__adj"/></e>
+<e lm="perspectif" a="jaumeortola"><i>perspecti</i><par n="affirmati/f__adj"/></e>
+<e lm="perturbatif" a="jaumeortola"><i>perturbati</i><par n="affirmati/f__adj"/></e>
+<e lm="photo-oxydatif" a="jaumeortola"><i>photo-oxydati</i><par n="affirmati/f__adj"/></e>
+<e lm="piézorésistif" a="jaumeortola"><i>piézorésisti</i><par n="affirmati/f__adj"/></e>
+<e lm="pignoratif" a="jaumeortola"><i>pignorati</i><par n="affirmati/f__adj"/></e>
+<e lm="plaintif" a="jaumeortola"><i>plainti</i><par n="affirmati/f__adj"/></e>
+<e lm="portatif" a="jaumeortola"><i>portati</i><par n="affirmati/f__adj"/></e>
+<e lm="potestatif" a="jaumeortola"><i>potestati</i><par n="affirmati/f__adj"/></e>
+<e lm="poussif" a="jaumeortola"><i>poussi</i><par n="affirmati/f__adj"/></e>
+<e lm="prédicatif" a="jaumeortola"><i>prédicati</i><par n="affirmati/f__adj"/></e>
+<e lm="prédictif" a="jaumeortola"><i>prédicti</i><par n="affirmati/f__adj"/></e>
+<e lm="prépositif" a="jaumeortola"><i>prépositi</i><par n="affirmati/f__adj"/></e>
+<e lm="préservatif" a="jaumeortola"><i>préservati</i><par n="affirmati/f__adj"/></e>
+<e lm="présomptif" a="jaumeortola"><i>présompti</i><par n="affirmati/f__adj"/></e>
+<e lm="privatif" a="jaumeortola"><i>privati</i><par n="affirmati/f__adj"/></e>
+<e lm="pro-actif" a="jaumeortola"><i>pro-acti</i><par n="affirmati/f__adj"/></e>
+<e lm="proactif" a="jaumeortola"><i>proacti</i><par n="affirmati/f__adj"/></e>
+<e lm="processif" a="jaumeortola"><i>processi</i><par n="affirmati/f__adj"/></e>
+<e lm="procréatif" a="jaumeortola"><i>procréati</i><par n="affirmati/f__adj"/></e>
+<e lm="profectif" a="jaumeortola"><i>profecti</i><par n="affirmati/f__adj"/></e>
+<e lm="progestatif" a="jaumeortola"><i>progestati</i><par n="affirmati/f__adj"/></e>
+<e lm="prohibitif" a="jaumeortola"><i>prohibiti</i><par n="affirmati/f__adj"/></e>
+<e lm="prolifératif" a="jaumeortola"><i>proliférati</i><par n="affirmati/f__adj"/></e>
+<e lm="proprioceptif" a="jaumeortola"><i>propriocepti</i><par n="affirmati/f__adj"/></e>
+<e lm="propulsif" a="jaumeortola"><i>propulsi</i><par n="affirmati/f__adj"/></e>
+<e lm="prorogatif" a="jaumeortola"><i>prorogati</i><par n="affirmati/f__adj"/></e>
+<e lm="prospectif" a="jaumeortola"><i>prospecti</i><par n="affirmati/f__adj"/></e>
+<e lm="psychoactif" a="jaumeortola"><i>psychoacti</i><par n="affirmati/f__adj"/></e>
+<e lm="psycho-affectif" a="jaumeortola"><i>psycho-affecti</i><par n="affirmati/f__adj"/></e>
+<e lm="psychoaffectif" a="jaumeortola"><i>psychoaffecti</i><par n="affirmati/f__adj"/></e>
+<e lm="psycho-éducatif" a="jaumeortola"><i>psycho-éducati</i><par n="affirmati/f__adj"/></e>
+<e lm="psychoéducatif" a="jaumeortola"><i>psychoéducati</i><par n="affirmati/f__adj"/></e>
+<e lm="pulsatif" a="jaumeortola"><i>pulsati</i><par n="affirmati/f__adj"/></e>
+<e lm="purgatif" a="jaumeortola"><i>purgati</i><par n="affirmati/f__adj"/></e>
+<e lm="putatif" a="jaumeortola"><i>putati</i><par n="affirmati/f__adj"/></e>
+<e lm="radiatif" a="jaumeortola"><i>radiati</i><par n="affirmati/f__adj"/></e>
+<e lm="radio-actif" a="jaumeortola"><i>radio-acti</i><par n="affirmati/f__adj"/></e>
+<e lm="rébarbatif" a="jaumeortola"><i>rébarbati</i><par n="affirmati/f__adj"/></e>
+<e lm="récapitulatif" a="jaumeortola"><i>récapitulati</i><par n="affirmati/f__adj"/></e>
+<e lm="récognitif" a="jaumeortola"><i>récogniti</i><par n="affirmati/f__adj"/></e>
+<e lm="reconstructif" a="jaumeortola"><i>reconstructi</i><par n="affirmati/f__adj"/></e>
+<e lm="rectificatif" a="jaumeortola"><i>rectificati</i><par n="affirmati/f__adj"/></e>
+<e lm="redistributif" a="jaumeortola"><i>redistributi</i><par n="affirmati/f__adj"/></e>
+<e lm="réductif" a="jaumeortola"><i>réducti</i><par n="affirmati/f__adj"/></e>
+<e lm="réduplicatif" a="jaumeortola"><i>réduplicati</i><par n="affirmati/f__adj"/></e>
+<e lm="réflectif" a="jaumeortola"><i>réflecti</i><par n="affirmati/f__adj"/></e>
+<e lm="réitératif" a="jaumeortola"><i>réitérati</i><par n="affirmati/f__adj"/></e>
+<e lm="relutif" a="jaumeortola"><i>reluti</i><par n="affirmati/f__adj"/></e>
+<e lm="remémoratif" a="jaumeortola"><i>remémorati</i><par n="affirmati/f__adj"/></e>
+<e lm="réplétif" a="jaumeortola"><i>répléti</i><par n="affirmati/f__adj"/></e>
+<e lm="réplicatif" a="jaumeortola"><i>réplicati</i><par n="affirmati/f__adj"/></e>
+<e lm="reproductif" a="jaumeortola"><i>reproducti</i><par n="affirmati/f__adj"/></e>
+<e lm="résistif" a="jaumeortola"><i>résisti</i><par n="affirmati/f__adj"/></e>
+<e lm="résolutif" a="jaumeortola"><i>résoluti</i><par n="affirmati/f__adj"/></e>
+<e lm="résomptif" a="jaumeortola"><i>résompti</i><par n="affirmati/f__adj"/></e>
+<e lm="résultatif" a="jaumeortola"><i>résultati</i><par n="affirmati/f__adj"/></e>
+<e lm="rétif" a="jaumeortola"><i>réti</i><par n="affirmati/f__adj"/></e>
+<e lm="rétractif" a="jaumeortola"><i>rétracti</i><par n="affirmati/f__adj"/></e>
+<e lm="revif" a="jaumeortola"><i>revi</i><par n="affirmati/f__adj"/></e>
+<e lm="révolutif" a="jaumeortola"><i>révoluti</i><par n="affirmati/f__adj"/></e>
+<e lm="roboratif" a="jaumeortola"><i>roborati</i><par n="affirmati/f__adj"/></e>
+<e lm="sédatif" a="jaumeortola"><i>sédati</i><par n="affirmati/f__adj"/></e>
+<e lm="ségrégatif" a="jaumeortola"><i>ségrégati</i><par n="affirmati/f__adj"/></e>
+<e lm="séparatif" a="jaumeortola"><i>séparati</i><par n="affirmati/f__adj"/></e>
+<e lm="séronégatif" a="jaumeortola"><i>séronégati</i><par n="affirmati/f__adj"/></e>
+<e lm="séropositif" a="jaumeortola"><i>séropositi</i><par n="affirmati/f__adj"/></e>
+<e lm="siccatif" a="jaumeortola"><i>siccati</i><par n="affirmati/f__adj"/></e>
+<e lm="singulatif" a="jaumeortola"><i>singulati</i><par n="affirmati/f__adj"/></e>
+<e lm="socio-affectif" a="jaumeortola"><i>socio-affecti</i><par n="affirmati/f__adj"/></e>
+<e lm="socioaffectif" a="jaumeortola"><i>socioaffecti</i><par n="affirmati/f__adj"/></e>
+<e lm="socio-éducatif" a="jaumeortola"><i>socio-éducati</i><par n="affirmati/f__adj"/></e>
+<e lm="socioéducatif" a="jaumeortola"><i>socioéducati</i><par n="affirmati/f__adj"/></e>
+<e lm="sommatif" a="jaumeortola"><i>sommati</i><par n="affirmati/f__adj"/></e>
+<e lm="soustractif" a="jaumeortola"><i>soustracti</i><par n="affirmati/f__adj"/></e>
+<e lm="spécificatif" a="jaumeortola"><i>spécificati</i><par n="affirmati/f__adj"/></e>
+<e lm="statif" a="jaumeortola"><i>stati</i><par n="affirmati/f__adj"/></e>
+<e lm="stéréosélectif" a="jaumeortola"><i>stéréosélecti</i><par n="affirmati/f__adj"/></e>
+<e lm="subjonctif" a="jaumeortola"><i>subjoncti</i><par n="affirmati/f__adj"/></e>
+<e lm="subrogatif" a="jaumeortola"><i>subrogati</i><par n="affirmati/f__adj"/></e>
+<e lm="superattractif" a="jaumeortola"><i>superattracti</i><par n="affirmati/f__adj"/></e>
+<e lm="superlatif" a="jaumeortola"><i>superlati</i><par n="affirmati/f__adj"/></e>
+<e lm="supermassif" a="jaumeortola"><i>supermassi</i><par n="affirmati/f__adj"/></e>
+<e lm="supplétif" a="jaumeortola"><i>suppléti</i><par n="affirmati/f__adj"/></e>
+<e lm="suppressif" a="jaumeortola"><i>suppressi</i><par n="affirmati/f__adj"/></e>
+<e lm="suppuratif" a="jaumeortola"><i>suppurati</i><par n="affirmati/f__adj"/></e>
+<e lm="supputatif" a="jaumeortola"><i>supputati</i><par n="affirmati/f__adj"/></e>
+<e lm="suractif" a="jaumeortola"><i>suracti</i><par n="affirmati/f__adj"/></e>
+<e lm="surjectif" a="jaumeortola"><i>surjecti</i><par n="affirmati/f__adj"/></e>
+<e lm="surproductif" a="jaumeortola"><i>surproducti</i><par n="affirmati/f__adj"/></e>
+<e lm="survif" a="jaumeortola"><i>survi</i><par n="affirmati/f__adj"/></e>
+<e lm="suspensif" a="jaumeortola"><i>suspensi</i><par n="affirmati/f__adj"/></e>
+<e lm="taxatif" a="jaumeortola"><i>taxati</i><par n="affirmati/f__adj"/></e>
+<e lm="tensio-actif" a="jaumeortola"><i>tensio-acti</i><par n="affirmati/f__adj"/></e>
+<e lm="tensioactif" a="jaumeortola"><i>tensioacti</i><par n="affirmati/f__adj"/></e>
+<e lm="thermopropulsif" a="jaumeortola"><i>thermopropulsi</i><par n="affirmati/f__adj"/></e>
+<e lm="tractif" a="jaumeortola"><i>tracti</i><par n="affirmati/f__adj"/></e>
+<e lm="transgressif" a="jaumeortola"><i>transgressi</i><par n="affirmati/f__adj"/></e>
+<e lm="translatif" a="jaumeortola"><i>translati</i><par n="affirmati/f__adj"/></e>
+<e lm="ulcératif" a="jaumeortola"><i>ulcérati</i><par n="affirmati/f__adj"/></e>
+<e lm="unitif" a="jaumeortola"><i>uniti</i><par n="affirmati/f__adj"/></e>
+<e lm="vérificatif" a="jaumeortola"><i>vérificati</i><par n="affirmati/f__adj"/></e>
+<e lm="vitrificatif" a="jaumeortola"><i>vitrificati</i><par n="affirmati/f__adj"/></e>
+<e lm="volitif" a="jaumeortola"><i>voliti</i><par n="affirmati/f__adj"/></e>
+<e lm="vomitif" a="jaumeortola"><i>vomiti</i><par n="affirmati/f__adj"/></e>
+<e lm="votif" a="jaumeortola"><i>voti</i><par n="affirmati/f__adj"/></e>
 
 <!-- xxxx -->
   </section>
