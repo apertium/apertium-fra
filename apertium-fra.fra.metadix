@@ -7056,6 +7056,7 @@
 <e lm="anarchisant" a="jaumeortola"><i>anarchisant</i><par n="abaissant__adj"/></e>
 <e lm="anarchiste"><i>anarchiste</i><par n="académique__adj"/></e>
 <e lm="anarchosyndicaliste"><i>anarchosyndicaliste</i><par n="académique__adj"/></e>
+<e lm="narcho-syndicaliste"><i>narcho-syndicaliste</i><par n="académique__adj"/></e>
 <e lm="anastatique" a="jaumeortola"><i>anastatique</i><par n="académique__adj"/></e>
 <e lm="anatolien" a="jaumeortola"><i>anatolien</i><par n="ancien__adj"/></e>
 <e lm="anatomique"><i>anatomique</i><par n="académique__adj"/></e>
@@ -7874,6 +7875,7 @@
 <e lm="castillan"><i>castillan</i><par n="abaissant__adj"/></e>
 <e lm="catalan"><i>catalan</i><par n="abaissant__adj"/></e>
 <e lm="catalaniste"><i>catalaniste</i><par n="académique__adj"/></e>
+<e lm="anticatalaniste"><i>anticatalaniste</i><par n="académique__adj"/></e>
 <e lm="catalano-aragonais"><i>catalano-aragonais</i><par n="anglais__adj"/></e>
 <e lm="catalanophone"><i>catalanophone</i><par n="académique__adj"/></e>
 <e lm="catalytique" a="jaumeortola"><i>catalytique</i><par n="académique__adj"/></e>
@@ -8560,6 +8562,7 @@
 <e lm="dénégatoire"><i>dénégatoire</i><par n="académique__adj"/></e>
 <e lm="départamentale"><i>départamentale</i><par n="académique__adj"/></e>
 <e lm="départemental"><i>départementa</i><par n="amica/l__adj"/></e>
+<e lm="interdépartemental"><i>interdépartementa</i><par n="amica/l__adj"/></e>
 <e lm="dépendant"><i>dépendant</i><par n="abaissant__adj"/></e>
 <e lm="dépensier"><i>dépensi</i><par n="ch/er__adj"/></e>
 <e lm="dépilatoire" a="jaumeortola"><i>dépilatoire</i><par n="académique__adj"/></e>
@@ -10179,7 +10182,9 @@
 <e lm="occasionnel"><i>occasionnel</i><par n="annuel__adj"/></e>
 <e lm="occidental"><i>occidenta</i><par n="amica/l__adj"/></e>
 <e lm="occitan"><i>occitan</i><par n="abaissant__adj"/></e>
+<e lm="antioccitan"><i>antioccitan</i><par n="abaissant__adj"/></e>
 <e lm="occitaniste" a="jaumeortola"><i>occitaniste</i><par n="académique__adj"/></e>
+<e lm="antioccitaniste"><i>antioccitaniste</i><par n="académique__adj"/></e>
 <e lm="occlusif" a="jaumeortola"><i>occlusi</i><par n="affirmati/f__adj"/></e>
 <e lm="occulte"><i>occulte</i><par n="académique__adj"/></e>
 <e lm="occupationnel"><i>occupationnel</i><par n="annuel__adj"/></e>
@@ -12780,7 +12785,6 @@
 <e lm="anglicisme" a="jaumeortola"><i>anglicisme</i><par n="livre__n"/></e>
 <e lm="anglo-américain" a="jaumeortola"><i>anglo-américain</i><par n="affecté__n"/></e>
 <e lm="anglo-normand" a="jaumeortola"><i>anglo-normand</i><par n="affecté__n"/></e>
-<e lm="Anglo-saxon"><i>Anglo-saxon</i><par n="ancien__n"/></e>
 <e lm="anglomane" a="jaumeortola"><i>anglomane</i><par n="artiste__n"/></e>
 <e lm="anglomanie" a="jaumeortola"><i>anglomanie</i><par n="abeille__n"/></e>
 <e lm="anglophile" a="jaumeortola"><i>anglophile</i><par n="artiste__n"/></e>
@@ -12915,6 +12919,7 @@
 <e lm="antiaméricanisme"><i>antiaméricanisme</i><par n="livre__n"/></e>
 <e lm="antibiothérapie" a="jaumeortola"><i>antibiothérapie</i><par n="abeille__n"/></e>
 <e lm="antibiotique" a="jaumeortola"><i>antibiotique</i><par n="livre__n"/></e>
+<e lm="anticapitalisme"><i>anticapitalisme</i><par n="livre__n"/></e>
 <e lm="anticapitaliste"><i>anticapitaliste</i><par n="artiste__n"/></e>
 <e lm="anticatalanisme"><i>anticatalanisme</i><par n="livre__n"/></e>
 <e lm="anticathode" a="jaumeortola"><i>anticathode</i><par n="abeille__n"/></e>
@@ -14853,8 +14858,11 @@
 <e lm="cataclisme"><i>cataclisme</i><par n="livre__n"/></e>
 <e lm="catacombe"><i>catacombe</i><par n="abeille__n"/></e>
 <e lm="catalan"><i>catalan</i><par n="affecté__n"/></e>
+<e lm="anticatalan"><i>anticatalan</i><par n="affecté__n"/></e>
 <e lm="catalanisme"><i>catalanisme</i><par n="livre__n"/></e>
+<e lm="anticatalanisme"><i>anticatalanisme</i><par n="livre__n"/></e>
 <e lm="catalaniste"><i>catalaniste</i><par n="artiste__n"/></e>
+<e lm="anticatalaniste"><i>anticatalaniste</i><par n="artiste__n"/></e>
 <e lm="catalanité"><i>catalanité</i><par n="abeille__n"/></e>
 <e lm="catalogage"><i>catalogage</i><par n="livre__n"/></e>
 <e lm="catalogue"><i>catalogue</i><par n="livre__n"/></e>
@@ -15995,7 +16003,7 @@
 <e r="LR" lm="coup d'œil"><i>coup</i><par n="livre__n"/><p><l><b/>d'oeil</l><r><g><b/>d'œil</g></r></p></e>
 <e lm="coup"><i>coup</i><par n="livre__n"/></e>
 <e lm="coup de poing"><i>coup</i><par n="livre__n"/><p><l><b/>de<b/>poing</l><r><g><b/>de<b/>poing</g></r></p></e>
-<e lm="coup d'état"><i>coup</i><par n="livre__n"/><p><l><b/>d'état</l><r><g><b/>d'état</g></r></p></e>
+<e lm="coup d'État"><i>coup</i><par n="livre__n"/><p><l><b/>d'État</l><r><g><b/>d'État</g></r></p></e>
 <e lm="coupable" a="jaumeortola"><i>coupable</i><par n="artiste__n"/></e>
 <e lm="coupant" a="jaumeortola"><i>coupant</i><par n="affecté__n"/></e>
 <e lm="coupe"><i>coupe</i><par n="abeille__n"/></e>
@@ -21244,8 +21252,11 @@
 <e lm="occidental"><i>occidenta</i><par n="commercia/l__n"/></e>
 <e lm="occiput" a="jaumeortola"><i>occiput</i><par n="livre__n"/></e>
 <e lm="occitan"><i>occitan</i><par n="affecté__n"/></e>
+<e lm="antioccitan"><i>antioccitan</i><par n="affecté__n"/></e>
 <e lm="occitanisme" a="jaumeortola"><i>occitanisme</i><par n="livre__n"/></e>
+<e lm="antioccitanisme"><i>antioccitanisme</i><par n="livre__n"/></e>
 <e lm="occitaniste" a="jaumeortola"><i>occitaniste</i><par n="artiste__n"/></e>
+<e lm="antioccitaniste"><i>antioccitaniste</i><par n="artiste__n"/></e>
 <e lm="occultation"><i>occultation</i><par n="abeille__n"/></e>
 <e lm="occultisme" a="jaumeortola"><i>occultisme</i><par n="livre__n"/></e>
 <e lm="occultiste" a="jaumeortola"><i>occultiste</i><par n="artiste__n"/></e>
@@ -28283,6 +28294,7 @@
 <e lm="remorquer"><i>remorqu</i><par n="abaiss/er__vblex"/></e>
 <e lm="remplir de joie"><i>rempl</i><par n="about/[]ir__vblex" prm=""/><p><l><b/>de<b/>joie</l><r><g><b/>de<b/>joie</g></r></p></e>
 <e lm="remplir"><i>rempl</i><par n="about/[]ir__vblex" prm=""/></e>
+<e lm="emplir"><i>empl</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="remplacer"><i>rempla</i><par n="annon/cer__vblex"/></e>
 <e lm="remporter"><i>remport</i><par n="abaiss/er__vblex"/></e>
 <e lm="remédier"><i>remédi</i><par n="abaiss/er__vblex"/></e>
@@ -35380,6 +35392,7 @@
 <e lm="Consell"><i>Consell</i><par n="Iran__np"/></e>
 <e lm="Constable"><i>Constable</i><par n="Saussure__np"/></e>
 <e lm="Constance"><i>Constance</i><par n="Marie__np"/></e>
+<e lm="Constança"><i>Constança</i><par n="Marie__np"/></e>
 <e lm="Constanci"><i>Constanci</i><par n="Saussure__np"/></e>
 <e lm="Constant"><i>Constant</i><par n="Saussure__np"/></e>
 <e lm="Constantin"><i>Constantin</i><par n="Antoine__np"/></e>
@@ -59628,6 +59641,7 @@
 <e lm="Lons-le-Saunier"><i>Lons-le-Saunier</i><par n="Iran__np"/></e>
 <e lm="Avignon"><i>Avignon</i><par n="Iran__np"/></e>
 <e lm="Dzaoudzi"><i>Dzaoudzi</i><par n="Iran__np"/></e>
+<e lm="calandreta"><i>calandreta</i><par n="abeille__n"/></e>
 <e lm="Calandreta"><i>Calandreta</i><par n="Wikipedia__np"/></e>
 <e lm="Calandretas"><i>Calandretas</i><par n="Nations_unies__np"/></e>
 <e lm="Bressola"><i>Bressola</i><par n="Wikipedia__np"/></e>
@@ -60030,10 +60044,9 @@
 <e lm="bramer"><i>bram</i><par n="abaiss/er__vblex"/></e>
 <e lm="sevrer"><i>sevr</i><par n="abaiss/er__vblex"/></e>
 <e lm="expérimenter"><i>expériment</i><par n="abaiss/er__vblex"/></e>
-<e lm="disséminer"><i>dissémin</i><par n="abaiss/er__vblex"/></e>
 <e lm="mortifier"><i>mortifi</i><par n="abaiss/er__vblex"/></e>
 <e lm="complémenter"><i>complément</i><par n="abaiss/er__vblex"/></e>
-<e lm="réflexionner"><i>réflexion</i><par n="abaiss/er__vblex"/></e>
+<e lm="réflexionner"><i>réflexionn</i><par n="abaiss/er__vblex"/></e>
 <e lm="immergir"><i>immerg</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="recourir"><i>recour</i><par n="accour/ir__vblex"/></e>
 <e lm="bayonette"><i>bayonette</i><par n="abeille__n"/></e>
@@ -60412,6 +60425,34 @@
 <e lm="volitif" a="jaumeortola"><i>voliti</i><par n="affirmati/f__adj"/></e>
 <e lm="vomitif" a="jaumeortola"><i>vomiti</i><par n="affirmati/f__adj"/></e>
 <e lm="votif" a="jaumeortola"><i>voti</i><par n="affirmati/f__adj"/></e>
+<e lm="Wert"><i>Wert</i><par n="Saussure__np"/></e>
+<e lm="Senz"><i>Senz</i><par n="Saussure__np"/></e>
+<e lm="Alberte"><i>Alberte</i><par n="Saussure__np"/></e>
+<e lm="toulousain"><i>toulousain</i><par n="abaissant__adj"/></e>
+<e lm="toulousain"><i>Toulousain</i><par n="affecté__n"/></e>
+<e lm="marseillais"><i>marseillais</i><par n="anglais__adj"/></e>
+<e lm="marseillais"><i>Marseillais</i><par n="admis__n"/></e>
+<e lm="Vielha"><i>Vielha</i><par n="Bulgarie__np"/></e>
+<e lm="Ferriol" a="hector"><i>Ferriol</i><par n="Antoine__np"/></e>
+<e lm="Ferriòl" a="hector"><i>Ferriòl</i><par n="Antoine__np"/></e>
+<e lm="Macip" a="hector"><i>Macip</i><par n="Saussure__np"/></e>
+<e lm="Vaquèira"><i>Vaquèira</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Baqueira"><p><l>Baqueira</l><r>Vaquèira</r></p><par n="Bulgarie__np"/></e>
+<e lm="Beret"><i>Beret</i><par n="Iran__np"/></e>
+<e lm="Vaquèira Beret"><i>Vaquèira<b/>Beret</i><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Vaquèira-Beret"><p><l>Vaquèira-Beret</l><r>Vaquèira<b/>Beret</r></p><par n="Bulgarie__np"/></e>
+<e r="LR" lm="Baqueira-Beret"><p><l>Baqueira-Beret</l><r>Vaquèira<b/>Beret</r></p><par n="Bulgarie__np"/></e>
+<e lm="Bossòst"><i>Bossòst</i><par n="Iran__np"/></e>
+<e lm="Canejan"><i>Canejan</i><par n="Iran__np"/></e>
+<e r="RL" lm="Les"><i>Les</i><par n="Iran__np"/></e>
+<e lm="Boí"><i>Boí</i><par n="Iran__np"/></e>
+<e lm="Bonaigua"><i>Bonaigua</i><par n="Bulgarie__np"/></e>
+<e lm="lycéen"><i>lycéen</i><par n="ancien__adj"/></e>
+<e lm="lycéen"><i>lycéen</i><par n="ancien__n"/></e>
+<e lm="La Dépêche"><i>La<b/>Dépêche</i><par n="Wikipedia__np"/></e>
+<e lm="CUP"><i>CUP</i><par n="OPA__n"/></e>
+<e lm="Leca"><i>Leca</i><par n="Saussure__np"/></e>
+<e lm="Val d'Aran" a="hector"><i>Val<b/>d'Aran</i><par n="Iran__np"/></e>
 
 <!-- xxxx -->
   </section>
