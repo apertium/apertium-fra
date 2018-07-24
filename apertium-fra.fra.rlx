@@ -248,6 +248,7 @@ SELECT Ser IF (0 Est) (1 ("en")) (2 N); ## est en conséquence
 SELECT Ser IF (0 Est) (1 A) ;
 SELECT Ser IF (0 Est) (1 PP) ;
 SELECT Ser IF (0 Est) (1 Det) ;
+SELECT Ser IF (0 Est) (1 NP) ;
 SELECT Ser IF (0 Est) (1 unknown) ;
 
 SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
