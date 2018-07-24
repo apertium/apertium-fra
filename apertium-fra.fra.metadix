@@ -1648,6 +1648,12 @@
   <e>       <p><l>aies</l>      <r>avoir<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>aient</l>     <r>avoir<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ait</l>       <r>avoir<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>ayons</l>     <r>avoir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ayons</l>     <r>avoir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
+  <e r="RL"><p><l>ayez</l>      <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ayez</l>      <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
+  <e r="RL"><p><l>aie</l>       <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>aie</l>       <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
 <pardef n="S__encimp">
@@ -4682,6 +4688,9 @@
   <e>       <p><l>ussent</l>    <r>oître<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ûssent</l>    <r>oître<s n="vblex"/><s n="pis"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ût</l>        <r>oître<s n="vblex"/><s n="pis"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ues</l>       <r>oître<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
+  <e>       <p><l>ue</l>        <r>oître<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>us</l>        <r>oître<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>û</l>         <r>oître<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>oissons</l>   <r>oître<s n="vblex"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
   <e>       <p><l>oîs</l>       <r>oître<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
@@ -6585,6 +6594,9 @@
   <e>       <p><l>te</l>       <r>fri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>ts</l>       <r>fri<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
   <e>       <p><l>t</l>        <r>fri<s n="vblex"/><s n="pp"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>te</l>       <r>fri<s n="vblex"/><s n="pp"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>ts</l>       <r>fri<s n="vblex"/><s n="pp"/><s n="m"/><s n="pl"/></r></p></e>
+  <e>       <p><l>tes</l>      <r>fri<s n="vblex"/><s n="pp"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>sant</l>     <r>fri<s n="vblex"/><s n="ger"/></r></p></e>
   <e>       <p><l>s</l>        <r>fri<s n="vblex"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>s</l>        <r>fri<s n="vblex"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -6595,6 +6607,7 @@
   <e>       <p><l>rais</l>     <r>fri<s n="vblex"/><s n="cni"/><s n="p1"/><s n="sg"/></r></p></e>
   <e>       <p><l>rais</l>     <r>fri<s n="vblex"/><s n="cni"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>rait</l>     <r>fri<s n="vblex"/><s n="cni"/><s n="p3"/><s n="sg"/></r></p></e>
+  <e>       <p><l>s</l>        <r>fri<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
 </pardef>
 
     <!--secció de metaparadigmes-->
@@ -7601,6 +7614,7 @@
 <e lm="azyme" a="jaumeortola"><i>azyme</i><par n="académique__adj"/></e>
 <e lm="azéotrope" a="jaumeortola"><i>azéotrope</i><par n="académique__adj"/></e>
 <e lm="azéri" a="jaumeortola"><i>azéri</i><par n="abaissant__adj"/></e>
+<e lm="azéri" a="hector"><i>azéri</i><par n="affecté__n"/></e>
 <e lm="aéraulique" a="jaumeortola"><i>aéraulique</i><par n="académique__adj"/></e>
 <e lm="aéricole" a="jaumeortola"><i>aéricole</i><par n="académique__adj"/></e>
 <e lm="aérien" c="quin exemple més bonic..."><i>aérien</i><par n="ancien__adj"/></e>
@@ -12711,6 +12725,7 @@
 <e lm="anarchosyndicaliste" a="jaumeortola"><i>anarchosyndicaliste</i><par n="artiste__n"/></e>
 <e lm="anarcho-syndicalisme"><i>anarcho-syndicalisme</i><par n="livre__n"/></e>
 <e lm="anarcho-syndicaliste"><i>anarcho-syndicaliste</i><par n="artiste__n"/></e>
+<e lm="anarcho-syndicaliste"><i>anarcho-syndicaliste</i><par n="académique__adj"/></e>
 <e lm="anarthrie" a="jaumeortola"><i>anarthrie</i><par n="abeille__n"/></e>
 <e lm="anasarque" a="jaumeortola"><i>anasarque</i><par n="abeille__n"/></e>
 <e lm="anastomose" a="jaumeortola"><i>anastomose</i><par n="abeille__n"/></e>
@@ -21737,7 +21752,7 @@
 <e lm="passager clandestin"><p><l>passagère<b/>clandestine</l><r>passager<b/>clandestin</r></p><par n="soif__n"/></e>
 <e lm="passager clandestin"><p><l>passagères<b/>clandestines</l><r>passager<b/>clandestin</r></p><par n="vacances__n"/></e>
 <e lm="passant"><i>passant</i><par n="affecté__n"/></e>
-<e lm="passation"><i>passation</i><par n="livre__n"/></e>
+<e lm="passation"><i>passation</i><par n="abeille__n"/></e>
 <e lm="passe"><i>passe</i><par n="abeille__n"/></e>
 <e lm="passe"><i>passe</i><par n="livre__n"/></e>
 <e lm="passe-temps" a="jaumeortola"><i>passe-temps</i><par n="mois__n"/></e>
@@ -39878,7 +39893,7 @@
 <e lm="Hoyos"><i>Hoyos</i><par n="Saussure__np"/></e>
 <e lm="Hoyte"><i>Hoyte</i><par n="Saussure__np"/></e>
 <e lm="hoyTecnología"><i>hoyTecnología</i><par n="Carrefour__np"/></e>
-<e lm="HP"><i>HP</i><par n="Carrefour__np"/></e>
+<e lm="HP"><i>HP</i><par n="Linux__np"/></e>
 <e lm="Hrant"><i>Hrant</i><par n="Abraham__np"/></e>
 <e lm="Hruska"><i>Hruska</i><par n="Abraham__np"/></e>
 <e lm="html"><i>html</i><par n="Carrefour__np"/></e>
@@ -39917,6 +39932,7 @@
 <e lm="Hughboy"><i>Hughboy</i><par n="Saussure__np"/></e>
 <e lm="Hughes"><i>Hughes</i><par n="Saussure__np"/></e>
 <e lm="Hugo"><i>Hugo</i><par n="Antoine__np"/></e>
+<e lm="Hugo"><i>Hugo</i><par n="Saussure__np"/></e>
 <e lm="Hugo Chávez"><i>Hugo<b/>Chávez</i><par n="Antoine__np"/></e>
 <e lm="Hugo Chávez Frías"><i>Hugo<b/>Chávez<b/>Frías</i><par n="Antoine__np"/></e>
 <e lm="Hugues"><i>Hugues</i><par n="Antoine__np"/></e>
@@ -39968,7 +39984,7 @@
 <e lm="Huynh" a="hector"><i>Huynh</i><par n="Saussure__np"/></e>
 <e lm="Hyde"><i>Hyde</i><par n="Saussure__np"/></e>
 <e lm="Hydre"><i>Hydre</i><par n="Abraham__np"/></e>
-<e lm="Hydro"><i>Hydro</i><par n="Carrefour__np"/></e>
+<e lm="Hydro"><i>Hydro</i><par n="Linux__np"/></e>
 <e lm="Hynes"><i>Hynes</i><par n="Saussure__np"/></e>
 <e lm="Hyppolite"><i>Hyppolite</i><par n="Saussure__np"/></e>
 <e lm="Hyun"><i>Hyun</i><par n="Abraham__np"/></e>
@@ -54554,7 +54570,6 @@
 <e lm="Aliyah"><i>Aliyah</i><par n="Marie__np"/></e>
 <e lm="Aliza"><i>Aliza</i><par n="Marie__np"/></e>
 <e lm="Alize"><i>Alize</i><par n="Marie__np"/></e>
-<e lm="Aliénor"><i>Aliénor</i><par n="Marie__np"/></e>
 <e lm="Allegra"><i>Allegra</i><par n="Marie__np"/></e>
 <e lm="Allegria"><i>Allegria</i><par n="Marie__np"/></e>
 <e lm="Allie"><i>Allie</i><par n="Marie__np"/></e>
@@ -59962,7 +59977,7 @@
 <e lm="anachorète" a="hector"><i>anachorète</i><par n="livre__n"/></e>
 <e lm="châlit" a="hector"><i>châlit</i><par n="livre__n"/></e>
 <e lm="cassoulet" a="hector"><i>cassoulet</i><par n="livre__n"/></e>
-<e lm="cenelle" a="hector"><i>cenelle</i><par n="livre__n"/></e>
+<e lm="cenelle" a="hector"><i>cenelle</i><par n="abeille__n"/></e>
 <e lm="barysphère" a="hector"><i>barysphère</i><par n="livre__n"/></e>
 <e lm="Montand" a="hector"><i>Montand</i><par n="Saussure__np"/></e>
 <e lm="Xiang" a="hector"><i>Xiang</i><par n="Saussure__np"/></e>
@@ -60446,6 +60461,13 @@
 <e lm="Canejan"><i>Canejan</i><par n="Iran__np"/></e>
 <e r="RL" lm="Les"><i>Les</i><par n="Iran__np"/></e>
 <e lm="Boí"><i>Boí</i><par n="Iran__np"/></e>
+<e lm="Arres"><i>Arres</i><par n="Iran__np"/></e>
+<e lm="Bausen"><i>Bausen</i><par n="Iran__np"/></e>
+<e lm="Es Bòrdes"><i>Es<b/>Bòrdes</i><par n="Bulgarie__np"/></e>
+<e lm="Naut Aran"><i>Naut<b/>Aran</i><par n="Iran__np"/></e>
+<e lm="Vielha e Mijaran"><i>Vielha<b/>e<b/>Mijaran</i><par n="Bulgarie__np"/></e>
+<e lm="Vilamòs"><i>Vilamòs</i><par n="Iran__np"/></e>
+<e lm="Salardú"><i>Salardú</i><par n="Iran__np"/></e>
 <e lm="Bonaigua"><i>Bonaigua</i><par n="Bulgarie__np"/></e>
 <e lm="lycéen"><i>lycéen</i><par n="ancien__adj"/></e>
 <e lm="lycéen"><i>lycéen</i><par n="ancien__n"/></e>
@@ -60453,6 +60475,36 @@
 <e lm="CUP"><i>CUP</i><par n="OPA__n"/></e>
 <e lm="Leca"><i>Leca</i><par n="Saussure__np"/></e>
 <e lm="Val d'Aran" a="hector"><i>Val<b/>d'Aran</i><par n="Iran__np"/></e>
+<e lm="Béziers"><i>Béziers</i><par n="Iran__np"/></e>
+<e lm="Montfort"><i>Montfort</i><par n="Saussure__np"/></e>
+<e lm="Simon de Montfort"><i>Simon<b/>de<b/>Montfort</i><par n="Antoine__np"/></e>
+<e lm="Ramon Roger"><i>Ramon<b/>Roger</i><par n="Antoine__np"/></e>
+<e lm="Aton"><i>Aton</i><par n="Antoine__np"/></e>
+<e lm="Bernard Aton"><i>Bernard<b/>Aton</i><par n="Antoine__np"/></e>
+<e lm="quiproquo"><i>quiproquo</i><par n="livre__n"/></e>
+<e lm="peton"><i>peton</i><par n="livre__n"/></e>
+<e lm="orthogenèse"><i>orthogenèse</i><par n="livre__n"/></e>
+<e lm="barysphère"><i>barysphère</i><par n="abeille__n"/></e>
+<e lm="cénobite"><i>cénobite</i><par n="livre__n"/></e>
+<e lm="céphalisation"><i>céphalisation</i><par n="abeille__n"/></e>
+<e lm="encéphalisation"><i>encéphalisation</i><par n="abeille__n"/></e>
+<e lm="cerisaie"><i>cerisaie</i><par n="abeille__n"/></e>
+<e lm="céruse"><i>céruse</i><par n="abeille__n"/></e>
+<e lm="cétérach"><i>cétérach</i><par n="livre__n"/></e>
+<e lm="chalut"><i>chalut</i><par n="livre__n"/></e>
+<e lm="chalutage"><i>chalutage</i><par n="livre__n"/></e>
+<e lm="charlotte"><i>charlotte</i><par n="abeille__n"/></e>
+<e lm="châtaigneraie"><i>châtaigneraie</i><par n="abeille__n"/></e>
+<e lm="chlorose"><i>chlorose</i><par n="abeille__n"/></e>
+<e lm="ciguë"><i>ciguë</i><par n="abeille__n"/></e>
+<e lm="désenvoûtement"><i>désenvoûtement</i><par n="livre__n"/></e>
+<e lm="envoûtement"><i>envoûtement</i><par n="livre__n"/></e>
+<e lm="fibrociment"><i>fibrociment</i><par n="livre__n"/></e>
+<e lm="germinal"><i>germina</i><par n="cie/l__n"/></e>
+<e lm="quatrain"><i>quatrain</i><par n="livre__n"/></e>
+<e lm="renouveau"><i>renouveau</i><par n="lieu__n"/></e>
+<e lm="vertex"><i>vertex</i><par n="mois__n"/></e>
+
 
 <!-- xxxx -->
   </section>
