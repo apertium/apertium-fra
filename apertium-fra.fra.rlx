@@ -397,9 +397,9 @@ SELECT Prs (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb)
 	# Compte: quiero decirle que me parece muy bien
 SELECT Pri (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) ;
 #REMOVE Prs (*-1 >>> BARRIER CnjAdv OR CnjSub OR Rel) (NOT -1 ("no") OR ("No") OR ("nunca") OR ("Nunca")) (0C Verb) ;
-SELECT Prs (*-1 ("être# .*"r) LINK 1 ("que")) (0C Verb) ;
-SELECT Prs (*-1 ("être") LINK 1 A LINK NOT 0 ("vrai") LINK 1 ("que")) (0C Verb) ;
-SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 ("que")) (0C Verb) ;
+SELECT Prs (*-1 ("être# .*"r) LINK 1 Que) (0C Verb) ;
+SELECT Prs (*-1 ("être") LINK 1 A LINK NOT 0 ("vrai") LINK 1 Que) (0C Verb) ;
+SELECT Prs (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 Que) (0C Verb) ;
 	# es común que la persona sienta la certeza
 	# es posible que vengas.
 	# es bueno que vengas
@@ -424,7 +424,7 @@ SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
 
 SELECT Fois IF (0C Foi OR Fois) ;
 
-SELECT Adv IF (0 Plus) (1 ("de") OR ("que")) ;
+SELECT Adv IF (0 Plus) (1 ("de") OR Que) ;
 
 SELECT N IF (0 ("président")) (1 ("de")) ;
 
@@ -493,7 +493,7 @@ SELECT Prn IF (0 ("beaucoup") OR ("peu")) (1 Adv) (2 Verb + P3 + Pl) ;
 REMOVE Prn IF (0 ("beaucoup") OR ("peu")) (NOT 1 Verb + P3 + Pl OR Adv) ;
 SELECT PreAdv IF (0 ("peu")) (1C A) ;
 
-SELECT PreAdv IF (0 ("quelque") + PreAdv) (1 A) (2 ("que")) ;
+SELECT PreAdv IF (0 ("quelque") + PreAdv) (1 A) (2 Que) ;
 SELECT Adv IF (0 ("quelque") + Adv) (1 Num) ;
 
 SELECT N IF (-1/* Det) (0 ("rose")) ;
@@ -530,7 +530,7 @@ REMOVE V IF (0 N OR V) (1C Ger) ;
 SELECT N IF (-1 ("faire")) (0 ("partie")) ;
 SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
 
-SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("que")) ;
+SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 Que) ;
   ## le groupe ne demande qu'à
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("pas") OR ("jamais")) ;
   ## ne limite pas
@@ -590,10 +590,34 @@ REMOVE N IF (-1 ("de")) (0 ("plus")) ;
 
 SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;
   ## plus rapide que moi
+SELECT CnjSub IF (-2 ("tel")) (0 Que) ;
+  ## tels que
+
 SELECT Rel IF (-1 CM) (0 Que OR Qui) ;
-SELECT Rel IF (-1C N) (0 Que OR Qui) ;
+SELECT Rel IF (-1C N) (0 Que OR Qui) (NOT -1* Ne) ;
 SELECT Rel IF (-2C N) (-1 A) (0 Que OR Qui) ;
 SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que OR Qui) ;
+
+SELECT CnjSub IF (-2 Ne) (-1 Verb) (0 Que) ;
+SELECT CnjSub IF (-3 Ne) (-2 Verb) (-1 Adv) (0 Que) ;
+SELECT CnjSub IF (-4 Ne) (-3 Verb) (-2 Prep) (-1 N) (0 Que) ;
+  ## ne pense qu'à
+  ## n'est en service que
+SELECT CnjSub IF (-3 Ne) (-2 Haver OR Ser) (-1 PP) (0 Que) ;
+SELECT CnjSub IF (-4 Ne) (-3 Haver OR Ser) (-2 Adv) (-1 PP) (0 Que) ;
+SELECT CnjSub IF (-5 Ne) (-4 Haver OR Ser) (-3 Prep) (-2 N) (-1 PP) (0 Que) ;
+SELECT CnjSub IF (-5 Ne) (-4 Haver OR Ser) (-3 PP) (-2 Prep) (-1 N) (0 Que) ;
+  ## n'a pensé qu'à
+SELECT CnjSub IF (-3 Ne) (-2 Vbmod) (-1 Inf) (0 Que) ;
+SELECT CnjSub IF (-4 Ne) (-3 Vbmod) (-2 Adv) (-1 Inf) (0 Que) ;
+SELECT CnjSub IF (-5 Ne) (-4 Vbmod) (-3 Prep) (-2 N) (-1 Inf) (0 Que) ;
+SELECT CnjSub IF (-5 Ne) (-4 Vbmod) (-3 Inf) (-2 Prep) (-1 N) (0 Que) ;
+  ## ne peut être que
+SELECT CnjSub IF (-4 Ne) (-3 Haver) (-2 Vbmod + PP) (-1 Inf) (0 Que) ;
+SELECT CnjSub IF (-5 Ne) (-4 Haver) (-3 Vbmod + PP) (-2 Adv) (-1 Inf) (0 Que) ;
+SELECT CnjSub IF (-6 Ne) (-5 Haver) (-4 Vbmod + PP) (-3 Prep) (-2 N) (-1 Inf) (0 Que) ;
+SELECT CnjSub IF (-6 Ne) (-5 Haver) (-4 Vbmod + PP) (-2 Inf) (-2 Prep) (-1 N) (0 Que) ;
+  ## n'a pu être que
 
 SELECT Verb IF (-1 Qui) (0 Verb + P3) ;
   ## qui fait que
@@ -970,7 +994,7 @@ SELECT N (-1 ("en")) (0 ("or")) ;
 
 SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
   ## si bien / si mal
-SELECT PreAdv IF (0 Si) (1C A) (2 ("que")) ;
+SELECT PreAdv IF (0 Si) (1C A) (2 Que) ;
   ## si intelligente que
 SELECT PreAdv IF (0 Si) (1C A) (2C Prep OR Pour) ;
   ## si différents dans le monde
@@ -1334,7 +1358,7 @@ SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + FemPl) (-1C Adv) (0 A + FemPl LINK
 #SELECT PP IF (-2 Ser) (-1 Adv) (0 A OR PP) (1 Adv) (2 ("par")) ;
 SELECT PP IF (0 A OR PP) (1 ("par")) ;
 SELECT PP IF (0 A OR PP) (1 Adv) (2 ("par")) ;
-SELECT PP IF (-2 Ser) (-1 ("ne")) (0 A OR PP) (1 ("que")) (2 ("par")) ;
+SELECT PP IF (-1 Ser) (-2 ("ne")) (0 A OR PP) (1 Que) (2 ("par")) ;
 # Les cours seront assurés par Michel Laine
 
 # V (P3) OR PP
