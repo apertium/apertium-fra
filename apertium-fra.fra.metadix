@@ -1648,12 +1648,12 @@
   <e>       <p><l>aies</l>      <r>avoir<s n="vbhaver"/><s n="prs"/><s n="p2"/><s n="sg"/></r></p></e>
   <e>       <p><l>aient</l>     <r>avoir<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="pl"/></r></p></e>
   <e>       <p><l>ait</l>       <r>avoir<s n="vbhaver"/><s n="prs"/><s n="p3"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l>ayons</l>     <r>avoir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l>ayons</l>     <r>avoir<s n="vblex"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
-  <e r="RL"><p><l>ayez</l>      <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
-  <e r="RL"><p><l>ayez</l>      <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
-  <e r="RL"><p><l>aie</l>       <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
-  <e r="RL"><p><l>aie</l>       <r>avoir<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
+  <e r="RL"><p><l>ayons</l>     <r>avoir<s n="vbhaver"/><s n="imp"/><s n="p1"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ayons</l>     <r>avoir<s n="vbhaver"/><s n="imp"/><s n="p1"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
+  <e r="RL"><p><l>ayez</l>      <r>avoir<s n="vbhaver"/><s n="imp"/><s n="p2"/><s n="pl"/></r></p></e>
+  <e r="RL"><p><l>ayez</l>      <r>avoir<s n="vbhaver"/><s n="imp"/><s n="p2"/><s n="pl"/><j/></r></p><par n="S__enc1"/></e>
+  <e r="RL"><p><l>aie</l>       <r>avoir<s n="vbhaver"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
+  <e r="RL"><p><l>aie</l>       <r>avoir<s n="vbhaver"/><s n="imp"/><s n="p2"/><s n="sg"/><j/></r></p><par n="S__enc1"/></e>
 </pardef>
 
 <pardef n="S__encimp">
@@ -19622,6 +19622,9 @@
 <e lm="kératine" a="jaumeortola"><i>kératine</i><par n="abeille__n"/></e>
 <e lm="kératocône" a="jaumeortola"><i>kératocône</i><par n="livre__n"/></e>
 <e lm="l"><i>l</i><par n="mois__n"/></e>
+<e lm="cl"><i>cl</i><par n="mois__n"/></e>
+<e lm="dl"><i>dl</i><par n="mois__n"/></e>
+<e lm="hl"><i>hl</i><par n="mois__n"/></e>
 <e lm="la poste"><i>la<b/>poste</i><par n="soif__n"/></e>
 <e lm="LAB"><i>LAB</i><par n="BBVA__n"/></e>
 <e lm="labarum" a="jaumeortola"><i>labar</i><par n="latifundi/um__n"/></e>
@@ -20542,6 +20545,7 @@
 <e lm="mitre"><i>mitre</i><par n="abeille__n"/></e>
 <e lm="mixer"><i>mixer</i><par n="livre__n"/></e>
 <e lm="ml"><i>ml</i><par n="mois__n"/></e>
+<e lm="cm"><i>cm</i><par n="mois__n"/></e>
 <e lm="mm"><i>mm</i><par n="mois__n"/></e>
 <e lm="Mme"><i>Mme</i><par n="abeille__n"/></e>
 <e lm="mobile"><i>mobile</i><par n="livre__n"/></e>
@@ -44783,8 +44787,9 @@
 <e lm="Odonnell"><i>Odonnell</i><par n="Saussure__np"/></e>
 <e lm="Odriozola"><i>Odriozola</i><par n="Saussure__np"/></e>
 <e lm="Odyssey"><i>Odyssey</i><par n="Wikipedia__np"/></e>
-<e lm="Odyssée"><i>Odyssée</i><par n="Carrefour__np"/></e>
-<e lm="Odón"><i>Odón</i><par n="Abraham__np"/></e>
+<e lm="Odyssée"><i>Odyssée</i><par n="Wikipedia__np"/></e>
+<e lm="Iliade"><i>Iliade</i><par n="Wikipedia__np"/></e>
+<e lm="Odón"><i>Odón</i><par n="Antoine__np"/></e>
 <e lm="Odón Elorza"><i>Odón<b/>Elorza</i><par n="Antoine__np"/></e>
 <e lm="OEdipe"><i>OEdipe</i><par n="Antoine__np"/></e>
 <e lm="Ofarrell"><i>Ofarrell</i><par n="Saussure__np"/></e>
@@ -53903,6 +53908,7 @@
       ****************************** -->
 <e r="LR" lm="que"><i>que</i><par n="que__cnjsub"/></e>
 <e r="RL" lm="que"><p><l><a/>que</l>                   <r>que<s n="cnjsub"/></r></p></e>
+<!-- <e r="LR" lm="que"><p><l>que</l>                   <r>que<s n="cnjadv"/></r></p></e> -->
 <e r="RL" lm="que"><p><l><a/>que</l>                   <r>que<s n="cnjadv"/></r></p></e>
 <e lm="avoir"><par n="/avoir__vbhaver"/></e>
 <e lm="il y a"><p><l>il<b/>y<b/>a</l>                  <r>il<b/>y<b/>a<s n="vblex"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
@@ -57268,8 +57274,8 @@
 <e lm="Pilmaiquen"><i>Pilmaiquen</i><par n="Marie__np"/></e>
 <e lm="Pilmayquen"><i>Pilmayquen</i><par n="Marie__np"/></e>
 <e lm="Pina"><i>Pina</i><par n="Marie__np"/></e>
-<e lm="Placid"><i>Placid</i><par n="Marie__np"/></e>
-<e lm="Placide"><i>Placide</i><par n="Marie__np"/></e>
+<e lm="Placid"><i>Placid</i><par n="Antoine__np"/></e>
+<e lm="Placide"><i>Placide</i><par n="Antoine__np"/></e>
 <e lm="Plaisance"><i>Plaisance</i><par n="Marie__np"/></e>
 <e lm="Plácida"><i>Plácida</i><par n="Marie__np"/></e>
 <e lm="Pola"><i>Pola</i><par n="Marie__np"/></e>
@@ -60504,7 +60510,15 @@
 <e lm="quatrain"><i>quatrain</i><par n="livre__n"/></e>
 <e lm="renouveau"><i>renouveau</i><par n="lieu__n"/></e>
 <e lm="vertex"><i>vertex</i><par n="mois__n"/></e>
-
+<e lm="IEA"><i>IEA</i><par n="BBVA__n"/></e>
+<e lm="IEO"><i>IEO</i><par n="BBVA__n"/></e>
+<e lm="IEC"><i>IEC</i><par n="BBVA__n"/></e>
+<e lm="AALO"><i>AALO</i><par n="BBVA__n"/></e>
+<e lm="sur l'heure"><i>sur<b/>l'heure</i><par n="hier__adv"/></e>
+<e lm="Moch"><i>Moch</i><par n="Saussure__np"/></e>
+<e lm="Méliès"><i>Méliès</i><par n="Saussure__np"/></e>
+<e lm="Fresson"><i>Fresson</i><par n="Saussure__np"/></e>
+<e lm="Le Chevallier"><i>Le<b/>Chevallier</i><par n="Saussure__np"/></e>
 
 <!-- xxxx -->
   </section>
@@ -60841,6 +60855,7 @@
           group(s) with only one element
       ****************************** -->
 <e r="LR" lm="que"><p><l>qu'</l>                       <r>que<s n="cnjsub"/></r></p></e>
+<!--<e r="LR" lm="que"><p><l>qu'</l>                       <r>que<s n="cnjadv"/></r></p></e> -->
 <e r="LR" lm="n'"><p><l>n'</l>                         <r>ne<s n="adv"/></r></p></e>
     <!-- <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="detnt"/></r></p></e> -->
 <e r="LR" lm="l'"><p><l>l'</l>                         <r>le<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
