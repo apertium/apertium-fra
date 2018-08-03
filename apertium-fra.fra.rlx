@@ -50,6 +50,7 @@ LIST Masc_strict = m ;
 LIST Fem_strict = f ;
 LIST Masc = m mf ;
 LIST Fem = f mf ;
+LIST Mf = mf ;
 LIST Sg_strict = sg ;
 LIST Pl_strict = pl ;
 LIST Sg = sg sp ;
@@ -134,10 +135,12 @@ LIST Mille = "mille" ;
 LIST Mil = "mil" ;
 LIST Ete = "été" ;
 LIST Somme = "somme" ;
+LIST Politique = "politique" ;
 LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
 LIST Des = "dès" ;
 LIST Entre = "entre" ;
+LIST Contre = "contre" ;
 LIST Devant = "devant" ;
 LIST Pendant = "pendant" ;
 LIST Puis = "puis" ;
@@ -146,6 +149,8 @@ LIST Si = "si" ;
 LIST S = "<s'>"i ;
 LIST Ouvrir = "ouvrir" ;
 LIST Ouvrer = "ouvrer" ;
+LIST Continu = "continu" ;
+LIST Continuer = "continuer" ;
 LIST Mystique_pers = "mystique_pers" ;
 LIST Mystique_syst = "mystique_syst" ;
 LIST Pupille_pers = "pupille_pers" ;
@@ -443,6 +448,10 @@ SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 A + FemPl) (2 N + FemPl) ;
 SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
 
+SELECT N + Mf IF (-1/* Det + Masc_strict) (0 Politique) ;
+SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
+REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;
+
 REMOVE Ouvrer IF (0 Ouvrir OR Ouvrer) ;
 
 SELECT Cours IF (0C Cour OR Cours) ;
@@ -507,9 +516,9 @@ SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant")) (-1C Num) (
   ## à 7 tours de la fin
 SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
 
-SELECT Prep IF (-1C Verb) (0 Devant) (1 Ant_Cog) ;
+SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
-SELECT Prep IF (-1C Verb) (0 Devant) (1 Pro OR Tn) ;
+SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ;
   ## Il s'impose devant lui
 SELECT Prep IF (NOT -1 Verb OR Pas) (0 Pour) ;
 
@@ -965,9 +974,9 @@ REMOVE Adv IF (-1C Det OR Prn) (0 Adv OR N) (1C Prep) ;
 SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
   ## dès maintenant
 
-SELECT Prep IF (0 Entre) (1 Nous OR Vous OR Eux);
+SELECT Prep IF (0 Entre OR Contre) (1 Nous OR Vous OR Eux);
   ## entre nous, vous, eux, elles
-SELECT Prep IF (0 Entre) (1 Il + Pl + Fem);
+SELECT Prep IF (0 Entre OR Contre) (1 Il + Pl + Fem);
   ## entre elles
 #SELECT Prep IF (-2C Prep) (-1C N) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de différence entre les tyrannies
@@ -981,8 +990,14 @@ SELECT Prep (0 Pendant) (-1 BOS) ;
   ## Pendant la Première Guerre Mondiale
 SELECT Prep (0 Pendant) (1 ("de")) (2 A OR N) ;
   ## pendant de nombreuses années
+SELECT Prep (0 Pendant) (1 ("près de")) (2 A OR N OR Num) ;
+  ## la guerre continue pendant près de cinq ans
 REMOVE V (0 Pendant) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Pendant) (*1 Verb BARRIER Cnj_Rel) ;
+
+SELECT Prep (0 Contre) (-1 BOS) ;
+REMOVE V (0 Contre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
+REMOVE V (0 Contre) (*1 Verb BARRIER Cnj_Rel) ;
 
 ## Ces règles ne sont pas en train de marcher
 SELECT Verb (0 Puis) (-1 Je);
@@ -992,6 +1007,10 @@ SELECT Verb (0 Puis) (-2 Je) (-1 Ne) ;
 REMOVE Verb (0 Puis) (NOT -2 Je) (NOT -1 Je) (NOT 1 Je) ;
 REMOVE Verb (0 Puis) (1 Je) (2 Verb + P1) ;
 REMOVE Verb (0 Puis) (1 Je) (2 Adv) (3 Verb + P1) ;
+
+REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
+REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
+  ## la guerre continue pendant près de cinq ans
 
 SELECT N (-1 ("en")) (0 ("or")) ;
 
