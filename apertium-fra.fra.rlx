@@ -845,7 +845,7 @@ SELECT Sg IF (-3 Ne) (-2 Haver) (0 PP + Sg_Pl) ;
   ## Vous n'avez pas pris
 SELECT Sg IF (-4 Ne) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP + Sg_Pl) ;
   ## Vous n'avez pas toujours pris
-SELECT PP IF (-4 Ne) (-3 Pro) (-2 Haver) (0 PP) ;
+SELECT PP IF (-4 Ne) (-3 Pro) (-2 Haver) (1 Adv) (0 PP) ;
   ## Vous ne lui avez pas dit
 SELECT PP IF (-5 Ne) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP) ;
   ## Vous ne lui avez pas toujours dit
@@ -878,6 +878,10 @@ SELECT Pl IF (-6 Ne) (-5 Pro + Pl) (-4 Pro) (-3 Haver) (-2 Pas) (-1C Adv) (0 PP 
 #SELECT PP IF (-5 Ne) (-4 Pro) (-3 Haver) (-2 Adv) (-1 Adv) (0 PP) ;
 #SELECT Haver IF (-2 Ne) (-1 Pro) (-0 Haver) (1 Adv) (2 Adv) (3 PP) ;
 #  ## Vous ne lui avez pas toujours dit
+SELECT PP IF (-2 Ne) (-1 Ser) (0 PP) (1 Que) ;
+  ## n'est accordé qu'aux entreprises
+SELECT PP IF (-3 Ne) (-2 Adv) (-1 Ser) (0 PP) (1 Que) ;
+  ## n'est plus accordé qu'aux entreprises
 
 SELECT Masc IF (-1 Haver) (0 PP + M_F) ;
   ## Vous avez pu
