@@ -26,4 +26,3 @@ fi
 AP_MKINCLUDE
 
 AC_OUTPUT([Makefile apertium-fra.pc])
-
