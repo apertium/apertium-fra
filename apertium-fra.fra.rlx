@@ -330,12 +330,14 @@ SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 PreDet OR PreAdv OR Adv) (
   ## Elle a un tout petit secret
   ## Elle a un très petit secret
 
-SELECT V IF (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) (2 ("de")) ;
-SELECT V IF (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) (3 ("de")) ;
-SELECT V IF (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) (4 ("de")) ;
-SELECT V IF (-1 ("en")) (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) ;
-SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) ;
-SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("assez")) ;
+SELECT V IF (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (2 ("de")) ;
+SELECT V IF (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (3 ("de")) ;
+SELECT V IF (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (4 ("de")) ;
+SELECT V IF (-1 ("en")) (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
+SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
+SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
+
+REMOVE N IF (-1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
   ## As-tu vu Jean ?
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
