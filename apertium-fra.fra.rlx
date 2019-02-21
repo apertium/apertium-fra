@@ -287,8 +287,8 @@ SELECT Vbmod (0 Devoir) (1 Inf) ;
 REMOVE Vbmod (0 Devoir + PP) (-1 Ser) ;
 REMOVE Vbmod (0 Devoir) (1 ("à")) ;
 
-REMOVE Ifi IF (0 Pri + P1 OR Ifi + P1) ;
-REMOVE Ifi IF (0 Pri + P2 OR Ifi + P2) ;
+REMOVE Ifi IF (0 Pri + P1) (0 Ifi + P1) ;
+REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;
   ## je vis, tu vis
 
 SELECT Inf IF (0 Être) (-1 Vbmod) ;
