@@ -230,6 +230,7 @@ SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("marécha
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
 REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
 REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
+REMOVE NP IF (0 ("carrière")) (1 ("universitaire")) ;
 
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
