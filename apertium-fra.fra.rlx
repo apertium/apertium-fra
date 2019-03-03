@@ -225,12 +225,13 @@ SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR (
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
 REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
 REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
 REMOVE NP IF (0 ("carrière")) (1 ("universitaire")) ;
+REMOVE NP IF (0 ("détroit")) (1 ("de")) ;
 
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
