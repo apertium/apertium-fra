@@ -310,6 +310,7 @@ REMOVE A IF (-1 N OR A OR Prn) (0C Est) (1 Det) ;
 REMOVE N IF (-1 NP OR unknown) (0C ("<est>")) ;
 REMOVE A IF (-1 NP OR unknown) (0C ("<est>")) ;
 SELECT N IF (-2 ("à")) (-1 Det + Def) (0C Est) ;
+REMOVE N IF (0 ("<Nouvelle>")) (1 NP OR unknown) ;
 
 #SELECT N IF (-1/* Det) (0C N OR A) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
 SELECT N IF (-1/* Det + MascSg) (0C N OR A) (0 N + MascSg) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
