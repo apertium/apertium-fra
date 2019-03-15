@@ -250,6 +250,9 @@ SELECT V IF (-1C Adv) (0 Fait) ;
 SELECT V IF (-1 Ne) (0 Fait) (1 Que) ;
 REMOVE PP IF (-1 Ne) (0 Fait) (1 Que) ;
   ## ne fait que
+REMOVE PP IF (-1 Ne) (0 PP) (0 V + Pers) (1C Adv OR ("pas")) ;
+REMOVE PP IF (-1 Ne) (0 PP) (0 V + Pers) (1 Que) ;
+
 SELECT V IF (0 Fait) (1 Det) ;
 SELECT Pri IF (NOT -1 Haver) (NOT -1 Adv) (0 Fait) (1 Det) ;
 SELECT Pri IF (NOT -2 Haver) (NOT -2 Adv) (-1 Adv) (0 Fait) (1 Det) ;
@@ -566,6 +569,13 @@ REMOVE V IF (0 N OR V) (1C Ger) ;
 
 SELECT N IF (-1 ("faire")) (0 ("partie")) ;
 SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
+SELECT N IF (-3 ("faire")) (-2 Adv) (-1 Adv) (0 ("partie")) ;
+SELECT V IF (0 ("faire")) (1 ("partie")) ;
+SELECT V IF (0 ("faire")) (1 Adv) (1 ("partie")) ;
+SELECT V IF (0 ("faire")) (1 Adv) (2 Adv) (3 ("partie")) ;
+REMOVE PP IF (NOT -2 Haver) (NOT -1 Haver) (0 ("faire")) (1 ("partie")) ;
+REMOVE PP IF (NOT -2 Haver) (NOT -1 Haver) (0 ("faire")) (1 Adv) (2 ("partie")) ;
+REMOVE PP IF (NOT -2 Haver) (NOT -1 Haver) (0 ("faire")) (1 Adv) (2 Adv) (3 ("partie")) ;
 
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 Que) ;
   ## le groupe ne demande qu'à
