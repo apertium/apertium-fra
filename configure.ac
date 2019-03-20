@@ -1,12 +1,12 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-fra], [1.5.0], [unhammer@fsfe.org])
-AM_INIT_AUTOMAKE([apertium-fra], [1.5.0], no-define)
+AC_INIT([apertium-fra], [1.6.0], [unhammer@fsfe.org])
+AM_INIT_AUTOMAKE([apertium-fra], [1.6.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
-m4_define([required_apertium_version], [3.3.0])
-m4_define([required_lttoolbox_version], [3.3.0])
+m4_define([required_apertium_version], [3.5.2])
+m4_define([required_lttoolbox_version], [3.5.0])
 
 PKG_CHECK_MODULES(APERTIUM, apertium >= required_apertium_version)
 PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= required_lttoolbox_version)
