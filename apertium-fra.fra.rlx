@@ -1333,15 +1333,16 @@ SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + MascPl) (-1C A + 
 SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + FemPl) (-1C A + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN) ;
 
 # DET NOM ADJ
-REMOVE V IF (-1 Det) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
-REMOVE V IF (-1 Det) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
-REMOVE V IF (-1 Det) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
-REMOVE V IF (-1 Det) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Adj_PP + FemPl) ;
-REMOVE V IF (-1/* Prep) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
-REMOVE V IF (-1/* Prep) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
-REMOVE V IF (-1/* Prep) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
-REMOVE V IF (-1/* Prep) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
+REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
+REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
+REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
+REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Adj_PP + FemPl) ;
+REMOVE V OR Vbmod IF (-1/* Prep) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
+REMOVE V OR Vbmod IF (-1/* Prep) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
+REMOVE V OR Vbmod IF (-1/* Prep) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
+REMOVE V OR Vbmod IF (-1/* Prep) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
 # le courrant important
+# le pouvoir actuel
 # du courrant important
 
 # NOM ADJ
