@@ -1043,7 +1043,7 @@ SELECT N IF (-1 Num) (0 ("seconde")) ;
 SELECT Interj IF (0 Helas) ;
   ## triem ser hélas com a interjecció
 SELECT Interj IF (0 ("adieu")) (NOT -1 Det OR A);
-REMOVE Interj IF (0 ("bon")) (1 N) ;
+REMOVE Interj IF (0 ("bon")) (NOT 1* ("<!>")) ;
 SELECT A IF (0 ("bon")) (1C N) ;
   ## un bon jour
 
