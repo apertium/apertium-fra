@@ -241,6 +241,9 @@ REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
 REMOVE NP IF (0 ("carrière")) (1 ("universitaire")) ;
 REMOVE NP IF (0 ("détroit")) (1 ("de")) ;
 
+SELECT Cog IF (-1 ("Édouard")) (0 ("Philippe")) ;
+SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
+
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
 REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
