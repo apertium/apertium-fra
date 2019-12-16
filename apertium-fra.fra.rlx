@@ -165,6 +165,8 @@ LIST Mai = "mai" ;
 LIST Mais = "mais" ;
 LIST Rose = "rose" ;
 LIST Tout = "tout" ;
+LIST Jouer_Faire = "jouer# de" "faire#de" ;
+LIST Instrument = "piano" "violon" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette";
 
 LIST À = "à" ;
 
@@ -634,6 +636,11 @@ SELECT V IF (0 ("faire")) (1 Adv) (2 Adv) (3 ("partie")) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -1 Haver) (0 ("faire")) (1 ("partie")) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -1 Haver) (0 ("faire")) (1 Adv) (2 ("partie")) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -1 Haver) (0 ("faire")) (1 Adv) (2 Adv) (3 ("partie")) ;
+
+SELECT Jouer_Faire IF (0 Jouer_Faire) (1 Det) (2 Instrument) ;
+SELECT Jouer_Faire IF (0 Jouer_Faire) (0/* Det) (1 Instrument) ;
+REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 0/* Det) (NOT 1 Det) ;
+REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 1 Instrument) (NOT 2 Instrument) ;
 
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 Que) ;
   ## le groupe ne demande qu'à
