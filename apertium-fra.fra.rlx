@@ -165,6 +165,7 @@ LIST Mai = "mai" ;
 LIST Mais = "mais" ;
 LIST Rose = "rose" ;
 LIST Tout = "tout" ;
+LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire#de" ;
 LIST Instrument = "piano" "violon" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette";
 
@@ -538,6 +539,10 @@ SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 N + FemPl) (2 Adv) (1 A + 
 
 SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
+
+SELECT N IF (0 Correspondant) (1 ("de")) (2 ("guerre")) ;
+SELECT N IF (0 Correspondant) (1 ("de")) (2 Det) (3 ("journal")) ;
+SELECT N IF (0 Correspondant) (1 ("de")) (2 NP OR unknown) ;
 
 SELECT N + Mf IF (-1/* Det + Masc_strict) (0 Politique) ;
 SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
