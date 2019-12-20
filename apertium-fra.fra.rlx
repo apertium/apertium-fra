@@ -337,6 +337,11 @@ SELECT N IF (-1/* Det + FemPl) (0C N OR A) (0 N + FemPl) (0 Title) (NOT 0 ("gran
   ## Des Algériens sont tués
   ## le Physique et le Figuré
 
+SELECT N IF (-2/* Det + MascSg) (-1 ("moindre")) (0 N + MascSg) ;
+SELECT N IF (-2/* Det + FemSg) (-1 ("moindre")) (0 N + FemSg) ;
+SELECT N IF (-2/* Det + MascPl) (-1 ("moindre")) (0 N + MascPl) ;
+SELECT N IF (-2/* Det + FemPl) (-1 ("moindre")) (0 N + FemPl) ;
+
 SELECT Inf IF (0 Être) (-1 Pro) (-2 Vbmod) ;
   ## Le spécialiste lorrain du 10 kilomètres peut l'être.
 
