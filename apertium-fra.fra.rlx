@@ -342,6 +342,8 @@ SELECT N IF (-2/* Det + FemSg) (-1 ("moindre")) (0 N + FemSg) ;
 SELECT N IF (-2/* Det + MascPl) (-1 ("moindre")) (0 N + MascPl) ;
 SELECT N IF (-2/* Det + FemPl) (-1 ("moindre")) (0 N + FemPl) ;
 
+SELECT A IF (0 ("extrême")) (1 ("droite") OR ("gauche")) ;
+
 SELECT Inf IF (0 Être) (-1 Pro) (-2 Vbmod) ;
   ## Le spécialiste lorrain du 10 kilomètres peut l'être.
 
