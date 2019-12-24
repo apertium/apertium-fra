@@ -407,6 +407,8 @@ SELECT Itg IF (-1C V LINK NOT 0 PP) (0C Itg OR Rel) ;
   ## je me demande qui
 SELECT Itg IF (-2C V LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
   ## je ne demande pas qui
+SELECT Itg IF (1 ("est-ce que")) ;
+  ## où est-ce que
 
 SELECT Itg IF (0 Adv OR Prn) (1 ("est-ce que")) ;
   ## quand est-ce que
