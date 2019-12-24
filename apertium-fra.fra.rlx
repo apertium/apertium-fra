@@ -1039,6 +1039,14 @@ SELECT PP IF (-2 Ser) (-1 Adv) (0 ("fini")) ;
 SELECT PP IF (-3 Ser) (-2 Adv) (-1 Adv) (0 ("fini")) ;
   ## c'est fini
 
+SELECT Sg IF (-1C Noun_Adj + Sg_strict) (0C Adj_PP) ;
+  ## le rayonnement émis
+SELECT Pl IF (-1C Noun_Adj + Pl_strict) (0C Adj_PP) ;
+  ## les rayonnements émis
+SELECT Sg IF (-2C/* Det + Sg_strict) (-1C Noun_Adj + Sg) (0C Adj_PP) ;
+  ## un pays conquis
+SELECT Pl IF (-2C/* Det + Pl_strict) (-1C Noun_Adj + Sg) (0C Adj_PP) ;
+  ## des pays conquis
 
 SELECT Prep IF (0 ("après")) (1 Inf) ;
   ## . Après avoir parcouru
