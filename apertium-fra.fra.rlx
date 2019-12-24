@@ -713,6 +713,8 @@ REMOVE P2 IF (-1C A + FemPl) (0 N + FemPl OR Verb + P2) ;
 
 SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
   ## l'ancien président
+SELECT A IF (-1 CnjCoo OR CM) (0 ("ancien")) (1 N) ;
+  ## et ancien responsable
 
 REMOVE N IF (-1/* Det) (0 ("plus")) (1 A OR PP OR Adv OR unknown) ;
   ## le plus beau
