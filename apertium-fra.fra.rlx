@@ -716,6 +716,10 @@ SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
 SELECT A IF (-1 CnjCoo OR CM) (0 ("ancien")) (1 N) ;
   ## et ancien responsable
 
+REMOVE PP IF (-1 ("en")) (0 N) ;
+  ## en partie
+  ## en fait
+
 REMOVE N IF (-1/* Det) (0 ("plus")) (1 A OR PP OR Adv OR unknown) ;
   ## le plus beau
 REMOVE N IF (-1/* Det) (0 ("plus")) (1 EOS) ;
