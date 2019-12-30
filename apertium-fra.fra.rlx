@@ -587,7 +587,12 @@ REMOVE Pupille_anat IF (-1/* Det + Pl_strict) (0 Pupille_anat) ;
 
 SELECT N IF (0 ("conseiller")) (1 ("général")) ;
 
-REMOVE Mai IF (0 Mai or Mais) ;
+REMOVE Mai IF (0 Mai OR Mais) ;
+
+SELECT Prn IF (0 ("beaucoup de")) (1C Prn);
+  ## beaucoup d'eux
+SELECT Prn IF (0 ("beaucoup de")) (1C Prep);
+  ## beaucoup d'entre eux
 
 SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
   ## . Tous les Etats
