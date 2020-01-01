@@ -1062,6 +1062,14 @@ SELECT PP IF (-1 Ser) (0 PP) (0C Verb) ;
 REMOVE N IF (-1 Nous) (0 Somme OR Ser) ;
   ## nous sommes assaillis
 
+SELECT Ser IF (-1* Je) (0 Ser + P1 + Sg) (1 PP + Sg);
+  ## je suis bouleversé
+SELECT Ser IF (-1* Je) (0 Ser + P1 + Sg) (1 Adv) (2 PP + Sg);
+  ## je suis pas bouleversé
+SELECT Ser IF (-1* Je) (0 Ser + P1 + Sg) (1 Adv) (2 Adv) (3 PP + Sg);
+  ## je suis pas très bouleversé
+
+
 SELECT N IF (-1 Det) (0 Ete) ;
   ## cet été
 SELECT N IF (-1 Prep) (0 Ete) ;
