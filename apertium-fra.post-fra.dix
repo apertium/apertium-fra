@@ -175,6 +175,7 @@
       <e><p><l><b/>lequel</l><r>uquel</r></p><par n="caracter_general"/></e>
       <e><p><l><b/>lesquels</l><r>esquels</r></p><par n="caracter_general"/></e>
       <e><p><l><b/>lesquelles</l><r>esquelles</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>se<b/></l><r>e<b/>s'</r></p><par n="vocals"/></e>
     </pardef>
 
     <pardef n="se_le">
@@ -205,6 +206,7 @@
       <e><p><l><b/>lequel</l><r>auquel</r></p><par n="caracter_general"/></e>
       <e><p><l><b/>lesquels</l><r>auxquels</r></p><par n="caracter_general"/></e>
       <e><p><l><b/>lesquelles</l><r>auxquelles</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>se<b/></l><r>à<b/>s'</r></p><par n="vocals"/></e>
     </pardef>
 
     <pardef n="je">
