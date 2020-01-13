@@ -150,6 +150,7 @@ LIST Contre = "contre" ;
 LIST Devant = "devant" ;
 LIST Pendant = "pendant" ;
 LIST Puis = "puis" ;
+LIST Point = "point" ;
 LIST Or = "or" ;
 LIST Si = "si" ;
 LIST S = "<s'>"i ;
@@ -1168,6 +1169,10 @@ SELECT Verb (0 Puis) (-2 Je) (-1 Ne) ;
 REMOVE Verb (0 Puis) (NOT -2 Je) (NOT -1 Je) (NOT 1 Je) ;
 REMOVE Verb (0 Puis) (1 Je) (2 Verb + P1) ;
 REMOVE Verb (0 Puis) (1 Je) (2 Adv) (3 Verb + P1) ;
+
+REMOVE Adv IF (-1/* Det) (0 Point) ;	# au point
+REMOVE Adv IF (-1 Prep) (0 Point) ;	# au point
+REMOVE Adv IF (-1 ("tel")) (0 Point) ;	# à tel point
 
 REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
