@@ -1173,6 +1173,7 @@ REMOVE Verb (0 Puis) (1 Je) (2 Adv) (3 Verb + P1) ;
 REMOVE Adv IF (-1/* Det) (0 Point) ;	# au point
 REMOVE Adv IF (-1 Prep) (0 Point) ;	# au point
 REMOVE Adv IF (-1 ("tel")) (0 Point) ;	# à tel point
+REMOVE Adv IF (-1 unknownMajIni) (0 ("<Point>")) ;	# Peace Point (ou d'autres noms de lieux américains)
 
 REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
