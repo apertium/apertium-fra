@@ -118,6 +118,7 @@ LIST Lui = "lui" ;
 LIST Leur = "leur" ;
 LIST Eux = "eux" ;
 LIST En = "en" ;
+LIST Depuis = "depuis" ;
 LIST Pour = "pour" ;
 LIST Pas = "pas" ;
 LIST Rien = "rien" ;
@@ -649,6 +650,9 @@ SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ;
   ## Il s'impose devant lui
 SELECT Prep IF (NOT -1 Verb OR Pas) (0 Pour) ;
+
+SELECT Adv IF (0 Depuis) (1 CM OR EOS) ;
+REMOVE Adv IF (0 Depuis) (1 ("de")) (2 N + Pl) ;
 
 SELECT N IF (-1 Num) (0C N OR V) ;
   ## 9 combats
