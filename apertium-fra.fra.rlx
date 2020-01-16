@@ -1151,6 +1151,7 @@ SELECT Prep IF (0 Entre OR Contre) (1 Il + Pl + Fem);
 SELECT Prep IF (0 Entre) (1 Det) (2 N OR A) ;
 REMOVE V (0 Entre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Entre) (*1 Verb BARRIER Cnj_Rel) ;
+REMOVE V (-1 Entre) (0 N + Pl) ;	# entre partis
 
 SELECT Prep (0 Pendant) (-1 BOS) ;
   ## Pendant la Première Guerre Mondiale
