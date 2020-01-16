@@ -142,6 +142,7 @@ LIST Mil = "mil" ;
 LIST Ete = "été" ;
 LIST Somme = "somme" ;
 LIST Politique = "politique" ;
+LIST Nouvelle = "nouvelle" ;
 LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
 LIST Des = "dès" ;
@@ -570,6 +571,9 @@ SELECT N IF (0 Correspondant) (1 ("de")) (2 NP OR unknown) ;
 SELECT N + Mf IF (-1/* Det + Masc_strict) (0 Politique) ;
 SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
 REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;
+
+REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
+REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
 
 REMOVE Ouvrer IF (0 Ouvrir OR Ouvrer) ;
 
