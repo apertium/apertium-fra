@@ -208,6 +208,8 @@ SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("ex
 # verbs Vblex que típicament impliquen indicatiu
 SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 
+SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("setième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") ;
+
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Inicial_Estrict_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
@@ -467,7 +469,13 @@ REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
 # subjonctif après "que"
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 	# Compte: quiero decirle que me parece muy bien
+SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
+SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") BARRIER Cnj_Rel_End) (*-1 VerbSubj) (0C Verb) ;
+	# Bien que ces trois royaumes aient été réunis par l'empereur Wudi, les barbares Wuhu ravagent le pays
 REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
+#REMOVE Subjunc (*-1 ("lorsque") OR ("puisque") OR ("parce que") OR ("pendant que") BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
+REMOVE Subjunc (*-1 ("lorsque") OR ("puisque") OR ("parce que") OR ("pendant que") BARRIER Cnj_Rel_End) (0C Verb) (0 Pri) ;
+	# pendant qu'il mange
 #REMOVE Subjunc (*-1 >>> BARRIER CnjAdv OR CnjSub OR Rel) (NOT -1 ("no") OR ("No") OR ("nunca") OR ("Nunca")) (0C Verb) ;
 SELECT Subjunc (*-1 ("être# .*"r) LINK 1 Que) (0C Verb) ;
 SELECT Subjunc (*-1 ("être") LINK 1 A LINK NOT 0 ("vrai") LINK 1 Que) (0C Verb) ;
@@ -477,10 +485,21 @@ SELECT Subjunc (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 Que) (0C Verb) ;
 	# es bueno que vengas
 	# però: són tan variades que en cadascuna d'elles es poden observar patrons
 #REMOVE Subjunc (NOT *-1 VerbSubj LINK 1 Que) (0C Verb) ;
-REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que")) (0 Verb) ;
+REMOVE Subjunc (-1 Tn OR ("on")) (0 Verb) (1 Que + CnjSub) ;
+	# on considère que
+REMOVE Subjunc (-2 Tn OR ("on")) (-1 Pro) (0 Verb) (1 Que + CnjSub) ;
+REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("bien que") OR ("avant que") OR ("après que")) (0 Verb) ;
+REMOVE Subjunc (*-1 Que + Rel OR Qui + Rel BARRIER Verb) (0 Verb) ;
   ## Cette règle a des exceptions: La peur que cette rencontre *change* la face du monde préoccupe l'Europe
 #REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que") CBARRIER Ind) (0 Verb) ;
   ## Avant qu'il ne vienne chez nous, Stephen Hillenburg refuse plusieurs propositions
+REMOVE Subjunc (-1 CnjCoo) (0 VerbInd) ;
+REMOVE Subjunc (-2C VerbInd) (-1 CnjCoo) (0 VerbInd) ;
+REMOVE Subjunc (0 VerbInd) (1 CnjCoo) (2C VerbInd) ;
+REMOVE Subjunc (-3C VerbInd) (-2 CnjCoo) (-1 Tn OR ("on")) (0 VerbInd) ;
+REMOVE Subjunc (0 VerbInd) (1 CnjCoo) (2 Tn OR ("on")) (3C VerbInd) ;
+#SELECT Subjunc (-2C Subjunc) (-1 CnjCoo) (0 Subjunc) ;	# douteux
+#SELECT Subjunc (0 Subjunc) (1 CnjCoo) (2C Subjunc) ;	# douteux
 
 # Prs ou Pis
 SELECT Prs IF (-3 Pri) (-2 Que) (0 Prs) (0 Pis) ;
@@ -581,6 +600,15 @@ REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_stri
 
 REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
 REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
+
+REMOVE V IF (-1 AdjOrd + MascSg) (0 N + MascSg) ; # le dernier voyage
+REMOVE V IF (-1 AdjOrd + MascPl) (0 N + MascPl) ;
+REMOVE V IF (-1 AdjOrd + FemSg) (0 N + FemSg) ;
+REMOVE V IF (-1 AdjOrd + FemPl) (0 N + FemPl) ;
+SELECT A IF (-1/* Det + MascSg) (0 AdjOrd + MascSg) (1 N + MascSg) ; # le second voyage
+SELECT A IF (-1/* Det + MascPl) (0 AdjOrd + MascPl) (1 N + MascPl) ;
+SELECT A IF (-1/* Det + FemSg) (0 AdjOrd + FemSg) (1 N + FemSg) ;
+SELECT A IF (-1/* Det + FemPl) (0 AdjOrd + FemPl) (1 N + FemPl) ;
 
 REMOVE Ouvrer IF (0 Ouvrir OR Ouvrer) ;
 
