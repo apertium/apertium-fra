@@ -313,6 +313,12 @@ REMOVE Ifi IF (0 Pri + P1) (0 Ifi + P1) ;
 REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;
   ## je vis, tu vis
 
+REMOVE PP IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
+REMOVE A IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
+SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas) ;	# n'atteint pas
+SELECT Verb IF (-1 N) (0 ("atteint")) (1 Det) ;
+SELECT Verb IF (-2 N) (-1 A) (0 ("atteint")) (1 Det) ;
+
 SELECT Inf IF (0 Être) (-1 Vbmod) ;
   ## Ce doit être Jean !
 REMOVE N IF (-1 N OR A OR Prn OR CM) (0C Est) (1 A OR PP OR Det) ;
