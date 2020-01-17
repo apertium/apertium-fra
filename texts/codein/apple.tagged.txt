@@ -1,0 +1,1489 @@
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<(>"
+	"(" lpar
+"<littéralement>"
+	"littéralement" adv
+"<«>"
+	"«" lpar
+"<Pomme>"
+	"pomme" n f sg
+"<»>"
+	"»" rpar
+"<en>"
+	"en" pr
+;	"en" prn pro adv
+"<anglais>"
+;	"anglais" adj m sp
+	"anglais" n m sp
+"<)>"
+	")" rpar
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+;	"être" vblex pri p3 sg
+	"être" vbser pri p3 sg
+"<une>"
+;	"un" num f sp
+;	"un" prn tn f sg
+	"un" det ind f sg
+"<entreprise>"
+	"entreprise" n f sg
+;	"entreprendre" vblex pp f sg
+"<multinationale>"
+	"multinational" adj f sg
+;	"multinationale" n f sg
+"<américaine>"
+	"américain" adj f sg
+"<qui>"
+	"qui" rel mf sp
+;	"qui" prn itg mf sg
+"<conçoit>"
+	"concevoir" vblex pri p3 sg
+"<et>"
+	"et" cnjcoo
+"<commercialise>"
+	"commercialiser" vblex pri p3 sg
+;	"commercialiser" vblex pri p1 sg
+;	"commercialiser" vblex prs p3 sg
+;	"commercialiser" vblex prs p1 sg
+;	"commercialiser" vblex imp p2 sg
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<produits>"
+	"produit" n m pl
+;	"produire" vblex pp m pl
+"<électroniques>"
+	"électronique" adj mf pl
+;	"électronique" n f pl
+"<grand>"
+	"grand" adj m sg
+;	"grand" n m sg
+"<public>"
+;	"public" adj m sg
+	"public" n m sg
+"<,>"
+	"," cm
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<ordinateurs>"
+;	"ordinateur" adj m pl
+	"ordinateur" n m pl
+"<personnels>"
+	"personnel" adj m pl
+"<et>"
+	"et" cnjcoo
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<logiciels>"
+	"logiciel" n m pl
+"<informatiques>"
+	"informatique" adj mf pl
+;	"informatique" n f pl
+"<.>"
+	"." sent
+"<Parmi>"
+	"parmi" pr
+"<les>"
+	"le" det def mf pl
+;	"le" prn pro p3 mf pl
+"<produits>"
+	"produit" n m pl
+;	"produire" vblex pp m pl
+"<les>"
+;	"le" det def mf pl
+	"le" prn pro p3 mf pl
+"<plus>"
+	"plus" adv
+;	"plus" adj mf sp
+;	"plus" n m sp
+"<connus>"
+	"connu" adj m pl
+;	"connu" n m pl
+;	"connaître" vblex ifi p1 sg
+;	"connaître" vblex ifi p2 sg
+;	"connaître" vblex pp m pl
+"<de>"
+	"de" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<entreprise>"
+	"entreprise" n f sg
+;	"entreprendre" vblex pp f sg
+"<se>"
+	"se" prn pro ref p3 mf sp
+"<trouvent>"
+	"trouver" vblex pri p3 pl
+;	"trouver" vblex prs p3 pl
+"<les>"
+	"le" det def mf pl
+;	"le" prn pro p3 mf pl
+"<ordinateurs>"
+;	"ordinateur" adj m pl
+	"ordinateur" n m pl
+"<Macintosh>"
+;	"Macintosh" np cog mf sp
+	"Macintosh" np al m sg
+"<,>"
+	"," cm
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<iPod>"
+	"iPod" np al m sg
+"<,>"
+	"," cm
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<iPhone>"
+	"iPhone" np al m sg
+"<et>"
+	"et" cnjcoo
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<iPad>"
+	"iPad" np al m sg
+"<,>"
+	"," cm
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<montre>"
+	"montre" n f sg
+;	"montrer" vblex pri p3 sg
+;	"montrer" vblex pri p1 sg
+;	"montrer" vblex prs p3 sg
+;	"montrer" vblex prs p1 sg
+;	"montrer" vblex imp p2 sg
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<Watch>"
+	"Watch" np al f sg
+"<,>"
+	"," cm
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<lecteur>"
+;	"lecteur" adj m sg
+	"lecteur" n m sg
+"<multimédia>"
+	"multimédia" adj mf sp
+"<iTunes>"
+	"iTunes" np al m sg
+"<,>"
+	"," cm
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<suite bureautique>"
+	"suite bureautique" n f sg
+"<iWork>"
+	"iWork" np al m sg
+"<,>"
+	"," cm
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<suite>"
+	"suite" n f sg
+"<multimédia>"
+	"multimédia" adj mf sp
+"<iLife>"
+	"iLife" np al m sg
+"<ou>"
+	"ou" cnjcoo
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<logiciels>"
+	"logiciel" n m pl
+"<à>"
+	"à" pr
+"<destination>"
+	"destination" n f sg
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<professionnels>"
+;	"professionnel" adj m pl
+	"professionnel" n m pl
+"<tels>"
+	"tel" adj m pl
+"<que>"
+;	"que" cnjsub
+	"que" rel mf sp
+;	"que" prn itg mf sg
+"<Final Cut Pro>"
+	"Final Cut Pro" np al m sg
+"<et>"
+	"et" cnjcoo
+"<Logic Pro>"
+	"Logic Pro" np al m sg
+"<.>"
+	"." sent
+"<En>"
+	"en" pr
+;	"en" prn pro adv
+"<2017>"
+	"2017" num
+"<,>"
+	"," cm
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<entreprise>"
+	"entreprise" n f sg
+;	"entreprendre" vblex pp f sg
+"<emploie>"
+	"employer" vblex pri p3 sg
+;	"employer" vblex pri p1 sg
+;	"employer" vblex prs p3 sg
+;	"employer" vblex prs p1 sg
+;	"employer" vblex imp p2 sg
+"<116>"
+	"116" num
+"<000>"
+	"000" num
+"<employés>"
+;	"employé" adj m pl
+	"employé" n m pl
+;	"employer" vblex pp m pl
+"<et>"
+	"et" cnjcoo
+"<exploite>"
+	"exploiter" vblex pri p3 sg
+;	"exploiter" vblex pri p1 sg
+;	"exploiter" vblex prs p3 sg
+;	"exploiter" vblex prs p1 sg
+;	"exploiter" vblex imp p2 sg
+"<499>"
+	"499" num
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<Stores>"
+	"store" n m pl
+"<répartis>"
+;	"répartir" vblex ifi p1 sg
+;	"répartir" vblex ifi p2 sg
+;	"répartir" vblex pri p1 sg
+;	"répartir" vblex pri p2 sg
+;	"répartir" vblex imp p2 sg
+	"répartir" vblex pp m pl
+"<dans>"
+	"dans" pr
+"<22>"
+	"22" num
+"<pays>"
+	"pays" n m sp
+"<et>"
+	"et" cnjcoo
+"<une>"
+;	"un" num f sp
+;	"un" prn tn f sg
+	"un" det ind f sg
+"<boutique>"
+	"boutique" n f sg
+"<en ligne>"
+;	"en ligne" adv
+	"en ligne" adj mf sp
+"<où>"
+;	"où" adv itg
+	"où" rel adv
+"<sont>"
+;	"être" vblex pri p3 pl
+	"être" vbser pri p3 pl
+"<vendus>"
+	"vendre" vblex pp m pl
+"<les>"
+	"le" det def mf pl
+;	"le" prn pro p3 mf pl
+"<appareils>"
+	"appareil" n m pl
+"<et>"
+	"et" cnjcoo
+"<logiciels>"
+	"logiciel" n m pl
+"<d'>"
+	"de" pr
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<mais>"
+	"mais" cnjcoo
+;	"mai" n m pl
+"<aussi>"
+	"aussi" adv
+;	"aussi" preadv
+"<de>"
+	"de" pr
+"<tiers>"
+	"tiers" n m sp
+"<.>"
+	"." sent
+"<Son>"
+;	"son" n m sg
+	"son" det pos f sg
+;	"son" det pos m sg
+"<bénéfice>"
+	"bénéfice" n m sg
+"<annuel>"
+	"annuel" adj m sg
+"<pour>"
+;	"pour" adv
+	"pour" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<année>"
+	"année" n f sg
+"<2017>"
+	"2017" num
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+;	"être" vblex pri p3 sg
+	"être" vbser pri p3 sg
+"<de>"
+	"de" pr
+"<45,2>"
+	"45,2" num
+"<milliards>"
+	"milliard" n m pl
+"<de>"
+	"de" pr
+"<dollars>"
+	"dollar" n m pl
+"<.>"
+	"." sent
+
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+	"être" vblex pri p3 sg
+;	"être" vbser pri p3 sg
+"<créée>"
+	"créer" vblex pp f sg
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<1er>"
+	"1er" adj m sg
+"<avril>"
+	"avril" n m sg
+"<1976>"
+	"1976" num
+"<dans>"
+	"dans" pr
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<garage>"
+	"garage" n m sg
+"<de>"
+	"de" pr
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<maison>"
+	"maison" n f sg
+"<d'>"
+	"de" pr
+"<enfance>"
+	"enfance" n f sg
+"<de>"
+	"de" pr
+"<Steve>"
+	"Steve" np ant m sg
+"<Jobs>"
+	"Jobs" np cog mf sp
+"<à>"
+	"à" pr
+"<Los Altos>"
+	"Los Altos" np top f sg
+"<en>"
+	"en" pr
+;	"en" prn pro adv
+"<Californie>"
+	"Californie" np top f sg
+"<par>"
+	"par" pr
+"<Steve>"
+	"Steve" np ant m sg
+"<Jobs>"
+	"Jobs" np cog mf sp
+"<,>"
+	"," cm
+"<Steve>"
+	"Steve" np ant m sg
+"<Wozniak>"
+	"Wozniak" np cog mf sp
+"<et>"
+	"et" cnjcoo
+"<Ronald>"
+	"Ronald" np ant m sg
+"<Wayne>"
+	"Wayne" np ant m sg
+"<,>"
+	"," cm
+"<puis>"
+	"puis" adv
+;	"pouvoir" vbmod pri p1 sg
+"<constituée>"
+	"constituer" vblex pp f sg
+"<sous>"
+	"sous" pr
+;	"sou" n m pl
+"<forme>"
+	"forme" n f sg
+;	"former" vblex pri p3 sg
+;	"former" vblex pri p1 sg
+;	"former" vblex prs p3 sg
+;	"former" vblex prs p1 sg
+;	"former" vblex imp p2 sg
+"<de>"
+	"de" pr
+"<société>"
+	"société" n f sg
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<3>"
+	"3" num
+"<janvier>"
+	"janvier" n m sg
+"<1977>"
+	"1977" num
+"<à>"
+	"à" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<origine>"
+	"origine" n f sg
+"<sous>"
+	"sous" pr
+;	"sou" n m pl
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<nom>"
+	"nom" n m sg
+"<d'>"
+	"de" pr
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<Computer>"
+	"Computer" np al f sg
+"<,>"
+	"," cm
+"<mais>"
+	"mais" cnjcoo
+;	"mai" n m pl
+"<pour>"
+;	"pour" adv
+	"pour" pr
+"<ses>"
+	"son" det pos mf pl
+"<30>"
+	"30" num
+"<ans>"
+	"an" n m pl
+"<et>"
+	"et" cnjcoo
+"<pour>"
+;	"pour" adv
+	"pour" pr
+"<refléter>"
+	"refléter" vblex inf
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<diversification>"
+	"diversification" n f sg
+"<de>"
+	"de" pr
+"<ses>"
+	"son" det pos mf pl
+"<produits>"
+	"produit" n m pl
+;	"produire" vblex pp m pl
+"<,>"
+	"," cm
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<mot>"
+	"mot" n m sg
+"<«>"
+	"«" lpar
+"<computer>"
+	"computer" n m sg
+"<»>"
+	"»" rpar
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+	"être" vblex pri p3 sg
+;	"être" vbser pri p3 sg
+"<retiré>"
+	"retirer" vblex pp m sg
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<9>"
+	"9" num
+"<janvier>"
+	"janvier" n m sg
+"<2007>"
+	"2007" num
+"<.>"
+	"." sent
+
+"<En raison de>"
+	"en raison de" pr
+"<sa>"
+	"son" det pos f sg
+"<philosophie>"
+	"philosophie" n f sg
+"<industrielle>"
+	"industriel" adj f sg
+;	"industriel" n f sg
+"<de>"
+	"de" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<intégration>"
+	"intégration" n f sg
+"<verticale>"
+	"vertical" adj f sg
+;	"verticale" n f sg
+"<,>"
+	"," cm
+"<de>"
+	"de" pr
+"<son>"
+;	"son" n m sg
+	"son" det pos f sg
+;	"son" det pos m sg
+"<approche>"
+	"approche" n f sg
+;	"approcher" vblex pri p3 sg
+;	"approcher" vblex pri p1 sg
+;	"approcher" vblex prs p3 sg
+;	"approcher" vblex prs p1 sg
+;	"approcher" vblex imp p2 sg
+"<marketing>"
+	"marketing" n m sg
+"<fondée>"
+	"fonder" vblex pp f sg
+"<sur>"
+	"sur" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<innovation>"
+	"innovation" n f sg
+"<,>"
+	"," cm
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<ergonomie>"
+	"ergonomie" n f sg
+"<et>"
+	"et" cnjcoo
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<esthétique>"
+;	"esthétique" adj mf sg
+	"esthétique" n f sg
+"<de>"
+	"de" pr
+"<ses>"
+	"son" det pos mf pl
+"<produits>"
+	"produit" n m pl
+;	"produire" vblex pp m pl
+"<appréciée>"
+	"apprécier" vblex pp f sg
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<consommateurs>"
+	"consommateur" n m pl
+"<,>"
+	"," cm
+"<de>"
+	"de" pr
+"<ses>"
+	"son" det pos mf pl
+"<campagnes>"
+	"campagne" n f pl
+"<publicitaires>"
+	"publicitaire" adj mf pl
+"<originales>"
+	"original" adj f pl
+"<et>"
+	"et" cnjcoo
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<clients>"
+	"client" n m pl
+"<qui>"
+	"qui" rel mf sp
+;	"qui" prn itg mf sg
+"<s'>"
+;	"si" cnjadv
+	"se" prn pro ref p3 mf sp
+"<identifient>"
+	"identifier" vblex pri p3 pl
+;	"identifier" vblex prs p3 pl
+"<à>"
+	"à" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<entreprise>"
+	"entreprise" n f sg
+;	"entreprendre" vblex pp f sg
+"<et>"
+	"et" cnjcoo
+"<à>"
+	"à" pr
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<marque>"
+	"marque" n f sg
+;	"marquer" vblex pri p3 sg
+;	"marquer" vblex pri p1 sg
+;	"marquer" vblex prs p3 sg
+;	"marquer" vblex prs p1 sg
+;	"marquer" vblex imp p2 sg
+"<,>"
+	"," cm
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<s'>"
+;	"si" cnjadv
+	"se" prn pro ref p3 mf sp
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+	"être" vblex pri p3 sg
+;	"être" vbser pri p3 sg
+"<forgé>"
+;	"forgé" n m sg
+	"forger" vblex pp m sg
+"<une>"
+	"un" num f sp
+;	"un" prn tn f sg
+;	"un" det ind f sg
+"<réputation>"
+	"réputation" n f sg
+"<singulière>"
+	"singulier" adj f sg
+"<dans>"
+	"dans" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<industrie>"
+	"industrie" n f sg
+"<électronique>"
+	"électronique" adj mf sg
+;	"électronique" n f sg
+"<grand>"
+	"grand" adj m sg
+;	"grand" n m sg
+"<public>"
+;	"public" adj m sg
+	"public" n m sg
+"<.>"
+	"." sent
+
+"<Selon>"
+;	"selon" adv
+	"selon" pr
+"<un>"
+;	"un" num m sp
+	"un" det ind m sg
+;	"un" prn tn m sg
+"<classement>"
+	"classement" n m sg
+"<du>"
+	"le" det def m sg
+		"de" pr
+"<magazine>"
+	"magazine" n m sg
+"<Fortune>"
+;	"fortune" n f sg
+;	"Fortune" np cog mf sp
+	"Fortune" np al mf sg
+"<,>"
+	"," cm
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+;	"être" vblex pri p3 sg
+	"être" vbser pri p3 sg
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<société>"
+	"société" n f sg
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<plus>"
+	"plus" adv
+;	"plus" adj mf sp
+;	"plus" n m sp
+"<admirée>"
+	"admirer" vblex pp f sg
+"<dans>"
+	"dans" pr
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<monde>"
+	"monde" n m sg
+"<en>"
+	"en" pr
+;	"en" prn pro adv
+"<2006>"
+	"2006" num
+"<,>"
+	"," cm
+"<2007>"
+	"2007" num
+"<,>"
+	"," cm
+"<2008>"
+	"2008" num
+"<,>"
+	"," cm
+"<2009>"
+	"2009" num
+"<,>"
+	"," cm
+"<2010>"
+	"2010" num
+"<,>"
+	"," cm
+"<2011>"
+	"2011" num
+"<,>"
+	"," cm
+"<2012>"
+	"2012" num
+"<et>"
+	"et" cnjcoo
+"<2013>"
+	"2013" num
+"<.>"
+	"." sent
+"<Elle>"
+	"il" prn tn p3 f sg
+;	"Elle" np ant f sg
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+;	"être" vblex pri p3 sg
+	"être" vbser pri p3 sg
+"<,>"
+	"," cm
+"<à partir de>"
+	"à partir de" pr
+"<2011>"
+	"2011" num
+"<et>"
+	"et" cnjcoo
+"<au gré des>"
+	"le" det def mf pl
+		"au gré de" pr
+"<fluctuations>"
+	"fluctuation" n f pl
+"<du>"
+	"le" det def m sg
+		"de" pr
+"<marché>"
+	"marché" n m sg
+;	"marcher" vblex pp m sg
+"<,>"
+	"," cm
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<première>"
+	"premier" adj f sg
+"<capitalisation>"
+	"capitalisation" n f sg
+"<boursière>"
+	"boursier" adj f sg
+;	"boursier" n f sg
+"<de>"
+	"de" pr
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<planète>"
+	"planète" n f sg
+"<et>"
+	"et" cnjcoo
+"<devient>"
+	"devenir" vblex pri p3 sg
+"<également>"
+	"également" adv
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<2>"
+	"2" num
+"<août>"
+	"août" n m sg
+"<2018>"
+	"2018" num
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<première>"
+	"premier" adj f sg
+"<entreprise>"
+	"entreprise" n f sg
+;	"entreprendre" vblex pp f sg
+"<privée>"
+	"privé" adj f sg
+;	"privé" n f sg
+;	"priver" vblex pp f sg
+"<de>"
+	"de" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<histoire>"
+	"histoire" n f sg
+"<à>"
+	"à" pr
+"<atteindre>"
+	"atteindre" vblex inf
+"<une>"
+;	"un" num f sp
+;	"un" prn tn f sg
+	"un" det ind f sg
+"<valeur>"
+	"valeur" n f sg
+"<de>"
+	"de" pr
+"<1>"
+	"1" num
+"<000>"
+	"000" num
+"<milliards>"
+	"milliard" n m pl
+"<de>"
+	"de" pr
+"<dollars>"
+	"dollar" n m pl
+"<en>"
+	"en" pr
+;	"en" prn pro adv
+"<Bourse>"
+	"bourse" n f sg
+;	"bourser" vblex pri p3 sg
+;	"bourser" vblex pri p1 sg
+;	"bourser" vblex prs p3 sg
+;	"bourser" vblex prs p1 sg
+;	"bourser" vblex imp p2 sg
+"<.>"
+	"." sent
+
+"<Mais>"
+	"mais" cnjcoo
+;	"mai" n m pl
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<firme>"
+	"firme" n f sg
+"<reçoit>"
+	"recevoir" vblex pri p3 sg
+"<aussi>"
+	"aussi" adv
+;	"aussi" preadv
+"<de>"
+	"de" pr
+"<nombreuses>"
+	"nombreux" adj f pl
+"<critiques>"
+;	"critique" adj mf pl
+	"critique" n f pl
+;	"critique" n m pl
+;	"critiquer" vblex pri p2 sg
+;	"critiquer" vblex prs p2 sg
+"<concernant>"
+;	"concernant" pr
+	"concerner" vblex ger
+;	"concernant" adj m sg
+"<les>"
+	"le" det def mf pl
+;	"le" prn pro p3 mf pl
+"<conditions>"
+	"condition" n f pl
+"<de travail>"
+	"de travail" adj mf sp
+"<de>"
+	"de" pr
+"<ses>"
+	"son" det pos mf pl
+"<ouvriers>"
+;	"ouvrier" adj m pl
+	"ouvrier" n m pl
+"<,>"
+	"," cm
+"<ses>"
+	"son" det pos mf pl
+"<choix>"
+	"choix" n m sp
+"<environnementaux>"
+	"environnemental" adj m pl
+"<et>"
+	"et" cnjcoo
+"<ses>"
+	"son" det pos mf pl
+"<pratiques>"
+;	"pratique" adj mf pl
+	"pratique" n f pl
+;	"pratiquer" vblex pri p2 sg
+;	"pratiquer" vblex prs p2 sg
+"<commerciales>"
+	"commercial" adj f pl
+;	"commercial" n f pl
+"<,>"
+	"," cm
+"<une>"
+;	"un" num f sp
+;	"un" prn tn f sg
+	"un" det ind f sg
+"<grande>"
+	"grand" adj f sg
+;	"grand" n f sg
+"<partie>"
+;	"parti" adj f sg
+	"partie" n f sg
+;	"partir" vblex pp f sg
+"<de>"
+	"de" pr
+"<ses>"
+	"son" det pos mf pl
+"<produits>"
+	"produit" n m pl
+;	"produire" vblex pp m pl
+"<étant>"
+	"être" vblex ger
+;	"être" vbser ger
+"<fabriqués>"
+	"fabriquer" vblex pp m pl
+"<dans>"
+	"dans" pr
+"<des>"
+	"le" det def mf pl
+		"de" pr
+"<pays>"
+	"pays" n m sp
+"<asiatiques>"
+	"asiatique" adj mf pl
+;	"asiatique" n mf pl
+"<comme>"
+;	"comme" adv
+	"comme" cnjadv
+;	"comme" pr
+;	"comme" rel adv
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<Inde>"
+	"Inde" np top f sg
+"<ou>"
+	"ou" cnjcoo
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<Chine>"
+	"Chine" np top f sg
+;	"chiner" vblex pri p3 sg
+;	"chiner" vblex pri p1 sg
+;	"chiner" vblex prs p3 sg
+;	"chiner" vblex prs p1 sg
+;	"chiner" vblex imp p2 sg
+"<.>"
+	"." sent
+
+"<En>"
+	"en" pr
+;	"en" prn pro adv
+"<2014>"
+	"2014" num
+"<,>"
+	"," cm
+"<selon>"
+;	"selon" adv
+	"selon" pr
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<classement>"
+	"classement" n m sg
+"<Best Global Brands>"
+	"Best Global Brands" np al mf sg
+"<d'>"
+	"de" pr
+"<Interbrand>"
+	"Interbrand" np al mf sg
+"<,>"
+	"," cm
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+;	"être" vblex pri p3 sg
+	"être" vbser pri p3 sg
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<première>"
+	"premier" adj f sg
+"<entreprise>"
+	"entreprise" n f sg
+;	"entreprendre" vblex pp f sg
+"<mondiale>"
+	"mondial" adj f sg
+"<en>"
+	"en" pr
+;	"en" prn pro adv
+"<valeur>"
+	"valeur" n f sg
+"<avec>"
+	"avec" pr
+"<une>"
+;	"un" num f sp
+;	"un" prn tn f sg
+	"un" det ind f sg
+"<valorisation>"
+	"valorisation" n f sg
+"<à>"
+	"à" pr
+"<près de>"
+	"près de" pr
+"<118,9>"
+	"118,9" num
+"<milliards>"
+	"milliard" n m pl
+"<de>"
+	"de" pr
+"<dollars>"
+	"dollar" n m pl
+"<.>"
+	"." sent
+"<En>"
+	"en" pr
+;	"en" prn pro adv
+"<2015>"
+	"2015" num
+"<,>"
+	"," cm
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+;	"être" vblex pri p3 sg
+	"être" vbser pri p3 sg
+"<de nouveau>"
+	"de nouveau" adv
+"<à la tête>"
+	"à la tête" adv
+"<du>"
+	"le" det def m sg
+		"de" pr
+"<classement>"
+	"classement" n m sg
+"<Interbrand>"
+	"Interbrand" np al mf sg
+"<pour>"
+;	"pour" adv
+	"pour" pr
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<troisième>"
+	"troisième" adj mf sg
+"<année>"
+	"année" n f sg
+"<consécutive>"
+	"consécutif" adj f sg
+"<.>"
+	"." sent
+"<En>"
+	"en" pr
+;	"en" prn pro adv
+"<2017>"
+	"2017" num
+"<,>"
+	"," cm
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<marque>"
+	"marque" n f sg
+;	"marquer" vblex pri p3 sg
+;	"marquer" vblex pri p1 sg
+;	"marquer" vblex prs p3 sg
+;	"marquer" vblex prs p1 sg
+;	"marquer" vblex imp p2 sg
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+	"être" vblex pri p3 sg
+;	"être" vbser pri p3 sg
+"<valorisée>"
+	"valoriser" vblex pp f sg
+"<à>"
+	"à" pr
+"<170>"
+	"170" num
+"<milliards>"
+	"milliard" n m pl
+"<de>"
+	"de" pr
+"<dollars>"
+	"dollar" n m pl
+"<(>"
+	"(" lpar
+"<plus>"
+;	"plus" adv
+;	"plus" adj mf sp
+;	"plus" n m sp
+	"plus" cnjcoo
+"<43>"
+	"43" num
+"<%>"
+	"%" percent
+"<par rapport à>"
+	"par rapport à" pr
+"<2014>"
+	"2014" num
+"<)>"
+	")" rpar
+"<devant>"
+;	"devant" adv
+	"devant" pr
+;	"devoir" vblex ger
+;	"devoir" vbmod ger
+;	"devant" n m sg
+"<Google>"
+	"Google" np al m sg
+"<et>"
+	"et" cnjcoo
+"<Microsoft>"
+	"Microsoft" np al m sg
+"<.>"
+	"." sent
+
+"<En août>"
+	"en août" adv
+"<2015>"
+	"2015" num
+"<,>"
+	"," cm
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<site>"
+	"site" n m sg
+"<internet>"
+	"internet" n m sg
+"<d'>"
+	"de" pr
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<a>"
+;	"avoir" vbhaver pri p3 sg
+	"avoir" vblex pri p3 sg
+"<fusionné>"
+	"fusionner" vblex pp m sg
+"<avec>"
+	"avec" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<Store>"
+	"store" n m sg
+"<en ligne>"
+;	"en ligne" adv
+	"en ligne" adj mf sp
+"<.>"
+	"." sent
+"<L'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<internaute>"
+	"internaute" n mf sg
+"<peut>"
+	"pouvoir" vbmod pri p3 sg
+"<donc>"
+	"donc" cnjadv
+"<directement>"
+	"directement" adv
+"<acheter>"
+	"acheter" vblex inf
+"<en ligne>"
+	"en ligne" adv
+;	"en ligne" adj mf sp
+"<sur>"
+	"sur" pr
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<page>"
+	"page" n f sg
+"<de>"
+	"de" pr
+"<présentation>"
+	"présentation" n f sg
+"<de>"
+	"de" pr
+"<chaque>"
+	"chaque" det ind mf sg
+"<produit>"
+	"produit" n m sg
+;	"produire" vblex pri p3 sg
+;	"produire" vblex pp m sg
+"<.>"
+	"." sent
+
+"<Apple>"
+;	"Apple" np cog mf sp
+	"Apple" np al f sg
+"<est>"
+;	"est" adj mf sp
+;	"est" n m sg
+	"être" vblex pri p3 sg
+;	"être" vbser pri p3 sg
+"<créée>"
+	"créer" vblex pp f sg
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<1er>"
+	"1er" adj m sg
+"<avril>"
+	"avril" n m sg
+"<1976>"
+	"1976" num
+"<dans>"
+	"dans" pr
+"<la>"
+	"le" det def f sg
+;	"le" prn pro p3 f sg
+"<maison>"
+	"maison" n f sg
+"<d'>"
+	"de" pr
+"<enfance>"
+	"enfance" n f sg
+"<de>"
+	"de" pr
+"<Steve>"
+	"Steve" np ant m sg
+"<Jobs>"
+	"Jobs" np cog mf sp
+"<à>"
+	"à" pr
+"<Los>"
+	"Los Altos" np top
+"<,>"
+	"," cm
+"<puis>"
+	"puis" adv
+;	"pouvoir" vbmod pri p1 sg
+"<constituée>"
+	"constituer" vblex pp f sg
+"<sous>"
+	"sous" pr
+;	"sou" n m pl
+"<forme>"
+	"forme" n f sg
+;	"former" vblex pri p3 sg
+;	"former" vblex pri p1 sg
+;	"former" vblex prs p3 sg
+;	"former" vblex prs p1 sg
+;	"former" vblex imp p2 sg
+"<de>"
+	"de" pr
+"<société>"
+	"société" n f sg
+"<le>"
+	"le" det def m sg
+;	"le" prn pro p3 nt
+;	"le" prn pro p3 m sg
+"<3>"
+	"3" num
+"<janvier>"
+	"janvier" n m sg
+"<1977>"
+	"1977" num
+"<.>"
+	"." sent
+"<Elle>"
+	"il" prn tn p3 f sg
+;	"Elle" np ant f sg
+"<prend>"
+	"prendre" vblex pri p3 sg
+"<diverses>"
+	"divers" adj f pl
+"<facettes>"
+	"facette" n f pl
+"<coordonnées>"
+;	"coordonnée" n f pl
+	"coordonner" vblex pp f pl
+"<avec>"
+	"avec" pr
+"<l'>"
+	"le" det def mf sg
+;	"le" prn pro p3 f sg
+;	"le" prn pro p3 m sg
+"<évolution>"
+	"évolution" n f sg
+"<du>"
+	"le" det def m sg
+		"de" pr
+"<monde>"
+	"monde" n m sg
+"<informatique>"
+	"informatique" adj mf sg
+;	"informatique" n f sg
+"<qu'>"
+;	"que" cnjsub
+	"que" rel mf sp
+;	"que" prn itg mf sg
+"<elle>"
+	"il" prn tn p3 f sg
+"<précède>"
+	"précéder" vblex pri p3 sg
+;	"précéder" vblex pri p1 sg
+;	"précéder" vblex prs p3 sg
+;	"précéder" vblex prs p1 sg
+;	"précéder" vblex imp p2 sg
+"<,>"
+	"," cm
+"<partant>"
+	"partir" vblex ger
+;	"partant" adj m sg
+"<d'>"
+	"de" pr
+"<un>"
+;	"un" num m sp
+	"un" det ind m sg
+;	"un" prn tn m sg
+"<monde>"
+	"monde" n m sg
+"<sans>"
+	"sans" pr
+"<ordinateur>"
+;	"ordinateur" adj m sg
+	"ordinateur" n m sg
+"<personnel>"
+	"personnel" adj m sg
+;	"personnel" n m sg
+"<à>"
+	"à" pr
+"<une>"
+;	"un" num f sp
+;	"un" prn tn f sg
+	"un" det ind f sg
+"<société>"
+	"société" n f sg
+"<du>"
+	"le" det def m sg
+		"de" pr
+"<XXIe>"
+	"XXIe" adj mf sg
+"<interconnectée>"
+	"interconnecter" vblex pp f sg
+"<par l'intermédiaire de>"
+	"par l'intermédiaire de" pr
+"<terminaux>"
+;	"terminal" adj m pl
+	"terminal" n m pl
+"<fixes>"
+	"fixe" adj mf pl
+;	"fixe" n m pl
+;	"fixer" vblex pri p2 sg
+;	"fixer" vblex prs p2 sg
+"<et>"
+	"et" cnjcoo
+"<mobiles>"
+	"mobile" adj mf pl
+;	"mobile" n m pl
+"<.>"
+	"." sent
+"<.>"
+	"." sent
