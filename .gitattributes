@@ -25,6 +25,8 @@ texts/codein/comedie_musicale1.analysed.txt -text
 texts/codein/comedie_musicale1.tagged.charlesw.txt -text
 texts/codein/informatique1.analysed.txt -text
 texts/codein/informatique1.tagged.charlesw.txt -text
+texts/codein/apple.txt -text
+texts/codein/apple.tagged.txt -text
 *.dix linguist-language=XML linguist-detectable=true
 *.lrx linguist-language=XML linguist-detectable=true
 *.lsx linguist-language=XML linguist-detectable=true
