@@ -15,8 +15,8 @@
 	"en" pr
 ;	"en" prn pro adv
 "<anglais>"
-	"anglais" adj m sp
-;	"anglais" n m sp
+;	"anglais" adj m sp
+	"anglais" n m sp
 "<)>"
 	")" rpar
 "<est>"
@@ -544,7 +544,7 @@
 "<«>"
 	"«" lpar
 "<computer>"
-	"computer" np al m sg
+	"computer" n m sg
 "<»>"
 	"»" rpar
 "<est>"
