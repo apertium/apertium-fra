@@ -138,6 +138,7 @@ LIST Fois = "fois" ;
 LIST Tour = "tour" ;
 LIST Cour = "cour" ;
 LIST Cours = "cours" ;
+LIST Moule = "moule" ;
 LIST Livre = "livre" ;
 LIST Mille = "mille" ;
 LIST Mil = "mil" ;
@@ -680,6 +681,12 @@ REMOVE Masc_strict IF (0 ("rose") + N + Pl) (NOT -1 Masc_strict) ;
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
 SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
+
+SELECT Masc IF (-2 ("dans")) (-1 Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
+SELECT Masc IF (-2 ("remplir") OR ("graisser") OR ("utiliser")) (-1 Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
+SELECT Masc IF (0 Moule) (1 ("remplir") + PP OR ("graisser") + PP OR ("utiliser") + PP LINK NOT 0 Fem_strict) ;
+SELECT Fem IF (-2 ("manger") OR ("servir")) (-1 Det OR Num OR De LINK NOT 0 Masc_strict) (0 Moule) ;
+SELECT Fem IF (0 Moule) (1 ("manger") + PP OR ("servir") + PP LINK NOT 0 Masc_strict) ;
 
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
