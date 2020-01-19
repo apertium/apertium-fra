@@ -139,6 +139,8 @@ LIST Tour = "tour" ;
 LIST Cour = "cour" ;
 LIST Cours = "cours" ;
 LIST Moule = "moule" ;
+LIST Basket = "basket" ;
+LIST Tennis = "tennis" ;
 LIST Livre = "livre" ;
 LIST Mille = "mille" ;
 LIST Mil = "mil" ;
@@ -687,6 +689,11 @@ SELECT Masc IF (-2 ("remplir") OR ("graisser") OR ("utiliser")) (-1 Det OR Num O
 SELECT Masc IF (0 Moule) (1 ("remplir") + PP OR ("graisser") + PP OR ("utiliser") + PP LINK NOT 0 Fem_strict) ;
 SELECT Fem IF (-2 ("manger") OR ("servir")) (-1 Det OR Num OR De LINK NOT 0 Masc_strict) (0 Moule) ;
 SELECT Fem IF (0 Moule) (1 ("manger") + PP OR ("servir") + PP LINK NOT 0 Masc_strict) ;
+
+SELECT Masc IF (0 Basket + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Masc IF (0 ("<Basket>")) ;
+SELECT Masc IF (0 Tennis) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Masc IF (0 ("<Tennis>")) ;
 
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
