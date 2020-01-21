@@ -91,7 +91,6 @@ LIST PP = pp ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
-LIST MajIni = ("[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
 
 LIST Mon_Ton_Son = "mon" "ton" "son" ;
 LIST Son = "son" ;
@@ -1187,7 +1186,7 @@ SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
 
-SELECT N IF (0 Fort) (1 MajIni OR unknownMajIni) ;
+SELECT N IF (0 Fort) (1 MajuscInitiale OR unknownMajIni) ;
 REMOVE N IF (-1 N + MascSg) (0 Fort + MascSg) ;
 REMOVE N IF (-1 N + MascPl) (0 Fort + MascPl) ;
 
@@ -1248,6 +1247,10 @@ REMOVE Adv IF (-1 unknownMajIni) (0 ("<Point>")) ;	# Peace Point (ou d'autres no
 REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
   ## la guerre continue pendant près de cinq ans
+
+SELECT N IF (0 ("empire") + MajuscInitiale) ;
+SELECT N IF (-1 ("haut") + MascSg OR ("bas") + MascSg) (0 ("empire") + MascSg) ;
+SELECT N IF (-1 ("haut") + MascPl OR ("bas") + MascPl) (0 ("empire") + MascSg) ;
 
 SELECT N (-1 ("en")) (0 ("or")) ;
 
