@@ -16,6 +16,7 @@ LIST Haver = vbhaver ;
 LIST Ser = vbser ;
 LIST Vbmod = vbmod ;
 LIST Cm = cm ;
+LIST Sent = sent ;
 LIST Det = det ;
 LIST Def = def ;
 LIST Pos = pos ;
@@ -348,10 +349,10 @@ REMOVE N IF (0 ("<Nouvelle>")) (1 NP OR unknown) ;
 REMOVE V IF (0 Est) (1 CnjCoo) (2 Ouest) ;
 
 #SELECT N IF (-1/* Det) (0C N OR A) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + MascSg) (0C N OR A) (0 N + MascSg) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + FemSg) (0C N OR A) (0 N + FemSg) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + MascPl) (0C N OR A) (0 N + MascPl) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + FemPl) (0C N OR A) (0 N + FemPl) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + MascSg) (0C N OR A) (0 N + MascSg) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + FemSg) (0C N OR A) (0 N + FemSg) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + MascPl) (0C N OR A) (0 N + MascPl) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + FemPl) (0C N OR A) (0 N + FemPl) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
   ## Des Algériens sont tués
   ## le Physique et le Figuré
 
@@ -694,6 +695,8 @@ SELECT Masc IF (0 Basket + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 ("<Basket>")) ;
 SELECT Masc IF (0 Tennis) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 ("<Tennis>")) ;
+
+SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
@@ -1345,9 +1348,11 @@ SELECT N IF (-1 Det + FemSg) (0 N + FemSg LINK 0 A OR PP OR Verb) (1 Adv) (2 Ver
 SELECT N IF (-1 Det + MascPl) (0 N + MascPl LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
 SELECT N IF (-1 Det + FemPl) (0 N + FemPl LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
 
-SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub OR Adv) ;
+SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub OR Adv OR Sent OR EOS) ;
   ## ces vacances d'été pour/qui/que
   ## l'expert en balistique n'a pas
+  ## à l’abri des polémiques.
+
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
