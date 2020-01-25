@@ -239,7 +239,7 @@ REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknown) ;
 SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknown) ;
 	## Léon Verguet
 REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); #Orihuela, Vilallonga
-SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port")) (-1 ("de")) (0 Cog OR Ant) ;
+SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
  
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
 	## Sais-tu
@@ -364,6 +364,14 @@ SELECT N IF (-2/* Det + FemPl) (-1 ("moindre")) (0 N + FemPl) ;
 SELECT A IF (0 ("extrême")) (1 ("droite") OR ("gauche")) ;
 
 SELECT A IF (0 ("ancien")) (1 ("premier")) ;	# ancien Premier ministre
+
+SELECT A IF (-1/* Det) (0 ("vague") + Sg) (1 N + Sg) ;	# son vague programme
+SELECT A IF (-1/* Det) (0 ("vague") + Pl) (1 N + Pl) ;
+
+#REMOVE V IF (-1 Det + MascSg) (0 N + MascSg) (1 A + MascSg OR De) ;	# le programme nucléaire, le programme de la fête // mais: qui le juge avare
+#REMOVE V IF (-1 Det + MascPl) (0 N + MascPl) (1 A + MascPl OR De) ;
+#REMOVE V IF (-1 Det + FemSg) (0 N + FemSg) (1 A + FemSg OR De) ;
+#REMOVE V IF (-1 Det + FemPl) (0 N + FemPl) (1 A + FemPl OR De) ;
 
 SELECT N IF (-2 ("professeur")) (-1 ("de")) (NOT 1C N) ;
 
@@ -592,6 +600,7 @@ SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 N + MascSg) (2 Adv) (1 A
 SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 N + FemSg) (2 Adv) (1 A + FemSg) ;
 SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 N + MascPl) (2 Adv) (1 A + MascPl) ;
 SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 N + FemPl) (2 Adv) (1 A + FemPl) ;
+SELECT Det IF (0 Son + MascSg) (1 unknown) ;
 
 SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
