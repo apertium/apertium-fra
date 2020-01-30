@@ -723,6 +723,8 @@ SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ;
   ## Il s'impose devant lui
 SELECT Prep IF (NOT -1 Verb OR Pas) (0 Pour) ;
+REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 N + Pl) ;
+REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 Det + Pl) (3 N + Pl) ;
 
 SELECT Adv IF (0 Depuis) (1 CM OR EOS) ;
 REMOVE Adv IF (0 Depuis) (1 ("de")) (2 N + Pl) ;
