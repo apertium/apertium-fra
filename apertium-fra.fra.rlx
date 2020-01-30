@@ -172,6 +172,7 @@ LIST Pupille_anat = "pupille_anat" ;
 LIST Mai = "mai" ;
 LIST Mais = "mais" ;
 LIST Rose = "rose" ;
+LIST Roue = "roue" ;
 LIST Tout = "tout" ;
 LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire#de" ;
@@ -613,6 +614,8 @@ SELECT Det IF (0 Son + MascSg) (1 unknown) ;
 SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
 
+SELECT N IF (0 Roue) (NOT -1 ("il") OR ("elle") OR ("on") OR Ant_Cog) ;
+
 SELECT N IF (0 Correspondant) (1 ("de")) (2 ("guerre")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 Det) (3 ("journal")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 NP OR unknown) ;
@@ -734,7 +737,7 @@ SELECT N IF (-1 Prep) (-1/* DetDef) (0C N OR Verb) ;
 SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
 REMOVE Pers IF (-2 Prep) (-1 Det) (0C N OR Verb LINK 0 Pers) ;
   ## à leurs armes
-REMOVE V (0C N OR V) (1C V + Pers) ; 		# la roue tourne
+REMOVE Verb (0C N OR Verb) (NOT 0 PP) (1C Verb + Pers) ; 	# la roue tourne, polémique a démarré, le volant a
 
 REMOVE N IF (-1 Rel) (0 N OR Verb) ;
   ## ce qui limite le nombre
