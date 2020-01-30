@@ -215,7 +215,7 @@ SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 
 SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("setième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("seul") OR ("saint") ;
+SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("saint") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -734,6 +734,7 @@ SELECT N IF (-1 Prep) (-1/* DetDef) (0C N OR Verb) ;
 SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
 REMOVE Pers IF (-2 Prep) (-1 Det) (0C N OR Verb LINK 0 Pers) ;
   ## à leurs armes
+REMOVE V (0C N OR V) (1C V + Pers) ; 		# la roue tourne
 
 REMOVE N IF (-1 Rel) (0 N OR Verb) ;
   ## ce qui limite le nombre
