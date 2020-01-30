@@ -214,6 +214,8 @@ SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("ex
 SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 
 SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("setième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") ;
+# adjectifs qui souvent vont devant le nom
+SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("seul") OR ("saint") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -239,6 +241,12 @@ REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknown) ;
 SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknown) ;
 	## Léon Verguet
 REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); #Orihuela, Vilallonga
+
+REMOVE Al IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
+REMOVE Top IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
+REMOVE Al IF (0 Ant OR Cog) (1 Ant OR Cog) ;
+REMOVE Top IF (0 Ant OR Cog) (1 Ant OR Cog) ;
+
 SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
  
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
@@ -349,10 +357,10 @@ REMOVE N IF (0 ("<Nouvelle>")) (1 NP OR unknown) ;
 REMOVE V IF (0 Est) (1 CnjCoo) (2 Ouest) ;
 
 #SELECT N IF (-1/* Det) (0C N OR A) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + MascSg) (0C N OR A) (0 N + MascSg) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + FemSg) (0C N OR A) (0 N + FemSg) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + MascPl) (0C N OR A) (0 N + MascPl) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
-SELECT N IF (-1/* Det + FemPl) (0C N OR A) (0 N + FemPl) (0 Title) (NOT 0 ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("premier") OR ("segonde") OR ("saint")) ;
+SELECT N IF (-1/* Det + MascSg) (0C N OR A) (0 N + MascSg) (0 Title) (NOT 0 AdjPre OR AdjOrd) ;
+SELECT N IF (-1/* Det + FemSg) (0C N OR A) (0 N + FemSg) (0 Title) (NOT 0 AdjPre OR AdjOrd) ;
+SELECT N IF (-1/* Det + MascPl) (0C N OR A) (0 N + MascPl) (0 Title) (NOT 0 AdjPre OR AdjOrd) ;
+SELECT N IF (-1/* Det + FemPl) (0C N OR A) (0 N + FemPl) (0 Title) (NOT 0 AdjPre OR AdjOrd) ;
   ## Des Algériens sont tués
   ## le Physique et le Figuré
 
@@ -1554,6 +1562,11 @@ SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + FemSg) (-1C A + F
 SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + MascPl) (-1C A + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN) ;
 SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + FemPl) (-1C A + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN) ;
 
+SELECT N IF (-2/* Det + MascSg) (-1 AdjPre + MascSg OR AdjOrd + MascSg ) (0 N + MascSg) ;
+SELECT N IF (-2/* Det + FemSg) (-1 AdjPre + FemSg OR AdjOrd + FemSg ) (0 N + FemSg) ;	# la seule partie bilingue
+SELECT N IF (-2/* Det + MascPl) (-1 AdjPre + MascPl OR AdjOrd + MascPl ) (0 N + MascPl) ;
+SELECT N IF (-2/* Det + FemPl) (-1 AdjPre + FemPl OR AdjOrd + FemPl ) (0 N + FemPl) ;
+
 # DET NOM ADJ
 REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
 REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
@@ -1581,17 +1594,17 @@ REMOVE A OR PP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + FemPl LINK 
 
 REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + MascSg LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascSg) ;
 REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + MascPl LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascPl) ;
-REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
-REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + FemPl LINK 0 N OR NP) (1 Adj_PP + FemPl) ;
+REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + FemSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemSg) ;
+REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + FemPl LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemPl) ;
 REMOVE N IF (-2/* Det + MascSg OR Prep) (-1C N + MascSg) (0 Adj_PP + MascSg) ;
 REMOVE N IF (-2/* Det + MascPl OR Prep) (-1C N + MascPl) (0 Adj_PP + MascPl) ;
 REMOVE N IF (-2/* Det + FemSg OR Prep) (-1C N + FemSg) (0 Adj_PP + FemSg) ;
 REMOVE N IF (-2/* Det + FemPl OR Prep) (-1C N + FemPl) (0 Adj_PP + FemPl) ;
 # l'armée perse
-REMOVE A OR PP IF (-2/* Det + MascSg OR Prep) (-1C A + MascSg) (0 Noun_Adj + MascSg LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascSg) ;
-REMOVE A OR PP IF (-2/* Det + MascPl OR Prep) (-1C A + MascPl) (0 Noun_Adj + MascPl LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascPl) ;
-REMOVE A OR PP IF (-2/* Det + FemSg OR Prep) (-1C A + FemSg) (0 Noun_Adj + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
-REMOVE A OR PP IF (-2/* Det + FemPl OR Prep) (-1C A + FemPl) (0 Noun_Adj + FemPl LINK 0 N OR NP) (1 Adj_PP + FemPl) ;
+REMOVE A OR PP IF (-2/* Det + MascSg OR Prep) (-1C A + MascSg) (0 Noun_Adj + MascSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd OR Trencat) (1 Adj_PP + MascSg) ;
+REMOVE A OR PP IF (-2/* Det + MascPl OR Prep) (-1C A + MascPl) (0 Noun_Adj + MascPl LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd OR Trencat) (1 Adj_PP + MascPl) ;
+REMOVE A OR PP IF (-2/* Det + FemSg OR Prep) (-1C A + FemSg) (0 Noun_Adj + FemSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemSg) ;
+REMOVE A OR PP IF (-2/* Det + FemPl OR Prep) (-1C A + FemPl) (0 Noun_Adj + FemPl LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemPl) ;
 REMOVE N IF (-3/* Det + MascSg OR Prep) (-2 A + MascSg) (-1C N + MascSg) (0 Adj_PP + MascSg) ;
 REMOVE N IF (-3/* Det + MascPl OR Prep) (-2 A + MascPl) (-1C N + MascPl) (0 Adj_PP + MascPl) ;
 REMOVE N IF (-3 Det + FemSg OR Prep) (-2 A + FemSg) (-1C N + FemSg) (0 Adj_PP + FemSg) ;
@@ -1608,10 +1621,10 @@ REMOVE PP IF (NOT -1 N OR Haver OR Ser) (0 PP + FemPl LINK 0 N OR NP) (1 Adj_PP 
 ## PROBLEMA: con alto contenido (alto > n/adv); ídem per a adj ambigus típicament preposats: alto, bajo, mal (+flaco favor, etc.)
 ## Està fet més malament
 
-SELECT A OR PP IF (-1 N + MascSg) (0 Adj_PP + MascSg) (NOT 0 PreAdv OR Est) (1 Adj_PP + MascSg) (NOT 0 Adv) ;
-SELECT A OR PP IF (-1 N + MascPl) (0 Adj_PP + MascPl) (NOT 0 PreAdv OR Est) (1 Adj_PP + MascPl) ;
-SELECT A OR PP IF (-1 N + FemSg) (0 Adj_PP + FemSg) (NOT 0 PreAdv OR Est) (1 Adj_PP + FemSg) ;
-SELECT A OR PP IF (-1 N + FemPl) (0 Adj_PP + FemPl) (NOT 0 PreAdv OR Est) (1 Adj_PP + FemPl) ;
+SELECT A OR PP IF (-1 N + MascSg) (0 Adj_PP + MascSg) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + MascSg) (NOT 0 Adv) ;
+SELECT A OR PP IF (-1 N + MascPl) (0 Adj_PP + MascPl) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + MascPl) ;
+SELECT A OR PP IF (-1 N + FemSg) (0 Adj_PP + FemSg) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + FemSg) ;
+SELECT A OR PP IF (-1 N + FemPl) (0 Adj_PP + FemPl) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + FemPl) ;
 ## "la Primera Conferencia Americana celebrada" (pqè Americana > adj)
 ## però: simbolisme molt complex
 ## els avions segons diversos criteris
