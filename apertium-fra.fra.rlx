@@ -1478,6 +1478,17 @@ REMOVE Adv IF (0 ("à l'époque")) (1/* ("de")) ;
 REMOVE Adv IF (0 ("à l'époque")) (1 ("où")) ;
 SELECT Adv IF (0 ("à l'époque")) (1 EOS OR CM OR Prn OR Verb OR Prep) ;
 
+# PRN
+
+REMOVE Masc IF (0 Le) (1 Haver) (2 PP + Fem) ;			# je l'ai vue
+REMOVE Masc IF (0 Le) (1 Haver) (2 Adv) (3 PP + Fem) ;		# je ne l'ai pas vue
+REMOVE Masc IF (0 Le) (1 Haver) (2 Adv) (3 Adv) (4 PP + Fem) ;	# je ne l'ai pas toujours vue
+REMOVE Fem IF (0 Le + Pron) (1C Verb) (NOT 1 PP) ;
+REMOVE Det IF (0 Le + Pron) (1C Verb) (NOT 1 PP) ;
+REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Prep) ;			# cela le contraint à replier
+REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Adv) (3 Prep) ;		# cela le contraint toujours à replier
+REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Adv) (3 Adv) (4 Prep) ;	# cela ne le contraint pas toujours à replier
+
 # DET
 
 REMOVE Pro IF (0 Le) (NOT 1 Verb OR ("lui") OR ("leur")) ;
