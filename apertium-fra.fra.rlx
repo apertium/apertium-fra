@@ -888,8 +888,9 @@ SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
 SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
   ## Il s'impose devant lui
-#SELECT Pron IF (0 Lui) (1C Verb) ;
-SELECT Pro IF (0 Lui) (1C Verb) ;
+SELECT Pron IF (0 Lui) (1 Verb) ;	# lui écrit
+SELECT Verb IF (-1 Lui) (0 Noun_Adj) ;	# lui écrit, lui commande, lui fait épouser
+SELECT Pro IF (NOT -1 Prep) (0 Lui) (1C Verb) ;
 #SELECT Pro IF (0 Lui) (1C Imper) ;
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Verb);
   ## on lui connaît
