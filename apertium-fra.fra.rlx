@@ -146,6 +146,8 @@ LIST Mille = "mille" ;
 LIST Mil = "mil" ;
 LIST Ete = "été" ;
 LIST Somme = "somme" ;
+LIST As = "as" ;
+LIST Pique = "pique" ;
 LIST Politique = "politique" ;
 LIST Nouvelle = "nouvelle" ;
 LIST Peu = "peu de" ;
@@ -424,6 +426,7 @@ REMOVE N IF (-1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") O
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
   ## n'ont pas vu, n'ont jamais vu
 
+SELECT N IF (-1 Det) (0 As) (1 De) (2 Pique OR ("cœur") OR ("carreau") OR ("trèfle")) ;
 SELECT V IF (0 Avoir) (1C Prep) ;
   ## ayant pour ami
 
@@ -624,6 +627,10 @@ SELECT N IF (0 Correspondant) (1 ("de")) (2 NP OR unknown) ;
 SELECT N + Mf IF (-1/* Det + Masc_strict) (0 Politique) ;
 SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
 REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;
+
+SELECT Masc IF (-1 Det + Masc_strict) (0 Pique) ;	# jouer du pique
+SELECT Masc IF (-2 Num OR ("as") OR ("roi") OR ("dame") OR ("valet")) (-1 De) (0 Pique) ;
+SELECT Fem IF (0 Pique) ;
 
 REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
 REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
