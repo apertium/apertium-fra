@@ -569,6 +569,8 @@ SELECT Pis IF (-6 Pii OR Ifi OR Cni) (-5 Adv) (-4 PP) (-3 Adv) (-2 Que) (0 Prs) 
 SELECT Pis IF (-5 Pii OR Ifi OR Cni) (-4 PP) (-3 Que) (-1 Adv) (0 Prs) (0 Pis) ;
   # il avait/eu/aurait fallu que tu ne choisisses pas
 
+REMOVE Ifi (0 Pri) (1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ; # L'église subit actuellement des travaux
+REMOVE Ifi (0 Pri) (-1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ;
 
 REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (*0C Pri) ;
 REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (**-1C Pri) ;	# VÉRIFIER: Cette règle ne sembla pas marcher
