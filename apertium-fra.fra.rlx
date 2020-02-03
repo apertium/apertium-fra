@@ -404,6 +404,10 @@ SELECT V IF (-1 Avoir) (0 Avoir + PP) ;
   ## Le jeune homme a eu plus de
 SELECT V IF (-2 Avoir) (-1 Adv) (0 Avoir + PP) ;
   ## Le jeune homme n'a pas eu plus de
+SELECT V IF (0 Avoir) (1 Que) ;
+  ## il n'a que des problèmes
+SELECT V IF (0 Avoir) (1 Adv) (2 Que) (NOT 1 PP) ;
+SELECT V IF (0 Avoir) (1 Adv) (2 Adv) (2 Que) (NOT 1 PP) (NOT 2 PP) ;
 SELECT V IF (0 Avoir) (1 ("lieu")) ;
 SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det OR Num) (2 N) ;
   ## Elle a une fille
