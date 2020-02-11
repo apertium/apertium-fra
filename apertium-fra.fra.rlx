@@ -1454,6 +1454,11 @@ REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LIN
 
 SELECT N IF (-2C N) (-1 CnjCoo) (0C Noun_Adj_PP) (NOT 1 N) (NOT 0 ("demi") OR ("quart")) ;
 	# est une comédienne, réalisatrice, traductrice et romancière.
+REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2 N) ;
+  ## propriété de NTL et diffuse quatre chaînes
+REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2C A) ;
+  ## elle intègre Radio France et présente la matinale de France Bleu
+#REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (NOT 1 N OR PP) (NOT 0 ("demi") OR ("quart")) ;
 
 REMOVE V IF (0C N + MascSg OR V) (1C Adj_PP + MascSg) ;
 REMOVE V IF (0C N + FemSg OR V) (1C Adj_PP + FemSg) ;
