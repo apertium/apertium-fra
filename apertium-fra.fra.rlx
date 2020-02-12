@@ -219,7 +219,7 @@ SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 
 SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("setième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("saint") ;
+SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("saint") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -338,6 +338,11 @@ REMOVE A IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
 SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas) ;	# n'atteint pas
 SELECT Verb IF (-1 N) (0 ("atteint")) (1 Det) ;
 SELECT Verb IF (-2 N) (-1 A) (0 ("atteint")) (1 Det) ;
+
+REMOVE PP IF (-1 Det + MascSg) (0 N + MascSg) ;
+REMOVE PP IF (-1 Det + MascPl) (0 N + MascPl) ;
+REMOVE PP IF (-1 Det + FemSg) (0 N + FemSg) ;	# la revue
+REMOVE PP IF (-1 Det + FemPl) (0 N + FemPl) ;
 
 SELECT Inf IF (0 Être) (-1 Vbmod) ;
   ## Ce doit être Jean !
