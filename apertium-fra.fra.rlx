@@ -344,8 +344,6 @@ REMOVE PP IF (-1 Det + MascPl) (0 N + MascPl) ;
 REMOVE PP IF (-1 Det + FemSg) (0 N + FemSg) ;	# la revue
 REMOVE PP IF (-1 Det + FemPl) (0 N + FemPl) ;
 
-SELECT Inf IF (0 Être) (-1 Vbmod) ;
-  ## Ce doit être Jean !
 REMOVE N IF (-1 N OR A OR Prn OR CM) (0C Est) (1 A OR PP OR Det) ;
 REMOVE A IF (-1 N OR A OR Prn OR CM) (0C Est) (1 A OR PP OR Det) ;
   ## la demande est suffisante
@@ -1765,6 +1763,13 @@ REMOVE PP IF (-5 N + FemSg) (-4 Prep) (-3 Det) (-2 A) (-1 N) (0 V + P3 + Sg) (0 
 REMOVE PP IF (-5 N + FemPl) (-4 Prep) (-3 Det) (-2 A) (-1 N) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + FemPl) ;
 # la motorisation de ces pratiques réduit drastiquement leur population
 
+REMOVE Noun_Adj_PP IF (-2 Det + MascSg) (-1 N + MascSg) (NOT 0 Noun_Adj_PP + MascSg) (0 V + P3 + Sg) ;	# le mort frappe à la porte
+REMOVE Noun_Adj_PP IF (-2 Det + FemSg) (-1 N + FemSg) (NOT 0 Noun_Adj_PP + FemSg) (0 V + P3 + Sg) ;
+REMOVE Noun_Adj_PP IF (-2 Det + MascPl) (-1 N + MascPl) (NOT 0 Noun_Adj_PP + MascPl) (0 V + P3 + Pl) ;
+REMOVE Noun_Adj_PP IF (-2 Det + FemPl) (-1 N + FemPl) (NOT 0 Noun_Adj_PP + FemPl) (0 V + P3 + Pl) ;
+
+SELECT Inf IF (0 Être) (-1 Vbmod) ;
+  ## Ce doit être Jean !
 SELECT N IF (-1 ("par")) (0 ("personne")) ;
 REMOVE N IF (-1 Pour) (0 ("personne")) ;
 
