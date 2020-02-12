@@ -92,6 +92,7 @@ LIST PP = pp ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
+LIST MajIni = ("[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
 
 LIST Mon_Ton_Son = "mon" "ton" "son" ;
 LIST Son = "son" ;
@@ -644,6 +645,8 @@ SELECT Fem IF (0 Pique) ;
 
 REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
 REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
+
+SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 
 REMOVE V IF (-1 AdjOrd + MascSg) (0 N + MascSg) ; # le dernier voyage
 REMOVE V IF (-1 AdjOrd + MascPl) (0 N + MascPl) ;
