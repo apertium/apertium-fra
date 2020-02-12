@@ -781,6 +781,20 @@ SELECT Jouer_Faire IF (0 Jouer_Faire) (0/* Det) (1 Instrument) ;
 REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 0/* Det) (NOT 1 Det) ;
 REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 1 Instrument) (NOT 2 Instrument) ;
 
+SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
+SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
+SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
+SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) (3 N) ;
+
+SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg) (1 Inf) ;
+SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg) (1 Inf) ;
+SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg) (1 Inf) ;
+SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1C Inf) ;
+
+REMOVE PP (-1 N + MascSg) (0 Verb + P3 + Sg) (1C Inf) ;
+REMOVE PP (-1 Ant OR Cog) (0 Verb + P3 + Sg) (1C Inf) ;
+REMOVE PP (-1 Rel) (0 Verb + P3 + Sg) (1C Inf) ;
+
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 Que) ;
   ## le groupe ne demande qu'à
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("pas") OR ("jamais")) ;
