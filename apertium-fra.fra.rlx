@@ -683,6 +683,10 @@ REMOVE Pupille_anat IF (-1/* Det + Pl_strict) (0 Pupille_anat) ;
 
 SELECT N IF (0 ("conseiller")) (1 ("général")) ;
 
+SELECT N IF (-2 ("à")) (-1 ("même")) (0 ("titre")) ;
+SELECT N IF (-1 ("rôle") OR ("role")) (0 ("titre")) ;
+SELECT N IF (-1 ("chanson")) (0 ("titre")) ;
+
 REMOVE Mai IF (0 Mai OR Mais) ;
 
 SELECT Prn IF (0 ("beaucoup de")) (1C Prn);
