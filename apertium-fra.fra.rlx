@@ -136,6 +136,8 @@ LIST Fil = "fil" ;
 LIST Fils = "fils" ;
 LIST Foi = "foi" ;
 LIST Fois = "fois" ;
+LIST Avar = "avar" ;
+LIST Avare = "avare" ;
 LIST Tour = "tour" ;
 LIST Cour = "cour" ;
 LIST Cours = "cours" ;
@@ -612,6 +614,9 @@ SELECT Fem IF (-2 ("couter") OR ("valoir") OR ("payer")) (-1 Num) (0 Livre) ;
 REMOVE Fem IF (0 Livre) ;
 
 SELECT Fois IF (0C Foi OR Fois) ;
+
+SELECT Avare IF (-1 Adv_PreAdv) (0 Avar) ;
+SELECT Avare IF (NOT -1 Fem) (0 Avar) (NOT 1 Fem) ;
 
 SELECT Adv IF (0 Plus) (1 ("de") OR Que) ;
 
