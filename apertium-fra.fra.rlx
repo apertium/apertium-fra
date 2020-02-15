@@ -139,6 +139,7 @@ LIST Fois = "fois" ;
 LIST Avar = "avar" ;
 LIST Avare = "avare" ;
 LIST Tour = "tour" ;
+LIST Mort = "mort" ;
 LIST Cour = "cour" ;
 LIST Cours = "cours" ;
 LIST Moule = "moule" ;
@@ -224,7 +225,7 @@ SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("setième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("saint") ;
+SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -744,6 +745,10 @@ SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (
   ## à 7 tours de la fin
   ## en deux tours
 SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
+
+SELECT Fem IF (-2 ("menace")) (-1 De) (0 Mort + Masc) ;
+SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
+SELECT Masc IF (NOT -1 Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
 
 SELECT Masc IF (-2 ("dans")) (-1 Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
 SELECT Masc IF (-2 ("remplir") OR ("graisser") OR ("utiliser")) (-1 Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
@@ -1406,8 +1411,9 @@ SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
   ## il va même jusqu'à donner
 
 SELECT Acr OR Al IF (0 Majusc) ;
-SELECT N IF (0 MajuscInitiale) (0C N OR A) (NOT -1 BOS OR MajuscInitiale) (NOT 1 MajuscInitiale) ;
+SELECT N IF (0 MajuscInitiale) (0C N OR A) (NOT -1 BOS OR MajuscInitiale OR Prep OR CnjCoo) (NOT 1 MajuscInitiale) ;
   ## ces ingrats d'Européens.
+  ## l'Académie Rouge et Noire
 
 SELECT Masc_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;
   ## mon père
@@ -1507,11 +1513,19 @@ REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LIN
 
 SELECT N IF (-2C N) (-1 CnjCoo) (0C Noun_Adj_PP) (NOT 1 N) (NOT 0 ("demi") OR ("quart")) ;
 	# est une comédienne, réalisatrice, traductrice et romancière.
+SELECT N IF (NOT -1 N) (0C Noun_Adj_PP) (1 CnjCoo) (2C N) ;
+	# comédies, revues et opérettes
+	# langues anciennes et sciences naturelles
 REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2 N) ;
   ## propriété de NTL et diffuse quatre chaînes
 REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2C A) ;
   ## elle intègre Radio France et présente la matinale de France Bleu
 #REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (NOT 1 N OR PP) (NOT 0 ("demi") OR ("quart")) ;
+
+SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
+	# de physique et chimie
+SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 0 AdjOrd OR AdjPre) ;
+	# de chimie appliquées
 
 REMOVE V IF (0C N + MascSg OR V) (1C Adj_PP + MascSg) ;
 REMOVE V IF (0C N + FemSg OR V) (1C Adj_PP + FemSg) ;
