@@ -574,6 +574,12 @@ SELECT Pis IF (-6 Pii OR Ifi OR Cni) (-5 Adv) (-4 PP) (-3 Adv) (-2 Que) (0 Prs) 
 SELECT Pis IF (-5 Pii OR Ifi OR Cni) (-4 PP) (-3 Que) (-1 Adv) (0 Prs) (0 Pis) ;
   # il avait/eu/aurait fallu que tu ne choisisses pas
 
+# Prs ou Pri
+SELECT Pri IF (-2C Pri) (-1 CnjCoo) (0 Prs) (0 Pri) ; # il revoit et corrige
+SELECT Prs IF (-2C Prs) (-1 CnjCoo) (0 Prs) (0 Pri) ;
+SELECT Pri IF (2C Pri) (1 CnjCoo) (0 Prs) (0 Pri) ; # il corrige et revoit
+SELECT Prs IF (2C Prs) (1 CnjCoo) (0 Prs) (0 Pri) ;
+
 REMOVE Ifi (0 Pri) (1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ; # L'église subit actuellement des travaux
 REMOVE Ifi (0 Pri) (-1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ;
 
