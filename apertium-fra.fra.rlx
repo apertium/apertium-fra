@@ -876,7 +876,9 @@ SELECT CnjSub IF (-2 ("tel")) (0 Que) ;
 
 SELECT Rel IF (-1 CM) (0 Que OR Qui) ;
 SELECT Rel IF (-1C N) (0 Que OR Qui) (NOT -1* Ne) ;
+SELECT Rel IF (-1C NP OR unknownMajIni) (0 Que OR Qui) (NOT -1* Ne) ;
 SELECT Rel IF (-2C N) (-1 A) (0 Que OR Qui) ;
+SELECT Rel IF (-2C Top OR unknownMajIni) (-1 A) (0 Que OR Qui) ;
 SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que OR Qui) ;
 
 SELECT CnjSub IF (-2 Ne) (-1 Verb) (0 Que) ;
