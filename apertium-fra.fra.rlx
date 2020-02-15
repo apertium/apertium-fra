@@ -215,10 +215,12 @@ SET Adv_PreAdv = Adv OR PreAdv ;
 SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf ;
 SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
-# verbs Vblex que típicament impliquen subjuntiu
+# verbes Vblex que typiquement impliquen subjonctif
 SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
-# verbs Vblex que típicament impliquen indicatiu
+# verbes Vblex que typiquement impliquen indicatif
 SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
+# verbes qui peuvent avoir un attribut
+SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("setième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") ;
 # adjectifs qui souvent vont devant le nom
@@ -1099,7 +1101,7 @@ SELECT Pl IF (-3 Haver + Pl) (-2 Adv) (-1 Ser + Pl) (0 PP + Pl) ;
 SELECT Sg IF (-4 Haver + Sg) (-3 Adv) (-2 Ser + Sg) (-1 Adv) (0 PP + Sg) ;
   ## n'a pas été toujours pris
 SELECT Pl IF (-4 Haver + Pl) (-3 Adv) (-2 Ser + Pl) (-1 Adv) (0 PP + Pl) ;
-  ## n´oont pas été toujours pris
+  ## n'ont pas été toujours pris
 SELECT Sg IF (NOT -2 Pro) (-1 Haver) (0 PP + Sg_Pl) ;
   ## Vous avez pris
 SELECT Sg IF (NOT -3 Pro) (-2 Haver) (-1C Adv) (0 PP + Sg_Pl) ;
@@ -1203,6 +1205,19 @@ SELECT Sg IF (-2C/* Det + Sg_strict) (-1C Noun_Adj + Sg) (0C Adj_PP) ;
   ## un pays conquis
 SELECT Pl IF (-2C/* Det + Pl_strict) (-1C Noun_Adj + Sg) (0C Adj_PP) ;
   ## des pays conquis
+
+SELECT Sg IF (-2C Noun_Adj + Sg_strict) (-1 VerbAttr + P3 + Sg) (0C Adj_PP) ;
+  ## le rayonnement est émis
+SELECT Pl IF (-2C Noun_Adj + Pl_strict) (-1 VerbAttr + P3 + Pl) (0C Adj_PP) ;
+  ## les rayonnements sont émis
+SELECT Sg IF (-3C/* Det + Sg_strict) (-2C Noun_Adj + Sg) (-1 VerbAttr + P3 + Sg) (0C Adj_PP) ;
+  ## un pays est conquis
+SELECT Pl IF (-3C/* Det + Pl_strict) (-2C Noun_Adj + Sg) (-1 VerbAttr + P3 + Pl) (0C Adj_PP) ;
+  ## des pays sont conquis
+
+#REMOVE Verb + Pers IF (-1C Ser + Pers) (0 Verb + Pers) ;
+REMOVE Verb + Pers IF (-1C Verb + Pers) (0 Verb + Pers) ;
+  ## est vide
 
 SELECT Prep IF (0 ("après")) (1 Inf) ;
   ## . Après avoir parcouru
