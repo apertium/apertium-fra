@@ -31,25 +31,66 @@
     </pardef>
 
     <pardef n="article_complet">
+      <e><i>habanera</i></e>
+      <e><i>habibi</i></e>
+      <e><i>hâblerie</i></e>
+      <e><i>hâbleur</i></e>
+      <e><i>hâbleuse</i></e>
+      <e><i>Habsbourg</i></e>
       <e><i>hache</i></e>
+      <e><i>haché</i></e>
+      <e><i>hackeur</i></e>
+      <e><i>hackeuse</i></e>
+      <e><i>hacking</i></e>
+      <e><i>hacktivisme</i></e>
+      <e><i>hacktiviste</i></e>
+      <e><i>hafnium</i></e>
+      <e><i>haletant</i></e>
       <e><i>haie</i></e>
+      <e><i>haïku</i></e>
+      <e><i>Hainan</i></e>
       <e><i>haine</i></e>
+      <e><i>haineuse</i></e>
+      <e><i>haineux</i></e>
       <e><i>haïr</i></e>
+      <e><i>hakka</i></e>
       <e><i>haleter</i></e>
       <e><i>hall</i></e>
       <e><i>halle</i></e>
+      <e><i>hallebarde</i></e>
       <e><i>halot</i></e>
       <e><i>halte</i></e>
       <e><i>hamac</i></e>
+      <e><i>haman</i></e>
+      <e><i>Hambourg</i></e>
+      <e><i>hamburgeois</i></e>
+      <e><i>hamburger</i></e>
+      <e><i>hamburgerie</i></e>
       <e><i>hameau</i></e>
+      <e><i>hammam</i></e>
       <e><i>hampe</i></e>
       <e><i>hamster</i></e>
       <e><i>hanche</i></e>
+      <e><i>handball</i></e>
+      <e><i>handballeur</i></e>
+      <e><i>handballeuse</i></e>
       <e><i>handicap</i></e>
+      <e><i>handicapé</i></e>
       <e><i>hangar</i></e>
+      <e><i>hangul</i></e>
       <e><i>hanneton</i></e>
+      <e><i>hanse</i></e>
+      <e><i>hanséatique</i></e>
       <e><i>hanter</i></e>
+      <e><i>happer</i></e>
+      <e><i>happé</i></e>
+      <e><i>harcelé</i></e>
       <e><i>harceler</i></e>
+      <e><i>harcèlement</i></e>
+      <e><i>harceleur</i></e>
+      <e><i>harceleuse</i></e>
+      <e><i>hard<b/>core</i></e>
+      <e><i>hardcore</i></e>
       <e><i>hardi</i></e>
       <e><i>harem</i></e>
       <e><i>hareng</i></e>
@@ -57,45 +98,189 @@
       <e><i>haricot</i></e>
       <e><i>harnais</i></e>
       <e><i>harpe</i></e>
+      <e><i>harpie</i></e>
       <e><i>harpon</i></e>
+      <e><i>harpye</i></e>
       <e><i>hasard</i></e>
+      <e><i>hash</i></e>
+      <e><i>hash<b/>tag</i></e>
+      <e><i>hashtag</i></e>
+      <e><i>hashtague</i></e>
       <e><i>hâte</i></e>
+      <e><i>hâtif</i></e>
+      <e><i>hâtive</i></e>
       <e><i>hauban</i></e>
+      <e><i>hausa</i></e>
       <e><i>hausse</i></e>
       <e><i>haut</i></e>
+      <e><i>Haut-Palatinat</i></e>
+      <e><i>Haut-Rhin</i></e>
+      <e><i>Haute-Autriche</i></e>
+      <e><i>Haute-Corse</i></e>
+      <e><i>Haute-Egypte</i></e>
+      <e><i>Haute-Égyte</i></e>
+      <e><i>Haute-Franconie</i></e>
+      <e><i>Haute-Garonne</i></e>
+      <e><i>Haute-Loire</i></e>
+      <e><i>Haute-Lotharingie</i></e>
+      <e><i>Haute-Marne</i></e>
+      <e><i>Haute-Lusace</i></e>
+      <e><i>Haute-Marne</i></e>
+      <e><i>Haute-Normandie</i></e>
+      <e><i>Haute-Saône</i></e>
+      <e><i>Haute-Savoie</i></e>
+      <e><i>Haute-Silésie</i></e>
+      <e><i>Hautes-Pyrénées</i></e>
+      <e><i>Hauts-de-France</i></e>
       <e><i>hautain</i></e>
       <e><i>hautbois</i></e>
+      <e><i>hautparleur</i></e>
       <e><i>Havane</i></e>
       <e><i>havre</i></e>
+      <e><i>Hawaï</i></e>
+      <e><i>hawaïen</i></e>
+      <e><i>Haydn</i></e>
+      <e><i>Hayes</i></e>
+      <e><i>Hegel</i></e>
+      <e><i>Heidegger</i></e>
+      <e><i>Helsinki</i></e>
+      <e><i>Hendaye</i></e>
+      <e><i>Herbert</i></e>
       <e><i>hère</i></e>
       <e><i>hérisson</i></e>
+      <e><i>Hermès</i></e>
+      <e><i>hernie</i></e>
       <e><i>héron</i></e>
       <e><i>héros</i></e>
       <e><i>herse</i></e>
+      <e><i>hêtre</i></e>
+      <e><i>hiatus</i></e>
       <e><i>hibou</i></e>
+      <e><i>hideux</i></e>
+      <e><i>hidjab</i></e>
+      <e><i>hiérarchie</i></e>
+      <e><i>hiérarchique</i></e>
+      <e><i>hiératique</i></e>
       <e><i>hiéroglyphe</i></e>
+      <e><i>hijab</i></e>
+      <e><i>Hilaire</i></e>
+      <e><i>Hildegarde</i></e>
+      <e><i>hindi</i></e>
+      <e><i>hip<b/>hop</i></e>
+      <e><i>hip-hop</i></e>
+      <e><i>hippie</i></e>
+      <e><i>hiragana</i></e>
+      <e><i>hit</i></e>
+      <e><i>hittite</i></e>
+      <e><i>Hitler</i></e>
+      <e><i>hoax</i></e>
+      <e><i>hobbesien</i></e>
+      <e><i>hobbies</i></e>
+      <e><i>hobbisme</i></e>
+      <e><i>hobby</i></e>
+      <e><i>hobereau</i></e>
       <e><i>hochet</i></e>
       <e><i>hockey</i></e>
       <e><i>holding</i></e>
       <e><i>Hollande</i></e>
       <e><i>Hollandais</i></e>
       <e><i>hollandais</i></e>
+      <e><i>Hollywood</i></e>
+      <e><i>Holstein</i></e>
       <e><i>homard</i></e>
+      <e><i>home<b/>run</i></e>
+      <e><i>honage</i></e>
       <e><i>Hongrie</i></e>
       <e><i>Hongrois</i></e>
       <e><i>hongrois</i></e>
       <e><i>honte</i></e>
+      <e><i>honteux</i></e>
+      <e><i>honteuse</i></e>
+      <e><i>hooligan</i></e>
+      <e><i>hooliganisme</i></e>
       <e><i>hoquet</i></e>
       <e><i>horde</i></e>
+      <e><i>hotdog</i></e>
+      <e><i>hot-dog</i></e>
       <e><i>houblon</i></e>
+      <e><i>houe</i></e>
+      <e><i>houille</i></e>
+      <e><i>houligan</i></e>
+      <e><i>houliganisme</i></e>
+      <e><i>hourra</i></e>
+      <e><i>hourrite</i></e>
+      <e><i>Hourrite</i></e>
       <e><i>housse</i></e>
+      <e><i>houthi</i></e>
+      <e><i>Houthi</i></e>
+      <e><i>houx</i></e>
+      <e><i>huastèque</i></e>
+      <e><i>hub</i></e>
       <e><i>hublot</i></e>
+      <e><i>huguenot</i></e>
+      <e><i>Hugues</i></e>
+      <e><i>Huguet</i></e>
+      <e><i>huis<b/>clos</i></e>
       <e><i>huisclos</i></e>
       <e><i>huit</i></e>
+      <e><i>huitante</i></e>
+      <e><i>huitième</i></e>
+      <e><i>hululeur</i></e>
+      <e><i>hululeuse</i></e>
+      <e><i>Hun</i></e>
+      <e><i>hunnique</i></e>
       <e><i>hure</i></e>
       <e><i>hurler</i></e>
+      <e><i>huskies</i></e>
+      <e><i>husky</i></e>
       <e><i>hussard</i></e>
+      <e><i>hussite</i></e>
       <e><i>hutte</i></e>
+<!--      <e><i>hyène</i></e> -->
+      <e><i>Horthy</i></e>
+      <e><i>Houellebecq</i></e>
+      <e><i>Houston</i></e>
+      <e><i>Hugh</i></e>
+      <e><i>Huntington</i></e>
+      <e><i>Huston</i></e>
+      <e><i>Hadley</i></e>
+      <e><i>Hadnagy</i></e>
+      <e><i>Hailey</i></e>
+      <e><i>Haley</i></e>
+      <e><i>Halley</i></e>
+      <e><i>Hallyday</i></e>
+      <e><i>Hanley</i></e>
+      <e><i>Hans</i></e>
+      <e><i>Hardey</i></e>
+      <e><i>Hardy</i></e>
+      <e><i>Harley</i></e>
+      <e><i>Harmony</i></e>
+      <e><i>Harry</i></e>
+      <e><i>Hartley</i></e>
+      <e><i>Harvey</i></e>
+      <e><i>Harvey</i></e>
+      <e><i>Hathaway</i></e>
+      <e><i>Hawey</i></e>
+      <e><i>Hay</i></e>
+      <e><i>Hayley</i></e>
+      <e><i>Healey</i></e>
+      <e><i>Healy</i></e>
+      <e><i>Hemingway</i></e>
+      <e><i>Henley</i></e>
+      <e><i>Henry</i></e>
+      <e><i>Henry</i></e>
+      <e><i>Hevey</i></e>
+      <e><i>Hickey</i></e>
+      <e><i>Hilary</i></e>
+      <e><i>Hillary</i></e>
+      <e><i>Holloway</i></e>
+      <e><i>Holly</i></e>
+      <e><i>Hughboy</i></e>
+      <e><i>Humphrey</i></e>
+      <e><i>Humphrey</i></e>
+      <e><i>Hurley</i></e>
+      <e><i>Huxley</i></e>
+      <e><i>ukulélé</i></e>
       <e><i>yacht</i></e>
       <e><i>yang</i></e>
       <e><i>yankee</i></e>
@@ -103,6 +288,7 @@
       <e><i>yard</i></e>
       <e><i>yayo</i></e>
       <e><i>yéménite</i></e>
+      <e><i>Yéménite</i></e>
       <e><i>Yémen</i></e>
       <e><i>yen</i></e>
       <e><i>yeuse</i></e>
@@ -117,6 +303,157 @@
       <e><i>IIIe</i></e>
       <e><i>IVe</i></e>
       <e><i>IXe</i></e>
+      <e><i>Ianoukovytch</i></e>
+      <e><i>Iouchtchenko</i></e>
+      <e><i>Yacoub</i></e>
+      <e><i>Yadhira</i></e>
+      <e><i>Yadia</i></e>
+      <e><i>Yadira</i></e>
+      <e><i>Yago</i></e>
+      <e><i>Yague</i></e>
+      <e><i>Yagüe</i></e>
+      <e><i>Yagües</i></e>
+      <e><i>Yahoo</i></e>
+      <e><i>Yaiza</i></e>
+      <e><i>Yakoute</i></e>
+      <e><i>yakoute</i></e>
+      <e><i>Yakoutie</i></e>
+      <e><i>Yale</i></e>
+      <e><i>Yalile</i></e>
+      <e><i>Yalta</i></e>
+      <e><i>Yamaha</i></e>
+      <e><i>Yamamoto</i></e>
+      <e><i>Yamandú</i></e>
+      <e><i>Yamari</i></e>
+      <e><i>Yamel</i></e>
+      <e><i>Yamila</i></e>
+      <e><i>Yamile</i></e>
+      <e><i>Yamilem</i></e>
+      <e><i>Yamina</i></e>
+      <e><i>Yamine</i></e>
+      <e><i>Yan</i></e>
+      <e><i>Yanay</i></e>
+      <e><i>Yanel</i></e>
+      <e><i>Yanela</i></e>
+      <e><i>Yanet</i></e>
+      <e><i>Yang</i></e>
+      <e><i>Yangon</i></e>
+      <e><i>Yanil</i></e>
+      <e><i>Yanila</i></e>
+      <e><i>Yanina</i></e>
+      <e><i>Yanira</i></e>
+      <e><i>Yanis</i></e>
+      <e><i>Yankiray</i></e>
+      <e><i>Yann</i></e>
+      <e><i>Yannice</i></e>
+      <e><i>Yannick</i></e>
+      <e><i>Yannis</i></e>
+      <e><i>Yanukovych</i></e>
+      <e><i>Yao</i></e>
+      <e><i>Yaoundé</i></e>
+      <e><i>Yara</i></e>
+      <e><i>Yared</i></e>
+      <e><i>Yarela</i></e>
+      <e><i>Yargeau</i></e>
+      <e><i>Yaser</i></e>
+      <e><i>Yasm</i></e>
+      <e><i>Yasmila</i></e>
+      <e><i>Yasmín</i></e>
+      <e><i>Yasmin</i></e>
+      <e><i>Yasmina</i></e>
+      <e><i>Yasmine</i></e>
+      <e><i>Yasmmane</i></e>
+      <e><i>Yasna</i></e>
+      <e><i>Yasser</i></e>
+      <e><i>Yassine</i></e>
+      <e><i>Yassmin</i></e>
+      <e><i>Yassmina</i></e>
+      <e><i>Yates</i></e>
+      <e><i>Yatova</i></e>
+      <e><i>Yayá</i></e>
+      <e><i>Yazmin</i></e>
+      <e><i>Yazmín</i></e>
+      <e><i>Yañez</i></e>
+      <e><i>Yáñez</i></e>
+      <e><i>Ybars</i></e>
+      <e><i>Ye</i></e>
+      <e><i>Yeager</i></e>
+      <e><i>Yebenes</i></e>
+      <e><i>Yébenes</i></e>
+      <e><i>Yebra</i></e>
+      <e><i>Yedythe</i></e>
+      <e><i>Yee</i></e>
+      <e><i>Yelamos</i></e>
+      <e><i>Yelle</i></e>
+      <e><i>Yémen</i></e>
+      <e><i>Yéménite</i></e>
+      <e><i>yéménite</i></e>
+      <e><i>Yemina</i></e>
+      <e><i>Yenina</i></e>
+      <e><i>Yepes</i></e>
+      <e><i>Yepez</i></e>
+      <e><i>Yeraldí</i></e>
+      <e><i>Yergeau</i></e>
+      <e><i>Yesenia</i></e>
+      <e><i>Yésica</i></e>
+      <e><i>Yessenia</i></e>
+      <e><i>Yessica</i></e>
+      <e><i>Yeste</i></e>
+      <e><i>Yeung</i></e>
+      <e><i>Ygraine</i></e>
+      <e><i>Yi</i></e>
+      <e><i>Yilda</i></e>
+      <e><i>Yilmaz</i></e>
+      <e><i>Yin</i></e>
+      <e><i>Yip</i></e>
+      <e><i>Yixin</i></e>
+      <e><i>Yiyi</i></e>
+      <e><i>Yockell</i></e>
+      <e><i>Yoconda</i></e>
+      <e><i>Yoda</i></e>
+      <e><i>Yodalia</i></e>
+      <e><i>Yogi</i></e>
+      <e><i>Yohana</i></e>
+      <e><i>Yohann</i></e>
+      <e><i>Yolanda</i></e>
+      <e><i>Yolande</i></e>
+      <e><i>Yonium</i></e>
+      <e><i>Yonne</i></e>
+      <e><i>York</i></e>
+      <e><i>Yorke</i></e>
+      <e><i>Yorkshire</i></e>
+      <e><i>Yoselin</i></e>
+      <e><i>You</i></e>
+      <e><i>youan</i></e>
+      <e><i>yougoslave</i></e>
+      <e><i>Yougoslave</i></e>
+      <e><i>Yougoslavie</i></e>
+      <e><i>Younan</i></e>
+      <e><i>Younes</i></e>
+      <e><i>Young</i></e>
+      <e><i>Yourcenar</i></e>
+      <e><i>Youri</i></e>
+      <e><i>Yousra</i></e>
+      <e><i>Youssef</i></e>
+      <e><i>Youssouf</i></e>
+      <e><i>YouTube</i></e>
+      <e><i>Yovanovitch</i></e>
+      <e><i>Yu</i></e>
+      <e><i>Yuan</i></e>
+      <e><i>Yubero</i></e>
+      <e><i>Yuen</i></e>
+      <e><i>Yuliana</i></e>
+      <e><i>Yulisa</i></e>
+      <e><i>Yumara</i></e>
+      <e><i>Yung</i></e>
+      <e><i>Yunus</i></e>
+      <e><i>Yurena</i></e>
+      <e><i>Yus</i></e>
+      <e><i>Yushchenko</i></e>
+      <e><i>Yuste</i></e>
+      <e><i>Yuste</i></e>
+      <e><i>Yustine</i></e>
+      <e><i>Yuvia</i></e>
 
 </pardef>
 
