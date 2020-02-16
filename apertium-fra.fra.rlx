@@ -269,6 +269,18 @@ SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR (
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 
+REMOVE NP IF (-1 ("1er")) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
+REMOVE NP IF (-1 Num) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
+
+REMOVE Ant_Cog IF (-1/* Det + MascSg) (0 Noun_Adj + MascSg) ;		# un Français
+REMOVE Ant_Cog IF (-1/* Det + MascPl) (0 Noun_Adj + MascPl) ;		# les Français
+REMOVE Ant_Cog IF (-1/* Det + FemSg) (0 Noun_Adj + FemSg) ;
+REMOVE Ant_Cog IF (-1/* Det + FemPl) (0 Noun_Adj + FemPl) ;
+#REMOVE Ant_Cog IF (-2/* Det + MascSg) (-1C A + MascSg) (0 N + MascSg) ;
+#REMOVE Ant_Cog IF (-2/* Det + MascPl) (-1C A + MascPl) (0 N + MascPl) ;
+#REMOVE Ant_Cog IF (-2/* Det + FemSg) (-1C A + FemSg) (0 N + FemSg) ;
+#REMOVE Ant_Cog IF (-2/* Det + FemPl) (-1C A + FemPl) (0 N + FemPl) ;
+
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
