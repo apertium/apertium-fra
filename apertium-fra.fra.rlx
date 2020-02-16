@@ -1555,6 +1555,8 @@ SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;
 # en voyant son cartable
 SELECT Ger IF (-1C Pro) (0C Ger OR Noun_Adj_PP) ;
 # se rendant enfin à Naples
+REMOVE A IF (-1 BOS) (0 Ger) (1 Det) ;
+# Fuyant les premières familles, 
 
 SELECT A IF (-2 Det + MascSg) (-1 N + MascSg) (0 ("suivant")) ;
 SELECT A IF (-2 Det + MascPl) (-1 N + MascPl) (0 ("suivant")) ;
