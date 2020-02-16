@@ -136,6 +136,7 @@ LIST Être = "être" ;
 LIST Tour = "tour" ;
 LIST Mort = "mort" ;
 LIST Cave = "cave" ;
+LIST Livre = "livre" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -148,7 +149,6 @@ LIST Cours = "cours" ;
 LIST Moule = "moule" ;
 LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
-LIST Livre = "livre" ;
 LIST Mille = "mille" ;
 LIST Mil = "mil" ;
 LIST Ete = "été" ;
@@ -617,7 +617,7 @@ SELECT Fem IF (-2 ("milion") OR ("milliard")) (-1 ("de")) (0 Livre) ;
 SELECT Fem IF (0 Livre) (1 ("sterling")) ;
 SELECT Fem IF (-3 ("prix") OR ("salaire") OR ("paie")) (-2 ("de")) (-1 Num) (0 Livre) ;
 SELECT Fem IF (-2 ("couter") OR ("valoir") OR ("payer")) (-1 Num) (0 Livre) ;
-REMOVE Fem IF (0 Livre) ;
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Livre + Masc) (NOT 1/* Masc_strict) ;
 
 SELECT Fois IF (0C Foi OR Fois) ;
 
