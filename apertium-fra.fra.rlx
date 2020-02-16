@@ -1838,3 +1838,16 @@ SELECT Det IF (0 ("certains")) (1 N) (NOT 1 Verb + Pl + Pers) (NOT 1 Adv) ;
 SELECT N IF (-1 Num) (0 ("dixième") OR ("centième") OR ("millième")) ;
 
 REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
+
+#
+# Pour éviter la traduction (partielle) de toponymes (s'ils ne sont pas déjà sur les dicos)
+#
+# Ces règles marchent, mais il y a un bug qui elimine le blanc après le merge. C'est pourquoi, pour le moment, elles sont commentées
+
+#MERGECOHORTS ("<$1-$2-$3-$4-$5>"v "\\*$1-$2-$3-$4-$5"v) ("<(.+)>"r) (0 ("<Saint>") OR ("<Sainte>")) (0 (META:/-/r)) (1 (META:/-/r)) (2 (META:/-/r)) (3 (META:/-/r)) WITH (1 ("<(.+)>"r)) (2 ("<(.+)>"r)) (3 ("<(.+)>"r)) (4 ("<(.+)>"r)) ;	# Saint-Jean-Pied-de-Port
+#MERGECOHORTS ("<$1-$2-$3-$4>"v "\\*$1-$2-$3-$4"v) ("<(.+)>"r) (0 ("<Saint>") OR ("<Sainte>")) (0 (META:/-/r)) (1 (META:/-/r)) (2 (META:/-/r)) WITH (1 ("<(.+)>"r)) (2 ("<(.+)>"r)) (3 ("<(.+)>"r)) ;	# Saint-Jean-de-Luz
+#MERGECOHORTS ("<$1-$2-$3>"v "\\*$1-$2-$3"v) ("<(.+)>"r) (0 ("<Saint>") OR ("<Sainte>")) (0 (META:/-/r)) (1 (META:/-/r)) WITH (1 ("<(.+)>"r)) (2 ("<(.+)>"r)) ;	# Saint-Jean-Baptiste
+#MERGECOHORTS ("<$1-$2>"v "\\*$1-$2"v) ("<(.+)>"r) (0 ("<Saint>") OR ("<Sainte>")) (0 (META:/-/r)) WITH (1 ("<(.+)>"r)) ;	# Saint-Jean
+
+#MERGECOHORTS ("<$1-$2-$3-$4>"v "\\*$1-$2-$3-$4"v) ("<(.+)>"r) (1 Prep) (0 (META:/-/r)) (1 (META:/-/r)) (2 (META:/-/r)) WITH (1 ("<(.+)>"r)) (2 ("<(.+)>"r)) (3 ("<(.+)>"r)) ;	# Francfort-sur-le-Main
+#MERGECOHORTS ("<$1-$2-$3>"v "\\*$1-$2-$3"v) ("<(.+)>"r) (1 Prep) (0 (META:/-/r)) (1 (META:/-/r)) WITH (1 ("<(.+)>"r)) (2 ("<(.+)>"r)) ;	# Bruyères-sur-Oise
