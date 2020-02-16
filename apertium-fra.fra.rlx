@@ -137,6 +137,9 @@ LIST Tour = "tour" ;
 LIST Mort = "mort" ;
 LIST Cave = "cave" ;
 LIST Livre = "livre" ;
+LIST Moule = "moule" ;
+LIST Basket = "basket" ;
+LIST Tennis = "tennis" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -146,9 +149,8 @@ LIST Avar = "avar" ;
 LIST Avare = "avare" ;
 LIST Cour = "cour" ;
 LIST Cours = "cours" ;
-LIST Moule = "moule" ;
-LIST Basket = "basket" ;
-LIST Tennis = "tennis" ;
+LIST Amazigh = "amazigh" ;
+LIST Amazighe = "amazighe" ;
 LIST Mille = "mille" ;
 LIST Mil = "mil" ;
 LIST Ete = "été" ;
@@ -770,6 +772,11 @@ SELECT Masc IF (0 Primaire + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Fem IF (0 Primaire + Pl) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
+
+REMOVE Fem_strict IF (-1 En) (0 Amazighe) (NOT 1 Fem_strict) ;
+REMOVE Fem_strict IF (-1/* Det + Def + Pl) (0 Amazighe) (NOT 1 Fem_strict) ;
+SELECT Fem IF (-1/* Fem) (0 Amazighe);
+SELECT Fem IF (1/* Fem) (0 Amazighe);
 
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
