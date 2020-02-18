@@ -140,6 +140,12 @@ LIST Livre = "livre" ;
 LIST Moule = "moule" ;
 LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
+LIST Curie = "tennis" ;
+LIST homicide = "homicide" ;
+LIST patricide = "parricide" ;
+LIST matricide = "matricide" ;
+LIST fratricide = "fratricide" ;
+LIST régicide = "régicide" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -780,6 +786,9 @@ SELECT Masc IF (0 Basket + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 ("<Basket>")) ;
 SELECT Masc IF (0 Tennis) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 ("<Tennis>")) ;
+
+SELECT Masc IF (-1 Num) (0 Curie + Pl) (NOT 1 A + Fem_strict) ;
+SELECT Fem IF (0 Curie) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Masc IF (0 Primaire + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Fem IF (0 Primaire + Pl) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
@@ -1552,10 +1561,10 @@ SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 0 AdjOrd OR AdjPre) ;
 	# de chimie appliquées
 
-REMOVE V IF (0C N + MascSg OR V) (1C Adj_PP + MascSg) ;
-REMOVE V IF (0C N + FemSg OR V) (1C Adj_PP + FemSg) ;
-REMOVE V IF (0C N + MascPl OR V) (1C Adj_PP + MascPl) ;
-REMOVE V IF (0C N + FemPl OR V) (1C Adj_PP + FemPl) ;
+REMOVE V IF (NOT -1 Pro) (0C N + MascSg OR V) (1C Adj_PP + MascSg) ;
+REMOVE V IF (NOT -1 Pro) (0C N + FemSg OR V) (1C Adj_PP + FemSg) ;
+REMOVE V IF (NOT -1 Pro) (0C N + MascPl OR V) (1C Adj_PP + MascPl) ;
+REMOVE V IF (NOT -1 Pro) (0C N + FemPl OR V) (1C Adj_PP + FemPl) ;
 	#et agressions sexuelles sur mineur
 
 REMOVE V IF (-1 ("de")) (-1/* DetDef) (0C N + Pl OR V) ;
