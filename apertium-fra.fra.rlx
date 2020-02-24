@@ -814,9 +814,10 @@ REMOVE Adv IF (0 Depuis) (1 ("de")) (2 N + Pl) ;
 
 SELECT N IF (-1 Num) (0C N OR V) ;
   ## 9 combats
-SELECT N IF (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
+SELECT N IF (NOT -2 Tn) (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
   ## que le pouvoir de
   ## , conseiller regional,
+  ## je le donne
 SELECT N IF (-1 Prep) (-1/* DetDef) (0C N OR Verb) ;
   ## du commandant Klein
 SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
