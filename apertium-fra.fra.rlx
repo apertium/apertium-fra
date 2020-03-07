@@ -137,17 +137,20 @@ LIST Tour = "tour" ;
 LIST Mort = "mort" ;
 LIST Cave = "cave" ;
 LIST Livre = "livre" ;
+LIST Faune = "faune" ;
 LIST Moule = "moule" ;
 LIST Mode = "mode" ;
+LIST Solde = "solde" ;
 LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
 LIST Curie = "curie" ;
 LIST MiTemps = "mi-temps" ;
-LIST homicide = "homicide" ;
-LIST patricide = "parricide" ;
-LIST matricide = "matricide" ;
-LIST fratricide = "fratricide" ;
-LIST régicide = "régicide" ;
+LIST Homicide = "homicide" ;
+LIST Patricide = "parricide" ;
+LIST Matricide = "matricide" ;
+LIST Fratricide = "fratricide" ;
+LIST Régicide = "régicide" ;
+LIST Inceste = "inceste" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -255,12 +258,23 @@ REMOVE Ant IF (-1 DetDef) (0 Ant) ;
 REMOVE Ant IF (-1 DetInd) (0 Ant) ;
 REMOVE Ant IF (-1 En) (0 Ant) ;
 
-SELECT Ant IF (0 Ant) (1C Ant) ;
+SELECT NP IF (0 N OR NP) (1 NP) (0 (META:/-/r)) (NOT 0 ("bas") OR ("haut")) ;
+	# Pierre-Michel
+SELECT Ant IF (0 Ant) (1C Ant) (0 (META:/-/r)) ;
 	# Jean-René
+SELECT Ant IF (-1C Ant) (0 Ant) (-1 (META:/-/r)) ;
+SELECT Cog IF (0 Cog) (1C Cog) (0 (META:/-/r)) ;
+SELECT Cog IF (-1C Cog) (0 Cog) (-1 (META:/-/r)) ;
 SELECT Cog IF (0 Cog OR Ant) (-1C Ant) ;
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
 
-REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknown) ;
+SELECT Ant IF (0 ("René") OR ("Renée")) (1 Ant OR NP) ;
+SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
+SELECT Cog IF (-1 ("Édouard")) (0 ("Philippe")) ;
+
+SELECT Top IF (-2C Ant) (-1 ("<de>")) (0C Cog OR Ant OR Top) ;
+SELECT Ant IF (0C Cog OR Ant OR Top) (1 ("<de>")) (2C Top) ;	# Maurice de Saxe
+REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknown) (NOT -1 ("de")) ;
 SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknown) ;
 	## Léon Verguet
 REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); #Orihuela, Vilallonga
@@ -778,6 +792,8 @@ SELECT Masc IF (NOT -1 Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
 
+SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
+
 SELECT Masc IF (NOT -1 Masc_strict) (0 Mode + Masc) (1 De) ;
 
 SELECT Masc IF (-2 ("dans")) (-1 Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
@@ -796,6 +812,10 @@ SELECT Fem IF (0 Curie) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Masc IF (0 Primaire + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Fem IF (0 Primaire + Pl) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Masc IF (0 Solde) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT Masc IF (0 Inceste) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 
@@ -827,6 +847,10 @@ SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
 REMOVE Pers IF (-2 Prep) (-1 Det) (0C N OR Verb LINK 0 Pers) ;
   ## à leurs armes
 REMOVE Verb (0C N OR Verb) (NOT 0 PP) (1C Verb + Pers) ; 	# la roue tourne, polémique a démarré, le volant a
+REMOVE V (-1 Det + MascSg) (0C V OR N + MascSg) (1 Ant + MascSg) ;	# le philosophe John Stuart Mill
+REMOVE V (-1 Det + FemSg) (0C V OR N + FemSg) (1 Ant + FemSg) ;	
+REMOVE V (-1 Det + MascPl) (0C V OR N + MascPl) (1 Ant) ;	
+REMOVE V (-1 Det + FemPl) (0C V OR N + FemPl) (1 Ant) ;	
 
 REMOVE N IF (-1 Rel) (0 N OR Verb) ;
   ## ce qui limite le nombre
