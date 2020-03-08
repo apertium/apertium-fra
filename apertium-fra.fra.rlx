@@ -140,6 +140,7 @@ LIST Livre = "livre" ;
 LIST Faune = "faune" ;
 LIST Moule = "moule" ;
 LIST Mode = "mode" ;
+LIST Rade = "rade" ;
 LIST Solde = "solde" ;
 LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
@@ -793,6 +794,8 @@ SELECT Masc IF (NOT -1 Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Masc IF (NOT -1 Masc_strict) (0 Mode + Masc) (1 De) ;
 
