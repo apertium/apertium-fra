@@ -750,6 +750,9 @@ SELECT Prn IF (0 ("beaucoup de")) (1C Prn);
 SELECT Prn IF (0 ("beaucoup de")) (1C Prep);
   ## beaucoup d'entre eux
 
+SELECT Prn IF (0 ("ce")) (1 Ser + P3);		# ce sont
+SELECT Prn IF (0 ("ce")) (1 Adv) (2 Ser + P3);	# ce ne sont pas
+
 SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
   ## . Tous les Etats
 
