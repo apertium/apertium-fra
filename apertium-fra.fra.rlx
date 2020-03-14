@@ -474,6 +474,9 @@ SELECT V IF (-1 ("en")) (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("
 SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
 SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
 
+SELECT V IF (NOT -1 ("y")) (0 Avoir) (1 ("rien")) (NOT 2 PP) ;			# n'a rien de nouveau
+SELECT V IF (NOT -1 ("y")) (0 Avoir) (1 Adv) (2 ("rien")) (NOT 3 PP) ;		# n'a toujours rien de nouveau
+
 REMOVE N IF (-1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
   ## As-tu vu Jean ?
