@@ -146,6 +146,7 @@ LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
 LIST Curie = "curie" ;
 LIST MiTemps = "mi-temps" ;
+LIST Paillasse = "paillasse" ;
 LIST Homicide = "homicide" ;
 LIST Patricide = "parricide" ;
 LIST Matricide = "matricide" ;
@@ -268,6 +269,8 @@ SELECT Cog IF (0 Cog) (1C Cog) (0 (META:/-/r)) ;
 SELECT Cog IF (-1C Cog) (0 Cog) (-1 (META:/-/r)) ;
 SELECT Cog IF (0 Cog OR Ant) (-1C Ant) ;
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
+SELECT Ant IF (0C Ant OR Cog) (1 Ant) (0 (META:/-/r)) ;
+	# Charles-Michel
 
 SELECT Ant IF (0 ("René") OR ("Renée")) (1 Ant OR NP) ;
 SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
