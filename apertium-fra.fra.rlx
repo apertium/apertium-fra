@@ -1876,6 +1876,24 @@ SELECT PP IF (0 A OR PP) (1 Adv) (2 ("par")) ;
 SELECT PP IF (-1 Ser) (-2 ("ne")) (0 A OR PP) (1 Que) (2 ("par")) ;
 # Les cours seront assurés par Michel Laine
 
+# V OR N
+REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
+REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemSg) (2 N + FemSg) ;	# et ferme une dizaine de magasins
+REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascPl) (2 N + MascPl) ;
+REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemPl) (2 N + FemPl) ;
+
+REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<du>")) (2 N + Sg) ;
+REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<des>")) (2 N + Pl) ;
+
+# V OR Adv
+REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
+REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + FemSg) (2 N + FemSg) ;	# et ferme une dizaine de magasins
+REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + MascPl) (2 N + MascPl) ;
+REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + FemPl) (2 N + FemPl) ;
+
+REMOVE Adv IF (-1 CnjCoo) (0 V) (1 ("<du>")) (2 N + Sg) ;
+REMOVE Adv IF (-1 CnjCoo) (0 V) (1 ("<des>")) (2 N + Pl) ;
+
 # V (P3) OR PP
 REMOVE PP IF (-1 N + MascSg) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + MascSg) ;
 REMOVE PP IF (-1 N + MascPl) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + MascPl) ;
