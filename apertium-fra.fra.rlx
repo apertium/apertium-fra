@@ -775,6 +775,10 @@ SELECT A IF (0 ("prochain")) (-1 Det) (1 N) ;
 
 SELECT N IF (0 ("dame") + Pl) (-1 ("finale") OR ("demi-finale") OR ("tournoi") OR ("championat")) ;
 
+REMOVE Adv IF (-1 Prep) (0 ("haut")) ;
+REMOVE Adv IF (-1 N + MascSg) (0 ("haut")) ;
+REMOVE Adv IF (0 ("haut")) (1 N + MascSg) ;
+
 #SELECT Det IF (0 Leur) (1 N OR A OR Adv) ;
 #SELECT Pron IF (0 Leur) (1 Verb) ;
 #REMOVE N IF (0 Leur) (1 unknown) ;
@@ -1487,6 +1491,10 @@ SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1C Det) ;
 SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;
   ## Même en se partageant
 SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
+
+SELECT A IF (0 A) (0 (META:/-/r)) (1 Top OR unknownMajIni) ;
+ ## Haut-Paraguay
+
   ## il va même jusqu'à donner
 
 SELECT Acr OR Al IF (0 Majusc) ;
