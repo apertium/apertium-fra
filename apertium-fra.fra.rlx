@@ -556,8 +556,9 @@ REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
 # subjonctif après "que"
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 	# Compte: quiero decirle que me parece muy bien
-SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
-SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") BARRIER Cnj_Rel_End) (*-1 VerbSubj) (0C Verb) ;
+SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
+#SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") BARRIER Cnj_Rel_End) (*-1 VerbSubj) (0C Verb) ;
+SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") BARRIER Cnj_Rel_End) (0C Verb) ;
 	# Bien que ces trois royaumes aient été réunis par l'empereur Wudi, les barbares Wuhu ravagent le pays
 REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
 #REMOVE Subjunc (*-1 ("lorsque") OR ("puisque") OR ("parce que") OR ("pendant que") BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
