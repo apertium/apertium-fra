@@ -146,6 +146,7 @@ LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
+LIST Teneur = "teneur" ;
 LIST MiTemps = "mi-temps" ;
 LIST Paillasse = "paillasse" ;
 LIST Homicide = "homicide" ;
@@ -836,6 +837,8 @@ SELECT Masc IF (0 Solde) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 Inceste) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (0 Info) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (0 Teneur) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 SELECT N IF (0 ("torse")) (1 ("nu")) ;
