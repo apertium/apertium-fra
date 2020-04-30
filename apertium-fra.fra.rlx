@@ -196,6 +196,7 @@ LIST Mystique_pers = "mystique_pers" ;
 LIST Mystique_syst = "mystique_syst" ;
 LIST Pupille_pers = "pupille_pers" ;
 LIST Pupille_anat = "pupille_anat" ;
+LIST Quitte = "quitte" ;
 LIST Mai = "mai" ;
 LIST Mais = "mais" ;
 LIST Rose = "rose" ;
@@ -695,6 +696,9 @@ SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
 
 SELECT N IF (0 Roue) (NOT -1 ("il") OR ("elle") OR ("on") OR Ant_Cog) ;
+
+SELECT A IF (0 Quitte) (-1 Ser) ;
+REMOVE A IF (0 Quitte) ;
 
 SELECT N IF (0 Correspondant) (1 ("de")) (2 ("guerre")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 Det) (3 ("journal")) ;
