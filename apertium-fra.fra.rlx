@@ -136,6 +136,7 @@ LIST Être = "être" ;
 LIST Tour = "tour" ;
 LIST Mort = "mort" ;
 LIST Cave = "cave" ;
+LIST Claque = "claque" ;
 LIST Livre = "livre" ;
 LIST Faune = "faune" ;
 LIST Moule = "moule" ;
@@ -178,6 +179,7 @@ LIST Nouvelle = "nouvelle" ;
 LIST Peu = "peu de" ;
 LIST Helas = "hélas" ;
 LIST Des = "dès" ;
+LIST Juste = "juste" ;
 LIST Entre = "entre" ;
 LIST Contre = "contre" ;
 LIST Devant = "devant" ;
@@ -813,6 +815,8 @@ SELECT Masc IF (NOT -1 Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
 
+SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Claque + Masc) (NOT 1 Masc_strict) ;
+
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
@@ -1399,6 +1403,11 @@ REMOVE Adv IF (-1C Det OR Prn) (0 Adv OR N) (1C Prep) ;
 
 SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
   ## dès maintenant
+
+SELECT Adv IF (0 Juste) (1 Prep OR CnjAdv OR PP) (NOT -1 Det) ;
+  ## juste devant
+  ## juste avant qu'il ne vienne
+  ## tout juste créé
 
 SELECT Prep IF (0 Entre OR Contre) (1 Nous OR Vous OR Eux);
   ## entre nous, vous, eux, elles
