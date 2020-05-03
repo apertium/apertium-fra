@@ -151,6 +151,7 @@ LIST Teneur = "teneur" ;
 LIST MiTemps = "mi-temps" ;
 LIST Paillasse = "paillasse" ;
 LIST Homicide = "homicide" ;
+LIST Feminicide = "féminicide" ;
 LIST Patricide = "parricide" ;
 LIST Matricide = "matricide" ;
 LIST Fratricide = "fratricide" ;
@@ -1471,8 +1472,20 @@ SELECT CnjAdv IF (-1 BOS) (0 Si) (1 Det OR Tn) ;
 SELECT N IF (-1 Prep) (0 ("or")) ;
 SELECT N IF (-1 Det) (0 ("or")) ;
 
-SELECT Adv IF (-1 Si) (0 Adv OR PreAdv);
+SELECT Adv IF (-1 Si) (0 Adv OR PreAdv) ;
   ## si bien / si mal
+REMOVE PreAdv IF (-1 Haver) (0 Adv OR PreAdv) (1 PP) ;
+  ## vous avez bien lu
+  ## mais: il est bien connu
+REMOVE CnjAdv IF (-1 Haver) (0 Adv) (1 PP) ;
+REMOVE CnjAdv IF (-1 Ser + Sg) (0 Adv) (1 PP + Sg) ;
+REMOVE CnjAdv IF (-1 Ser + Pl) (0 Adv) (1 PP + Pl) ;
+  ## avait alors refusé
+REMOVE PreAdv IF (-2 ("se")) (-1 Ser + P3) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-2 ("me")) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-2 ("te")) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-2C ("nous") + Pro) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-2C ("vous") + Pro) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;
   ## on fait bien
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep OR Pour) ;
