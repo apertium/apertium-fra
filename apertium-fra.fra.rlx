@@ -33,6 +33,7 @@ LIST CnjSub = cnjsub ;
 LIST Num = num ;
 LIST Itg = itg ;
 LIST Pro = pro ;
+LIST Ref = ref ;
 LIST Enc = enc ;
 LIST Tn = tn ;
 LIST Imper = imp ;
@@ -344,6 +345,17 @@ REMOVE PP IF (-1 Ne) (0 Fait) (1 Que) ;
   ## ne fait que
 REMOVE PP IF (-1 Ne) (0 PP) (0 V + Pers) (1C Adv OR ("pas")) ;
 REMOVE PP IF (-1 Ne) (0 PP) (0 V + Pers) (1 Que) ;
+SELECT V IF (0 Fait) (1C Inf) ;
+SELECT PP IF (-3 Haver) (-2 PP) (-1 CnjCoo) (0 Fait) (1C Inf) ;		# a écrit et fait publier
+SELECT PP IF (-2 Pro + P3 + Ref) (-1 Ser + P3) (0 Fait) (1C Inf) ;		# s'est fait connaître
+SELECT PP IF (-2 Pro + P3 + Ref) (-1 Ser + Inf) (0 Fait) (1C Inf) ;
+SELECT PP IF (-2 Pro + P1 + Sg) (-1 Ser + P1 + Sg) (0 Fait) (1C Inf) ;
+SELECT PP IF (-2 Pro + P2 + Sg) (-1 Ser + P2 + Sg) (0 Fait) (1C Inf) ;
+SELECT PP IF (-2 Pro + P1 + Pl) (-1 Ser + P1 + Pl) (0 Fait) (1C Inf) ;
+SELECT PP IF (-2 Pro + P2 + Pl) (-1 Ser + P2 + Pl) (0 Fait) (1C Inf) ;
+REMOVE PP IF (NOT -3 Haver) (NOT -2 Haver) (NOT -1 Haver) (0 Fait) (1C Inf) ;
+  ## fait vendre
+  ## n'avoir pas toujours fait vendre
 
 SELECT V IF (0 Fait) (1 Det) ;
 SELECT Pri IF (NOT -1 Haver) (NOT -1 Adv) (0 Fait) (1 Det) ;
