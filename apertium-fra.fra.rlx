@@ -130,6 +130,7 @@ LIST Ne = "ne" ;
 LIST Aussi = "aussi" ;
 LIST Même = "même" ;
 LIST Plus = "plus" ;
+LIST Moins = "moins" ;
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
 
@@ -689,6 +690,23 @@ SELECT Avar IF (-1 Det + Def + Pl) (0 Avare + Pl + MajIni) ;
 SELECT Avare IF (NOT -1 Fem_strict) (0 Avar) (NOT 1 Fem_strict) ;
 
 SELECT Adv IF (0 Plus) (1 ("de") OR Que) ;
+
+REMOVE CnjAdv IF (-1/* Det + Def + MascSg) (0 Plus OR Moins) (1 A + MascSg OR PP + MascSg) ;
+REMOVE CnjAdv IF (-1/* Det + Def + FemSg) (0 Plus OR Moins) (1 A + FemSg OR PP + FemSg) ;
+REMOVE CnjAdv IF (-1/* Det + Def + MascPl) (0 Plus OR Moins) (1 A + MascPl OR PP + MascPl) ;
+REMOVE CnjAdv IF (-1/* Det + Def + FemPl) (0 Plus OR Moins) (1 A + FemPl OR PP + FemPl) ;
+REMOVE CnjAdv IF (0 Plus OR Moins) (1C A OR PP) ;
+REMOVE CnjAdv IF (-1 N + MascSg) (0 Plus OR Moins) (1 A + MascSg OR PP + MascSg) ;
+REMOVE CnjAdv IF (-1 N + FemSg) (0 Plus OR Moins) (1 A + FemSg OR PP + FemSg) ;
+REMOVE CnjAdv IF (-1 N + MascPl) (0 Plus OR Moins) (1 A + MascPl OR PP + MascPl) ;
+REMOVE CnjAdv IF (-1 N + FemPl) (0 Plus OR Moins) (1 A + FemPl OR PP + FemPl) ;
+REMOVE CnjAdv IF (-1C ("pas")) (0 Plus OR Moins) ;
+REMOVE CnjAdv IF (0 Plus OR Moins) (NOT 1* Verb) ;
+REMOVE CnjAdv IF (-1 Verb) (0 Plus OR Moins) ;
+#REMOVE CnjAdv IF (-2 Ne) (-1 Verb) (0 Plus) ;
+#REMOVE CnjAdv IF (-3 Ne) (-2 Pro) (-1 Verb) (0 Plus) ;
+#REMOVE CnjAdv IF (-3 Ne) (-2 Adv) (-1 Verb) (0 Plus) ;
+REMOVE CnjAdv IF (-1C Prep) ;
 
 SELECT N IF (0 ("président")) (1 ("de")) ;
 
