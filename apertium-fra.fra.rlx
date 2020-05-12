@@ -733,6 +733,8 @@ SELECT N IF (0 Roue) (NOT -1 ("il") OR ("elle") OR ("on") OR Ant_Cog) ;
 SELECT A IF (0 Quitte) (-1 Ser) ;
 REMOVE A IF (0 Quitte) ;
 
+REMOVE N IF (0 ("pousse")) (1 ("à")) (2 Inf OR unknown) ;
+
 SELECT N IF (0 Correspondant) (1 ("de")) (2 ("guerre")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 Det) (3 ("journal")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 NP OR unknown) ;
@@ -1988,6 +1990,9 @@ REMOVE Noun_Adj_PP IF (-2 Det + FemPl) (-1 N + FemPl) (NOT 0 Noun_Adj_PP + FemPl
 
 SELECT Inf IF (0 Être) (-1 Vbmod) ;
   ## Ce doit être Jean !
+SELECT N IF (-1 ("<la>"i)) (0 ("personne")) ;
+SELECT N IF (-1 ("<une>"i)) (0 ("personne")) ;
+SELECT N IF (-1 ("<cette>"i)) (0 ("personne")) ;
 SELECT N IF (-1 ("par")) (0 ("personne")) ;
 REMOVE N IF (-1 Pour) (0 ("personne")) ;
 
