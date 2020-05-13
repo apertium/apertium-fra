@@ -211,7 +211,8 @@ LIST Roue = "roue" ;
 LIST Tout = "tout" ;
 LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire#de" ;
-LIST Instrument = "piano" "violon" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette";
+LIST Instrument = "piano" "violon" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette" ;
+LIST Mois = "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" ;
 
 LIST À = "à" ;
 
@@ -753,6 +754,8 @@ REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
 REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
 
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
+
+SELECT N IF (0 ("fin")) (1 Mois) ;
 
 REMOVE V IF (-1 AdjOrd + MascSg) (0 N + MascSg) ; # le dernier voyage
 REMOVE V IF (-1 AdjOrd + MascPl) (0 N + MascPl) ;
