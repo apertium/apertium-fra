@@ -173,6 +173,7 @@ LIST Amazighe = "amazighe" ;
 LIST Mille = "mille" ;
 LIST Mil = "mil" ;
 LIST Ete = "été" ;
+LIST Etayer = "étayer" ;
 LIST Somme = "somme" ;
 LIST As = "as" ;
 LIST Pique = "pique" ;
@@ -1376,6 +1377,7 @@ SELECT N IF (-1 Prep) (0 Ete) ;
   ## vacances d'été
 SELECT Ser IF (-1 Adv) (0 Ete) (1 PP);
   ## a lui aussi été refait
+SELECT Ser IF (0 Etayer) ;
 
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
   ## que nous avons apris
