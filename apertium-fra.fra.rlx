@@ -1423,6 +1423,8 @@ REMOVE Interj IF (0 ("bon")) (NOT 1* ("<!>")) ;
 SELECT A IF (0 ("bon")) (1C N) ;
   ## un bon jour
 
+REMOVE CnjAdv IF (0 Si) (1 ("en") OR ("y")) (2 Verb) ;
+	  ## pour s'y rendre
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
