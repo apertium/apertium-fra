@@ -213,6 +213,7 @@ LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire#de" ;
 LIST Instrument = "piano" "violon" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette" ;
 LIST Mois = "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" ;
+SET Dignite = ("pape") OR ("patriarche") OR ("évêque") OR ("archevêque") OR ("saint") OR ("saint") OR ("apôtre") OR ("empereur") OR ("roi") OR ("tsar") OR ("vice-roi") OR ("régent") OR ("prince") OR ("infant") OR ("dauphin") OR ("comte") OR ("comtesse") OR ("vicomte") OR ("vicomtesse") OR ("duc") OR ("duchesse") OR ("grand-duc") OR ("grande-duchesse") OR ("archiduc") OR ("archiduchesse") OR ("marquis") OR ("baron") ;
 
 LIST À = "à" ;
 
@@ -754,6 +755,9 @@ REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
 REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
 
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
+
+SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
+SELECT Top IF (-2 Dignite) (-1 ("de")) (0 Top) ;
 
 SELECT N IF (0 ("fin")) (1 Mois) ;
 
