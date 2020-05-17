@@ -114,7 +114,7 @@ LIST Est = "<est>"i ;
 LIST Ouest = "ouest" ;
 LIST Je = "je" "moi je";
 LIST Tu = "tu" "toi tu";
-LIST Il = "il"  "lui il";
+LIST Il = "il" "lui il" "elle";
 LIST On = "on" ;
 LIST Nous = "nous" ;
 LIST Vous = "vous" ;
@@ -1180,6 +1180,8 @@ SELECT Pro IF (-2 Il + Pl) (-1 Ne) (0 Pro) (1 Pro) (2 VPl3);
 
 SELECT P1 IF (-1 Je) (0 VSg1);
   ## Je veux
+SELECT P1 IF (0 VSg1) (0 (META:/-/r)) (1 Je) ;
+  ## Veux-je
 SELECT P1 IF (-2 Je) (-1 Ne) (0 VSg1);
   ## Je ne veux pas
 SELECT P1 IF (-2 Je) (-1 Pro) (0 VSg1);
@@ -1194,6 +1196,8 @@ REMOVE P1 + Sg IF (NOT -1* Je) (0 Verb + P1 + Sg) ;
 
 SELECT P2 IF (-1 Tu) (0 VSg2);
   ## Tu veux
+SELECT P2 IF (0 VSg2) (0 (META:/-/r)) (1 Tu) ;
+  ## Veux-tu
 SELECT P2 IF (1 Tu) (0 VSg2);
   ## Veux-tu
 SELECT P2 IF (-2 Tu) (-1 Ne) (0 VSg2);
@@ -1208,8 +1212,11 @@ SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);
   ## Tu ne lui en veux pas
 REMOVE P2 + Sg IF (NOT -1* Tu) (0 Verb + P2 + Sg) (NOT 0 Verb + P2 + Sg + Imper) ;
 
+
 SELECT P3 IF (-1 Il + Sg OR On) (0 VSg3);
   ## Elle parle
+SELECT P3 IF (0 VSg3) (0 (META:/-/r)) (1 Il + Sg OR On) ;
+  ## Dit-il
 SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
   ## Parle-t-elle
 SELECT P3 IF (-2 Il + Sg OR On) (-1 Ne) (0 VSg3);
