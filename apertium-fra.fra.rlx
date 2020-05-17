@@ -26,6 +26,7 @@ LIST Prop = np ;
 LIST A = adj ;
 LIST Adv = adv ;
 LIST PreAdv = preadv ;
+LIST PostAdv = postadv ;
 LIST PreDet = predet ;
 LIST CnjAdv = cnjadv ;
 LIST CnjCoo = cnjcoo ;
@@ -1569,6 +1570,9 @@ SELECT PreAdv IF (0C Adv_PreAdv) (1 A OR PP OR Adv);
 REMOVE N IF (-1 PreAdv) (0 A OR PP OR N);
 REMOVE Adv IF (-1 PreAdv) (0 A OR PP OR Adv);
 REMOVE PreAdv IF (-1 PreAdv) (0 A OR PP OR PreAdv) (NOT 1 A OR PP) ;
+
+SELECT PostAdv IF (-1 (META:/-/r)) ;
+REMOVE PostAdv IF (NOT -1 (META:/-/r)) ;
 
 SELECT Prn IF (0 S) (NOT 1 Il) ;
 SELECT CnjAdv IF (0 S) (1 Il) ;
