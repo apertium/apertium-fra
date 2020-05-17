@@ -896,6 +896,9 @@ REMOVE Fem_strict IF (-1/* Det + Def + Pl) (0 Amazighe) (NOT 1 Fem_strict) ;
 SELECT Fem IF (-1/* Fem) (0 Amazighe);
 SELECT Fem IF (1/* Fem) (0 Amazighe);
 
+SELECT Prep IF (0 ("avant de")) (1 Inf) ;
+SELECT Prep IF (0 ("avant de")) (1 Pro) (2 Inf) ;
+
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
   ## Il s'impose devant Matthieu
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ;
