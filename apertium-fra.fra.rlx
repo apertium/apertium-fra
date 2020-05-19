@@ -810,6 +810,8 @@ SELECT Prn IF (0 ("beaucoup de")) (1C Prep);
 
 SELECT Prn IF (0 ("ce")) (1 Ser + P3);		# ce sont
 SELECT Prn IF (0 ("ce")) (1 Adv) (2 Ser + P3);	# ce ne sont pas
+SELECT Prn IF (0 ("ce")) (1C Prn) ;		# sur ce je vous dis bonjour
+SELECT Prn IF (0 ("ce")) (1C Prep OR CnjAdv) ;	# et ce malgré le...
 
 SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
   ## . Tous les Etats
