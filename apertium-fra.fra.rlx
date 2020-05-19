@@ -1429,6 +1429,7 @@ SELECT Prep IF (0 En) (-1 Verb + Pers) (1 N) (NOT 1 Ger) ;
 SELECT Prep IF (0 En) (-2 Ser OR Haver) (-1 PP ) (1 N) (NOT 1 Ger) ;
 SELECT Prep IF (0 En) (-3 Ser OR Haver) (-2 Adv) (-1 PP ) (1 N) (NOT 1 Ger) ;
   ## lui est donné en référence
+SELECT Prep IF (-1 ("tomber") OR ("monter") OR ("reléguer") OR ("promouvoir")) (0 En) (NOT 1 Ger) ;
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
