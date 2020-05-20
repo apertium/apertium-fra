@@ -1484,6 +1484,7 @@ SELECT Prep IF (0 Entre OR Contre) (1 Il + Pl + Fem);
   ## ne fait pas de différence entre les tyrannies
 #SELECT Prep IF (-3C Prep) (-2C N OR A) (-1C N OR A OR PP) (0 Entre) (1 Det) (2 N OR A) ;
   ## ne fait pas de grosses différences entre les tyrannies
+REMOVE Prep IF (0 Entre) (1 En) ;	# entre en guerre
 SELECT Prep IF (0 Entre) (1 Det) (2 N OR A) ;
 REMOVE V (0 Entre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Entre) (*1 Verb BARRIER Cnj_Rel) ;
