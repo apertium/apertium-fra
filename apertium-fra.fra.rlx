@@ -678,8 +678,8 @@ SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
 SELECT Fils IF (0C Fil OR Fils) (1 ("aîné") OR ("cadet")) ;
 SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Ant OR Cog OR unknown) ;
 
-REMOVE Pl_strict IF (0 N + Masc + Pl_strict OR N + Masc + Sp) (1 A + Masc + Sg_strict) (NOT 1 A + Masc + Pl) ; # fils aîné
-REMOVE Pl_strict IF (0 N + Fem + Pl_strict OR N + Fem + Sp) (1 A + Fem + Sg_strict) (NOT 1 A + Masc + Pl) ;
+REMOVE Pl_strict IF (0C N + Masc + Pl_strict OR N + Masc + Sp) (1 A + Masc + Sg_strict) (NOT 1 A + Masc + Pl) ; # fils aîné
+REMOVE Pl_strict IF (0C N + Fem + Pl_strict OR N + Fem + Sp) (1 A + Fem + Sg_strict) (NOT 1 A + Masc + Pl) ;
 
 SELECT Fem IF (-2 ("milion") OR ("milliard")) (-1 ("de")) (0 Livre) ;
 SELECT Fem IF (0 Livre) (1 ("sterling")) ;
