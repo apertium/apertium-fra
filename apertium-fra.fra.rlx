@@ -431,7 +431,7 @@ REMOVE N IF (-1 N OR A OR Prn) (0C Est) (1 Det) ;
 REMOVE A IF (-1 N OR A OR Prn) (0C Est) (1 Det) ;
 REMOVE N IF (-1 NP OR unknown) (0C ("<est>")) ;
 REMOVE A IF (-1 NP OR unknown) (0C ("<est>")) ;
-SELECT N IF (-2 ("à") OR ("vers") OR ("de")) (-1 Det + Def) (0C Est) ;
+SELECT N IF (-2 ("à") OR ("vers") OR ("de") OR ("par") OR ("pour")) (-1 Det + Def) (0C Est) ;
 SELECT N IF (-1 ("de")) (0C Est) ;
 REMOVE N IF (0 ("<Nouvelle>")) (1 NP OR unknown) ;
 REMOVE V IF (0 Est) (1 CnjCoo) (2 Ouest) ;
