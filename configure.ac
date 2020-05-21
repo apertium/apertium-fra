@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium French], [1.8.0], [hectoralos@gmail.com], [apertium-fra], [http://wiki.apertium.org/wiki/Apertium-fra])
+AC_INIT([Apertium French], [1.9.0], [hectoralos@gmail.com], [apertium-fra], [http://wiki.apertium.org/wiki/Apertium-fra])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
