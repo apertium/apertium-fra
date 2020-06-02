@@ -375,6 +375,11 @@ REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
 
+SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajuscInitiale) ;
+  ## vers l'Est
+SELECT A IF (-1 Top) (0 Est) (0 MajuscInitiale) ;
+  ## Jérusalem Est
+
 REMOVE N IF (0 Est) (-1 Interr OR Rel) ;
 REMOVE A IF (0 Est) (-1 Interr OR Rel) ;
   ## Où est Jean ?
@@ -386,9 +391,6 @@ SELECT Ser IF (0 Est) (1 Det) ;
 SELECT Ser IF (0 Est) (1 NP) ;
 SELECT Ser IF (0 Est) (1 unknown) ;
 SELECT Ser IF (NOT -1 DetDef OR ("limite") OR ("frontière") OR ("face") OR ("façade") OR ("côte") OR ("côté")) (0 Est) (NOT 0 MajuscInitiale) ;
-
-SELECT A IF (-1 Top) (0 Est) (0 MajuscInitiale) ;
-  ## Jérusalem Est
 
 SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
   ## Ils n'ont pas pu jouer dehors.
