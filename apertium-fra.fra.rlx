@@ -744,6 +744,10 @@ SELECT N IF (0 Correspondant) (1 ("de")) (2 ("guerre")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 Det) (3 ("journal")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 NP OR unknown) ;
 
+REMOVE ("franc") IF (0C N) (0 ("Franc_peuple")) ;
+REMOVE ("franc") IF (0C A) (0 ("franc_peuple")) ;
+SELECT N IF (-1 Num) (0 ("franc")) ;
+
 SELECT N + Mf IF (-1/* Det + Masc_strict) (0 Politique) ;
 SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
 REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;
