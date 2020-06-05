@@ -477,6 +477,12 @@ REMOVE Inf IF (-2C Être) (-1C Adv) (0 Inf) ;
 
 SELECT Haver IF (0 Avoir) (1 PP) ;
   ## Est-ce que tu as vu Jean ?
+SELECT Haver IF (0 Avoir) (1 Adv OR CnjAdv) (2 PP) ;
+  ## il n'a pas fait beau
+  ## il a pourtant fait beau
+SELECT Haver IF (0 Avoir) (1 Adv OR CnjAdv) (2 Adv OR CnjAdv) (3 PP) ;
+  ## il n'a pas toujours fait beau
+  ## il n'a pourtant pas fait beau
 SELECT Haver (-2 ("il") + P3 + Masc + Sg)  (-1 ("y")) (0 Avoir) (NOT 1 PP) ;
   ## il y a, il y avait
 SELECT V IF (-1 Avoir) (0 Avoir + PP) ;
@@ -1422,9 +1428,9 @@ SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Ve
 SELECT Prep IF (0 En) (1C N OR A) ;
 SELECT Prep IF (0 En) (1C Num) ;
 SELECT Prep IF (0 En) (1 ("boucle")) ;	# rediffusé en boucle jusqu'à minuit
-REMOVE Pro IF (0 En) (1 V) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);
+REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);
   ## passer en revue
-REMOVE Pro IF (0 En) (NOT 1 V OR Pro);
+REMOVE Pro IF (0 En) (NOT 1 Verb OR Pro);
   ## sont en Inde
 REMOVE Pro IF (0 En) (1 Ger);
   ## en passant
