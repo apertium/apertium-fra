@@ -636,6 +636,10 @@
       <e><p><l><a/>nouveau<b/></l><r>nouvel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>beau<b/></l><r>bel<b/></r></p><par n="vocals"/></e>
 
+      <e><p><l><a/>-il</l><r>-t-il</r></p></e>
+      <e><p><l><a/>-elle</l><r>-t-elle</r></p></e>
+      <e><p><l><a/>-on</l><r>-t-on</r></p></e>
+
   <!-- amb punt
 
       <e><p><l><a/>.<b/><a/>à</l><r>.<b/></r></p><par n="à"/></e>
