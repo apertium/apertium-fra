@@ -521,6 +521,9 @@
       <e><p><l><b/>lesquels</l><r>esquels</r></p><par n="caracter_general"/></e>
       <e><p><l><b/>lesquelles</l><r>esquelles</r></p><par n="caracter_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>e<b/>s'</r></p><par n="vocals"/></e>
+
+      <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>u<b/>nouvel<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/><a/>beau<b/></l><r>u<b/>bel<b/></r></p><par n="vocals"/></e>
     </pardef>
 
     <pardef n="se_le">
@@ -552,6 +555,9 @@
       <e><p><l><b/>lesquels</l><r>auxquels</r></p><par n="caracter_general"/></e>
       <e><p><l><b/>lesquelles</l><r>auxquelles</r></p><par n="caracter_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>à<b/>s'</r></p><par n="vocals"/></e>
+
+      <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>au<b/>nouvel<b/></r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>le<b/><a/>beau<b/></l><r>au<b/>bel<b/></r></p><par n="vocals"/></e>
     </pardef>
 
     <pardef n="je">
@@ -583,6 +589,8 @@
       <e><p><l><a/>ne<b/><a/>la<b/></l><r>ne<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><a/>le<b/></l><r>le<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>le<b/></l><r>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>le<b/><a/>nouveau<b/></l><r>le<b/>nouvel<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>le<b/><a/>beau<b/></l><r>le<b/>bel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>la<b/></l><r>la<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>la<b/></l><r>l'</r></p><par n="vocals"/></e>
       <e><p><l><a/>me<b/></l><r>m'</r></p><par n="vocals"/></e>
@@ -601,6 +609,8 @@
       <e><p><l><a/>ce<b/>est</l><r>c'est</r></p></e>
       <e><p><l><a/>ce<b/>était</l><r>c'était</r></p></e>
       <e><p><l><a/>ce<b/>étais</l><r>c'étais</r></p></e>
+      <e><p><l><a/>ce<b/><a/>nouveau<b/></l><r>ce<b/>nouvel<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>ce<b/><a/>beau<b/></l><r>ce<b/>bel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="vocals"/></e>
       <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
       <e><p><l><a/>jusque<b/></l><r>jusqu'</r></p><par n="vocals"/></e>
@@ -612,8 +622,6 @@
       <e><p><l><a/>ma<b/></l><r>mon<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>ta<b/></l><r>ton<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>sa<b/></l><r>son<b/></r></p><par n="vocals"/></e>
-      <e><p><l><a/>nouveau<b/></l><r>nouvel<b/></r></p><par n="vocals"/></e>
-      <e><p><l><a/>le<b/><a/>nouveau<b/></l><r>le<b/>nouvel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>si<b/>il<b/></l><r>s'il<b/></r></p></e>
       <e><p><l><a/>si<b/>ils<b/></l><r>s'ils<b/></r></p></e>
 
@@ -624,6 +632,9 @@
       <e><p><l><a/>en<b/><a/>la<b/></l><r>dans<b/>la<b/></r></p> <par n="consonants"/></e>
 -->
       <e><p><l><a/>de<b/><a/>les<b/>beaucoup</l><r>beaucoup</r></p></e>
+
+      <e><p><l><a/>nouveau<b/></l><r>nouvel<b/></r></p><par n="vocals"/></e>
+      <e><p><l><a/>beau<b/></l><r>bel<b/></r></p><par n="vocals"/></e>
 
   <!-- amb punt
 
@@ -659,8 +670,7 @@
       <e><p><l><a/>.<b/>vous<b/></l><r>.<b/>Vous<b/></r></p></e>
       <e><p><l><a/>.<b/></l><r>.<b/></r></p></e>
       <e><p><l><a/>.<a/>.</l><r>..</r></p></e>
-      <e> <p><l><a/>.<b/><a/>nouveau<b/></l> <r>.<b/>Nouvel<b/></r> </p><par n="vocals"/></e>
-      <e><p><l><a/>.<b/><a/>le<b/><a/>nouveau<b/></l><r>.<b/>Le<b/>nouvel<b/></r></p><par n="vocals"/></e> -->
+  -->
 
   </section>
 
