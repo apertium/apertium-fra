@@ -375,8 +375,11 @@ REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
 
+REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajuscInitiale) (0 Est) (0 MajuscInitiale) ;
 SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajuscInitiale) ;
   ## vers l'Est
+SELECT N IF (-2 Ouest) (-1 Prep) (0 Est) ;
+  ## d'Ouest en Est
 SELECT A IF (-1 Top) (0 Est) (0 MajuscInitiale) ;
   ## Jérusalem Est
 
@@ -675,6 +678,39 @@ REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (**-1C Pri) ;	# VÉRIFIER: Cette 
 SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son OR A) (NOT 1 N OR A) ;
   ## Les poules du couvent couvent
   ## leurs grandes forces
+SELECT Fin IF (0C N OR Fin) (NOT -3 Prep) (-2 Det + MascSg) (-1C Noun_Adj + MascSg) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -3 Prep) (-2 Det + FemSg) (-1C Noun_Adj + FemSg) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -3 Prep) (-2 Det + MascPl) (-1C Noun_Adj + MascPl) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -3 Prep) (-2 Det + FemPl) (-1C Noun_Adj + FemPl) (1 Det) (2 Noun_Adj) ;
+  ## le propriétaire risque une amende
+  ## mais : sous le Second Empire l'Institut...
+SELECT Fin IF (0C N OR Fin) (NOT -4 Prep) (-3 Det + MascSg) (-2C Noun_Adj + MascSg) (-1C Noun_Adj_PP + MascSg) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -4 Prep) (-3 Det + FemSg) (-2C Noun_Adj + FemSg) (-1C Noun_Adj_PP + FemSg) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -4 Prep) (-3 Det + MascPl) (-2C Noun_Adj + MascPl) (-1C Noun_Adj_PP + MascPl) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -4 Prep) (-3 Det + FemPl) (-2C Noun_Adj + FemPl) (-1C Noun_Adj_PP + FemPl) (1 Det) (2 Noun_Adj) ;
+  ## le grand propriétaire risque une amende
+  ## mais : sous le formidable Second Empire l'Institut...
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascSg) (-3C Noun_Adj + MascSg) (-2C Noun_Adj + MascSg) (-1C Noun_Adj_PP) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemSg) (-3C Noun_Adj + FemSg) (-2C Noun_Adj + FemSg) (-1C Noun_Adj_PP) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascPl) (-3C Noun_Adj + MascPl) (-2C Noun_Adj + MascPl) (-1C Noun_Adj_PP) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemPl) (-3C Noun_Adj + FemPl) (-2C Noun_Adj + FemPl) (-1C Noun_Adj_PP) (1 Det) (2 Noun_Adj) ;
+  ## le grand propriétaire chinois risque une amende
+  ## mais : sous le grand propriétaire chinois les champs...
+SELECT Fin IF (0C N OR Fin) (NOT -6 Prep) (-5 Det + MascSg) (-4 Adv_PreAdv) (-3C Noun_Adj_PP + MascSg) (-2C Noun_Adj + MascSg) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -6 Prep) (-5 Det + FemSg) (-4 Adv_PreAdv) (-3C Noun_Adj_PP + FemSg) (-2C Noun_Adj + FemSg) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -6 Prep) (-5 Det + MascPl) (-4 Adv_PreAdv) (-3C Noun_Adj_PP + MascPl) (-2C Noun_Adj + MascPl) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -6 Prep) (-5 Det + FemPl) (-4 Adv_PreAdv) (-3C Noun_Adj_PP + FemPl) (-2C Noun_Adj + FemPl) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+  ## le très grand propriétaire chinois risque une amende
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascSg) (-3 Adv_PreAdv) (-2C Noun_Adj_PP + MascSg) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemSg) (-3 Adv_PreAdv) (-2C Noun_Adj_PP + FemSg) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascPl) (-3 Adv_PreAdv) (-2C Noun_Adj_PP + MascPl) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemPl) (-3 Adv_PreAdv) (-2C Noun_Adj_PP + FemPl) (-1C Noun_Adj) (1 Det) (2 Noun_Adj) ;
+  ## le très grand propriétaire risque une amende
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascSg) (-3C Noun_Adj) (-2 Adv_PreAdv) (-1C Noun_Adj_PP + MascSg) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemSg) (-3C Noun_Adj) (-2 Adv_PreAdv) (-1C Noun_Adj_PP + FemSg) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascPl) (-3C Noun_Adj) (-2 Adv_PreAdv) (-1C Noun_Adj_PP + MascPl) (1 Det) (2 Noun_Adj) ;
+SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemPl) (-3C Noun_Adj) (-2 Adv_PreAdv) (-1C Noun_Adj_PP + FemPl) (1 Det) (2 Noun_Adj) ;
+  ## le propriétaire très grand risque une amende
 
 SELECT Tn (0 Pro) (1 Pro) (2 Verb) ;
   ## nous vous attendons
