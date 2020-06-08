@@ -539,9 +539,9 @@ SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR CnjSub) (0 Title) ;
   ## Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
   ## A qui s'adresse
-SELECT Itg IF (-1C V LINK NOT 0 PP) (0C Itg OR Rel) ;
+SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel) ;
   ## je me demande qui
-SELECT Itg IF (-2C V LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
   ## je ne demande pas qui
 SELECT Itg IF (1 ("est-ce que")) ;
   ## où est-ce que
@@ -549,12 +549,12 @@ SELECT Itg IF (1 ("est-ce que")) ;
 SELECT Itg IF (0 Adv OR Prn) (1 ("est-ce que")) ;
   ## quand est-ce que
   ## qui est-ce que
-SELECT Itg IF (0 Adv OR Prn) (1 V + P1 + Sg) (2 Tn + P1 + Sg) ;
-SELECT Itg IF (0 Adv OR Prn) (1 V + P2 + Sg) (2 Tn + P2 + Sg) ;
-SELECT Itg IF (0 Adv OR Prn) (1 V + P3 + Sg) (2 Tn + P3 + Sg) ;
-SELECT Itg IF (0 Adv OR Prn) (1 V + P1 + Pl) (2 Tn + P1 + Pl) ;
-SELECT Itg IF (0 Adv OR Prn) (1 V + P2 + Pl) (2 Tn + P2 + Pl) ;
-SELECT Itg IF (0 Adv OR Prn) (1 V + P3 + Pl) (2 Tn + P3 + Pl) ;
+SELECT Itg IF (0 Adv OR Prn) (1 Verb + P1 + Sg) (1 (META:/-/r)) (2 Tn + P1 + Sg) ;
+SELECT Itg IF (0 Adv OR Prn) (1 Verb + P2 + Sg) (1 (META:/-/r)) (2 Tn + P2 + Sg) ;
+SELECT Itg IF (0 Adv OR Prn) (1 Verb + P3 + Sg) (1 (META:/-/r)) (2 Tn + P3 + Sg) ;
+SELECT Itg IF (0 Adv OR Prn) (1 Verb + P1 + Pl) (1 (META:/-/r)) (2 Tn + P1 + Pl) ;
+SELECT Itg IF (0 Adv OR Prn) (1 Verb + P2 + Pl) (1 (META:/-/r)) (2 Tn + P2 + Pl) ;
+SELECT Itg IF (0 Adv OR Prn) (1 Verb + P3 + Pl) (1 (META:/-/r)) (2 Tn + P3 + Pl) ;
   ## quand veux-tu
 
 REMOVE Imper IF (NOT 1* Excl) ;
