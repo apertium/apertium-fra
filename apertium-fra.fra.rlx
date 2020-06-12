@@ -886,6 +886,7 @@ REMOVE Adv IF (0 ("haut")) (1 N + MascSg) ;
 #REMOVE N IF (0 Leur) (1 unknown) ;
 REMOVE N IF (0 Leur) ;
 
+REMOVE Prn IF (0 ("beaucoup")) (1 ("plus") OR ("moins")) ;
 SELECT Prn IF (0 ("beaucoup") OR ("peu")) (1 Verb + P3 + Pl) ;
 SELECT Prn IF (0 ("beaucoup") OR ("peu")) (1 Adv) (2 Verb + P3 + Pl) ;
 REMOVE Prn IF (0 ("beaucoup") OR ("peu")) (NOT 1 Verb + P3 + Pl OR Adv) ;
