@@ -143,6 +143,7 @@ LIST Claque = "claque" ;
 LIST Livre = "livre" ;
 LIST Faune = "faune" ;
 LIST Marine = "marine" ;
+LIST Page = "page" ;
 LIST Moule = "moule" ;
 LIST Mode = "mode" ;
 LIST Moufle = "moufle" ;
@@ -943,6 +944,8 @@ SELECT Fem IF (0 Primaire + Pl) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Solde) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Masc IF (0 Inceste) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT Fem IF (0 Page) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Info) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
 
