@@ -613,11 +613,16 @@
       <e><p><l><a/>ce<b/><a/>beau<b/></l><r>ce<b/>bel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>ce<b/></l><r>ce<b/></r></p></e>
       <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>que<b/><a/>à</l><r>qu'</r></p><par n="à"/></e>
       <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
       <e><p><l><a/>jusque<b/></l><r>jusqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>jusque<b/><a/>à</l><r>jusqu'</r></p><par n="à"/></e>
       <e><p><l><a/>lorsque<b/></l><r>lorsqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>lorsque<b/><a/>à</l><r>lorsqu'</r></p><par n="à"/></e>
       <e><p><l><a/>puisque<b/></l><r>puisqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>puisque<b/><a/>à</l><r>puisqu'</r></p><par n="à"/></e>
       <e><p><l><a/>quoique<b/></l><r>quoiqu'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>quoique<b/><a/>à</l><r>quoiqu'</r></p><par n="à"/></e>
       <e><p><l><a/>celui<b/>qui<b/>il<b/></l><r>celui<b/>qui<b/></r></p></e>
       <e><p><l><a/>qui<b/>il<b/></l><r>qui<b/></r></p></e>
       <e><p><l><a/>ma<b/></l><r>mon<b/></r></p><par n="vocals"/></e>
