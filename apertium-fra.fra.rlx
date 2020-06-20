@@ -384,7 +384,8 @@ SELECT N IF (-2 Ouest) (-1 Prep) (0 Est) ;
   ## d'Ouest en Est
 SELECT A IF (-1 Top) (0 Est) (0 MajuscInitiale) ;
   ## Jérusalem Est
-REMOVE Verb IF (-1 ("nord") OR ("sud")) (0 Est) ;
+REMOVE Verb IF (-1 ("nord") OR ("sud")) (-1 (META:/-/r)) (0 Est) ;
+REMOVE Verb IF (-1 ("nord") OR ("sud")) (0 Est) (NOT 1 PP) ;
 
 REMOVE N IF (0 Est) (-1 Interr OR Rel) ;
 REMOVE A IF (0 Est) (-1 Interr OR Rel) ;
