@@ -742,6 +742,8 @@ SELECT Avare IF (-1 Adv_PreAdv) (0 Avar) ;
 SELECT Avar IF (-1 Det + Def + Pl) (0 Avare + Pl + MajIni) ;
 SELECT Avare IF (NOT -1 Fem_strict) (0 Avar) (NOT 1 Fem_strict) ;
 
+SELECT NP IF (0 ("<Euro>")) (1 ("<[0-9][0-9][0-9][0-9]>"r)) ;
+
 SELECT Adv IF (0 Plus) (1 ("de") OR Que) ;
 
 REMOVE CnjAdv IF (-1/* Det + Def + MascSg) (0 Plus OR Moins) (1 A + MascSg OR PP + MascSg) ;
