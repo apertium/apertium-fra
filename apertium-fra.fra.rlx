@@ -801,6 +801,7 @@ SELECT N IF (-1 Num) (0 ("franc")) ;
 SELECT N + Mf IF (-1/* Det + Masc_strict) (0 Politique) ;
 SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
 REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;
+REMOVE N + Fem_strict IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;	# pour le cas où politique mf ne soit pas défini dans le bidix (et on n'ait que politique n.m et politique n.f)
 
 SELECT Masc IF (-1 Det + Masc_strict) (0 Pique) ;	# jouer du pique
 SELECT Masc IF (-2 Num OR ("as") OR ("roi") OR ("dame") OR ("valet")) (-1 De) (0 Pique) ;
