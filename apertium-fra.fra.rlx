@@ -43,7 +43,6 @@ LIST Prn = prn ;
 LIST N = n ;
 LIST NP = np ;
 
-LIST Interr = itg ;
 LIST Rel = rel ;
 LIST Interj = ij ;
 
@@ -387,8 +386,8 @@ SELECT A IF (-1 Top) (0 Est) (0 MajuscInitiale) ;
 REMOVE Verb IF (-1 ("nord") OR ("sud")) (-1 (META:/-/r)) (0 Est) ;
 REMOVE Verb IF (-1 ("nord") OR ("sud")) (0 Est) (NOT 1 PP) ;
 
-REMOVE N IF (0 Est) (-1 Interr OR Rel) ;
-REMOVE A IF (0 Est) (-1 Interr OR Rel) ;
+REMOVE N IF (0 Est) (-1 Itg OR Rel) ;
+REMOVE A IF (0 Est) (-1 Itg OR Rel) ;
   ## Où est Jean ?
 SELECT Ser IF (0 Est) (1 Adv) ;
 SELECT Ser IF (0 Est) (1 ("en")) (2 N); ## est en conséquence
@@ -545,8 +544,12 @@ SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
   ## A qui s'adresse
 SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel) ;
   ## je me demande qui
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel) ;
+  ## je demande avec qui
 SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
   ## je ne demande pas qui
+SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel) ;
+  ## je ne demande pas avec qui
 SELECT Itg IF (1 ("est-ce que")) ;
   ## où est-ce que
 
