@@ -913,6 +913,8 @@ SELECT N IF (-1/* Det) (0 ("rose")) ;
 SELECT N IF (-1 Num) (0 ("rose")) ;
 REMOVE Masc_strict IF (0 ("rose") + N + Pl) (NOT -1 Masc_strict) ;
 
+SELECT N IF (-1/* Det + MascSg) (0 ("lundi") OR ("mardi") OR ("mercredi") OR ("jeudi") OR ("vendredi") OR ("samedi") OR ("dimanche")) ;
+
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
   ## en deux tours
