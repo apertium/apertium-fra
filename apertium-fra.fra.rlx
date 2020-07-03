@@ -1016,6 +1016,15 @@ REMOVE N IF (-1 Rel LINK NOT 0 ("comme")) (0 N OR Verb) ;
 REMOVE V IF (0 N OR V) (1C Ger) ;
   ## mais la série devenant de plus en plus rentable
 
+REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + MascSg) (0 N + MascSg) ;	# Le président et son secrétaire président
+REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + FemSg) (0 N + FemSg) ;
+REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + MascPl) (0 N + MascPl) ;
+REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + FemPl) (0 N + FemPl) ;
+REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + MascSg) (0 N + MascSg) ;
+REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + FemSg) (0 N + FemSg) ;
+REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + MascPl) (0 N + MascPl) ;
+REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + FemPl) (0 N + FemPl) ;
+
 SELECT N IF (-1 ("faire")) (0 ("partie")) ;
 SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
 SELECT N IF (-3 ("faire")) (-2 Adv) (-1 Adv) (0 ("partie")) ;
