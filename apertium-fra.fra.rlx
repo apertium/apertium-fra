@@ -1010,7 +1010,7 @@ REMOVE V (-1 Det + FemSg) (0C V OR N + FemSg) (1 Ant + FemSg) ;
 REMOVE V (-1 Det + MascPl) (0C V OR N + MascPl) (1 Ant) ;	
 REMOVE V (-1 Det + FemPl) (0C V OR N + FemPl) (1 Ant) ;	
 
-REMOVE N IF (-1 Rel) (0 N OR Verb) ;
+REMOVE N IF (-1 Rel LINK NOT 0 ("comme")) (0 N OR Verb) ;
   ## ce qui limite le nombre
 
 REMOVE V IF (0 N OR V) (1C Ger) ;
