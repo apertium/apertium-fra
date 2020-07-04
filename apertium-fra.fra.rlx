@@ -1893,6 +1893,10 @@ REMOVE Adv IF (-1 Det + MascPl) (0 A + MascPl) (0 Adv) (1 N + MascPl) (NOT 1 A) 
 REMOVE Adv IF (-1 Det + FemPl) (0 A + FemPl) (0 Adv) (1 N + FemPl) (NOT 1 A) ;
   ## un vrai travail
 
+# ADJ OR PP
+REMOVE A IF (0 PP) (1 ("par"));
+REMOVE A IF (0 ("élever")) (1 ("en")) (2 Num) ;		# une statue élevée en 1900
+
 # ADJ NOM
 SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;
   ## en français
