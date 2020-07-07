@@ -143,6 +143,7 @@ LIST Livre = "livre" ;
 LIST Faune = "faune" ;
 LIST Marine = "marine" ;
 LIST Page = "page" ;
+LIST Manoeuvre = "manœuvre" ;
 LIST Moule = "moule" ;
 LIST Mode = "mode" ;
 LIST Moufle = "moufle" ;
@@ -933,6 +934,8 @@ SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Claque + Masc) (NOT 1 Masc_strict) ;
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Manoeuvre + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Moufle + Masc) (NOT 1 Masc_strict) ;
 
