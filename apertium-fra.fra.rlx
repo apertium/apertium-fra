@@ -996,6 +996,9 @@ REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 Det + Pl) (3 N + Pl) ;
 SELECT Adv IF (0 Depuis) (1 CM OR EOS) ;
 REMOVE Adv IF (0 Depuis) (1 ("de")) (2 N + Pl) ;
 
+SELECT Enc IF (-1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
+REMOVE Enc IF (NOT -1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
+
 SELECT N IF (-1 Num) (0C N OR V) ;
   ## 9 combats
 SELECT N IF (NOT -2 Tn) (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
