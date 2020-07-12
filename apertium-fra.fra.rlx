@@ -1902,6 +1902,17 @@ REMOVE Adv IF (-1 Det + FemPl) (0 A + FemPl) (0 Adv) (1 N + FemPl) (NOT 1 A) ;
 REMOVE A IF (0 PP) (1 ("par"));
 REMOVE A IF (0 ("élever")) (1 ("en")) (2 Num) ;		# une statue élevée en 1900
 
+# ADJ OR VBLEX
+REMOVE A IF (-1C N + Sg) (0 Verb + P3 + Sg) (1 Det) ;				# la loi fixe la composition
+REMOVE A IF (-2 N + MascSg) (-1 A + MascSg) (0 Verb + P3 + Sg) (1 Det) ;
+REMOVE A IF (-2 N + FemSg) (-1 A + FemSg) (0 Verb + P3 + Sg) (1 Det) ;		# la loi française fixe la composition
+REMOVE A IF (-3C N + Sg) (-2 De) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
+REMOVE A IF (-4C N + Sg) (-3 De) (-2 Det) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
+REMOVE A IF (-4C N + MascSg) (-3 A + MascSg) (-2 De) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
+REMOVE A IF (-4C N + FemSg) (-3 A + FemSg) (-2 De) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
+REMOVE A IF (-5C N + MascSg) (-4 A + MascSg) (-3 De) (-2 Det) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
+REMOVE A IF (-5C N + FemSg) (-4 A + FemSg) (-3 De) (-2 Det) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
+
 # ADJ NOM
 SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;
   ## en français
