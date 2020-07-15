@@ -1316,6 +1316,8 @@ SELECT P3 IF (-3 Il + Sg OR On) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle lui en parle
 SELECT P3 IF (-4 Il + Sg OR On) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle ne lui en parle pas
+SELECT P3 IF (-1 BOS OR Sent) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;
+  ## Elle est mon chef
 
 SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);
   ## parce que nous parlons
