@@ -509,6 +509,8 @@
       <e><p><l><b/><a/>le<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>le<b/></l><r>u<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/><a/>le</l><r>u</r></p><par n="caracter_general"/></e>
+      <e><p><l><b/><a/>leprn<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>leprn<b/></l><r>e<b/>le<b/></r></p></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/><a/>la<b/></l><r>e<b/>la<b/></r></p><par n="caracter_general"/></e>
@@ -528,19 +530,23 @@
 
     <pardef n="se_le">
       <e><p><l><a/>se<b/><a/>les<b/></l><r>les<b/>leur<b/></r></p></e>
-      <e><p><l><a/>se<b/><a/>le<b/></l><r>le<b/>lui<b/></r></p></e>
+      <e><p><l><a/>se<b/><a/>leprn<b/></l><r>le<b/>lui<b/></r></p></e>
       <e><p><l><a/>se<b/><a/>la<b/></l><r>la<b/>lui<b/></r></p></e>
     </pardef>
 
     <pardef n="le">
       <e><p><l><a/>les</l><r>e<b/>les</r></p><par n="caracter_general"/></e>
       <e><p><l><a/>le<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>leprn<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>leprn<b/></l><r>e<b/>le<b/></r></p></e>
     </pardef>
 
     <pardef n="à">
       <e><p><l><b/><a/>les</l><r>aux</r></p><par n="caracter_general"/></e>
       <e><p><l><b/><a/>le<b/></l><r>à<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>le<b/></l><r>au<b/></r></p><par n="consonants"/></e>
+      <e><p><l><b/><a/>leprn<b/></l><r>à<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><b/><a/>leprn<b/></l><r>à<b/>le<b/></r></p></e>
       <e><p><l><b/><a/>la<b/></l><r>à<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="consonants"/></e>
       <e><p><l><b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="caracter_general"/></e>
@@ -564,7 +570,8 @@
       <e><p><l><a/>ne<b/></l><r>e<b/>n'</r></p><par n="vocals"/></e>
       <e><p><l><a/>me<b/></l><r>e<b/>m'</r></p><par n="vocals"/></e>
       <e><p><l><a/>te<b/></l><r>e<b/>t'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>le<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>leprn<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>leprn<b/></l><r>e<b/>le<b/></r></p></e>
       <e><p><l><a/>la<b/></l><r>e<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l></l><r>e<b/></r></p><par n="se_le"/></e>
       <e><p><l><a/>se<b/></l><r>e<b/>s'</r></p><par n="vocals"/></e>
@@ -585,10 +592,13 @@
       <e><p><l><a/>de<b/></l><r>de<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de</l><r>d</r></p><par n="de"/></e>
       <e><p><l><a/>ne<b/></l><r>n'</r></p><par n="vocals"/></e>
-      <e><p><l><a/>ne<b/><a/>le<b/></l><r>ne<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>ne<b/><a/>leprn<b/></l><r>ne<b/>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>ne<b/><a/>leprn<b/></l><r>ne<b/>le<b/></r></p></e>
       <e><p><l><a/>ne<b/><a/>la<b/></l><r>ne<b/>l'</r></p><par n="vocals"/></e>
       <e><p><l><a/>le<b/></l><r>le<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>le<b/></l><r>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>leprn<b/></l><r>l'</r></p><par n="vocals"/></e>
+      <e><p><l><a/>leprn<b/></l><r>le<b/></r></p></e>
       <e><p><l><a/>le<b/><a/>nouveau<b/></l><r>le<b/>nouvel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>le<b/><a/>beau<b/></l><r>le<b/>bel<b/></r></p><par n="vocals"/></e>
       <e><p><l><a/>la<b/></l><r>la<b/></r></p><par n="article_complet"/></e>
@@ -600,7 +610,7 @@
       <e><p><l><a/>ne<b/><a/>te<b/></l><r>ne<b/>t'</r></p><par n="vocals"/></e>
       <e><p><l><a/>te<b/></l><r>t</r></p><par n="le"/></e>
       <e><par n="se_le"/></e>
-      <e><p><l><a/>se<b/></l><r>s</r></p><par n="le"/></e>
+      <!-- <e><p><l><a/>se<b/></l><r>s</r></p><par n="le"/></e> -->
       <e><p><l><a/>ne<b/><a/>se<b/></l><r>ne<b/>s'</r></p><par n="vocals"/></e>
       <e><p><l><a/>je<b/></l><r>j</r></p><par n="je"/></e>
       <e><p><l><a/>se<b/></l><r>s'</r></p><par n="vocals"/></e>
