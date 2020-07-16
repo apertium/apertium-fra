@@ -1837,6 +1837,9 @@ REMOVE Ger IF (-1 ("nommer") OR ("appeler")) (0 Ger OR N OR A) ;
 REMOVE Ger IF (-1 ("plus") OR ("moins")) (0 Ger OR A OR PP) ;
   ## plus exigeant
 
+REMOVE A + Sg IF (NOT -3 Prep) (NOT -2 Prep) (-1 Noun_Adj + Pl_strict) (NOT 0 A + Pl) (0 Ger) ;	# les structures servant au confinement
+REMOVE N IF (NOT -3 Prep) (NOT -2 Prep) (-1C N + Pl_strict) (0 Ger) ;				# les structures servant au confinement
+
 REMOVE A IF (-1 BOS) (0 Prep) (0 A) (1 Det) ;
 REMOVE N IF (-1 BOS) (0 Prep) (0 N) (1 Det) ;
   ## Suivant le besoin
