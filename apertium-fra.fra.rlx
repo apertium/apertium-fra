@@ -324,7 +324,7 @@ REMOVE Ant_Cog IF (-1/* Det + FemPl) (0 Noun_Adj + FemPl) ;
 #REMOVE Ant_Cog IF (-2/* Det + FemSg) (-1C A + FemSg) (0 N + FemSg) ;
 #REMOVE Ant_Cog IF (-2/* Det + FemPl) (-1C A + FemPl) (0 N + FemPl) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit") OR ("internet")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
 REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
@@ -332,6 +332,9 @@ REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
 REMOVE NP IF (0 ("carrière")) (1 ("universitaire")) ;
 REMOVE NP IF (0 ("détroit")) (1 ("de")) ;
 REMOVE NP IF (-1 ("empire")) (0 ("romain")) ;
+REMOVE A IF (-1 Det + Def) (0 ("internet")) ;
+REMOVE A IF (-1 Prep) (0 ("internet")) ;
+SELECT A IF (-1 N) (0 ("internet")) ;
 
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
