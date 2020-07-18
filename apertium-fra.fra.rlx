@@ -227,6 +227,7 @@ LIST Title = "<[A-ZÉÈÊ][a-zâéèêîôû]\+>"r ;
 LIST ConsInitiale = "<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r ;
 LIST Majusc = "<[A-ZÉÈÊ][A-ZÂÉÈÊÎÔÛ]*>"r ;
 LIST MajuscInitiale = "<[A-ZÉÈÊ][a-zâéèêîôû]*>"r ;
+LIST NumOrd = "<[1-9][0-9]*ème>"r ;
 
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
@@ -256,7 +257,7 @@ SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 # verbes qui peuvent avoir un attribut
 SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
-SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("setième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") ;
+SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
 # adjectifs qui souvent vont devant le nom
 SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") ;
 
@@ -1978,6 +1979,14 @@ SELECT N IF (-2/* Det + MascSg) (-1 AdjPre + MascSg OR AdjOrd + MascSg ) (0 N + 
 SELECT N IF (-2/* Det + FemSg) (-1 AdjPre + FemSg OR AdjOrd + FemSg ) (0 N + FemSg) ;	# la seule partie bilingue
 SELECT N IF (-2/* Det + MascPl) (-1 AdjPre + MascPl OR AdjOrd + MascPl ) (0 N + MascPl) ;
 SELECT N IF (-2/* Det + FemPl) (-1 AdjPre + FemPl OR AdjOrd + FemPl ) (0 N + FemPl) ;
+SELECT N IF (-1 AdjOrd + MascSg ) (0 N + MascSg) ;
+SELECT N IF (-1 AdjOrd + FemSg ) (0 N + FemSg) ;
+SELECT N IF (-1 AdjOrd + MascPl ) (0 N + MascPl) ;
+SELECT N IF (-1 AdjOrd + FemPl ) (0 N + FemPl) ;
+SELECT N IF (-1 AdjPre + MascSg ) (0 N + MascSg) ;
+SELECT N IF (-1 AdjPre + FemSg ) (0 N + FemSg) ;
+SELECT N IF (-1 AdjPre + MascPl ) (0 N + MascPl) ;
+SELECT N IF (-1 AdjPre + FemPl ) (0 N + FemPl) ;
 
 # DET NOM ADJ
 REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
