@@ -227,7 +227,7 @@ LIST Title = "<[A-ZÉÈÊ][a-zâéèêîôû]\+>"r ;
 LIST ConsInitiale = "<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r ;
 LIST Majusc = "<[A-ZÉÈÊ][A-ZÂÉÈÊÎÔÛ]*>"r ;
 LIST MajuscInitiale = "<[A-ZÉÈÊ][a-zâéèêîôû]*>"r ;
-LIST NumOrd = "<[1-9][0-9]*ème>"r ;
+LIST NumOrd = "[1-9][0-9]*ème"r ;
 
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
