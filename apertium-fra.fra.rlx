@@ -690,8 +690,10 @@ REMOVE Ifi (0 Pri) (1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ; 
 REMOVE Ifi (0 Pri) (-1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ;
 
 REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (*0C Pri) ;
-REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (**-1C Pri) ;	# VÉRIFIER: Cette règle ne sembla pas marcher
+REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (**-1C Pri) ;	# VÉRIFIER: Cette règle ne semble pas marcher
   ## Il s'agit
+
+REMOVE Ifi (-1 ("autrement")) (0 ("dire") + PP) ;
 
 #SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
 SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son OR A) (NOT 1 N OR A) ;
@@ -1448,6 +1450,8 @@ SELECT PP IF (-4 ("se")) (-3 Ser + Sg) (-2 Adv) (-1 Adv) (0 PP + Sg) ;
   ## ne s'est pas bien mouillé
 SELECT PP IF (-4 ("se")) (-3 Ser + Pl) (-2 Adv) (-1 Adv) (0 PP + Pl) ;
   ## ne se sont pas bien mouillés
+REMOVE PP IF (-1 ("se")) (0 Verb + P3) ;
+  ## se fait
 
 SELECT PP IF (-2 Haver + Sg) (-1 Ser + PP) (0 PP + Sg) ;
 SELECT PP IF (-2 Haver + Pl) (-1 Ser + PP) (0 PP + Pl) ;
