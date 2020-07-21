@@ -428,7 +428,7 @@ REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;
 
 REMOVE PP IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
 REMOVE A IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
-SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne")) ;	# n'atteint pas
+SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne") OR ("rien")) ;	# n'atteint pas
 SELECT Verb IF (-1 N) (0 ("atteint")) (1 Det) ;
 SELECT Verb IF (-2 N) (-1 A) (0 ("atteint")) (1 Det) ;
 
@@ -1893,11 +1893,18 @@ REMOVE Pro IF (0 Le) (NOT 1 Verb OR ("lui") OR ("leur")) ;
   ## Le chien aime jouer avec les deux enfants.
   ## je le lui donne, je le leur donne
 
-SELECT Det IF (0 DetInd + MascSg) (1 N + MascSg) ;
-SELECT Det IF (0 DetInd + FemSg) (1 N + FemSg) ;
-SELECT Det IF (0 DetInd + MascPl) (1 N + MascPl) ;
-SELECT Det IF (0 DetInd + FemPl) (1 N + FemPl) ;
+SELECT Det IF (NOT -1/* Det + MascSg) (0 DetInd + MascSg) (1 N + MascSg) ;
+SELECT Det IF (NOT -1/* Det + FemSg) (0 DetInd + FemSg) (1 N + FemSg) ;
+SELECT Det IF (NOT -1/* Det + MascPl) (0 DetInd + MascPl) (1 N + MascPl) ;
+SELECT Det IF (NOT -1/* Det + FemPl) (0 DetInd + FemPl) (1 N + FemPl) ;
   ## un enfant
+
+REMOVE Det IF (-1 Det + MascSg OR ("<du>"i) OR ("<au>"i)) (0 A + MascSg) (1 N + MascSg) ;
+REMOVE Det IF (-1 Det + FemSg) (0 A + FemSg) (1 N + FemSg) ;
+REMOVE Det IF (-1 Det + MascPl OR ("<des>"i) OR ("<aux>"i)) (0 A + MascPl) (1 N + MascPl) ;
+REMOVE Det IF (-1 Det + FemPl OR ("<des>"i) OR ("<aux>"i)) (0 A + FemPl) (1 N + FemPl) ;
+  ## des diverses régions
+
 SELECT Det IF (0 DetInd + MascSg) (1 A + MascSg) ;
 SELECT Det IF (0 DetInd + FemSg) (1 A + FemSg) ;
 SELECT Det IF (0 DetInd + MascPl) (1 A + MascPl) ;
