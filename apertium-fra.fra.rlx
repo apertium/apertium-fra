@@ -1917,6 +1917,12 @@ SELECT Det IF (0 DetInd + FemPl) (1 Adv_PreAdv) (2 A + FemPl) (3 N + FemPl) ;
 SELECT Num IF (-1 ("numéro")) (0 Un);
 REMOVE Num IF (NOT -1 ("numéro")) (0 Un);
 
+REMOVE Det IF (-1 Noun_Adj + MascSg) (0 DetInd + MascSg) (NOT 1 Noun_Adj + MascSg) ;
+REMOVE Det IF (-1 Noun_Adj + FemSg) (0 DetInd + FemSg) (NOT 1 Noun_Adj + FemSg) ;
+REMOVE Det IF (-1 Noun_Adj + MascPl) (0 DetInd + MascPl) (NOT 1 Noun_Adj + MascPl) ;
+REMOVE Det IF (-1 Noun_Adj + FemPl) (0 DetInd + FemPl) (NOT 1 Noun_Adj + FemPl) ;
+  ## fortunes diverses
+
 # ADJ OR ADV
 REMOVE Adv IF (-1 Det + MascSg) (0 A + MascSg) (0 Adv) (1 N + MascSg) (NOT 1 A) ;
 REMOVE Adv IF (-1 Det + FemSg) (0 A + FemSg) (0 Adv) (1 N + FemSg) (NOT 1 A) ;
