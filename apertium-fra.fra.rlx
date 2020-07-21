@@ -428,7 +428,7 @@ REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;
 
 REMOVE PP IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
 REMOVE A IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
-SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas) ;	# n'atteint pas
+SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne")) ;	# n'atteint pas
 SELECT Verb IF (-1 N) (0 ("atteint")) (1 Det) ;
 SELECT Verb IF (-2 N) (-1 A) (0 ("atteint")) (1 Det) ;
 
