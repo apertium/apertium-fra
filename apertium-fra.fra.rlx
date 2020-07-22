@@ -80,6 +80,7 @@ LIST VPl2 = (vblex p2 pl) (vbser p2 pl) (vbhaver p2 pl) (vbmod p2 pl);
 LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
 
 LIST Fin = pri prs pii ifi pis cni imp ;
+LIST Fin_non_Imp = pri prs pii ifi pis cni ;
 LIST Ind = pri pii ifi ;
 LIST Subjunc = prs pis ;
 LIST Ifi = ifi ;
@@ -1103,7 +1104,7 @@ SELECT N IF (NOT -1 Prn) (0 ("place")) (1 NP OR unknownMajIni) ;
   ## place Saussure
 SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
   ## Aller :
-REMOVE Fin IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn);
+REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn);
   ## Groupe A, Taille 48, Série 1
   ## Pense-t-il
 SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep OR Pour) ;
