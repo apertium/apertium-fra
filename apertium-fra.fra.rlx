@@ -184,6 +184,7 @@ LIST Somme = "somme" ;
 LIST As = "as" ;
 LIST Pique = "pique" ;
 LIST Politique = "politique" ;
+LIST Commune = "commune" ;
 LIST Primaire = "primaire" ;
 LIST Nouvelle = "nouvelle" ;
 LIST Peu = "peu de" ;
@@ -827,6 +828,8 @@ SELECT N + Mf IF (-1/* Det + Masc_strict) (0 Politique) ;
 SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
 REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;
 REMOVE N + Masc_strict IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;	# pour le cas où politique mf ne soit pas défini dans le bidix (et on n'ait que politique n.m et politique n.f)
+
+SELECT N IF (-1 Prep) (0 Commune + Pl) (NOT 1 N) ; # communauté de communes
 
 SELECT Masc IF (-1 Det + Masc_strict) (0 Pique) ;	# jouer du pique
 SELECT Masc IF (-2 Num OR ("as") OR ("roi") OR ("dame") OR ("valet")) (-1 De) (0 Pique) ;
@@ -1751,14 +1754,14 @@ SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub OR Adv 
   ## l'expert en balistique n'a pas
   ## à l’abri des polémiques.
 
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Verb) ;
