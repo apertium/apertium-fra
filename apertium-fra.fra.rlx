@@ -948,50 +948,50 @@ SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
 
 SELECT Fem IF (-2 ("menace")) (-1 De) (0 Mort + Masc) ;
 SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
-SELECT Masc IF (NOT -1 Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
+SELECT Masc IF (NOT -1/* Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
 
-SELECT Masc IF (NOT -1 Fem_strict OR N) (0 Marine + Fem) (NOT 1 Fem_strict) ;
+SELECT Masc IF (NOT -1/* Fem_strict OR N) (0 Marine + Fem) (NOT 1 Fem_strict) ;
 
-SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
 
-SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Claque + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Claque + Masc) (NOT 1 Masc_strict) ;
 
-SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
 
-SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
 
-SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Manoeuvre + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Manoeuvre + Masc) (NOT 1 Masc_strict) ;
 
-SELECT Fem IF (NOT -1 Masc_strict OR N) (0 Moufle + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Moufle + Masc) (NOT 1 Masc_strict) ;
 
-SELECT Masc IF (NOT -1 Masc_strict) (0 Mode + Masc) (1 De) ;
+SELECT Masc IF (NOT -1/* Masc_strict) (0 Mode + Masc) (1 De) ;
 
-SELECT Masc IF (-2 ("dans")) (-1 Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
-SELECT Masc IF (-2 ("remplir") OR ("graisser") OR ("utiliser")) (-1 Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
+SELECT Masc IF (-2 ("dans")) (-1/* Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
+SELECT Masc IF (-2 ("remplir") OR ("graisser") OR ("utiliser")) (-1/* Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
 SELECT Masc IF (0 Moule) (1 ("remplir") + PP OR ("graisser") + PP OR ("utiliser") + PP LINK NOT 0 Fem_strict) ;
-SELECT Fem IF (-2 ("manger") OR ("servir")) (-1 Det OR Num OR De LINK NOT 0 Masc_strict) (0 Moule) ;
+SELECT Fem IF (-2 ("manger") OR ("servir")) (-1/* Det OR Num OR De LINK NOT 0 Masc_strict) (0 Moule) ;
 SELECT Fem IF (0 Moule) (1 ("manger") + PP OR ("servir") + PP LINK NOT 0 Masc_strict) ;
 
-SELECT Masc IF (0 Basket + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Masc IF (0 Basket + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 ("<Basket>")) ;
-SELECT Masc IF (0 Tennis) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Masc IF (0 Tennis) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 ("<Tennis>")) ;
 
-SELECT Masc IF (-1 Num) (0 Curie + Pl) (NOT 1 A + Fem_strict) ;
-SELECT Fem IF (0 Curie) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+SELECT Masc IF (-1/* Num) (0 Curie + Pl) (NOT 1 A + Fem_strict) ;
+SELECT Fem IF (0 Curie) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
-SELECT Masc IF (0 Primaire + Sg) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
-SELECT Fem IF (0 Primaire + Pl) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+SELECT Masc IF (0 Primaire + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Fem IF (0 Primaire + Pl) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
-SELECT Masc IF (0 Solde) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Masc IF (0 Solde) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
-SELECT Masc IF (0 Inceste) (NOT -1 Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Masc IF (0 Inceste) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
-SELECT Fem IF (0 Page) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+SELECT Fem IF (0 Page) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
-SELECT Fem IF (0 Info) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+SELECT Fem IF (0 Info) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
-SELECT Fem IF (0 Teneur) (NOT -1 Masc_strict) (NOT 1 Masc_strict) ;
+SELECT Fem IF (0 Teneur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 SELECT N IF (0 ("torse")) (1 ("nu")) ;
