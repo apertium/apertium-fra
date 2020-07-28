@@ -941,6 +941,11 @@ SELECT N IF (0 ("lundi") OR ("mardi") OR ("mercredi") OR ("jeudi") OR ("vendredi
 SELECT Sg IF (NOT -1/* Pl_strict OR N) (0 ("Chablais")) (NOT 1 Pl_strict) ;
 SELECT Pl IF (-1/* Pl_strict) (0 ("Chablais")) ;
 
+SELECT Adv IF (0 ("pour commencer")) (1 EOS) ;
+SELECT Adv IF (0 ("pour commencer")) (1 Cm) ;
+SELECT Adv IF (0 ("pour commencer")) (1 Tn) ;
+REMOVE Adv IF (0 ("pour commencer")) ;
+
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
   ## en deux tours
