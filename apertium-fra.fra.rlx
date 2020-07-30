@@ -1967,7 +1967,13 @@ REMOVE A IF (-4C N + FemSg) (-3 A + FemSg) (-2 De) (-1 N) (0 Verb + P3 + Sg) (1 
 REMOVE A IF (-5C N + MascSg) (-4 A + MascSg) (-3 De) (-2 Det) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
 REMOVE A IF (-5C N + FemSg) (-4 A + FemSg) (-3 De) (-2 Det) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
 
-# ADJ NOM
+# NOM OR VBLEX
+SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas) ;			# ne sort pas
+SELECT Verb IF (-1 Ne) (0 Verb) (1 Adv OR CnjAdv) (2 Pas) ;	# ne sort toutefois pas
+SELECT Verb IF (-1 Ne) (0 Verb) (1 Que) ;			# ne dure que quatre jours
+SELECT Verb IF (-1 Ne) (0 Verb) (1 Adv OR CnjAdv) (2 Que) ;
+
+# ADJ OR NOM
 SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;
   ## en français
 SELECT A IF (-1C N + MascSg) (0C N OR A + MascSg) (1 unknown) ;
