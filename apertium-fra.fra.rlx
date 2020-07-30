@@ -1,4 +1,4 @@
-DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
+	DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 #OPTIONS += no-inline-sets no-inline-templates ;
 OPTIONS += no-inline-templates ;
@@ -299,13 +299,14 @@ SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
 SELECT Cog IF (-1 ("Édouard")) (0 ("Philippe")) ;
 SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
 
-
 SELECT Top IF (-2C Ant) (-1 ("<de>")) (0C Cog OR Ant OR Top) ;
 SELECT Ant IF (0C Cog OR Ant OR Top) (1 ("<de>")) (2C Top) ;	# Maurice de Saxe
 REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknown) (NOT -1 ("de")) ;
 SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknown) ;
 	## Léon Verguet
 REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); #Orihuela, Vilallonga
+
+SELECT Ant IF (-1 ("dieu") OR ("déesse")) ;
 
 REMOVE Al IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Top IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
@@ -945,6 +946,8 @@ SELECT Adv IF (0 ("pour commencer")) (1 EOS) ;
 SELECT Adv IF (0 ("pour commencer")) (1 Cm) ;
 SELECT Adv IF (0 ("pour commencer")) (1 Tn) ;
 REMOVE Adv IF (0 ("pour commencer")) ;
+
+SELECT N IF (0 ("relation") + FemSg) (1 A + FemSg) ;	# et relations amoureuses
 
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
