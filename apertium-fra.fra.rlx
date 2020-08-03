@@ -1,4 +1,4 @@
-	DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
+DELIMITERS = "<.>" "<!>" "<?>" "<..>" "<...>" "<¶>" ;
 SOFT-DELIMITERS = "<,>" ;
 #OPTIONS += no-inline-sets no-inline-templates ;
 OPTIONS += no-inline-templates ;
@@ -948,6 +948,11 @@ SELECT Adv IF (0 ("pour commencer")) (1 Tn) ;
 REMOVE Adv IF (0 ("pour commencer")) ;
 
 SELECT N IF (0 ("relation") + FemSg) (1 A + FemSg) ;	# et relations amoureuses
+
+SELECT N IF (0 ("frère")) (1 Ant OR unknownMajIni) ;		# frère Jean
+SELECT N IF (0 ("sœur")) (1 Ant OR unknownMajIni) ;		# sœur Meredith
+SELECT Ant + Masc IF (-1 ("frère")) (0 Ant) ;
+SELECT Ant + Fem IF (-1 ("sœur")) (0 Ant) ;
 
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
