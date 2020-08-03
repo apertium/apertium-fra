@@ -549,6 +549,9 @@
       <e><p><l><b/>lequel</l><r>uquel</r></p><par n="caractere_general"/></e>
       <e><p><l><b/>lesquels</l><r>esquels</r></p><par n="caractere_general"/></e>
       <e><p><l><b/>lesquelles</l><r>esquelles</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>ledit<b/></l><r>udit<b/></r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>lesdits</l><r>esdits</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>lesdites</l><r>esdites</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>e<b/>s'</r></p><par n="voyelles"/></e>
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>u<b/>nouvel<b/></r></p><par n="voyelles"/></e>
@@ -587,6 +590,9 @@
       <e><p><l><b/>lequel</l><r>auquel</r></p><par n="caractere_general"/></e>
       <e><p><l><b/>lesquels</l><r>auxquels</r></p><par n="caractere_general"/></e>
       <e><p><l><b/>lesquelles</l><r>auxquelles</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>ledit<b/></l><r>audit<b/></r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>lesdits</l><r>auxdits</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>lesdites</l><r>auxdites</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>à<b/>s'</r></p><par n="voyelles"/></e>
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>au<b/>nouvel<b/></r></p><par n="voyelles"/></e>
@@ -611,10 +617,16 @@
       <e><p><l><a/>à<b/><a/>le<b/></l><r>au<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>à<b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>à</l><r/></p><par n="à"/></e>
+      <e><p><l><a/>à<b/><a/>ledit<b/></l><r>audit<b/></r></p></e>
+      <e><p><l><a/>à<b/><a/>lesdits</l><r>auxdits</r></p></e>
+      <e><p><l><a/>à<b/><a/>lesdites</l><r>auxdites</r></p></e>
       <e><p><l>plus<b/><a/>de<b/><a/>les</l><r>plus<b/>d</r></p><par n="de"/></e>
       <e><p><l>moins<b/><a/>de<b/><a/>les</l><r>moins<b/>d</r></p><par n="de"/></e>
       <e><p><l><a/>de<b/><a/>le<b/></l><r>du<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de<b/><a/>la<b/></l><r>de<b/>la<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>de<b/><a/>ledit<b/></l><r>dudit<b/></r></p></e>
+      <e><p><l><a/>de<b/><a/>lesdits</l><r>desdits</r></p></e>
+      <e><p><l><a/>de<b/><a/>lesdites</l><r>desdites</r></p></e>
       <e><p><l><a/>de<b/><a/>ne<b/></l><r>de<b/>n'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>de<b/></l><r>de<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>de</l><r>d</r></p><par n="de"/></e>
