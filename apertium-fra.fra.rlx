@@ -1089,10 +1089,10 @@ SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
 SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
 SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) (3 N) ;
 
-SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg) (1 Inf) ;
-SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg) (1 Inf) ;
-SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg) (1 Inf) ;
-SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1C Inf) ;
+SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg) (1 Inf OR CnjSub) ;
+SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg) (1 Inf OR CnjSub) ;
+SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg) (1 Inf OR CnjSub) ;
+SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1C Inf OR CnjSub) ;
 
 REMOVE PP (-1 N + MascSg) (0 Verb + P3 + Sg) (1C Inf) ;
 REMOVE PP (-1 Ant OR Cog) (0 Verb + P3 + Sg) (1C Inf) ;
