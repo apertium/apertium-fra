@@ -268,7 +268,7 @@ SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Inicial_Estrict_SN = EOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
 SET Barrera_Final_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Verb OR Rel OR Pro ;	# Verb és perillós per la ambigüitat, però en general, prolífic
-SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Pro ;
+SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Tn OR Pro ;
 
 SECTION
 
