@@ -1959,6 +1959,9 @@ REMOVE Adv IF (-1 Det + FemPl) (0 A + FemPl) (0 Adv) (1 N + FemPl) (NOT 1 A) ;
 
 # ADJ OR PP
 REMOVE A IF (0 PP) (1 ("par"));
+REMOVE A IF (-1 Ser) (0 PP) (1 Prep) ;
+REMOVE A IF (-2 Ser) (-1 Adv) (0 PP) (1 Prep) ;
+REMOVE A IF (-3 Ser) (-2 Adv) (-1 Adv) (0 PP) (1 Prep) ;
 REMOVE A IF (0 ("élever")) (1 ("en")) (2 Num) ;		# une statue élevée en 1900
 
 # ADJ OR VBLEX
