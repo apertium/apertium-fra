@@ -95,7 +95,10 @@ LIST PP = pp ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
-LIST MajIni = ("\\<[A-ZÀÁÈÉíÒÓÚÜÇ].*\\>"r) ;
+LIST MajIni = ("\\<[A-ZÀÁÈÉÍÒÓÚÜÇ].*\\>"r) ;
+LIST Majusc = ("\\<[A-ZÉÈÊ][A-ZÂÉÈÊÎÔÛ]*>"r) ;
+LIST ConsInitiale = ("\\<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r) ;
+LIST NumOrd = "[1-9][0-9]*ème"r ;
 
 LIST Mon_Ton_Son = "mon" "ton" "son" ;
 LIST Son = "son" ;
@@ -227,10 +230,6 @@ SET CM = (cm) OR (lpar) OR (rpar) OR ("<;>") ;
 LIST Excl = "!" ;
 
 LIST Title = "<[A-ZÉÈÊ][a-zâéèêîôû]\+>"r ;
-LIST ConsInitiale = "<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r ;
-LIST Majusc = "<[A-ZÉÈÊ][A-ZÂÉÈÊÎÔÛ]*>"r ;
-LIST MajuscInitiale = "<[A-ZÉÈÊ][a-zâéèêîôû]*>"r ;
-LIST NumOrd = "[1-9][0-9]*ème"r ;
 
 SET Ant = (np ant) ;
 SET Cog = (np cog) ;
@@ -387,8 +386,8 @@ REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
 
-REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajuscInitiale) (0 Est) (0 MajuscInitiale) ;
-SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajuscInitiale) ;
+REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajIni) (0 Est) (0 MajIni) ;
+SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajIni) ;
   ## vers l'Est
 SELECT N IF (-2 Ouest) (-1 Prep) (0 Est) ;
   ## d'Ouest en Est
@@ -396,7 +395,7 @@ SELECT N IF (-2 Est) (-1 Prep) (0 Ouest) ;
   ## d'Ouest en Est
 REMOVE Verb IF (-1 Ouest) (-1 (META:/-/r)) (0 Est) ;
 REMOVE Verb IF (0 Est) (-1 (META:/-/r)) (1 Ouest) ;
-SELECT A IF (-1 Top) (0 Est) (0 MajuscInitiale) ;
+SELECT A IF (-1 Top) (0 Est) (0 MajIni) ;
   ## Jérusalem Est
 REMOVE Verb IF (-1 ("nord") OR ("sud") OR ("ouest")) (-1 (META:/-/r)) (0 Est) ;
 REMOVE Verb IF (-1 ("nord") OR ("sud") OR ("ouest")) (0 Est) (NOT 1 PP OR A) ;
@@ -411,7 +410,7 @@ SELECT Ser IF (0 Est) (1 PP) ;
 SELECT Ser IF (0 Est) (1 Det) ;
 SELECT Ser IF (0 Est) (1 NP) ;
 SELECT Ser IF (0 Est) (1 unknown) ;
-SELECT Ser IF (NOT -1 DetDef OR ("limite") OR ("frontière") OR ("face") OR ("façade") OR ("côte") OR ("côté")) (0 Est) (NOT 0 MajuscInitiale) ;
+SELECT Ser IF (NOT -1 DetDef OR ("limite") OR ("frontière") OR ("face") OR ("façade") OR ("côte") OR ("côté")) (0 Est) (NOT 0 MajIni) ;
 
 SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
   ## Ils n'ont pas pu jouer dehors.
@@ -953,6 +952,8 @@ SELECT N IF (0 ("frère")) (1 Ant OR unknownMajIni) ;		# frère Jean
 SELECT N IF (0 ("sœur")) (1 Ant OR unknownMajIni) ;		# sœur Meredith
 SELECT Ant + Masc IF (-1 ("frère")) (0 Ant) ;
 SELECT Ant + Fem IF (-1 ("sœur")) (0 Ant) ;
+
+SELECT N IF (0 ("cathédrale")) (1 MajIni OR unknownMajIni) ;		# cathédrale Notre-Dame de Rouen
 
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
@@ -1580,7 +1581,7 @@ SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
 
-SELECT N IF (0 Fort) (1 MajuscInitiale OR unknownMajIni) ;
+SELECT N IF (0 Fort) (1 MajIni OR unknownMajIni) ;
 REMOVE N IF (-1 N + MascSg) (0 Fort + MascSg) ;
 REMOVE N IF (-1 N + MascPl) (0 Fort + MascPl) ;
 
@@ -1648,7 +1649,7 @@ REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona se
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
   ## la guerre continue pendant près de cinq ans
 
-SELECT N IF (0 ("empire") + MajuscInitiale) ;
+SELECT N IF (0 ("empire") + MajIni) ;
 SELECT N IF (-1 ("haut") + MascSg OR ("bas") + MascSg) (0 ("empire") + MascSg) ;
 SELECT N IF (-1 ("haut") + MascPl OR ("bas") + MascPl) (0 ("empire") + MascSg) ;
 
@@ -1725,7 +1726,7 @@ SELECT A IF (0 A) (0 (META:/-/r)) (1 Top OR unknownMajIni) ;
   ## il va même jusqu'à donner
 
 SELECT Acr OR Al IF (0 Majusc) ;
-SELECT N IF (0 MajuscInitiale) (0C N OR A) (NOT -1 BOS OR MajuscInitiale OR Prep OR CnjCoo) (NOT 1 MajuscInitiale) ;
+SELECT N IF (0 MajIni) (0C N OR A) (NOT -1 BOS OR MajIni OR Prep OR CnjCoo) (NOT 1 MajIni) ;
   ## ces ingrats d'Européens.
   ## l'Académie Rouge et Noire
 
