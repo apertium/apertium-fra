@@ -1741,11 +1741,16 @@ SELECT Masc_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Masc
 SELECT Fem_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Fem) (2 Noun_Adj_PP + Fem) (3C Fem_strict) ;
 SELECT Masc_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Masc) (2 Noun_Adj_PP + Masc) (3C Masc_strict) ;
 
-SELECT Masc IF (-1/* Det + Masc_strict) (0C N OR A + Masc LINK 0 Fem) ;
-SELECT Masc IF (-1 A + Masc_strict) (0C N OR A + Masc LINK 0 Fem) ;
-SELECT Fem IF (-1/* Det + Fem_strict) (0C N OR A + Fem LINK 0 Masc) ;
-SELECT Fem IF (-1 A + Fem_strict) (0C N OR A + Fem LINK 0 Masc) ;
+SELECT Masc IF (-1/* Masc_strict + Det) (0C N OR A + Masc LINK 0 Fem) ;
+SELECT Masc IF (-1 Masc_strict + A) (0C N OR A + Masc LINK 0 Fem) ;
+SELECT Masc IF (1 Masc_strict + A) (0C N OR A + Masc LINK 0 Fem) ;
+SELECT Fem IF (-1/* Fem_strict + Det) (0C N OR A + Fem LINK 0 Masc) ;
+SELECT Fem IF (-1 Fem_strict + A) (0C N OR A + Fem LINK 0 Masc) ;
+SELECT Fem IF (1 Fem_strict + A) (0C N OR A + Fem LINK 0 Masc) ;
   ## le primer tour
+SELECT Masc IF (-2/* Masc_strict + Det) (-1 N OR A + Masc) (0C N OR A + Masc LINK 0 Fem) ;
+SELECT Fem IF (-2/* Fem_strict + Det) (-1 N OR A + Masc) (0C N OR A + Fem LINK 0 Masc) ;
+  ## le deuxième tour
 
 REMOVE Adv IF (-1C/* Det) (0C N OR Adv);
 REMOVE Adv IF (-1C Det + MascSg) (0C N + MascSg OR Adv);
