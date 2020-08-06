@@ -271,6 +271,7 @@ SET Barrera_Final_Estrict_SN = EOS OR Sent OR (":") OR Prep OR Det OR CnjSub OR 
 
 SECTION
 
+SELECT N IF (0 ("radio")) (0 (META:/-/r)) (1 ("télévision")) ;
 SELECT Pref IF (0 Pref) (0 (META:/-/r)) (1 N OR A OR Verb) ;
 REMOVE Pref ;
 
