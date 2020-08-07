@@ -959,7 +959,8 @@ SELECT N IF (0 ("cathédrale")) (1 MajIni OR unknownMajIni) ;		# cathédrale Not
 SELECT N IF (0 ("gagnant")) (0 (META:/-/r)) ;		# gagnant-gagnant
 SELECT N IF (0 ("gagnant")) (-1 (META:/-/r)) ;		# gagnant-gagnant
 SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
-SELECT N IF (0 ("perdant")) (-1 (META:/-/r)) ;		# perdant-perdant
+
+SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
 
 # genre
 
