@@ -240,6 +240,7 @@ SET Acr = (acr) ;
 
 SET DetDef = (det def) ;
 SET DetInd = (det ind) ;
+SET AdjInd = (adj ind) ;
 
 SET QUI-QUE = Que | Qui ;
 
@@ -261,7 +262,7 @@ SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") ;
+SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = BOS OR Sent OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -830,7 +831,10 @@ SELECT N + Mf IF (-1/* Det) (0 Politique) (1 A + Masc_strict) ;
 REMOVE N + Mf IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;
 REMOVE N + Masc_strict IF (NOT -1/* Det + Masc_strict) (0 Politique) (NOT 1 A + Masc_strict) ;	# pour le cas où politique mf ne soit pas défini dans le bidix (et on n'ait que politique n.m et politique n.f)
 
-SELECT N IF (-1 Prep) (0 Commune + Pl) (NOT 1 N) ; # communauté de communes
+SELECT N IF (-1 Prep) (0 Commune + Pl) (NOT 1 N) ;	# communauté de communes
+SELECT N IF (-1 Prep) (0 Commune + Pl) (1 MajIni) ;	# communauté de communes Pays d'Évian
+
+SELECT N IF (-2 ("base")) (-1 ("de")) (0 ("donnée")) ;
 
 SELECT Masc IF (-1 Det + Masc_strict) (0 Pique) ;	# jouer du pique
 SELECT Masc IF (-2 Num OR ("as") OR ("roi") OR ("dame") OR ("valet")) (-1 De) (0 Pique) ;
@@ -961,6 +965,18 @@ SELECT N IF (0 ("gagnant")) (-1 (META:/-/r)) ;		# gagnant-gagnant
 SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
 
 SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
+
+SELECT Prep IF (0 ("vers")) (1 Det) ;			# vers la fin
+
+SELECT A IF (-1 DetDef + MascSg) (0 ("autre") + Sg) (1 N + MascSg) ;	# l'autre livre
+SELECT A IF (-1 DetDef + FemSg) (0 ("autre") + Sg) (1 N + FemSg) ;
+SELECT A IF (-1 DetDef + MascPl) (0 ("autre") + Pl) (1 N + MascPl) ;	# les autres livres
+SELECT A IF (-1 DetDef + FemPl) (0 ("autre") + Pl) (1 N + FemPl) ;
+SELECT A IF (-1 DetInd + MascSg) (0 ("autre") + Sg) (1 N + MascSg) ;
+SELECT A IF (-1 DetInd + FemSg) (0 ("autre") + Sg) (1 N + FemSg) ;
+SELECT A IF (-1 DetInd + MascPl) (0 ("autre") + Pl) (1 N + MascPl) ;	# quelques autres livres
+SELECT A IF (-1 DetInd + FemPl) (0 ("autre") + Pl) (1 N + FemPl) ;
+SELECT A IF (-1 Num) (0 ("autre") + Pl) (1 N + Pl) ;			# trois autres livres
 
 # genre
 
@@ -1180,7 +1196,7 @@ SELECT CnjSub IF (-2 ("tel")) (0 Que) ;
 SELECT Rel IF (-1 CM) (0 Que OR Qui) ;
 SELECT Rel IF (-1C N) (0 Que OR Qui) (NOT -1* Ne) ;
 SELECT Rel IF (-1C NP OR unknownMajIni) (0 Que OR Qui) (NOT -1* Ne) ;
-SELECT Rel IF (-2C N) (-1 A) (0 Que OR Qui) ;
+SELECT Rel IF (-2C N) (-1 A) (NOT -1 Prep) (0 Que OR Qui) ;
 SELECT Rel IF (-2C Top OR unknownMajIni) (-1 A) (0 Que OR Qui) ;
 SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que OR Qui) ;
 
@@ -1786,6 +1802,13 @@ SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub OR Adv 
   ## l'expert en balistique n'a pas
   ## à l’abri des polémiques.
 
+SELECT N IF (-1 ("de")) (0 N) (NOT 0 MajIni) (1 MajIni) ;	# réseau de bus Arlequin
+
+SELECT N IF (-1 AdjInd + MascSg) (0 N + MascSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+SELECT N IF (-1 AdjInd + FemSg) (0 N + FemSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+SELECT N IF (-1 AdjInd + MascPl) (0 N + MascPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+SELECT N IF (-1 AdjInd + FemPl) (0 N + FemPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
@@ -1868,7 +1891,7 @@ REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2C A) ;
 
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
 	# de physique et chimie
-SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 0 AdjOrd OR AdjPre) ;
+SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 1C N) (NOT 0 AdjOrd OR AdjPre) ;
 	# de chimie appliquées
 
 REMOVE V IF (NOT -1 Pro) (0C N + MascSg OR V) (1C Adj_PP + MascSg) ;
@@ -2196,6 +2219,14 @@ REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemPl) (2 N + FemPl) ;
 
 REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<du>")) (2 N + Sg) ;
 REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<des>")) (2 N + Pl) ;
+
+SELECT N IF (0 ("route")) (1 Num) ;	# route 28
+SELECT N IF (0 ("route")) (1 unknown) ;	# route N28
+SELECT N IF (-1 ("en")) (0 ("route")) ;
+
+# V OR A
+
+REMOVE V IF (-1 N + Sg) (0 ("rebelle") + Sg) ;
 
 # V OR Adv
 REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
