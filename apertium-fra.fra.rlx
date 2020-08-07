@@ -956,6 +956,13 @@ SELECT Ant + Fem IF (-1 ("sœur")) (0 Ant) ;
 
 SELECT N IF (0 ("cathédrale")) (1 MajIni OR unknownMajIni) ;		# cathédrale Notre-Dame de Rouen
 
+SELECT N IF (0 ("gagnant")) (0 (META:/-/r)) ;		# gagnant-gagnant
+SELECT N IF (0 ("gagnant")) (-1 (META:/-/r)) ;		# gagnant-gagnant
+SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
+SELECT N IF (0 ("perdant")) (-1 (META:/-/r)) ;		# perdant-perdant
+
+# genre
+
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
   ## en deux tours
