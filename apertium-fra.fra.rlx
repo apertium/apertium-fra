@@ -332,7 +332,7 @@ REMOVE Ant_Cog IF (-1/* Det + FemPl) (0 Noun_Adj + FemPl) ;
 #REMOVE Ant_Cog IF (-2/* Det + FemSg) (-1C A + FemSg) (0 N + FemSg) ;
 #REMOVE Ant_Cog IF (-2/* Det + FemPl) (-1C A + FemPl) (0 N + FemPl) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit") OR ("internet")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit") OR ("internet") OR ("marine")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
 REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
@@ -1988,9 +1988,9 @@ REMOVE Adv IF (-1 Det + FemPl) (0 A + FemPl) (0 Adv) (1 N + FemPl) (NOT 1 A) ;
 
 # ADJ OR PP
 REMOVE A IF (0 PP) (1 ("par"));
-REMOVE A IF (-1 Ser) (0 PP) (1 Prep) ;
-REMOVE A IF (-2 Ser) (-1 Adv) (0 PP) (1 Prep) ;
-REMOVE A IF (-3 Ser) (-2 Adv) (-1 Adv) (0 PP) (1 Prep) ;
+REMOVE A IF (-1 Ser) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
+REMOVE A IF (-2 Ser) (-1 Adv) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
+REMOVE A IF (-3 Ser) (-2 Adv) (-1 Adv) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
 REMOVE A IF (0 ("élever")) (1 ("en")) (2 Num) ;		# une statue élevée en 1900
 
 # ADJ OR VBLEX
