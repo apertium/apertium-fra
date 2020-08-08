@@ -266,7 +266,7 @@ SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = BOS OR Sent OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
-SET Barrera_Inicial_Estrict_SN = EOS OR Sent OR Prep OR CnjSub OR CnjAdv OR Rel ;
+SET Barrera_Inicial_Estrict_SN = BOS OR Sent OR Prep OR CnjSub OR CnjAdv OR Rel ;
 SET Barrera_Final_SN = EOS OR Sent OR Prep OR Det OR CnjSub OR CnjAdv OR Verb OR Rel OR Pro ;	# Verb és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Final_Estrict_SN = EOS OR Sent OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Tn OR Pro OR Itg OR Verb + Pers OR Verb + Inf OR Verb + Ger OR ("avant") OR ("après") OR ("pendant") OR ("sous") OR ("depuis") OR ("vers") OR ("ver") ;
 
@@ -1085,6 +1085,9 @@ REMOVE N IF (-1 Rel LINK NOT 0 ("comme")) (0 N OR Verb) ;
 
 REMOVE V IF (0 N OR V) (1C Ger) ;
   ## mais la série devenant de plus en plus rentable
+
+REMOVE V + Pers IF (-1C Prep) ;
+REMOVE V + Pers IF (-2C BOS OR Sent OR CnjSub) (-1 ("en")) (0 N) ;
 
 REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + MascSg) (0 N + MascSg) ;	# Le président et son secrétaire président
 REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + FemSg) (0 N + FemSg) ;
