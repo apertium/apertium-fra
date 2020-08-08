@@ -2045,6 +2045,9 @@ SELECT A IF (-1C N + FemSg) (0C N OR A + FemSg) (1 unknown) ;
 SELECT A IF (-1C N + FemPl) (0C N OR A + FemPl) (1 unknown) ;
   ## en langue aborigène xxx
 
+SELECT N + Masc IF (-1 ("femme")) (0 ("politique") OR ("médecin")) ;
+SELECT N + Masc IF (-1 ("femme")) (0 ("pilote")) (NOT 1 Det OR Adv) ;
+
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C N + MascSg) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C N + MascPl) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C N + FemSg) ;
