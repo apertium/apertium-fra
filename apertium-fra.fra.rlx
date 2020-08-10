@@ -1665,6 +1665,11 @@ REMOVE V (0 Pendant) (*1 Verb BARRIER Cnj_Rel) ;
 SELECT Prep (0 Contre) (-1 BOS) ;
 REMOVE V (0 Contre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Contre) (*1 Verb BARRIER Cnj_Rel) ;
+REMOVE V (NOT -1 Noun_Adj + Sg) (0 Contre) ;
+REMOVE V (-1* Num BARRIER Cnj_Rel) (0 Contre) (1 Num) ;
+REMOVE V (-1 ("crime") OR ("ligue") OR ("association") OR ("organisation") OR ("collectif") OR ("lutte") OR ("combat") OR ("guerre")) (0 Contre) ;
+REMOVE V (-2 ("crime") OR ("ligue") OR ("association") OR ("organisation") OR ("collectif") OR ("lutte") OR ("combat") OR ("guerre")) (-1 A) (0 Contre) ;
+REMOVE V (0 Contre) (1 Det) (2 ("crime") OR ("mafia") OR ("spéculation") OR ("gouvernement") OR ("loi") OR ("constitution") OR ("femme") OR ("enfant") OR ("migrant") OR ("réfugié") OR ("population")) ;
 
 ## Ces règles ne sont pas en train de marcher
 SELECT Verb (0 Puis) (-1 Je);
