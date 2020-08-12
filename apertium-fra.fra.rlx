@@ -2150,6 +2150,11 @@ REMOVE N IF (-2/* Det + MascPl OR Prep) (-1C N + MascPl) (0 Adj_PP + MascPl) ;
 REMOVE N IF (-2/* Det + FemSg OR Prep) (-1C N + FemSg) (0 Adj_PP + FemSg) ;
 REMOVE N IF (-2/* Det + FemPl OR Prep) (-1C N + FemPl) (0 Adj_PP + FemPl) ;
 # l'armée perse
+REMOVE N IF (-1C N + MascSg) (0C Noun_Adj + MascSg) ;
+REMOVE N IF (-1C N + MascPl) (0C Noun_Adj + MascPl) ;
+REMOVE N IF (-1C N + FemSg) (0C Noun_Adj + FemSg) ;
+REMOVE N IF (-1C N + FemPl) (0C Noun_Adj + FemPl) ;
+	# métaphore mystique
 REMOVE A OR PP IF (-2/* Det + MascSg OR Prep) (-1C A + MascSg) (0 Noun_Adj + MascSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd OR Trencat) (1 Adj_PP + MascSg) ;
 REMOVE A OR PP IF (-2/* Det + MascPl OR Prep) (-1C A + MascPl) (0 Noun_Adj + MascPl LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd OR Trencat) (1 Adj_PP + MascPl) ;
 REMOVE A OR PP IF (-2/* Det + FemSg OR Prep) (-1C A + FemSg) (0 Noun_Adj + FemSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemSg) ;
