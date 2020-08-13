@@ -1659,6 +1659,7 @@ SELECT Prep (0 Pendant) (1 ("de")) (2 A OR N) ;
   ## pendant de nombreuses années
 SELECT Prep (0 Pendant) (1 ("près de")) (2 A OR N OR Num) ;
   ## la guerre continue pendant près de cinq ans
+REMOVE A (0 Pendant) (NOT -1 Noun_Adj + MascSg) ;  # Son mari l'avait frappée pendant deux heures
 REMOVE V (0 Pendant) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Pendant) (*1 Verb BARRIER Cnj_Rel) ;
 
