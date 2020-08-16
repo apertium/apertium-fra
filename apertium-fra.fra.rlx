@@ -300,6 +300,8 @@ SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
 SELECT Cog IF (-1 ("Édouard")) (0 ("Philippe")) ;
 SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
 
+REMOVE Ant IF (-1 ("banque")) (NOT 1 Cog OR Ant) ;
+
 SELECT Top IF (-2C Ant) (-1 ("<de>")) (0C Cog OR Ant OR Top) ;
 SELECT Ant IF (0C Cog OR Ant OR Top) (1 ("<de>")) (2C Top) ;	# Maurice de Saxe
 REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknown) (NOT -1 ("de")) ;
