@@ -141,6 +141,7 @@ LIST Être = "être" ;
 
 # noms communs avec des sens différents selon le genre
 LIST Tour = "tour" ;
+LIST Foudre = "foudre" ;
 LIST Mort = "mort" ;
 LIST Cave = "cave" ;
 LIST Claque = "claque" ;
@@ -998,6 +999,8 @@ SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
 SELECT Masc IF (NOT -1/* Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Marine + Masc) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Foudre + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
 
