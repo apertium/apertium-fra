@@ -1898,6 +1898,15 @@ REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl L
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Adv) (2 Adj_PP + FemPl) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Adv) (2 Adj_PP + FemPl) ;
 
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + MascSg) ;	
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + FemSg) ;	
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + MascPl) ;	
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + FemPl) ;	
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("<du>") OR ("<au>")) (0 Noun_Adj_PP + Sg LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + Sg) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("<des>") OR ("<aux>")) (0 Noun_Adj_PP + Pl LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + Pl) ;
+SELECT V IF (-1C N) (NOT 0 A OR PP) (1 Que) ;
+	# l’ensemble des indicateurs montre que
+
 SELECT N IF (-2C N) (-1 CnjCoo) (0C Noun_Adj_PP) (NOT 1 N) (NOT 0 ("demi") OR ("quart")) ;
 	# une comédienne, réalisatrice, traductrice et romancière.
 SELECT N IF (NOT -1 N) (0C Noun_Adj_PP) (1 CnjCoo) (2C N) ;
