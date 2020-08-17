@@ -1899,10 +1899,14 @@ REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LIN
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Adv) (2 Adj_PP + FemPl) ;
 
 SELECT N IF (-2C N) (-1 CnjCoo) (0C Noun_Adj_PP) (NOT 1 N) (NOT 0 ("demi") OR ("quart")) ;
-	# est une comédienne, réalisatrice, traductrice et romancière.
+	# une comédienne, réalisatrice, traductrice et romancière.
 SELECT N IF (NOT -1 N) (0C Noun_Adj_PP) (1 CnjCoo) (2C N) ;
 	# comédies, revues et opérettes
 	# langues anciennes et sciences naturelles
+SELECT N IF (-2 N) (-1 CM) (0C Noun_Adj_PP) (1 CnjCoo OR CM) (2C N) ;
+	# prêtre, curé, prédicateur
+SELECT N IF (-2C N) (-1 CM) (0C Noun_Adj_PP) (1 CM) (2 N) ;
+	# prêtre, curé, prédicateur
 REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2 N) ;
   ## propriété de NTL et diffuse quatre chaînes
 REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2C A) ;
