@@ -1615,11 +1615,17 @@ REMOVE Interj IF (0 ("bon")) (NOT 1* ("<!>")) ;
 SELECT A IF (0 ("bon")) (1C N) ;
   ## un bon jour
 
+SELECT N IF (0 Si) (1 ("majeur") OR ("mineur")) ;
+SELECT N IF (0 Si) (1 ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
+SELECT N IF (0 Si) (-1 ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
+REMOVE N IF (0 Si) ;
 REMOVE CnjAdv IF (0 Si) (1 ("en") OR ("y")) (2 Verb) ;
 	  ## pour s'y rendre
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
+SELECT CnjAdv IF (0 Si) (-1 BOS OR Sent) ;
+SELECT CnjAdv IF (0 Si) (1 ("jamais")) ;
 
 SELECT N IF (0 Fort) (1 MajIni OR unknownMajIni) ;
 REMOVE N IF (-1 N + MascSg) (0 Fort + MascSg) ;
