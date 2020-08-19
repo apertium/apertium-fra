@@ -1535,6 +1535,9 @@ SELECT V IF (-1 (META:/»/r)) (0 V + P3) (1 Ant OR Cog) ;		# «… » estime Du
 SELECT V IF (-1 (META:/»/r)) (0 V + P3) (1 N) (2 Ant OR Cog) ;		# «… » estime M. Durand.
 SELECT V IF (-1 (META:/»/r)) (0 V + P3 + Sg) (1 Det + Sg) (2 N + Sg) ;	# «… » estime le médecin
 
+SELECT V IF (NOT -1 Det + MascSg) (0 ("<reste>"i)) (1 A + MascSg) ;
+SELECT V IF (NOT -1 Det + MascSg) (0 ("<reste>"i)) (1 Adv_PreAdv) (2 A + MascSg) ;
+
 SELECT Sg IF (-1C Noun_Adj + Sg_strict) (0C Adj_PP) ;
   ## le rayonnement émis
 SELECT Pl IF (-1C Noun_Adj + Pl_strict) (0C Adj_PP) ;
