@@ -1804,11 +1804,11 @@ SELECT Masc IF (-2/* Masc_strict + Det) (-1 N OR A + Masc) (0C N OR A + Masc LIN
 SELECT Fem IF (-2/* Fem_strict + Det) (-1 N OR A + Masc) (0C N OR A + Fem LINK 0 Masc) ;
   ## le deuxième tour
 
-REMOVE Adv IF (-1C/* Det) (0C N OR Adv);
-REMOVE Adv IF (-1C Det + MascSg) (0C N + MascSg OR Adv);
-REMOVE Adv IF (-1C Det + FemSg) (0C N + FemSg OR Adv);
-REMOVE Adv IF (-1C Det + MascPl) (0C N + MascPl OR Adv);
-REMOVE Adv IF (-1C Det + FemPl) (0C N + FemPl OR Adv);
+REMOVE Adv IF (-1C/* Det) (0C N OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
+REMOVE Adv IF (-1C Det + MascSg) (0C N + MascSg OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
+REMOVE Adv IF (-1C Det + FemSg) (0C N + FemSg OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
+REMOVE Adv IF (-1C Det + MascPl) (0C N + MascPl OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
+REMOVE Adv IF (-1C Det + FemPl) (0C N + FemPl OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
   ## par l'ensemble des
 
 SELECT N IF (-1C V) (0C N OR PP) (1 Prep) ;
