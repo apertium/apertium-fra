@@ -2272,6 +2272,10 @@ SELECT N IF (0 ("route")) (1 Num) ;	# route 28
 SELECT N IF (0 ("route")) (1 unknown) ;	# route N28
 SELECT N IF (-1 ("en")) (0 ("route")) ;
 
+SELECT V IF (-1 ("»")) (0 V + P3) (1 Ant OR Cog) ;			# «… » estime Durand.
+SELECT V IF (-1 ("»")) (0 V + P3) (1 N) (2 Ant OR Cog) ;		# «… » estime M. Durand.
+SELECT V IF (-1 ("»")) (0 V + P3 + Sg) (1 Det + Sg) (2 N + Sg) ;	# «… » estime le médecin
+
 # V OR A
 
 REMOVE V IF (-1 N + Sg) (0 ("rebelle") + Sg) ;
