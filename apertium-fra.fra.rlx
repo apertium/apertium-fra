@@ -545,7 +545,7 @@ SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
   ## n'ont pas vu, n'ont jamais vu
 
 SELECT N IF (-1 Det) (0 As) (1 De) (2 Pique OR ("cœur") OR ("carreau") OR ("trèfle")) ;
-SELECT V IF (0 Avoir) (1C Prep) ;
+SELECT V IF (0 Avoir) (1C Prep) (NOT 0 ("<avions>"i)) ;
   ## ayant pour ami
 
 SELECT V IF (0 Avoir) (1 EOS) ;
