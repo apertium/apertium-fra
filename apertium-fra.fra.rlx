@@ -1176,14 +1176,14 @@ SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
 REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn);
   ## Groupe A, Taille 48, Série 1
   ## Pense-t-il
-SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep OR Pour) ;
+SELECT N IF (-1 BOS OR Sent) (0C Noun_Adj_PP) (1C Prep OR Pour) ;
   ## Remise des coupes
 REMOVE Fin IF (-1C PreAdv) (0 A OR Fin) ;
   ## la très célèbre Pietà
-REMOVE Verb IF (-2 BOS) (-1C A + MascSg) (0 N + MascSg OR Verb) ;
-REMOVE Verb IF (-2 BOS) (-1C A + FemSg) (0 N + FemSg OR Verb) ;
-REMOVE Verb IF (-2 BOS) (-1C A + MascPl) (0 N + MascPl OR Verb) ;
-REMOVE Verb IF (-2 BOS) (-1C A + FemPl) (0 N + FemPl OR Verb) ;
+REMOVE Verb IF (-2 BOS OR Sent) (-1C A + MascSg) (0 N + MascSg OR Verb) ;
+REMOVE Verb IF (-2 BOS OR Sent) (-1C A + FemSg) (0 N + FemSg OR Verb) ;
+REMOVE Verb IF (-2 BOS OR Sent) (-1C A + MascPl) (0 N + MascPl OR Verb) ;
+REMOVE Verb IF (-2 BOS OR Sent) (-1C A + FemPl) (0 N + FemPl OR Verb) ;
   ## . Petites annonces
 REMOVE P2 IF (-1C N + MascSg) (0 A + MascSg OR Verb + P2) ;
 REMOVE P2 IF (-1C N + FemSg) (0 A + FemSg OR Verb + P2) ;
