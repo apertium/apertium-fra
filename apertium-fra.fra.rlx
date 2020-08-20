@@ -49,6 +49,9 @@ LIST Interj = ij ;
 
 SET Cnj_Rel = CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
+SET N_Masc = (n m) OR (n mf) ;
+SET N_Fem = (n f) OR (n mf) ;
+
 LIST Masc_strict = m ;
 LIST Fem_strict = f ;
 LIST Masc = m mf ;
@@ -147,6 +150,7 @@ LIST Cave = "cave" ;
 LIST Claque = "claque" ;
 LIST Livre = "livre" ;
 LIST Faune = "faune" ;
+LIST Critique = "critique" ;
 LIST Marine = "marine" ;
 LIST Page = "page" ;
 LIST Manoeuvre = "manœuvre" ;
@@ -997,6 +1001,12 @@ SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
 SELECT Fem IF (-2 ("menace")) (-1 De) (0 Mort + Masc) ;
 SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
 SELECT Masc IF (NOT -1/* Fem_strict OR N) (0 Mort + Fem + Pl) (NOT 1 Fem_strict) ;
+
+SELECT N_Masc IF (NOT -1/* Fem_strict OR N) (0 Critique + Fem) (1 ("littéraire")) ;
+SELECT N_Masc IF (NOT -1/* Fem_strict OR N) (0 Critique + Fem) (2 ("de")) (3 ("art")) ;
+SELECT N_Masc IF (NOT -1/* Fem OR N) (0 Critique + Fem) (1 CM OR CnjCoo) (2 ("écrivain") OR ("journaliste") OR ("essayiste") OR ("éditeur") OR ("réalisateur") OR ("musicien") OR ("interprète"));
+SELECT N_Masc IF (NOT 1 Fem) (0 Critique + Fem) (-1 CM OR CnjCoo) (-2 ("écrivain") OR ("journaliste") OR ("essayiste") OR ("éditeur") OR ("réalisateur") OR ("musicien") OR ("interprète"));
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Critique + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Marine + Masc) (NOT 1 Masc_strict) ;
 
