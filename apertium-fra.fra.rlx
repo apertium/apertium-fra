@@ -396,6 +396,9 @@ REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
 
+REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;	# VeeR fait l'objet de communication
+REMOVE PP IF (-1 Ant_Cog) (0 ("dire") + P3) (NOT 0 (META:/«/r) OR (META:/"/r)) (NOT 1 Ant_Cog OR unknownMajIni) ;
+
 REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajIni) (0 Est) (0 MajIni) ;
 SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajIni) ;
   ## vers l'Est
