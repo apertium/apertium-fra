@@ -444,6 +444,14 @@ REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;
 REMOVE PP IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
 REMOVE A IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
 SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne") OR ("rien")) ;	# n'atteint pas
+SELECT Verb IF (-2 Ne) (-1 Pro) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne") OR ("rien")) ;	# ne l'incendie pas
+SELECT Verb IF (-3 Ne) (-2 Pro) (-1 Pro) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne") OR ("rien")) ;	
+REMOVE PP IF (-1 Ne) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne") OR ("rien")) ;	# n'atteint pas
+REMOVE PP IF (-2 Ne) (-1 Pro) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne") OR ("rien")) ;	# ne l'incendie pas
+REMOVE PP IF (-3 Ne) (-2 Pro) (-1 Pro) (0 Verb) (1 Pas OR ("jamais") OR ("plus") OR ("guère") OR ("personne") OR ("rien")) ;	
+SELECT P3 IF (-1 ("le")) (NOT -1 MascSg) (0 ("fait") + MascSg) ;	# la fait
+SELECT P3 IF (-1 ("le") + MascSg) (0 ("fait")) (1 ("bien") OR ("mal")) ;
+SELECT P3 IF (-1 ("le") + MascSg) (0 ("fait")) (1 Adv) (NOT 1 A + MascSg) ;
 SELECT Verb IF (-1 N) (0 ("atteint")) (1 Det) ;
 SELECT Verb IF (-2 N) (-1 A) (0 ("atteint")) (1 Det) ;
 
@@ -2204,10 +2212,10 @@ SELECT N IF (-1 AdjPre + MascPl ) (0 N + MascPl) ;
 SELECT N IF (-1 AdjPre + FemPl ) (0 N + FemPl) ;
 
 # DET NOM ADJ
-REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
-REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
-REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
-REMOVE V OR Vbmod IF (-1 Det) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Adj_PP + FemPl) ;
+REMOVE V OR Vbmod IF (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
+REMOVE V OR Vbmod IF (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
+REMOVE V OR Vbmod IF (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Adj_PP + FemSg) ;
+REMOVE V OR Vbmod IF (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Adj_PP + FemPl) ;
 REMOVE V OR Vbmod IF (-1/* Prep) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adj_PP + MascSg) ;
 REMOVE V OR Vbmod IF (-1/* Prep) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
 REMOVE V OR Vbmod IF (-1/* Prep) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adj_PP + MascPl) ;
