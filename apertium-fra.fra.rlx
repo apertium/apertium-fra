@@ -2067,6 +2067,8 @@ REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Prep) ;			# cela le contraint à replie
 REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Adv) (3 Prep) ;		# cela le contraint toujours à replier
 REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Adv) (3 Adv) (4 Prep) ;	# cela ne le contraint pas toujours à replier
 
+REMOVE Prn IF (-1 Det + FemSg) (0 ("personne")) ;	# aucune personne
+
 # DET
 
 REMOVE Pro IF (0 Le) (NOT 1 Verb OR ("lui") OR ("leur")) ;
