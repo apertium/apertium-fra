@@ -41,6 +41,7 @@ LIST Imper = imp ;
 LIST Pri = pri ;
 LIST Prn = prn ;
 LIST N = n ;
+LIST N_Adj = n adj ;
 LIST NP = np ;
 LIST Pref = pref ;
 
@@ -433,9 +434,12 @@ REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
 REMOVE Fin IF (-1C V LINK NOT 0 PP) (0 Fin OR N OR A OR PP OR Det) ;
   ## tenir compte de
 
-SELECT Vbmod (0 Devoir) (1 Inf) ;
+SELECT Vbmod (0 V) (1 Inf) ;
+SELECT Vbmod (0 V) (1 Adv) (2 Inf) ;
+SELECT Vbmod (0 V) (1 Adv) (1 Adv) (3 Inf) ;
 REMOVE Vbmod (0 Devoir + PP) (-1 Ser) ;
 REMOVE Vbmod (0 Devoir) (1 ("à")) ;
+REMOVE Vbmod (0 V) (NOT 0 ("falloir")) (NOT 1 Inf OR (":")) (NOT 2 Inf) (NOT 3 Inf) ;
 
 REMOVE Ifi IF (0 Pri + P1) (0 Ifi + P1) ;
 REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;
@@ -1081,10 +1085,20 @@ SELECT Prep IF (-1 Verb + Ger) (0 ("vers")) ;
 SELECT Prep IF (-2 Ser OR Haver) (-1 Verb + PP) (0 ("vers")) ;
 SELECT Prep IF (-3 Ser OR Haver) (-2 Adv OR CnjAdv) (-1 Verb + PP) (0 ("vers")) ;
 
-SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog) ;
+SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog OR Al OR Top) ;
   ## Il s'impose devant Matthieu
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ;
   ## Il s'impose devant lui
+SELECT Prep IF (0 Devant) (1 NP OR unknownMajIni) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + MascSg) (2 Top + MascSg) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + MascPl) (2 Top + MascPl) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + FemSg) (2 Top + FemSg) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + FemPl) (2 Top + FemPl) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det) (2 unknownMajIni) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + MascSg) (2 N_Adj + MascSg) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + MascPl) (2 N_Adj + MascPl) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + FemSg) (2 N_Adj + FemSg) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + FemPl) (2 N_Adj + FemPl) ;
 SELECT Prep IF (NOT -1 Verb OR Pas) (0 Pour) ;
 REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 N + Pl) ;
 REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 Det + Pl) (3 N + Pl) ;
