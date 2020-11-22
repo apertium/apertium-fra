@@ -397,7 +397,8 @@ REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
 
-REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;	# VeeR fait l'objet de communication
+REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;				# VeeR fait l'objet de communication
+SELECT PP IF (0 ("<dit>"i)) (1 ("«") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
 REMOVE PP IF (-1 Ant_Cog) (0 ("dire") + P3) (NOT 0 (META:/«/r) OR (META:/"/r)) (NOT 1 Ant_Cog OR unknownMajIni) ;
 
 REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajIni) (0 Est) (0 MajIni) ;
@@ -2345,6 +2346,7 @@ SELECT PP IF (-1 Ser) (-2 ("ne")) (0 A OR PP) (1 Que) (2 ("par")) ;
 # Les cours seront assurés par Michel Laine
 
 # V OR N
+
 REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
 REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemSg) (2 N + FemSg) ;	# et ferme une dizaine de magasins
 REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascPl) (2 N + MascPl) ;
@@ -2352,6 +2354,13 @@ REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemPl) (2 N + FemPl) ;
 
 REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<du>")) (2 N + Sg) ;
 REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<des>")) (2 N + Pl) ;
+
+REMOVE N IF (-2C V) (-1 CnjCoo) (0 V) ;
+REMOVE N IF (-3C V) (-2 Adv) (-1 CnjCoo) (0 V) ;	# ignore superbement ou juge tout autre usage
+
+SELECT N IF (-2 V) (-1 ("en")) (0 V) ;			# mettre en vente, faire en sorte, prendre en compte
+REMOVE N IF (NOT -1 A OR Det) (0 V) (1C Det) ;		# juge un autre usage
+REMOVE N IF (NOT -1 A OR Det) (0 V) (1 PreDet) ;	# juge tout autre usage
 
 SELECT N IF (0 ("route")) (1 Num) ;	# route 28
 SELECT N IF (0 ("route")) (1 unknown) ;	# route N28
