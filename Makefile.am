@@ -69,26 +69,18 @@ EXTRA_DIST=$(BASENAME).$(LANG1).metadix \
 #   apertium_fra_srcdir: This is where the source files go
 
 apertium_fradir=$(prefix)/share/apertium/$(BASENAME)/
-apertium_fra_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_fra_DATA=$(TARGETS_COMMON) $(LANG1).prob
+apertium_fra_DATA=$(TARGETS_COMMON) $(LANG1).prob \
+	$(BASENAME).$(LANG1).metadix \
+	$(BASENAME).$(LANG1).rlx \
+	$(BASENAME).post-$(LANG1).dix
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
 
-# Modes are not installed since they're all just "debug modes". All
-# modes are created by this goal.
-modes/$(LANG1)-morph.mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_fra_srcdir) || mkdir -p $(DESTDIR)$(apertium_fra_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).metadix $(DESTDIR)$(apertium_fra_srcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_fra_srcdir)
-	$(INSTALL_DATA) $(BASENAME).post-$(LANG1).dix $(DESTDIR)$(apertium_fra_srcdir)
 
 CLEANFILES = $(TARGETS_COMMON)
 clean-local:
