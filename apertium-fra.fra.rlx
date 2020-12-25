@@ -2345,6 +2345,9 @@ SELECT PP IF (0 A OR PP) (1 Adv) (2 ("par")) ;
 SELECT PP IF (-1 Ser) (-2 ("ne")) (0 A OR PP) (1 Que) (2 ("par")) ;
 # Les cours seront assurés par Michel Laine
 
+SELECT PP IF (-1 Ser) (0 ("mort") OR ("né")) ;
+SELECT PP IF (-2 Ser) (-1 Adv) (0 ("mort") OR ("né")) ;
+
 # V OR N
 
 REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
