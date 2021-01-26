@@ -226,6 +226,7 @@ LIST Mais = "mais" ;
 LIST Rose = "rose" ;
 LIST Roue = "roue" ;
 LIST Tout = "tout" ;
+LIST Vers = "vers" ;
 LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire#de" ;
 LIST Instrument = "piano" "violon" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette" ;
@@ -1080,6 +1081,10 @@ SELECT N IF (0 ("torse")) (1 ("nu")) ;
 SELECT A IF (0 Don) (1 Ant OR Cog OR unknownMajIni) ;
 REMOVE A IF (0 Don) ;
 SELECT Ant IF (-1 Don) ;
+
+REMOVE Pl_strict IF (0 Vers) (1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
+REMOVE Pl_strict IF (0 Vers) (-1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
+REMOVE Pl_strict IF (0 Vers) (1 ("de")) (2 Ant OR Cog OR unknownMajIni) ;
 
 REMOVE Fem_strict IF (-1 En) (0 Amazighe) (NOT 1 Fem_strict) ;
 REMOVE Fem_strict IF (-1/* Det + Def + Pl) (0 Amazighe) (NOT 1 Fem_strict) ;
