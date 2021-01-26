@@ -175,6 +175,7 @@ LIST Fratricide = "fratricide" ;
 LIST Régicide = "régicide" ;
 LIST Inceste = "inceste" ;
 LIST Parano = "parano" ;
+LIST Don = "don" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -1075,6 +1076,10 @@ SELECT Mf IF (0 Parano) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 SELECT N IF (0 ("torse")) (1 ("nu")) ;
+
+SELECT A IF (0 Don) (1 Ant OR Cog OR unknownMajIni) ;
+REMOVE A IF (0 Don) ;
+SELECT Ant IF (-1 Don) ;
 
 REMOVE Fem_strict IF (-1 En) (0 Amazighe) (NOT 1 Fem_strict) ;
 REMOVE Fem_strict IF (-1/* Det + Def + Pl) (0 Amazighe) (NOT 1 Fem_strict) ;
