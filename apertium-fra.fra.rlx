@@ -64,11 +64,14 @@ LIST Sg = sg sp ;
 LIST Pl = pl sp ;
 LIST Sp = sp ;
 LIST Sg_Pl = sg pl ;
+LIST M_F = m f ;
+
 SET MascSg = (m sg) OR (m sp) OR (mf sg) OR (mf sp) ;
 SET MascPl = (m pl) OR (m sp) OR (mf pl) OR (mf sp) ;
 SET FemSg = (f sg) OR (f sp) OR (mf sg) OR (mf sp) ;
 SET FemPl = (f pl) OR (f sp) OR (mf pl) OR (mf sp) ;
-LIST M_F = m f ;
+
+SET ConcordeSN = MascSg OR MascPl OR FemSg OR FemPl ;
 
 LIST P1 = p1 ;
 LIST P2 = p2 ;
@@ -76,12 +79,18 @@ LIST P3 = p3 ;
 LIST Pers = p1 p2 p3 ;
 LIST Sg1 = (p1 sg) ;
 LIST Sg2 = (p2 sg) ;
+LIST Sg3 = (p3 sg) ;
+LIST Pl1 = (p1 pl) ;
+LIST Pl2 = (p2 pl) ;
+LIST Pl3 = (p3 pl) ;
 LIST VSg1 = (vblex p1 sg) (vbser p1 sg) (vbhaver p1 sg) (vbmod p1 sg);
 LIST VSg2 = (vblex p2 sg) (vbser p2 sg) (vbhaver p2 sg) (vbmod p2 sg);
 LIST VSg3 = (vblex p3 sg) (vbser p3 sg) (vbhaver p3 sg) (vbmod p3 sg);
 LIST VPl1 = (vblex p1 pl) (vbser p1 pl) (vbhaver p1 pl) (vbmod p1 pl);
 LIST VPl2 = (vblex p2 pl) (vbser p2 pl) (vbhaver p2 pl) (vbmod p2 pl);
 LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
+
+SET ConcordeSV = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
 
 LIST Fin = pri prs pii ifi pis cni imp ;
 LIST Fin_non_Imp = pri prs pii ifi pis cni ;
@@ -717,6 +726,10 @@ SELECT Pri IF (-2C Pri) (-1 CnjCoo) (0 Prs) (0 Pri) ; # il revoit et corrige
 SELECT Prs IF (-2C Prs) (-1 CnjCoo) (0 Prs) (0 Pri) ;
 SELECT Pri IF (2C Pri) (1 CnjCoo) (0 Prs) (0 Pri) ; # il corrige et revoit
 SELECT Prs IF (2C Prs) (1 CnjCoo) (0 Prs) (0 Pri) ;
+
+REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + &&ConcordeSV) (-1* Pri + &&ConcordeSV) ;	# ne marche pas
+REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Sg) (-1* Pri + P3 + Sg) ;
+REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Pl) (-1* Pri + P3 + Pl) ;		# Les deux juristes constatent que le Brexit a engendré la plus grande perte de droits pour l’ensemble des citoyens européens et *proposent* des solutions
 
 REMOVE Ifi (0 Pri) (1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ; # L'église subit actuellement des travaux
 REMOVE Ifi (0 Pri) (-1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ;
