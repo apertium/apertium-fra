@@ -142,6 +142,7 @@ LIST Plus = "plus" ;
 LIST Moins = "moins" ;
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
+LIST Comme = "comme" ;
 
 # noms communs avec des sens différents selon le genre
 LIST Tour = "tour" ;
@@ -1235,6 +1236,8 @@ REMOVE P2 IF (-1C A + FemSg) (0 N + FemSg OR Verb + P2) ;
 REMOVE P2 IF (-1C A + MascPl) (0 N + MascPl OR Verb + P2) ;
 REMOVE P2 IF (-1C A + FemPl) (0 N + FemPl OR Verb + P2) ;
 
+SELECT Prep IF (0 Comme) (1 N) ;		# il parle comme président
+SELECT Prep IF (0 Comme) (1 A) (2 N) ;		# il parle comme ancien président
 
 SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
   ## l'ancien président
