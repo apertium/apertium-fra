@@ -1096,6 +1096,8 @@ SELECT A IF (0 Don) (1 Ant OR Cog OR unknownMajIni) ;
 REMOVE A IF (0 Don) ;
 SELECT Ant IF (-1 Don) ;
 
+SELECT Prep IF (0 ("<Sans>")) (1 N OR Inf) ;	# Sans surprise
+
 REMOVE Pl_strict IF (0 Vers) (1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
 REMOVE Pl_strict IF (0 Vers) (-1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
 REMOVE Pl_strict IF (0 Vers) (1 ("de")) (2 Ant OR Cog OR unknownMajIni) ;
