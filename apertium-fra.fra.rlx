@@ -1504,8 +1504,12 @@ SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 Il) (2 Adv) (3 Adv) (4 PP) ;
 
 SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);
   ## parce que nous parlons
+SELECT Tn IF (-1 VPl1) (-1 (META:/-/r)) (0 Nous) ;
+  ## sommes-nous
 SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);
   ## parce que vous parlez
+SELECT Tn IF (-1 VPl2) (-1 (META:/-/r)) (0 Vous) ;
+  ## êtes-vous
 
 SELECT PP IF (-1 Haver) (0 PP) ;
   ## Vous avez dit
