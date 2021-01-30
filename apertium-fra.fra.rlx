@@ -2152,6 +2152,7 @@ SELECT Det IF (0 DetInd + FemPl) (1 Adv_PreAdv) (2 A + FemPl) (3 N + FemPl) ;
 
 SELECT Num IF (-1 ("numéro")) (0 Un);
 REMOVE Num IF (NOT -1 ("numéro")) (0 Un);
+REMOVE Det IF (0 Un) (1C Prn) ;		# une nous saute aux yeux
 
 REMOVE Det IF (-1 Noun_Adj + MascSg) (0 DetInd + MascSg) (NOT 1 Noun_Adj + MascSg) ;
 REMOVE Det IF (-1 Noun_Adj + FemSg) (0 DetInd + FemSg) (NOT 1 Noun_Adj + FemSg) ;
