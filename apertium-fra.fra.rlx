@@ -948,8 +948,18 @@ SELECT Prn IF (0 ("ce")) (1C Prn) ;		# sur ce je vous dis bonjour
 SELECT Prn IF (0 ("ce")) (1C Prep OR CnjAdv) ;	# et ce malgré le...
 SELECT Prn IF (0 ("ce")) (1 ("que") OR ("qui")) ;
 
+REMOVE PreDet IF (NOT 1 Det) ;
+REMOVE PreDet IF (0 PreDet + &&ConcordeSN) (NOT 1 Det + &&ConcordeSN) ;
+SELECT PreDet IF (0 PreDet + &&ConcordeSN) (1 Det + &&ConcordeSN) ;
+
+SELECT MascSg IF (-2 PreDet + MascSg) (-1 Det + MascSg) (0 N + MascSg) ;	# sur tout l'automne
+SELECT FemSg IF (-2 PreDet + FemSg) (-1 Det + FemSg) (0 N + FemSg) ;
+SELECT MascPl IF (-2 PreDet + MascPl) (-1 Det + MascPl) (0 N + MascPl) ;
+SELECT FemPl IF (-2 PreDet + FemPl) (-1 Det + FemPl) (0 N + FemPl) ;
+
 SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
   ## . Tous les Etats
+SELECT N IF (-2 Tout) (-1 ("ou")) (0 ("<partie>"i)) ;
 
 SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
 REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
