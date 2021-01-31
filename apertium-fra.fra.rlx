@@ -308,10 +308,18 @@ SELECT Ant IF (-1C Ant) (0 Ant) (-1 (META:/-/r)) ;
 SELECT Cog IF (0 Cog) (1C Cog) (0 (META:/-/r)) ;
 SELECT Cog IF (-1C Cog) (0 Cog) (-1 (META:/-/r)) ;
 SELECT Cog IF (0 Cog OR Ant) (-1C Ant) (NOT 1 Cog) ;
+
+SELECT Top IF (-2 Ant) (-1 De) ;	# Louis de Lorraine
+SELECT Ant IF (1 De) (2 Top) ;		# Michel de Lorraine
+SELECT Top IF (1C Top) (0 (META:/-/r)) ;
+SELECT Top IF (-1C Top) (-1 (META:/-/r)) ;
+
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
 SELECT Ant IF (0C Ant OR Cog) (1 Ant) (0 (META:/-/r)) ;				# Charles-Michel
 SELECT Cog IF (0C Ant OR Cog) (1 Cog) (0 (META:/-/r)) ;	
 SELECT Ant IF (NOT -1 Ant) (0C Ant OR Cog) (1 Cog) (NOT 0 (META:/-/r)) ;	# Albin Michel; Claude Étienne Michel
+SELECT Masc_strict IF (-2 Det + Def + MascSg) (-1 Noun_Adj + MascSg) (0C Ant) ;	# l'empereur Claude
+SELECT Fem_strict IF (-2 Det + Def + FemSg) (-1 Noun_Adj + FemSg) (0C Ant) ;	# la belle Claude
 SELECT Masc_strict IF (0 Ant + Masc_strict) (1C Ant + Masc_strict) ;
 SELECT Fem_strict IF (0 Ant + Fem_strict) (1C Ant + Fem_strict) ;
 SELECT Masc_strict IF (-1C Ant + Masc_strict) (0 Ant + Masc_strict) ;
