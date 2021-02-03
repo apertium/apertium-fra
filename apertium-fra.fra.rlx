@@ -2310,8 +2310,10 @@ REMOVE A OR PP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + FemPl LINK 
 
 ## jóvenes inteligentes (jóvenes > n)
 ## jóvenes encapuchadas (jóvenes > n)
-## abisenios inteligentes (jóvenes > n)
 ## escrito largo (escrito > n)
+
+REMOVE N IF (-3 N + &&ConcordeSN OR CM) (-2C Adj_PP + &&ConcordeSN) (-1 CnjCoo) (0 Noun_Adj + &&ConcordeSN) (NOT 0 Trencat) ;	# flux énorme et malin venu de
+REMOVE N IF (-3 N + &&ConcordeSN OR CM) (-2C Adj_PP + &&ConcordeSN) (-1 CM) (0 Noun_Adj + &&ConcordeSN) (NOT 0 Trencat) (1 CnjCoo) ;	# flux énorme, malin et
 
 REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + MascSg LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascSg) ;
 REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + MascPl LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascPl) ;
