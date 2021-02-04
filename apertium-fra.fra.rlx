@@ -571,6 +571,8 @@ SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 A) (3 N) ;
 SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 PreDet OR PreAdv OR Adv) (3 A) (4 N) ;
   ## Elle a un tout petit secret
   ## Elle a un très petit secret
+SELECT V IF (0 Avoir) (1C Prep) ;
+SELECT V IF (0 Avoir) (1 ("pour")) ;
 
 SELECT V IF (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (2 ("de")) ;
 SELECT V IF (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (3 ("de")) ;
@@ -1952,8 +1954,7 @@ REMOVE Adv IF (-1C Det + MascPl) (0C N + MascPl OR Adv) (NOT 0 ("plus") OR ("moi
 REMOVE Adv IF (-1C Det + FemPl) (0C N + FemPl OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
   ## par l'ensemble des
 
-SELECT N IF (-1C V) (0C N OR PP) (1 Prep) ;
-  ## porter plainte contre
+SELECT N IF (-1C V) (0C N OR PP) (1 Prep) ; ## porter plainte contre
 
 SELECT N IF (-1 Det + MascSg) (0 N + MascSg LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
 SELECT N IF (-1 Det + FemSg) (0 N + FemSg LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
