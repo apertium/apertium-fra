@@ -1021,7 +1021,8 @@ SELECT Adv IF (0 ("pour commencer")) (1 Cm) ;
 SELECT Adv IF (0 ("pour commencer")) (1 Tn) ;
 REMOVE Adv IF (0 ("pour commencer")) ;
 
-SELECT N IF (0 ("relation") + FemSg) (1 A + FemSg) ;	# et relations amoureuses
+SELECT N IF (0 ("relation") + FemPl) (1 A + FemPl) ;	# et relations amoureuses
+SELECT N IF (-1 Det + FemPl) (0 ("relation") + FemPl) ;	# les relations
 
 SELECT N IF (0 ("frère")) (1 Ant OR unknownMajIni) ;		# frère Jean
 SELECT N IF (0 ("sœur")) (1 Ant OR unknownMajIni) ;		# sœur Meredith
