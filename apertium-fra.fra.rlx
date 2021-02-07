@@ -77,12 +77,12 @@ LIST P1 = p1 ;
 LIST P2 = p2 ;
 LIST P3 = p3 ;
 LIST Pers = p1 p2 p3 ;
-LIST Sg1 = (p1 sg) ;
-LIST Sg2 = (p2 sg) ;
-LIST Sg3 = (p3 sg) ;
-LIST Pl1 = (p1 pl) ;
-LIST Pl2 = (p2 pl) ;
-LIST Pl3 = (p3 pl) ;
+SET Sg1 = (p1 sg) OR (p1 m sg) OR (p1 f sg) OR (p1 mf sg) ;
+SET Sg2 = (p2 sg) OR (p2 m sg) OR (p2 f sg) OR (p2 mf sg) ;
+SET Sg3 = (p3 sg) OR (p3 m sg) OR (p3 f sg) OR (p3 mf sg) ;
+SET Pl1 = (p1 pl) OR (p1 m pl) OR (p1 f pl) OR (p1 mf pl) ;
+SET Pl2 = (p2 pl) OR (p2 m pl) OR (p2 f pl) OR (p2 mf pl) ;
+SET Pl3 = (p3 pl) OR (p3 m pl) OR (p3 f pl) OR (p3 mf pl) ;
 LIST VSg1 = (vblex p1 sg) (vbser p1 sg) (vbhaver p1 sg) (vbmod p1 sg);
 LIST VSg2 = (vblex p2 sg) (vbser p2 sg) (vbhaver p2 sg) (vbmod p2 sg);
 LIST VSg3 = (vblex p3 sg) (vbser p3 sg) (vbhaver p3 sg) (vbmod p3 sg);
@@ -587,7 +587,6 @@ SELECT V IF (NOT -1 ("y")) (0 Avoir) (1 Adv) (2 ("rien")) (NOT 3 PP) ;		# n'a to
 
 REMOVE N IF (-1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
-  ## As-tu vu Jean ?
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
   ## n'ont pas vu, n'ont jamais vu
 
@@ -741,9 +740,9 @@ SELECT Prs IF (-2C Prs) (-1 CnjCoo) (0 Prs) (0 Pri) ;
 SELECT Pri IF (2C Pri) (1 CnjCoo) (0 Prs) (0 Pri) ; # il corrige et revoit
 SELECT Prs IF (2C Prs) (1 CnjCoo) (0 Prs) (0 Pri) ;
 
-REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + &&ConcordeSV) (-1* Pri + &&ConcordeSV) ;	# ne marche pas
-REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Sg) (-1* Pri + P3 + Sg) ;
-REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Pl) (-1* Pri + P3 + Pl) ;		# Les deux juristes constatent que le Brexit a engendré la plus grande perte de droits pour l’ensemble des citoyens européens et *proposent* des solutions
+REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + &&ConcordeSV) (-1* Pri + &&ConcordeSV) ;	# Les deux juristes constatent que le Brexit a engendré la plus grande perte de droits pour l’ensemble des citoyens européens et *proposent* des solutions
+#REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Sg) (-1* Pri + P3 + Sg) ;
+#REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Pl) (-1* Pri + P3 + Pl) ;		# Les deux juristes constatent que le Brexit a engendré la plus grande perte de droits pour l’ensemble des citoyens européens et *proposent* des solutions
 
 REMOVE Ifi (0 Pri) (1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ; # L'église subit actuellement des travaux
 REMOVE Ifi (0 Pri) (-1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ;
@@ -1527,14 +1526,16 @@ SELECT Haver IF (0 Haver + VPl1) (0 (META:/-/r)) (1 Nous) (2 Adv) (3 Adv) (4 PP)
 SELECT Haver IF (0 Haver + VPl2) (0 (META:/-/r)) (1 Vous) (2 Adv) (3 Adv) (4 PP) ;
 SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 Il) (2 Adv) (3 Adv) (4 PP) ;
 
-SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);
-  ## parce que nous parlons
-SELECT Tn IF (-1 VPl1) (-1 (META:/-/r)) (0 Nous) ;
-  ## sommes-nous
-SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);
-  ## parce que vous parlez
-SELECT Tn IF (-1 VPl2) (-1 (META:/-/r)) (0 Vous) ;
-  ## êtes-vous
+SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);		# parce que nous parlons
+SELECT Tn IF (-1 VPl1) (-1 (META:/-/r)) (0 Nous) ;	# sommes-nous
+#SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl1) (0/* Nous) ;	# mangeons-nous ; mais : réjouissons-nous
+#SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl1) (0/* Nous) ;
+
+SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);		# parce que vous parlez
+SELECT Tn IF (-1 VPl2) (-1 (META:/-/r)) (0 Vous) ;	# êtes-vous
+#SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl2) (0/* Vous) ;	# mangez-vous ; mais : réjouissez-vous
+
+SELECT Tn IF (-1 VSg2) (-1 (META:/-/r)) (0 Tu) ;	# as-tu
 
 SELECT PP IF (-1 Haver) (0 PP) ;
   ## Vous avez dit
@@ -1625,6 +1626,11 @@ SELECT PP IF (-2 Ne) (-1 Ser) (0 PP) (1 Que) ;
   ## n'est accordé qu'aux entreprises
 SELECT PP IF (-3 Ne) (-2 Adv) (-1 Ser) (0 PP) (1 Que) ;
   ## n'est plus accordé qu'aux entreprises
+
+SELECT PP IF (-4 Haver + &&ConcordeSV) (-3 CM) (-2 Tn + &&ConcordeSV) (-1 CM) (0 PP) ;	# a, lui, dit
+SELECT Haver IF (0 Haver + &&ConcordeSV) (1 CM) (2 Tn + &&ConcordeSV) (3 CM) (4 PP) ;	# a, lui, dit
+SELECT PP IF (-5 ("se")) (-4 Ser + &&ConcordeSV) (-3 CM) (-2 Tn + &&ConcordeSV + &&ConcordeSN) (-1 CM) (0 PP + &&ConcordeSN) ;	# s'est, lui, dit
+SELECT Ser IF (-1 ("se")) (0 Ser + &&ConcordeSV) (1 CM) (2 Tn + &&ConcordeSV + &&ConcordeSN) (3 CM) (4 PP + &&ConcordeSN) ;	# s'est, lui, dit
 
 SELECT Masc IF (-1 Haver) (0 PP + M_F) ;
   ## Vous avez pu
