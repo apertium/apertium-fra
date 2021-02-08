@@ -875,6 +875,8 @@ REMOVE N IF (0 ("pousse")) (1 ("à")) (2 Inf OR unknown) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 ("guerre")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 Det) (3 ("journal")) ;
 SELECT N IF (0 Correspondant) (1 ("de")) (2 NP OR unknown) ;
+SELECT N IF (0 Correspondant) (1 ("à") OR ("en")) (2 Top OR unknownMajIni) ;
+SELECT N IF (0 Correspondant) (1 ("à")) (2 Det + Def) (2 Top OR unknownMajIni) ;
 
 REMOVE ("franc") IF (0C N) (0 ("Franc_peuple")) ;
 REMOVE ("franc") IF (0C A) (0 ("franc_peuple")) ;
