@@ -685,7 +685,8 @@ REMOVE Subjunc (-1 Tn OR ("on")) (0 Verb) (1 Que + CnjSub) ;
 	# on considère que
 REMOVE Subjunc (-2 Tn OR ("on")) (-1 Pro) (0 Verb) (1 Que + CnjSub) ;
 REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("bien que") OR ("avant que") OR ("après que")) (0 Verb) ;
-REMOVE Subjunc (*-1 Que + Rel OR Qui + Rel BARRIER Verb) (0 Verb) ;
+SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End LINK -1 ("sans")) (0C Verb) ;	# sans que le verdict change
+REMOVE Subjunc (*-1 Que + Rel OR Qui + Rel BARRIER Verb LINK NOT -1 ("sans")) (0 Verb) ;
   ## Cette règle a des exceptions: La peur que cette rencontre *change* la face du monde préoccupe l'Europe
 #REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que") CBARRIER Ind) (0 Verb) ;
   ## Avant qu'il ne vienne chez nous, Stephen Hillenburg refuse plusieurs propositions
