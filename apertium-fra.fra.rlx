@@ -846,6 +846,7 @@ REMOVE CnjAdv IF (-1 Verb) (0 Plus OR Moins) ;
 #REMOVE CnjAdv IF (-3 Ne) (-2 Pro) (-1 Verb) (0 Plus) ;
 #REMOVE CnjAdv IF (-3 Ne) (-2 Adv) (-1 Verb) (0 Plus) ;
 REMOVE CnjAdv IF (-1C Prep) ;
+SELECT A OR Adv IF (-1 Plus OR Moins) (1 Que) ;
 
 SELECT N IF (0 ("président")) (1 ("de")) ;
 
@@ -1281,6 +1282,7 @@ REMOVE P2 IF (-1C A + FemPl) (0 N + FemPl OR Verb + P2) ;
 
 SELECT Prep IF (0 Comme) (1 N) ;		# il parle comme président
 SELECT Prep IF (0 Comme) (1 A) (2 N) ;		# il parle comme ancien président
+REMOVE Adv (0 Comme) (1 (":")) ;
 
 SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
   ## l'ancien président
@@ -1784,6 +1786,7 @@ SELECT CnjAdv IF (0 Si) (1 ("jamais")) ;
 SELECT N IF (0 Fort) (1 MajIni OR unknownMajIni) ;
 REMOVE N IF (-1 N + MascSg) (0 Fort + MascSg) ;
 REMOVE N IF (-1 N + MascPl) (0 Fort + MascPl) ;
+REMOVE Adv IF (NOT -1 Verb) (0 Fort) ;
 
 SELECT A IF (-1 ("devenir")) (NOT 1 A) ;
 SELECT A IF (-2 ("devenir")) (-1 Adv_PreAdv) (NOT 1 A) ;
@@ -1901,8 +1904,9 @@ REMOVE PreAdv IF (-1 V) (0 Adv OR PreAdv) (1 Det) (2 N) ;
   ## ils ne savaient pas bien leur rôle
 REMOVE PreAdv IF (-2 V) (-1 ("pas")) (0 Adv OR PreAdv) (1 Det) (2 N) ;
   ## ils savaient bien leur rôle
-REMOVE PreAdv IF (NOT 1 A OR PP OR Adv) ;
+REMOVE PreAdv IF (NOT 1 A OR PP OR Adv OR PreAdv) ;
   ## le bien et le mal
+  ## fort peu peuplé
 
 SELECT PreAdv IF (0C Adv_PreAdv) (1 A OR PP OR Adv);
 REMOVE N IF (-1 PreAdv) (0 A OR PP OR N);
