@@ -455,6 +455,12 @@ SELECT Ser IF (0 Est) (1 NP) ;
 SELECT Ser IF (0 Est) (1 unknown) ;
 SELECT Ser IF (NOT -1 DetDef OR ("limite") OR ("frontière") OR ("face") OR ("façade") OR ("côte") OR ("côté")) (0 Est) (NOT 0 MajIni) ;
 
+REMOVE Verb IF (NOT -2 Haver) (NOT -1 Haver) (0 ("parfaire") + PP) ; 
+REMOVE Verb IF (-2 Haver) (NOT -1 Adv_PreAdv) (0 ("parfaire") + PP) ; 
+#REMOVE Verb + Pers IF (-1C* Verb + Pers BARRIER CnjAdv OR CnjSub OR Rel) ;	# ne marche pas du tout
+#REMOVE Verb + Pers IF (1C* Verb + Pers) ;					# ne marche pas du tout
+REMOVE Verb + P3 IF (NOT -1 ("il")) (0 ("parfait")) ; 		# Provisionnel !!!
+
 SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
   ## Ils n'ont pas pu jouer dehors.
 
