@@ -44,6 +44,8 @@ LIST N = n ;
 LIST N_Adj = n adj ;
 LIST NP = np ;
 LIST Pref = pref ;
+LIST Lpar = lpar ;
+LIST Rpar = rpar ;
 
 LIST Rel = rel ;
 LIST Interj = ij ;
@@ -108,8 +110,9 @@ LIST PP = pp ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
-LIST MajIni = ("\\<[A-ZÀÁÈÉÍÒÓÚÜÇ].*\\>"r) ;
+LIST MajIni = ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÚÜÛÇ].*\\>"r) ;
 LIST Majusc = ("\\<[A-ZÉÈÊ][A-ZÂÉÈÊÎÔÛ]*>"r) ;
+LIST MinIni = ("\\<[a-zàáäâèéëêíïîòóöôúüûç].*\\>"r) ;
 LIST ConsInitiale = ("\\<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r) ;
 LIST NumOrd = "[1-9][0-9]*ème"r ;
 
@@ -334,6 +337,15 @@ SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
 SELECT Ant IF (0 ("Luther")) (1 Cog OR unknownMajIni) ;
 SELECT Cog IF (0 ("Luther")) (NOT 1 Cog OR unknownMajIni) ;
 
+SELECT Masc_strict IF (0 ("Antigone")) (1 ("le")) (2 ("borgne")) ;
+SELECT Masc_strict IF (0 ("Antigone")) (1 ("\\<[IXV]>"r)) ;
+SELECT Fem_strict IF (0 ("Antigone")) ;
+SELECT Fem_strict IF (0 ("Andromaque")) ;
+
+SELECT Masc_strict IF (0 ("Cassandre")) (1* ("Macédoine") OR ("Roxanne") OR ("Alexandre") OR ("Antipater") OR ("Ptolémée") OR ("roi") + Masc OR ("diadoque")) ;
+SELECT Masc_strict IF (0 ("Cassandre")) (-1* ("Macédoine") OR ("Roxanne") OR ("Alexandre") OR ("Antipater") OR ("Ptolémée") OR ("roi") + Masc OR ("diadoque")) ;
+SELECT Fem_strict IF (0 ("Cassandre")) ;
+
 REMOVE Ant IF (-1 ("banque")) (NOT 1 Cog OR Ant) ;
 
 SELECT Top IF (-2C Ant) (-1 ("<de>")) (0C Cog OR Ant OR Top) ;
@@ -378,6 +390,7 @@ REMOVE NP IF (NOT 1 Ant OR unknownMajIni) (0 ("Français")) ;
 REMOVE NP IF (0 ("carrière")) (1 ("universitaire")) ;
 REMOVE NP IF (0 ("détroit")) (1 ("de")) ;
 REMOVE NP IF (-1 ("empire")) (0 ("romain")) ;
+REMOVE NP IF (0 ("trente")) (1 ("an")) ;
 REMOVE A IF (-1 Det + Def) (0 ("internet")) ;
 REMOVE A IF (-1 Prep) (0 ("internet")) ;
 SELECT A IF (-1 N) (0 ("internet")) ;
@@ -1245,6 +1258,11 @@ SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1C Inf OR CnjSub) ;
 
 SELECT P3 (-1 N + MascSg) (0 ("causer") + P3 + Sg) (1 CnjSub) ;
 SELECT P3 (-2 N + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 ("causer") + P3 + Sg) (1 CnjSub) ;
+
+REMOVE Haver (NOT 1 PP OR CM) (NOT 2 PP) (NOT 3 PP) ;
+SELECT Prep (0 ("<A>")) (-1 MinIni) ;	# point A	(ce n'est pas de tout un pr ; provisionnel)
+SELECT Prep (0 ("<A>")) (-1 Num) ;	# 46A		(ce n'est pas de tout un pr ; provisionnel)
+SELECT Prep (0 ("<a>"i)) (1 Rpar) ;	# a)		(ce n'est pas de tout un pr ; provisionnel)
 
 REMOVE PP (-1 N + MascSg) (0 Verb + P3 + Sg) (1C Inf) ;
 REMOVE PP (-1 Ant OR Cog) (0 Verb + P3 + Sg) (1C Inf) ;
