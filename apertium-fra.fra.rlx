@@ -1069,6 +1069,9 @@ SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
 
 SELECT Prep IF (0 ("vers")) (1 Det) ;			# vers la fin
 
+SELECT SUB:1 Adv IF (0 ("d'après")) (1 CM OR EOS) ;
+REMOVE SUB:1 Adv IF (0 ("d'après")) (NOT 1 CM OR EOS) ;
+
 SELECT A IF (-1 DetDef + MascSg) (0 ("autre") + Sg) (1 N + MascSg) ;	# l'autre livre
 SELECT A IF (-1 DetDef + FemSg) (0 ("autre") + Sg) (1 N + FemSg) ;
 SELECT A IF (-1 DetDef + MascPl) (0 ("autre") + Pl) (1 N + MascPl) ;	# les autres livres
