@@ -1292,10 +1292,10 @@ REMOVE Fin IF (-3 Ser) (-2 Adv) (-1 Adv_PreAdv) (0C Noun_Adj_PP OR Verb + Fin) ;
 SELECT Verb IF (-1C Pro) (0C Noun_Adj_PP OR Verb) ;
   ## ce qui se passe pendant le
 
-SELECT N IF (NOT -1 Prn) (0 ("place")) (1 NP OR unknownMajIni) ;
-  ## place Saussure
+SELECT N IF (NOT -1 Prn) (0 ("place")) (1 NP OR unknownMajIni) ; # place Saussure
 SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
-  ## Aller :
+SELECT N IF (0 ("aller")) (1 ("retour")) ;
+SELECT N IF (0 ("aller")) (1 CnjCoo) (2 ("retour")) ;
 REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn);
   ## Groupe A, Taille 48, Série 1
   ## Pense-t-il
