@@ -887,6 +887,7 @@ SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 N + MascPl) (2 Adv) (1 A
 SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 N + FemPl) (2 Adv) (1 A + FemPl) ;
 SELECT Det IF (0 Son + MascSg) (1 unknown) ;
 SELECT Det IF (0 Son + MascSg) (1 ("frère")) ;
+SELECT Det IF (0 Son + MascSg) (1 NP + MascSg) ;	# son David
 
 SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
