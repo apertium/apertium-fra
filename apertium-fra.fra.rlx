@@ -1784,6 +1784,7 @@ REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);
 REMOVE Pro IF (0 En) (NOT 1 Verb OR Pro);
   ## sont en Inde
 REMOVE Pro IF (0 En) (1 ("cela"));
+REMOVE Pro IF (0 En) (1 ("équipe")) (2 De) ;
 REMOVE Pro IF (0 En) (1 Ger);
   ## en passant
 REMOVE Pro IF (0 En) (1 Pro) (2 Ger);
