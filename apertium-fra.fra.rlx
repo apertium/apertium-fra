@@ -2470,8 +2470,8 @@ SELECT PP IF (-2 Ser) (-1 Adv) (0 ("mort") OR ("né")) ;
 
 REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
 REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemSg) (2 N + FemSg) ;	# et ferme une dizaine de magasins
-REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascPl) (2 N + MascPl) ;
-REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemPl) (2 N + FemPl) ;
+REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascPl OR Num) (2 N + MascPl) ;
+REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + FemPl OR Num) (2 N + FemPl) ;
 
 REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<du>")) (2 N + Sg) ;
 REMOVE N IF (-1 CnjCoo) (0 V) (1 ("<des>")) (2 N + Pl) ;
