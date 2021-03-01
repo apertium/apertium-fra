@@ -144,6 +144,7 @@ LIST Vous = "vous" ;
 LIST Lui = "lui" ;
 LIST Leur = "leur" ;
 LIST Eux = "eux" ;
+LIST ToutLeMonde = "tout le monde" ;
 LIST En = "en" ;
 LIST Depuis = "depuis" ;
 LIST Pour = "pour" ;
@@ -1516,21 +1517,21 @@ SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);
   ## Tu ne lui en veux pas
 REMOVE P2 + Sg IF (NOT -1* Tu) (0 Verb + P2 + Sg) (NOT 0 Verb + P2 + Sg + Imper) ;
 
-SELECT P3 IF (-1 Il + Sg OR On) (0 VSg3);
+SELECT P3 IF (-1 Il + Sg OR On OR ToutLeMonde) (0 VSg3);
   ## Elle parle
 SELECT P3 IF (0 VSg3) (0 (META:/-/r)) (1 Il + Sg OR On) ;
   ## Dit-il
 SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
   ## Parle-t-elle
-SELECT P3 IF (-2 Il + Sg OR On) (-1 Ne) (0 VSg3);
+SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Ne) (0 VSg3);
   ## Elle ne parle pas
-SELECT P3 IF (-2 Il + Sg OR On) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Pro) (0 VSg3);
   ## Elle lui parle
-SELECT P3 IF (-3 Il + Sg OR On) (-2 Ne) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Ne) (-1 Pro) (0 VSg3);
   ## Elle ne lui parle pas
-SELECT P3 IF (-3 Il + Sg OR On) (-2 Pro) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle lui en parle
-SELECT P3 IF (-4 Il + Sg OR On) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
+SELECT P3 IF (-4 Il + Sg OR On OR ToutLeMonde) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
   ## Elle ne lui en parle pas
 SELECT P3 IF (-1 BOS OR Sent) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;
   ## Elle est mon chef
