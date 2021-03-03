@@ -2035,6 +2035,9 @@ SELECT N IF (-1 AdjInd + FemSg) (0 N + FemSg) (1C Barrera_Final_Estrict_SN OR An
 SELECT N IF (-1 AdjInd + MascPl) (0 N + MascPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 SELECT N IF (-1 AdjInd + FemPl) (0 N + FemPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 
+SELECT A IF (NOT -2 ("le")) (-1 ("un") + MascSg) (0 ("ferme") + MascSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;	# dont un [an] ferme
+SELECT A IF (NOT -2 ("le")) (-1 Num) (0 ("ferme") + MascPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) (-1* ("prison") OR ("condamner")) ;	# dont deux [ans] fermes
+
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg OR Num) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg OR Num) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl OR Num) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
