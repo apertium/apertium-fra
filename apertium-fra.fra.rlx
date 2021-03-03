@@ -150,6 +150,7 @@ LIST Depuis = "depuis" ;
 LIST Pour = "pour" ;
 LIST Pas = "pas" ;
 LIST Rien = "rien" ;
+LIST Sur = "sur" ;
 LIST Ne = "ne" ;
 LIST Aussi = "aussi" ;
 LIST Même = "même" ;
@@ -158,6 +159,8 @@ LIST Moins = "moins" ;
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
 LIST Comme = "comme" ;
+LIST Fondre = "fondre" ;
+LIST Fonder = "fonder" ;
 
 # noms communs avec des sens différents selon le genre
 LIST Tour = "tour" ;
@@ -1196,6 +1199,10 @@ REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 Det + Pl) (3 N + Pl) ;
 
 SELECT Adv IF (0 Depuis) (1 CM OR EOS) ;
 REMOVE Adv IF (0 Depuis) (1 ("de")) (2 N + Pl) ;
+
+REMOVE Fondre IF (0 Fondre) (0 Fonder) (1 Sur) ;
+REMOVE Fondre IF (0 Fondre) (0 Fonder) (1 Adv) (2 Sur) ;
+REMOVE Fondre IF (0 Fondre) (0 Fonder) (1 Adv) (2 Adv) (3 Sur) ;
 
 SELECT Enc IF (-1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
 REMOVE Enc IF (NOT -1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
