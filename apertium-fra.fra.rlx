@@ -1546,6 +1546,19 @@ SELECT P3 IF (-4 Il + Sg OR On OR ToutLeMonde) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3
 SELECT P3 IF (-1 BOS OR Sent) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;
   ## Elle est mon chef
 
+SELECT P3 IF (-2 EOS OR Cm) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
+SELECT P3 IF (-3 EOS OR Cm) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
+SELECT P3 IF (-3 EOS OR Cm) (-2 Ant OR Cog OR unknownMajIni) (-1 Pro) (0 VSg3);				# Jean lui parle
+SELECT P3 IF (-4 EOS OR Cm) (-3 Ant OR Cog OR unknownMajIni) (-2 Ne) (-1 Pro) (0 VSg3);			# Jean ne lui parle pas
+SELECT P3 IF (-4 EOS OR Cm) (-3 Ant OR Cog OR unknownMajIni) (-2 Pro) (-1 Pro) (0 VSg3);		# Jean lui en parle
+SELECT P3 IF (-5 EOS OR Cm) (-4 Ant OR Cog OR unknownMajIni) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);	# Jean ne lui en parle pas
+SELECT P3 IF (NOT -3 Prep) (-2 Ant) (-1 unknownMajIni) (0 VSg3);					# Jean Étrangeov parle
+SELECT P3 IF (NOT -4 Prep) (-3 Ant) (-2 unknownMajIni) (-1 Ne) (0 VSg3);				# Jean Étrangeov ne parle pas
+SELECT P3 IF (NOT -4 Prep) (-3 Ant) (-2 unknownMajIni) (-1 Pro) (0 VSg3);				# Jean Étrangeov lui parle
+SELECT P3 IF (NOT -5 Prep) (-4 Ant) (-3 unknownMajIni) (-2 Ne) (-1 Pro) (0 VSg3);			# Jean Étrangeov ne lui parle pas
+SELECT P3 IF (NOT -5 Prep) (-4 Ant) (-3 unknownMajIni) (-2 Pro) (-1 Pro) (0 VSg3);			# Jean Étrangeov lui en parle
+SELECT P3 IF (NOT -6 Prep) (-5 Ant) (-4 unknownMajIni) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);		# Jean Étrangeov ne lui en parle pas
+
 SELECT PP IF (-2 Haver + VSg1) (-2 (META:/-/r)) (-1 Je) ;	# Ai-je été
 SELECT PP IF (-2 Haver + VSg2) (-2 (META:/-/r)) (-1 Tu) ;
 SELECT PP IF (-2 Haver + VSg3) (-2 (META:/-/r)) (-1 Il OR On) ;
