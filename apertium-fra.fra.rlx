@@ -6,8 +6,8 @@ SUBREADINGS = LTR ; # Alternate, left-to-right (main reading on the left)
 
 SETS
 
-LIST BOS = >>> ;
-LIST EOS = <<< ;
+LIST BOS = >>> sent;
+LIST EOS = <<< sent;
 
 LIST Verb = vblex vbser vbhaver vbmod ;
 LIST V = vblex ;
@@ -388,6 +388,8 @@ REMOVE Ant_Cog IF (-1 Num) (0 Noun_Adj + Pl) ;
 
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+REMOVE NP + Sg_strict OR Cog IF (-1 BOS) (0 Pl) (1C Verb + Pl) ;		# Tous ont mangé
+REMOVE NP + Pl_strict IF (-1 BOS) (0 Sg) (1C Verb + Sg) ;
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
 REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
 REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
