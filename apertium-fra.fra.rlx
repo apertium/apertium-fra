@@ -1169,6 +1169,15 @@ SELECT A IF (0 Don) (1 Ant OR Cog OR unknownMajIni) ;
 REMOVE A IF (0 Don) ;
 SELECT Ant IF (-1 Don) ;
 
+SELECT N (-1 ("catégorie") OR ("section") OR ("équipe") OR ("champion")) (0 ("cadet")) ;
+SELECT N (-1 ("foot") OR ("football") OR ("basketball") OR ("basket") OR ("volleyball") OR ("volley") OR ("handball") OR ("hockey")) (0 ("cadet")) ;
+SELECT N (-1 ("officier")) (0 ("cadet")) ;
+SELECT N (0 ("cadet")) (1 ("chef")) ;
+SELECT N (0 ("cadet")) (1 ("féminin")) ;
+SELECT N (-1 Ser) (0 ("cadet")) ;
+SELECT N (-2 Ser) (-1 Adv) (0 ("cadet")) ;
+SELECT Cog (-1 ("cadet")) ;		# le cadet Guillaume
+
 SELECT Prep IF (0 ("<Sans>")) (1 N OR Inf) ;	# Sans surprise
 
 REMOVE Pl_strict IF (0 Vers) (1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
