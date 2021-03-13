@@ -541,6 +541,8 @@ SELECT N IF (-1 ("de")) (0C Est) ;
 REMOVE N IF (0 ("<Nouvelle>")) (1 NP OR unknown) ;
 REMOVE V IF (0 Est) (1 CnjCoo) (2 Ouest) ;
 
+SELECT A IF (-2 Ant + &&ConcordeSN) (-1 Det + Def + &&ConcordeSN) (0 A + MajIni + &&ConcordeSN) ;	# Guillaume le Jeune
+
 #SELECT N IF (-1/* Det) (0C N OR A) (0 Title) (NOT 0 ("grand") OR ("premier") OR ("segonde") OR ("saint")) ;
 SELECT N IF (-1/* Det + MascSg) (0C N OR A) (0 N + MascSg) (0 Title) (NOT 0 AdjPre OR AdjOrd) ;
 SELECT N IF (-1/* Det + FemSg) (0C N OR A) (0 N + FemSg) (0 Title) (NOT 0 AdjPre OR AdjOrd) ;
