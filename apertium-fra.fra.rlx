@@ -374,6 +374,8 @@ SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR (
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 
+SELECT N IF (0 ("<Point>"));
+
 REMOVE NP IF (-1 ("1er")) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
 REMOVE NP IF (-1 Num) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
 
@@ -1922,6 +1924,8 @@ REMOVE Adv IF (-1/* Det) (0 Point) ;	# au point
 REMOVE Adv IF (-1 Prep) (0 Point) ;	# au point
 REMOVE Adv IF (-1 ("tel")) (0 Point) ;	# à tel point
 REMOVE Adv IF (-1 unknownMajIni) (0 ("<Point>")) ;	# Peace Point (ou d'autres noms de lieux américains)
+REMOVE PP IF (0 Point) (1 A) ;	# point fixe
+REMOVE PP IF (-1/* Det) (0 Point) ;
 
 REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
@@ -2183,6 +2187,7 @@ SELECT A IF (-2 Det + MascSg) (-1 N + MascSg) (0 ("suivant")) ;
 SELECT A IF (-2 Det + MascPl) (-1 N + MascPl) (0 ("suivant")) ;
 SELECT A IF (-2 Det + FemSg) (-1 N + FemSg) (0 ("suivant")) ;
 SELECT A IF (-2 Det + FemPl) (-1 N + FemPl) (0 ("suivant")) ;
+SELECT A IF (-1 Noun_Adj) (0 ("suivant")) (1 (":")) ;
 
 REMOVE Ger IF (-1 BOS) (0 Prep OR Ger) ;
   ## Suivant le besoin
@@ -2483,6 +2488,10 @@ SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + MascPl) (-1C Adv) (0 A + MascPl LI
 SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + FemPl) (-1C Adv) (0 A + FemPl LINK NOT 0 Det) ;
 # ". Civiles étnicamente croatas"
 
+# NOM DE NOM ADJ
+
+SELECT A OR PP IF (-3 N + &&ConcordeSN) (-2 De) (-1C N) (0 Adj_PP + &&ConcordeSN) (NOT 0 Verb + P3) (1 Barrera_Final_SN) ;	# barème de points suivant :
+
 # A OR PP
 
 #SELECT PP IF (-1 Ser) (0 A OR PP) (1 ("par")) ;
@@ -2510,8 +2519,8 @@ REMOVE N IF (-2C V) (-1 CnjCoo) (0 V) ;
 REMOVE N IF (-3C V) (-2 Adv) (-1 CnjCoo) (0 V) ;	# ignore superbement ou juge tout autre usage
 
 SELECT N IF (-2 V) (-1 ("en")) (0 V) ;			# mettre en vente, faire en sorte, prendre en compte
-REMOVE N IF (NOT -1 A OR Det) (0 V) (1C Det) ;		# juge un autre usage
-REMOVE N IF (NOT -1 A OR Det) (0 V) (1 PreDet) ;	# juge tout autre usage
+REMOVE N IF (NOT -1/* A OR Det) (0 V) (1C Det) ;	# juge un autre usage
+REMOVE N IF (NOT -1/* A OR Det) (0 V) (1 PreDet) ;	# juge tout autre usage
 
 SELECT N IF (0 ("route")) (1 Num) ;	# route 28
 SELECT N IF (0 ("route")) (1 unknown) ;	# route N28
