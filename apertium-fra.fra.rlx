@@ -2193,6 +2193,8 @@ SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;			# en voyant son ca
 SELECT Ger IF (-1C Pro) (0C Ger OR Noun_Adj_PP) ;				# se rendant enfin à Naples
 REMOVE A IF (-1 BOS) (0 Ger) (1 Det) ;						# Fuyant les premières familles, 
 REMOVE Ger IF (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT -1 Pro) ;	# ce montant
+REMOVE Ger IF (-2 Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;	# son propre représentant
+REMOVE Ger IF (-3 Det + &&ConcordeSN) (-2 Adv_PreAdv) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;
 
 SELECT A IF (-2 Det + MascSg) (-1 N + MascSg) (0 ("suivant")) ;
 SELECT A IF (-2 Det + MascPl) (-1 N + MascPl) (0 ("suivant")) ;
