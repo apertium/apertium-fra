@@ -1290,7 +1290,6 @@ SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1C Inf OR CnjSub) ;
 SELECT P3 (-1 N + MascSg) (0 ("causer") + P3 + Sg) (1 CnjSub) ;
 SELECT P3 (-2 N + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 ("causer") + P3 + Sg) (1 CnjSub) ;
 
-REMOVE Haver (NOT 1 PP OR CM) (NOT 2 PP) (NOT 3 PP) ;
 SELECT Prep (0 ("<A>")) (-1 MinIni) ;	# point A	(ce n'est pas de tout un pr ; provisionnel)
 SELECT Prep (0 ("<A>")) (-1 Num) ;	# 46A		(ce n'est pas de tout un pr ; provisionnel)
 SELECT Prep (0 ("<a>"i)) (1 Rpar) ;	# a)		(ce n'est pas de tout un pr ; provisionnel)
@@ -1543,7 +1542,7 @@ SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);
   ## Tu ne lui en veux pas
 REMOVE P2 + Sg IF (NOT -1* Tu) (0 Verb + P2 + Sg) (NOT 0 Verb + P2 + Sg + Imper) ;
 
-SELECT P3 IF (-1 Il + Sg OR On OR ToutLeMonde) (0 VSg3);
+SELECT P3 IF (NOT -2 (META:/-/r)) (-1 Il + Sg OR On OR ToutLeMonde) (0 VSg3);
   ## Elle parle
 SELECT P3 IF (0 VSg3) (0 (META:/-/r)) (1 Il + Sg OR On) ;
   ## Dit-il
@@ -1611,6 +1610,8 @@ SELECT Haver IF (0 Haver + VSg3) (0 (META:/-/r)) (1 Il OR On) (2 Adv) (3 Adv) (4
 SELECT Haver IF (0 Haver + VPl1) (0 (META:/-/r)) (1 Nous) (2 Adv) (3 Adv) (4 PP) ;
 SELECT Haver IF (0 Haver + VPl2) (0 (META:/-/r)) (1 Vous) (2 Adv) (3 Adv) (4 PP) ;
 SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 Il) (2 Adv) (3 Adv) (4 PP) ;
+
+REMOVE Haver (NOT 1 PP OR CM) (NOT 2 PP) (NOT 3 PP) ;
 
 SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);		# parce que nous parlons
 SELECT Tn IF (-1 VPl1) (-1 (META:/-/r)) (0 Nous) ;	# sommes-nous
