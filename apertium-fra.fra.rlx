@@ -1617,6 +1617,7 @@ SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);		# parce que nous parlons
 SELECT Tn IF (-1 VPl1) (-1 (META:/-/r)) (0 Nous) ;	# sommes-nous
 #SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl1) (0/* Nous) ;	# mangeons-nous ; mais : réjouissons-nous
 #SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl1) (0/* Nous) ;
+SELECT VPl1 IF (-1C Nous + Tn) (0 VPl1);		# nous savons que
 
 SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);		# parce que vous parlez
 SELECT Tn IF (-1 VPl2) (-1 (META:/-/r)) (0 Vous) ;	# êtes-vous
