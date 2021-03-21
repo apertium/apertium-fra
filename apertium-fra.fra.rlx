@@ -2020,6 +2020,7 @@ SELECT A IF (0 A) (0 (META:/-/r)) (1 Top OR unknownMajIni) ;
   ## il va même jusqu'à donner
 
 SELECT Acr OR Al IF (0 Majusc) ;
+SELECT A IF (-1 ("place")) (0 ("rouge")) ;	# la place Rouge
 SELECT N IF (0 MajIni) (0C N OR A) (NOT -1 BOS OR MajIni OR Prep OR CnjCoo) (NOT 1 MajIni) ;
   ## ces ingrats d'Européens.
   ## l'Académie Rouge et Noire
