@@ -1845,8 +1845,10 @@ SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
 	  ## peu de joueurs.
 SELECT A IF (0 N OR A) (-1C Peu) (1C N) ;
 
-REMOVE A IF (-1 Num) (0C N OR A) (1 Prep) ;
+REMOVE Adj_PP IF (-1 Num) (0C N OR Adj_PP) (1 Prep) ;
 SELECT N IF (-1 Num) (0 ("seconde")) ;
+
+REMOVE Adj_PP IF (-1 ("quel") + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 N) ;	# Quelle portée pour...
 
 SELECT Interj IF (0 Helas) ;
   ## triem ser hélas com a interjecció
