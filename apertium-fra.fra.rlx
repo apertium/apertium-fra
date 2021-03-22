@@ -2424,20 +2424,11 @@ REMOVE A OR PP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + FemPl LINK 
 REMOVE N IF (-3 N + &&ConcordeSN OR CM) (-2C Adj_PP + &&ConcordeSN) (-1 CnjCoo) (0 Noun_Adj + &&ConcordeSN) (NOT 0 Trencat) ;	# flux énorme et malin venu de
 REMOVE N IF (-3 N + &&ConcordeSN OR CM) (-2C Adj_PP + &&ConcordeSN) (-1 CM) (0 Noun_Adj + &&ConcordeSN) (NOT 0 Trencat) (1 CnjCoo) ;	# flux énorme, malin et
 
-REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + MascSg LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascSg) ;
-REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + MascPl LINK 0 N OR NP) (NOT 0 Trencat) (1 Adj_PP + MascPl) ;
-REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + FemSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemSg) ;
-REMOVE A OR PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + FemPl LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemPl) ;
-REMOVE N IF (-2/* Det + MascSg OR Prep) (-1C N + MascSg) (0 Adj_PP + MascSg) ;
-REMOVE N IF (-2/* Det + MascPl OR Prep) (-1C N + MascPl) (0 Adj_PP + MascPl) ;
-REMOVE N IF (-2/* Det + FemSg OR Prep) (-1C N + FemSg) (0 Adj_PP + FemSg) ;
-REMOVE N IF (-2/* Det + FemPl OR Prep) (-1C N + FemPl) (0 Adj_PP + FemPl) ;
-# l'armée perse
-REMOVE N IF (-1C N + MascSg) (0C Noun_Adj + MascSg) ;
-REMOVE N IF (-1C N + MascPl) (0C Noun_Adj + MascPl) ;
-REMOVE N IF (-1C N + FemSg) (0C Noun_Adj + FemSg) ;
-REMOVE N IF (-1C N + FemPl) (0C Noun_Adj + FemPl) ;
-	# métaphore mystique
+REMOVE Adj_PP IF (NOT -1 N OR A OR PP OR Ser) (0 Noun_Adj + &&ConcordeSN LINK 0 N OR NP) (NOT 0 Trencat OR AdjPre) (1 Adj_PP + &&ConcordeSN) ;
+REMOVE A IF (-1/* Det + &&ConcordeSN OR Prep) (0 N + &&ConcordeSN) (NOT 0 Trencat OR AdjPre) (1 Adj_PP + &&ConcordeSN) ;	# la cité épiscopale
+REMOVE A IF (-1/* Det + &&ConcordeSN OR Prep) (0 N + &&ConcordeSN) (1 PreAdv) (2 Adj_PP + &&ConcordeSN) ;	# des critiques très positives
+REMOVE N IF (-2/* Det + &&ConcordeSN OR Prep) (-1C N + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) ;	# l'armée perse
+REMOVE N IF (-1C N + &&ConcordeSN) (0C Noun_Adj + &&ConcordeSN) ;	# métaphore mystique
 REMOVE A OR PP IF (-2/* Det + MascSg OR Prep) (-1C A + MascSg) (0 Noun_Adj + MascSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd OR Trencat) (1 Adj_PP + MascSg) ;
 REMOVE A OR PP IF (-2/* Det + MascPl OR Prep) (-1C A + MascPl) (0 Noun_Adj + MascPl LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd OR Trencat) (1 Adj_PP + MascPl) ;
 REMOVE A OR PP IF (-2/* Det + FemSg OR Prep) (-1C A + FemSg) (0 Noun_Adj + FemSg LINK 0 N OR NP) (NOT 0 AdjPre OR AdjOrd) (1 Adj_PP + FemSg) ;
