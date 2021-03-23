@@ -401,6 +401,7 @@ REMOVE NP IF (0 ("carrière")) (1 ("universitaire")) ;
 REMOVE NP IF (0 ("détroit")) (1 ("de")) ;
 REMOVE NP IF (-1 ("empire")) (0 ("romain")) ;
 REMOVE NP IF (0 ("trente")) (1 ("an")) ;
+REMOVE NP IF (-1 BOS OR Sent) (0 ("cela")) ;
 REMOVE A IF (-1 Det + Def) (0 ("internet")) ;
 REMOVE A IF (-1 Prep) (0 ("internet")) ;
 SELECT A IF (-1 N) (0 ("internet")) ;
