@@ -22,7 +22,6 @@ LIST Def = def ;
 LIST Pos = pos ;
 LIST Prep = pr ;
 LIST Subj = subj ;
-LIST Prop = np ;
 LIST A = adj ;
 LIST Adv = adv ;
 LIST PreAdv = preadv ;
@@ -412,10 +411,12 @@ REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
 	# des bones notes
 	# hors du commun haura lieu
 
-SELECT Prop IF (NOT -1 BOS) (0 Title) ;
+SELECT NP IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
 
 #REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB);
+
+REMOVE Prep IF (-1C PreAdv) ;	# très attendu
 
 REMOVE N IF (0 Fait) (-1 Il) ;
   ## Il fait beau aujourd'hui, il fait très chaud.
@@ -488,7 +489,7 @@ REMOVE Verb + P3 IF (NOT -1 ("il")) (0 ("parfait")) ; 		# Provisionnel !!!
 SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
   ## Ils n'ont pas pu jouer dehors.
 
-REMOVE Fin IF (0 Fin OR Prop) (0 Title) (1C Fin) ;
+REMOVE Fin IF (0 Fin OR NP) (0 Title) (1C Fin) ;
   ## Marie pense qu'elle a vu où Jean est allé
 REMOVE Fin IF (-1C V LINK NOT 0 PP) (0 Fin OR N OR A OR PP OR Det) ;
   ## tenir compte de
