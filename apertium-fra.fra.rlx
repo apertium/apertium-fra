@@ -1112,7 +1112,7 @@ SELECT N_Masc IF (NOT -1/* Fem_strict OR N) (0 Critique + Fem) (1 ("littéraire"
 SELECT N_Masc IF (NOT -1/* Fem_strict OR N) (0 Critique + Fem) (2 ("de")) (3 ("art")) ;
 SELECT N_Masc IF (NOT -1/* Fem OR N) (0 Critique + Fem) (1 CM OR CnjCoo) (2 ("écrivain") OR ("journaliste") OR ("essayiste") OR ("éditeur") OR ("réalisateur") OR ("musicien") OR ("interprète"));
 SELECT N_Masc IF (NOT 1 Fem) (0 Critique + Fem) (-1 CM OR CnjCoo) (-2 ("écrivain") OR ("journaliste") OR ("essayiste") OR ("éditeur") OR ("réalisateur") OR ("musicien") OR ("interprète"));
-SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Critique + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem OR V IF (NOT -1/* Masc_strict OR N) (0 Critique + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Marine + Masc) (NOT 1 Masc_strict) ;
 
@@ -2327,6 +2327,8 @@ SELECT Verb IF (-1 Ne) (0 Verb) ;
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Adv OR CnjAdv) (2 Pas) ;	# ne sort toutefois pas
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Que) ;			# ne dure que quatre jours
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Adv OR CnjAdv) (2 Que) ;
+
+REMOVE N IF (-1C Det OR Pro) (0C N OR Verb) (NOT 1 A) (-1 Det + &&ConcordeSN) (NOT 0 N + &&ConcordeSN) ;	# les critique / le lie
 
 # ADJ OR NOM
 SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;
