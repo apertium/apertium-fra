@@ -289,7 +289,7 @@ SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 # verbes qui peuvent avoir un attribut
 SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
-SET AdjOrd = ("premier") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
+SET AdjOrd = ("premier") OR ("prime") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
 # adjectifs qui souvent vont devant le nom
 SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") ;
 
