@@ -1326,7 +1326,7 @@ SELECT N IF (NOT -1 Prn) (0 ("place")) (1 NP OR unknownMajIni) ; # place Saussur
 SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
 SELECT N IF (0 ("aller")) (1 ("retour")) ;
 SELECT N IF (0 ("aller")) (1 CnjCoo) (2 ("retour")) ;
-REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn);
+REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn OR On);
   ## Groupe A, Taille 48, Série 1
   ## Pense-t-il
 SELECT N IF (-1 BOS OR Sent) (0C Noun_Adj_PP) (1C Prep OR Pour) ;
@@ -1511,58 +1511,41 @@ SELECT Pro IF (-2 Il + Pl) (-1 Ne) (0 Pro) (1 Pro) (2 VPl3);
   ## Elles ne vous en parlent pas
 
 
-SELECT P1 IF (-1 Je) (0 VSg1);
-  ## Je veux
-SELECT P1 IF (0 VSg1) (0 (META:/-/r)) (1 Je) ;
-  ## Veux-je
-SELECT P1 IF (-2 Je) (-1 Ne) (0 VSg1);
-  ## Je ne veux pas
-SELECT P1 IF (-2 Je) (-1 Pro) (0 VSg1);
-  ## Je lui veux
-SELECT P1 IF (-3 Je) (-2 Ne) (-1 Pro) (0 VSg1);
-  ## Je ne lui veux pas
-SELECT P1 IF (-3 Je) (-2 Pro) (-1 Pro) (0 VSg1);
-  ## Je lui en veux
-SELECT P1 IF (-4 Je) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg1);
-  ## Je ne lui en veux pas
+SELECT P1 IF (-1 Je) (0 VSg1);								# Je veux
+SELECT P1 IF (0 VSg1) (0 (META:/-/r)) (1 Je) ;				# Veux-je
+SELECT P1 IF (0 VSg1) (1 ("<-je>"i)) ;						# Veux-je
+SELECT P1 IF (-2 Je) (-1 Ne) (0 VSg1);						# Je ne veux pas
+SELECT P1 IF (-2 Je) (-1 Pro) (0 VSg1);						# Je lui veux
+SELECT P1 IF (-3 Je) (-2 Ne) (-1 Pro) (0 VSg1);				# Je ne lui veux pas
+SELECT P1 IF (-3 Je) (-2 Pro) (-1 Pro) (0 VSg1);			# Je lui en veux
+SELECT P1 IF (-4 Je) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg1);	# Je ne lui en veux pas
 REMOVE P1 + Sg IF (NOT -1* Je) (0 Verb + P1 + Sg) ;
 
-SELECT P2 IF (-1 Tu) (0 VSg2);
-  ## Tu veux
-SELECT P2 IF (0 VSg2) (0 (META:/-/r)) (1 Tu) ;
-  ## Veux-tu
-SELECT P2 IF (1 Tu) (0 VSg2);
-  ## Veux-tu
-SELECT P2 IF (-2 Tu) (-1 Ne) (0 VSg2);
-  ## Tu ne veux pas
-SELECT P2 IF (-2 Tu) (-1 Pro) (0 VSg2);
-  ## Tu lui veux
-SELECT P2 IF (-3 Tu) (-2 Ne) (-1 Pro) (0 VSg2);
-  ## Tu ne lui veux pas
-SELECT P2 IF (-3 Tu) (-2 Pro) (-1 Pro) (0 VSg2);
-  ## Tu lui en veux
-SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);
-  ## Tu ne lui en veux pas
+SELECT P2 IF (-1 Tu) (0 VSg2);								# Tu veux
+SELECT P2 IF (0 VSg2) (0 (META:/-/r)) (1 Tu) ;				# Veux-tu
+SELECT P2 IF (0 VSg2) (1 ("<-tu>"i)) ;						# Veux-tu
+SELECT P2 IF (1 Tu) (0 VSg2);								# Veux-tu
+SELECT P2 IF (-2 Tu) (-1 Ne) (0 VSg2);						# Tu ne veux pas
+SELECT P2 IF (-2 Tu) (-1 Pro) (0 VSg2);						# Tu lui veux
+SELECT P2 IF (-3 Tu) (-2 Ne) (-1 Pro) (0 VSg2);				# Tu ne lui veux pas
+SELECT P2 IF (-3 Tu) (-2 Pro) (-1 Pro) (0 VSg2);			# Tu lui en veux
+SELECT P2 IF (-4 Tu) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg2);	# Tu ne lui en veux pas
 REMOVE P2 + Sg IF (NOT -1* Tu) (0 Verb + P2 + Sg) (NOT 0 Verb + P2 + Sg + Imper) ;
 
-SELECT P3 IF (NOT -2 (META:/-/r)) (-1 Il + Sg OR On OR ToutLeMonde) (0 VSg3);
-  ## Elle parle
-SELECT P3 IF (0 VSg3) (0 (META:/-/r)) (1 Il + Sg OR On) ;
-  ## Dit-il
-SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);
-  ## Parle-t-elle
-SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Ne) (0 VSg3);
-  ## Elle ne parle pas
-SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Pro) (0 VSg3);
-  ## Elle lui parle
-SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Ne) (-1 Pro) (0 VSg3);
-  ## Elle ne lui parle pas
-SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Pro) (-1 Pro) (0 VSg3);
-  ## Elle lui en parle
-SELECT P3 IF (-4 Il + Sg OR On OR ToutLeMonde) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);
-  ## Elle ne lui en parle pas
-SELECT P3 IF (-1 BOS OR Sent) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;
-  ## Elle est mon chef
+SELECT P3 IF (NOT -2 (META:/-/r)) (-1 Il + Sg OR On OR ToutLeMonde) (0 VSg3);	# Elle parle
+SELECT P3 IF (0 VSg3) (0 (META:/-/r)) (1 Il + Sg OR On) ;						# Dit-il
+SELECT P3 IF (0 VSg3) (1 ("<-il>"i) OR ("<-t-il>"i)) ;							# Dit-il
+SELECT P3 IF (0 VSg3) (1 ("<-elle>"i) OR ("<-t-elle>"i)) ;						# Dit-elle
+SELECT P3 IF (0 VSg3) (1 ("<-on>"i) OR ("<-t-on>"i)) ;							# Dit-on
+SELECT P3 IF (0 VPl3) (1 ("<-ils>"i) OR ("<-t-ils>"i)) ;
+SELECT P3 IF (0 VPl3) (1 ("<-elles>"i) OR ("<-t-elles>"i)) ;
+SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);										# Parle-t-elle
+SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Ne) (0 VSg3);				# Elle ne parle pas
+SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Pro) (0 VSg3);				# Elle lui parle
+SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Ne) (-1 Pro) (0 VSg3);		# Elle ne lui parle pas
+SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Pro) (-1 Pro) (0 VSg3);		# Elle lui en parle
+SELECT P3 IF (-4 Il + Sg OR On OR ToutLeMonde) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);	# Elle ne lui en parle pas
+SELECT P3 IF (-1 BOS OR Sent) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;				# Elle est mon chef
 
 SELECT P3 IF (-2 EOS OR Cm) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
 SELECT P3 IF (-3 EOS OR Cm) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
@@ -1583,18 +1566,18 @@ SELECT PP IF (-2 Haver + VSg3) (-2 (META:/-/r)) (-1 Il OR On) ;
 SELECT PP IF (-2 Haver + VPl1) (-2 (META:/-/r)) (-1 Nous) ;
 SELECT PP IF (-2 Haver + VPl2) (-2 (META:/-/r)) (-1 Vous) ;
 SELECT PP IF (-2 Haver + VPl3) (-2 (META:/-/r)) (-1 Il) ;
-SELECT PP IF (-3 Haver + VSg1) (-3 (META:/-/r)) (-2 Je) (1 Adv) ;	# Ai-je toujours été
-SELECT PP IF (-3 Haver + VSg2) (-3 (META:/-/r)) (-2 Tu) (1 Adv) ;
-SELECT PP IF (-3 Haver + VSg3) (-3 (META:/-/r)) (-2 Il OR On) (1 Adv) ;
-SELECT PP IF (-3 Haver + VPl1) (-3 (META:/-/r)) (-2 Nous) (1 Adv) ;
-SELECT PP IF (-3 Haver + VPl2) (-3 (META:/-/r)) (-2 Vous) (1 Adv) ;
-SELECT PP IF (-3 Haver + VPl3) (-3 (META:/-/r)) (-2 Il) (1 Adv) ;
-SELECT PP IF (-4 Haver + VSg1) (-4 (META:/-/r)) (-3 Je) (2 Adv) (1 Adv) ;	# N'ai-je pas toujours été
-SELECT PP IF (-4 Haver + VSg2) (-4 (META:/-/r)) (-3 Tu) (2 Adv) (1 Adv) ;
-SELECT PP IF (-4 Haver + VSg3) (-4 (META:/-/r)) (-3 Il OR On) (2 Adv) (1 Adv) ;
-SELECT PP IF (-4 Haver + VPl1) (-4 (META:/-/r)) (-3 Nous) (2 Adv) (1 Adv) ;
-SELECT PP IF (-4 Haver + VPl2) (-4 (META:/-/r)) (-3 Vous) (2 Adv) (1 Adv) ;
-SELECT PP IF (-4 Haver + VPl3) (-4 (META:/-/r)) (-3 Il) (2 Adv) (1 Adv) ;
+SELECT PP IF (-3 Haver + VSg1) (-3 (META:/-/r)) (-2 Je) (-1 Adv) ;	# Ai-je toujours été
+SELECT PP IF (-3 Haver + VSg2) (-3 (META:/-/r)) (-2 Tu) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VSg3) (-3 (META:/-/r)) (-2 Il OR On) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VPl1) (-3 (META:/-/r)) (-2 Nous) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VPl2) (-3 (META:/-/r)) (-2 Vous) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VPl3) (-3 (META:/-/r)) (-2 Il) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VSg1) (-4 (META:/-/r)) (-3 Je) (-2 Adv) (-1 Adv) ;	# N'ai-je pas toujours été
+SELECT PP IF (-4 Haver + VSg2) (-4 (META:/-/r)) (-3 Tu) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VSg3) (-4 (META:/-/r)) (-3 Il OR On) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VPl1) (-4 (META:/-/r)) (-3 Nous) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VPl2) (-4 (META:/-/r)) (-3 Vous) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VPl3) (-4 (META:/-/r)) (-3 Il) (-2 Adv) (-1 Adv) ;
 SELECT Haver IF (0 Haver + VSg1) (0 (META:/-/r)) (1 Je) (2 PP) ;	# Ai-je été
 SELECT Haver IF (0 Haver + VSg2) (0 (META:/-/r)) (1 Tu) (2 PP) ;
 SELECT Haver IF (0 Haver + VSg3) (0 (META:/-/r)) (1 Il OR On) (2 PP) ;
@@ -1614,19 +1597,59 @@ SELECT Haver IF (0 Haver + VPl1) (0 (META:/-/r)) (1 Nous) (2 Adv) (3 Adv) (4 PP)
 SELECT Haver IF (0 Haver + VPl2) (0 (META:/-/r)) (1 Vous) (2 Adv) (3 Adv) (4 PP) ;
 SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 Il) (2 Adv) (3 Adv) (4 PP) ;
 
+SELECT PP IF (-2 Haver + VSg1) (-2 (META:/-/r)) (-1 ("<-je>"i)) ;	# Ai-je été
+SELECT PP IF (-2 Haver + VSg2) (-2 (META:/-/r)) (-1 ("<-tu>"i)) ;
+SELECT PP IF (-2 Haver + VSg3) (-2 (META:/-/r)) (-1 ("<-il>"i) OR ("<-t-il>"i) OR ("<-elle>"i) OR ("<-t-elle>"i) OR ("<-on>"i) OR ("<-t-on>"i)) ;
+SELECT PP IF (-2 Haver + VPl1) (-2 (META:/-/r)) (-1 ("<-nous>"i)) ;
+SELECT PP IF (-2 Haver + VPl2) (-2 (META:/-/r)) (-1 ("<-vous">i)) ;
+SELECT PP IF (-2 Haver + VPl3) (-2 (META:/-/r)) (-1 ("<-ils>"i) OR ("<-t-ils>"i) OR ("<-elles>"i) OR ("<-t-elles>"i)) ;
+SELECT PP IF (-3 Haver + VSg1) (-3 (META:/-/r)) (-2 ("<-je>"i)) (-1 Adv) ;	# Ai-je toujours été
+SELECT PP IF (-3 Haver + VSg2) (-3 (META:/-/r)) (-2 ("<-tu>"i)) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VSg3) (-3 (META:/-/r)) (-2 ("<-il>"i) OR ("<-t-il>"i) OR ("<-elle>"i) OR ("<-t-elle>"i) OR ("<-on>"i) OR ("<-t-on>"i)) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VPl1) (-3 (META:/-/r)) (-2 ("<-nous>"i)) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VPl2) (-3 (META:/-/r)) (-2 ("<-vous">i)) (-1 Adv) ;
+SELECT PP IF (-3 Haver + VPl3) (-3 (META:/-/r)) (-2 ("<-ils>"i) OR ("<-t-ils>"i) OR ("<-elles>"i) OR ("<-t-elles>"i)) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VSg1) (-4 (META:/-/r)) (-3 ("<-je>"i)) (-2 Adv) (-1 Adv) ;	# N'ai-je pas toujours été
+SELECT PP IF (-4 Haver + VSg2) (-4 (META:/-/r)) (-3 ("<-tu>"i)) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VSg3) (-4 (META:/-/r)) (-3 ("<-il>"i) OR ("<-t-il>"i) OR ("<-elle>"i) OR ("<-t-elle>"i) OR ("<-on>"i) OR ("<-t-on>"i)) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VPl1) (-4 (META:/-/r)) (-3 ("<-nous>"i)) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VPl2) (-4 (META:/-/r)) (-3 ("<-vous">i)) (-2 Adv) (-1 Adv) ;
+SELECT PP IF (-4 Haver + VPl3) (-4 (META:/-/r)) (-3 ("<-ils>"i) OR ("<-t-ils>"i) OR ("<-elles>"i) OR ("<-t-elles>"i)) (-2 Adv) (-1 Adv) ;
+SELECT Haver IF (0 Haver + VSg1) (0 (META:/-/r)) (1 ("<-je>"i)) (2 PP) ;	# Ai-je été
+SELECT Haver IF (0 Haver + VSg2) (0 (META:/-/r)) (1 ("<-tu>"i)) (2 PP) ;
+SELECT Haver IF (0 Haver + VSg3) (0 (META:/-/r)) (1 ("<-il>"i) OR ("<-t-il>"i) OR ("<-elle>"i) OR ("<-t-elle>"i) OR ("<-on>"i) OR ("<-t-on>"i)) (2 PP) ;
+SELECT Haver IF (0 Haver + VPl1) (0 (META:/-/r)) (1 ("<-nous>"i)) (2 PP) ;
+SELECT Haver IF (0 Haver + VPl2) (0 (META:/-/r)) (1 ("<-vous">i)) (2 PP) ;
+SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 ("<-ils>"i) OR ("<-t-ils>"i) OR ("<-elles>"i) OR ("<-t-elles>"i)) (2 PP) ;
+SELECT Haver IF (0 Haver + VSg1) (0 (META:/-/r)) (1 ("<-je>"i)) (2 Adv) (3 PP) ;	# Ai-je toujours été
+SELECT Haver IF (0 Haver + VSg2) (0 (META:/-/r)) (1 ("<-tu>"i)) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Haver + VSg3) (0 (META:/-/r)) (1 ("<-il>"i) OR ("<-t-il>"i) OR ("<-elle>"i) OR ("<-t-elle>"i) OR ("<-on>"i) OR ("<-t-on>"i)) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Haver + VPl1) (0 (META:/-/r)) (1 ("<-nous>"i)) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Haver + VPl2) (0 (META:/-/r)) (1 ("<-vous">i)) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 ("<-ils>"i) OR ("<-t-ils>"i) OR ("<-elles>"i) OR ("<-t-elles>"i)) (3 Adv) (3 PP) ;
+SELECT Haver IF (0 Haver + VSg1) (0 (META:/-/r)) (1 ("<-je>"i)) (2 Adv) (3 Adv) (4 PP) ;	# N'ai-je pas toujours été
+SELECT Haver IF (0 Haver + VSg2) (0 (META:/-/r)) (1 ("<-tu>"i)) (2 Adv) (3 Adv) (4 PP) ;
+SELECT Haver IF (0 Haver + VSg3) (0 (META:/-/r)) (1 ("<-il>"i) OR ("<-t-il>"i) OR ("<-elle>"i) OR ("<-t-elle>"i) OR ("<-on>"i) OR ("<-t-on>"i)) (2 Adv) (3 Adv) (4 PP) ;
+SELECT Haver IF (0 Haver + VPl1) (0 (META:/-/r)) (1 ("<-nous>"i)) (2 Adv) (3 Adv) (4 PP) ;
+SELECT Haver IF (0 Haver + VPl2) (0 (META:/-/r)) (1 ("<-vous">i)) (2 Adv) (3 Adv) (4 PP) ;
+SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 ("<-ils>"i) OR ("<-t-ils>"i) OR ("<-elles>"i) OR ("<-t-elles>"i)) (2 Adv) (3 Adv) (4 PP) ;
+
 REMOVE Haver (NOT 1 PP OR CM) (NOT 2 PP) (NOT 3 PP) ;
 
 SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);		# parce que nous parlons
 SELECT Tn IF (-1 VPl1) (-1 (META:/-/r)) (0 Nous) ;	# sommes-nous
+SELECT Tn IF (-1 VPl1) (0 ("<-nous>"i)) ;			# sommes-nous
 #SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl1) (0/* Nous) ;	# mangeons-nous ; mais : réjouissons-nous
 #SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl1) (0/* Nous) ;
 SELECT VPl1 IF (-1C Nous + Tn) (0 VPl1);		# nous savons que
 
 SELECT Tn IF (NOT -1 Prn) (0 Vous) (1 VPl2);		# parce que vous parlez
 SELECT Tn IF (-1 VPl2) (-1 (META:/-/r)) (0 Vous) ;	# êtes-vous
+SELECT Tn IF (-1 VPl2) (0 ("<-vous>"i)) ;			# êtes-vous
 #SUBSTITUTE SUB:1 Enc Tn TARGET ("([a-z]*)"r) IF (0 VPl2) (0/* Vous) ;	# mangez-vous ; mais : réjouissez-vous
 
 SELECT Tn IF (-1 VSg2) (-1 (META:/-/r)) (0 Tu) ;	# as-tu
+SELECT Tn IF (-1 VSg2) (0 ("<-tu>"i)) ;				# as-tu
 
 SELECT PP IF (-1 Haver) (0 PP) ;
   ## Vous avez dit
