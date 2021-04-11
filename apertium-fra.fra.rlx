@@ -405,6 +405,12 @@ REMOVE A IF (-1 Det + Def) (0 ("internet")) ;
 REMOVE A IF (-1 Prep) (0 ("internet")) ;
 SELECT A IF (-1 N) (0 ("internet")) ;
 
+SELECT Acr IF (-1 Num) (0 ("<A>") OR ("<V>") OR ("<W>")) ;
+SELECT Acr IF (0 ("<A>")) (0 (META:/»/r) OR (META:/"/r));
+SELECT Acr IF (0 ("<A>")) (1 ("»")) ;
+REMOVE Acr IF (NOT -1 Num) (0 ("<A>")) ;
+SELECT Num IF (-1 Ant) (0 ("<V>")) ;
+
 REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
 	# avec beaucoup de peine (!!)
 REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
