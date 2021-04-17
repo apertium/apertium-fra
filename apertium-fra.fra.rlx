@@ -2375,6 +2375,8 @@ SELECT Verb IF (-1 Ne) (0 Verb) ;
 
 REMOVE N IF (-1C Det OR Pro) (0C N OR Verb) (NOT 1 A) (-1 Det + &&ConcordeSN) (NOT 0 N + &&ConcordeSN) ;	# les critique / le lie
 
+SELECT Verb IF (0 ("tente")) (1 De) (2 Inf) ;
+
 # ADJ OR NOM
 SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;
   ## en français
