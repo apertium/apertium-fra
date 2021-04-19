@@ -2368,6 +2368,15 @@ REMOVE A IF (-4C N + FemSg) (-3 A + FemSg) (-2 De) (-1 N) (0 Verb + P3 + Sg) (1 
 REMOVE A IF (-5C N + MascSg) (-4 A + MascSg) (-3 De) (-2 Det) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
 REMOVE A IF (-5C N + FemSg) (-4 A + FemSg) (-3 De) (-2 Det) (-1 N) (0 Verb + P3 + Sg) (1 Det) ;
 
+REMOVE A IF (-2 N + &&ConcordeSP) (-1 Pro) (0 V + P3 + &&ConcordeSP) (1C EOS OR Det OR Prep) ;
+REMOVE A IF (-2 NP + &&ConcordeSP) (-1 Pro) (0 V + P3 + &&ConcordeSP) (1C EOS OR Det OR Prep) ;
+REMOVE A IF (-3 N + &&ConcordeSP) (-2 Pro) (-1 Pro) (0 V + P3 + &&ConcordeSP) ;
+REMOVE A IF (-3 NP + &&ConcordeSP) (-2 Pro) (-1 Pro) (0 V + P3 + &&ConcordeSP) ;
+REMOVE A IF (-3 N + &&ConcordeSP) (-2 Adv) (-1 Pro) (0 V + P3 + &&ConcordeSP) (1C EOS OR Det OR Prep OR Adv) ;
+REMOVE A IF (-3 NP + &&ConcordeSP) (-2 Adv) (-1 Pro) (0 V + P3 + &&ConcordeSP) (1C EOS OR Det OR Prep OR Adv) ;
+REMOVE A IF (-3 N + &&ConcordeSP) (-3 Adv) (-2 Pro) (-1 Pro) (0 V + P3 + &&ConcordeSP) ;
+REMOVE A IF (-3 NP + &&ConcordeSP) (-3 Adv) (-2 Pro) (-1 Pro) (0 V + P3 + &&ConcordeSP) ;
+
 # NOM OR VBLEX
 SELECT Verb IF (-1 Ne) (0 Verb) ;
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas) ;			# ne sort pas
