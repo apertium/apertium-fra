@@ -431,6 +431,7 @@ REMOVE Prep IF (1C CnjCoo) ;
 
 REMOVE N IF (0 Fait) (-1 Il) ;
   ## Il fait beau aujourd'hui, il fait très chaud.
+SELECT P3 IF (0 Fait) (-1 ("ça") OR ("cela")) ;
 SELECT V IF (-1C Adv) (0 Fait) ;
 SELECT V IF (-1 Ne) (0 Fait) (1 Que) ;
 REMOVE PP IF (-1 Ne) (0 Fait) (1 Que) ;
@@ -2340,13 +2341,12 @@ REMOVE Det IF (-1 Noun_Adj + FemPl) (0 DetInd + FemPl) (NOT 1 Noun_Adj + FemPl) 
 REMOVE Fin IF (-1C Det) ;
 
 # ADJ OR ADV
-REMOVE Adv IF (-1 Det + MascSg) (0 A + MascSg) (0 Adv) (1 N + MascSg) (NOT 1 A) ;
-REMOVE Adv IF (-1 Det + FemSg) (0 A + FemSg) (0 Adv) (1 N + FemSg) (NOT 1 A) ;
-REMOVE Adv IF (-1 Det + MascPl) (0 A + MascPl) (0 Adv) (1 N + MascPl) (NOT 1 A) ;
-REMOVE Adv IF (-1 Det + FemPl) (0 A + FemPl) (0 Adv) (1 N + FemPl) (NOT 1 A) ;
-  ## un vrai travail
+REMOVE Adv IF (-1 Det + &&ConcordeSN) (0 A + &&ConcordeSN) (0 Adv) (1 N + &&ConcordeSN) (NOT 1 A) ;	# un vrai travail
 
-REMOVE Adv IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C Barrera_Final_Estrict_SN OR CnjCoo) ;	# un lien fort et direct
+REMOVE Adv IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C Barrera_Final_Estrict_SN OR CnjCoo OR CM) ;	# un lien fort et direct
+
+REMOVE Adv IF (-1 Ser + &&ConcordeSP) (0 A + &&ConcordeSP) (1C Barrera_Final_Estrict_SN) ;		# il est prêt à tout
+REMOVE Adv IF (-2 Ser + &&ConcordeSP) (-1 Adv_PreAdv) (0 A + &&ConcordeSP) (1C Barrera_Final_Estrict_SN) ;
 
 # ADJ OR PP
 REMOVE A IF (0 PP) (1 ("par"));
