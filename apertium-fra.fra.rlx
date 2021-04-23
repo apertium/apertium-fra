@@ -183,6 +183,7 @@ LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
+LIST Rue = "rue" ;
 LIST Teneur = "teneur" ;
 LIST MiTemps = "mi-temps" ;
 LIST Paillasse = "paillasse" ;
@@ -1176,6 +1177,12 @@ SELECT Mf IF (0 Parano) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 SELECT N IF (0 ("torse")) (1 ("nu")) ;
+
+SELECT N IF (0 ("rue")) (1 ("de")) ;
+SELECT N IF (0 ("rue")) (1 MajIni OR unknownMajIni) ;
+SELECT V IF (-1 ("me") OR ("te") OR ("se")) (0 ("rue")) ;
+SELECT Cog IF (0 Ant OR unknownMajIni) (1 ("<Rue>")) ;
+SELECT N IF (0 ("rue")) ;
 
 SELECT A IF (0 Don) (1 Ant OR Cog OR unknownMajIni) ;
 REMOVE A IF (0 Don) ;
