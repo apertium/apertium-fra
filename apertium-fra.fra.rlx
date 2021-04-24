@@ -912,6 +912,14 @@ SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 N + MascSg) (2 Adv) (1 A
 SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 N + FemSg) (2 Adv) (1 A + FemSg) ;
 SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 N + MascPl) (2 Adv) (1 A + MascPl) ;
 SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 N + FemPl) (2 Adv) (1 A + FemPl) ;
+SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 AdjOrd + MascSg) ;
+SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 AdjOrd + FemSg) ;
+SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 AdjOrd + MascPl) ;
+SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 AdjOrd + FemPl) ;
+SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 AdjPre + MascSg) ;
+SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 AdjPre + FemSg) ;
+SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 AdjPre + MascPl) ;
+SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 AdjPre + FemPl) ;
 SELECT Det IF (0 Son + MascSg) (1 unknown) ;
 SELECT Det IF (0 Son + MascSg) (1 ("frère")) ;
 SELECT Det IF (0 Son + MascSg) (1 NP + MascSg) ;	# son David
