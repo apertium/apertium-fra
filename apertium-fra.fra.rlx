@@ -2411,6 +2411,9 @@ SELECT Verb IF (-1 Ne) (0 Verb) ;
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Que) ;			# ne dure que quatre jours
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Adv OR CnjAdv) (2 Que) ;
 
+REMOVE Noun_Adj IF (-1C CnjCoo OR Rel) (0 Verb) (1C Adv) ;		# et joue également ; et pratique également
+REMOVE Noun_Adj IF (-1C CnjCoo OR Rel) (0 Verb) (1 ("avec")) ;		# et joue avec
+
 REMOVE N IF (-1C Det OR Pro) (0C N OR Verb) (NOT 1 A) (-1 Det + &&ConcordeSN) (NOT 0 N + &&ConcordeSN) ;	# les critique / le lie
 
 SELECT Verb IF (0 ("tente")) (1 De) (2 Inf) ;
