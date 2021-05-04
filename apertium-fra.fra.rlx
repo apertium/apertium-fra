@@ -1065,6 +1065,8 @@ SELECT A IF (0 ("prochain")) (-1 Det) (1 N) ;
 
 SELECT N IF (0 ("dame") + Pl) (-1 ("finale") OR ("demi-finale") OR ("tournoi") OR ("championat")) ;
 
+SELECT N IF (0 ("cité")) (1 ("état")) (0 (META:/-/r)) ;
+
 REMOVE Adv IF (-1 Prep) (0 ("haut")) ;
 REMOVE Adv IF (-1 N + MascSg) (0 ("haut")) ;
 REMOVE Adv IF (0 ("haut")) (1 N + MascSg) ;
