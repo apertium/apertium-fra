@@ -479,6 +479,8 @@ REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;				# VeeR fait l'objet de co
 SELECT PP IF (0 ("<dit>"i)) (1 ("«") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
 REMOVE PP IF (-1 Ant_Cog) (0 ("dire") + P3) (NOT 0 (META:/«/r) OR (META:/"/r)) (NOT 1 Ant_Cog OR unknownMajIni) ;
 
+SELECT P3 IF (-2 ("»") OR (META:/»/r) OR (META:/"/r)) (-1 (cm)) (0 ("<dit>"i) OR ("<écrit>"i) OR ("<décrit>"i)) (1 Det OR NP OR unknownMajIni) ;	# ...», dit Georges Clemenceau 
+
 REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajIni) (0 Est) (0 MajIni) ;
 SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajIni) ;	# vers l'Est
 SELECT N IF (-2 ("à") OR ("vers") OR ("de")) (-1 Det + Def) (0 Est) ;	# à l'est
