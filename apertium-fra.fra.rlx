@@ -1874,6 +1874,8 @@ SELECT Ser IF (-1 Adv) (0 Ete) (1 PP);
   ## a lui aussi été refait
 SELECT Ser IF (0 Etayer) ;
 
+REMOVE Tn IF (0 ("nous")) (1C Verb) (NOT 1 P1 + Pl) ;
+REMOVE Tn IF (0 ("vous")) (1C Verb) (NOT 1 P2 + Pl) ;
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
   ## que nous avons apris
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;
