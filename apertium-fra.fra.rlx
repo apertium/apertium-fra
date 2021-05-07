@@ -394,15 +394,12 @@ SELECT N IF (0 ("<Point>"));
 REMOVE NP IF (-1 ("1er")) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
 REMOVE NP IF (-1 Num) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
 
-REMOVE Ant_Cog IF (-1/* Det + MascSg) (0 Noun_Adj + MascSg) ;		# un Français
-REMOVE Ant_Cog IF (-1/* Det + MascPl) (0 Noun_Adj + MascPl) ;		# les Français
-REMOVE Ant_Cog IF (-1/* Det + FemSg) (0 Noun_Adj + FemSg) ;
-REMOVE Ant_Cog IF (-1/* Det + FemPl) (0 Noun_Adj + FemPl) ;
-REMOVE Ant_Cog IF (-1 Num) (0 Noun_Adj + Pl) ;
+REMOVE Ant_Cog IF (-1/* Det + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) ;	# un Français
 #REMOVE Ant_Cog IF (-2/* Det + MascSg) (-1C A + MascSg) (0 N + MascSg) ;
 #REMOVE Ant_Cog IF (-2/* Det + MascPl) (-1C A + MascPl) (0 N + MascPl) ;
 #REMOVE Ant_Cog IF (-2/* Det + FemSg) (-1C A + FemSg) (0 N + FemSg) ;
 #REMOVE Ant_Cog IF (-2/* Det + FemPl) (-1C A + FemPl) (0 N + FemPl) ;
+REMOVE NP IF (-1 Det + &&ConcordeSN) (NOT -1 Det + Def + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) ;	# un Suisse
 
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
