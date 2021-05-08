@@ -852,10 +852,12 @@ SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascPl) (-3C Noun_Adj) (-2 A
 SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemPl) (-3C Noun_Adj) (-2 Adv_PreAdv) (-1C Noun_Adj_PP + FemPl) (1 Det) (2 Noun_Adj) ;
   ## le propriétaire très grand risque une amende
 
-SELECT Tn (0 Pro) (1 Pro) (2 Verb) ;
-  ## nous vous attendons
-SELECT Tn (0 Pro) (1 Adv) (2 Pro) (3 Verb) ;
-  ## nous ne vous attendons pas
+REMOVE Tn IF (0 Nous) (1C Verb) (NOT 1 P1 + Pl) ;
+REMOVE Tn IF (0 Vous) (1C Verb) (NOT 1 P2 + Pl) ;
+REMOVE Tn IF (0 Nous) (1 Pro) (2 Verb) (NOT 2 P1 + Pl) ;	# Pierre nous le dit
+REMOVE Tn IF (0 Vous) (1 Pro) (2 Verb) (NOT 2 P2 + Pl) ;	# Pierre vous le dit
+SELECT Tn (0 Pro) (1 Pro) (2 Verb) ; 		# nous vous attendons
+SELECT Tn (0 Pro) (1 Adv) (2 Pro) (3 Verb) ;	# nous ne vous attendons pas
 
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
   ## Avec lequel elle aura un fils.
@@ -1874,8 +1876,6 @@ SELECT Ser IF (-1 Adv) (0 Ete) (1 PP);
   ## a lui aussi été refait
 SELECT Ser IF (0 Etayer) ;
 
-REMOVE Tn IF (0 ("nous")) (1C Verb) (NOT 1 P1 + Pl) ;
-REMOVE Tn IF (0 ("vous")) (1C Verb) (NOT 1 P2 + Pl) ;
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
   ## que nous avons apris
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;
