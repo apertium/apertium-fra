@@ -2034,15 +2034,23 @@ SELECT Adv IF (-1 Si) (0 Adv OR PreAdv) ;
 REMOVE PreAdv IF (-1 Haver) (0 Adv OR PreAdv) (1 PP) ;
   ## vous avez bien lu
   ## mais: il est bien connu
+REMOVE PreAdv IF (-2 Haver) (-1 Adv) (0 Adv) (1 PP) ;		# ils n'ont pas tellement trompé
 REMOVE CnjAdv IF (-1 Haver) (0 Adv) (1 PP) ;
-REMOVE CnjAdv IF (-1 Ser + Sg) (0 Adv) (1 PP + Sg) ;
+REMOVE CnjAdv IF (-2 Haver) (-1 Adv) (0 Adv) (1 PP) ;
+REMOVE CnjAdv IF (-1 Ser + Sg) (0 Adv) (1 PP + Sg) ;		# avait alors refusé
 REMOVE CnjAdv IF (-1 Ser + Pl) (0 Adv) (1 PP + Pl) ;
-  ## avait alors refusé
-REMOVE PreAdv IF (-2 ("se")) (-1 Ser + P3) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE CnjAdv IF (-2 Ser + Sg) (-1 Adv) (0 Adv) (1 PP + Sg) ;	# n'avait pas alors refusé
+REMOVE CnjAdv IF (-2 Ser + Pl) (-1 Adv) (0 Adv) (1 PP + Pl) ;
+REMOVE PreAdv IF (-2 ("se")) (-1 Ser + P3) (0 Adv OR PreAdv) (1 PP) ;				# se sont tellement trompés
 REMOVE PreAdv IF (-2 ("me")) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
 REMOVE PreAdv IF (-2 ("te")) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
-REMOVE PreAdv IF (-2C ("nous") + Pro) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
-REMOVE PreAdv IF (-2C ("vous") + Pro) (-1 Ser + P1 + Sg) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-2C ("nous") + Pro) (-1 Ser + P1 + Pl) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-2C ("vous") + Pro) (-1 Ser + P2 + Pl) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-3 ("se")) (-2 Ser + P3) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;			# ne se sont pas tellement trompés
+REMOVE PreAdv IF (-3 ("me")) (-2 Ser + P1 + Sg) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-3 ("te")) (-2 Ser + P1 + Sg) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-3C ("nous") + Pro) (-2 Ser + P1 + Pl) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;
+REMOVE PreAdv IF (-3C ("vous") + Pro) (-2 Ser + P2 + Pl) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;
   ## on fait bien
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep OR Pour) ;
