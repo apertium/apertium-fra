@@ -441,7 +441,7 @@ REMOVE Prep IF (1C CnjCoo) ;
 
 REMOVE N IF (0 Fait) (-1 Il) ;
   ## Il fait beau aujourd'hui, il fait très chaud.
-SELECT P3 IF (0 Fait) (-1 ("ça") OR ("cela")) ;
+SELECT P3 IF (0 Fait) (-1 ("ça") OR ("cela") OR ("ceci")) ;
 SELECT V IF (-1C Adv) (0 Fait) ;
 SELECT V IF (-1 Ne) (0 Fait) (1 Que) ;
 REMOVE PP IF (-1 Ne) (0 Fait) (1 Que) ;
@@ -473,7 +473,8 @@ REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
 
 REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;				# VeeR fait l'objet de communication
-SELECT PP IF (0 ("<dit>"i)) (1 ("«") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
+SELECT PP IF (NOT -1 NP + MascSg OR ("on") OR ("il")) (0 ("<dit>"i)) (1 ("<«>") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
+SELECT PP IF (NOT -1 NP + MascSg OR ("on") OR ("il")) (0 ("<dit>"i)) (0 (META:/«/r) OR (META:/"/r)) ;
 REMOVE PP IF (-1 Ant_Cog) (0 ("dire") + P3) (NOT 0 (META:/«/r) OR (META:/"/r)) (NOT 1 Ant_Cog OR unknownMajIni) ;
 
 SELECT P3 IF (-2 ("»") OR (META:/»/r) OR (META:/"/r)) (-1 (cm)) (0 ("<dit>"i) OR ("<écrit>"i) OR ("<décrit>"i)) (1 Det OR NP OR unknownMajIni) ;	# ...», dit Georges Clemenceau 
@@ -1889,7 +1890,7 @@ REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);
   ## passer en revue
 REMOVE Pro IF (0 En) (NOT 1 Verb OR Pro);
   ## sont en Inde
-REMOVE Pro IF (0 En) (1 ("cela"));
+REMOVE Pro IF (0 En) (1 ("cela") OR ("ceci"));
 REMOVE Pro IF (0 En) (1 ("équipe")) (2 De) ;
 REMOVE Pro IF (0 En) (1 Ger);
   ## en passant
@@ -2280,6 +2281,9 @@ SELECT A IF (-2 Det + FemSg) (-1 N + FemSg) (0 ("suivant")) ;
 SELECT A IF (-2 Det + FemPl) (-1 N + FemPl) (0 ("suivant")) ;
 SELECT A IF (-1 Noun_Adj) (0 ("suivant")) (1 (":")) ;
 
+SELECT Ger IF (0 ("signifier") + Ger) (0 (META:/«/r) OR (META:/"/r));
+SELECT Ger IF (0 ("signifier") + Ger) (1 ("<«>"));
+SELECT Ger IF (0 ("signifier") + Ger) (-1 ("cela") OR ("ceci"));
 REMOVE Ger IF (-1 BOS) (0 Prep OR Ger) ;
   ## Suivant le besoin
 REMOVE Ger IF (-1 Verb + Pers) (0 Prep OR Ger) ;
@@ -2386,7 +2390,7 @@ REMOVE Adv IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C Barrera_Final_Estr
 REMOVE Adv IF (-1 Ser + &&ConcordeSP) (0 A + &&ConcordeSP) (1C Barrera_Final_Estrict_SN) ;		# il est prêt à tout
 REMOVE Adv IF (-2 Ser + &&ConcordeSP) (-1 Adv_PreAdv) (0 A + &&ConcordeSP) (1C Barrera_Final_Estrict_SN) ;
 
-# ADJ OR PP
+# ADJ OR PP, Ger
 REMOVE A IF (0 PP) (1 ("par"));
 REMOVE A IF (-1 Ser) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
 REMOVE A IF (-2 Ser) (-1 Adv) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
@@ -2394,6 +2398,12 @@ REMOVE A IF (-3 Ser) (-2 Adv) (-1 Adv) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
 REMOVE A IF (0 ("élever")) (1 ("en")) (2 Num) ;		# une statue élevée en 1900
 
 REMOVE A IF (0 PP) (1 Adv) (NOT 2 A OR Verb) ;		# fut encore poussée plus loin
+
+REMOVE PP OR Ger IF (NOT -1 CM OR N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C N + &&ConcordeSN) ;	# imposant lanceur
+REMOVE PP OR Ger IF (-1 PreAdv) (0 A) ;					# très imposant
+REMOVE PP OR Ger IF (-1 ("plus") OR ("moins")) (0 A) ;			# plus imposant
+REMOVE PP OR Ger IF (0 A + &&ConcordeSN) (1 CnjCoo) (2C A + &&ConcordeSN) ;
+REMOVE PP OR Ger IF (-2C A + &&ConcordeSN) (-1 CnjCoo) (0 A + &&ConcordeSN) ;
 
 # ADJ OR VBLEX
 REMOVE A IF (-1C N + Sg) (0 Verb + P3 + Sg) (1 Det) ;				# la loi fixe la composition
