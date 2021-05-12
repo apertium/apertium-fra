@@ -377,13 +377,14 @@ REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); # O
 
 SELECT Ant IF (-1 ("dieu") OR ("déesse")) ;
 
+SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
+SELECT Top IF (-2 Dignite) (-1 ("de")) (0 Top) ;
+ 
 REMOVE Al IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Top IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Al IF (0 Ant OR Cog) (1 Ant OR Cog) ;
 REMOVE Top IF (0 Ant OR Cog) (1 Ant OR Cog) ;
 
-SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
- 
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
 	## Sais-tu
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
@@ -978,7 +979,6 @@ REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 
 SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
-SELECT Top IF (-2 Dignite) (-1 ("de")) (0 Top) ;
 
 SELECT N IF (0 ("fin")) (1 Mois) ;
 
