@@ -142,6 +142,9 @@ LIST Il = "il" "lui il" "elle";
 LIST On = "on" ;
 LIST Nous = "nous" ;
 LIST Vous = "vous" ;
+LIST Me = "me" ;
+LIST Te = "te" ;
+LIST Se = "se" ;
 LIST Lui = "lui" ;
 LIST Leur = "leur" ;
 LIST Eux = "eux" ;
@@ -1806,6 +1809,32 @@ SELECT PP IF (-2 Ne) (-1 Ser) (0 PP) (1 Que) ;
   ## n'est accordé qu'aux entreprises
 SELECT PP IF (-3 Ne) (-2 Adv) (-1 Ser) (0 PP) (1 Que) ;
   ## n'est plus accordé qu'aux entreprises
+
+SELECT PP (-3 Je) (-2 Me) (-1 Ser + P1 + Sg) (0 PP + Sg) ;
+SELECT PP (-3 Tu) (-2 Te) (-1 Ser + P2 + Sg) (0 PP + Sg) ;
+SELECT PP (-2 Se) (-1 Ser + P3 + Sg) (0 PP + Sg) ;
+SELECT PP (-3 Nous) (-2 Nous) (-1 Ser + P1 + Pl) (0 PP + Pl) ;
+SELECT PP (-3 Vous) (-2 Vous) (-1 Ser + P2 + Pl) (0 PP) ;
+SELECT PP (-2 Se) (-1 Ser + P3 + Pl) (0 PP + Pl) ;
+
+SELECT PP (-4 Je) (-3 Me) (-2 Ser + P1 + Sg) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-4 Tu) (-3 Te) (-2 Ser + P2 + Sg) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-3 Se) (-2 Ser + P3 + Sg) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-4 Nous) (-3 Nous) (-2 Ser + P1 + Pl) (-1 Adv) (0 PP + Pl) ;
+SELECT PP (-4 Vous) (-3 Vous) (-2 Ser + P2 + Pl) (-1 Adv) (0 PP) ;
+SELECT PP (-3 Se) (-2 Ser + P3 + Pl) (-1 Adv) (0 PP + Pl) ;
+
+SELECT PP (-5 Je) (-4 Ne) (-3 Me) (-2 Ser + P1 + Sg) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-5 Tu) (-4 Ne) (-3 Te) (-2 Ser + P2 + Sg) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-5 Nous) (-4 Ne) (-3 Nous) (-2 Ser + P1 + Pl) (-1 Adv) (0 PP + Pl) ;
+SELECT PP (-5 Vous) (-4 Ne) (-3 Vous) (-2 Ser + P2 + Pl) (-1 Adv) (0 PP) ;
+
+SELECT PP (-6 Je) (-5 Ne) (-4 Me) (-3 Ser + P1 + Sg) (-2 Adv) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-6 Tu) (-5 Ne) (-4 Te) (-3 Ser + P2 + Sg) (-2 Adv) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-5 Se) (-4 Ser + P3 + Sg) (-3 Adv) (-1 Adv) (0 PP + Sg) ;
+SELECT PP (-6 Nous) (-5 Ne) (-4 Nous) (-3 Ser + P1 + Pl) (-2 Adv) (-1 Adv) (0 PP + Pl) ;
+SELECT PP (-6 Vous) (-5 Ne) (-4 Vous) (-3 Ser + P2 + Pl) (-2 Adv) (-1 Adv) (0 PP) ;
+SELECT PP (-5 Se) (-4 Ser + P3 + Pl) (-3 Adv) (-1 Adv) (0 PP + Pl) ;
 
 SELECT PP IF (-4 Haver + &&ConcordeSV) (-3 CM) (-2 Tn + &&ConcordeSV) (-1 CM) (0 PP) ;	# a, lui, dit
 SELECT Haver IF (0 Haver + &&ConcordeSV) (1 CM) (2 Tn + &&ConcordeSV) (3 CM) (4 PP) ;	# a, lui, dit
