@@ -1185,6 +1185,8 @@ SELECT Masc IF (0 ("<Basket>")) ;
 SELECT Masc IF (0 Tennis) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 ("<Tennis>")) ;
 
+SELECT N IF (0 ("édition")) (1 MajIni OR unknownMajIni) ;	# éditions Larousse
+
 SELECT Masc IF (-1/* Num) (0 Curie + Pl) (NOT 1 A + Fem_strict) ;
 SELECT Fem IF (0 Curie) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
