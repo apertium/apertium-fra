@@ -349,7 +349,7 @@ SELECT Fem_strict IF (0 Ant + Fem_strict) (1C Ant + Fem_strict) ;
 SELECT Masc_strict IF (-1C Ant + Masc_strict) (0 Ant + Masc_strict) ;
 SELECT Fem_strict IF (-1C Ant + Fem_strict) (0 Ant + Fem_strict) ;
 
-SELECT Ant IF (0 ("René") OR ("Renée")) (1 Ant OR NP OR unknownMajIni) ;
+SELECT Ant IF (0 ("René") OR ("Renée") OR ("Marc") OR ("Pierre")) (1 Ant OR NP OR unknownMajIni) ;
 SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
 SELECT Cog IF (-1 ("Édouard")) (0 ("Philippe")) ;
 SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
@@ -379,6 +379,8 @@ SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknownMajIni) ; # Léon Ve
 REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); # Orihuela, Vilallonga
 
 SELECT Ant IF (-1 ("dieu") OR ("déesse")) ;
+
+SELECT Ant IF (-1 (";") OR (":")) (1 Ant OR Cog OR unknownMajIni) ;
 
 SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
 SELECT Top IF (-2 Dignite) (-1 ("de")) (0 Top) ;
