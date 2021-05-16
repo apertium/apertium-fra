@@ -1976,11 +1976,13 @@ SELECT N IF (-1 Num) (0 ("seconde")) ;
 REMOVE Adj_PP IF (-1 ("quel") + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 N) ;	# Quelle portée pour...
 
 SELECT Interj IF (0 Helas) ;
-  ## triem ser hélas com a interjecció
 SELECT Interj IF (0 ("adieu")) (NOT -1 Det OR A);
 REMOVE Interj IF (0 ("bon")) (NOT 1* ("<!>")) ;
-SELECT A IF (0 ("bon")) (1C N) ;
-  ## un bon jour
+SELECT A IF (0 ("bon")) (1C N) ;			# un bon jour
+REMOVE Interj IF (-1 (META:/-/r)) ;
+REMOVE Interj IF (0 (META:/-/r)) ;
+SELECT Interj IF (-1 BOS) (0 N) (1 CM) (1* ("!")) ;    # Bordel, xxxx!
+
 
 SELECT N IF (0 Si) (1 ("majeur") OR ("mineur")) ;
 SELECT N IF (0 Si) (1 ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
