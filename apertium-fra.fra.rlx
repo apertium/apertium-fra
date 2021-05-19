@@ -2073,6 +2073,8 @@ REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona se
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
   ## la guerre continue pendant près de cinq ans
 
+SELECT N IF (-1 BOS) (0 ("Côté")) (1 A + MascSg) ;	# Côté chinois
+
 SELECT N IF (0 ("empire") + MajIni) ;
 SELECT N IF (-1 ("haut") + MascSg OR ("bas") + MascSg) (0 ("empire") + MascSg) ;
 SELECT N IF (-1 ("haut") + MascPl OR ("bas") + MascPl) (0 ("empire") + MascSg) ;
