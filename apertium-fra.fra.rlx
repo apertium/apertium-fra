@@ -1273,6 +1273,11 @@ REMOVE Fondre IF (0 Fondre) (0 Fonder) (1 Sur) ;
 REMOVE Fondre IF (0 Fondre) (0 Fonder) (1 Adv) (2 Sur) ;
 REMOVE Fondre IF (0 Fondre) (0 Fonder) (1 Adv) (2 Adv) (3 Sur) ;
 
+SELECT Verb IF (0 ("vit")) (1 ("en") OR ("dans")) ;
+SELECT Verb IF (0 ("vit")) (1 Adv) (2 ("en") OR ("dans")) ;
+SELECT Verb IF (NOT -1 Det + MascSg) (0 ("vit")) ;
+SELECT Verb IF (-1 Pro) (0 ("vit")) ;
+
 SELECT Enc IF (-1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
 REMOVE Enc IF (NOT -1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
 
