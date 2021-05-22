@@ -296,7 +296,7 @@ SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 SET AdjOrd = ("premier") OR ("prime") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") ;
+SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = BOS OR Sent OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -1984,6 +1984,7 @@ REMOVE Interj IF (0 (META:/-/r)) ;
 SELECT Interj IF (-1 BOS) (0 N) (1 CM) (1* ("!")) ;    # Bordel, xxxx!
 
 
+SELECT A IF (0 ("majeur")) (1 ("partie")) ;
 SELECT N IF (0 Si) (1 ("majeur") OR ("mineur")) ;
 SELECT N IF (0 Si) (1 ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
 SELECT N IF (0 Si) (-1 ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
