@@ -6,7 +6,7 @@
 <xsl:template match="/">
   <xsl:text disable-output-escaping="yes"><![CDATA[
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                              xmlns:data="http://www.apertium.org">
+                              xmlns:data="http://apertium.org">
 	<xsl:import href="principal.xsl"/>
 	<data:paradigms>
 ]]> </xsl:text>
