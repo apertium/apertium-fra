@@ -1051,10 +1051,7 @@ REMOVE PreDet IF (NOT 1 Det) ;
 REMOVE PreDet IF (0 PreDet + &&ConcordeSN) (NOT 1 Det + &&ConcordeSN) ;
 SELECT PreDet IF (0 PreDet + &&ConcordeSN) (1 Det + &&ConcordeSN) ;
 
-SELECT MascSg IF (-2 PreDet + MascSg) (-1 Det + MascSg) (0 N + MascSg) ;	# sur tout l'automne
-SELECT FemSg IF (-2 PreDet + FemSg) (-1 Det + FemSg) (0 N + FemSg) ;
-SELECT MascPl IF (-2 PreDet + MascPl) (-1 Det + MascPl) (0 N + MascPl) ;
-SELECT FemPl IF (-2 PreDet + FemPl) (-1 Det + FemPl) (0 N + FemPl) ;
+SELECT &&ConcordeSN IF (-2 PreDet + &&ConcordeSN) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# sur tout l'automne
 
 SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
   ## . Tous les Etats
@@ -1129,14 +1126,8 @@ SELECT Prep IF (0 Vers OR Envers) (1 Det) ;		# vers la fin
 SELECT SUB:1 Adv IF (0 ("d'après")) (1 CM OR EOS) ;
 REMOVE SUB:1 Adv IF (0 ("d'après")) (NOT 1 CM OR EOS) ;
 
-SELECT A IF (-1 DetDef + MascSg) (0 ("autre") + Sg) (1 N + MascSg) ;	# l'autre livre
-SELECT A IF (-1 DetDef + FemSg) (0 ("autre") + Sg) (1 N + FemSg) ;
-SELECT A IF (-1 DetDef + MascPl) (0 ("autre") + Pl) (1 N + MascPl) ;	# les autres livres
-SELECT A IF (-1 DetDef + FemPl) (0 ("autre") + Pl) (1 N + FemPl) ;
-SELECT A IF (-1 DetInd + MascSg) (0 ("autre") + Sg) (1 N + MascSg) ;
-SELECT A IF (-1 DetInd + FemSg) (0 ("autre") + Sg) (1 N + FemSg) ;
-SELECT A IF (-1 DetInd + MascPl) (0 ("autre") + Pl) (1 N + MascPl) ;	# quelques autres livres
-SELECT A IF (-1 DetInd + FemPl) (0 ("autre") + Pl) (1 N + FemPl) ;
+SELECT A IF (-1 DetDef + &&ConcordeSN) (0 ("autre") + &&ConcordeSN) (1 N + &&ConcordeSN) ;	# l'autre livre
+SELECT A IF (-1 DetInd + &&ConcordeSN) (0 ("autre") + &&ConcordeSN) (1 N + &&ConcordeSN) ;	# quelques autres livres
 SELECT A IF (-1 Num) (0 ("autre") + Pl) (1 N + Pl) ;			# trois autres livres
 
 # genre
@@ -1253,15 +1244,9 @@ SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog OR Al OR Top) ;
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ;
   ## Il s'impose devant lui
 SELECT Prep IF (0 Devant) (1 NP OR unknownMajIni) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + MascSg) (2 Top + MascSg) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + MascPl) (2 Top + MascPl) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + FemSg) (2 Top + FemSg) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + FemPl) (2 Top + FemPl) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + &&ConcordeSN) (2 Top + &&ConcordeSN) ;
 SELECT Prep IF (0 Devant OR Contre) (1 Det) (2 unknownMajIni) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + MascSg) (2 N_Adj + MascSg) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + MascPl) (2 N_Adj + MascPl) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + FemSg) (2 N_Adj + FemSg) ;
-SELECT Prep IF (0 Devant OR Contre) (1 Det + FemPl) (2 N_Adj + FemPl) ;
+SELECT Prep IF (0 Devant OR Contre) (1 Det + &&ConcordeSN) (2 N_Adj + &&ConcordeSN) ;
 SELECT Prep IF (NOT -1 Verb OR Pas) (0 Pour) ;
 REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 N + Pl) ;
 REMOVE Adv IF (0C Adv OR Prep) (1 De) (2 Det + Pl) (3 N + Pl) ;
@@ -1307,14 +1292,8 @@ REMOVE V IF (0 N OR V) (1C Ger) ;
 REMOVE V + Pers IF (-1C Prep) ;
 REMOVE V + Pers IF (-2C BOS OR Sent OR CnjSub) (-1 ("en")) (0 N) ;
 
-REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + MascSg) (0 N + MascSg) ;	# Le président et son secrétaire président
-REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + FemSg) (0 N + FemSg) ;
-REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + MascPl) (0 N + MascPl) ;
-REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + FemPl) (0 N + FemPl) ;
-REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + MascSg) (0 N + MascSg) ;
-REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + FemSg) (0 N + FemSg) ;
-REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + MascPl) (0 N + MascPl) ;
-REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + FemPl) (0 N + FemPl) ;
+REMOVE V IF (-2 BOS OR CnjSub) (-1 Det + Def + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# Le président et son secrétaire président
+REMOVE V IF (-3 BOS OR CnjSub) (-2 Adv) (-1 Det + Def + &&ConcordeSN) (0 N + &&ConcordeSN) ;
 
 SELECT N IF (-1 ("faire")) (0 ("partie")) ;
 SELECT N IF (-2 ("faire")) (-1 Adv) (0 ("partie")) ;
@@ -1385,20 +1364,9 @@ SELECT N IF (-1 BOS OR Sent) (0C Noun_Adj_PP) (1C Prep OR Pour) ;
   ## Remise des coupes
 REMOVE Fin IF (-1C PreAdv) (0 A OR Fin) ;
   ## la très célèbre Pietà
-REMOVE Verb IF (-2 BOS OR Sent) (-1C A + MascSg) (0 N + MascSg OR Verb) ;
-REMOVE Verb IF (-2 BOS OR Sent) (-1C A + FemSg) (0 N + FemSg OR Verb) ;
-REMOVE Verb IF (-2 BOS OR Sent) (-1C A + MascPl) (0 N + MascPl OR Verb) ;
-REMOVE Verb IF (-2 BOS OR Sent) (-1C A + FemPl) (0 N + FemPl OR Verb) ;
-  ## . Petites annonces
-REMOVE P2 IF (-1C N + MascSg) (0 A + MascSg OR Verb + P2) ;
-REMOVE P2 IF (-1C N + FemSg) (0 A + FemSg OR Verb + P2) ;
-REMOVE P2 IF (-1C N + MascPl) (0 A + MascPl OR Verb + P2) ;
-REMOVE P2 IF (-1C N + FemPl) (0 A + FemPl OR Verb + P2) ;
-  ## 13 h. précises
-REMOVE P2 IF (-1C A + MascSg) (0 N + MascSg OR Verb + P2) ;
-REMOVE P2 IF (-1C A + FemSg) (0 N + FemSg OR Verb + P2) ;
-REMOVE P2 IF (-1C A + MascPl) (0 N + MascPl OR Verb + P2) ;
-REMOVE P2 IF (-1C A + FemPl) (0 N + FemPl OR Verb + P2) ;
+REMOVE Verb IF (-2 BOS OR Sent) (-1C A + &&ConcordeSN) (0 N + &&ConcordeSN OR Verb) ;	# . Petites annonces
+REMOVE P2 IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN OR Verb + P2) ;	# 13 h. précises
+REMOVE P2 IF (-1C A + &&ConcordeSN) (0 N + &&ConcordeSN OR Verb + P2) ;
 
 SELECT Prep IF (0 Comme) (1 N) ;		# il parle comme président
 SELECT Prep IF (0 Comme) (1 A) (2 N) ;		# il parle comme ancien président
@@ -1465,11 +1433,7 @@ SELECT A IF (0 ("jeune")) (1 N OR Verb) ;
 REMOVE PP (-2C Det + Masc_strict) (-1C N + Masc) (0 PP + Fem_strict) (0 V) ;
 REMOVE PP (-2C Det + Fem_strict) (-1C N + Fem) (0 PP + Masc_strict) (0 V) ;
 
-REMOVE V (-2 ("de")) (-1 ("tout") + MascSg) (0C V OR N + MascSg) ;
-REMOVE V (-2 ("de")) (-1 ("tout") + FemSg) (0C V OR N + FemSg) ;
-REMOVE V (-2 ("de")) (-1 ("tout") + MascPl) (0C V OR N + MascPl) ;
-REMOVE V (-2 ("de")) (-1 ("tout") + FemPl) (0C V OR N + FemPl) ;
-  ## de toutes sortes
+REMOVE V (-2 ("de")) (-1 ("tout") + &&ConcordeSN) (0C V OR N + &&ConcordeSN) ;	# de toutes sortes
 
 SELECT Verb IF (-1 ("qui")) (0C N OR Verb) ;
 SELECT Verb IF (-2 ("qui")) (-1 Adv) (0C N OR Verb) ;
@@ -2197,22 +2161,13 @@ SELECT Fem IF (-2/* Fem_strict + Det) (-1 N OR A + Masc) (0C N OR A + Fem LINK 0
   ## le deuxième tour
 
 REMOVE Adv IF (-1C/* Det) (0C N OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
-REMOVE Adv IF (-1C Det + MascSg) (0C N + MascSg OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
-REMOVE Adv IF (-1C Det + FemSg) (0C N + FemSg OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
-REMOVE Adv IF (-1C Det + MascPl) (0C N + MascPl OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
-REMOVE Adv IF (-1C Det + FemPl) (0C N + FemPl OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
+REMOVE Adv IF (-1C Det + &&ConcordeSN) (0C N + &&ConcordeSN OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
   ## par l'ensemble des
 
 SELECT N IF (-1C V) (0C N OR PP) (1 Prep) ; ## porter plainte contre
 
-SELECT N IF (-1 Det + MascSg) (0 N + MascSg LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
-SELECT N IF (-1 Det + FemSg) (0 N + FemSg LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
-SELECT N IF (-1 Det + MascPl) (0 N + MascPl LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
-SELECT N IF (-1 Det + FemPl) (0 N + FemPl LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
-SELECT N IF (-1 Det + MascSg) (0 N + MascSg LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
-SELECT N IF (-1 Det + FemSg) (0 N + FemSg LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
-SELECT N IF (-1 Det + MascPl) (0 N + MascPl LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
-SELECT N IF (-1 Det + FemPl) (0 N + FemPl LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
+SELECT N IF (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN LINK 0 A OR PP OR Verb) (1C Prep OR Rel OR Prn OR CnjSub) ;
+SELECT N IF (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN LINK 0 A OR PP OR Verb) (1 Adv) (2 Verb) ;
 
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub OR Adv OR Sent OR EOS) ;
   ## ces vacances d'été pour/qui/que
@@ -2221,87 +2176,42 @@ SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Prep OR Rel OR Prn OR CnjSub OR Adv 
 
 SELECT N IF (-1 ("de")) (0 N) (NOT 0 MajIni) (1 MajIni) ;	# réseau de bus Arlequin
 
-SELECT N IF (-1 AdjInd + MascSg) (0 N + MascSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-SELECT N IF (-1 AdjInd + FemSg) (0 N + FemSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-SELECT N IF (-1 AdjInd + MascPl) (0 N + MascPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-SELECT N IF (-1 AdjInd + FemPl) (0 N + FemPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+SELECT N IF (-1 AdjInd + &&ConcordeSN) (0 N + &&ConcordeSN) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 
 SELECT A IF (NOT -2 ("le")) (-1 ("un") + MascSg) (0 ("ferme") + MascSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;	# dont un [an] ferme
 SELECT A IF (NOT -2 ("le")) (-1 Num) (0 ("ferme") + MascPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) (-1* ("prison") OR ("condamner")) ;	# dont deux [ans] fermes
 
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg OR Num) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg OR Num) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl OR Num) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl OR Num) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + &&ConcordeSN OR Num) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + &&ConcordeSN) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -3 ("comme")) (-2 ("de") OR ("à")) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1C Verb) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1C Verb) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + &&ConcordeSN) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Verb) ;
 REMOVE A OR PP IF (NOT -3 ("comme")) (-2 ("de") OR ("à")) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Verb) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Ser) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 Ser) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Ser) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + &&ConcordeSN) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 Ser) ;
 REMOVE A OR PP IF (NOT -3 ("comme")) (-2 ("de") OR ("à")) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Ser) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemSg) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + MascPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
-REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + FemPl) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
+REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + &&ConcordeSN) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
 REMOVE A OR PP IF (NOT -3 ("comme")) (-2 ("de") OR ("à")) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Num) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) ;
 
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Verb) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Ser) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
-REMOVE A OR PP IF (-2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
+REMOVE A OR PP IF (-2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 REMOVE A OR PP IF (-2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1 CM OR CnjCoo) (2C Barrera_Final_Estrict_SN) (NOT -1 DetDef) ;
 
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 Adv OR Pref) (2 Adj_PP + MascSg) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 Adv OR Pref) (2 Adj_PP + FemSg) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 Adv OR Pref) (2 Adj_PP + MascPl) ;
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 Adv OR Pref) (2 Adj_PP + FemPl) ;
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 Adv OR Pref) (2 Adj_PP + &&ConcordeSN) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1 Adv OR Pref) (2 Adj_PP + FemPl) ;
 
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + MascSg) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + MascSg) ;	
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + FemSg) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + FemSg) ;	
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + MascPl) ;	
-REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + FemPl) ;	
+REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + &&ConcordeSN) ;	
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("<du>") OR ("<au>")) (0 Noun_Adj_PP + Sg LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + Sg) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("<des>") OR ("<aux>")) (0 Noun_Adj_PP + Pl LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + Pl) ;
 SELECT V IF (-1C N) (NOT 0 A OR PP) (1 Que) ;
@@ -2327,10 +2237,7 @@ SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 1C N) (NOT 0 AdjOrd OR AdjPre) ;
 	# de chimie appliquées
 
-REMOVE V IF (NOT -1 Pro) (0C N + MascSg OR V) (1C Adj_PP + MascSg) ;
-REMOVE V IF (NOT -1 Pro) (0C N + FemSg OR V) (1C Adj_PP + FemSg) ;
-REMOVE V IF (NOT -1 Pro) (0C N + MascPl OR V) (1C Adj_PP + MascPl) ;
-REMOVE V IF (NOT -1 Pro) (0C N + FemPl OR V) (1C Adj_PP + FemPl) ;
+REMOVE V IF (NOT -1 Pro) (0C N + &&ConcordeSN OR V) (1C Adj_PP + &&ConcordeSN) ;
 	#et agressions sexuelles sur mineur
 
 REMOVE V IF (-1 ("de")) (-1/* DetDef) (0C N + Pl OR V) ;
@@ -2346,10 +2253,7 @@ REMOVE Ger IF (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT -1 Pro) ;	# ce m
 REMOVE Ger IF (-2 Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;	# son propre représentant
 REMOVE Ger IF (-3 Det + &&ConcordeSN) (-2 Adv_PreAdv) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;
 
-SELECT A IF (-2 Det + MascSg) (-1 N + MascSg) (0 ("suivant")) ;
-SELECT A IF (-2 Det + MascPl) (-1 N + MascPl) (0 ("suivant")) ;
-SELECT A IF (-2 Det + FemSg) (-1 N + FemSg) (0 ("suivant")) ;
-SELECT A IF (-2 Det + FemPl) (-1 N + FemPl) (0 ("suivant")) ;
+SELECT A IF (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 ("suivant")) ;
 SELECT A IF (-1 Noun_Adj) (0 ("suivant")) (1 (":")) ;
 
 SELECT Ger IF (0 ("signifier") + Ger) (0 (META:/«/r) OR (META:/"/r));
