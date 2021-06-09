@@ -1991,6 +1991,7 @@ SELECT Adv IF (0 Juste) (1 Prep OR CnjAdv OR PP) (NOT -1 Det) ;
   ## juste devant
   ## juste avant qu'il ne vienne
   ## tout juste créé
+SELECT A IF (-1 Det + &&ConcordeSN) (0 Juste + &&ConcordeSN) (1 N + &&ConcordeSN) ;	# le juste milieu ; leur juste part
 
 SELECT Prep IF (0 Entre OR Contre) (1 Nous OR Vous OR Eux);
   ## entre nous, vous, eux, elles
