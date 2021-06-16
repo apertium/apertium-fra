@@ -1041,11 +1041,17 @@ SELECT Prn IF (0 ("beaucoup de")) (1C Prn);
 SELECT Prn IF (0 ("beaucoup de")) (1C Prep);
   ## beaucoup d'entre eux
 
+SELECT Rel IF (-1 BOS OR CM) (0 ("<ce que>"i)) ;
+SELECT Rel IF (-1 BOS OR CM) (0 ("<ce qui>"i)) ;
+SELECT Rel IF (-1 BOS OR CM) (0 ("<ce dont>"i)) ;
+SELECT Prn IF (0 ("ce")) (1 ("que") OR ("qui") OR ("dont")) ;
+REMOVE Rel IF (0 ("<ce que>"i)) ;
+REMOVE Rel IF (0 ("<ce qui>"i)) ;
+REMOVE Rel IF (0 ("<ce dont>"i)) ;
 SELECT Prn IF (0 ("ce")) (1 Ser + P3);		# ce sont
 SELECT Prn IF (0 ("ce")) (1 Adv) (2 Ser + P3);	# ce ne sont pas
 SELECT Prn IF (0 ("ce")) (1C Prn) ;		# sur ce je vous dis bonjour
 SELECT Prn IF (0 ("ce")) (1C Prep OR CnjAdv) ;	# et ce malgré le...
-SELECT Prn IF (0 ("ce")) (1 ("que") OR ("qui")) ;
 
 REMOVE PreDet IF (NOT 1 Det) ;
 REMOVE PreDet IF (0 PreDet + &&ConcordeSN) (NOT 1 Det + &&ConcordeSN) ;
