@@ -727,9 +727,9 @@ REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
 # subjonctif après "que"
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 	# Compte: quiero decirle que me parece muy bien
-SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
+SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 #SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") BARRIER Cnj_Rel_End) (*-1 VerbSubj) (0C Verb) ;
-SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") BARRIER Cnj_Rel_End) (0C Verb) ;
+SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End) (0C Verb) ;
 	# Bien que ces trois royaumes aient été réunis par l'empereur Wudi, les barbares Wuhu ravagent le pays
 REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
 #REMOVE Subjunc (*-1 ("lorsque") OR ("puisque") OR ("parce que") OR ("pendant que") BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
@@ -747,13 +747,13 @@ SELECT Subjunc (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 Que) (0C Verb) ;
 REMOVE Subjunc (-1 Tn OR ("on")) (0 Verb) (1 Que + CnjSub) ;
 	# on considère que
 REMOVE Subjunc (-2 Tn OR ("on")) (-1 Pro) (0 Verb) (1 Que + CnjSub) ;
-REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("bien que") OR ("avant que") OR ("après que")) (0 Verb) ;
+REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("bien que") OR ("avant que") OR ("après que") OR ("afin que")) (0 Verb) ;
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End LINK -1 ("sans")) (0C Verb) ;	# sans que le verdict change
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End LINK -1 ("falloir")) (0C Verb) ;	# il faut que le verdict change
 REMOVE Subjunc (*-1 Que + Rel OR Qui + Rel BARRIER Verb LINK NOT -1 ("sans") OR ("falloir")) (0 Verb) ;
   ## Cette règle a des exceptions: La peur que cette rencontre *change* la face du monde préoccupe l'Europe
 REMOVE Subjunc (*-1 ("quand") OR ("où") OR ("comment") OR ("quant") OR ("pourquoi") OR ("lequel") BARRIER Verb) (0 Verb) ;
-#REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que") CBARRIER Ind) (0 Verb) ;
+#REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que") OR ("afin que") CBARRIER Ind) (0 Verb) ;
   ## Avant qu'il ne vienne chez nous, Stephen Hillenburg refuse plusieurs propositions
 REMOVE Subjunc (-1 CnjCoo) (0 VerbInd) ;
 REMOVE Subjunc (-2C VerbInd) (-1 CnjCoo) (0 VerbInd) ;
