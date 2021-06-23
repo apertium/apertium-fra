@@ -189,6 +189,7 @@ LIST Curie = "curie" ;
 LIST Info = "info" ;
 LIST Rue = "rue" ;
 LIST Teneur = "teneur" ;
+LIST Bien = "bien" ;
 LIST MiTemps = "mi-temps" ;
 LIST Paillasse = "paillasse" ;
 LIST Homicide = "homicide" ;
@@ -1202,6 +1203,10 @@ SELECT Fem IF (0 Teneur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Parano) (-1/* Fem_strict) (1 Fem_strict) (NOT -1 N) ;
 SELECT Mf IF (0 Parano) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("commun") + &&ConcordeSN) ;
+SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("national") + &&ConcordeSN) ;
+SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("public") + &&ConcordeSN) ;
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 SELECT N IF (0 ("torse")) (1 ("nu")) ;
@@ -2595,6 +2600,10 @@ SELECT A IF (-3/* Barrera_Inicial_SN) (-2 N + FemPl) (-1C Adv) (0 A + FemPl LINK
 # NOM DE NOM ADJ
 
 SELECT A OR PP IF (-3 N + &&ConcordeSN) (-2 De) (-1C N) (0 Adj_PP + &&ConcordeSN) (NOT 0 Verb + P3) (1 Barrera_Final_SN) ;	# barème de points suivant :
+
+# N OR ADV
+
+REMOVE Adv IF (-1C Prep) (0 Adv) (0 N + &&ConcordeSN) (1 Adj_PP + &&ConcordeSN) ;	# à pas comptés
 
 # A OR PP
 
