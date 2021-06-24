@@ -598,6 +598,11 @@
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>u<b/>nouvel<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/><a/>beau<b/></l><r>u<b/>bel<b/></r></p><par n="voyelles"/></e>
+
+      <e><p><l><b/><a/>al-<b/></l><r>'al-</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>al-<b/></l><r>'al-</r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>el-<b/></l><r>'el-</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>el-<b/></l><r>'el-</r></p><par n="consonnes"/></e>
     </pardef>
 
     <pardef n="se_le">
@@ -639,6 +644,11 @@
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>au<b/>nouvel<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/><a/>beau<b/></l><r>au<b/>bel<b/></r></p><par n="voyelles"/></e>
+
+      <e><p><l><b/><a/>al-<b/></l><r>à<b/>al-</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>al-<b/></l><r>à<b/>al-</r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>el-<b/></l><r>à<b/>el-</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>el-<b/></l><r>à<b/>el-</r></p><par n="consonnes"/></e>
     </pardef>
 
     <pardef n="je">
@@ -721,13 +731,12 @@
       <e><p><l><a/>ta<b/></l><r>ton<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>sa<b/></l><r>son<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>si<b/>il<b/></l><r>s'il<b/></r></p></e>
-
       <e><p><l><a/>si<b/>ils<b/></l><r>s'ils<b/></r></p></e>
+
       <e><p><l><a/>al-<b/></l><r>al-</r></p><par n="voyelles"/></e>
       <e><p><l><a/>al-<b/></l><r>al-</r></p><par n="consonnes"/></e>
       <e><p><l><a/>el-<b/></l><r>el-</r></p><par n="voyelles"/></e>
       <e><p><l><a/>el-<b/></l><r>el-</r></p><par n="consonnes"/></e>
-
 
 <!-- para cambiar la preposición "en" por "dans"; ahora se hace en el transfer
       <e><p><l><a/>en<b/><a/>le<b/></l><r>dans<b/>l'</r></p><par n="voyelles"/></e>
