@@ -187,6 +187,7 @@ LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
+LIST Relache = "relâche" ;
 LIST Rue = "rue" ;
 LIST Teneur = "teneur" ;
 LIST Bien = "bien" ;
@@ -1200,6 +1201,11 @@ SELECT Fem IF (0 Page) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Fem IF (0 Info) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Teneur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Masc IF (-1 ("sans")) (0 Relache) ;
+SELECT Masc IF (-1 ("faire")) (0 Relache) ;
+SELECT Masc IF (-1 ("avoir")) (0 Relache) ;
+SELECT Fem IF (0 Relache) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Parano) (-1/* Fem_strict) (1 Fem_strict) (NOT -1 N) ;
 SELECT Mf IF (0 Parano) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
