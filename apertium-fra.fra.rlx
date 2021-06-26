@@ -2612,6 +2612,11 @@ SELECT A OR PP IF (-3 N + &&ConcordeSN) (-2 De) (-1C N) (0 Adj_PP + &&ConcordeSN
 
 REMOVE Adv IF (-1C Prep) (0 Adv) (0 N + &&ConcordeSN) (1 Adj_PP + &&ConcordeSN) ;	# à pas comptés
 
+# N OR PP
+
+SELECT N IF (-1 ("court") + &&ConcordeSN) (0 ("portée") + &&ConcordeSN) ;
+SELECT N IF (-1 ("long") + &&ConcordeSN) (0 ("portée") + &&ConcordeSN) ;
+
 # A OR PP
 
 #SELECT PP IF (-1 Ser) (0 A OR PP) (1 ("par")) ;
