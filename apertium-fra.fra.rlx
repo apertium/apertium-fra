@@ -1130,6 +1130,7 @@ SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
 SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
 
 SELECT Prep IF (0 Vers OR Envers) (1 Det) ;		# vers la fin
+REMOVE Prep IF (0 Vers OR Envers) (-1 De) ;		# de vers informatiques
 
 SELECT SUB:1 Adv IF (0 ("d'après")) (1 CM OR EOS) ;
 REMOVE SUB:1 Adv IF (0 ("d'après")) (NOT 1 CM OR EOS) ;
@@ -1241,6 +1242,8 @@ SELECT Prep IF (0 ("<Sans>")) (1 N OR Inf) ;	# Sans surprise
 REMOVE Pl_strict IF (0 Vers) (1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
 REMOVE Pl_strict IF (0 Vers) (-1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
 REMOVE Pl_strict IF (0 Vers) (1 ("de")) (2 Ant OR Cog OR unknownMajIni) ;
+SELECT Pl_strict IF (0 Vers) (1 ("à")) (2 ("soie")) ;
+SELECT Pl_strict IF (0 Vers) (1 ("<informatiques>"i)) ;
 
 REMOVE Fem_strict IF (-1 En) (0 Amazighe) (NOT 1 Fem_strict) ;
 REMOVE Fem_strict IF (-1/* Det + Def + Pl) (0 Amazighe) (NOT 1 Fem_strict) ;
