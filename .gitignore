@@ -13,3 +13,6 @@
 /install-sh
 /missing
 /modes
+/.deps
+/test/*-output.txt
+/fra.xsl

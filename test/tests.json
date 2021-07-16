@@ -1,0 +1,6 @@
+{
+  "cuento": {
+    "input": "cuento-input.txt",
+    "mode": "fra-tagger"
+  }
+}
