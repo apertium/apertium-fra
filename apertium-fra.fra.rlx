@@ -1056,8 +1056,14 @@ SELECT PreDet IF (0 PreDet + &&ConcordeSN) (1 Det + &&ConcordeSN) ;
 SELECT &&ConcordeSN IF (-2 PreDet + &&ConcordeSN) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# sur tout l'automne
 
 SELECT PreAdv IF (-1 N + &&ConcordeSN) (0 Tout + &&ConcordeSN) (1 A + &&ConcordeSN) ;	#  une signification toute particulière
-SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
-  ## . Tous les Etats
+SELECT PreAdv IF (-1 Ser + &&ConcordeSP) (0 Tout + &&ConcordeSN) (1 ("petit") + &&ConcordeSN + &&ConcordeSP) ;	# elle est toute petite
+SELECT PreAdv IF (-1 VerbAttr + &&ConcordeSP) (0 Tout + &&ConcordeSN) (1 ("petit") + &&ConcordeSN + &&ConcordeSP) ;
+SELECT PreAdv IF (-2 Ser + &&ConcordeSP) (-1 Adv) (0 Tout + &&ConcordeSN) (1 ("petit") + &&ConcordeSN + &&ConcordeSP) ;
+SELECT PreAdv IF (-2 VerbAttr + &&ConcordeSP) (-1 Adv) (0 Tout + &&ConcordeSN) (1 ("petit") + &&ConcordeSN + &&ConcordeSP) ;
+SELECT PreAdv IF (-3 Ser + &&ConcordeSP) (-2 Adv) (-1 Adv) (0 Tout + &&ConcordeSN) (1 ("petit") + &&ConcordeSN + &&ConcordeSP) ;
+SELECT PreAdv IF (-3 VerbAttr + &&ConcordeSP) (-2 Adv) (-1 Adv) (0 Tout + &&ConcordeSN) (1 ("petit") + &&ConcordeSN + &&ConcordeSP) ;
+
+SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;	# . Tous les Etats
 SELECT N IF (-2 Tout) (-1 ("ou")) (0 ("<partie>"i)) ;
 
 SELECT Demi_pre IF (0 Demi_pre OR Demi_post) (1 N) ;
