@@ -922,29 +922,23 @@ SELECT A OR Adv IF (-1 Plus OR Moins) (1 Que) ;
 
 SELECT N IF (0 ("président")) (1 ("de")) ;
 
-SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 N + MascSg LINK NOT 0 A) ;
-SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 N + FemSg LINK NOT 0 A) ;
-SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 N + MascPl LINK NOT 0 A) ;
-SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 N + FemPl LINK NOT 0 A) ;
-SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 A + MascSg) (2 N + MascSg) ;
-SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 A + FemSg) (2 N + FemSg) ;
-SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 A + MascPl) (2 N + MascPl) ;
-SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 A + FemPl) (2 N + FemPl) ;
-SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 N + MascSg) (2 Adv) (1 A + MascSg) ;
-SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 N + FemSg) (2 Adv) (1 A + FemSg) ;
-SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 N + MascPl) (2 Adv) (1 A + MascPl) ;
-SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 N + FemPl) (2 Adv) (1 A + FemPl) ;
-SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 AdjOrd + MascSg) ;
-SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 AdjOrd + FemSg) ;
-SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 AdjOrd + MascPl) ;
-SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 AdjOrd + FemPl) ;
-SELECT Det + MascSg IF (NOT -1 Det) (0 Son + MascSg) (1 AdjPre + MascSg) ;
-SELECT Det + FemSg IF (NOT -1 Det) (0 Son + FemSg) (1 AdjPre + FemSg) ;
-SELECT Det + MascPl IF (NOT -1 Det) (0 Son + MascPl) (1 AdjPre + MascPl) ;
-SELECT Det + FemPl IF (NOT -1 Det) (0 Son + FemPl) (1 AdjPre + FemPl) ;
+SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN LINK NOT 0 A) ;
+SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 A + &&ConcordeSN) (2 N + &&ConcordeSN) ;
+SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN) (2 Adv) (1 A + &&ConcordeSN) ;
+SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 AdjOrd + &&ConcordeSN) ;
+SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 AdjPre + &&ConcordeSN) ;
 SELECT Det IF (0 Son + MascSg) (1 unknown) ;
 SELECT Det IF (0 Son + MascSg) (1 ("frère")) ;
 SELECT Det IF (0 Son + MascSg) (1 NP + MascSg) ;	# son David
+SELECT Det IF (0 Mon_Ton_Son + &&ConcordeSN) (1 PreAdv) (2 A + &&ConcordeSN) (3 N + &&ConcordeSN) ;
+
+SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1C N + Mf) (2 CM) (3 Ant + &&ConcordeSN) ;	# son agent, Chuck Smith
+SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1C N + Mf) (2 Ant + &&ConcordeSN) ;
+SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1C N + Mf) (2 A + Mf) (3 CM) (4 Ant + &&ConcordeSN) ;	# son agent artistique, Chuck Smith
+SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1C N + Mf) (2 A + Mf) (3 Ant + &&ConcordeSN) ;
+SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1 A + Mf) (2C N + Mf) (3 CM) (4 Ant + &&ConcordeSN) ;
+SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1 A + Mf) (2C N + Mf) (3 Ant + &&ConcordeSN) ;
+
 
 SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
   ## la vallée des roses
@@ -1061,6 +1055,7 @@ SELECT PreDet IF (0 PreDet + &&ConcordeSN) (1 Det + &&ConcordeSN) ;
 
 SELECT &&ConcordeSN IF (-2 PreDet + &&ConcordeSN) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# sur tout l'automne
 
+SELECT PreAdv IF (-1 N + &&ConcordeSN) (0 Tout + &&ConcordeSN) (1 A + &&ConcordeSN) ;	#  une signification toute particulière
 SELECT PreDet IF (0 Tout + Pl) (1 DetDef + Pl) ;
   ## . Tous les Etats
 SELECT N IF (-2 Tout) (-1 ("ou")) (0 ("<partie>"i)) ;
