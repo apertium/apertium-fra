@@ -358,6 +358,8 @@ SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
 SELECT Ant IF (0 ("Luther")) (1 Cog OR unknownMajIni) ;
 SELECT Cog IF (0 ("Luther")) (NOT 1 Cog OR unknownMajIni) ;
 
+SELECT Fem IF (0 ("Simone")) ;
+
 SELECT Masc_strict IF (0 ("Antigone")) (1 ("le")) (2 ("borgne")) ;
 SELECT Masc_strict IF (0 ("Antigone")) (1 ("\\<[IXV]>"r)) ;
 SELECT Fem_strict IF (0 ("Antigone")) ;
