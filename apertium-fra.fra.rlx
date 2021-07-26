@@ -1297,8 +1297,8 @@ SELECT N IF (NOT -2 Tn) (-1 DetDef OR CM) (0C N OR Verb) (1 Prep OR CM) ;
   ## je le donne
 SELECT N IF (-1 Prep) (-1/* DetDef) (0C N OR Verb) ;
   ## du commandant Klein
-SELECT N IF (-2 Prep) (-1 DetDef) (0C N OR Verb LINK NOT 0 Inf) ;
-REMOVE Pers IF (-2 Prep) (-1 Det) (0C N OR Verb LINK 0 Pers) ;
+SELECT N IF (-2 Prep) (-1 DetDef + &&ConcordeSN) (0C N OR Verb LINK NOT 0 Inf) (0 N + &&ConcordeSN) ;
+REMOVE Pers IF (-2 Prep) (-1 Det + &&ConcordeSN) (0C N OR Verb LINK 0 Pers) (0 N + &&ConcordeSN) ;
   ## à leurs armes
 REMOVE Verb (0C N OR Verb) (NOT 0 PP) (1C Verb + Pers) ; 	# la roue tourne, polémique a démarré, le volant a
 REMOVE V (-1 Det + MascSg) (0C V OR N + MascSg) (1 Ant + MascSg) ;	# le philosophe John Stuart Mill
