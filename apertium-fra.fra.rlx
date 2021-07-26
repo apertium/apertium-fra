@@ -1699,6 +1699,10 @@ SELECT Haver IF (0 Haver + VPl1) (0 (META:/-/r)) (1 ("<-nous>"i)) (2 Adv) (3 Adv
 SELECT Haver IF (0 Haver + VPl2) (0 (META:/-/r)) (1 ("<-vous">i)) (2 Adv) (3 Adv) (4 PP) ;
 SELECT Haver IF (0 Haver + VPl3) (0 (META:/-/r)) (1 ("<-ils>"i) OR ("<-t-ils>"i) OR ("<-elles>"i) OR ("<-t-elles>"i)) (2 Adv) (3 Adv) (4 PP) ;
 
+SELECT PP IF (-2 Haver + &&ConcordeSV) (-1C Pers + Tn + &&ConcordeSV) ;				# avez-vous été
+SELECT PP IF (-3 Haver + &&ConcordeSV) (-2C Pers + Tn + &&ConcordeSV) (-1 Adv OR CnjAdv) ;	# n'avez-vous pas été
+SELECT PP IF (-4 Haver + &&ConcordeSV) (-3C Pers + Tn + &&ConcordeSV) (-2 Adv OR CnjAdv) (-1 Adv OR CnjAdv) ;	# n'avez-vous pas toujours été
+
 REMOVE Haver (NOT 1 PP OR CM) (NOT 2 PP) (NOT 3 PP) ;
 
 SELECT Tn IF (NOT -1 Prn) (0 Nous) (1 VPl1);		# parce que nous parlons
