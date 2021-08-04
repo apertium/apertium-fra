@@ -446,6 +446,7 @@ SELECT NP IF (NOT -1 BOS) (0 Title) ;
 #REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB);
 
 REMOVE Prep IF (-1C PreAdv) ;	# très attendu
+SELECT Prep IF (0 ("sauf")) (-1 CM) ;
 REMOVE Prep IF (1C EOS) ;
 REMOVE Prep IF (1C CnjCoo) ;
 
@@ -1134,6 +1135,11 @@ SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
 
 SELECT Prep IF (0 Vers OR Envers) (1 Det) ;		# vers la fin
 REMOVE Prep IF (0 Vers OR Envers) (-1 De) ;		# de vers informatiques
+
+REMOVE Prep IF (-2 ("sain")) (-1 ("et")) (0 ("sauf")) ;
+SELECT Prep IF (0 ("sauf") + &&ConcordeSN) (-1 N) (NOT -1 N + &&ConcordeSN) ;
+SELECT Prep IF (0 ("sauf")) (1 Prep) ;
+SELECT Prep IF (0 ("sauf")) (1 Det) ;		
 
 SELECT SUB:1 Adv IF (0 ("d'après")) (1 CM OR EOS) ;
 REMOVE SUB:1 Adv IF (0 ("d'après")) (NOT 1 CM OR EOS) ;
