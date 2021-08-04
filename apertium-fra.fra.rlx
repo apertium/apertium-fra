@@ -1154,6 +1154,7 @@ SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (
   ## à 7 tours de la fin
   ## en deux tours
 SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
+SELECT Masc IF (NOT -2 Fem) (-1 ("deuxième") OR ("second") OR ("troisième")) (0 Tour) (NOT 1 Fem) ;
 
 SELECT Fem IF (-2 ("menace")) (-1 De) (0 Mort + Masc) ;
 SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
