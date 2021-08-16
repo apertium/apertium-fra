@@ -2713,6 +2713,10 @@ REMOVE Noun_Adj_PP IF (-2 Det + MascSg) (-1 N + MascSg) (NOT 0 Noun_Adj_PP + Mas
 REMOVE Noun_Adj_PP IF (-2 Det + FemSg) (-1 N + FemSg) (NOT 0 Noun_Adj_PP + FemSg) (0 V + P3 + Sg) ;
 REMOVE Noun_Adj_PP IF (-2 Det + MascPl) (-1 N + MascPl) (NOT 0 Noun_Adj_PP + MascPl) (0 V + P3 + Pl) ;
 REMOVE Noun_Adj_PP IF (-2 Det + FemPl) (-1 N + FemPl) (NOT 0 Noun_Adj_PP + FemPl) (0 V + P3 + Pl) ;
+REMOVE Noun_Adj_PP IF (-3 Det + MascSg) (-2 N_Adj + MascSg) (-1 N_Adj + MascSg) (NOT 0 Noun_Adj_PP + MascSg) (0 V + P3 + Sg) ;
+REMOVE Noun_Adj_PP IF (-3 Det + FemSg) (-2 N_Adj + FemSg) (-1 N_Adj + FemSg) (NOT 0 Noun_Adj_PP + FemSg) (0 V + P3 + Sg) ;	# L'armée américaine contrôle encore l'aéroport
+REMOVE Noun_Adj_PP IF (-3 Det + MascPl) (-2 N_Adj + MascPl) (-1 N_Adj + MascPl) (NOT 0 Noun_Adj_PP + MascPl) (0 V + P3 + Pl) ;
+REMOVE Noun_Adj_PP IF (-3 Det + FemPl) (-2 N_Adj + FemPl) (-1 N_Adj + FemPl) (NOT 0 Noun_Adj_PP + FemPl) (0 V + P3 + Pl) ;
 
 SELECT Inf IF (0 Être) (-1 Vbmod) ;
   ## Ce doit être Jean !
