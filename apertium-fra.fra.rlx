@@ -1989,6 +1989,7 @@ SELECT A IF (0 ("bon")) (1C N) ;			# un bon jour
 REMOVE Interj IF (-1 (META:/-/r)) ;
 REMOVE Interj IF (0 (META:/-/r)) ;
 SELECT Interj IF (-1 BOS) (0 N) (1 CM) (1* ("!")) ;    # Bordel, xxxx!
+SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 
 
 SELECT A IF (0 ("majeur")) (1 ("partie")) ;
