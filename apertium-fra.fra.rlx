@@ -298,7 +298,7 @@ SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 SET AdjOrd = ("premier") OR ("prime") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") ;
+SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") OR ("gros") ;
 
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = BOS OR Sent OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
@@ -2091,6 +2091,10 @@ SELECT N IF (-1 BOS) (0 ("Côté")) (1 A + MascSg) ;	# Côté chinois
 SELECT N IF (0 ("empire") + MajIni) ;
 SELECT N IF (-1 ("haut") + MascSg OR ("bas") + MascSg) (0 ("empire") + MascSg) ;
 SELECT N IF (-1 ("haut") + MascPl OR ("bas") + MascPl) (0 ("empire") + MascSg) ;
+
+REMOVE N IF (NOT -1 Det + Def) (0 ("gros")) ;
+SELECT N IF (-1 Det + Def) (0 ("gros")) (1 ("de")) ;
+REMOVE N IF (0 ("gros")) ;
 
 SELECT N (-1 ("en")) (0 ("or")) ;
 
