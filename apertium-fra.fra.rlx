@@ -411,6 +411,9 @@ REMOVE Ant_Cog IF (-1/* Det + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) ;	# un F
 #REMOVE Ant_Cog IF (-2/* Det + FemPl) (-1C A + FemPl) (0 N + FemPl) ;
 REMOVE NP IF (-1 Det + &&ConcordeSN) (NOT -1 Det + Def + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) ;	# un Suisse
 
+SELECT Num IF (0 ("<Trente>")) (1 N + MajIni + Pl) ;
+SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
+
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 REMOVE NP + Sg_strict OR Cog IF (-1 BOS) (0 Pl) (1C Verb + Pl) ;		# Tous ont mangé
@@ -981,8 +984,6 @@ REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
 REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
 
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
-
-SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
 
 SELECT N IF (0 ("fin")) (1 Mois) ;
 
