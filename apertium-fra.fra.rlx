@@ -1226,6 +1226,9 @@ SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("commun") + &&ConcordeSN) ;
 SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("national") + &&ConcordeSN) ;
 SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("public") + &&ConcordeSN) ;
 
+REMOVE N + Masc_strict (-1 Det + Fem_strict) (NOT -1 Det + Masc) (0 N + Fem_strict) ;  # la terra      
+REMOVE N + Fem_strict (-1 Det + Masc_strict) (NOT -1 Det + Fem) (0 N + Masc_strict) ;  # el terra      
+
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 SELECT N IF (0 ("torse")) (1 ("nu")) ;
 
