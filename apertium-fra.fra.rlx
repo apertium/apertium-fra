@@ -2069,6 +2069,8 @@ REMOVE V (-1 ("crime") OR ("ligue") OR ("association") OR ("organisation") OR ("
 REMOVE V (-2 ("crime") OR ("ligue") OR ("association") OR ("organisation") OR ("collectif") OR ("lutte") OR ("combat") OR ("guerre")) (-1 A) (0 Contre) ;
 REMOVE V (0 Contre) (1 Det) (2 ("crime") OR ("mafia") OR ("spéculation") OR ("gouvernement") OR ("loi") OR ("constitution") OR ("femme") OR ("enfant") OR ("migrant") OR ("réfugié") OR ("population")) ;
 
+REMOVE Prep (0 Adv) (1 ("je") OR ("tu") OR ("<il>"i) OR ("<ils>"i)) ;	# après je viendrai
+
 ## Ces règles ne sont pas en train de marcher
 SELECT Verb (0 Puis) (-1 Je);
 SELECT Verb (0 Puis) (1 Je) (NOT 1 Verb + P1) ;
