@@ -414,7 +414,7 @@ REMOVE NP IF (-1 Det + &&ConcordeSN) (NOT -1 Det + Def + &&ConcordeSN) (0 Noun_A
 SELECT Num IF (0 ("<Trente>")) (1 N + MajIni + Pl) ;
 SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("maréchal") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 REMOVE NP + Sg_strict OR Cog IF (-1 BOS) (0 Pl) (1C Verb + Pl) ;		# Tous ont mangé
 REMOVE NP + Pl_strict IF (-1 BOS) (0 Sg) (1C Verb + Sg) ;
@@ -443,7 +443,7 @@ REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
 	# des bones notes
 	# hors du commun haura lieu
 
-SELECT NP IF (NOT -1 BOS) (0 Title) ;
+#SELECT NP IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
 
 #REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB);
@@ -1250,6 +1250,8 @@ SELECT N (0 ("cadet")) (1 ("féminin")) ;
 SELECT N (-1 Ser) (0 ("cadet")) ;
 SELECT N (-2 Ser) (-1 Adv) (0 ("cadet")) ;
 SELECT Cog (-1 ("cadet")) ;		# le cadet Guillaume
+SELECT N (0 ("officier")) (1 De) ;
+SELECT N (-1 ("nommer")) (0 ("officier")) ;
 
 SELECT Prep IF (0 ("<Sans>")) (1 N OR Inf) ;	# Sans surprise
 
