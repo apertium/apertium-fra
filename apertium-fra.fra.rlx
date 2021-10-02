@@ -128,6 +128,8 @@ LIST Falloir = "falloir" ;
 LIST Faillir = "faillir" ;
 LIST Savoir = "savoir" ;
 LIST Saurer = "saurer" ;
+LIST Voir = "voir" ;
+LIST Vivre = "vivre" ;
 LIST Demi_pre = "demi_pre" ;
 LIST Demi_post = "demi_post" ;
 LIST Le = "le" ;
@@ -1017,6 +1019,21 @@ SELECT Num IF (0 Mille) (1 CnjCoo) (2 Num) ;	# mille et une passions
 
 SELECT Savoir IF (0C Savoir OR Saurer) ;
   ## ce problème ne saurait tout expliquer à lui seul
+
+SELECT Voir IF (0C Voir OR Vivre) (1 Que) ;
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 Que) ;
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 Adv) (3 Que) ;
+SELECT Voir IF (0C Voir OR Vivre) (1C Det OR Num) ;
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2C Det OR Num) ;
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 Det + &&ConcordeSN) (3 N + &&ConcordeSN);
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 Adv) (3C Det OR Num) ;
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 Adv) (3 Det + &&ConcordeSN) (4 N + &&ConcordeSN);
+SELECT Voir IF (0C Voir OR Vivre) (1 CM) (2* CM LINK 1C Det OR Num) ;	# Il vit, lors de la saison 2010-2011, la relégation de son club
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 CM) (3* CM LINK 1C Det OR Num) ;
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 CM) (3* CM LINK 1 Det + &&ConcordeSN LINK 1 N + &&ConcordeSN) ;	# Il ne vit pas, lors de la saison 2010-2011, la relégation de son club
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 Adv) (3 CM) (4* CM LINK 1C Det OR Num) ;
+SELECT Voir IF (0C Voir OR Vivre) (1 Adv) (2 Adv) (3 CM) (4* CM LINK 1 Det + &&ConcordeSN LINK 1 N + &&ConcordeSN) ;
+SELECT Vivre IF (0C Voir OR Vivre) ;
 
 SELECT Falloir IF (-1 ("il")) (0C Falloir OR Faillir) (1 Que) ;
 SELECT Falloir IF (-2 ("il")) (-1 ("ne")) (0C Falloir OR Faillir) (1 Pas) (2 Que) ;
