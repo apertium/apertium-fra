@@ -982,6 +982,7 @@ SELECT N IF (0 ("donnée")) (1 ("clé") OR ("clef")) ;
 
 REMOVE A IF (NOT -1 N OR Ser) (0 ("classe")) ;
 REMOVE A IF (0 ("classe")) (1 MajIni OR unknownMajIni) ;	# classe A
+REMOVE A IF (NOT -1 N OR Ser) (0 ("tendance")) ;
 
 SELECT Masc IF (-1 Det + Masc_strict) (0 Pique) ;	# jouer du pique
 SELECT Masc IF (-2 Num OR ("as") OR ("roi") OR ("dame") OR ("valet")) (-1 De) (0 Pique) ;
