@@ -352,7 +352,8 @@ SELECT Fem_strict IF (0 Ant + Fem_strict) (1C Ant + Fem_strict) ;
 SELECT Masc_strict IF (-1C Ant + Masc_strict) (0 Ant + Masc_strict) ;
 SELECT Fem_strict IF (-1C Ant + Fem_strict) (0 Ant + Fem_strict) ;
 
-SELECT Ant IF (0 ("René") OR ("Renée") OR ("Marc") OR ("Pierre")) (1 Ant OR NP OR unknownMajIni) ;
+SELECT Ant IF (0 ("René") OR ("Renée") OR ("Marc") OR ("Pierre") OR ("Beau")) (1 Ant OR NP OR unknownMajIni) ;
+REMOVE Ant IF (0 ("Beau")) (NOT 1 Ant OR NP OR unknownMajIni) ;
 SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
 SELECT Cog IF (-1 ("Édouard")) (0 ("Philippe")) ;
 SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
