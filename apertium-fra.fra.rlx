@@ -2058,8 +2058,8 @@ REMOVE Det IF (0 Prn OR Det) (1C Prep) (NOT 0 DetDef) ;
 REMOVE Adv IF (-1C Det OR Prn) (0 Adv OR N) (1C Prep) ;
   ## ce point de vue
 
-SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;
-  ## dès maintenant
+SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;	# dès maintenant
+SELECT Adv IF (NOT -1 ("en")) (0 ("maintenant")) ;
 
 SELECT Adv IF (0 Juste) (1 Prep OR CnjAdv OR PP) (NOT -1 Det) ;
   ## juste devant
