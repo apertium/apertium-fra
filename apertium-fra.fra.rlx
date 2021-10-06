@@ -2296,6 +2296,14 @@ REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1/* Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + &&ConcordeSN) ;	
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("<du>") OR ("<au>")) (0 Noun_Adj_PP + Sg LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + Sg) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("<des>") OR ("<aux>")) (0 Noun_Adj_PP + Pl LINK 0 N OR NP) (1 V) (NOT 1 Noun_Adj_PP + Pl) ;
+
+REMOVE Ger IF (-1 Det + &&ConcordeSN OR Num) (0 Noun_Adj_PP + &&ConcordeSN) (1C EOS OR CM OR CnjAdv OR Rel) ;
+REMOVE Ger IF (-1 ("de") OR ("à")) (0 Noun_Adj_PP) (1C EOS OR CM OR CnjAdv OR Rel) ;
+REMOVE Ger IF (-1 Det + &&ConcordeSN OR Num) (0 Noun_Adj_PP + &&ConcordeSN) (1 Noun_Adj_PP + &&ConcordeSN) (2C EOS OR CM OR CnjAdv OR Rel) ;
+REMOVE Ger IF (-1 ("de") OR ("à")) (0 Noun_Adj_PP + &&ConcordeSN) (1 Noun_Adj_PP + &&ConcordeSN) (2C EOS OR CM OR CnjAdv OR Rel) ;
+REMOVE Ger IF (-2 Det + &&ConcordeSN OR Num) (-1 Noun_Adj_PP + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN) (1C EOS OR CM OR CnjAdv OR Rel) ;
+REMOVE Ger IF (-2 ("de") OR ("à")) (-1 Noun_Adj_PP + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN) (1C EOS OR CM OR CnjAdv OR Rel) ;
+
 SELECT V IF (-1C N) (NOT 0 A OR PP) (1 Que) ;
 	# l’ensemble des indicateurs montre que
 
