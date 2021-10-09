@@ -120,6 +120,7 @@ LIST Mon_Ton_Son = "mon" "ton" "son" ;
 LIST Son = "son" ;
 LIST Que = "que" ;
 LIST Qui = "qui" ;
+LIST Où = "où" ;
 LIST À = "à" ;
 LIST De = "de" ;
 LIST Avoir = "avoir" ;
@@ -1459,12 +1460,12 @@ SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;
 SELECT CnjSub IF (-2 ("tel")) (0 Que) ;
   ## tels que
 
-SELECT Rel IF (-1 CM) (0 Que OR Qui) ;
-SELECT Rel IF (-1C N) (0 Que OR Qui) (NOT -1* Ne) ;
-SELECT Rel IF (-1C NP OR unknownMajIni) (0 Que OR Qui) (NOT -1* Ne) ;
-SELECT Rel IF (-2C N) (-1 A) (NOT -1 Prep) (0 Que OR Qui) ;
-SELECT Rel IF (-2C Top OR unknownMajIni) (-1 A) (0 Que OR Qui) ;
-SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que OR Qui) ;
+SELECT Rel IF (-1 CM) (0 Que OR Qui OR Où) ;
+SELECT Rel IF (-1C N) (0 Que OR Qui OR Où) (NOT -1* Ne) ;
+SELECT Rel IF (-1C NP OR unknownMajIni) (0 Que OR Qui OR Où) (NOT -1* Ne) ;
+SELECT Rel IF (-2C N) (-1 A) (NOT -1 Prep) (0 Que OR Qui OR Où) ;
+SELECT Rel IF (-2C Top OR unknownMajIni) (-1 A) (0 Que OR Qui OR Où) ;
+SELECT Rel IF (-3 N) (-2 Adv_PreAdv) (-1 A) (0 Que OR Qui OR Où) ;
 
 SELECT CnjSub IF (-1C Verb) (NOT -1 PP) (0 Que) ;
 SELECT CnjSub IF (-2 Ne) (-1 Verb) (0 Que) ;
