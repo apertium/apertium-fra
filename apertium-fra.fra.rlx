@@ -1544,6 +1544,8 @@ SELECT Tn IF (0 Tu) (1 Ne) (2 Pro) (3 Pro) (4 VSg2);
 SELECT Tn IF (0 Tu) (1 Ne) (2 Pro) (3 VSg2);
   ## Tu ne lui veux pas
 
+SELECT Pro IF (-1 Ne) (0 Nous) (1 VPl1);
+  ## Nous ne nous aimons pas
 SELECT Tn IF (0 Nous) (1 VPl1);
   ## Nous voulons
 SELECT Tn IF (0 Nous) (1 Ne) (2 VPl1);
@@ -1557,6 +1559,8 @@ SELECT Tn IF (0 Nous) (1 Ne) (2 Pro) (3 Pro) (4 VPl1);
 SELECT Tn IF (0 Nous) (1 Ne) (2 Pro) (3 VPl1);
   ## Nous ne lui voulons pas
 
+SELECT Pro IF (-1 Ne) (0 Vous) (1 VPl2);
+  ## Vous ne vous aimez pas
 SELECT Tn IF (0 Vous) (1 VPl2);
   ## Vous voulez
 SELECT Tn IF (0 Vous) (1 Ne) (2 VPl2);
