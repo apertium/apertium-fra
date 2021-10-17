@@ -926,7 +926,7 @@ REMOVE CnjAdv IF (-1 Verb) (0 Plus OR Moins) ;
 #REMOVE CnjAdv IF (-2 Ne) (-1 Verb) (0 Plus) ;
 #REMOVE CnjAdv IF (-3 Ne) (-2 Pro) (-1 Verb) (0 Plus) ;
 #REMOVE CnjAdv IF (-3 Ne) (-2 Adv) (-1 Verb) (0 Plus) ;
-REMOVE CnjAdv IF (-1C Prep) ;
+REMOVE CnjAdv IF (-1C Prep) (NOT 0 Si) ;
 SELECT A OR Adv IF (-1 Plus OR Moins) (1 Que) ;
 
 SELECT N IF (0 ("président")) (1 ("de")) ;
