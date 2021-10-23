@@ -286,6 +286,7 @@ SET CLB = Subj | Cm ;
 
 SET Noun_Adj = N OR A ;
 SET Noun_Adj_PP = N OR A OR PP ;
+SET Noun_NP = N OR NP ;
 SET Adj_PP = A OR PP ;
 SET Adv_PreAdv = Adv OR PreAdv ;
 SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf ;
@@ -302,6 +303,8 @@ SET AdjOrd = ("premier") OR ("prime") OR ("second") OR ("deuxième") OR ("troisi
 # adjectifs qui souvent vont devant le nom
 SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") OR ("gros") ;
 
+SET NoteMusicale = ("do" m) OR ("ut" m) OR ("ré" m) OR ("mi" m) OR ("fa" m) OR ("sol" m) OR ("la" m) OR ("si" m) ;
+
 SET Trencat = ("tiers") OR ("quart") ;
 SET Barrera_Inicial_SN = BOS OR Prep OR CnjSub OR CnjAdv OR Verb OR Rel ;	# Verb és perillós per la ambigüitat, però en general, prolífic
 SET Barrera_Inicial_Estrict_SN = BOS OR Prep OR CnjSub OR CnjAdv OR Rel ;
@@ -309,6 +312,26 @@ SET Barrera_Final_SN = EOS OR Prep OR Det OR CnjSub OR CnjAdv OR Verb OR Rel OR 
 SET Barrera_Final_Estrict_SN = EOS OR (":") OR Prep OR Det OR CnjSub OR CnjAdv OR Rel OR Tn OR Pro OR Itg OR Verb + Pers OR Verb + Inf OR Verb + Ger OR ("avant") OR ("après") OR ("pendant") OR ("sous") OR ("depuis") OR ("vers") OR ("envers") OR ("ver") ;
 
 SECTION
+
+SELECT N IF (0 ("<la>")) (1 ("<majeur>") OR ("<mineur>") OR ("<bémol>") OR ("<dièse>")) ;
+SELECT N IF (0 ("<la>")) (1 ("do") OR ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
+SELECT N IF (0 ("<la>")) (-1 ("do") OR ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la")) ;
+SELECT N IF (0 ("<la>")) (-1C NoteMusicale) (-1 NoteMusicale) ;
+SELECT N IF (0 Si) (1 ("majeur") OR ("mineur") OR ("bémol") OR ("dièse")) ;
+SELECT N IF (0 Si) (1 ("do") OR ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
+SELECT N IF (0 Si) (-1 ("do") OR ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("si")) ;
+SELECT N IF (0 ("<si>")) (-1C NoteMusicale) (-1 NoteMusicale) ;
+SELECT N IF (0 NoteMusicale) (1C NoteMusicale) (2C NoteMusicale) ;
+SELECT N IF (-1C NoteMusicale) (0 NoteMusicale) (1C NoteMusicale) ;
+SELECT N IF (-2C NoteMusicale) (-1C NoteMusicale) (0 NoteMusicale) ;
+SELECT N IF (0 NoteMusicale) (1 CM) (2 NoteMusicale) (3 ("et") OR ("ou")) (4 NoteMusicale) ;
+SELECT N IF (-2 NoteMusicale) (-1 CM) (0 NoteMusicale) (1 ("et") OR ("ou")) (2 NoteMusicale) ;
+SELECT N IF (-4 NoteMusicale) (-3 CM) (-2 NoteMusicale) (1 ("et") OR ("ou")) (0 NoteMusicale) ;
+SELECT N IF (0 NoteMusicale) (1 CM) (2C NoteMusicale) (3 CM) (4C NoteMusicale) ;
+SELECT N IF (-2C NoteMusicale) (-1 CM) (0 NoteMusicale) (1 CM) (2C NoteMusicale) ;
+SELECT N IF (-4C NoteMusicale) (-3 CM) (-2C NoteMusicale) (1 CM) (0 NoteMusicale) ;
+REMOVE N IF (0 ("la")) ;
+REMOVE N IF (0 Si) ;
 
 SELECT N IF (0 ("radio")) (0 (META:/-/r)) (1 ("télévision")) ;
 SELECT Pref IF (0 Pref) (0 (META:/-/r)) (1 N OR A OR Verb) ;
@@ -996,6 +1019,8 @@ REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 
 SELECT N IF (0 ("fin")) (1 Mois) ;
+
+SELECT N IF (-1 (META:/-/r)) (0 ("baillon")) ;
 
 REMOVE V IF (-1 AdjOrd + MascSg) (0 N + MascSg) ; # le dernier voyage
 REMOVE V IF (-1 AdjOrd + MascPl) (0 N + MascPl) ;
@@ -2031,12 +2056,8 @@ REMOVE Interj IF (0 (META:/-/r)) ;
 SELECT Interj IF (-1 BOS) (0 N) (1 CM) (1* ("!")) ;    # Bordel, xxxx!
 SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 
-
 SELECT A IF (0 ("majeur")) (1 ("partie")) ;
-SELECT N IF (0 Si) (1 ("majeur") OR ("mineur")) ;
-SELECT N IF (0 Si) (1 ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
-SELECT N IF (0 Si) (-1 ("ut") OR ("ré") OR ("mi") OR ("fa") OR ("sol") OR ("la") OR ("si")) ;
-REMOVE N IF (0 Si) ;
+
 REMOVE CnjAdv IF (0 Si) (1 ("en") OR ("y")) (2 Verb) ;
 	  ## pour s'y rendre
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
@@ -2456,7 +2477,8 @@ REMOVE Det IF (-1 Noun_Adj + FemPl) (0 DetInd + FemPl) (NOT 1 Noun_Adj + FemPl) 
 REMOVE Fin IF (-1C Det) ;
 
 # ADJ OR ADV
-REMOVE Adv IF (-1 Det + &&ConcordeSN) (0 A + &&ConcordeSN) (0 Adv) (1 N + &&ConcordeSN) (NOT 1 A) ;	# un vrai travail
+REMOVE Adv IF (-1C Det + &&ConcordeSN) (0 A + &&ConcordeSN) (NOT 1 A) ;	# est le même
+#REMOVE Adv IF (-1 Det + &&ConcordeSN) (0 A + &&ConcordeSN) (1 N + &&ConcordeSN) (NOT 1 A) ;	# un vrai travail
 
 REMOVE Adv IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C Barrera_Final_Estrict_SN OR CnjCoo OR CM) ;	# un lien fort et direct
 
@@ -2640,35 +2662,32 @@ REMOVE PP IF (NOT -1 N OR Haver OR Ser OR Adv) (0 PP + FemPl LINK 0 N OR NP) (1 
 ## PROBLEMA: con alto contenido (alto > n/adv); ídem per a adj ambigus típicament preposats: alto, bajo, mal (+flaco favor, etc.)
 ## Està fet més malament
 
-SELECT A OR PP IF (-1 N + MascSg) (0 Adj_PP + MascSg) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + MascSg) (NOT 0 Adv) ;
-SELECT A OR PP IF (-1 N + MascPl) (0 Adj_PP + MascPl) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + MascPl) ;
-SELECT A OR PP IF (-1 N + FemSg) (0 Adj_PP + FemSg) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + FemSg) ;
-SELECT A OR PP IF (-1 N + FemPl) (0 Adj_PP + FemPl) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + FemPl) ;
+REMOVE N IF (-1 N + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) (NOT 0 PreAdv OR Est) (NOT -1 AdjPre OR AdjOrd) (1 Adj_PP + &&ConcordeSN) (NOT 0 Adv) ;
 ## "la Primera Conferencia Americana celebrada" (pqè Americana > adj)
 ## però: simbolisme molt complex
 ## els avions segons diversos criteris
 
+REMOVE N IF (-2 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-1C VerbAttr + &&ConcordeSP) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie est bonne
+REMOVE N IF (-3 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-2C Haver + &&ConcordeSP) (-1C PP + MascSg) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie a été bonne
+REMOVE N IF (-3 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-2C VerbAttr + &&ConcordeSP) (-1 Adv) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie est toujours bonne
+REMOVE N IF (-4 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-3C Haver + &&ConcordeSP) (-2 Adv) (-1C PP + MascSg) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie a toujours été bonne
+REMOVE N IF (-4 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-3 Adv) (-2C VerbAttr + &&ConcordeSP) (-1 Adv) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie n'est pas bonne
+REMOVE N IF (-5 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-4 Adv) (-3C Haver + &&ConcordeSP) (-2 Adv) (-1C PP + MascSg) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie n'a pas été bonne
+REMOVE N IF (-5 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-4 Adv) (-3C VerbAttr + &&ConcordeSP) (-2 Adv) (-1 Adv) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie n'est pas toujours bonne
+REMOVE N IF (-6 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-5 Adv) (-4C Haver + &&ConcordeSP) (-3 Adv) (-2 Adv) (-1C PP + MascSg) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie n'a pas toujours été bonne
+
 # NOM ADJ ADJ
 
-SELECT A OR PP IF (-2 N + MascSg) (-1 Adj_PP + MascSg) (0 Adj_PP + MascSg) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-2 N + MascPl) (-1 Adj_PP + MascPl) (0 Adj_PP + MascPl) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-2 N + FemSg) (-1 Adj_PP + FemSg) (0 Adj_PP + FemSg) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-2 N + FemPl) (-1 Adj_PP + FemPl) (0 Adj_PP + FemPl) (NOT 0 Det OR Ger OR Est) ;
+REMOVE N IF (-2 N + &&ConcordeSN) (-1 Adj_PP + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) (NOT 0 Det OR Ger OR Est) ;
 
 # NOM ADJ ADJ ADJ
 
-SELECT A OR PP IF (-3 N + MascSg) (-2 N + MascSg) (-1 Adj_PP + MascSg) (0 Adj_PP + MascSg) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-3 N + MascPl) (-2 N + MascPl) (-1 Adj_PP + MascPl) (0 Adj_PP + MascPl) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-3 N + FemSg) (-2 N + FemSg) (-1 Adj_PP + FemSg) (0 Adj_PP + FemSg) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-3 N + FemPl) (-2 N + FemPl) (-1 Adj_PP + FemPl) (0 Adj_PP + FemPl) (NOT 0 Det OR Ger OR Est) ;
+REMOVE N IF (-3 N + &&ConcordeSN) (-2 N + &&ConcordeSN) (-1 Adj_PP + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) (NOT 0 Det OR Ger OR Est) ;
 ## "la Primera Conferencia Internacional Americana celebrada" (pqè Americana > adj)
 
 # NOM ADJ ADJ ADJ ADJ
 
-SELECT A OR PP IF (-4 N + MascSg) (-3 N + MascSg) (-2 N + MascSg) (-1 Adj_PP + MascSg) (0 Adj_PP + MascSg) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-4 N + MascPl) (-3 N + MascPl) (-2 N + MascPl) (-1 Adj_PP + MascPl) (0 Adj_PP + MascPl) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-4 N + FemSg) (-3 N + FemSg) (-2 N + FemSg) (-1 Adj_PP + FemSg) (0 Adj_PP + FemSg) (NOT 0 Det OR Ger OR Est) ;
-SELECT A OR PP IF (-4 N + FemPl) (-3 N + FemPl) (-2 N + FemPl) (-1 Adj_PP + FemPl) (0 Adj_PP + FemPl) (NOT 0 Det OR Ger OR Est) ;
+REMOVE N IF (-4 N + &&ConcordeSN) (-3 N + &&ConcordeSN) (-2 N + &&ConcordeSN) (-1 Adj_PP + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) (NOT 0 Det OR Ger OR Est) ;
 ## "la Primera Conferencia Internacional Americana celebrada" (pqè Americana > adj)
 
 #REMOVE N IF (-3 N + MascSg) (-2 Adj_PP + MascSg) (-1 Adj_PP + MascSg) (0 Adj_PP + MascSg) (*1 Adj_PP + MascSg) ;
@@ -2705,6 +2724,8 @@ SELECT N IF (-1 ("long") + &&ConcordeSN) (0 ("portée") + &&ConcordeSN) ;
 
 REMOVE V IF (-2C Verb LINK NOT 0 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# de tenir le rythme
 REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# j'ai tenu le rythme
+
+SELECT V IF (0 ("<court>"i)) (1 ("à") OR ("vers") OR ("chez")) ;	# le débat démocratique court à sa perte
 
 # A OR PP
 
