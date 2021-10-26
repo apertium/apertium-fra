@@ -346,6 +346,12 @@ REMOVE Cog IF (-1 En) (0 Cog) ;
 REMOVE Ant IF (-1 DetDef) (0 Ant) ;
 REMOVE Ant IF (-1 DetInd) (0 Ant) ;
 REMOVE Ant IF (-1 En) (0 Ant) ;
+REMOVE Cog IF (-1 EOS) (0 ("Remarque")) (NOT 1 CnjCoo) (NOT 1 Verb + P3 + Sg) ;
+REMOVE NP IF (-1 EOS) (0 ("Remarque")) ;
+REMOVE NP IF (-1 (<<<)) (0 ("Remarque")) ;
+SELECT N IF (-1 EOS) (0 ("Remarque")) ;
+REMOVE Cog IF (-1 (sent)) (0 ("Remarque")) ;
+REMOVE Cog IF (0 ("Remarque")) ;
 
 SELECT NP IF (0 N OR NP) (1 NP) (0 (META:/-/r)) (NOT 0 ("bas") OR ("haut")) ;	# Pierre-Michel
 SELECT Ant IF (0 Ant) (1C Ant) (0 (META:/-/r)) ;				# Jean-René
@@ -513,8 +519,10 @@ REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
 
 REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;				# VeeR fait l'objet de communication
-SELECT PP IF (NOT -1 NP + MascSg OR ("on") OR ("il")) (0 ("<dit>"i)) (1 ("<«>") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
-SELECT PP IF (NOT -1 NP + MascSg OR ("on") OR ("il")) (0 ("<dit>"i)) (0 (META:/«/r) OR (META:/"/r)) ;
+SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 ("<«>") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
+SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (0 (META:/«/r) OR (META:/"/r)) ;
+SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 Adv) (2 ("<«>") OR (META:/«/r) OR (META:/"/r)) ;
+SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 Adv) (1 (META:/«/r) OR (META:/"/r)) ;		# Erkanbald dit aussi "Erkembaud" ou "Archambaud"
 REMOVE PP IF (-1 Ant_Cog) (0 ("dire") + P3) (NOT 0 (META:/«/r) OR (META:/"/r)) (NOT 1 Ant_Cog OR unknownMajIni) ;
 
 SELECT P3 IF (-2 ("»") OR (META:/»/r) OR (META:/"/r)) (-1 (cm)) (0 ("<dit>"i) OR ("<écrit>"i) OR ("<décrit>"i)) (1 Det OR NP OR unknownMajIni) ;	# ...», dit Georges Clemenceau 
