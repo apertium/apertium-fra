@@ -1432,6 +1432,13 @@ REMOVE PP (-1 N + MascSg) (0 Verb + P3 + Sg) (1C Inf) ;
 REMOVE PP (-1 Ant OR Cog) (0 Verb + P3 + Sg) (1C Inf) ;
 REMOVE PP (-1 Rel) (0 Verb + P3 + Sg) (1C Inf) ;
 
+SELECT ("moi") IF (-1 Prep) (0 ("moi je")) ;		# selon moi, j'ai raison
+REMOVE ("moi") IF (NOT -1 Prep) (0 ("moi je")) ;	# moi, j'ai raison
+SELECT ("toi") IF (-1 Prep) (0 ("toi tu")) ;		# selon toi, tu as raison
+REMOVE ("toi") IF (NOT -1 Prep) (0 ("toi tu")) ;	# toi, tu as raison
+SELECT ("lui") IF (-1 Prep) (0 ("lui il")) ;		# selon lui, il a raison
+REMOVE ("lui") IF (NOT -1 Prep) (0 ("lui il")) ;	# lui, il a raison
+
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 Que) ;
   ## le groupe ne demande qu'à
 SELECT Verb IF (-1 ("ne")) (0C N OR Verb) (1 ("pas") OR ("jamais")) ;
