@@ -1692,7 +1692,7 @@ SELECT P3 IF (0 VSg3) (1 ("<-elle>"i) OR ("<-t-elle>"i)) ;						# Dit-elle
 SELECT P3 IF (0 VSg3) (1 ("<-on>"i) OR ("<-t-on>"i)) ;							# Dit-on
 SELECT P3 IF (0 VPl3) (1 ("<-ils>"i) OR ("<-t-ils>"i)) ;
 SELECT P3 IF (0 VPl3) (1 ("<-elles>"i) OR ("<-t-elles>"i)) ;
-SELECT P3 IF (1 Il + Sg OR On) (0 VSg3);										# Parle-t-elle
+#SELECT P3 IF (1 Il + Sg OR On) (0 VSg3) (0C Verb);							# Parle-t-elle
 SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Ne) (0 VSg3);				# Elle ne parle pas
 SELECT P3 IF (-2 Il + Sg OR On OR ToutLeMonde) (-1 Pro) (0 VSg3);				# Elle lui parle
 SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Ne) (-1 Pro) (0 VSg3);		# Elle ne lui parle pas
