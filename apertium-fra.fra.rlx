@@ -942,15 +942,9 @@ SELECT NP IF (0 ("<Euro>")) (1 ("<[0-9][0-9][0-9][0-9]>"r)) ;
 
 SELECT Adv IF (0 Plus) (1 ("de") OR Que) ;
 
-REMOVE CnjAdv IF (-1/* Det + Def + MascSg) (0 Plus OR Moins) (1 A + MascSg OR PP + MascSg) ;
-REMOVE CnjAdv IF (-1/* Det + Def + FemSg) (0 Plus OR Moins) (1 A + FemSg OR PP + FemSg) ;
-REMOVE CnjAdv IF (-1/* Det + Def + MascPl) (0 Plus OR Moins) (1 A + MascPl OR PP + MascPl) ;
-REMOVE CnjAdv IF (-1/* Det + Def + FemPl) (0 Plus OR Moins) (1 A + FemPl OR PP + FemPl) ;
+REMOVE CnjAdv IF (-1/* Det + Def + &&ConcordeSN) (0 Plus OR Moins) (1 A + &&ConcordeSN OR PP + &&ConcordeSN) ;
 REMOVE CnjAdv IF (0 Plus OR Moins) (1C A OR PP) ;
-REMOVE CnjAdv IF (-1 N + MascSg) (0 Plus OR Moins) (1 A + MascSg OR PP + MascSg) ;
-REMOVE CnjAdv IF (-1 N + FemSg) (0 Plus OR Moins) (1 A + FemSg OR PP + FemSg) ;
-REMOVE CnjAdv IF (-1 N + MascPl) (0 Plus OR Moins) (1 A + MascPl OR PP + MascPl) ;
-REMOVE CnjAdv IF (-1 N + FemPl) (0 Plus OR Moins) (1 A + FemPl OR PP + FemPl) ;
+REMOVE CnjAdv IF (-1 N + &&ConcordeSN) (0 Plus OR Moins) (1 A + &&ConcordeSN OR PP + &&ConcordeSN) ;
 REMOVE CnjAdv IF (-1C ("pas")) (0 Plus OR Moins) ;
 REMOVE CnjAdv IF (0 Plus OR Moins) (NOT 1* Verb) ;
 REMOVE CnjAdv IF (-1 Verb) (0 Plus OR Moins) ;
@@ -2073,8 +2067,8 @@ SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 
 SELECT A IF (0 ("majeur")) (1 ("partie")) ;
 
-REMOVE CnjAdv IF (0 Si) (1 ("en") OR ("y")) (2 Verb) ;
-	  ## pour s'y rendre
+REMOVE CnjAdv IF (0 Si) (1 ("en") OR ("y")) (2 Verb) ; 	# pour s'y rendre
+REMOVE CnjAdv IF (0 ("<s'>"i)) (1C Inf) ;
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
