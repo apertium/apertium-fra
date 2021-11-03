@@ -696,13 +696,16 @@
       <e><p><l><a/>la<b/></l><r>la<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>la<b/></l><r>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>me<b/></l><r>m'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>me<b/><a/>en<b/></l><r>me<b/>n'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>ne<b/><a/>me<b/></l><r>ne<b/>m'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>me<b/></l><r>m</r></p><par n="le"/></e>
       <e><p><l><a/>te<b/></l><r>t'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>te<b/><a/>en<b/></l><r>te<b/>n'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>ne<b/><a/>te<b/></l><r>ne<b/>t'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>te<b/></l><r>t</r></p><par n="le"/></e>
       <e><par n="se_le"/></e>
       <!-- <e><p><l><a/>se<b/></l><r>s</r></p><par n="le"/></e> -->
+      <e><p><l><a/>se<b/><a/>en<b/></l><r>se<b/>n'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>ne<b/><a/>se<b/></l><r>ne<b/>s'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>je<b/></l><r>j</r></p><par n="je"/></e>
       <e><p><l><a/>se<b/></l><r>s'</r></p><par n="voyelles"/></e>
