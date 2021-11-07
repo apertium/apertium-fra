@@ -311,6 +311,9 @@
       <e><i>Hurley</i></e>
       <e><i>Huxley</i></e>
       <e><i>ukulélé</i></e>
+      <e><i>onze</i></e>
+      <e><i>onzième</i></e>
+      <e><i>ouate</i></e>
       <e><i>yacht</i></e>
       <e><i>yang</i></e>
       <e><i>yankee</i></e>
@@ -326,6 +329,7 @@
       <e><i>yoga</i></e>
       <e><i>yougoslave</i></e>
       <e><i>Yougoslavie</i></e>
+      <e><i>yogourt</i></e>
       <e><i>yourte</i></e>
       <e><i>Ier</i></e>
       <e><i>Ire</i></e>
@@ -696,16 +700,16 @@
       <e><p><l><a/>la<b/></l><r>la<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>la<b/></l><r>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>me<b/></l><r>m'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>me<b/><a/>en<b/></l><r>me<b/>n'</r></p><par n="voyelles"/></e>
+      <!-- <e><p><l><a/>me<b/><a/>en<b/></l><r>me<b/>n'</r></p><par n="voyelles"/></e> -->
       <e><p><l><a/>ne<b/><a/>me<b/></l><r>ne<b/>m'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>me<b/></l><r>m</r></p><par n="le"/></e>
       <e><p><l><a/>te<b/></l><r>t'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>te<b/><a/>en<b/></l><r>te<b/>n'</r></p><par n="voyelles"/></e>
+      <!-- <e><p><l><a/>te<b/><a/>en<b/></l><r>te<b/>n'</r></p><par n="voyelles"/></e> -->
       <e><p><l><a/>ne<b/><a/>te<b/></l><r>ne<b/>t'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>te<b/></l><r>t</r></p><par n="le"/></e>
       <e><par n="se_le"/></e>
       <!-- <e><p><l><a/>se<b/></l><r>s</r></p><par n="le"/></e> -->
-      <e><p><l><a/>se<b/><a/>en<b/></l><r>se<b/>n'</r></p><par n="voyelles"/></e>
+      <!-- <e><p><l><a/>se<b/><a/>en<b/></l><r>se<b/>n'</r></p><par n="voyelles"/></e> -->
       <e><p><l><a/>ne<b/><a/>se<b/></l><r>ne<b/>s'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>je<b/></l><r>j</r></p><par n="je"/></e>
       <e><p><l><a/>se<b/></l><r>s'</r></p><par n="voyelles"/></e>
@@ -722,14 +726,39 @@
       <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
       <e><p><l><a/>jusque<b/></l><r>jusqu'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>jusque<b/><a/>à</l><r>jusqu'</r></p><par n="à"/></e>
-      <e><p><l><a/>lorsque<b/></l><r>lorsqu'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>lorsque<b/><a/>à</l><r>lorsqu'</r></p><par n="à"/></e>
-      <e><p><l><a/>puisque<b/></l><r>puisqu'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>puisque<b/><a/>à</l><r>puisqu'</r></p><par n="à"/></e>
-      <e><p><l><a/>quoique<b/></l><r>quoiqu'</r></p><par n="voyelles"/></e>
-      <e><p><l><a/>quoique<b/><a/>à</l><r>quoiqu'</r></p><par n="à"/></e>
+
+      <e><p><l><a/>lorsque<b/>il</l><r>lorsqu'il</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>elle</l><r>lorsqu'elle</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>ils</l><r>lorsqu'ils</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>elles</l><r>lorsqu'elles</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>on</l><r>lorsqu'on</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>un</l><r>lorsqu'un</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>une</l><r>lorsqu'une</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>uns</l><r>lorsqu'uns</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>unes</l><r>lorsqu'unes</r></p><par n="caractere_general"/></e>
+
+      <e><p><l><a/>puisque<b/>il</l><r>puisqu'il</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>elle</l><r>puisqu'elle</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>ils</l><r>puisqu'ils</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>elles</l><r>puisqu'elles</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>on</l><r>puisqu'on</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>un</l><r>puisqu'un</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>une</l><r>puisqu'une</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>uns</l><r>puisqu'uns</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>puisque<b/>unes</l><r>puisqu'unes</r></p><par n="caractere_general"/></e>
+
+      <e><p><l><a/>quoique<b/>il</l><r>quoiqu'il</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>elle</l><r>quoiqu'elle</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>ils</l><r>quoiqu'ils</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>elles</l><r>quoiqu'elles</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>on</l><r>quoiqu'on</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>un</l><r>quoiqu'un</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>une</l><r>quoiqu'une</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>uns</l><r>quoiqu'uns</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>quoique<b/>unes</l><r>quoiqu'unes</r></p><par n="caractere_general"/></e>
+
       <e><p><l><a/>celui<b/>qui<b/>il<b/></l><r>celui<b/>qui<b/></r></p></e>
-      <e><p><l><a/>qui<b/>il<b/></l><r>qui<b/></r></p></e>
+<!--      <e><p><l><a/>qui<b/>il<b/></l><r>qui<b/></r></p></e>  à qui il parle -->
       <e><p><l><a/>ma<b/></l><r>mon<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>ta<b/></l><r>ton<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>sa<b/></l><r>son<b/></r></p><par n="voyelles"/></e>
