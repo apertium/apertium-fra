@@ -2222,6 +2222,7 @@ REMOVE PreAdv IF (NOT 1 A OR PP OR Adv OR PreAdv) ;
   ## le bien et le mal
   ## fort peu peuplé
 
+SELECT Adv IF (0 ("aussi")) (1 A OR PP OR Adv);
 SELECT PreAdv IF (0C Adv_PreAdv) (1 A OR PP OR Adv);
 REMOVE N IF (-1 PreAdv) (0 A OR PP OR N);
 REMOVE Adv IF (-1 PreAdv) (0 A OR PP OR Adv);
