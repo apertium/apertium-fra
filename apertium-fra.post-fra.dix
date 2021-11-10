@@ -314,6 +314,7 @@
       <e><i>onze</i></e>
       <e><i>onzième</i></e>
       <e><i>ouate</i></e>
+      <e><i>oui</i></e>
       <e><i>yacht</i></e>
       <e><i>yang</i></e>
       <e><i>yankee</i></e>
@@ -636,6 +637,9 @@
       <e><p><l><b/><a/>ma<b/></l><r>à<b/>mon<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>ta<b/></l><r>à<b/>ton<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>sa<b/></l><r>à<b/>son<b/></r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>me<b/><a/>en</l><r>à<b/>m'en</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>te<b/><a/>en</l><r>à<b/>t'en</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>se<b/><a/>en</l><r>à<b/>s'en</r></p><par n="caractere_general"/></e>
       <e><p><l><b/></l><r>à<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/></l><r>à<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/>lequel</l><r>auquel</r></p><par n="caractere_general"/></e>
