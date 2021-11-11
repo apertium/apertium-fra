@@ -710,6 +710,7 @@ SELECT V IF (0 Avoir) (1 EOS) ;
 SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
 
+REMOVE Tn IF (0 Qui) ;
 SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR CnjSub) (0 Title) ;
   ## Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
