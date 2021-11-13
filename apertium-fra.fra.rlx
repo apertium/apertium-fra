@@ -711,7 +711,7 @@ SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
 
 REMOVE Tn IF (0 Qui) ;
-SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR CnjSub) (0 Title) ;
+SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR CnjSub) ;
   ## Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
   ## A qui s'adresse
@@ -2089,10 +2089,10 @@ SELECT A IF (-2 ("devenir")) (-1 Adv_PreAdv) (NOT 1 A) ;
 SELECT A IF (-3 ("devenir")) (-2 Adv) (-1 Adv_PreAdv) (NOT 1 A) ;
   ## ne devenir pas plus fort
 
-REMOVE Det IF (0 Prn OR Det) (1C Prep) (NOT 0 DetDef) ;
-  ## Aucune des 200 communes
-REMOVE Adv IF (-1C Det OR Prn) (0 Adv OR N) (1C Prep) ;
-  ## ce point de vue
+REMOVE Det IF (0 Prn) (1C Prep) (NOT 0 DetDef) ;	# Aucune des 200 communes
+REMOVE Det IF (0 Prn) (1C Verb + Pers) ;		# Aucune veut
+REMOVE Det IF (0 Prn) (1C Adv) (2C Verb + Pers) ;	# Aucune ne veut
+REMOVE Adv IF (-1C Det OR Prn) (0 N) (1C Prep) ;	# ce point de vue
 
 SELECT Adv IF (-1 Des) (0 Verb OR Adv) ;	# dès maintenant
 SELECT Adv IF (NOT -1 ("en")) (0 ("maintenant")) ;
