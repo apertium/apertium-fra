@@ -293,7 +293,7 @@ SET Cnj_Rel_End = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel OR Inf ;
 SET Cnj_Rel_End_NoInf = BOS OR CnjCoo OR CnjSub OR CnjAdv OR Rel ;
 
 # verbes Vblex que typiquement impliquen subjonctif
-SET VerbSubj = ("vouloir") OR ("désirer") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
+SET VerbSubj = ("vouloir") OR ("désirer") OR ("souhaiter") OR ("proposer") OR ("plaire") OR ("exiger") OR ("réclamer") OR ("demander") OR ("espérer") ;
 # verbes Vblex que typiquement impliquen indicatif
 SET VerbInd = ("dire") OR ("annoncer") OR ("penser") OR ("croire") ;
 # verbes qui peuvent avoir un attribut
@@ -737,6 +737,10 @@ SELECT Itg IF (0 Adv OR Prn) (1 Verb + P2 + Pl) (1 (META:/-/r)) (2 Tn + P2 + Pl)
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P3 + Pl) (1 (META:/-/r)) (2 Tn + P3 + Pl) ;
   ## quand veux-tu
 
+REMOVE Fin_non_Imp IF (-1 BOS) (0 Imper + P2) ;
+REMOVE Fin_non_Imp IF (-2 BOS) (-1 ("«")) (0 Imper + P2) ;
+REMOVE Fin_non_Imp IF (-2 BOS) (-1 CnjCoo) (0 Imper + P2) ;
+REMOVE Fin_non_Imp IF (-3 BOS) (-1 ("«")) (-1 CnjCoo) (0 Imper + P2) ;
 REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
 REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
@@ -2824,7 +2828,7 @@ REMOVE N IF (-1 Pour) (0 ("personne")) ;
 SELECT Prn IF (0 ("certains")) (1C Verb LINK 0 Verb + Pl + Pers) ;
 SELECT Prn IF (0 ("certains")) (1 Adv) (2C Verb LINK 0 Verb + Pl + Pers) ;
 # certains ont la mine défaite
-REMOVE A IF (0 ("certains")) (NOT -1 N OR A) ;
+REMOVE A OR Det IF (0 ("certains")) (NOT -1 N OR A) ;
 SELECT Det IF (0 ("certains")) (1 N) (NOT 1 Verb + Pl + Pers) (NOT 1 Adv) ;
 # que certains élus très proches
 
