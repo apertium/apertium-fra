@@ -1193,6 +1193,7 @@ SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
 
 SELECT Prep IF (0 Vers OR Envers) (1 Det) ;		# vers la fin
 REMOVE Prep IF (0 Vers OR Envers) (-1 De) ;		# de vers informatiques
+SELECT Prep IF (0 Vers) (-1C Verb) ;	# aller vers
 
 REMOVE Prep IF (-2 ("sain")) (-1 ("et")) (0 ("sauf")) ;
 SELECT Prep IF (0 ("sauf") + &&ConcordeSN) (-1 N) (NOT -1 N + &&ConcordeSN) ;
@@ -1311,6 +1312,9 @@ SELECT N (0 ("officier")) (1 De) ;
 SELECT N (-1 ("nommer")) (0 ("officier")) ;
 
 SELECT Prep IF (0 ("<Sans>")) (1 N OR Inf) ;	# Sans surprise
+
+SELECT Prep IF (0 ("<en bas>")) (1C N + Masc) ;	# en bas âge
+SELECT Adv IF (0 ("<en bas>")) (1C EOS OR Prep) ;
 
 REMOVE Pl_strict IF (0 Vers) (1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
 REMOVE Pl_strict IF (0 Vers) (-1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
