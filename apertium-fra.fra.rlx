@@ -564,6 +564,9 @@ REMOVE Fin IF (0 Fin OR NP) (0 Title) (1C Fin) ;
 REMOVE Fin IF (-1C V LINK NOT 0 PP) (0 Fin OR N OR A OR PP OR Det) ;
   ## tenir compte de
 
+SELECT ("pouvoir") IF (0 ("paître")) ;
+
+
 SELECT Vbmod (0 V) (1 Inf) ;
 SELECT Vbmod (0 V) (1 Adv) (2 Inf) ;
 SELECT Vbmod (0 V) (1 Adv) (1 Adv) (3 Inf) ;
