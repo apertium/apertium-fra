@@ -1973,34 +1973,39 @@ SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;
   ## que nous n'avons pas apris
 
+REMOVE Pro IF (NOT 1 Pro OR Verb) ;
 SELECT Prep IF (0 En) (1C N OR A) ;
 SELECT Prep IF (0 En) (1C Num) ;
 SELECT Prep IF (0 En) (1 ("boucle")) ;	# rediffusé en boucle jusqu'à minuit
 SELECT Prep IF (0 En) (1 ("aider")) ;	# vient en aide
 SELECT Prep IF (-1 ("mise")) (0 En) (1 N) ;	# mise en vente
-REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);
-  ## passer en revue
-REMOVE Pro IF (0 En) (NOT 1 Verb OR Pro);
-  ## sont en Inde
+REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);	# passer en revue
+REMOVE Pro IF (0 En) (NOT 1 Verb OR Pro);	# sont en Inde
 REMOVE Pro IF (0 En) (1 ("cela") OR ("ceci"));
 REMOVE Pro IF (0 En) (1 ("équipe")) (2 De) ;
-REMOVE Pro IF (0 En) (1 Ger);
-  ## en passant
-REMOVE Pro IF (0 En) (1 Pro) (2 Ger);
-  ## en se dirigeant
-SELECT Prep IF (0 En) (-1 ("prendre")) ;
-  ## prendre en compte, prendre en consideration
-SELECT Prep IF (0 En) (-1 Verb + Pers) (1 N) (NOT 1 Ger) ;
-  ## lui donne en référence
+REMOVE Pro IF (0 En) (1 Ger);	# en passant
+REMOVE Pro IF (0 En) (1 Pro) (2 Ger);	# en se dirigeant
+SELECT Prep IF (0 En) (-1 ("prendre")) ;	# prendre en compte, prendre en consideration
+SELECT Prep IF (0 En) (-1 Verb + Pers) (1 N) (NOT 1 Ger) ;	# lui donne en référence
 SELECT Prep IF (0 En) (-2 Ser OR Haver) (-1 PP ) (1 N) (NOT 1 Ger) ;
-SELECT Prep IF (0 En) (-3 Ser OR Haver) (-2 Adv) (-1 PP ) (1 N) (NOT 1 Ger) ;
-  ## lui est donné en référence
+SELECT Prep IF (0 En) (-3 Ser OR Haver) (-2 Adv) (-1 PP ) (1 N) (NOT 1 Ger) ;	# lui est donné en référence
 SELECT Prep IF (-1 ("tomber") OR ("monter") OR ("mettre") OR ("retomber") OR ("remonter") OR ("remettre") OR ("reléguer") OR ("promouvoir")) (0 En) (NOT 1 Ger) ;
 SELECT Prep IF (-2 ("tomber") OR ("monter") OR ("mettre") OR ("retomber") OR ("remonter") OR ("remettre") OR ("reléguer") OR ("promouvoir")) (-1 Adv) (0 En) (NOT 1 Ger) ;
 SELECT Prep IF (-3 ("tomber") OR ("monter") OR ("mettre") OR ("retomber") OR ("remonter") OR ("remettre") OR ("reléguer") OR ("promouvoir")) (-2 Adv) (-1 Adv) (0 En) (NOT 1 Ger) ;
+SELECT Prep IF (-2 Ser + &&ConcordeSP) (-1 ("supérieur") + &&ConcordeSP OR ("inférieur") + &&ConcordeSP) (0 En) (1 N) ; # sont supérieurs en nombre
+SELECT Prep IF (-3 Ser + &&ConcordeSP) (-2 Adv OR PreAdv) (-1 ("supérieur") + &&ConcordeSP OR ("inférieur") + &&ConcordeSP) (0 En) (1 N) ; # sont très supérieurs en nombre ; ne sont pas supérieurs en nombre
+SELECT Prep IF (-4 Ser + &&ConcordeSP) (-3 Adv) (-2 Adv OR PreAdv) (-1 ("supérieur") + &&ConcordeSP OR ("inférieur") + &&ConcordeSP) (0 En) (1 N) ; # ne sont pas très supérieurs en nombre ; ne sont pas supérieurs en nombre
+SELECT Prep IF (-2 Ser + Inf OR Ser + Ger) (-1 ("supérieur") OR ("inférieur")) (0 En) (1 N) ; # étant supérieurs en nombre
+SELECT Prep IF (-3 Ser + Inf OR Ser + Ger) (-2 Adv OR PreAdv) (-1 ("supérieur") OR ("inférieur")) (0 En) (1 N) ; # étant très supérieurs en nombre
+SELECT Prep IF (-4 Ser + Inf OR Ser + Ger) (-3 Adv) (-2 Adv OR PreAdv) (-1 ("supérieur") OR ("inférieur")) (0 En) (1 N) ; # n'étant pas très supérieurs en nombre
+SELECT Prep IF (-3 Ser + &&ConcordeSP) (-2 ("plus") OR ("moins")) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # sont plus grands en nombre
+SELECT Prep IF (-4 Ser + &&ConcordeSP) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # ne sont pas plus grands en nombre
+SELECT Prep IF (-5 Ser + &&ConcordeSP) (-4 Adv) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # ne sont pas beaucoup plus grands en nombre
+SELECT Prep IF (-3 Ser + Inf OR Ser + Ger) (-2 ("plus") OR ("moins")) (-1 A) (0 En) (1 N) ; # étant plus grands en nombre
+SELECT Prep IF (-4 Ser + Inf OR Ser + Ger) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A) (0 En) (1 N) ; # n'étant pas plus grands en nombre
+SELECT Prep IF (-5 Ser + Inf OR Ser + Ger) (-4 Adv) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A) (0 En) (1 N) ; # n'étant pas beaucoup plus grands en nombre
 
-SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;
-	  ## peu de joueurs.
+SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;	# peu de joueurs.
 SELECT A IF (0 N OR A) (-1C Peu) (1C N) ;
 
 REMOVE Adj_PP IF (-1 Num) (0C N OR Adj_PP) (1 Prep) ;
