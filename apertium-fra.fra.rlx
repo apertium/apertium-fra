@@ -913,7 +913,10 @@ REMOVE Tn IF (0 Nous) (1C Verb) (NOT 1 P1 + Pl) ;
 REMOVE Tn IF (0 Vous) (1C Verb) (NOT 1 P2 + Pl) ;
 REMOVE Tn IF (0 Nous) (1 Pro) (2 Verb) (NOT 2 P1 + Pl) ;	# Pierre nous le dit
 REMOVE Tn IF (0 Vous) (1 Pro) (2 Verb) (NOT 2 P2 + Pl) ;	# Pierre vous le dit
-SELECT Tn (0 Pro) (1 Pro) (2 Verb) ; 		# nous vous attendons
+SELECT Tn IF (0 Nous) (1 Nous) (2 Verb) (2 P1 + Pl) ;		# nous nous levons
+SELECT Tn IF (0 Vous) (1 Vous) (2 Verb) (2 P2 + Pl) ;		# nous vous levez
+SELECT Pro (NOT -1 Prep) (0 Lui OR Leur) (1 Pro) (2 Verb) ; 	# lui en donne
+SELECT Tn (-1 EOS OR CM) (0 Pro) (1 Pro) (2 Verb) ; 		# nous vous attendons
 SELECT Tn (0 Pro) (1 Adv) (2 Pro) (3 Verb) ;	# nous ne vous attendons pas
 
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
@@ -2094,6 +2097,8 @@ REMOVE V (-2 ("crime") OR ("ligue") OR ("association") OR ("organisation") OR ("
 REMOVE V (0 Contre) (1 Det) (2 ("crime") OR ("mafia") OR ("spéculation") OR ("gouvernement") OR ("loi") OR ("constitution") OR ("femme") OR ("enfant") OR ("migrant") OR ("réfugié") OR ("population")) ;
 
 REMOVE Prep (0 Adv) (1 ("je") OR ("tu") OR ("<il>"i) OR ("<ils>"i)) ;	# après je viendrai
+
+REMOVE A (NOT -2 En OR Det) (-1C ("parler")) (NOT 2 N) ;	# celui qui parle russe vindra ; en parler local
 
 ## Ces règles ne sont pas en train de marcher
 SELECT Verb (0 Puis) (-1 Je);
