@@ -2399,7 +2399,7 @@ REMOVE Pro IF (0 Le) (NOT 1 Verb OR ("lui") OR ("leur")) ;
   ## Le chien aime jouer avec les deux enfants.
   ## je le lui donne, je le leur donne
 
-REMOVE Det IF (-1 ("<au>"i) OR ("<aux>"i) OR ("<du>"i) OR ("<des>"i)) ;
+REMOVE Det IF (-1 ("<au>"i) OR ("<aux>"i) OR ("<du>"i) OR ("<de	"i)) ;
 REMOVE Det IF (-1 Det + MascSg) (0 ("nombre de")) ;					# le nombre de maisons
 REMOVE Det IF (-2 Det + MascSg) (-1 A + MascSg) (0 ("nombre de")) ;			# un bon nombre de maisons
 REMOVE Det IF (-3 Det + MascSg) (-2 Adv_PreAdv) (-1 A + MascSg) (0 ("nombre de")) ;	# un très grand nombre de maisons
@@ -2408,11 +2408,7 @@ REMOVE Det IF (-1 BOS) (0 ("nombre de")) (1 N) (2 EOS) ;				# Nombre de conseill
 REMOVE Det IF (-1 BOS) (0 ("nombre de")) (1 A) (2 N) (2 EOS) ;
 REMOVE Det IF (-1 BOS) (0 ("nombre de")) (1 Adv_PreAdv) (2 A) (3 N) (2 EOS) ;
 
-SELECT Det IF (NOT -1/* Det + MascSg) (0 DetInd + MascSg) (1 N + MascSg) ;
-SELECT Det IF (NOT -1/* Det + FemSg) (0 DetInd + FemSg) (1 N + FemSg) ;
-SELECT Det IF (NOT -1/* Det + MascPl) (0 DetInd + MascPl) (1 N + MascPl) ;
-SELECT Det IF (NOT -1/* Det + FemPl) (0 DetInd + FemPl) (1 N + FemPl) ;
-  ## un enfant
+SELECT Det IF (NOT -1/* Det + &&ConcordeSN) (0 DetInd + &&ConcordeSN) (1 N + &&ConcordeSN) ;	# un enfant
 
 REMOVE Det IF (-1 Det + MascSg OR ("<du>"i) OR ("<au>"i)) (0 A + MascSg) (1 N + MascSg) ;
 REMOVE Det IF (-1 Det + FemSg) (0 A + FemSg) (1 N + FemSg) ;
@@ -2420,31 +2416,15 @@ REMOVE Det IF (-1 Det + MascPl OR ("<des>"i) OR ("<aux>"i)) (0 A + MascPl) (1 N 
 REMOVE Det IF (-1 Det + FemPl OR ("<des>"i) OR ("<aux>"i)) (0 A + FemPl) (1 N + FemPl) ;
   ## des diverses régions
 
-SELECT Det IF (0 DetInd + MascSg) (1 A + MascSg) ;
-SELECT Det IF (0 DetInd + FemSg) (1 A + FemSg) ;
-SELECT Det IF (0 DetInd + MascPl) (1 A + MascPl) ;
-SELECT Det IF (0 DetInd + FemPl) (1 A + FemPl) ;
-  ## un jaune
-SELECT Det IF (0 DetInd + MascSg) (1 A + MascSg) (2 N + MascSg) ;
-SELECT Det IF (0 DetInd + FemSg) (1 A + FemSg) (2 N + FemSg) ;
-SELECT Det IF (0 DetInd + MascPl) (1 A + MascPl) (2 N + MascPl) ;
-SELECT Det IF (0 DetInd + FemPl) (1 A + FemPl) (2 N + FemPl) ;
-  ## Crewdson signe un long article
-SELECT Det IF (0 DetInd + MascSg) (1 Adv_PreAdv) (2 A + MascSg) (3 N + MascSg) ;
-SELECT Det IF (0 DetInd + FemSg) (1 Adv_PreAdv) (2 A + FemSg) (3 N + FemSg) ;
-SELECT Det IF (0 DetInd + MascPl) (1 Adv_PreAdv) (2 A + MascPl) (3 N + MascPl) ;
-SELECT Det IF (0 DetInd + FemPl) (1 Adv_PreAdv) (2 A + FemPl) (3 N + FemPl) ;
-  ## Crewdson signe un trèslong article
+SELECT Det IF (0 DetInd + &&ConcordeSN) (1 A + &&ConcordeSN) ;	# un jaune
+SELECT Det IF (0 DetInd + &&ConcordeSN) (1 A + &&ConcordeSN) (2 N + &&ConcordeSN) ;	# Crewdson signe un long article
+SELECT Det IF (0 DetInd + &&ConcordeSN) (1 Adv_PreAdv) (2 A + &&ConcordeSN) (3 N + &&ConcordeSN) ;	# Crewdson signe un trèslong article
 
 SELECT Num IF (-1 ("numéro")) (0 Un);
 REMOVE Num IF (NOT -1 ("numéro")) (0 Un);
 REMOVE Det IF (0 Un) (1C Prn) ;		# une nous saute aux yeux
 
-REMOVE Det IF (-1 Noun_Adj + MascSg) (0 DetInd + MascSg) (NOT 1 Noun_Adj + MascSg) ;
-REMOVE Det IF (-1 Noun_Adj + FemSg) (0 DetInd + FemSg) (NOT 1 Noun_Adj + FemSg) ;
-REMOVE Det IF (-1 Noun_Adj + MascPl) (0 DetInd + MascPl) (NOT 1 Noun_Adj + MascPl) ;
-REMOVE Det IF (-1 Noun_Adj + FemPl) (0 DetInd + FemPl) (NOT 1 Noun_Adj + FemPl) ;
-  ## fortunes diverses
+REMOVE Det IF (-1 Noun_Adj + &&ConcordeSN) (0 DetInd + &&ConcordeSN) (NOT 1 Noun_Adj + &&ConcordeSN) ;	# fortunes diverses
 
 REMOVE Fin IF (-1C Det) ;
 
@@ -2509,6 +2489,8 @@ REMOVE N IF (-1C Top + &&ConcordeSP) (0 V + &&ConcordeSP) (1C Det) ;		# l'Europe
 REMOVE Adv IF (-1C Top + &&ConcordeSP) (0 V + &&ConcordeSP) (1C Det) ;		# l'Europe ferme son espace
 
 SELECT Verb IF (0 ("tente")) (1 De) (2 Inf) ;
+
+SELECT N IF (-1 En) (0 ("forme") OR ("signe")) (1 De) ;
 
 # ADJ OR NOM
 SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;
