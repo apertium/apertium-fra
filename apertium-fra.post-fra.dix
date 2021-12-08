@@ -600,6 +600,8 @@
       <e><p><l><b/><a/>lesdits</l><r>esdits</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>lesdites</l><r>esdites</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>e<b/>s'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>ceprn<b/></l><r>e<b/>c'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>ceprn</l><r>e<b/>ce</r></p><par n="caractere_general"/></e>
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>u<b/>nouvel<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/><a/>beau<b/></l><r>u<b/>bel<b/></r></p><par n="voyelles"/></e>
@@ -649,6 +651,8 @@
       <e><p><l><b/><a/>lesdits</l><r>auxdits</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>lesdites</l><r>auxdites</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>à<b/>s'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>ceprn<b/></l><r>à<b/>c'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>ceprn</l><r>à<b/>ce</r></p><par n="caractere_general"/></e>
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>au<b/>nouvel<b/></r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/><a/>beau<b/></l><r>au<b/>bel<b/></r></p><par n="voyelles"/></e>
@@ -718,13 +722,13 @@
       <e><p><l><a/>je<b/></l><r>j</r></p><par n="je"/></e>
       <e><p><l><a/>se<b/></l><r>s'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>de<b/><a/>ce<b/></l><r>de<b/>cet<b/></r></p><par n="voyelles"/></e>
+      <e><p><l><a/>de<b/><a/>ceprn<b/></l><r>de<b/>c'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>ce<b/></l><r>cet<b/></r></p><par n="voyelles"/></e>
-      <e><p><l><a/>ce<b/>est</l><r>c'est</r></p></e>
-      <e><p><l><a/>ce<b/>était</l><r>c'était</r></p></e>
-      <e><p><l><a/>ce<b/>étais</l><r>c'étais</r></p></e>
+      <e><p><l><a/>ceprn<b/></l><r>c'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>ce<b/><a/>nouveau<b/></l><r>ce<b/>nouvel<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>ce<b/><a/>beau<b/></l><r>ce<b/>bel<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>ce<b/></l><r>ce<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/></l><r>ce<b/></r></p></e>
       <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>que<b/><a/>à</l><r>qu'</r></p><par n="à"/></e>
       <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
