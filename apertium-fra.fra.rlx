@@ -93,9 +93,9 @@ LIST VPl3 = (vblex p3 pl) (vbser p3 pl) (vbhaver p3 pl) (vbmod p3 pl);
 
 SET ConcordeSV = Sg1 OR Sg2 OR Sg3 OR Pl1 OR Pl2 OR Pl3 ;
 
-LIST Fin = pri prs pii ifi pis cni imp ;
-LIST Fin_non_Imp = pri prs pii ifi pis cni ;
-LIST Ind = pri pii ifi ;
+LIST Fin = pri prs pii ifi pis fti cni imp ;
+LIST Fin_non_Imp = pri prs pii ifi pis fti cni ;
+LIST Ind = pri pii ifi fti ;
 LIST Subjunc = prs pis ;
 LIST Ifi = ifi ;
 LIST Pri = pri ;
