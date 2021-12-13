@@ -97,15 +97,21 @@ LIST Fin = pri prs pii ifi pis fti cni imp ;
 LIST Fin_non_Imp = pri prs pii ifi pis fti cni ;
 LIST Ind = pri pii ifi fti ;
 LIST Subjunc = prs pis ;
-LIST Ifi = ifi ;
-LIST Pri = pri ;
-LIST Pii = pii ;
-LIST Prs = prs ;
-LIST Pis = pis ;
-LIST Cni = cni ;
-LIST Inf = inf ;
-LIST Ger = ger ;
-LIST PP = pp ;
+SET Ifi = (ifi) ;
+SET Pri = (pri) ;
+SET Pii = (pii) ;
+SET Fti = (fti) ;
+SET Prs = (prs) ;
+SET Pis = (pis) ;
+SET Cni = (cni) ;
+SET Imp = (imp) ;
+SET Inf = (inf) ;
+SET Ger = (ger) ;
+SET PP = (pp) ;
+SET IfiSg3 = (ifi p3 sg) ;
+SET PriSg3 = (pri p3 sg) ;
+SET ConcordeTemps = Pri OR Prs OR Pii OR Ifi OR Pis OR Fti OR Cni OR Imp ;
+SET ConcordeTempsPers = IfiSg3 OR PriSg3 ;
 
 LIST unknown = ("\\*.*"r) ;
 LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
@@ -345,7 +351,7 @@ REMOVE Cog IF (-1 DetInd) (0 Cog) ;
 REMOVE Cog IF (-1 En) (0 Cog) ;
 REMOVE Ant IF (-1 DetDef) (0 Ant) ;
 REMOVE Ant IF (-1 DetInd) (0 Ant) ;
-REMOVE Ant IF (-1 En) (0 Ant) ;
+REMOVE Ant IF (-1 En) (0 Ant) (0 Top OR Al) ;
 REMOVE Cog IF (-1 EOS) (0 ("Remarque")) (NOT 1 CnjCoo) (NOT 1 Verb + P3 + Sg) ;
 REMOVE NP IF (-1 EOS) (0 ("Remarque")) ;
 REMOVE NP IF (-1 (<<<)) (0 ("Remarque")) ;
@@ -432,6 +438,7 @@ SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR (
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 
 SELECT N IF (0 ("<Point>"));
+SELECT A IF (-1 ("carte")) (0 ("orange")) ;
 
 REMOVE NP IF (-1 ("1er")) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
 REMOVE NP IF (-1 Num) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
@@ -2023,6 +2030,7 @@ SELECT A IF (0 ("bon")) (1C N) ;			# un bon jour
 REMOVE Interj IF (-1 (META:/-/r)) ;
 REMOVE Interj IF (0 (META:/-/r)) ;
 SELECT Interj IF (-1 BOS) (0 N) (1 CM) (1* ("!")) ;    # Bordel, xxxx!
+SELECT Interj IF (-1 BOS) (0 ("désolé") OR ("désolée")) (1 CM) ;
 SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 
 SELECT A IF (0 ("majeur")) (1 ("partie")) ;
@@ -2774,6 +2782,11 @@ SELECT Det IF (0 ("certains")) (1 N) (NOT 1 Verb + Pl + Pers) (NOT 1 Adv) ;
 SELECT N IF (-1 Num) (0 ("dixième") OR ("centième") OR ("millième")) ;
 
 REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
+SELECT &&ConcordeTemps IF (0C V) (1 CnjCoo) (2C V) (0 V + &&ConcordeTemps) (2 V + &&ConcordeTemps) ;	# elle rit et dit
+SELECT &&ConcordeTemps IF (-2C V) (-1 CnjCoo) (0C V) (-2 V + &&ConcordeTemps) (0 V + &&ConcordeTemps) ;	# elle rit et dit
+SELECT &&ConcordeTempsPers IF (-2C V) (-1 CnjCoo) (0C V) (-2 V + &&ConcordeTempsPers) (0 V + &&ConcordeTempsPers) ;	# elle rit et dit
+SELECT V + &&ConcordeTempsPers IF (-2 V + &&ConcordeTempsPers) (0 V + &&ConcordeTempsPers) ;	# elle rit et dit
+#SELECT Det + &&ConcordeSN IF (-1 BOS OR CM) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN) ;
 
 #
 # Pour éviter la traduction (partielle) de toponymes (s'ils ne sont pas déjà sur les dicos)
