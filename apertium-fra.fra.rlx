@@ -888,6 +888,9 @@ REMOVE Ifi IF (-4C V) (-3 CnjCoo) (-2 Pro OR Adv) (-1 Pro) (0 V) (-4 V + &&Conco
 REMOVE Pri IF (0C V) (1 CnjCoo) (2 Pro OR Adv) (3 Pro) (4C V) (0 V + &&ConcordeSV) (4 V + &&ConcordeSV) (NOT 4 Pri) ;	# elle me le dit et le lui fit ; elle le dit et ne le fit
 REMOVE Ifi IF (0C V) (1 CnjCoo) (2 Pro OR Adv) (3 Pro) (4C V) (0 V + &&ConcordeSV) (4 V + &&ConcordeSV) (NOT 4 Ifi) ;
 
+REMOVE Ifi IF (0 Pri) (0 Ifi) (*1C CnjSub LINK 1* Fti) ;		# il prédit que la Terre passera
+REMOVE Pri IF (0 Pri) (0 Ifi) (*1C CnjSub LINK 1* Cni) ;		# il prédit que la Terre passerait
+
 REMOVE Ifi + &&ConcordeSV IF (0 V + Pri + &&ConcordeSV) (0 V + Ifi + &&ConcordeSV) (NOT 0 P3) ;		# on élimine P1 + ifi et P2 + ifi si on trouve mieux
 
 REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (*-1C V + Pri) ;
