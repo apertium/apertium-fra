@@ -455,6 +455,7 @@ SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
 
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+SELECT Ant_Cog IF (0 Cog OR Ant) (1 Ant_Cog) (NOT 0 ("Rue")) ;		# . Manuel Garcia
 REMOVE NP + Sg_strict OR Cog IF (-1 BOS) (0 Pl) (1C Verb + Pl) ;		# Tous ont mangé
 REMOVE NP + Pl_strict IF (-1 BOS) (0 Sg) (1C Verb + Sg) ;
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
