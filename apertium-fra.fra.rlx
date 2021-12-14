@@ -868,12 +868,36 @@ REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + &&ConcordeSV) (-1* Pri + &&ConcordeSV) 
 #REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Sg) (-1* Pri + P3 + Sg) ;
 #REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Pl) (-1* Pri + P3 + Pl) ;		# Les deux juristes constatent que le Brexit a engendré la plus grande perte de droits pour l’ensemble des citoyens européens et *proposent* des solutions
 
+# Pri ou Ifi 
 REMOVE Ifi (0 Pri) (1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ; # L'église subit actuellement des travaux
 REMOVE Ifi (0 Pri) (-1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ;
 
-REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (*0C Pri) ;
-REMOVE Ifi (0 Pri + P3 + Sg) (0 Ifi + P3 + Sg) (**-1C Pri) ;	# VÉRIFIER: Cette règle ne semble pas marcher
-  ## Il s'agit
+REMOVE PP IF (-2C V) (-1 CnjCoo) (0C V) (-2 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -2 PP) ;	# elle rit et dit
+REMOVE Pri IF (-2C V) (-1 CnjCoo) (0C V) (-2 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -2 Pri) ;	# elle le fit et dit
+REMOVE Ifi IF (-2C V) (-1 CnjCoo) (0C V) (-2 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -2 Ifi) ;
+REMOVE Pri IF (0C V) (1 CnjCoo) (2C V) (0 V + &&ConcordeSV) (2 V + &&ConcordeSV) (NOT 2 Pri) ;	# elle rit et fit
+REMOVE Ifi IF (0C V) (1 CnjCoo) (2C V) (0 V + &&ConcordeSV) (2 V + &&ConcordeSV) (NOT 2 Ifi) ;
+REMOVE PP IF (-3C V) (-2 CnjCoo) (-1 Pro OR Adv) (0 V) (-3 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -3 PP) ;	# elle le fit et me dit ; elle le fit et ne dit rien
+REMOVE Pri IF (-3C V) (-2 CnjCoo) (-1 Pro OR Adv) (0 V) (-3 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -3 Pri) ;	# elle le fit et me dit ; elle le fit et ne dit rien
+REMOVE Ifi IF (-3C V) (-2 CnjCoo) (-1 Pro OR Adv) (0 V) (-3 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -3 Ifi) ;
+REMOVE Pri IF (0C V) (1 CnjCoo) (2 Pro) (3C V) (0 V + &&ConcordeSV) (3 V + &&ConcordeSV) (NOT 3 Pri) ;	# elle me le dit et le fit
+REMOVE Ifi IF (0C V) (1 CnjCoo) (2 Pro) (3C V) (0 V + &&ConcordeSV) (3 V + &&ConcordeSV) (NOT 3 Ifi) ;
+REMOVE PP IF (-4C V) (-3 CnjCoo) (-2 Pro OR Adv) (-1 Pro) (0 V) (-4 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -4 PP) ;	# elle le fit et me le dit ; elle le fit et ne le dit
+REMOVE Pri IF (-4C V) (-3 CnjCoo) (-2 Pro OR Adv) (-1 Pro) (0 V) (-4 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -4 Pri) ;	# elle le fit et me le dit
+REMOVE Ifi IF (-4C V) (-3 CnjCoo) (-2 Pro OR Adv) (-1 Pro) (0 V) (-4 V + &&ConcordeSV) (0 V + &&ConcordeSV) (NOT -4 Ifi) ;
+REMOVE Pri IF (0C V) (1 CnjCoo) (2 Pro OR Adv) (3 Pro) (4C V) (0 V + &&ConcordeSV) (4 V + &&ConcordeSV) (NOT 4 Pri) ;	# elle me le dit et le lui fit ; elle le dit et ne le fit
+REMOVE Ifi IF (0C V) (1 CnjCoo) (2 Pro OR Adv) (3 Pro) (4C V) (0 V + &&ConcordeSV) (4 V + &&ConcordeSV) (NOT 4 Ifi) ;
+
+REMOVE Ifi + &&ConcordeSV IF (0 V + Pri + &&ConcordeSV) (0 V + Ifi + &&ConcordeSV) (NOT 0 P3) ;		# on élimine P1 + ifi et P2 + ifi si on trouve mieux
+
+REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (*-1C V + Pri) ;
+REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (*1C V + Pri) ;
+REMOVE Pri + P3 IF (0 Pri + P3) (0 Ifi + P3) (*-1C Ifi) ;
+REMOVE Pri + P3 IF (0 Pri + P3) (0 Ifi + P3) (*1C Ifi) ;
+REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (*-1C Pri) ;
+REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (*1C Pri) ;
+REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (<*-1C V + Pri) ;
+REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (>*1C V + Pri) ;
 
 REMOVE Ifi (-1 ("autrement")) (0 ("dire") + PP) ;
 
@@ -2782,10 +2806,7 @@ SELECT Det IF (0 ("certains")) (1 N) (NOT 1 Verb + Pl + Pers) (NOT 1 Adv) ;
 SELECT N IF (-1 Num) (0 ("dixième") OR ("centième") OR ("millième")) ;
 
 REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
-SELECT &&ConcordeTemps IF (0C V) (1 CnjCoo) (2C V) (0 V + &&ConcordeTemps) (2 V + &&ConcordeTemps) ;	# elle rit et dit
-SELECT &&ConcordeTemps IF (-2C V) (-1 CnjCoo) (0C V) (-2 V + &&ConcordeTemps) (0 V + &&ConcordeTemps) ;	# elle rit et dit
-SELECT &&ConcordeTempsPers IF (-2C V) (-1 CnjCoo) (0C V) (-2 V + &&ConcordeTempsPers) (0 V + &&ConcordeTempsPers) ;	# elle rit et dit
-SELECT V + &&ConcordeTempsPers IF (-2 V + &&ConcordeTempsPers) (0 V + &&ConcordeTempsPers) ;	# elle rit et dit
+
 #SELECT Det + &&ConcordeSN IF (-1 BOS OR CM) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN) ;
 
 #
