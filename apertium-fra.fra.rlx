@@ -786,9 +786,12 @@ REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
 # subjonctif après "que"
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 	# Compte: quiero decirle que me parece muy bien
-SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
+SELECT Subjunc (*-1 ("bien que") OR ("malgré que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER CM OR Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
+#SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER CM OR Cnj_Rel_End) (0C Verb) ;
+REMOVE Pri (*-1 ("bien que") OR ("malgré que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End OR CM) (0 Verb + Prs) ;
+
 #SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") BARRIER Cnj_Rel_End) (*-1 VerbSubj) (0C Verb) ;
-SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End) (0C Verb) ;
+#SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End OR CM) (0C Verb) ;
 
 	# Bien que ces trois royaumes aient été réunis par l'empereur Wudi, les barbares Wuhu ravagent le pays
 REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
@@ -807,7 +810,7 @@ SELECT Subjunc (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 Que) (0C Verb) ;
 REMOVE Subjunc (-1 Tn OR ("on")) (0 Verb) (1 Que + CnjSub) ;
 	# on considère que
 REMOVE Subjunc (-2 Tn OR ("on")) (-1 Pro) (0 Verb) (1 Que + CnjSub) ;
-REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("bien que") OR ("avant que") OR ("après que") OR ("afin que")) (0 Verb) ;
+REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("pour que") OR ("bien que") OR ("malgré que") OR ("avant que") OR ("après que") OR ("afin que")) (0 Verb) ;
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End LINK -1 ("sans")) (0C Verb) ;	# sans que le verdict change
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End LINK -1 ("falloir")) (0C Verb) ;	# il faut que le verdict change
 REMOVE Subjunc (*-1 Que + Rel OR Qui + Rel BARRIER Verb LINK NOT -1 ("sans") OR ("falloir")) (0 Verb) ;
@@ -2205,23 +2208,15 @@ REMOVE PreAdv IF (-3 ("me")) (-2 Ser + P1 + Sg) (-1 Adv) (0 Adv OR PreAdv) (1 PP
 REMOVE PreAdv IF (-3 ("te")) (-2 Ser + P1 + Sg) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;
 REMOVE PreAdv IF (-3C ("nous") + Pro) (-2 Ser + P1 + Pl) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;
 REMOVE PreAdv IF (-3C ("vous") + Pro) (-2 Ser + P2 + Pl) (-1 Adv) (0 Adv OR PreAdv) (1 PP) ;
-REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;
-  ## on fait bien
-REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep OR Pour) ;
-  ## c'est bien de
-REMOVE PreAdv IF (0 Adv OR PreAdv) (1C V LINK NOT 0 PP) ;
-  ## c'est bien regarder des choses
-REMOVE PreAdv IF (-1 Ser) (0 Adv OR PreAdv) (1C Adv) ;
-  ## il est bien aujourd'jui
-REMOVE PreAdv IF (-2 Ser) (-1 ("pas")) (0 Adv OR PreAdv) (1C Adv) ;
-  ## il n'est pas bien aujourd'jui
-REMOVE PreAdv IF (-1 V) (0 Adv OR PreAdv) (1 Det) (2 N) ;
-  ## ils ne savaient pas bien leur rôle
-REMOVE PreAdv IF (-2 V) (-1 ("pas")) (0 Adv OR PreAdv) (1 Det) (2 N) ;
-  ## ils savaient bien leur rôle
-REMOVE PreAdv IF (NOT 1 A OR PP OR Adv OR PreAdv) ;
-  ## le bien et le mal
-  ## fort peu peuplé
+REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;	# on fait bien
+REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep OR Pour) ;	# c'est bien de
+REMOVE PreAdv IF (0 Adv OR PreAdv) (1C V LINK NOT 0 PP) ;	# c'est bien regarder des choses
+REMOVE PreAdv IF (-1 Ser) (0 Adv OR PreAdv) (1C Adv) ;	# il est bien aujourd'jui
+REMOVE PreAdv IF (-2 Ser) (-1 ("pas")) (0 Adv OR PreAdv) (1C Adv) ;	# il n'est pas bien aujourd'jui
+REMOVE PreAdv IF (-1 V) (0 Adv OR PreAdv) (1 Det) (2 N) ;	# ils ne savaient pas bien leur rôle
+REMOVE PreAdv IF (-2 V) (-1 ("pas")) (0 Adv OR PreAdv) (1 Det) (2 N) ;	# ils savaient bien leur rôle
+REMOVE PreAdv IF (NOT 1 A OR PP OR Adv OR PreAdv) ;	# le bien et le mal ; fort peu peuplé
+REMOVE PreAdv IF (1 ("ne") OR ("pas")) ;
 
 SELECT Adv IF (0 ("aussi")) (1 A OR PP OR Adv);
 SELECT PreAdv IF (0C Adv_PreAdv) (1 A OR PP OR Adv);
@@ -2542,6 +2537,18 @@ SELECT A IF (-1C N + FemPl) (0C N OR A + FemPl) (1 unknown) ;
 
 SELECT N + Masc IF (-1 ("femme")) (0 ("politique") OR ("médecin")) ;
 SELECT N + Masc IF (-1 ("femme")) (0 ("pilote")) (NOT 1 Det OR Adv) ;
+
+REMOVE N IF (-1C ("être") + &&ConcordeSP) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# sont acides ; est directeur sportif
+SELECT PP IF (-1C ("être") + &&ConcordeSP) (0 ("<élu>"i) + ConcordeSP) ;	# est élu premier ministre
+SELECT N IF (-1C ("être") + &&ConcordeSP) (0 A + ConcordeSP LINK NOT 0 Adv_PreAdv) (1 A + ConcordeSP) ;	# est directeur sportif
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# sont acides
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1C N + ConcordeSP) ;	# est directeur sportif
+REMOVE N IF (-2C ("être") + &&ConcordeSP) (-1 Adv_PreAdv) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# sont bien acides
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 Adv_PreAdv) (2 A + ConcordeSP) (NOT 3 A + ConcordeSP) ;	# sont bien acides
+SELECT PreAdv IF (-1C ("être") + &&ConcordeSP) (0 Adv_PreAdv) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# sont bien acides
+REMOVE N IF (-3C ("être") + &&ConcordeSP) (-2 Adv) (-1 Adv_PreAdv) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# ne sont pas bien acides
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 Adv) (2 Adv_PreAdv) (3 A + ConcordeSP) (NOT 4 A + ConcordeSP) ;	# ne sont pas bien acides
+SELECT PreAdv IF (-2C ("être") + &&ConcordeSP) (-1 Adv) (0 Adv_PreAdv) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# ne sont pas bien acides
 
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C N + MascSg) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C N + MascPl) ;
