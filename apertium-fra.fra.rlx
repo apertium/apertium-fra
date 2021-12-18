@@ -178,6 +178,7 @@ LIST Fonder = "fonder" ;
 LIST Tour = "tour" ;
 LIST Foudre = "foudre" ;
 LIST Mort = "mort" ;
+LIST Beigne = "beigne" ;
 LIST Cave = "cave" ;
 LIST Claque = "claque" ;
 LIST Livre = "livre" ;
@@ -788,6 +789,7 @@ SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C V
 SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 #SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") BARRIER Cnj_Rel_End) (*-1 VerbSubj) (0C Verb) ;
 SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End) (0C Verb) ;
+
 	# Bien que ces trois royaumes aient été réunis par l'empereur Wudi, les barbares Wuhu ravagent le pays
 REMOVE Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
 #REMOVE Subjunc (*-1 ("lorsque") OR ("puisque") OR ("parce que") OR ("pendant que") BARRIER Cnj_Rel_End) (*-1 VerbInd LINK NOT 1 Inf) (0C Verb) (0 Pri) ;
@@ -1022,8 +1024,7 @@ SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1 A + Mf) (2C N + Mf) (3 CM
 SELECT Det + &&ConcordeSN IF (0 Det + &&ConcordeSN) (1 A + Mf) (2C N + Mf) (3 Ant + &&ConcordeSN) ;
 
 
-SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;
-  ## la vallée des roses
+SELECT Fem IF (0 Rose + Pl) (NOT 1 Masc_strict) ;	# la vallée des roses
 
 SELECT N IF (0 Roue) (NOT -1 ("il") OR ("elle") OR ("on") OR Ant_Cog) ;
 
@@ -1269,6 +1270,8 @@ SELECT Fem OR V IF (NOT -1/* Masc_strict OR N) (0 Critique + Masc) (NOT 1 Masc_s
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Marine + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Foudre + Masc) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Beigne + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
 
