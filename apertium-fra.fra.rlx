@@ -2538,8 +2538,9 @@ SELECT A IF (-1C N + FemPl) (0C N OR A + FemPl) (1 unknown) ;
 SELECT N + Masc IF (-1 ("femme")) (0 ("politique") OR ("médecin")) ;
 SELECT N + Masc IF (-1 ("femme")) (0 ("pilote")) (NOT 1 Det OR Adv) ;
 
-REMOVE N IF (-1C ("être") + &&ConcordeSP) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# sont acides ; est directeur sportif
 SELECT PP IF (-1C ("être") + &&ConcordeSP) (0 ("<élu>"i) + ConcordeSP) ;	# est élu premier ministre
+SELECT N IF (-1C ("être") + &&ConcordeSP) (0 ("directeur") + ConcordeSP) ;
+REMOVE N IF (-1C ("être") + &&ConcordeSP) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# sont acides ; est directeur sportif
 SELECT N IF (-1C ("être") + &&ConcordeSP) (0 A + ConcordeSP LINK NOT 0 Adv_PreAdv) (1 A + ConcordeSP) ;	# est directeur sportif
 SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# sont acides
 SELECT Ser IF (0C ("être") + &&ConcordeSP) (1C N + ConcordeSP) ;	# est directeur sportif
