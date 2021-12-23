@@ -1074,14 +1074,9 @@ SELECT N IF (0 ("fin")) (1 Mois) ;
 
 SELECT N IF (-1 (META:/-/r)) (0 ("baillon")) ;
 
-REMOVE V IF (-1 AdjOrd + MascSg) (0 N + MascSg) ; # le dernier voyage
-REMOVE V IF (-1 AdjOrd + MascPl) (0 N + MascPl) ;
-REMOVE V IF (-1 AdjOrd + FemSg) (0 N + FemSg) ;
-REMOVE V IF (-1 AdjOrd + FemPl) (0 N + FemPl) ;
-SELECT A IF (-1/* Det + MascSg) (0 AdjOrd + MascSg) (1 N + MascSg) ; # le second voyage
-SELECT A IF (-1/* Det + MascPl) (0 AdjOrd + MascPl) (1 N + MascPl) ;
-SELECT A IF (-1/* Det + FemSg) (0 AdjOrd + FemSg) (1 N + FemSg) ;
-SELECT A IF (-1/* Det + FemPl) (0 AdjOrd + FemPl) (1 N + FemPl) ;
+REMOVE V IF (-1 AdjOrd + &&ConcordeSN) (0 N + &&ConcordeSN) ; # le dernier voyage
+SELECT A IF (-1/* Det + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (1 N + &&ConcordeSN) ; # le second voyage
+SELECT A IF (-1/* Det + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (1 AdjPre + &&ConcordeSN) (2 N + &&ConcordeSN) ; # les premières grandes élections
 
 REMOVE Ouvrer IF (0 Ouvrir OR Ouvrer) ;
 
@@ -2595,6 +2590,8 @@ SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + FemSg) (-1C A + F
 SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + MascPl) (-1C A + MascPl) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN) ;
 SELECT N IF (-3 Barrera_Inicial_SN LINK NOT 0 Verb) (-2C Det + FemPl) (-1C A + FemPl) (0 Noun_Adj_PP + FemPl LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN) ;
 
+SELECT A IF (-2/* Det + &&ConcordeSN) (-1 AdjOrd + &&ConcordeSN) (0 AdjPre + &&ConcordeSN) (1 N + &&ConcordeSN) ; # les premières grandes élections
+SELECT N IF (-3/* Det + &&ConcordeSN) (-2 AdjOrd + &&ConcordeSN) (-1 AdjPre + &&ConcordeSN) (0 N + &&ConcordeSN) ; # les premières grandes élections
 SELECT N IF (-2/* Det + MascSg) (-1 AdjPre + MascSg OR AdjOrd + MascSg ) (0 N + MascSg) ;
 SELECT N IF (-2/* Det + FemSg) (-1 AdjPre + FemSg OR AdjOrd + FemSg ) (0 N + FemSg) ;	# la seule partie bilingue
 SELECT N IF (-2/* Det + MascPl) (-1 AdjPre + MascPl OR AdjOrd + MascPl ) (0 N + MascPl) ;
