@@ -1548,6 +1548,10 @@ SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;
 SELECT CnjSub IF (-2 ("tel")) (0 Que) ;
   ## tels que
 
+SELECT Adv IF (0 ("aussi")) (1 A OR PP OR Adv) (NOT 2 Que) ;
+SELECT CnjAdv IF (-2 ("aussi")) (-1 A OR PP OR Adv) (0 Que) ;
+REMOVE CnjAdv IF (NOT -2 ("aussi")) (0 Que) ;
+
 SELECT Rel IF (-1 CM) (0 Que OR Qui OR Où) ;
 SELECT Rel IF (-1C N) (0 Que OR Qui OR Où) (NOT -1* Ne) ;
 SELECT Rel IF (-1C NP OR unknownMajIni) (0 Que OR Qui OR Où) (NOT -1* Ne) ;
@@ -2216,11 +2220,11 @@ REMOVE PreAdv IF (-2 V) (-1 ("pas")) (0 Adv OR PreAdv) (1 Det) (2 N) ;	# ils sav
 REMOVE PreAdv IF (NOT 1 A OR PP OR Adv OR PreAdv) ;	# le bien et le mal ; fort peu peuplé
 REMOVE PreAdv IF (1 ("ne") OR ("pas")) ;
 
-SELECT Adv IF (0 ("aussi")) (1 A OR PP OR Adv);
 SELECT PreAdv IF (0C Adv_PreAdv) (1 A OR PP OR Adv);
 REMOVE N IF (-1 PreAdv) (0 A OR PP OR N);
 REMOVE Adv IF (-1 PreAdv) (0 A OR PP OR Adv);
 REMOVE PreAdv IF (-1 PreAdv) (0 A OR PP OR PreAdv) (NOT 1 A OR PP) ;
+
 
 SELECT PostAdv IF (-1 (META:/-/r)) ;
 REMOVE PostAdv IF (NOT -1 (META:/-/r)) ;
