@@ -360,6 +360,9 @@ SELECT N IF (-1 EOS) (0 ("Remarque")) ;
 REMOVE Cog IF (-1 (sent)) (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("Remarque")) ;
 
+REMOVE N + Sg IF (-1 BOS) (0 NP) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
+REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser  BARRIER (":") OR EOS) ;		# Fred es mort
+
 SELECT NP IF (0 N OR NP) (1 NP) (0 (META:/-/r)) (NOT 0 ("bas") OR ("haut")) ;	# Pierre-Michel
 SELECT Ant IF (0 Ant) (1C Ant) (0 (META:/-/r)) ;				# Jean-René
 SELECT Ant IF (-1C Ant) (0 Ant) (-1 (META:/-/r)) ;
