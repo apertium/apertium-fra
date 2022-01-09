@@ -361,7 +361,7 @@ REMOVE Cog IF (-1 (sent)) (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("Remarque")) ;
 
 REMOVE N + Sg IF (-1 BOS) (0 NP) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
-REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser  BARRIER (":") OR EOS) ;		# Fred es mort
+REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser  BARRIER (":") OR EOS) ;	# Fred es mort
 
 SELECT NP IF (0 N OR NP) (1 NP) (0 (META:/-/r)) (NOT 0 ("bas") OR ("haut")) ;	# Pierre-Michel
 SELECT Ant IF (0 Ant) (1C Ant) (0 (META:/-/r)) ;				# Jean-René
@@ -1760,6 +1760,8 @@ SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Ne) (-1 Pro) (0 VSg3);		# Ell
 SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Pro) (-1 Pro) (0 VSg3);		# Elle lui en parle
 SELECT P3 IF (-4 Il + Sg OR On OR ToutLeMonde) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);	# Elle ne lui en parle pas
 SELECT P3 IF (-1 BOS) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;				# Elle est mon chef
+REMOVE NP IF (-1 BOS) (0 ("Elles")) (1* Verb + P3 + Pl) ;
+
 
 SELECT P3 IF (-2 EOS OR Cm) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
 SELECT P3 IF (-3 EOS OR Cm) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
