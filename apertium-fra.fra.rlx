@@ -577,8 +577,8 @@ REMOVE Verb IF (-2 Haver) (NOT -1 Adv_PreAdv) (0 ("parfaire") + PP) ;
 #REMOVE Verb + Pers IF (1C* Verb + Pers) ;					# ne marche pas du tout
 REMOVE Verb + P3 IF (NOT -1 ("il")) (0 ("parfait")) ; 		# Provisionnel !!!
 
-SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;
-  ## Ils n'ont pas pu jouer dehors.
+SELECT Adv IF (0 Pas) (-1 V LINK -1 Ne) ;	# Ils n'ont pas pu jouer dehors.
+SELECT Adv IF (0 Pas) (-2 V LINK -1 Ne) (-1 Tn) ;	# Ne sortirent-ils pas ?
 
 REMOVE Fin IF (0 Fin OR NP) (0 Title) (1C Fin) ;
   ## Marie pense qu'elle a vu où Jean est allé
