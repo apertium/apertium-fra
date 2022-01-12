@@ -449,6 +449,7 @@ REMOVE Top IF (0 Ant OR Cog) (1 Ant OR Cog) ;
 
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
 	## Sais-tu
+
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
 
@@ -470,6 +471,7 @@ SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
 
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
+SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) ;	# la ligne A ; Charles V
 SELECT Ant_Cog IF (0 Cog OR Ant) (1 Ant_Cog) (NOT 0 ("Rue")) ;		# . Manuel Garcia
 REMOVE NP + Sg_strict OR Cog IF (-1 BOS) (0 Pl) (1C Verb + Pl) ;		# Tous ont mangé
 REMOVE NP + Pl_strict IF (-1 BOS) (0 Sg) (1C Verb + Sg) ;
