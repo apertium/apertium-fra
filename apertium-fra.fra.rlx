@@ -114,10 +114,10 @@ SET ConcordeTemps = Pri OR Prs OR Pii OR Ifi OR Pis OR Fti OR Cni OR Imp ;
 SET ConcordeTempsPers = IfiSg3 OR PriSg3 ;
 
 LIST unknown = ("\\*.*"r) ;
-LIST unknownMajIni = ("\\*[A-ZÀÁÈÉíÒÓÚÜÇ].*"r) ;
-LIST MajIni = ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÚÜÛÇ].*\\>"r) ;
-LIST Majusc = ("\\<[A-ZÉÈÊ][A-ZÂÉÈÊÎÔÛ]*>"r) ;
-LIST MinIni = ("\\<[a-zàáäâèéëêíïîòóöôúüûç].*\\>"r) ;
+LIST unknownMajIni = ("\\*[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÚÙÜÛÇ].*"r) ;
+LIST MajIni = ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÚÙÜÛÇ].*\\>"r) ;
+LIST Majusc = ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÙÚÜÛÇ][A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÙÚÜÛÇ]*>"r) ;
+LIST MinIni = ("\\<[a-zàáäâèéëêíïîòóöôùúüûç].*\\>"r) ;
 LIST ConsInitiale = ("\\<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r) ;
 LIST siecles_nom_romains = ("[IVX][IVX]*"r) ;
 LIST NumOrd = "[1-9][0-9]*ème"r ;
@@ -471,7 +471,8 @@ SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
 
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
-SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) ;	# la ligne A ; Charles V
+SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) (NOT -1 Majusc) ;	# la ligne A ; Charles V
+
 SELECT Ant_Cog IF (0 Cog OR Ant) (1 Ant_Cog) (NOT 0 ("Rue")) ;		# . Manuel Garcia
 REMOVE NP + Sg_strict OR Cog IF (-1 BOS) (0 Pl) (1C Verb + Pl) ;		# Tous ont mangé
 REMOVE NP + Pl_strict IF (-1 BOS) (0 Sg) (1C Verb + Sg) ;
