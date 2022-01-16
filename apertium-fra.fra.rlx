@@ -340,6 +340,10 @@ SELECT N IF (-4C NoteMusicale) (-3 CM) (-2C NoteMusicale) (1 CM) (0 NoteMusicale
 REMOVE N IF (0 ("la")) ;
 REMOVE N IF (0 Si) ;
 
+REMOVE Top IF (-1 BOS) (0 ("<Les>")) ;
+REMOVE Top IF (0 ("<Les>")) (1 N + Pl OR A + Pl OR NP + Pl OR Num OR unknown) ;
+REMOVE Top IF (0 ("<Les>")) (1 Adv_PreAdv) (2 N + Pl OR A + Pl) ;
+
 SELECT N IF (0 ("radio")) (0 (META:/-/r)) (1 ("télévision")) ;
 SELECT Pref IF (0 Pref) (0 (META:/-/r)) (1 N OR A OR Verb) ;
 REMOVE Pref ;
