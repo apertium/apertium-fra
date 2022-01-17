@@ -194,6 +194,7 @@ LIST Rade = "rade" ;
 LIST Solde = "solde" ;
 LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
+LIST Ranger = "ranger" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
 LIST Relache = "relâche" ;
@@ -1313,9 +1314,20 @@ SELECT Fem IF (-2 ("manger") OR ("servir")) (-1/* Det OR Num OR De LINK NOT 0 Ma
 SELECT Fem IF (0 Moule) (1 ("manger") + PP OR ("servir") + PP LINK NOT 0 Masc_strict) ;
 
 SELECT Masc IF (0 Basket + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
-SELECT Masc IF (0 ("<Basket>")) ;
-SELECT Masc IF (0 Tennis) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
-SELECT Masc IF (0 ("<Tennis>")) ;
+SELECT Fem IF (0 Basket) (-1/* Det + Fem_strict) ;
+SELECT Fem IF (0 Basket) (1C A + Fem_strict) ;
+SELECT Fem IF (-2 ("mettre") OR ("porter")) (-1/* Det OR ("<des>"i)) (0 Basket) ;
+SELECT Masc IF (0 Basket) ;
+SELECT Masc IF (0 Tennis + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Fem IF (0 Tennis) (-1/* Det + Fem_strict) ;
+SELECT Fem IF (0 Tennis) (1C A + Fem_strict) ;
+SELECT Fem IF (-2 ("mettre") OR ("porter")) (-1/* Det OR ("<des>"i)) (0 Tennis) ;
+SELECT Masc IF (0 Tennis) ;
+SELECT Masc IF (0 Ranger + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Fem IF (0 Ranger) (-1/* Det + Fem_strict) ;
+SELECT Fem IF (0 Ranger) (1C A + Fem_strict) ;
+SELECT Fem IF (-2 ("mettre") OR ("porter")) (-1/* Det OR ("<des>"i)) (0 Ranger) ;
+SELECT Masc IF (0 Ranger) ;
 
 SELECT N IF (0 ("édition")) (1 MajIni OR unknownMajIni) ;	# éditions Larousse
 
