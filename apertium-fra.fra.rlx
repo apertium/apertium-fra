@@ -2233,7 +2233,8 @@ REMOVE PreAdv IF (-3C ("vous") + Pro) (-2 Ser + P2 + Pl) (-1 Adv) (0 Adv OR PreA
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1 EOS OR CM) ;	# on fait bien
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1C Prep OR Pour) ;	# c'est bien de
 REMOVE PreAdv IF (0 Adv OR PreAdv) (1C V LINK NOT 0 PP) ;	# c'est bien regarder des choses
-REMOVE PreAdv IF (-1 Ser) (0 Adv OR PreAdv) (1C Adv) ;	# il est bien aujourd'jui
+SELECT PreAdv IF (-1 Ser + &&ConcordeSP) (0 ("bien")) (1 ("plus") OR ("moins")) (2 A + &&ConcordeSP) ;	# est bien plus grave
+REMOVE PreAdv IF (-1 Ser) (0 Adv OR PreAdv) (1C Adv) ;	# il est bien aujourd'hui
 REMOVE PreAdv IF (-2 Ser) (-1 ("pas")) (0 Adv OR PreAdv) (1C Adv) ;	# il n'est pas bien aujourd'jui
 REMOVE PreAdv IF (-1 V) (0 Adv OR PreAdv) (1 Det) (2 N) ;	# ils ne savaient pas bien leur rôle
 REMOVE PreAdv IF (-2 V) (-1 ("pas")) (0 Adv OR PreAdv) (1 Det) (2 N) ;	# ils savaient bien leur rôle
