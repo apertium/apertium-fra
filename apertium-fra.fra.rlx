@@ -2769,6 +2769,7 @@ REMOVE V IF (-2C Verb LINK NOT 0 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN
 REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# j'ai tenu le rythme
 
 SELECT V IF (0 ("<court>"i)) (1 ("à") OR ("vers") OR ("chez")) ;	# le débat démocratique court à sa perte
+SELECT N IF (0 ("<Cercle>")) ;	
 
 # A OR PP
 
