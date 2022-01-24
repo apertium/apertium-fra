@@ -365,6 +365,8 @@ SELECT N IF (-1 EOS) (0 ("Remarque")) ;
 REMOVE Cog IF (-1 (sent)) (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("Remarque")) ;
 
+REMOVE Cog IF (0 ("Nouveau")) (0 (META:/-/r)) ;		# Nouveau-Mexique
+
 REMOVE N + Sg IF (-1 BOS) (0 NP) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
 REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser  BARRIER (":") OR EOS) ;	# Fred es mort
 
