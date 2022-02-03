@@ -1897,7 +1897,7 @@ SELECT Tn IF (-1 VSg2) (-1 (META:/-/r)) (0 Tu) ;	# as-tu
 SELECT Tn IF (-1 VSg2) (0 ("<-tu>"i)) ;				# as-tu
 
 SELECT PP IF (-1 Haver) (0 PP) ;	# Vous avez dit
-SELECT PP IF (-2 Haver) (-1C Adv) (0 PP) ;	# Vous avez toujours dit
+SELECT PP IF (-2 Haver) (-1C Adv OR ("pas")) (0 PP) ;	# Vous avez toujours dit
 SELECT Sg IF (-1 Ser + Sg) (0 PP + Sg) (NOT -2 Haver) ;	# est pris
 SELECT Pl IF (-1 Ser + Pl) (0 PP + Pl) (NOT -2 Haver) ;	# sont pris
 SELECT Sg IF (-2 Ser + Sg) (-1 Adv) (0 PP + Sg) (NOT -3 Haver) ;	# n'est pas pris
