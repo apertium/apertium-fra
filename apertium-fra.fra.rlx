@@ -994,13 +994,21 @@ SELECT A IF (-1 Ser + &&ConcordeSP) (0 ("proche") + &&ConcordeSP) ;
 
 REMOVE Pl_strict IF (0C N + Masc + Pl_strict OR N + MascSg) (1C A + Masc + Sg_strict) ; # fils aîné
 REMOVE Pl_strict IF (0C N + Fem + Pl_strict OR N + FemSg) (1C A + Fem + Sg_strict) ;
+REMOVE Pl_strict IF (0C N + Masc + Pl_strict OR N + MascSg) (1 PreAdv OR Adv) (2C A + Masc + Sg_strict) ;
+REMOVE Pl_strict IF (0C N + Fem + Pl_strict OR N + FemSg) (1 PreAdv OR Adv) (2C A + Fem + Sg_strict) ;
 REMOVE Sg_strict IF (0C N + Masc + Sg_strict OR N + MascSg) (1C A + Masc + Pl_strict) ;
 REMOVE Sg_strict IF (0C N + Fem + Sg_strict OR N + FemSg) (1C A + Fem + Pl_strict) ;
+REMOVE Sg_strict IF (0C N + Masc + Sg_strict OR N + MascSg) (1 PreAdv OR Adv) (2C A + Masc + Pl_strict) ;
+REMOVE Sg_strict IF (0C N + Fem + Sg_strict OR N + FemSg) (1 PreAdv OR Adv) (2C A + Fem + Pl_strict) ;
 REMOVE Pl_strict IF (0 Noun_Adj + Masc + Pl_strict) (0 Noun_Adj + MascPl) (-1/* Det + Masc + Sg_strict) (NOT -1/* Det + MascPl) ;	# le fils
 REMOVE Pl_strict IF (0 Noun_Adj + Fem + Pl_strict) (0 Noun_Adj + FemPl) (-1/* Det + Fem + Sg_strict) (NOT -1/* Det + FemPl) ;
 REMOVE Sg_strict IF (0 Noun_Adj + Masc + Sg_strict) (0 Noun_Adj + MascSg) (-1/* Det + Masc + Pl_strict) (NOT -1/* Det + MascSg) ;	# des frais
 REMOVE Sg_strict IF (0 Noun_Adj + Fem + Sg_strict) (0 Noun_Adj + FemSg) (-1/* Det + Fem + Pl_strict) (NOT -1/* Det + FemSg) ;
 REMOVE Sg_strict IF (0C N + Fem + Sg_strict OR N + FemSg) (-1/* Det + Fem + Pl_strict) ;
+REMOVE Pl_strict IF (0C N + Masc + Pl_strict OR N + MascSg) (-1C A + Masc + Sg_strict) ;
+REMOVE Pl_strict IF (0C N + Fem + Pl_strict OR N + FemSg) (-1C A + Fem + Sg_strict) ;
+REMOVE Sg_strict IF (0C N + Masc + Sg_strict OR N + MascSg) (-1C A + Masc + Pl_strict) ;
+REMOVE Sg_strict IF (0C N + Fem + Sg_strict OR N + FemSg) (-1C A + Fem + Pl_strict) ;
 
 SELECT Fem IF (-2 ("milion") OR ("milliard")) (-1 ("de")) (0 Livre) ;
 SELECT Fem IF (0 Livre) (1 ("sterling")) ;
