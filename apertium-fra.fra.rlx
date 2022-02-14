@@ -1591,17 +1591,15 @@ REMOVE PP IF (-1 ("en")) (0 N) ;
   ## en partie
   ## en fait
 
-REMOVE N IF (-1/* Det) (0 ("plus")) (1 A OR PP OR Adv OR unknown) ;
-  ## le plus beau
-REMOVE N IF (-1/* Det) (0 ("plus")) (1 EOS) ;
-  ## que j'aime le plus
-REMOVE N IF (-1 ("de")) (0 ("plus")) ;
-  ## 290 F de plus
+REMOVE N IF (-1/* Det) (0 ("plus") OR ("moins")) (1 A OR PP OR Adv OR unknown) ;	# le plus beau
+REMOVE N IF (-1/* Det) (0 ("plus") OR ("moins")) (1 EOS) ;	# que j'aime le plus
+REMOVE N IF (-3/* Det) (-2 N) (-1/* Det) (0 ("plus") OR ("moins")) ;		# l'ouvrage le plus attendrissant [avec attendrissant = ger]
+REMOVE N IF (-2 Verb or unknown) (-1/* Det) (0 ("plus") OR ("moins")) ;		# a marqué le plus l'histoire du cinéma
+REMOVE N IF (-1 ("de")) (0 ("plus") OR ("moins")) ;	# 290 F de plus
+REMOVE N IF (0 ("plus") OR ("moins")) (1 ("de")) (2 Num) ;	# plus de 18 ans
 
-SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;
-  ## plus rapide que moi
-SELECT CnjSub IF (-2 ("tel")) (0 Que) ;
-  ## tels que
+SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;	# plus rapide que moi
+SELECT CnjSub IF (-2 ("tel")) (0 Que) ;	# tels que
 
 SELECT Adv IF (0 ("aussi")) (1 A OR PP OR Adv) (NOT 2 Que) ;
 SELECT CnjAdv IF (-2 ("aussi")) (-1 A OR PP OR Adv) (0 Que) ;
