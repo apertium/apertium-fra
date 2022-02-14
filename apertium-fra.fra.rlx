@@ -2767,6 +2767,7 @@ SELECT A OR PP IF (-3 N + &&ConcordeSN) (-2 De) (-1C N) (0 Adj_PP + &&ConcordeSN
 # N OR ADV
 
 REMOVE Adv IF (-1C Prep) (0 Adv) (0 N + &&ConcordeSN) (1 Adj_PP + &&ConcordeSN) ;	# à pas comptés
+REMOVE Adv IF (-1/* Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# jouer du piano
 
 # N OR PP
 
