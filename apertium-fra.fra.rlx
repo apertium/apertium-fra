@@ -985,10 +985,23 @@ SELECT Pro (NOT -1 Prep) (0 Lui OR Leur) (1 Pro) (2 Verb) ; 	# lui en donne
 SELECT Tn (-1 EOS OR CM) (0 Pro) (1 Pro) (2 Verb) ; 		# nous vous attendons
 SELECT Tn (0 Pro) (1 Adv) (2 Pro) (3 Verb) ;	# nous ne vous attendons pas
 
-SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;
-  ## Avec lequel elle aura un fils.
+SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;	# Avec lequel elle aura un fils.
 SELECT Fils IF (0C Fil OR Fils) (1 ("aîné") OR ("cadet")) ;
+
+SELECT Fils IF (-1 Pos + MascPl) ;	# mes fils
+SELECT Fils IF (-2 Pos + MascPl) (-1 A + MascPl) ;	# mes jeunes fils
+SELECT Fils IF (-3 Pos + MascPl) (-2 Adv_PreAdv) (-1 A + MascPl) ;	# mes très jeunes fils
+
+SELECT Fils IF (-1 ("et") OR ("ou")) (-2 ("<filles>"i)) ;
+SELECT Fils IF (1 ("et") OR ("ou")) (2 ("<filles>"i)) ;
+
 SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Ant OR Cog OR unknown) ;
+SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 Ant OR Cog OR unknown) ; # Fils de la Néréide
+SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 N) (4 Ant OR Cog OR unknown) ; # Fils de la reine Hélène
+SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 A) (4 Ant OR Cog OR unknown) ; # Fils du vieux Priam
+SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 A) (4 N) (5 Ant OR Cog OR unknown) ; # Fils du vieux roi Artus
+
+SELECT Fils IF (1 ("de")) (2 Det) (3 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami")) ;
 
 SELECT A IF (-1 Ser + &&ConcordeSP) (0 ("proche") + &&ConcordeSP) ;
 
