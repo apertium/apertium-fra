@@ -1674,8 +1674,7 @@ SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Verb);
 SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
   ## il pense, lui, que...
 
-SELECT Det IF (0 Leur) (1 A) ;
-  ## pour leur premère participation
+SELECT Det IF (0 Leur) (1 A) (NOT 1 Verb) ;	# pour leur premère participation ; il leur fait
 
 SELECT Tn IF (-3 ("plus") OR ("moins")) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;
   ## plus rapide que lui
