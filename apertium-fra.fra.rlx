@@ -437,7 +437,11 @@ SELECT Top IF (-2C Ant) (-1 ("<de>")) (0C Cog OR Ant OR Top) ;
 SELECT Ant IF (0C Cog OR Ant OR Top) (1 ("<de>")) (2C Top) ;	# Maurice de Saxe
 REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknownMajIni) (NOT -1 ("de")) ;
 SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknownMajIni) ; # Léon Verguet
-REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); # Orihuela, Vilallonga
+REMOVE (top) IF (0C NP) (0 (cog)) (0 (top)) (-1 (sent)) (<*-1 ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÚÙÜÛÇ]\\>"r) LINK 1 (sent)); # E. Toulouse
+REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); # Paris ; Marseille ; Toulouse
+SELECT Top IF (0 ("Paris")) (NOT -1 Ant_Cog) ;
+SELECT Top IF (0 ("Marseille")) (NOT -1 Ant_Cog) ;
+SELECT Top IF (0 ("Toulouse")) (NOT -1 Ant_Cog) ;
 
 SELECT Ant IF (-1 ("dieu") OR ("déesse")) ;
 
@@ -453,8 +457,6 @@ REMOVE Al IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Top IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Al IF (0 Ant OR Cog) (1 Ant OR Cog) ;
 REMOVE Top IF (0 Ant OR Cog) (1 Ant OR Cog) ;
-
-SELECT Top IF (0 ("Paris")) (NOT -1 Ant_Cog) ;
 
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
 	## Sais-tu
