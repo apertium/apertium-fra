@@ -2528,6 +2528,10 @@ REMOVE Det IF (-1 Noun_Adj + &&ConcordeSN) (0 DetInd + &&ConcordeSN) (NOT 1 Noun
 
 REMOVE Fin IF (-1C Det) ;
 
+# ADJ OR PRN
+REMOVE A IF (NOT -1 N) (0 Tn) (1C EOS OR Prep OR Verb LINK NOT 0 PP) ;
+REMOVE SUB:1 A IF (NOT 0 N) (0 Tn) (1C EOS OR Prep OR Verb LINK NOT 0 PP) ;	# la collaboratrice de ce dernier
+
 # ADJ OR ADV
 REMOVE Adv IF (-1C Det + &&ConcordeSN) (0 A + &&ConcordeSN) (NOT 1 A) ;	# est le même
 #REMOVE Adv IF (-1 Det + &&ConcordeSN) (0 A + &&ConcordeSN) (1 N + &&ConcordeSN) (NOT 1 A) ;	# un vrai travail
