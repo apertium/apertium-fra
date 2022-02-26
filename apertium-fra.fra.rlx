@@ -2135,7 +2135,7 @@ SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 SELECT A IF (0 ("majeur")) (1 ("partie")) ;
 
 REMOVE CnjAdv IF (0 Si) (1 ("en") OR ("y")) (2 Verb) ; 	# pour s'y rendre
-REMOVE CnjAdv IF (0 ("<s'>"i)) (1C Verb) ;
+REMOVE CnjAdv IF (0 ("<s'>"i)) (1C Verb LINK NOT 0 ("il y a")) ;
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
