@@ -1706,6 +1706,8 @@ SELECT Tn IF (0 Nous) (1 VPl1);
   ## Nous voulons
 SELECT Tn IF (0 Nous) (1 Ne) (2 VPl1);
   ## Nous ne voulons pas
+SELECT Pro IF (-1 Ne) (0 Nous) (1 Pro) (2 Verb + Pers);
+  ## Ne nous en chargeons pas
 SELECT Tn IF (0 Nous) (1 Pro) (2 VPl1);
   ## Nous lui voulons
 SELECT Tn IF (0 Nous) (1 Pro) (2 Pro) (3 VPl1);
@@ -1721,6 +1723,8 @@ SELECT Tn IF (0 Vous) (1 VPl2);
   ## Vous voulez
 SELECT Tn IF (0 Vous) (1 Ne) (2 VPl2);
   ## Vous ne voulez pas
+SELECT Pro IF (-1 Ne) (0 Vous) (1 Pro) (2 Verb + Pers);
+  ## Ne vous en chargez pas
 SELECT Tn IF (0 Vous) (1 Pro) (2 VPl2);
   ## Vous lui voulez
 SELECT Tn IF (0 Vous) (1 Pro) (2 Pro) (3 VPl2);
