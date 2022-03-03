@@ -1437,7 +1437,7 @@ REMOVE Fem_strict IF (-1/* Det + Def + Pl) (0 Amazighe) (NOT 1 Fem_strict) ;
 SELECT Fem IF (-1/* Fem) (0 Amazighe);
 SELECT Fem IF (1/* Fem) (0 Amazighe);
 
-SELECT Masc IF (0 Beta + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+SELECT Mf IF (0 Beta + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Prep IF (0 ("avant de")) (1 Inf) ;
 SELECT Prep IF (0 ("avant de")) (1 Pro) (2 Inf) ;
