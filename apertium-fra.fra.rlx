@@ -215,6 +215,7 @@ LIST Parano = "parano" ;
 LIST Don = "don" ;
 LIST Beta = "bêta" ;
 LIST Platine = "platine" ;
+LIST Trouble = "trouble" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -1385,6 +1386,8 @@ SELECT Fem IF (0 Teneur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Platine) (NOT -1/* Masc_strict) (0 Pl) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Platine) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT Masc IF (0 Trouble) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Masc IF (-1 ("sans")) (0 Relache) ;
 SELECT Masc IF (-1 ("faire")) (0 Relache) ;
