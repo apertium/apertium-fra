@@ -1676,6 +1676,10 @@ SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Aussi);
 SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Même);
 SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Qui);
 SELECT Tn IF (0 Lui OR Nous OR Vous) (1 Que);
+SELECT Pro IF (0 Lui OR Nous OR Vous) (-1 ("en")) (1 Ger);
+SELECT Pro IF (0 Lui) (-2 ("en")) (-1 Pro) (1 Ger);	# en lui donant
+SELECT Pro IF (0 Lui OR Nous OR Vous) (-2 ("en")) (1 Pro) (2 Ger);	# en le lui disant
+SELECT Pro IF (-2 ("en")) (-1 Pro) (1 Ger);	# en lui en donant
 SELECT Tn IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (NOT 1 Inf);
 SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Prep OR Pour OR ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Inf);
 SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR Nous OR Vous) ;
