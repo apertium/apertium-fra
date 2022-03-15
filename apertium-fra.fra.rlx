@@ -823,6 +823,7 @@ SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C V
 SELECT Subjunc (*-1 ("bien que") OR ("malgré que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER CM OR Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 #SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER CM OR Cnj_Rel_End) (0C Verb) ;
 REMOVE Pri (*-1 ("bien que") OR ("malgré que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End OR CM) (0 Verb + Prs) ;
+SELECT Subjunc (*-1 ("<ce que>"i) OR ("<ce qu'>"i) OR ("<ce qu’>"i) LINK -1 ("à")) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 
 #SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") BARRIER Cnj_Rel_End) (*-1 VerbSubj) (0C Verb) ;
 #SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("pour que") OR ("afin que") BARRIER Cnj_Rel_End OR CM) (0C Verb) ;
@@ -1193,11 +1194,11 @@ SELECT Prn IF (0 ("beaucoup de")) (1C Prn);
 SELECT Prn IF (0 ("beaucoup de")) (1C Prep);
   ## beaucoup d'entre eux
 
-SELECT Rel IF (-1 BOS OR CM) (0 ("<ce que>"i)) ;
+SELECT Rel IF (-1 BOS OR CM) (0 ("<ce que>"i) OR ("<ce qu'>"i) OR ("<ce qu’>"i)) ;
 SELECT Rel IF (-1 BOS OR CM) (0 ("<ce qui>"i)) ;
 SELECT Rel IF (-1 BOS OR CM) (0 ("<ce dont>"i)) ;
 SELECT Prn IF (0 ("ce")) (1 ("que") OR ("qui") OR ("dont")) ;
-REMOVE Rel IF (0 ("<ce que>"i)) ;
+REMOVE Rel IF (0 ("<ce que>"i) OR ("<ce qu'>"i) OR ("<ce qu’>"i)) ;
 REMOVE Rel IF (0 ("<ce qui>"i)) ;
 REMOVE Rel IF (0 ("<ce dont>"i)) ;
 SELECT Prn IF (0 ("ce")) (1 Ser + P3);		# ce sont
