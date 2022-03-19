@@ -214,8 +214,11 @@ LIST Inceste = "inceste" ;
 LIST Parano = "parano" ;
 LIST Don = "don" ;
 LIST Beta = "bêta" ;
+LIST Chantilly = "chantilly" ;
 LIST Platine = "platine" ;
 LIST Trouble = "trouble" ;
+LIST Vapeur = "vapeur" ;
+LIST Vase = "vase" ;
 
 LIST Fil = "fil" ;
 LIST Fils = "fils" ;
@@ -1391,6 +1394,12 @@ SELECT Fem IF (0 Platine) (NOT -1/* Masc_strict) (0 Pl) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Platine) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Masc IF (0 Trouble) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT Fem IF (0 Vapeur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Masc IF (0 Vase) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT Fem IF (0 Chantilly) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Masc IF (-1 ("sans")) (0 Relache) ;
 SELECT Masc IF (-1 ("faire")) (0 Relache) ;
