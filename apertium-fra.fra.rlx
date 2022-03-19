@@ -1278,6 +1278,8 @@ SELECT N IF (0 ("frère")) (1 Ant OR unknownMajIni) ;		# frère Jean
 SELECT N IF (0 ("sœur")) (1 Ant OR unknownMajIni) ;		# sœur Meredith
 SELECT Ant + Masc IF (-1 ("frère")) (0 Ant) ;
 SELECT Ant + Fem IF (-1 ("sœur")) (0 Ant) ;
+SELECT Ant OR Cog IF (-2 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami")) (-1 ("de")) ;
+SELECT Ant IF (-2 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami")) (-1 ("de")) ;
 
 SELECT N IF (0 ("cathédrale")) (1 MajIni OR unknownMajIni) ;		# cathédrale Notre-Dame de Rouen
 
