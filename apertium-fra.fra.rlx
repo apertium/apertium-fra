@@ -215,6 +215,7 @@ LIST Parano = "parano" ;
 LIST Don = "don" ;
 LIST Beta = "bêta" ;
 LIST Chantilly = "chantilly" ;
+LIST Faux = "faux" ;
 LIST Platine = "platine" ;
 LIST Trouble = "trouble" ;
 LIST Vapeur = "vapeur" ;
@@ -316,7 +317,7 @@ SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 SET AdjOrd = ("premier") OR ("prime") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("meilleur") OR ("pire") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") OR ("gros") OR ("principal") ;
+SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("meilleur") OR ("pire") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") OR ("gros") OR ("principal") OR ("vrai") OR ("faux") ;
 
 SET NoteMusicale = ("do" m) OR ("ut" m) OR ("ré" m) OR ("mi" m) OR ("fa" m) OR ("sol" m) OR ("la" m) OR ("si" m) ;
 
@@ -1400,6 +1401,11 @@ SELECT Fem IF (0 Vapeur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Vase) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (0 Chantilly) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT A IF (-1 VerbAttr) (0 Faux) ;
+SELECT A IF (-2 VerbAttr) (-1 Adv) (0 Faux) ;
+SELECT A IF (-3 VerbAttr) (-2 Adv) (-1 Adv) (0 Faux) ;
+REMOVE Fem IF (0 Faux) (0C N) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Masc IF (-1 ("sans")) (0 Relache) ;
 SELECT Masc IF (-1 ("faire")) (0 Relache) ;
