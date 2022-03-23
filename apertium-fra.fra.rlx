@@ -1014,7 +1014,8 @@ SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 N) (4 Ant OR Cog OR unknow
 SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 A) (4 Ant OR Cog OR unknown) ; # Fils du vieux Priam
 SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 A) (4 N) (5 Ant OR Cog OR unknown) ; # Fils du vieux roi Artus
 
-SELECT Fils IF (1 ("de")) (2 Det) (3 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami")) ;
+SELECT Fils IF (1 ("de")) (2 Det) (3 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami") OR ("précédent") OR ("ancien") OR Dignite) ;	# fils de la marquise
+SELECT Fils IF (1 ("de")) (2 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami") OR ("précédent") OR ("ancien") OR Dignite) ;	# fils du marquis
 
 SELECT A IF (-1 Ser + &&ConcordeSP) (0 ("proche") + &&ConcordeSP) ;
 
