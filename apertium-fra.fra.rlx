@@ -217,6 +217,7 @@ LIST Beta = "bêta" ;
 LIST Chantilly = "chantilly" ;
 LIST Faux = "faux" ;
 LIST Platine = "platine" ;
+LIST Pub = "pub" ;
 LIST Trouble = "trouble" ;
 LIST Vapeur = "vapeur" ;
 LIST Vase = "vase" ;
@@ -1394,6 +1395,8 @@ SELECT Fem IF (0 Teneur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Platine) (NOT -1/* Masc_strict) (0 Pl) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Platine) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT Fem IF (0 Pub) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Masc IF (0 Trouble) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
