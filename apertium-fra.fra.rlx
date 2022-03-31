@@ -1608,6 +1608,7 @@ SELECT N IF (NOT -1 Prn) (0 ("place")) (1 NP OR unknownMajIni) ; # place Saussur
 SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
 SELECT N IF (0 ("aller")) (1 ("retour")) ;
 SELECT N IF (0 ("aller")) (1 CnjCoo) (2 ("retour")) ;
+REMOVE V IF (0 ("cela")) (-1 ("tout")) ;
 REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn OR On);
   ## Groupe A, Taille 48, Série 1
   ## Pense-t-il
