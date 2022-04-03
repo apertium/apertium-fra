@@ -583,7 +583,7 @@ SELECT N IF (-2 ("à") OR ("vers") OR ("de")) (-1 Det + Def) (0 Est) ;	# à l'es
 SELECT N IF (-2 Ouest) (-1 Prep) (0 Est) ;			# d'Ouest en Est
 SELECT N IF (-2 Est) (-1 Prep) (0 Ouest) ;			# d'Ouest en Est
 REMOVE Verb IF (-1 Ouest) (-1 (META:/-/r)) (0 Est) ;
-REMOVE Verb IF (0 Est) (-1 (META:/-/r)) (1 Ouest) ;
+REMOVE Verb IF (0 Est) (0 (META:/-/r)) (1 Ouest) ;
 SELECT A IF (-1 Top) (0 Est) (0 MajIni) ;			# Jérusalem Est
 REMOVE Verb IF (-1 ("nord") OR ("sud") OR ("ouest") OR ("centre")) (-1 (META:/-/r)) (0 Est) ;
 REMOVE Verb IF (-1 ("nord") OR ("sud") OR ("ouest")) (0 Est) (NOT 1 PP OR A) ;
