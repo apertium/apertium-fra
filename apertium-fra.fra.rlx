@@ -539,6 +539,7 @@ REMOVE Prep IF (1C CnjCoo) ;
 REMOVE N IF (0 Fait) (-1 Il) ;
   ## Il fait beau aujourd'hui, il fait très chaud.
 SELECT P3 IF (0 Fait) (-1 ("ça") OR ("cela") OR ("ceci")) ;
+REMOVE N IF (0 V + P3) (-1 ("ça") OR ("cela") OR ("ceci")) ;
 SELECT V IF (-1C Adv) (0 Fait) ;
 SELECT V IF (-1 Ne) (0 Fait) (1 Que) ;
 REMOVE PP IF (-1 Ne) (0 Fait) (1 Que) ;
