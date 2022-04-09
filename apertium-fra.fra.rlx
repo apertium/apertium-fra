@@ -178,6 +178,7 @@ LIST Fonder = "fonder" ;
 LIST Tour = "tour" ;
 LIST Foudre = "foudre" ;
 LIST Mort = "mort" ;
+LIST Barde = "barde" ;
 LIST Beigne = "beigne" ;
 LIST Cave = "cave" ;
 LIST Claque = "claque" ;
@@ -1336,6 +1337,8 @@ SELECT Fem OR V IF (NOT -1/* Masc_strict OR N) (0 Critique + Masc) (NOT 1 Masc_s
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Marine + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Foudre + Masc) (NOT 1 Masc_strict) ;
+
+REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Barde + Fem) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Beigne + Masc) (NOT 1 Masc_strict) ;
 
