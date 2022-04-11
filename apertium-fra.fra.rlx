@@ -1559,6 +1559,7 @@ SELECT P3 IF (-1 N + Sg OR NP + Sg OR Cog) (0 ("<fait>"i)) (1 ("face")) ;
 
 SELECT Jouer_Faire IF (0 Jouer_Faire) (1 Det) (2 Instrument) ;
 SELECT Jouer_Faire IF (0 Jouer_Faire) (0/* Det) (1 Instrument) ;
+SELECT Jouer_Faire IF (0 Jouer_Faire) (1 Instrument) ;
 REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 0/* Det) (NOT 1 Det) ;
 REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 1 Instrument) (NOT 2 Instrument) ;
 
