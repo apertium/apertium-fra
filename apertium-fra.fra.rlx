@@ -184,6 +184,7 @@ LIST Cave = "cave" ;
 LIST Claque = "claque" ;
 LIST Livre = "livre" ;
 LIST Faune = "faune" ;
+LIST Geste = "geste" ;
 LIST Critique = "critique" ;
 LIST Marine = "marine" ;
 LIST Page = "page" ;
@@ -1349,6 +1350,8 @@ SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Cave + Masc) (NOT 1 Masc_strict) ;
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Claque + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
+
+REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Geste + Fem) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
 
