@@ -997,6 +997,8 @@ SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascPl) (-3C Noun_Adj) (-2 A
 SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemPl) (-3C Noun_Adj) (-2 Adv_PreAdv) (-1C Noun_Adj_PP + FemPl) (1 Det) (2 Noun_Adj) ;
   ## le propriétaire très grand risque une amende
 
+SELECT Tn IF (0 Nous) (1 Pro) (2 Pro) (3 Verb + P1 + Pl) ;	# nous le lui disons
+SELECT Tn IF (0 Vous) (1 Pro) (2 Pro) (3 Verb + P2 + Pl) ;	# vous le lui disez
 REMOVE Tn IF (0 Nous) (1C Verb) (NOT 1 P1 + Pl) ;
 REMOVE Tn IF (0 Vous) (1C Verb) (NOT 1 P2 + Pl) ;
 REMOVE Tn IF (0 Nous) (1 Pro) (2 Verb) (NOT 2 P1 + Pl) ;	# Pierre nous le dit
