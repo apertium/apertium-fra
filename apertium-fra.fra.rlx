@@ -2058,6 +2058,7 @@ SELECT Ser IF (-1 ("se")) (0 Ser + &&ConcordeSV) (1 CM) (2 Tn + &&ConcordeSV + &
 
 SELECT Masc IF (-1 Haver) (0 PP + M_F) ;	# Vous avez pu
 SELECT Masc IF (-2 Haver) (-1C Adv) (0 PP + M_F) ;	# Vous avez toujours pu
+SELECT Masc IF (-3 Haver) (-2C Adv) (-1C Adv) (0 PP + M_F) ;	# Vous n'avez pas toujours pu
 
 SELECT PP IF (-2 ("se")) (-1 Ser + &&ConcordeSP) (0 PP + &&ConcordeSP) ;	# s'est mouillé ; se sont mouillés
 SELECT PP IF (-3 ("se")) (-2 Ser + &&ConcordeSP) (-1 Adv) (0 PP + &&ConcordeSP) ;	# ne s'est pas mouillé ; ne se sont pas mouillés
