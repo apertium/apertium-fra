@@ -2598,6 +2598,8 @@ REMOVE Adv IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C Barrera_Final_Estr
 REMOVE Adv IF (-1 Ser + &&ConcordeSP) (0 A + &&ConcordeSP) (1C Barrera_Final_Estrict_SN) ;		# il est prêt à tout
 REMOVE Adv IF (-2 Ser + &&ConcordeSP) (-1 Adv_PreAdv) (0 A + &&ConcordeSP) (1C Barrera_Final_Estrict_SN) ;
 
+REMOVE A IF (-1C Prep OR BOS OR ("Sans")) (0 Adv) (1C V OR Pro) ;	# Sans même m'avertir
+
 # ADJ OR PP, Ger
 REMOVE A IF (0 PP) (1 ("par"));
 REMOVE A IF (-1 Ser) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
