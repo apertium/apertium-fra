@@ -2281,6 +2281,8 @@ REMOVE Adv IF (-1 ("tel")) (0 Point) ;	# à tel point
 REMOVE Adv IF (-1 unknownMajIni) (0 ("<Point>")) ;	# Peace Point (ou d'autres noms de lieux américains)
 REMOVE PP IF (0 Point) (1 A) ;	# point fixe
 REMOVE PP IF (-1/* Det) (0 Point) ;
+SELECT N IF (-1 Num) (0 Point + Pl) ;
+SELECT N IF (-1 ("0") OR ("0[,\.][0-9]*"r) OR ("zéro")) (0 Point + Sg) ;
 
 REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
