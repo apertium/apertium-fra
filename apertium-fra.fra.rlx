@@ -207,12 +207,7 @@ LIST Teneur = "teneur" ;
 LIST Bien = "bien" ;
 LIST MiTemps = "mi-temps" ;
 LIST Paillasse = "paillasse" ;
-LIST Homicide = "homicide" ;
-LIST Feminicide = "féminicide" ;
-LIST Patricide = "parricide" ;
-LIST Matricide = "matricide" ;
-LIST Fratricide = "fratricide" ;
-LIST Régicide = "régicide" ;
+LIST Cide = "homicide" "féminicide" "parricide" "matricide" "fratricide" "régicide" "magnicide" ;
 LIST Inceste = "inceste" ;
 LIST Parano = "parano" ;
 LIST Don = "don" ;
@@ -1421,6 +1416,18 @@ SELECT Fem IF (0 Vapeur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Vase) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (0 Chantilly) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Mf IF (-3 Ant OR Cog OR unknownMajIni) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-4 Ant OR Cog OR unknownMajIni) (-3 Haver OR Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-5 Ant OR Cog OR unknownMajIni) (-4 Haver) (-3 Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-3 Ant OR Cog OR unknownMajIni) (-3 Adv) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-3 Ant OR Cog OR unknownMajIni) (-3 Ser) (-2 Adv) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-5 Ant OR Cog OR unknownMajIni) (-4 Adv) (-3 Ser) (-2 Adv) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-5 Ant OR Cog OR unknownMajIni) (-4 Haver OR Vbmod) (-3 Adv) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-6 Ant OR Cog OR unknownMajIni) (-5 Adv) (-4 Haver OR Vbmod) (-3 Adv) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-6 Ant OR Cog OR unknownMajIni) (-5 Haver) (-4 Vbmod) (-3 Adv) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Mf IF (-7 Ant OR Cog OR unknownMajIni) (-6 Adv) (-5 Haver) (-4 Adv) (-3 Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
+SELECT Masc_strict IF (0 Cide) ;
 
 SELECT A IF (-1 VerbAttr) (0 Faux) ;
 SELECT A IF (-2 VerbAttr) (-1 Adv) (0 Faux) ;
