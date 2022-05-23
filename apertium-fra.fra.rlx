@@ -492,8 +492,9 @@ REMOVE NP IF (-1 Det + &&ConcordeSN) (NOT -1 Det + Def + &&ConcordeSN) (0 Noun_A
 
 SELECT Num IF (0 ("<Trente>")) (1 N + MajIni + Pl) ;
 SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
+SELECT N IF (0 ("<Rue>")) (1 ("de")) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français") OR ("noël") OR ("court") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français") OR ("noël") OR ("court") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Rue")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) (NOT -1 Majusc) ;	# la ligne A ; Charles V
 
