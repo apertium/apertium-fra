@@ -372,6 +372,7 @@ REMOVE NP IF (-1 (<<<)) (0 ("Remarque")) ;
 SELECT N IF (-1 EOS) (0 ("Remarque")) ;
 REMOVE Cog IF (-1 (sent)) (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("Remarque")) ;
+REMOVE Cog IF (0 ("<XI>")) ;
 
 REMOVE Cog IF (0 ("Nouveau")) (0 (META:/-/r)) ;		# Nouveau-Mexique
 
