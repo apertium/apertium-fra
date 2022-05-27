@@ -203,6 +203,7 @@ LIST Curie = "curie" ;
 LIST Info = "info" ;
 LIST Relache = "relâche" ;
 LIST Rue = "rue" ;
+LIST Statuaire = "statuaire" ;
 LIST Teneur = "teneur" ;
 LIST Bien = "bien" ;
 LIST MiTemps = "mi-temps" ;
@@ -1403,6 +1404,8 @@ SELECT Masc IF (0 Inceste) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Fem IF (0 Page) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Info) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (0 Statuaire) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Teneur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
