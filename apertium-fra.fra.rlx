@@ -472,6 +472,27 @@ SELECT Top IF (-1 Lpar) (0 Cog) (1 Rpar);
 
 SELECT Top IF (-2C Al) (-1 ("de")) (0 Cog OR Ant) ;     # Estivada de Rodez
 
+SELECT Top IF (0 Top) (1 CnjCoo) (2C Top) ;		# Pau et Oloron
+SELECT Top IF (-2C Top) (-1 CnjCoo) (0 Top) ;		# Oloron et Pau
+SELECT Top IF (0 Top) (1 CM) (2C Top) (3 CnjCoo) ;	# Pau, Oloron et ...
+SELECT Top IF (-2 Top) (-1 CM) (0 Top) (1 CnjCoo) ;	# Oloron, Pau et ...
+SELECT Top IF (0 Top) (1 CM) (2 Top) (3 CM) (4C Top) ;
+SELECT Top IF (0 Top) (1 CM) (2C Top) (3 CM) (4 Top) ;
+SELECT Ant_Cog IF (0 Ant_Cog) (1 CnjCoo) (2C Ant_Cog) ;		# Pau et Jan
+SELECT Ant_Cog IF (-2C Ant_Cog) (-1 CnjCoo) (0 Ant_Cog) ;	# Jan et Pau
+SELECT Ant_Cog IF (0 Ant_Cog) (1 CM) (2C Ant_Cog) (3 CnjCoo) ;	# Pau, Jan et ...
+SELECT Ant_Cog IF (-2 Ant_Cog) (-1 CM) (0 Ant_Cog) (1 CnjCoo) ;	# Jan, Pau et ...
+SELECT Ant_Cog IF (0 Ant_Cog) (1 CM) (2 Ant_Cog) (3 CM) (4C Ant_Cog) ;
+SELECT Ant_Cog IF (0 Ant_Cog) (1 CM) (2C Ant_Cog) (3 CM) (4 Ant_Cog) ;
+SELECT Al IF (0 Al) (1 CnjCoo) (2C Al) ;
+SELECT Al IF (-2C Al) (-1 CnjCoo) (0 Al) ;
+SELECT Al IF (0 Al) (1 CM) (2C Al) (3 CnjCoo) ;
+SELECT Al IF (-2 Al) (-1 CM) (0 Al) (1 CnjCoo) ;
+SELECT Al IF (0 Al) (1 CM) (2 Al) (3 CM) (4C Al) ;
+SELECT Al IF (0 Al) (1 CM) (2C Al) (3 CM) (4 Al) ;
+
+SELECT Top IF (-1 De) (0 Top) (1 ("à") OR ("jusqu'à")) (2 Top OR unknownMajIni) ;          # de Pau à Oloron
+SELECT Top IF (-3 De) (-2 Top OR unknownMajIni) (-1 ("à") OR ("jusqu'à")) (0 Top) ;        # d'Oloron à Pau      
 
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
 	## Sais-tu
