@@ -605,7 +605,7 @@
       <e><p><l><b/><a/>lesdits</l><r>esdits</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>lesdites</l><r>esdites</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>e<b/>s'</r></p><par n="voyelles"/></e>
-      <e><p><l><b/><a/>ceprn<b/></l><r>e<b/>c'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>ceprn<b/></l><r>e<b/>ce<b/></r></p></e>
       <e><p><l><b/><a/>ceprn</l><r>e<b/>ce</r></p><par n="caractere_general"/></e>
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>u<b/>nouvel<b/></r></p><par n="voyelles"/></e>
@@ -656,7 +656,7 @@
       <e><p><l><b/><a/>lesdits</l><r>auxdits</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>lesdites</l><r>auxdites</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>se<b/></l><r>à<b/>s'</r></p><par n="voyelles"/></e>
-      <e><p><l><b/><a/>ceprn<b/></l><r>à<b/>c'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>ceprn<b/></l><r>à<b/>ce<b/></r></p></e>
       <e><p><l><b/><a/>ceprn</l><r>à<b/>ce</r></p><par n="caractere_general"/></e>
 
       <e><p><l><b/><a/>le<b/><a/>nouveau<b/></l><r>au<b/>nouvel<b/></r></p><par n="voyelles"/></e>
@@ -727,11 +727,43 @@
       <e><p><l><a/>je<b/></l><r>j</r></p><par n="je"/></e>
       <e><p><l><a/>se<b/></l><r>s'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>de<b/><a/>ce<b/></l><r>de<b/>cet<b/></r></p><par n="voyelles"/></e>
-      <e><p><l><a/>de<b/><a/>ceprn<b/></l><r>de<b/>c'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>ce<b/></l><r>cet<b/></r></p><par n="voyelles"/></e>
-      <e><p><l><a/>ceprn<b/></l><r>c'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>ce<b/><a/>nouveau<b/></l><r>ce<b/>nouvel<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>ce<b/><a/>beau<b/></l><r>ce<b/>bel<b/></r></p><par n="voyelles"/></e>
+      <e><p><l><a/>ce<b/></l><r>ce<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>est<b/></l><r>c'est<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>est</l><r>c'est</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>était<b/></l><r>c'était<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>était</l><r>c'était</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>étaient<b/></l><r>c'étaient<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>étaient</l><r>c'étaient</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>a<a/><b/></l><r>ça<b/>a<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>a<a/></l><r>ça<b/>a</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>avait<b/></l><r>ça<b/>avait<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>avait</l><r>ça<b/>avait</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>eut<b/></l><r>ça<b/>eut<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>eut<a/></l><r>ça<b/>eut</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>aura<b/></l><r>ça<b/>aura<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>aura<a/></l><r>ça<b/>aura</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>aurait<b/></l><r>ça<b/>aurait<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>aurait<a/></l><r>ça<b/>aurait</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>ait<b/></l><r>ça<b/>ait<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>ait<a/></l><r>ça<b/>ait</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/>eût<b/></l><r>ça<b/>eût<b/></r></p></e>
+      <e><p><l><a/>ceprn<b/>eût<a/></l><r>ça<b/>eût</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>ceprn<b/></l><r>ce<b/></r></p></e>
+      <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>que<b/><a/>à</l><r>qu'</r></p><par n="à"/></e>
+      <e><p><l><a/>que<b/></l><r>que<b/></r></p></e>
+      <e><p><l><a/>jusque<b/></l><r>jusqu'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>jusque<b/><a/>à</l><r>jusqu'</r></p><par n="à"/></e>
+
+      <e><p><l><a/>lorsque<b/>il</l><r>lorsqu'il</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>elle</l><r>lorsqu'elle</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>ils</l><r>lorsqu'ils</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>elles</l><r>lorsqu'elles</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>on</l><r>lorsqu'on</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>lorsque<b/>un</l><r>lorsqu'un</r></p><par n="caractere_general"/></e>
       <e><p><l><a/>ce<b/></l><r>ce<b/></r></p></e>
       <e><p><l><a/>ceprn<b/></l><r>ce<b/></r></p></e>
       <e><p><l><a/>que<b/></l><r>qu'</r></p><par n="voyelles"/></e>
