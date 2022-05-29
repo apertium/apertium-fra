@@ -507,6 +507,12 @@ REMOVE NP IF (-1 ("1er")) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Ma
 REMOVE NP IF (-1 Num) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
 
 REMOVE Ant_Cog IF (-1/* Det + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) ;	# un Français
+REMOVE Top IF (-1/* Det + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) (NOT -1/* Det + Def) ;	# un Français
+REMOVE Ant_Cog IF (-1 ("<des>"i)) (0 Noun_Adj + Pl) ;
+REMOVE Top + Sg IF (-1 ("<des>"i)) (0 Noun_Adj + Pl) ;	# des Albigeois
+REMOVE Top + Sg IF (-1 ("<aux>"i)) (0 Noun_Adj + Pl) ;	# aux Albigeois
+REMOVE Top + Sg IF (-1 Det + Def + Pl_strict) (0 Noun_Adj + Pl) ;	# les Albigeois
+REMOVE Top + Pl IF (-1 Det + Def + Sg_strict) (0 Noun_Adj + Sg) ;
 #REMOVE Ant_Cog IF (-2/* Det + MascSg) (-1C A + MascSg) (0 N + MascSg) ;
 #REMOVE Ant_Cog IF (-2/* Det + MascPl) (-1C A + MascPl) (0 N + MascPl) ;
 #REMOVE Ant_Cog IF (-2/* Det + FemSg) (-1C A + FemSg) (0 N + FemSg) ;
@@ -517,7 +523,7 @@ SELECT Num IF (0 ("<Trente>")) (1 N + MajIni + Pl) ;
 SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
 SELECT N IF (0 ("<Rue>")) (1 ("de")) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français") OR ("noël") OR ("court") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Rue")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français") OR ("Albigeois") OR ("noël") OR ("court") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Rue")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) (NOT -1 Majusc) ;	# la ligne A ; Charles V
 
