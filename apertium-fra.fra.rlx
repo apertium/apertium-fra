@@ -797,7 +797,7 @@ SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
 
 REMOVE Tn IF (0 Qui) ;
-SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR CnjSub) ;
+SELECT Itg IF (-1 BOS LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ;
   ## Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
   ## A qui s'adresse
@@ -2237,6 +2237,7 @@ REMOVE CnjAdv IF (0 ("<s'>"i)) (1C Verb LINK NOT 0 ("il y a")) ;
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
+REMOVE CnjAdv IF (0 Si) (-1 ("[——―]"r)) (1 Verb + P3) ;
 SELECT CnjAdv IF (0 Si) (-1 BOS) ;
 SELECT CnjAdv IF (0 Si) (1 ("jamais")) ;
 
