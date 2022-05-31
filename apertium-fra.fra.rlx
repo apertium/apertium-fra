@@ -786,6 +786,7 @@ SELECT N IF (-1 Det) (0 As) (1 De) (2 Pique OR ("c≈ìur") OR ("carreau") OR ("tr√
 SELECT V IF (0 Avoir) (1C Prep) (NOT 0 ("<avions>"i)) ;
   ## ayant pour ami
 
+SELECT N IF (-1C Num) (0 ("<avions>")) ;
 SELECT V IF (0 Avoir) (1 EOS) ;
   ## quels professeurs on va avoir.
 ## SELECT N IF (0 Avoir) (1 EOS) (-1 Num);	## CAL TREBALLAR-HI!
