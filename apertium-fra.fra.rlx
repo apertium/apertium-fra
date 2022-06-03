@@ -786,6 +786,7 @@ SELECT N IF (-1 Det) (0 As) (1 De) (2 Pique OR ("cœur") OR ("carreau") OR ("tr�
 SELECT V IF (0 Avoir) (1C Prep) (NOT 0 ("<avions>"i)) ;
   ## ayant pour ami
 
+SELECT N IF (-1C Num) (0 ("<avions>")) ;
 SELECT V IF (0 Avoir) (1 EOS) ;
   ## quels professeurs on va avoir.
 ## SELECT N IF (0 Avoir) (1 EOS) (-1 Num);	## CAL TREBALLAR-HI!
@@ -797,7 +798,7 @@ SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
 
 REMOVE Tn IF (0 Qui) ;
-SELECT Itg IF (-1 BOS) (0C Itg OR Rel OR CnjSub) ;
+SELECT Itg IF (-1 BOS LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ;
   ## Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
   ## A qui s'adresse
@@ -1392,7 +1393,7 @@ SELECT Masc IF (NOT -1/* Masc_strict) (0 Mode + Masc) (1 De) ;
 
 REMOVE N + Mf IF (NOT -1/* Fem_strict) (0 Modele) (NOT 1 Fem_strict) ;
 REMOVE N + Masc_strict IF (-1/* Fem_strict) (0 Modele) ;
-REMOVE N + Masc_strict IF (0 Modele) (1 Fem_strict LINK NOT 0 Masc) ;	# des modèles fins
+REMOVE N + Masc_strict IF (0 Modele) (1 Fem_strict LINK NOT 0 Masc OR V + P3) ;	# des modèles fins
 
 SELECT Masc IF (-2 ("dans")) (-1/* Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
 SELECT Masc IF (-2 ("remplir") OR ("graisser") OR ("utiliser")) (-1/* Det OR Num OR De LINK NOT 0 Fem_strict) (0 Moule) ;
@@ -1460,6 +1461,12 @@ SELECT Mf IF (-6 Ant OR Cog OR unknownMajIni) (-5 Adv) (-4 Haver OR Vbmod) (-3 A
 SELECT Mf IF (-6 Ant OR Cog OR unknownMajIni) (-5 Haver) (-4 Vbmod) (-3 Adv) (-2 Ser) (-1 Det) (0 Cide) ;
 SELECT Mf IF (-7 Ant OR Cog OR unknownMajIni) (-6 Adv) (-5 Haver) (-4 Adv) (-3 Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
 SELECT Masc_strict IF (0 Cide) ;
+
+SELECT N IF (0 ("donne")) (-1 ("<la>"i)) (1C A + FemSg) ;
+SELECT N IF (0 ("donne")) (-2 ("<la>"i)) (-1 A + FemSg) ;
+REMOVE N IF (0 ("donne")) (NOT -1 ("<la>"i)) ;
+REMOVE N IF (0 ("donne")) (NOT -1 ("<la>"i)) (NOT -2 V OR Adv) ;
+REMOVE N IF (0 ("donne")) (-1 ("<la>"i)) (-2 Adv) (NOT -3 V) ;
 
 SELECT A IF (-1 VerbAttr) (0 Faux) ;
 SELECT A IF (-2 VerbAttr) (-1 Adv) (0 Faux) ;
@@ -1532,10 +1539,9 @@ SELECT Prep IF (-1 Verb + Ger) (0 Vers OR Envers) ;
 SELECT Prep IF (-2 Ser OR Haver) (-1 Verb + PP) (0 Vers OR Envers) ;
 SELECT Prep IF (-3 Ser OR Haver) (-2 Adv OR CnjAdv) (-1 Verb + PP) (0 Vers OR Envers) ;
 
-SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog OR Al OR Top) ;
-  ## Il s'impose devant Matthieu
-SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ;
-  ## Il s'impose devant lui
+SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog OR Al OR Top) ; # Il s'impose devant Matthieu
+SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ; # Il s'impose devant lui
+SELECT Prep IF (0 Devant OR Contre) (1 ("<des>"i)) ;
 SELECT Prep IF (0 Devant) (1 NP OR unknownMajIni) ;
 SELECT Prep IF (0 Devant OR Contre) (1 Det + &&ConcordeSN) (2 Top + &&ConcordeSN) ;
 SELECT Prep IF (0 Devant OR Contre) (1 Det) (2 unknownMajIni) ;
@@ -2237,6 +2243,7 @@ REMOVE CnjAdv IF (0 ("<s'>"i)) (1C Verb LINK NOT 0 ("il y a")) ;
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
+REMOVE CnjAdv IF (0 Si) (-1 ("[——―]"r)) (1 Verb + P3) ;
 SELECT CnjAdv IF (0 Si) (-1 BOS) ;
 SELECT CnjAdv IF (0 Si) (1 ("jamais")) ;
 
