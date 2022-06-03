@@ -588,17 +588,17 @@ REMOVE PP IF (NOT -3 Haver) (NOT -2 Haver) (NOT -1 Haver) (0 Fait) (1C Inf) ;
   ## fait vendre
   ## n'avoir pas toujours fait vendre
 
-SELECT V IF (0 Fait) (1 Det) ;
-SELECT Pri IF (NOT -1 Haver) (NOT -1 Adv) (0 Fait) (1 Det) ;
-SELECT Pri IF (NOT -2 Haver) (NOT -2 Adv) (-1 Adv) (0 Fait) (1 Det) ;
-SELECT Pri IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0 Fait) (1 Det) ;
+SELECT V IF (0 Fait) (1 Det OR PreDet) ;
+SELECT Pri IF (NOT -1 Haver) (NOT -1 Adv) (0 Fait) (1 Det OR PreDet) ;
+SELECT Pri IF (NOT -2 Haver) (NOT -2 Adv) (-1 Adv) (0 Fait) (1 Det OR PreDet) ;
+SELECT Pri IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0 Fait) (1 Det OR PreDet) ;
   ## L'empereur fait son entrée dans la ville en 1524.
   ## a fait 
   ## n'a pas fait 
   ## n'a pas encore fait 
-REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det) ;
-REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det) ;
-REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det) ;
+REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det OR PreDet) ;
+REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det OR PreDet) ;
+REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det OR PreDet) ;
 
 REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;				# VeeR fait l'objet de communication
 SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 ("<«>") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
