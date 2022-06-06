@@ -604,6 +604,8 @@
       <e><p><l><b/><a/>ledit<b/></l><r>udit<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>lesdits</l><r>esdits</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>lesdites</l><r>esdites</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>me<b/></l><r>e<b/>m'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>te<b/></l><r>e<b/>t'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>se<b/></l><r>e<b/>s'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>ceprn<b/></l><r>e<b/>ce<b/></r></p></e>
       <e><p><l><b/><a/>ceprn</l><r>e<b/>ce</r></p><par n="caractere_general"/></e>
@@ -655,6 +657,8 @@
       <e><p><l><b/><a/>ledit<b/></l><r>audit<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>lesdits</l><r>auxdits</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>lesdites</l><r>auxdites</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>me<b/></l><r>à<b/>m'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>te<b/></l><r>à<b/>t'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>se<b/></l><r>à<b/>s'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>ceprn<b/></l><r>à<b/>ce<b/></r></p></e>
       <e><p><l><b/><a/>ceprn</l><r>à<b/>ce</r></p><par n="caractere_general"/></e>
