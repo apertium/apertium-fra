@@ -1533,8 +1533,22 @@ SELECT Fem IF (1/* Fem) (0 Amazighe);
 
 SELECT Mf IF (0 Beta + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
-SELECT Prep IF (0 ("avant de")) (1 Inf) ;
-SELECT Prep IF (0 ("avant de")) (1 Pro) (2 Inf) ;
+SELECT N IF (0 ("devant de")) (-1C Det + MascSg) ;
+SELECT N IF (0 ("devant de")) (-1 Det + Def OR ("<au>"i) OR ("<du>"i)) ;
+REMOVE N IF (0 ("devant de")) (NOT -1/* Det + MascSg) ;
+SELECT N IF (0 ("avant de")) (-1C Det + MascSg) ;
+SELECT N IF (0 ("avant de")) (-1 Det + Def OR ("<au>"i) OR ("<du>"i)) ;
+REMOVE N IF (0 ("avant de")) (NOT -1/* Det + MascSg) ;
+SELECT N IF (0 ("derrière de")) (-1C Det + MascSg) ;
+SELECT N IF (0 ("derrière de")) (-1 Det + Def OR ("<au>"i) OR ("<du>"i)) ;
+REMOVE N IF (0 ("derrière de")) (NOT -1/* Det + MascSg) ;
+
+SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Inf) ;
+SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Pro) (2 Inf) ;
+SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Pro) (2 Pro) (3 Inf) ;
+REMOVE Prep + ("avant de") IF (0 ("avant de")) ;
+SELECT Prep + ("avant") IF (0 ("<avant des>"i)) (1 N_Adj + Pl) ;
+SELECT Prep + ("avant") IF (NOT 0 ("<avant des>"i)) (1 N_Adj + Pl) ;
 
 SELECT Prep IF (-1 Verb + Pers) (0 Vers OR Envers) ;
 SELECT Prep IF (-1 Verb + Inf) (0 Vers OR Envers) ;
