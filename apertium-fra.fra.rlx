@@ -1274,6 +1274,8 @@ REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
 SELECT Cog IF (-2 Ant) (-1 ("de")) (0 ("Orange")) ;
 SELECT Cog IF (-3 Ant) (-2 Num) (-1 ("de")) (0 ("Orange")) ;
 SELECT Al IF (0 ("Orange")) (1 ("SA") OR Top) ;
+SELECT Top IF (0 ("Isle")) (-1 Det + Def) (NOT 0 (META:/-/r)) (NOT -1 (META:/-/r));
+SELECT Al IF (0 ("Isle")) (NOT -1 Det + Def) ;
 
 SELECT A IF (0 ("prochain") LINK NOT -1 Det) ;
 SELECT A IF (0 ("prochain")) (-1 Det) (1 N) ;
