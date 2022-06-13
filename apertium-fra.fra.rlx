@@ -1276,6 +1276,8 @@ REMOVE Demi_pre IF (0 Demi_pre OR Demi_post) (NOT 1 N) ;
 SELECT Cog IF (-2 Ant) (-1 ("de")) (0 ("Orange")) ;
 SELECT Cog IF (-3 Ant) (-2 Num) (-1 ("de")) (0 ("Orange")) ;
 SELECT Al IF (0 ("Orange")) (1 ("SA") OR Top) ;
+SELECT Top IF (0 ("Isle")) (-1 Det + Def) (NOT 0 (META:/-/r)) (NOT -1 (META:/-/r));
+SELECT Al IF (0 ("Isle")) (NOT -1 Det + Def) ;
 
 SELECT A IF (0 ("prochain") LINK NOT -1 Det) ;
 SELECT A IF (0 ("prochain")) (-1 Det) (1 N) ;
@@ -1533,8 +1535,22 @@ SELECT Fem IF (1/* Fem) (0 Amazighe);
 
 SELECT Mf IF (0 Beta + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
-SELECT Prep IF (0 ("avant de")) (1 Inf) ;
-SELECT Prep IF (0 ("avant de")) (1 Pro) (2 Inf) ;
+SELECT N IF (0 ("devant de")) (-1C Det + MascSg) ;
+SELECT N IF (0 ("devant de")) (-1 Det + Def OR ("<au>"i) OR ("<du>"i)) ;
+REMOVE N IF (0 ("devant de")) (NOT -1/* Det + MascSg) ;
+SELECT N IF (0 ("avant de")) (-1C Det + MascSg) ;
+SELECT N IF (0 ("avant de")) (-1 Det + Def OR ("<au>"i) OR ("<du>"i)) ;
+REMOVE N IF (0 ("avant de")) (NOT -1/* Det + MascSg) ;
+SELECT N IF (0 ("derrière de")) (-1C Det + MascSg) ;
+SELECT N IF (0 ("derrière de")) (-1 Det + Def OR ("<au>"i) OR ("<du>"i)) ;
+REMOVE N IF (0 ("derrière de")) (NOT -1/* Det + MascSg) ;
+
+SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Inf) ;
+SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Pro) (2 Inf) ;
+SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Pro) (2 Pro) (3 Inf) ;
+REMOVE Prep + ("avant de") IF (0 ("avant de")) ;
+SELECT Prep + ("avant") IF (0 ("<avant des>"i)) (1 N_Adj + Pl) ;
+SELECT Prep + ("avant") IF (NOT 0 ("<avant des>"i)) (1 N_Adj + Pl) ;
 
 SELECT Prep IF (-1 Verb + Pers) (0 Vers OR Envers) ;
 SELECT Prep IF (-1 Verb + Inf) (0 Vers OR Envers) ;
