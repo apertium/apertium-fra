@@ -137,6 +137,8 @@ LIST Savoir = "savoir" ;
 LIST Saurer = "saurer" ;
 LIST Voir = "voir" ;
 LIST Vivre = "vivre" ;
+LIST Suivre = "suivre" ;
+LIST Suiver = "suiver" ;
 LIST Demi_pre = "demi_pre" ;
 LIST Demi_post = "demi_post" ;
 LIST Le = "le" ;
@@ -3018,3 +3020,23 @@ REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
 
 #MERGECOHORTS ("<$1-$2-$3-$4>"v "\\*$1-$2-$3-$4"v) ("<(.+)>"r) (1 Prep) (0 (META:/-/r)) (1 (META:/-/r)) (2 (META:/-/r)) WITH (1 ("<(.+)>"r)) (2 ("<(.+)>"r)) (3 ("<(.+)>"r)) ;	# Francfort-sur-le-Main
 #MERGECOHORTS ("<$1-$2-$3>"v "\\*$1-$2-$3"v) ("<(.+)>"r) (1 Prep) (0 (META:/-/r)) (1 (META:/-/r)) WITH (1 ("<(.+)>"r)) (2 ("<(.+)>"r)) ;	# Bruyères-sur-Oise
+
+
+REMOVE Suiver IF (0 Suivre) ;
+
+#patchs per Revirada
+REMOVE V IF (0 N) (0 ("<politique>"i) OR ("<permanente>"i) OR ("<anglaise>"i) OR ("<grecque>"i) OR ("<chinoise>"i) OR ("<rose>"i) OR ("<punt>"i) OR ("<musique>"i)) ;
+REMOVE V IF (0 ("<intime>"i)) (NOT -1 Pron) (NOT 1 Pron) ;
+REMOVE A IF (0 ("<amène>"i)) (NOT -1 N + Sg OR PreAdv OR Adv) (NOT -2 ("et") OR ("ou")) ;
+REMOVE A IF (0 ("<amène>"i)) (NOT -3 A + Sg) (NOT -2 ("et") OR ("ou")) ;
+REMOVE N IF (0 ("<vers>"i)) (1 Num) ;
+REMOVE V IF (0 ("<Musée>")) ;
+
+REMOVE V IF (0 ("entre")) (1 NP) (2 Cm OR ("et")) (3 NP) ;
+REMOVE V IF (0 ("entre")) (1 Num) (2 Cm OR ("et")) (3 Num) ;
+REMOVE V IF (0 ("entre")) (1 Det) (2 N) (3 Cm OR ("et")) (4 Det) (5 N) ;
+REMOVE V IF (0 ("entre")) (1 NP) (2 Cm OR ("et")) (3 Det) (4 N) ;
+REMOVE V IF (0 ("entre")) (1 Prn) (2 Cm OR ("et")) (3 Prn) ;
+
+REMOVE V IF (0 ("<politique>"i) OR ("<politiques>"i)) ;
+
