@@ -1557,6 +1557,7 @@ SELECT Prep IF (-1 Verb + Inf) (0 Vers OR Envers) ;
 SELECT Prep IF (-1 Verb + Ger) (0 Vers OR Envers) ;
 SELECT Prep IF (-2 Ser OR Haver) (-1 Verb + PP) (0 Vers OR Envers) ;
 SELECT Prep IF (-3 Ser OR Haver) (-2 Adv OR CnjAdv) (-1 Verb + PP) (0 Vers OR Envers) ;
+SELECT Prep IF (0 Vers OR Envers) (1 unknownMajIni) ;
 
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Ant_Cog OR Al OR Top) ; # Il s'impose devant Matthieu
 SELECT Prep IF (-1C Verb) (0 Devant OR Contre) (1 Pro OR Tn) ; # Il s'impose devant lui
