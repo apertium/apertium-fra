@@ -2931,6 +2931,8 @@ REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		#
 SELECT V IF (0 ("<court>"i)) (1 ("à") OR ("vers") OR ("chez")) ;	# le débat démocratique court à sa perte
 SELECT N IF (0 ("<Cercle>")) ;	
 
+SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
+
 # A OR PP
 
 #SELECT PP IF (-1 Ser) (0 A OR PP) (1 ("par")) ;
