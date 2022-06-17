@@ -59,6 +59,7 @@ LIST Fem_strict = f ;
 LIST Masc = m mf ;
 LIST Fem = f mf ;
 LIST Mf = mf ;
+LIST Nt = nt ;
 LIST Sg_strict = sg ;
 LIST Pl_strict = pl ;
 LIST Sg = sg sp ;
@@ -2619,6 +2620,12 @@ REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Adv) (3 Prep) ;		# cela le contraint to
 REMOVE Det IF (0 Le + Pron) (1C Verb) (2 Adv) (3 Adv) (4 Prep) ;	# cela ne le contraint pas toujours à replier
 
 REMOVE Prn IF (-1 Det + FemSg) (0 ("personne")) ;	# aucune personne
+
+LIST V_Le_Nt = "dire" "expliquer" "raconter" "annoncer" "penser" "pouvoir" "vouloir" "désirer" "être" ;
+SELECT Nt IF (0C Le + Pron) (1 V_Le_Nt + V) ;
+SELECT Nt IF (0C Le + Pron) (1 Haver) (2 V_Le_Nt + PP) ;
+SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 V_Le_Nt + PP) ;
+SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 Adv) (4 V_Le_Nt + PP) ;
 
 # DET
 
