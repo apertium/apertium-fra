@@ -3065,3 +3065,5 @@ REMOVE NP IF (0 ("<Tous>")) ;
 
 REMOVE A IF (0 ("<leur>")) (1 N + Sg OR A + Sg) ;
 REMOVE A IF (0 ("<leurs>")) (1 N + Pl OR A + Pl) ;
+
+REMOVE Prep IF (0 ("<en train de>")) (1 N) ;
