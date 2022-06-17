@@ -3059,3 +3059,9 @@ REMOVE V IF (0 ("entre")) (1 Prn) (2 Cm OR ("et")) (3 Prn) ;
 
 REMOVE V IF (0 ("<politique>"i) OR ("<politiques>"i)) ;
 
+REMOVE V IF (0 ("sec")) (-1 N + MascSg) ;
+
+REMOVE NP IF (0 ("<Tous>")) ;
+
+REMOVE A IF (0 ("<leur>")) (1 N + Sg OR A + Sg) ;
+REMOVE A IF (0 ("<leurs>")) (1 N + Pl OR A + Pl) ;
