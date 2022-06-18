@@ -11,6 +11,8 @@ LIST EOS = <<< sent ;
 
 LIST Verb = vblex vbser vbhaver vbmod ;
 LIST V = vblex ;
+LIST Vconj = pri prs pii ifi pis imp fti ifi cni ;
+LIST Vconj_pro = pri prs pii ifi pis fti ifi cni inf ger ;
 LIST Pron = prn ;
 LIST Haver = vbhaver ;
 LIST Ser = vbser ;
@@ -1029,17 +1031,17 @@ SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + MascPl) (-3C Noun_Adj) (-2 A
 SELECT Fin IF (0C N OR Fin) (NOT -5 Prep) (-4 Det + FemPl) (-3C Noun_Adj) (-2 Adv_PreAdv) (-1C Noun_Adj_PP + FemPl) (1 Det) (2 Noun_Adj) ;
   ## le propriétaire très grand risque une amende
 
-SELECT Tn IF (0 Nous) (1 Pro) (2 Pro) (3 Verb + P1 + Pl) ;	# nous le lui disons
-SELECT Tn IF (0 Vous) (1 Pro) (2 Pro) (3 Verb + P2 + Pl) ;	# vous le lui disez
-REMOVE Tn IF (0 Nous) (1C Verb) (NOT 1 P1 + Pl) ;
-REMOVE Tn IF (0 Vous) (1C Verb) (NOT 1 P2 + Pl) ;
-REMOVE Tn IF (0 Nous) (1 Pro) (2 Verb) (NOT 2 P1 + Pl) ;	# Pierre nous le dit
-REMOVE Tn IF (0 Vous) (1 Pro) (2 Verb) (NOT 2 P2 + Pl) ;	# Pierre vous le dit
-SELECT Tn IF (0 Nous) (1 Nous) (2 Verb) (2 P1 + Pl) ;		# nous nous levons
-SELECT Tn IF (0 Vous) (1 Vous) (2 Verb) (2 P2 + Pl) ;		# nous vous levez
-SELECT Pro (NOT -1 Prep) (0 Lui OR Leur) (1 Pro) (2 Verb) ; 	# lui en donne
-SELECT Tn (-1 EOS OR CM) (0 Pro) (1 Pro) (2 Verb) ; 		# nous vous attendons
-SELECT Tn (0 Pro) (1 Adv) (2 Pro) (3 Verb) ;	# nous ne vous attendons pas
+SELECT Tn IF (0 Nous) (1 Pro) (2 Pro) (3 Vconj_pro + P1 + Pl) ;	# nous le lui disons
+SELECT Tn IF (0 Vous) (1 Pro) (2 Pro) (3 Vconj_pro + P2 + Pl) ;	# vous le lui disez
+REMOVE Tn IF (0 Nous) (1C Vconj_pro) (NOT 1 P1 + Pl) ;
+REMOVE Tn IF (0 Vous) (1C Vconj_pro) (NOT 1 P2 + Pl) ;
+REMOVE Tn IF (0 Nous) (1 Pro) (2 Vconj_pro) (NOT 2 P1 + Pl) ;	# Pierre nous le dit
+REMOVE Tn IF (0 Vous) (1 Pro) (2 Vconj_pro) (NOT 2 P2 + Pl) ;	# Pierre vous le dit
+SELECT Tn IF (0 Nous) (1 Nous) (2 Vconj_pro) (2 P1 + Pl) ;		# nous nous levons
+SELECT Tn IF (0 Vous) (1 Vous) (2 Vconj_pro) (2 P2 + Pl) ;		# nous vous levez
+SELECT Pro (NOT -1 Prep) (0 Lui OR Leur) (1 Pro) (2 Vconj_pro) ; 	# lui en donne
+SELECT Tn (-1 EOS OR CM) (0 Pro) (1 Pro) (2 Vconj_pro) ; 		# nous vous attendons
+SELECT Tn (0 Pro) (1 Adv) (2 Pro) (3 Vconj_pro) ;	# nous ne vous attendons pas
 
 SELECT Fils IF (0C Fil OR Fils) (-1 Sg) ;	# Avec lequel elle aura un fils.
 SELECT Fils IF (0C Fil OR Fils) (1 ("aîné") OR ("cadet")) ;
@@ -1792,9 +1794,9 @@ SELECT Prep IF (0 ("contre") OR ("devant") OR ("derrière") OR ("en")) (1 Lui OR
   ## Il s'impose devant lui
 SELECT Pron IF (0 Lui) (1 Verb) ;	# lui écrit
 SELECT Verb IF (-1 Lui) (0 Noun_Adj) ;	# lui écrit, lui commande, lui fait épouser
-SELECT Pro IF (NOT -1 Prep) (0 Lui) (1C Verb) ;
+SELECT Pro IF (NOT -1 Prep) (0 Lui) (1C Vconj_pro) ;
 #SELECT Pro IF (0 Lui) (1C Imper) ;
-SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Verb);
+SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Vconj_pro);
   ## on lui connaît
 SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
   ## il pense, lui, que...
@@ -1823,7 +1825,7 @@ SELECT Tn IF (0 Nous) (1 VPl1);
   ## Nous voulons
 SELECT Tn IF (0 Nous) (1 Ne) (2 VPl1);
   ## Nous ne voulons pas
-SELECT Pro IF (-1 Ne) (0 Nous) (1 Pro) (2 Verb + Pers);
+SELECT Pro IF (-1 Ne) (0 Nous) (1 Pro) (2 Vconj_pro + Pers);
   ## Ne nous en chargeons pas
 SELECT Tn IF (0 Nous) (1 Pro) (2 VPl1);
   ## Nous lui voulons
@@ -1840,7 +1842,7 @@ SELECT Tn IF (0 Vous) (1 VPl2);
   ## Vous voulez
 SELECT Tn IF (0 Vous) (1 Ne) (2 VPl2);
   ## Vous ne voulez pas
-SELECT Pro IF (-1 Ne) (0 Vous) (1 Pro) (2 Verb + Pers);
+SELECT Pro IF (-1 Ne) (0 Vous) (1 Pro) (2 Vconj_pro + Pers);
   ## Ne vous en chargez pas
 SELECT Tn IF (0 Vous) (1 Pro) (2 VPl2);
   ## Vous lui voulez
@@ -2207,7 +2209,7 @@ SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;
   ## que nous n'avons pas apris
 
-REMOVE Pro IF (NOT 1 Pro OR Verb) ;
+REMOVE Pro IF (NOT 1 Pro OR Vconj_pro) ;
 SELECT Prep IF (0 En) (1C N OR A) ;
 SELECT Prep IF (0 En) (1C Num) ;
 SELECT Prep IF (0 En) (1 ("boucle")) ;	# rediffusé en boucle jusqu'à minuit
@@ -2629,7 +2631,7 @@ SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 Adv) (4 V_Le_Nt + PP) ;
 
 # DET
 
-REMOVE Pro IF (0 Le) (NOT 1 Verb OR ("lui") OR ("leur")) ;
+REMOVE Pro IF (0 Le) (NOT 1 Vconj_pro OR ("lui") OR ("leur")) ;
   ## Le chien aime jouer avec les deux enfants.
   ## je le lui donne, je le leur donne
 
