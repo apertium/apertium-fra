@@ -280,6 +280,7 @@ LIST Envers = "envers" ;
 LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire# de" ;
 LIST Instrument = "piano" "orgue" "clavecin" "clavicorde" "clavier" "violon" "alto" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette" "cornet" "guitare" "mandoline" "basse" "tambour" "batterie" "accordéon" "cornemuse" ;
+LIST Jours = "lundi" "mardi" "mercredi" "jeudi" "vendredi" "samedi" "dimanche" ;
 LIST Mois = "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" ;
 SET Dignite = ("pape") OR ("patriarche") OR ("évêque") OR ("archevêque") OR ("saint") OR ("saint") OR ("apôtre") OR ("empereur") OR ("roi") OR ("tsar") OR ("vice-roi") OR ("régent") OR ("prince") OR ("infant") OR ("dauphin") OR ("comte") OR ("comtesse") OR ("vicomte") OR ("vicomtesse") OR ("duc") OR ("duchesse") OR ("grand-duc") OR ("grande-duchesse") OR ("archiduc") OR ("archiduchesse") OR ("marquis") OR ("baron") ;
 
@@ -382,7 +383,7 @@ REMOVE Cog IF (0 ("<XI>")) ;
 
 REMOVE Cog IF (0 ("Nouveau")) (0 (META:/-/r)) ;		# Nouveau-Mexique
 
-REMOVE N + Sg IF (-1 BOS) (0 NP) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
+REMOVE N + Sg IF (-1 BOS) (0 NP LINK NOT 0 ("Groupe")) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
 REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser  BARRIER (":") OR EOS) ;	# Fred es mort
 
 SELECT Prep IF (-1 ("Jean")) (0 ("sans")) (1 ("terre")) ;
@@ -528,6 +529,12 @@ SELECT Num IF (0 ("<Trente>")) (1 N + MajIni + Pl) ;
 SELECT N IF (0 ("<Roi>")) (1 ("de")) (2 Top OR unknownMajIni) ;
 SELECT N IF (0 ("<Rue>")) (1 ("de")) ;
 SELECT N IF (0 ("<Chemin>")) (NOT -1 Ant OR Cog) ;
+SELECT N IF (-1/* Det + Def) (0 ("Groupe")) ;
+SELECT N IF (0 ("Groupe")) (1 A + MascSg) ;
+SELECT N IF (0 ("Groupe")) (1 De) ;
+SELECT N IF (0 ("Groupe")) (1 ("<[A-Z0-9]>"r)) ;
+SELECT N IF (0 ("Groupe")) (1 unknown LINK 0 ("<.>"r)) ;	# Groupe µ
+SELECT N IF (0 ("Groupe")) (-1 BOS) (NOT 1 MajIni OR unknownMajIni) ;
 
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("détroit") OR ("internet") OR ("marine") OR ("Français") OR ("Albigeois") OR ("noël") OR ("court") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Rue")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
@@ -608,6 +615,7 @@ REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det OR PreDet) ;
 REMOVE PP IF (-1 Ant_Cog) (0 P3) (NOT 0 ("dire")) ;				# VeeR fait l'objet de communication
 SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 ("<«>") OR (META:/«/r) OR (META:/"/r)) ;		# Georges Clemenceau dit « le Tigre »
 SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (0 (META:/«/r) OR (META:/"/r)) ;
+SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 Ant OR Cog OR unknownMajIni) ;		# Pierre Rodriguez dit Lopez
 SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 Adv) (2 ("<«>") OR (META:/«/r) OR (META:/"/r)) ;
 SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 Adv) (1 (META:/«/r) OR (META:/"/r)) ;		# Erkanbald dit aussi "Erkembaud" ou "Archambaud"
 REMOVE PP IF (-1 Ant_Cog) (0 ("dire") + P3) (NOT 0 (META:/«/r) OR (META:/"/r)) (NOT 1 Ant_Cog OR unknownMajIni) ;
@@ -1311,9 +1319,9 @@ SELECT N IF (-1/* Det) (0 ("rose")) ;
 SELECT N IF (-1 Num) (0 ("rose")) ;
 REMOVE Masc_strict IF (0 ("rose") + N + Pl) (NOT -1 Masc_strict) ;
 
-SELECT N IF (-1/* Det + MascSg) (0 ("lundi") OR ("mardi") OR ("mercredi") OR ("jeudi") OR ("vendredi") OR ("samedi") OR ("dimanche")) ;
-SELECT N IF (-2/* Det + MascSg) (-1 A + MascSg) (0 ("lundi") OR ("mardi") OR ("mercredi") OR ("jeudi") OR ("vendredi") OR ("samedi") OR ("dimanche")) ;	# le prochain lundi
-SELECT N IF (0 ("lundi") OR ("mardi") OR ("mercredi") OR ("jeudi") OR ("vendredi") OR ("samedi") OR ("dimanche")) (1 A + MascSg) ;	# lundi prochain
+SELECT N IF (-1/* Det + MascSg) (0 Jours) ;
+SELECT N IF (-2/* Det + MascSg) (-1 A + MascSg) (0 Jours) ;	# le prochain lundi
+SELECT N IF (0 Jours) (1 A + MascSg) ;	# lundi prochain
 
 SELECT Sg IF (NOT -1/* Pl_strict OR N) (0 ("Chablais")) (NOT 1 Pl_strict) ;
 SELECT Pl IF (-1/* Pl_strict) (0 ("Chablais")) ;
@@ -1803,8 +1811,9 @@ SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
 
 SELECT Det IF (0 Leur) (1 A) (NOT 1 Verb) ;	# pour leur premère participation ; il leur fait
 
-SELECT Tn IF (-3 ("plus") OR ("moins")) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;
-  ## plus rapide que lui
+SELECT Tn IF (-3 ("plus") OR ("moins")) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;	# plus rapide que lui
+
+SELECT Pro IF (-1C N_Adj) (0 Lui OR Nous OR Vous) (1 V + P3) ;	# mon père lui écrit
 
 SELECT Tn IF (0 Tu) (1 VSg2);
   ## Tu veux
@@ -1940,19 +1949,34 @@ SELECT P3 IF (-4 Il + Sg OR On OR ToutLeMonde) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3
 SELECT P3 IF (-1 BOS) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;				# Elle est mon chef
 REMOVE NP IF (-1 BOS) (0 ("Elles")) (1* Verb + P3 + Pl) ;
 
+SELECT Prep IF (0 ("<entre>"i)) (1 Num) (2 CnjCoo) (3 Num) ;
+SELECT Prep IF (0 ("<entre>"i)) (1 Jours) (2 CnjCoo) (3 Jours) ;
+SELECT Prep IF (0 ("<entre>"i)) (1 Mois) (2 CnjCoo) (3 Mois) ;
+SELECT Prep IF (0 ("<entre>"i)) (1 Mois) (2 Num) (3 CnjCoo) (4 Mois) (5 Num) ;
+SELECT Prep IF (0 ("<entre>"i)) (1 Det) (2 Num) (3 CnjCoo) (4 Det) (5 Num) ;
+SELECT Prep IF (0 ("<entre>"i)) (1 Det) (2 Num) (3 Mois) (4 CnjCoo) (5 Det) (6 Num) (7 Mois) ;
+SELECT Prep IF (0 ("<entre>"i)) (1 Det) (2 Num) (3 Mois) (4 Num) (5 CnjCoo) (6 Det) (7 Num) (8 Mois) (9 Num) ;
 
-SELECT P3 IF (-2 EOS OR Cm) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
-SELECT P3 IF (-3 EOS OR Cm) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
-SELECT P3 IF (-3 EOS OR Cm) (-2 Ant OR Cog OR unknownMajIni) (-1 Pro) (0 VSg3);				# Jean lui parle
-SELECT P3 IF (-4 EOS OR Cm) (-3 Ant OR Cog OR unknownMajIni) (-2 Ne) (-1 Pro) (0 VSg3);			# Jean ne lui parle pas
-SELECT P3 IF (-4 EOS OR Cm) (-3 Ant OR Cog OR unknownMajIni) (-2 Pro) (-1 Pro) (0 VSg3);		# Jean lui en parle
-SELECT P3 IF (-5 EOS OR Cm) (-4 Ant OR Cog OR unknownMajIni) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);	# Jean ne lui en parle pas
+SELECT P3 IF (NOT -2 Prep) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
+SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
+SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Pro) (0 VSg3);				# Jean lui parle
+SELECT P3 IF (NOT -4 Prep) (-3 Ant OR Cog OR unknownMajIni) (-2 Ne) (-1 Pro) (0 VSg3);			# Jean ne lui parle pas
+SELECT P3 IF (NOT -4 Prep) (-3 Ant OR Cog OR unknownMajIni) (-2 Pro) (-1 Pro) (0 VSg3);		# Jean lui en parle
+SELECT P3 IF (NOT -5 Prep) (-4 Ant OR Cog OR unknownMajIni) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);	# Jean ne lui en parle pas
 SELECT P3 IF (NOT -3 Prep) (-2 Ant) (-1 unknownMajIni) (0 VSg3);					# Jean Étrangeov parle
 SELECT P3 IF (NOT -4 Prep) (-3 Ant) (-2 unknownMajIni) (-1 Ne) (0 VSg3);				# Jean Étrangeov ne parle pas
 SELECT P3 IF (NOT -4 Prep) (-3 Ant) (-2 unknownMajIni) (-1 Pro) (0 VSg3);				# Jean Étrangeov lui parle
 SELECT P3 IF (NOT -5 Prep) (-4 Ant) (-3 unknownMajIni) (-2 Ne) (-1 Pro) (0 VSg3);			# Jean Étrangeov ne lui parle pas
 SELECT P3 IF (NOT -5 Prep) (-4 Ant) (-3 unknownMajIni) (-2 Pro) (-1 Pro) (0 VSg3);			# Jean Étrangeov lui en parle
 SELECT P3 IF (NOT -6 Prep) (-5 Ant) (-4 unknownMajIni) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);		# Jean Étrangeov ne lui en parle pas
+SELECT Pro IF (NOT -2 Prep) (-1 Ant OR Cog OR unknownMajIni) (0 Pro) (1 VSg3);				# Jean lui parle
+SELECT Pro IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 Pro) (1 VSg3);			# Jean ne lui parle pas
+SELECT Pro IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Pro) (0 Pro) (1 VSg3);			# Jean lui en parle
+SELECT Pro IF (NOT -4 Prep) (-3 Ant OR Cog OR unknownMajIni) (-2 Ne) (-1 Pro) (0 Pro) (1 VSg3);		# Jean ne lui en parle pas
+SELECT Pro IF (NOT -3 Prep) (-2 Ant) (-1 unknownMajIni) (0 Pro) (1 VSg3);				# Jean Étrangeov lui parle
+SELECT Pro IF (NOT -4 Prep) (-3 Ant) (-2 unknownMajIni) (-1 Ne) (0 Pro) (1 VSg3);			# Jean Étrangeov ne lui parle pas
+SELECT Pro IF (NOT -4 Prep) (-3 Ant) (-2 unknownMajIni) (-1 Pro) (0 Pro) (1 VSg3);			# Jean Étrangeov lui en parle
+SELECT Pro IF (NOT -5 Prep) (-4 Ant) (-3 unknownMajIni) (-2 Ne) (-1 Pro) (0 Pro) (1 VSg3);		# Jean Étrangeov ne lui en parle pas
 
 SELECT PP IF (-2 Haver + VSg1) (-2 (META:/-/r)) (-1 Je) ;	# Ai-je été
 SELECT PP IF (-2 Haver + VSg2) (-2 (META:/-/r)) (-1 Tu) ;
