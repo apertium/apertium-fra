@@ -838,10 +838,10 @@ SELECT Itg IF (0 Adv OR Prn) (1 Verb + P2 + Pl) (1 (META:/-/r)) (2 Tn + P2 + Pl)
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P3 + Pl) (1 (META:/-/r)) (2 Tn + P3 + Pl) ;
   ## quand veux-tu
 
-REMOVE Fin_non_Imp IF (-1 BOS) (0 Imper + P2) (NOT 1 Prn + Tn) ;
-REMOVE Fin_non_Imp IF (-2 BOS) (-1 ("«")) (0 Imper + P2) (NOT 1 Prn + Tn);
-REMOVE Fin_non_Imp IF (-2 BOS) (-1 CnjCoo) (0 Imper + P2) (NOT 1 Prn + Tn);
-REMOVE Fin_non_Imp IF (-3 BOS) (-1 ("«")) (-1 CnjCoo) (0 Imper + P2) (NOT 1 Prn + Tn);
+REMOVE Fin_non_Imp IF (-1 BOS) (0 Imper + P2) (NOT 1 Prn + Tn) (NOT 0/* Prn + Tn + P2) ;
+REMOVE Fin_non_Imp IF (-2 BOS) (-1 ("«")) (0 Imper + P2) (NOT 1 Prn + Tn + P2) (NOT 0/* Prn + Tn + P2) ;
+REMOVE Fin_non_Imp IF (-2 BOS) (-1 CnjCoo) (0 Imper + P2) (NOT 1 Prn + Tn + P2) (NOT 0/* Prn + Tn + P2) ;
+REMOVE Fin_non_Imp IF (-3 BOS) (-1 ("«")) (-1 CnjCoo) (0 Imper + P2) (NOT 1 Prn + Tn + P2) (NOT 0/* Prn + Tn + P2) ;
 REMOVE Imper IF (NOT 1* Excl) ;
 REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
 REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
