@@ -2233,7 +2233,7 @@ SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
 SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;
   ## que nous n'avons pas apris
 
-REMOVE Pro IF (NOT 1 Pro OR Vconj_pro) ;
+REMOVE Pro IF (NOT 1 Pro OR Vconj_pro OR Imp) ;	# Imp : solution provisioire pour "le voyez-vous"
 SELECT Prep IF (0 En) (1C N OR A) ;
 SELECT Prep IF (0 En) (1C Num) ;
 SELECT Prep IF (0 En) (1 ("boucle")) ;	# rediffusé en boucle jusqu'à minuit
