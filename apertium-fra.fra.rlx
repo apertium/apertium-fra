@@ -2625,6 +2625,7 @@ REMOVE Prn IF (-1 Det + FemSg) (0 ("personne")) ;	# aucune personne
 
 LIST V_Le_Nt = "dire" "expliquer" "raconter" "annoncer" "penser" "pouvoir" "vouloir" "désirer" "être" "sembler" "paraître" ;
 SELECT Nt IF (0C Le + Pron) (1 V_Le_Nt + V) ;
+SELECT SUB:1 Nt IF (0 V_Le_Nt + V) (0/* Le + Pron) ;
 SELECT Nt IF (0C Le + Pron) (1 Haver) (2 V_Le_Nt + PP) ;
 SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 V_Le_Nt + PP) ;
 SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 Adv) (4 V_Le_Nt + PP) ;
