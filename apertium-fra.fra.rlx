@@ -1959,6 +1959,11 @@ SELECT Prep IF (0 ("<entre>"i)) (1 Det) (2 Num) (3 Mois) (4 Num) (5 CnjCoo) (6 D
 
 SELECT Prep IF (0 ("<contre>"i)) (NOT -1 Pro) (NOT 1 Adv) ;
 
+REMOVE N IF (-1C N) (0 Prep) (1 Det OR A OR N) ;	# conservation sous vide
+REMOVE N IF (0 Prep) (1C N) ;	# sous athmosphère protectrice
+REMOVE N IF (0 Prep) (1 N + &&ConcordeSN) (2 A + &&ConcordeSN) ;
+REMOVE N IF (0 Prep) (1 Det + &&ConcordeSN) (2 N + &&ConcordeSN) ;
+
 SELECT P3 IF (NOT -2 Prep) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
 SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
 SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Pro) (0 VSg3);				# Jean lui parle
