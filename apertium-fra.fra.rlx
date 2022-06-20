@@ -1957,6 +1957,8 @@ SELECT Prep IF (0 ("<entre>"i)) (1 Det) (2 Num) (3 CnjCoo) (4 Det) (5 Num) ;
 SELECT Prep IF (0 ("<entre>"i)) (1 Det) (2 Num) (3 Mois) (4 CnjCoo) (5 Det) (6 Num) (7 Mois) ;
 SELECT Prep IF (0 ("<entre>"i)) (1 Det) (2 Num) (3 Mois) (4 Num) (5 CnjCoo) (6 Det) (7 Num) (8 Mois) (9 Num) ;
 
+SELECT Prep IF (0 ("<contre>"i)) (NOT -1 Pro) (NOT 1 Adv) ;
+
 SELECT P3 IF (NOT -2 Prep) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
 SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
 SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Pro) (0 VSg3);				# Jean lui parle
