@@ -1,6 +1,6 @@
-AC_PREREQ(2.52)
+AC_PREREQ([2.71])
 
-AC_INIT([Apertium French], [1.10.0], [hectoralos@gmail.com], [apertium-fra], [https://wiki.apertium.org/wiki/Apertium-fra])
+AC_INIT([Apertium French],[1.10.0],[hectoralos@gmail.com],[apertium-fra],[https://wiki.apertium.org/wiki/Apertium-fra])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
@@ -13,4 +13,5 @@ PKG_CHECK_MODULES(REGTEST, apertium-regtest >= 0.0.1, [],
 
 AP_MKINCLUDE
 
-AC_OUTPUT([Makefile apertium-fra.pc])
+AC_CONFIG_FILES([Makefile apertium-fra.pc])
+AC_OUTPUT
