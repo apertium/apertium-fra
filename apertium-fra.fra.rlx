@@ -1613,8 +1613,16 @@ REMOVE V (-1 Det + FemSg) (0C V OR N + FemSg) (1 Ant + FemSg) ;
 REMOVE V (-1 Det + MascPl) (0C V OR N + MascPl) (1 Ant) ;	
 REMOVE V (-1 Det + FemPl) (0C V OR N + FemPl) (1 Ant) ;	
 
-REMOVE N IF (-1 Rel LINK NOT 0 ("comme")) (0 Verb) ;
-  ## ce qui limite le nombre
+REMOVE N IF (-1 Rel LINK NOT 0 ("comme")) (0 Verb) ;	# ce qui limite le nombre
+REMOVE PP IF (-1 Rel LINK NOT 0 ("comme")) (0 Verb) (1C Det) ;	# ce que dit le nombre
+REMOVE PP IF (-1 Rel LINK NOT 0 ("comme")) (0 Verb) (1 Det + &&ConcordeSN) (2 N + &&ConcordeSN) ;	# ce que dit le nombre
+REMOVE N IF (-2 Rel LINK NOT 0 ("comme")) (-1 Adv) (0 Verb) ;
+REMOVE PP IF (-2 Rel LINK NOT 0 ("comme")) (-1 Adv) (0 Verb) (1C Det) ;
+REMOVE PP IF (-2 Rel LINK NOT 0 ("comme")) (-1 Adv) (0 Verb) (1 Det + &&ConcordeSN) (2 N + &&ConcordeSN) ;
+REMOVE PP IF (-1 Rel LINK NOT 0 ("comme")) (0 Verb) (1 Adv) (2C Det) ;
+REMOVE PP IF (-1 Rel LINK NOT 0 ("comme")) (0 Verb) (1 Adv) (2 Det + &&ConcordeSN) (3 N + &&ConcordeSN) ;
+REMOVE PP IF (-2 Rel LINK NOT 0 ("comme")) (-1 Adv) (0 Verb) (1 Adv) (2C Det) ;
+REMOVE PP IF (-2 Rel LINK NOT 0 ("comme")) (-1 Adv) (0 Verb) (1 Adv) (2 Det + &&ConcordeSN) (3 N + &&ConcordeSN) ;
 
 REMOVE V IF (0 N OR V) (1C Ger) ;
   ## mais la série devenant de plus en plus rentable
