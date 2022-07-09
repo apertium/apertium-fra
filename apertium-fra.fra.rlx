@@ -2975,6 +2975,7 @@ SELECT N IF (-1 ("long") + &&ConcordeSN) (0 ("portée") + &&ConcordeSN) ;
 # N OR VBLEX
 
 SELECT N IF (0 ("<Ligue>")) (1 Num) ;
+SELECT N IF (0 ("<Ligue>")) ;
 
 REMOVE Inf IF (-1 BOS) (0 N) (1 De) ;		# Conseiller du roi
 
