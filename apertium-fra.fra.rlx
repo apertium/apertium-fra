@@ -1655,10 +1655,17 @@ SELECT Jouer_Faire IF (0 Jouer_Faire) (1 Instrument) ;
 REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 0/* Det) (NOT 1 Det) ;
 REMOVE Jouer_Faire IF (0 Jouer_Faire) (NOT 1 Instrument) (NOT 2 Instrument) ;
 
-SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
-SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
-SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
-SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg) (1 ("de")) (2 Det + Def) (3 N) ;
+SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
+SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (1/* Det + Def) ;
+SELECT P3 (-1 unknown) (0 ("faire# partie") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
+SELECT P3 (-1 unknown) (0 ("faire# partie") + P3 + Sg) (1 ("de")) (1/* Det + Def) ;
+SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
+SELECT P3 (-1 Ant OR Cog) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (1/* Det + Def) ;
+SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (2 Det + Def) ;
+SELECT P3 (-1 Rel) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (1/* Det + Def) ;
+SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (2 Det + Def) (3 N) ;
+SELECT P3 (-1 unknown) (0 ("faire") + P3 + Sg OR ("faire# partie") + P3 + Sg) (1 ("de")) (1/* Det + Def) (3 N) ;
+SELECT P3 (NOT -2 Haver) (NOT -1 Haver) (0 ("faire# partie") + P3 + Sg) ;
 
 SELECT P3 (-1 N + MascSg) (0 ("faire") + P3 + Sg) (1 Inf OR CnjSub) ;
 SELECT P3 (-2 N + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 ("faire") + P3 + Sg) (1 Inf OR CnjSub) ;
@@ -2783,8 +2790,7 @@ SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;	# en français
 SELECT A IF (-1C N + MascSg) (0C N OR A + MascSg) (1 unknown) ;
 SELECT A IF (-1C N + MascPl) (0C N OR A + MascPl) (1 unknown) ;
 SELECT A IF (-1C N + FemSg) (0C N OR A + FemSg) (1 unknown) ;
-SELECT A IF (-1C N + FemPl) (0C N OR A + FemPl) (1 unknown) ;
-  ## en langue aborigène xxx
+SELECT A IF (-1C N + FemPl) (0C N OR A + FemPl) (1 unknown) ; # en langue aborigène xxx
 
 SELECT N + Masc IF (-1 ("femme")) (0 ("politique") OR ("médecin")) ;
 SELECT N + Masc IF (-1 ("femme")) (0 ("pilote")) (NOT 1 Det OR Adv) ;
