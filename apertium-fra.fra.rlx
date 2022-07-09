@@ -2808,6 +2808,9 @@ REMOVE N IF (-3C ("être") + &&ConcordeSP) (-2 Adv) (-1 Adv_PreAdv) (0 A + Conco
 SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 Adv) (2 Adv_PreAdv) (3 A + ConcordeSP) (NOT 4 A + ConcordeSP) ;	# ne sont pas bien acides
 SELECT PreAdv IF (-2C ("être") + &&ConcordeSP) (-1 Adv) (0 Adv_PreAdv) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# ne sont pas bien acides
 
+REMOVE A IF (NOT -1 N) (0 ("source")) ;
+REMOVE A IF (NOT -1 N) (0 ("cible")) ;
+
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C N + MascSg) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C N + MascPl) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + FemSg LINK 0 N OR NP) (1C N + FemSg) ;
