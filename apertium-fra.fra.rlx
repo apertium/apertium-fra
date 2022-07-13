@@ -592,10 +592,22 @@ SELECT V IF (0 Fait) (1C Inf) ;
 SELECT PP IF (-3 Haver) (-2 PP) (-1 CnjCoo) (0 Fait) (1C Inf) ;		# a écrit et fait publier
 SELECT PP IF (-2 Pro + P3 + Ref) (-1 Ser + P3) (0 Fait) (1C Inf) ;		# s'est fait connaître
 SELECT PP IF (-2 Pro + P3 + Ref) (-1 Ser + Inf) (0 Fait) (1C Inf) ;
+SELECT PP IF (-3 Pro + P3 + Ref) (-2 Ser + P3) (-1 Adv) (0 Fait) (1C Inf) ;		# ne s'est pas fait connaître
+SELECT PP IF (-3 Pro + P3 + Ref) (-2 Ser + Inf) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-4 Pro + P3 + Ref) (-3 Ser + P3) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;		# ne s'est pas toujours fait connaître
+SELECT PP IF (-4 Pro + P3 + Ref) (-3 Ser + Inf) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
 SELECT PP IF (-2 Pro + P1 + Sg) (-1 Ser + P1 + Sg) (0 Fait) (1C Inf) ;
 SELECT PP IF (-2 Pro + P2 + Sg) (-1 Ser + P2 + Sg) (0 Fait) (1C Inf) ;
 SELECT PP IF (-2 Pro + P1 + Pl) (-1 Ser + P1 + Pl) (0 Fait) (1C Inf) ;
 SELECT PP IF (-2 Pro + P2 + Pl) (-1 Ser + P2 + Pl) (0 Fait) (1C Inf) ;
+SELECT PP IF (-3 Pro + P1 + Sg) (-2 Ser + P1 + Sg) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-3 Pro + P2 + Sg) (-2 Ser + P2 + Sg) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-3 Pro + P1 + Pl) (-2 Ser + P1 + Pl) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-3 Pro + P2 + Pl) (-2 Ser + P2 + Pl) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-4 Pro + P1 + Sg) (-3 Ser + P1 + Sg) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-4 Pro + P2 + Sg) (-3 Ser + P2 + Sg) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-4 Pro + P1 + Pl) (-3 Ser + P1 + Pl) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
+SELECT PP IF (-4 Pro + P2 + Pl) (-3 Ser + P2 + Pl) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
 REMOVE PP IF (NOT -3 Haver) (NOT -2 Haver) (NOT -1 Haver) (0 Fait) (1C Inf) ;
   ## fait vendre
   ## n'avoir pas toujours fait vendre
