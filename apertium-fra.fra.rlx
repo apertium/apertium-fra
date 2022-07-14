@@ -1509,6 +1509,11 @@ SELECT Fem IF (0 Relache) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Fem IF (0 Parano) (-1/* Fem_strict) (1 Fem_strict) (NOT -1 N) ;
 SELECT Mf IF (0 Parano) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
+SELECT Masc_strict IF (-1 ("genre")) (0 ("homo")) ;
+SELECT Masc_strict IF (-1 ("<ecce>")) (0 ("homo")) ;
+SELECT Masc_strict IF (NOT -1 N) (0 ("homo")) (1 unknown) ;
+SELECT Masc_strict IF (NOT -1 BOS) (0 ("<Homo>")) ;
+
 SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("commun") + &&ConcordeSN) ;
 SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("national") + &&ConcordeSN) ;
 SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("public") + &&ConcordeSN) ;
