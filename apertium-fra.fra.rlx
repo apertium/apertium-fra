@@ -219,6 +219,7 @@ LIST Parano = "parano" ;
 LIST Don = "don" ;
 LIST Beta = "bêta" ;
 LIST Chantilly = "chantilly" ;
+LIST Collab = "collab" ;
 LIST Faux = "faux" ;
 LIST Platine = "platine" ;
 LIST Pub = "pub" ;
@@ -1477,6 +1478,8 @@ SELECT Fem IF (0 Vapeur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Vase) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (0 Chantilly) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (0 Collab) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Mf IF (-3 Ant OR Cog OR unknownMajIni) (-2 Ser) (-1 Det) (0 Cide) ;
 SELECT Mf IF (-4 Ant OR Cog OR unknownMajIni) (-3 Haver OR Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
