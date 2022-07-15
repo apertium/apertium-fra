@@ -537,7 +537,7 @@ SELECT N IF (0 ("Groupe")) (1 ("<[A-Z0-9]>"r)) ;
 SELECT N IF (0 ("Groupe")) (1 unknown LINK 0 ("<.>"r)) ;	# Groupe µ
 SELECT N IF (0 ("Groupe")) (-1 BOS) (NOT 1 MajIni OR unknownMajIni) ;
 
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("dame") OR ("détroit") OR ("internet") OR ("marine") OR ("Français") OR ("Albigeois") OR ("noël") OR ("court") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Rue")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 ("parlement") OR ("grand") OR ("roi") OR ("reine") OR ("prince") OR ("maréchal") OR ("chevalier") OR ("dame") OR ("détroit") OR ("internet") OR ("marine") OR ("Français") OR ("Parisien") OR ("Provençal") OR ("Gascon") OR ("Albigeois") OR ("noël") OR ("court") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Rue")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) (NOT -1 Majusc) ;	# la ligne A ; Charles V
 
@@ -548,6 +548,8 @@ REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
 REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
 REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
 REMOVE NP IF (NOT 1 Ant OR unknownMajIni) (0 ("Français")) ;
+REMOVE NP IF (NOT 1 Ant OR unknownMajIni) (0 ("Gascon")) ;
+REMOVE NP IF (NOT 1 Ant OR unknownMajIni) (0 ("Provençal")) ;
 REMOVE NP IF (0 ("carrière")) (1 ("universitaire")) ;
 REMOVE NP IF (0 ("détroit")) (1 ("de")) ;
 REMOVE NP IF (-1 ("empire")) (0 ("romain")) ;
