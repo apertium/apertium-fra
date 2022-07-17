@@ -2930,6 +2930,7 @@ SELECT PP IF (-1 ("une fois")) ;
 SELECT PP IF (-2 ("un") + FemSg) (-1 ("fois")) ;
 
 SELECT N (0 ("chanteur")) (1 De) ;	# chanteur de rock
+SELECT N (0 ("vague")) (1 De) (2 N) ;	# vague de chaleur
 
 SELECT N + &&ConcordeSN (-1C N) (-1 N + &&ConcordeSN) (-1 (META:/-/r)) (0 N + &&ConcordeSN) ;	# comédien-chanteur
 
