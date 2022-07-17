@@ -576,10 +576,34 @@ REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
 
 #REMOVE Prs IF (NOT -1* QUI-QUE BARRIER CLB);
 
+LIST amoi_etc = ("à moi") ("à toi") ("à lui") ("à elle") ("à nous") ("à vous") ("à eux") ("à elles") ;
+
+SELECT SUB:1 Tn IF (-1C Verb LINK NOT 0 PP) (0 amoi_etc) ;	# il fait appel à moi (faire# appel)
+SELECT SUB:1 Tn IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0 amoi_etc) ;
+SELECT SUB:1 Tn IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Adv) (0 amoi_etc) ;
+SELECT SUB:1 Tn IF (-2 Haver OR Ser) (-1 PP) (0 amoi_etc) ;	# il a fait appel à moi
+SELECT SUB:1 Tn IF (-3 Haver OR Ser) (-2 Adv) (-1 PP) (0 amoi_etc) ;	# il n'a pas fait appel à moi
+SELECT SUB:1 Tn IF (-4 Haver OR Ser) (-3 Adv) (-2 Adv) (-1 PP) (0 amoi_etc) ;
+
+SELECT SUB:1 Tn IF (-2 V LINK NOT 0 PP) (-1C N) (0 amoi_etc) ;	# il fait appel à moi (faire + appel)
+SELECT SUB:1 Tn IF (-3 V LINK NOT 0 PP) (-2 Adv) (-1C N) (0 amoi_etc) ;	# il ne fait pas appel à moi
+SELECT SUB:1 Tn IF (-4 V LINK NOT 0 PP) (-3 Adv) (-2 Adv) (-1C N) (0 amoi_etc) ;
+SELECT SUB:1 Tn IF (-2 ("faire")) (-1C N) (0 amoi_etc) ;	# il fait appel à moi (faire + appel)
+SELECT SUB:1 Tn IF (-3 ("faire")) (-2 Adv) (-1C N) (0 amoi_etc) ;	# il ne fait pas appel à moi
+SELECT SUB:1 Tn IF (-4 ("faire")) (-3 Adv) (-2 Adv) (-1C N) (0 amoi_etc) ;
+SELECT SUB:1 Tn IF (-3 Haver OR Ser) (-2 V + PP) (-1C N) (0 amoi_etc) ;	# il a fait appel à moi
+SELECT SUB:1 Tn IF (-4 Haver OR Ser) (-3 Adv) (-2 V + PP) (-1C N) (0 amoi_etc) ;	# il n'a pas fait appel à moi
+SELECT SUB:1 Tn IF (-5 Haver OR Ser) (-4 Adv) (-3 Adv) (-2 V + PP) (-1C N) (0 amoi_etc) ;
+
+SELECT SUB:1 Tn IF (0 amoi_etc + &&ConcordeSN) (1 ("seul") + &&ConcordeSN) ;	# à moi seul(e)
+SELECT SUB:1 Tn IF (0 amoi_etc + Pl) (1 Num) ;	# à nous deux
+
+REMOVE SUB:1 Tn IF (0 amoi_etc) ;
+
 REMOVE Prep IF (-1C PreAdv) ;	# très attendu
 SELECT Prep IF (0 ("sauf")) (-1 CM) ;
-REMOVE Prep IF (1C EOS) ;
-REMOVE Prep IF (1C CnjCoo) ;
+REMOVE Prep IF (1C EOS) (NOT 0/* Prn OR N) ;
+REMOVE Prep IF (1C CnjCoo) (NOT 0/* Prn OR N) ;
 
 REMOVE N IF (0 Fait) (-1 Il) ;
   ## Il fait beau aujourd'hui, il fait très chaud.
@@ -2274,10 +2298,8 @@ SELECT Ser IF (-1 Adv) (0 Ete) (1 PP);
   ## a lui aussi été refait
 SELECT Ser IF (0 Etayer) ;
 
-SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;
-  ## que nous avons apris
-SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;
-  ## que nous n'avons pas apris
+SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1C Verb) ;	# que nous avons apris
+SELECT Tn IF (-1 Barrera_Inicial_Estrict_SN OR CM) (0C Tn OR Pro) (1 Adv) (2C Verb) ;	# que nous n'avons pas apris
 
 REMOVE Pro IF (NOT 1 Pro OR Vconj_pro OR Imp) ;	# Imp : solution provisioire pour "le voyez-vous"
 SELECT Prep IF (0 En) (1C N OR A) ;
@@ -2908,6 +2930,7 @@ SELECT PP IF (-1 ("une fois")) ;
 SELECT PP IF (-2 ("un") + FemSg) (-1 ("fois")) ;
 
 SELECT N (0 ("chanteur")) (1 De) ;	# chanteur de rock
+
 SELECT N + &&ConcordeSN (-1C N) (-1 N + &&ConcordeSN) (-1 (META:/-/r)) (0 N + &&ConcordeSN) ;	# comédien-chanteur
 
 REMOVE A OR PP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 Adj_PP + &&ConcordeSN) ;
