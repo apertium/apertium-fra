@@ -2768,6 +2768,12 @@ SELECT Num IF (-1 ("numéro")) (0 Un);
 REMOVE Num IF (NOT -1 ("numéro")) (0 Un);
 REMOVE Det IF (0 Un) (1C Prn) ;		# une nous saute aux yeux
 
+SELECT Num IF (0 ("neuf")) (1C N_Adj + Pl) ;	# neuf mois
+SELECT Num IF (-1 ("<de>"i)) (0 ("neuf")) (1 N_Adj + Pl) ;
+SELECT Num IF (-1 ("<des>"i)) (0 ("neuf")) (1 N_Adj + Pl) ;
+SELECT Num IF (NOT -1 N_Adj OR PreAdv OR Adv) (0 ("neuf")) ;
+SELECT Num IF (NOT -2 N_Adj) (-1 PreAdv OR Adv) (0 ("neuf")) ;
+
 REMOVE Det IF (-1 Noun_Adj + &&ConcordeSN) (0 DetInd + &&ConcordeSN) (NOT 1 Noun_Adj + &&ConcordeSN) ;	# fortunes diverses
 
 REMOVE Fin IF (-1C Det) ;
