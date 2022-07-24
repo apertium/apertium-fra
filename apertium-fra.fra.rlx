@@ -792,32 +792,44 @@ REMOVE Inf IF (-1C Être) (0 Inf) ;
 REMOVE Inf IF (-2C Être) (-1C Adv) (0 Inf) ;
   ## Il fut successivement conseiller principal
 
-SELECT Haver IF (0 Avoir) (1 PP) ;
-  ## Est-ce que tu as vu Jean ?
-SELECT Haver IF (0 Avoir) (1 Adv OR CnjAdv) (2 PP) ;
-  ## il n'a pas fait beau
-  ## il a pourtant fait beau
-SELECT Haver IF (0 Avoir) (1 Adv OR CnjAdv) (2 Adv OR CnjAdv) (3 PP) ;
-  ## il n'a pas toujours fait beau
-  ## il n'a pourtant pas fait beau
-SELECT Haver (-2 ("il") + P3 + Masc + Sg)  (-1 ("y")) (0 Avoir) (NOT 1 PP) ;
-  ## il y a, il y avait
-SELECT V IF (-1 Avoir) (0 Avoir + PP) ;
-  ## Le jeune homme a eu plus de
-SELECT V IF (-2 Avoir) (-1 Adv) (0 Avoir + PP) ;
-  ## Le jeune homme n'a pas eu plus de
-SELECT V IF (0 Avoir) (1 Que) ;
-  ## il n'a que des problèmes
+SELECT Haver IF (0 Avoir) (1 PP) ;	# Est-ce que tu as vu Jean ?
+SELECT Haver IF (0 Avoir) (1 Adv OR CnjAdv) (2 PP) ;	# il n'a pas fait beau ; il a pourtant fait beau
+SELECT Haver IF (0 Avoir) (1 Adv OR CnjAdv) (2 Adv OR CnjAdv) (3 PP) ;	# il n'a pas toujours fait beau ; il n'a pourtant pas fait beau
+SELECT Haver IF (-2 ("il") + P3 + Masc + Sg)  (-1 ("y")) (0 Avoir) (NOT 1 PP) ;	# il y a, il y avait
+SELECT Haver IF (0 Avoir + P1 + Sg) (1 Tn + P1 + Sg) (2 PP) ;	# ai-je fait
+SELECT Haver IF (0 Avoir + P2 + Sg) (1 Tn + P2 + Sg) (2 PP) ;
+SELECT Haver IF (0 Avoir + P3 + Sg) (1 Tn + P3 + Sg) (2 PP) ;
+SELECT Haver IF (0 Avoir + P1 + Pl) (1 Tn + P1 + Pl) (2 PP) ;
+SELECT Haver IF (0 Avoir + P2 + Pl) (1 Tn + P2 + Pl) (2 PP) ;
+SELECT Haver IF (0 Avoir + P3 + Pl) (1 Tn + P3 + Pl) (2 PP) ;
+SELECT PP IF (-2 Avoir + P1 + Sg) (-1 Tn + P1 + Sg) (0 PP) ;	# ai-je fait
+SELECT PP IF (-2 Avoir + P2 + Sg) (-1 Tn + P2 + Sg) (0 PP) ;
+SELECT PP IF (-2 Avoir + P3 + Sg) (-1 Tn + P3 + Sg) (0 PP) ;
+SELECT PP IF (-2 Avoir + P1 + Pl) (-1 Tn + P1 + Pl) (0 PP) ;
+SELECT PP IF (-2 Avoir + P2 + Pl) (-1 Tn + P2 + Pl) (0 PP) ;
+SELECT PP IF (-2 Avoir + P3 + Pl) (-1 Tn + P3 + Pl) (0 PP) ;
+SELECT Haver IF (0 Avoir + P1 + Sg) (1 Tn + P1 + Sg) (2 Adv) (3 PP) ;	# n'ai-je pas fait
+SELECT Haver IF (0 Avoir + P2 + Sg) (1 Tn + P2 + Sg) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Avoir + P3 + Sg) (1 Tn + P3 + Sg) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Avoir + P1 + Pl) (1 Tn + P1 + Pl) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Avoir + P2 + Pl) (1 Tn + P2 + Pl) (2 Adv) (3 PP) ;
+SELECT Haver IF (0 Avoir + P3 + Pl) (1 Tn + P3 + Pl) (2 Adv) (3 PP) ;
+SELECT PP IF (-3 Avoir + P1 + Sg) (-2 Tn + P1 + Sg) (-1 Adv) (0 PP) ;	# n'ai-je pas fait
+SELECT PP IF (-3 Avoir + P2 + Sg) (-2 Tn + P2 + Sg) (-1 Adv) (0 PP) ;
+SELECT PP IF (-3 Avoir + P3 + Sg) (-2 Tn + P3 + Sg) (-1 Adv) (0 PP) ;
+SELECT PP IF (-3 Avoir + P1 + Pl) (-2 Tn + P1 + Pl) (-1 Adv) (0 PP) ;
+SELECT PP IF (-3 Avoir + P2 + Pl) (-2 Tn + P2 + Pl) (-1 Adv) (0 PP) ;
+SELECT PP IF (-3 Avoir + P3 + Pl) (-2 Tn + P3 + Pl) (-1 Adv) (0 PP) ;
+
+SELECT V IF (-1 Avoir) (0 Avoir + PP) ;	# Le jeune homme a eu plus de
+SELECT V IF (-2 Avoir) (-1 Adv) (0 Avoir + PP) ;	# Le jeune homme n'a pas eu plus de
+SELECT V IF (0 Avoir) (1 Que) ;	# il n'a que des problèmes
 SELECT V IF (0 Avoir) (1 Adv) (2 Que) (NOT 1 PP) ;
 SELECT V IF (0 Avoir) (1 Adv) (2 Adv) (2 Que) (NOT 1 PP) (NOT 2 PP) ;
 SELECT V IF (0 Avoir) (1 ("lieu")) ;
-SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det OR Num) (2 N) ;
-  ## Elle a une fille
-SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 A) (3 N) ;
-  ## Elle a un petit secret
-SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 PreDet OR PreAdv OR Adv) (3 A) (4 N) ;
-  ## Elle a un tout petit secret
-  ## Elle a un très petit secret
+SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det OR Num) (2 N) ;	# Elle a une fille
+SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 A) (3 N) ;	# Elle a un petit secret
+SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 PreDet OR PreAdv OR Adv) (3 A) (4 N) ;	# Elle a un tout petit secret ; Elle a un très petit secret
 SELECT V IF (0 Avoir) (1C Prep) ;
 SELECT V IF (0 Avoir) (1 ("pour")) ;
 
