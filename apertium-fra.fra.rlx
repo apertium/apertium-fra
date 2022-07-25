@@ -3060,6 +3060,7 @@ SELECT V IF (0 ("<court>"i)) (1 ("à") OR ("vers") OR ("chez")) ;	# le débat d�
 SELECT N IF (0 ("<Cercle>")) ;	
 
 SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
+SELECT N IF (-1 ("en")) (0 ("<corse>"i)) ;
 
 # A OR PP
 
