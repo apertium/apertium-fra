@@ -204,6 +204,7 @@ LIST Solde = "solde" ;
 LIST Basket = "basket" ;
 LIST Tennis = "tennis" ;
 LIST Ranger = "ranger" ;
+LIST Clim = "clim" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
 LIST Relache = "relâche" ;
@@ -1456,6 +1457,12 @@ SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
 SELECT Fem_strict IF (NOT -1/* Masc_strict OR N) (0 Manoeuvre + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Moufle + Masc) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (-1/* Fem_strict) (0 Clim + Masc) ;
+SELECT Fem IF (0 Clim + Masc) (1 A + Fem_strict) ;
+SELECT Masc IF (-1/* Pl_strict) (0 Clim + Masc) ;
+SELECT Masc IF (0 Clim + Masc) (1 A + Pl_strict) ;
+SELECT Fem IF (NOT -1/* Masc_strict) (0 Clim + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Masc IF (NOT -1/* Masc_strict) (0 Mode + Masc) (1 De) ;
 
