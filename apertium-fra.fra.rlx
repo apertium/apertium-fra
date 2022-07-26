@@ -1420,6 +1420,8 @@ SELECT A IF (-1 Num) (0 ("autre") + Pl) (1 N + Pl) ;			# trois autres livres
 
 # genre
 
+REMOVE Fem_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;	# mon père
+
 SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
   ## à 7 tours de la fin
   ## en deux tours
@@ -2564,12 +2566,9 @@ SELECT N IF (0 MajIni) (0C N OR A) (NOT -1 BOS OR MajIni OR Prep OR CnjCoo) (NOT
   ## ces ingrats d'Européens.
   ## l'Académie Rouge et Noire
 
-SELECT Masc_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;
-  ## mon père
-SELECT Fem_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1C Fem_strict) ;
-  ## mon amie
-SELECT Masc_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1C Masc_strict) ;
-  ## mon ami
+SELECT Masc_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;	# mon père
+SELECT Fem_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1C Fem_strict) ;	# mon amie
+SELECT Masc_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1C Masc_strict) ;	# mon ami
 SELECT Fem_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Fem) (2C Fem_strict) ;
 SELECT Masc_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Masc) (2C Masc_strict) ;
 SELECT Fem_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1 Noun_Adj_PP + Fem) (2 Noun_Adj_PP + Fem) (3C Fem_strict) ;
