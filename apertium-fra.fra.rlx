@@ -2799,6 +2799,9 @@ REMOVE Adv IF (-2 Ser + &&ConcordeSP) (-1 Adv_PreAdv) (0 A + &&ConcordeSP) (1C B
 
 REMOVE A IF (-1C Prep OR BOS OR ("Sans")) (0 Adv) (1C V OR Pro) ;	# Sans même m'avertir
 
+REMOVE Adv OR N IF (-4 Det + &&ConcordeSN) (-3 N + &&ConcordeSN) (-2 Det + &&ConcordeSN) (-1 ("plus") OR ("moins")) (0 A + &&ConcordeSN) ;	# l'orteil le plus long
+
+
 # ADJ OR PP, Ger
 REMOVE A IF (0 PP) (1 ("par"));
 REMOVE A IF (-1 Ser) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
