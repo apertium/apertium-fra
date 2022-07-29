@@ -474,7 +474,7 @@ SELECT Top IF (-2 Dignite) (-1 ("de")) (0 Top) ;
 SELECT Top IF (-2 ("aller") OR ("voyager") OR ("arriver") OR ("partir") OR ("filer")) (-1 ("à") OR ("de")) ;
 SELECT Top + FemSg IF (-2 ("aller") OR ("voyager") OR ("arriver") OR ("partir")) (-1 ("en")) ;
 SELECT Top IF (-3 ("aller") OR ("voyager") OR ("arriver") OR ("partir") OR ("filer")) (-2 ("à") OR ("de")) (-1 Det + &&ConcordeSN) (0 Top + &&ConcordeSN) ;
- 
+
 REMOVE Al IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Top IF (-1 Ant OR Cog) (0 Ant OR Cog) ;
 REMOVE Al IF (0 Ant OR Cog) (1 Ant OR Cog) ;
@@ -503,7 +503,7 @@ SELECT Al IF (0 Al) (1 CM) (2 Al) (3 CM) (4C Al) ;
 SELECT Al IF (0 Al) (1 CM) (2C Al) (3 CM) (4 Al) ;
 
 SELECT Top IF (-1 De) (0 Top) (1 ("à") OR ("jusqu'à")) (2 Top OR unknownMajIni) ;          # de Pau à Oloron
-SELECT Top IF (-3 De) (-2 Top OR unknownMajIni) (-1 ("à") OR ("jusqu'à")) (0 Top) ;        # d'Oloron à Pau      
+SELECT Top IF (-3 De) (-2 Top OR unknownMajIni) (-1 ("à") OR ("jusqu'à")) (0 Top) ;        # d'Oloron à Pau
 
 SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
 	## Sais-tu
@@ -583,6 +583,8 @@ REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
 
 LIST amoi_etc = ("à moi") ("à toi") ("à lui") ("à elle") ("à nous") ("à vous") ("à eux") ("à elles") ;
 
+REMOVE SUB:1 Pro IF (0 ("<à lui>"i)) (NOT 1 Pro OR Inf) ;
+
 SELECT SUB:1 Tn IF (-1C Verb LINK NOT 0 PP) (0 amoi_etc) ;	# il fait appel à moi (faire# appel)
 SELECT SUB:1 Tn IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0 amoi_etc) ;
 SELECT SUB:1 Tn IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Adv) (0 amoi_etc) ;
@@ -602,6 +604,10 @@ SELECT SUB:1 Tn IF (-5 Haver OR Ser) (-4 Adv) (-3 Adv) (-2 V + PP) (-1C N) (0 am
 
 SELECT SUB:1 Tn IF (0 amoi_etc + &&ConcordeSN) (1 ("seul") + &&ConcordeSN) ;	# à moi seul(e)
 SELECT SUB:1 Tn IF (0 amoi_etc + Pl) (1 Num) ;	# à nous deux
+
+SELECT SUB:1 Pro IF (0 ("<à lui>"i)) (1C Pro OR Inf) ;
+SELECT SUB:1 Pro IF (0 ("<à lui>"i)) (1 Pro) (2 Inf) ;
+SELECT SUB:1 Pro IF (0 ("<à lui>"i)) (1 Inf) ;
 
 REMOVE SUB:1 Tn IF (0 amoi_etc) ;
 
@@ -649,9 +655,9 @@ SELECT Pri IF (NOT -1 Haver) (NOT -1 Adv) (0 Fait) (1 Det OR PreDet) ;
 SELECT Pri IF (NOT -2 Haver) (NOT -2 Adv) (-1 Adv) (0 Fait) (1 Det OR PreDet) ;
 SELECT Pri IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0 Fait) (1 Det OR PreDet) ;
   ## L'empereur fait son entrée dans la ville en 1524.
-  ## a fait 
-  ## n'a pas fait 
-  ## n'a pas encore fait 
+  ## a fait
+  ## n'a pas fait
+  ## n'a pas encore fait
 REMOVE PP IF (NOT -1 Haver) (NOT -1 Adv) (NOT -1 CM) (0C V) (1C Det OR PreDet) ;
 REMOVE PP IF (NOT -2 Haver) (NOT -2 Adv) (NOT -1 CM) (-1 Adv) (0C V) (1 Det OR PreDet) ;
 REMOVE PP IF (NOT -3 Haver) (-2 Adv) (-1 Adv) (0C V) (1 Det OR PreDet) ;
@@ -664,7 +670,7 @@ SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 Adv
 SELECT PP IF (-1 Ant + MascSg OR Cog OR Noun_Adj + MascSg) (0 ("<dit>"i)) (1 Adv) (1 (META:/«/r) OR (META:/"/r)) ;		# Erkanbald dit aussi "Erkembaud" ou "Archambaud"
 REMOVE PP IF (-1 Ant_Cog) (0 ("dire") + P3) (NOT 0 (META:/«/r) OR (META:/"/r)) (NOT 1 Ant_Cog OR unknownMajIni) ;
 
-SELECT P3 IF (-2 ("»") OR (META:/»/r) OR (META:/"/r)) (-1 (cm)) (0 ("<dit>"i) OR ("<écrit>"i) OR ("<décrit>"i)) (1 Det OR NP OR unknownMajIni) ;	# ...», dit Georges Clemenceau 
+SELECT P3 IF (-2 ("»") OR (META:/»/r) OR (META:/"/r)) (-1 (cm)) (0 ("<dit>"i) OR ("<écrit>"i) OR ("<décrit>"i)) (1 Det OR NP OR unknownMajIni) ;	# ...», dit Georges Clemenceau
 
 REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajIni) (0 Est) (0 MajIni) ;
 SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajIni) ;	# vers l'Est
@@ -689,8 +695,8 @@ SELECT Ser IF (0 Est) (1 NP) ;
 SELECT Ser IF (0 Est) (1 unknown) ;
 SELECT Ser IF (NOT -1 DetDef OR ("limite") OR ("frontière") OR ("face") OR ("façade") OR ("côte") OR ("côté")) (0 Est) (NOT 0 MajIni) ;
 
-REMOVE Verb IF (NOT -2 Haver) (NOT -1 Haver) (0 ("parfaire") + PP) ; 
-REMOVE Verb IF (-2 Haver) (NOT -1 Adv_PreAdv) (0 ("parfaire") + PP) ; 
+REMOVE Verb IF (NOT -2 Haver) (NOT -1 Haver) (0 ("parfaire") + PP) ;
+REMOVE Verb IF (-2 Haver) (NOT -1 Adv_PreAdv) (0 ("parfaire") + PP) ;
 #REMOVE Verb + Pers IF (-1C* Verb + Pers BARRIER CnjAdv OR CnjSub OR Rel) ;	# ne marche pas du tout
 #REMOVE Verb + Pers IF (1C* Verb + Pers) ;					# ne marche pas du tout
 REMOVE Verb + P3 IF (NOT -1 ("il")) (0 ("parfait")) ; 		# Provisionnel !!!
@@ -1020,7 +1026,7 @@ REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + &&ConcordeSV) (-1* Pri + &&ConcordeSV) 
 #REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Sg) (-1* Pri + P3 + Sg) ;
 #REMOVE Prs IF (-1 CM OR CnjCoo) (0 Pri + P3 + Pl) (-1* Pri + P3 + Pl) ;		# Les deux juristes constatent que le Brexit a engendré la plus grande perte de droits pour l’ensemble des citoyens européens et *proposent* des solutions
 
-# Pri ou Ifi 
+# Pri ou Ifi
 REMOVE Ifi (0 Pri) (1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ; # L'église subit actuellement des travaux
 REMOVE Ifi (0 Pri) (-1* ("aujourd'hui") OR ("maintenant") OR ("actuellement")) ;
 
@@ -1572,8 +1578,8 @@ SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("commun") + &&ConcordeSN) ;
 SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("national") + &&ConcordeSN) ;
 SELECT N IF (-1 Prep) (0 Bien + &&ConcordeSN) (1 ("public") + &&ConcordeSN) ;
 
-REMOVE N + Masc_strict (-1 Det + Fem_strict) (NOT -1 Det + Masc) (0 N + Fem_strict) ;  # la terra      
-REMOVE N + Fem_strict (-1 Det + Masc_strict) (NOT -1 Det + Fem) (0 N + Masc_strict) ;  # el terra      
+REMOVE N + Masc_strict (-1 Det + Fem_strict) (NOT -1 Det + Masc) (0 N + Fem_strict) ;  # la terra
+REMOVE N + Fem_strict (-1 Det + Masc_strict) (NOT -1 Det + Fem) (0 N + Masc_strict) ;  # el terra
 
 SELECT N IF (0 ("licencié")) (1 ("ès")) ;
 SELECT N IF (0 ("torse")) (1 ("nu")) ;
@@ -2682,7 +2688,7 @@ SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + Pl) (1C V +
 
 SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;			# en voyant son cartable
 SELECT Ger IF (-1C Pro) (0C Ger OR Noun_Adj_PP) ;				# se rendant enfin à Naples
-REMOVE A IF (-1 BOS) (0 Ger) (1 Det) ;						# Fuyant les premières familles, 
+REMOVE A IF (-1 BOS) (0 Ger) (1 Det) ;						# Fuyant les premières familles,
 REMOVE Ger IF (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT -1 Pro) ;	# ce montant
 REMOVE Ger IF (-2 Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;	# son propre représentant
 REMOVE Ger IF (-3 Det + &&ConcordeSN) (-2 Adv_PreAdv) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;
@@ -2706,7 +2712,7 @@ REMOVE Ger IF (-1 ("plus") OR ("moins")) (0 Ger OR A OR PP) ;
   ## plus exigeant
 
 #REMOVE Ger IF (0 Ger) (0 N + &&ConcordeSN) (1 CnjCoo) (2 N + &&ConcordeSN) ; 	# figurant et chanteur
-#REMOVE Ger IF (0 Ger) (0 N + &&ConcordeSN) (-1 CnjCoo) (-2 N + &&ConcordeSN) ; 
+#REMOVE Ger IF (0 Ger) (0 N + &&ConcordeSN) (-1 CnjCoo) (-2 N + &&ConcordeSN) ;
 
 REMOVE A + Sg IF (NOT -3 Prep) (NOT -2 Prep) (-1 Noun_Adj + Pl_strict) (NOT 0 A + Pl) (0 Ger) ;	# les structures servant au confinement
 REMOVE N IF (NOT -3 Prep) (NOT -2 Prep) (-1C N + Pl_strict) (0 Ger) ;				# les structures servant au confinement
