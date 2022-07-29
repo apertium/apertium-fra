@@ -257,6 +257,7 @@ LIST Entre = "entre" ;
 LIST Contre = "contre" ;
 LIST Devant = "devant" ;
 LIST Pendant = "pendant" ;
+LIST Durant = "durant" ;
 LIST Puis = "puis" ;
 LIST Point = "point" ;
 LIST Or = "or" ;
@@ -282,6 +283,7 @@ LIST Envers = "envers" ;
 LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire# de" ;
 LIST Instrument = "piano" "orgue" "clavecin" "clavicorde" "clavier" "violon" "alto" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette" "cornet" "guitare" "mandoline" "basse" "tambour" "batterie" "accordéon" "cornemuse" ;
+LIST UniteTemps = "seconde" "minute" "heure" "jour" "journée" "semaine" "mois" "an" "année" "lustre" "décennie" "décade" "siècle" "millénaire" ;
 LIST Jours = "lundi" "mardi" "mercredi" "jeudi" "vendredi" "samedi" "dimanche" ;
 LIST Mois = "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" ;
 SET Dignite = ("pape") OR ("patriarche") OR ("évêque") OR ("archevêque") OR ("saint") OR ("saint") OR ("apôtre") OR ("empereur") OR ("roi") OR ("tsar") OR ("vice-roi") OR ("régent") OR ("prince") OR ("infant") OR ("dauphin") OR ("comte") OR ("comtesse") OR ("vicomte") OR ("vicomtesse") OR ("duc") OR ("duchesse") OR ("grand-duc") OR ("grande-duchesse") OR ("archiduc") OR ("archiduchesse") OR ("marquis") OR ("baron") ;
@@ -302,6 +304,7 @@ SET Acr = (acr) ;
 
 SET DetDef = (det def) ;
 SET DetDem = (det dem) ;
+SET DetPos = (det pos) ;
 SET DetInd = (det ind) ;
 SET AdjInd = (adj ind) ;
 
@@ -3182,6 +3185,13 @@ REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
 
 
 REMOVE Suiver IF (0 Suivre) ;
+
+SELECT Ger IF (-2 DetInd OR Num) (-1 UniteTemps) (0 Durant) (NOT 1 Det) ;
+REMOVE Ger IF (-2 DetInd OR Num) (-1 UniteTemps) (0 Durant) (1 Det) ;
+SELECT Ger IF (-2 DetPos) (-1 ("vie")) (0 Durant) (NOT 1 Det) ;
+REMOVE Ger IF (-2 DetPos) (-1 ("vie")) (0 Durant) (1 Det) ;
+
+
 
 #patchs per Revirada
 REMOVE V IF (0 N) (0 ("<politique>"i) OR ("<permanente>"i) OR ("<anglaise>"i) OR ("<grecque>"i) OR ("<chinoise>"i) OR ("<rose>"i) OR ("<punt>"i) OR ("<musique>"i)) ;
