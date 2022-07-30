@@ -1826,7 +1826,10 @@ REMOVE N IF (-1 ("de")) (0 ("plus") OR ("moins")) ;	# 290 F de plus
 REMOVE N IF (0 ("plus") OR ("moins")) (1 ("de")) (2 Num) ;	# plus de 18 ans
 
 SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;	# plus rapide que moi
-SELECT CnjSub IF (-2 ("tel")) (0 Que) ;	# tels que
+SELECT CnjSub IF (-2 ("tel") + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 Que) ;	# un tel succès que
+#REMOVE Prs IF (-3* ("tel") LINK 2C Que + CnjSub BARRIER Verb + Pers) (0 Pri) ;
+REMOVE Prs IF (-3* ("tel") LINK 2C Que + CnjSub) (0 Pri) ;
+SELECT CnjAdv IF (-1 ("tel")) (0 Que) ;	# tels que
 
 SELECT Adv IF (0 ("aussi")) (1 A OR PP OR Adv) (NOT 2 Que) ;
 SELECT CnjAdv IF (-2 ("aussi")) (-1 A OR PP OR Adv) (0 Que) ;
