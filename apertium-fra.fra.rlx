@@ -1433,11 +1433,12 @@ SELECT A IF (-1 Num) (0 ("autre") + Pl) (1 N + Pl) ;			# trois autres livres
 
 REMOVE Fem_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;	# mon père
 
-SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;
-  ## à 7 tours de la fin
-  ## en deux tours
+SELECT Masc IF (-2 ("à") OR ("pendant") OR ("après") OR ("avant") OR ("en")) (-1C Num) (0 Tour) (NOT 1 A) ;	# à 7 tours de la fin ; en deux tours
 SELECT Masc IF (-1C Num) (0 Tour) (1 ("avant")) ;
 SELECT Masc IF (NOT -2 Fem) (-1 ("deuxième") OR ("second") OR ("troisième")) (0 Tour) (NOT 1 Fem) ;
+SELECT Masc IF (0 Tour) (1 De) (2 ("force")) ;
+SELECT Masc IF (0 Tour) (1 De) (2 ("horizon")) ;
+SELECT Masc IF (0 Tour) (1 De) (2 ("magie")) ;
 
 SELECT Fem IF (-2 ("menace")) (-1 De) (0 Mort + Masc) ;
 SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
