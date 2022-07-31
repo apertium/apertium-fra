@@ -1359,9 +1359,11 @@ SELECT N IF (0 ("dame") + Pl) (-1 ("finale") OR ("demi-finale") OR ("tournoi") O
 
 SELECT N IF (0 ("cité")) (1 ("état")) (0 (META:/-/r)) ;
 
-REMOVE Adv IF (-1 Prep) (0 ("haut")) ;
-REMOVE Adv IF (-1 N + MascSg) (0 ("haut")) ;
-REMOVE Adv IF (0 ("haut")) (1 N + MascSg) ;
+REMOVE Adv IF (-1 Prep) (0 ("haut") OR ("long") OR ("large")) ;
+SELECT A IF (0 ("haut") OR ("long") OR ("large")) (1 De) (2 Num) ;
+REMOVE Adv IF (-1 N + MascSg) (0 ("haut") OR ("long") OR ("large")) ;
+REMOVE Adv IF (0 ("haut") OR ("long") OR ("large")) (1 N + MascSg) ;
+
 
 #SELECT Det IF (0 Leur) (1 N OR A OR Adv) ;
 #SELECT Pron IF (0 Leur) (1 Verb) ;
@@ -2966,6 +2968,8 @@ SELECT N IF (-1 Det + Def + &&ConcordeSN) (0 N + &&ConcordeSN) (1 Ant OR Cog OR 
 SELECT N IF (-2 NP OR unknownMajIni) (-1 Lpar) (1 Rpar) ;	# Rolland Hayes (chanteur)
 
 # NOM ADJ
+
+SELECT A + &&ConcordeSN IF (-2 Det + &&ConcordeSN) (-1 ("plus") OR ("moins")) (0 A + &&ConcordeSN) (1 N + &&ConcordeSN) ;	# la plus large défaite
 
 SELECT PP IF (-1 ("une fois")) ;
 SELECT PP IF (-2 ("un") + FemSg) (-1 ("fois")) ;
