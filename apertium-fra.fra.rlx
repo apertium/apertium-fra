@@ -2666,26 +2666,22 @@ REMOVE Ger IF (-2 ("de") OR ("à")) (-1 Noun_Adj_PP + &&ConcordeSN) (0 Noun_Adj_
 SELECT V IF (-1C N) (NOT 0 A OR PP) (1 Que) ;
 	# l’ensemble des indicateurs montre que
 
-SELECT N IF (-2C N) (-1 CnjCoo) (0C Noun_Adj_PP) (NOT 1 N) (NOT 0 ("demi") OR ("quart")) ;
-	# une comédienne, réalisatrice, traductrice et romancière.
-SELECT N IF (NOT -1 N) (0C Noun_Adj_PP) (1 CnjCoo) (2C N) ;
-	# comédies, revues et opérettes
-	# langues anciennes et sciences naturelles
-SELECT N IF (-2 N) (-1 CM) (0C Noun_Adj_PP) (1 CnjCoo OR CM) (2C N) ;
-	# prêtre, curé, prédicateur
-SELECT N IF (-2C N) (-1 CM) (0C Noun_Adj_PP) (1 CM) (2 N) ;
-	# prêtre, curé, prédicateur
-REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2 N) ;
-  ## propriété de NTL et diffuse quatre chaînes
-REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2C A) ;
-  ## elle intègre Radio France et présente la matinale de France Bleu
+SELECT N IF (-2C N) (-1 CnjCoo) (0C Noun_Adj_PP) (NOT 1 N) (NOT 0 ("demi") OR ("quart")) ;	# une comédienne, réalisatrice, traductrice et romancière.
+SELECT N IF (NOT -1 N) (0C Noun_Adj_PP) (1 CnjCoo) (2C N) ;	# comédies, revues et opérettes ; langues anciennes et sciences naturelles
+SELECT N IF (-2 N) (-1 CM) (0C Noun_Adj_PP) (1 CnjCoo OR CM) (2C N) ;	# prêtre, curé, prédicateur
+SELECT N IF (-2C N) (-1 CM) (0C Noun_Adj_PP) (1 CM) (2 N) ;	# prêtre, curé, prédicateur
+SELECT N IF (NOT -1 N) (0 N) (1 CM) (2C N) (3 CnjCoo OR CM) (4C N) ;	# droite, gauche ou milieu
+REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2 N) ;	# propriété de NTL et diffuse quatre chaînes
+REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (1 Det OR Num) (2C A) ;	# elle intègre Radio France et présente la matinale de France Bleu
+SELECT N IF (-2 ("droite") + N + FemSg OR ("gauche") + N + FemSg) (-1 CnjCoo OR CM) (0 ("centre") + MascSg) ;
+SELECT N IF (2 ("droite") + N + FemSg OR ("gauche") + N + FemSg) (1 CnjCoo OR CM) (0 ("centre") + MascSg) ;
+
 #REMOVE A (NOT -2 A) (-1C CnjCoo) (0 A) (0 Verb + Pers) (NOT 1 N OR PP) (NOT 0 ("demi") OR ("quart")) ;
 
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C CnjCoo OR CM) ;	# de physique et chimie
 SELECT N IF (-1C Prep) (0C Noun_Adj_PP) (1C Noun_Adj_PP) (NOT 1C N) (NOT 0 AdjOrd OR AdjPre) ;	# de chimie appliquées
 
-REMOVE V IF (NOT -1 Pro) (0C N + &&ConcordeSN OR V) (1C Adj_PP + &&ConcordeSN) ;
-	#et agressions sexuelles sur mineur
+REMOVE V IF (NOT -1 Pro) (0C N + &&ConcordeSN OR V) (1C Adj_PP + &&ConcordeSN) ;	# et agressions sexuelles sur mineur
 
 REMOVE V IF (-1 ("de")) (-1/* DetDef) (0C N + Pl OR V) ;
 
