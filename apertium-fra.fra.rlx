@@ -544,6 +544,7 @@ SELECT N IF (0 ("Groupe")) (1 ("<[A-Z0-9]>"r)) ;
 SELECT N IF (0 ("Groupe")) (1 unknown LINK 0 ("<.>"r)) ;	# Groupe µ
 SELECT N IF (0 ("Groupe")) (-1 BOS) (NOT 1 MajIni OR unknownMajIni) ;
 REMOVE N IF (0 ("Groupe")) ;
+REMOVE NP IF (NOT -1 Ant OR unknownMajIni) (0 ("Portail")) ;
 
 SELECT Acr IF (0 NP) ;
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 N_NP_ini OR ("parlement") OR ("grand") OR ("internet") OR ("marine") OR ("Français") OR ("Gallois") OR ("Parisien") OR ("Provençal") OR ("Gascon") OR ("Albigeois") OR ("Allemand") OR ("noël") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Juillet")) ;
@@ -1555,7 +1556,7 @@ SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 ("maîtrise")) ;
 SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 ("master")) ;
 SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 ("fin")) (3 De) ;
 SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 A) (3 ("cycle")) ;
-SELECT Masc IF (-2 ("soutenir") OR ("présenter") OR ("préparer") OR ("écrire")) (NOT -1/* Masc_strict OR Fem_strict) (0 Memoire) ;
+SELECT Masc IF (-2 ("soutenir")) (NOT -1/* Masc_strict OR Fem_strict) (0 Memoire) ;
 SELECT Fem IF (0 Memoire) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Statuaire) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
