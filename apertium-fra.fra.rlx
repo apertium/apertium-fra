@@ -150,7 +150,7 @@ LIST Aucun = "aucun" ;
 LIST Fait = "<fait>"i ;
 LIST Est = "<est>"i ;
 LIST Ouest = "ouest" ;
-LIST Je = "je" "moi je" "<moi je>"i "<moi j'>"i "<moi, je>"i "<moi, j'>"i ;
+LIST Je = "je" "moi je" "<moi je>"i "<moi j'>"i "<moi j’>"i "<moi, je>"i "<moi, j'>"i "<moi, j’>"i ;
 LIST Tu = "tu" "toi tu" "<toi tu>"i "<toi, tu>"i ;
 LIST Il = "il" "elle" "lui il" "<lui il>"i "<eux ils>"i "<lui, il>"i "<eux, ils>"i ;
 LIST On = "on" ;
@@ -1429,6 +1429,28 @@ SELECT A IF (-1 DetDef + &&ConcordeSN) (0 ("autre") + &&ConcordeSN) (1 N + &&Con
 SELECT A IF (-1 DetInd + &&ConcordeSN) (0 ("autre") + &&ConcordeSN) (1 N + &&ConcordeSN) ;	# quelques autres livres
 SELECT A IF (-1 Num) (0 ("autre") + Pl) (1 N + Pl) ;			# trois autres livres
 
+LIST DAutres = "<d'autres>"i "<d’autres>"i ;
+SELECT Det IF (-1C EOS OR Prep OR CnjSub OR Rel OR ("vers")) (0 DAutres + &&ConcordeSN) (1 N_Adj + &&ConcordeSN) ;
+SELECT Prn IF (-1C EOS OR Prep OR CnjSub OR Rel OR ("vers")) (0 DAutres) (1 Verb + P3 + Pl) ;
+SELECT Prn IF (-1C EOS OR Prep OR CnjSub OR Rel OR ("vers")) (0 DAutres) (1 Que OR Qui) ;
+REMOVE Det IF (0 DAutres) (NOT 1 N_Adj OR PreAdv) ;
+SELECT Prep IF (-1 ("celui")) (0 DAutres) ;
+REMOVE Det IF (-1C Det) (0 DAutres) ;
+REMOVE Det IF (-1 Det + Pl) (0 DAutres) ;
+REMOVE Det IF (-1C N) (0 DAutres) ;
+REMOVE Det IF (-2 N_Adj + &&ConcordeSN) (-1 N_Adj + &&ConcordeSN) (0 DAutres) ;
+SELECT Prep IF (-1 ("venir") OR ("arriver")) (0 DAutres) ;
+SELECT Prep IF (-2 ("venir") OR ("arriver")) (-1 Adv) (0 DAutres) ;
+SELECT Prep IF (-3 ("venir") OR ("arriver")) (-1 Adv) (-1 Adv) (0 DAutres) ;
+SELECT Prep IF (-1C N) (0 DAutres) ;	# l'exemple d'autres
+SELECT Prep IF (-2 N_Adj + &&ConcordeSN) (-1 N_Adj + &&ConcordeSN) (0 DAutres) ;
+SELECT Prep IF (-1 ("différent")) (0 DAutres) ;
+SELECT Prep IF (-1 ("plein")) (0 DAutres) ;
+SELECT Prep IF (-1 ("tas")) (0 DAutres) ;
+REMOVE Prep IF (0 DAutres) ;
+SELECT SUB:1 A + &&ConcordeSN IF (0 DAutres) (1 N + &&ConcordeSN) ;		# l'exemple d'autres villes
+SELECT SUB:2 A + &&ConcordeSN IF (0 ("<bien d'autres>"i) OR ("<bien d’autres>"i)) (1 N + &&ConcordeSN) ;		# l'exemple de bien d'autres villes
+
 # genre
 
 REMOVE Fem_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;	# mon père
@@ -2343,7 +2365,8 @@ REMOVE Pro IF (NOT 1 Pro OR Vconj_pro OR Imp) ;	# Imp : solution provisioire pou
 SELECT Prep IF (0 En) (1C N OR A) ;
 SELECT Prep IF (0 En) (1C Num) ;
 SELECT Prep IF (0 En) (1 ("boucle")) ;	# rediffusé en boucle jusqu'à minuit
-SELECT Prep IF (0 En) (1 ("aider")) ;	# vient en aide
+SELECT Prep IF (0 En) (1 ("aide")) ;	# vient en aide
+SELECT Prep IF (0 En) (1 ("ruine")) ;	# vient en aide
 SELECT Prep IF (-1 ("mise")) (0 En) (1 N) ;	# mise en vente
 REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);	# passer en revue
 REMOVE Pro IF (0 En) (NOT 1 Verb OR Pro);	# sont en Inde
@@ -2392,7 +2415,7 @@ SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
 SELECT A IF (0 ("majeur")) (1 ("partie")) ;
 
 REMOVE CnjAdv IF (0 Si) (1 ("en") OR ("y")) (2 Verb) ; 	# pour s'y rendre
-REMOVE CnjAdv IF (0 ("<s'>"i)) (1C Verb LINK NOT 0 ("il y a")) ;
+REMOVE CnjAdv IF (0 ("<s'>"i) OR ("<s’>")) (1C Verb LINK NOT 0 ("il y a")) ;
 SELECT CnjAdv IF (0 Si) (1 Prn) ;
 SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
