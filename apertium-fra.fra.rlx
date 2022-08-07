@@ -208,6 +208,7 @@ LIST Clim = "clim" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
 LIST Relache = "relâche" ;
+LIST Memoire = "mémoire" ;
 LIST Rue = "rue" ;
 LIST Statuaire = "statuaire" ;
 LIST Teneur = "teneur" ;
@@ -1549,6 +1550,13 @@ SELECT Masc IF (0 Inceste) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Fem IF (0 Page) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Info) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+
+SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 ("maîtrise")) ;
+SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 ("master")) ;
+SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 ("fin")) (3 De) ;
+SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 A) (3 ("cycle")) ;
+SELECT Masc IF (-2 ("soutenir") OR ("présenter") OR ("préparer") OR ("écrire")) (NOT -1/* Masc_strict OR Fem_strict) (0 Memoire) ;
+SELECT Fem IF (0 Memoire) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Statuaire) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
