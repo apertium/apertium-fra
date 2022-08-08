@@ -684,7 +684,9 @@ REMOVE ("être") IF (-1 Det + Def) (NOT -1 MajIni) (0 Est) (0 MajIni) ;
 SELECT N IF (-2 Prep) (-1 Det + Def) (0 Est) (0 MajIni) ;	# vers l'Est
 SELECT N IF (-2 ("à") OR ("vers") OR ("de")) (-1 Det + Def) (0 Est) ;	# à l'est
 SELECT N IF (-2 Ouest) (-1 Prep) (0 Est) ;			# d'Ouest en Est
-SELECT N IF (-2 Est) (-1 Prep) (0 Ouest) ;			# d'Ouest en Est
+SELECT N IF (0 Ouest) (1 Prep) (1 Est) ;			# d'Ouest en Est
+SELECT N IF (-2 Est) (-1 Prep) (0 Ouest) ;			# d'Est en Est
+SELECT N IF (0 Est) (1 Prep) (2 Ouest) ;			# d'Est en Est
 REMOVE Verb IF (-1 Ouest) (-1 (META:/-/r)) (0 Est) ;
 REMOVE Verb IF (0 Est) (0 (META:/-/r)) (1 Ouest) ;
 SELECT A IF (-1 Top) (0 Est) (0 MajIni) ;			# Jérusalem Est
