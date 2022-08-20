@@ -284,6 +284,7 @@ LIST Envers = "envers" ;
 LIST Correspondant = "correspondant" ;
 LIST Jouer_Faire = "jouer# de" "faire# de" ;
 LIST Instrument = "piano" "orgue" "clavecin" "clavicorde" "clavier" "violon" "alto" "violoncelle" "contrebasse" "flûte" "hautbois" "clarinette" "basson" "trompette" "cornet" "guitare" "mandoline" "basse" "tambour" "batterie" "accordéon" "cornemuse" ;
+LIST Famille = "mère" "père" "frère" "sœur" "oncle" "tante" "neveu" "nièce" "fils" "fille" "grand-père" "grand-mère" "petit-fils" "petite-fille" "cousin" "parent" "enfant" "petit-enfant" "parrain" "marraine" ;
 LIST UniteTemps = "seconde" "minute" "heure" "jour" "journée" "semaine" "mois" "an" "année" "lustre" "décennie" "décade" "siècle" "millénaire" ;
 LIST Jours = "lundi" "mardi" "mercredi" "jeudi" "vendredi" "samedi" "dimanche" ;
 LIST Mois = "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" ;
@@ -1141,8 +1142,8 @@ SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 N) (4 Ant OR Cog OR unknow
 SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 A) (4 Ant OR Cog OR unknown) ; # Fils du vieux Priam
 SELECT Fils IF (0C Fil OR Fils) (1 ("de")) (2 Det) (3 A) (4 N) (5 Ant OR Cog OR unknown) ; # Fils du vieux roi Artus
 
-SELECT Fils IF (1 ("de")) (2 Det) (3 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami") OR ("précédent") OR ("ancien") OR Dignite) ;	# fils de la marquise
-SELECT Fils IF (1 ("de")) (2 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami") OR ("précédent") OR ("ancien") OR Dignite) ;	# fils du marquis
+SELECT Fils IF (1 ("de")) (2 Det) (3 Famille OR ("voisin") OR ("ami") OR ("précédent") OR ("ancien") OR Dignite) ;	# fils de la marquise
+SELECT Fils IF (1 ("de")) (2 Famille OR ("voisin") OR ("ami") OR ("précédent") OR ("ancien") OR Dignite) ;	# fils du marquis
 
 SELECT A IF (-1 Ser + &&ConcordeSP) (0 ("proche") + &&ConcordeSP) ;
 
@@ -1414,14 +1415,17 @@ SELECT N IF (0 ("frère")) (1 Ant OR unknownMajIni) ;		# frère Jean
 SELECT N IF (0 ("sœur")) (1 Ant OR unknownMajIni) ;		# sœur Meredith
 SELECT Ant + Masc IF (-1 ("frère")) (0 Ant) ;
 SELECT Ant + Fem IF (-1 ("sœur")) (0 Ant) ;
-SELECT Ant OR Cog IF (-2 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami")) (-1 ("de")) ;
-SELECT Ant IF (-2 ("mère") OR ("père") OR ("frère") OR ("sœur") OR ("oncle") OR ("tante") OR ("neveu") OR ("nièce") OR ("fils") OR ("fille") OR ("grand-père") OR ("grand-mère") OR ("petit-fils") OR ("petite-fille") OR ("cousin") OR ("voisin") OR ("ami")) (-1 ("de")) ;
+SELECT Top IF (-2 ("<Enfant>")) (-1 ("de")) (NOT 1 Ant OR Cog) ;
+SELECT Top IF (-2 ("<Enfants>")) (-1 ("de")) (NOT 1 Ant OR Cog) ;	# les Enfants de France
+SELECT Ant OR Cog IF (-2 Famille OR ("voisin") OR ("ami")) (-1 ("de")) ;
+SELECT Ant IF (-2 Famille OR ("voisin") OR ("ami")) (-1 ("de")) ;
 
 SELECT N IF (0 ("cathédrale")) (1 MajIni OR unknownMajIni) ;		# cathédrale Notre-Dame de Rouen
 
 SELECT N IF (0 ("gagnant")) (0 (META:/-/r)) ;		# gagnant-gagnant
 SELECT N IF (0 ("gagnant")) (-1 (META:/-/r)) ;		# gagnant-gagnant
 SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
+SELECT N IF (0 ("perdant")) (-1 (META:/-/r)) ;		# perdant-perdant
 
 SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
 
@@ -1654,6 +1658,8 @@ SELECT Prep IF (0 ("<Sans>")) (1 N OR Inf) ;	# Sans surprise
 SELECT Prep IF (0 ("<en bas>")) (1C N + Masc) ;	# en bas âge
 SELECT Adv IF (0 ("<en bas>")) (1C EOS OR Prep) ;
 
+SELECT SUB:1 Prep IF (0 ("hériter# de")) (1 Det + &&ConcordeSN) (2 Famille + &&ConcordeSN) ;	# hériter de ses parents
+REMOVE SUB:1 Prep IF (0 ("hériter# de")) (1 Det + &&ConcordeSN) (2 N + &&ConcordeSN) (NOT 2 Famille) ; # hériter d'une maison
 REMOVE Pl_strict IF (0 Vers) (1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
 REMOVE Pl_strict IF (0 Vers) (-1* ("lire") OR ("écrire") OR ("publier") OR ("poème") OR ("poésie") OR ("poète") OR ("écrivain") OR ("litérature")) ;
 REMOVE Pl_strict IF (0 Vers) (1 ("de")) (2 Ant OR Cog OR unknownMajIni) ;
