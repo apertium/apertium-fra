@@ -434,7 +434,7 @@ SELECT Fem_strict IF (-1C Ant + Fem_strict) (0 Ant + Fem_strict) ;
 
 REMOVE N IF (NOT -1 Det) (0 ("Alain")) ;
 REMOVE A IF (0 ("Alain")) ;
-SELECT Ant IF (0 ("René") OR ("Renée") OR ("Marc") OR ("Pierre") OR ("Jean")) (1 Ant OR NP OR unknownMajIni) ;
+SELECT Ant IF (0 ("René") OR ("Renée") OR ("Sabine") OR ("Marc") OR ("Pierre") OR ("Jean")) (1 Ant OR NP OR unknownMajIni) ;
 REMOVE Ant IF (0 ("Beau")) (NOT 1 Ant OR NP OR unknownMajIni) ;
 REMOVE Ant IF (0 ("Moïse")) (NOT 1 Ant OR NP OR unknownMajIni) ;
 SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
