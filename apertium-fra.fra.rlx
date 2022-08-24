@@ -174,6 +174,7 @@ LIST Aussi = "aussi" ;
 LIST Même = "même" ;
 LIST Plus = "plus" ;
 LIST Moins = "moins" ;
+LIST AdvComp = "plus" "moins" "beaucoup plus" "beaucoup moins" "un peu plus" "un peu moins" "bien plus" "bien moins" "mieux" "beaucoup mieux" "un peu mieux" "bien mieux" ;
 LIST Devoir = "devoir" ;
 LIST Être = "être" ;
 LIST Comme = "comme" ;
@@ -856,17 +857,17 @@ SELECT V IF (NOT -1 ("y")) (0C Haver OR V) (1 Det) (2 PreDet OR PreAdv OR Adv) (
 SELECT V IF (0 Avoir) (1C Prep) ;
 SELECT V IF (0 Avoir) (1 ("pour")) ;
 
-SELECT V IF (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (2 ("de")) ;
-SELECT V IF (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (3 ("de")) ;
-SELECT V IF (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (4 ("de")) ;
-SELECT V IF (-1 ("en")) (0 Avoir) (1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
-SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
-SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 Adv) (3 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
+SELECT V IF (0 Avoir) (1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (2 ("de")) ;
+SELECT V IF (0 Avoir) (1 Adv) (2 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (3 ("de")) ;
+SELECT V IF (0 Avoir) (1 Adv) (2 Adv) (3 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (4 ("de")) ;
+SELECT V IF (-1 ("en")) (0 Avoir) (1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
+SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
+SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 Adv) (3 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) ;
 
 SELECT V IF (NOT -1 ("y")) (0 Avoir) (1 ("rien")) (NOT 2 PP) ;			# n'a rien de nouveau
 SELECT V IF (NOT -1 ("y")) (0 Avoir) (1 Adv) (2 ("rien")) (NOT 3 PP) ;		# n'a toujours rien de nouveau
 
-REMOVE N IF (-1 ("plus") OR ("moins") OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
+REMOVE N IF (-1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
   ## n'ont pas vu, n'ont jamais vu
@@ -1875,7 +1876,7 @@ REMOVE N IF (-2 Verb or unknown) (-1/* Det) (0 ("plus") OR ("moins")) ;		# a mar
 REMOVE N IF (-1 ("de")) (0 ("plus") OR ("moins")) ;	# 290 F de plus
 REMOVE N IF (0 ("plus") OR ("moins")) (1 ("de")) (2 Num) ;	# plus de 18 ans
 
-SELECT CnjSub IF (-2 ("plus") OR ("moins")) (-1 A OR PP OR Adv) (0 Que) ;	# plus rapide que moi
+SELECT CnjSub IF (-2 AdvComp) (-1 A OR PP OR Adv) (0 Que) ;	# plus rapide que moi
 SELECT CnjSub IF (-1 ("sans")) (0 Que) ;
 SELECT CnjSub IF (-2 ("tel") + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 Que) ;	# un tel succès que
 #REMOVE Prs IF (-3* ("tel") LINK 2C Que + CnjSub BARRIER Verb + Pers) (0 Pri) ;
@@ -1959,7 +1960,7 @@ SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
 
 SELECT Det IF (0 Leur) (1 A) (NOT 1 Verb) ;	# pour leur premère participation ; il leur fait
 
-SELECT Tn IF (-3 ("plus") OR ("moins")) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;	# plus rapide que lui
+SELECT Tn IF (-3 AdvComp) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;	# plus rapide que lui
 
 SELECT Pro IF (-1C N_Adj) (0 Lui OR Nous OR Vous) (1 V + P3) ;	# mon père lui écrit
 
@@ -2413,12 +2414,12 @@ SELECT Prep IF (-4 Ser + &&ConcordeSP) (-3 Adv) (-2 Adv OR PreAdv) (-1 ("supéri
 SELECT Prep IF (-2 Ser + Inf OR Ser + Ger) (-1 ("supérieur") OR ("inférieur")) (0 En) (1 N) ; # étant supérieurs en nombre
 SELECT Prep IF (-3 Ser + Inf OR Ser + Ger) (-2 Adv OR PreAdv) (-1 ("supérieur") OR ("inférieur")) (0 En) (1 N) ; # étant très supérieurs en nombre
 SELECT Prep IF (-4 Ser + Inf OR Ser + Ger) (-3 Adv) (-2 Adv OR PreAdv) (-1 ("supérieur") OR ("inférieur")) (0 En) (1 N) ; # n'étant pas très supérieurs en nombre
-SELECT Prep IF (-3 Ser + &&ConcordeSP) (-2 ("plus") OR ("moins")) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # sont plus grands en nombre
-SELECT Prep IF (-4 Ser + &&ConcordeSP) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # ne sont pas plus grands en nombre
-SELECT Prep IF (-5 Ser + &&ConcordeSP) (-4 Adv) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # ne sont pas beaucoup plus grands en nombre
-SELECT Prep IF (-3 Ser + Inf OR Ser + Ger) (-2 ("plus") OR ("moins")) (-1 A) (0 En) (1 N) ; # étant plus grands en nombre
-SELECT Prep IF (-4 Ser + Inf OR Ser + Ger) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A) (0 En) (1 N) ; # n'étant pas plus grands en nombre
-SELECT Prep IF (-5 Ser + Inf OR Ser + Ger) (-4 Adv) (-3 Adv) (-2 ("plus") OR ("moins")) (-1 A) (0 En) (1 N) ; # n'étant pas beaucoup plus grands en nombre
+SELECT Prep IF (-3 Ser + &&ConcordeSP) (-2 AdvComp) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # sont plus grands en nombre
+SELECT Prep IF (-4 Ser + &&ConcordeSP) (-3 Adv) (-2 AdvComp) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # ne sont pas plus grands en nombre
+SELECT Prep IF (-5 Ser + &&ConcordeSP) (-4 Adv) (-3 Adv) (-2 AdvComp) (-1 A + &&ConcordeSP) (0 En) (1 N) ; # ne sont pas beaucoup plus grands en nombre
+SELECT Prep IF (-3 Ser + Inf OR Ser + Ger) (-2 AdvComp) (-1 A) (0 En) (1 N) ; # étant plus grands en nombre
+SELECT Prep IF (-4 Ser + Inf OR Ser + Ger) (-3 Adv) (-2 AdvComp) (-1 A) (0 En) (1 N) ; # n'étant pas plus grands en nombre
+SELECT Prep IF (-5 Ser + Inf OR Ser + Ger) (-4 Adv) (-3 Adv) (-2 AdvComp) (-1 A) (0 En) (1 N) ; # n'étant pas beaucoup plus grands en nombre
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;	# peu de joueurs.
 SELECT A IF (0 N OR A) (-1C Peu) (1C N) ;
@@ -2760,8 +2761,7 @@ REMOVE Ger IF (-1 Verb + Pers) (0 Prep OR Ger) ;
 REMOVE Ger IF (-1 ("nommer") OR ("appeler")) (0 Ger OR N OR A) ;
   ## nommé dirigeant
 
-REMOVE Ger IF (-1 ("plus") OR ("moins")) (0 Ger OR A OR PP) ;
-  ## plus exigeant
+REMOVE Ger IF (-1 AdvComp) (0 Ger OR A OR PP) ;	# plus exigeant
 
 #REMOVE Ger IF (0 Ger) (0 N + &&ConcordeSN) (1 CnjCoo) (2 N + &&ConcordeSN) ; 	# figurant et chanteur
 #REMOVE Ger IF (0 Ger) (0 N + &&ConcordeSN) (-1 CnjCoo) (-2 N + &&ConcordeSN) ;
@@ -2874,7 +2874,7 @@ REMOVE A IF (0 PP) (1 Adv) (NOT 2 A OR Verb) ;		# fut encore poussée plus loin
 
 REMOVE PP OR Ger IF (NOT -1 CM OR N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C N + &&ConcordeSN) ;	# imposant lanceur
 REMOVE PP OR Ger IF (-1 PreAdv) (0 A) ;					# très imposant
-REMOVE PP OR Ger IF (-1 ("plus") OR ("moins")) (0 A) ;			# plus imposant
+REMOVE PP OR Ger IF (-1 AdvComp) (0 A) ;			# plus imposant
 REMOVE PP OR Ger IF (0 A + &&ConcordeSN) (1 CnjCoo) (2C A + &&ConcordeSN) ;
 REMOVE PP OR Ger IF (-2C A + &&ConcordeSN) (-1 CnjCoo) (0 A + &&ConcordeSN) ;
 
