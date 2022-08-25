@@ -867,6 +867,14 @@ SELECT V IF (-1 ("en")) (0 Avoir) (1 Adv) (2 Adv) (3 AdvComp OR ("beaucoup") OR 
 SELECT V IF (NOT -1 ("y")) (0 Avoir) (1 ("rien")) (NOT 2 PP) ;			# n'a rien de nouveau
 SELECT V IF (NOT -1 ("y")) (0 Avoir) (1 Adv) (2 ("rien")) (NOT 3 PP) ;		# n'a toujours rien de nouveau
 
+REMOVE Det IF (0 Det) (1C Det) ;		# beaucoup de ces enfants
+REMOVE Det IF (-1C Det) (0 Det) ;
+SELECT SUB:1 Prep IF (0 ("<beaucoup de>"i)) (1C Det) ;
+REMOVE SUB:1 Prep IF (0 ("<beaucoup de>"i)) ;
+REMOVE SUB:1 Prep IF (0 ("<trop de>"i)) ;
+REMOVE SUB:1 Prep IF (0 ("<assez de>"i)) ;
+REMOVE SUB:1 Prep IF (0 ("<suffisamment de>"i)) ;
+
 REMOVE N IF (-1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
