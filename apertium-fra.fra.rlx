@@ -2681,6 +2681,7 @@ SELECT N IF (-1 AdjInd + &&ConcordeSN) (0 N + &&ConcordeSN) (1C Barrera_Final_Es
 SELECT A IF (NOT -2 ("le")) (-1 ("un") + MascSg) (0 ("ferme") + MascSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;	# dont un [an] ferme
 SELECT A IF (NOT -2 ("le")) (-1 Num) (0 ("ferme") + MascPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) (-1* ("prison") OR ("condamner")) ;	# dont deux [ans] fermes
 
+REMOVE A OR PP IF (-1 Prep) (-1/* Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + &&ConcordeSN OR Num) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -3 ("comme")) (-2 Det + &&ConcordeSN) (-1 Num OR A LINK NOT 0 N) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
@@ -2755,7 +2756,8 @@ REMOVE Ger IF (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT -1 Pro) ;	# ce m
 REMOVE Ger IF (-2 Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;	# son propre représentant
 REMOVE Ger IF (-3 Det + &&ConcordeSN) (-2 Adv_PreAdv) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;
 
-SELECT A IF (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 ("suivant")) ;
+SELECT A IF (-2/* Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 ("suivant") + &&ConcordeSN) ;
+SELECT A IF (-3/* Det + &&ConcordeSN) (-2 Num) (-1 Mois + &&ConcordeSN) (0 ("suivant")) ;
 SELECT A IF (-1 Noun_Adj) (0 ("suivant")) (1 (":")) ;
 
 SELECT Ger IF (0 ("signifier") + Ger) (0 (META:/«/r) OR (META:/"/r));
@@ -2888,6 +2890,14 @@ REMOVE PP OR Ger IF (0 A + &&ConcordeSN) (1 CnjCoo) (2C A + &&ConcordeSN) ;
 REMOVE PP OR Ger IF (-2C A + &&ConcordeSN) (-1 CnjCoo) (0 A + &&ConcordeSN) ;
 
 REMOVE A (0 ("situé") OR ("placé") OR ("localisé")) (1 ("en") OR ("dans") OR ("à")) ;
+
+REMOVE A IF (NOT -4 De) (NOT -3 De) (NOT -2 De) (-1C N + Masc_strict) (NOT 0 A + Masc) (0 Ger) ;
+REMOVE A IF (NOT -4 De) (NOT -3 De) (NOT -2 De) (-1C N + Fem_strict) (NOT 0 A + Fem) (0 Ger) ;	# une plaque tournant vers la droite
+REMOVE A IF (NOT -4 De) (NOT -3 De) (NOT -2 De) (-1C N + Sg_strict) (NOT 0 A + Sg) (0 Ger) ;
+REMOVE A IF (NOT -4 De) (NOT -3 De) (NOT -2 De) (-1C N + Pl_strict) (NOT 0 A + Pl) (0 Ger) ;
+REMOVE N IF (-1C N) (NOT -1 (META:/-/r)) (0 Ger) ;	# une plaque tournant vers la droite
+REMOVE Ger IF (-1 ("comme"")) (0 N) ;	# travaille comme assistant
+REMOVE A IF (0 ("<consistant>"i)) (1 ("à") OR ("en")) ;
 
 # ADJ OR VBLEX
 REMOVE A IF (-1C N + Sg) (0 Verb + P3 + Sg) (1 Det) ;				# la loi fixe la composition
