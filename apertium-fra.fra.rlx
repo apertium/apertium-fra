@@ -3018,6 +3018,7 @@ SELECT A IF (-2/* Det + &&ConcordeSN) (-1 AdjOrd + &&ConcordeSN) (0 AdjPre + &&C
 SELECT N IF (-3/* Det + &&ConcordeSN) (-2 AdjOrd + &&ConcordeSN) (-1 AdjPre + &&ConcordeSN) (0 N + &&ConcordeSN) ; # les premières grandes élections
 SELECT N IF (-2/* Det + &&ConcordeSN) (-1 AdjPre + &&ConcordeSN OR AdjOrd + &&ConcordeSN ) (0 N + &&ConcordeSN) ;
 SELECT N IF (-1 AdjOrd + &&ConcordeSN ) (0 N + &&ConcordeSN) ;
+SELECT A IF (-2C N_Adj + &&ConcordeSN) (-1 AdjPre + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# musique sacrée protestante
 SELECT N IF (-1 AdjPre + &&ConcordeSN ) (0 N + &&ConcordeSN) ;
 
 SELECT N IF (-1 DetDef + &&ConcordeSN OR DetDem + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (NOT 1 N + &&ConcordeSN) ;	# les premiers
