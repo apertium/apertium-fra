@@ -2883,6 +2883,11 @@ REMOVE A IF (0 ("élever")) (1 ("en")) (2 Num) ;		# une statue élevée en 1900
 
 REMOVE A IF (0 PP) (1 Adv) (NOT 2 A OR Verb) ;		# fut encore poussée plus loin
 
+SELECT PP IF (-1 Ser + &&ConcordeSP) (0 ("sacré") + &&ConcordeSP) ;	# est sacré champion
+SELECT PP IF (-2 Ser + &&ConcordeSP) (-1 Adv) (0 ("sacré") + &&ConcordeSP) ;
+SELECT PP IF (-3 Ser + &&ConcordeSP) (-2 Adv) (-1 Adv) (0 ("sacré") + &&ConcordeSP) ;
+SELECT PP IF (-1 Ser + &&ConcordeSP) (0 ("sacré") + &&ConcordeSP) ;	# est sacré champion
+SELECT PP IF (-1 Ser + &&ConcordeSP) (0 ("sacré") + &&ConcordeSP) ;	# est sacré champion
 REMOVE PP OR Ger IF (NOT -1 CM OR N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C N + &&ConcordeSN) ;	# imposant lanceur
 REMOVE PP OR Ger IF (-1 PreAdv) (0 A) ;					# très imposant
 REMOVE PP OR Ger IF (-1 AdvComp) (0 A) ;			# plus imposant
