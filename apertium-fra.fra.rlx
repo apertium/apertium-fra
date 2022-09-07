@@ -1732,6 +1732,10 @@ SELECT Verb IF (0 ("vit")) (1 Adv) (2 ("en") OR ("dans")) ;
 SELECT Verb IF (NOT -1 Det + MascSg) (0 ("vit")) ;
 SELECT Verb IF (-1 Pro) (0 ("vit")) ;
 
+LIST LeJour = "le jour" "la nuit" "le matin" "l'après-midi" "le soir" ;
+SELECT Adv IF (-1C BOS OR CnjSub OR CnjAdv OR Rel) (0 LeJour) (1 Tn OR Det OR NP) ;
+REMOVE Adv IF (0 LeJour) ;
+
 SELECT Enc IF (-1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
 REMOVE Enc IF (NOT -1 (META:/-/r)) (0 ("moi") OR ("toi")) ;
 
