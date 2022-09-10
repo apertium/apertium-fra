@@ -2694,6 +2694,9 @@ SELECT N IF (-1 AdjInd + &&ConcordeSN) (0 N + &&ConcordeSN) (1C Barrera_Final_Es
 SELECT A IF (NOT -2 ("le")) (-1 ("un") + MascSg) (0 ("ferme") + MascSg) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;	# dont un [an] ferme
 SELECT A IF (NOT -2 ("le")) (-1 Num) (0 ("ferme") + MascPl) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) (-1* ("prison") OR ("condamner")) ;	# dont deux [ans] fermes
 
+LIST Gentile = "français" "anglais" "allemand" "belge" "hollandais" "espagnol" "portugais" "suisse" "italien" "russe" "chinois" "japonais" "catalan" "basque" "occitan" "breton" "corse" "arpitan" "francoprovençal" "alsacien" "flammand" "américain" "canadien" "québécois" "occidental" "oriental" ;
+SELECT A + FemSg IF (-2 ("à")) (-1 Det + Def + FemSg) (0 Gentile) (0 MinIni) (NOT 1 A OR PP) ;	# à la chinoise
+
 REMOVE A OR PP IF (-1 Prep) (-1/* Det + &&ConcordeSN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 Det + &&ConcordeSN OR Num) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
 REMOVE A OR PP IF (NOT -2 ("comme")) (-1 ("de") OR ("à")) (0 Noun_Adj_PP LINK 0 N OR NP) (1C Barrera_Final_Estrict_SN OR Ant_Cog OR CM) ;
