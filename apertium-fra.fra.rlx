@@ -1598,6 +1598,10 @@ SELECT Fem IF (0 Chantilly) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Collab) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
+SELECT Masc IF (0 ("amazighe")) (-1 En) ;
+SELECT Masc IF (0 ("amazighe")) (-1 ("parler")) ;
+SELECT Masc IF (0 ("amazighe")) (-2 ("parler")) (-1 Adv) ;
+
 SELECT Mf IF (-3 Ant OR Cog OR unknownMajIni) (-2 Ser) (-1 Det) (0 Cide) ;
 SELECT Mf IF (-4 Ant OR Cog OR unknownMajIni) (-3 Haver OR Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
 SELECT Mf IF (-5 Ant OR Cog OR unknownMajIni) (-4 Haver) (-3 Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
