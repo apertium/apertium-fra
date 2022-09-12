@@ -1703,6 +1703,10 @@ SELECT N IF (0 ("derrière de")) (-1C Det + MascSg) ;
 SELECT N IF (0 ("derrière de")) (-1 Det + Def OR ("<au>"i) OR ("<du>"i)) ;
 REMOVE N IF (0 ("derrière de")) (NOT -1/* Det + MascSg) ;
 
+REMOVE Prep IF (0 N) (0 Prep) (-1C Det) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# l'avant
+REMOVE Prep IF (0 N) (0 Prep) (-1 ("<au>"i) OR ("<du>"i)) (0 N + MascSg) ;	# du derrière
+REMOVE Prep IF (0 N) (0 Prep) (-1 ("<aux>"i) OR ("<des>"i)) (0 N + MascPl) ;
+
 SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Inf) ;
 SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Pro) (2 Inf) ;
 SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Pro) (2 Pro) (3 Inf) ;
