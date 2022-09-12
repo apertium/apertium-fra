@@ -209,6 +209,7 @@ LIST Clim = "clim" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
 LIST Relache = "relâche" ;
+LIST Martyre = "martyre" ;
 LIST Memoire = "mémoire" ;
 LIST Rue = "rue" ;
 LIST Statuaire = "statuaire" ;
@@ -1579,6 +1580,9 @@ SELECT Masc IF (NOT -1 Det + Masc_strict) (0 Memoire) (1 De) (2 A) (3 ("cycle"))
 SELECT Masc IF (-2 ("soutenir")) (NOT -1/* Masc_strict OR Fem_strict) (0 Memoire) ;
 SELECT Fem IF (0 Memoire) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
+REMOVE Masc IF (-1C N + Fem_strict) (0 Martyre) ;	# ville martyre
+REMOVE Fem IF (-1C N + Masc_strict) (0 Martyre) ;
+
 SELECT Fem IF (0 Statuaire) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (0 Teneur) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
@@ -1705,7 +1709,7 @@ REMOVE N IF (0 ("derrière de")) (NOT -1/* Det + MascSg) ;
 
 REMOVE Prep IF (0 N) (0 Prep) (-1C Det) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# l'avant
 REMOVE Prep IF (0 N) (0 Prep) (-1 ("<au>"i) OR ("<du>"i)) (0 N + MascSg) ;	# du derrière
-REMOVE Prep IF (0 N) (0 Prep) (-1 ("<aux>"i) OR ("<des>"i)) (0 N + MascPl) ;
+REMOVE Prep IF (0 N) (0 Prep) (-1 ("<aux>"i) OR ("<des>"i)) (0 N + MascPl) ;	
 
 SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Inf) ;
 SELECT Prep + ("avant de") IF (0 ("avant de")) (1 Pro) (2 Inf) ;
