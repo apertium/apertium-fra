@@ -1658,6 +1658,10 @@ SELECT A IF (0 Don) (1 Ant OR Cog OR unknownMajIni) ;
 REMOVE A IF (0 Don) ;
 SELECT Ant IF (-1 Don) ;
 
+SELECT Prep IF (0 ("de nouveau")) (-1C N_Adj) (1C N + MascSg) ;	# la place de nouveau maître
+REMOVE Prep IF (0 ("de nouveau")) (NOT -1 N_Adj) ;
+REMOVE Prep IF (0 ("de nouveau")) (NOT 1 N + MascSg) ;
+
 SELECT N (-1 ("catégorie") OR ("section") OR ("équipe") OR ("champion")) (0 ("cadet")) ;
 SELECT N (-1 ("foot") OR ("football") OR ("basketball") OR ("basket") OR ("volleyball") OR ("volley") OR ("handball") OR ("hockey")) (0 ("cadet")) ;
 SELECT N (-1 ("officier")) (0 ("cadet")) ;
@@ -3266,6 +3270,7 @@ SELECT Det IF (0 ("certains")) (1 N) (NOT 1 Verb + Pl + Pers) (NOT 1 Adv) ;
 # que certains élus très proches
 
 SELECT N IF (-1 Num) (0 ("dixième") OR ("centième") OR ("millième")) ;
+REMOVE Prep IF (0 ("de nouveau")) ;
 
 REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
 
