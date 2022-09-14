@@ -123,6 +123,7 @@ LIST MajIni = ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÚÙÜÛÇ].*\\>"r) ;
 LIST Majusc = ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÙÚÜÛÇ][A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÙÚÜÛÇ]*>"r) ;
 LIST MinIni = ("\\<[a-zàáäâèéëêíïîòóöôùúüûç].*\\>"r) ;
 LIST ConsInitiale = ("\\<[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz].*>"r) ;
+LIST ConsFinale = ("\\<.*[BCDFGJKLMNPQRSTVWXZbcdfgjklmnpqrstvwxz]>"r) ;
 LIST siecles_nom_romains = ("[IVX][IVX]*"r) ;
 LIST NumOrd = "[1-9][0-9]*ème"r ;
 
@@ -183,6 +184,7 @@ LIST Fonder = "fonder" ;
 
 # noms communs avec des sens différents selon le genre
 LIST Tour = "tour" ;
+LIST Poste = "poste" ;
 LIST Foudre = "foudre" ;
 LIST Mort = "mort" ;
 LIST Barde = "barde" ;
@@ -1490,6 +1492,11 @@ SELECT Masc IF (NOT -2 Fem) (-1 ("deuxième") OR ("second") OR ("troisième")) (
 SELECT Masc IF (0 Tour) (1 De) (2 ("force")) ;
 SELECT Masc IF (0 Tour) (1 De) (2 ("horizon")) ;
 SELECT Masc IF (0 Tour) (1 De) (2 ("magie")) ;
+REMOVE N + Masc IF (NOT -1/* Det + Masc OR A + Masc) (0 Tour) (1 MajIni) ;
+REMOVE N + Masc IF (NOT -1/* Det + Masc OR A + Masc) (0 Tour) (1 De) (2 MajIni LINK NOT 0 ("France")) ;
+
+REMOVE Masc IF (NOT -1/* Masc_strict OR N) (0 Poste + Masc) (NOT 1 Masc_strict) (-2 ("employé") OR ("travailleur") OR ("chef") OR ("directeur")) ;
+REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Poste + Fem) (NOT 1 Fem_strict) (-1 AdjOrd) ;
 
 SELECT Fem IF (-2 ("menace")) (-1 De) (0 Mort + Masc) ;
 SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
@@ -3281,6 +3288,31 @@ SELECT N IF (-1 Num) (0 ("dixième") OR ("centième") OR ("millième")) ;
 REMOVE Prep IF (0 ("de nouveau")) ;
 
 REMOVE Verb IF (-1* NP BARRIER (*) - NP LINK -1 À) ;
+
+# genre du nom
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 Ant + MascSg LINK NOT 0 FemSg) ;	# chef d'orchestre Jean-Christophe Spinosi
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 Ant + FemSg LINK NOT 0 MascSg) ;	# chef d'orchestre Marie Spinosi
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-2 Ant + MascSg LINK NOT 0 FemSg) ;	# Pierre, chef d’orchestre ; Silva en tant que chef d’orchestre
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-2 Ant + FemSg LINK NOT 0 MascSg) ;	# Marie, chef d’orchestre ; Silva en tant que chef d’orchestre
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 Ant + MascSg LINK NOT 0 FemSg) ;	# Pierre Silva, chef d’orchestre ; Pierre Silva en tant que chef d’orchestre
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 Ant + FemSg LINK NOT 0 MascSg) ;	# Marie Silva, chef d’orchestre ; Marie Silva en tant que chef d’orchestre
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-1 CnjCoo OR CM) (-2 N_Adj + MascSg LINK NOT 0 FemSg) ;	# écrivain et chef d’orchestre
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-1 CnjCoo OR CM) (-2 N_Adj + FemSg LINK NOT 0 MascSg) ;	# écrivaine et chef d’orchestre
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 CnjCoo OR CM) (2 N_Adj + MascSg LINK NOT 0 FemSg) ;	# chef d’orchestre et écrivain
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 CnjCoo OR CM) (2 N_Adj + FemSg LINK NOT 0 MascSg) ;	# chef d’orchestre et écrivaine
+
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 unknownMajIni LINK 0 ("<.*o>"r)) ;	# chef d’orchestre Aguinaldo
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 unknownMajIni + ConsFinale) ;	# chef d’orchestre Aguinald
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 unknownMajIni LINK 0 ("<.*a>"r)) ;	# chef d’orchestre Aguinalda
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (1 unknownMajIni LINK 0 ("<.*e>"r)) ;	# chef d’orchestre Aguinalde
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-2 unknownMajIni LINK 0 ("<.*o>"r)) ;	# Aguinaldo, chef d’orchestre
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-2 unknownMajIni + ConsFinale) ;	# Aguinald, chef d’orchestre
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-2 unknownMajIni LINK 0 ("<.*a>"r)) ;	# Aguinalda, chef d’orchestre
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-2 unknownMajIni LINK 0 ("<.*e>"r)) ;	# Aguinalde, chef d’orchestre
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 unknownMajIni LINK 0 ("<.*o>"r)) ;	# Aguinaldo Silva, chef d’orchestre
+REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 unknownMajIni + ConsFinale) ;	# Aguinald Silva, chef d’orchestre
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 unknownMajIni LINK 0 ("<.*a>"r)) ;	# Aguinalda Silva, chef d’orchestre
+REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 unknownMajIni LINK 0 ("<.*e>"r)) ;	# Aguinalde Silva, chef d’orchestre
 
 #SELECT Det + &&ConcordeSN IF (-1 BOS OR CM) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN) ;
 
