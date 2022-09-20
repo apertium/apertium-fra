@@ -3330,6 +3330,13 @@ REMOVE Fem_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 unknownMajIni + 
 REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 unknownMajIni LINK 0 ("<.*a>"r)) ;	# Aguinalda Silva, chef d’orchestre
 REMOVE Masc_strict IF (0 N + Masc_strict) (0 N + Fem_strict) (-3 unknownMajIni LINK 0 ("<.*e>"r)) ;	# Aguinalde Silva, chef d’orchestre
 
+REMOVE N OR Vconj_pro IF (-1C N + &&ConcordeSN) (0 N OR A + &&ConcordeSN) (1 (",")) (2 A + &&ConcordeSN)  (3 ("et") OR ("ou")) (4 A + &&ConcordeSN) ;	# correspondance critique, philosophique et littéraire,
+REMOVE N OR Vconj_pro IF (-3C N + &&ConcordeSN) (-2 A + &&ConcordeSN) (-1 (",")) (0 A + &&ConcordeSN)  (1 ("et") OR ("ou")) (2 A + &&ConcordeSN) ;	# correspondance littéraire, critique et philosophique
+REMOVE N OR Vconj_pro IF (-5C N + &&ConcordeSN) (-4 A + &&ConcordeSN) (-3 (",")) (-2 A + &&ConcordeSN)  (-1 ("et") OR ("ou")) (0 A + &&ConcordeSN) ;	# correspondance littéraire, philosophique et critique
+REMOVE N OR Vconj_pro OR Adv IF (-3 N + &&ConcordeSN) (-2 A + &&ConcordeSN) (-1 ("et") OR ("ou")) (0 A + &&ConcordeSN) (NOT 1 A) ;	# el seu caràcter màgic i religiós ; combustibles fòssils o centrals nuclears
+REMOVE N OR Vconj_pro IF (-4 N + &&ConcordeSN) (-3 A + &&ConcordeSN) (-2 ("et") OR ("ou")) (-1 Adv_PreAdv) (0 A + &&ConcordeSN) (NOT 1 A) ;
+
+
 #SELECT Det + &&ConcordeSN IF (-1 BOS OR CM) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN) ;
 
 #
