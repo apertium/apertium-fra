@@ -381,6 +381,9 @@ REMOVE N IF (0 ("<y>"i)) ;
 SELECT N IF (-1/* Det + Masc) (0 ("<déjà vu>"i)) ;
 REMOVE N IF (0 ("<déjà vu>"i)) ;
 
+SELECT Det IF (0 ("<ce soir>"i)) (1 A + MascSg OR De) ;
+REMOVE Det IF (0 ("<ce soir>"i)) ;
+
 REMOVE Cog IF (-1 DetDef) (0 Cog) ;
 REMOVE Cog IF (-1 DetInd) (0 Cog) ;
 REMOVE Cog IF (-1 En) (0 Cog) ;
