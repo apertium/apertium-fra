@@ -560,6 +560,13 @@ SELECT N IF (0 ("Groupe")) (-1 BOS) (NOT 1 MajIni OR unknownMajIni) ;
 REMOVE N IF (0 ("Groupe")) ;
 REMOVE NP IF (NOT -1 Ant OR unknownMajIni) (0 ("Portail")) ;
 
+SELECT NP IF (0 ("Base")) (-1 MajIni OR unknownMajIni) (NOT -1 Det + FemSg);	# Air Base (anglais)
+REMOVE NP IF (0 ("Base")) ;
+SELECT NP IF (0 ("Force")) (-1 MajIni OR unknownMajIni) (NOT -1 Det + FemSg) (NOT -1 A + FemSg) (NOT 1 A + FemSg);	# Air Force (anglais) ; Première Force Impériale australienne
+REMOVE NP IF (0 ("Force")) ;
+SELECT NP IF (0 ("Forces")) (-1 MajIni OR unknownMajIni) (NOT -1 Det + FemPl) (NOT -1 A + FemPl) (NOT 1 A + FemPl);
+REMOVE NP IF (0 ("Forces")) ;
+
 SELECT Acr IF (0 NP) ;
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 N_NP_ini OR ("parlement") OR ("grand") OR ("internet") OR ("marine") OR ("Français") OR ("Gallois") OR ("Parisien") OR ("Provençal") OR ("Gascon") OR ("Albigeois") OR ("Allemand") OR ("noël") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Juillet") OR ("Blanc") OR ("Blanche")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
