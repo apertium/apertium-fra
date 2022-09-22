@@ -398,6 +398,9 @@ REMOVE Cog IF (-1 (sent)) (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("<XI>")) ;
 
+REMOVE Cog IF (0 ("Noël")) (NOT -1 Ant OR Cog OR unknownMajIni) ;
+REMOVE Ant IF (0 ("Noël")) (NOT 1 Ant OR Cog OR unknownMajIni) ;
+
 REMOVE Cog IF (0 ("Nouveau")) (0 (META:/-/r)) ;		# Nouveau-Mexique
 
 LIST N_NP_ini = "roi" "reine" "prince" "maréchal" "chevalier" "dame" "frère" "chapelle" "détroit" "rue" "court" "groupe" ;
