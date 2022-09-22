@@ -1512,7 +1512,14 @@ REMOVE N + Masc IF (NOT -1/* Det + Masc OR A + Masc) (0 Tour) (1 MajIni) ;
 REMOVE N + Masc IF (NOT -1/* Det + Masc OR A + Masc) (0 Tour) (1 De) (2 MajIni LINK NOT 0 ("France")) ;
 
 REMOVE Masc IF (NOT -1/* Masc_strict OR N) (0 Poste + Masc) (NOT 1 Masc_strict) (-2 ("employé") OR ("travailleur") OR ("chef") OR ("directeur")) ;
+REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Poste + Fem) (1 ("diplomatique")) ;
 REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Poste + Fem) (NOT 1 Fem_strict) (-1 AdjOrd) ;
+REMOVE Fem IF (-2 ("à")) (-1 Det + Pos LINK NOT 0 Fem_strict) (0 Poste + Fem) ;
+REMOVE Masc IF (NOT -1/* Masc_strict) (0 Poste + Masc + MajIni) (NOT 1 Masc_strict) ;
+REMOVE Fem IF (-1 ("<aux>"i)) (0 Poste) (NOT 1 A + Fem_strict) ;
+REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Poste + Fem) (1 De) ;
+REMOVE Fem IF (-2 ("création") OR ("appel") OR ("avis") OR ("convocation")) (-1 De) (0 Poste + Fem) (NOT 1 Fem_strict OR N) ;
+REMOVE Fem IF (-3 ("création") OR ("appel") OR ("avis") OR ("convocation")) (-2 De) (-1 Num OR Det) (0 Poste + Fem) (NOT 1 Fem_strict OR N) ;
 
 SELECT Fem IF (-2 ("menace")) (-1 De) (0 Mort + Masc) ;
 SELECT Masc IF (-2 ("culte") OR ("monde")) (-1 De) (0 Mort + Fem) ;
