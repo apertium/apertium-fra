@@ -2461,6 +2461,10 @@ SELECT Prep IF (0 En) (1 ("boucle")) ;	# rediffusé en boucle jusqu'à minuit
 SELECT Prep IF (0 En) (1 ("aide")) ;	# vient en aide
 SELECT Prep IF (0 En) (1 ("catastrophe")) ;
 SELECT Prep IF (0 En) (1 ("ruine")) ;
+SELECT Prep IF (0 En) (1 ("vente")) ;
+SELECT Prep IF (0 En) (1 ("ligne")) ;
+SELECT Prep IF (0 En) (1 ("catastrophe")) ;
+SELECT Prep IF  (-1 ("être") OR ("mettre") OR ("remettre")) (0 En) (1 ("cause")) ;
 SELECT Prep IF (-1 ("mise")) (0 En) (1 N) ;	# mise en vente
 REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);	# passer en revue
 REMOVE Pro IF (0 En) (NOT 1 Verb OR Pro);	# sont en Inde
@@ -2487,6 +2491,7 @@ SELECT Prep IF (-5 Ser + &&ConcordeSP) (-4 Adv) (-3 Adv) (-2 AdvComp) (-1 A + &&
 SELECT Prep IF (-3 Ser + Inf OR Ser + Ger) (-2 AdvComp) (-1 A) (0 En) (1 N) ; # étant plus grands en nombre
 SELECT Prep IF (-4 Ser + Inf OR Ser + Ger) (-3 Adv) (-2 AdvComp) (-1 A) (0 En) (1 N) ; # n'étant pas plus grands en nombre
 SELECT Prep IF (-5 Ser + Inf OR Ser + Ger) (-4 Adv) (-3 Adv) (-2 AdvComp) (-1 A) (0 En) (1 N) ; # n'étant pas beaucoup plus grands en nombre
+SELECT Prn IF (0 En) (1 ("<savoir>")) (2 ("plus")); #en savoir plus
 
 SELECT N IF (0 N OR A) (-1C Peu) (1 EOS) ;	# peu de joueurs.
 SELECT A IF (0 N OR A) (-1C Peu) (1C N) ;
@@ -3371,6 +3376,22 @@ SELECT Ger IF (-2 DetPos) (-1 ("vie")) (0 Durant) (NOT 1 Det) ;
 REMOVE Ger IF (-2 DetPos) (-1 ("vie")) (0 Durant) (1 Det) ;
 
 
+REMOVE V IF (0 ("produit")) (0 N) (-2 Det OR ("<de>")) (-1 A) ;
+
+REMOVE Prn IF (0 ("le")) (-1 ("avec")) (1 N);
+
+
+REMOVE Cog IF (0 Top) (1 Top) ;
+REMOVE Cog IF (0 Top) (-1 Top) ;
+
+SELECT Det IF (0 ("de multiples")) (1 N + Pl) (-1 Prep) ;
+REMOVE Det IF (0 ("de multiples")) (NOT 1 N + Pl) ;
+REMOVE Det IF (0 ("de multiples")) (NOT -1 Prep) ;
+
+REMOVE NP IF (0 N) (-1 BOS) (NOT 1 NP) (NOT 1 unknownMajIni);
+
+SELECT Det IF (0 ("Des")) (-1 BOS) (1 N + Pl);
+
 
 #patchs per Revirada
 REMOVE V IF (0 N) (0 ("<politique>"i) OR ("<permanente>"i) OR ("<anglaise>"i) OR ("<grecque>"i) OR ("<chinoise>"i) OR ("<rose>"i) OR ("<punt>"i) OR ("<musique>"i)) ;
@@ -3396,3 +3417,5 @@ REMOVE A IF (0 ("<leur>")) (1 N + Sg OR A + Sg) ;
 REMOVE A IF (0 ("<leurs>")) (1 N + Pl OR A + Pl) ;
 
 REMOVE Prep IF (0 ("<en train de>")) (1 N) ;
+
+REMOVE V IF (0 ("<espace>")) (-1 Pos) ;
