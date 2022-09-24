@@ -219,6 +219,7 @@ LIST Teneur = "teneur" ;
 LIST Bien = "bien" ;
 LIST MiTemps = "mi-temps" ;
 LIST Paillasse = "paillasse" ;
+LIST Chef = "chef" ;
 LIST Cide = "homicide" "féminicide" "parricide" "matricide" "fratricide" "régicide" "magnicide" ;
 LIST Inceste = "inceste" ;
 LIST Parano = "parano" ;
@@ -1641,6 +1642,11 @@ SELECT Fem IF (0 Collab) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 ("amazighe")) (-1 En) ;
 SELECT Masc IF (0 ("amazighe")) (-1 ("parler")) ;
 SELECT Masc IF (0 ("amazighe")) (-2 ("parler")) (-1 Adv) ;
+
+SELECT N + &&ConcordeSN IF (-1/* Det + &&ConcordeSN) (0 Chef + &&ConcordeSN) ;
+SELECT &&ConcordeSN IF (-2/* Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 Chef + &&ConcordeSN) ;
+SELECT N + &&ConcordeSN IF (0 Chef + &&ConcordeSN) (1 A + &&ConcordeSN) ;
+SELECT Masc IF (0 Chef) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Mf IF (-3 Ant OR Cog OR unknownMajIni) (-2 Ser) (-1 Det) (0 Cide) ;
 SELECT Mf IF (-4 Ant OR Cog OR unknownMajIni) (-3 Haver OR Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
