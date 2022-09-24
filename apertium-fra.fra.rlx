@@ -405,7 +405,7 @@ REMOVE Cog IF (0 ("Nouveau")) (0 (META:/-/r)) ;		# Nouveau-Mexique
 
 LIST N_NP_ini = "roi" "reine" "prince" "maréchal" "chevalier" "dame" "frère" "chapelle" "détroit" "rue" "court" "groupe" ;
 REMOVE N + Sg IF (-1 BOS) (0 NP LINK NOT 0 N_NP_ini) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
-REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser  BARRIER (":") OR EOS) ;	# Fred es mort
+REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort
 
 SELECT Prep IF (-1 ("Jean")) (0 ("sans")) (1 ("terre")) ;
 
@@ -571,7 +571,7 @@ SELECT NP IF (0 ("Forces")) (-1 MajIni OR unknownMajIni) (NOT -1 Det + FemPl) (N
 REMOVE NP IF (0 ("Forces")) ;
 
 SELECT Acr IF (0 NP) ;
-SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 N_NP_ini OR ("parlement") OR ("grand") OR ("internet") OR ("marine") OR ("Français") OR ("Gallois") OR ("Parisien") OR ("Provençal") OR ("Gascon") OR ("Albigeois") OR ("Allemand") OR ("noël") OR ("justice") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Juillet") OR ("Blanc") OR ("Blanche")) ;
+SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 N_NP_ini OR ("parlement") OR ("grand") OR ("internet") OR ("marine") OR ("Français") OR ("Gallois") OR ("Parisien") OR ("Provençal") OR ("Gascon") OR ("Albigeois") OR ("Allemand") OR ("noël") OR ("justice") OR ("grand") OR ("petit") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Juillet") OR ("Blanc") OR ("Blanche")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) (NOT -1 Majusc) ;	# la ligne A ; Charles V
 
@@ -579,6 +579,10 @@ SELECT Ant_Cog IF (0 Cog OR Ant) (1 Ant_Cog) (NOT 0 ("Rue")) ;		# . Manuel Garci
 REMOVE NP + Sg_strict OR Cog IF (-1 BOS) (0 Pl) (1C Verb + Pl) ;		# Tous ont mangé
 REMOVE NP + Pl_strict IF (-1 BOS) (0 Sg) (1C Verb + Sg) ;
 REMOVE NP IF (0 ("grand")) (1 ("prix")) ;
+REMOVE NP IF (0 ("grand") + &&ConcordeSN) (1 Top + &&ConcordeSN) (NOT -1 Ant OR Cog) ;
+REMOVE NP IF (0 ("petit") + &&ConcordeSN) (1 Top + &&ConcordeSN) (NOT -1 Ant OR Cog) ;
+SELECT A IF (0 ("grand")) (1 unknownMajIni) (NOT -1 Ant OR Cog) ;
+SELECT A IF (0 ("petit")) (1 unknownMajIni) (NOT -1 Ant OR Cog) ;
 REMOVE NP IF (0 ("maréchal")) (1 Cog) ;
 REMOVE NP IF (0 ("maréchal")) (1 Ant) (2 Cog) ;
 REMOVE NP IF (NOT -1 Ant OR unknownMajIni) (0 ("Français")) ;
@@ -3392,9 +3396,20 @@ SELECT Det IF (0 ("de multiples")) (1 N + Pl) (-1 Prep) ;
 REMOVE Det IF (0 ("de multiples")) (NOT 1 N + Pl) ;
 REMOVE Det IF (0 ("de multiples")) (NOT -1 Prep) ;
 
-REMOVE NP IF (0 N) (-1 BOS) (NOT 1 NP) (NOT 1 unknownMajIni);
+LIST NP_Ini = "pierre" ;
+LIST N_Ini = "dame" ;
+SELECT NP IF (-1 BOS) (0 N) (0 NP_Ini) ;
+REMOVE NP IF (-1 BOS) (0 N) (0 N_Ini) ;
+REMOVE NP IF (-1 BOS) (0 ("bataille")) (1 De) ;
+REMOVE NP IF (-1 BOS) (0 ("col")) (1 De) ;
+REMOVE NP IF (-1 BOS) (0 ("drapeau")) (1 De) ;
+REMOVE NP IF (-1 BOS) (0 ("loi")) (1 De) ;
+SELECT NP IF (-1 BOS) (0 N) (1 NP OR unknownMajIni) ;
+SELECT NP IF (-1 BOS) (0 N) (1 De) (2 NP OR unknownMajIni) ;
+SELECT NP IF (-1 BOS) (0 N) (1 Lpar) (2 NP OR unknownMajIni) ;
+REMOVE NP IF (-1 BOS) (0 N) ;
 
-SELECT Det IF (0 ("Des")) (-1 BOS) (1 N + Pl);
+# SELECT SUB:1 Det IF (0 ("Des")) (-1 BOS) (1 N + Pl);
 
 
 #patchs per Revirada
