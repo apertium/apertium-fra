@@ -220,6 +220,10 @@ LIST Bien = "bien" ;
 LIST MiTemps = "mi-temps" ;
 LIST Paillasse = "paillasse" ;
 LIST Chef = "chef" ;
+LIST ChefDEtat = "chef# d'État" ;
+LIST ChefDeFile = "chef# de file" ;
+LIST ChefDeGare = "chef# de gare" ;
+LIST ChefDOrchestre = "chef# d'orchestre" ;
 LIST Cide = "homicide" "féminicide" "parricide" "matricide" "fratricide" "régicide" "magnicide" ;
 LIST Inceste = "inceste" ;
 LIST Parano = "parano" ;
@@ -1647,6 +1651,26 @@ SELECT N + &&ConcordeSN IF (-1/* Det + &&ConcordeSN) (0 Chef + &&ConcordeSN) ;
 SELECT &&ConcordeSN IF (-2/* Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 Chef + &&ConcordeSN) ;
 SELECT N + &&ConcordeSN IF (0 Chef + &&ConcordeSN) (1 A + &&ConcordeSN) ;
 SELECT Masc IF (0 Chef) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT N + &&ConcordeSN IF (-1/* Det + &&ConcordeSN) (0 ChefDEtat + &&ConcordeSN) ;
+SELECT &&ConcordeSN IF (-2/* Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 ChefDEtat + &&ConcordeSN) ;
+SELECT N + &&ConcordeSN IF (0 ChefDEtat + &&ConcordeSN) (1 A + &&ConcordeSN) ;
+SELECT Masc IF (0 ChefDEtat) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT N + &&ConcordeSN IF (-1/* Det + &&ConcordeSN) (0 ChefDOrchestre + &&ConcordeSN) ;
+SELECT &&ConcordeSN IF (-2/* Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 ChefDOrchestre + &&ConcordeSN) ;
+SELECT N + &&ConcordeSN IF (0 ChefDOrchestre + &&ConcordeSN) (1 A + &&ConcordeSN) ;
+SELECT Masc IF (0 ChefDOrchestre) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT N + &&ConcordeSN IF (-1/* Det + &&ConcordeSN) (0 ChefDeFile + &&ConcordeSN) ;
+SELECT &&ConcordeSN IF (-2/* Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 ChefDeFile + &&ConcordeSN) ;
+SELECT N + &&ConcordeSN IF (0 ChefDeFile + &&ConcordeSN) (1 A + &&ConcordeSN) ;
+SELECT Masc IF (0 ChefDeFile) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
+
+SELECT N + &&ConcordeSN IF (-1/* Det + &&ConcordeSN) (0 ChefDeGare + &&ConcordeSN) ;
+SELECT &&ConcordeSN IF (-2/* Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 ChefDeGare + &&ConcordeSN) ;
+SELECT N + &&ConcordeSN IF (0 ChefDeGare + &&ConcordeSN) (1 A + &&ConcordeSN) ;
+SELECT Masc IF (0 ChefDeGare) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Mf IF (-3 Ant OR Cog OR unknownMajIni) (-2 Ser) (-1 Det) (0 Cide) ;
 SELECT Mf IF (-4 Ant OR Cog OR unknownMajIni) (-3 Haver OR Vbmod) (-2 Ser) (-1 Det) (0 Cide) ;
