@@ -3470,3 +3470,11 @@ REMOVE A IF (0 ("<leurs>")) (1 N + Pl OR A + Pl) ;
 REMOVE Prep IF (0 ("<en train de>")) (1 N) ;
 
 REMOVE V IF (0 ("<espace>")) (-1 Pos) ;
+
+REMOVE V IF (0 ("<cela>")) (-1 Itg) (1 Verb + P3 + Sg) ;
+REMOVE V IF (0 ("<cela>")) (-1 Itg) (1 Prn) (2 Verb + P3 + Sg) ;
+
+REMOVE Adv IF (0 ("de même")) (1 N + Sg) ;
+SELECT Adv IF (0 ("de même")) (NOT 1 N + Sg) ;
+
+
