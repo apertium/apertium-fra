@@ -493,7 +493,7 @@
 
 </pardef>
 
-    <pardef n="voyelles">
+    <pardef n="voyelles_tout_court">
       <e><i>a</i></e>
       <e><p><l><a/>e</l><r>e</r></p></e>
       <e><i>e</i></e>
@@ -515,28 +515,15 @@
       <e><i>h</i></e>
       <e><i>y</i></e>
       <e><i>œ</i></e>
+    </pardef>
 
-      <e><i>*a</i></e>
-      <e><p><l><a/>e</l><r>e</r></p></e>
-      <e><i>*e</i></e>
-      <e><i>*i</i></e>
-      <e><i>*o</i></e>
-      <e><i>*u</i></e>
-      <e><i>*à</i></e>
-      <e><i>*è</i></e>
-      <e><i>*ò</i></e>
-      <e><i>*á</i></e>
-      <e><i>*é</i></e>
-      <e><i>*í</i></e>
-      <e><i>*ó</i></e>
-      <e><i>*ú</i></e>
-      <e><i>*â</i></e>
-      <e><i>*ê</i></e>
-      <e><i>*î</i></e>
-      <e><i>*ô</i></e>
-      <e><i>*h</i></e>
-      <e><i>*y</i></e>
-      <e><i>*œ</i></e>
+    <pardef n="voyelles">
+      <e><i></i><par n="voyelles_tout_court"/></e>
+      <e><i>«</i><par n="voyelles_tout_court"/></e>
+      <e><i>«<b/></i><par n="voyelles_tout_court"/></e>
+      <e><i>*</i><par n="voyelles_tout_court"/></e>
+      <e><i>«*</i><par n="voyelles_tout_court"/></e>
+      <e><i>«<b/>*</i><par n="voyelles_tout_court"/></e>
     </pardef>
 
     <pardef n="consonnes">
