@@ -402,6 +402,8 @@ SELECT N IF (-1 EOS) (0 ("Remarque")) ;
 REMOVE Cog IF (-1 (sent)) (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("Remarque")) ;
 REMOVE Cog IF (0 ("<XI>")) ;
+REMOVE Cog IF (NOT -1 Ant) (0 ("Six")) ;
+REMOVE Cog IF (NOT -1 Ant) (0 ("Aspect")) ;
 
 REMOVE Cog IF (0 ("Noël")) (NOT -1 Ant OR Cog OR unknownMajIni) ;
 REMOVE Ant IF (0 ("Noël")) (NOT 1 Ant OR Cog OR unknownMajIni) ;
