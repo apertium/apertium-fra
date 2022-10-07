@@ -1521,6 +1521,7 @@ SELECT Masc IF (NOT -2 Fem) (-1 ("deuxième") OR ("second") OR ("troisième")) (
 SELECT Masc IF (0 Tour) (1 De) (2 ("force")) ;
 SELECT Masc IF (0 Tour) (1 De) (2 ("horizon")) ;
 SELECT Masc IF (0 Tour) (1 De) (2 ("magie")) ;
+SELECT Masc IF (-2 ("à")) (-1 Det + Pos) (0 Tour) ;
 REMOVE N + Masc IF (NOT -1/* Det + Masc OR A + Masc) (0 Tour) (1 MajIni) ;
 REMOVE N + Masc IF (NOT -1/* Det + Masc OR A + Masc) (0 Tour) (1 De) (2 MajIni LINK NOT 0 ("France")) ;
 
