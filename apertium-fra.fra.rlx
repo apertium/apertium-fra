@@ -461,6 +461,7 @@ REMOVE Ant IF (0 ("Lourdes")) (NOT 1 Ant OR NP OR unknownMajIni) ;
 SELECT Masc_strict IF (0 ("Camille")) (1 ("Pissarro")) ;
 SELECT Cog IF (-1 ("Édouard")) (0 ("Philippe")) ;
 SELECT Ant IF (0 ("Édouard")) (1 ("Philippe")) ;
+SELECT Ant IF (0 ("Marie")) (NOT -1 Ant) ;
 SELECT Ant IF (0 ("Luther")) (1 Cog OR unknownMajIni) ;
 SELECT Cog IF (0 ("Luther")) (NOT 1 Cog OR unknownMajIni) ;
 
