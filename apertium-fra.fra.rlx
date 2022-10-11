@@ -909,6 +909,10 @@ REMOVE SUB:1 Prep IF (0 ("<trop de>"i)) ;
 REMOVE SUB:1 Prep IF (0 ("<assez de>"i)) ;
 REMOVE SUB:1 Prep IF (0 ("<suffisamment de>"i)) ;
 
+SELECT Prep IF (0 ("pour le moins")) (1 A + MascSg OR PP + MascSg) ;
+SELECT A + MascSg OR PP + MascSg IF (-1 ("pour le moins")) (0 A + MascSg OR PP + MascSg) ;
+SELECT Adv IF (0 ("pour le moins")) ;
+
 REMOVE N IF (-1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
