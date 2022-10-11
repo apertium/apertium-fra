@@ -3202,6 +3202,7 @@ REMOVE N IF (-1 N + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) (NOT 0 PreAdv OR Est
 ## "la Primera Conferencia Americana celebrada" (pqè Americana > adj)
 ## però: simbolisme molt complex
 ## els avions segons diversos criteris
+REMOVE N IF (-1C N + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) ;	# journaliste freelance
 
 REMOVE N IF (-2 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-1C VerbAttr + &&ConcordeSP) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie est bonne
 REMOVE N IF (-3 Noun_NP + &&ConcordeSN + &&ConcordeSP) (-2C Haver + &&ConcordeSP) (-1C PP + MascSg) (0 Noun_Adj_PP + &&ConcordeSN) ;	# Marie a été bonne
