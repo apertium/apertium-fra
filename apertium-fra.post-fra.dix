@@ -187,10 +187,9 @@
       <e><i>hic</i></e>
       <e><i>hideux</i></e>
       <e><i>hidjab</i></e>
-      <e><i>hiérarchie</i></e>
-      <e><i>hiérarchique</i></e>
-      <e><i>hiératique</i></e>
-      <e><i>hiéroglyphe</i></e>
+      <e><i>hiérar</i></e>
+      <e><i>hiérat</i></e>
+      <e><i>hiéro</i></e>
       <e><i>hijab</i></e>
       <e><i>Hilaire</i></e>
       <e><i>Hildegarde</i></e>
@@ -311,11 +310,12 @@
       <e><i>Humphrey</i></e>
       <e><i>Hurley</i></e>
       <e><i>Huxley</i></e>
-      <e><i>ukulélé</i></e>
+      <e><i>iota</i></e>
       <e><i>onze</i></e>
       <e><i>onzième</i></e>
       <e><i>ouate</i></e>
       <e><i>oui</i></e>
+      <e><i>ukulélé</i></e>
       <e><i>yacht</i></e>
       <e><i>yang</i></e>
       <e><i>yankee</i></e>
@@ -339,6 +339,11 @@
       <e><i>IIIe</i></e>
       <e><i>IVe</i></e>
       <e><i>IXe</i></e>
+      <e><i>I</i><par n="caractere_general"/></e>
+      <e><i>II</i><par n="caractere_general"/></e>
+      <e><i>III</i><par n="caractere_general"/></e>
+      <e><i>IV</i><par n="caractere_general"/></e>
+      <e><i>IX</i><par n="caractere_general"/></e>
       <e><i>Ianoukovytch</i></e>
       <e><i>Iouchtchenko</i></e>
       <e><i>Yacoub</i></e>
@@ -795,6 +800,9 @@
 
       <e><p><l><a/>celui<b/>qui<b/>il<b/></l><r>celui<b/>qui<b/></r></p></e>
 <!--      <e><p><l><a/>qui<b/>il<b/></l><r>qui<b/></r></p></e>  à qui il parle -->
+      <e><p><l><a/>ma<b/></l><r>ma<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>ta<b/></l><r>ta<b/></r></p><par n="article_complet"/></e>
+      <e><p><l><a/>sa<b/></l><r>sa<b/></r></p><par n="article_complet"/></e>
       <e><p><l><a/>ma<b/></l><r>mon<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>ta<b/></l><r>ton<b/></r></p><par n="voyelles"/></e>
       <e><p><l><a/>sa<b/></l><r>son<b/></r></p><par n="voyelles"/></e>
