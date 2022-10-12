@@ -1372,10 +1372,22 @@ SELECT N IF (-1 ("chanson")) (0 ("titre")) ;
 
 REMOVE Mai IF (0 Mai OR Mais) ;
 
-SELECT Prn IF (0 ("beaucoup de")) (1C Prn);
-  ## beaucoup d'eux
-SELECT Prn IF (0 ("beaucoup de")) (1C Prep);
-  ## beaucoup d'entre eux
+SELECT Prn IF (0 ("beaucoup de")) (1C Prn);	# beaucoup d'eux
+SELECT Prn IF (0 ("beaucoup de")) (1C Prep);	# beaucoup d'entre eux
+
+LIST VerbesDe = "parler" "occuper" ;
+SELECT Prep IF (0 ("<de lui-même>"i)) (-1 VerbesDe) ;
+SELECT Prep IF (0 ("<d'elle-même>"i)) (-1 VerbesDe) ;
+SELECT Prep IF (0 ("<d'eux-mêmes>"i)) (-1 VerbesDe) ;
+SELECT Prep IF (0 ("<d'elles-mêmes>"i)) (-1 VerbesDe) ;
+SELECT Prep IF (0 ("<de lui-même>"i)) (-2 VerbesDe) (-1 Adv) ;
+SELECT Prep IF (0 ("<d'elle-même>"i)) (-2 VerbesDe) (-1 Adv) ;
+SELECT Prep IF (0 ("<d'eux-mêmes>"i)) (-2 VerbesDe) (-1 Adv) ;
+SELECT Prep IF (0 ("<d'elles-mêmes>"i)) (-2 VerbesDe) (-1 Adv) ;
+REMOVE Prep IF (0 ("<de lui-même>"i)) ;
+REMOVE Prep IF (0 ("<d'elle-même>"i)) ;
+REMOVE Prep IF (0 ("<d'eux-mêmes>"i)) ;
+REMOVE Prep IF (0 ("<d'elles-mêmes>"i)) ;
 
 SELECT Rel IF (-1 BOS OR CM) (0 ("<ce que>"i) OR ("<ce qu'>"i) OR ("<ce qu’>"i)) ;
 SELECT Rel IF (-1 BOS OR CM) (0 ("<ce qui>"i)) ;
