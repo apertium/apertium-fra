@@ -427,7 +427,14 @@ SELECT Top IF (-2 Ant) (-1 De) ;					# Louis de Lorraine
 SELECT Top IF (-3 Ant) (-2 siecles_nom_romains OR ("<Ier>")) (-1 De) ;	# Louis II de Lorraine
 SELECT Ant IF (1 De) (2 Top) ;						# Michel de Lorraine
 SELECT Ant IF (1 siecles_nom_romains OR ("<Ier>")) (2 De) (3 Top) ;	# Michel II de Lorraine
-SELECT Top IF (-2 ("ville") OR ("cathédrale") OR ("église") OR ("aéroport") OR ("port")) (-1 De) ;
+LIST ConstrRel = "cathédrale" "église" "abbaye" "monastère" "prieuré" "chartreuse" "chapelle" "paroisse" ;
+SELECT Al IF (-1 ConstrRel) ;
+SELECT Al IF (-2 ConstrRel + &&ConcordeSN) (-1 A + &&ConcordeSN) ;
+LIST LieuAvecNomDePersone = "aéroport" "université" "lycée" "école" "rue" "place" "boulevard" "avenue" ;
+SELECT Al IF (-1 LieuAvecNomDePersone) ;
+SELECT Al IF (-2 LieuAvecNomDePersone + &&ConcordeSN) (-1 A + &&ConcordeSN) ;
+SELECT Top IF (-2 ("ville") OR ConstrRel OR ("aéroport") OR ("port")) (-1 De) ;
+SELECT Top IF (-3 ("ville") OR ConstrRel OR ("aéroport") OR ("port")) (-2 A) (-1 De) ;
 SELECT Top IF (-2 ("concile") OR ("parlement") OR ("constitution") OR ("traité") OR ("déclaration")) (-1 De) ;
 SELECT Top IF (-2 ("guerre") OR ("conquête") OR ("annexion") OR ("siège") OR ("expédition")) (-1 De) (NOT 0 ("Trente")) ;
 SELECT Top IF (-2 ("université")) (-1 De) ;				# université de Paris VII
