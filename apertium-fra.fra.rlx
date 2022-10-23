@@ -3042,6 +3042,9 @@ REMOVE Ger IF (-1 ("comme"")) (0 N) ;	# travaille comme assistant
 REMOVE A IF (0 ("<consistant>"i)) (1 ("à") OR ("en")) ;
 
 # ADJ OR VBLEX
+REMOVE Verb + Pers IF (-3 Verb) (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 A + &&ConcordeSN) ;				# il débute son parcours politique le...
+REMOVE Verb + Pers IF (-4 Verb) (-3 Adv) (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 A + &&ConcordeSN) ;				# il débute pas son parcours politique le...
+REMOVE Verb + Pers IF (-5 Verb) (-4 Adv) (-3 Adv) (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 A + &&ConcordeSN) ;				# il débute pas toujours son parcours politique le...
 REMOVE A IF (-1C N + Sg) (0 Verb + P3 + Sg) (1 Det) ;				# la loi fixe la composition
 REMOVE A IF (-2 N + MascSg) (-1 A + MascSg) (0 Verb + P3 + Sg) (1 Det) ;
 REMOVE A IF (-2 N + FemSg) (-1 A + FemSg) (0 Verb + P3 + Sg) (1 Det) ;		# la loi française fixe la composition
