@@ -3092,18 +3092,23 @@ SELECT A IF (-1C N + FemPl) (0C N OR A + FemPl) (1 unknown) ; # en langue aborig
 SELECT N + Masc IF (-1 ("femme")) (0 ("politique") OR ("médecin")) ;
 SELECT N + Masc IF (-1 ("femme")) (0 ("pilote")) (NOT 1 Det OR Adv) ;
 
-SELECT PP IF (-1C ("être") + &&ConcordeSP) (0 ("<élu>"i) + ConcordeSP) ;	# est élu premier ministre
-SELECT N IF (-1C ("être") + &&ConcordeSP) (0 ("directeur") + ConcordeSP) ;
-REMOVE N IF (-1C ("être") + &&ConcordeSP) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# sont acides ; est directeur sportif
-SELECT N IF (-1C ("être") + &&ConcordeSP) (0 A + ConcordeSP LINK NOT 0 Adv_PreAdv) (1 A + ConcordeSP) ;	# est directeur sportif
-SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# sont acides
-SELECT Ser IF (0C ("être") + &&ConcordeSP) (1C N + ConcordeSP) ;	# est directeur sportif
-REMOVE N IF (-2C ("être") + &&ConcordeSP) (-1 Adv_PreAdv) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# sont bien acides
-SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 Adv_PreAdv) (2 A + ConcordeSP) (NOT 3 A + ConcordeSP) ;	# sont bien acides
-SELECT PreAdv IF (-1C ("être") + &&ConcordeSP) (0 Adv_PreAdv) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# sont bien acides
-REMOVE N IF (-3C ("être") + &&ConcordeSP) (-2 Adv) (-1 Adv_PreAdv) (0 A + ConcordeSP) (NOT 1 A + ConcordeSP) ;	# ne sont pas bien acides
-SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 Adv) (2 Adv_PreAdv) (3 A + ConcordeSP) (NOT 4 A + ConcordeSP) ;	# ne sont pas bien acides
-SELECT PreAdv IF (-2C ("être") + &&ConcordeSP) (-1 Adv) (0 Adv_PreAdv) (1 A + ConcordeSP) (NOT 2 A + ConcordeSP) ;	# ne sont pas bien acides
+SELECT PP IF (-1C ("être") + &&ConcordeSP) (0 ("<élu>"i) + &&ConcordeSP) ;	# est élu premier ministre
+SELECT N IF (-1C ("être") + &&ConcordeSP) (0 ("directeur") + &&ConcordeSP) ;
+REMOVE N IF (-1C ("être") + &&ConcordeSP) (0 A + &&ConcordeSP) (NOT 1 A + &&ConcordeSP) ;	# sont acides ; est directeur sportif
+SELECT N IF (-1C ("être") + &&ConcordeSP) (0 A + &&ConcordeSP LINK NOT 0 Adv_PreAdv) (1 A + &&ConcordeSP) ;	# est directeur sportif
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 A + &&ConcordeSP) (NOT 2 A + &&ConcordeSP) ;	# sont acides
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1C N + &&ConcordeSP) ;	# est directeur sportif
+REMOVE N IF (-2C ("être") + &&ConcordeSP) (-1 Adv_PreAdv) (0 A + &&ConcordeSP) (NOT 1 A + &&ConcordeSP) ;	# sont bien acides
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 Adv_PreAdv) (2 A + &&ConcordeSP) (NOT 3 A + &&ConcordeSP) ;	# sont bien acides
+SELECT PreAdv IF (-1C ("être") + &&ConcordeSP) (0 Adv_PreAdv) (1 A + &&ConcordeSP) (NOT 2 A + &&ConcordeSP) ;	# sont bien acides
+REMOVE N IF (-3C ("être") + &&ConcordeSP) (-2 Adv) (-1 Adv_PreAdv) (0 A + &&ConcordeSP) (NOT 1 A + &&ConcordeSP) ;	# ne sont pas bien acides
+SELECT Ser IF (0C ("être") + &&ConcordeSP) (1 Adv) (2 Adv_PreAdv) (3 A + &&ConcordeSP) (NOT 4 A + &&ConcordeSP) ;	# ne sont pas bien acides
+SELECT PreAdv IF (-2C ("être") + &&ConcordeSP) (-1 Adv) (0 Adv_PreAdv) (1 A + &&ConcordeSP) (NOT 2 A + &&ConcordeSP) ;	# ne sont pas bien acides
+
+REMOVE N IF (-1 ("rendre") + &&ConcordeSP) (0 A + &&ConcordeSP) ;	# se rendre malade
+REMOVE N IF (-2 ("rendre") + &&ConcordeSP) (-1 Adv OR PreAdv) (0 A + &&ConcordeSP) ;
+REMOVE N IF (-1 ("rendre") LINK 0 Inf OR Ger) (0 A) ;	# se rendre malade
+REMOVE N IF (-2 ("rendre") LINK 0 Inf OR Ger) (-1 Adv OR PreAdv) (0 A) ;
 
 REMOVE A IF (NOT -1 N) (0 ("source")) ;
 REMOVE A IF (NOT -1 N) (0 ("cible")) ;
