@@ -1254,6 +1254,10 @@ SELECT A OR Adv IF (-1 Plus OR Moins) (1 Que) ;
 
 SELECT N IF (0 ("président")) (1 ("de")) ;
 
+REMOVE A IF (0 ("fleuve")) (NOT -1 N) ;
+REMOVE A IF (0 ("fleuve")) (-1/* Det + Masc) ;
+SELECT N IF (0 ("fleuve")) (1 NP OR unknownMajIni) ;
+
 SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN LINK NOT 0 A) ;
 SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 A + &&ConcordeSN) (2 N + &&ConcordeSN) ;
 SELECT Det + &&ConcordeSN IF (NOT -1 Det) (0 Son + &&ConcordeSN) (1 N + &&ConcordeSN) (2 Adv) (1 A + &&ConcordeSN) ;
