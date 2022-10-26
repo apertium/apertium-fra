@@ -500,6 +500,7 @@ REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); # P
 SELECT Top IF (0 ("Paris")) (NOT -1 Ant_Cog) ;
 SELECT Top IF (0 ("Marseille")) (NOT -1 Ant_Cog) ;
 SELECT Top IF (0 ("Toulouse")) (NOT -1 Ant_Cog) ;
+SELECT Top IF (0 ("Gironde")) (NOT -1 Ant_Cog) ;
 
 SELECT Ant IF (-1 ("dieu") OR ("déesse")) ;
 
