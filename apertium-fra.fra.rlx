@@ -3301,6 +3301,9 @@ SELECT N IF (0 ("<Ligue>")) ;
 
 REMOVE Inf IF (-1 BOS) (0 N) (1 De) ;		# Conseiller du roi
 
+SELECT N IF (-1 ("en")) (0 ("quête")) (1 De) ;
+SELECT N IF (-1 ("en")) (0 ("recherche")) (1 De) ;
+
 REMOVE V IF (-2C Verb LINK NOT 0 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# de tenir le rythme
 REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# j'ai tenu le rythme
 
