@@ -1560,6 +1560,7 @@ REMOVE N + Masc IF (NOT -1/* Det + Masc OR A + Masc) (0 Tour) (1 De) (2 MajIni L
 
 REMOVE Masc IF (NOT -1/* Masc_strict OR N) (0 Poste + Masc) (NOT 1 Masc_strict) (-2 ("employé") OR ("travailleur") OR ("chef") OR ("directeur")) ;
 REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Poste + Fem) (1 ("diplomatique")) ;
+REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Poste + Fem) (1 ("clé") OR ("clef")) ;
 REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Poste + Fem) (NOT 1 Fem_strict) (-1 AdjOrd) ;
 REMOVE Fem IF (-2 ("à")) (-1 Det + Pos LINK NOT 0 Fem_strict) (0 Poste + Fem) ;
 REMOVE Masc IF (NOT -1/* Masc_strict) (0 Poste + Masc + MajIni) (NOT 1 Masc_strict) ;
