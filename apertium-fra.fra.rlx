@@ -2694,6 +2694,8 @@ SELECT N IF (0 ("empire") + MajIni) ;
 SELECT N IF (-1 ("haut") + MascSg OR ("bas") + MascSg) (0 ("empire") + MascSg) ;
 SELECT N IF (-1 ("haut") + MascPl OR ("bas") + MascPl) (0 ("empire") + MascSg) ;
 
+SELECT N + Pl IF (NOT -1/* Det) (0 ("frais")) (1 De) (2C N) ;	# frais de mandat
+
 REMOVE N IF (NOT -1 Det + Def) (0 ("gros")) ;
 SELECT N IF (-1 Det + Def) (0 ("gros")) (1 ("de")) ;
 REMOVE N IF (0 ("gros")) ;
