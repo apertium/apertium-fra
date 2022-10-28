@@ -3355,6 +3355,7 @@ SELECT N IF (-1 ("en")) (0 ("route")) ;
 REMOVE V IF (-1 N + Sg) (0 ("rebelle") + Sg) ;
 
 # V OR Adv
+
 REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
 REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + FemSg) (2 N + FemSg) ;	# et ferme une dizaine de magasins
 REMOVE Adv IF (NOT -2 Adv) (-1 CnjCoo) (0 V) (1 Det + MascPl) (2 N + MascPl) ;
@@ -3364,6 +3365,10 @@ REMOVE Adv IF (-1 CnjCoo) (0 V) (1 ("<du>")) (2 N + Sg) ;
 REMOVE Adv IF (-1 CnjCoo) (0 V) (1 ("<des>")) (2 N + Pl) ;
 
 # V (P3) OR PP
+
+REMOVE V + Pers IF (NOT -2 Ser) (NOT -1 Ser) (0 ("<mise>"i)) (1 En) (2C N) ;	# désigne le statut de la personne mise en cause au cours d'une instruction
+REMOVE V + Pers IF (-2 Ser) (NOT -1 Adv) (0 ("<mise>"i)) (1 En) (2C N) ;
+
 REMOVE PP IF (-1 N + MascSg) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + MascSg) ;
 REMOVE PP IF (-1 N + MascPl) (0 V + P3 + Pl) (0 PP) (NOT 0 PP + MascPl) ;
 REMOVE PP IF (-1 N + FemSg) (0 V + P3 + Sg) (0 PP) (NOT 0 PP + FemSg) ;
