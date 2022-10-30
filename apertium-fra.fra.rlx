@@ -926,6 +926,7 @@ SELECT Prep IF (0 ("dans une impasse")) (1 A + FemSg OR PP + FemSg) ;
 SELECT Adv IF (0 ("dans une impasse")) ;
 
 REMOVE N IF (-1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
+REMOVE V + Pers IF (-1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
 SELECT Haver IF (0 Avoir) (1 Adv) (2 PP) ;
   ## n'ont pas vu, n'ont jamais vu
