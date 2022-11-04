@@ -195,6 +195,7 @@ LIST Livre = "livre" ;
 LIST Faune = "faune" ;
 LIST Geste = "geste" ;
 LIST Critique = "critique" ;
+LIST Manche = "manche" ;
 LIST Marine = "marine" ;
 LIST Page = "page" ;
 LIST Manoeuvre = "manœuvre" ;
@@ -1579,6 +1580,8 @@ SELECT N_Masc IF (NOT -1/* Fem_strict OR N) (0 Critique + Fem) (2 ("de")) (3 ("a
 SELECT N_Masc IF (NOT -1/* Fem OR N) (0 Critique + Fem) (1 CM OR CnjCoo) (2 ("écrivain") OR ("journaliste") OR ("essayiste") OR ("éditeur") OR ("réalisateur") OR ("musicien") OR ("interprète"));
 SELECT N_Masc IF (NOT 1 Fem) (0 Critique + Fem) (-1 CM OR CnjCoo) (-2 ("écrivain") OR ("journaliste") OR ("essayiste") OR ("éditeur") OR ("réalisateur") OR ("musicien") OR ("interprète"));
 SELECT Fem OR V IF (NOT -1/* Masc_strict OR N) (0 Critique + Masc) (NOT 1 Masc_strict) ;
+
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Manche + Masc) (NOT 1 Masc_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Marine + Masc) (NOT 1 Masc_strict) ;
 
