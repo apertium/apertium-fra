@@ -2572,6 +2572,7 @@ SELECT A IF (-2 ("devenir")) (-1 Adv_PreAdv) (NOT 1 A) ;
 SELECT A IF (-3 ("devenir")) (-2 Adv) (-1 Adv_PreAdv) (NOT 1 A) ;
   ## ne devenir pas plus fort
 
+REMOVE NP IF (-1 BOS) (0 Aucun) ;
 REMOVE Det IF (0 Prn) (1C Prep) (NOT 0 DetDef) ;	# Aucune des 200 communes
 REMOVE Det IF (0 Prn) (1C Verb + Pers) ;		# Aucune veut
 REMOVE Det IF (0 Prn) (1C Adv) (2C Verb + Pers) ;	# Aucune ne veut
