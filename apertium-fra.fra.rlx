@@ -373,6 +373,8 @@ SELECT N IF (-4C NoteMusicale) (-3 CM) (-2C NoteMusicale) (1 CM) (0 NoteMusicale
 REMOVE N IF (0 ("la")) ;
 REMOVE N IF (0 Si) ;
 
+REMOVE Top IF (-1 BOS) (0 ("<Allons>")) ;
+
 REMOVE Top IF (-1 BOS) (0 ("<Les>")) ;
 REMOVE Top IF (0 ("<Les>")) (1 N + Pl OR A + Pl OR NP + Pl OR Num OR unknown) ;
 REMOVE Top IF (0 ("<Les>")) (1 Adv_PreAdv) (2 N + Pl OR A + Pl) ;
@@ -3292,8 +3294,8 @@ SELECT PP IF (0 A OR PP) (1 Adv) (2 ("par")) ;
 SELECT PP IF (-1 Ser) (-2 ("ne")) (0 A OR PP) (1 Que) (2 ("par")) ;
 # Les cours seront assurés par Michel Laine
 
-SELECT PP IF (-1 Ser) (0 ("mort") OR ("né")) ;
-SELECT PP IF (-2 Ser) (-1 Adv) (0 ("mort") OR ("né")) ;
+SELECT PP IF (-1 Ser) (0 ("mort") OR ("né") OR ("parvenu")) ;
+SELECT PP IF (-2 Ser) (-1 Adv) (0 ("mort") OR ("né") OR ("parvenu")) ;
 
 # V OR N
 
