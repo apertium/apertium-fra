@@ -740,6 +740,9 @@ REMOVE Verb IF (0 Est) (0 (META:/-/r)) (1 Ouest) ;
 SELECT A IF (-1 Top) (0 Est) (0 MajIni) ;			# Jérusalem Est
 REMOVE Verb IF (-1 ("nord") OR ("sud") OR ("ouest") OR ("centre")) (-1 (META:/-/r)) (0 Est) ;
 REMOVE Verb IF (-1 ("nord") OR ("sud") OR ("ouest")) (0 Est) (NOT 1 PP OR A) ;
+REMOVE Verb IF (-1 ("extrême")) (0 Est) (1 De) ;
+REMOVE Verb IF (-2 Lpar) (-1 ("extrême")) (0 Est) ;
+REMOVE Verb IF (-3 ("à") OR ("dans") OR ("sur") OR ("près de") OR ("vers")) (-2 Det + Def) (-1 ("extrême")) (0 Est) ;
 
 REMOVE N IF (0 Est) (-1 Itg OR Rel) ;
 REMOVE A IF (0 Est) (-1 Itg OR Rel) ;
