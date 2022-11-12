@@ -952,6 +952,15 @@ SELECT V IF (0 Avoir) (1 EOS) ;
 SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
 
+SELECT N + &&ConcordeSN (-1C N) (-1 N + &&ConcordeSN) (-1 (META:/-/r) LINK NOT 0 (META:/\ /r)) (0 N + &&ConcordeSN) ;	# comédien-chanteur
+SELECT N IF (-1 (META:/-/r)) (0 ("cadre")) ;
+SELECT N IF (-1 (META:/-/r)) (0 ("baillon")) ;
+SELECT N IF (0 ("cité")) (1 ("état")) (0 (META:/-/r)) ;
+SELECT N IF (0 ("gagnant")) (0 (META:/-/r)) ;		# gagnant-gagnant
+SELECT N IF (0 ("gagnant")) (-1 (META:/-/r)) ;		# gagnant-gagnant
+SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
+SELECT N IF (0 ("perdant")) (-1 (META:/-/r)) ;		# perdant-perdant
+
 REMOVE Tn IF (0 Qui) ;
 SELECT Itg IF (-1 BOS LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ;
   ## Qui s'adresse
@@ -1331,8 +1340,6 @@ SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 
 SELECT N IF (0 ("fin")) (1 Mois) ;
 
-SELECT N IF (-1 (META:/-/r)) (0 ("baillon")) ;
-
 REMOVE V IF (-1 AdjOrd + &&ConcordeSN) (0 N + &&ConcordeSN) ; # le dernier voyage
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (1 N + &&ConcordeSN) ; # le second voyage
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (1 AdjPre + &&ConcordeSN) (2 N + &&ConcordeSN) ; # les premières grandes élections
@@ -1454,8 +1461,6 @@ SELECT A IF (0 ("prochain")) (-1 Det) (1 N) ;
 
 SELECT N IF (0 ("dame") + Pl) (-1 ("finale") OR ("demi-finale") OR ("tournoi") OR ("championat")) ;
 
-SELECT N IF (0 ("cité")) (1 ("état")) (0 (META:/-/r)) ;
-
 REMOVE Adv IF (-1 Prep) (0 ("haut") OR ("long") OR ("large")) ;
 SELECT A IF (0 ("haut") OR ("long") OR ("large")) (1 De) (2 Num) ;
 REMOVE Adv IF (-1 N + MascSg) (0 ("haut") OR ("long") OR ("large")) ;
@@ -1505,11 +1510,6 @@ SELECT Ant OR Cog IF (-2 Famille OR ("voisin") OR ("ami")) (-1 ("de")) ;
 SELECT Ant IF (-2 Famille OR ("voisin") OR ("ami")) (-1 ("de")) ;
 
 SELECT N IF (0 ("cathédrale")) (1 MajIni OR unknownMajIni) ;		# cathédrale Notre-Dame de Rouen
-
-SELECT N IF (0 ("gagnant")) (0 (META:/-/r)) ;		# gagnant-gagnant
-SELECT N IF (0 ("gagnant")) (-1 (META:/-/r)) ;		# gagnant-gagnant
-SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
-SELECT N IF (0 ("perdant")) (-1 (META:/-/r)) ;		# perdant-perdant
 
 SELECT Prep IF (0 ("outre")) ;				# pas "outrer"
 
@@ -3169,8 +3169,6 @@ SELECT PP IF (-2 ("un") + FemSg) (-1 ("fois")) ;
 
 SELECT N (0 ("chanteur")) (1 De) ;	# chanteur de rock
 SELECT N (0 ("vague")) (1 De) (2 N) ;	# vague de chaleur
-
-SELECT N + &&ConcordeSN (-1C N) (-1 N + &&ConcordeSN) (-1 (META:/-/r)) (0 N + &&ConcordeSN) ;	# comédien-chanteur
 
 REMOVE A OR PP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 Adj_PP + &&ConcordeSN) ;
 
