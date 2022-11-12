@@ -1150,6 +1150,10 @@ REMOVE Ifi + P3 IF (0 Pri + P3) (0 Ifi + P3) (>*1C V + Pri) ;
 
 REMOVE Ifi (-1 ("autrement")) (0 ("dire") + PP) ;
 
+REMOVE V (-1C N + MinIni) (0 N + MajIni) ;	# la galerie Cadre
+REMOVE V (-2/* Det + &&ConcordeSN) (-1 N + &&ConcordeSN + MinIni) (0 N + MajIni) ;	# la série "Voyages"
+REMOVE V (-3/* Det + &&ConcordeSN) (-2 Noun_Adj + &&ConcordeSN) (-1 Noun_Adj + &&ConcordeSN + MinIni) (0 N + MajIni) ;	# la série japonaise "Voyages"
+
 REMOVE Fin IF (-1 ("nombre de") OR ("<nombre de>"i) OR ("<nombre d'>"i) OR ("<nombre d’>"i)) ;	# nombre d'éditions
 #SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Prep OR Det) (NOT -1 ("son")) (NOT 1 N OR A) ;
 SELECT Fin IF (0C N OR Fin) (-1 N LINK -1 Det) (NOT -1 Son OR A) (NOT 1 N OR A) ;
