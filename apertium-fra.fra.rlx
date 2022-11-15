@@ -953,6 +953,7 @@ SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
   ## A la téle
 
 SELECT N + &&ConcordeSN (-1C N) (-1 N + &&ConcordeSN) (-1 (META:/-/r) LINK NOT 0 (META:/\ /r)) (0 N + &&ConcordeSN) ;	# comédien-chanteur
+SELECT N + &&ConcordeSP (-1C N) (-1 N + &&ConcordeSP) (-1 (META:/-/r) LINK NOT 0 (META:/\ /r)) (0 N + &&ConcordeSP) ;	# bande-son
 SELECT N IF (-1 (META:/-/r)) (0 ("cadre")) ;
 SELECT N IF (-1 (META:/-/r)) (0 ("baillon")) ;
 SELECT N IF (0 ("cité")) (1 ("état")) (0 (META:/-/r)) ;
