@@ -2514,6 +2514,7 @@ SELECT Prep IF (0 En) (1 ("ruine")) ;
 SELECT Prep IF (0 En) (1 ("vente")) ;
 SELECT Prep IF (0 En) (1 ("ligne")) ;
 SELECT Prep IF (0 En) (1 ("catastrophe")) ;
+SELECT Prep IF (0 En) (1 ("date")) ;
 SELECT Prep IF  (-1 ("être") OR ("mettre") OR ("remettre")) (0 En) (1 ("cause")) ;
 SELECT Prep IF (-1 ("mise")) (0 En) (1 N) ;	# mise en vente
 REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);	# passer en revue
