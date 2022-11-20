@@ -3284,6 +3284,8 @@ SELECT N IF (-1 ("en")) (0 ("quête")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("recherche")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("hausse")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("baisse")) (1 De) ;
+SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
+SELECT N IF (-1 ("en")) (0 ("<corse>"i)) ;
 
 REMOVE V IF (-2C Verb LINK NOT 0 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# de tenir le rythme
 REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# j'ai tenu le rythme
@@ -3291,8 +3293,9 @@ REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		#
 SELECT V IF (0 ("<court>"i)) (1 ("à") OR ("vers") OR ("chez")) ;	# le débat démocratique court à sa perte
 SELECT N IF (0 ("<Cercle>")) ;	
 
-SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
-SELECT N IF (-1 ("en")) (0 ("<corse>"i)) ;
+LIST V_Dire = "dire" "expliquer" "raconter" "exposer" "annoncer" "penser" "considérer" "déclarer" "analyser" "exclamer" "demander" "riposter" ;
+REMOVE N IF (-1 CM) (0 V_Dire + P3) (1 Ant OR Cog OR Al) ;
+REMOVE N IF (-1 CM) (0 V_Dire + P3 + &&ConcordeSN) (1 Det + &&ConcordeSN) (1 N_Adj + &&ConcordeSN) ;
 
 # A OR PP
 
