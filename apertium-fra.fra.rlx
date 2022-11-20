@@ -2868,9 +2868,10 @@ REMOVE V IF (NOT -1 Pro) (0C N + &&ConcordeSN OR V) (1C Adj_PP + &&ConcordeSN) ;
 
 REMOVE V IF (-1 ("de")) (-1/* DetDef) (0C N + Pl OR V) ;
 
-SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + Sg) (1C V + Sg) ;
-SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + Pl) (1C V + Pl) ;
-# des responsables parleront
+SELECT Ser + Inf IF (-1 Prep) (0 Ser) (1 PP) ;	# vient d'être lancé
+
+SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + Sg) (1C V + Sg LINK NOT 0 PP) ;
+SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + Pl) (1C V + Pl LINK NOT 0 PP) ;	# des responsables parleront
 
 SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;			# en voyant son cartable
 SELECT Ger IF (-1C Pro) (0C Ger OR Noun_Adj_PP) ;				# se rendant enfin à Naples
