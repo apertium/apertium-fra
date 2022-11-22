@@ -964,31 +964,23 @@ SELECT N IF (0 ("perdant")) (0 (META:/-/r)) ;		# perdant-perdant
 SELECT N IF (0 ("perdant")) (-1 (META:/-/r)) ;		# perdant-perdant
 
 REMOVE Tn IF (0 Qui) ;
-SELECT Itg IF (-1 BOS LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ;
-  ## Qui s'adresse
-SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ;
-  ## A qui s'adresse
-SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel) ;
-  ## je me demande qui
-SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel) ;
-  ## je demande avec qui
-SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ;
-  ## je ne demande pas qui
-SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel) ;
-  ## je ne demande pas avec qui
-SELECT Itg IF (1 ("est-ce que")) ;
-  ## où est-ce que
+SELECT Itg IF (-1 BOS LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ; # Qui s'adresse
+SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ; # A qui s'adresse
+SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel) ; # je me demande qui
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel) ; # je demande avec qui
+SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ; # je ne demande pas qui
+SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel) ; # je ne demande pas avec qui
+SELECT Itg IF (1 ("est-ce que")) ; # où est-ce que
 
-SELECT Itg IF (0 Adv OR Prn) (1 ("est-ce que")) ;
-  ## quand est-ce que
-  ## qui est-ce que
+SELECT Itg IF (0 Adv OR Prn) (1 ("est-ce que")) ; # quand est-ce que ; qui est-ce que
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P1 + Sg) (1 (META:/-/r)) (2 Tn + P1 + Sg) ;
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P2 + Sg) (1 (META:/-/r)) (2 Tn + P2 + Sg) ;
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P3 + Sg) (1 (META:/-/r)) (2 Tn + P3 + Sg) ;
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P1 + Pl) (1 (META:/-/r)) (2 Tn + P1 + Pl) ;
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P2 + Pl) (1 (META:/-/r)) (2 Tn + P2 + Pl) ;
-SELECT Itg IF (0 Adv OR Prn) (1 Verb + P3 + Pl) (1 (META:/-/r)) (2 Tn + P3 + Pl) ;
-  ## quand veux-tu
+SELECT Itg IF (0 Adv OR Prn) (1 Verb + P3 + Pl) (1 (META:/-/r)) (2 Tn + P3 + Pl) ; # quand veux-tu
+
+SELECT Itg IF (NOT -1/* Det + MascSg) (0 ("pourquoi")) ;
 
 REMOVE Fin_non_Imp IF (-1 BOS) (0 Imper + P2) (NOT 1 Prn + Tn) (NOT 0/* Prn + Tn + P2) ;
 REMOVE Fin_non_Imp IF (-2 BOS) (-1 ("«")) (0 Imper + P2) (NOT 1 Prn + Tn + P2) (NOT 0/* Prn + Tn + P2) ;
