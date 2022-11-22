@@ -796,6 +796,7 @@ REMOVE PP IF (-3 Ne) (-2 Pro) (-1 Pro) (0 Verb) (1 Pas OR ("jamais") OR ("plus")
 SELECT P3 IF (-1 ("le")) (NOT -1 MascSg) (0 ("fait") + MascSg) ;	# la fait
 SELECT P3 IF (-1 ("le") + MascSg) (0 ("fait")) (1 ("bien") OR ("mal")) ;
 SELECT P3 IF (-1 ("le") + MascSg) (0 ("fait")) (1 Adv) (NOT 1 A + MascSg) ;
+SELECT P3 IF (-1C Tn) (0 ("fait")) ;	# qui d'entre eux fait...
 SELECT Verb IF (-1 N) (0 ("atteint")) (1 Det) ;
 SELECT Verb IF (-2 N) (-1 A) (0 ("atteint")) (1 Det) ;
 
