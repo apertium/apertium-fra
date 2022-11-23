@@ -376,8 +376,10 @@ REMOVE N IF (0 ("la")) ;
 REMOVE N IF (0 Si) ;
 
 REMOVE Top IF (-1 BOS) (0 ("<Allons>")) ;
+REMOVE Top IF (-2 BOS) (-1 ("«")) (0 ("<Allons>")) ;
 
 REMOVE Top IF (-1 BOS) (0 ("<Les>")) ;
+REMOVE Top IF (-2 BOS) (-1 ("«")) (0 ("<Les>")) ;
 REMOVE Top IF (0 ("<Les>")) (1 N + Pl OR A + Pl OR NP + Pl OR Num OR unknown) ;
 REMOVE Top IF (0 ("<Les>")) (1 Adv_PreAdv) (2 N + Pl OR A + Pl) ;
 
@@ -418,6 +420,8 @@ REMOVE Cog IF (0 ("Nouveau")) (0 (META:/-/r)) ;		# Nouveau-Mexique
 LIST N_NP_ini = "roi" "reine" "prince" "maréchal" "chevalier" "dame" "frère" "chapelle" "détroit" "rue" "court" "groupe" ;
 REMOVE N + Sg IF (-1 BOS) (0 NP LINK NOT 0 N_NP_ini) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
 REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort
+REMOVE N + Sg IF (-2 BOS) (-1 ("«")) (0 NP LINK NOT 0 N_NP_ini) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
+REMOVE A + Sg IF (-2 BOS) (-1 ("«")) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort
 
 SELECT Prep IF (-1 ("Jean")) (0 ("sans")) (1 ("terre")) ;
 
@@ -502,6 +506,7 @@ REMOVE Top IF (0 Cog OR Ant OR Top) (1 unknownMajIni) (NOT -1 ("de")) ;
 SELECT Ant IF (NOT -1 Cog OR Ant) (0C Cog OR Ant) (1 unknownMajIni) ; # Léon Verguet
 REMOVE (top) IF (0C NP) (0 (cog)) (0 (top)) (-1 (sent)) (<*-1 ("\\<[A-ZÀÁÄÂÈÉËÊÍÏÎÒÓÖÔÚÙÜÛÇ]\\>"r) LINK 1 (sent)); # E. Toulouse
 REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-1 BOS); # Paris ; Marseille ; Toulouse
+REMOVE (cog) IF (0C NP) (0 (cog)) (0 (top)) (NOT 1 (ant) OR (cog)) (-2 BOS) (-1 ("«")) ;
 SELECT Top IF (0 ("Paris")) (NOT -1 Ant_Cog) ;
 SELECT Top IF (0 ("Marseille")) (NOT -1 Ant_Cog) ;
 SELECT Top IF (0 ("Toulouse")) (NOT -1 Ant_Cog) ;
@@ -547,8 +552,8 @@ SELECT Al IF (0 Al) (1 CM) (2C Al) (3 CM) (4 Al) ;
 SELECT Top IF (-1 De) (0 Top) (1 ("à") OR ("jusqu'à")) (2 Top OR unknownMajIni) ;          # de Pau à Oloron
 SELECT Top IF (-3 De) (-2 Top OR unknownMajIni) (-1 ("à") OR ("jusqu'à")) (0 Top) ;        # d'Oloron à Pau
 
-SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;
-	## Sais-tu
+SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-1 BOS) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;	# Sais-tu
+SELECT NP IF (0 NP LINK NOT 0 Prep OR Prn OR Det) (-2 BOS) (-1 ("«")) (NOT 0 ("grand") OR ("fort")) (NOT 0 V + $$Pers + $$Sg_Pl LINK 1 Tn + $$Pers + $$Sg_Pl) ;	# Sais-tu
 
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1C Verb) ;		# René vient
 #SELECT NP IF (0 NP) (0 N OR A OR PP) (-1 BOS) (1 Adv) (2C Verb) ;	# René ne vient pas
@@ -618,6 +623,7 @@ REMOVE NP IF (0 ("détroit")) (1 ("de")) ;
 REMOVE NP IF (-1 ("empire")) (0 ("romain")) ;
 REMOVE NP IF (0 ("trente")) (1 ("an")) ;
 REMOVE NP IF (-1 BOS) (0 ("cela")) ;
+REMOVE NP IF (-2 BOS) (-1 ("«")) (0 ("cela")) ;
 REMOVE A IF (-1 Det + Def) (0 ("internet")) ;
 REMOVE A IF (-1 Prep) (0 ("internet")) ;
 SELECT A IF (-1 N) (0 ("internet")) ;
@@ -952,8 +958,8 @@ SELECT V IF (0 Avoir) (1 EOS) ;
 ## SELECT N IF (0 Avoir) (1 EOS) (-1 BOS);	## CAL TREBALLAR-HI!
   ## 2. A.
 
-SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;
-  ## A la téle
+SELECT Prep IF (-1 BOS) (0 Avoir) (0 À) ;	# A la téle
+SELECT Prep IF (-2 BOS) (-1 ("«")) (0 Avoir) (0 À) ;	# A la téle
 
 SELECT N + &&ConcordeSN (-1C N) (-1 N + &&ConcordeSN) (-1 (META:/-/r) LINK NOT 0 (META:/\ /r)) (0 N + &&ConcordeSN) ;	# comédien-chanteur
 SELECT N + &&ConcordeSP (-1C N) (-1 N + &&ConcordeSP) (-1 (META:/-/r) LINK NOT 0 (META:/\ /r)) (0 N + &&ConcordeSP) ;	# bande-son
@@ -967,7 +973,9 @@ SELECT N IF (0 ("perdant")) (-1 (META:/-/r)) ;		# perdant-perdant
 
 REMOVE Tn IF (0 Qui) ;
 SELECT Itg IF (-1 BOS LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ; # Qui s'adresse
+SELECT Itg IF (-2 BOS) (-1 ("«") LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ; # Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ; # A qui s'adresse
+SELECT Itg IF (-3 BOS) (-2 ("«")) (-1 Prep) (0C Itg OR Rel OR CnjSub) ; # A qui s'adresse
 SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel) ; # je me demande qui
 SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel) ; # je demande avec qui
 SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ; # je ne demande pas qui
@@ -999,6 +1007,9 @@ REMOVE Imper IF (-3 Ant OR Cog OR unknown) (-2 Adv) (-1 Pro) (0 P3) ;
 SELECT Imper IF (-1 BOS) (1 Excl) ;
 SELECT Imper IF (-2 BOS) (-1 Ne) (1 Adv OR Rien) (2 Excl) ;
 SELECT Imper IF (-3 BOS) (-2 Ne) (-1 Pro) (1 Adv OR Rien) (2 Excl) ;
+SELECT Imper IF (-2 BOS) (-1 ("«")) (1 Excl) ;
+SELECT Imper IF (-3 BOS) (-2 ("«")) (-1 Ne) (1 Adv OR Rien) (2 Excl) ;
+SELECT Imper IF (-4 BOS) (-3 ("«")) (-2 Ne) (-1 Pro) (1 Adv OR Rien) (2 Excl) ;
 
 #REMOVE A (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR A LINK NOT *1 Verb) ;
 #REMOVE N (NOT *-1 Verb BARRIER Cnj_Rel_End_NoInf) (0C Verb OR N LINK NOT *1 Verb) ;
@@ -1421,6 +1432,9 @@ REMOVE Prep IF (0 ("<d'elles-mêmes>"i)) ;
 SELECT Rel IF (-1 BOS OR CM) (0 ("<ce que>"i) OR ("<ce qu'>"i) OR ("<ce qu’>"i)) ;
 SELECT Rel IF (-1 BOS OR CM) (0 ("<ce qui>"i)) ;
 SELECT Rel IF (-1 BOS OR CM) (0 ("<ce dont>"i)) ;
+SELECT Rel IF (-2 BOS OR CM) (-1 ("«")) (0 ("<ce que>"i) OR ("<ce qu'>"i) OR ("<ce qu’>"i)) ;
+SELECT Rel IF (-2 BOS OR CM) (-1 ("«")) (0 ("<ce qui>"i)) ;
+SELECT Rel IF (-2 BOS OR CM) (-1 ("«")) (0 ("<ce dont>"i)) ;
 SELECT Prn IF (0 ("ce")) (1 ("que") OR ("qui") OR ("dont")) ;
 REMOVE Rel IF (0 ("<ce que>"i) OR ("<ce qu'>"i) OR ("<ce qu’>"i)) ;
 REMOVE Rel IF (0 ("<ce qui>"i)) ;
@@ -2000,13 +2014,9 @@ SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
 SELECT N IF (0 ("aller")) (1 ("retour")) ;
 SELECT N IF (0 ("aller")) (1 CnjCoo) (2 ("retour")) ;
 REMOVE V IF (0 ("cela")) (-1 ("tout")) ;
-REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn OR On);
-  ## Groupe A, Taille 48, Série 1
-  ## Pense-t-il
-SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep OR Pour) ;
-  ## Remise des coupes
-REMOVE Fin IF (-1C PreAdv) (0 A OR Fin) ;
-  ## la très célèbre Pietà
+REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn OR On);	# Groupe A, Taille 48, Série 1 ; Pense-t-il
+SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep OR Pour) ;	# Remise des coupes
+REMOVE Fin IF (-1C PreAdv) (0 A OR Fin) ;	# la très célèbre Pietà
 REMOVE Verb IF (-2 BOS) (-1C A + &&ConcordeSN) (0 N + &&ConcordeSN OR Verb) ;	# . Petites annonces
 REMOVE P2 IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN OR Verb + P2) ;	# 13 h. précises
 REMOVE P2 IF (-1C A + &&ConcordeSN) (0 N + &&ConcordeSN OR Verb + P2) ;
@@ -2113,10 +2123,9 @@ SELECT Pron IF (0 Lui) (1 Verb) ;	# lui écrit
 SELECT Verb IF (-1 Lui) (0 Noun_Adj) ;	# lui écrit, lui commande, lui fait épouser
 SELECT Pro IF (NOT -1 Prep) (0 Lui) (1C Vconj_pro) ;
 #SELECT Pro IF (0 Lui) (1C Imper) ;
-SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Vconj_pro);
-  ## on lui connaît
-SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);
-  ## il pense, lui, que...
+SELECT Pro IF (0 Lui OR Nous OR Vous) (-1C Tn OR On) (1 Vconj_pro);	# on lui connaît
+SELECT Tn IF (0 Lui OR Nous OR Vous) (-1 BOS OR Cm) (1 Cm);	# il pense, lui, que...
+SELECT Tn IF (0 Lui OR Nous OR Vous) (-2 BOS OR Cm) (-1 ("«")) (1 Cm);	# Lui, il pense que...
 
 SELECT Det IF (0 Leur) (1 A) (NOT 1 Verb) ;	# pour leur premère participation ; il leur fait
 
@@ -2214,7 +2223,9 @@ SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Ne) (-1 Pro) (0 VSg3);		# Ell
 SELECT P3 IF (-3 Il + Sg OR On OR ToutLeMonde) (-2 Pro) (-1 Pro) (0 VSg3);		# Elle lui en parle
 SELECT P3 IF (-4 Il + Sg OR On OR ToutLeMonde) (-3 Ne) (-2 Pro) (-1 Pro) (0 VSg3);	# Elle ne lui en parle pas
 SELECT P3 IF (-1 BOS) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;				# Elle est mon chef
+SELECT P3 IF (-2 BOS) (-1 ("«")) (0 ("<Elle>")) (NOT 1 Ant OR Cog) ;				# Elle est mon chef
 REMOVE NP IF (-1 BOS) (0 ("Elles")) (1* Verb + P3 + Pl) ;
+REMOVE NP IF (-2 BOS) (-1 ("«")) (0 ("Elles")) (1* Verb + P3 + Pl) ;
 
 SELECT Prep IF (0 ("<entre>"i)) (1 Num) (2 CnjCoo) (3 Num) ;
 SELECT Prep IF (0 ("<entre>"i)) (1 Jours) (2 CnjCoo) (3 Jours) ;
@@ -2561,8 +2572,11 @@ SELECT A IF (0 ("bon")) (1C N) ;			# un bon jour
 REMOVE Interj IF (-1 (META:/-/r)) ;
 REMOVE Interj IF (0 (META:/-/r)) ;
 SELECT Interj IF (-1 BOS) (0 N) (1 CM) (1* ("!")) ;    # Bordel, xxxx!
+SELECT Interj IF (-2 BOS) (-1 ("«")) (0 N) (1 CM) (1* ("!")) ;    # Bordel, xxxx!
 SELECT Interj IF (-1 BOS) (0 ("désolé") OR ("désolée")) (1 CM) ;
+SELECT Interj IF (-2 BOS) (-1 ("«")) (0 ("désolé") OR ("désolée")) (1 CM) ;
 SELECT Interj IF (-1 BOS OR CM) (1 ("!")) ;
+SELECT Interj IF (-2 BOS OR CM) (-1 ("«")) (1 ("!")) ;
 
 SELECT A IF (0 ("majeur")) (1 ("partie")) ;
 
@@ -2573,6 +2587,7 @@ SELECT CnjAdv IF (0 Si) (1 Det) ;
 SELECT PreAdv IF (0 Si) (1 A) ;
 REMOVE CnjAdv IF (0 Si) (-1 ("[——―]"r)) (1 Verb + P3) ;
 SELECT CnjAdv IF (0 Si) (-1 BOS) ;
+SELECT CnjAdv IF (0 Si) (-2 BOS) (-1 ("«")) ;
 SELECT CnjAdv IF (0 Si) (1 ("jamais")) ;
 
 SELECT N IF (0 Fort) (1 MajIni OR unknownMajIni) ;
@@ -2589,6 +2604,7 @@ SELECT A IF (-3 ("devenir")) (-2 Adv) (-1 Adv_PreAdv) (NOT 1 A) ;
   ## ne devenir pas plus fort
 
 REMOVE NP IF (-1 BOS) (0 Aucun) ;
+REMOVE NP IF (-2 BOS) (-1 ("«")) (0 Aucun) ;
 REMOVE Det IF (0 Prn) (1C Prep) (NOT 0 DetDef) ;	# Aucune des 200 communes
 REMOVE Det IF (0 Prn) (1C Verb + Pers) ;		# Aucune veut
 REMOVE Det IF (0 Prn) (1C Adv) (2C Verb + Pers) ;	# Aucune ne veut
@@ -2619,18 +2635,17 @@ REMOVE V (-1 Entre) (0 N + Pl) ;	# entre partis
   ## entre lequel, laquelle...
 SELECT Prep IF (0 Entre OR Contre) (1 ("lequel"));
 
-SELECT Prep (0 Pendant) (-1 BOS) ;
-  ## Pendant la Première Guerre Mondiale
-SELECT Prep (0 Pendant) (1 ("de")) (2 A OR N) ;
-  ## pendant de nombreuses années
-SELECT Prep (0 Pendant) (1 ("près de")) (2 A OR N OR Num) ;
-  ## la guerre continue pendant près de cinq ans
+SELECT Prep (0 Pendant) (-1 BOS) ;	# Pendant la Première Guerre Mondiale
+SELECT Prep (0 Pendant) (-2 BOS) (-1 ("«")) ;	# Pendant la Première Guerre Mondiale
+SELECT Prep (0 Pendant) (1 ("de")) (2 A OR N) ;	# pendant de nombreuses années
+SELECT Prep (0 Pendant) (1 ("près de")) (2 A OR N OR Num) ;	# la guerre continue pendant près de cinq ans
 REMOVE A (0 Pendant) (NOT -1 Noun_Adj + MascSg) ;  # Son mari l'avait frappée pendant deux heures
 REMOVE A (0 Pendant) (1 Det + &&ConcordeSN) (2 Noun_Adj + &&ConcordeSN) ;
 REMOVE V (0 Pendant) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Pendant) (*1 Verb BARRIER Cnj_Rel) ;
 
 SELECT Prep (0 Contre) (-1 BOS) ;
+SELECT Prep (0 Contre) (-2 BOS) (-1 ("«")) ;
 REMOVE V (0 Contre) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE V (0 Contre) (*1 Verb BARRIER Cnj_Rel) ;
 REMOVE V (NOT -1 Noun_Adj + Sg) (0 Contre) ;
@@ -2666,6 +2681,7 @@ REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
   ## la guerre continue pendant près de cinq ans
 
 SELECT N IF (-1 BOS) (0 ("Côté")) (1 A + MascSg) ;	# Côté chinois
+SELECT N IF (-2 BOS) (-1 ("«")) (0 ("Côté")) (1 A + MascSg) ;	# Côté chinois
 
 SELECT N IF (0 ("empire") + MajIni) ;
 SELECT N IF (-1 ("haut") + MascSg OR ("bas") + MascSg) (0 ("empire") + MascSg) ;
@@ -2679,23 +2695,17 @@ REMOVE N IF (0 ("gros")) ;
 
 SELECT N (-1 ("en")) (0 ("or")) ;
 
-SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);
-  ## si bien / si mal
-SELECT PreAdv IF (0 Si) (1C A) (2 Que) ;
-  ## si intelligente que
-SELECT PreAdv IF (0 Si) (1C A) (2C Prep OR Pour) ;
-  ## si différents dans le monde
-SELECT CnjAdv IF (-1 BOS) (0 Si) (1 Det OR Tn) ;
-  ## Si la demande nationale est suffisante
+SELECT PreAdv IF (0 Si) (1 Adv OR PreAdv);	# si bien / si mal
+SELECT PreAdv IF (0 Si) (1C A) (2 Que) ;	# si intelligente que
+SELECT PreAdv IF (0 Si) (1C A) (2C Prep OR Pour) ;	# si différents dans le monde
+SELECT CnjAdv IF (-1 BOS) (0 Si) (1 Det OR Tn) ;	# Si la demande nationale est suffisante
+SELECT CnjAdv IF (-2 BOS) (-1 ("«")) (0 Si) (1 Det OR Tn) ;	# Si la demande nationale est suffisante
 
 SELECT N IF (-1 Prep) (0 ("or")) ;
 SELECT N IF (-1 Det) (0 ("or")) ;
 
-SELECT Adv IF (-1 Si) (0 Adv OR PreAdv) ;
-  ## si bien / si mal
-REMOVE PreAdv IF (-1 Haver) (0 Adv OR PreAdv) (1 PP) ;
-  ## vous avez bien lu
-  ## mais: il est bien connu
+SELECT Adv IF (-1 Si) (0 Adv OR PreAdv) ;	# si bien / si mal
+REMOVE PreAdv IF (-1 Haver) (0 Adv OR PreAdv) (1 PP) ;	# vous avez bien lu ; mais: il est bien connu
 REMOVE PreAdv IF (-2 Haver) (-1 Adv) (0 Adv) (1 PP) ;		# ils n'ont pas tellement trompé
 REMOVE CnjAdv IF (-1 Haver) (0 Adv) (1 PP) ;
 REMOVE CnjAdv IF (-2 Haver) (-1 Adv) (0 Adv) (1 PP) ;
@@ -2741,24 +2751,21 @@ REMOVE CnjAdv IF (-1C Prep OR Pour) (0 N) (1C Prep OR Pour) ;
 
 REMOVE Adv IF (0 ("mal")) (1 À) (2 Det + Def + &&ConcordeSN) (3 N + &&ConcordeSN) ;
 
-SELECT Adv IF (-1 BOS) (0 Adv OR A) (1C Prep OR Pour) ;
-  ## Même sur le terrain
-SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1C Det) ;
-  ## Même le temps était
-SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;
-  ## Même en se partageant
+SELECT Adv IF (-1 BOS) (0 Adv OR A) (1C Prep OR Pour) ;	# Même sur le terrain
+SELECT Adv IF (-2 BOS) (-1 ("«")) (0 Adv OR A) (1C Prep OR Pour) ;	# Même sur le terrain
+SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1C Det) ;	# Même le temps était
+SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1C Det) ;	# Même le temps était
+SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
+SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
 SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
 
-SELECT A IF (0 A) (0 (META:/-/r)) (1 Top OR unknownMajIni) ;
- ## Haut-Paraguay
+SELECT A IF (0 A) (0 (META:/-/r)) (1 Top OR unknownMajIni) ;	# Haut-Paraguay
 
   ## il va même jusqu'à donner
 
 SELECT Acr OR Al IF (0 Majusc) ;
 SELECT A IF (-1 ("place")) (0 ("rouge")) ;	# la place Rouge
-SELECT N IF (0 MajIni) (0C N OR A) (NOT -1 BOS OR MajIni OR Prep OR CnjCoo) (NOT 1 MajIni) ;
-  ## ces ingrats d'Européens.
-  ## l'Académie Rouge et Noire
+SELECT N IF (0 MajIni) (0C N OR A) (NOT -1 BOS OR MajIni OR Prep OR CnjCoo) (NOT 1 MajIni) ;	# ces ingrats d'Européens ; l'Académie Rouge et Noire
 
 SELECT Masc_strict IF (0 Mon_Ton_Son) (1 ConsInitiale) ;	# mon père
 SELECT Fem_strict IF (0 Mon_Ton_Son) (NOT 1 ConsInitiale) (1C Fem_strict) ;	# mon amie
@@ -2875,6 +2882,7 @@ SELECT N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + Pl) (1C V +
 SELECT Ger IF (-1 ("en")) (0C Ger OR Noun_Adj_PP) (1 Det) ;			# en voyant son cartable
 SELECT Ger IF (-1C Pro) (0C Ger OR Noun_Adj_PP) ;				# se rendant enfin à Naples
 REMOVE A IF (-1 BOS) (0 Ger) (1 Det) ;						# Fuyant les premières familles,
+REMOVE A IF (-2 BOS) (-1 ("«")) (0 Ger) (1 Det) ;						# Fuyant les premières familles,
 REMOVE Ger IF (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT -1 Pro) ;	# ce montant
 REMOVE Ger IF (-2 Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;	# son propre représentant
 REMOVE Ger IF (-3 Det + &&ConcordeSN) (-2 Adv_PreAdv) (-1 A + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 1 Det) ;
@@ -2886,14 +2894,11 @@ SELECT A IF (-1 Noun_Adj) (0 ("suivant")) (1 (":")) ;
 SELECT Ger IF (0 ("signifier") + Ger) (0 (META:/«/r) OR (META:/"/r));
 SELECT Ger IF (0 ("signifier") + Ger) (1 ("<«>"));
 SELECT Ger IF (0 ("signifier") + Ger) (-1 ("cela") OR ("ceci"));
-REMOVE Ger IF (-1 BOS) (0 Prep OR Ger) ;
-  ## Suivant le besoin
-REMOVE Ger IF (-1 Verb + Pers) (0 Prep OR Ger) ;
-  ## on l'utilise suivant des critères
-  ## on l'utilise maintenant
+REMOVE Ger IF (-1 BOS) (0 Prep OR Ger) ;	# Suivant le besoin
+REMOVE Ger IF (-2 BOS) (-1 ("«")) (0 Prep OR Ger) ;	# Suivant le besoin
+REMOVE Ger IF (-1 Verb + Pers) (0 Prep OR Ger) ;	# on l'utilise suivant des critères ; on l'utilise maintenant
 
-REMOVE Ger IF (-1 ("nommer") OR ("appeler")) (0 Ger OR N OR A) ;
-  ## nommé dirigeant
+REMOVE Ger IF (-1 ("nommer") OR ("appeler")) (0 Ger OR N OR A) ;	# nommé dirigeant
 
 REMOVE Ger IF (-1 AdvComp) (0 Ger OR A OR PP) ;	# plus exigeant
 
@@ -2904,14 +2909,15 @@ REMOVE A + Sg IF (NOT -3 Prep) (NOT -2 Prep) (-1 Noun_Adj + Pl_strict) (NOT 0 A 
 REMOVE N IF (NOT -3 Prep) (NOT -2 Prep) (-1C N + Pl_strict) (0 Ger) ;				# les structures servant au confinement
 
 REMOVE A IF (-1 BOS) (0 Prep) (0 A) (1 Det) ;
-REMOVE N IF (-1 BOS) (0 Prep) (0 N) (1 Det) ;
-  ## Suivant le besoin
+REMOVE N IF (-1 BOS) (0 Prep) (0 N) (1 Det) ;	# Suivant le besoin
+REMOVE A IF (-2 BOS) (-1 ("«")) (0 Prep) (0 A) (1 Det) ;
+REMOVE N IF (-2 BOS) (-1 ("«")) (0 Prep) (0 N) (1 Det) ;	# Suivant le besoin
 REMOVE A IF (-1 BOS) (0 ("suivant")) (0 A) (1 ("de")) ;
-REMOVE N IF (-1 BOS) (0 ("suivant")) (0 N) (1 ("de")) ;
-  ## Suivant des besoins
+REMOVE N IF (-1 BOS) (0 ("suivant")) (0 N) (1 ("de")) ;	# Suivant des besoins
+REMOVE A IF (-2 BOS) (-1 ("«")) (0 ("suivant")) (0 A) (1 ("de")) ;
+REMOVE N IF (-2 BOS) (-1 ("«")) (0 ("suivant")) (0 N) (1 ("de")) ;	# Suivant des besoins
 REMOVE A IF (-1 Verb + Pers) (0 ("suivant")) (0 A) (1 ("de")) ;
-REMOVE N IF (-1 Verb + Pers) (0 ("suivant")) (0 N) (1 ("de")) ;
-  ## Suivant des besoins
+REMOVE N IF (-1 Verb + Pers) (0 ("suivant")) (0 N) (1 ("de")) ;	# Suivant des besoins
 
 REMOVE Adv IF (0 ("à l'époque")) (1 A + FemSg) ;
 REMOVE Adv IF (0 ("à l'époque")) (1/* ("de")) ;
@@ -2952,6 +2958,9 @@ REMOVE Det IF (0 ("nombre de")) (1 N_Adj + Sg_strict) ;					# nombre de masse
 REMOVE Det IF (-1 BOS) (0 ("nombre de")) (1 N) (2 EOS) ;				# Nombre de conseillers :
 REMOVE Det IF (-1 BOS) (0 ("nombre de")) (1 A) (2 N) (2 EOS) ;
 REMOVE Det IF (-1 BOS) (0 ("nombre de")) (1 Adv_PreAdv) (2 A) (3 N) (2 EOS) ;
+REMOVE Det IF (-2 BOS) (-1 ("«")) (0 ("nombre de")) (1 N) (2 EOS) ;				# Nombre de conseillers :
+REMOVE Det IF (-2 BOS) (-1 ("«")) (0 ("nombre de")) (1 A) (2 N) (2 EOS) ;
+REMOVE Det IF (-2 BOS) (-1 ("«")) (0 ("nombre de")) (1 Adv_PreAdv) (2 A) (3 N) (2 EOS) ;
 
 SELECT Det IF (NOT -1/* Det + &&ConcordeSN) (0 DetInd + &&ConcordeSN) (1 N + &&ConcordeSN) ;	# un enfant
 
@@ -3279,6 +3288,7 @@ SELECT N IF (0 ("<Ligue>")) (1 Num) ;
 SELECT N IF (0 ("<Ligue>")) ;
 
 REMOVE Inf IF (-1 BOS) (0 N) (1 De) ;		# Conseiller du roi
+REMOVE Inf IF (-2 BOS) (-1 ("«")) (0 N) (1 De) ;		# Conseiller du roi
 
 SELECT N IF (-1 ("en")) (0 ("quête")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("recherche")) (1 De) ;
@@ -3475,15 +3485,20 @@ REMOVE Det IF (0 ("de multiples")) (NOT -1 Prep) ;
 LIST NP_Ini = "pierre" ;
 LIST N_Ini = "dame" ;
 SELECT NP IF (-1 BOS) (0 N) (0 NP_Ini) ;
+SELECT NP IF (-2 BOS) (-1 ("«")) (0 N) (0 NP_Ini) ;
 REMOVE NP IF (-1 BOS) (0 N) (0 N_Ini) ;
+REMOVE NP IF (-2 BOS) (-1 ("«")) (0 N) (0 N_Ini) ;
 REMOVE NP IF (-1 BOS) (0 ("bataille")) (1 De) ;
 REMOVE NP IF (-1 BOS) (0 ("col")) (1 De) ;
 REMOVE NP IF (-1 BOS) (0 ("drapeau")) (1 De) ;
 REMOVE NP IF (-1 BOS) (0 ("loi")) (1 De) ;
 SELECT NP IF (-1 BOS) (0 N) (1 NP OR unknownMajIni) ;
+SELECT NP IF (-2 BOS) (-1 ("«")) (0 N) (1 NP OR unknownMajIni) ;
 SELECT NP IF (-1 BOS) (0 N) (1 De) (2 NP OR unknownMajIni) ;
+SELECT NP IF (-2 BOS) (-1 ("«")) (0 N) (1 De) (2 NP OR unknownMajIni) ;
 SELECT NP IF (-1 BOS) (0 N) (1 Lpar) (2 NP OR unknownMajIni) ;
 REMOVE NP IF (-1 BOS) (0 N) ;
+REMOVE NP IF (-2 BOS) (-1 ("«")) (0 N) ;
 
 # SELECT SUB:1 Det IF (0 ("Des")) (-1 BOS) (1 N + Pl);
 
