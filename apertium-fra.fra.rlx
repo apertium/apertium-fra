@@ -3310,6 +3310,13 @@ SELECT PP IF (-1 Ser) (-2 ("ne")) (0 A OR PP) (1 Que) (2 ("par")) ;
 SELECT PP IF (-1 Ser) (0 ("mort") OR ("né") OR ("parvenu")) ;
 SELECT PP IF (-2 Ser) (-1 Adv) (0 ("mort") OR ("né") OR ("parvenu")) ;
 
+REMOVE A IF (-1 BOS) (0 PP) ;	# Élevé au grade de général de division
+SELECT PP IF (-1 BOS) (0 PP) (1 En) (2 Num) ;	# Mort en 1917
+SELECT PP IF (-1 BOS) (0 PP) (1 Det + Def) (2 Num) ;	# Mort le 15 janvier
+SELECT PP IF (-1 BOS) (0 PP) (1 ("à")) (2 Top OR unknownMajIni) ;
+SELECT PP IF (-1 BOS) (0 PP) (1 ("à")) (2 Det + Def) (3 Top OR unknownMajIni) ;
+SELECT PP IF (-1 BOS) (0 PP) (1 ("en")) (2 Top) ;
+
 # V OR N
 
 REMOVE N IF (-1 CnjCoo) (0 V) (1 Det + MascSg) (2 N + MascSg) ;
