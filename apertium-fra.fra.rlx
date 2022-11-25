@@ -785,8 +785,13 @@ SELECT ("pouvoir") IF (0 ("paître")) ;
 
 
 SELECT Vbmod (0 V) (1 Inf) ;
-SELECT Vbmod (0 V) (1 Adv) (2 Inf) ;
-SELECT Vbmod (0 V) (1 Adv) (1 Adv) (3 Inf) ;
+SELECT Vbmod (0 V) (1 Adv OR Pro) (2 Inf) ;
+SELECT Vbmod (0 V) (1 Adv OR Pro) (2 Adv OR Pro) (3 Inf) ;
+SELECT Vbmod (0 V) (1 Adv) (2 Adv OR Pro) (3 Adv OR Pro) (4 Inf) ;
+SELECT Inf (-1 Vbmod) (0 Inf) ;
+SELECT Inf (-2 Vbmod) (-1 Adv OR Pro) (0 Inf) ;
+SELECT Inf (-3 Vbmod) (-2 Adv OR Pro) (-1 Adv OR Pro) (0 Inf) ;
+SELECT Inf (-4 Vbmod) (-3 Adv) (-2 Adv OR Pro) (-1 Adv OR Pro) (0 Inf) ;
 REMOVE Vbmod (0 Devoir + PP) (-1 Ser) ;
 REMOVE Vbmod (0 Devoir) (1 ("à")) ;
 REMOVE Vbmod (0 V) (NOT 0 Falloir) (NOT 1 Inf OR (":")) (NOT 2 Inf) (NOT 3 Inf) ;
