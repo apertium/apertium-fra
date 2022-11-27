@@ -470,6 +470,7 @@ SELECT Masc_strict IF (0 Ant + Masc_strict) (1C Ant + Masc_strict) ;
 SELECT Fem_strict IF (0 Ant + Fem_strict) (1C Ant + Fem_strict) ;
 SELECT Masc_strict IF (-1C Ant + Masc_strict) (0 Ant + Masc_strict) ;
 SELECT Fem_strict IF (-1C Ant + Fem_strict) (0 Ant + Fem_strict) ;
+SELECT Ant IF (NOT -1/* Det) (0 ("Marine")) (1 Ant_Cog OR unknownMajIni) ;
 
 REMOVE N IF (NOT -1 Det) (0 ("Alain")) ;
 REMOVE A IF (0 ("Alain")) ;
