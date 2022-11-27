@@ -2038,6 +2038,20 @@ SELECT CnjAdv IF (0 Comme) (1C Prn) ;		# comme nous savons
 SELECT CnjAdv IF (0 Comme) (1 En) (2 Ger) ;		# comme en rêvant
 REMOVE Adv (0 Comme) (1 (":")) ;
 
+REMOVE Adv IF (0 ("à l'époque")) (1 A + FemSg) ;
+SELECT A + FemSg IF (-1 ("<à l'époque>"i)) (0 A + FemSg) ;
+REMOVE Adv IF (0 ("à l'époque")) (1/* ("de")) ;
+REMOVE Adv IF (0 ("à l'époque")) (1 ("où")) ;
+SELECT Adv IF (0 ("à l'époque")) (1 EOS OR CM OR Prn OR Verb OR Prep) ;
+SELECT Adv IF (0 ("à l'époque")) ;
+
+REMOVE Adv IF (0 ("à l'heure")) (1 A + FemSg) ;
+SELECT A + FemSg IF (-1 ("<à l'heure>"i)) (0 A + FemSg) ;
+REMOVE Adv IF (0 ("à l'heure")) (1/* ("de")) ;
+REMOVE Adv IF (0 ("à l'heure")) (1 ("où")) ;
+SELECT Adv IF (0 ("à l'heure")) (1 EOS OR CM OR Prn OR Verb OR Prep) ;
+SELECT Adv IF (0 ("à l'heure")) ;
+
 SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
   ## l'ancien président
 SELECT A IF (-1 CnjCoo OR CM) (0 ("ancien")) (1 N) ;
@@ -2926,11 +2940,6 @@ REMOVE A IF (-2 BOS) (-1 ("«")) (0 ("suivant")) (0 A) (1 ("de")) ;
 REMOVE N IF (-2 BOS) (-1 ("«")) (0 ("suivant")) (0 N) (1 ("de")) ;	# Suivant des besoins
 REMOVE A IF (-1 Verb + Pers) (0 ("suivant")) (0 A) (1 ("de")) ;
 REMOVE N IF (-1 Verb + Pers) (0 ("suivant")) (0 N) (1 ("de")) ;	# Suivant des besoins
-
-REMOVE Adv IF (0 ("à l'époque")) (1 A + FemSg) ;
-REMOVE Adv IF (0 ("à l'époque")) (1/* ("de")) ;
-REMOVE Adv IF (0 ("à l'époque")) (1 ("où")) ;
-SELECT Adv IF (0 ("à l'époque")) (1 EOS OR CM OR Prn OR Verb OR Prep) ;
 
 # PRN
 
