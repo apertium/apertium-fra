@@ -44,6 +44,7 @@ LIST Pri = pri ;
 LIST Prn = prn ;
 LIST N = n ;
 LIST N_Adj = n adj ;
+LIST Adj_PP = adj pp ;
 LIST NP = np ;
 LIST Pref = pref ;
 LIST Lpar = lpar ;
@@ -3344,6 +3345,12 @@ SELECT PP IF (-1 BOS) (0 PP) (1 Det + Def) (2 Num) ;	# Mort le 15 janvier
 SELECT PP IF (-1 BOS) (0 PP) (1 ("à")) (2 Top OR unknownMajIni) ;
 SELECT PP IF (-1 BOS) (0 PP) (1 ("à")) (2 Det + Def) (3 Top OR unknownMajIni) ;
 SELECT PP IF (-1 BOS) (0 PP) (1 ("en")) (2 Top) ;
+
+# A OR PP
+
+REMOVE V + Pers IF (-1 N_Adj + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) (1C Rel) ;
+REMOVE V + Pers IF (-1 N_Adj + &&ConcordeSN) (0 Adj_PP + &&ConcordeSN) (1 CM) (2C Rel) ;
+
 
 # V OR N
 
