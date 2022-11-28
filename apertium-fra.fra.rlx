@@ -1360,6 +1360,7 @@ REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 
 SELECT N IF (0 ("fin")) (1 Mois) ;
+SELECT N IF (0 ("fin")) (1 ("<[0-9][0-9][0-9][0-9]>"r)) ;
 
 REMOVE V IF (-1 AdjOrd + &&ConcordeSN) (0 N + &&ConcordeSN) ; # le dernier voyage
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (1 N + &&ConcordeSN) ; # le second voyage
