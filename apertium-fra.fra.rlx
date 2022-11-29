@@ -183,6 +183,8 @@ LIST Être = "être" ;
 LIST Comme = "comme" ;
 LIST Fondre = "fondre" ;
 LIST Fonder = "fonder" ;
+LIST Fond = "fond" ;
+LIST Fonds = "fonds" ;
 
 # noms communs avec des sens différents selon le genre
 LIST Tour = "tour" ;
@@ -422,7 +424,7 @@ REMOVE Ant IF (0 ("Noël")) (NOT 1 Ant OR Cog OR unknownMajIni) ;
 REMOVE Cog IF (0 ("Nouveau")) (0 (META:/-/r)) ;		# Nouveau-Mexique
 
 LIST N_NP_ini = "roi" "reine" "prince" "maréchal" "chevalier" "dame" "frère" "chapelle" "détroit" "rue" "court" "groupe" ;
-REMOVE N + Sg IF (-1 BOS) (0 NP LINK NOT 0 N_NP_ini) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
+REMOVE N + Sg IF (-1 BOS) (0 NP LINK NOT 0 N_NP_ini) (NOT 1 CM) (0 N + &&ConcordeSN LINK NOT 1 A + &&ConcordeSN) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
 REMOVE A + Sg IF (-1 BOS) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort
 REMOVE N + Sg IF (-2 BOS) (-1 ("«")) (0 NP LINK NOT 0 N_NP_ini) (NOT 1 CM) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort ; Mair, vòs que’t haci ; Vacas e vetèths qu’arribavan
 REMOVE A + Sg IF (-2 BOS) (-1 ("«")) (0 NP) (NOT 1 N + Sg) (NOT 1 De) (NOT 1 CM) (NOT 1* ("!")) (1* V OR Ser BARRIER (":") OR EOS) ;	# Fred es mort
@@ -1006,7 +1008,19 @@ REMOVE Fin_non_Imp IF (-1 BOS) (0 Imper + P2) (NOT 1 Prn + Tn) (NOT 0/* Prn + Tn
 REMOVE Fin_non_Imp IF (-2 BOS) (-1 ("«")) (0 Imper + P2) (NOT 1 Prn + Tn + P2) (NOT 0/* Prn + Tn + P2) ;
 REMOVE Fin_non_Imp IF (-2 BOS) (-1 CnjCoo) (0 Imper + P2) (NOT 1 Prn + Tn + P2) (NOT 0/* Prn + Tn + P2) ;
 REMOVE Fin_non_Imp IF (-3 BOS) (-1 ("«")) (-1 CnjCoo) (0 Imper + P2) (NOT 1 Prn + Tn + P2) (NOT 0/* Prn + Tn + P2) ;
-REMOVE Imper IF (NOT 1* Excl) ;
+REMOVE Imper IF (NOT 1* Excl) (NOT -1 BOS) ;
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (1C Verb + Pers) ;	# Rodez développe
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (1C Pro) ;	# Rodez se développe
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 N + &&ConcordeSN) (1 Adj_PP + &&ConcordeSN) ;		# Fête populaire
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 N) (1 A) ;		# Fonds mondial
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 N OR NP) (1 De) ;		# Liste de
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 Ant) (1 De) (2 Top OR Cog OR unknownMajIni) ;	
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 N OR NP) (1 MajIni OR unknownMajIni) ;
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 N OR NP OR Prep) (1 ("<[0-9][0-9]*>"r)) ;
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 N OR NP) (1 Lpar) ;
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 N OR NP) (1 EOS) ;
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (0 ("affaire") OR ("double") OR ("gare") OR ("entre")) ;
+REMOVE Imper IF (NOT 1* Excl) (-1 BOS) (1* Verb + Pers LINK NOT 0 Imper) ;	# Dissous le septembre 1939, il est transformé en
 REMOVE Imper IF (-1 Tn) (NOT -1 Lui) ;
 REMOVE Imper IF (-2 Tn) (NOT -2 Lui) (-1 Adv) ;
 
@@ -2619,6 +2633,7 @@ SELECT N IF (0 Fort) (1 MajIni OR unknownMajIni) ;
 REMOVE N IF (-1 N + MascSg) (0 Fort + MascSg) ;
 REMOVE N IF (-1 N + MascPl) (0 Fort + MascPl) ;
 REMOVE Adv IF (NOT -1 Verb) (0 Fort) ;
+SELECT PreAdv IF (-1 BOS OR CM) (0 Fort) (1 A OR PP) ;
 
 SELECT N IF (-1 ("devenir") + &&ConcordeSP) (0 N + &&ConcordeSP) (NOT 1 Noun_Adj) ;	# devient chanteur
 SELECT N IF (-1 ("devenir") + &&ConcordeSP) (0 N + &&ConcordeSP) (1 ("pas")) (NOT 2 Noun_Adj) ;	# ne devient pas chanteur
@@ -3523,7 +3538,9 @@ SELECT NP IF (-2 BOS) (-1 ("«")) (0 N) (1 NP OR unknownMajIni) ;
 SELECT NP IF (-1 BOS) (0 N) (1 De) (2 NP OR unknownMajIni) ;
 SELECT NP IF (-2 BOS) (-1 ("«")) (0 N) (1 De) (2 NP OR unknownMajIni) ;
 SELECT NP IF (-1 BOS) (0 N) (1 Lpar) (2 NP OR unknownMajIni) ;
-REMOVE NP IF (-1 BOS) (0 N) ;
+REMOVE NP IF (-1 BOS) (0 N) (NOT 1 Verb + P3) (NOT 2 Verb + P3) (NOT 3 Verb + P3) ;
+REMOVE NP IF (-1 BOS) (0 N) (1 Pro OR Adv) (NOT 2 Verb + P3) (NOT 3 Verb + P3) ;
+REMOVE NP IF (-1 BOS) (0 N) (1 Pro OR Adv) (2 Pro OR Adv) (NOT 3 Verb + P3) ;
 REMOVE NP IF (-2 BOS) (-1 ("«")) (0 N) ;
 
 # SELECT SUB:1 Det IF (0 ("Des")) (-1 BOS) (1 N + Pl);
