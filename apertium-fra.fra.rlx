@@ -2642,6 +2642,8 @@ SELECT A IF (-2 ("devenir")) (-1 Adv_PreAdv) (NOT 1 A) ;
   ## devenir plus fort
 SELECT A IF (-3 ("devenir")) (-2 Adv) (-1 Adv_PreAdv) (NOT 1 A) ;
   ## ne devenir pas plus fort
+SELECT N OR NP IF (-1 ("nommer")) (0 N OR NP) (NOT 1 Noun_Adj) ;	# nommé conseiller
+SELECT N OR NP IF (-2 ("nommer")) (-1 Adv) (0 N OR NP) (NOT 1 Noun_Adj) ;
 
 REMOVE NP IF (-1 BOS) (0 Aucun) ;
 REMOVE NP IF (-2 BOS) (-1 ("«")) (0 Aucun) ;
