@@ -3332,6 +3332,7 @@ SELECT N IF (-1 ("en")) (0 ("recherche")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("hausse")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("baisse")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
+SELECT N IF (-1 ("en")) (0 ("marbre")) ;
 SELECT N IF (-1 ("en")) (0 ("<corse>"i)) ;
 
 REMOVE V IF (-2C Verb LINK NOT 0 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# de tenir le rythme
