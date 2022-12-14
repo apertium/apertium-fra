@@ -917,6 +917,8 @@ SELECT PP IF (-3 Avoir + P1 + Pl) (-2 Tn + P1 + Pl) (-1 Adv) (0 PP) ;
 SELECT PP IF (-3 Avoir + P2 + Pl) (-2 Tn + P2 + Pl) (-1 Adv) (0 PP) ;
 SELECT PP IF (-3 Avoir + P3 + Pl) (-2 Tn + P3 + Pl) (-1 Adv) (0 PP) ;
 
+SELECT N IF (0 ("<avions>"i)) (1 De) (1 ("chasse") OR ("guerre") OR ("reconnaissance") OR ("transport")) ;
+SELECT N IF (-1/* Det + MascPl) (0 ("<avions>"i)) (1 De) ;
 SELECT V IF (-1 Avoir) (0 Avoir + PP) ;	# Le jeune homme a eu plus de
 SELECT V IF (-2 Avoir) (-1 Adv) (0 Avoir + PP) ;	# Le jeune homme n'a pas eu plus de
 SELECT V IF (0 Avoir) (1 Que) ;	# il n'a que des problèmes
