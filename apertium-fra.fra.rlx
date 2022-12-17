@@ -216,6 +216,8 @@ LIST Clim = "clim" ;
 LIST Curie = "curie" ;
 LIST Info = "info" ;
 LIST Relache = "relâche" ;
+LIST Feministe = "féministe" ;
+LIST Afrofeministe = "afroféministe" ;
 LIST Martyre = "martyre" ;
 LIST Memoire = "mémoire" ;
 LIST Rue = "rue" ;
@@ -3552,6 +3554,9 @@ REMOVE NP IF (-1 BOS) (0 N) (1 Pro OR Adv) (2 Pro OR Adv) (NOT 3 Verb + P3) ;
 REMOVE NP IF (-2 BOS) (-1 ("«")) (0 N) ;
 
 # SELECT SUB:1 Det IF (0 ("Des")) (-1 BOS) (1 N + Pl);
+
+SELECT Fem IF (0C Feministe + N) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
+SELECT Fem IF (0C Afrofeministe + N) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
 
 #patchs per Revirada
