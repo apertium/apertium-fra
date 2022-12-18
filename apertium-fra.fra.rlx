@@ -461,6 +461,9 @@ SELECT Ant IF (1 siecles_nom_romains OR ("<Ier>")) ;			# Michel II
 SELECT Top IF (1C Top) (0 (META:/-/r)) ;
 SELECT Top IF (-1C Top) (-1 (META:/-/r)) ;
 
+SELECT Cog IF (*-1W (sent) LINK -1 ("<\\p{Lu}>"r)) ;
+SELECT N IF (NOT -1 Ant_Cog OR unknownMajIni) (0 ("M.")) (1 Ant_Cog OR unknownMajIni) ;
+
 SELECT Ant_Cog IF (0 Cog OR Ant) (1C Cog) ;
 SELECT Ant OR Cog IF (0 Ant OR Cog) (1C Ant OR Cog) (0 (META:/-/r)) ;		# Charles-Michel
 SELECT Ant OR Cog IF (-1C Ant OR Cog) (0 Ant OR Cog) (-1 (META:/-/r)) ;		# Charles-Michel
