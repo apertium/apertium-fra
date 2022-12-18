@@ -3342,6 +3342,8 @@ SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
 SELECT N IF (-1 ("en")) (0 ("marbre")) ;
 SELECT N IF (-1 ("en")) (0 ("<corse>"i)) ;
 
+REMOVE N IF (0 ("<participe>"i)) (1 ("à")) ;
+
 REMOVE V IF (-2C Verb LINK NOT 0 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# de tenir le rythme
 REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# j'ai tenu le rythme
 
