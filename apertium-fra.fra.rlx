@@ -3065,15 +3065,24 @@ REMOVE A IF (0 PP) (1 Adv) (NOT 2 A OR Verb) ;		# fut encore poussée plus loin
 SELECT PP IF (-1 Ser + &&ConcordeSP) (0 ("sacré") + &&ConcordeSP) ;	# est sacré champion
 SELECT PP IF (-2 Ser + &&ConcordeSP) (-1 Adv) (0 ("sacré") + &&ConcordeSP) ;
 SELECT PP IF (-3 Ser + &&ConcordeSP) (-2 Adv) (-1 Adv) (0 ("sacré") + &&ConcordeSP) ;
-SELECT PP IF (-1 Ser + &&ConcordeSP) (0 ("sacré") + &&ConcordeSP) ;	# est sacré champion
-SELECT PP IF (-1 Ser + &&ConcordeSP) (0 ("sacré") + &&ConcordeSP) ;	# est sacré champion
+SELECT PP IF (-1 Ser + &&ConcordeSP) (0 ("suspendu") + &&ConcordeSP) ;
+SELECT PP IF (-2 Ser + &&ConcordeSP) (-1 Adv) (0 ("suspendu") + &&ConcordeSP) ;
+SELECT PP IF (-3 Ser + &&ConcordeSP) (-2 Adv) (-1 Adv) (0 ("suspendu") + &&ConcordeSP) ;
 REMOVE PP OR Ger IF (NOT -1 CM OR N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C N + &&ConcordeSN) ;	# imposant lanceur
 REMOVE PP OR Ger IF (-1 PreAdv) (0 A) ;					# très imposant
 REMOVE PP OR Ger IF (-1 AdvComp) (0 A) ;			# plus imposant
 REMOVE PP OR Ger IF (0 A + &&ConcordeSN) (1 CnjCoo) (2C A + &&ConcordeSN) ;
 REMOVE PP OR Ger IF (-2C A + &&ConcordeSN) (-1 CnjCoo) (0 A + &&ConcordeSN) ;
 
-REMOVE A (0 ("situé") OR ("placé") OR ("localisé")) (1 ("en") OR ("dans") OR ("à")) ;
+REMOVE A IF (0 ("situé") OR ("placé") OR ("localisé")) (1 ("en") OR ("dans") OR ("à")) ;
+
+REMOVE A IF (NOT -1 N_Adj) (0 PP) (1C Det) ;	# ils ont, dans un geste de protestation, suspendu leur participation
+REMOVE A IF (0 PP) (1C Det) (2 ("<[0-9][0-9][0-9][0-9]>"r)) ;	# écrivaine française née le 1961
+REMOVE A IF (0 PP) (1 ("en")) (2 ("<[0-9][0-9][0-9][0-9]>"r)) ;	# écrivaine française née le 1961
+REMOVE A IF (0 PP) (1 ("en")) (2 Mois) ;
+REMOVE A IF (0 PP) (2 Jours) ;
+REMOVE A IF (0 PP) (1C Det) (2 Jours) ;
+REMOVE A IF (0 PP) (1C Det) (2 ("jour") OR ("matin") OR ("après-midi") OR ("soir") OR ("nuit") OR ("semaine") OR ("mois") OR ("année") OR ("siècle")) ;
 
 REMOVE A IF (NOT -4 De) (NOT -3 De) (NOT -2 De) (-1C N + Masc_strict) (NOT 0 A + Masc) (0 Ger) ;
 REMOVE A IF (NOT -4 De) (NOT -3 De) (NOT -2 De) (-1C N + Fem_strict) (NOT 0 A + Fem) (0 Ger) ;	# une plaque tournant vers la droite
