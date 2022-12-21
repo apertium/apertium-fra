@@ -1087,17 +1087,20 @@ SELECT Subjunc (*-1 ("être") LINK 1 Adv_PreAdv LINK 1 A LINK 1 Que) (0C Verb) ;
 	# es bueno que vengas
 	# però: són tan variades que en cadascuna d'elles es poden observar patrons
 #REMOVE Subjunc (NOT *-1 VerbSubj LINK 1 Que) (0C Verb) ;
-REMOVE Subjunc (-1 Tn OR ("on")) (0 Verb) (1 Que + CnjSub) ;
-	# on considère que
+REMOVE Subjunc (-1 Tn OR ("on")) (0 Verb) (1 Que + CnjSub) ; # on considère que
+
+SELECT Subjunc (-2 ("aussi")) (-1 A + &&ConcordeSN) (0 VerbAttr + P3 OR Haver + P3 OR Vbmod + P3) (1 ("il") + &&ConcordeSN) ;	# aussi aimable soit-il
+SELECT Subjunc (*-1 Que BARRIER Verb LINK -1 A LINK -1 ("aussi")) (0 VerbAttr + P3 OR Haver + P3 OR Vbmod + P3) ;	# aussi aimable qu'il soit
+SELECT Adv (0 ("aussi")) (1 A + &&ConcordeSN) (2 VerbAttr + Subjunc + P3 OR Haver + Subjunc + P3 OR Vbmod + Subjunc + P3) (3 ("il") + &&ConcordeSN) ;	# aussi aimable soit-il
+SELECT Adv (0 ("aussi")) (1 A + &&ConcordeSN) (2 Que) (3* VerbAttr + Subjunc + P3 OR Haver + Subjunc + P3 OR Vbmod + Subjunc + P3 BARRIER Verb) ;	# aussi aimable qu'il soit
+SELECT CnjSub (-2 ("aussi")) (-1 A + &&ConcordeSN) (0 Que) (1* VerbAttr + Subjunc + P3 OR Haver + Subjunc + P3 OR Vbmod + Subjunc + P3 BARRIER Verb) ;	# aussi aimable qu'il soit
 REMOVE Subjunc (-2 Tn OR ("on")) (-1 Pro) (0 Verb) (1 Que + CnjSub) ;
 REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("pour que") OR ("bien que") OR ("malgré que") OR ("avant que") OR ("après que") OR ("afin que")) (0 Verb) ;
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End LINK -1 ("sans")) (0C Verb) ;	# sans que le verdict change
 SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End LINK -1 ("falloir")) (0C Verb) ;	# il faut que le verdict change
-REMOVE Subjunc (*-1 Que + Rel OR Qui + Rel BARRIER Verb LINK NOT -1 ("sans") OR ("falloir")) (0 Verb) ;
-  ## Cette règle a des exceptions: La peur que cette rencontre *change* la face du monde préoccupe l'Europe
+REMOVE Subjunc (*-1 Que + Rel OR Qui + Rel BARRIER Verb LINK NOT -1 ("sans") OR ("falloir")) (0 Verb) ;	# Cette règle a des exceptions: La peur que cette rencontre *change* la face du monde préoccupe l'Europe
 REMOVE Subjunc (*-1 ("quand") OR ("où") OR ("comment") OR ("quant") OR ("pourquoi") OR ("lequel") BARRIER Verb) (0 Verb) ;
-#REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que") OR ("afin que") CBARRIER Ind) (0 Verb) ;
-  ## Avant qu'il ne vienne chez nous, Stephen Hillenburg refuse plusieurs propositions
+#REMOVE Subjunc (NOT *-1 Que + CnjSub OR ("avant que") OR ("après que") OR ("afin que") CBARRIER Ind) (0 Verb) ;	# Avant qu'il ne vienne chez nous, Stephen Hillenburg refuse plusieurs propositions
 REMOVE Subjunc (-1 CnjCoo) (0 VerbInd) ;
 REMOVE Subjunc (-2C VerbInd) (-1 CnjCoo) (0 VerbInd) ;
 REMOVE Subjunc (0 VerbInd) (1 CnjCoo) (2C VerbInd) ;
