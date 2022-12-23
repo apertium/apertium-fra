@@ -648,11 +648,11 @@ SELECT Acr IF (0 ("<A>")) (1 ("»")) ;
 REMOVE Acr IF (NOT -1 Num) (0 ("<A>")) ;
 SELECT Num IF (-1 Ant) (0 ("<V>")) ;
 
-REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;
-	# avec beaucoup de peine (!!)
-REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ;
-	# des bones notes
-	# hors du commun haura lieu
+SELECT Verb IF (-1 Tn + Pers + &&ConcordeSV) (0 Verb + Pers + &&ConcordeSV) ;
+SELECT Verb IF (0 Verb + Pers + &&ConcordeSV) (1 ("\\<-.*>"r) + Tn + Pers + &&ConcordeSV) ;	# soit-il
+
+REMOVE V IF (-2C Prep) (-1C A) (0 A OR V) ;	# avec beaucoup de peine (!!)
+REMOVE V IF (-2/* Prep) (-1C A) (0C A OR V) ; #	des bones notes ; hors du commun haura lieu
 
 #SELECT NP IF (NOT -1 BOS) (0 Title) ;
   ## Lorsque Marie a fini de compter, elle regarde autour d'elle.
