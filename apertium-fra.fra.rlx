@@ -996,12 +996,23 @@ REMOVE Tn IF (0 Qui) ;
 SELECT Itg IF (-1 BOS LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ; # Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 ("«") LINK NOT 0 ("[——―]"r)) (0C Itg OR Rel OR CnjSub) ; # Qui s'adresse
 SELECT Itg IF (-2 BOS) (-1 Prep) (0C Itg OR Rel OR CnjSub) ; # A qui s'adresse
+SELECT Itg IF (-2 BOS) (-1 CnjCoo) (0C Itg OR Rel OR CnjSub) ; # Et qui s'adresse
 SELECT Itg IF (-3 BOS) (-2 ("«")) (-1 Prep) (0C Itg OR Rel OR CnjSub) ; # A qui s'adresse
 SELECT Itg IF (-1C Verb LINK NOT 0 PP) (0C Itg OR Rel) ; # je me demande qui
 SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Prep) (0C Itg OR Rel) ; # je demande avec qui
 SELECT Itg IF (-2C Verb LINK NOT 0 PP) (-1 Adv) (0C Itg OR Rel) ; # je ne demande pas qui
 SELECT Itg IF (-3C Verb LINK NOT 0 PP) (-2 Adv) (-1 Prep) (0C Itg OR Rel) ; # je ne demande pas avec qui
 SELECT Itg IF (1 ("est-ce que")) ; # où est-ce que
+LIST Demander = "demander" "questionner" "étudier" "chercher" "investiguer" "trouver" "expliquer" "discuter" "savoir" "comprendre" ;
+SELECT Itg IF (-1C Demander) (0C Itg OR Rel OR CnjAdv) ; # je me demande quand fait-il
+SELECT Itg IF (-2C Demander) (-1 Adv) (0C Itg OR Rel OR CnjAdv) ; # je ne me demande pas quand fait-il
+SELECT Itg IF (-3C Demander) (-2 Adv) (-1 Adv) (0C Itg OR Rel OR CnjAdv) ; # je ne me demande pas toujours quand fait-il
+SELECT Itg IF (-1C Demander) (0 ("que")) (1 Verb + Pers + &&ConcordeSV) (2 ("\\<-.*>"r) + Tn + Pers + &&ConcordeSV) ; # je me demande que fait-il
+SELECT Itg IF (-2C Demander) (-1 Adv) (0 ("que")) (1 Verb + Pers + &&ConcordeSV) (2 ("\\<-.*>"r) + Tn + Pers + &&ConcordeSV) ; # je ne me demande pas que fait-il
+SELECT Itg IF (-3C Demander) (-2 Adv) (-1 Adv) (0 ("que")) (1 Verb + Pers + &&ConcordeSV) (2 ("\\<-.*>"r) + Tn + Pers + &&ConcordeSV) ; # je ne me demande pas toujours que fait-il
+SELECT Itg IF (-1C Demander) (0 ("que")) (1 Verb + Pers + Ind) (1C Verb OR N OR A) ;
+SELECT Itg IF (-2C Demander) (-1 Adv) (0 ("que")) (1 Verb + Pers + Ind) (1C Verb OR N OR A) ;
+SELECT Itg IF (-3C Demander) (-2 Adv) (-1 Adv) (0 ("que")) (1 Verb + Pers + Ind) (1C Verb OR N OR A) ;
 
 SELECT Itg IF (0 Adv OR Prn) (1 ("est-ce que")) ; # quand est-ce que ; qui est-ce que
 SELECT Itg IF (0 Adv OR Prn) (1 Verb + P1 + Sg) (1 (META:/-/r)) (2 Tn + P1 + Sg) ;
