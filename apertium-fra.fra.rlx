@@ -1062,8 +1062,11 @@ REMOVE Verb (OC Verb OR A OR N LINK NOT 0 Inf) (1 Être LINK 0 P1 OR P2 OR P3) ;
 REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
   ## il était très fier,
 
+SELECT CnjSub IF (-1 ("c'est-à-dire")) (0 Que) ;
+REMOVE CnjSub IF (-1C CnjCoo) (0 Que) (NOT -1* Que + CnjSub) (NOT -1* CnjAdv + ("\\<.*que>"r)) ;
+
 # subjonctif après "que"
-SELECT Subjunc (*-1 Que BARRIER Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
+SELECT Subjunc (*-1 Que + CnjSub BARRIER Cnj_Rel_End) (*-1C VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 	# Compte: quiero decirle que me parece muy bien
 SELECT Subjunc (*-1 ("bien que") OR ("malgré que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER CM OR Cnj_Rel_End) (*-1 VerbSubj LINK NOT 1 Inf) (0C Verb) ;
 #SELECT Subjunc (*-1 ("bien que") OR ("avant que") OR ("après que") OR ("pour que") OR ("afin que") BARRIER CM OR Cnj_Rel_End) (0C Verb) ;
