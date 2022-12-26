@@ -421,6 +421,7 @@ REMOVE Cog IF (NOT -1 Ant) (0 ("Aspect")) ;
 REMOVE Cog IF (-1 BOS) (0 ("Ouvert")) ;
 REMOVE Cog IF (-1 ("«")) (0 ("Ouvert")) ;
 REMOVE Cog IF (-1 (META:/"/r)) (0 ("Ouvert")) ;
+SELECT N IF (-1/* Det + MascSg) (0 ("Mari")) ;
 
 REMOVE Cog IF (0 ("Noël")) (NOT -1 Ant OR Cog OR unknownMajIni) ;
 REMOVE Ant IF (0 ("Noël")) (NOT 1 Ant OR Cog OR unknownMajIni) ;
