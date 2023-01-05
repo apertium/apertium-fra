@@ -1939,6 +1939,12 @@ SELECT Verb IF (0 ("vit")) (1 Adv) (2 ("en") OR ("dans")) ;
 SELECT Verb IF (NOT -1 Det + MascSg) (0 ("vit")) ;
 SELECT Verb IF (-1 Pro) (0 ("vit")) ;
 
+REMOVE ("accroire") IF (0 ("accroître") OR ("accroitre")) ;
+REMOVE ("accroire") IF (NOT 0 Inf) ;
+
+REMOVE ("croître") IF (0 ("croire")) ;
+REMOVE ("croitre") IF (0 ("croire")) ;
+
 REMOVE SUB:1 Adv IF (-1 ("en") + Pro) (0 ("avoir# jusque-là")) ;
 SELECT SUB:1 Adv IF (NOT -1 ("en") + Pro) (0 ("avoir# jusque-là")) ;
 
@@ -3374,6 +3380,7 @@ SELECT N IF (-1 ("en")) (0 ("hausse")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("baisse")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
 SELECT N IF (-1 ("en")) (0 ("marbre")) ;
+SELECT N IF (-1 ("en")) (0 ("tube")) ;
 SELECT N IF (-1 ("en")) (0 ("<corse>"i)) ;
 
 REMOVE N IF (0 ("<participe>"i)) (1 ("à")) ;
