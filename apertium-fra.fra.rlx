@@ -461,6 +461,7 @@ SELECT Top IF (-2 ("université")) (-1 De) ;				# université de Paris VII
 SELECT Ant IF (1 siecles_nom_romains OR ("<Ier>")) ;			# Michel II
 SELECT Top IF (1C Top) (0 (META:/-/r)) ;
 SELECT Top IF (-1C Top) (-1 (META:/-/r)) ;
+REMOVE Top IF (-1 ("chez")) (0 Cog OR Ant) ;
 
 SELECT Cog IF (*-1W (sent) LINK -1 ("<\\p{Lu}>"r)) ;
 SELECT N IF (NOT -1 Ant_Cog OR unknownMajIni) (0 ("M.")) (1 Ant_Cog OR unknownMajIni) ;
