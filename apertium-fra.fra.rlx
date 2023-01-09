@@ -616,6 +616,7 @@ REMOVE NP IF (0 ("Forces")) ;
 SELECT Acr IF (0 ("Su")) (0 (META:/-/r)) ;
 REMOVE Acr IF (0 ("Su")) ;
 SELECT Acr IF (0 NP) ;
+REMOVE Cog IF (0 ("<de .*>"r)) (NOT -1 Ant OR Cog OR unknownMajIni) (0/* Top OR Ant) ;  # la ville de Pedro ; la ville de Lima
 SELECT NP IF (0 NP) (NOT -1 BOS) (NOT -1 (META:/…/r)) (NOT 0 N_NP_ini OR ("parlement") OR ("grand") OR ("internet") OR ("marine") OR ("Français") OR ("Gallois") OR ("Parisien") OR ("Provençal") OR ("Gascon") OR ("Albigeois") OR ("Liégeois") OR ("Allemand") OR ("noël") OR ("justice") OR ("concorde") OR ("grand") OR ("petit") OR ("Janvier") OR ("Avril") OR ("Juillet") OR ("Juillet") OR ("Blanc") OR ("Blanche")) ;
 	# Traiem paraules que, per una raó o altra, es posen en majúscules sense ser NP
 SELECT Acr IF (NOT -1 BOS) (0 Majusc) (NOT 0 Num) (NOT -1 Majusc) ;	# la ligne A ; Charles V
