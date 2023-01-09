@@ -705,8 +705,7 @@ SELECT P3 IF (0 Fait) (-1 ("ça") OR ("cela") OR ("ceci")) ;
 REMOVE N IF (0 V + P3) (-1 ("ça") OR ("cela") OR ("ceci")) ;
 SELECT V IF (-1C Adv) (0 Fait) ;
 SELECT V IF (-1 Ne) (0 Fait) (1 Que) ;
-REMOVE PP IF (-1 Ne) (0 Fait) (1 Que) ;
-  ## ne fait que
+REMOVE PP IF (-1 Ne) (0 Fait) (1 Que) ;	# ne fait que
 REMOVE PP IF (-1 Ne) (0 PP) (0 V + Pers) (1C Adv OR ("pas")) ;
 REMOVE PP IF (-1 Ne) (0 PP) (0 V + Pers) (1 Que) ;
 SELECT V IF (0 Fait) (1C Inf) ;
@@ -729,9 +728,7 @@ SELECT PP IF (-4 Pro + P1 + Sg) (-3 Ser + P1 + Sg) (-2 Adv) (-1 Adv) (0 Fait) (1
 SELECT PP IF (-4 Pro + P2 + Sg) (-3 Ser + P2 + Sg) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
 SELECT PP IF (-4 Pro + P1 + Pl) (-3 Ser + P1 + Pl) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
 SELECT PP IF (-4 Pro + P2 + Pl) (-3 Ser + P2 + Pl) (-2 Adv) (-1 Adv) (0 Fait) (1C Inf) ;
-REMOVE PP IF (NOT -3 Haver) (NOT -2 Haver) (NOT -1 Haver) (0 Fait) (1C Inf) ;
-  ## fait vendre
-  ## n'avoir pas toujours fait vendre
+REMOVE PP IF (NOT -3 Haver) (NOT -2 Haver) (NOT -1 Haver) (0 Fait) (1C Inf) ;	# fait vendre ; n'avoir pas toujours fait vendre
 
 SELECT V IF (0 Fait) (1 Det OR PreDet) ;
 SELECT Pri IF (NOT -1 Haver) (NOT -1 Adv) (0 Fait) (1 Det OR PreDet) ;
@@ -813,8 +810,7 @@ REMOVE Vbmod (0 Devoir) (1 ("à")) ;
 REMOVE Vbmod (0 V) (NOT 0 Falloir) (NOT 1 Inf OR (":")) (NOT 2 Inf) (NOT 3 Inf) ;
 
 REMOVE Ifi IF (0 Pri + P1) (0 Ifi + P1) ;
-REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;
-  ## je vis, tu vis
+REMOVE Ifi IF (0 Pri + P2) (0 Ifi + P2) ;	# je vis, tu vis
 
 REMOVE PP IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
 REMOVE A IF (-1 Que OR Qui) (0 Verb + P3) (NOT 1 N) ;	# qui atteint
@@ -835,6 +831,15 @@ REMOVE PP IF (-1 Det + MascSg) (0 N + MascSg) ;
 REMOVE PP IF (-1 Det + MascPl) (0 N + MascPl) ;
 REMOVE PP IF (-1 Det + FemSg) (0 N + FemSg) ;	# la revue
 REMOVE PP IF (-1 Det + FemPl) (0 N + FemPl) ;
+
+REMOVE PP IF (-1C Prn + Tn + &&ConcordeSP) (0 V + P3 + &&ConcordeSP) ;
+REMOVE PP IF (-1C Prn + Tn + (nt)) (0 V + P3 + Sg) ;
+REMOVE PP IF (-2C Prn + Tn + &&ConcordeSP) (-1 Adv OR Pro) (0 V + P3 + &&ConcordeSP) ;
+REMOVE PP IF (-2C Prn + Tn + (nt)) (-1 Adv OR Pro) (0 V + P3 + Sg) ;
+REMOVE PP IF (-3C Prn + Tn + &&ConcordeSP) (-2 Adv OR Pro) (-1 Adv OR Pro) (0 V + P3 + &&ConcordeSP) ;
+REMOVE PP IF (-3C Prn + Tn + (nt)) (-2 Adv OR Pro) (-1 Adv OR Pro) (0 V + P3 + Sg) ;
+REMOVE PP IF (-4C Prn + Tn + &&ConcordeSP) (-3 Adv OR Pro) (-2 Adv OR Pro) (-1 Pro) (0 V + P3 + &&ConcordeSP) ;
+REMOVE PP IF (-4C Prn + Tn + (nt)) (-3 Adv OR Pro) (-2 Adv OR Pro) (-1 Pro) (0 V + P3 + Sg) ;
 
 REMOVE N IF (-1 N OR A OR Prn OR CM) (0C Est) (1 A OR PP OR Det) ;
 REMOVE A IF (-1 N OR A OR Prn OR CM) (0C Est) (1 A OR PP OR Det) ;
@@ -1985,8 +1990,7 @@ REMOVE PP IF (-1 Rel LINK NOT 0 Comme) (0 Verb) (1 Adv) (2 Det + &&ConcordeSN) (
 REMOVE PP IF (-2 Rel LINK NOT 0 Comme) (-1 Adv) (0 Verb) (1 Adv) (2C Det) ;
 REMOVE PP IF (-2 Rel LINK NOT 0 Comme) (-1 Adv) (0 Verb) (1 Adv) (2 Det + &&ConcordeSN) (3 N + &&ConcordeSN) ;
 
-REMOVE V IF (0 N OR V) (1C Ger) ;
-  ## mais la série devenant de plus en plus rentable
+REMOVE V IF (0 N OR V) (1C Ger) ;	# mais la série devenant de plus en plus rentable
 
 REMOVE V + Pers IF (-1C Prep) ;
 REMOVE V + Pers IF (-2C BOS OR CnjSub) (-1 ("en")) (0 N) ;
@@ -2108,14 +2112,10 @@ REMOVE Adv IF (0 ("à l'heure")) (1 ("où")) ;
 SELECT Adv IF (0 ("à l'heure")) (1 EOS OR CM OR Prn OR Verb OR Prep) ;
 SELECT Adv IF (0 ("à l'heure")) ;
 
-SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;
-  ## l'ancien président
-SELECT A IF (-1 CnjCoo OR CM) (0 ("ancien")) (1 N) ;
-  ## et ancien responsable
+SELECT A IF (-1/* Det) (0 ("ancien")) (1 N) ;	# l'ancien président
+SELECT A IF (-1 CnjCoo OR CM) (0 ("ancien")) (1 N) ;	# et ancien responsable
 
-REMOVE PP IF (-1 ("en")) (0 N) ;
-  ## en partie
-  ## en fait
+REMOVE PP IF (-1 ("en")) (0 N) ;	# en partie ; en fait
 
 REMOVE N IF (-1/* Det) (0 ("plus") OR ("moins")) (1 A OR PP OR Adv OR unknown) ;	# le plus beau
 REMOVE N IF (-1/* Det) (0 ("plus") OR ("moins")) (1 EOS) ;	# que j'aime le plus
