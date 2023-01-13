@@ -348,7 +348,7 @@ SET VerbAttr = Ser OR ("sembler") OR ("paraître") OR ("paraitre") ;
 
 SET AdjOrd = ("premier") OR ("prime") OR ("second") OR ("deuxième") OR ("troisième") OR ("quatrième") OR ("cinquième") OR ("sixième") OR ("septième") OR ("huitième") OR ("neuvième") OR ("dixième") OR ("dernier") OR NumOrd ;
 # adjectifs qui souvent vont devant le nom
-SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("futur") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("meilleur") OR ("pire") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") OR ("gros") OR ("principal") OR ("vrai") OR ("faux") OR ("propre") ;
+SET AdjPre = ("ancien") OR ("vieil") OR ("nouveau") OR ("futur") OR ("grand") OR ("petit") OR ("majeur") OR ("bon") OR ("mal") OR ("mauvais") OR ("meilleur") OR ("pire") OR ("pauvre") OR ("haut") OR ("bas") OR ("seul") OR ("célèbre") OR ("vrai") OR ("faux") OR ("beau") OR ("sale") OR ("large") OR ("long") OR ("saint") OR ("sacré") OR ("faible") OR ("multiple") OR ("cher") OR ("gros") OR ("principal") OR ("vrai") OR ("faux") OR ("propre") OR ("certain") ;
 
 SET NoteMusicale = ("do" m) OR ("ut" m) OR ("ré" m) OR ("mi" m) OR ("fa" m) OR ("sol" m) OR ("la" m) OR ("si" m) ;
 
@@ -402,6 +402,9 @@ REMOVE N IF (0 ("<déjà vu>"i)) ;
 
 SELECT Det IF (0 ("<ce soir>"i)) (1 A + MascSg OR De) ;
 REMOVE Det IF (0 ("<ce soir>"i)) ;
+
+SELECT Prep IF (0 ("<en tout>"i)) (1C N_Adj + MascSg) ;
+REMOVE Prep IF (0 ("<en tout>"i)) (NOT 1 N_Adj) ;
 
 REMOVE Cog IF (-1 DetDef) (0 Cog) ;
 REMOVE Cog IF (-1 DetInd) (0 Cog) ;
@@ -2321,6 +2324,7 @@ REMOVE N IF (0 Prep) (1C N) ;	# sous athmosphère protectrice
 REMOVE N IF (0 Prep) (1 N + &&ConcordeSN) (2 A + &&ConcordeSN) ;
 REMOVE N IF (0 Prep) (1 Det + &&ConcordeSN) (2 N + &&ConcordeSN) ;
 
+REMOVE V IF (-1 unknown) (0 ("point")) ;
 SELECT P3 IF (NOT -2 Prep) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
 SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Ne) (0 VSg3);				# Jean ne parle pas
 SELECT P3 IF (NOT -3 Prep) (-2 Ant OR Cog OR unknownMajIni) (-1 Pro) (0 VSg3);				# Jean lui parle
@@ -2752,11 +2756,21 @@ REMOVE Verb (0 Puis) (1 Je) (2 Adv) (3 Verb + P1) ;
 REMOVE Adv IF (-1/* Det) (0 Point) ;	# au point
 REMOVE Adv IF (-1 Prep) (0 Point) ;	# au point
 REMOVE Adv IF (-1 ("tel")) (0 Point) ;	# à tel point
+REMOVE Adv IF (-1 CM) (0 Point) ;
 REMOVE Adv IF (-1 unknownMajIni) (0 ("<Point>")) ;	# Peace Point (ou d'autres noms de lieux américains)
 REMOVE PP IF (0 Point) (1 A) ;	# point fixe
 REMOVE PP IF (-1/* Det) (0 Point) ;
+REMOVE V IF (-1 CM) (0 Point) ;
+SELECT N IF (-1 ("autre") + &&ConcordeSN) (0 Point + &&ConcordeSN) ;
+SELECT N IF (0 Point + &&ConcordeSN) (1C A) (1 A + &&ConcordeSN) ;
+SELECT N IF (0 Point + &&ConcordeSN) (1C A) (1 A + &&ConcordeSN) ;
+SELECT N IF (-1 ("en tout")) (0 Point + MascSg) ;
 SELECT N IF (-1 Num) (0 Point + Pl) ;
-SELECT N IF (-1 ("0") OR ("0[,\.][0-9]*"r) OR ("zéro")) (0 Point + Sg) ;
+SELECT N IF (-1 ("0") OR ("1") OR ("0[,\.][0-9]*"r) OR ("zéro")) (0 Point + Sg) ;
+SELECT N IF (-1C Pref) (0 Point) ;	# demi-point
+SELECT N IF (-1 ("<demi>"i)) (0 Point) ;	# demi point
+
+SELECT N IF (-2C N_Adj) (-1 ("<de>"i)) (0 ("pointe") + FemSg) ;	# équipement de pointe
 
 REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
 REMOVE A (0 Continuer OR Continu) (*1 Verb BARRIER Cnj_Rel) ;
@@ -3369,6 +3383,8 @@ REMOVE Adv IF (-1/* Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# jouer du piano
 SELECT N IF (-1 ("court") + &&ConcordeSN) (0 ("portée") + &&ConcordeSN) ;
 SELECT N IF (-1 ("long") + &&ConcordeSN) (0 ("portée") + &&ConcordeSN) ;
 
+REMOVE PP IF (-1 De) (0 N) ;
+
 # N OR VBLEX
 
 SELECT N IF (0 ("<Ligue>")) (1 Num) ;
@@ -3381,6 +3397,7 @@ SELECT N IF (-1 ("en")) (0 ("quête")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("recherche")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("hausse")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("baisse")) (1 De) ;
+SELECT N IF (-1 ("en")) (0 ("terre")) (1 De) ;
 SELECT N IF (-1 ("en")) (0 ("tenaille")) ;
 SELECT N IF (-1 ("en")) (0 ("marbre")) ;
 SELECT N IF (-1 ("en")) (0 ("tube")) ;
@@ -3604,6 +3621,7 @@ REMOVE NP IF (-2 BOS) (-1 ("«")) (0 N) ;
 SELECT Fem IF (0C Feministe + N) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Fem IF (0C Afrofeministe + N) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
+SELECT Adv IF (0 ("<en tout>"i)) ;
 
 #patchs per Revirada
 REMOVE V IF (0 N) (0 ("<politique>"i) OR ("<permanente>"i) OR ("<anglaise>"i) OR ("<grecque>"i) OR ("<chinoise>"i) OR ("<rose>"i) OR ("<punt>"i) OR ("<musique>"i)) ;
