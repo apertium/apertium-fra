@@ -403,8 +403,15 @@ REMOVE N IF (0 ("<déjà vu>"i)) ;
 SELECT Det IF (0 ("<ce soir>"i)) (1 A + MascSg OR De) ;
 REMOVE Det IF (0 ("<ce soir>"i)) ;
 
-SELECT Prep IF (0 ("<en tout>"i)) (1C N_Adj + MascSg) ;
+SELECT SUB:1 Det IF (0 ("<en tout>"i)) (1C N_Adj + MascSg) ;
+SELECT SUB:1 PreDet IF (0 ("<en tout>"i)) (1 ("ce")) ;
+SELECT SUB:1 PreDet + &&ConcordeSN IF (0 ("<en tout>"i)) (1 ("celui qui") + &&ConcordeSN) ;
+SELECT SUB:1 PreDet + &&ConcordeSN IF (0 ("<en tout>"i)) (1 ("celui que") + &&ConcordeSN) ;
+SELECT SUB:1 Prn IF (0 ("<en tout>"i)) (1C CnjCoo) ;
 REMOVE Prep IF (0 ("<en tout>"i)) (NOT 1 N_Adj) ;
+SELECT PreDet IF (0 ("tout")) (1 ("ce")) ;
+SELECT PreDet + &&ConcordeSN IF (0 ("tout")) (1 ("celui qui") + &&ConcordeSN) ;
+SELECT PreDet + &&ConcordeSN IF (0 ("tout")) (1 ("celui que") + &&ConcordeSN) ;
 
 REMOVE Cog IF (-1 DetDef) (0 Cog) ;
 REMOVE Cog IF (-1 DetInd) (0 Cog) ;
