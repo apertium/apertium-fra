@@ -3081,10 +3081,12 @@ REMOVE Det IF (-1 Noun_Adj + &&ConcordeSN) (0 DetInd + &&ConcordeSN) (NOT 1 Noun
 REMOVE Fin IF (-1C Det) ;
 
 # ADJ OR PRN
+
 REMOVE A IF (NOT -1 N) (0 Tn) (1C EOS OR Prep OR Verb LINK NOT 0 PP) ;
 REMOVE SUB:1 A IF (NOT 0 N) (0 Tn) (1C EOS OR Prep OR Verb LINK NOT 0 PP) ;	# la collaboratrice de ce dernier
 
 # ADJ OR ADV
+
 REMOVE Adv IF (-1C Det + &&ConcordeSN) (0 A + &&ConcordeSN) (NOT 1 A) ;	# est le même
 #REMOVE Adv IF (-1 Det + &&ConcordeSN) (0 A + &&ConcordeSN) (1 N + &&ConcordeSN) (NOT 1 A) ;	# un vrai travail
 
@@ -3097,8 +3099,8 @@ REMOVE A IF (-1C Prep OR BOS OR ("Sans")) (0 Adv) (1C V OR Pro) ;	# Sans même m
 
 REMOVE Adv OR N IF (-4 Det + &&ConcordeSN) (-3 N + &&ConcordeSN) (-2 Det + &&ConcordeSN) (-1 ("plus") OR ("moins")) (0 A + &&ConcordeSN) ;	# l'orteil le plus long
 
-
 # ADJ OR PP, Ger
+
 REMOVE A IF (0 PP) (1 ("par"));
 REMOVE A IF (-1 Ser) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
 REMOVE A IF (-2 Ser) (-1 Adv) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
@@ -3138,6 +3140,9 @@ REMOVE Ger IF (-1 Comme) (0 N) ;	# travaille comme assistant
 REMOVE A IF (0 ("<consistant>"i)) (1 ("à") OR ("en")) ;
 
 # ADJ OR VBLEX
+
+SELECT A IF (-2 Prep) (-1 ("prison") + &&ConcordeSN) (0 ("ferme") + &&ConcordeSN) ;
+
 REMOVE Verb + Pers IF (-3 Verb) (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 A + &&ConcordeSN) ;				# il débute son parcours politique le...
 REMOVE Verb + Pers IF (-4 Verb) (-3 Adv) (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 A + &&ConcordeSN) ;				# il débute pas son parcours politique le...
 REMOVE Verb + Pers IF (-5 Verb) (-4 Adv) (-3 Adv) (-2 Det + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 A + &&ConcordeSN) ;				# il débute pas toujours son parcours politique le...
@@ -3161,6 +3166,7 @@ REMOVE A IF (-3 N + &&ConcordeSP) (-3 Adv) (-2 Pro) (-1 Pro) (0 V + P3 + &&Conco
 REMOVE A IF (-3 NP + &&ConcordeSP) (-3 Adv) (-2 Pro) (-1 Pro) (0 V + P3 + &&ConcordeSP) ;
 
 # NOM OR VBLEX
+
 SELECT Verb IF (-1 Ne) (0 Verb) ;
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Pas) ;			# ne sort pas
 #SELECT Verb IF (-1 Ne) (0 Verb) (1 Adv OR CnjAdv) (2 Pas) ;	# ne sort toutefois pas
@@ -3179,6 +3185,7 @@ SELECT Verb IF (0 ("tente")) (1 De) (2 Inf) ;
 SELECT N IF (-1 En) (0 ("forme") OR ("signe")) (1 De) ;
 
 # ADJ OR NOM
+
 SELECT N IF (-1 En) (0C N OR A) (NOT 1 N) ;	# en français
 SELECT A IF (-1C N + MascSg) (0C N OR A + MascSg) (1 unknown) ;
 SELECT A IF (-1C N + MascPl) (0C N OR A + MascPl) (1 unknown) ;
@@ -3290,10 +3297,6 @@ SELECT N (0 ("chanteur")) (1 De) ;	# chanteur de rock
 SELECT N (0 ("vague")) (1 De) (2 N) ;	# vague de chaleur
 
 REMOVE A OR PP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + &&ConcordeSN LINK 0 N OR NP) (1 Adj_PP + &&ConcordeSN) ;
-
-## jóvenes inteligentes (jóvenes > n)
-## jóvenes encapuchadas (jóvenes > n)
-## escrito largo (escrito > n)
 
 REMOVE N IF (-3 N + &&ConcordeSN OR CM) (-2C Adj_PP + &&ConcordeSN) (-1 CnjCoo) (0 Noun_Adj + &&ConcordeSN) (NOT 0 Trencat) ;	# flux énorme et malin venu de
 REMOVE N IF (-3 N + &&ConcordeSN OR CM) (-2C Adj_PP + &&ConcordeSN) (-1 CM) (0 Noun_Adj + &&ConcordeSN) (NOT 0 Trencat) (1 CnjCoo) ;	# flux énorme, malin et
