@@ -1699,6 +1699,8 @@ SELECT Fem_strict IF (NOT -1/* Masc_strict OR N) (0 Manoeuvre + Masc) (NOT 1 Mas
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Moufle + Masc) (NOT 1 Masc_strict) ;
 
+SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 ("lacrymo") + Masc) (NOT 1 Masc_strict) ;
+
 SELECT Fem IF (-1/* Fem_strict) (0 Clim + Masc) ;
 SELECT Fem IF (0 Clim + Masc) (1 A + Fem_strict) ;
 SELECT Masc IF (-1/* Pl_strict) (0 Clim + Masc) ;
@@ -3111,7 +3113,9 @@ REMOVE Adv OR N IF (-4 Det + &&ConcordeSN) (-3 N + &&ConcordeSN) (-2 Det + &&Con
 
 # ADJ OR PP, Ger
 
-REMOVE A IF (0 PP) (1 ("par"));
+SELECT A IF (0 ("épris")) (1 ("<de>"i)) (2 N) ;
+
+REMOVE A IF (0 PP) (1 ("par")) ;
 REMOVE A IF (-1 Ser) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
 REMOVE A IF (-2 Ser) (-1 Adv) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
 REMOVE A IF (-3 Ser) (-2 Adv) (-1 Adv) (0 PP) (1 Prep) (NOT 0 ("sacré")) ;
