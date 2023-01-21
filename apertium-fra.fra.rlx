@@ -1434,11 +1434,9 @@ SELECT Cours IF (-1 Num + Pl) (0 Cour OR Cours) ;
 SELECT Cours IF (-1C ("de")) (0 Cour OR Cours) ;
 SELECT Cours IF (0 Cour OR Cours) (1C A + Pl) ;
 
-SELECT N IF (-2C Cours) (-1 ("de")) (0 N OR A) (0 Sp) ;
-  ## cours d'anglais, français, chinois
+SELECT N IF (-2C Cours) (-1 ("de")) (0 N OR A) (0 Sp) ;	# cours d'anglais, français, chinois
 
-SELECT Mil IF (0C Mil OR Mille) (1 N OR A) (1 Pl) ;
-  ## mille adhérents
+SELECT Mil IF (0C Mil OR Mille) (1 N OR A) (1 Pl) ;	# mille adhérents
 SELECT Num IF (-1 ("par") OR ("pour")) (0 Mille) ;
 SELECT Num IF (-1 Num) (0 Mille) (1 N + Pl) ;	# dix mille Français
 SELECT Num IF (-1/* Det) (0 Mille) (1 N + Pl) ;	# les mille Français
@@ -3045,9 +3043,8 @@ SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 Adv) (4 V_Le_Nt + PP) ;
 
 # DET
 
-REMOVE Pro IF (0 Le) (NOT 1 Vconj_pro OR ("lui") OR ("leur")) ;
-  ## Le chien aime jouer avec les deux enfants.
-  ## je le lui donne, je le leur donne
+REMOVE Pro IF (0 Le) (NOT 1 Vconj_pro OR ("lui") OR ("leur") OR ("en") OR ("y")) ;	# Le chien aime jouer avec les deux enfants ; je le lui donne ; je le leur donne
+SELECT Pro IF (0 Le) (1 ("lui") OR ("leur") OR ("en") OR ("y")) ;
 
 REMOVE Det IF (-1 ("<au>"i) OR ("<aux>"i) OR ("<du>"i) OR ("<de	"i)) ;
 REMOVE Det IF (-1 Det + MascSg) (0 ("nombre de")) ;					# le nombre de maisons
