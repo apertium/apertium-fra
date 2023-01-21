@@ -1422,6 +1422,12 @@ SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 SELECT N IF (0 ("fin")) (1 Mois) ;
 SELECT N IF (0 ("fin")) (1 ("<[0-9][0-9][0-9][0-9]>"r)) ;
 
+SELECT V IF (0 ("tenter")) (1 De) (2 Inf) ;	# un troisième tente de dire
+SELECT V IF (0 ("tenter")) (1 De) (2 Adv OR Pro) (3 Inf) ;	# un troisième tente de lui dire
+SELECT V IF (0 ("tenter")) (1 De) (2 Adv OR Pro) (3 Adv OR Pro) (4 Inf) ;	# un troisième tente de le lui dire
+SELECT V IF (0 ("tenter")) (1 Adv) (2 De) ;	# un troisième ne tente pas de dire
+SELECT V IF (0 ("tenter")) (1 Adv) (2 Adv) (3 De) ;	# un troisième ne tente pas toujours de dire
+
 REMOVE V IF (-1 AdjOrd + &&ConcordeSN) (0 N + &&ConcordeSN) ; # le dernier voyage
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (1 N + &&ConcordeSN) ; # le second voyage
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 AdjOrd + &&ConcordeSN) (1 AdjPre + &&ConcordeSN) (2 N + &&ConcordeSN) ; # les premières grandes élections
