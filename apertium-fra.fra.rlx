@@ -413,10 +413,10 @@ SELECT PreDet IF (0 ("tout")) (1 ("ce")) ;
 SELECT PreDet + &&ConcordeSN IF (0 ("tout")) (1 ("celui qui") + &&ConcordeSN) ;
 SELECT PreDet + &&ConcordeSN IF (0 ("tout")) (1 ("celui que") + &&ConcordeSN) ;
 
-REMOVE Cog IF (-1 DetDef) (0 Cog) ;
+REMOVE Cog IF (-1/* DetDef) (0 N_Adj OR Al) ;
 REMOVE Cog IF (-1 DetInd) (0 Cog) ;
 REMOVE Cog IF (-1 En) (0 Cog) ;
-REMOVE Ant IF (-1 DetDef) (0 Ant) ;
+REMOVE Ant IF (-1/* DetDef) (0 N_Adj OR Al) ;
 REMOVE Ant IF (-1 DetInd) (0 Ant) ;
 REMOVE Ant IF (-1 En) (0 Ant) (0 Top OR Al) ;
 REMOVE Cog IF (-1 EOS) (0 ("Remarque")) (NOT 1 CnjCoo) (NOT 1 Verb + P3 + Sg) ;
