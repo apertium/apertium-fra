@@ -3053,6 +3053,7 @@ SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 Adv) (4 V_Le_Nt + PP) ;
 
 REMOVE Pro IF (0 Le) (NOT 1 Vconj_pro OR ("lui") OR ("leur") OR ("en") OR ("y")) ;	# Le chien aime jouer avec les deux enfants ; je le lui donne ; je le leur donne
 SELECT Pro IF (0 Le) (1 ("lui") OR ("leur") OR ("en") OR ("y")) ;
+SELECT Pro IF (0 ("lui") OR ("leur") OR ("en") OR ("y")) (1 ("dire")) ;	# leur dit
 
 REMOVE Det IF (-1 ("<au>"i) OR ("<aux>"i) OR ("<du>"i) OR ("<de	"i)) ;
 REMOVE Det IF (-1 Det + MascSg) (0 ("nombre de")) ;					# le nombre de maisons
