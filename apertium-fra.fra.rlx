@@ -779,8 +779,7 @@ REMOVE Verb IF (-2 Lpar) (-1 ("extrême")) (0 Est) ;
 REMOVE Verb IF (-3 ("à") OR ("dans") OR ("sur") OR ("près de") OR ("vers")) (-2 Det + Def) (-1 ("extrême")) (0 Est) ;
 
 REMOVE N IF (0 Est) (-1 Itg OR Rel) ;
-REMOVE A IF (0 Est) (-1 Itg OR Rel) ;
-  ## Où est Jean ?
+REMOVE A IF (0 Est) (-1 Itg OR Rel) ;	# Où est Jean ?
 SELECT Ser IF (0 Est) (1 Adv) ;
 SELECT Ser IF (0 Est) (1 ("en")) (2 N); ## est en conséquence
 SELECT Ser IF (0 Est) (1 A) ;
@@ -1094,6 +1093,8 @@ REMOVE Verb (OC Verb OR A) (0 Verb) (0 A) (-1C PreAdv) ;
   ## il était très fier,
 
 SELECT CnjSub IF (-1 ("c'est-à-dire")) (0 Que) ;
+SELECT CnjSub IF (-2 ("afin")) (-1 Adv) (0 Que) ;	# afin toujours que
+SELECT Adv IF (-1 ("afin")) (0 Adv) (1 Que) ;	# afin toujours que
 REMOVE CnjSub IF (-1C CnjCoo) (0 Que) (NOT -1* Que + CnjSub) (NOT -1* CnjAdv + ("\\<.*que>"r)) ;
 
 # subjonctif après "que"
