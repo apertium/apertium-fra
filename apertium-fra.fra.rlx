@@ -2337,6 +2337,7 @@ REMOVE N IF (-1C N) (0 Prep) (1 Det OR A OR N) ;	# conservation sous vide
 REMOVE N IF (0 Prep) (1C N) ;	# sous athmosphère protectrice
 REMOVE N IF (0 Prep) (1 N + &&ConcordeSN) (2 A + &&ConcordeSN) ;
 REMOVE N IF (0 Prep) (1 Det + &&ConcordeSN) (2 N + &&ConcordeSN) ;
+REMOVE N IF (0 ("sous")) (NOT -1/* Det OR Num) ;
 
 REMOVE V IF (-1 unknown) (0 ("point")) ;
 SELECT P3 IF (NOT -2 Prep) (-1 Ant OR Cog OR unknownMajIni) (0 VSg3);					# Jean parle
