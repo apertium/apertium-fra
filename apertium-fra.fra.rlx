@@ -3102,9 +3102,11 @@ REMOVE SUB:1 A IF (NOT 0 N) (0 Tn) (1C EOS OR Prep OR Verb LINK NOT 0 PP) ;	# la
 
 # ADJ OR ADV
 
-REMOVE Adv IF (-1C Det + &&ConcordeSN) (0 A + &&ConcordeSN) (NOT 1 A) ;	# est le même
+REMOVE Adv IF (-1C/* Det + &&ConcordeSN) (0 A + &&ConcordeSN) (NOT 1 A) ;	# est le même
 #REMOVE Adv IF (-1 Det + &&ConcordeSN) (0 A + &&ConcordeSN) (1 N + &&ConcordeSN) (NOT 1 A) ;	# un vrai travail
 
+SELECT Adv IF (0 ("même")) (1C Prep LINK NOT 0 ("de")) ;	# conservèrent leur liberté même sous le Second Empire
+REMOVE A IF (NOT -1/* Det OR Num OR N OR A OR ("de")) (0 ("même")) ;
 REMOVE Adv IF (-1C N + &&ConcordeSN) (0 A + &&ConcordeSN) (1C Barrera_Final_Estrict_SN OR CnjCoo OR CM) ;	# un lien fort et direct
 
 REMOVE Adv IF (-1 Ser + &&ConcordeSP) (0 A + &&ConcordeSP) (1C Barrera_Final_Estrict_SN) ;		# il est prêt à tout
