@@ -542,7 +542,7 @@ SELECT Ant IF (-1 ("dieu") OR ("déesse")) ;
 
 SELECT Ant IF (-1 (";") OR (":")) (1 Ant OR Cog OR unknownMajIni) ;
 
-SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
+SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("califat") OR ("émirat") OR ("sultanat") OR ("khanat") OR ("république") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
 SELECT Top IF (-2 Dignite) (-1 ("de")) (0 Top) ;
 SELECT Top IF (-2 ("aller") OR ("voyager") OR ("arriver") OR ("partir") OR ("filer")) (-1 ("à") OR ("de")) ;
 SELECT Top + FemSg IF (-2 ("aller") OR ("voyager") OR ("arriver") OR ("partir")) (-1 ("en")) ;
