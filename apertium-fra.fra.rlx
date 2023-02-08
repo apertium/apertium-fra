@@ -1958,6 +1958,11 @@ REMOVE Fondre IF (0 Fondre) (0 Fonder) (1 Adv) (2 Adv) (3 Sur) ;
 LIST Fondable = "neige" "fer" "acier" "métal" "plomb" "aluminium" "or" "argent" "bronze" ;
 REMOVE Fondre IF (0 Fondre) (0 Fonder) (NOT 1* Fondable) (NOT -1* Fondable) ;
 
+SELECT Fonds IF (-2 ("levée")) (-1 De) ;
+SELECT Fond IF (1 ("marin")) ;
+SELECT Fond IF (1 De) (1 ("mer") OR ("océan") OR ("rivière") OR ("ruisseau") OR ("fleuve") OR ("cours") OR ("delta") OR ("estuaire")) ;
+SELECT Fonds IF (1 A + Pl) (NOT 1 ("marin")) ;
+
 SELECT Verb IF (0 ("vit")) (1 ("en") OR ("dans")) ;
 SELECT Verb IF (0 ("vit")) (1 Adv) (2 ("en") OR ("dans")) ;
 SELECT Verb IF (NOT -1 Det + MascSg) (0 ("vit")) ;
