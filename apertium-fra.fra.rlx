@@ -3234,6 +3234,7 @@ REMOVE N IF (-2 ("rendre") LINK 0 Inf OR Ger) (-1 Adv OR PreAdv) (0 A) ;
 
 REMOVE A IF (NOT -1 N) (0 ("source")) ;
 REMOVE A IF (NOT -1 N) (0 ("cible")) ;
+REMOVE A IF (NOT -1 N) (0 ("phare")) ;
 
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascSg LINK 0 N OR NP) (1C N + MascSg) ;
 REMOVE N OR NP IF (-1/* Barrera_Inicial_Estrict_SN) (0 Noun_Adj_PP + MascPl LINK 0 N OR NP) (1C N + MascPl) ;
