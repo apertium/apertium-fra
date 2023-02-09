@@ -1678,7 +1678,9 @@ SELECT Fem OR V IF (NOT -1/* Masc_strict OR N) (0 Critique + Masc) (NOT 1 Masc_s
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Manche + Masc) (NOT 1 Masc_strict) ;
 
+SELECT Masc IF (NOT -1/* Fem_strict OR N) (0 Marine + Pl) (NOT 1 Fem_strict) ;
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Marine + Masc) (NOT 1 Masc_strict) ;
+SELECT Fem IF (-2 ("officier")) (-1 De) (0 Marine) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Foudre + Masc) (NOT 1 Masc_strict) ;
 
