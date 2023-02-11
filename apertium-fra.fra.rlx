@@ -305,7 +305,7 @@ LIST Famille = "mère" "père" "frère" "sœur" "oncle" "tante" "neveu" "nièce"
 LIST UniteTemps = "seconde" "minute" "heure" "jour" "journée" "semaine" "mois" "an" "année" "lustre" "décennie" "décade" "siècle" "millénaire" ;
 LIST Jours = "lundi" "mardi" "mercredi" "jeudi" "vendredi" "samedi" "dimanche" ;
 LIST Mois = "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" ;
-SET Dignite = ("pape") OR ("patriarche") OR ("évêque") OR ("archevêque") OR ("saint") OR ("saint") OR ("apôtre") OR ("empereur") OR ("roi") OR ("tsar") OR ("vice-roi") OR ("régent") OR ("prince") OR ("infant") OR ("dauphin") OR ("comte") OR ("comtesse") OR ("vicomte") OR ("vicomtesse") OR ("duc") OR ("duchesse") OR ("grand-duc") OR ("grande-duchesse") OR ("archiduc") OR ("archiduchesse") OR ("marquis") OR ("baron") ;
+SET Dignite = ("pape") OR ("patriarche") OR ("évêque") OR ("archevêque") OR ("saint") OR ("saint") OR ("apôtre") OR ("empereur") OR ("roi") OR ("tsar") OR ("vice-roi") OR ("régent") OR ("prince") OR ("infant") OR ("dauphin") OR ("comte") OR ("comtesse") OR ("vicomte") OR ("vicomtesse") OR ("duc") OR ("duchesse") OR ("grand-duc") OR ("grande-duchesse") OR ("archiduc") OR ("archiduchesse") OR ("marquis") OR ("baron") OR ("caliphe") OR ("sultan") OR ("émir") OR ("khan") OR ("satrape") OR ("maire") OR ("ambassadeur") ;
 
 LIST À = "à" ;
 
@@ -542,7 +542,7 @@ SELECT Ant IF (-1 ("dieu") OR ("déesse")) ;
 
 SELECT Ant IF (-1 (";") OR (":")) (1 Ant OR Cog OR unknownMajIni) ;
 
-SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("califat") OR ("émirat") OR ("sultanat") OR ("khanat") OR ("république") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
+SELECT Top IF (-2 ("ville") OR ("aéroport") OR ("port") OR ("royaume") OR ("principauté") OR ("grand-duché") OR ("duché") OR ("marquisat") OR ("comté") OR ("baronnie") OR ("seigneurie") OR ("califat") OR ("émirat") OR ("sultanat") OR ("khanat") OR ("satrapie") OR ("république") OR ("archevêché") OR ("évêché")) (-1 ("de")) (0 Cog OR Ant) ;
 SELECT Top IF (-2 Dignite) (-1 ("de")) (0 Top) ;
 SELECT Top IF (-2 ("aller") OR ("voyager") OR ("arriver") OR ("partir") OR ("filer")) (-1 ("à") OR ("de")) ;
 SELECT Top + FemSg IF (-2 ("aller") OR ("voyager") OR ("arriver") OR ("partir")) (-1 ("en")) ;
