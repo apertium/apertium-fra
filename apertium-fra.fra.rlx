@@ -589,6 +589,7 @@ SELECT A IF (-1 ("carte")) (0 ("orange")) ;
 
 REMOVE NP IF (-1 ("1er")) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
 REMOVE NP IF (-1 Num) (0 ("<Janvier>") OR ("<Mars>") OR ("<Avril>") OR ("<Mai>") OR ("<Juillet>")) ;
+REMOVE NP IF (0 ("nature")) (1 ("mort") + Fem) ;
 
 REMOVE Ant_Cog IF (-1/* Det + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) ;	# un Français
 REMOVE Top IF (-1/* Det + &&ConcordeSN) (0 Noun_Adj + &&ConcordeSN) (NOT -1/* Det + Def) ;	# un Français
