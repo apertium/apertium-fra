@@ -2156,6 +2156,10 @@ SELECT CnjSub IF (-2 ("tel") + &&ConcordeSN) (-1 N + &&ConcordeSN) (0 Que) ;	# u
 REMOVE Prs IF (-3* ("tel") LINK 2C Que + CnjSub) (0 Pri) ;
 SELECT CnjAdv IF (-1 ("tel")) (0 Que) ;	# tels que
 
+SELECT CnjAdv IF (-3 ("faire") + P3 + Sg OR ("voilà")) (-2 Det + &&ConcordeSN) (-1 UniteTemps + &&ConcordeSN) (0 Que) ;	# ça fait plusieurs années que
+SELECT CnjAdv IF (-3 ("faire") + P3 + Sg OR ("voilà")) (-2 Num) (-1 UniteTemps) (0 Que) ;	# ça fait trois ans que
+SELECT CnjAdv IF (-3 ("faire") + P3 + Sg OR ("voilà")) (-2 ("<des>"i)) (-1 UniteTemps) (0 Que) ;	# ça fait des années que
+
 SELECT PreAdv IF (-1 ("pas") + Adv) (0 ("aussi")) (1 A OR PP OR Adv) ;
 SELECT Adv IF (0 ("aussi")) (1 A OR PP OR Adv) (NOT 2 Que) ;
 SELECT CnjAdv IF (-2 ("aussi")) (-1 A OR PP OR Adv) (0 Que) ;
