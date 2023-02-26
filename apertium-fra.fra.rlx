@@ -981,6 +981,14 @@ SELECT Adv IF (0 ("pour le moins")) ;
 SELECT Prep IF (0 ("dans une impasse")) (1 A + FemSg OR PP + FemSg) ;
 SELECT Adv IF (0 ("dans une impasse")) ;
 
+SELECT A IF (-2/* Det + Def) (-1 ("plus")) (0 ("offrant")) (1C N) ;
+SELECT N IF (-2/* Det + Def) (-1 ("plus")) (0 ("offrant")) ;
+SELECT A IF (-2 ("<au>"i) OR ("<du>"i)) (-1 ("plus")) (0 ("offrant")) (1C N) ;
+SELECT N IF (-2 ("<au>"i) OR ("<du>"i)) (-1 ("plus")) (0 ("offrant")) ;
+SELECT N IF (-1 ("plus")) (0 ("offrant")) ;
+SELECT Adv (0 ("plus")) (1 ("offrant")) ;
+REMOVE N OR A IF (NOT -1 ("plus")) (0 ("offrant")) ;
+
 REMOVE N IF (-1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 REMOVE V + Pers IF (-1 AdvComp OR ("beaucoup") OR ("peu") OR ("un peu") OR ("assez")) (0 N OR A) ;
 
