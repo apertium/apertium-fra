@@ -2805,6 +2805,9 @@ SELECT N IF (-1 ("0") OR ("1") OR ("0[,\.][0-9]*"r) OR ("zéro")) (0 Point + Sg)
 SELECT N IF (-1C Pref) (0 Point) ;	# demi-point
 SELECT N IF (-1 ("<demi>"i)) (0 Point) ;	# demi point
 
+SELECT Prep IF (0 ("<en bas>"i)) (1 N + Masc) ;
+SELECT Adv IF (0 ("<en bas>")) ;
+
 SELECT N IF (-2C N_Adj) (-1 ("<de>"i)) (0 ("pointe") + FemSg) ;	# équipement de pointe
 
 REMOVE A (0 Continuer OR Continu) (*-1 Verb BARRIER Cnj_Rel) ;  # no funciona sempre
