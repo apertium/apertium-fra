@@ -2646,6 +2646,8 @@ SELECT Prep IF (0 En) (1 ("vente")) ;
 SELECT Prep IF (0 En) (1 ("ligne")) ;
 SELECT Prep IF (0 En) (1 ("catastrophe")) ;
 SELECT Prep IF (0 En) (1 ("date")) ;
+SELECT Prep IF (-1 N_Adj + Pl) (0 En) (1 ("place") + Sg) ;	# aux trafiquants en place
+SELECT Prep IF (0 En) (1 ("place") + Sg) (2C EOS OR N OR A OR Prep OR CnjAdv) ;
 SELECT Prep IF  (-1 ("être") OR ("mettre") OR ("remettre")) (0 En) (1 ("cause")) ;
 SELECT Prep IF (-1 ("mise")) (0 En) (1 N) ;	# mise en vente
 REMOVE Pro IF (0 En) (1 Verb) (NOT 1 Pers OR Inf OR Ger) (NOT 1 Pro);	# passer en revue
@@ -2877,11 +2879,9 @@ REMOVE PreAdv IF (-1 PreAdv) (0 A OR PP OR PreAdv) (NOT 1 A OR PP) ;
 SELECT PostAdv IF (-1 (META:/-/r)) ;
 REMOVE PostAdv IF (NOT -1 (META:/-/r)) ;
 
-SELECT Prn IF (0 S) (NOT 1 Il) ;
+SELECT Prn IF (0 S) (NOT 1 Il) ;	# s'affirme
 SELECT CnjAdv IF (0 S) (1 Il) ;
-  ## s'affirme
-REMOVE CnjAdv IF (-1C Prep OR Pour) (0 N) (1C Prep OR Pour) ;
-  ## une medaille d'or de piano
+REMOVE CnjAdv IF (-1C Prep OR Pour) (0 N) (1C Prep OR Pour) ;	# une medaille d'or de piano
 
 REMOVE Adv IF (0 ("mal")) (1 À) (2 Det + Def + &&ConcordeSN) (3 N + &&ConcordeSN) ;
 
