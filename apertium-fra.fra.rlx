@@ -1757,6 +1757,8 @@ SELECT Fem IF (0 Curie) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 SELECT Masc IF (0 Primaire + Sg) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Fem IF (0 Primaire + Pl) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
 
+SELECT Fem IF (-1 ("sans")) (0 ("<solde>"i)) ;
+SELECT Masc IF (0 Solde + Pl) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 SELECT Masc IF (0 Solde) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
 
 SELECT Masc IF (0 Inceste) (NOT -1/* Fem_strict) (NOT 1 Fem_strict) ;
