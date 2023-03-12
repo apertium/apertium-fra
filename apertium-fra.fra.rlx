@@ -1802,6 +1802,13 @@ SELECT Masc IF (0 ("amazighe")) (-1 En) ;
 SELECT Masc IF (0 ("amazighe")) (-1 ("parler")) ;
 SELECT Masc IF (0 ("amazighe")) (-2 ("parler")) (-1 Adv) ;
 
+SELECT ("échec") IF (-1 Pos + Masc + Pl) ;	# mes échecs
+SELECT ("échec") IF (-1 A + Masc + Pl) ;	# grands échecs
+SELECT ("échec") IF (-1 Det + Ind + Masc + Pl) ;	# plusieurs échecs
+SELECT ("échecs") IF (-2 ("joueur") OR ("jouer"))  ;	# joueur d'échecs ; jouer aux échecs
+SELECT ("échecs") IF (-3 ("joueur") OR ("jouer"))  ;	# joueur chinois d'échecs ; jouer pas aux échecs
+SELECT ("échecs") IF (-4 ("joueur") OR ("jouer"))  ;	# joueur professionnel chinois d'échecs ; jouer pas toujours aux échecs
+
 SELECT N + &&ConcordeSN IF (-1/* Det + &&ConcordeSN) (0 Chef + &&ConcordeSN) ;
 SELECT &&ConcordeSN IF (-2/* Det + &&ConcordeSN) (-1 A + &&ConcordeSN) (0 Chef + &&ConcordeSN) ;
 SELECT N + &&ConcordeSN IF (0 Chef + &&ConcordeSN) (1 A + &&ConcordeSN) ;
