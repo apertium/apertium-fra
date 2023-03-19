@@ -2903,10 +2903,16 @@ SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1C Det) ;	# Même le tem
 SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
 SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
 SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
+SELECT Adv IF (0 Même) (1 ("avant") OR ("après") OR ("pendant") OR ("sous")) ;	# conservèrent leur liberté même sous le Second Empire
+SELECT A IF (-1/* Det + &&ConcordeSN) (0 Même + &&ConcordeSN) (1 N + &&ConcordeSN) ;
+SELECT A IF (-1/* Det + &&ConcordeSN) (0 Même + &&ConcordeSN) (1 A + &&ConcordeSN) ;
+SELECT A IF (-1/* Det + &&ConcordeSN) (0 Même + &&ConcordeSN) (1 NP + &&ConcordeSN) ;
+SELECT A IF (-1/* Det + Def + &&ConcordeSN) (0 Même + &&ConcordeSN) ;
+REMOVE A IF (NOT -1/* Det OR unknown) (0 Même) ;
+REMOVE A IF (0 Même) (NOT 1 N OR A OR unknown) ;
+
 
 SELECT A IF (0 A) (0 (META:/-/r)) (1 Top OR unknownMajIni) ;	# Haut-Paraguay
-
-  ## il va même jusqu'à donner
 
 SELECT Num IF (-1 ("an") OR ("siècle") OR ("millénaire")) (0 siecles_nom_romains) ;
 SELECT Acr OR Al IF (0 Majusc) ;
