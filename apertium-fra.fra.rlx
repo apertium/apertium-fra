@@ -380,6 +380,12 @@ SELECT N IF (-4C NoteMusicale) (-3 CM) (-2C NoteMusicale) (1 CM) (0 NoteMusicale
 REMOVE N IF (0 ("la")) ;
 REMOVE N IF (0 Si) ;
 
+REMOVE Cog IF (-1 BOS) (0 ("<Le>")) ;
+REMOVE Cog IF (-1 ("«")) (0 ("<Le>")) ;
+REMOVE Cog IF (-1 (META:/"/r)) (0 ("<Le>")) ;
+SELECT Cog IF (NOT -1 BOS) (0 ("<Le>")) (1 unknownMajIni) ;
+REMOVE Cog IF (0 ("<Le>")) ;
+
 REMOVE Top IF (-1 BOS) (0 ("<Allons>")) ;
 REMOVE Top IF (-2 BOS) (-1 ("«")) (0 ("<Allons>")) ;
 
