@@ -896,6 +896,8 @@ SELECT N IF (-2/* Det + MascPl) (-1 ("moindre")) (0 N + MascPl) ;
 SELECT N IF (-2/* Det + FemPl) (-1 ("moindre")) (0 N + FemPl) ;
 
 SELECT A IF (0 ("extrême")) (1 ("droite") OR ("gauche")) ;
+SELECT A IF (0 ("divers")) (1 ("<gauche>")) ;
+SELECT N IF (-1 ("divers")) (2 ("<gauche>")) ;
 
 SELECT A IF (0 ("ancien")) (1 ("premier")) ;	# ancien Premier ministre
 
