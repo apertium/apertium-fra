@@ -2666,6 +2666,7 @@ SELECT Prep IF (0 En) (1 ("vente")) ;
 SELECT Prep IF (0 En) (1 ("ligne")) ;
 SELECT Prep IF (0 En) (1 ("catastrophe")) ;
 SELECT Prep IF (0 En) (1 ("date")) ;
+SELECT Prep IF (-1 ("chef")) (0 En) (1 ("cuisine")) ;
 SELECT Prep IF (-1 N_Adj + Pl) (0 En) (1 ("place") + Sg) ;	# aux trafiquants en place
 SELECT Prep IF (0 En) (1 ("place") + Sg) (2C EOS OR N OR A OR Prep OR CnjAdv) ;
 SELECT Prep IF  (-1 ("être") OR ("mettre") OR ("remettre")) (0 En) (1 ("cause")) ;
