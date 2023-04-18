@@ -3478,6 +3478,9 @@ SELECT N IF (-1 ("en")) (0 ("<corse>"i)) ;
 
 REMOVE N IF (0 ("<participe>"i)) (1 ("à")) ;
 
+SELECT N IF (0 ("machine")) (1 ("à")) (2 Inf) ;	# machine à écrire, à laver
+SELECT N IF (0 ("machine")) (1 ("à")) (2 N) ;	# machine à café
+
 REMOVE V IF (-2C Verb LINK NOT 0 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;	# de tenir le rythme
 REMOVE V IF (-3 Haver) (-2 PP) (-1 Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# j'ai tenu le rythme
 
