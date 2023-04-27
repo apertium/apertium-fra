@@ -1713,6 +1713,7 @@ SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Claque + Masc) (NOT 1 Masc_strict) 
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Faune + Masc) (NOT 1 Masc_strict) ;
 
+SELECT Fem IF (-2 ("chanson")) (-1 De) (0 Geste + Fem) ;
 REMOVE Fem IF (NOT -1/* Fem_strict OR N) (0 Geste + Fem) (NOT 1 Fem_strict) ;
 
 SELECT Fem IF (NOT -1/* Masc_strict OR N) (0 Rade + Masc) (NOT 1 Masc_strict) ;
