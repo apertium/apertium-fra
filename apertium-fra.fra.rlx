@@ -3693,6 +3693,8 @@ REMOVE NP IF (-1 BOS) (0 N) (1 Pro OR Adv) (NOT 2 Verb + P3) (NOT 3 Verb + P3) ;
 REMOVE NP IF (-1 BOS) (0 N) (1 Pro OR Adv) (2 Pro OR Adv) (NOT 3 Verb + P3) ;
 REMOVE NP IF (-2 BOS) (-1 ("«")) (0 N) ;
 
+REMOVE NP IF (-1 BOS) (0 ("Cette")) (1 N_Adj + Fem + Sg) ;
+
 # SELECT SUB:1 Det IF (0 ("Des")) (-1 BOS) (1 N + Pl);
 
 SELECT Fem IF (0C Feministe + N) (NOT -1/* Masc_strict) (NOT 1 Masc_strict) ;
