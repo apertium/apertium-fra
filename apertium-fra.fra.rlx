@@ -2135,6 +2135,7 @@ SELECT N IF (-1 BOS) (0 ("aller")) (1 (":")) ;
 SELECT N IF (0 ("aller")) (1 ("retour")) ;
 SELECT N IF (0 ("aller")) (1 CnjCoo) (2 ("retour")) ;
 REMOVE V IF (0 ("cela")) (-1 ("tout")) ;
+REMOVE V IF (0 ("cela")) (-1 Adv + Itg) ;
 REMOVE Fin_non_Imp IF (-1 BOS) (0 N OR Fin) (NOT 1 Tn OR On);	# Groupe A, Taille 48, Série 1 ; Pense-t-il
 SELECT N IF (-1 BOS) (0C Noun_Adj_PP) (1C Prep OR Pour) ;	# Remise des coupes
 REMOVE Fin IF (-1C PreAdv) (0 A OR Fin) ;	# la très célèbre Pietà
@@ -2268,6 +2269,9 @@ SELECT Det IF (0 Leur) (1 A) (NOT 1 Verb) ;	# pour leur premère participation ;
 SELECT Tn IF (-3 AdvComp) (-2 A OR PP OR Adv) (-1 Que) (0 Lui OR Nous OR Vous) ;	# plus rapide que lui
 
 SELECT Pro IF (-1C N_Adj) (0 Lui OR Nous OR Vous) (1 V + P3) ;	# mon père lui écrit
+
+SELECT Pro IF (-1 À) (0 Lui OR Nous OR Vous) (1 Inf) ;	# à vous parler
+SELECT Pro IF (-1 À) (0 Lui OR Nous OR Vous) (1 Pro) (2 Inf) ;	# à vous en parler
 
 REMOVE Tn IF (NOT -1 Prep OR Ser OR CM) (0 Lui) (NOT 1 CnjCoo) ;		# pour lui ; lui et BxB ; le pourcentage est lui très supérieur
 SELECT Tn IF (-1C Prep) (0 Lui) (NOT 1 Pro OR Inf OR Ger) ;
@@ -2914,6 +2918,7 @@ SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1C Det) ;	# Même le tem
 SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
 SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
 SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
+SELECT Adj IF (-1 De) (0 Même) (1 N) ;	# de même valeur
 SELECT Adv IF (0 Même) (1 ("avant") OR ("après") OR ("pendant") OR ("sous")) ;	# conservèrent leur liberté même sous le Second Empire
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 Même + &&ConcordeSN) (1 N + &&ConcordeSN) ;
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 Même + &&ConcordeSN) (1 A + &&ConcordeSN) ;
