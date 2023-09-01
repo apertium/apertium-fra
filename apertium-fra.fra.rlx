@@ -2918,7 +2918,7 @@ SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1C Det) ;	# Même le tem
 SELECT Adv IF (-1 BOS OR CM) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
 SELECT Adv IF (-2 BOS OR CM) (-1 ("«")) (0C A OR Adv) (1 ("en")) ;	# Même en se partageant
 SELECT Adv IF (-1C Verb) (0 Même) (1 Prep) ;
-SELECT Adj IF (-1 De) (0 Même) (1 N) ;	# de même valeur
+SELECT A IF (-1 De) (0 Même) (1 N) ;	# de même valeur
 SELECT Adv IF (0 Même) (1 ("avant") OR ("après") OR ("pendant") OR ("sous")) ;	# conservèrent leur liberté même sous le Second Empire
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 Même + &&ConcordeSN) (1 N + &&ConcordeSN) ;
 SELECT A IF (-1/* Det + &&ConcordeSN) (0 Même + &&ConcordeSN) (1 A + &&ConcordeSN) ;
