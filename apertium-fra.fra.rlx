@@ -3750,4 +3750,15 @@ REMOVE N if (0 ("dit")) (-1 Pro) (-2 Pro) (-3 N OR NP);
 REMOVE Pl if (0 ("paix")) (0 Sg)  (-1 Det) (Not -1 Pl_strict);
 REMOVE Pl if (0 ("mars")) (0 Sg)  (-1 Det) (Not -1 Pl_strict);
 
+REMOVE Pl if (0 ("paix")) (0 N + Sg) (0 N + Pl) (-1 ("avec"));
+
+REMOVE V if (0 ("tendre")) (-1 ("amour") OR ("sentiment") OR ("regard") OR ("cœur") OR ("beurre"));
+REMOVE V if (0 ("tendre")) (1 ("amour") OR ("sentiment") OR ("cœur") OR ("regard") OR ("ami") OR ("amie"));
+
+REMOVE V if (0 ("bastions")) (NOT -1 Pron);
+REMOVE V if (0 ("bastions")) (NOT -1 Pron + P2 + Pl) (NOT -2 Pron);
+REMOVE V if (0 ("bastions")) (-1 Pron) (-2 Pron) (NOT -2 Pron + P2 + Pl);
+
+REMOVE Prn if (0 ("personne")) (-1 ("de")) (-2 ("nom")) (NOT -3 Det + Def + Masc);
+
 
