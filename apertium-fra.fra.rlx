@@ -1345,8 +1345,8 @@ SELECT Fem IF (-2 ("milion") OR ("milliard")) (-1 ("de")) (0 Livre) ;
 SELECT Fem IF (0 Livre) (1 ("sterling")) ;
 SELECT Fem IF (-3 ("prix") OR ("salaire") OR ("paie")) (-2 ("de")) (-1 Num) (0 Livre) ;
 SELECT Fem IF (-2 ("couter") OR ("valoir") OR ("payer")) (-1 Num) (0 Livre) ;
-SELECT Masc IF (NOT -1/* Fem_strict) (0 Livre) (NOT 1/* Fem_strict) ;
-SELECT Masc IF (NOT -1/* Fem_strict) (0 Livre) (0 (META:/"/r)) ;
+SELECT Masc IF (NOT -1/* Fem_strict) (0 Livre) (NOT 1/* Fem_strict) (NOT -1 Pro) (NOT -1 Tn) ;
+SELECT Masc IF (NOT -1/* Fem_strict) (0 Livre) (0 (META:/"/r)) (NOT -1 Pro) (NOT -1 Tn) ;
 
 SELECT Fois IF (0C Foi OR Fois) ;
 
@@ -3739,5 +3739,15 @@ REMOVE V IF (0 ("<cela>")) (-1 Itg) (1 Prn) (2 Verb + P3 + Sg) ;
 
 REMOVE Adv IF (0 ("de même")) (1 N + Sg) ;
 SELECT Adv IF (0 ("de même")) (NOT 1 N + Sg) ;
+
+REMOVE A IF (0 ("bourrée") OR ("bourrées")) (NOT -1 Ser OR Adv);
+REMOVE A IF (0 ("bourrée") OR ("bourrées")) (-1 Adv) (NOT -2 Ser OR PreAdv);
+REMOVE A IF (0 ("bourrée") OR ("bourrées")) (-1 Adv) (-2 PreAdv) (NOT -3 Ser);
+
+REMOVE N if (0 ("dit")) (-1 Pro) (-2 N OR NP);
+REMOVE N if (0 ("dit")) (-1 Pro) (-2 Pro) (-3 N OR NP);
+
+REMOVE Pl if (0 ("paix")) (0 Sg)  (-1 Det) (Not -1 Pl_strict);
+REMOVE Pl if (0 ("mars")) (0 Sg)  (-1 Det) (Not -1 Pl_strict);
 
 
