@@ -3106,6 +3106,7 @@ SELECT SUB:1 Nt IF (0 V_Le_Nt + V) (0/* Le + Pron) ;
 SELECT Nt IF (0C Le + Pron) (1 Haver) (2 V_Le_Nt + PP) ;
 SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 V_Le_Nt + PP) ;
 SELECT Nt IF (0C Le + Pron) (1 Haver) (2 Adv) (3 Adv) (4 V_Le_Nt + PP) ;
+REMOVE Nt IF (0C Le + Pron) (1 ("<faire>")) (2 V); 
 
 # DET
 
@@ -3761,4 +3762,14 @@ REMOVE V if (0 ("bastions")) (-1 Pron) (-2 Pron) (NOT -2 Pron + P2 + Pl);
 
 REMOVE Prn if (0 ("personne")) (-1 ("de")) (-2 ("nom")) (NOT -3 Det + Def + Masc);
 
+#Verbes très rares vs noms très fréquents
+REMOVE V IF (0 ("bruit")) (NOT -1 ("il")) ;
+REMOVE V IF (0 ("relations")) (NOT -1 ("nous")) ;
 
+
+REMOVE A IF (0 ("cave")) (-1 ("la")) ;
+REMOVE Prn IF (0 ("en")) (1 ("charge"));
+
+REMOVE N_Masc IF (0 N_Fem) (-1 A + Fem_strict) (-2 Det + Fem_strict);
+
+SELECT Itg IF (0 ("Qui")) (1* ("?")) ;
