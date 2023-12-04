@@ -3763,8 +3763,8 @@ REMOVE V if (0 ("bastions")) (-1 Pron) (-2 Pron) (NOT -2 Pron + P2 + Pl);
 REMOVE Prn if (0 ("personne")) (-1 ("de")) (-2 ("nom")) (NOT -3 Det + Def + Masc);
 
 #Verbes très rares vs noms très fréquents
-REMOVE V IF (0 ("bruit")) (NOT -1 ("il")) ;
-REMOVE V IF (0 ("relations")) (NOT -1 ("nous")) ;
+REMOVE V IF (0 ("<bruit>")) (NOT -1 ("il")) ;
+REMOVE V IF (0 ("<relations>")) (NOT -1 ("nous")) ;
 
 
 REMOVE A IF (0 ("cave")) (-1 ("la")) ;
@@ -3772,4 +3772,8 @@ REMOVE Prn IF (0 ("en")) (1 ("charge"));
 
 REMOVE N_Masc IF (0 N_Fem) (-1 A + Fem_strict) (-2 Det + Fem_strict);
 
-SELECT Itg IF (0 ("Qui")) (1* ("?")) ;
+SELECT Itg IF (0 ("<Qui>")) (1* ("?")) ;
+
+REMOVE N IF (0 ("mise# en œuvre")) (NOT -1 Det);
+
+REMOVE V IF (0 ("<espace>")) (NOT -1 Pron);
