@@ -2639,12 +2639,16 @@ SELECT PP IF (-1 Ser) (0 PP) (0C Verb) ;
 REMOVE N IF (-1 Nous) (0 Somme OR Ser) ;
   ## nous sommes assaillis
 
-SELECT Ser IF (-1* Je) (0 Ser + P1 + Sg) (1 PP + Sg);
-  ## je suis bouleversé
-SELECT Ser IF (-1* Je) (0 Ser + P1 + Sg) (1 Adv) (2 PP + Sg);
-  ## je suis pas bouleversé
-SELECT Ser IF (-1* Je) (0 Ser + P1 + Sg) (1 Adv) (2 Adv) (3 PP + Sg);
-  ## je suis pas très bouleversé
+SELECT Ser IF (0 Ser + P1 + Sg) (1 PP + Sg);	# je suis bouleversé
+SELECT Ser IF (0 Ser + P1 + Sg) (1 Adv) (2 PP + Sg);	# je suis pas bouleversé
+SELECT Ser IF (0 Ser + P1 + Sg) (1 Adv) (2 Adv) (3 PP + Sg);	# je suis pas très bouleversé
+LIST MotsSuivre = "chemin" "explication" "discours" "parcours" "vie" "travail" "livre" "film" "BD" "bande dessinée" "article" ;
+SELECT Suivre IF (0 Ser + P1 + Sg) (1 Det + Pl_strict) ;
+SELECT Suivre IF (0 Ser + P1 + Sg) (1 Det + Pl_strict) ;
+SELECT Suivre IF (0 Ser + P1 + Sg) (1 Det + Pl_strict) ;
+SELECT Suivre IF (0 Ser + P1 + Sg) (1 Det) (2 MotsSuivre) ;
+SELECT Suivre IF (0 Ser + P1 + Sg) (1 Adv) (2 Det) (3 MotsSuivre) ;
+SELECT Suivre IF (0 Ser + P1 + Sg) (1 Adv) (2 Adv) (3 Det) (4 MotsSuivre) ;
 
 
 SELECT N IF (-1 Det) (0 Ete) ;
