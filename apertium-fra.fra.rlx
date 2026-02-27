@@ -2958,8 +2958,8 @@ SELECT Masc IF (-2/* Masc_strict + Det) (-1 N OR A + Masc) (0C N OR A + Masc LIN
 SELECT Fem IF (-2/* Fem_strict + Det) (-1 N OR A + Masc) (0C N OR A + Fem LINK 0 Masc) (NOT -1 ("<nombre de>"i) OR ("<nombre d'>"i) OR ("<nombre d’>"i)) ;
   ## le deuxième tour
 
-REMOVE Adv IF (-1C/* Det) (0C N OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
-REMOVE Adv IF (-1C Det + &&ConcordeSN) (0C N + &&ConcordeSN OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire"));
+REMOVE Adv IF (-1C/* Det) (0C N OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire") OR ("mieux"));
+REMOVE Adv IF (-1C Det + &&ConcordeSN) (0C N + &&ConcordeSN OR Adv) (NOT 0 ("plus") OR ("moins") OR ("meilleur") OR ("pire") OR ("mieux"));
   ## par l'ensemble des
 
 SELECT N IF (-1C V) (0C N OR PP) (1 Prep) ; ## porter plainte contre
@@ -3460,7 +3460,7 @@ SELECT A OR PP IF (-3 N + &&ConcordeSN) (-2 De) (-1C N) (0 Adj_PP + &&ConcordeSN
 # N OR ADV
 
 REMOVE Adv IF (-1C Prep) (0 Adv) (0 N + &&ConcordeSN) (1 Adj_PP + &&ConcordeSN) ;	# à pas comptés
-REMOVE Adv IF (-1/* Det + &&ConcordeSN) (0 N + &&ConcordeSN) ;		# jouer du piano
+REMOVE Adv IF (-1/* Det + &&ConcordeSN) (0 N + &&ConcordeSN) (NOT 0 AdvComp) ;		# jouer du piano
 
 # N OR PP
 
@@ -3781,3 +3781,7 @@ SELECT Itg IF (0 ("<Qui>")) (1* ("?")) ;
 REMOVE N IF (0 ("mise# en œuvre")) (NOT -1 Det);
 
 REMOVE V IF (0 ("<espace>")) (NOT -1 Pron);
+
+
+
+
