@@ -306,6 +306,7 @@ LIST UniteTemps = "seconde" "minute" "heure" "jour" "journée" "semaine" "mois" 
 LIST Jours = "lundi" "mardi" "mercredi" "jeudi" "vendredi" "samedi" "dimanche" ;
 LIST Mois = "janvier" "février" "mars" "avril" "mai" "juin" "juillet" "août" "septembre" "octobre" "novembre" "décembre" ;
 SET Dignite = ("pape") OR ("patriarche") OR ("évêque") OR ("archevêque") OR ("saint") OR ("saint") OR ("apôtre") OR ("empereur") OR ("roi") OR ("tsar") OR ("vice-roi") OR ("régent") OR ("prince") OR ("infant") OR ("dauphin") OR ("comte") OR ("comtesse") OR ("vicomte") OR ("vicomtesse") OR ("duc") OR ("duchesse") OR ("grand-duc") OR ("grande-duchesse") OR ("archiduc") OR ("archiduchesse") OR ("marquis") OR ("baron") OR ("caliphe") OR ("sultan") OR ("émir") OR ("khan") OR ("satrape") OR ("maire") OR ("ambassadeur") ;
+LIST GenresLitAdj = "fantastique" "biographique" "autobiographique" "policier" "poétique" "épistolaire" "réaliste" "sentimentale" "noir" "érotique" "historique" "dystopique" "cyberpunk" "post-apocalyptique" ;
 
 LIST À = "à" ;
 
@@ -1434,8 +1435,10 @@ SELECT Masc IF (-1 Det + Masc_strict) (0 Pique) ;	# jouer du pique
 SELECT Masc IF (-2 Num OR ("as") OR ("roi") OR ("dame") OR ("valet")) (-1 De) (0 Pique) ;
 SELECT Fem IF (0 Pique) ;
 
-REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) ;
-REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) ;
+REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) (NOT 1 GenresLitAdj) ;
+REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) (NOT 1 GenresLitAdj) ;
+SELECT N IF (0 Nouvelle + FemSg) (1 A + FemSg) (1 GenresLitAdj) ;
+SELECT N IF (0 Nouvelle + FemPl) (1 A + FemPl) (1 GenresLitAdj) ;
 
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 
@@ -3782,6 +3785,6 @@ REMOVE N IF (0 ("mise# en œuvre")) (NOT -1 Det);
 
 REMOVE V IF (0 ("<espace>")) (NOT -1 Pron);
 
-
+REMOVE V IF (0 ("<sombre>")) (-1 N);
 
 
