@@ -1437,8 +1437,8 @@ SELECT Fem IF (0 Pique) ;
 
 REMOVE N IF (0 Nouvelle + FemSg) (1 A + FemSg) (NOT 1 GenresLitAdj) ;
 REMOVE N IF (0 Nouvelle + FemPl) (1 A + FemPl) (NOT 1 GenresLitAdj) ;
-SELECT N IF (0 Nouvelle + FemSg) (1 A + FemSg) (1 GenresLitAdj) ;
-SELECT N IF (0 Nouvelle + FemPl) (1 A + FemPl) (1 GenresLitAdj) ;
+REMOVE A IF (0 Nouvelle + FemSg) (1 A + FemSg) (1 GenresLitAdj) ;
+REMOVE A IF (0 Nouvelle + FemPl) (1 A + FemPl) (1 GenresLitAdj) ;
 
 SELECT N IF (0 ("revue")) (1 MajIni OR unknownMajIni) ;
 
@@ -3786,5 +3786,4 @@ REMOVE N IF (0 ("mise# en œuvre")) (NOT -1 Det);
 REMOVE V IF (0 ("<espace>")) (NOT -1 Pron);
 
 REMOVE V IF (0 ("<sombre>")) (-1 N);
-
 
