@@ -1697,7 +1697,7 @@
   <e>       <p><l>lles<b/>qui</l><r>lui<b/>qui<s n="rel"/><s n="f"/><s n="pl"/></r></p></e>
   <e>       <p><l>lui<b/>qui</l><r>lui<b/>qui<s n="rel"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>ux<b/>qui</l> <r>lui<b/>qui<s n="rel"/><s n="m"/><s n="pl"/></r></p></e>
-  <e>       <p><l><b/>qui</l>   <r>lui<b/>qui<s n="rel"/><s n="nt"/></r></p></e>
+  <e r="RL">       <p><l><b/>qui</l>   <r>lui<b/>qui<s n="rel"/><s n="nt"/></r></p></e>
 </pardef>
 
 <pardef n="ceux_et_celles_/que__rel">
@@ -10610,7 +10610,6 @@
 <e lm="centennal">       <i>centenna</i><par n="amica/l__adj"/></e>
 <e lm="centigrade" a="jaumeortola"><i>centigrade</i><par n="académique__adj"/></e>
 <e lm="centimétrique" a="jaumeortola"><i>centimétrique</i><par n="académique__adj"/></e>
-<e lm="centième">        <i>centième</i><par n="académique__adj"/></e>
 <e lm="central">         <i>centra</i><par n="amica/l__adj"/></e>
 <e lm="centrafricain" a="capsot"><i>centrafricain</i><par n="ancien__adj"/></e>
 <e lm="centralisateur" a="jaumeortola"><i>centralisat</i><par n="conduct/eur__adj"/></e>
@@ -10798,19 +10797,7 @@
 <e lm="cinglé">          <i>cinglé</i><par n="abaissant__adj"/></e>
 <e lm="cingulaire" a="jaumeortola"><i>cingulaire</i><par n="académique__adj"/></e>
 <e lm="cinnamique" a="hector"><i>cinnamique</i><par n="académique__adj"/></e>
-<e lm="cinquante-cinquième"><i>cinquante-cinquième</i><par n="académique__adj"/></e>
-<e lm="cinquante-deuxième"><i>cinquante-deuxième</i><par n="académique__adj"/></e>
-<e lm="cinquante-et-unième"><i>cinquante-et-unième</i><par n="académique__adj"/></e>
-<e lm="cinquante-huitième"><i>cinquante-huitième</i><par n="académique__adj"/></e>
-<e lm="cinquante-neuvième"><i>cinquante-neuvième</i><par n="académique__adj"/></e>
-<e lm="cinquante-quatrième"><i>cinquante-quatrième</i><par n="académique__adj"/></e>
-<e lm="cinquante-septième"><i>cinquante-septième</i><par n="académique__adj"/></e>
-<e lm="cinquante-sixième"><i>cinquante-sixième</i><par n="académique__adj"/></e>
-<e lm="cinquante-troisième"><i>cinquante-troisième</i><par n="académique__adj"/></e>
-<e lm="cinquante et unième"><i>cinquante<b/>et<b/>unième</i><par n="académique__adj"/></e>
 <e lm="cinquantenaire" a="jaumeortola"><i>cinquantenaire</i><par n="académique__adj"/></e>
-<e lm="cinquantième">    <i>cinquantième</i><par n="académique__adj"/></e>
-<e lm="cinquième">       <i>cinquième</i><par n="académique__adj"/></e>
 <e lm="cinématique" a="jaumeortola"><i>cinématique</i><par n="académique__adj"/></e>
 <e lm="cinématographique"><i>cinématographique</i><par n="académique__adj"/></e>
 <e lm="cinéphile" a="jaumeortola"><i>cinéphile</i><par n="académique__adj"/></e>
@@ -11964,7 +11951,6 @@
 <e lm="destructif" a="jaumeortola"><i>destructi</i><par n="affirmati/f__adj"/></e>
 <e lm="destructible" a="jaumeortola"><i>destructible</i><par n="académique__adj"/></e>
 <e lm="deutérocanonique" a="hector"><i>deutérocanonique</i><par n="académique__adj"/></e>
-<e lm="deuxième">        <i>deuxième</i><par n="académique__adj"/></e>
 <e lm="devenu" a="jaumeortola"><i>devenu</i><par n="abaissant__adj"/></e>
 <e lm="devinable" a="jaumeortola"><i>devinable</i><par n="académique__adj"/></e>
 <e lm="dextrogyre" a="jaumeortola"><i>dextrogyre</i><par n="académique__adj"/></e>
@@ -12180,10 +12166,6 @@
 <e lm="divorcé">         <i>divorcé</i><par n="abaissant__adj"/></e>
 <e lm="divulgatif">      <i>divulgati</i><par n="affirmati/f__adj"/></e>
 <e lm="divulguable" a="jaumeortola"><i>divulguable</i><par n="académique__adj"/></e>
-<e lm="dix-huitième">    <i>dix-huitième</i><par n="académique__adj"/></e>
-<e lm="dix-neuvième">    <i>dix-neuvième</i><par n="académique__adj"/></e>
-<e lm="dix-septième">    <i>dix-septième</i><par n="académique__adj"/></e>
-<e lm="dixième">         <i>dixième</i><par n="académique__adj"/></e>
 <e lm="dièdre" a="hector"><i>dièdre</i><par n="académique__adj"/></e>
 <e lm="dièse" a="hector"><i>dièse</i><par n="académique__adj"/></e>
 <e lm="diédral">         <i>diédra</i><par n="amica/l__adj"/></e>
@@ -12266,7 +12248,6 @@
 <e lm="douloureux">      <i>douloureu</i><par n="affectueu/x__adj"/></e>
 <e lm="douteux">         <i>douteu</i><par n="affectueu/x__adj"/></e>
 <e lm="douteur" a="jaumeortola"><i>douteu</i><par n="causeu/r__adj"/></e>
-<e lm="douzième">        <i>douzième</i><par n="académique__adj"/></e>
 <e lm="doué" a="jaumeortola"><i>doué</i><par n="abaissant__adj"/></e>
 <e lm="draconien" a="jaumeortola"><i>draconien</i><par n="ancien__adj"/></e>
 <e lm="draconitique" a="jaumeortola"><i>draconitique</i><par n="académique__adj"/></e>
@@ -14582,7 +14563,6 @@
 <e lm="huguenot" a="hector"><i>huguenot</i><par n="abaissant__adj"/></e>
 <e lm="huileux" a="jaumeortola"><i>huileu</i><par n="affectueu/x__adj"/></e>
 <e lm="huilier">         <i>huili</i><par n="ch/er__adj"/></e>
-<e lm="huitième">        <i>huitième</i><par n="académique__adj"/></e>
 <e lm="humain">          <i>humain</i><par n="abaissant__adj"/></e>
 <e lm="humaniste">       <i>humaniste</i><par n="académique__adj"/></e>
 <e lm="humanistique" a="jaumeortola"><i>humanistique</i><par n="académique__adj"/></e>
@@ -17031,12 +17011,9 @@
 <e lm="militariste">     <i>militariste</i><par n="académique__adj"/></e>
 <e lm="milliaire" a="jaumeortola"><i>milliaire</i><par n="académique__adj"/></e>
 <e lm="milliardaire" a="hector"><i>milliardaire</i><par n="académique__adj"/></e>
-<e lm="milliardième" a="jaumeortola"><i>milliardième</i><par n="académique__adj"/></e>
 <e lm="millimétrique" a="jaumeortola"><i>millimétrique</i><par n="académique__adj"/></e>
 <e lm="millimétré" a="jaumeortola"><i>millimétré</i><par n="abaissant__adj"/></e>
-<e lm="millionième" a="jaumeortola"><i>millionième</i><par n="académique__adj"/></e>
 <e lm="millionnaire">    <i>millionnaire</i><par n="académique__adj"/></e>
-<e lm="millième">        <i>millième</i><par n="académique__adj"/></e>
 <e lm="millénal">        <i>milléna</i><par n="amica/l__adj"/></e>
 <e lm="millénaire">      <i>millénaire</i><par n="académique__adj"/></e>
 <e lm="millénariste">    <i>millénariste</i><par n="académique__adj"/></e>
@@ -17738,7 +17715,6 @@
 <e lm="neutre" a="jaumeortola"><i>neutre</i><par n="académique__adj"/></e>
 <e lm="neutronique" a="hector"><i>neutronique</i><par n="académique__adj"/></e>
 <e lm="neutrophile" a="jaumeortola"><i>neutrophile</i><par n="académique__adj"/></e>
-<e lm="neuvième">        <i>neuvième</i><par n="académique__adj"/></e>
 <e lm="new-yorkais">     <i>new-yorkais</i><par n="anglais__adj"/></e>
 <e lm="newtonien" a="jaumeortola"><i>newtonien</i><par n="ancien__adj"/></e>
 <e lm="niable" a="jaumeortola"><i>niable</i><par n="académique__adj"/></e>
@@ -17836,7 +17812,6 @@
 <e lm="non voulu">       <i>non<b/>voulu</i><par n="abaissant__adj"/></e>
 <e lm="nonagénaire" a="jaumeortola"><i>nonagénaire</i><par n="académique__adj"/></e>
 <e lm="nonaire" a="jaumeortola"><i>nonaire</i><par n="académique__adj"/></e>
-<e lm="nonantième" a="hector"><i>nonantième</i><par n="académique__adj"/></e>
 <e lm="nonchalant" a="ester"><i>nonchalant</i><par n="abaissant__adj"/></e>
 <e lm="noologique" a="jaumeortola"><i>noologique</i><par n="académique__adj"/></e>
 <e lm="noosphérique" a="jaumeortola"><i>noosphérique</i><par n="académique__adj"/></e>
@@ -18201,7 +18176,6 @@
 <e lm="ontogénétique" a="jaumeortola"><i>ontogénétique</i><par n="académique__adj"/></e>
 <e lm="ontologique" a="jaumeortola"><i>ontologique</i><par n="académique__adj"/></e>
 <e lm="onusien" a="jaumeortola"><i>onusien</i><par n="ancien__adj"/></e>
-<e lm="onzième">         <i>onzième</i><par n="académique__adj"/></e>
 <e lm="onéreux" a="jaumeortola"><i>onéreu</i><par n="affectueu/x__adj"/></e>
 <e lm="oolithique" a="hector"><i>oolithique</i><par n="académique__adj"/></e>
 <e lm="oolitique" a="jaumeortola"><i>oolitique</i><par n="académique__adj"/></e>
@@ -19983,44 +19957,11 @@
 <e lm="quantique" a="jaumeortola"><i>quantique</i><par n="académique__adj"/></e>
 <e lm="quantitatif">     <i>quantitati</i><par n="affirmati/f__adj"/></e>
 <e lm="quantième" a="hector"><i>quantième</i><par n="quantième__adj"/></e>
-<e lm="quarante-cinquième"><i>quarante-cinquième</i><par n="académique__adj"/></e>
-<e lm="quarante-deuxième"><i>quarante-deuxième</i><par n="académique__adj"/></e>
-<e lm="quarante-et-unième"><i>quarante-et-unième</i><par n="académique__adj"/></e>
-<e lm="quarante-huitième"><i>quarante-huitième</i><par n="académique__adj"/></e>
-<e lm="quarante-neuvième"><i>quarante-neuvième</i><par n="académique__adj"/></e>
-<e lm="quarante-quatrième"><i>quarante-quatrième</i><par n="académique__adj"/></e>
-<e lm="quarante-septième"><i>quarante-septième</i><par n="académique__adj"/></e>
-<e lm="quarante-sixième"><i>quarante-sixième</i><par n="académique__adj"/></e>
-<e lm="quarante-troisième"><i>quarante-troisième</i><par n="académique__adj"/></e>
-<e lm="quarante et unième"><i>quarante<b/>et<b/>unième</i><par n="académique__adj"/></e>
 <e lm="quarantenaire" a="jaumeortola"><i>quarantenaire</i><par n="académique__adj"/></e>
-<e lm="quarantième">     <i>quarantième</i><par n="académique__adj"/></e>
 <e lm="quart" a="jaumeortola"><i>quart</i><par n="abaissant__adj"/></e>
 <e lm="quartile" a="jaumeortola"><i>quartile</i><par n="académique__adj"/></e>
 <e lm="quartzeux" a="jaumeortola"><i>quartzeu</i><par n="affectueu/x__adj"/></e>
 <e lm="quaternaire" a="jaumeortola"><i>quaternaire</i><par n="académique__adj"/></e>
-<e lm="quatorzième">     <i>quatorzième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-cinquième"><i>quatre-vingt-cinquième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-deuxième"><i>quatre-vingt-deuxième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-dix-huitième"><i>quatre-vingt-dix-huitième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-dix-neuvième"><i>quatre-vingt-dix-neuvième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-dix-septième"><i>quatre-vingt-dix-septième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-dixième"><i>quatre-vingt-dixième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-douzième"><i>quatre-vingt-douzième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-huitième"><i>quatre-vingt-huitième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-neuvième"><i>quatre-vingt-neuvième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-onzième"><i>quatre-vingt-onzième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-quatorzième"><i>quatre-vingt-quatorzième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-quatrième"><i>quatre-vingt-quatrième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-quinzième"><i>quatre-vingt-quinzième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-seizième"><i>quatre-vingt-seizième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-septième"><i>quatre-vingt-septième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-sixième"><i>quatre-vingt-sixième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-treizième"><i>quatre-vingt-treizième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-troisième"><i>quatre-vingt-troisième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingt-unième"><i>quatre-vingt-unième</i><par n="académique__adj"/></e>
-<e lm="quatre-vingtième"><i>quatre-vingtième</i><par n="académique__adj"/></e>
-<e lm="quatrième">       <i>quatrième</i><par n="académique__adj"/></e>
 <e lm="quattrocentiste"> <i>quattrocentiste</i><par n="académique__adj"/></e>
 <e lm="quechua" a="hector"><i>quechua</i><par n="académique__adj"/></e>
 <e lm="queer" a="jaumeortola"><i>queer</i><par n="académique__adj"/></e>
@@ -20036,7 +19977,6 @@
 <e lm="quint" a="jaumeortola"><i>quint</i><par n="abaissant__adj"/></e>
 <e lm="quinteux" a="jaumeortola"><i>quinteu</i><par n="affectueu/x__adj"/></e>
 <e lm="quintuple">       <i>quintuple</i><par n="académique__adj"/></e>
-<e lm="quinzième">       <i>quinzième</i><par n="académique__adj"/></e>
 <e lm="quitte" a="hector"><i>quitte</i><par n="académique__adj"/></e>
 <e lm="quiétiste">       <i>quiétiste</i><par n="académique__adj"/></e>
 <e lm="quotidien">       <i>quotidien</i><par n="ancien__adj"/></e>
@@ -20990,7 +20930,6 @@
 <e lm="segmental">       <i>segmenta</i><par n="amica/l__adj"/></e>
 <e lm="segmentaire" a="jaumeortola"><i>segmentaire</i><par n="académique__adj"/></e>
 <e lm="seigneurial" a="jaumeortola"><i>seigneuria</i><par n="amica/l__adj"/></e>
-<e lm="seizième">        <i>seizième</i><par n="académique__adj"/></e>
 <e lm="seldjoukide" a="jaumeortola"><i>seldjoukide</i><par n="académique__adj"/></e>
 <e lm="semainier" a="Congrès"><i>semaini</i><par n="ch/er__adj"/></e>
 <e lm="semblable">       <i>semblable</i><par n="académique__adj"/></e>
@@ -21044,7 +20983,6 @@
 <e lm="septentrional">   <i>septentriona</i><par n="amica/l__adj"/></e>
 <e lm="septicémique" a="jaumeortola"><i>septicémique</i><par n="académique__adj"/></e>
 <e lm="septique" a="jaumeortola"><i>septique</i><par n="académique__adj"/></e>
-<e lm="septième">        <i>septième</i><par n="académique__adj"/></e>
 <e lm="septénaire" a="jaumeortola"><i>septénaire</i><par n="académique__adj"/></e>
 <e lm="serf">            <i>ser</i><par n="affirmati/f__adj"/></e>
 <e lm="serbe">           <i>serbe</i><par n="académique__adj"/></e>
@@ -21160,7 +21098,6 @@
 <e lm="situationnel" a="jaumeortola"><i>situationnel</i><par n="annuel__adj"/></e>
 <e lm="situationniste">  <i>situationniste</i><par n="académique__adj"/></e>
 <e lm="situé">           <i>situé</i><par n="abaissant__adj"/></e>
-<e lm="sixième">         <i>sixième</i><par n="académique__adj"/></e>
 <e lm="skiable" a="jaumeortola"><i>skiable</i><par n="académique__adj"/></e>
 <e lm="slave" a="jaumeortola"><i>slave</i><par n="académique__adj"/></e>
 <e lm="slavisant" a="jaumeortola"><i>slavisant</i><par n="abaissant__adj"/></e>
@@ -21213,29 +21150,7 @@
 <e lm="soignant" a="jaumeortola"><i>soignant</i><par n="abaissant__adj"/></e>
 <e lm="soigneux" a="jaumeortola"><i>soigneu</i><par n="affectueu/x__adj"/></e>
 <e lm="soigné" a="jaumeortola"><i>soigné</i><par n="abaissant__adj"/></e>
-<e lm="soixante-cinquième"><i>soixante-cinquième</i><par n="académique__adj"/></e>
-<e lm="soixante-deuxième"><i>soixante-deuxième</i><par n="académique__adj"/></e>
-<e lm="soixante-dix-huitième"><i>soixante-dix-huitième</i><par n="académique__adj"/></e>
-<e lm="soixante-dix-neuvième"><i>soixante-dix-neuvième</i><par n="académique__adj"/></e>
-<e lm="soixante-dix-septième"><i>soixante-dix-septième</i><par n="académique__adj"/></e>
-<e lm="soixante-dixième"><i>soixante-dixième</i><par n="académique__adj"/></e>
-<e lm="soixante-douzième"><i>soixante-douzième</i><par n="académique__adj"/></e>
-<e lm="soixante-et-onzième"><i>soixante-et-onzième</i><par n="académique__adj"/></e>
-<e lm="soixante-et-unième"><i>soixante-et-unième</i><par n="académique__adj"/></e>
-<e lm="soixante-huitième"><i>soixante-huitième</i><par n="académique__adj"/></e>
-<e lm="soixante-neuvième"><i>soixante-neuvième</i><par n="académique__adj"/></e>
-<e lm="soixante-quatorzième"><i>soixante-quatorzième</i><par n="académique__adj"/></e>
-<e lm="soixante-quatrième"><i>soixante-quatrième</i><par n="académique__adj"/></e>
-<e lm="soixante-quinzième"><i>soixante-quinzième</i><par n="académique__adj"/></e>
-<e lm="soixante-seizième"><i>soixante-seizième</i><par n="académique__adj"/></e>
-<e lm="soixante-septième"><i>soixante-septième</i><par n="académique__adj"/></e>
-<e lm="soixante-sixième"><i>soixante-sixième</i><par n="académique__adj"/></e>
-<e lm="soixante-treizième"><i>soixante-treizième</i><par n="académique__adj"/></e>
-<e lm="soixante-troisième"><i>soixante-troisième</i><par n="académique__adj"/></e>
-<e lm="soixante et onzième"><i>soixante<b/>et<b/>onzième</i><par n="académique__adj"/></e>
-<e lm="soixante et unième"><i>soixante<b/>et<b/>unième</i><par n="académique__adj"/></e>
 <e lm="soixantenaire" a="jaumeortola"><i>soixantenaire</i><par n="académique__adj"/></e>
-<e lm="soixantième">     <i>soixantième</i><par n="académique__adj"/></e>
 <e lm="sol-air" a="hector"><i>sol-air</i><par n="arrière__adj"/></e>
 <e lm="sol-sol" a="hector"><i>sol-sol</i><par n="arrière__adj"/></e>
 <e lm="solaire">         <i>solaire</i><par n="académique__adj"/></e>
@@ -22413,22 +22328,10 @@
 <e lm="traînard" a="Congrès"><i>traînard</i><par n="abaissant__adj"/></e>
 <e lm="traître" a="hector"><i>traître</i><par n="maître__adj"/></e>
 <e lm="traîtreux" a="jaumeortola"><i>traîtreu</i><par n="affectueu/x__adj"/></e>
-<e lm="treizième">       <i>treizième</i><par n="académique__adj"/></e>
 <e lm="tremblant" a="jaumeortola"><i>tremblant</i><par n="abaissant__adj"/></e>
 <e lm="tremblotant" a="jaumeortola"><i>tremblotant</i><par n="abaissant__adj"/></e>
 <e lm="trempé" a="jaumeortola"><i>trempé</i><par n="abaissant__adj"/></e>
-<e lm="trente-cinquième"><i>trente-cinquième</i><par n="académique__adj"/></e>
-<e lm="trente-deuxième"> <i>trente-deuxième</i><par n="académique__adj"/></e>
-<e lm="trente-et-unième"><i>trente-et-unième</i><par n="académique__adj"/></e>
-<e lm="trente-huitième"> <i>trente-huitième</i><par n="académique__adj"/></e>
-<e lm="trente-neuvième"> <i>trente-neuvième</i><par n="académique__adj"/></e>
-<e lm="trente-quatrième"><i>trente-quatrième</i><par n="académique__adj"/></e>
-<e lm="trente-septième"> <i>trente-septième</i><par n="académique__adj"/></e>
-<e lm="trente-sixième">  <i>trente-sixième</i><par n="académique__adj"/></e>
-<e lm="trente-troisième"><i>trente-troisième</i><par n="académique__adj"/></e>
-<e lm="trente et unième"><i>trente<b/>et<b/>unième</i><par n="académique__adj"/></e>
 <e lm="trentenaire" a="jaumeortola"><i>trentenaire</i><par n="académique__adj"/></e>
-<e lm="trentième">       <i>trentième</i><par n="académique__adj"/></e>
 <e lm="tressaillant" a="jaumeortola"><i>tressaillant</i><par n="abaissant__adj"/></e>
 <e lm="triable" a="jaumeortola"><i>triable</i><par n="académique__adj"/></e>
 <e lm="triadique" a="hector"><i>triadique</i><par n="académique__adj"/></e>
@@ -22507,7 +22410,6 @@
 <e lm="trochléaire" a="jaumeortola"><i>trochléaire</i><par n="académique__adj"/></e>
 <e lm="troglodyte" a="Congrès|hector"><i>troglodyte</i><par n="académique__adj"/></e>
 <e lm="troglodytique" a="jaumeortola"><i>troglodytique</i><par n="académique__adj"/></e>
-<e lm="troisième">       <i>troisième</i><par n="académique__adj"/></e>
 <e lm="trompeur">        <i>trompeu</i><par n="causeu/r__adj"/></e>
 <e lm="tronculaire" a="jaumeortola"><i>tronculaire</i><par n="académique__adj"/></e>
 <e r="RL" lm="trop de">  <p><l>trop<b/><a/>de</l><r>trop<b/>de</r></p><par n="arrière__adj"/></e>
@@ -22748,7 +22650,6 @@
 <e lm="universitaire">   <i>universitaire</i><par n="académique__adj"/></e>
 <e lm="univitellin" a="jaumeortola"><i>univitellin</i><par n="abaissant__adj"/></e>
 <e lm="univoque" a="alanfravre"><i>univoque</i><par n="académique__adj"/></e>
-<e lm="unième" a="hector"><i>unième</i><par n="académique__adj"/></e>
 <e lm="uranique" a="hector"><i>uranique</i><par n="académique__adj"/></e>
 <e lm="urbain">          <i>urbain</i><par n="abaissant__adj"/></e>
 <e lm="urbanistique">    <i>urbanistique</i><par n="académique__adj"/></e>
@@ -22990,18 +22891,7 @@
 <e lm="vinaire" a="jaumeortola"><i>vinaire</i><par n="académique__adj"/></e>
 <e lm="vindicatif" a="jaumeortola"><i>vindicati</i><par n="affirmati/f__adj"/></e>
 <e lm="vineux" a="jaumeortola"><i>vineu</i><par n="affectueu/x__adj"/></e>
-<e lm="vingt-cinquième"> <i>vingt-cinquième</i><par n="académique__adj"/></e>
-<e lm="vingt-deuxième">  <i>vingt-deuxième</i><par n="académique__adj"/></e>
-<e lm="vingt-et-unième"> <i>vingt-et-unième</i><par n="académique__adj"/></e>
-<e lm="vingt-huitième">  <i>vingt-huitième</i><par n="académique__adj"/></e>
-<e lm="vingt-neuvième">  <i>vingt-neuvième</i><par n="académique__adj"/></e>
-<e lm="vingt-quatrième"> <i>vingt-quatrième</i><par n="académique__adj"/></e>
-<e lm="vingt-septième">  <i>vingt-septième</i><par n="académique__adj"/></e>
-<e lm="vingt-sixième">   <i>vingt-sixième</i><par n="académique__adj"/></e>
-<e lm="vingt-troisième"> <i>vingt-troisième</i><par n="académique__adj"/></e>
-<e lm="vingt et unième"> <i>vingt<b/>et<b/>unième</i><par n="académique__adj"/></e>
 <e lm="vingtenaire" a="jaumeortola"><i>vingtenaire</i><par n="académique__adj"/></e>
-<e lm="vingtième">       <i>vingtième</i><par n="académique__adj"/></e>
 <e lm="vinicole" a="jaumeortola"><i>vinicole</i><par n="académique__adj"/></e>
 <e lm="vinique" a="hector"><i>vinique</i><par n="académique__adj"/></e>
 <e lm="vintage" a="hector"><i>vintage</i><par n="académique__adj"/></e>
@@ -34595,8 +34485,6 @@
 <e lm="centilitre" a="hector"><i>centilitre</i><par n="accessoire__n"/></e>
 <e lm="centime" a="jaumeortola"><i>centime</i><par n="accessoire__n"/></e>
 <e lm="centimètre">      <i>centimètre</i><par n="accessoire__n"/></e>
-<e lm="centième">        <i>centième</i><par n="artiste__n"/></e>
-<e lm="centième" a="hector"><i>centième</i><par n="accessoire__n"/></e>
 <e lm="central">         <i>centra</i><par n="anima/l__n"/></e>
 <e lm="Centrafricain" a="capsot"><i>Centrafricain</i><par n="ancien__n"/></e>
 <e lm="centrage" a="jaumeortola"><i>centrage</i><par n="accessoire__n"/></e>
@@ -35256,11 +35144,6 @@
 <e lm="cinglement">      <i>cinglement</i><par n="accessoire__n"/></e>
 <e lm="cinglé" a="jaumeortola"><i>cinglé</i><par n="affecté__n"/></e>
 <e lm="cinquantaine">    <i>cinquantaine</i><par n="abeille__n"/></e>
-<e lm="cinquantième">    <i>cinquantième</i><par n="artiste__n"/></e>
-<e lm="cinquantième" a="hector"><i>cinquantième</i><par n="accessoire__n"/></e>
-<e lm="cinquième">       <i>cinquième</i><par n="artiste__n"/></e>
-<e lm="cinquième" a="hector"><i>cinquième</i><par n="accessoire__n"/></e>
-<e lm="cinquième" a="hector"><i>cinquième</i><par n="abeille__n"/></e>
 <e lm="cintrage" a="jaumeortola"><i>cintrage</i><par n="accessoire__n"/></e>
 <e lm="cintre" a="jaumeortola"><i>cintre</i><par n="accessoire__n"/></e>
 <e lm="cinéaste">        <i>cinéaste</i><par n="artiste__n"/></e>
@@ -37918,9 +37801,6 @@
 <e lm="deux-points" a="hector"><i>deux-points</i><par n="mois__n"/></e>
 <e lm="deux-temps" a="jaumeortola"><i>deux-temps</i><par n="mois__n"/></e>
 <e r="RL" lm="deux ans"> <i>deux<b/>ans</i><par n="abords__n"/></e>
-<e lm="deuxième" a="jaumeortola"><i>deuxième</i><par n="artiste__n"/></e>
-<e lm="deuxième" a="hector"><i>deuxième</i><par n="accessoire__n"/></e>
-<e lm="deuxième" a="hector"><i>deuxième</i><par n="abeille__n"/></e>
 <e lm="devanagari" a="jaumeortola"><i>devanagari</i><par n="abeille__n"/></e>
 <e lm="devancement">     <i>devancement</i><par n="accessoire__n"/></e>
 <e lm="devancier" a="jaumeortola"><i>devanci</i><par n="bouch/er__n"/></e>
@@ -38281,12 +38161,7 @@
 <e lm="divulgation">     <i>divulgation</i><par n="abeille__n"/></e>
 <e lm="divulsion" a="jaumeortola"><i>divulsion</i><par n="abeille__n"/></e>
 <e lm="dix">             <i>dix</i><par n="accessoire__n"/></e>
-<e lm="dix-huitième" a="Congrès|hector"><i>dix-huitième</i><par n="artiste__n"/></e>
-<e lm="dix-neuvième" a="Congrès|hector"><i>dix-neuvième</i><par n="artiste__n"/></e>
 <e lm="dixaine">         <i>dixaine</i><par n="abeille__n"/></e>
-<e lm="dixième">         <i>dixième</i><par n="artiste__n"/></e>
-<e lm="dixième" a="hector"><i>dixième</i><par n="accessoire__n"/></e>
-<e lm="dixième" a="hector"><i>dixième</i><par n="abeille__n"/></e>
 <e lm="dizaine">         <i>dizaine</i><par n="abeille__n"/></e>
 <e lm="diène" a="jaumeortola"><i>diène</i><par n="accessoire__n"/></e>
 <e lm="dièse" a="jaumeortola"><i>dièse</i><par n="accessoire__n"/></e>
@@ -38460,9 +38335,6 @@
 <e lm="doute">           <i>doute</i><par n="accessoire__n"/></e>
 <e lm="douve" a="jaumeortola"><i>douve</i><par n="abeille__n"/></e>
 <e lm="douzaine">        <i>douzaine</i><par n="abeille__n"/></e>
-<e lm="douzième">        <i>douzième</i><par n="artiste__n"/></e>
-<e lm="douzième" a="hector"><i>douzième</i><par n="accessoire__n"/></e>
-<e lm="douzième" a="hector"><i>douzième</i><par n="abeille__n"/></e>
 <e lm="doxographe" a="jaumeortola"><i>doxographe</i><par n="accessoire__n"/></e>
 <e lm="doxologie" a="jaumeortola"><i>doxologie</i><par n="abeille__n"/></e>
 <e lm="doxycycline" a="jaumeortola"><i>doxycycline</i><par n="abeille__n"/></e>
@@ -44041,9 +43913,6 @@
 <e lm="huissier">        <i>huissier</i><par n="accessoire__n"/></e>
 <e lm="huitaine" a="jaumeortola"><i>huitaine</i><par n="abeille__n"/></e>
 <e lm="huitantaine" a="hector"><i>huitantaine</i><par n="abeille__n"/></e>
-<e lm="huitième">        <i>huitième</i><par n="artiste__n"/></e>
-<e lm="huitième" a="hector"><i>huitième</i><par n="accessoire__n"/></e>
-<e lm="huitième" a="hector"><i>huitième</i><par n="abeille__n"/></e>
 <e lm="huitième de finale" a="hector"><i>huitième</i><par n="accessoire__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
 <e r="LR" lm="huitième de finale" a="hector"><i>huitième</i><par n="abeille__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
 <e lm="huitre" a="jaumeortola"><i>huitre</i><par n="abeille__n"/></e>
@@ -48155,20 +48024,14 @@
 <e lm="millet" a="jaumeortola"><i>millet</i><par n="accessoire__n"/></e>
 <e lm="milliard">        <i>milliard</i><par n="accessoire__n"/></e>
 <e lm="milliardaire" a="jaumeortola"><i>milliardaire</i><par n="artiste__n"/></e>
-<e lm="milliardième" a="jaumeortola"><i>milliardième</i><par n="artiste__n"/></e>
-<e lm="milliardième" a="hector"><i>milliardième</i><par n="accessoire__n"/></e>
 <e lm="millier">         <i>millier</i><par n="accessoire__n"/></e>
 <e lm="milliers">        <i>milliers</i><par n="abords__n"/></e>
 <e lm="milligramme">     <i>milligramme</i><par n="accessoire__n"/></e>
 <e lm="millilitre">      <i>millilitre</i><par n="accessoire__n"/></e>
 <e lm="millimètre">      <i>millimètre</i><par n="accessoire__n"/></e>
 <e lm="million">         <i>million</i><par n="accessoire__n"/></e>
-<e lm="millionième" a="jaumeortola"><i>millionième</i><par n="artiste__n"/></e>
-<e lm="millionième" a="hector"><i>millionième</i><par n="accessoire__n"/></e>
 <e lm="millionnaire">    <i>millionnaire</i><par n="artiste__n"/></e>
 <e lm="milliseconde">    <i>milliseconde</i><par n="abeille__n"/></e>
-<e lm="millième">        <i>millième</i><par n="artiste__n"/></e>
-<e lm="millième">        <i>millième</i><par n="accessoire__n"/></e>
 <e lm="millénaire">      <i>millénaire</i><par n="accessoire__n"/></e>
 <e lm="millénarisme">    <i>millénarisme</i><par n="accessoire__n"/></e>
 <e lm="millénariste">    <i>millénariste</i><par n="artiste__n"/></e>
@@ -49600,9 +49463,6 @@
 <e lm="neutronographie" a="jaumeortola"><i>neutronographie</i><par n="abeille__n"/></e>
 <e lm="neutrophile" a="jaumeortola"><i>neutrophile</i><par n="accessoire__n"/></e>
 <e lm="neuvaine" a="jaumeortola"><i>neuvaine</i><par n="abeille__n"/></e>
-<e lm="neuvième" a="jaumeortola"><i>neuvième</i><par n="artiste__n"/></e>
-<e lm="neuvième" a="hector"><i>neuvième</i><par n="accessoire__n"/></e>
-<e lm="neuvième" a="hector"><i>neuvième</i><par n="abeille__n"/></e>
 <e lm="neveu">           <i>neveu</i><par n="lieu__n"/></e>
 <e lm="New-Yorkais">     <i>New-Yorkais</i><par n="admis__n"/></e>
 <e lm="newsletter">      <i>newsletter</i><par n="abeille__n"/></e>
@@ -49795,8 +49655,6 @@
 <e lm="non-événement" c="orthograghe traditionnelle"><i>non-événement</i><par n="accessoire__n"/></e>
 <e lm="nonagénaire" a="jaumeortola"><i>nonagénaire</i><par n="artiste__n"/></e>
 <e lm="nonantaine">      <i>nonantaine</i><par n="abeille__n"/></e>
-<e lm="nonantième" a="jaumeortola"><i>nonantième</i><par n="artiste__n"/></e>
-<e lm="nonantième" a="hector"><i>nonantième</i><par n="accessoire__n"/></e>
 <e lm="nonce" a="jaumeortola"><i>nonce</i><par n="accessoire__n"/></e>
 <e lm="nonchalance" a="jaumeortola"><i>nonchalance</i><par n="abeille__n"/></e>
 <e lm="nonciature" a="jaumeortola"><i>nonciature</i><par n="abeille__n"/></e>
@@ -50458,9 +50316,6 @@
 <e lm="ontologie" a="jaumeortola"><i>ontologie</i><par n="abeille__n"/></e>
 <e lm="ontologisme">     <i>ontologisme</i><par n="accessoire__n"/></e>
 <e lm="ONU">             <i>ONU</i><par n="BBC__n"/></e>
-<e lm="onzième" a="jaumeortola"><i>onzième</i><par n="artiste__n"/></e>
-<e lm="onzième" a="hector"><i>onzième</i><par n="accessoire__n"/></e>
-<e lm="onzième" a="hector"><i>onzième</i><par n="abeille__n"/></e>
 <e lm="oolite" a="jaumeortola"><i>oolite</i><par n="abeille__n"/></e>
 <e lm="oosphère" a="jaumeortola"><i>oosphère</i><par n="abeille__n"/></e>
 <e lm="OP">              <i>OP</i><par n="BBVA__n"/></e>
@@ -54275,8 +54130,6 @@
 <e lm="quantité">        <i>quantité</i><par n="abeille__n"/></e>
 <e lm="quantum" a="hector"><i>quantum</i><par n="accessoire__n"/></e>
 <e lm="quarantaine">     <i>quarantaine</i><par n="abeille__n"/></e>
-<e lm="quarantième" a="jaumeortola"><i>quarantième</i><par n="artiste__n"/></e>
-<e lm="quarantième" a="hector"><i>quarantième</i><par n="accessoire__n"/></e>
 <e lm="quark" a="jaumeortola"><i>quark</i><par n="accessoire__n"/></e>
 <e lm="quart">           <i>quart</i><par n="accessoire__n"/></e>
 <e lm="quart de finale"> <i>quart</i><par n="accessoire__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
@@ -54303,20 +54156,11 @@
 <e lm="quaterne" a="jaumeortola"><i>quaterne</i><par n="accessoire__n"/></e>
 <e lm="quaternion" a="jaumeortola"><i>quaternion</i><par n="accessoire__n"/></e>
 <e lm="quatorzaine" a="Congrès"><i>quatorzaine</i><par n="abeille__n"/></e>
-<e lm="quatorzième" a="jaumeortola"><i>quatorzième</i><par n="artiste__n"/></e>
-<e lm="quatorzième" a="hector"><i>quatorzième</i><par n="accessoire__n"/></e>
 <e lm="quatrain">        <i>quatrain</i><par n="accessoire__n"/></e>
 <e lm="quatre-heures" a="jaumeortola"><i>quatre-heures</i><par n="mois__n"/></e>
 <e lm="quatre-quatre" a="Congrès"><i>quatre-quatre</i><par n="accessoire__n"/></e>
-<e lm="quatre-vingt-dixième"><i>quatre-vingt-dixième</i><par n="artiste__n"/></e>
-<e lm="quatre-vingt-dixième" a="hector"><i>quatre-vingt-dixième</i><par n="accessoire__n"/></e>
 <e lm="quatre-vingt-dizaine"><i>quatre-vingt-dizaine</i><par n="abeille__n"/></e>
 <e lm="quatre-vingtaine"><i>quatre-vingtaine</i><par n="abeille__n"/></e>
-<e lm="quatre-vingtième"><i>quatre-vingtième</i><par n="artiste__n"/></e>
-<e lm="quatre-vingtième" a="hector"><i>quatre-vingtième</i><par n="accessoire__n"/></e>
-<e lm="quatrième" a="jaumeortola"><i>quatrième</i><par n="artiste__n"/></e>
-<e lm="quatrième" a="hector"><i>quatrième</i><par n="accessoire__n"/></e>
-<e lm="quatrième" a="hector"><i>quatrième</i><par n="abeille__n"/></e>
 <e lm="quattrocentiste"> <i>quattrocentiste</i><par n="artiste__n"/></e>
 <e lm="quatuor">         <i>quatuor</i><par n="accessoire__n"/></e>
 <e lm="quatuor à cordes"><i>quatuor</i><par n="accessoire__n"/><p><l><b/>à<b/>cordes</l><r><g><b/>à<b/>cordes</g></r></p></e>
@@ -54368,8 +54212,6 @@
 <e lm="quintologie" a="jaumeortola"><i>quintologie</i><par n="abeille__n"/></e>
 <e lm="quinzaine">       <i>quinzaine</i><par n="abeille__n"/></e>
 <e lm="quinziste">       <i>quinziste</i><par n="accessoire__n"/></e>
-<e lm="quinzième" a="jaumeortola"><i>quinzième</i><par n="artiste__n"/></e>
-<e lm="quinzième" a="hector"><i>quinzième</i><par n="accessoire__n"/></e>
 <e lm="quiproquo">       <i>quiproquo</i><par n="accessoire__n"/></e>
 <e lm="quiquette" a="Congrès|hector"><i>quiquette</i><par n="abeille__n"/></e>
 <e lm="quisling" a="hector"><i>quisling</i><par n="accessoire__n"/></e>
@@ -56829,9 +56671,6 @@
 <e lm="seigneurie">      <i>seigneurie</i><par n="abeille__n"/></e>
 <e lm="seille" a="jaumeortola"><i>seille</i><par n="abeille__n"/></e>
 <e lm="sein">            <i>sein</i><par n="accessoire__n"/></e>
-<e lm="seizième" a="jaumeortola"><i>seizième</i><par n="artiste__n"/></e>
-<e lm="seizième" a="hector"><i>seizième</i><par n="accessoire__n"/></e>
-<e lm="seizième" a="hector"><i>seizième</i><par n="abeille__n"/></e>
 <e lm="seizième de finale" a="hector"><i>seizième</i><par n="accessoire__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
 <e r="LR" lm="seizième de finale" a="hector"><i>seizième</i><par n="abeille__n"/><p><l><b/>de<b/>finale</l><r><g><b/>de<b/>finale</g></r></p></e>
 <e lm="seiziémisme">     <i>seiziémisme</i><par n="accessoire__n"/></e>
@@ -56922,9 +56761,6 @@
 <e lm="septentrional" a="Congrés|hector"><i>septentriona</i><par n="commercia/l__n"/></e>
 <e lm="septicité" a="jaumeortola"><i>septicité</i><par n="abeille__n"/></e>
 <e lm="septicémie" a="Congrès"><i>septicémie</i><par n="abeille__n"/></e>
-<e lm="septième" a="jaumeortola"><i>septième</i><par n="artiste__n"/></e>
-<e lm="septième" a="hector"><i>septième</i><par n="accessoire__n"/></e>
-<e lm="septième" a="hector"><i>septième</i><par n="abeille__n"/></e>
 <e lm="septuagénaire" a="jaumeortola"><i>septuagénaire</i><par n="artiste__n"/></e>
 <e lm="sequin" a="jaumeortola"><i>sequin</i><par n="accessoire__n"/></e>
 <e lm="sequoia" a="jaumeortola"><i>sequoia</i><par n="accessoire__n"/></e>
@@ -57205,9 +57041,6 @@
 <e lm="situationnisme" a="jaumeortola"><i>situationnisme</i><par n="accessoire__n"/></e>
 <e lm="situationnisme">  <i>situationnisme</i><par n="accessoire__n"/></e>
 <e lm="situationniste">  <i>situationniste</i><par n="artiste__n"/></e>
-<e lm="sixième">         <i>sixième</i><par n="artiste__n"/></e>
-<e lm="sixième" a="hector"><i>sixième</i><par n="accessoire__n"/></e>
-<e lm="sixième" a="hector"><i>sixième</i><par n="abeille__n"/></e>
 <e lm="siècle">          <i>siècle</i><par n="accessoire__n"/></e>
 <e lm="siège d'ouverture"><i>siège</i><par n="accessoire__n"/><p><l><b/>d'ouverture</l><r><g><b/>d'ouverture</g></r></p></e>
 <e lm="siège">           <i>siège</i><par n="accessoire__n"/></e>
@@ -57328,11 +57161,7 @@
 <e lm="soir">            <i>soir</i><par n="accessoire__n"/></e>
 <e lm="soirée">          <i>soirée</i><par n="abeille__n"/></e>
 <e lm="soixantaine">     <i>soixantaine</i><par n="abeille__n"/></e>
-<e lm="soixante-dixième" a="jaumeortola"><i>soixante-dixième</i><par n="artiste__n"/></e>
-<e lm="soixante-dixième" a="hector"><i>soixante-dixième</i><par n="accessoire__n"/></e>
 <e lm="soixante-dizaine"><i>soixante-dizaine</i><par n="abeille__n"/></e>
-<e lm="soixantième" a="jaumeortola"><i>soixantième</i><par n="artiste__n"/></e>
-<e lm="soixantième" a="hector"><i>soixantième</i><par n="accessoire__n"/></e>
 <e lm="soja">            <i>soja</i><par n="accessoire__n"/></e>
 <e lm="sol">             <i>sol</i><par n="accessoire__n"/></e>
 <e lm="solage" a="jaumeortola"><i>solage</i><par n="accessoire__n"/></e>
@@ -59921,8 +59750,6 @@
 <e lm="treille" a="jaumeortola"><i>treille</i><par n="abeille__n"/></e>
 <e lm="treillis" a="jaumeortola"><i>treillis</i><par n="mois__n"/></e>
 <e lm="treiziste">       <i>treiziste</i><par n="artiste__n"/></e>
-<e lm="treizième" a="jaumeortola"><i>treizième</i><par n="artiste__n"/></e>
-<e lm="treizième" a="hector"><i>treizième</i><par n="accessoire__n"/></e>
 <e lm="trekking">        <i>trekking</i><par n="personnel__n"/></e>
 <e lm="tremble" a="Congrès"><i>tremble</i><par n="accessoire__n"/></e>
 <e lm="tremblement de terre"><i>tremblement</i><par n="accessoire__n"/><p><l><b/>de<b/>terre</l><r><g><b/>de<b/>terre</g></r></p></e>
@@ -59934,8 +59761,6 @@
 <e lm="trempe" a="jaumeortola"><i>trempe</i><par n="abeille__n"/></e>
 <e lm="tremplin">        <i>tremplin</i><par n="accessoire__n"/></e>
 <e lm="trentaine">       <i>trentaine</i><par n="abeille__n"/></e>
-<e lm="trentième" a="jaumeortola"><i>trentième</i><par n="artiste__n"/></e>
-<e lm="trentième" a="hector"><i>trentième</i><par n="accessoire__n"/></e>
 <e lm="tressage" a="jaumeortola"><i>tressage</i><par n="accessoire__n"/></e>
 <e lm="tressaillement">  <i>tressaillement</i><par n="accessoire__n"/></e>
 <e lm="tressautement">   <i>tressautement</i><par n="accessoire__n"/></e>
@@ -60085,9 +59910,6 @@
 <e lm="troglodyte" a="hector" c="oiseau"><p><l>troglodyte</l><r>troglodyte_oiseau</r></p><par n="artiste__n"/></e>
 <e lm="trogne" a="jaumeortola"><i>trogne</i><par n="abeille__n"/></e>
 <e lm="trognon" a="jaumeortola"><i>trognon</i><par n="accessoire__n"/></e>
-<e lm="troisième" a="jaumeortola"><i>troisième</i><par n="artiste__n"/></e>
-<e lm="troisième" a="hector"><i>troisième</i><par n="accessoire__n"/></e>
-<e lm="troisième" a="hector"><i>troisième</i><par n="abeille__n"/></e>
 <e lm="troll" a="hector"><i>troll</i><par n="accessoire__n"/></e>
 <e lm="troll Internet" a="hector"><i>troll</i><par n="accessoire__n"/><p><l><b/>Internet</l><r><g><b/>Internet</g></r></p></e>
 <e lm="trolle" a="jaumeortola"><i>trolle</i><par n="abeille__n"/></e>
@@ -61194,8 +61016,6 @@
 <e lm="vinaigrier" a="jaumeortola"><i>vinaigrier</i><par n="accessoire__n"/></e>
 <e lm="vindicte" a="jaumeortola"><i>vindicte</i><par n="abeille__n"/></e>
 <e lm="vingtaine">       <i>vingtaine</i><par n="abeille__n"/></e>
-<e lm="vingtième" a="jaumeortola"><i>vingtième</i><par n="artiste__n"/></e>
-<e lm="vingtième" a="hector"><i>vingtième</i><par n="accessoire__n"/></e>
 <e lm="vinification" a="jaumeortola"><i>vinification</i><par n="abeille__n"/></e>
 <e lm="vinosité" a="jaumeortola"><i>vinosité</i><par n="abeille__n"/></e>
 <e lm="vinothèque" a="Congrès"><i>vinothèque</i><par n="abeille__n"/></e>
@@ -109830,6 +109650,420 @@
 <e lm="XXVIII">          <i>XXVIII</i><par n="cinq__num"/></e>
 <e lm="XXX">             <i>XXX</i><par n="cinq__num"/></e>
 <e lm="zéro">            <i>zéro</i><par n="cinq__num"/></e>
+
+
+
+    <!-- ******************************
+          group adj n ordinaux
+      ****************************** -->
+
+<e lm="unième" a="Congrès"><i>unième</i><par n="académique__adj"/></e>
+
+<e lm="deuxième" a="Congrès">        <i>deuxième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>deuxième</i><par n="artiste__n"/></e>
+<e lm="deuxième" a="Congrès"><i>deuxième</i><par n="accessoire__n"/></e>
+<e lm="deuxième" a="Congrès"><i>deuxième</i><par n="abeille__n"/></e>
+
+<e lm="troisième" a="Congrès">       <i>troisième</i><par n="académique__adj"/></e>
+<e lm="troisième" a="Congrès"><i>troisième</i><par n="artiste__n"/></e>
+<e lm="troisième" a="Congrès"><i>troisième</i><par n="accessoire__n"/></e>
+<e lm="troisième" a="Congrès"><i>troisième</i><par n="abeille__n"/></e>
+
+<e lm="quatrième" a="Congrès">       <i>quatrième</i><par n="académique__adj"/></e>
+<e lm="quatrième" a="Congrès"><i>quatrième</i><par n="artiste__n"/></e>
+<e lm="quatrième" a="Congrès"><i>quatrième</i><par n="accessoire__n"/></e>
+<e lm="quatrième" a="Congrès"><i>quatrième</i><par n="abeille__n"/></e>
+
+<e lm="cinquième" a="Congrès">       <i>cinquième</i><par n="académique__adj"/></e>
+<e lm="cinquième" a="Congrès">       <i>cinquième</i><par n="artiste__n"/></e>
+<e lm="cinquième" a="Congrès"><i>cinquième</i><par n="accessoire__n"/></e>
+<e lm="cinquième" a="Congrès"><i>cinquième</i><par n="abeille__n"/></e>
+
+<e lm="sixième" a="Congrès">         <i>sixième</i><par n="académique__adj"/></e>
+<e lm="sixième" a="Congrès">         <i>sixième</i><par n="artiste__n"/></e>
+<e lm="sixième" a="Congrès"><i>sixième</i><par n="accessoire__n"/></e>
+<e lm="sixième" a="Congrès"><i>sixième</i><par n="abeille__n"/></e>
+
+<e lm="septième" a="Congrès">        <i>septième</i><par n="académique__adj"/></e>
+<e lm="septième" a="Congrès"><i>septième</i><par n="artiste__n"/></e>
+<e lm="septième" a="Congrès"><i>septième</i><par n="accessoire__n"/></e>
+<e lm="septième" a="Congrès"><i>septième</i><par n="abeille__n"/></e>
+
+<e lm="huitième" a="Congrès">        <i>huitième</i><par n="académique__adj"/></e>
+<e lm="huitième" a="Congrès">        <i>huitième</i><par n="artiste__n"/></e>
+<e lm="huitième" a="Congrès"><i>huitième</i><par n="accessoire__n"/></e>
+<e lm="huitième" a="Congrès"><i>huitième</i><par n="abeille__n"/></e>
+
+<e lm="neuvième" a="Congrès">        <i>neuvième</i><par n="académique__adj"/></e>
+<e lm="neuvième" a="Congrès"><i>neuvième</i><par n="artiste__n"/></e>
+<e lm="neuvième" a="Congrès"><i>neuvième</i><par n="accessoire__n"/></e>
+<e lm="neuvième" a="Congrès"><i>neuvième</i><par n="abeille__n"/></e>
+
+<e lm="dixième" a="Congrès">         <i>dixième</i><par n="académique__adj"/></e>
+<e lm="dixième" a="Congrès">         <i>dixième</i><par n="artiste__n"/></e>
+<e lm="dixième" a="Congrès"><i>dixième</i><par n="accessoire__n"/></e>
+<e lm="dixième" a="Congrès"><i>dixième</i><par n="abeille__n"/></e>
+
+<e lm="onzième" a="Congrès">         <i>onzième</i><par n="académique__adj"/></e>
+<e lm="onzième" a="Congrès"><i>onzième</i><par n="artiste__n"/></e>
+<e lm="onzième" a="Congrès"><i>onzième</i><par n="accessoire__n"/></e>
+<e lm="onzième" a="Congrès"><i>onzième</i><par n="abeille__n"/></e>
+
+<e lm="douzième" a="Congrès">        <i>douzième</i><par n="académique__adj"/></e>
+<e lm="douzième" a="Congrès">        <i>douzième</i><par n="artiste__n"/></e>
+<e lm="douzième" a="Congrès"><i>douzième</i><par n="accessoire__n"/></e>
+<e lm="douzième" a="Congrès"><i>douzième</i><par n="abeille__n"/></e>
+
+<e lm="treizième" a="Congrès">       <i>treizième</i><par n="académique__adj"/></e>
+<e lm="treizième" a="Congrès"><i>treizième</i><par n="artiste__n"/></e>
+<e lm="treizième" a="Congrès"><i>treizième</i><par n="accessoire__n"/></e>
+<e lm="treizième" a="Congrès"><i>treizième</i><par n="abeille__n"/></e>
+
+<e lm="quatorzième" a="Congrès">     <i>quatorzième</i><par n="académique__adj"/></e>
+<e lm="quatorzième" a="Congrès"><i>quatorzième</i><par n="artiste__n"/></e>
+<e lm="quatorzième" a="Congrès"><i>quatorzième</i><par n="accessoire__n"/></e>
+<e lm="quatorzième" a="Congrès"><i>quatorzième</i><par n="abeille__n"/></e>
+
+<e lm="quinzième" a="Congrès">       <i>quinzième</i><par n="académique__adj"/></e>
+<e lm="quinzième" a="Congrès"><i>quinzième</i><par n="artiste__n"/></e>
+<e lm="quinzième" a="Congrès"><i>quinzième</i><par n="accessoire__n"/></e>
+<e lm="quinzième" a="Congrès"><i>quinzième</i><par n="abeille__n"/></e>
+
+<e lm="seizième" a="Congrès">        <i>seizième</i><par n="académique__adj"/></e>
+<e lm="seizième" a="Congrès"><i>seizième</i><par n="artiste__n"/></e>
+<e lm="seizième" a="Congrès"><i>seizième</i><par n="accessoire__n"/></e>
+<e lm="seizième" a="Congrès"><i>seizième</i><par n="abeille__n"/></e>
+
+<e lm="dix-septième" a="Congrès">    <i>dix-septième</i><par n="académique__adj"/></e>
+<e lm="dix-septième" a="Congrès">    <i>dix-septième</i><par n="artiste__n"/></e>
+<e lm="dix-septième" a="Congrès">    <i>dix-septième</i><par n="accessoire__n"/></e>
+<e lm="dix-septième" a="Congrès">    <i>dix-septième</i><par n="abeille__n"/></e>
+
+<e lm="dix-huitième" a="Congrès">    <i>dix-huitième</i><par n="académique__adj"/></e>
+<e lm="dix-huitième" a="Congrès"><i>dix-huitième</i><par n="artiste__n"/></e>
+<e lm="dix-huitième" a="Congrès"><i>dix-huitième</i><par n="accessoire__n"/></e>
+<e lm="dix-huitième" a="Congrès"><i>dix-huitième</i><par n="abeille__n"/></e>
+
+<e lm="dix-neuvième" a="Congrès">    <i>dix-neuvième</i><par n="académique__adj"/></e>
+<e lm="dix-neuvième" a="Congrès"><i>dix-neuvième</i><par n="artiste__n"/></e>
+<e lm="dix-neuvième" a="Congrès"><i>dix-neuvième</i><par n="accessoire__n"/></e>
+<e lm="dix-neuvième" a="Congrès"><i>dix-neuvième</i><par n="abeille__n"/></e>
+
+<e lm="vingtième" a="Congrès">       <i>vingtième</i><par n="académique__adj"/></e>
+<e lm="vingtième" a="Congrès"><i>vingtième</i><par n="artiste__n"/></e>
+<e lm="vingtième" a="Congrès"><i>vingtième</i><par n="accessoire__n"/></e>
+<e lm="vingtième" a="Congrès"><i>vingtième</i><par n="abeille__n"/></e>
+
+<e lm="vingt-et-unième" a="Congrès"> <i>vingt-et-unième</i><par n="académique__adj"/></e>
+<e lm="vingt et unième" a="Congrès"> <i>vingt<b/>et<b/>unième</i><par n="académique__adj"/></e>
+<e lm="vingt-deuxième" a="Congrès">  <i>vingt-deuxième</i><par n="académique__adj"/></e>
+<e lm="vingt-troisième" a="Congrès"> <i>vingt-troisième</i><par n="académique__adj"/></e>
+<e lm="vingt-quatrième" a="Congrès"> <i>vingt-quatrième</i><par n="académique__adj"/></e>
+<e lm="vingt-cinquième" a="Congrès"> <i>vingt-cinquième</i><par n="académique__adj"/></e>
+<e lm="vingt-sixième" a="Congrès">   <i>vingt-sixième</i><par n="académique__adj"/></e>
+<e lm="vingt-septième" a="Congrès">  <i>vingt-septième</i><par n="académique__adj"/></e>
+<e lm="vingt-huitième" a="Congrès">  <i>vingt-huitième</i><par n="académique__adj"/></e>
+<e lm="vingt-neuvième" a="Congrès">  <i>vingt-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="vingt-et-unième" a="Congrès"> <i>vingt-et-unième</i><par n="artiste__n"/></e>
+<e lm="vingt et unième" a="Congrès"> <i>vingt<b/>et<b/>unième</i><par n="artiste__n"/></e>
+<e lm="vingt-deuxième" a="Congrès">  <i>vingt-deuxième</i><par n="artiste__n"/></e>
+<e lm="vingt-troisième" a="Congrès"> <i>vingt-troisième</i><par n="artiste__n"/></e>
+<e lm="vingt-quatrième" a="Congrès"> <i>vingt-quatrième</i><par n="artiste__n"/></e>
+<e lm="vingt-cinquième" a="Congrès"> <i>vingt-cinquième</i><par n="artiste__n"/></e>
+<e lm="vingt-sixième" a="Congrès">   <i>vingt-sixième</i><par n="artiste__n"/></e>
+<e lm="vingt-septième" a="Congrès">  <i>vingt-septième</i><par n="artiste__n"/></e>
+<e lm="vingt-huitième" a="Congrès">  <i>vingt-huitième</i><par n="artiste__n"/></e>
+<e lm="vingt-neuvième" a="Congrès">  <i>vingt-neuvième</i><par n="artiste__n"/></e>
+
+<e lm="trentième" a="Congrès">       <i>trentième</i><par n="académique__adj"/></e>
+<e lm="trentième" a="Congrès"><i>trentième</i><par n="artiste__n"/></e>
+<e lm="trentième" a="Congrès"><i>trentième</i><par n="accessoire__n"/></e>
+<e lm="trentième" a="Congrès"><i>trentième</i><par n="abeille__n"/></e>
+
+<e lm="trente-et-unième" a="Congrès"><i>trente-et-unième</i><par n="académique__adj"/></e>
+<e lm="trente et unième" a="Congrès"><i>trente<b/>et<b/>unième</i><par n="académique__adj"/></e>
+<e lm="trente-deuxième" a="Congrès"> <i>trente-deuxième</i><par n="académique__adj"/></e>
+<e lm="trente-troisième" a="Congrès"><i>trente-troisième</i><par n="académique__adj"/></e>
+<e lm="trente-quatrième" a="Congrès"><i>trente-quatrième</i><par n="académique__adj"/></e>
+<e lm="trente-cinquième" a="Congrès"><i>trente-cinquième</i><par n="académique__adj"/></e>
+<e lm="trente-sixième" a="Congrès">  <i>trente-sixième</i><par n="académique__adj"/></e>
+<e lm="trente-septième" a="Congrès"> <i>trente-septième</i><par n="académique__adj"/></e>
+<e lm="trente-huitième" a="Congrès"> <i>trente-huitième</i><par n="académique__adj"/></e>
+<e lm="trente-neuvième" a="Congrès"> <i>trente-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="trente-et-unième" a="Congrès"><i>trente-et-unième</i><par n="artiste__n"/></e>
+<e lm="trente et unième" a="Congrès"><i>trente<b/>et<b/>unième</i><par n="artiste__n"/></e>
+<e lm="trente-deuxième" a="Congrès"> <i>trente-deuxième</i><par n="artiste__n"/></e>
+<e lm="trente-troisième" a="Congrès"><i>trente-troisième</i><par n="artiste__n"/></e>
+<e lm="trente-quatrième" a="Congrès"><i>trente-quatrième</i><par n="artiste__n"/></e>
+<e lm="trente-cinquième" a="Congrès"><i>trente-cinquième</i><par n="artiste__n"/></e>
+<e lm="trente-sixième" a="Congrès">  <i>trente-sixième</i><par n="artiste__n"/></e>
+<e lm="trente-septième" a="Congrès"> <i>trente-septième</i><par n="artiste__n"/></e>
+<e lm="trente-huitième" a="Congrès"> <i>trente-huitième</i><par n="artiste__n"/></e>
+<e lm="trente-neuvième" a="Congrès"> <i>trente-neuvième</i><par n="artiste__n"/></e>
+
+<e lm="quarantième" a="Congrès">     <i>quarantième</i><par n="académique__adj"/></e>
+<e lm="quarantième" a="Congrès"><i>quarantième</i><par n="artiste__n"/></e>
+<e lm="quarantième" a="Congrès"><i>quarantième</i><par n="accessoire__n"/></e>
+<e lm="quarantième" a="Congrès"><i>quarantième</i><par n="abeille__n"/></e>
+
+<e lm="quarante-et-unième" a="Congrès"><i>quarante-et-unième</i><par n="académique__adj"/></e>
+<e lm="quarante et unième" a="Congrès"><i>quarante<b/>et<b/>unième</i><par n="académique__adj"/></e>
+<e lm="quarante-deuxième" a="Congrès"><i>quarante-deuxième</i><par n="académique__adj"/></e>
+<e lm="quarante-troisième" a="Congrès"><i>quarante-troisième</i><par n="académique__adj"/></e>
+<e lm="quarante-quatrième" a="Congrès"><i>quarante-quatrième</i><par n="académique__adj"/></e>
+<e lm="quarante-cinquième" a="Congrès"><i>quarante-cinquième</i><par n="académique__adj"/></e>
+<e lm="quarante-sixième" a="Congrès"><i>quarante-sixième</i><par n="académique__adj"/></e>
+<e lm="quarante-septième" a="Congrès"><i>quarante-septième</i><par n="académique__adj"/></e>
+<e lm="quarante-huitième" a="Congrès"><i>quarante-huitième</i><par n="académique__adj"/></e>
+<e lm="quarante-neuvième" a="Congrès"><i>quarante-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="quarante-et-unième" a="Congrès"><i>quarante-et-unième</i><par n="artiste__n"/></e>
+<e lm="quarante et unième" a="Congrès"><i>quarante<b/>et<b/>unième</i><par n="artiste__n"/></e>
+<e lm="quarante-deuxième" a="Congrès"><i>quarante-deuxième</i><par n="artiste__n"/></e>
+<e lm="quarante-troisième" a="Congrès"><i>quarante-troisième</i><par n="artiste__n"/></e>
+<e lm="quarante-quatrième" a="Congrès"><i>quarante-quatrième</i><par n="artiste__n"/></e>
+<e lm="quarante-cinquième" a="Congrès"><i>quarante-cinquième</i><par n="artiste__n"/></e>
+<e lm="quarante-sixième" a="Congrès"><i>quarante-sixième</i><par n="artiste__n"/></e>
+<e lm="quarante-septième" a="Congrès"><i>quarante-septième</i><par n="artiste__n"/></e>
+<e lm="quarante-huitième" a="Congrès"><i>quarante-huitième</i><par n="artiste__n"/></e>
+<e lm="quarante-neuvième" a="Congrès"><i>quarante-neuvième</i><par n="artiste__n"/></e>
+
+<e lm="cinquantième" a="Congrès">    <i>cinquantième</i><par n="académique__adj"/></e>
+<e lm="cinquantième" a="Congrès">    <i>cinquantième</i><par n="artiste__n"/></e>
+<e lm="cinquantième" a="Congrès"><i>cinquantième</i><par n="accessoire__n"/></e>
+<e lm="cinquantième" a="Congrès"><i>cinquantième</i><par n="abeille__n"/></e>
+
+<e lm="cinquante et unième" a="Congrès"><i>cinquante<b/>et<b/>unième</i><par n="académique__adj"/></e>
+<e lm="cinquante-et-unième" a="Congrès"><i>cinquante-et-unième</i><par n="académique__adj"/></e>
+<e lm="cinquante-deuxième" a="Congrès"><i>cinquante-deuxième</i><par n="académique__adj"/></e>
+<e lm="cinquante-troisième" a="Congrès"><i>cinquante-troisième</i><par n="académique__adj"/></e>
+<e lm="cinquante-quatrième" a="Congrès"><i>cinquante-quatrième</i><par n="académique__adj"/></e>
+<e lm="cinquante-cinquième" a="Congrès"><i>cinquante-cinquième</i><par n="académique__adj"/></e>
+<e lm="cinquante-sixième" a="Congrès"><i>cinquante-sixième</i><par n="académique__adj"/></e>
+<e lm="cinquante-septième" a="Congrès"><i>cinquante-septième</i><par n="académique__adj"/></e>
+<e lm="cinquante-huitième" a="Congrès"><i>cinquante-huitième</i><par n="académique__adj"/></e>
+<e lm="cinquante-neuvième" a="Congrès"><i>cinquante-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="cinquante et unième" a="Congrès"><i>cinquante<b/>et<b/>unième</i><par n="artiste__n"/></e>
+<e lm="cinquante-et-unième" a="Congrès"><i>cinquante-et-unième</i><par n="artiste__n"/></e>
+<e lm="cinquante-deuxième" a="Congrès"><i>cinquante-deuxième</i><par n="artiste__n"/></e>
+<e lm="cinquante-troisième" a="Congrès"><i>cinquante-troisième</i><par n="artiste__n"/></e>
+<e lm="cinquante-quatrième" a="Congrès"><i>cinquante-quatrième</i><par n="artiste__n"/></e>
+<e lm="cinquante-cinquième" a="Congrès"><i>cinquante-cinquième</i><par n="artiste__n"/></e>
+<e lm="cinquante-sixième" a="Congrès"><i>cinquante-sixième</i><par n="artiste__n"/></e>
+<e lm="cinquante-septième" a="Congrès"><i>cinquante-septième</i><par n="artiste__n"/></e>
+<e lm="cinquante-huitième" a="Congrès"><i>cinquante-huitième</i><par n="artiste__n"/></e>
+<e lm="cinquante-neuvième" a="Congrès"><i>cinquante-neuvième</i><par n="artiste__n"/></e>
+
+<e lm="soixantième" a="Congrès">     <i>soixantième</i><par n="académique__adj"/></e>
+<e lm="soixantième" a="Congrès"><i>soixantième</i><par n="artiste__n"/></e>
+<e lm="soixantième" a="Congrès"><i>soixantième</i><par n="accessoire__n"/></e>
+<e lm="soixantième" a="Congrès"><i>soixantième</i><par n="abeille__n"/></e>
+
+<e lm="soixante-et-unième" a="Congrès"><i>soixante-et-unième</i><par n="académique__adj"/></e>
+<e lm="soixante et unième" a="Congrès"><i>soixante<b/>et<b/>unième</i><par n="académique__adj"/></e>
+<e lm="soixante-troisième" a="Congrès"><i>soixante-troisième</i><par n="académique__adj"/></e>
+<e lm="soixante-quatrième" a="Congrès"><i>soixante-quatrième</i><par n="académique__adj"/></e>
+<e lm="soixante-cinquième" a="Congrès"><i>soixante-cinquième</i><par n="académique__adj"/></e>
+<e lm="soixante-sixième" a="Congrès"><i>soixante-sixième</i><par n="académique__adj"/></e>
+<e lm="soixante-septième" a="Congrès"><i>soixante-septième</i><par n="académique__adj"/></e>
+<e lm="soixante-deuxième" a="Congrès"><i>soixante-deuxième</i><par n="académique__adj"/></e>
+<e lm="soixante-huitième" a="Congrès"><i>soixante-huitième</i><par n="académique__adj"/></e>
+<e lm="soixante-neuvième" a="Congrès"><i>soixante-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="soixante-et-unième" a="Congrès"><i>soixante-et-unième</i><par n="artiste__n"/></e>
+<e lm="soixante et unième" a="Congrès"><i>soixante<b/>et<b/>unième</i><par n="artiste__n"/></e>
+<e lm="soixante-troisième" a="Congrès"><i>soixante-troisième</i><par n="artiste__n"/></e>
+<e lm="soixante-quatrième" a="Congrès"><i>soixante-quatrième</i><par n="artiste__n"/></e>
+<e lm="soixante-cinquième" a="Congrès"><i>soixante-cinquième</i><par n="artiste__n"/></e>
+<e lm="soixante-sixième" a="Congrès"><i>soixante-sixième</i><par n="artiste__n"/></e>
+<e lm="soixante-septième" a="Congrès"><i>soixante-septième</i><par n="artiste__n"/></e>
+<e lm="soixante-deuxième" a="Congrès"><i>soixante-deuxième</i><par n="artiste__n"/></e>
+<e lm="soixante-huitième" a="Congrès"><i>soixante-huitième</i><par n="artiste__n"/></e>
+<e lm="soixante-neuvième" a="Congrès"><i>soixante-neuvième</i><par n="artiste__n"/></e>
+
+<e lm="soixante-dixième" a="Congrès"><i>soixante-dixième</i><par n="académique__adj"/></e>
+<e lm="soixante-dixième" a="Congrès"><i>soixante-dixième</i><par n="artiste__n"/></e>
+<e lm="soixante-dixième" a="Congrès"><i>soixante-dixième</i><par n="accessoire__n"/></e>
+<e lm="soixante-dixième" a="Congrès"><i>soixante-dixième</i><par n="abeille__n"/></e>
+
+<e lm="soixante et onzième" a="Congrès"><i>soixante<b/>et<b/>onzième</i><par n="académique__adj"/></e>
+<e lm="soixante-et-onzième" a="Congrès"><i>soixante-et-onzième</i><par n="académique__adj"/></e>
+<e lm="soixante-douzième" a="Congrès"><i>soixante-douzième</i><par n="académique__adj"/></e>
+<e lm="soixante-treizième" a="Congrès"><i>soixante-treizième</i><par n="académique__adj"/></e>
+<e lm="soixante-quatorzième" a="Congrès"><i>soixante-quatorzième</i><par n="académique__adj"/></e>
+<e lm="soixante-quinzième" a="Congrès"><i>soixante-quinzième</i><par n="académique__adj"/></e>
+<e lm="soixante-seizième" a="Congrès"><i>soixante-seizième</i><par n="académique__adj"/></e>
+<e lm="soixante-dix-huitième" a="Congrès"><i>soixante-dix-huitième</i><par n="académique__adj"/></e>
+<e lm="soixante-dix-neuvième" a="Congrès"><i>soixante-dix-neuvième</i><par n="académique__adj"/></e>
+<e lm="soixante-dix-septième" a="Congrès"><i>soixante-dix-septième</i><par n="académique__adj"/></e>
+
+<e lm="soixante et onzième" a="Congrès"><i>soixante<b/>et<b/>onzième</i><par n="artiste__n"/></e>
+<e lm="soixante-et-onzième" a="Congrès"><i>soixante-et-onzième</i><par n="artiste__n"/></e>
+<e lm="soixante-douzième" a="Congrès"><i>soixante-douzième</i><par n="artiste__n"/></e>
+<e lm="soixante-treizième" a="Congrès"><i>soixante-treizième</i><par n="artiste__n"/></e>
+<e lm="soixante-quatorzième" a="Congrès"><i>soixante-quatorzième</i><par n="artiste__n"/></e>
+<e lm="soixante-quinzième" a="Congrès"><i>soixante-quinzième</i><par n="artiste__n"/></e>
+<e lm="soixante-seizième" a="Congrès"><i>soixante-seizième</i><par n="artiste__n"/></e>
+<e lm="soixante-dix-huitième" a="Congrès"><i>soixante-dix-huitième</i><par n="artiste__n"/></e>
+<e lm="soixante-dix-neuvième" a="Congrès"><i>soixante-dix-neuvième</i><par n="artiste__n"/></e>
+<e lm="soixante-dix-septième" a="Congrès"><i>soixante-dix-septième</i><par n="artiste__n"/></e>
+
+<e lm="septantième" a="Congrès"><i>septantième</i><par n="académique__adj"/></e>
+<e lm="septantième" a="Congrès"><i>septantième</i><par n="artiste__n"/></e>
+<e lm="septantième" a="Congrès"><i>septantième</i><par n="accessoire__n"/></e>
+<e lm="septantième" a="Congrès"><i>septantième</i><par n="abeille__n"/></e>
+
+<e lm="septante et unième" a="Congrès"><i>septante<b/>et<b/>unième</i><par n="académique__adj"/></e>
+<e lm="septante-et-unième" a="Congrès"><i>septante-et-unième</i><par n="académique__adj"/></e>
+<e lm="septante-deuxième" a="Congrès"><i>septante-deuxième</i><par n="académique__adj"/></e>
+<e lm="septante-troisième" a="Congrès"><i>septante-troisième</i><par n="académique__adj"/></e>
+<e lm="septante-quatrième" a="Congrès"><i>septante-quatrième</i><par n="académique__adj"/></e>
+<e lm="septante-cinquième" a="Congrès"><i>septante-cinquième</i><par n="académique__adj"/></e>
+<e lm="septante-sixième" a="Congrès"><i>septante-sixième</i><par n="académique__adj"/></e>
+<e lm="septante-septième" a="Congrès"><i>septante-septième</i><par n="académique__adj"/></e>
+<e lm="septante-huitième" a="Congrès"><i>septante-huitième</i><par n="académique__adj"/></e>
+<e lm="septante-neuvième" a="Congrès"><i>septante-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="septante et unième" a="Congrès"><i>septante<b/>et<b/>unième</i><par n="artiste__n"/></e>
+<e lm="septante-et-unième" a="Congrès"><i>septante-et-unième</i><par n="artiste__n"/></e>
+<e lm="septante-deuxième" a="Congrès"><i>septante-deuxième</i><par n="artiste__n"/></e>
+<e lm="septante-troisième" a="Congrès"><i>septante-troisième</i><par n="artiste__n"/></e>
+<e lm="septante-quatrième" a="Congrès"><i>septante-quatrième</i><par n="artiste__n"/></e>
+<e lm="septante-cinquième" a="Congrès"><i>septante-cinquième</i><par n="artiste__n"/></e>
+<e lm="septante-sixième" a="Congrès"><i>septante-sixième</i><par n="artiste__n"/></e>
+<e lm="septante-septième" a="Congrès"><i>septante-septième</i><par n="artiste__n"/></e>
+<e lm="septante-huitième" a="Congrès"><i>septante-huitième</i><par n="artiste__n"/></e>
+<e lm="septante-neuvième" a="Congrès"><i>septante-neuvième</i><par n="artiste__n"/></e>
+
+
+<e lm="quatre-vingtième" a="Congrès"><i>quatre-vingtième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingtième" a="Congrès"><i>quatre-vingtième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingtième" a="Congrès"><i>quatre-vingtième</i><par n="accessoire__n"/></e>
+<e lm="quatre-vingtième" a="Congrès"><i>quatre-vingtième</i><par n="abeille__n"/></e>
+
+<e lm="quatre-vingt-unième" a="Congrès"><i>quatre-vingt-unième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-deuxième" a="Congrès"><i>quatre-vingt-deuxième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-troisième" a="Congrès"><i>quatre-vingt-troisième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-quatrième" a="Congrès"><i>quatre-vingt-quatrième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-cinquième" a="Congrès"><i>quatre-vingt-cinquième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-sixième" a="Congrès"><i>quatre-vingt-sixième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-septième" a="Congrès"><i>quatre-vingt-septième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-huitième" a="Congrès"><i>quatre-vingt-huitième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-neuvième" a="Congrès"><i>quatre-vingt-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="quatre-vingt-unième" a="Congrès"><i>quatre-vingt-unième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-deuxième" a="Congrès"><i>quatre-vingt-deuxième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-troisième" a="Congrès"><i>quatre-vingt-troisième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-quatrième" a="Congrès"><i>quatre-vingt-quatrième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-cinquième" a="Congrès"><i>quatre-vingt-cinquième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-sixième" a="Congrès"><i>quatre-vingt-sixième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-septième" a="Congrès"><i>quatre-vingt-septième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-huitième" a="Congrès"><i>quatre-vingt-huitième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-neuvième" a="Congrès"><i>quatre-vingt-neuvième</i><par n="artiste__n"/></e>
+
+
+<e lm="quatre-vingt-dixième" a="Congrès"><i>quatre-vingt-dixième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-dixième" a="Congrès"><i>quatre-vingt-dixième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-dixième" a="Congrès"><i>quatre-vingt-dixième</i><par n="accessoire__n"/></e>
+<e lm="quatre-vingt-dixième" a="Congrès"><i>quatre-vingt-dixième</i><par n="abeille__n"/></e>
+
+<e lm="quatre-vingt-onzième" a="Congrès"><i>quatre-vingt-onzième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-douzième" a="Congrès"><i>quatre-vingt-douzième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-treizième" a="Congrès"><i>quatre-vingt-treizième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-quatorzième" a="Congrès"><i>quatre-vingt-quatorzième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-quinzième" a="Congrès"><i>quatre-vingt-quinzième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-seizième" a="Congrès"><i>quatre-vingt-seizième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-dix-septième" a="Congrès"><i>quatre-vingt-dix-septième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-dix-huitième" a="Congrès"><i>quatre-vingt-dix-huitième</i><par n="académique__adj"/></e>
+<e lm="quatre-vingt-dix-neuvième" a="Congrès"><i>quatre-vingt-dix-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="quatre-vingt-onzième" a="Congrès"><i>quatre-vingt-onzième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-douzième" a="Congrès"><i>quatre-vingt-douzième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-treizième" a="Congrès"><i>quatre-vingt-treizième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-quatorzième" a="Congrès"><i>quatre-vingt-quatorzième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-quinzième" a="Congrès"><i>quatre-vingt-quinzième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-seizième" a="Congrès"><i>quatre-vingt-seizième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-dix-septième" a="Congrès"><i>quatre-vingt-dix-septième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-dix-huitième" a="Congrès"><i>quatre-vingt-dix-huitième</i><par n="artiste__n"/></e>
+<e lm="quatre-vingt-dix-neuvième" a="Congrès"><i>quatre-vingt-dix-neuvième</i><par n="artiste__n"/></e>
+
+<e lm="nonantième" a="Congrès"><i>nonantième</i><par n="académique__adj"/></e>
+<e lm="nonantième" a="Congrès"><i>nonantième</i><par n="artiste__n"/></e>
+<e lm="nonantième" a="Congrès"><i>nonantième</i><par n="accessoire__n"/></e>
+<e lm="nonantième" a="Congrès"><i>nonantième</i><par n="abeille__n"/></e>
+
+<e lm="nonante et unième" a="Congrès"><i>nonante<b/>et<b/>unième</i><par n="académique__adj"/></e>
+<e lm="nonante-et-unième" a="Congrès"><i>nonante-et-unième</i><par n="académique__adj"/></e>
+<e lm="nonante-deuxième" a="Congrès"><i>nonante-deuxième</i><par n="académique__adj"/></e>
+<e lm="nonante-troisième" a="Congrès"><i>nonante-troisième</i><par n="académique__adj"/></e>
+<e lm="nonante-quatrième" a="Congrès"><i>nonante-quatrième</i><par n="académique__adj"/></e>
+<e lm="nonante-cinquième" a="Congrès"><i>nonante-cinquième</i><par n="académique__adj"/></e>
+<e lm="nonante-sixième" a="Congrès"><i>nonante-sixième</i><par n="académique__adj"/></e>
+<e lm="nonante-septième" a="Congrès"><i>nonante-septième</i><par n="académique__adj"/></e>
+<e lm="nonante-huitième" a="Congrès"><i>nonante-huitième</i><par n="académique__adj"/></e>
+<e lm="nonante-neuvième" a="Congrès"><i>nonante-neuvième</i><par n="académique__adj"/></e>
+
+<e lm="nonante et unième" a="Congrès"><i>nonante<b/>et<b/>unième</i><par n="artiste__n"/></e>
+<e lm="nonante-et-unième" a="Congrès"><i>nonante-et-unième</i><par n="artiste__n"/></e>
+<e lm="nonante-deuxième" a="Congrès"><i>nonante-deuxième</i><par n="artiste__n"/></e>
+<e lm="nonante-troisième" a="Congrès"><i>nonante-troisième</i><par n="artiste__n"/></e>
+<e lm="nonante-quatrième" a="Congrès"><i>nonante-quatrième</i><par n="artiste__n"/></e>
+<e lm="nonante-cinquième" a="Congrès"><i>nonante-cinquième</i><par n="artiste__n"/></e>
+<e lm="nonante-sixième" a="Congrès"><i>nonante-sixième</i><par n="artiste__n"/></e>
+<e lm="nonante-septième" a="Congrès"><i>nonante-septième</i><par n="artiste__n"/></e>
+<e lm="nonante-huitième" a="Congrès"><i>nonante-huitième</i><par n="artiste__n"/></e>
+<e lm="nonante-neuvième" a="Congrès"><i>nonante-neuvième</i><par n="artiste__n"/></e>
+
+
+<e lm="centième" a="Congrès">        <i>centième</i><par n="académique__adj"/></e>
+<e lm="centième" a="Congrès">        <i>centième</i><par n="artiste__n"/></e>
+<e lm="centième" a="Congrès"><i>centième</i><par n="accessoire__n"/></e>
+<e lm="centième" a="Congrès"><i>centième</i><par n="abeille__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>deux-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>deux-centième</i><par n="artiste__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>trois-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>trois-centième</i><par n="artiste__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>quatre-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>quatre-centième</i><par n="artiste__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>cinq-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>cinq-centième</i><par n="artiste__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>six-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>six-centième</i><par n="artiste__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>sept-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>sept-centième</i><par n="artiste__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>huit-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>huit-centième</i><par n="artiste__n"/></e>
+
+<e lm="deuxième" a="Congrès"><i>neuf-centième</i><par n="académique__adj"/></e>
+<e lm="deuxième" a="Congrès"><i>neuf-centième</i><par n="artiste__n"/></e>
+
+
+<e lm="millième" a="Congrès">        <i>millième</i><par n="académique__adj"/></e>
+<e lm="millième" a="Congrès">        <i>millième</i><par n="artiste__n"/></e>
+<e lm="millième" a="Congrès">        <i>millième</i><par n="accessoire__n"/></e>
+<e lm="millième" a="Congrès">        <i>millième</i><par n="abeille__n"/></e>
+
+<e lm="millionième" a="Congrès"><i>millionième</i><par n="académique__adj"/></e>
+<e lm="millionième" a="Congrès"><i>millionième</i><par n="artiste__n"/></e>
+<e lm="millionième" a="Congrès"><i>millionième</i><par n="accessoire__n"/></e>
+<e lm="millionième" a="Congrès"><i>millionième</i><par n="abeille__n"/></e>
+
+<e lm="milliardième" a="Congrès"><i>milliardième</i><par n="académique__adj"/></e>
+<e lm="milliardième" a="Congrès"><i>milliardième</i><par n="artiste__n"/></e>
+<e lm="milliardième" a="Congrès"><i>milliardième</i><par n="accessoire__n"/></e>
+<e lm="milliardième" a="Congrès"><i>milliardième</i><par n="abeille__n"/></e>
+
+
 
     <!-- ******************************
           group postadv
