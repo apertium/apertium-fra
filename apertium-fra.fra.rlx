@@ -3787,3 +3787,9 @@ REMOVE V IF (0 ("<espace>")) (NOT -1 Pron);
 
 REMOVE V IF (0 ("<sombre>")) (-1 N);
 
+
+AFTER-SECTIONS
+
+
+"<leur>"i REMOVE:default Enc ; 
+

@@ -1754,6 +1754,7 @@
 
 <pardef n="leur__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="nous__prn">
@@ -1795,7 +1796,12 @@
 
 <pardef n="lui__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l></l>          <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e> <!-- avec lui (comme: avec moi, toi, etc.) -->
+</pardef>
+
+<pardef n="elle__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e> <!-- avec elle (comme: avec moi, toi, etc.) -->
 </pardef>
 
 <pardef n="/lui-même__prn">
@@ -1845,6 +1851,10 @@
 
 <pardef n="eux__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="pl"/></r></p></e>
+</pardef>
+
+<pardef n="elles__prn">
+  <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="certain/s__prn">
@@ -110880,6 +110890,7 @@
 <e r="LR" lm="est-ce que"><i>est-ce<b/>que</i><par n="que__prn"/></e>
 <e lm="eux">             <i>eux</i><par n="eux__prn"/></e>
 <e lm="eux tous">        <p><l>eux<b/>tous</l><r>eux<b/>tous</r></p><par n="eux__prn"/></e>
+<e lm="elles">             <i>elles</i><par n="elles__prn"/></e>
 <e lm="grand-chose" a="hector"><i>grand-chose</i><par n="tout_le_monde__prn"/></e>
 <e lm="il">              <par n="/il__prn"/></e>
 <e r="LR" lm="je">       <p><l>je</l>        <r>je</r></p><par n="je__prn"/></e>
@@ -110891,6 +110902,7 @@
 <e r="RL" lm="les autres" a="hector"><i>les<b/>autres</i><par n="beaucoup__prn"/></e>
 <e lm="leur">            <i>leur</i><par n="leur__prn"/></e>
 <e lm="lui">             <p><l>lui</l>       <r>lui</r></p><par n="lui__prn"/></e>
+<e lm="elle">             <p><l>elle</l>       <r>elle</r></p><par n="elle__prn"/></e>
 <e lm="maint" a="hector"><i>maint</i><par n="certain__prn"/></e>
 <e r="LR" lm="me">       <i>me</i><par n="me__prn"/></e>
 <e lm="moi">             <p><l>moi</l>       <r>moi</r></p><par n="moi__prn"/></e>
