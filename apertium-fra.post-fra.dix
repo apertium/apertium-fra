@@ -504,6 +504,120 @@
       <e><i>Yuvia</i></e>
 
 </pardef>
+	 
+		<pardef n="lettres">
+			<e>
+				<i><a/></i>
+			</e>
+			<e>
+				<i>a</i>
+			</e>
+			<e>
+				<i>b</i>
+			</e>
+			<e>
+				<i>c</i>
+			</e>
+			<e>
+				<i>d</i>
+			</e>
+			<e>
+				<i>e</i>
+			</e>
+			<e>
+				<i>f</i>
+			</e>
+			<e>
+				<i>g</i>
+			</e>
+			<e>
+				<i>h</i>
+			</e>
+			<e>
+				<i>i</i>
+			</e>
+			<e>
+				<i>j</i>
+			</e>
+			<e>
+				<i>k</i>
+			</e>
+			<e>
+				<i>l</i>
+			</e>
+			<e>
+				<i>m</i>
+			</e>
+			<e>
+				<i>n</i>
+			</e>
+			<e>
+				<i>o</i>
+			</e>
+			<e>
+				<i>p</i>
+			</e>
+			<e>
+				<i>q</i>
+			</e>
+			<e>
+				<i>r</i>
+			</e>
+			<e>
+				<i>s</i>
+			</e>
+			<e>
+				<i>t</i>
+			</e>
+			<e>
+				<i>u</i>
+			</e>
+			<e>
+				<i>v</i>
+			</e>
+			<e>
+				<i>w</i>
+			</e>
+			<e>
+				<i>x</i>
+			</e>
+			<e>
+				<i>y</i>
+			</e>
+			<e>
+				<i>z</i>
+			</e>
+			<e>
+				<i>à</i>
+			</e>
+			<e>
+				<i>á</i>
+			</e>
+			<e>
+				<i>é</i>
+			</e>
+			<e>
+				<i>è</i>
+			</e>
+			<e>
+				<i>í</i>
+			</e>
+			<e>
+				<i>ó</i>
+			</e>
+			<e>
+				<i>ò</i>
+			</e>
+			<e>
+				<i>ú</i>
+			</e>
+			<e>
+				<i>ü</i>
+			</e>
+			<e>
+				<i>ç</i>
+			</e>
+    </pardef>
 
     <pardef n="voyelles_tout_court">
       <e><i>a</i></e>
@@ -707,9 +821,140 @@
       <e><p><l></l><r>'</r></p><par n="voyelles"/></e>
       <e><p><l></l><r>e<b/></r></p><par n="consonnes"/></e>
     </pardef>
+
+    <pardef n="enclitiques">
+			<e><i>moi</i></e>
+			<e><i>toi</i></e>
+			<e><i>le</i></e>
+			<e><i>la</i></e>
+			<e><i>nous</i></e>
+			<e><i>vous</i></e>
+			<e><i>les</i></e>
+			<e><i>lui</i></e>
+			<e><i>leur</i></e>
+			<e><i>en</i></e>
+			<e><i>y</i></e>
+    </pardef>
   </pardefs>
 
   <section id="main" type="standard">
+
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-me<b/><a/>-en</l>
+				<r><b/><a/>m'en</r>
+			</p>
+		</e>
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-te<b/><a/>-en</l>
+				<r><b/><a/>t'en</r>
+			</p>
+		</e>
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-le<b/><a/>-en</l>
+				<r><b/><a/>l'en</r>
+			</p>
+		</e>
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-la<b/><a/>-en</l>
+				<r><b/><a/>l'en</r>
+			</p>
+		</e>
+
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-me<b/><a/>-y</l>
+				<r><b/><a/>m'y</r>
+			</p>
+		</e>
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-te<b/><a/>-y</l>
+				<r><b/><a/>t'y</r>
+			</p>
+		</e>
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-le<b/><a/>-y</l>
+				<r><b/><a/>l'y</r>
+			</p>
+		</e>
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-la<b/><a/>-y</l>
+				<r><b/><a/>l'y</r>
+			</p>
+		</e>
+
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-</l>
+				<r>-</r>
+			</p>
+			<par n="enclitiques"/>
+			<p>
+				<l><b/><a/>-</l>
+				<r>-</r>
+			</p>
+			<par n="enclitiques"/>
+			<p>
+				<l><b/><a/>-</l>
+				<r>-</r>
+			</p>
+		</e>
+
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-</l>
+				<r>-</r>
+			</p>
+			<par n="enclitiques"/>
+			<p>
+				<l><b/><a/>-</l>
+				<r>-</r>
+			</p>
+		</e>
+
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/><a/>-</l>
+				<r>-</r>
+			</p>
+			<par n="enclitiques"/>
+		</e>
+
+		<e>
+			<p>
+				<l><a/><b/><a/>-</l>
+				<r>-</r>
+			</p>
+			<par n="enclitiques"/>
+		</e>
+
+		<e>
+			<par n="lettres"/>
+			<p>
+				<l><b/>-</l>
+				<r>-</r>
+			</p>
+			<par n="enclitiques"/>
+		</e>
+
+
       <e><p><l><a/>à<b/><a/>le<b/></l><r>au<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><a/>à<b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><a/>à</l><r/></p><par n="à"/></e>

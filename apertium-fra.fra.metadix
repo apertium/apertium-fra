@@ -131,10 +131,51 @@
   <e>       <re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><!--      <re>(www.|http://|https://|ftp://)[áéíóúàèìòùäëïöüñça-z0-9\-./]+[áéíóúàèìòùäëïöüñça-z0-9/]</re>      --><p><l></l><r><s n="web"/></r></p></e>
 </pardef>
 
+
+<pardef n="S__donne-les-nous">
+  <e>       <p><l>-y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="S__donne-leur-l">
+  <e>       <p><l>'y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="S__donne-l">
+  <e>       <p><l>'en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>'y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>'en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e><p><l>'y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="S__donne-moi">
+  <e>       <p><l>-la</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-l</l>     <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-le</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-l</l>     <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-le</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e>       <p><l>-l</l>     <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-les</l>     <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-les</l>     <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-lui</l>     <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-lui</l>     <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-l</l>     <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-nous</l>      <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-nous</l>      <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-vous</l>      <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-vous</l>      <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-m</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-t</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p><par n="S__donne-leur-l"/></e>
+</pardef>
+
 <pardef n="S__donne-m">
   <e>       <p><l>'en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>'y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>'en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>'y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>e-la</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>e-le</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
   <e>       <p><l>e-les</l>     <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -150,95 +191,220 @@
   <e>       <p><l>-en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
   <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
   <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-l'y</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+
+  <e>       <p><l>-nous</l>      <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-nous</l>      <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-vous</l>      <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-vous</l>      <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+
+  <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-m</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e r="LR"><p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-t</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-leur</l>      <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-leur</l>      <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
 <!--
   <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 -->
 </pardef>
 
-<pardef n="S__donne-l">
-  <e>       <p><l>'en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-  <e>       <p><l>'y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-  <e>       <p><l>'en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
-</pardef>
 
-<pardef n="S__donne-les_adv">
+<pardef n="S__donne-lui">
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-moi</l>     <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-moi</l>     <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-toi</l>     <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-toi</l>     <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-les</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-les</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+
+
   <e>       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e><p><l>-y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="S__donne-leur">
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-moi</l>     <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-moi</l>     <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-toi</l>     <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-toi</l>     <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-leur-l"/></e>
+  <e>       <p><l>-les</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-les</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+
+  <e>       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>-y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>-en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e><p><l>-y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="S__donne-les">
   <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-m'y</l>       <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-t'y</l>       <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
   <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
   <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
   <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-</pardef>
-
-<pardef n="S__enc1">
-  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les_adv"/></e>
-  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-l"/></e>
-  <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-m</l>        <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
-  <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-t</l>        <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
-  <e>       <p><l>-soi</l>      <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
-  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les_adv"/></e>
-  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les_adv"/></e>
-  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-nous"/></e>
-  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-nous"/></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
 
   <e>       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e><p><l>-y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
 </pardef>
 
-<pardef n="S__enc2">
-  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les_adv"/></e>
-  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
-  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-les"/></e>
-  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-l"/></e>
+<pardef n="S__donne-le">
   <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-m</l>        <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
+  <e>       <p><l>-m'y</l>       <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l>-t</l>        <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
-  <e>       <p><l>-soi</l>      <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+  <e>       <p><l>-t'y</l>       <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
   <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les_adv"/></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les-nous"/></e>
+
+  <e r="LR">       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR">       <p><l>-y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR">       <p><l>-en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e r="LR"><p><l>-y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+</pardef>
+
+<pardef n="S__enc1">
+  <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-moi"/></e>
+  <e>       <p><l>-m</l>        <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
+
+  <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-moi"/></e>
+  <e>       <p><l>-t</l>        <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
+
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-le"/></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
+
+  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-le"/></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
+
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-le"/></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-l"/></e>
+
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-lui"/></e>
+
   <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-nous"/></e>
+
   <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
   <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-nous"/></e>
 
+  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les"/></e>
+
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-leur"/></e>
+
+
+  <e>       <p><l>-soi</l>      <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+
+  <e>       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p><par n="S__donne-les"/></e>
+  <e>       <p><l>-y</l>        <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>-en-y</l>     <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e><p><l>-y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+
+
+  <e r="RL"><p><l>-moi-toi</l><r>-me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>-te<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+
+</pardef>
+
+<pardef n="S__enc2">
+  <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-moi</l>      <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-moi"/></e>
+  <e>       <p><l>-m</l>        <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
+
+  <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-toi</l>      <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-moi"/></e>
+  <e>       <p><l>-t</l>        <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-m"/></e>
+
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-le"/></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
+
+  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-la</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-le"/></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/><j/></r></p><par n="S__donne-l"/></e>
+
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+  <e>       <p><l>-le</l>       <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-le"/></e>
+  <e>       <p><l>-l</l>        <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/><j/></r></p><par n="S__donne-l"/></e>
+
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+  <e>       <p><l>-lui</l>      <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/><j/></r></p><par n="S__donne-lui"/></e>
+
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-nous</l>     <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-nous"/></e>
+
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-vous</l>     <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-nous"/></e>
+
+  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-les</l>      <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-les"/></e>
+
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+  <e>       <p><l>-leur</l>     <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/><j/></r></p><par n="S__donne-leur"/></e>
+
+
+  <e>       <p><l>-soi</l>      <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
+  
   <e>       <p><l>s-en</l>      <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e>       <p><l>s-en</l>       <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p><par n="S__donne-les"/></e>
   <e>       <p><l>s-y</l>       <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
   <e>       <p><l>s-en-y</l>    <r>en<s n="prn"/><s n="enc"/><s n="adv"/><j/>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+  <e><p><l>s-y-en</l>     <r>y<s n="prn"/><s n="enc"/><s n="adv"/><j/>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
 </pardef>
 
 <pardef n="/frère__adj">
@@ -1754,7 +1920,6 @@
 
 <pardef n="leur__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
 </pardef>
 
 <pardef n="nous__prn">
@@ -1796,7 +1961,6 @@
 
 <pardef n="lui__prn">
   <e>       <p><l></l>          <r><s n="prn"/><s n="pro"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-  <e>       <p><l></l>          <r><s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
   <e>       <p><l></l>          <r><s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e> <!-- avec lui (comme: avec moi, toi, etc.) -->
 </pardef>
 
@@ -7891,6 +8055,11 @@
   </pardefs>
 
   <section id="main" type="standard">
+
+
+
+
+
     <!-- ******************************
           group adj
       ****************************** -->
@@ -110865,6 +111034,19 @@
 <e r="RL" lm="te">       <p><l><a/>te</l>    <r>te</r></p><par n="te__prn"/></e>
 <e r="RL" lm="tu">       <p><l><a/>tu</l>    <r>tu</r></p><par n="tu__prn"/></e>
 <e r="RL" lm="tu">       <p><l><a/>tu</l>    <r>prpers</r></p><par n="tu__prn"/></e>
+<e r="RL" lm="-moi" a="Congrès">     <p><l><a/>-moi</l>  <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL" lm="-toi" a="Congrès">     <p><l><a/>-toi</l>  <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL" lm="-lui" a="Congrès">     <p><l><a/>-lui</l>  <r>lui<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
+<e r="RL" lm="-le" a="Congrès">     <p><l><a/>-le</l>  <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
+<e r="RL" lm="-la" a="Congrès">     <p><l><a/>-la</l>  <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
+<e r="RL" lm="-nous" a="Congrès">     <p><l><a/>-nous</l>  <r>nous<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL" lm="-vous" a="Congrès">     <p><l><a/>-vous</l>  <r>vous<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL" lm="-leur" a="Congrès">     <p><l><a/>-leur</l>  <r>leur<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL" lm="-les" a="Congrès">     <p><l><a/>-les</l>  <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="mf"/><s n="pl"/></r></p></e>
+<e r="RL" lm="-le" a="Congrès">     <p><l><a/>-le</l>  <r>le<s n="prn"/><s n="enc"/><s n="p3"/><s n="nt"/></r></p></e>
+<e r="RL" lm="-en" a="Congrès">     <p><l><a/>-en</l>  <r>en<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+<e r="RL" lm="-y" a="Congrès">     <p><l><a/>-y</l>  <r>y<s n="prn"/><s n="enc"/><s n="adv"/></r></p></e>
+<e r="RL" lm="-se" a="Congrès">     <p><l>se</l>  <r>se<s n="prn"/><s n="enc"/><s n="ref"/><s n="p3"/><s n="mf"/><s n="sp"/></r></p></e>
 <e lm="absolument tout"> <i>absolument<b/>tou</i><par n="tou/t__prn"/></e>
 <e lm="aucun">           <i>aucun</i><par n="aucun__prn"/></e>
 <e lm="autrui">          <i>autrui</i><par n="personne__prn"/></e>
@@ -111007,7 +111189,6 @@
 <e lm="ce dernier" a="Congrès"><p><l>ces<b/>dernières</l><r>ce<b/>dernier<s n="prn"/><s n="tn"/><s n="f"/><s n="pl"/></r></p></e>
 <e lm="ce dernier" a="Congrès"><p><l>cette<b/>dernière</l><r>ce<b/>dernier<s n="prn"/><s n="tn"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="RL" lm="les deux" a="hector"><p><l>les<b/>deux</l><r>les<b/>deux<s n="prn"/><s n="tn"/><s n="mf"/><s n="pl"/></r></p></e>
-<e>                      <p><l>moi</l>       <r>me<s n="prn"/><s n="enc"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">               <p><l>moi,<b/>je</l><r>moi<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>,<s n="cm"/><j/>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">               <p><l>moi<b/>je</l> <r>moi<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/><j/>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="RL" lm="nous">     <p><l>nous</l>      <r>prpers<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="pl"/></r></p></e>
@@ -111018,7 +111199,6 @@
 <e r="LR" lm="il" c="erreur fréquente"><p><l>t'elle</l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
 <e r="LR" lm="il" c="erreur fréquente"><p><l>t'il</l><r>il<s n="prn"/><s n="tn"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
 <e r="LR" lm="on" c="erreur fréquente"><p><l>t'on</l><r>on<s n="prn"/><s n="tn"/><s n="p3"/><s n="mf"/><s n="sg"/></r></p></e>
-<e>                      <p><l>toi</l>       <r>te<s n="prn"/><s n="enc"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">               <p><l>toi,<b/>tu</l><r>toi<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>,<s n="cm"/><j/>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 <e r="LR">               <p><l>toi<b/>tu</l> <r>toi<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/><j/>tu<s n="prn"/><s n="tn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e>
 <e lm="tous les deux" a="hector"><p><l>tous<b/>les<b/>deux</l><r>tous<b/>les<b/>deux<s n="prn"/><s n="tn"/><s n="m"/><s n="pl"/></r></p></e>
