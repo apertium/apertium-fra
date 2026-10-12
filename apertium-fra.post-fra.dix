@@ -698,10 +698,15 @@
 
     <pardef n="de">
       <e><p><l><b/><a/>les</l><r>es</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>Les</l><r>es</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>le<b/></l><r>u<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><b/><a/>le<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/></l><r>u<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>le</l><r>u</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>Le<b/></l><r>u<b/></r></p><par n="h_aspire"/></e>
+      <e><p><l><b/><a/>Le<b/></l><r>e<b/>L'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>Le<b/></l><r>u<b/></r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>Le</l><r>u</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>leprn<b/></l><r>e<b/>le<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><b/><a/>leprn<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>leprn<b/></l><r>e<b/>le<b/></r></p></e>
@@ -750,16 +755,22 @@
 
     <pardef n="le">
       <e><p><l><a/>les</l><r>e<b/>les</r></p><par n="caractere_general"/></e>
+      <e><p><l><a/>Les</l><r>e<b/>les</r></p><par n="caractere_general"/></e>
       <e><p><l><a/>le<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>Le<b/></l><r>e<b/>L'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>leprn<b/></l><r>e<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>leprn<b/></l><r>e<b/>le<b/></r></p></e>
     </pardef>
 
     <pardef n="à">
       <e><p><l><b/><a/>les</l><r>aux</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>Les</l><r>aux</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>le<b/></l><r>au<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><b/><a/>le<b/></l><r>à<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>le<b/></l><r>au<b/></r></p><par n="consonnes"/></e>
+      <e><p><l><b/><a/>Le<b/></l><r>au<b/></r></p><par n="h_aspire"/></e>
+      <e><p><l><b/><a/>Le<b/></l><r>à<b/>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><b/><a/>Le<b/></l><r>au<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>leprn<b/></l><r>à<b/>le<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><b/><a/>leprn<b/></l><r>à<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><b/><a/>leprn<b/></l><r>à<b/>le<b/></r></p></e>
@@ -768,6 +779,7 @@
       <e><p><l><b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="consonnes"/></e>
       <e><p><l><b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>le</l><r>au</r></p><par n="caractere_general"/></e>
+      <e><p><l><b/><a/>Le</l><r>au</r></p><par n="caractere_general"/></e>
       <e><p><l><b/><a/>de</l><r>à<b/>d</r></p><par n="de"/></e>
       <e><p><l><b/><a/>ma<b/></l><r>à<b/>ma<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><b/><a/>ta<b/></l><r>à<b/>ta<b/></r></p><par n="h_aspire"/></e>
@@ -956,6 +968,7 @@
 
 
       <e><p><l><a/>à<b/><a/>le<b/></l><r>au<b/></r></p><par n="h_aspire"/></e>
+      <e><p><l><a/>à<b/><a/>Le<b/></l><r>au<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><a/>à<b/><a/>la<b/></l><r>à<b/>la<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><a/>à</l><r/></p><par n="à"/></e>
       <e><p><l><a/>à<b/><a/>ledit<b/></l><r>audit<b/></r></p></e>
@@ -964,6 +977,7 @@
       <e><p><l>plus<b/><a/>de<b/><a/>les</l><r>plus<b/>d</r></p><par n="de"/></e>
       <e><p><l>moins<b/><a/>de<b/><a/>les</l><r>moins<b/>d</r></p><par n="de"/></e>
       <e><p><l><a/>de<b/><a/>le<b/></l><r>du<b/></r></p><par n="h_aspire"/></e>
+      <e><p><l><a/>de<b/><a/>Le<b/></l><r>du<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><a/>de<b/><a/>la<b/></l><r>de<b/>la<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><a/>de<b/><a/>ledit<b/></l><r>dudit<b/></r></p></e>
       <e><p><l><a/>de<b/><a/>lesdits</l><r>desdits</r></p></e>
@@ -977,6 +991,8 @@
       <e><p><l><a/>ne<b/><a/>la<b/></l><r>ne<b/>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>le<b/></l><r>le<b/></r></p><par n="h_aspire"/></e>
       <e><p><l><a/>le<b/></l><r>l'</r></p><par n="voyelles"/></e>
+      <e><p><l><a/>Le<b/></l><r>Le<b/></r></p><par n="h_aspire"/></e>
+      <e><p><l><a/>Le<b/></l><r>L'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>leprn<b/></l><r>l'</r></p><par n="voyelles"/></e>
       <e><p><l><a/>leprn<b/></l><r>le<b/></r></p></e>
       <e><p><l><a/>leprn</l><r>le</r></p><par n="caractere_general_sans_espace"/></e>

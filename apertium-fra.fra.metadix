@@ -12074,6 +12074,7 @@
 <e lm="de terre" a="hector"><i>de<b/>terre</i><par n="arrière__adj"/></e>
 <e lm="de tous bords" a="hector"><i>de<b/>tous<b/>bords</i><par n="arrière__adj"/></e>
 <e lm="de travail">      <i>de<b/>travail</i><par n="arrière__adj"/></e>
+<e lm="de tri" r="RL">      <i>de<b/>tri</i><par n="arrière__adj"/></e>
 <e lm="de télévision" a="hector"><i>de<b/>télévision</i><par n="arrière__adj"/></e>
 <e lm="de Ténériffe">    <i>de<b/>Ténériffe</i><par n="arrière__adj"/></e>
 <e lm="de valeur">       <p><l>de<b/>valeur</l><r>de<b/>valeur</r></p><par n="arrière__adj"/></e>
@@ -22181,7 +22182,7 @@
 <e lm="tex-mex" a="jaumeortola"><i>tex-mex</i><par n="arrière__adj"/></e>
 <e lm="texan">           <i>texan</i><par n="abaissant__adj"/></e>
 <e lm="textile">         <i>textile</i><par n="académique__adj"/></e>
-<e r="RL" lm="textuel">  <i>textuel</i><par n="annuel__adj"/></e>
+<e lm="textuel">  <i>textuel</i><par n="annuel__adj"/></e>
 <e lm="textural">        <i>textura</i><par n="amica/l__adj"/></e>
 <e lm="thalamique" a="hector"><i>thalamique</i><par n="académique__adj"/></e>
 <e lm="thaumaturgique" a="hector"><i>thaumaturgique</i><par n="académique__adj"/></e>
@@ -27110,6 +27111,7 @@
 <e r="RL" lm="quand est-ce que"><p><l>quand<b/>est-ce<b/><a/>que</l><r>quand<b/>est-ce<b/>que</r></p><par n="comment__adv"/></e>
 <e r="LR" lm="quand est-ce que"><i>quand<b/>est-ce<b/>que</i><par n="comment__adv"/></e>
 <e lm="quand il y a lieu"><i>quand<b/>il<b/>y<b/>a<b/>lieu</i><par n="hier__adv"/></e>
+<e r="LR" lm="quand-même"><p><l>quand-même</l><r>quand<b/>même</r></p><par n="hier__adv"/></e>
 <e lm="quand même">      <i>quand<b/>même</i><par n="hier__adv"/></e>
 <e lm="quant à elle" a="Congrès"><i>quant<b/>à<b/>elle</i><par n="hier__adv"/></e>
 <e lm="quant à elles" a="Congrès"><i>quant<b/>à<b/>elles</i><par n="hier__adv"/></e>
@@ -27129,7 +27131,7 @@
 <e lm="quatrièmement">   <i>quatrièmement</i><par n="hier__adv"/></e>
 <e lm="quel qu'en soit le prix" a="hector"><i>quel<b/>qu'en<b/>soit<b/>le<b/>prix</i><par n="hier__adv"/></e>
 <e lm="quelque">         <i>quelque</i><par n="hier__adv"/></e>
-<e r="RL" lm="quelque part"><i>quelque<b/>part</i><par n="hier__adv"/></e>
+<e lm="quelque part"><i>quelque<b/>part</i><par n="hier__adv"/></e>
 <e lm="quelquefois">     <i>quelquefois</i><par n="hier__adv"/></e>
 <e lm="qui plus est" a="hector"><i>qui<b/>plus<b/>est</i><par n="hier__adv"/></e>
 <e lm="quinquennalement"><i>quinquennalement</i><par n="hier__adv"/></e>
@@ -28330,6 +28332,7 @@
 <e lm="par conséquent">  <i>par<b/>conséquent</i><par n="alors__cnjadv"/></e>
 <e lm="par le cas où">   <i>par<b/>le<b/>cas<b/>où</i><par n="alors__cnjadv"/></e>
 <e lm="parce que">       <i>parce<b/></i><par n="afin_/que__cnjadv"/></e>
+<e lm="pas que">       <i>pas<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="pendant que">     <i>pendant<b/></i><par n="afin_/que__cnjadv"/></e>
 <e lm="plus" a="hector"> <i>plus</i><par n="alors__cnjadv"/></e>
 <e r="RL" lm="plus de" a="hector"><p><l>plus<b/><a/>de</l><r>plus<b/>de</r></p><par n="alors__cnjadv"/></e>
@@ -30783,6 +30786,7 @@
 <e lm="aphte" a="jaumeortola"><i>aphte</i><par n="accessoire__n"/></e>
 <e lm="aphélie" a="jaumeortola"><i>aphélie</i><par n="accessoire__n"/></e>
 <e lm="aphérèse" a="jaumeortola"><i>aphérèse</i><par n="abeille__n"/></e>
+<e lm="API" a="Congrès"><i>API</i><par n="OPA__n"/></e>
 <e lm="apical" a="jaumeortola"><i>apica</i><par n="commercia/l__n"/></e>
 <e lm="apiculteur">      <i>apicult</i><par n="administrat/eur__n"/></e>
 <e lm="apiculture" a="jaumeortola"><i>apiculture</i><par n="abeille__n"/></e>
@@ -40221,6 +40225,7 @@
 <e lm="endimanchement">  <i>endimanchement</i><par n="accessoire__n"/></e>
 <e lm="endive" a="Congrès"><i>endive</i><par n="abeille__n"/></e>
 <e lm="endocardite" a="jaumeortola"><i>endocardite</i><par n="abeille__n"/></e>
+<e lm="endocrino" a="Congrès"><i>endocrino</i><par n="artiste__n"/></e>
 <e lm="endocrinologie" a="jaumeortola"><i>endocrinologie</i><par n="abeille__n"/></e>
 <e lm="endocrinologiste"><i>endocrinologiste</i><par n="artiste__n"/></e>
 <e lm="endocrinologue" a="jaumeortola"><i>endocrinologue</i><par n="artiste__n"/></e>
@@ -43544,6 +43549,7 @@
 <e lm="gérondif" a="jaumeortola"><i>gérondif</i><par n="accessoire__n"/></e>
 <e lm="gérontisme">      <i>gérontisme</i><par n="accessoire__n"/></e>
 <e lm="gérontocratie" a="jaumeortola"><i>gérontocratie</i><par n="abeille__n"/></e>
+<e lm="géronto" a="Congrès"><i>géronto</i><par n="artiste__n"/></e>
 <e lm="gérontologie">    <i>gérontologie</i><par n="abeille__n"/></e>
 <e lm="gérontologie" a="jaumeortola"><i>gérontologie</i><par n="abeille__n"/></e>
 <e lm="gérontologiste">  <i>gérontologiste</i><par n="artiste__n"/></e>
@@ -46127,6 +46133,7 @@
 <e lm="kimbundu" a="hector"><i>kimbundu</i><par n="artiste__n"/></e>
 <e lm="kimono" a="jaumeortola"><i>kimono</i><par n="accessoire__n"/></e>
 <e lm="kinyarwanda" a="hector"><i>kinyarwanda</i><par n="personnel__n"/></e>
+<e lm="kiné" a="Congrès"><i>kinés</i><par n="artiste__n"/></e>
 <e lm="kinésiologie" a="jaumeortola"><i>kinésiologie</i><par n="abeille__n"/></e>
 <e lm="kinésiologue" a="jaumeortola"><i>kinésiologue</i><par n="artiste__n"/></e>
 <e lm="kinésiste">       <i>kinésiste</i><par n="artiste__n"/></e>
@@ -50519,6 +50526,7 @@
 <e lm="ophite" a="jaumeortola"><i>ophite</i><par n="accessoire__n"/></e>
 <e lm="ophrys" a="jaumeortola"><i>ophrys</i><par n="mois__n"/></e>
 <e lm="ophtalmie" a="jaumeortola"><i>ophtalmie</i><par n="abeille__n"/></e>
+<e lm="ophtalmo" a="Congrès"><i>ophtalmo</i><par n="artiste__n"/></e>
 <e lm="ophtalmologie" a="jaumeortola"><i>ophtalmologie</i><par n="abeille__n"/></e>
 <e lm="ophtalmologiste"> <i>ophtalmologiste</i><par n="artiste__n"/></e>
 <e lm="ophtalmologue" a="jaumeortola"><i>ophtalmologue</i><par n="artiste__n"/></e>
@@ -53860,6 +53868,7 @@
 <e lm="psychokinèse" a="hector"><i>psychokinèse</i><par n="abeille__n"/></e>
 <e lm="psycholinguiste"> <i>psycholinguiste</i><par n="artiste__n"/></e>
 <e lm="psycholinguistique" a="hector"><i>psycholinguistique</i><par n="abeille__n"/></e>
+<e lm="psycho">     <i>psycho</i><par n="abeille__n"/></e>
 <e lm="psychologie">     <i>psychologie</i><par n="abeille__n"/></e>
 <e lm="psychologisation" a="jaumeortola"><i>psychologisation</i><par n="abeille__n"/></e>
 <e lm="psychologisme">   <i>psychologisme</i><par n="accessoire__n"/></e>
@@ -54113,6 +54122,7 @@
 <e lm="pédophile" a="jaumeortola"><i>pédophile</i><par n="artiste__n"/></e>
 <e lm="pédophilie" a="jaumeortola"><i>pédophilie</i><par n="abeille__n"/></e>
 <e lm="pédopornographie" a="jaumeortola"><i>pédopornographie</i><par n="abeille__n"/></e>
+<e lm="pédopsy" a="Congrès"><i>pédopsy</i><par n="artiste__n"/></e>
 <e lm="pédopsychologie" a="jaumeortola"><i>pédopsychologie</i><par n="abeille__n"/></e>
 <e lm="pédopsychologue" a="jaumeortola"><i>pédopsychologue</i><par n="artiste__n"/></e>
 <e lm="pédé" a="jaumeortola"><i>pédé</i><par n="accessoire__n"/></e>
@@ -57449,6 +57459,7 @@
 <e lm="sophistication">  <i>sophistication</i><par n="abeille__n"/></e>
 <e lm="sophistique" a="jaumeortola"><i>sophistique</i><par n="abeille__n"/></e>
 <e lm="sophora" a="jaumeortola"><i>sophora</i><par n="accessoire__n"/></e>
+<e lm="sophro" a="Congrès"><i>sophro</i><par n="abeille__n"/></e>
 <e lm="sophrologie" a="jaumeortola"><i>sophrologie</i><par n="abeille__n"/></e>
 <e lm="sophrologue" a="jaumeortola"><i>sophrologue</i><par n="artiste__n"/></e>
 <e lm="sophroniste">     <i>sophroniste</i><par n="accessoire__n"/></e>
@@ -57919,6 +57930,7 @@
 <e lm="stockiste">       <i>stockiste</i><par n="artiste__n"/></e>
 <e lm="stomate" a="jaumeortola"><i>stomate</i><par n="accessoire__n"/></e>
 <e lm="stomatite" a="jaumeortola"><i>stomatite</i><par n="abeille__n"/></e>
+<e lm="stomato" a="Congrès"><i>stomato</i><par n="artiste__n"/></e>
 <e lm="stomatologie" a="jaumeortola"><i>stomatologie</i><par n="abeille__n"/></e>
 <e lm="stomatologiste">  <i>stomatologiste</i><par n="artiste__n"/></e>
 <e lm="stomatologue" a="jaumeortola"><i>stomatologue</i><par n="artiste__n"/></e>
@@ -87096,6 +87108,7 @@
 <e lm="L'Isle-de-Noé" a="topoc"><i>L'Isle-de-Noé</i><par n="Bulgarie__np"/></e>
 <e lm="L'Isle-en-Dodon" a="topoc"><i>L'Isle-en-Dodon</i><par n="Bulgarie__np"/></e>
 <e lm="L'Isle-Jourdain" a="topoc"><i>L'Isle-Jourdain</i><par n="Bulgarie__np"/></e>
+<e lm="Isle-Jourdain" a="topoc"><i>Isle-Jourdain</i><par n="Bulgarie__np"/></e>
 <e lm="l'Oiselay">       <i>l'Oiselay</i><par n="Iran__np"/></e>
 <e lm="l'Olleria" a="hector"><i>l'Olleria</i><par n="Bulgarie__np"/></e>
 <e lm="l'Orbe" a="toponyme VD"><i>l'Orbe</i><par n="Bulgarie__np"/></e>
@@ -89488,6 +89501,8 @@
 <e lm="Llúcia">          <i>Llúcia</i><par n="Marie__np"/></e>
 <e lm="Llúria">          <i>Llúria</i><par n="Saussure__np"/></e>
 <e lm="Lo Cascio">       <i>Lo<b/>Cascio</i><par n="Saussure__np"/></e>
+<e r="LR" lm="Le Congrès" a="Congrès"><i>Le<b/>Congrès</i><par n="Linux__np"/></e>
+<e r="RL" lm="Le Congrès"> <p><l><a/>Le<b/>Congrès</l><r>Le<b/>Congrès</r></p><par n="Linux__np"/></e>
 <e lm="Lo Congrès" a="hector"><i>Lo<b/>Congrès</i><par n="Linux__np"/></e>
 <e lm="Lo Congrès permanent de la lenga occitana" a="hector"><i>Lo<b/>Congrès<b/>permanent<b/>de<b/>la<b/>lenga<b/>occitana</i><par n="Linux__np"/></e>
 <e lm="Lo Curto">        <i>Lo<b/>Curto</i><par n="Saussure__np"/></e>
@@ -110404,6 +110419,7 @@
 <e lm="dans l'entourage de"><i>dans<b/>l'entourage<b/></i><par n="contde__pr"/></e>
 <e lm="dans l'espoir de"><i>dans<b/>l'espoir<b/></i><par n="contde__pr"/></e>
 <e lm="dans l'intention de" a="Congrès"><i>dans<b/>l'intention<b/></i><par n="contde__pr"/></e>
+<e lm="dans l'optique de"><i>dans<b/>l'optique<b/></i><par n="contde__pr"/></e>
 <e lm="dans l'intention de"><i>dans<b/>l'intention<b/></i><par n="contde__pr"/></e>
 <e lm="dans la foulée de"><i>dans<b/>la<b/>foulée<b/></i><par n="contde__pr"/></e>
 <e lm="dans le but de">  <i>dans<b/>le<b/>but<b/></i><par n="contde__pr"/></e>
@@ -111947,6 +111963,7 @@ e<b/>jugeote</g></r></p></e>
 <e lm="babiller" a="hector"><i>babill</i><par n="abaiss/er__vblex"/></e>
 <e lm="bachoter" a="hector"><i>bachot</i><par n="abaiss/er__vblex"/></e>
 <e lm="badger" a="hector"><i>badg</i><par n="allong/er__vblex"/></e>
+<e lm="bader" a="Congrès" r="LR"><i>bad</i><par n="abaiss/er__vblex"/></e>
 <e lm="badigeonner" a="Congrès"><i>badigeonn</i><par n="abaiss/er__vblex"/></e>
 <e lm="badiner" a="hector"><i>badin</i><par n="abaiss/er__vblex"/></e>
 <e lm="baffer">          <i>baff</i><par n="abaiss/er__vblex"/></e>
@@ -112805,6 +112822,8 @@ e<b/>jugeote</g></r></p></e>
 <e lm="dispenser">       <i>dispens</i><par n="abaiss/er__vblex"/></e>
 <e lm="disperser">       <i>dispers</i><par n="abaiss/er__vblex"/></e>
 <e lm="disposer">        <i>dispos</i><par n="abaiss/er__vblex"/></e>
+<e r="LR" lm="disposer de"> <i>dispos</i><par n="abaiss/er__vblex"/><p><l><b/>de</l><r><g><b/>de</g></r></p></e>
+<e r="RL" lm="disposer de"> <i>dispos</i><par n="abaiss/er__vblex"/><p><l><b/><a/>de</l><r><g><b/>de</g></r></p></e>
 <e lm="disputer">        <i>disput</i><par n="abaiss/er__vblex"/></e>
 <e lm="disputailler" a="hector"><i>disputaill</i><par n="abaiss/er__vblex"/></e>
 <e lm="disqualifier">    <i>disqualifi</i><par n="abaiss/er__vblex"/></e>
@@ -113404,6 +113423,7 @@ e<b/>jugeote</g></r></p></e>
 <e lm="déstructurer" a="alanfavre"><i>déstructur</i><par n="abaiss/er__vblex"/></e>
 <e lm="désunir">         <i>désun</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="désurtaxer" a="hector"><i>désurtax</i><par n="abaiss/er__vblex"/></e>
+<e lm="désélectionner">    <i>désélectionn</i><par n="abaiss/er__vblex"/></e>
 <e lm="désélectrifier" a="hector"><i>désélectrifi</i><par n="abaiss/er__vblex"/></e>
 <e lm="désélectriser" a="hector"><i>désélectris</i><par n="abaiss/er__vblex"/></e>
 <e lm="déséquilibrer">   <i>déséquilibr</i><par n="abaiss/er__vblex"/></e>
@@ -116360,6 +116380,7 @@ e<b/>jugeote</g></r></p></e>
 <e lm="réactiver">       <i>réactiv</i><par n="abaiss/er__vblex"/></e>
 <e lm="réadapter" a="hector"><i>réadapt</i><par n="abaiss/er__vblex"/></e>
 <e lm="réadmettre">      <i>réadm</i><par n="adm/ettre__vblex"/></e>
+<e lm="réaffecter">        <i>réaffect</i><par n="abaiss/er__vblex"/></e>
 <e lm="réaffirmer">      <i>réaffirm</i><par n="abaiss/er__vblex"/></e>
 <e lm="réagir">          <i>réag</i><par n="about/[]ir__vblex" prm=""/></e>
 <e lm="réajuster" a="hector"><i>réajust</i><par n="abaiss/er__vblex"/></e>
@@ -116937,6 +116958,8 @@ e<b/>jugeote</g></r></p></e>
 <e lm="tempêter">        <i>tempêt</i><par n="abaiss/er__vblex"/></e>
 <e lm="tenailler" a="hector"><i>tenaill</i><par n="abaiss/er__vblex"/></e>
 <e lm="tendre">          <i>tend</i><par n="attend/re__vblex"/></e>
+<e r="LR" lm="tendre à">  <i>tend</i><par n="attend/re__vblex"/><p><l><b/>à</l><r><g><b/>à</g></r></p></e>
+<e r="RL" lm="tendre à">  <i>tend</i><par n="attend/re__vblex"/><p><l><b/><a/>à</l><r><g><b/>à</g></r></p></e>
 <e lm="tendre une embuscade" a="hector"><i>tend</i><par n="attend/re__vblex"/><p><l><b/>une<b/>embuscade</l><r><g><b/>une<b/>embuscade</g></r></p></e>
 <e lm="tendre la main" a="hector"><i>tend</i><par n="attend/re__vblex"/><p><l><b/>la<b/>main</l><r><g><b/>la<b/>main</g></r></p></e>
 <e lm="tendre l'oreille" a="hector"><i>tend</i><par n="attend/re__vblex"/><p><l><b/>l'oreille</l><r><g><b/>l'oreille</g></r></p></e>
@@ -118308,6 +118331,12 @@ e<b/>jugeote</g></r></p></e>
 <e r="LR" lm="la Passem"><p><l>la<b/>Passem</l><r>La<b/>Passem</r></p><par n="Wikipedia__np"/></e>
 <e lm="demi" a="hector"> <i>demi</i><par n="hier__adv"/></e>
 
+
+<e lm="choriocapillaire" a="Congrès"><i>choriocapillaire</i><par n="abeille__n"/></e>
+<e lm="péricyte" a="Congrès"><i>péricyte</i><par n="accessoire__n"/></e>
+<e lm="étrangeté" a="Congrès"><i>étrangeté</i><par n="abeille__n"/></e>
+
+
 <!--
 xxxxxxxx
 -->
@@ -118322,7 +118351,7 @@ xxxxxxxx
 
 
 <!-- Traitement des locutions qui peuvent aussi être la somme de leurs mots -->
-<e lm="dans tout le monde" r="LR"><p><l>dans<b/>tout<b/>le<b/>monde</l><r>dans<s n="pr"/><j/>tout<s n="predet"/><s n="m"/><s n="sg"/><j/>le<s n="det"/><s n="m"/><s n="sg"/><j/>monde<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+<e lm="dans tout le monde" r="LR"><p><l>dans<b/>tout<b/>le<b/>monde</l><r>dans<s n="pr"/><j/>tout<s n="predet"/><s n="m"/><s n="sg"/><j/>le<s n="det"/><s n="def"/><s n="m"/><s n="sg"/><j/>monde<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
 
 <e lm="les tombes sur" r="LR"><p><l>les<b/>tombes<b/>sur</l><r>le<s n="det"/><s n="def"/><s n="mf"/><s n="pl"/><j/>tombe<s n="n"/><s n="f"/><s n="pl"/><j/>sur<s n="pr"/></r></p></e>
 <e lm="la tombe sur" r="LR"><p><l>la<b/>tombe<b/>sur</l><r>le<s n="det"/><s n="def"/><s n="f"/><s n="sg"/><j/>tombe<s n="n"/><s n="f"/><s n="sg"/><j/>sur<s n="pr"/></r></p></e>
